@@ -1,0 +1,110 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Project Output v1.0.0",
+  "type": "object",
+  "required": ["_id", "source", "report", "data", "query_capabilities"],
+  "properties": {
+    "_id": {"type": "string", "minLength": 1},
+    "source": {
+      "type": "object",
+      "required": ["file_name", "processing_metadata"],
+      "properties": {
+        "file_name": {"type": "string"},
+        "processing_metadata": {
+          "type": "object",
+          "required": ["vision_model","synthesis_model","validation_model","processed_at","pages_processed","successful_pages"],
+          "properties": {
+            "vision_model": {"type": "string"},
+            "synthesis_model": {"type": "string"},
+            "validation_model": {"type": "string"},
+            "processed_at": {"type": "string"},
+            "pages_processed": {"type": "integer"},
+            "successful_pages": {"type": "integer"}
+          }
+        }
+      }
+    },
+    "report": {
+      "type": "object",
+      "required": ["title","report_date","report_type","symbols","sector","content","word_count"],
+      "properties": {
+        "title": {"type": "string"},
+        "report_date": {"type": ["string","null"]},
+        "report_type": {"type": "string", "enum": ["company","sector","macro","strategy"]},
+        "symbols": {"type": "array", "items": {"type": "string"}, "maxItems": 2},
+        "sector": {"type": ["string","null"]},
+        "content": {"type": "string"},
+        "word_count": {"type": "integer"}
+      }
+    },
+    "data": {
+      "type": "object",
+      "required": ["figures","numerical_data","companies","key_metrics","extraction_summary"],
+      "properties": {
+        "figures": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["figure_id","type","title","description","data","source_page"],
+            "properties": {
+              "figure_id": {"type": "string"},
+              "type": {"type": "string", "enum": ["bar_chart","line_chart","pie_chart","table","scatter_chart","area_chart"]},
+              "title": {"type": "string"},
+              "description": {"type": "string"},
+              "data": {"type": "object"},
+              "source_page": {"type": "integer"}
+            }
+          }
+        },
+        "numerical_data": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["value","figure_id","context","metric_type","source_page"],
+            "properties": {
+              "value": {"type": "string"},
+              "figure_id": {"type": ["string","null"]},
+              "context": {"type": "string"},
+              "metric_type": {"type": "string", "enum": ["percentage","currency","ratio","count","decimal"]},
+              "source_page": {"type": "integer"}
+            }
+          }
+        },
+        "companies": {"type": "array", "items": {"type": "string"}},
+        "key_metrics": {"type": "array", "items": {"type": "string"}},
+        "extraction_summary": {
+          "type": "object",
+          "required": ["figures_count","numerical_data_count","companies_mentioned","figures_with_linked_data","validation_summary"],
+          "properties": {
+            "figures_count": {"type": "integer"},
+            "numerical_data_count": {"type": "integer"},
+            "companies_mentioned": {"type": "integer"},
+            "figures_with_linked_data": {"type": "integer"},
+            "validation_summary": {
+              "type": "object",
+              "required": ["original_figures","kept_figures","original_numerical","kept_numerical","validation_method","data_accuracy_rate"],
+              "properties": {
+                "original_figures": {"type": "integer"},
+                "kept_figures": {"type": "integer"},
+                "original_numerical": {"type": "integer"},
+                "kept_numerical": {"type": "integer"},
+                "validation_method": {"type": "string"},
+                "data_accuracy_rate": {"type": "number"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "query_capabilities": {
+      "type": "object",
+      "required": ["description","searchable_fields","figure_data_available","can_recreate_charts"],
+      "properties": {
+        "description": {"type": "string"},
+        "searchable_fields": {"type": "array", "items": {"type": "string"}},
+        "figure_data_available": {"type": "boolean"},
+        "can_recreate_charts": {"type": "boolean"}
+      }
+    }
+  }
+}

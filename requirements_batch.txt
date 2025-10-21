@@ -1,0 +1,43 @@
+# 批量处理系统依赖
+# 基础深度学习框架
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+
+# vLLM推理引擎
+vllm==0.8.5
+
+# 图像处理
+Pillow==10.4.0
+opencv-python==4.8.1.78
+
+# 文档处理
+PyMuPDF==1.23.26
+img2pdf==0.5.1
+
+# 异步HTTP
+aiohttp==3.9.5
+asyncio
+
+# JSON Schema验证
+jsonschema==4.19.2
+
+# 数据处理
+numpy==1.26.4
+pandas==2.1.4
+
+# 进度条
+tqdm==4.66.4
+
+# 其他依赖
+einops==0.7.0
+easydict==1.11
+addict==2.4.0
+transformers==4.46.3
+tokenizers==0.20.3
+flash-attn==2.7.3
+
+# 开发工具
+pytest==7.4.4
+black==23.12.1
+flake8==6.1.0
