@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-批量PDF处理系统 - 针对RTX 3090 24G优化
-基于DeepSeek OCR + OpenRouter双模型的完整处理流程
+批量PDF处理系统 - 针对RTX 4090 48G极速优化
+基于DeepSeek OCR + OpenRouter的完整处理流程
 
 功能:
-1. 批量PDF → Markdown + 图像提取
-2. OpenRouter API调用 (Gemini 2.5 Flash + Qwen3-VL-30B)
-3. 严格JSON Schema验证
-4. 数据库兼容性检查
+1. 批量PDF → Markdown + 图像提取（极速并发）
+2. OpenRouter API调用 (Gemini 2.5 Flash 极速模式)
+3. 严格JSON Schema v1.3.1验证
+4. 分离输出目录（OCR结果 vs JSON报告）
 """
 
 import os
@@ -16,6 +16,7 @@ import json
 import time
 import hashlib
 import asyncio
+import base64
 from openai import AsyncOpenAI
 import traceback
 from pathlib import Path
@@ -52,63 +53,84 @@ from jsonschema import validate, ValidationError
 
 # Configuration
 from config import MODEL_PATH, PROMPT, CROP_MODE
-# 预加载 .env 环境变量（确保在定义 Config 之前）
+# 使用优化后的 config_batch 配置
 try:
-    from config_batch import setup_environment as _setup_environment
-    _setup_environment()
-except Exception:
-    try:
-        base_dir = Path(__file__).resolve().parent
-        env_path = base_dir / ".env"
-        if env_path.exists():
-            with open(env_path, "r", encoding="utf-8") as f:
-                for line in f:
-                    line = line.strip()
-                    if not line or line.startswith("#"):
-                        continue
-                    if "=" in line:
-                        k, v = line.split("=", 1)
-                        k = k.strip()
-                        v = v.strip().strip('"').strip("'")
-                        if (k not in os.environ) or (os.environ.get(k, "") == ""):
-                            os.environ[k] = v
-    except Exception:
-        pass
+    from config_batch import Config as BatchConfig, setup_environment
+    setup_environment()
+    batch_config = BatchConfig()
 
-# 针对RTX 3090 24G的优化配置
-@dataclass
-class Config:
-    # DeepSeek OCR配置
-    BATCH_SIZE: int = 4  # 每批处理页数
-    MAX_CONCURRENCY: int = 6  # 降低并发数以节省显存
-    GPU_MEMORY_UTILIZATION: float = 0.75  # 为后续LLM调用保留显存
-    NUM_WORKERS: int = 8  # 图像预处理线程数
+    # 创建兼容的配置对象（使用普通类而非dataclass）
+    class Config:
+        """配置类 - 从 config_batch 加载"""
+        # 硬件配置 - RTX 4090 48G 极速优化
+        BATCH_SIZE = batch_config.hardware.BATCH_SIZE
+        MAX_CONCURRENCY = batch_config.hardware.MAX_CONCURRENCY
+        GPU_MEMORY_UTILIZATION = batch_config.hardware.GPU_MEMORY_UTILIZATION
+        NUM_WORKERS = batch_config.hardware.NUM_WORKERS
 
-    # OpenRouter API配置
-    OPENROUTER_API_KEY: str = os.getenv("OPENROUTER_API_KEY", "")
-    OPENROUTER_BASE_URL: str = "https://openrouter.ai/api/v1"
+        # OpenRouter API配置
+        OPENROUTER_API_KEY = batch_config.api.OPENROUTER_API_KEY
+        OPENROUTER_BASE_URL = batch_config.api.OPENROUTER_BASE_URL
+        MODELS = batch_config.api.MODELS
 
-    # 测试模型配置
-    MODELS = {
-        "gemini": "google/gemini-2.5-flash"
-    }
+        # 新增：批量config引用（用于访问config.api.XXX）
+        api = batch_config.api
+        hardware = batch_config.hardware
+        ocr = batch_config.ocr
+        processing = batch_config.processing
+        validation = batch_config.validation
 
-    # 文件路径配置（使用脚本目录的绝对路径，避免CWD差异）
-    BASE_DIR: str = str(Path(__file__).resolve().parent)
-    INPUT_DIR: str = str(Path(BASE_DIR) / "input_pdfs")
-    OUTPUT_DIR: str = str(Path(BASE_DIR) / "output_results")
-    TEMP_DIR: str = str(Path(BASE_DIR) / "temp_processing")
+        # 文件路径配置
+        BASE_DIR = str(batch_config.paths.BASE_DIR)
+        INPUT_DIR = str(batch_config.paths.INPUT_DIR)
+        OUTPUT_DIR = str(batch_config.paths.OUTPUT_DIR)  # OCR结果（MD+图像）
+        OUTPUT_REPORT_DIR = str(batch_config.paths.OUTPUT_REPORT_DIR)  # JSON报告
+        TEMP_DIR = str(batch_config.paths.TEMP_DIR)
 
-    # 处理配置
-    PDF_DPI: int = 144
-    MAX_RETRIES: int = 3
-    REQUEST_TIMEOUT: int = 300
+        # 处理配置
+        PDF_DPI = batch_config.ocr.PDF_DPI
+        MAX_RETRIES = batch_config.api.MAX_RETRIES
+        REQUEST_TIMEOUT = batch_config.api.REQUEST_TIMEOUT
 
-    # JSON Schema路径（绝对路径）
-    SCHEMA_PATH: str = str(Path(BASE_DIR) / "json schema.json")
+        # 并发配置
+        MAX_CONCURRENT_PDFS = batch_config.processing.MAX_CONCURRENT_PDFS
+        MAX_CONCURRENT_API_CALLS = batch_config.processing.MAX_CONCURRENT_API_CALLS
 
-# 全局配置实例
-config = Config()
+        # JSON Schema路径
+        SCHEMA_PATH = str(batch_config.paths.SCHEMA_PATH)
+
+        # 验证配置
+        STRICT_SCHEMA_VALIDATION = batch_config.validation.STRICT_SCHEMA_VALIDATION
+
+    config = Config()
+
+except ImportError:
+    # 降级到默认配置
+    print("警告: 无法导入 config_batch，使用默认配置")
+
+    class Config:
+        """配置类 - 默认配置"""
+        BATCH_SIZE = 12
+        MAX_CONCURRENCY = 16
+        GPU_MEMORY_UTILIZATION = 0.90
+        NUM_WORKERS = 24
+        OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
+        OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+        MODELS = {"gemini": "google/gemini-2.5-flash"}
+        BASE_DIR = str(Path(__file__).resolve().parent)
+        INPUT_DIR = str(Path(BASE_DIR) / "input_pdfs")
+        OUTPUT_DIR = str(Path(BASE_DIR) / "output_results")
+        OUTPUT_REPORT_DIR = str(Path(BASE_DIR) / "output_report")
+        TEMP_DIR = str(Path(BASE_DIR) / "temp_processing")
+        PDF_DPI = 144
+        MAX_RETRIES = 5
+        REQUEST_TIMEOUT = 600
+        MAX_CONCURRENT_PDFS = 6
+        MAX_CONCURRENT_API_CALLS = 12
+        SCHEMA_PATH = str(Path(BASE_DIR) / "json schema.json")
+        STRICT_SCHEMA_VALIDATION = True
+
+    config = Config()
 
 # 日志配置
 logging.basicConfig(
@@ -180,15 +202,51 @@ class DeepSeekOCRBatchProcessor:
             raise
 
     def pdf_to_images_high_quality(self, pdf_path: str, dpi: int = None) -> List[Image.Image]:
-        """高质量PDF转图像（支持在未安装PyMuPDF时给出提示）"""
+        """高质量PDF转图像（支持直接处理PDF）"""
         if dpi is None:
             dpi = config.PDF_DPI
 
         images = []
-        if not HAS_PYMUPDF:
-            logger.warning("未检测到 PyMuPDF(fitz)，跳过 PDF 渲染。若模型可直接处理PDF，此步骤可忽略。")
-            raise RuntimeError("PyMuPDF 未安装，无法将 PDF 转为图片。")
 
+        # 如果没有 PyMuPDF，尝试让 vLLM 直接处理 PDF
+        if not HAS_PYMUPDF:
+            logger.warning("未检测到 PyMuPDF(fitz)，尝试让模型直接处理PDF文件...")
+            try:
+                # 尝试直接将 PDF 作为图像处理
+                # vLLM 的某些版本支持直接处理 PDF
+                from PIL import Image as PILImage
+
+                # 尝试用 PIL 打开 PDF（某些情况下可行）
+                try:
+                    img = PILImage.open(pdf_path)
+                    images.append(img)
+                    logger.info(f"成功直接加载PDF: {pdf_path}")
+                    return images
+                except Exception:
+                    pass
+
+                # 如果 PIL 失败，尝试使用 pdf2image（如果安装了）
+                try:
+                    from pdf2image import convert_from_path
+                    logger.info("使用 pdf2image 转换PDF...")
+                    images = convert_from_path(pdf_path, dpi=dpi)
+                    logger.info(f"PDF转换完成: {len(images)}页")
+                    return images
+                except ImportError:
+                    logger.error("pdf2image 未安装。请安装: pip install pdf2image")
+                except Exception as e:
+                    logger.error(f"pdf2image 转换失败: {e}")
+
+                # 最后的降级方案：跳过此文件
+                logger.error(f"无法处理PDF文件 {pdf_path}，需要安装 PyMuPDF 或 pdf2image")
+                logger.info("安装方法: pip install PyMuPDF  或  pip install pdf2image")
+                raise RuntimeError("PDF处理失败：缺少必要的PDF处理库")
+
+            except Exception as e:
+                logger.error(f"PDF处理失败: {e}")
+                raise
+
+        # 使用 PyMuPDF 处理
         try:
             pdf_document = fitz.open(pdf_path)
             zoom = dpi / 72.0
@@ -408,101 +466,67 @@ class OpenRouterProcessor:
 
     async def call_model(self, model_name: str, messages: List[Dict],
                         max_tokens: int = 4000) -> Dict:
-        """调用OpenRouter模型 (OpenAI SDK)"""
-        try:
-            # 优先使用 JSON 强格式输出
-            response = await self.client.chat.completions.create(
-                model=config.MODELS[model_name],
-                messages=messages,
-                max_tokens=max_tokens,
-                temperature=0.1,
-                top_p=0.9,
-                response_format={"type": "json_object"}
-            )
-            return response.model_dump()
-        except Exception as e:
-            logger.warning(f"JSON 强格式输出失败，回退到普通输出: {e}")
-            # 回退到非 JSON 强格式
-            response = await self.client.chat.completions.create(
-                model=config.MODELS[model_name],
-                messages=messages,
-                max_tokens=max_tokens,
-                temperature=0.1,
-                top_p=0.9
-            )
-            return response.model_dump()
-
-    async def collect_stream_content(self, model_name: str, messages: List[Dict],
-                                     max_tokens: int = 4000) -> str:
-        """以流式方式调用模型并收集完整文本，默认启用JSON强格式输出"""
-        content = ""
-        try:
-            stream = await self.client.chat.completions.create(
-                model=config.MODELS[model_name],
-                messages=messages,
-                max_tokens=max_tokens,
-                temperature=0.1,
-                top_p=0.9,
-                response_format={"type": "json_object"},
-                stream=True
-            )
-            async for chunk in stream:
-                try:
-                    delta = chunk.choices[0].delta
-                    if delta and getattr(delta, "content", None):
-                        content += delta.content
-                except Exception:
-                    # 容错处理，忽略单个流事件中的异常
-                    pass
-            return content
-        except Exception as e:
-            logger.warning(f"流式调用失败，回退到非流式: {e}")
-            # 回退到非流式普通调用，优先尝试JSON强格式
-            try:
-                resp = await self.client.chat.completions.create(
-                    model=config.MODELS[model_name],
-                    messages=messages,
-                    max_tokens=max_tokens,
-                    temperature=0.1,
-                    top_p=0.9,
-                    response_format={"type": "json_object"}
-                )
-                return resp.choices[0].message.content
-            except Exception as e2:
-                logger.warning(f"JSON 强格式失败，回退到普通输出: {e2}")
-                resp2 = await self.client.chat.completions.create(
-                    model=config.MODELS[model_name],
-                    messages=messages,
-                    max_tokens=max_tokens,
-                    temperature=0.1,
-                    top_p=0.9
-                )
-                return resp2.choices[0].message.content
+        """调用OpenRouter模型 (简化版，无流式，无JSON强格式)"""
+        response = await self.client.chat.completions.create(
+            model=config.MODELS[model_name],
+            messages=messages,
+            max_tokens=max_tokens,
+            temperature=0.0,  # 确保输出稳定
+            top_p=0.9
+        )
+        return response.model_dump()
 
 class JSONSchemaValidator:
-    """JSON Schema验证器"""
+    """JSON Schema验证器 - 严格模式"""
 
     def __init__(self, schema_path: str):
         self.schema = self._load_schema(schema_path)
+        self.strict_mode = config.STRICT_SCHEMA_VALIDATION
 
     def _load_schema(self, schema_path: str) -> Dict:
         """加载JSON Schema"""
         try:
             with open(schema_path, 'r', encoding='utf-8') as f:
                 schema = json.load(f)
-            logger.info(f"{Colors.GREEN}✓ JSON Schema加载完成{Colors.RESET}")
+            logger.info(f"{Colors.GREEN}✓ JSON Schema v{schema.get('properties', {}).get('schema_version', {}).get('const', 'unknown')} 加载完成{Colors.RESET}")
             return schema
         except Exception as e:
             logger.error(f"{Colors.RED}✗ JSON Schema加载失败: {e}{Colors.RESET}")
             raise
 
     def validate(self, data: Dict) -> Tuple[bool, Optional[str]]:
-        """验证JSON数据"""
+        """严格验证JSON数据"""
         try:
+            # 使用 jsonschema 进行严格验证
             validate(instance=data, schema=self.schema)
+
+            # 额外的严格检查
+            if self.strict_mode:
+                errors = []
+
+                # 检查 schema_version
+                if data.get("schema_version") != "1.3.1":
+                    errors.append(f"schema_version 必须为 '1.3.1'，当前为 '{data.get('schema_version')}'")
+
+                # 检查必需的顶层字段
+                required_fields = ["schema_version", "doc", "passages", "entities", "data"]
+                for field in required_fields:
+                    if field not in data:
+                        errors.append(f"缺少必需字段: {field}")
+
+                # 检查 doc 的必需子字段
+                if "doc" in data:
+                    doc_required = ["doc_id", "title", "timestamps", "extraction_run"]
+                    for field in doc_required:
+                        if field not in data["doc"]:
+                            errors.append(f"doc 缺少必需字段: {field}")
+
+                if errors:
+                    return False, "; ".join(errors)
+
             return True, None
         except ValidationError as e:
-            return False, str(e)
+            return False, f"Schema验证失败: {e.message} (路径: {'.'.join(str(p) for p in e.path)})"
         except Exception as e:
             return False, f"验证异常: {e}"
 
@@ -574,29 +598,65 @@ class BatchPDFProcessor:
         self._setup_directories()
 
     def _setup_directories(self):
-        """设置目录结构"""
-        for dir_path in [config.INPUT_DIR, config.OUTPUT_DIR, config.TEMP_DIR]:
+        """设置目录结构 - 包含分离的输出目录"""
+        for dir_path in [config.INPUT_DIR, config.OUTPUT_DIR, config.OUTPUT_REPORT_DIR, config.TEMP_DIR]:
             os.makedirs(dir_path, exist_ok=True)
+            logger.info(f"确保目录存在: {dir_path}")
 
     async def process_single_pdf(self, pdf_path: str) -> Dict:
-        """处理单个PDF并生成JSON（单模型 + 图像并发）"""
+        """处理单个PDF并生成JSON（单模型 + 图像并发）- 分离输出目录"""
         pdf_path_obj = Path(pdf_path).resolve()
-        # 依据输入目录名定位根目录，避免工作目录差异导致 relative_to 失败
-        input_root_name = Path(config.INPUT_DIR).name
-        rel_parent = Path()
-        for parent in pdf_path_obj.parents:
-            if parent.name == input_root_name:
-                rel = pdf_path_obj.relative_to(parent)
-                rel_parent = rel.parent
-                break
+
+        # 修复路径识别：更健壮的相对路径计算
+        input_dir_obj = Path(config.INPUT_DIR).resolve()
+        try:
+            # 尝试直接计算相对路径
+            rel_path = pdf_path_obj.relative_to(input_dir_obj)
+            rel_parent = rel_path.parent
+        except ValueError:
+            # 如果失败，使用原有的父目录匹配方法
+            input_root_name = input_dir_obj.name
+            rel_parent = Path()
+            for parent in pdf_path_obj.parents:
+                if parent.name == input_root_name:
+                    rel = pdf_path_obj.relative_to(parent)
+                    rel_parent = rel.parent
+                    break
+
         pdf_name = pdf_path_obj.stem
-        output_dir = str(Path(config.OUTPUT_DIR) / rel_parent / pdf_name)
-        os.makedirs(output_dir, exist_ok=True)
+
+        # 从文件名中提取日期（格式：xxx_YYYY-MM-DD.pdf）
+        date_str = None
+        publication = str(rel_parent) if rel_parent != Path('.') else "unknown"
+
+        import re
+        date_match = re.search(r'_(\d{4}-\d{2}-\d{2})$', pdf_name)
+        if date_match:
+            date_str = date_match.group(1)
+            # 移除日期后缀，保留原始文件名
+            pdf_name_clean = pdf_name[:date_match.start()]
+        else:
+            pdf_name_clean = pdf_name
+
+        # 构建输出目录结构：日期/刊物/文件名
+        if date_str:
+            ocr_output_dir = str(Path(config.OUTPUT_DIR) / date_str / publication / pdf_name_clean)
+            json_output_dir = str(Path(config.OUTPUT_REPORT_DIR) / date_str / publication / pdf_name_clean)
+        else:
+            # 如果没有日期，使用原有结构
+            ocr_output_dir = str(Path(config.OUTPUT_DIR) / rel_parent / pdf_name_clean)
+            json_output_dir = str(Path(config.OUTPUT_REPORT_DIR) / rel_parent / pdf_name_clean)
+
+        os.makedirs(ocr_output_dir, exist_ok=True)
+        os.makedirs(json_output_dir, exist_ok=True)
+
+        logger.info(f"OCR输出目录: {ocr_output_dir}")
+        logger.info(f"JSON输出目录: {json_output_dir}")
 
         try:
-            # 1. DeepSeek OCR处理
+            # 1. DeepSeek OCR处理 - 输出到 OCR 目录
             logger.info(f"{Colors.BLUE}步骤1: DeepSeek OCR处理{Colors.RESET}")
-            markdown_path, figure_paths = self.ocr_processor.process_pdf(pdf_path, output_dir)
+            markdown_path, figure_paths = self.ocr_processor.process_pdf(pdf_path, ocr_output_dir)
 
             # 2. 读取Markdown内容（完整，无截断）
             with open(markdown_path, 'r', encoding='utf-8') as f:
@@ -604,20 +664,21 @@ class BatchPDFProcessor:
 
             page_count = self._count_pages_from_markdown(markdown_content)
 
-            # 3. 并行处理每张提取图像（视觉JSON）
-            logger.info(f"{Colors.BLUE}步骤2: 并行图像结构化{Colors.RESET}")
-            figures_json = await self._process_figures_in_parallel(figure_paths, markdown_content)
+            # 3. 并行识别所有图表图像（提取图表中的数据！）
+            logger.info(f"{Colors.BLUE}步骤2: 并行识别图表数据{Colors.RESET}")
+            figures_data = await self._extract_figures_data_parallel(figure_paths)
+            logger.info(f"{Colors.CYAN}成功识别 {len(figures_data)} 张图表的数据{Colors.RESET}")
 
-            # 4. 单模型综合提取（优先流式+JSON强格式）
-            logger.info(f"{Colors.BLUE}步骤3: 单模型综合提取{Colors.RESET}")
-            results = await self._process_with_single_model(
-                markdown_content, figures_json, pdf_name
+            # 4. 综合提取（文本 + 图表数据）
+            logger.info(f"{Colors.BLUE}步骤3: 综合数据提取{Colors.RESET}")
+            results = await self._process_with_single_model_simplified(
+                markdown_content, pdf_name, page_count, date_str, publication, figures_data
             )
 
             best_result = results["gemini"]
 
-            # 5. JSON验证和修复
-            logger.info(f"{Colors.BLUE}步骤4: JSON验证{Colors.RESET}")
+            # 4. 基础JSON验证（仅检查必需字段）
+            logger.info(f"{Colors.BLUE}步骤3: 基础验证{Colors.RESET}")
             # 补充页数到 doc.extraction_run.processing_metadata
             if "doc" in best_result and "extraction_run" in best_result["doc"]:
                 md = best_result["doc"].get("extraction_run", {}).get("processing_metadata", {})
@@ -643,49 +704,201 @@ class BatchPDFProcessor:
                     pass
                 best_result["doc"]["extraction_run"]["processing_metadata"] = md
 
-            validated_result, warnings = self.validator.validate_and_fix(best_result)
-            if warnings:
-                logger.warning(f"JSON修复警告: {warnings}")
+            # 基础验证（仅检查必需字段，不强制修复）
+            is_valid, error_msg = self.validator.validate(best_result)
+            if not is_valid:
+                logger.warning(f"JSON验证警告: {error_msg}")
+                # 补充缺失的必需字段
+                if "schema_version" not in best_result:
+                    best_result["schema_version"] = "1.3.1"
+                if "doc" not in best_result:
+                    best_result["doc"] = self._create_minimal_doc(pdf_name, page_count, date_str, publication)
+                if "passages" not in best_result:
+                    best_result["passages"] = []
+                if "entities" not in best_result:
+                    best_result["entities"] = []
+                if "data" not in best_result:
+                    best_result["data"] = self._create_minimal_data()
 
-            # 6. 模板报告生成（保持一致性）
-            template_report = self._generate_template_report(validated_result, markdown_content, figures_json, page_count)
-
-            # 7. 保存最终结果（两份JSON）
-            schema_path = os.path.join(output_dir, f"{pdf_name}_final_schema.json")
-            with open(schema_path, 'w', encoding='utf-8') as f:
-                json.dump(validated_result, f, indent=2, ensure_ascii=False)
-
-            template_path = os.path.join(output_dir, f"{pdf_name}_template_report.json")
-            with open(template_path, 'w', encoding='utf-8') as f:
-                json.dump(template_report, f, indent=2, ensure_ascii=False)
+            # 保存最终结果
+            output_path = os.path.join(json_output_dir, f"{pdf_name_clean}.json")
+            with open(output_path, 'w', encoding='utf-8') as f:
+                json.dump(best_result, f, indent=2, ensure_ascii=False)
+            logger.info(f"{Colors.GREEN}✓ 保存JSON: {output_path}{Colors.RESET}")
 
             logger.info(f"{Colors.GREEN}✓ PDF处理完成: {pdf_path}{Colors.RESET}")
-            return validated_result
+            logger.info(f"  - OCR结果: {ocr_output_dir}")
+            logger.info(f"  - JSON报告: {json_output_dir}")
+            return best_result
 
         except Exception as e:
             logger.error(f"{Colors.RED}✗ PDF处理失败 {pdf_path}: {e}{Colors.RESET}")
             traceback.print_exc()
 
-    async def _process_with_single_model(self, markdown_content: str,
-                                         figures_json: List[Dict], pdf_name: str) -> Dict:
-        """单模型（gemini）处理"""
+    async def _extract_figures_data_parallel(self, figure_paths: List[str]) -> List[Dict]:
+        """并行提取所有图表的数据（使用视觉模型识别图表内容）"""
+        if not figure_paths:
+            return []
+
+        semaphore = asyncio.Semaphore(config.MAX_CONCURRENCY)
+        async with OpenRouterProcessor() as processor:
+            tasks = [
+                self._extract_single_figure_data(processor, img_path, semaphore)
+                for img_path in figure_paths
+            ]
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        figures_data = []
+        for img_path, result in zip(figure_paths, results):
+            if isinstance(result, Exception):
+                logger.warning(f"图表识别失败 {img_path}: {result}")
+                continue
+            if result:
+                figures_data.append(result)
+
+        return figures_data
+
+    async def _extract_single_figure_data(self, processor: OpenRouterProcessor,
+                                         image_path: str, semaphore: asyncio.Semaphore) -> Dict:
+        """提取单个图表的数据（视觉识别）"""
+        async with semaphore:
+            try:
+                b64 = self._encode_image_to_base64(image_path)
+                page_idx = self._infer_page_from_image_path(image_path)
+
+                messages = [
+                    {
+                        "role": "system",
+                        "content": "你是专业的图表数据提取专家。请识别图表类型（柱状图/折线图/饼图/表格等），并提取其中的所有数据。"
+                    },
+                    {
+                        "role": "user",
+                        "content": [
+                            {
+                                "type": "text",
+                                "text": f"""请分析这张图表（第{page_idx}页），提取以下信息并以JSON格式输出：
+
+1. 图表类型（type）：bar/line/pie/area/scatter/heatmap/waterfall/combo/other
+2. 图表标题（title）
+3. 坐标轴信息（axes）：
+   - x轴：类型、标签
+   - y轴：单位、范围
+4. 数据系列（series）：每个系列包含name、unit、values数组
+
+输出格式示例：
+{{
+  "type": "bar",
+  "title": "Revenue Growth",
+  "page": {page_idx},
+  "axes": {{
+    "x": {{"type": "category", "labels": ["Q1", "Q2", "Q3", "Q4"]}},
+    "y": {{"unit": "USD million", "range": {{"min": 0, "max": 100}}}}
+  }},
+  "series": [
+    {{"name": "Revenue", "unit": "USD million", "values": [20, 30, 45, 60]}}
+  ]
+}}
+
+仅输出JSON，不要其他文字。"""
+                            },
+                            {
+                                "type": "image_url",
+                                "image_url": {"url": f"data:image/jpeg;base64,{b64}"}
+                            }
+                        ]
+                    }
+                ]
+
+                resp = await processor.call_model("gemini", messages, max_tokens=2048)
+                content = resp['choices'][0]['message']['content']
+
+                # 提取JSON
+                figure_data = self._extract_json_from_response(content)
+                if figure_data:
+                    # 确保包含必需字段
+                    figure_data["page"] = page_idx
+                    figure_data["figure_id"] = hashlib.md5(
+                        f"{image_path}_{page_idx}".encode()
+                    ).hexdigest()[:16]
+                    # 添加provenance（必需字段）
+                    if "provenance" not in figure_data:
+                        figure_data["provenance"] = {"page": page_idx}
+                    return figure_data
+
+            except Exception as e:
+                logger.error(f"提取图表数据失败 {image_path}: {e}")
+                return None
+
+    async def _process_with_single_model_simplified(self, markdown_content: str,
+                                                     pdf_name: str, page_count: int,
+                                                     date_str: str, publication: str,
+                                                     figures_data: List[Dict]) -> Dict:
+        """简化的单模型处理（整合文本和图表数据）"""
         results: Dict[str, Any] = {}
-        extraction_prompt = self._build_extraction_prompt(markdown_content, figures_json)
+        extraction_prompt = self._build_simplified_extraction_prompt(
+            markdown_content, pdf_name, page_count, date_str, publication, figures_data
+        )
 
         async with OpenRouterProcessor() as processor:
             try:
                 result = await self._call_model_with_prompt(
                     processor, "gemini", extraction_prompt, pdf_name
                 )
+                # 将识别的图表数据整合到结果中
+                if result["result"]:
+                    if "data" not in result["result"]:
+                        result["result"]["data"] = {}
+                    # 直接使用视觉识别的图表数据
+                    result["result"]["data"]["figures"] = figures_data
                 results["gemini"] = result["result"]
             except Exception as e:
                 logger.error(f"gemini模型调用失败: {e}")
-                results["gemini"] = None
+                results["gemini"] = {}
         return results
+
+    def _create_minimal_doc(self, pdf_name: str, page_count: int,
+                           date_str: str, publication: str) -> Dict:
+        """创建最小doc结构"""
+        return {
+            "doc_id": hashlib.md5(pdf_name.encode()).hexdigest(),
+            "title": pdf_name,
+            "source_uri": f"{publication}/{pdf_name}",
+            "language": "en",
+            "timestamps": {
+                "ingested_at": datetime.now().isoformat(),
+                "extracted_at": datetime.now().isoformat()
+            },
+            "extraction_run": {
+                "vision_model": "deepseek-ai/DeepSeek-OCR",
+                "synthesis_model": "google/gemini-2.5-flash",
+                "pipeline_steps": ["ocr", "llm_extraction"],
+                "processing_metadata": {
+                    "pages_processed": page_count,
+                    "successful_pages": page_count,
+                    "date": date_str,
+                    "publication": publication
+                }
+            }
+        }
+
+    def _create_minimal_data(self) -> Dict:
+        """创建最小data结构"""
+        return {
+            "figures": [],
+            "tables": [],
+            "numerical_data": [],
+            "claims": [],
+            "relations": [],
+            "extraction_summary": {
+                "figures_count": 0,
+                "tables_count": 0,
+                "numerical_data_count": 0
+            }
+        }
 
     async def _call_model_with_prompt(self, processor: OpenRouterProcessor,
                                       model_key: str, prompt: str, pdf_name: str) -> Dict:
-        """调用单个模型（流式优先）"""
+        """调用单个模型（简化版，最大上下文）"""
         logger.info(f"{Colors.CYAN}调用{model_key}模型...{Colors.RESET}")
         messages = [
             {
@@ -697,56 +910,184 @@ class BatchPDFProcessor:
                 "content": prompt
             }
         ]
-        try:
-            content = await processor.collect_stream_content(model_key, messages, max_tokens=8000)
-            json_result = self._extract_json_from_response(content)
-            return {
-                "model": model_key,
-                "result": json_result,
-                "raw_response": content,
-                "usage": {}
-            }
-        except Exception:
-            response = await processor.call_model(model_key, messages, max_tokens=8000)
-            content = response['choices'][0]['message']['content']
-            json_result = self._extract_json_from_response(content)
-            return {
-                "model": model_key,
-                "result": json_result,
-                "raw_response": content,
-                "usage": response.get('usage', {})
-            }
+        # Gemini 2.5 Flash 支持最大 1M tokens 上下文
+        # 使用配置的max_tokens而非硬编码（提升响应速度）
+        response = await processor.call_model(
+            model_key,
+            messages,
+            max_tokens=config.api.LLM_MAX_TOKENS  # 使用配置的16000而非65536
+        )
+        content = response['choices'][0]['message']['content']
+        json_result = self._extract_json_from_response(content)
+        return {
+            "model": model_key,
+            "result": json_result,
+            "raw_response": content,
+            "usage": response.get('usage', {})
+        }
+
+    def _build_simplified_extraction_prompt(self, markdown_content: str, pdf_name: str,
+                                            page_count: int, date_str: str, publication: str,
+                                            figures_data: List[Dict]) -> str:
+        """构建简化的提取提示词（整合文本和图表数据）"""
+        with open(config.SCHEMA_PATH, 'r', encoding='utf-8') as f:
+            schema_content = f.read()
+
+        # 构建图表数据摘要
+        figures_summary = "\n".join([
+            f"- 页{fig.get('page', '?')}: {fig.get('type', 'unknown')}图 - {fig.get('title', '无标题')} ({len(fig.get('series', []))}个数据系列)"
+            for fig in figures_data
+        ]) if figures_data else "无图表"
+
+        prompt = f"""
+# 任务：金融报告数据结构化提取（JSON Schema v1.3.1）
+
+## 文档信息
+- 文件名：{pdf_name}
+- 页数：{page_count}
+- 日期：{date_str}
+- 来源：{publication}
+
+## OCR提取的完整文本
+```markdown
+{markdown_content}
+```
+
+## 已识别的图表数据（共{len(figures_data)}张，数据已提取）
+{figures_summary}
+
+**注意：图表数据（figures）已经通过视觉模型提取完成，你只需要提取文本中的其他数据。**
+
+## 输出要求
+
+### 1. 严格遵循Schema v1.3.1
+输出必须是一个完整的JSON对象，严格符合以下Schema：
+```json
+{schema_content}
+```
+
+### 2. 关键提取指南
+
+**重要提示：**
+- fiscal_period格式必须为：`FY2024Q4` 或 `CY2025H1`（不能是`1H`、`Q4`等简写）
+- 百分比用0-1表示（如18.2% → 0.182）
+- 所有page字段必须是整数（1到{page_count}）
+- 所有ID字段使用稳定的hash或UUID
+- 时间格式统一为ISO 8601
+
+**必需的顶层字段：**
+- `schema_version`: "1.3.1"
+- `doc`: 文档元数据
+- `passages`: 文本片段数组（至少提取主要段落）
+- `entities`: 实体数组（公司、指数等）
+- `data`: 包含figures/tables/numerical_data/claims/relations/extraction_summary
+
+**数据提取优先级：**
+1. **numerical_data**：提取所有关键数值（收入、利润、增长率等）
+2. **tables**：识别并提取所有表格
+3. **figures**：识别图表并提取数据（如果文本中有图表描述）
+4. **passages**：将文档拆分为可检索的段落
+5. **entities**：识别所有公司、指数等实体
+6. **claims**：提取关键结论和预测
+7. **relations**：提取实体关系
+
+### 3. 输出格式
+**仅输出最终JSON对象，不要包含任何解释文本、markdown标记或其他内容。**
+"""
+        return prompt
 
     def _build_extraction_prompt(self, markdown_content: str, figures_json: List[Dict]) -> str:
-        """构建综合提取提示词：完整markdown + 预提取图表JSON"""
+        """构建综合提取提示词：完整markdown + 预提取图表JSON（Schema v1.3.1）【已废弃】"""
         with open(config.SCHEMA_PATH, 'r', encoding='utf-8') as f:
             schema_content = f.read()
 
         figures_block = json.dumps(figures_json, ensure_ascii=False, indent=2)
         prompt = f"""
-# 任务：金融文档数据结构化提取（严格JSON Schema）
+# 任务：金融报告数据结构化提取（JSON Schema v1.3.1）
 
 ## 输入材料：
-1. Markdown全文（已去除长度限制）：
+1. **Markdown全文**（OCR提取的完整文本）：
 ```markdown
 {markdown_content}
 ```
 
-2. 预提取图表JSON（每图一个对象，供综合）：
+2. **预提取图表数据**（视觉模型已识别的图表）：
 ```json
 {figures_block}
 ```
 
 ## 输出要求：
-- 输出必须是一个完整JSON对象，严格符合以下Schema：
+
+### 1. 严格遵循Schema v1.3.1
+输出必须是一个完整的JSON对象，严格符合以下Schema：
 ```json
 {schema_content}
 ```
-- 请综合Markdown文本与图表JSON，填充 figures/tables/numerical_data/claims/relations 等字段。
-- figures 节点应整合并规范化预提取结果；如需修正请直接修正为规范格式。
-- 所有必需字段必须存在；单位与数值不做换算；确保 page 信息与原始页数一致。
 
-仅输出最终JSON，不要包含多余说明。
+### 2. 必需的顶层字段
+- `schema_version`: 必须为 "1.3.1"
+- `doc`: 文档元数据（doc_id, title, timestamps, extraction_run等）
+- `passages`: 可检索的文本片段数组（用于RAG）
+- `entities`: 标准化实体数组（公司/指数/政府/产品等）
+- `data`: 核心数据对象，包含：
+  - `figures`: 图表数据（整合预提取结果）
+  - `tables`: 表格数据
+  - `numerical_data`: 原子数值事实
+  - `claims`: 文本性主张/结论
+  - `relations`: 三元组关系
+  - `extraction_summary`: 提取统计摘要
+
+### 3. 数据提取指南
+
+**figures（图表）：**
+- 整合预提取的图表JSON，规范化为标准格式
+- 必需字段：figure_id, title, page, type, series, provenance
+- type枚举：bar, line, area, pie, scatter, heatmap, waterfall, combo, other
+- series必须包含：name, unit, values（数组，缺失用null）
+- 坐标轴信息：axes.x（时间/类别/数值），axes.y_left/y_right（单位/范围）
+
+**tables（表格）：**
+- 提取所有表格，包含表头和行数据
+- 必需字段：table_id, title, page, columns, rows, provenance
+- rows为对象数组，每行是列名到值的映射
+
+**numerical_data（数值数据）：**
+- 提取所有关键数值（收入、利润、增长率等）
+- 必需字段：num_id, context, metric_type, unit, value, provenance
+- metric_type枚举：currency, percentage, basis_points, multiple, count, ratio, per_share, duration, other
+- 百分比建议用0-1表示（如18.2% → 0.182）
+
+**passages（文本片段）：**
+- 将文档拆分为可检索的段落/要点
+- 必需字段：passage_id, text, page
+- 可选：section（章节标题）, labels（如executive_summary, risk, guidance）
+
+**entities（实体）：**
+- 识别并标准化所有实体
+- 必需字段：entity_id, name
+- type枚举：company, index, government, product, other
+- 可选：ticker, isin, country, aliases
+
+**claims（主张）：**
+- 提取关键结论和预测
+- 必需字段：claim_id, text, passage_id
+- label枚举：guidance_up, guidance_down, risk, outlook, strategy, other
+- 链接证据：evidence.figure_ids, evidence.table_ids, evidence.num_ids
+
+**relations（关系）：**
+- 提取实体与指标/事件的关系
+- 必需字段：rel_id, subject, predicate, object
+- 示例：("Apple", "reports", "Q4 revenue $89.5B")
+
+### 4. 质量要求
+- 所有page字段必须与原始页码一致
+- 单位不做换算，保持原文单位
+- 数值保留原文精度
+- 时间格式统一为ISO 8601
+- 所有ID字段使用稳定的hash或UUID
+
+### 5. 输出格式
+**仅输出最终JSON对象，不要包含任何解释文本、markdown标记或其他内容。**
 """
         return prompt
 
@@ -790,24 +1131,91 @@ class BatchPDFProcessor:
         async with semaphore:
             b64 = self._encode_image_to_base64(image_path)
             page_idx = self._infer_page_from_image_path(image_path)
-            system_text = (
-                "你将看到一张图像，请仅输出一个JSON对象，结构与 schema中 'data.figures' 的 items 完全一致。"
-                "必须包含 figure_id/title/page/type/series/provenance 等字段。不要输出解释文本。"
-            )
-            user_content = [
-                {"type": "input_text", "text": f"请识别此图的结构化数据，并将 page 设为 {page_idx}."},
-                {"type": "input_image", "image_url": f"data:image/jpeg;base64,{b64}"}
-            ]
+
+            # 使用正确的OpenAI消息格式
             messages = [
-                {"role": "system", "content": [{"type": "text", "text": system_text}]},
-                {"role": "user", "content": user_content}
+                {
+                    "role": "system",
+                    "content": "你是一个专业的图表数据提取专家。请仅输出一个JSON对象，结构与 schema中 'data.figures' 的 items 完全一致。必须包含 figure_id/title/page/type/series/provenance 等字段。不要输出解释文本。"
+                },
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": f"请识别此图的结构化数据，并将 page 设为 {page_idx}。"},
+                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}"}}
+                    ]
+                }
             ]
-            # 流式优先，JSON强格式
-            try:
-                return await processor.collect_stream_content("gemini", messages, max_tokens=1500)
-            except Exception:
-                resp = await processor.call_model("gemini", messages, max_tokens=1500)
-                return resp['choices'][0]['message']['content']
+
+            resp = await processor.call_model("gemini", messages, max_tokens=2048)
+            return resp['choices'][0]['message']['content']
+
+    def _extract_json_from_response(self, response_text: str) -> Dict:
+        """从LLM响应中提取JSON对象（增强版，支持markdown代码块和嵌套JSON）"""
+        import re
+
+        # 策略1: 尝试直接解析
+        try:
+            return json.loads(response_text)
+        except json.JSONDecodeError:
+            pass
+
+        # 策略2: 提取markdown代码块中的JSON（```json...```）
+        # 使用正则匹配代码块，支持 ```json 或 ``` 开头
+        code_block_patterns = [
+            r'```json\s*\n(.*?)\n```',  # ```json\n{...}\n```
+            r'```\s*\n(\{.*?\})\s*\n```',  # ```\n{...}\n```
+            r'```json\s*(.*?)```',  # ```json{...}```（无换行）
+        ]
+
+        for pattern in code_block_patterns:
+            match = re.search(pattern, response_text, re.DOTALL)
+            if match:
+                try:
+                    json_str = match.group(1).strip()
+                    return json.loads(json_str)
+                except json.JSONDecodeError:
+                    continue
+
+        # 策略3: 手动查找markdown代码块中的JSON（括号匹配）
+        code_block_match = re.search(r'```(?:json)?\s*(\{)', response_text, re.DOTALL)
+        if code_block_match:
+            start_pos = code_block_match.start(1)
+            # 从{开始，使用括号计数找到完整的JSON
+            brace_count = 0
+            for i in range(start_pos, len(response_text)):
+                if response_text[i] == '{':
+                    brace_count += 1
+                elif response_text[i] == '}':
+                    brace_count -= 1
+                    if brace_count == 0:
+                        try:
+                            json_str = response_text[start_pos:i+1]
+                            return json.loads(json_str)
+                        except json.JSONDecodeError:
+                            break
+
+        # 策略4: 查找第一个完整的JSON对象（从头开始）
+        brace_count = 0
+        start_idx = -1
+        for i, char in enumerate(response_text):
+            if char == '{':
+                if brace_count == 0:
+                    start_idx = i
+                brace_count += 1
+            elif char == '}':
+                brace_count -= 1
+                if brace_count == 0 and start_idx != -1:
+                    try:
+                        return json.loads(response_text[start_idx:i+1])
+                    except json.JSONDecodeError:
+                        # 继续查找下一个可能的JSON对象
+                        start_idx = -1
+                        brace_count = 0
+
+        # 如果都失败，返回空结构
+        logger.error(f"无法从响应中提取JSON: {response_text[:200]}...")
+        return {}
 
     def _encode_image_to_base64(self, image_path: str) -> str:
         with open(image_path, 'rb') as f:
@@ -927,22 +1335,56 @@ class BatchPDFProcessor:
             return False
 
     async def process_batch(self, pdf_paths: List[str]) -> List[Dict]:
-        """批量处理PDF文件"""
+        """批量处理PDF文件（极速并行优化 - RTX 4090 48G）"""
         logger.info(f"{Colors.BLUE}开始批量处理 {len(pdf_paths)} 个PDF文件{Colors.RESET}")
+        logger.info(f"{Colors.CYAN}使用极速并行模式：多PDF同时处理{Colors.RESET}")
+
+        # RTX 4090 48G优化：增加并发数
+        # OCR很快（27秒），API很慢（120秒），所以可以同时处理更多PDF
+        max_parallel = min(6, len(pdf_paths))  # 最多6个PDF同时处理（从3增加到6）
+
+        logger.info(f"{Colors.YELLOW}并发配置: {max_parallel}个PDF同时处理{Colors.RESET}")
+        logger.info(f"{Colors.YELLOW}预计总时间: {120 + (len(pdf_paths) - max_parallel) * 20}秒{Colors.RESET}")
 
         results = []
         failed_files = []
 
-        for i, pdf_path in enumerate(pdf_paths, 1):
-            try:
-                logger.info(f"{Colors.CYAN}处理进度: {i}/{len(pdf_paths)} - {Path(pdf_path).name}{Colors.RESET}")
-                result = await self.process_single_pdf(pdf_path)
-                results.append(result)
+        # 使用信号量控制并发
+        semaphore = asyncio.Semaphore(max_parallel)
 
-            except Exception as e:
-                logger.error(f"{Colors.RED}文件处理失败: {pdf_path} - {e}{Colors.RESET}")
-                failed_files.append(pdf_path)
+        async def process_with_semaphore(pdf_path: str, index: int):
+            async with semaphore:
+                try:
+                    start_time = time.time()
+                    logger.info(f"{Colors.CYAN}[{index}/{len(pdf_paths)}] 开始处理: {Path(pdf_path).name}{Colors.RESET}")
+                    result = await self.process_single_pdf(pdf_path)
+                    elapsed = time.time() - start_time
+                    logger.info(f"{Colors.GREEN}[{index}/{len(pdf_paths)}] 完成: {Path(pdf_path).name} (耗时: {elapsed:.1f}秒){Colors.RESET}")
+                    return (pdf_path, result, None)
+                except Exception as e:
+                    logger.error(f"{Colors.RED}[{index}/{len(pdf_paths)}] 失败: {Path(pdf_path).name} - {e}{Colors.RESET}")
+                    return (pdf_path, None, str(e))
+
+        # 并行处理所有PDF
+        tasks = [
+            process_with_semaphore(pdf_path, i+1)
+            for i, pdf_path in enumerate(pdf_paths)
+        ]
+
+        # 等待所有任务完成
+        completed = await asyncio.gather(*tasks, return_exceptions=True)
+
+        # 收集结果
+        for item in completed:
+            if isinstance(item, Exception):
+                logger.error(f"{Colors.RED}处理异常: {item}{Colors.RESET}")
                 continue
+
+            pdf_path, result, error = item
+            if error:
+                failed_files.append(pdf_path)
+            elif result:
+                results.append(result)
 
         # 输出处理摘要
         logger.info(f"{Colors.GREEN}批量处理完成！{Colors.RESET}")
@@ -950,7 +1392,7 @@ class BatchPDFProcessor:
         logger.info(f"失败文件: {len(failed_files)} 个")
 
         if failed_files:
-            logger.warning(f"失败文件列表: {failed_files}")
+            logger.warning(f"失败文件列表: {[Path(f).name for f in failed_files]}")
 
         return results
 

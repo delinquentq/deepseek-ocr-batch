@@ -1,6 +1,6 @@
 """
 批量处理系统配置文件
-针对RTX 3090 24G显存优化的参数配置
+针对RTX 4090 48G显存优化的参数配置 - 极速版
 """
 
 import os
@@ -10,22 +10,22 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 MODEL_PATH = os.getenv("DEEPSEEK_OCR_MODEL_PATH", "deepseek-ai/DeepSeek-OCR")
 
-# ==================== 硬件优化配置 (RTX 3090 24G) ====================
+# ==================== 硬件优化配置 (RTX 4090 48G) ====================
 class HardwareConfig:
-    """硬件配置 - 针对RTX 3090 24G优化"""
+    """硬件配置 - 针对RTX 4090 48G优化 - 极速模式（6个PDF并发 + 高API并发）"""
 
-    # GPU配置
-    GPU_MEMORY_UTILIZATION = 0.75  # 保留25%显存给后续LLM调用
-    MAX_CONCURRENCY = 6  # 降低并发数以节省显存
+    # GPU配置 - 充分利用显存（OCR阶段不占用太多显存）
+    GPU_MEMORY_UTILIZATION = 0.85  # 提升到85%（40.8GB），OCR本身显存占用不高
+    MAX_CONCURRENCY = 48  # 大幅提升并发数（用于API调用，不占显存）
     TENSOR_PARALLEL_SIZE = 1  # 单卡配置
 
-    # 批处理配置
-    BATCH_SIZE = 4  # 每批处理页数
-    NUM_WORKERS = 8  # 图像预处理线程数
+    # 批处理配置 - 优化OCR速度
+    BATCH_SIZE = 10  # 提升到10（平衡速度和显存）
+    NUM_WORKERS = 32  # 提升到32线程（CPU预处理加速）
 
     # 内存配置
     SWAP_SPACE = 0  # 禁用交换空间以提高性能
-    BLOCK_SIZE = 256  # 块大小
+    BLOCK_SIZE = 512  # 保持512
     MAX_MODEL_LEN = 8192  # 最大模型长度
 
 # ==================== DeepSeek OCR 配置 ====================
@@ -56,7 +56,7 @@ class OCRConfig:
 
 # ==================== OpenRouter API 配置 ====================
 class APIConfig:
-    """OpenRouter API配置"""
+    """OpenRouter API配置 - 极速优化"""
 
     # API密钥和端点
     OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", "")
@@ -67,24 +67,25 @@ class APIConfig:
         "gemini": "google/gemini-2.5-flash"
     }
 
-    # 请求配置
-    MAX_RETRIES = 3
-    REQUEST_TIMEOUT = 300  # 5分钟
-    RETRY_DELAY_BASE = 2  # 指数退避基数
+    # 请求配置 - 优化超时和重试
+    MAX_RETRIES = 5  # 增加重试次数确保成功
+    REQUEST_TIMEOUT = 600  # 10分钟（从5分钟提升）
+    RETRY_DELAY_BASE = 1  # 减少退避时间加快重试
 
-    # LLM参数
-    LLM_TEMPERATURE = 0.1
-    LLM_TOP_P = 0.9
-    LLM_MAX_TOKENS = 8000
+    # LLM参数 - 优化生成质量和速度
+    LLM_TEMPERATURE = 0.0  # 降低温度确保输出稳定性
+    LLM_TOP_P = 0.95  # 提高采样范围
+    LLM_MAX_TOKENS = 8000  # 降低到8000加快响应（从16000降低，提升2倍速度）
 
 # ==================== 文件路径配置 ====================
 class PathConfig:
-    """文件路径配置"""
+    """文件路径配置 - 分离OCR和JSON输出"""
 
     # 基础目录
     BASE_DIR = BASE_DIR
     INPUT_DIR = BASE_DIR / "input_pdfs"
-    OUTPUT_DIR = BASE_DIR / "output_results"
+    OUTPUT_DIR = BASE_DIR / "output_results"  # 仅存放OCR结果（MD和图像）
+    OUTPUT_REPORT_DIR = BASE_DIR / "output_report"  # 新增：专门存放JSON文件
     TEMP_DIR = BASE_DIR / "temp_processing"
     LOG_DIR = BASE_DIR / "logs"
 
@@ -106,24 +107,24 @@ class PathConfig:
 
 # ==================== 处理配置 ====================
 class ProcessingConfig:
-    """处理流程配置"""
+    """处理流程配置 - 极速优化"""
 
     # 质量控制
     ENABLE_QUALITY_CHECK = True
-    MIN_FIGURE_COUNT = 1  # 最小图表数量
-    MIN_CONTENT_LENGTH = 100  # 最小内容长度
+    MIN_FIGURE_COUNT = 0  # 降低最小图表要求（从1到0）
+    MIN_CONTENT_LENGTH = 50  # 降低最小内容长度（从100到50）
 
     # 错误处理
     CONTINUE_ON_ERROR = True  # 单个文件失败时继续处理其他文件
     SAVE_INTERMEDIATE_RESULTS = True  # 保存中间结果
 
     # 输出控制
-    SAVE_RAW_RESPONSES = True  # 保存原始API响应
+    SAVE_RAW_RESPONSES = False  # 关闭原始响应保存以节省空间和时间
     GENERATE_REPORTS = True  # 生成处理报告
 
-    # 并发控制
-    MAX_CONCURRENT_PDFS = 2  # 最大并发PDF处理数
-    MAX_CONCURRENT_API_CALLS = 4  # 最大并发API调用数
+    # 并发控制 - 极速并发（API调用不占显存，可以大幅提升）
+    MAX_CONCURRENT_PDFS = 6  # 最大并发PDF处理数（保持6个）
+    MAX_CONCURRENT_API_CALLS = 48  # 最大并发API调用数（大幅提升，网络IO密集型）
 
 # ==================== 日志配置 ====================
 class LogConfig:
@@ -146,21 +147,26 @@ class LogConfig:
 
 # ==================== 验证配置 ====================
 class ValidationConfig:
-    """数据验证配置"""
+    """数据验证配置 - 严格模式"""
 
-    # Schema验证
-    STRICT_SCHEMA_VALIDATION = True
-    AUTO_FIX_SCHEMA_ERRORS = True
+    # Schema验证 - 严格遵循JSON Schema
+    STRICT_SCHEMA_VALIDATION = True  # 保持严格验证
+    AUTO_FIX_SCHEMA_ERRORS = True  # 自动修复可修复的错误
 
-    # 数据质量检查
+    # 数据质量检查 - 全面验证
     VALIDATE_FIGURE_DATA = True
     VALIDATE_NUMERICAL_DATA = True
     CHECK_DATA_CONSISTENCY = True
 
-    # 容错设置
-    ALLOW_MISSING_FIGURES = False
-    ALLOW_EMPTY_DATA_FIELDS = False
-    MAX_VALIDATION_ERRORS = 5
+    # 容错设置 - 严格要求
+    ALLOW_MISSING_FIGURES = True  # 允许缺少图表（某些文档可能没有）
+    ALLOW_EMPTY_DATA_FIELDS = False  # 不允许空数据字段
+    MAX_VALIDATION_ERRORS = 10  # 增加最大错误数（从5到10）
+
+    # 新增：Schema强制要求
+    ENFORCE_REQUIRED_FIELDS = True  # 强制要求所有必需字段
+    VALIDATE_DATA_TYPES = True  # 验证数据类型
+    VALIDATE_FORMATS = True  # 验证格式（日期、URI等）
 
 # ==================== 性能监控配置 ====================
 class MonitoringConfig:

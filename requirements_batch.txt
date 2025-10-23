@@ -23,7 +23,7 @@ openai>=1.53.0
 asyncio
 
 # JSON Schema验证
-jsonschema==4.19.2
+jsonschema>=4.21.1
 
 # 数据处理
 numpy==1.26.4
@@ -36,8 +36,8 @@ tqdm==4.66.4
 einops==0.7.0
 easydict==1.11
 addict==2.4.0
-transformers==4.46.3
-tokenizers==0.20.3
+transformers>=4.51.1
+tokenizers>=0.21.1
 flash-attn==2.7.3
 
 # 开发工具

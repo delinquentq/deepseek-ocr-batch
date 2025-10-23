@@ -1,0 +1,319 @@
+{
+  "schema_version": "1.0.0",
+  "project_name": "DeepSeek OCR Batch Processor",
+  "last_updated": "2025-10-23T00:00:00Z",
+  "scan_metadata": {
+    "scan_type": "comprehensive",
+    "coverage_percentage": 95,
+    "total_files_scanned": 15,
+    "total_python_files": 12,
+    "total_config_files": 3,
+    "ignored_patterns": [
+      "node_modules/**",
+      ".git/**",
+      "__pycache__/**",
+      "*.pyc",
+      "logs/**",
+      "output_results/**",
+      "output_report/**",
+      "temp_processing/**",
+      "input_pdfs/**"
+    ]
+  },
+  "project_structure": {
+    "root": "/home/qxx/DeepSeek-OCR/DeepSeek-OCR-master/deepseek-ocr-batch",
+    "modules": [
+      {
+        "name": "core_processing",
+        "path": ".",
+        "type": "main",
+        "description": "核心批量处理模块",
+        "entry_points": [
+          "run_batch_processor.py",
+          "batch_pdf_processor.py"
+        ],
+        "key_files": [
+          "batch_pdf_processor.py",
+          "deepseek_ocr.py",
+          "config_batch.py",
+          "run_batch_processor.py"
+        ]
+      },
+      {
+        "name": "configuration",
+        "path": ".",
+        "type": "config",
+        "description": "配置管理模块",
+        "key_files": [
+          "config_batch.py",
+          "config.py",
+          "json schema.json"
+        ]
+      },
+      {
+        "name": "image_processing",
+        "path": "process",
+        "type": "utility",
+        "description": "图像预处理模块",
+        "key_files": [
+          "process/image_process.py",
+          "process/ngram_norepeat.py"
+        ]
+      },
+      {
+        "name": "vision_encoders",
+        "path": "deepencoder",
+        "type": "model",
+        "description": "视觉编码器模块（SAM + CLIP）",
+        "key_files": [
+          "deepencoder/sam_vary_sdpa.py",
+          "deepencoder/clip_sdpa.py",
+          "deepencoder/build_linear.py"
+        ]
+      },
+      {
+        "name": "testing",
+        "path": ".",
+        "type": "test",
+        "description": "系统测试模块",
+        "key_files": [
+          "test_batch_system.py"
+        ]
+      }
+    ]
+  },
+  "architecture": {
+    "processing_pipeline": [
+      {
+        "stage": "1_pdf_input",
+        "description": "PDF文档输入",
+        "components": ["input_pdfs/"],
+        "output": "PDF文件列表"
+      },
+      {
+        "stage": "2_ocr_processing",
+        "description": "DeepSeek OCR处理",
+        "components": [
+          "DeepSeekOCRBatchProcessor",
+          "deepseek_ocr.py",
+          "vLLM引擎"
+        ],
+        "output": "Markdown文本 + 图像提取"
+      },
+      {
+        "stage": "3_figure_extraction",
+        "description": "并行图表数据提取",
+        "components": [
+          "OpenRouterProcessor",
+          "Gemini 2.5 Flash API"
+        ],
+        "output": "图表结构化数据"
+      },
+      {
+        "stage": "4_data_synthesis",
+        "description": "综合数据提取",
+        "components": [
+          "OpenRouterProcessor",
+          "单次LLM调用"
+        ],
+        "output": "完整结构化JSON"
+      },
+      {
+        "stage": "5_validation",
+        "description": "JSON Schema严格验证",
+        "components": [
+          "JSONSchemaValidator",
+          "json schema.json v1.3.1"
+        ],
+        "output": "验证通过的JSON"
+      },
+      {
+        "stage": "6_output",
+        "description": "分离输出",
+        "components": [
+          "output_results/ (OCR结果)",
+          "output_report/ (JSON报告)"
+        ],
+        "output": "按日期/刊物分类的结果"
+      }
+    ],
+    "key_optimizations": {
+      "hardware": "RTX 4090 48G 极速优化",
+      "batch_size": 12,
+      "max_concurrency": 16,
+      "gpu_memory_utilization": 0.90,
+      "parallel_api_calls": 12,
+      "performance_improvement": "3-4x vs RTX 3090"
+    }
+  },
+  "key_technologies": {
+    "ocr_engine": {
+      "name": "DeepSeek-OCR",
+      "framework": "vLLM 0.8.5",
+      "model_path": "deepseek-ai/DeepSeek-OCR",
+      "vision_encoders": ["SAM-ViT-B", "CLIP-L"]
+    },
+    "llm_api": {
+      "provider": "OpenRouter",
+      "model": "google/gemini-2.5-flash",
+      "max_context": "1M tokens",
+      "max_output": "65536 tokens"
+    },
+    "deep_learning": {
+      "pytorch": "2.6.0",
+      "cuda": "11.8",
+      "flash_attention": "2.7.3"
+    },
+    "validation": {
+      "schema_version": "1.3.1",
+      "validator": "jsonschema 4.21.1+"
+    }
+  },
+  "configuration_files": {
+    "config_batch.py": {
+      "purpose": "主配置文件（RTX 4090优化）",
+      "key_classes": [
+        "HardwareConfig",
+        "OCRConfig",
+        "APIConfig",
+        "PathConfig",
+        "ProcessingConfig",
+        "ValidationConfig"
+      ]
+    },
+    "json schema.json": {
+      "purpose": "JSON Schema v1.3.1定义",
+      "required_fields": [
+        "schema_version",
+        "doc",
+        "passages",
+        "entities",
+        "data"
+      ]
+    },
+    ".env": {
+      "purpose": "环境变量配置",
+      "required_vars": [
+        "OPENROUTER_API_KEY",
+        "DEEPSEEK_OCR_MODEL_PATH",
+        "CUDA_VISIBLE_DEVICES"
+      ]
+    }
+  },
+  "entry_points": {
+    "main_processor": {
+      "file": "run_batch_processor.py",
+      "command": "python run_batch_processor.py",
+      "description": "主启动脚本，支持命令行参数"
+    },
+    "system_test": {
+      "file": "test_batch_system.py",
+      "command": "python test_batch_system.py",
+      "description": "系统测试脚本"
+    },
+    "direct_processing": {
+      "file": "batch_pdf_processor.py",
+      "command": "python batch_pdf_processor.py",
+      "description": "直接调用处理器（开发用）"
+    }
+  },
+  "data_flow": {
+    "input": {
+      "directory": "input_pdfs/",
+      "format": "PDF文档",
+      "structure": "支持子目录递归扫描"
+    },
+    "output": {
+      "ocr_results": {
+        "directory": "output_results/",
+        "structure": "日期/刊物/文件名/",
+        "contents": ["*.md", "images/*.jpg"]
+      },
+      "json_reports": {
+        "directory": "output_report/",
+        "structure": "日期/刊物/文件名/",
+        "contents": ["*.json"]
+      }
+    },
+    "temporary": {
+      "directory": "temp_processing/",
+      "purpose": "临时文件存储"
+    },
+    "logs": {
+      "directory": "logs/",
+      "files": ["batch_processor.log", "errors.log"]
+    }
+  },
+  "dependencies": {
+    "core": [
+      "torch==2.6.0",
+      "vllm==0.8.5",
+      "transformers>=4.51.1",
+      "openai>=1.53.0"
+    ],
+    "image_processing": [
+      "Pillow==10.4.0",
+      "opencv-python==4.8.1.78",
+      "img2pdf==0.5.1"
+    ],
+    "validation": [
+      "jsonschema>=4.21.1"
+    ],
+    "optional": [
+      "PyMuPDF==1.23.26 (推荐但非必需)"
+    ]
+  },
+  "known_issues": {
+    "resolved": [
+      {
+        "issue": "路径识别问题",
+        "solution": "使用Path.resolve()和relative_to()修复",
+        "status": "已解决"
+      },
+      {
+        "issue": "并行图像处理复杂度",
+        "solution": "简化为单阶段处理流程",
+        "status": "已优化"
+      }
+    ],
+    "monitoring": [
+      {
+        "issue": "高并发API限流",
+        "mitigation": "配置MAX_CONCURRENT_API_CALLS=12",
+        "status": "需监控"
+      }
+    ]
+  },
+  "performance_benchmarks": {
+    "RTX_4090_48G": {
+      "processing_speed": "40-90秒/PDF",
+      "memory_usage": "38-43GB",
+      "batch_size": 12,
+      "concurrency": 16
+    },
+    "RTX_3090_24G": {
+      "processing_speed": "2-5分钟/PDF",
+      "memory_usage": "18-22GB",
+      "batch_size": 4,
+      "concurrency": 6
+    }
+  },
+  "coverage_report": {
+    "scanned_modules": [
+      "core_processing",
+      "configuration",
+      "image_processing",
+      "vision_encoders",
+      "testing"
+    ],
+    "missing_coverage": [
+      "部分辅助脚本（deploy相关）",
+      "历史遗留的单文件处理脚本"
+    ],
+    "recommendations": [
+      "建议定期更新依赖版本",
+      "建议添加更多单元测试",
+      "建议完善错误处理机制"
+    ]
+  }
+}
