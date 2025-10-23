@@ -1,0 +1,41 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs and temp
+logs/
+*.log
+batch_processor.log
+temp_processing/
+
+# Outputs
+output_results/
+output/
+.temp/
+*.cache
+
+# Inputs (exclude large, user-specific datasets)
+input_pdfs/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Node / misc
+node_modules/
+
+# Misc binaries (keep test assets if needed)
+*.bin

@@ -6,7 +6,7 @@
 
 - ✅ **批量PDF处理** - 支持多文件并行处理
 - ✅ **RTX 3090 24G优化** - 针对您的显卡配置进行内存和并发优化
-- ✅ **双模型对比** - Gemini 2.5 Flash + Qwen3-VL-30B同时处理
+- ✅ **单模型处理** - 统一使用 Gemini 2.5 Flash
 - ✅ **严格JSON验证** - 基于您的schema.json进行数据验证
 - ✅ **图表无损提取** - 确保数据可重建为可视化图表
 - ✅ **数据库兼容** - 输出格式完全符合数据库导入要求
@@ -75,13 +75,13 @@ DeepSeek-OCR-vllm/
 ### 处理流程
 
 ```
-PDF文件 → DeepSeek OCR → Markdown + 图像 → OpenRouter双模型 → JSON验证 → 数据库格式
+PDF文件 → DeepSeek OCR → Markdown + 图像 → OpenRouter单模型 → JSON验证 → 数据库格式
 ```
 
 ### 关键组件
 
 1. **DeepSeekOCRBatchProcessor** - PDF OCR处理
-2. **OpenRouterProcessor** - 双模型API调用
+2. **OpenRouterProcessor** - 单模型API调用
 3. **JSONSchemaValidator** - 数据验证和修复
 4. **BatchPDFProcessor** - 主处理协调器
 
@@ -112,8 +112,7 @@ class HardwareConfig:
 ```python
 class APIConfig:
     MODELS = {
-        "gemini": "google/gemini-2.5-flash",
-        "qwen": "qwen/qwen-2.5-vl-72b-instruct"
+        "gemini": "google/gemini-2.5-flash"
     }
     MAX_RETRIES = 3
     REQUEST_TIMEOUT = 300
@@ -179,7 +178,7 @@ output_results/
     "processing_metadata": {
       "vision_model": "deepseek-ai/DeepSeek-OCR",
       "synthesis_model": "google/gemini-2.5-flash",
-      "validation_model": "qwen/qwen-2.5-vl-72b-instruct",
+      "validation_model": "google/gemini-2.5-flash",
       "processed_at": "2024-10-21T15:30:45Z",
       "pages_processed": 25,
       "successful_pages": 24

@@ -64,8 +64,7 @@ class APIConfig:
 
     # 测试模型配置
     MODELS = {
-        "gemini": "google/gemini-2.5-flash",
-        "qwen": "qwen/qwen-2.5-vl-72b-instruct"
+        "gemini": "google/gemini-2.5-flash"
     }
 
     # 请求配置
@@ -131,7 +130,7 @@ class LogConfig:
     """日志配置"""
 
     # 日志级别
-    LOG_LEVEL = "INFO"
+    LOG_LEVEL = "DEBUG"
 
     # 日志格式
     LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
@@ -222,24 +221,53 @@ class Config:
         return True
 
     @classmethod
+    # 便捷的 .env 加载器
+    def _load_env_file(cls, base_dir: Path):
+        env_path = base_dir / ".env"
+        if env_path.exists():
+            try:
+                with open(env_path, "r", encoding="utf-8") as f:
+                    for line in f:
+                        line = line.strip()
+                        if not line or line.startswith("#"):
+                            continue
+                        if "=" in line:
+                            k, v = line.split("=", 1)
+                            k = k.strip()
+                            v = v.strip().strip('"').strip("'")
+                            # 覆盖空值或未设置的环境变量，避免 setdefault 保留空值
+                            if (k not in os.environ) or (os.environ.get(k, "") == ""):
+                                os.environ[k] = v
+            except Exception:
+                pass
+
+    @classmethod
     def setup_environment(cls):
         """设置环境"""
         import os
         import torch
 
+        # 加载 .env
+        try:
+            cls._load_env_file(cls.paths.BASE_DIR if hasattr(cls.paths, "BASE_DIR") else BASE_DIR)
+        except Exception:
+            pass
+
+        # 重新同步关键环境变量
+        cls.api.OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY", cls.api.OPENROUTER_API_KEY)
+        cls.ocr.MODEL_PATH = os.getenv("DEEPSEEK_OCR_MODEL_PATH", cls.ocr.MODEL_PATH)
+
         # 设置CUDA环境
         if torch.version.cuda == '11.8':
             os.environ["TRITON_PTXAS_PATH"] = "/usr/local/cuda-11.8/bin/ptxas"
 
-        os.environ['VLLM_USE_V1'] = '0'
-        os.environ["CUDA_VISIBLE_DEVICES"] = '0'
+        os.environ['VLLM_USE_V1'] = os.environ.get('VLLM_USE_V1', '0')
+        os.environ["CUDA_VISIBLE_DEVICES"] = os.environ.get("CUDA_VISIBLE_DEVICES", '0')
 
         # 确保目录存在
         cls.paths.ensure_directories()
 
-        # 验证配置
-        cls.validate_config()
-
+        # 不在此处强制验证，留给测试或运行时处理
         return True
 
 # ==================== 便捷函数 ====================
@@ -265,3 +293,19 @@ __all__ = [
     'get_config',
     'setup_environment'
 ]
+
+
+class BatchConfig:
+    def __init__(self):
+        # 先尝试加载 .env
+        try:
+            base_dir = Path(__file__).resolve().parent
+            self._load_env_file(base_dir)
+        except Exception:
+            pass
+        
+        # 从环境变量读取配置
+        self.OPENROUTER_API_KEY = os.getenv('OPENROUTER_API_KEY', '')
+        self.DEEPSEEK_OCR_MODEL_PATH = os.getenv('DEEPSEEK_OCR_MODEL_PATH', 'deepseek-ai/DeepSeek-OCR')
+        self.CUDA_VISIBLE_DEVICES = os.getenv('CUDA_VISIBLE_DEVICES', '0')
+        self.VLLM_USE_V1 = int(os.getenv('VLLM_USE_V1', '0'))

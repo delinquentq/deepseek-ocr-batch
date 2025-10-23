@@ -12,11 +12,14 @@ Pillow==10.4.0
 opencv-python==4.8.1.78
 
 # 文档处理
-PyMuPDF==1.23.26
+# PyMuPDF 为可选依赖，若模型可直接处理PDF则无需安装
+# PyMuPDF==1.23.26
 img2pdf==0.5.1
 
-# 异步HTTP
-aiohttp==3.9.5
+# OpenAI SDK
+openai>=1.53.0
+
+# 异步HTTP（已迁移到OpenAI SDK，可保留或移除）
 asyncio
 
 # JSON Schema验证

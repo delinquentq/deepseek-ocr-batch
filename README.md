@@ -5,7 +5,7 @@
 ## ✨ 主要特性
 
 - 🔥 **批量PDF处理** - 支持多文件并行处理，高效稳定
-- 🧠 **双模型对比** - Gemini 2.5 Flash + Qwen3-VL-30B智能选择最佳结果
+- 🧠 **单模型处理** - 统一使用 Gemini 2.5 Flash
 - 🎯 **RTX 3090优化** - 针对24G显存专门优化的内存管理
 - 📊 **图表无损提取** - 完整保留图表数据，支持可视化重建
 - ✅ **严格数据验证** - 基于JSON Schema的完整性检查
@@ -14,7 +14,7 @@
 ## 🎯 系统架构
 
 ```
-PDF输入 → DeepSeek OCR → Markdown+图像 → 双模型处理 → JSON验证 → 数据库格式输出
+PDF输入 → DeepSeek OCR → Markdown+图像 → 单模型处理 → JSON验证 → 数据库格式输出
 ```
 
 ## 🚀 快速开始
@@ -45,7 +45,6 @@ conda activate deepseek-ocr
 # 安装依赖
 pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements_batch.txt
-pip install flash-attn==2.7.3 --no-build-isolation
 
 # 环境配置
 export OPENROUTER_API_KEY=your_api_key
@@ -263,7 +262,6 @@ tar -czf backup_$(date +%Y%m%d).tar.gz output_results/
 # 在config_batch.py中添加
 MODELS = {
     "gemini": "google/gemini-2.5-flash",
-    "qwen": "qwen/qwen-2.5-vl-72b-instruct",
     "new_model": "provider/new-model-name"  # 新增模型
 }
 ```

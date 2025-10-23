@@ -62,7 +62,7 @@ def print_system_info():
     except Exception as e:
         print(f"{Colors.YELLOW}⚠️  系统信息获取失败: {e}{Colors.RESET}\n")
 
-def check_environment():
+def check_environment(input_dir: Path = None):
     """检查环境配置"""
     print(f"{Colors.BLUE}🔍 环境检查:{Colors.RESET}")
 
@@ -75,8 +75,9 @@ def check_environment():
         print(f"   {Colors.YELLOW}请设置环境变量: export OPENROUTER_API_KEY=your_key{Colors.RESET}")
         return False
 
-    # 检查Schema文件
-    schema_path = Path("json schema.json")
+    # 检查Schema文件（使用脚本所在目录）
+    base_dir = Path(__file__).resolve().parent
+    schema_path = base_dir / "json schema.json"
     if schema_path.exists():
         print(f"   JSON Schema: ✅ 已找到")
     else:
@@ -84,25 +85,26 @@ def check_environment():
         return False
 
     # 检查目录
-    config = Config()
-    if config.paths.INPUT_DIR.exists():
-        pdf_count = len(list(config.paths.INPUT_DIR.glob("*.pdf")))
-        print(f"   输入目录: ✅ 找到 {pdf_count} 个PDF文件")
+    cfg = Config()
+    root = input_dir or cfg.paths.INPUT_DIR
+    if root.exists():
+        pdf_count = sum(1 for f in root.rglob("*") if f.is_file() and f.suffix.lower() == ".pdf")
+        print(f"   输入目录: ✅ 找到 {pdf_count} 个PDF文件 ({root})")
         if pdf_count == 0:
-            print(f"   {Colors.YELLOW}请将PDF文件放入 {config.paths.INPUT_DIR} 目录{Colors.RESET}")
+            print(f"   {Colors.YELLOW}请将PDF文件放入 {root} 目录{Colors.RESET}")
     else:
-        print(f"   输入目录: ⚠️  将自动创建 ({config.paths.INPUT_DIR})")
+        print(f"   输入目录: ⚠️  将自动创建 ({root})")
 
     print()
     return True
 
 def list_pdf_files(input_dir: Path) -> List[Path]:
-    """列出PDF文件"""
-    pdf_files = list(input_dir.glob("*.pdf"))
+    """列出PDF文件（递归扫描子目录，大小写不敏感）"""
+    pdf_files = [p for p in input_dir.rglob("*") if p.is_file() and p.suffix.lower() == ".pdf"]
     return sorted(pdf_files)
 
-def display_file_list(pdf_files: List[Path]):
-    """显示文件列表"""
+def display_file_list(pdf_files: List[Path], input_root: Path):
+    """显示文件列表（显示相对于输入目录的路径）"""
     print(f"{Colors.BLUE}📁 发现的PDF文件 ({len(pdf_files)} 个):{Colors.RESET}")
 
     if not pdf_files:
@@ -111,7 +113,12 @@ def display_file_list(pdf_files: List[Path]):
 
     for i, pdf_file in enumerate(pdf_files, 1):
         size_mb = pdf_file.stat().st_size / 1024 / 1024
-        print(f"   {i:2d}. {pdf_file.name} ({size_mb:.1f} MB)")
+        try:
+            rel = pdf_file.resolve().relative_to(input_root.resolve())
+            show_name = str(rel)
+        except Exception:
+            show_name = pdf_file.name
+        print(f"   {i:2d}. {show_name} ({size_mb:.1f} MB)")
     print()
 
 def get_user_confirmation(pdf_files: List[Path]) -> bool:
@@ -139,24 +146,28 @@ async def run_processing(args):
         # 环境设置
         setup_environment()
 
-        # 获取PDF文件列表
-        config = Config()
-        pdf_files = list_pdf_files(config.paths.INPUT_DIR)
+        # 获取根目录
+        cfg = Config()
+        input_root = Path(args.input).resolve() if getattr(args, 'input', None) else cfg.paths.INPUT_DIR.resolve()
+
+        # 获取PDF文件列表（递归）
+        pdf_files = list_pdf_files(input_root)
 
         if args.file:
-            # 处理指定文件
+            # 处理指定文件或路径片段（支持子目录匹配）
             specified_files = []
             for file_pattern in args.file:
-                matching_files = [f for f in pdf_files if file_pattern in f.name]
+                matching_files = [f for f in pdf_files if (file_pattern in f.name or file_pattern in str(f))]
                 specified_files.extend(matching_files)
-            pdf_files = specified_files
+            # 去重并排序
+            pdf_files = sorted(list(set(specified_files)))
 
         if not pdf_files:
             print(f"{Colors.RED}❌ 没有找到要处理的PDF文件{Colors.RESET}")
             return False
 
         # 显示文件列表
-        display_file_list(pdf_files)
+        display_file_list(pdf_files, input_root)
 
         # 获取用户确认
         if not args.yes and not get_user_confirmation(pdf_files):
@@ -173,8 +184,8 @@ async def run_processing(args):
         print(f"✅ 批量处理完成!")
         print(f"{'='*60}{Colors.RESET}")
         print(f"📊 成功处理: {len(results)} 个文件")
-        print(f"📁 输出目录: {config.paths.OUTPUT_DIR}")
-        print(f"📝 日志文件: {config.paths.LOG_FILE}")
+        print(f"📁 输出目录: {cfg.paths.OUTPUT_DIR}")
+        print(f"📝 日志文件: {cfg.paths.LOG_FILE}")
 
         return True
 
@@ -198,10 +209,11 @@ def main():
   python run_batch_processor.py -f report1.pdf    # 处理指定文件
   python run_batch_processor.py -y                # 跳过确认直接处理
   python run_batch_processor.py --setup           # 仅检查环境配置
+  python run_batch_processor.py --input ~/Terminal#6-14  # 指定输入根目录
 
 注意事项:
   1. 请确保设置了 OPENROUTER_API_KEY 环境变量
-  2. 将PDF文件放入 input_pdfs 目录
+  2. 将PDF文件放入 input_pdfs 目录或通过 --input 指定目录
   3. 确保有足够的显存 (推荐RTX 3090 24G或更高)
         """
     )
@@ -212,6 +224,8 @@ def main():
                        help='跳过确认对话，直接开始处理')
     parser.add_argument('--setup', action='store_true',
                        help='仅检查环境配置，不进行处理')
+    parser.add_argument('--input', type=str, metavar='DIR',
+                       help='指定输入根目录，递归扫描其下所有PDF')
     parser.add_argument('--version', action='version', version='%(prog)s 2.0')
 
     args = parser.parse_args()
@@ -220,8 +234,15 @@ def main():
     print_banner()
     print_system_info()
 
-    # 检查环境
-    if not check_environment():
+    # 预加载 .env 环境
+    try:
+        setup_environment()
+    except Exception:
+        pass
+
+    # 检查环境（使用自定义输入目录）
+    custom_input = Path(args.input).resolve() if getattr(args, 'input', None) else None
+    if not check_environment(custom_input):
         print(f"{Colors.RED}❌ 环境检查失败，请修复上述问题后重试{Colors.RESET}")
         sys.exit(1)
 

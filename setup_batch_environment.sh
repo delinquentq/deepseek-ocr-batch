@@ -94,14 +94,20 @@ fi
 echo -e "${BLUE}📝 创建启动脚本...${NC}"
 cat > start_batch_processor.sh << 'EOF'
 #!/bin/bash
+# 自动加载 .env
+if [ -f ".env" ]; then
+  set -a
+  . ./.env
+  set +a
+fi
 
-# 设置CUDA环境
-export CUDA_VISIBLE_DEVICES=0
-export VLLM_USE_V1=0
+# 设置CUDA环境（允许 .env 覆盖）
+export CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-0}
+export VLLM_USE_V1=${VLLM_USE_V1:-0}
 
 # 检查API密钥
 if [ -z "$OPENROUTER_API_KEY" ]; then
-    echo "❌ 请设置 OPENROUTER_API_KEY 环境变量"
+    echo "❌ 请设置 OPENROUTER_API_KEY 环境变量或在 .env 中填写"
     echo "   export OPENROUTER_API_KEY=your_api_key"
     exit 1
 fi
@@ -122,13 +128,19 @@ OPENROUTER_API_KEY=your_openrouter_api_key_here
 # DeepSeek OCR模型路径 (可选，默认使用HuggingFace)
 DEEPSEEK_OCR_MODEL_PATH=deepseek-ai/DeepSeek-OCR
 
-# CUDA配置
+# CUDA配置（可选）
 CUDA_VISIBLE_DEVICES=0
 VLLM_USE_V1=0
 
 # 可选：Triton配置 (CUDA 11.8)
 # TRITON_PTXAS_PATH=/usr/local/cuda-11.8/bin/ptxas
 EOF
+
+# 创建默认 .env（如果不存在）
+if [ ! -f ".env" ]; then
+  cp .env.example .env
+  echo -e "${GREEN}✓ 已创建默认 .env 文件，请填写你的密钥${NC}"
+fi
 
 echo -e "${GREEN}✓ 示例配置文件: .env.example${NC}"
 

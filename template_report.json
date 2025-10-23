@@ -1,0 +1,254 @@
+{
+  "symbol": "COMPANY_SYMBOL",
+  "pages": [
+    {
+      "header": {
+        "title": "Company Name - Section Title",
+        "rating": "BUY|HOLD|SELL"
+      },
+      "main_content": [
+        {
+          "type": "text",
+          "content": "## Section Heading\n**Bold text** for emphasis. Regular text content goes here.\n\n### Subsection\n- Bullet point 1\n- Bullet point 2\n- Bullet point 3\n\n**Key insights:** Important information highlighted.\n\nMore detailed analysis and commentary can be included here with proper markdown formatting."
+        },
+        {
+          "type": "chart",
+          "chart_id": "chart_id_1"
+        },
+        {
+          "type": "chart", 
+          "chart_id": "chart_id_2"
+        }
+      ]
+    },
+    {
+      "header": {
+        "title": "Company Name - Another Section",
+        "rating": "BUY|HOLD|SELL"
+      },
+      "main_content": [
+        {
+          "type": "text",
+          "content": "## Another Section\nMore analysis content here.\n\n**Important points:**\n- Point 1\n- Point 2\n- Point 3"
+        },
+        {
+          "type": "chart",
+          "chart_id": "chart_id_3"
+        }
+      ]
+    }
+  ],
+  "charts": [
+    {
+      "id": "chart_id_1",
+      "type": "table",
+      "title": "Chart Title",
+      "confidence": 0.95,
+      "data": {
+        "columns": ["Column 1", "Column 2", "Column 3", "Column 4"],
+        "rows": [
+          ["Row 1", 100, 200, 300],
+          ["Row 2", 150, 250, 350],
+          ["Row 3", 200, 300, 400]
+        ]
+      },
+      "options": {
+        "colors": ["#007bff", "#28a745"],
+        "showGrid": true,
+        "source": "Data Source",
+        "height_estimate": 200,
+        "page_break": "avoid"
+      }
+    },
+    {
+      "id": "chart_id_2", 
+      "type": "bar",
+      "title": "Bar Chart Title",
+      "confidence": 0.92,
+      "data": {
+        "labels": ["2021", "2022", "2023", "2024", "2025"],
+        "datasets": [
+          {
+            "label": "Dataset Name",
+            "values": [100, 120, 140, 160, 180],
+            "color": "#007bff"
+          }
+        ]
+      },
+      "options": {
+        "barWidth": 0.5,
+        "yAxisLabel": "Y Axis Label",
+        "stacked": false,
+        "source": "Data Source",
+        "height_estimate": 250,
+        "page_break": "avoid"
+      }
+    },
+    {
+      "id": "chart_id_3",
+      "type": "pie",
+      "title": "Pie Chart Title", 
+      "confidence": 0.88,
+      "data": {
+        "labels": ["Segment 1", "Segment 2", "Segment 3", "Segment 4"],
+        "datasets": [
+          {
+            "label": "Market Share",
+            "values": [45.2, 32.1, 15.8, 6.9]
+          }
+        ]
+      },
+      "options": {
+        "colors": ["#007bff", "#28a745", "#ffc107", "#dc3545"],
+        "source": "Data Source",
+        "height_estimate": 200,
+        "page_break": "avoid"
+      }
+    },
+    {
+      "id": "chart_id_4",
+      "type": "line",
+      "title": "Line Chart Title",
+      "confidence": 0.94,
+      "data": {
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May", "Jun"],
+        "datasets": [
+          {
+            "label": "Trend Line 1",
+            "values": [100, 105, 110, 108, 115, 120],
+            "color": "#007bff"
+          },
+          {
+            "label": "Trend Line 2", 
+            "values": [95, 100, 105, 103, 110, 115],
+            "color": "#28a745"
+          }
+        ]
+      },
+      "options": {
+        "yAxisLabel": "Y Axis Label",
+        "xAxisLabel": "X Axis Label",
+        "showLegend": true,
+        "source": "Data Source",
+        "height_estimate": 250,
+        "page_break": "avoid"
+      }
+    },
+    {
+      "id": "chart_id_5",
+      "type": "area",
+      "title": "Area Chart Title",
+      "confidence": 0.91,
+      "data": {
+        "labels": ["Q1", "Q2", "Q3", "Q4"],
+        "datasets": [
+          {
+            "label": "Revenue",
+            "values": [100, 120, 140, 160],
+            "color": "#007bff"
+          },
+          {
+            "label": "Costs",
+            "values": [80, 90, 100, 110],
+            "color": "#28a745"
+          }
+        ]
+      },
+      "options": {
+        "yAxisLabel": "Amount ($M)",
+        "xAxisLabel": "Quarter",
+        "showLegend": true,
+        "fillOpacity": 0.7,
+        "source": "Data Source",
+        "height_estimate": 280,
+        "page_break": "avoid"
+      }
+    },
+    {
+      "id": "chart_id_6",
+      "type": "scatter",
+      "title": "Scatter Plot Title",
+      "confidence": 0.87,
+      "data": {
+        "points": [
+          {"x": 10, "y": 20, "label": "Point 1"},
+          {"x": 15, "y": 25, "label": "Point 2"},
+          {"x": 20, "y": 30, "label": "Point 3"},
+          {"x": 25, "y": 35, "label": "Point 4"}
+        ]
+      },
+      "options": {
+        "yAxisLabel": "Y Value",
+        "xAxisLabel": "X Value",
+        "colors": ["#007bff"],
+        "source": "Data Source",
+        "height_estimate": 240,
+        "page_break": "avoid"
+      }
+    },
+    {
+      "id": "chart_id_7",
+      "type": "composed",
+      "title": "Composed Chart Title",
+      "confidence": 0.89,
+      "data": {
+        "labels": ["Jan", "Feb", "Mar", "Apr", "May"],
+        "datasets": [
+          {
+            "label": "Bar Data",
+            "values": [100, 120, 140, 160, 180],
+            "color": "#007bff"
+          },
+          {
+            "label": "Line Trend",
+            "values": [95, 110, 125, 140, 155],
+            "color": "#28a745"
+          }
+        ]
+      },
+      "options": {
+        "yAxisLabel": "Y Axis Label",
+        "barWidth": 0.5,
+        "showLegend": true,
+        "source": "Data Source",
+        "height_estimate": 250,
+        "page_break": "avoid"
+      }
+    },
+    {
+      "id": "chart_id_8",
+      "type": "waterfall",
+      "title": "Waterfall Chart Title",
+      "confidence": 0.85,
+      "data": {
+        "categories": ["Start", "Growth", "Costs", "Benefits", "End"],
+        "values": [100, 20, -10, 15, 125]
+      },
+      "options": {
+        "yAxisLabel": "Value ($M)",
+        "colors": ["#28a745", "#dc3545", "#ffc107"],
+        "source": "Data Source",
+        "height_estimate": 220,
+        "page_break": "avoid"
+      }
+    },
+    {
+      "id": "chart_id_9",
+      "type": "gauge",
+      "title": "Gauge Chart Title",
+      "confidence": 0.92,
+      "data": {
+        "value": 75.5,
+        "max": 100,
+        "min": 0
+      },
+      "options": {
+        "gaugeColor": "#28a745",
+        "threshold": 80,
+        "source": "Data Source",
+        "height_estimate": 200,
+        "page_break": "avoid"
+      }
+    }
+  ]
+}

@@ -16,7 +16,7 @@ import json
 import time
 import hashlib
 import asyncio
-import aiohttp
+from openai import AsyncOpenAI
 import traceback
 from pathlib import Path
 from datetime import datetime
@@ -26,7 +26,11 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
 
 # DeepSeek OCR imports
-import fitz
+try:
+    import fitz  # PyMuPDF
+    HAS_PYMUPDF = True
+except Exception:
+    HAS_PYMUPDF = False
 import img2pdf
 import io
 import re
@@ -48,6 +52,28 @@ from jsonschema import validate, ValidationError
 
 # Configuration
 from config import MODEL_PATH, PROMPT, CROP_MODE
+# 预加载 .env 环境变量（确保在定义 Config 之前）
+try:
+    from config_batch import setup_environment as _setup_environment
+    _setup_environment()
+except Exception:
+    try:
+        base_dir = Path(__file__).resolve().parent
+        env_path = base_dir / ".env"
+        if env_path.exists():
+            with open(env_path, "r", encoding="utf-8") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line or line.startswith("#"):
+                        continue
+                    if "=" in line:
+                        k, v = line.split("=", 1)
+                        k = k.strip()
+                        v = v.strip().strip('"').strip("'")
+                        if (k not in os.environ) or (os.environ.get(k, "") == ""):
+                            os.environ[k] = v
+    except Exception:
+        pass
 
 # 针对RTX 3090 24G的优化配置
 @dataclass
@@ -64,22 +90,22 @@ class Config:
 
     # 测试模型配置
     MODELS = {
-        "gemini": "google/gemini-2.5-flash",
-        "qwen": "qwen/qwen-2.5-vl-72b-instruct"
+        "gemini": "google/gemini-2.5-flash"
     }
 
-    # 文件路径配置
-    INPUT_DIR: str = "input_pdfs"
-    OUTPUT_DIR: str = "output_results"
-    TEMP_DIR: str = "temp_processing"
+    # 文件路径配置（使用脚本目录的绝对路径，避免CWD差异）
+    BASE_DIR: str = str(Path(__file__).resolve().parent)
+    INPUT_DIR: str = str(Path(BASE_DIR) / "input_pdfs")
+    OUTPUT_DIR: str = str(Path(BASE_DIR) / "output_results")
+    TEMP_DIR: str = str(Path(BASE_DIR) / "temp_processing")
 
     # 处理配置
     PDF_DPI: int = 144
     MAX_RETRIES: int = 3
     REQUEST_TIMEOUT: int = 300
 
-    # JSON Schema路径
-    SCHEMA_PATH: str = "json schema.json"
+    # JSON Schema路径（绝对路径）
+    SCHEMA_PATH: str = str(Path(BASE_DIR) / "json schema.json")
 
 # 全局配置实例
 config = Config()
@@ -154,11 +180,15 @@ class DeepSeekOCRBatchProcessor:
             raise
 
     def pdf_to_images_high_quality(self, pdf_path: str, dpi: int = None) -> List[Image.Image]:
-        """高质量PDF转图像"""
+        """高质量PDF转图像（支持在未安装PyMuPDF时给出提示）"""
         if dpi is None:
             dpi = config.PDF_DPI
 
         images = []
+        if not HAS_PYMUPDF:
+            logger.warning("未检测到 PyMuPDF(fitz)，跳过 PDF 渲染。若模型可直接处理PDF，此步骤可忽略。")
+            raise RuntimeError("PyMuPDF 未安装，无法将 PDF 转为图片。")
+
         try:
             pdf_document = fitz.open(pdf_path)
             zoom = dpi / 72.0
@@ -224,8 +254,8 @@ class DeepSeekOCRBatchProcessor:
             content = output.outputs[0].text
 
             # 处理结束标记
-            if '<｜end▁of▁sentence｜>' in content:
-                content = content.replace('<｜end▁of▁sentence｜>', '')
+            if '<｜end of sentence｜>' in content:
+                content = content.replace('<｜end of sentence｜>', '')
 
             # 提取图表引用
             matches_ref, matches_images, matches_other = self._extract_references(content)
@@ -348,65 +378,106 @@ class DeepSeekOCRBatchProcessor:
             raise
 
 class OpenRouterProcessor:
-    """OpenRouter API处理器"""
+    """OpenRouter API处理器 - 使用OpenAI SDK"""
 
     def __init__(self):
-        if not config.OPENROUTER_API_KEY:
+        # 动态读取环境变量，避免模块级配置在进程启动时固定
+        api_key = os.getenv("OPENROUTER_API_KEY", "")
+        if not api_key:
             raise ValueError("OPENROUTER_API_KEY环境变量未设置")
 
-        self.session = None
-        self.headers = {
-            "Authorization": f"Bearer {config.OPENROUTER_API_KEY}",
-            "Content-Type": "application/json",
-            "HTTP-Referer": "https://github.com/your-repo",
-            "X-Title": "DeepSeek OCR Batch Processor"
-        }
+        self.client = AsyncOpenAI(
+            api_key=api_key,
+            base_url=config.OPENROUTER_BASE_URL,
+            timeout=config.REQUEST_TIMEOUT,
+            max_retries=config.MAX_RETRIES,
+            default_headers={
+                "HTTP-Referer": "https://github.com/your-repo",
+                "X-Title": "DeepSeek OCR Batch Processor"
+            }
+        )
 
     async def __aenter__(self):
-        self.session = aiohttp.ClientSession(
-            timeout=aiohttp.ClientTimeout(total=config.REQUEST_TIMEOUT),
-            headers=self.headers
-        )
         return self
 
     async def __aexit__(self, exc_type, exc_val, exc_tb):
-        if self.session:
-            await self.session.close()
+        try:
+            await self.client.close()
+        except Exception:
+            pass
 
     async def call_model(self, model_name: str, messages: List[Dict],
                         max_tokens: int = 4000) -> Dict:
-        """调用OpenRouter模型"""
-        payload = {
-            "model": config.MODELS[model_name],
-            "messages": messages,
-            "max_tokens": max_tokens,
-            "temperature": 0.1,
-            "top_p": 0.9
-        }
+        """调用OpenRouter模型 (OpenAI SDK)"""
+        try:
+            # 优先使用 JSON 强格式输出
+            response = await self.client.chat.completions.create(
+                model=config.MODELS[model_name],
+                messages=messages,
+                max_tokens=max_tokens,
+                temperature=0.1,
+                top_p=0.9,
+                response_format={"type": "json_object"}
+            )
+            return response.model_dump()
+        except Exception as e:
+            logger.warning(f"JSON 强格式输出失败，回退到普通输出: {e}")
+            # 回退到非 JSON 强格式
+            response = await self.client.chat.completions.create(
+                model=config.MODELS[model_name],
+                messages=messages,
+                max_tokens=max_tokens,
+                temperature=0.1,
+                top_p=0.9
+            )
+            return response.model_dump()
 
-        for attempt in range(config.MAX_RETRIES):
+    async def collect_stream_content(self, model_name: str, messages: List[Dict],
+                                     max_tokens: int = 4000) -> str:
+        """以流式方式调用模型并收集完整文本，默认启用JSON强格式输出"""
+        content = ""
+        try:
+            stream = await self.client.chat.completions.create(
+                model=config.MODELS[model_name],
+                messages=messages,
+                max_tokens=max_tokens,
+                temperature=0.1,
+                top_p=0.9,
+                response_format={"type": "json_object"},
+                stream=True
+            )
+            async for chunk in stream:
+                try:
+                    delta = chunk.choices[0].delta
+                    if delta and getattr(delta, "content", None):
+                        content += delta.content
+                except Exception:
+                    # 容错处理，忽略单个流事件中的异常
+                    pass
+            return content
+        except Exception as e:
+            logger.warning(f"流式调用失败，回退到非流式: {e}")
+            # 回退到非流式普通调用，优先尝试JSON强格式
             try:
-                async with self.session.post(
-                    f"{config.OPENROUTER_BASE_URL}/chat/completions",
-                    json=payload
-                ) as response:
-                    if response.status == 200:
-                        result = await response.json()
-                        return result
-                    else:
-                        error_text = await response.text()
-                        logger.warning(f"API调用失败 (尝试 {attempt + 1}/{config.MAX_RETRIES}): "
-                                     f"状态码 {response.status}, 错误: {error_text}")
-
-            except Exception as e:
-                logger.warning(f"API调用异常 (尝试 {attempt + 1}/{config.MAX_RETRIES}): {e}")
-
-                if attempt < config.MAX_RETRIES - 1:
-                    wait_time = 2 ** attempt
-                    logger.info(f"等待 {wait_time} 秒后重试...")
-                    await asyncio.sleep(wait_time)
-
-        raise Exception(f"API调用失败，已重试 {config.MAX_RETRIES} 次")
+                resp = await self.client.chat.completions.create(
+                    model=config.MODELS[model_name],
+                    messages=messages,
+                    max_tokens=max_tokens,
+                    temperature=0.1,
+                    top_p=0.9,
+                    response_format={"type": "json_object"}
+                )
+                return resp.choices[0].message.content
+            except Exception as e2:
+                logger.warning(f"JSON 强格式失败，回退到普通输出: {e2}")
+                resp2 = await self.client.chat.completions.create(
+                    model=config.MODELS[model_name],
+                    messages=messages,
+                    max_tokens=max_tokens,
+                    temperature=0.1,
+                    top_p=0.9
+                )
+                return resp2.choices[0].message.content
 
 class JSONSchemaValidator:
     """JSON Schema验证器"""
@@ -436,28 +507,51 @@ class JSONSchemaValidator:
             return False, f"验证异常: {e}"
 
     def validate_and_fix(self, data: Dict) -> Tuple[Dict, List[str]]:
-        """验证并尝试修复JSON数据"""
-        warnings = []
+        """验证并尝试修复JSON数据（适配 v1.3.1 schema）"""
+        warnings: List[str] = []
 
-        # 确保必需字段存在
-        required_fields = {
-            "_id": self._generate_id(),
-            "source": {},
-            "report": {},
-            "data": {
-                "figures": [],
-                "numerical_data": [],
-                "companies": [],
-                "key_metrics": [],
-                "extraction_summary": {}
-            },
-            "query_capabilities": {}
-        }
+        # 补齐顶层必需字段
+        if "schema_version" not in data:
+            data["schema_version"] = "1.3.1"
+            warnings.append("添加缺失字段: schema_version")
 
-        # 填充缺失的字段
-        for key, default_value in required_fields.items():
+        if "doc" not in data:
+            data["doc"] = {
+                "doc_id": self._generate_id(),
+                "title": "",
+                "source_uri": "",
+                "language": "zh",
+                "timestamps": {
+                    "ingested_at": datetime.now().isoformat(),
+                    "extracted_at": datetime.now().isoformat()
+                },
+                "extraction_run": {
+                    "vision_model": "DeepSeek OCR",
+                    "synthesis_model": "google/gemini-2.5-flash",
+                    "pipeline_steps": ["ocr", "figures_parallel", "llm_synthesis"],
+                    "processing_metadata": {
+                        "pages_processed": 0,
+                        "successful_pages": 0,
+                        "notes": "auto-filled"
+                    }
+                }
+            }
+            warnings.append("添加缺失字段: doc")
+
+        for key in ["passages", "entities", "data"]:
             if key not in data:
-                data[key] = default_value
+                data[key] = [] if key != "data" else {
+                    "figures": [],
+                    "tables": [],
+                    "numerical_data": [],
+                    "claims": [],
+                    "relations": [],
+                    "extraction_summary": {
+                        "figures_count": 0,
+                        "tables_count": 0,
+                        "numerical_data_count": 0
+                    }
+                }
                 warnings.append(f"添加缺失字段: {key}")
 
         # 验证数据类型
@@ -485,9 +579,18 @@ class BatchPDFProcessor:
             os.makedirs(dir_path, exist_ok=True)
 
     async def process_single_pdf(self, pdf_path: str) -> Dict:
-        """处理单个PDF并生成JSON"""
-        pdf_name = Path(pdf_path).stem
-        output_dir = os.path.join(config.OUTPUT_DIR, pdf_name)
+        """处理单个PDF并生成JSON（单模型 + 图像并发）"""
+        pdf_path_obj = Path(pdf_path).resolve()
+        # 依据输入目录名定位根目录，避免工作目录差异导致 relative_to 失败
+        input_root_name = Path(config.INPUT_DIR).name
+        rel_parent = Path()
+        for parent in pdf_path_obj.parents:
+            if parent.name == input_root_name:
+                rel = pdf_path_obj.relative_to(parent)
+                rel_parent = rel.parent
+                break
+        pdf_name = pdf_path_obj.stem
+        output_dir = str(Path(config.OUTPUT_DIR) / rel_parent / pdf_name)
         os.makedirs(output_dir, exist_ok=True)
 
         try:
@@ -495,30 +598,66 @@ class BatchPDFProcessor:
             logger.info(f"{Colors.BLUE}步骤1: DeepSeek OCR处理{Colors.RESET}")
             markdown_path, figure_paths = self.ocr_processor.process_pdf(pdf_path, output_dir)
 
-            # 2. 读取Markdown内容
+            # 2. 读取Markdown内容（完整，无截断）
             with open(markdown_path, 'r', encoding='utf-8') as f:
                 markdown_content = f.read()
 
-            # 3. 双模型处理和对比
-            logger.info(f"{Colors.BLUE}步骤2: 双模型处理{Colors.RESET}")
-            results = await self._process_with_dual_models(
-                markdown_content, figure_paths, pdf_name
+            page_count = self._count_pages_from_markdown(markdown_content)
+
+            # 3. 并行处理每张提取图像（视觉JSON）
+            logger.info(f"{Colors.BLUE}步骤2: 并行图像结构化{Colors.RESET}")
+            figures_json = await self._process_figures_in_parallel(figure_paths, markdown_content)
+
+            # 4. 单模型综合提取（优先流式+JSON强格式）
+            logger.info(f"{Colors.BLUE}步骤3: 单模型综合提取{Colors.RESET}")
+            results = await self._process_with_single_model(
+                markdown_content, figures_json, pdf_name
             )
 
-            # 4. 选择最佳结果
-            best_result = self._select_best_result(results)
+            best_result = results["gemini"]
 
             # 5. JSON验证和修复
-            logger.info(f"{Colors.BLUE}步骤3: JSON验证{Colors.RESET}")
-            validated_result, warnings = self.validator.validate_and_fix(best_result)
+            logger.info(f"{Colors.BLUE}步骤4: JSON验证{Colors.RESET}")
+            # 补充页数到 doc.extraction_run.processing_metadata
+            if "doc" in best_result and "extraction_run" in best_result["doc"]:
+                md = best_result["doc"].get("extraction_run", {}).get("processing_metadata", {})
+                md.setdefault("pages_processed", page_count)
+                md.setdefault("successful_pages", page_count)
+                # 增加基于输入相对子路径的分类元信息
+                try:
+                    # 记录相对子路径（用于按日期/刊物分类）
+                    md["input_relative_path"] = str(rel_parent)
+                    parts = list(rel_parent.parts)
+                    # 简单日期格式 YYYY.MM.DD
+                    import re
+                    if len(parts) >= 1 and re.match(r"^\d{4}\.\d{2}\.\d{2}$", parts[0]):
+                        md["date"] = parts[0]
+                        if len(parts) >= 2:
+                            md["publication"] = parts[1]
+                    else:
+                        # 若首层不是日期，则作为刊物名；若次层是日期则记录
+                        md["publication"] = parts[0] if parts else md.get("publication")
+                        if len(parts) >= 2 and re.match(r"^\d{4}\.\d{2}\.\d{2}$", parts[1]):
+                            md["date"] = parts[1]
+                except Exception:
+                    pass
+                best_result["doc"]["extraction_run"]["processing_metadata"] = md
 
+            validated_result, warnings = self.validator.validate_and_fix(best_result)
             if warnings:
                 logger.warning(f"JSON修复警告: {warnings}")
 
-            # 6. 保存最终结果
-            result_path = os.path.join(output_dir, f"{pdf_name}_final.json")
-            with open(result_path, 'w', encoding='utf-8') as f:
+            # 6. 模板报告生成（保持一致性）
+            template_report = self._generate_template_report(validated_result, markdown_content, figures_json, page_count)
+
+            # 7. 保存最终结果（两份JSON）
+            schema_path = os.path.join(output_dir, f"{pdf_name}_final_schema.json")
+            with open(schema_path, 'w', encoding='utf-8') as f:
                 json.dump(validated_result, f, indent=2, ensure_ascii=False)
+
+            template_path = os.path.join(output_dir, f"{pdf_name}_template_report.json")
+            with open(template_path, 'w', encoding='utf-8') as f:
+                json.dump(template_report, f, indent=2, ensure_ascii=False)
 
             logger.info(f"{Colors.GREEN}✓ PDF处理完成: {pdf_path}{Colors.RESET}")
             return validated_result
@@ -526,62 +665,51 @@ class BatchPDFProcessor:
         except Exception as e:
             logger.error(f"{Colors.RED}✗ PDF处理失败 {pdf_path}: {e}{Colors.RESET}")
             traceback.print_exc()
-            raise
 
-    async def _process_with_dual_models(self, markdown_content: str,
-                                       figure_paths: List[str], pdf_name: str) -> Dict:
-        """双模型处理和对比"""
-        results = {}
-
-        # 准备提示词
-        extraction_prompt = self._build_extraction_prompt(markdown_content, figure_paths)
+    async def _process_with_single_model(self, markdown_content: str,
+                                         figures_json: List[Dict], pdf_name: str) -> Dict:
+        """单模型（gemini）处理"""
+        results: Dict[str, Any] = {}
+        extraction_prompt = self._build_extraction_prompt(markdown_content, figures_json)
 
         async with OpenRouterProcessor() as processor:
-            # 并行调用两个模型
-            tasks = []
-            for model_key in ["gemini", "qwen"]:
-                task = self._call_model_with_prompt(
-                    processor, model_key, extraction_prompt, pdf_name
+            try:
+                result = await self._call_model_with_prompt(
+                    processor, "gemini", extraction_prompt, pdf_name
                 )
-                tasks.append(task)
-
-            # 等待所有任务完成
-            model_results = await asyncio.gather(*tasks, return_exceptions=True)
-
-            # 处理结果
-            for model_key, result in zip(["gemini", "qwen"], model_results):
-                if isinstance(result, Exception):
-                    logger.error(f"{model_key}模型调用失败: {result}")
-                    results[model_key] = None
-                else:
-                    results[model_key] = result
-
+                results["gemini"] = result["result"]
+            except Exception as e:
+                logger.error(f"gemini模型调用失败: {e}")
+                results["gemini"] = None
         return results
 
     async def _call_model_with_prompt(self, processor: OpenRouterProcessor,
-                                    model_key: str, prompt: str, pdf_name: str) -> Dict:
-        """调用单个模型"""
+                                      model_key: str, prompt: str, pdf_name: str) -> Dict:
+        """调用单个模型（流式优先）"""
         logger.info(f"{Colors.CYAN}调用{model_key}模型...{Colors.RESET}")
-
         messages = [
             {
                 "role": "system",
-                "content": "你是一个专业的金融文档数据提取专家。请严格按照提供的JSON schema格式输出结果。"
+                "content": "你是一个专业的金融文档数据提取专家。请严格按照提供的JSON schema格式输出结果。输出必须是纯JSON，不包含其他文本。"
             },
             {
                 "role": "user",
                 "content": prompt
             }
         ]
-
         try:
+            content = await processor.collect_stream_content(model_key, messages, max_tokens=8000)
+            json_result = self._extract_json_from_response(content)
+            return {
+                "model": model_key,
+                "result": json_result,
+                "raw_response": content,
+                "usage": {}
+            }
+        except Exception:
             response = await processor.call_model(model_key, messages, max_tokens=8000)
-
-            # 提取JSON内容
             content = response['choices'][0]['message']['content']
             json_result = self._extract_json_from_response(content)
-
-            logger.info(f"{Colors.GREEN}✓ {model_key}模型处理完成{Colors.RESET}")
             return {
                 "model": model_key,
                 "result": json_result,
@@ -589,98 +717,193 @@ class BatchPDFProcessor:
                 "usage": response.get('usage', {})
             }
 
-        except Exception as e:
-            logger.error(f"{Colors.RED}✗ {model_key}模型调用失败: {e}{Colors.RESET}")
-            raise
-
-    def _build_extraction_prompt(self, markdown_content: str, figure_paths: List[str]) -> str:
-        """构建数据提取提示词"""
-
-        # 读取JSON schema作为参考
+    def _build_extraction_prompt(self, markdown_content: str, figures_json: List[Dict]) -> str:
+        """构建综合提取提示词：完整markdown + 预提取图表JSON"""
         with open(config.SCHEMA_PATH, 'r', encoding='utf-8') as f:
             schema_content = f.read()
 
+        figures_block = json.dumps(figures_json, ensure_ascii=False, indent=2)
         prompt = f"""
-# 任务：金融文档数据提取
+# 任务：金融文档数据结构化提取（严格JSON Schema）
 
 ## 输入材料：
-1. **Markdown内容**：
+1. Markdown全文（已去除长度限制）：
 ```markdown
-{markdown_content[:10000]}...  # 限制长度避免token超限
+{markdown_content}
 ```
 
-2. **图表文件数量**：{len(figure_paths)}个图表已提取
+2. 预提取图表JSON（每图一个对象，供综合）：
+```json
+{figures_block}
+```
 
 ## 输出要求：
-请严格按照以下JSON Schema格式提取数据：
-
+- 输出必须是一个完整JSON对象，严格符合以下Schema：
 ```json
 {schema_content}
 ```
+- 请综合Markdown文本与图表JSON，填充 figures/tables/numerical_data/claims/relations 等字段。
+- figures 节点应整合并规范化预提取结果；如需修正请直接修正为规范格式。
+- 所有必需字段必须存在；单位与数值不做换算；确保 page 信息与原始页数一致。
 
-## 关键要求：
-1. **图表数据完整性**：确保所有图表的data字段包含完整的原始数据，能够直接重建图表
-2. **数值精确性**：所有数值保持原始格式，不要进行单位转换
-3. **关联性**：通过figure_id建立数值数据与图表的关联
-4. **类型严格性**：严格遵循schema中的数据类型定义
-
-## 特别注意：
-- figures.data字段必须包含完整的labels和series数据
-- numerical_data中每个数据点都要关联到具体的figure_id或标明为null
-- 所有必需字段都必须存在，不能为空
-- 输出纯JSON格式，不要包含其他文本
-
-请开始提取：
+仅输出最终JSON，不要包含多余说明。
 """
         return prompt
 
-    def _extract_json_from_response(self, response: str) -> Dict:
-        """从响应中提取JSON"""
+    async def _process_figures_in_parallel(self, figure_paths: List[str], markdown_content: str) -> List[Dict]:
+        """并行处理每张图像：调用视觉模型提取单图JSON"""
+        if not figure_paths:
+            return []
+
+        semaphore = asyncio.Semaphore(config.MAX_CONCURRENCY)
+        async with OpenRouterProcessor() as processor:
+            tasks = [self._process_single_figure_request(processor, p, semaphore) for p in figure_paths]
+            results = await asyncio.gather(*tasks, return_exceptions=True)
+
+        figures: List[Dict] = []
+        for p, r in zip(figure_paths, results):
+            if isinstance(r, Exception):
+                logger.warning(f"图像处理失败: {p} - {r}")
+                continue
+            try:
+                fig_obj = self._extract_json_from_response(r)
+            except Exception:
+                # 容错：若返回非JSON，构造保底结构
+                fig_obj = {
+                    "figure_id": hashlib.md5(p.encode()).hexdigest(),
+                    "title": "",
+                    "page": self._infer_page_from_image_path(p),
+                    "type": "other",
+                    "series": [],
+                    "provenance": {"page": self._infer_page_from_image_path(p)},
+                    "image_ref": p
+                }
+            # 补充保底字段
+            fig_obj.setdefault("figure_id", hashlib.md5((p+str(datetime.now().timestamp())).encode()).hexdigest())
+            fig_obj.setdefault("provenance", {"page": self._infer_page_from_image_path(p)})
+            fig_obj.setdefault("image_ref", p)
+            figures.append(fig_obj)
+        return figures
+
+    async def _process_single_figure_request(self, processor: OpenRouterProcessor, image_path: str, semaphore: asyncio.Semaphore) -> str:
+        """单图像请求：携带图像并要求输出符合 data.figures 项结构的JSON"""
+        async with semaphore:
+            b64 = self._encode_image_to_base64(image_path)
+            page_idx = self._infer_page_from_image_path(image_path)
+            system_text = (
+                "你将看到一张图像，请仅输出一个JSON对象，结构与 schema中 'data.figures' 的 items 完全一致。"
+                "必须包含 figure_id/title/page/type/series/provenance 等字段。不要输出解释文本。"
+            )
+            user_content = [
+                {"type": "input_text", "text": f"请识别此图的结构化数据，并将 page 设为 {page_idx}."},
+                {"type": "input_image", "image_url": f"data:image/jpeg;base64,{b64}"}
+            ]
+            messages = [
+                {"role": "system", "content": [{"type": "text", "text": system_text}]},
+                {"role": "user", "content": user_content}
+            ]
+            # 流式优先，JSON强格式
+            try:
+                return await processor.collect_stream_content("gemini", messages, max_tokens=1500)
+            except Exception:
+                resp = await processor.call_model("gemini", messages, max_tokens=1500)
+                return resp['choices'][0]['message']['content']
+
+    def _encode_image_to_base64(self, image_path: str) -> str:
+        with open(image_path, 'rb') as f:
+            return base64.b64encode(f.read()).decode('utf-8')
+
+    def _infer_page_from_image_path(self, image_path: str) -> int:
+        # 约定文件名 images/{page_idx}_{img_idx}.jpg
         try:
-            # 尝试直接解析
-            return json.loads(response)
-        except:
-            # 尝试提取JSON代码块
-            import re
-            json_pattern = r'```json\s*(.*?)\s*```'
-            match = re.search(json_pattern, response, re.DOTALL)
-            if match:
-                return json.loads(match.group(1))
+            name = Path(image_path).name
+            page_str = name.split('_')[0]
+            return int(page_str) + 1  # 存储的是0基，输出为1基
+        except Exception:
+            return 1
 
-            # 尝试查找第一个完整的JSON对象
-            start_idx = response.find('{')
-            if start_idx != -1:
-                # 简单的括号匹配
-                bracket_count = 0
-                for i, char in enumerate(response[start_idx:], start_idx):
-                    if char == '{':
-                        bracket_count += 1
-                    elif char == '}':
-                        bracket_count -= 1
-                        if bracket_count == 0:
-                            return json.loads(response[start_idx:i+1])
+    def _count_pages_from_markdown(self, markdown: str) -> int:
+        return len(re.findall(r"--- Page \d+ ---", markdown))
 
-            raise ValueError("无法从响应中提取有效的JSON")
+    def _generate_template_report(self, final_schema_json: Dict, markdown_content: str,
+                                  figures_json: List[Dict], page_count: int) -> Dict:
+        """从最终Schema结果与原始内容生成模板报告JSON，保持一致性"""
+        # symbol来源：doc.tickers 或 entities
+        symbol = "UNKNOWN"
+        try:
+            tickers = final_schema_json.get("doc", {}).get("tickers", [])
+            if isinstance(tickers, list) and tickers:
+                symbol = tickers[0]
+        except Exception:
+            pass
+
+        # 按页拆分markdown
+        pages_blocks = re.split(r"\n\n--- Page \d+ ---\n\n", markdown_content)
+        pages = []
+        for idx in range(page_count):
+            md_text = pages_blocks[idx] if idx < len(pages_blocks) else ""
+            charts_for_page = [f for f in figures_json if f.get("provenance", {}).get("page") == (idx+1)]
+            page_item = {
+                "header": {
+                    "title": final_schema_json.get("doc", {}).get("title", f"Page {idx+1}"),
+                    "rating": "HOLD"
+                },
+                "main_content": [
+                    {"type": "text", "content": md_text}
+                ] + [
+                    {"type": "chart", "chart_id": f.get("figure_id", f"chart_{idx}_{i}")}
+                    for i, f in enumerate(charts_for_page)
+                ]
+            }
+            pages.append(page_item)
+
+        # 构造 charts 列表
+        charts = []
+        for f in figures_json:
+            chart_id = f.get("figure_id")
+            chart_type = f.get("type", "other")
+            title = f.get("title", "")
+            series = f.get("series", [])
+            # 转换为模板的 datasets/labels
+            labels = []
+            datasets = []
+            # 简化：若存在第一条序列的 values 与 labels_norm 则使用
+            if series:
+                # 尝试从 axes.x.labels_norm 获取labels
+                axes = f.get("axes", {})
+                x = axes.get("x", {}) if isinstance(axes, dict) else {}
+                labels = x.get("labels_norm") or x.get("labels_raw") or []
+                for s in series:
+                    datasets.append({
+                        "label": s.get("name", "series"),
+                        "values": s.get("values", []),
+                        "color": "#007bff"
+                    })
+            charts.append({
+                "id": chart_id,
+                "type": chart_type if chart_type in ["bar","line","pie","area","scatter","waterfall","composed","table"] else "bar",
+                "title": title,
+                "confidence": 0.9,
+                "data": (
+                    {"columns": labels, "rows": []} if chart_type == "table" else
+                    {"labels": labels, "datasets": datasets}
+                ),
+                "options": {
+                    "source": final_schema_json.get("doc", {}).get("source_uri", ""),
+                    "height_estimate": 240,
+                    "page_break": "avoid"
+                }
+            })
+
+        return {
+            "symbol": symbol,
+            "pages": pages,
+            "charts": charts
+        }
 
     def _select_best_result(self, results: Dict) -> Dict:
-        """选择最佳模型结果"""
-        # 简单的选择策略：优先选择无异常的结果
-        for model_key in ["gemini", "qwen"]:  # gemini优先
-            if results.get(model_key) is not None:
-                result_data = results[model_key]["result"]
-
-                # 简单的质量检查
-                if self._validate_result_quality(result_data):
-                    logger.info(f"{Colors.GREEN}选择{model_key}模型结果{Colors.RESET}")
-                    return result_data
-
-        # 如果都有问题，返回第一个可用的
-        for model_key, result in results.items():
-            if result is not None:
-                logger.warning(f"{Colors.YELLOW}使用{model_key}模型结果（质量可能有问题）{Colors.RESET}")
-                return result["result"]
-
-        raise ValueError("所有模型都失败了")
+        """选择最佳模型结果（单模型）"""
+        return results.get("gemini") or {}
 
     def _validate_result_quality(self, data: Dict) -> bool:
         """验证结果质量"""
@@ -739,7 +962,8 @@ async def main():
     print(f"{Colors.BLUE}{'='*60}{Colors.RESET}")
 
     # 检查环境
-    if not config.OPENROUTER_API_KEY:
+    api_key = os.getenv("OPENROUTER_API_KEY", "")
+    if not api_key:
         logger.error(f"{Colors.RED}请设置OPENROUTER_API_KEY环境变量{Colors.RESET}")
         return
 
@@ -768,11 +992,11 @@ async def main():
     print(f"{Colors.GREEN}{'='*60}{Colors.RESET}")
 
 if __name__ == "__main__":
-    # 设置环境变量
-    if torch.version.cuda == '11.8':
+    # 设置环境变量（尊重 .env 已配置的值）
+    if torch.version.cuda == '11.8' and not os.environ.get("TRITON_PTXAS_PATH"):
         os.environ["TRITON_PTXAS_PATH"] = "/usr/local/cuda-11.8/bin/ptxas"
-    os.environ['VLLM_USE_V1'] = '0'
-    os.environ["CUDA_VISIBLE_DEVICES"] = '0'
+    os.environ['VLLM_USE_V1'] = os.environ.get('VLLM_USE_V1', '0')
+    os.environ["CUDA_VISIBLE_DEVICES"] = os.environ.get("CUDA_VISIBLE_DEVICES", '0')
 
     # 运行主程序
     asyncio.run(main())
