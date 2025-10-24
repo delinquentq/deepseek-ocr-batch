@@ -38,7 +38,7 @@ import io
 import re
 from tqdm import tqdm
 import torch
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import numpy as np
 
 # vLLM imports
@@ -131,6 +131,20 @@ except ImportError:
         SCHEMA_PATH = str(Path(BASE_DIR) / "json schema.json")
         STRICT_SCHEMA_VALIDATION = True
 
+        class ProcessingDefaults:
+            FIGURE_MAX_DIMENSION = 1024
+            FIGURE_ENABLE_DENOISE = True
+            FIGURE_JPEG_QUALITY = 70
+            FIGURE_WEBP_QUALITY = 60
+            FIGURE_TEXT_FALLBACK_MAX_CHARS = 2000
+
+        class APIDefaults:
+            LLM_MAX_TOKENS = 8000
+            LLM_MAX_TOKENS_IMAGE = 1536
+
+        processing = ProcessingDefaults()
+        api = APIDefaults()
+
     config = Config()
 
 # 日志配置
@@ -158,6 +172,9 @@ class DeepSeekOCRBatchProcessor:
     def __init__(self):
         self.model_registry_initialized = False
         self.llm = None
+        self._compressed_image_cache: Dict[str, str] = {}
+        self._temp_figure_dir = Path(config.TEMP_DIR) / "processed_figures"
+        self._temp_figure_dir.mkdir(parents=True, exist_ok=True)
         self._initialize_model()
 
     def _initialize_model(self):
@@ -356,6 +373,44 @@ class DeepSeekOCRBatchProcessor:
 
         return matches, matches_image, matches_other
 
+    def _preprocess_and_save_figure(self, cropped: Image.Image, page_idx: int,
+                                    figure_idx: int, output_dir: str) -> Tuple[str, str]:
+        """对裁剪图像进行统一缩放、降噪，并保存压缩版本"""
+        processed = cropped.convert("RGB")
+
+        max_dim = getattr(config.processing, "FIGURE_MAX_DIMENSION", 1024)
+        resampling_attr = getattr(Image, "Resampling", Image)
+        resample_filter = getattr(resampling_attr, "LANCZOS", Image.LANCZOS)
+        processed.thumbnail((max_dim, max_dim), resample_filter)
+
+        if getattr(config.processing, "FIGURE_ENABLE_DENOISE", True):
+            try:
+                processed = processed.filter(ImageFilter.MedianFilter(size=3))
+            except Exception as exc:  # pragma: no cover - pillow差异兼容
+                logger.debug(f"降噪处理失败，跳过: {exc}")
+
+        temp_dir = self._temp_figure_dir
+        temp_dir.mkdir(parents=True, exist_ok=True)
+
+        webp_quality = getattr(config.processing, "FIGURE_WEBP_QUALITY", 60)
+        jpeg_quality = getattr(config.processing, "FIGURE_JPEG_QUALITY", 70)
+
+        temp_path = temp_dir / f"{page_idx}_{figure_idx}.webp"
+        try:
+            processed.save(temp_path, format="WEBP", quality=webp_quality, method=6)
+        except Exception:
+            processed.save(temp_path, format="WEBP", quality=webp_quality)
+
+        output_path = Path(output_dir) / "images" / f"{page_idx}_{figure_idx}.jpg"
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        processed.save(output_path, format="JPEG", quality=jpeg_quality, optimize=True)
+
+        display_path = str(output_path)
+        compressed_path = str(temp_path)
+        self._compressed_image_cache[display_path] = compressed_path
+
+        return display_path, compressed_path
+
     def _process_image_with_refs(self, image: Image.Image, refs: List,
                                page_idx: int, output_dir: str) -> Image.Image:
         """处理图像引用并保存图表"""
@@ -381,8 +436,7 @@ class DeepSeekOCRBatchProcessor:
 
                         try:
                             cropped = image.crop((x1, y1, x2, y2))
-                            figure_path = f"{output_dir}/images/{page_idx}_{img_idx}.jpg"
-                            cropped.save(figure_path)
+                            self._preprocess_and_save_figure(cropped, page_idx, img_idx, output_dir)
                             img_idx += 1
                         except Exception as e:
                             logger.warning(f"图表提取失败: {e}")
@@ -403,11 +457,19 @@ class DeepSeekOCRBatchProcessor:
             logger.warning(f"坐标提取失败: {e}")
             return None
 
+    def get_preprocessed_image_path(self, image_path: str) -> Optional[str]:
+        """获取压缩后的图像路径"""
+        compressed_path = self._compressed_image_cache.get(image_path)
+        if compressed_path and Path(compressed_path).exists():
+            return compressed_path
+        return None
+
     def process_pdf(self, pdf_path: str, output_dir: str) -> Tuple[str, List[str]]:
         """处理单个PDF文件"""
         logger.info(f"{Colors.BLUE}开始处理PDF: {pdf_path}{Colors.RESET}")
 
         try:
+            self._compressed_image_cache.clear()
             # 1. PDF转图像
             images = self.pdf_to_images_high_quality(pdf_path)
 
@@ -959,12 +1021,36 @@ class BatchPDFProcessor:
             "doc_metadata": {}
         }
 
+    def _build_figure_request_payload(self, page_idx: int, *, prompt_body: str,
+                                      b64: Optional[str], text_override: Optional[str]) -> List[Dict[str, Any]]:
+        """构造视觉模型的多模态请求载荷，支持文本兜底"""
+        payload: List[Dict[str, Any]] = [{"type": "text", "text": prompt_body}]
+
+        max_chars = getattr(config.processing, "FIGURE_TEXT_FALLBACK_MAX_CHARS", 2000)
+        if text_override:
+            sanitized = text_override.strip()
+            if len(sanitized) > max_chars:
+                sanitized = sanitized[:max_chars]
+            payload.append({
+                "type": "text",
+                "text": f"图像预处理关键点摘要（第{page_idx}页）:\n{sanitized}"
+            })
+        elif b64:
+            payload.append({
+                "type": "image_url",
+                "image_url": {"url": f"data:image/jpeg;base64,{b64}"}
+            })
+        else:
+            raise ValueError("缺少图像数据或文本替代内容，无法构造请求")
+
+        return payload
+
     async def _extract_single_figure_data(self, processor: OpenRouterProcessor,
                                          image_path: str, semaphore: asyncio.Semaphore) -> Dict:
         """提取单个图表的数据（视觉识别）"""
         async with semaphore:
             try:
-                b64 = self._encode_image_to_base64(image_path)
+                b64, text_override = self._encode_image_to_base64(image_path)
                 page_idx = self._infer_page_from_image_path(image_path)
 
                 messages = [
@@ -974,10 +1060,9 @@ class BatchPDFProcessor:
                     },
                     {
                         "role": "user",
-                        "content": [
-                            {
-                                "type": "text",
-                                "text": f"""请分析这张图表（第{page_idx}页），提取以下信息并以JSON格式输出：
+                        "content": self._build_figure_request_payload(
+                            page_idx,
+                            prompt_body=f"""请分析这张图表（第{page_idx}页），提取以下信息并以JSON格式输出：
 
 1. 图表类型（type）：bar/line/pie/area/scatter/heatmap/waterfall/combo/other
 2. 图表标题（title）
@@ -1000,17 +1085,18 @@ class BatchPDFProcessor:
   ]
 }}
 
-仅输出JSON，不要其他文字。"""
-                            },
-                            {
-                                "type": "image_url",
-                                "image_url": {"url": f"data:image/jpeg;base64,{b64}"}
-                            }
-                        ]
+仅输出JSON，不要其他文字。""",
+                            b64=b64,
+                            text_override=text_override
+                        )
                     }
                 ]
 
-                resp = await processor.call_model("gemini", messages, max_tokens=2048)
+                resp = await processor.call_model(
+                    "gemini",
+                    messages,
+                    max_tokens=getattr(config.api, "LLM_MAX_TOKENS_IMAGE", 1536)
+                )
                 content = resp['choices'][0]['message']['content']
 
                 # 提取JSON
@@ -1909,7 +1995,7 @@ class BatchPDFProcessor:
     async def _process_single_figure_request(self, processor: OpenRouterProcessor, image_path: str, semaphore: asyncio.Semaphore) -> str:
         """单图像请求：携带图像并要求输出符合 data.figures 项结构的JSON"""
         async with semaphore:
-            b64 = self._encode_image_to_base64(image_path)
+            b64, text_override = self._encode_image_to_base64(image_path)
             page_idx = self._infer_page_from_image_path(image_path)
 
             # 使用正确的OpenAI消息格式
@@ -1920,14 +2006,18 @@ class BatchPDFProcessor:
                 },
                 {
                     "role": "user",
-                    "content": [
-                        {"type": "text", "text": f"请识别此图的结构化数据，并将 page 设为 {page_idx}。"},
-                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}"}}
-                    ]
+                    "content": self._build_figure_request_payload(
+                        page_idx,
+                        prompt_body=f"请识别此图的结构化数据，并将 page 设为 {page_idx}。",
+                        b64=b64,
+                        text_override=text_override
+                    )
                 }
             ]
 
-            resp = await processor.call_model("gemini", messages, max_tokens=2048)
+            resp = await processor.call_model(
+                "gemini", messages, max_tokens=getattr(config.api, "LLM_MAX_TOKENS_IMAGE", 1536)
+            )
             return resp['choices'][0]['message']['content']
 
     def _extract_json_from_response(self, response_data: Any) -> Dict:
@@ -2051,9 +2141,36 @@ class BatchPDFProcessor:
         logger.error(f"无法从响应中提取JSON: {response_text[:200]}...")
         return {}
 
-    def _encode_image_to_base64(self, image_path: str) -> str:
-        with open(image_path, 'rb') as f:
-            return base64.b64encode(f.read()).decode('utf-8')
+    def _encode_image_to_base64(self, image_path: str,
+                                *, allow_text_fallback: bool = True) -> Tuple[Optional[str], Optional[str]]:
+        """将图像编码为base64，必要时返回文本兜底"""
+        if allow_text_fallback:
+            for suffix in ('.json', '.txt'):
+                text_path = Path(image_path).with_suffix(suffix)
+                if text_path.exists():
+                    try:
+                        text_payload = text_path.read_text(encoding='utf-8').strip()
+                    except UnicodeDecodeError:
+                        text_payload = text_path.read_text(encoding='utf-8', errors='ignore').strip()
+                    if text_payload:
+                        return None, text_payload
+
+        compressed_path = None
+        if hasattr(self, "ocr_processor") and hasattr(self.ocr_processor, "get_preprocessed_image_path"):
+            compressed_path = self.ocr_processor.get_preprocessed_image_path(image_path)
+
+        candidate_paths = []
+        if compressed_path:
+            candidate_paths.append(Path(compressed_path))
+        candidate_paths.append(Path(image_path))
+
+        for path in candidate_paths:
+            if path and path.exists():
+                with open(path, 'rb') as f:
+                    b64 = base64.b64encode(f.read()).decode('utf-8')
+                    return b64, None
+
+        raise FileNotFoundError(f"无法找到图像或压缩文件: {image_path}")
 
     def _infer_page_from_image_path(self, image_path: str) -> int:
         # 约定文件名 images/{page_idx}_{img_idx}.jpg
