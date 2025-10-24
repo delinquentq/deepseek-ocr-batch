@@ -25,6 +25,7 @@ from typing import List, Dict, Optional, Tuple, Any
 from dataclasses import dataclass
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
+from collections import defaultdict
 
 # DeepSeek OCR imports
 try:
@@ -669,13 +670,32 @@ class BatchPDFProcessor:
             figures_data = await self._extract_figures_data_parallel(figure_paths)
             logger.info(f"{Colors.CYAN}成功识别 {len(figures_data)} 张图表的数据{Colors.RESET}")
 
-            # 4. 综合提取（文本 + 图表数据）
-            logger.info(f"{Colors.BLUE}步骤3: 综合数据提取{Colors.RESET}")
-            results = await self._process_with_single_model_simplified(
-                markdown_content, pdf_name, page_count, date_str, publication, figures_data
+            # 4. 分页提取（仅发送单页Markdown）
+            logger.info(f"{Colors.BLUE}步骤3: 分页结构化提取{Colors.RESET}")
+            markdown_pages = self._split_markdown_pages(markdown_content, page_count)
+            page_tasks = self._build_page_tasks(markdown_pages, figures_data)
+            page_payloads = await self._extract_page_payloads(
+                pdf_name,
+                page_tasks,
+                required_fields=[
+                    "passages",
+                    "entities",
+                    "tables",
+                    "numerical_data",
+                    "claims",
+                    "relations"
+                ]
             )
 
-            best_result = results["gemini"]
+            best_result = self._aggregate_page_results(
+                page_payloads,
+                figures_data,
+                pdf_name,
+                page_count,
+                date_str,
+                publication,
+                markdown_content
+            )
 
             # 4. 基础JSON验证（仅检查必需字段）
             logger.info(f"{Colors.BLUE}步骤3: 基础验证{Colors.RESET}")
@@ -757,6 +777,175 @@ class BatchPDFProcessor:
                 figures_data.append(result)
 
         return figures_data
+
+    def _split_markdown_pages(self, markdown: str, page_count: int) -> List[str]:
+        """根据分页标记拆分Markdown文本"""
+        page_pattern = re.compile(r"--- Page (\d+) ---")
+        matches = list(page_pattern.finditer(markdown))
+        if not matches:
+            return [markdown.strip()]
+
+        pages: List[str] = []
+        for idx, match in enumerate(matches):
+            start = match.end()
+            end = matches[idx + 1].start() if idx + 1 < len(matches) else len(markdown)
+            pages.append(markdown[start:end].strip())
+
+        while len(pages) < page_count:
+            pages.append("")
+
+        return pages
+
+    def _build_page_tasks(self, markdown_pages: List[str], figures_data: List[Dict]) -> List[Dict]:
+        """构建分页任务，附带该页图表摘要"""
+        figures_by_page: Dict[int, List[Dict]] = defaultdict(list)
+        for fig in figures_data:
+            page_idx = fig.get("page")
+            if isinstance(page_idx, int):
+                figures_by_page[page_idx].append(fig)
+
+        tasks: List[Dict] = []
+        for idx, page_text in enumerate(markdown_pages):
+            tasks.append({
+                "page": idx + 1,
+                "markdown": page_text,
+                "figures": figures_by_page.get(idx + 1, [])
+            })
+        return tasks
+
+    def _summarize_figures_for_page(self, figures: List[Dict]) -> str:
+        if not figures:
+            return "无"
+        lines = []
+        for fig in figures:
+            fig_type = fig.get("type", "unknown")
+            title = fig.get("title") or fig.get("description") or "无标题"
+            lines.append(f"- {fig_type}: {title[:80]}")
+        return "\n".join(lines)
+
+    async def _extract_page_payloads(
+        self,
+        pdf_name: str,
+        page_tasks: List[Dict],
+        required_fields: Optional[List[str]] = None
+    ) -> List[Dict]:
+        """分页调用LLM，仅发送单页Markdown获取结构化片段"""
+        if not page_tasks:
+            return []
+
+        fields = required_fields or [
+            "passages", "entities", "tables", "numerical_data", "claims", "relations"
+        ]
+
+        semaphore = asyncio.Semaphore(
+            max(1, min(getattr(config, "MAX_CONCURRENT_API_CALLS", config.MAX_CONCURRENCY), len(page_tasks)))
+        )
+
+        async with OpenRouterProcessor() as processor:
+            tasks = [
+                self._call_single_page_extraction(processor, pdf_name, task, fields, semaphore)
+                for task in page_tasks
+            ]
+            responses = await asyncio.gather(*tasks, return_exceptions=True)
+
+        payloads: List[Dict] = []
+        for task, response in zip(page_tasks, responses):
+            if isinstance(response, Exception):
+                logger.error(f"分页提取失败: 第{task.get('page')}页 - {response}")
+                payloads.append(self._build_fallback_page_payload(task))
+                continue
+
+            if not isinstance(response, dict) or not response:
+                payloads.append(self._build_fallback_page_payload(task))
+                continue
+
+            response.setdefault("page", task.get("page", 1))
+            for field in fields:
+                response.setdefault(field, [])
+            response.setdefault("doc_metadata", {})
+            payloads.append(response)
+
+        return payloads
+
+    async def _call_single_page_extraction(
+        self,
+        processor: OpenRouterProcessor,
+        pdf_name: str,
+        task: Dict,
+        required_fields: List[str],
+        semaphore: asyncio.Semaphore
+    ) -> Dict:
+        async with semaphore:
+            page_no = task.get("page", 1)
+            markdown = task.get("markdown", "")
+            figure_summary = self._summarize_figures_for_page(task.get("figures", []))
+            fields_text = ", ".join(required_fields)
+
+            prompt = f"""
+你是金融文档结构化抽取助手。请仅基于下方Markdown提取第 {page_no} 页的结构化信息。
+
+文档名称: {pdf_name}
+页码: {page_no}
+
+## 本页Markdown
+```markdown
+{markdown}
+```
+
+## 本页关联图表
+{figure_summary}
+
+## 输出要求
+- 返回一个JSON对象，必须包含字段: page, {fields_text}, doc_metadata
+- page: 当前页码（整数）
+- passages: 数组。每个元素需提供 text，允许包含 section、labels、entities（实体名称列表）、passage_index（整数，用于跨字段引用）
+- entities: 数组。每个元素包含 name（必填）及可选 type、ticker、aliases、country 等
+- tables: 数组。包含 title、headers（或 columns）、rows，以及可选的描述信息
+- numerical_data: 数组。每个元素包含 context、value（或 value_text）、unit、metric_type，可选 passage_index、entity（名称）
+- claims: 数组。包含 text、label（guidance_up/guidance_down/risk/outlook/strategy/other之一），可提供 sentiment、passage_index、related_entities
+- relations: 数组。包含 subject、predicate、object，可附带 provenance（如 passage_index）
+- doc_metadata: 可选字典，仅在本页包含文档级信息（如标题、tickers、report_type）时填写
+
+仅输出JSON，不要额外解释。确保所有内容仅来源于本页。
+"""
+
+            messages = [
+                {
+                    "role": "system",
+                    "content": "你是一名擅长结构化金融报告的分析师，只输出JSON，不提供任何解释。"
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ]
+
+            response = await processor.call_model(
+                "gemini",
+                messages,
+                max_tokens=getattr(config.api, "LLM_MAX_TOKENS", 6000)
+            )
+            content = response['choices'][0]['message']['content']
+            parsed = self._extract_json_from_response(content)
+            if not isinstance(parsed, dict):
+                return {}
+            return parsed
+
+    def _build_fallback_page_payload(self, task: Dict) -> Dict:
+        text = (task.get("markdown") or "").strip()
+        passages = []
+        if text:
+            passages.append({"text": text, "section": "auto"})
+        return {
+            "page": task.get("page", 1),
+            "passages": passages,
+            "entities": [],
+            "tables": [],
+            "numerical_data": [],
+            "claims": [],
+            "relations": [],
+            "doc_metadata": {}
+        }
 
     async def _extract_single_figure_data(self, processor: OpenRouterProcessor,
                                          image_path: str, semaphore: asyncio.Semaphore) -> Dict:
@@ -856,6 +1045,352 @@ class BatchPDFProcessor:
                 results["gemini"] = {}
         return results
 
+    def _aggregate_page_results(
+        self,
+        page_payloads: List[Dict],
+        figures_data: List[Dict],
+        pdf_name: str,
+        page_count: int,
+        date_str: Optional[str],
+        publication: str,
+        markdown_content: str
+    ) -> Dict:
+        """聚合页级结果，补齐Schema要求的全局结构"""
+        final_result: Dict[str, Any] = {
+            "schema_version": "1.3.1",
+            "doc": self._create_minimal_doc(pdf_name, page_count, date_str, publication),
+            "passages": [],
+            "entities": [],
+            "data": self._create_minimal_data()
+        }
+
+        final_result["data"]["figures"] = figures_data or []
+
+        # 解析文档级元数据（先从整体Markdown，再融合页级补充）
+        doc_metadata = self._extract_doc_metadata(markdown_content, pdf_name, date_str)
+        for payload in page_payloads:
+            meta = payload.get("doc_metadata")
+            if isinstance(meta, dict):
+                doc_metadata = self._merge_doc_metadata(doc_metadata, meta)
+
+        doc_obj = final_result["doc"]
+        for key, value in doc_metadata.items():
+            if key in {"title", "report_type", "sector", "language", "source_uri"} and value:
+                doc_obj[key] = value
+            elif key == "report_date" and value:
+                doc_obj["report_date"] = value
+            elif key == "word_count" and isinstance(value, int):
+                doc_obj["word_count"] = value
+            elif key == "full_text" and value:
+                doc_obj["full_text"] = value
+            elif key == "tickers":
+                tickers = sorted({t.strip().upper() for t in value if isinstance(t, str) and t.strip()})
+                if tickers:
+                    doc_obj["tickers"] = tickers
+                    doc_obj["symbols"] = tickers
+
+        # 构建实体索引
+        entity_map: Dict[str, Dict] = {}
+        alias_index: Dict[str, str] = {}
+        doc_tickers = set(doc_obj.get("tickers", []))
+
+        for payload in page_payloads:
+            for entity in payload.get("entities", []):
+                normalized_name = self._normalize_entity_name(entity.get("name"))
+                if not normalized_name:
+                    continue
+
+                key = normalized_name.lower()
+                existing = entity_map.get(key)
+                if not existing:
+                    entity_id = entity.get("entity_id") or hashlib.md5(
+                        f"{normalized_name}|{publication}".encode()
+                    ).hexdigest()[:16]
+                    entity_obj = {
+                        "entity_id": entity_id,
+                        "name": normalized_name
+                    }
+                    for optional in ["type", "ticker", "isin", "lei", "country"]:
+                        if entity.get(optional):
+                            entity_obj[optional] = entity[optional]
+                    aliases = self._ensure_unique_list(entity.get("aliases"))
+                    if aliases:
+                        entity_obj["aliases"] = aliases
+
+                    entity_map[key] = entity_obj
+                    final_result["entities"].append(entity_obj)
+                    self._register_entity_aliases(alias_index, entity_obj)
+                else:
+                    for optional in ["type", "ticker", "isin", "lei", "country"]:
+                        if optional not in existing and entity.get(optional):
+                            existing[optional] = entity[optional]
+                    aliases = self._ensure_unique_list(entity.get("aliases"))
+                    if aliases:
+                        existing.setdefault("aliases", [])
+                        for alias in aliases:
+                            if alias not in existing["aliases"]:
+                                existing["aliases"].append(alias)
+                    self._register_entity_aliases(alias_index, existing)
+
+                ticker_value = entity.get("ticker")
+                if ticker_value:
+                    doc_tickers.add(ticker_value.upper())
+
+        if doc_tickers:
+            tickers_sorted = sorted(doc_tickers)
+            doc_obj["tickers"] = tickers_sorted
+            doc_obj["symbols"] = tickers_sorted
+
+        # 处理页级片段
+        passage_index_map: Dict[int, Dict[int, str]] = defaultdict(dict)
+        figures_index = {fig.get("figure_id"): fig for fig in final_result["data"].get("figures", []) if fig.get("figure_id")}
+        table_ids: set = set()
+        num_seen_keys: set = set()
+        num_id_set: set = set()
+        claim_labels = {"guidance_up", "guidance_down", "risk", "outlook", "strategy", "other"}
+        sentiment_labels = {"pos", "neg", "neu"}
+
+        for payload in page_payloads:
+            page_no = payload.get("page") or 1
+            passages = payload.get("passages", [])
+
+            for idx, passage in enumerate(passages):
+                text = passage.get("text") or passage.get("content")
+                if not text:
+                    continue
+
+                passage_id = passage.get("passage_id") or hashlib.md5(
+                    f"{pdf_name}|{page_no}|{idx}|{text}".encode()
+                ).hexdigest()[:16]
+
+                passage_obj: Dict[str, Any] = {
+                    "passage_id": passage_id,
+                    "page": page_no,
+                    "text": text.strip()
+                }
+
+                if passage.get("section"):
+                    passage_obj["section"] = passage["section"]
+
+                labels = self._ensure_unique_list(passage.get("labels"))
+                if labels:
+                    passage_obj["labels"] = labels
+
+                entity_refs = []
+                for entity_ref in passage.get("entities", []):
+                    resolved = self._resolve_entity_reference(entity_ref, entity_map, alias_index)
+                    if resolved:
+                        entity_refs.append(resolved)
+                if entity_refs:
+                    passage_obj["entities"] = entity_refs
+
+                final_result["passages"].append(passage_obj)
+
+                passage_index = passage.get("passage_index")
+                if isinstance(passage_index, int):
+                    passage_index_map[page_no][passage_index] = passage_id
+                passage_index_map[page_no][idx] = passage_id
+
+            # 表格
+            for idx, table in enumerate(payload.get("tables", [])):
+                headers = table.get("headers") or table.get("columns") or []
+                rows = table.get("rows") or table.get("data") or []
+                if not headers and not rows:
+                    continue
+
+                table_id = table.get("table_id") or hashlib.md5(
+                    f"{pdf_name}|table|{page_no}|{idx}".encode()
+                ).hexdigest()[:16]
+
+                if table_id in table_ids:
+                    continue
+                table_ids.add(table_id)
+
+                table_obj: Dict[str, Any] = {
+                    "table_id": table_id,
+                    "title": table.get("title") or f"Table {page_no}-{idx+1}",
+                    "page": page_no,
+                    "headers": headers,
+                    "rows": rows,
+                    "provenance": table.get("provenance") or {"page": page_no}
+                }
+                if table.get("description"):
+                    table_obj["description"] = table["description"]
+
+                final_result["data"]["tables"].append(table_obj)
+
+            # 数值数据
+            for idx, num in enumerate(payload.get("numerical_data", [])):
+                context = num.get("context") or num.get("label")
+                numeric_value, raw_text, is_percentage = self._coerce_to_number(
+                    num.get("value"), num.get("value_text")
+                )
+                if context is None or numeric_value is None:
+                    continue
+
+                unit = num.get("unit") or self._infer_unit_from_value_text(raw_text, is_percentage)
+                metric_type = self._infer_metric_type(
+                    num.get("metric_type"), unit, context, raw_text, is_percentage
+                )
+
+                key = (context, numeric_value, unit, page_no)
+                if key in num_seen_keys:
+                    continue
+                num_seen_keys.add(key)
+
+                num_id = num.get("num_id") or hashlib.md5(
+                    f"{pdf_name}|num|{page_no}|{context}|{numeric_value}".encode()
+                ).hexdigest()[:16]
+
+                provenance = num.get("provenance") or {"page": page_no}
+                provenance.setdefault("page", page_no)
+
+                passage_ref = num.get("passage_index")
+                passage_id = None
+                if isinstance(passage_ref, int):
+                    passage_id = self._lookup_passage_id(passage_index_map, page_no, passage_ref)
+                if not passage_id and passage_index_map.get(page_no):
+                    passage_id = next(iter(passage_index_map[page_no].values()), None)
+                if passage_id:
+                    provenance.setdefault("passage_id", passage_id)
+
+                num_obj: Dict[str, Any] = {
+                    "num_id": num_id,
+                    "context": context,
+                    "metric_type": metric_type,
+                    "unit": unit or "unitless",
+                    "value": numeric_value,
+                    "value_text": raw_text or str(num.get("value")),
+                    "provenance": provenance
+                }
+
+                if num.get("scale"):
+                    num_obj["scale"] = num["scale"]
+                if num.get("multiplier") is not None:
+                    num_obj["multiplier"] = num["multiplier"]
+                if num.get("rounding") is not None:
+                    num_obj["rounding"] = num["rounding"]
+                if num.get("as_of"):
+                    num_obj["as_of"] = num["as_of"]
+                if num.get("fiscal_period"):
+                    num_obj["fiscal_period"] = num["fiscal_period"]
+
+                entity_ref = self._resolve_entity_reference(
+                    num.get("entity") or num.get("entity_name") or num.get("entity_id"),
+                    entity_map,
+                    alias_index
+                )
+                if entity_ref:
+                    num_obj["entity_id"] = entity_ref
+
+                final_result["data"]["numerical_data"].append(num_obj)
+                num_id_set.add(num_id)
+
+            # 主张（claims）
+            for idx, claim in enumerate(payload.get("claims", [])):
+                text = claim.get("text") or claim.get("claim")
+                if not text:
+                    continue
+
+                passage_ref = claim.get("passage_id")
+                if not passage_ref:
+                    passage_index = claim.get("passage_index")
+                    passage_ref = self._lookup_passage_id(passage_index_map, page_no, passage_index) if isinstance(passage_index, int) else None
+                    if not passage_ref and passage_index_map.get(page_no):
+                        passage_ref = next(iter(passage_index_map[page_no].values()), None)
+                if not passage_ref:
+                    continue
+
+                claim_id = claim.get("claim_id") or hashlib.md5(
+                    f"{pdf_name}|claim|{page_no}|{idx}|{text}".encode()
+                ).hexdigest()[:16]
+
+                label = claim.get("label") or "other"
+                if label not in claim_labels:
+                    label = "other"
+
+                claim_obj: Dict[str, Any] = {
+                    "claim_id": claim_id,
+                    "text": text.strip(),
+                    "label": label,
+                    "passage_id": passage_ref
+                }
+
+                sentiment = claim.get("sentiment")
+                if sentiment in sentiment_labels:
+                    claim_obj["sentiment"] = sentiment
+
+                evidence = claim.get("evidence")
+                if isinstance(evidence, dict):
+                    cleaned_evidence: Dict[str, List[str]] = {}
+                    if evidence.get("figure_ids"):
+                        cleaned_evidence["figure_ids"] = [fid for fid in evidence["figure_ids"] if fid in figures_index]
+                    if evidence.get("table_ids"):
+                        cleaned_evidence["table_ids"] = [tid for tid in evidence["table_ids"] if tid in table_ids]
+                    if evidence.get("num_ids"):
+                        cleaned_evidence["num_ids"] = [nid for nid in evidence["num_ids"] if nid in num_id_set]
+                    if cleaned_evidence:
+                        claim_obj["evidence"] = cleaned_evidence
+
+                final_result["data"]["claims"].append(claim_obj)
+
+            # 关系（relations）
+            for idx, relation in enumerate(payload.get("relations", [])):
+                subject = relation.get("subject")
+                predicate = relation.get("predicate")
+                obj = relation.get("object")
+                if not (subject and predicate and obj):
+                    continue
+
+                rel_id = relation.get("rel_id") or hashlib.md5(
+                    f"{pdf_name}|rel|{page_no}|{idx}|{subject}|{predicate}|{obj}".encode()
+                ).hexdigest()[:16]
+
+                relation_obj: Dict[str, Any] = {
+                    "rel_id": rel_id,
+                    "subject": self._resolve_relation_end(subject, entity_map, alias_index),
+                    "predicate": predicate,
+                    "object": self._resolve_relation_end(obj, entity_map, alias_index)
+                }
+
+                provenance = relation.get("provenance") or {}
+                passage_index = relation.get("passage_index")
+                if isinstance(passage_index, int):
+                    passage_ref = self._lookup_passage_id(passage_index_map, page_no, passage_index)
+                    if passage_ref:
+                        provenance = dict(provenance)
+                        provenance["passage_id"] = passage_ref
+                if provenance:
+                    provenance.setdefault("page", page_no)
+                    relation_obj["provenance"] = provenance
+                else:
+                    relation_obj["provenance"] = {"page": page_no}
+
+                final_result["data"]["relations"].append(relation_obj)
+
+        # 汇总信息
+        final_result["data"]["extraction_summary"]["figures_count"] = len(final_result["data"]["figures"])
+        final_result["data"]["extraction_summary"]["tables_count"] = len(final_result["data"]["tables"])
+        final_result["data"]["extraction_summary"]["numerical_data_count"] = len(final_result["data"]["numerical_data"])
+
+        # 更新处理元数据
+        extraction_run = final_result["doc"].setdefault("extraction_run", {})
+        extraction_run["pipeline_steps"] = ["ocr", "page_llm_extraction", "aggregation"]
+        extraction_run["synthesis_model"] = config.MODELS.get("gemini", "google/gemini-2.5-flash")
+
+        metadata = extraction_run.setdefault("processing_metadata", {})
+        metadata.update({
+            "pages_processed": page_count,
+            "successful_pages": sum(1 for payload in page_payloads if payload.get("passages")),
+            "page_tasks": len(page_payloads),
+            "figure_count": len(final_result["data"]["figures"]),
+            "page_level_strategy": "per_page_llm",
+            "failed_pages": sum(1 for payload in page_payloads if not payload.get("passages")),
+            "aggregation_timestamp": datetime.now().isoformat()
+        })
+
+        return final_result
+
     def _create_minimal_doc(self, pdf_name: str, page_count: int,
                            date_str: str, publication: str) -> Dict:
         """创建最小doc结构"""
@@ -895,6 +1430,240 @@ class BatchPDFProcessor:
                 "numerical_data_count": 0
             }
         }
+
+    def _merge_doc_metadata(self, base: Dict[str, Any], update: Dict[str, Any]) -> Dict[str, Any]:
+        merged = dict(base) if isinstance(base, dict) else {}
+        if not isinstance(update, dict):
+            return merged
+        for key, value in update.items():
+            if value in (None, "", [], {}):
+                continue
+            if key in {"tickers", "symbols"}:
+                merged.setdefault("tickers", [])
+                if isinstance(value, list):
+                    merged["tickers"].extend(value)
+                else:
+                    merged["tickers"].append(value)
+            else:
+                merged[key] = value
+        return merged
+
+    def _normalize_entity_name(self, name: Optional[str]) -> Optional[str]:
+        if not name or not isinstance(name, str):
+            return None
+        return re.sub(r"\s+", " ", name).strip()
+
+    def _ensure_unique_list(self, items: Any) -> List[str]:
+        if not items:
+            return []
+        if not isinstance(items, list):
+            items = [items]
+        seen = set()
+        unique: List[str] = []
+        for item in items:
+            if item is None:
+                continue
+            value = item.strip() if isinstance(item, str) else str(item)
+            if not value:
+                continue
+            key = value.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            unique.append(value)
+        return unique
+
+    def _register_entity_aliases(self, alias_index: Dict[str, str], entity: Dict[str, Any]) -> None:
+        entity_id = entity.get("entity_id")
+        if not entity_id:
+            return
+        name = entity.get("name")
+        if isinstance(name, str) and name.strip():
+            alias_index[name.strip().lower()] = entity_id
+        ticker = entity.get("ticker")
+        if isinstance(ticker, str) and ticker.strip():
+            alias_index[ticker.strip().lower()] = entity_id
+        for alias in entity.get("aliases", []) or []:
+            if isinstance(alias, str) and alias.strip():
+                alias_index[alias.strip().lower()] = entity_id
+
+    def _resolve_entity_reference(
+        self,
+        reference: Any,
+        entity_map: Dict[str, Dict],
+        alias_index: Dict[str, str]
+    ) -> Optional[str]:
+        if not reference:
+            return None
+        if isinstance(reference, dict):
+            if reference.get("entity_id"):
+                return reference["entity_id"]
+            name = reference.get("name") or reference.get("text") or reference.get("subject") or reference.get("object")
+        else:
+            name = str(reference)
+
+        if not name:
+            return None
+        key = name.strip().lower()
+        if key in entity_map:
+            return entity_map[key]["entity_id"]
+        if key in alias_index:
+            return alias_index[key]
+        return None
+
+    def _lookup_passage_id(
+        self,
+        passage_index_map: Dict[int, Dict[int, str]],
+        page_no: int,
+        passage_index: Optional[int]
+    ) -> Optional[str]:
+        if passage_index is None:
+            return None
+        page_map = passage_index_map.get(page_no)
+        if not page_map:
+            return None
+        for candidate in [passage_index, passage_index - 1, passage_index + 1]:
+            if isinstance(candidate, int) and candidate in page_map:
+                return page_map[candidate]
+        return None
+
+    def _coerce_to_number(self, value: Any, value_text: Optional[str]) -> Tuple[Optional[float], Optional[str], bool]:
+        if isinstance(value, (int, float)):
+            return float(value), value_text if value_text is not None else str(value), False
+
+        candidate_text = None
+        if isinstance(value, str) and value.strip():
+            candidate_text = value.strip()
+        elif isinstance(value_text, str) and value_text.strip():
+            candidate_text = value_text.strip()
+        elif value is not None:
+            candidate_text = str(value)
+
+        if not candidate_text:
+            return None, value_text, False
+
+        text = candidate_text.strip()
+        negative = False
+        if text.startswith("(") and text.endswith(")"):
+            negative = True
+            text = text[1:-1]
+
+        is_percentage = "%" in text or "％" in text
+        cleaned = re.sub(r"[^0-9\.\-]", "", text)
+        if cleaned.count('-') > 1:
+            cleaned = cleaned.replace('-', '')
+            cleaned = '-' + cleaned
+
+        if not cleaned or cleaned in {"-", "."}:
+            return None, candidate_text, is_percentage
+
+        try:
+            number = float(cleaned)
+            if negative and number > 0:
+                number = -number
+            if is_percentage and abs(number) > 1.5:
+                number = number / 100.0
+            return number, candidate_text, is_percentage
+        except ValueError:
+            return None, candidate_text, is_percentage
+
+    def _infer_unit_from_value_text(self, value_text: Optional[str], is_percentage: bool) -> str:
+        if is_percentage:
+            return "%"
+        if not value_text:
+            return "unitless"
+        lower = value_text.lower()
+        if "$" in value_text or "usd" in lower:
+            return "USD"
+        if "eur" in lower or "€" in value_text:
+            return "EUR"
+        if "gbp" in lower or "£" in value_text:
+            return "GBP"
+        if "cny" in lower or "rmb" in lower or "¥" in value_text or "元" in value_text:
+            return "CNY"
+        if "jpy" in lower:
+            return "JPY"
+        return "unitless"
+
+    def _infer_metric_type(
+        self,
+        metric_type: Optional[str],
+        unit: Optional[str],
+        context: str,
+        value_text: Optional[str],
+        is_percentage: bool
+    ) -> str:
+        allowed = {"currency", "percentage", "basis_points", "multiple", "count", "ratio", "per_share", "duration", "other"}
+        if metric_type in allowed:
+            return metric_type
+
+        text = f"{unit or ''} {context or ''} {value_text or ''}".lower()
+        if is_percentage or "%" in (unit or "") or "percent" in text or "margin" in text or "growth" in text or "同比" in text or "环比" in text:
+            return "percentage"
+        if any(token in text for token in ["$", "usd", "eur", "¥", "cny", "rmb", "million", "billion", "千", "亿"]):
+            return "currency"
+        if "basis point" in text or "bp" in text:
+            return "basis_points"
+        if "per share" in text or "/share" in text or "每股" in text:
+            return "per_share"
+        if "ratio" in text or "multiple" in text or "倍" in text:
+            return "ratio"
+        if any(word in text for word in ["unit", "units", "shipments", "customers", "stores", "employees", "people", "台", "辆", "份"]):
+            return "count"
+        if any(word in text for word in ["year", "quarter", "month", "week", "day", "hour", "个月", "季度"]):
+            return "duration"
+        return "other"
+
+    def _resolve_relation_end(self, value: Any, entity_map: Dict[str, Dict], alias_index: Dict[str, str]) -> str:
+        entity_id = self._resolve_entity_reference(value, entity_map, alias_index)
+        if entity_id:
+            return entity_id
+        if isinstance(value, dict):
+            for key in ["name", "text", "subject", "object"]:
+                if value.get(key):
+                    return str(value[key])
+        return str(value) if value is not None else ""
+
+    def _detect_language(self, text: str) -> str:
+        if not text:
+            return "en"
+        chinese_chars = len(re.findall(r"[\u4e00-\u9fff]", text))
+        latin_chars = len(re.findall(r"[A-Za-z]", text))
+        return "zh" if chinese_chars > latin_chars else "en"
+
+    def _extract_doc_metadata(self, markdown_content: str, pdf_name: str, date_str: Optional[str]) -> Dict[str, Any]:
+        metadata: Dict[str, Any] = {}
+        title_match = re.search(r"^#\s*(.+)", markdown_content, re.MULTILINE)
+        if title_match:
+            metadata["title"] = title_match.group(1).strip()
+        else:
+            first_line = next((line.strip() for line in markdown_content.splitlines() if line.strip()), pdf_name)
+            metadata["title"] = first_line[:200]
+
+        if date_str:
+            metadata["report_date"] = date_str
+
+        metadata["language"] = self._detect_language(markdown_content)
+        metadata["word_count"] = len(re.findall(r"\w+", markdown_content))
+        metadata["full_text"] = markdown_content
+
+        ticker_candidates: set = set()
+        ticker_patterns = [
+            r"Ticker[s]?:\s*([A-Z0-9\-\s,;]+)",
+            r"股票代码[:：]\s*([A-Z0-9\-\s,;]+)"
+        ]
+        for pattern in ticker_patterns:
+            for match in re.finditer(pattern, markdown_content):
+                raw = match.group(1)
+                parts = re.split(r"[,;\s]+", raw)
+                for part in parts:
+                    ticker = part.strip().upper()
+                    if ticker and 1 <= len(ticker) <= 6:
+                        ticker_candidates.add(ticker)
+        if ticker_candidates:
+            metadata["tickers"] = sorted(ticker_candidates)
+
+        return metadata
 
     async def _call_model_with_prompt(self, processor: OpenRouterProcessor,
                                       model_key: str, prompt: str, pdf_name: str) -> Dict:
