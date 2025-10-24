@@ -55,6 +55,12 @@ from jsonschema import validate, ValidationError
 
 # Configuration
 from config import MODEL_PATH, PROMPT, CROP_MODE
+
+# 新增：优化引擎导入
+from md_to_json_engine import MarkdownToJsonEngine
+from batch_figure_processor import BatchFigureProcessor
+from json_merger import JsonMerger
+from md_cleaner import MarkdownCleaner
 # 使用优化后的 config_batch 配置
 try:
     from config_batch import Config as BatchConfig, setup_environment
@@ -686,6 +692,13 @@ class BatchPDFProcessor:
     def __init__(self):
         self.ocr_processor = DeepSeekOCRBatchProcessor()
         self.validator = JSONSchemaValidator(config.SCHEMA_PATH)
+
+        # 新增：优化引擎
+        self.md_cleaner = MarkdownCleaner()
+        self.md_engine = MarkdownToJsonEngine()
+        self.batch_figure_processor = BatchFigureProcessor(batch_size=15)  # 每批15张图
+        self.json_merger = JsonMerger()
+
         self._figure_api_semaphore: Optional[asyncio.Semaphore] = None
         self._setup_directories()
 
