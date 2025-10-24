@@ -58,6 +58,7 @@ from config import MODEL_PATH, PROMPT, CROP_MODE
 from md_to_json_engine import MarkdownToJsonEngine
 from batch_figure_processor import BatchFigureProcessor
 from json_merger import JsonMerger
+from md_cleaner import MarkdownCleaner
 # 使用优化后的 config_batch 配置
 try:
     from config_batch import Config as BatchConfig, setup_environment
@@ -602,6 +603,7 @@ class BatchPDFProcessor:
         self.validator = JSONSchemaValidator(config.SCHEMA_PATH)
 
         # 新增：优化引擎
+        self.md_cleaner = MarkdownCleaner()
         self.md_engine = MarkdownToJsonEngine()
         self.batch_figure_processor = BatchFigureProcessor(batch_size=15)  # 每批15张图
         self.json_merger = JsonMerger()
@@ -675,26 +677,36 @@ class BatchPDFProcessor:
 
             page_count = self._count_pages_from_markdown(markdown_content)
 
-            # ========== 新优化流程：规则引擎 + 批量图表处理 ==========
+            # ========== 新优化流程：MD清洗 + 规则引擎 + 批量图表处理 ==========
 
-            # 3. 使用规则引擎直接转换MD到JSON（无需大模型，极速！）
-            logger.info(f"{Colors.BLUE}步骤2: 规则引擎转换MD到JSON{Colors.RESET}")
+            # 2.5. MD文档清洗（删除无效内容）
+            logger.info(f"{Colors.BLUE}步骤2: MD文档清洗{Colors.RESET}")
+            cleaned_markdown, clean_stats = self.md_cleaner.clean(markdown_content)
+            logger.info(f"{Colors.GREEN}✓ 清洗完成: 减少{clean_stats['reduction_ratio']*100:.1f}%内容, 删除{len(clean_stats['removed_sections'])}个章节{Colors.RESET}")
+
+            # 保存清洗后的MD（可选）
+            cleaned_md_path = os.path.join(ocr_output_dir, f"{pdf_name}_cleaned.md")
+            with open(cleaned_md_path, 'w', encoding='utf-8') as f:
+                f.write(cleaned_markdown)
+
+            # 3. 使用规则引擎直接转换MD到JSON（使用清洗后的MD）
+            logger.info(f"{Colors.BLUE}步骤3: 规则引擎转换MD到JSON{Colors.RESET}")
             base_json = self.md_engine.convert(
-                markdown_content, pdf_name, date_str, publication
+                cleaned_markdown, pdf_name, date_str, publication
             )
             logger.info(f"{Colors.GREEN}✓ 规则引擎转换完成（无API调用）{Colors.RESET}")
 
             # 4. 批量处理图表（一次处理10-20张，大幅提速）
-            logger.info(f"{Colors.BLUE}步骤3: 批量识别图表数据（{len(figure_paths)}张）{Colors.RESET}")
+            logger.info(f"{Colors.BLUE}步骤4: 批量识别图表数据（{len(figure_paths)}张）{Colors.RESET}")
             semaphore = asyncio.Semaphore(config.MAX_CONCURRENCY)
             async with OpenRouterProcessor() as processor:
                 figures_data = await self.batch_figure_processor.process_figures_batch(
-                    processor, figure_paths, semaphore, markdown_content
+                    processor, figure_paths, semaphore, cleaned_markdown
                 )
             logger.info(f"{Colors.GREEN}✓ 批量图表识别完成: {len(figures_data)}/{len(figure_paths)} 张{Colors.RESET}")
 
             # 5. 合并JSON（规则引擎结果 + 图表数据）
-            logger.info(f"{Colors.BLUE}步骤4: 合并JSON数据{Colors.RESET}")
+            logger.info(f"{Colors.BLUE}步骤5: 合并JSON数据{Colors.RESET}")
             best_result = self.json_merger.merge(base_json, figures_data)
 
             # 补充页数到 doc.extraction_run.processing_metadata

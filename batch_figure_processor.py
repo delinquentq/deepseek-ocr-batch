@@ -1,17 +1,27 @@
 #!/usr/bin/env python3
 """
-批量图表处理器
+批量图表处理器 - 适配新JSON Schema
 一次性处理10-20张图表，大幅提升速度和降低API调用成本
 
-核心优化：
-1. 批量编码图片为base64
-2. 一次API调用处理多张图片
-3. 解析批量返回的JSON
-4. 智能错误处理和重试
+输出格式：
+{
+  "id": "chart_0_0",
+  "type": "bar|line|pie|table|area|scatter|waterfall|composed|gauge",
+  "title": "图表标题",
+  "confidence": 0.95,
+  "data": {
+    "labels": [...],  // 或 "columns" (表格)
+    "datasets": [...]  // 或 "rows" (表格)
+  },
+  "options": {
+    "source": "...",
+    "height_estimate": 250,
+    "page_break": "avoid"
+  }
+}
 """
 
 import base64
-import hashlib
 import asyncio
 import logging
 from pathlib import Path
@@ -23,7 +33,7 @@ logger = logging.getLogger(__name__)
 
 
 class BatchFigureProcessor:
-    """批量图表处理器"""
+    """批量图表处理器 - 输出新Schema格式"""
 
     def __init__(self, batch_size: int = 15):
         """
@@ -62,9 +72,9 @@ class BatchFigureProcessor:
         try:
             name = Path(image_path).name
             page_str = name.split('_')[0]
-            return int(page_str) + 1  # 0-based to 1-based
+            return int(page_str)  # 保持0-based（与chart_id一致）
         except Exception:
-            return 1
+            return 0
 
     def _infer_figure_index_from_path(self, image_path: str) -> int:
         """从路径推断图表索引"""
@@ -88,7 +98,7 @@ class BatchFigureProcessor:
             markdown_content: Markdown内容（用于提取图表标题和来源）
 
         Returns:
-            图表数据列表
+            图表数据列表（新Schema格式）
         """
         if not image_paths:
             return []
@@ -137,7 +147,7 @@ class BatchFigureProcessor:
             if not encoded_images:
                 return []
 
-            # 2. 构建批量处理的prompt（包含上下文信息）
+            # 2. 构建批量处理的prompt（新Schema格式）
             messages = self._build_batch_messages(encoded_images, figure_contexts or {})
 
             # 3. 调用API
@@ -145,21 +155,21 @@ class BatchFigureProcessor:
                 resp = await processor.call_model(
                     "gemini",
                     messages,
-                    max_tokens=8192  # 批量处理需要更多tokens（支持长JSON数组）
+                    max_tokens=8192  # 批量处理需要更多tokens
                 )
                 content = resp['choices'][0]['message']['content']
 
-                # 4. 解析批量返回的JSON
-                figures_data = self._parse_batch_response(content, encoded_images)
-                return figures_data
+                # 4. 解析批量返回的JSON（新Schema格式）
+                charts_data = self._parse_batch_response(content, encoded_images)
+                return charts_data
 
             except Exception as e:
                 logger.error(f"批量API调用失败: {e}")
                 raise
 
     def _build_batch_messages(self, encoded_images: List[Dict], figure_contexts: Dict[str, Dict]) -> List[Dict]:
-        """构建批量处理的消息"""
-        # 构建图片列表描述（包含标题和来源）
+        """构建批量处理的消息（新Schema格式）"""
+        # 构建图片列表描述
         image_list_parts = []
         for img in encoded_images:
             img_path = img['path']
@@ -185,25 +195,30 @@ class BatchFigureProcessor:
 图片列表：
 {image_list}
 
-对每张图表，提取以下信息：
-1. 图表类型（type）：bar/line/pie/area/scatter/heatmap/waterfall/combo/table/other
-2. 图表标题（title）
-3. 坐标轴信息（axes）：x轴和y轴的类型、标签、单位
-4. 数据系列（series）：每个系列包含name、unit、values数组
+对每张图表，提取以下信息并按照指定格式输出：
 
-输出格式（JSON数组）：
+**输出格式（JSON数组）：**
 [
   {{
     "image_index": 0,
-    "type": "bar",
+    "type": "bar",  // 类型: bar/line/pie/table/area/scatter/waterfall/composed/gauge/stock_price
     "title": "Revenue Growth",
-    "axes": {{
-      "x": {{"type": "category", "labels": ["Q1", "Q2", "Q3", "Q4"]}},
-      "y": {{"unit": "USD million", "range": {{"min": 0, "max": 100}}}}
+    "confidence": 0.95,  // 识别置信度 (0-1)
+    "data": {{
+      "labels": ["Q1", "Q2", "Q3", "Q4"],  // X轴标签（表格用"columns"）
+      "datasets": [  // 数据集（表格用"rows"）
+        {{
+          "label": "Revenue",
+          "values": [20, 30, 45, 60],
+          "color": "#007bff"  // 可选
+        }}
+      ]
     }},
-    "series": [
-      {{"name": "Revenue", "unit": "USD million", "values": [20, 30, 45, 60]}}
-    ]
+    "options": {{
+      "source": "Company Reports",  // 数据来源
+      "height_estimate": 250,  // 预估高度（像素）
+      "page_break": "avoid"  // 分页控制
+    }}
   }},
   {{
     "image_index": 1,
@@ -211,11 +226,32 @@ class BatchFigureProcessor:
   }}
 ]
 
-**重要：**
-- 必须输出JSON数组，包含所有图表的数据
-- image_index对应图片顺序（从0开始）
-- 如果某张图无法识别，设置type为"other"，series为空数组
-- 仅输出JSON数组，不要其他文字
+**重要说明：**
+1. **type字段**：必须是以下之一：bar, line, pie, table, area, scatter, waterfall, composed, gauge, stock_price
+2. **股价图识别**：如果图表是股价走势图（K线图、蜡烛图、股票价格曲线等），请设置type为"stock_price"，并将data设为空对象{{}}
+3. **表格类型**：如果是table，data结构为：
+   {{
+     "columns": ["列1", "列2", "列3"],
+     "rows": [
+       {{"列1": "值1", "列2": "值2", "列3": "值3"}},
+       ...
+     ]
+   }}
+4. **confidence**：根据图表清晰度和识别准确度评估（0.0-1.0）
+5. **labels**：X轴标签或类别名称
+6. **datasets**：每个数据系列包含label、values、可选的color
+7. **options.source**：如果已知来源，填入；否则留空字符串
+8. **image_index**：对应图片顺序（从0开始）
+9. 如果某张图无法识别，设置type为"gauge"，confidence为0.5，data为空结构
+
+**股价图特征（请识别并跳过）：**
+- K线图/蜡烛图（红绿柱状图）
+- 股票价格走势曲线
+- 带有成交量柱状图的价格图
+- X轴为日期，Y轴为价格的时间序列图
+- 包含"股价"、"Price"、"Stock"等关键词的图表
+
+**仅输出JSON数组，不要其他文字。**
 
 现在开始分析："""
             }
@@ -231,7 +267,7 @@ class BatchFigureProcessor:
         return [
             {
                 "role": "system",
-                "content": "你是专业的图表数据批量提取专家。请严格按照JSON数组格式输出所有图表的数据。"
+                "content": "你是专业的图表数据批量提取专家。请严格按照新的JSON Schema格式输出所有图表的数据。"
             },
             {
                 "role": "user",
@@ -241,19 +277,19 @@ class BatchFigureProcessor:
 
     def _parse_batch_response(self, response_text: str,
                               encoded_images: List[Dict]) -> List[Dict]:
-        """解析批量返回的JSON"""
+        """解析批量返回的JSON（新Schema格式）"""
         try:
             # 尝试提取JSON数组
-            figures_array = self._extract_json_array(response_text)
+            charts_array = self._extract_json_array(response_text)
 
-            if not figures_array:
+            if not charts_array:
                 logger.warning("无法解析批量响应，返回空列表")
                 return []
 
-            # 补充必需字段
+            # 转换为新Schema格式
             results = []
-            for fig_data in figures_array:
-                img_idx = fig_data.get("image_index", 0)
+            for chart_data in charts_array:
+                img_idx = chart_data.get("image_index", 0)
 
                 # 查找对应的图片信息
                 img_info = None
@@ -266,19 +302,54 @@ class BatchFigureProcessor:
                     logger.warning(f"找不到image_index={img_idx}的图片信息")
                     continue
 
-                # 补充字段
-                fig_data["page"] = img_info["page"]
-                fig_data["figure_id"] = hashlib.md5(
-                    f"{img_info['path']}_{img_info['page']}".encode()
-                ).hexdigest()[:16]
+                # 构建新Schema格式的chart对象
+                chart_id = f"chart_{img_info['page']}_{img_info['figure_index']}"
 
-                if "provenance" not in fig_data:
-                    fig_data["provenance"] = {"page": img_info["page"]}
+                # 确保type字段有效
+                chart_type = chart_data.get("type", "bar")
+                valid_types = ["bar", "line", "pie", "table", "area", "scatter", "waterfall", "composed", "gauge"]
+                if chart_type not in valid_types:
+                    chart_type = "bar"  # 默认为bar
 
-                # 移除临时字段
-                fig_data.pop("image_index", None)
+                # 跳过股价图
+                if chart_type == "stock_price":
+                    logger.info(f"跳过股价图: {chart_id}")
+                    continue
 
-                results.append(fig_data)
+                # 生成正确的figure_id (hash格式)
+                figure_id = hashlib.md5(f"{img_info['path']}_{img_info['page']}".encode()).hexdigest()[:16]
+
+                # 构建v1.3.1格式的figure对象
+                new_chart = {
+                    "figure_id": figure_id,
+                    "type": chart_type,
+                    "title": chart_data.get("title", ""),
+                    "page": img_info["page"] + 1,  # 转为1-based
+                    "series": chart_data.get("data", {}).get("datasets", []),
+                    "axes": chart_data.get("data", {}).get("axes", {}),
+                    "provenance": {"page": img_info["page"] + 1}
+                }
+
+                # 添加source字段(从options或context中获取)
+                source = chart_data.get("options", {}).get("source", "")
+                if not source:
+                    # 从context中获取
+                    img_path = img_info['path']
+                    context = figure_contexts.get(img_path, {})
+                    source = context.get('source', '')
+                if source:
+                    new_chart["source"] = source
+
+                # 如果没有axes,从data中提取
+                if not new_chart["axes"] and "data" in chart_data:
+                    data = chart_data["data"]
+                    if "labels" in data:
+                        new_chart["axes"] = {
+                            "x": {"labels": data["labels"]},
+                            "y": {}
+                        }
+
+                results.append(new_chart)
 
             return results
 
@@ -296,11 +367,10 @@ class BatchFigureProcessor:
         except json.JSONDecodeError:
             pass
 
-        # 策略2: 提取markdown代码块中的JSON数组（支持多行）
-        # 使用非贪婪匹配和DOTALL标志
+        # 策略2: 提取markdown代码块中的JSON数组
         code_block_patterns = [
-            r'```json\s*\n(\[[\s\S]*?\])\s*\n```',  # ```json\n[...]\n```
-            r'```\s*\n(\[[\s\S]*?\])\s*\n```',      # ```\n[...]\n```
+            r'```json\s*\n(\[[\s\S]*?\])\s*\n```',
+            r'```\s*\n(\[[\s\S]*?\])\s*\n```',
         ]
 
         for pattern in code_block_patterns:
@@ -337,13 +407,14 @@ class BatchFigureProcessor:
     async def _process_single_figure(self, processor, image_path: str,
                                      semaphore: asyncio.Semaphore,
                                      context: Dict = None) -> Optional[Dict]:
-        """处理单张图片（降级方案）"""
+        """处理单张图片（降级方案，新Schema格式）"""
         async with semaphore:
             try:
                 with open(image_path, 'rb') as f:
                     b64 = base64.b64encode(f.read()).decode('utf-8')
 
                 page_idx = self._infer_page_from_path(image_path)
+                fig_idx = self._infer_figure_index_from_path(image_path)
                 context = context or {}
                 title_hint = context.get('title', '')
                 source_hint = context.get('source', '')
@@ -358,7 +429,7 @@ class BatchFigureProcessor:
                 messages = [
                     {
                         "role": "system",
-                        "content": "你是专业的图表数据提取专家。"
+                        "content": "你是专业的图表数据提取专家。请按照新的JSON Schema格式输出。"
                     },
                     {
                         "role": "user",
@@ -369,14 +440,33 @@ class BatchFigureProcessor:
 
 输出格式：
 {{
-  "type": "bar/line/pie/table/other",
+  "type": "bar",  // bar/line/pie/table/area/scatter/waterfall/composed/gauge/stock_price
   "title": "图表标题",
-  "source": "数据来源",
-  "axes": {{"x": {{}}, "y": {{}}}},
-  "series": [{{"name": "", "unit": "", "values": []}}]
+  "confidence": 0.95,
+  "data": {{
+    "labels": ["Q1", "Q2", "Q3", "Q4"],  // 表格用"columns"
+    "datasets": [  // 表格用"rows"
+      {{"label": "Revenue", "values": [20, 30, 45, 60], "color": "#007bff"}}
+    ]
+  }},
+  "options": {{
+    "source": "数据来源",
+    "height_estimate": 250,
+    "page_break": "avoid"
+  }}
 }}
 
-**重要：如果已知标题和来源，请在JSON中包含这些信息。**
+**重要：**
+- 如果是表格，data结构为: {{"columns": [...], "rows": [...]}}
+- **如果是股价图（K线图、蜡烛图、股票价格走势等），设置type为"stock_price"，data为空对象{{}}**
+- confidence为识别置信度（0-1）
+- 如果已知标题和来源，请在JSON中包含
+
+**股价图特征：**
+- K线图/蜡烛图（红绿柱状图）
+- 股票价格走势曲线
+- 带有成交量柱状图的价格图
+- X轴为日期，Y轴为价格
 
 仅输出JSON，不要其他文字。"""
                             },
@@ -388,26 +478,51 @@ class BatchFigureProcessor:
                     }
                 ]
 
-                resp = await processor.call_model("gemini", messages, max_tokens=4096)  # 增加到4096
+                resp = await processor.call_model("gemini", messages, max_tokens=4096)
                 content = resp['choices'][0]['message']['content']
 
                 # 提取JSON
-                figure_data = self._extract_json_from_response(content)
-                if figure_data:
-                    figure_data["page"] = page_idx
-                    figure_data["figure_id"] = hashlib.md5(
-                        f"{image_path}_{page_idx}".encode()
-                    ).hexdigest()[:16]
-                    if "provenance" not in figure_data:
-                        figure_data["provenance"] = {"page": page_idx}
+                chart_data = self._extract_json_from_response(content)
+                if chart_data:
+                    chart_type = chart_data.get("type", "bar")
 
-                    # 如果模型没有提取到标题/来源，使用已知的
-                    if not figure_data.get("title") and title_hint:
-                        figure_data["title"] = title_hint
-                    if not figure_data.get("source") and source_hint:
-                        figure_data["source"] = source_hint
+                    # 跳过股价图
+                    if chart_type == "stock_price":
+                        logger.info(f"跳过股价图: {image_path}")
+                        return None
 
-                    return figure_data
+                    valid_types = ["bar", "line", "pie", "table", "area", "scatter", "waterfall", "composed", "gauge"]
+                    if chart_type not in valid_types:
+                        chart_type = "bar"
+
+                    # 生成正确的figure_id (hash格式)
+                    figure_id = hashlib.md5(f"{image_path}_{page_idx}".encode()).hexdigest()[:16]
+
+                    new_chart = {
+                        "figure_id": figure_id,
+                        "type": chart_type,
+                        "title": chart_data.get("title", title_hint or ""),
+                        "page": page_idx + 1,  # 转为1-based
+                        "series": chart_data.get("data", {}).get("datasets", []),
+                        "axes": chart_data.get("data", {}).get("axes", {}),
+                        "provenance": {"page": page_idx + 1}
+                    }
+
+                    # 添加source字段
+                    source = chart_data.get("options", {}).get("source", "") or source_hint
+                    if source:
+                        new_chart["source"] = source
+
+                    # 如果没有axes,从data中提取
+                    if not new_chart["axes"] and "data" in chart_data:
+                        data = chart_data["data"]
+                        if "labels" in data:
+                            new_chart["axes"] = {
+                                "x": {"labels": data["labels"]},
+                                "y": {}
+                            }
+
+                    return new_chart
 
             except Exception as e:
                 logger.error(f"单张图片处理失败 {image_path}: {e}")
@@ -476,7 +591,7 @@ class BatchFigureProcessor:
             if match:
                 # 提取图片引用后的标题和来源
                 start_pos = match.end()
-                # 查找接下来的200个字符
+                # 查找接下来的500个字符
                 context_text = markdown_content[start_pos:start_pos + 500]
 
                 # 提取标题 (FIGURE X. ...)
@@ -503,7 +618,6 @@ if __name__ == "__main__":
 
     async def test():
         processor = BatchFigureProcessor(batch_size=10)
-        # 这里需要实际的processor和图片路径进行测试
-        print("BatchFigureProcessor 已创建，批次大小: 10")
+        print("BatchFigureProcessor 已创建（新Schema格式），批次大小: 10")
 
     asyncio.run(test())
