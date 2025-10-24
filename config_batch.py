@@ -76,6 +76,7 @@ class APIConfig:
     LLM_TEMPERATURE = 0.0  # 降低温度确保输出稳定性
     LLM_TOP_P = 0.95  # 提高采样范围
     LLM_MAX_TOKENS = 8000  # 降低到8000加快响应（从16000降低，提升2倍速度）
+    LLM_MAX_TOKENS_IMAGE = 1536  # 单独的图像请求上限（从2048进一步下调）
 
 # ==================== 文件路径配置 ====================
 class PathConfig:
@@ -113,6 +114,13 @@ class ProcessingConfig:
     ENABLE_QUALITY_CHECK = True
     MIN_FIGURE_COUNT = 0  # 降低最小图表要求（从1到0）
     MIN_CONTENT_LENGTH = 50  # 降低最小内容长度（从100到50）
+
+    # 图像预处理与压缩
+    FIGURE_MAX_DIMENSION = 1024  # 缩放统一尺寸
+    FIGURE_ENABLE_DENOISE = True  # 启用中值滤波降噪
+    FIGURE_JPEG_QUALITY = 70  # 最终输出图像质量
+    FIGURE_WEBP_QUALITY = 60  # 临时压缩质量
+    FIGURE_TEXT_FALLBACK_MAX_CHARS = 2000  # 文本兜底内容长度限制
 
     # 错误处理
     CONTINUE_ON_ERROR = True  # 单个文件失败时继续处理其他文件
