@@ -651,14 +651,16 @@ class BatchPDFProcessor:
         else:
             pdf_name_clean = pdf_name
 
-        # 构建输出目录结构：日期/刊物/文件名
+        # 构建输出目录结构
+        # OCR: 日期/刊物/文件名/ (需要文件夹存放MD和images)
+        # JSON: 日期/刊物/ (直接放JSON文件)
         if date_str:
             ocr_output_dir = str(Path(config.OUTPUT_DIR) / date_str / publication / pdf_name_clean)
-            json_output_dir = str(Path(config.OUTPUT_REPORT_DIR) / date_str / publication / pdf_name_clean)
+            json_output_dir = str(Path(config.OUTPUT_REPORT_DIR) / date_str / publication)
         else:
             # 如果没有日期，使用原有结构
             ocr_output_dir = str(Path(config.OUTPUT_DIR) / rel_parent / pdf_name_clean)
-            json_output_dir = str(Path(config.OUTPUT_REPORT_DIR) / rel_parent / pdf_name_clean)
+            json_output_dir = str(Path(config.OUTPUT_REPORT_DIR) / rel_parent)
 
         os.makedirs(ocr_output_dir, exist_ok=True)
         os.makedirs(json_output_dir, exist_ok=True)
