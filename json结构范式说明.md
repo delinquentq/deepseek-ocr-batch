@@ -4,6 +4,13 @@
 
 # 📋 项目JSON输出结构范式详细说明
 
+## ⚙️ 使用说明：结构化生成流程
+
+- LLM 通过 `response_format` 直接绑定到 `json schema.json` 中的 v1.3.1 描述，不再在提示词中内嵌完整 Schema 文本。
+- `_call_model_with_prompt` 会为 OpenRouter 请求附加 `{"type": "json_schema", "json_schema": {"name": "financial_report_schema_v1_3_1", "schema": ...}}`，模型返回的 `message.parsed`/`tool_calls` 将优先被消费。
+- `_extract_json_from_response` 会优先检查结构化字段，若模型仍返回纯文本则回退到原有的 JSON 片段提取策略。
+- 继续使用 `JSONSchemaValidator` 进行严格验证，保持与 `json schema.json` 完全一致的字段与类型约束。
+
 ## 一、顶层结构概览
 
 这个项目的JSON输出文件包含**5个顶层字段**，每个字段都有严格的类型和嵌套结构：
