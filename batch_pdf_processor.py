@@ -465,15 +465,27 @@ class OpenRouterProcessor:
             pass
 
     async def call_model(self, model_name: str, messages: List[Dict],
-                        max_tokens: int = 4000) -> Dict:
-        """调用OpenRouter模型 (简化版，无流式，无JSON强格式)"""
-        response = await self.client.chat.completions.create(
-            model=config.MODELS[model_name],
-            messages=messages,
-            max_tokens=max_tokens,
-            temperature=0.0,  # 确保输出稳定
-            top_p=0.9
-        )
+                        max_tokens: int = 4000,
+                        response_format: Optional[Dict] = None,
+                        tools: Optional[List[Dict]] = None,
+                        tool_choice: Optional[Any] = None) -> Dict:
+        """调用OpenRouter模型 (支持结构化输出和函数调用)"""
+        request_payload: Dict[str, Any] = {
+            "model": config.MODELS[model_name],
+            "messages": messages,
+            "max_tokens": max_tokens,
+            "temperature": 0.0,  # 确保输出稳定
+            "top_p": 0.9
+        }
+
+        if response_format is not None:
+            request_payload["response_format"] = response_format
+        if tools is not None:
+            request_payload["tools"] = tools
+        if tool_choice is not None:
+            request_payload["tool_choice"] = tool_choice
+
+        response = await self.client.chat.completions.create(**request_payload)
         return response.model_dump()
 
 class JSONSchemaValidator:
@@ -912,17 +924,37 @@ class BatchPDFProcessor:
         ]
         # Gemini 2.5 Flash 支持最大 1M tokens 上下文
         # 使用配置的max_tokens而非硬编码（提升响应速度）
+        response_format = {
+            "type": "json_schema",
+            "json_schema": {
+                "name": "financial_report_schema_v1_3_1",
+                "schema": self.validator.schema
+            }
+        }
         response = await processor.call_model(
             model_key,
             messages,
-            max_tokens=config.api.LLM_MAX_TOKENS  # 使用配置的16000而非65536
+            max_tokens=config.api.LLM_MAX_TOKENS,  # 使用配置的16000而非65536
+            response_format=response_format
         )
-        content = response['choices'][0]['message']['content']
-        json_result = self._extract_json_from_response(content)
+        json_result = self._extract_json_from_response(response)
+        message = (response.get('choices') or [{}])[0].get('message', {})
+        raw_content = message.get('content')
+        if isinstance(raw_content, list):
+            raw_content = "\n".join(
+                part.get('text', '')
+                for part in raw_content
+                if isinstance(part, dict) and part.get('type') == 'text'
+            ).strip()
+        if not raw_content and message.get('parsed') is not None:
+            try:
+                raw_content = json.dumps(message['parsed'], ensure_ascii=False)
+            except TypeError:
+                raw_content = str(message['parsed'])
         return {
             "model": model_key,
             "result": json_result,
-            "raw_response": content,
+            "raw_response": raw_content or "",
             "usage": response.get('usage', {})
         }
 
@@ -930,9 +962,6 @@ class BatchPDFProcessor:
                                             page_count: int, date_str: str, publication: str,
                                             figures_data: List[Dict]) -> str:
         """构建简化的提取提示词（整合文本和图表数据）"""
-        with open(config.SCHEMA_PATH, 'r', encoding='utf-8') as f:
-            schema_content = f.read()
-
         # 构建图表数据摘要
         figures_summary = "\n".join([
             f"- 页{fig.get('page', '?')}: {fig.get('type', 'unknown')}图 - {fig.get('title', '无标题')} ({len(fig.get('series', []))}个数据系列)"
@@ -960,39 +989,21 @@ class BatchPDFProcessor:
 
 ## 输出要求
 
-### 1. 严格遵循Schema v1.3.1
-输出必须是一个完整的JSON对象，严格符合以下Schema：
-```json
-{schema_content}
-```
+**仅输出一个完整的JSON对象，不要包含任何解释文本、markdown标记或其他内容。**
 
-### 2. 关键提取指南
+### 关键字段要求
+- 顶层字段必须包含：`schema_version`、`doc`、`passages`、`entities`、`data`
+- `schema_version` 固定为 "1.3.1"
+- `doc` 至少包含 `doc_id`、`title`、`timestamps`、`extraction_run`
+- `data` 内需提供 `figures`、`tables`、`numerical_data`、`claims`、`relations`、`extraction_summary`
+- `extraction_summary` 中补充 `figures_count`、`tables_count`、`numerical_data_count`
 
-**重要提示：**
-- fiscal_period格式必须为：`FY2024Q4` 或 `CY2025H1`（不能是`1H`、`Q4`等简写）
-- 百分比用0-1表示（如18.2% → 0.182）
-- 所有page字段必须是整数（1到{page_count}）
-- 所有ID字段使用稳定的hash或UUID
-- 时间格式统一为ISO 8601
-
-**必需的顶层字段：**
-- `schema_version`: "1.3.1"
-- `doc`: 文档元数据
-- `passages`: 文本片段数组（至少提取主要段落）
-- `entities`: 实体数组（公司、指数等）
-- `data`: 包含figures/tables/numerical_data/claims/relations/extraction_summary
-
-**数据提取优先级：**
-1. **numerical_data**：提取所有关键数值（收入、利润、增长率等）
-2. **tables**：识别并提取所有表格
-3. **figures**：识别图表并提取数据（如果文本中有图表描述）
-4. **passages**：将文档拆分为可检索的段落
-5. **entities**：识别所有公司、指数等实体
-6. **claims**：提取关键结论和预测
-7. **relations**：提取实体关系
-
-### 3. 输出格式
-**仅输出最终JSON对象，不要包含任何解释文本、markdown标记或其他内容。**
+### 关键注意事项
+- `fiscal_period` 使用完整格式：例如 `FY2024Q4`、`CY2025H1`
+- 百分比转换为 0-1 的小数（如 18.2% → 0.182）
+- 所有 `page` 字段填写 1 到 {page_count} 的整数
+- ID 需稳定（hash 或 UUID），时间统一为 ISO 8601
+- 优先提取 `numerical_data`、`tables` 和 `claims`，并补充必要的 `passages` 与 `entities`
 """
         return prompt
 
@@ -1150,22 +1161,81 @@ class BatchPDFProcessor:
             resp = await processor.call_model("gemini", messages, max_tokens=2048)
             return resp['choices'][0]['message']['content']
 
-    def _extract_json_from_response(self, response_text: str) -> Dict:
-        """从LLM响应中提取JSON对象（增强版，支持markdown代码块和嵌套JSON）"""
+    def _extract_json_from_response(self, response_data: Any) -> Dict:
+        """从LLM响应中提取JSON对象，优先处理结构化返回"""
         import re
 
-        # 策略1: 尝试直接解析
+        # 结构化响应处理
+        if isinstance(response_data, dict):
+            # 如果已经是符合schema的字典，直接返回
+            required_top_level = {"schema_version", "doc", "passages", "entities", "data"}
+            if required_top_level.issubset(set(response_data.keys())):
+                return response_data
+
+            choices = response_data.get("choices") or []
+            if choices:
+                message = choices[0].get("message", {})
+                if isinstance(message, dict):
+                    parsed_payload = message.get("parsed")
+                    if isinstance(parsed_payload, dict):
+                        return parsed_payload
+                    if isinstance(parsed_payload, list):
+                        for item in parsed_payload:
+                            if isinstance(item, dict):
+                                return item
+
+                    tool_calls = message.get("tool_calls") or []
+                    for call in tool_calls:
+                        function_data = call.get("function", {}) if isinstance(call, dict) else {}
+                        arguments = function_data.get("arguments")
+                        if isinstance(arguments, dict):
+                            return arguments
+                        if isinstance(arguments, str):
+                            try:
+                                return json.loads(arguments)
+                            except json.JSONDecodeError:
+                                continue
+
+                    content = message.get("content")
+                    if isinstance(content, list):
+                        text_parts = [
+                            part.get("text", "")
+                            for part in content
+                            if isinstance(part, dict) and part.get("type") == "text"
+                        ]
+                        content = "\n".join(text_parts).strip()
+                    if isinstance(content, str) and content.strip():
+                        return self._extract_json_from_response(content.strip())
+
+            # 如果无法解析，尝试将字典序列化后走文本兜底逻辑
+            try:
+                return self._extract_json_from_response(json.dumps(response_data, ensure_ascii=False))
+            except TypeError:
+                logger.error("响应数据无法序列化为JSON字符串进行解析兜底。")
+                return {}
+
+        if isinstance(response_data, (list, tuple)):
+            for item in response_data:
+                result = self._extract_json_from_response(item)
+                if result:
+                    return result
+            return {}
+
+        if not isinstance(response_data, str):
+            response_text = str(response_data)
+        else:
+            response_text = response_data
+
+        # 文本解析兜底逻辑
         try:
             return json.loads(response_text)
         except json.JSONDecodeError:
             pass
 
-        # 策略2: 提取markdown代码块中的JSON（```json...```）
-        # 使用正则匹配代码块，支持 ```json 或 ``` 开头
         code_block_patterns = [
-            r'```json\s*\n(.*?)\n```',  # ```json\n{...}\n```
-            r'```\s*\n(\{.*?\})\s*\n```',  # ```\n{...}\n```
-            r'```json\s*(.*?)```',  # ```json{...}```（无换行）
+            r'```json\s*\n(.*?)\n```',
+            r'```\s*\n(\{.*?\})\s*\n```',
+            r'```json\s*(.*?)```',
         ]
 
         for pattern in code_block_patterns:
@@ -1177,11 +1247,9 @@ class BatchPDFProcessor:
                 except json.JSONDecodeError:
                     continue
 
-        # 策略3: 手动查找markdown代码块中的JSON（括号匹配）
         code_block_match = re.search(r'```(?:json)?\s*(\{)', response_text, re.DOTALL)
         if code_block_match:
             start_pos = code_block_match.start(1)
-            # 从{开始，使用括号计数找到完整的JSON
             brace_count = 0
             for i in range(start_pos, len(response_text)):
                 if response_text[i] == '{':
@@ -1195,7 +1263,6 @@ class BatchPDFProcessor:
                         except json.JSONDecodeError:
                             break
 
-        # 策略4: 查找第一个完整的JSON对象（从头开始）
         brace_count = 0
         start_idx = -1
         for i, char in enumerate(response_text):
@@ -1209,11 +1276,9 @@ class BatchPDFProcessor:
                     try:
                         return json.loads(response_text[start_idx:i+1])
                     except json.JSONDecodeError:
-                        # 继续查找下一个可能的JSON对象
                         start_idx = -1
                         brace_count = 0
 
-        # 如果都失败，返回空结构
         logger.error(f"无法从响应中提取JSON: {response_text[:200]}...")
         return {}
 
