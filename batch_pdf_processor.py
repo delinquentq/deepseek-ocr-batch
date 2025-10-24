@@ -53,6 +53,11 @@ from jsonschema import validate, ValidationError
 
 # Configuration
 from config import MODEL_PATH, PROMPT, CROP_MODE
+
+# 新增：优化引擎导入
+from md_to_json_engine import MarkdownToJsonEngine
+from batch_figure_processor import BatchFigureProcessor
+from json_merger import JsonMerger
 # 使用优化后的 config_batch 配置
 try:
     from config_batch import Config as BatchConfig, setup_environment
@@ -595,6 +600,12 @@ class BatchPDFProcessor:
     def __init__(self):
         self.ocr_processor = DeepSeekOCRBatchProcessor()
         self.validator = JSONSchemaValidator(config.SCHEMA_PATH)
+
+        # 新增：优化引擎
+        self.md_engine = MarkdownToJsonEngine()
+        self.batch_figure_processor = BatchFigureProcessor(batch_size=15)  # 每批15张图
+        self.json_merger = JsonMerger()
+
         self._setup_directories()
 
     def _setup_directories(self):
@@ -664,61 +675,46 @@ class BatchPDFProcessor:
 
             page_count = self._count_pages_from_markdown(markdown_content)
 
-            # 3. 并行识别所有图表图像（提取图表中的数据！）
-            logger.info(f"{Colors.BLUE}步骤2: 并行识别图表数据{Colors.RESET}")
-            figures_data = await self._extract_figures_data_parallel(figure_paths)
-            logger.info(f"{Colors.CYAN}成功识别 {len(figures_data)} 张图表的数据{Colors.RESET}")
+            # ========== 新优化流程：规则引擎 + 批量图表处理 ==========
 
-            # 4. 综合提取（文本 + 图表数据）
-            logger.info(f"{Colors.BLUE}步骤3: 综合数据提取{Colors.RESET}")
-            results = await self._process_with_single_model_simplified(
-                markdown_content, pdf_name, page_count, date_str, publication, figures_data
+            # 3. 使用规则引擎直接转换MD到JSON（无需大模型，极速！）
+            logger.info(f"{Colors.BLUE}步骤2: 规则引擎转换MD到JSON{Colors.RESET}")
+            base_json = self.md_engine.convert(
+                markdown_content, pdf_name, date_str, publication
             )
+            logger.info(f"{Colors.GREEN}✓ 规则引擎转换完成（无API调用）{Colors.RESET}")
 
-            best_result = results["gemini"]
+            # 4. 批量处理图表（一次处理10-20张，大幅提速）
+            logger.info(f"{Colors.BLUE}步骤3: 批量识别图表数据（{len(figure_paths)}张）{Colors.RESET}")
+            semaphore = asyncio.Semaphore(config.MAX_CONCURRENCY)
+            async with OpenRouterProcessor() as processor:
+                figures_data = await self.batch_figure_processor.process_figures_batch(
+                    processor, figure_paths, semaphore, markdown_content
+                )
+            logger.info(f"{Colors.GREEN}✓ 批量图表识别完成: {len(figures_data)}/{len(figure_paths)} 张{Colors.RESET}")
 
-            # 4. 基础JSON验证（仅检查必需字段）
-            logger.info(f"{Colors.BLUE}步骤3: 基础验证{Colors.RESET}")
+            # 5. 合并JSON（规则引擎结果 + 图表数据）
+            logger.info(f"{Colors.BLUE}步骤4: 合并JSON数据{Colors.RESET}")
+            best_result = self.json_merger.merge(base_json, figures_data)
+
             # 补充页数到 doc.extraction_run.processing_metadata
             if "doc" in best_result and "extraction_run" in best_result["doc"]:
                 md = best_result["doc"].get("extraction_run", {}).get("processing_metadata", {})
                 md.setdefault("pages_processed", page_count)
                 md.setdefault("successful_pages", page_count)
-                # 增加基于输入相对子路径的分类元信息
-                try:
-                    # 记录相对子路径（用于按日期/刊物分类）
-                    md["input_relative_path"] = str(rel_parent)
-                    parts = list(rel_parent.parts)
-                    # 简单日期格式 YYYY.MM.DD
-                    import re
-                    if len(parts) >= 1 and re.match(r"^\d{4}\.\d{2}\.\d{2}$", parts[0]):
-                        md["date"] = parts[0]
-                        if len(parts) >= 2:
-                            md["publication"] = parts[1]
-                    else:
-                        # 若首层不是日期，则作为刊物名；若次层是日期则记录
-                        md["publication"] = parts[0] if parts else md.get("publication")
-                        if len(parts) >= 2 and re.match(r"^\d{4}\.\d{2}\.\d{2}$", parts[1]):
-                            md["date"] = parts[1]
-                except Exception:
-                    pass
+                md["input_relative_path"] = str(rel_parent)
                 best_result["doc"]["extraction_run"]["processing_metadata"] = md
 
-            # 基础验证（仅检查必需字段，不强制修复）
-            is_valid, error_msg = self.validator.validate(best_result)
-            if not is_valid:
-                logger.warning(f"JSON验证警告: {error_msg}")
-                # 补充缺失的必需字段
-                if "schema_version" not in best_result:
-                    best_result["schema_version"] = "1.3.1"
-                if "doc" not in best_result:
-                    best_result["doc"] = self._create_minimal_doc(pdf_name, page_count, date_str, publication)
-                if "passages" not in best_result:
-                    best_result["passages"] = []
-                if "entities" not in best_result:
-                    best_result["entities"] = []
-                if "data" not in best_result:
-                    best_result["data"] = self._create_minimal_data()
+            # 输出统计（包含figure数量验证）
+            stats = self.json_merger.get_merge_statistics(best_result)
+            logger.info(f"{Colors.CYAN}数据统计: {stats}{Colors.RESET}")
+
+            # 关键验证：确保figures已合并
+            figures_count = len(best_result.get("data", {}).get("figures", []))
+            if figures_count == 0 and len(figure_paths) > 0:
+                logger.error(f"{Colors.RED}⚠️  警告：{len(figure_paths)}张图表未能合并到JSON！{Colors.RESET}")
+            else:
+                logger.info(f"{Colors.GREEN}✓ 图表数据已合并: {figures_count}/{len(figure_paths)} 张{Colors.RESET}")
 
             # 保存最终结果
             output_path = os.path.join(json_output_dir, f"{pdf_name_clean}.json")

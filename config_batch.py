@@ -75,7 +75,7 @@ class APIConfig:
     # LLM参数 - 优化生成质量和速度
     LLM_TEMPERATURE = 0.0  # 降低温度确保输出稳定性
     LLM_TOP_P = 0.95  # 提高采样范围
-    LLM_MAX_TOKENS = 8000  # 降低到8000加快响应（从16000降低，提升2倍速度）
+    LLM_MAX_TOKENS = 8192  # Gemini 2.5 Flash最大输出tokens（输入支持1M tokens）
 
 # ==================== 文件路径配置 ====================
 class PathConfig:
