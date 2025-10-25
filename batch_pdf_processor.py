@@ -21,10 +21,12 @@ from openai import AsyncOpenAI
 import traceback
 from pathlib import Path
 from datetime import datetime
-from typing import List, Dict, Optional, Tuple, Any
+from typing import List, Dict, Optional, Tuple, Any, Set
 from dataclasses import dataclass
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
+from collections import defaultdict
+import copy
 
 # DeepSeek OCR imports
 try:
@@ -37,7 +39,7 @@ import io
 import re
 from tqdm import tqdm
 import torch
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import numpy as np
 
 # vLLM imports
@@ -136,6 +138,20 @@ except ImportError:
         SCHEMA_PATH = str(Path(BASE_DIR) / "json schema.json")
         STRICT_SCHEMA_VALIDATION = True
 
+        class ProcessingDefaults:
+            FIGURE_MAX_DIMENSION = 1024
+            FIGURE_ENABLE_DENOISE = True
+            FIGURE_JPEG_QUALITY = 70
+            FIGURE_WEBP_QUALITY = 60
+            FIGURE_TEXT_FALLBACK_MAX_CHARS = 2000
+
+        class APIDefaults:
+            LLM_MAX_TOKENS = 8000
+            LLM_MAX_TOKENS_IMAGE = 1536
+
+        processing = ProcessingDefaults()
+        api = APIDefaults()
+
     config = Config()
 
 # 日志配置
@@ -157,12 +173,30 @@ class Colors:
     CYAN = '\033[36m'
     RESET = '\033[0m'
 
+
+@dataclass
+class PDFProcessingJob:
+    pdf_path: str
+    pdf_name: str
+    pdf_name_clean: str
+    date_str: Optional[str]
+    publication: str
+    ocr_output_dir: str
+    json_output_dir: str
+    rel_parent: Path
+    markdown_content: str
+    figure_paths: List[str]
+
+
 class DeepSeekOCRBatchProcessor:
     """DeepSeek OCR批量处理器"""
 
     def __init__(self):
         self.model_registry_initialized = False
         self.llm = None
+        self._compressed_image_cache: Dict[str, str] = {}
+        self._temp_figure_dir = Path(config.TEMP_DIR) / "processed_figures"
+        self._temp_figure_dir.mkdir(parents=True, exist_ok=True)
         self._initialize_model()
 
     def _initialize_model(self):
@@ -361,6 +395,44 @@ class DeepSeekOCRBatchProcessor:
 
         return matches, matches_image, matches_other
 
+    def _preprocess_and_save_figure(self, cropped: Image.Image, page_idx: int,
+                                    figure_idx: int, output_dir: str) -> Tuple[str, str]:
+        """对裁剪图像进行统一缩放、降噪，并保存压缩版本"""
+        processed = cropped.convert("RGB")
+
+        max_dim = getattr(config.processing, "FIGURE_MAX_DIMENSION", 1024)
+        resampling_attr = getattr(Image, "Resampling", Image)
+        resample_filter = getattr(resampling_attr, "LANCZOS", Image.LANCZOS)
+        processed.thumbnail((max_dim, max_dim), resample_filter)
+
+        if getattr(config.processing, "FIGURE_ENABLE_DENOISE", True):
+            try:
+                processed = processed.filter(ImageFilter.MedianFilter(size=3))
+            except Exception as exc:  # pragma: no cover - pillow差异兼容
+                logger.debug(f"降噪处理失败，跳过: {exc}")
+
+        temp_dir = self._temp_figure_dir
+        temp_dir.mkdir(parents=True, exist_ok=True)
+
+        webp_quality = getattr(config.processing, "FIGURE_WEBP_QUALITY", 60)
+        jpeg_quality = getattr(config.processing, "FIGURE_JPEG_QUALITY", 70)
+
+        temp_path = temp_dir / f"{page_idx}_{figure_idx}.webp"
+        try:
+            processed.save(temp_path, format="WEBP", quality=webp_quality, method=6)
+        except Exception:
+            processed.save(temp_path, format="WEBP", quality=webp_quality)
+
+        output_path = Path(output_dir) / "images" / f"{page_idx}_{figure_idx}.jpg"
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        processed.save(output_path, format="JPEG", quality=jpeg_quality, optimize=True)
+
+        display_path = str(output_path)
+        compressed_path = str(temp_path)
+        self._compressed_image_cache[display_path] = compressed_path
+
+        return display_path, compressed_path
+
     def _process_image_with_refs(self, image: Image.Image, refs: List,
                                page_idx: int, output_dir: str) -> Image.Image:
         """处理图像引用并保存图表"""
@@ -386,8 +458,7 @@ class DeepSeekOCRBatchProcessor:
 
                         try:
                             cropped = image.crop((x1, y1, x2, y2))
-                            figure_path = f"{output_dir}/images/{page_idx}_{img_idx}.jpg"
-                            cropped.save(figure_path)
+                            self._preprocess_and_save_figure(cropped, page_idx, img_idx, output_dir)
                             img_idx += 1
                         except Exception as e:
                             logger.warning(f"图表提取失败: {e}")
@@ -408,11 +479,19 @@ class DeepSeekOCRBatchProcessor:
             logger.warning(f"坐标提取失败: {e}")
             return None
 
+    def get_preprocessed_image_path(self, image_path: str) -> Optional[str]:
+        """获取压缩后的图像路径"""
+        compressed_path = self._compressed_image_cache.get(image_path)
+        if compressed_path and Path(compressed_path).exists():
+            return compressed_path
+        return None
+
     def process_pdf(self, pdf_path: str, output_dir: str) -> Tuple[str, List[str]]:
         """处理单个PDF文件"""
         logger.info(f"{Colors.BLUE}开始处理PDF: {pdf_path}{Colors.RESET}")
 
         try:
+            self._compressed_image_cache.clear()
             # 1. PDF转图像
             images = self.pdf_to_images_high_quality(pdf_path)
 
@@ -471,15 +550,27 @@ class OpenRouterProcessor:
             pass
 
     async def call_model(self, model_name: str, messages: List[Dict],
-                        max_tokens: int = 4000) -> Dict:
-        """调用OpenRouter模型 (简化版，无流式，无JSON强格式)"""
-        response = await self.client.chat.completions.create(
-            model=config.MODELS[model_name],
-            messages=messages,
-            max_tokens=max_tokens,
-            temperature=0.0,  # 确保输出稳定
-            top_p=0.9
-        )
+                        max_tokens: int = 4000,
+                        response_format: Optional[Dict] = None,
+                        tools: Optional[List[Dict]] = None,
+                        tool_choice: Optional[Any] = None) -> Dict:
+        """调用OpenRouter模型 (支持结构化输出和函数调用)"""
+        request_payload: Dict[str, Any] = {
+            "model": config.MODELS[model_name],
+            "messages": messages,
+            "max_tokens": max_tokens,
+            "temperature": 0.0,  # 确保输出稳定
+            "top_p": 0.9
+        }
+
+        if response_format is not None:
+            request_payload["response_format"] = response_format
+        if tools is not None:
+            request_payload["tools"] = tools
+        if tool_choice is not None:
+            request_payload["tool_choice"] = tool_choice
+
+        response = await self.client.chat.completions.create(**request_payload)
         return response.model_dump()
 
 class JSONSchemaValidator:
@@ -608,6 +699,7 @@ class BatchPDFProcessor:
         self.batch_figure_processor = BatchFigureProcessor(batch_size=15)  # 每批15张图
         self.json_merger = JsonMerger()
 
+        self._figure_api_semaphore: Optional[asyncio.Semaphore] = None
         self._setup_directories()
 
     def _setup_directories(self):
@@ -616,18 +708,28 @@ class BatchPDFProcessor:
             os.makedirs(dir_path, exist_ok=True)
             logger.info(f"确保目录存在: {dir_path}")
 
-    async def process_single_pdf(self, pdf_path: str) -> Dict:
-        """处理单个PDF并生成JSON（单模型 + 图像并发）- 分离输出目录"""
-        pdf_path_obj = Path(pdf_path).resolve()
-
-        # 修复路径识别：更健壮的相对路径计算
-        input_dir_obj = Path(config.INPUT_DIR).resolve()
+    def _get_max_api_concurrency(self) -> int:
+        processing_config = getattr(config, "processing", None)
+        candidate = None
+        if processing_config is not None:
+            candidate = getattr(processing_config, "MAX_CONCURRENT_API_CALLS", None)
+        if candidate is None:
+            candidate = getattr(config, "MAX_CONCURRENT_API_CALLS", getattr(config, "MAX_CONCURRENCY", 1))
         try:
-            # 尝试直接计算相对路径
+            value = int(candidate)
+        except (TypeError, ValueError):
+            value = 1
+        return max(1, value)
+
+    async def _process_pdf_stage_a(self, pdf_path: str) -> PDFProcessingJob:
+        """阶段A：OCR与资源准备，返回后续处理所需的数据"""
+        pdf_path_obj = Path(pdf_path).resolve()
+        input_dir_obj = Path(config.INPUT_DIR).resolve()
+
+        try:
             rel_path = pdf_path_obj.relative_to(input_dir_obj)
             rel_parent = rel_path.parent
         except ValueError:
-            # 如果失败，使用原有的父目录匹配方法
             input_root_name = input_dir_obj.name
             rel_parent = Path()
             for parent in pdf_path_obj.parents:
@@ -637,28 +739,21 @@ class BatchPDFProcessor:
                     break
 
         pdf_name = pdf_path_obj.stem
-
-        # 从文件名中提取日期（格式：xxx_YYYY-MM-DD.pdf）
-        date_str = None
+        date_str: Optional[str] = None
         publication = str(rel_parent) if rel_parent != Path('.') else "unknown"
 
-        import re
         date_match = re.search(r'_(\d{4}-\d{2}-\d{2})$', pdf_name)
         if date_match:
             date_str = date_match.group(1)
-            # 移除日期后缀，保留原始文件名
             pdf_name_clean = pdf_name[:date_match.start()]
         else:
             pdf_name_clean = pdf_name
 
-        # 构建输出目录结构
-        # OCR: 日期/刊物/文件名/ (需要文件夹存放MD和images)
-        # JSON: 日期/刊物/ (直接放JSON文件)
+        # 构建输出目录结构：日期/刊物/文件名
         if date_str:
             ocr_output_dir = str(Path(config.OUTPUT_DIR) / date_str / publication / pdf_name_clean)
             json_output_dir = str(Path(config.OUTPUT_REPORT_DIR) / date_str / publication)
         else:
-            # 如果没有日期，使用原有结构
             ocr_output_dir = str(Path(config.OUTPUT_DIR) / rel_parent / pdf_name_clean)
             json_output_dir = str(Path(config.OUTPUT_REPORT_DIR) / rel_parent)
 
@@ -667,90 +762,175 @@ class BatchPDFProcessor:
 
         logger.info(f"OCR输出目录: {ocr_output_dir}")
         logger.info(f"JSON输出目录: {json_output_dir}")
+        logger.info(f"{Colors.BLUE}阶段A: DeepSeek OCR处理 - {pdf_path_obj.name}{Colors.RESET}")
 
-        try:
-            # 1. DeepSeek OCR处理 - 输出到 OCR 目录
-            logger.info(f"{Colors.BLUE}步骤1: DeepSeek OCR处理{Colors.RESET}")
-            markdown_path, figure_paths = self.ocr_processor.process_pdf(pdf_path, ocr_output_dir)
+        markdown_path, figure_paths = self.ocr_processor.process_pdf(pdf_path, ocr_output_dir)
+        with open(markdown_path, 'r', encoding='utf-8') as f:
+            markdown_content = f.read()
 
-            # 2. 读取Markdown内容（完整，无截断）
-            with open(markdown_path, 'r', encoding='utf-8') as f:
-                markdown_content = f.read()
+        logger.info(f"{Colors.GREEN}阶段A完成: {pdf_path_obj.name} (图像数量: {len(figure_paths)}){Colors.RESET}")
 
-            page_count = self._count_pages_from_markdown(markdown_content)
+        return PDFProcessingJob(
+            pdf_path=str(pdf_path_obj),
+            pdf_name=pdf_name,
+            pdf_name_clean=pdf_name_clean,
+            date_str=date_str,
+            publication=publication,
+            ocr_output_dir=ocr_output_dir,
+            json_output_dir=json_output_dir,
+            rel_parent=rel_parent,
+            markdown_content=markdown_content,
+            figure_paths=figure_paths,
+        )
 
-            # ========== 新优化流程：MD清洗 + 规则引擎 + 批量图表处理 ==========
+    def _merge_model_and_aggregated_results(
+        self,
+        model_result: Optional[Dict],
+        aggregated_result: Optional[Dict]
+    ) -> Dict:
+        if not aggregated_result and not model_result:
+            return {}
+        if not aggregated_result:
+            return copy.deepcopy(model_result or {})
+        if not model_result:
+            return copy.deepcopy(aggregated_result)
 
-            # 2.5. MD文档清洗（删除无效内容）
-            logger.info(f"{Colors.BLUE}步骤2: MD文档清洗{Colors.RESET}")
-            cleaned_markdown, clean_stats = self.md_cleaner.clean(markdown_content)
-            logger.info(f"{Colors.GREEN}✓ 清洗完成: 减少{clean_stats['reduction_ratio']*100:.1f}%内容, 删除{len(clean_stats['removed_sections'])}个章节{Colors.RESET}")
+        merged = copy.deepcopy(aggregated_result)
+        for key, value in model_result.items():
+            if value in (None, ""):
+                continue
+            existing = merged.get(key)
+            if existing in (None, [], {}):
+                merged[key] = copy.deepcopy(value)
+                continue
+            if isinstance(existing, dict) and isinstance(value, dict):
+                for sub_key, sub_value in value.items():
+                    if sub_value in (None, ""):
+                        continue
+                    if sub_key not in existing or existing[sub_key] in (None, [], {}):
+                        existing[sub_key] = copy.deepcopy(sub_value)
+        return merged
 
-            # 保存清洗后的MD（可选）
-            cleaned_md_path = os.path.join(ocr_output_dir, f"{pdf_name}_cleaned.md")
-            with open(cleaned_md_path, 'w', encoding='utf-8') as f:
-                f.write(cleaned_markdown)
+    async def _process_pdf_stage_b(self, job: PDFProcessingJob) -> Dict:
+        """阶段B：执行所有需要API的步骤并输出最终JSON"""
+        pdf_name = job.pdf_name
+        logger.info(f"{Colors.BLUE}阶段B: API推理与结构化处理 - {pdf_name}{Colors.RESET}")
 
-            # 3. 使用规则引擎直接转换MD到JSON（使用清洗后的MD）
-            logger.info(f"{Colors.BLUE}步骤3: 规则引擎转换MD到JSON{Colors.RESET}")
-            base_json = self.md_engine.convert(
-                cleaned_markdown, pdf_name, date_str, publication
-            )
-            logger.info(f"{Colors.GREEN}✓ 规则引擎转换完成（无API调用）{Colors.RESET}")
+        page_count = self._count_pages_from_markdown(job.markdown_content)
 
-            # 4. 批量处理图表（一次处理10-20张，大幅提速）
-            logger.info(f"{Colors.BLUE}步骤4: 批量识别图表数据（{len(figure_paths)}张）{Colors.RESET}")
-            semaphore = asyncio.Semaphore(config.MAX_CONCURRENCY)
-            async with OpenRouterProcessor() as processor:
-                figures_data = await self.batch_figure_processor.process_figures_batch(
-                    processor, figure_paths, semaphore, cleaned_markdown
+        logger.info(f"{Colors.BLUE}阶段B-1: 图表识别{Colors.RESET}")
+        figures_data = await self._extract_figures_data_parallel(job.figure_paths)
+        logger.info(f"{Colors.CYAN}阶段B-1完成: 识别 {len(figures_data)} 张图表{Colors.RESET}")
+
+        logger.info(f"{Colors.BLUE}阶段B-2: 文本与图表联合提取{Colors.RESET}")
+        model_results = await self._process_with_single_model_simplified(
+            job.markdown_content,
+            pdf_name,
+            page_count,
+            job.date_str or "",
+            job.publication,
+            figures_data,
+        )
+        best_model_result = self._select_best_result(model_results)
+
+        markdown_pages = self._split_markdown_pages(job.markdown_content, page_count)
+        page_tasks = self._build_page_tasks(markdown_pages, figures_data)
+        page_payloads = await self._extract_page_payloads(
+            pdf_name,
+            page_tasks,
+            required_fields=[
+                "passages",
+                "entities",
+                "tables",
+                "numerical_data",
+                "claims",
+                "relations"
+            ]
+        )
+
+        aggregated_result = self._aggregate_page_results(
+            page_payloads,
+            figures_data,
+            pdf_name,
+            page_count,
+            job.date_str,
+            job.publication,
+            job.markdown_content
+        )
+
+        best_result = self._merge_model_and_aggregated_results(best_model_result, aggregated_result)
+        if not best_result:
+            best_result = aggregated_result or best_model_result or {}
+
+        if not best_result:
+            raise ValueError(f"{pdf_name} 未生成有效的结构化结果")
+
+        logger.info(f"{Colors.BLUE}阶段B-3: 基础验证与补全{Colors.RESET}")
+
+        if "schema_version" not in best_result:
+            best_result["schema_version"] = "1.3.1"
+
+        if "doc" in best_result and "extraction_run" in best_result["doc"]:
+            md = best_result["doc"].get("extraction_run", {}).get("processing_metadata", {})
+            md.setdefault("pages_processed", page_count)
+            md.setdefault("successful_pages", page_count)
+            try:
+                md["input_relative_path"] = str(job.rel_parent)
+                parts = list(job.rel_parent.parts)
+                if len(parts) >= 1 and re.match(r"^\d{4}\.\d{2}\.\d{2}$", parts[0]):
+                    md["date"] = parts[0]
+                    if len(parts) >= 2:
+                        md["publication"] = parts[1]
+                else:
+                    md["publication"] = parts[0] if parts else md.get("publication")
+                    if len(parts) >= 2 and re.match(r"^\d{4}\.\d{2}\.\d{2}$", parts[1]):
+                        md["date"] = parts[1]
+            except Exception:
+                pass
+            best_result["doc"]["extraction_run"]["processing_metadata"] = md
+
+        is_valid, error_msg = self.validator.validate(best_result)
+        if not is_valid:
+            logger.warning(f"JSON验证警告: {error_msg}")
+            if "doc" not in best_result:
+                best_result["doc"] = self._create_minimal_doc(
+                    pdf_name,
+                    page_count,
+                    job.date_str,
+                    job.publication
                 )
-            logger.info(f"{Colors.GREEN}✓ 批量图表识别完成: {len(figures_data)}/{len(figure_paths)} 张{Colors.RESET}")
+            if "passages" not in best_result:
+                best_result["passages"] = []
+            if "entities" not in best_result:
+                best_result["entities"] = []
+            if "data" not in best_result:
+                best_result["data"] = self._create_minimal_data()
 
-            # 5. 合并JSON（规则引擎结果 + 图表数据）
-            logger.info(f"{Colors.BLUE}步骤5: 合并JSON数据{Colors.RESET}")
-            best_result = self.json_merger.merge(base_json, figures_data)
+        output_path = os.path.join(job.json_output_dir, f"{job.pdf_name_clean}.json")
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(best_result, f, indent=2, ensure_ascii=False)
 
-            # 补充页数到 doc.extraction_run.processing_metadata
-            if "doc" in best_result and "extraction_run" in best_result["doc"]:
-                md = best_result["doc"].get("extraction_run", {}).get("processing_metadata", {})
-                md.setdefault("pages_processed", page_count)
-                md.setdefault("successful_pages", page_count)
-                md["input_relative_path"] = str(rel_parent)
-                best_result["doc"]["extraction_run"]["processing_metadata"] = md
+        logger.info(f"{Colors.GREEN}✓ 保存JSON: {output_path}{Colors.RESET}")
+        logger.info(f"{Colors.GREEN}✓ PDF处理完成: {job.pdf_path}{Colors.RESET}")
+        logger.info(f"  - OCR结果: {job.ocr_output_dir}")
+        logger.info(f"  - JSON报告: {job.json_output_dir}")
 
-            # 输出统计（包含figure数量验证）
-            stats = self.json_merger.get_merge_statistics(best_result)
-            logger.info(f"{Colors.CYAN}数据统计: {stats}{Colors.RESET}")
+        return best_result
 
-            # 关键验证：确保figures已合并
-            figures_count = len(best_result.get("data", {}).get("figures", []))
-            if figures_count == 0 and len(figure_paths) > 0:
-                logger.error(f"{Colors.RED}⚠️  警告：{len(figure_paths)}张图表未能合并到JSON！{Colors.RESET}")
-            else:
-                logger.info(f"{Colors.GREEN}✓ 图表数据已合并: {figures_count}/{len(figure_paths)} 张{Colors.RESET}")
-
-            # 保存最终结果
-            output_path = os.path.join(json_output_dir, f"{pdf_name_clean}.json")
-            with open(output_path, 'w', encoding='utf-8') as f:
-                json.dump(best_result, f, indent=2, ensure_ascii=False)
-            logger.info(f"{Colors.GREEN}✓ 保存JSON: {output_path}{Colors.RESET}")
-
-            logger.info(f"{Colors.GREEN}✓ PDF处理完成: {pdf_path}{Colors.RESET}")
-            logger.info(f"  - OCR结果: {ocr_output_dir}")
-            logger.info(f"  - JSON报告: {json_output_dir}")
-            return best_result
-
-        except Exception as e:
-            logger.error(f"{Colors.RED}✗ PDF处理失败 {pdf_path}: {e}{Colors.RESET}")
-            traceback.print_exc()
+    async def process_single_pdf(self, pdf_path: str) -> Dict:
+        job = await self._process_pdf_stage_a(pdf_path)
+        return await self._process_pdf_stage_b(job)
 
     async def _extract_figures_data_parallel(self, figure_paths: List[str]) -> List[Dict]:
         """并行提取所有图表的数据（使用视觉模型识别图表内容）"""
         if not figure_paths:
             return []
 
-        semaphore = asyncio.Semaphore(config.MAX_CONCURRENCY)
+        if self._figure_api_semaphore is None:
+            self._figure_api_semaphore = asyncio.Semaphore(self._get_max_api_concurrency())
+
+        semaphore = self._figure_api_semaphore
+
         async with OpenRouterProcessor() as processor:
             tasks = [
                 self._extract_single_figure_data(processor, img_path, semaphore)
@@ -768,12 +948,205 @@ class BatchPDFProcessor:
 
         return figures_data
 
+    def _split_markdown_pages(self, markdown: str, page_count: int) -> List[str]:
+        """根据分页标记拆分Markdown文本"""
+        page_pattern = re.compile(r"--- Page (\d+) ---")
+        matches = list(page_pattern.finditer(markdown))
+        if not matches:
+            return [markdown.strip()]
+
+        pages: List[str] = []
+        for idx, match in enumerate(matches):
+            start = match.end()
+            end = matches[idx + 1].start() if idx + 1 < len(matches) else len(markdown)
+            pages.append(markdown[start:end].strip())
+
+        while len(pages) < page_count:
+            pages.append("")
+
+        return pages
+
+    def _build_page_tasks(self, markdown_pages: List[str], figures_data: List[Dict]) -> List[Dict]:
+        """构建分页任务，附带该页图表摘要"""
+        figures_by_page: Dict[int, List[Dict]] = defaultdict(list)
+        for fig in figures_data:
+            page_idx = fig.get("page")
+            if isinstance(page_idx, int):
+                figures_by_page[page_idx].append(fig)
+
+        tasks: List[Dict] = []
+        for idx, page_text in enumerate(markdown_pages):
+            tasks.append({
+                "page": idx + 1,
+                "markdown": page_text,
+                "figures": figures_by_page.get(idx + 1, [])
+            })
+        return tasks
+
+    def _summarize_figures_for_page(self, figures: List[Dict]) -> str:
+        if not figures:
+            return "无"
+        lines = []
+        for fig in figures:
+            fig_type = fig.get("type", "unknown")
+            title = fig.get("title") or fig.get("description") or "无标题"
+            lines.append(f"- {fig_type}: {title[:80]}")
+        return "\n".join(lines)
+
+    async def _extract_page_payloads(
+        self,
+        pdf_name: str,
+        page_tasks: List[Dict],
+        required_fields: Optional[List[str]] = None
+    ) -> List[Dict]:
+        """分页调用LLM，仅发送单页Markdown获取结构化片段"""
+        if not page_tasks:
+            return []
+
+        fields = required_fields or [
+            "passages", "entities", "tables", "numerical_data", "claims", "relations"
+        ]
+
+        semaphore = asyncio.Semaphore(
+            max(1, min(getattr(config, "MAX_CONCURRENT_API_CALLS", config.MAX_CONCURRENCY), len(page_tasks)))
+        )
+
+        async with OpenRouterProcessor() as processor:
+            tasks = [
+                self._call_single_page_extraction(processor, pdf_name, task, fields, semaphore)
+                for task in page_tasks
+            ]
+            responses = await asyncio.gather(*tasks, return_exceptions=True)
+
+        payloads: List[Dict] = []
+        for task, response in zip(page_tasks, responses):
+            if isinstance(response, Exception):
+                logger.error(f"分页提取失败: 第{task.get('page')}页 - {response}")
+                payloads.append(self._build_fallback_page_payload(task))
+                continue
+
+            if not isinstance(response, dict) or not response:
+                payloads.append(self._build_fallback_page_payload(task))
+                continue
+
+            response.setdefault("page", task.get("page", 1))
+            for field in fields:
+                response.setdefault(field, [])
+            response.setdefault("doc_metadata", {})
+            payloads.append(response)
+
+        return payloads
+
+    async def _call_single_page_extraction(
+        self,
+        processor: OpenRouterProcessor,
+        pdf_name: str,
+        task: Dict,
+        required_fields: List[str],
+        semaphore: asyncio.Semaphore
+    ) -> Dict:
+        async with semaphore:
+            page_no = task.get("page", 1)
+            markdown = task.get("markdown", "")
+            figure_summary = self._summarize_figures_for_page(task.get("figures", []))
+            fields_text = ", ".join(required_fields)
+
+            prompt = f"""
+你是金融文档结构化抽取助手。请仅基于下方Markdown提取第 {page_no} 页的结构化信息。
+
+文档名称: {pdf_name}
+页码: {page_no}
+
+## 本页Markdown
+```markdown
+{markdown}
+```
+
+## 本页关联图表
+{figure_summary}
+
+## 输出要求
+- 返回一个JSON对象，必须包含字段: page, {fields_text}, doc_metadata
+- page: 当前页码（整数）
+- passages: 数组。每个元素需提供 text，允许包含 section、labels、entities（实体名称列表）、passage_index（整数，用于跨字段引用）
+- entities: 数组。每个元素包含 name（必填）及可选 type、ticker、aliases、country 等
+- tables: 数组。包含 title、headers（或 columns）、rows，以及可选的描述信息
+- numerical_data: 数组。每个元素包含 context、value（或 value_text）、unit、metric_type，可选 passage_index、entity（名称）
+- claims: 数组。包含 text、label（guidance_up/guidance_down/risk/outlook/strategy/other之一），可提供 sentiment、passage_index、related_entities
+- relations: 数组。包含 subject、predicate、object，可附带 provenance（如 passage_index）
+- doc_metadata: 可选字典，仅在本页包含文档级信息（如标题、tickers、report_type）时填写
+
+仅输出JSON，不要额外解释。确保所有内容仅来源于本页。
+"""
+
+            messages = [
+                {
+                    "role": "system",
+                    "content": "你是一名擅长结构化金融报告的分析师，只输出JSON，不提供任何解释。"
+                },
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ]
+
+            response = await processor.call_model(
+                "gemini",
+                messages,
+                max_tokens=getattr(config.api, "LLM_MAX_TOKENS", 6000)
+            )
+            content = response['choices'][0]['message']['content']
+            parsed = self._extract_json_from_response(content)
+            if not isinstance(parsed, dict):
+                return {}
+            return parsed
+
+    def _build_fallback_page_payload(self, task: Dict) -> Dict:
+        text = (task.get("markdown") or "").strip()
+        passages = []
+        if text:
+            passages.append({"text": text, "section": "auto"})
+        return {
+            "page": task.get("page", 1),
+            "passages": passages,
+            "entities": [],
+            "tables": [],
+            "numerical_data": [],
+            "claims": [],
+            "relations": [],
+            "doc_metadata": {}
+        }
+
+    def _build_figure_request_payload(self, page_idx: int, *, prompt_body: str,
+                                      b64: Optional[str], text_override: Optional[str]) -> List[Dict[str, Any]]:
+        """构造视觉模型的多模态请求载荷，支持文本兜底"""
+        payload: List[Dict[str, Any]] = [{"type": "text", "text": prompt_body}]
+
+        max_chars = getattr(config.processing, "FIGURE_TEXT_FALLBACK_MAX_CHARS", 2000)
+        if text_override:
+            sanitized = text_override.strip()
+            if len(sanitized) > max_chars:
+                sanitized = sanitized[:max_chars]
+            payload.append({
+                "type": "text",
+                "text": f"图像预处理关键点摘要（第{page_idx}页）:\n{sanitized}"
+            })
+        elif b64:
+            payload.append({
+                "type": "image_url",
+                "image_url": {"url": f"data:image/jpeg;base64,{b64}"}
+            })
+        else:
+            raise ValueError("缺少图像数据或文本替代内容，无法构造请求")
+
+        return payload
+
     async def _extract_single_figure_data(self, processor: OpenRouterProcessor,
                                          image_path: str, semaphore: asyncio.Semaphore) -> Dict:
         """提取单个图表的数据（视觉识别）"""
         async with semaphore:
             try:
-                b64 = self._encode_image_to_base64(image_path)
+                b64, text_override = self._encode_image_to_base64(image_path)
                 page_idx = self._infer_page_from_image_path(image_path)
 
                 messages = [
@@ -783,10 +1156,9 @@ class BatchPDFProcessor:
                     },
                     {
                         "role": "user",
-                        "content": [
-                            {
-                                "type": "text",
-                                "text": f"""请分析这张图表（第{page_idx}页），提取以下信息并以JSON格式输出：
+                        "content": self._build_figure_request_payload(
+                            page_idx,
+                            prompt_body=f"""请分析这张图表（第{page_idx}页），提取以下信息并以JSON格式输出：
 
 1. 图表类型（type）：bar/line/pie/area/scatter/heatmap/waterfall/combo/other
 2. 图表标题（title）
@@ -809,17 +1181,18 @@ class BatchPDFProcessor:
   ]
 }}
 
-仅输出JSON，不要其他文字。"""
-                            },
-                            {
-                                "type": "image_url",
-                                "image_url": {"url": f"data:image/jpeg;base64,{b64}"}
-                            }
-                        ]
+仅输出JSON，不要其他文字。""",
+                            b64=b64,
+                            text_override=text_override
+                        )
                     }
                 ]
 
-                resp = await processor.call_model("gemini", messages, max_tokens=2048)
+                resp = await processor.call_model(
+                    "gemini",
+                    messages,
+                    max_tokens=getattr(config.api, "LLM_MAX_TOKENS_IMAGE", 1536)
+                )
                 content = resp['choices'][0]['message']['content']
 
                 # 提取JSON
@@ -866,6 +1239,352 @@ class BatchPDFProcessor:
                 results["gemini"] = {}
         return results
 
+    def _aggregate_page_results(
+        self,
+        page_payloads: List[Dict],
+        figures_data: List[Dict],
+        pdf_name: str,
+        page_count: int,
+        date_str: Optional[str],
+        publication: str,
+        markdown_content: str
+    ) -> Dict:
+        """聚合页级结果，补齐Schema要求的全局结构"""
+        final_result: Dict[str, Any] = {
+            "schema_version": "1.3.1",
+            "doc": self._create_minimal_doc(pdf_name, page_count, date_str, publication),
+            "passages": [],
+            "entities": [],
+            "data": self._create_minimal_data()
+        }
+
+        final_result["data"]["figures"] = figures_data or []
+
+        # 解析文档级元数据（先从整体Markdown，再融合页级补充）
+        doc_metadata = self._extract_doc_metadata(markdown_content, pdf_name, date_str)
+        for payload in page_payloads:
+            meta = payload.get("doc_metadata")
+            if isinstance(meta, dict):
+                doc_metadata = self._merge_doc_metadata(doc_metadata, meta)
+
+        doc_obj = final_result["doc"]
+        for key, value in doc_metadata.items():
+            if key in {"title", "report_type", "sector", "language", "source_uri"} and value:
+                doc_obj[key] = value
+            elif key == "report_date" and value:
+                doc_obj["report_date"] = value
+            elif key == "word_count" and isinstance(value, int):
+                doc_obj["word_count"] = value
+            elif key == "full_text" and value:
+                doc_obj["full_text"] = value
+            elif key == "tickers":
+                tickers = sorted({t.strip().upper() for t in value if isinstance(t, str) and t.strip()})
+                if tickers:
+                    doc_obj["tickers"] = tickers
+                    doc_obj["symbols"] = tickers
+
+        # 构建实体索引
+        entity_map: Dict[str, Dict] = {}
+        alias_index: Dict[str, str] = {}
+        doc_tickers = set(doc_obj.get("tickers", []))
+
+        for payload in page_payloads:
+            for entity in payload.get("entities", []):
+                normalized_name = self._normalize_entity_name(entity.get("name"))
+                if not normalized_name:
+                    continue
+
+                key = normalized_name.lower()
+                existing = entity_map.get(key)
+                if not existing:
+                    entity_id = entity.get("entity_id") or hashlib.md5(
+                        f"{normalized_name}|{publication}".encode()
+                    ).hexdigest()[:16]
+                    entity_obj = {
+                        "entity_id": entity_id,
+                        "name": normalized_name
+                    }
+                    for optional in ["type", "ticker", "isin", "lei", "country"]:
+                        if entity.get(optional):
+                            entity_obj[optional] = entity[optional]
+                    aliases = self._ensure_unique_list(entity.get("aliases"))
+                    if aliases:
+                        entity_obj["aliases"] = aliases
+
+                    entity_map[key] = entity_obj
+                    final_result["entities"].append(entity_obj)
+                    self._register_entity_aliases(alias_index, entity_obj)
+                else:
+                    for optional in ["type", "ticker", "isin", "lei", "country"]:
+                        if optional not in existing and entity.get(optional):
+                            existing[optional] = entity[optional]
+                    aliases = self._ensure_unique_list(entity.get("aliases"))
+                    if aliases:
+                        existing.setdefault("aliases", [])
+                        for alias in aliases:
+                            if alias not in existing["aliases"]:
+                                existing["aliases"].append(alias)
+                    self._register_entity_aliases(alias_index, existing)
+
+                ticker_value = entity.get("ticker")
+                if ticker_value:
+                    doc_tickers.add(ticker_value.upper())
+
+        if doc_tickers:
+            tickers_sorted = sorted(doc_tickers)
+            doc_obj["tickers"] = tickers_sorted
+            doc_obj["symbols"] = tickers_sorted
+
+        # 处理页级片段
+        passage_index_map: Dict[int, Dict[int, str]] = defaultdict(dict)
+        figures_index = {fig.get("figure_id"): fig for fig in final_result["data"].get("figures", []) if fig.get("figure_id")}
+        table_ids: set = set()
+        num_seen_keys: set = set()
+        num_id_set: set = set()
+        claim_labels = {"guidance_up", "guidance_down", "risk", "outlook", "strategy", "other"}
+        sentiment_labels = {"pos", "neg", "neu"}
+
+        for payload in page_payloads:
+            page_no = payload.get("page") or 1
+            passages = payload.get("passages", [])
+
+            for idx, passage in enumerate(passages):
+                text = passage.get("text") or passage.get("content")
+                if not text:
+                    continue
+
+                passage_id = passage.get("passage_id") or hashlib.md5(
+                    f"{pdf_name}|{page_no}|{idx}|{text}".encode()
+                ).hexdigest()[:16]
+
+                passage_obj: Dict[str, Any] = {
+                    "passage_id": passage_id,
+                    "page": page_no,
+                    "text": text.strip()
+                }
+
+                if passage.get("section"):
+                    passage_obj["section"] = passage["section"]
+
+                labels = self._ensure_unique_list(passage.get("labels"))
+                if labels:
+                    passage_obj["labels"] = labels
+
+                entity_refs = []
+                for entity_ref in passage.get("entities", []):
+                    resolved = self._resolve_entity_reference(entity_ref, entity_map, alias_index)
+                    if resolved:
+                        entity_refs.append(resolved)
+                if entity_refs:
+                    passage_obj["entities"] = entity_refs
+
+                final_result["passages"].append(passage_obj)
+
+                passage_index = passage.get("passage_index")
+                if isinstance(passage_index, int):
+                    passage_index_map[page_no][passage_index] = passage_id
+                passage_index_map[page_no][idx] = passage_id
+
+            # 表格
+            for idx, table in enumerate(payload.get("tables", [])):
+                headers = table.get("headers") or table.get("columns") or []
+                rows = table.get("rows") or table.get("data") or []
+                if not headers and not rows:
+                    continue
+
+                table_id = table.get("table_id") or hashlib.md5(
+                    f"{pdf_name}|table|{page_no}|{idx}".encode()
+                ).hexdigest()[:16]
+
+                if table_id in table_ids:
+                    continue
+                table_ids.add(table_id)
+
+                table_obj: Dict[str, Any] = {
+                    "table_id": table_id,
+                    "title": table.get("title") or f"Table {page_no}-{idx+1}",
+                    "page": page_no,
+                    "headers": headers,
+                    "rows": rows,
+                    "provenance": table.get("provenance") or {"page": page_no}
+                }
+                if table.get("description"):
+                    table_obj["description"] = table["description"]
+
+                final_result["data"]["tables"].append(table_obj)
+
+            # 数值数据
+            for idx, num in enumerate(payload.get("numerical_data", [])):
+                context = num.get("context") or num.get("label")
+                numeric_value, raw_text, is_percentage = self._coerce_to_number(
+                    num.get("value"), num.get("value_text")
+                )
+                if context is None or numeric_value is None:
+                    continue
+
+                unit = num.get("unit") or self._infer_unit_from_value_text(raw_text, is_percentage)
+                metric_type = self._infer_metric_type(
+                    num.get("metric_type"), unit, context, raw_text, is_percentage
+                )
+
+                key = (context, numeric_value, unit, page_no)
+                if key in num_seen_keys:
+                    continue
+                num_seen_keys.add(key)
+
+                num_id = num.get("num_id") or hashlib.md5(
+                    f"{pdf_name}|num|{page_no}|{context}|{numeric_value}".encode()
+                ).hexdigest()[:16]
+
+                provenance = num.get("provenance") or {"page": page_no}
+                provenance.setdefault("page", page_no)
+
+                passage_ref = num.get("passage_index")
+                passage_id = None
+                if isinstance(passage_ref, int):
+                    passage_id = self._lookup_passage_id(passage_index_map, page_no, passage_ref)
+                if not passage_id and passage_index_map.get(page_no):
+                    passage_id = next(iter(passage_index_map[page_no].values()), None)
+                if passage_id:
+                    provenance.setdefault("passage_id", passage_id)
+
+                num_obj: Dict[str, Any] = {
+                    "num_id": num_id,
+                    "context": context,
+                    "metric_type": metric_type,
+                    "unit": unit or "unitless",
+                    "value": numeric_value,
+                    "value_text": raw_text or str(num.get("value")),
+                    "provenance": provenance
+                }
+
+                if num.get("scale"):
+                    num_obj["scale"] = num["scale"]
+                if num.get("multiplier") is not None:
+                    num_obj["multiplier"] = num["multiplier"]
+                if num.get("rounding") is not None:
+                    num_obj["rounding"] = num["rounding"]
+                if num.get("as_of"):
+                    num_obj["as_of"] = num["as_of"]
+                if num.get("fiscal_period"):
+                    num_obj["fiscal_period"] = num["fiscal_period"]
+
+                entity_ref = self._resolve_entity_reference(
+                    num.get("entity") or num.get("entity_name") or num.get("entity_id"),
+                    entity_map,
+                    alias_index
+                )
+                if entity_ref:
+                    num_obj["entity_id"] = entity_ref
+
+                final_result["data"]["numerical_data"].append(num_obj)
+                num_id_set.add(num_id)
+
+            # 主张（claims）
+            for idx, claim in enumerate(payload.get("claims", [])):
+                text = claim.get("text") or claim.get("claim")
+                if not text:
+                    continue
+
+                passage_ref = claim.get("passage_id")
+                if not passage_ref:
+                    passage_index = claim.get("passage_index")
+                    passage_ref = self._lookup_passage_id(passage_index_map, page_no, passage_index) if isinstance(passage_index, int) else None
+                    if not passage_ref and passage_index_map.get(page_no):
+                        passage_ref = next(iter(passage_index_map[page_no].values()), None)
+                if not passage_ref:
+                    continue
+
+                claim_id = claim.get("claim_id") or hashlib.md5(
+                    f"{pdf_name}|claim|{page_no}|{idx}|{text}".encode()
+                ).hexdigest()[:16]
+
+                label = claim.get("label") or "other"
+                if label not in claim_labels:
+                    label = "other"
+
+                claim_obj: Dict[str, Any] = {
+                    "claim_id": claim_id,
+                    "text": text.strip(),
+                    "label": label,
+                    "passage_id": passage_ref
+                }
+
+                sentiment = claim.get("sentiment")
+                if sentiment in sentiment_labels:
+                    claim_obj["sentiment"] = sentiment
+
+                evidence = claim.get("evidence")
+                if isinstance(evidence, dict):
+                    cleaned_evidence: Dict[str, List[str]] = {}
+                    if evidence.get("figure_ids"):
+                        cleaned_evidence["figure_ids"] = [fid for fid in evidence["figure_ids"] if fid in figures_index]
+                    if evidence.get("table_ids"):
+                        cleaned_evidence["table_ids"] = [tid for tid in evidence["table_ids"] if tid in table_ids]
+                    if evidence.get("num_ids"):
+                        cleaned_evidence["num_ids"] = [nid for nid in evidence["num_ids"] if nid in num_id_set]
+                    if cleaned_evidence:
+                        claim_obj["evidence"] = cleaned_evidence
+
+                final_result["data"]["claims"].append(claim_obj)
+
+            # 关系（relations）
+            for idx, relation in enumerate(payload.get("relations", [])):
+                subject = relation.get("subject")
+                predicate = relation.get("predicate")
+                obj = relation.get("object")
+                if not (subject and predicate and obj):
+                    continue
+
+                rel_id = relation.get("rel_id") or hashlib.md5(
+                    f"{pdf_name}|rel|{page_no}|{idx}|{subject}|{predicate}|{obj}".encode()
+                ).hexdigest()[:16]
+
+                relation_obj: Dict[str, Any] = {
+                    "rel_id": rel_id,
+                    "subject": self._resolve_relation_end(subject, entity_map, alias_index),
+                    "predicate": predicate,
+                    "object": self._resolve_relation_end(obj, entity_map, alias_index)
+                }
+
+                provenance = relation.get("provenance") or {}
+                passage_index = relation.get("passage_index")
+                if isinstance(passage_index, int):
+                    passage_ref = self._lookup_passage_id(passage_index_map, page_no, passage_index)
+                    if passage_ref:
+                        provenance = dict(provenance)
+                        provenance["passage_id"] = passage_ref
+                if provenance:
+                    provenance.setdefault("page", page_no)
+                    relation_obj["provenance"] = provenance
+                else:
+                    relation_obj["provenance"] = {"page": page_no}
+
+                final_result["data"]["relations"].append(relation_obj)
+
+        # 汇总信息
+        final_result["data"]["extraction_summary"]["figures_count"] = len(final_result["data"]["figures"])
+        final_result["data"]["extraction_summary"]["tables_count"] = len(final_result["data"]["tables"])
+        final_result["data"]["extraction_summary"]["numerical_data_count"] = len(final_result["data"]["numerical_data"])
+
+        # 更新处理元数据
+        extraction_run = final_result["doc"].setdefault("extraction_run", {})
+        extraction_run["pipeline_steps"] = ["ocr", "page_llm_extraction", "aggregation"]
+        extraction_run["synthesis_model"] = config.MODELS.get("gemini", "google/gemini-2.5-flash")
+
+        metadata = extraction_run.setdefault("processing_metadata", {})
+        metadata.update({
+            "pages_processed": page_count,
+            "successful_pages": sum(1 for payload in page_payloads if payload.get("passages")),
+            "page_tasks": len(page_payloads),
+            "figure_count": len(final_result["data"]["figures"]),
+            "page_level_strategy": "per_page_llm",
+            "failed_pages": sum(1 for payload in page_payloads if not payload.get("passages")),
+            "aggregation_timestamp": datetime.now().isoformat()
+        })
+
+        return final_result
+
     def _create_minimal_doc(self, pdf_name: str, page_count: int,
                            date_str: str, publication: str) -> Dict:
         """创建最小doc结构"""
@@ -906,6 +1625,240 @@ class BatchPDFProcessor:
             }
         }
 
+    def _merge_doc_metadata(self, base: Dict[str, Any], update: Dict[str, Any]) -> Dict[str, Any]:
+        merged = dict(base) if isinstance(base, dict) else {}
+        if not isinstance(update, dict):
+            return merged
+        for key, value in update.items():
+            if value in (None, "", [], {}):
+                continue
+            if key in {"tickers", "symbols"}:
+                merged.setdefault("tickers", [])
+                if isinstance(value, list):
+                    merged["tickers"].extend(value)
+                else:
+                    merged["tickers"].append(value)
+            else:
+                merged[key] = value
+        return merged
+
+    def _normalize_entity_name(self, name: Optional[str]) -> Optional[str]:
+        if not name or not isinstance(name, str):
+            return None
+        return re.sub(r"\s+", " ", name).strip()
+
+    def _ensure_unique_list(self, items: Any) -> List[str]:
+        if not items:
+            return []
+        if not isinstance(items, list):
+            items = [items]
+        seen = set()
+        unique: List[str] = []
+        for item in items:
+            if item is None:
+                continue
+            value = item.strip() if isinstance(item, str) else str(item)
+            if not value:
+                continue
+            key = value.lower()
+            if key in seen:
+                continue
+            seen.add(key)
+            unique.append(value)
+        return unique
+
+    def _register_entity_aliases(self, alias_index: Dict[str, str], entity: Dict[str, Any]) -> None:
+        entity_id = entity.get("entity_id")
+        if not entity_id:
+            return
+        name = entity.get("name")
+        if isinstance(name, str) and name.strip():
+            alias_index[name.strip().lower()] = entity_id
+        ticker = entity.get("ticker")
+        if isinstance(ticker, str) and ticker.strip():
+            alias_index[ticker.strip().lower()] = entity_id
+        for alias in entity.get("aliases", []) or []:
+            if isinstance(alias, str) and alias.strip():
+                alias_index[alias.strip().lower()] = entity_id
+
+    def _resolve_entity_reference(
+        self,
+        reference: Any,
+        entity_map: Dict[str, Dict],
+        alias_index: Dict[str, str]
+    ) -> Optional[str]:
+        if not reference:
+            return None
+        if isinstance(reference, dict):
+            if reference.get("entity_id"):
+                return reference["entity_id"]
+            name = reference.get("name") or reference.get("text") or reference.get("subject") or reference.get("object")
+        else:
+            name = str(reference)
+
+        if not name:
+            return None
+        key = name.strip().lower()
+        if key in entity_map:
+            return entity_map[key]["entity_id"]
+        if key in alias_index:
+            return alias_index[key]
+        return None
+
+    def _lookup_passage_id(
+        self,
+        passage_index_map: Dict[int, Dict[int, str]],
+        page_no: int,
+        passage_index: Optional[int]
+    ) -> Optional[str]:
+        if passage_index is None:
+            return None
+        page_map = passage_index_map.get(page_no)
+        if not page_map:
+            return None
+        for candidate in [passage_index, passage_index - 1, passage_index + 1]:
+            if isinstance(candidate, int) and candidate in page_map:
+                return page_map[candidate]
+        return None
+
+    def _coerce_to_number(self, value: Any, value_text: Optional[str]) -> Tuple[Optional[float], Optional[str], bool]:
+        if isinstance(value, (int, float)):
+            return float(value), value_text if value_text is not None else str(value), False
+
+        candidate_text = None
+        if isinstance(value, str) and value.strip():
+            candidate_text = value.strip()
+        elif isinstance(value_text, str) and value_text.strip():
+            candidate_text = value_text.strip()
+        elif value is not None:
+            candidate_text = str(value)
+
+        if not candidate_text:
+            return None, value_text, False
+
+        text = candidate_text.strip()
+        negative = False
+        if text.startswith("(") and text.endswith(")"):
+            negative = True
+            text = text[1:-1]
+
+        is_percentage = "%" in text or "％" in text
+        cleaned = re.sub(r"[^0-9\.\-]", "", text)
+        if cleaned.count('-') > 1:
+            cleaned = cleaned.replace('-', '')
+            cleaned = '-' + cleaned
+
+        if not cleaned or cleaned in {"-", "."}:
+            return None, candidate_text, is_percentage
+
+        try:
+            number = float(cleaned)
+            if negative and number > 0:
+                number = -number
+            if is_percentage and abs(number) > 1.5:
+                number = number / 100.0
+            return number, candidate_text, is_percentage
+        except ValueError:
+            return None, candidate_text, is_percentage
+
+    def _infer_unit_from_value_text(self, value_text: Optional[str], is_percentage: bool) -> str:
+        if is_percentage:
+            return "%"
+        if not value_text:
+            return "unitless"
+        lower = value_text.lower()
+        if "$" in value_text or "usd" in lower:
+            return "USD"
+        if "eur" in lower or "€" in value_text:
+            return "EUR"
+        if "gbp" in lower or "£" in value_text:
+            return "GBP"
+        if "cny" in lower or "rmb" in lower or "¥" in value_text or "元" in value_text:
+            return "CNY"
+        if "jpy" in lower:
+            return "JPY"
+        return "unitless"
+
+    def _infer_metric_type(
+        self,
+        metric_type: Optional[str],
+        unit: Optional[str],
+        context: str,
+        value_text: Optional[str],
+        is_percentage: bool
+    ) -> str:
+        allowed = {"currency", "percentage", "basis_points", "multiple", "count", "ratio", "per_share", "duration", "other"}
+        if metric_type in allowed:
+            return metric_type
+
+        text = f"{unit or ''} {context or ''} {value_text or ''}".lower()
+        if is_percentage or "%" in (unit or "") or "percent" in text or "margin" in text or "growth" in text or "同比" in text or "环比" in text:
+            return "percentage"
+        if any(token in text for token in ["$", "usd", "eur", "¥", "cny", "rmb", "million", "billion", "千", "亿"]):
+            return "currency"
+        if "basis point" in text or "bp" in text:
+            return "basis_points"
+        if "per share" in text or "/share" in text or "每股" in text:
+            return "per_share"
+        if "ratio" in text or "multiple" in text or "倍" in text:
+            return "ratio"
+        if any(word in text for word in ["unit", "units", "shipments", "customers", "stores", "employees", "people", "台", "辆", "份"]):
+            return "count"
+        if any(word in text for word in ["year", "quarter", "month", "week", "day", "hour", "个月", "季度"]):
+            return "duration"
+        return "other"
+
+    def _resolve_relation_end(self, value: Any, entity_map: Dict[str, Dict], alias_index: Dict[str, str]) -> str:
+        entity_id = self._resolve_entity_reference(value, entity_map, alias_index)
+        if entity_id:
+            return entity_id
+        if isinstance(value, dict):
+            for key in ["name", "text", "subject", "object"]:
+                if value.get(key):
+                    return str(value[key])
+        return str(value) if value is not None else ""
+
+    def _detect_language(self, text: str) -> str:
+        if not text:
+            return "en"
+        chinese_chars = len(re.findall(r"[\u4e00-\u9fff]", text))
+        latin_chars = len(re.findall(r"[A-Za-z]", text))
+        return "zh" if chinese_chars > latin_chars else "en"
+
+    def _extract_doc_metadata(self, markdown_content: str, pdf_name: str, date_str: Optional[str]) -> Dict[str, Any]:
+        metadata: Dict[str, Any] = {}
+        title_match = re.search(r"^#\s*(.+)", markdown_content, re.MULTILINE)
+        if title_match:
+            metadata["title"] = title_match.group(1).strip()
+        else:
+            first_line = next((line.strip() for line in markdown_content.splitlines() if line.strip()), pdf_name)
+            metadata["title"] = first_line[:200]
+
+        if date_str:
+            metadata["report_date"] = date_str
+
+        metadata["language"] = self._detect_language(markdown_content)
+        metadata["word_count"] = len(re.findall(r"\w+", markdown_content))
+        metadata["full_text"] = markdown_content
+
+        ticker_candidates: set = set()
+        ticker_patterns = [
+            r"Ticker[s]?:\s*([A-Z0-9\-\s,;]+)",
+            r"股票代码[:：]\s*([A-Z0-9\-\s,;]+)"
+        ]
+        for pattern in ticker_patterns:
+            for match in re.finditer(pattern, markdown_content):
+                raw = match.group(1)
+                parts = re.split(r"[,;\s]+", raw)
+                for part in parts:
+                    ticker = part.strip().upper()
+                    if ticker and 1 <= len(ticker) <= 6:
+                        ticker_candidates.add(ticker)
+        if ticker_candidates:
+            metadata["tickers"] = sorted(ticker_candidates)
+
+        return metadata
+
     async def _call_model_with_prompt(self, processor: OpenRouterProcessor,
                                       model_key: str, prompt: str, pdf_name: str) -> Dict:
         """调用单个模型（简化版，最大上下文）"""
@@ -922,17 +1875,37 @@ class BatchPDFProcessor:
         ]
         # Gemini 2.5 Flash 支持最大 1M tokens 上下文
         # 使用配置的max_tokens而非硬编码（提升响应速度）
+        response_format = {
+            "type": "json_schema",
+            "json_schema": {
+                "name": "financial_report_schema_v1_3_1",
+                "schema": self.validator.schema
+            }
+        }
         response = await processor.call_model(
             model_key,
             messages,
-            max_tokens=config.api.LLM_MAX_TOKENS  # 使用配置的16000而非65536
+            max_tokens=config.api.LLM_MAX_TOKENS,  # 使用配置的16000而非65536
+            response_format=response_format
         )
-        content = response['choices'][0]['message']['content']
-        json_result = self._extract_json_from_response(content)
+        json_result = self._extract_json_from_response(response)
+        message = (response.get('choices') or [{}])[0].get('message', {})
+        raw_content = message.get('content')
+        if isinstance(raw_content, list):
+            raw_content = "\n".join(
+                part.get('text', '')
+                for part in raw_content
+                if isinstance(part, dict) and part.get('type') == 'text'
+            ).strip()
+        if not raw_content and message.get('parsed') is not None:
+            try:
+                raw_content = json.dumps(message['parsed'], ensure_ascii=False)
+            except TypeError:
+                raw_content = str(message['parsed'])
         return {
             "model": model_key,
             "result": json_result,
-            "raw_response": content,
+            "raw_response": raw_content or "",
             "usage": response.get('usage', {})
         }
 
@@ -940,9 +1913,6 @@ class BatchPDFProcessor:
                                             page_count: int, date_str: str, publication: str,
                                             figures_data: List[Dict]) -> str:
         """构建简化的提取提示词（整合文本和图表数据）"""
-        with open(config.SCHEMA_PATH, 'r', encoding='utf-8') as f:
-            schema_content = f.read()
-
         # 构建图表数据摘要
         figures_summary = "\n".join([
             f"- 页{fig.get('page', '?')}: {fig.get('type', 'unknown')}图 - {fig.get('title', '无标题')} ({len(fig.get('series', []))}个数据系列)"
@@ -970,39 +1940,21 @@ class BatchPDFProcessor:
 
 ## 输出要求
 
-### 1. 严格遵循Schema v1.3.1
-输出必须是一个完整的JSON对象，严格符合以下Schema：
-```json
-{schema_content}
-```
+**仅输出一个完整的JSON对象，不要包含任何解释文本、markdown标记或其他内容。**
 
-### 2. 关键提取指南
+### 关键字段要求
+- 顶层字段必须包含：`schema_version`、`doc`、`passages`、`entities`、`data`
+- `schema_version` 固定为 "1.3.1"
+- `doc` 至少包含 `doc_id`、`title`、`timestamps`、`extraction_run`
+- `data` 内需提供 `figures`、`tables`、`numerical_data`、`claims`、`relations`、`extraction_summary`
+- `extraction_summary` 中补充 `figures_count`、`tables_count`、`numerical_data_count`
 
-**重要提示：**
-- fiscal_period格式必须为：`FY2024Q4` 或 `CY2025H1`（不能是`1H`、`Q4`等简写）
-- 百分比用0-1表示（如18.2% → 0.182）
-- 所有page字段必须是整数（1到{page_count}）
-- 所有ID字段使用稳定的hash或UUID
-- 时间格式统一为ISO 8601
-
-**必需的顶层字段：**
-- `schema_version`: "1.3.1"
-- `doc`: 文档元数据
-- `passages`: 文本片段数组（至少提取主要段落）
-- `entities`: 实体数组（公司、指数等）
-- `data`: 包含figures/tables/numerical_data/claims/relations/extraction_summary
-
-**数据提取优先级：**
-1. **numerical_data**：提取所有关键数值（收入、利润、增长率等）
-2. **tables**：识别并提取所有表格
-3. **figures**：识别图表并提取数据（如果文本中有图表描述）
-4. **passages**：将文档拆分为可检索的段落
-5. **entities**：识别所有公司、指数等实体
-6. **claims**：提取关键结论和预测
-7. **relations**：提取实体关系
-
-### 3. 输出格式
-**仅输出最终JSON对象，不要包含任何解释文本、markdown标记或其他内容。**
+### 关键注意事项
+- `fiscal_period` 使用完整格式：例如 `FY2024Q4`、`CY2025H1`
+- 百分比转换为 0-1 的小数（如 18.2% → 0.182）
+- 所有 `page` 字段填写 1 到 {page_count} 的整数
+- ID 需稳定（hash 或 UUID），时间统一为 ISO 8601
+- 优先提取 `numerical_data`、`tables` 和 `claims`，并补充必要的 `passages` 与 `entities`
 """
         return prompt
 
@@ -1139,7 +2091,7 @@ class BatchPDFProcessor:
     async def _process_single_figure_request(self, processor: OpenRouterProcessor, image_path: str, semaphore: asyncio.Semaphore) -> str:
         """单图像请求：携带图像并要求输出符合 data.figures 项结构的JSON"""
         async with semaphore:
-            b64 = self._encode_image_to_base64(image_path)
+            b64, text_override = self._encode_image_to_base64(image_path)
             page_idx = self._infer_page_from_image_path(image_path)
 
             # 使用正确的OpenAI消息格式
@@ -1150,32 +2102,95 @@ class BatchPDFProcessor:
                 },
                 {
                     "role": "user",
-                    "content": [
-                        {"type": "text", "text": f"请识别此图的结构化数据，并将 page 设为 {page_idx}。"},
-                        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}"}}
-                    ]
+                    "content": self._build_figure_request_payload(
+                        page_idx,
+                        prompt_body=f"请识别此图的结构化数据，并将 page 设为 {page_idx}。",
+                        b64=b64,
+                        text_override=text_override
+                    )
                 }
             ]
 
-            resp = await processor.call_model("gemini", messages, max_tokens=2048)
+            resp = await processor.call_model(
+                "gemini", messages, max_tokens=getattr(config.api, "LLM_MAX_TOKENS_IMAGE", 1536)
+            )
             return resp['choices'][0]['message']['content']
 
-    def _extract_json_from_response(self, response_text: str) -> Dict:
-        """从LLM响应中提取JSON对象（增强版，支持markdown代码块和嵌套JSON）"""
+    def _extract_json_from_response(self, response_data: Any) -> Dict:
+        """从LLM响应中提取JSON对象，优先处理结构化返回"""
         import re
 
-        # 策略1: 尝试直接解析
+        # 结构化响应处理
+        if isinstance(response_data, dict):
+            # 如果已经是符合schema的字典，直接返回
+            required_top_level = {"schema_version", "doc", "passages", "entities", "data"}
+            if required_top_level.issubset(set(response_data.keys())):
+                return response_data
+
+            choices = response_data.get("choices") or []
+            if choices:
+                message = choices[0].get("message", {})
+                if isinstance(message, dict):
+                    parsed_payload = message.get("parsed")
+                    if isinstance(parsed_payload, dict):
+                        return parsed_payload
+                    if isinstance(parsed_payload, list):
+                        for item in parsed_payload:
+                            if isinstance(item, dict):
+                                return item
+
+                    tool_calls = message.get("tool_calls") or []
+                    for call in tool_calls:
+                        function_data = call.get("function", {}) if isinstance(call, dict) else {}
+                        arguments = function_data.get("arguments")
+                        if isinstance(arguments, dict):
+                            return arguments
+                        if isinstance(arguments, str):
+                            try:
+                                return json.loads(arguments)
+                            except json.JSONDecodeError:
+                                continue
+
+                    content = message.get("content")
+                    if isinstance(content, list):
+                        text_parts = [
+                            part.get("text", "")
+                            for part in content
+                            if isinstance(part, dict) and part.get("type") == "text"
+                        ]
+                        content = "\n".join(text_parts).strip()
+                    if isinstance(content, str) and content.strip():
+                        return self._extract_json_from_response(content.strip())
+
+            # 如果无法解析，尝试将字典序列化后走文本兜底逻辑
+            try:
+                return self._extract_json_from_response(json.dumps(response_data, ensure_ascii=False))
+            except TypeError:
+                logger.error("响应数据无法序列化为JSON字符串进行解析兜底。")
+                return {}
+
+        if isinstance(response_data, (list, tuple)):
+            for item in response_data:
+                result = self._extract_json_from_response(item)
+                if result:
+                    return result
+            return {}
+
+        if not isinstance(response_data, str):
+            response_text = str(response_data)
+        else:
+            response_text = response_data
+
+        # 文本解析兜底逻辑
         try:
             return json.loads(response_text)
         except json.JSONDecodeError:
             pass
 
-        # 策略2: 提取markdown代码块中的JSON（```json...```）
-        # 使用正则匹配代码块，支持 ```json 或 ``` 开头
         code_block_patterns = [
-            r'```json\s*\n(.*?)\n```',  # ```json\n{...}\n```
-            r'```\s*\n(\{.*?\})\s*\n```',  # ```\n{...}\n```
-            r'```json\s*(.*?)```',  # ```json{...}```（无换行）
+            r'```json\s*\n(.*?)\n```',
+            r'```\s*\n(\{.*?\})\s*\n```',
+            r'```json\s*(.*?)```',
         ]
 
         for pattern in code_block_patterns:
@@ -1187,11 +2202,9 @@ class BatchPDFProcessor:
                 except json.JSONDecodeError:
                     continue
 
-        # 策略3: 手动查找markdown代码块中的JSON（括号匹配）
         code_block_match = re.search(r'```(?:json)?\s*(\{)', response_text, re.DOTALL)
         if code_block_match:
             start_pos = code_block_match.start(1)
-            # 从{开始，使用括号计数找到完整的JSON
             brace_count = 0
             for i in range(start_pos, len(response_text)):
                 if response_text[i] == '{':
@@ -1205,7 +2218,6 @@ class BatchPDFProcessor:
                         except json.JSONDecodeError:
                             break
 
-        # 策略4: 查找第一个完整的JSON对象（从头开始）
         brace_count = 0
         start_idx = -1
         for i, char in enumerate(response_text):
@@ -1219,17 +2231,42 @@ class BatchPDFProcessor:
                     try:
                         return json.loads(response_text[start_idx:i+1])
                     except json.JSONDecodeError:
-                        # 继续查找下一个可能的JSON对象
                         start_idx = -1
                         brace_count = 0
 
-        # 如果都失败，返回空结构
         logger.error(f"无法从响应中提取JSON: {response_text[:200]}...")
         return {}
 
-    def _encode_image_to_base64(self, image_path: str) -> str:
-        with open(image_path, 'rb') as f:
-            return base64.b64encode(f.read()).decode('utf-8')
+    def _encode_image_to_base64(self, image_path: str,
+                                *, allow_text_fallback: bool = True) -> Tuple[Optional[str], Optional[str]]:
+        """将图像编码为base64，必要时返回文本兜底"""
+        if allow_text_fallback:
+            for suffix in ('.json', '.txt'):
+                text_path = Path(image_path).with_suffix(suffix)
+                if text_path.exists():
+                    try:
+                        text_payload = text_path.read_text(encoding='utf-8').strip()
+                    except UnicodeDecodeError:
+                        text_payload = text_path.read_text(encoding='utf-8', errors='ignore').strip()
+                    if text_payload:
+                        return None, text_payload
+
+        compressed_path = None
+        if hasattr(self, "ocr_processor") and hasattr(self.ocr_processor, "get_preprocessed_image_path"):
+            compressed_path = self.ocr_processor.get_preprocessed_image_path(image_path)
+
+        candidate_paths = []
+        if compressed_path:
+            candidate_paths.append(Path(compressed_path))
+        candidate_paths.append(Path(image_path))
+
+        for path in candidate_paths:
+            if path and path.exists():
+                with open(path, 'rb') as f:
+                    b64 = base64.b64encode(f.read()).decode('utf-8')
+                    return b64, None
+
+        raise FileNotFoundError(f"无法找到图像或压缩文件: {image_path}")
 
     def _infer_page_from_image_path(self, image_path: str) -> int:
         # 约定文件名 images/{page_idx}_{img_idx}.jpg
@@ -1345,64 +2382,111 @@ class BatchPDFProcessor:
             return False
 
     async def process_batch(self, pdf_paths: List[str]) -> List[Dict]:
-        """批量处理PDF文件（极速并行优化 - RTX 4090 48G）"""
-        logger.info(f"{Colors.BLUE}开始批量处理 {len(pdf_paths)} 个PDF文件{Colors.RESET}")
-        logger.info(f"{Colors.CYAN}使用极速并行模式：多PDF同时处理{Colors.RESET}")
+        """批量处理PDF文件，采用阶段A/B流水线并发模式"""
+        total = len(pdf_paths)
+        logger.info(f"{Colors.BLUE}开始批量处理 {total} 个PDF文件{Colors.RESET}")
+        if not pdf_paths:
+            return []
 
-        # RTX 4090 48G优化：增加并发数
-        # OCR很快（27秒），API很慢（120秒），所以可以同时处理更多PDF
-        max_parallel = min(6, len(pdf_paths))  # 最多6个PDF同时处理（从3增加到6）
+        stage_a_limit = getattr(config, "MAX_CONCURRENT_PDFS", total or 1)
+        processing_cfg = getattr(config, "processing", None)
+        if processing_cfg is not None:
+            stage_a_limit = getattr(processing_cfg, "MAX_CONCURRENT_PDFS", stage_a_limit)
+        stage_a_limit = max(1, min(stage_a_limit, total))
 
-        logger.info(f"{Colors.YELLOW}并发配置: {max_parallel}个PDF同时处理{Colors.RESET}")
-        logger.info(f"{Colors.YELLOW}预计总时间: {120 + (len(pdf_paths) - max_parallel) * 20}秒{Colors.RESET}")
+        api_concurrency = self._get_max_api_concurrency()
+        consumer_count = max(1, min(api_concurrency, total))
 
-        results = []
-        failed_files = []
+        logger.info(
+            f"{Colors.YELLOW}阶段A最大并发: {stage_a_limit} | 阶段B消费者数量: {consumer_count}{Colors.RESET}"
+        )
 
-        # 使用信号量控制并发
-        semaphore = asyncio.Semaphore(max_parallel)
+        job_queue: asyncio.Queue = asyncio.Queue()
+        results: List[Dict] = []
+        failed_files: Set[str] = set()
 
-        async def process_with_semaphore(pdf_path: str, index: int):
-            async with semaphore:
+        stage_a_semaphore = asyncio.Semaphore(stage_a_limit)
+
+        async def stage_a_worker(pdf_path: str, index: int) -> Tuple[str, Optional[Exception]]:
+            async with stage_a_semaphore:
+                start_time = time.time()
+                pdf_name = Path(pdf_path).name
+                logger.info(
+                    f"{Colors.CYAN}[阶段A {index}/{total}] 准备: {pdf_name}{Colors.RESET}"
+                )
                 try:
-                    start_time = time.time()
-                    logger.info(f"{Colors.CYAN}[{index}/{len(pdf_paths)}] 开始处理: {Path(pdf_path).name}{Colors.RESET}")
-                    result = await self.process_single_pdf(pdf_path)
+                    job = await self._process_pdf_stage_a(pdf_path)
+                    await job_queue.put(job)
                     elapsed = time.time() - start_time
-                    logger.info(f"{Colors.GREEN}[{index}/{len(pdf_paths)}] 完成: {Path(pdf_path).name} (耗时: {elapsed:.1f}秒){Colors.RESET}")
-                    return (pdf_path, result, None)
-                except Exception as e:
-                    logger.error(f"{Colors.RED}[{index}/{len(pdf_paths)}] 失败: {Path(pdf_path).name} - {e}{Colors.RESET}")
-                    return (pdf_path, None, str(e))
+                    logger.info(
+                        f"{Colors.GREEN}[阶段A {index}/{total}] 入队完成: {pdf_name} (耗时: {elapsed:.1f}秒){Colors.RESET}"
+                    )
+                    return pdf_path, None
+                except Exception as exc:
+                    failed_files.add(pdf_path)
+                    logger.error(
+                        f"{Colors.RED}[阶段A {index}/{total}] 失败: {pdf_name} - {exc}{Colors.RESET}"
+                    )
+                    return pdf_path, exc
 
-        # 并行处理所有PDF
-        tasks = [
-            process_with_semaphore(pdf_path, i+1)
-            for i, pdf_path in enumerate(pdf_paths)
+        async def consumer_worker(worker_id: int) -> None:
+            while True:
+                job = await job_queue.get()
+                if job is None:
+                    job_queue.task_done()
+                    logger.info(
+                        f"{Colors.YELLOW}阶段B消费者#{worker_id} 已结束{Colors.RESET}"
+                    )
+                    break
+                start_time = time.time()
+                pdf_name = Path(job.pdf_path).name
+                logger.info(
+                    f"{Colors.CYAN}[阶段B#{worker_id}] 开始处理: {pdf_name}{Colors.RESET}"
+                )
+                try:
+                    result = await self._process_pdf_stage_b(job)
+                    results.append(result)
+                    elapsed = time.time() - start_time
+                    logger.info(
+                        f"{Colors.GREEN}[阶段B#{worker_id}] 完成: {pdf_name} (耗时: {elapsed:.1f}秒){Colors.RESET}"
+                    )
+                except Exception as exc:
+                    failed_files.add(job.pdf_path)
+                    logger.error(
+                        f"{Colors.RED}[阶段B#{worker_id}] 失败: {pdf_name} - {exc}{Colors.RESET}"
+                    )
+                finally:
+                    job_queue.task_done()
+
+        stage_a_tasks = [
+            asyncio.create_task(stage_a_worker(pdf_path, idx + 1))
+            for idx, pdf_path in enumerate(pdf_paths)
         ]
 
-        # 等待所有任务完成
-        completed = await asyncio.gather(*tasks, return_exceptions=True)
+        consumer_tasks = [
+            asyncio.create_task(consumer_worker(worker_id + 1))
+            for worker_id in range(consumer_count)
+        ]
 
-        # 收集结果
-        for item in completed:
-            if isinstance(item, Exception):
-                logger.error(f"{Colors.RED}处理异常: {item}{Colors.RESET}")
-                continue
+        stage_a_results = await asyncio.gather(*stage_a_tasks)
+        stage_a_success = sum(1 for _, err in stage_a_results if err is None)
+        logger.info(
+            f"{Colors.BLUE}阶段A完成: {stage_a_success}/{total} 个任务已入队{Colors.RESET}"
+        )
 
-            pdf_path, result, error = item
-            if error:
-                failed_files.append(pdf_path)
-            elif result:
-                results.append(result)
+        for _ in range(consumer_count):
+            await job_queue.put(None)
 
-        # 输出处理摘要
+        await job_queue.join()
+        await asyncio.gather(*consumer_tasks)
+
         logger.info(f"{Colors.GREEN}批量处理完成！{Colors.RESET}")
         logger.info(f"成功处理: {len(results)} 个文件")
-        logger.info(f"失败文件: {len(failed_files)} 个")
 
-        if failed_files:
-            logger.warning(f"失败文件列表: {[Path(f).name for f in failed_files]}")
+        failed_list = sorted(failed_files)
+        logger.info(f"失败文件: {len(failed_list)} 个")
+        if failed_list:
+            logger.warning(f"失败文件列表: {[Path(f).name for f in failed_list]}")
 
         return results
 
