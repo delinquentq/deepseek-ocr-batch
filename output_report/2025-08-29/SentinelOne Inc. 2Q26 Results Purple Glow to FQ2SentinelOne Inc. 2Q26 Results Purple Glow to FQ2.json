@@ -1,0 +1,3048 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "6424fa1ec98e15904b84a317678884e8",
+    "title": "Morgan Stanley | RESEARCH",
+    "source_uri": "25.9月 普通个人版/9.2 普通个人版/MS/SentinelOne Inc. 2Q26 Results Purple Glow to FQ2SentinelOne Inc. 2Q26 Results Purple Glow to FQ2_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:56:36.385261",
+      "extracted_at": "2025-10-27T00:56:36.385271"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 15,
+        "successful_pages": 15,
+        "date": "2025-08-29",
+        "publication": "25.9月 普通个人版/9.2 普通个人版/MS",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 5,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.016232404045080417
+        },
+        "input_relative_path": "25.9月 普通个人版/9.2 普通个人版/MS"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "deb9ea446baf1d18",
+      "text": "August 29, 2025 04:03 AM GMT",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "5627b4367138906a",
+      "text": "Unchanged Impact to our thesis",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a30bdf6413f60a88",
+      "text": "Modest upside Financial results versus consensus",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "35128f2a55b6f13d",
+      "text": "Source: Company data, Morgan Stanley Research",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "652c4d3e185faeaa",
+      "text": "S reported a strong FQ2, with ARR coming in well ahead of expectations, particularly after FQ1 was shy of expectations. FY26 outlook raised, but still embeds conservatism given company commentary. We remain on the sidelines given competitive pressures/margins, but did walk away encouraged.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "15e364b6ee48786f",
+      "text": "A strong bounce back. After a rocky FQ1, where macro conditions had weighed on Net New ARR (NNARR), the FQ2 upside to NNARR was a positive surprise. While the quarter was particularly back- end loaded, a reason we didn't see more upside to revenue, we did walk away from the quarter encouraged. Reason being: 1) Seeing stronger breadth of platform adoption with \\(\\sim 50\\%\\) bookings from non- EDR products. 2) PurpleAI platform at the right place with need for AI security, experiencing triple digit YoY growth, a product that should improve with Prompt Security acquisition. 3) Flex pricing making product easier to consume, as we saw with 8- figure win during the quarter. We are still watching 1) Fiercely competitive environment around EDR and 2) Limited profitability pass through, but overall see stronger demand conditions for the company. We will monitor for how much Flex can help with core competitiveness of EDR market. Remain EW.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "badc609dcee3350f",
+      "text": "Strong ARR beat. SentinelOne delivered \\(\\) 1,001\\$ mm in ARR (+24% YoY growth), ahead of consensus of \\(+22\\%\\) YoY, a beat of \\(\\sim 160\\) bps after a \\(\\sim 40\\) bps miss in FQ1. The strength of NNARR of \\(\\) 53\\$ mm was notable given it was up \\(89\\%\\) QoQ. Given a back- end loaded quarter, revenue was in- line with expectations at \\(\\) 242\\$ mm (+22% YoY). Seeing traction with broader platform, particularly around AI security. \\(50\\%\\) of SentinelOne's bookings were from emerging products, showing greater platform adoption (Data, AI, Cloud). PurpleAI was particularly strong, growing triple digits, with attach rates \\(>30\\%\\) , the highest level to date. Company believes that Flex should help further with platform adoption, removing one of the key hurdles to adoption. Flex seeing success in very early days. Flex is not even fully rolled out yet, but the company saw an 8- figure deal (renewal) during the quarter. The company expects that Flex should help with larger deals, and should help with broader platform adoption.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "27a88789fa5e7286",
+      "text": "Software | United States of America",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "5e4b3806935ae004",
+      "text": "Stock Rating Equal- weight Industry View Attractive Price target \\(\\) 18.00\\(\\) 17.61\\(Mkt cap, curr (mm) \\)5,937\\(52- Week Range\\)29.21- 15.38\\$",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f7a7de9680d696f5",
+      "text": "Morgan Stanley does and seeks to do business with companies covered in Morgan Stanley Research. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of Morgan Stanley Research. Investors should consider Morgan Stanley Research as only a single factor in making their investment decision.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "51d90ffbebc0b795",
+      "text": "For analyst certification and other important disclosures, refer to the Disclosure Section, located at the end of this report.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ead980691e4183d1",
+      "text": "- FY guidance still embedding some conservatism. While FQ2 revenue was in-line with expectations, ARR beat was meaningful enough to drive more expected upside into the 2H. However, full year revenue estimates were really only raised \\(\\) 1.5\\$ mm at the mid-point. The company talked to embedding conservatism after a particularly strong FQ2, but we would think there is more upside potential to the 2H.- Prompt Security acquisition. SentinelOne announced the acquisition of Prompt Security earlier in the month, helping enhance their AI security platform, particularly around AI-related data leakage. A key challenge with AI, we see this being a strong area of demand. The \\(\\) 180\\$ mm acquisition is expected to be de minimus to FY26 revenue, but will provide an 80bps impact to full year margins. The deal is expected to close in FQ3.- Not yet significant profitability upside. While SentinelOne was able to post 2% operating margins, better than break-even expectations, the guide for the year called for 3% margins vs. 3-4% previously. As noted above, this is largely due to the Prompt Security acquisition. On FCF, SentinelOne reported a \\(\\) 7.1\\$ mm outflow this quarter, worse than expectations from the back-end loaded quarter. Not expecting material upside to the year, but not meaningfully changing estimates.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "45dbd11e84984031",
+      "text": "Balanced Risk-Reward for Share Gained a \\(\\) 0\\$ wded Market",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "19a2cac0ab46fa0a",
+      "text": "Key: Historical Stock Performance Current Stock Price Price Target",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "cbc1029f10a912b4",
+      "text": "Source: Refinitiv, Morgan Stanley Research",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "22cf69f4dcf36ec7",
+      "text": "SentinelOne should be a long term share gainer addressing large and growing markets in Endpoint, Cloud and Identity Security, but faces tough competition from larger platform vendors.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "a2cc4d0881a479b7",
+      "text": "Risk- reward looks balanced at valuation of \\(\\sim 4.5x EV/CY26 sales and 0.22x growth adjusted, below peers, given lower margins and execution risk.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "daba78691632834d",
+      "text": "Source: Refinitiv, Morgan Stanley Research",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "a0c053820954ba42",
+      "text": "Secular Growth: Positive View descriptions of Risk Rewards Themes here",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f4c15d7bf247d192",
+      "text": "- Total customers reach 22.1k in CY27, a 15% 3-yr CAGR",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b1320ea21ce2e3af",
+      "text": "- ARR reaches \\(\\) 1.8B\\(in CY27, a 22% 3-yr CAGR",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "49c366ed3577a588",
+      "text": "- Rev. grows to \\(\\) 1.6B\\(in CY27, a 24% 3-yr CAGR",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "47cc16f9db728af0",
+      "text": "- Op. Margins improve from (19%) in CY23 to 7% in CY27, yielding \\(\\) 201M\\(in FCF",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e5a931a033f0a075",
+      "text": "- Apply \\(4.7x EV/CY27 FCF mult to get to our\\) 25 bull valuation (5.9x EV/CY26 Sales or 0.23x EV/S/G).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3b1d29f1771f5ed5",
+      "text": "\\(4.0x EV/CY27e FCF of\\) \\ \\(162M\\) , discount back at \\(12\\%\\)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "5cedb8ce40a8fbd7",
+      "text": "- Total customers reach 20.8k in CY27, a 14% 3-yr CAGR",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "19f4fd81a013de99",
+      "text": "- ARR reaches \\(\\) 1.5B\\(in CY27, a 18% 3-yr CAGR",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "756d8deeaf2b068a",
+      "text": "- Rev. grows to \\(\\) 1.4B\\(in CY27, a 20% 3-yr CAGR",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "50981a77139fe3ec",
+      "text": "- Op. Margins improve from (19%) in CY23 to 7% in CY27, yielding \\(\\) 162M\\(in FCF.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "dfab89c1d797518b",
+      "text": "- Apply \\(4.0x EV/CY27 FCF mult to get to our\\) 18 valuation (4.6x EV/CY26 Sales or 0.22x EV/S/G).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "56db5a199dd7d2ae",
+      "text": "\\(29x EV/CY27e FCF of\\) \\ \\(129M\\) discount back at \\(12\\%\\)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "bbb9882fcdf88394",
+      "text": "- Total customers reach 18.5k in CY27, a 10% 3-yr CAGR",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f689ac83a29fe4ce",
+      "text": "- ARR reaches \\(\\) 1.3B\\(in CY27, a 14% 3-yr CAGR",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1ca2b3bce8f23797",
+      "text": "- Rev. grows to \\(\\) 1.2B\\(in CY27, a 16% 3-yr CAGR",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "cbc332b2f1dc59da",
+      "text": "- Op. Margins improve from (19%) in CY22 to 5% in CY27, yielding \\(\\) 129M\\(in FCF",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e103b83ff5a1d94a",
+      "text": "- Apply \\(29x EV/CY27 FCF mult to get to our\\) 12 bear valuation (2.9x EV/CY26 Sales or 0.17x EV/S/G).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f0c4e7633a634411",
+      "text": "Exhibit 1: Model Changes",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "fa894e8288281f7c",
+      "text": "SentinelOne Model Changes4/257/2510/25E1/26EFY26EFY27EFY28ENew Total Revenue229.0242.2256.0272.81,000.01,201.81,411.8YoY23%22%22%21%22%20.2%17.5%Old Total Revenue229.0242.0254.1270.8996.01,176.91,365.7YoY22.9%21.6%20.6%20.1%21%18.2%16.0%% Change in Revenue &#36;0%0%1%1%0.4%2.1%3.4%&#36; Change in &#36;$0.0$0.2$1.9$2.0$4.0$24.9$46.0New Total ARR948.11001.01051.91110.11110.11304.61502.8YoY24%24%22%21%21%17.5%15.2%Old ARR948.1985.01035.91094.01094.01272.41454.6YoY24.4%22.2%20.5%18.9%19%16.3%14.3%% Change0.0%1.6%1.5%1.5%1.5%2.5%3.3%&#36; Change in &#36;$0.0$16.0$16.0$16.1$16.1$32.2$48.2New Net-New ARR28.052.950.958.2190.0194.5198.2YoY-26%20%-5%-4%-3%2%2%Old Net-New ARR28.036.950.858.2173.9178.4182.2YoY-25.5%-16.1%-5.3%-3.7%-11%2.5%2.2%% Change0.0%43.3%0.1%0.0%9.2%9.0%8.8%&#36; Change in &#36;$0.0$16.0$0.0$0.0$16.1$16.1$16.0New Gross Profit181.5191.5200.9216.5790.4943.11100.8New Gross Profit Margin79.2%79.1%78.5%79.4%79.0%78.5%78.0%Old Gross Profit181.5191.3200.6213.8787.1924.31065.7Old Gross Profit Margin79.2%79.0%78.9%78.9%79.0%78.5%78.0%Change to &#36;$0.0$0.2$0.3$2.7$3.3$18.8$35.1Change to %0%0%0%0%0%0.0%0%New Operating Income(3.9)5.410.414.430.160.498.9New Operating Margin-1.7%2.2%4.0%5.3%3.0%5.0%7.0%Old Old Operating Income(3.9)0.07.126.729.959.195.9Old Operating Margin-1.7%0.0%2.8%9.9%3.0%5.0%7.0%Change to &#36;$0.0$5.3$3.2-$12.2$0.2$1.2$3.0Change to %0%2%1%-5%0.0%0.0%0.0%New Free Cash Flow45.4(7.1)11.515.765.596.6162.3New FCF Margin19.8%-3.0%4.5%5.8%6.5%8.0%11.5%Old Free Cash Flow45.45.62.411.765.194.3156.9Old FCF Margin19.8%2.3%0.9%4.3%6.5%8.0%11.5%% Change to FCF Margin0%-5%4%1%0.0%0.0%0.0%&#36; Change in &#36;$0.0-$12.8$9.1$4.0$0.3$2.2$5.5",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "709e2ddc561a79ae",
+      "text": "Source: Company data, Morgan Stanley Research estimates",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "649da70514241806",
+      "text": "($ millions, except Per-Share Data)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "7da59a3aac5d7b24",
+      "text": "FY22FY23FY24FY252026E2027EFY26EFY27EFY28ETotal Revenue204.8422.2621.2821.5229.0242.2256.0272.81,000.01,000.0Year over year % change72.1%50.6%47.7%32.2%22.9%21.7%21.5%20.9%21.7%20.2%Quarter over quarter % change1.6%5.7%5.7%6.5%Cost of Revenue75.9117.6140.1160.947.650.755.156.3209.650.7Total Cost of Revenue128.9304.6481.1651.6181.5191.5209.9216.5790.4217.8Gross Profit62.9%72.1%77.4%78.3%79.2%79.1%78.5%79.4%79.0%78.5%Gross MarginOperating ExpensesSalaries &amp; Marketing143.1201.8331.6306.7108.1103.8113.9121.5447.2128.8124.6Research &amp; Development150.7153.8154.9178.850.153.949.153.7206.756.056.2General &amp; Administration59.897.2112.7102.232.428.427.626.9115.330.931.2Total Operating Expenses203.5513.4599.3677.0196.6190.1190.5202.1799.3213.7221.4Year over year % changeOperating Income(187.4)(208.9)(118.2)(89.4)3.9%5.419.414.430.14.16.7Operating MarginDepreciation7.920.7-18.942.910.812.314.915.053.015.417.7EBITDA(166.6)(179.8)(78.3)13.76.917.625.329.483.219.524.5EBITDA Margin-7.9-21.4%-12.8%2.1%0.0%7.3%9.5%10.8%8.7%0.4%8.5%Total interest and other income, net(2.3)14.344.947.412.811.911.411.547.511.611.9Income Before Taxes(177.4)(190.6)(73.3)22.08.917.221.725.973.815.718.6% of revenues-46.6%-45.1%-11.8%2.7%3.9%7.1%8.5%9.5%7.4%5.7%Provision for Income Taxes(1.0)(4.1)(5.9)(8.6)(2.2)(4.1)5.16.15.0(8.0)% Tax Rate-21.5%-8.0%-21.1%-24.9%-23.6%-23.6%-23.6%-23,6%-5.0%-10.0%Net Income(178.4)(194.0)(78.2)15.26.611.228.932.178.714.945.6Net margin-47.1%-46.1%-12.8%1.8%2.9%5.4%10.5%11.7%5.4%6.1%7.9%Pro Forma EPS - Operating(81.03)(90.70)(50.27)50.0450.0250.0450.0750.0850.2150.0450.05",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "05644a5905903388",
+      "text": "Source: Company data, Morgan Stanley Research estimates",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "eb8caebafeee632e",
+      "text": "FY22FY23FY24FY252026E2027EFY26EFY27EFY28ECustomer DataAnnual Recurring Revenue ModelPrice Year Annual Recurring Revenue(1) Expansion ARRNet Expansion ARRNet New ARRYoYYoYEnding Annual Recurring RevenueYoYYoYOrganic ARRYoYOrganic Net New ARRYoYOrganic ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARROrganic Net New ARR",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "032b2a9c6165671e",
+      "text": "Exhibit 4: Balance Sheet",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "f44c4735e4b898a5",
+      "text": "($ in millions, except EPL)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "80e48e199dd8ced1",
+      "text": "1. View explanation of Options Probabilities methodology - Options_Probabilities_Exhibit_Link.pdf  \n2. View descriptions of Risk Rewards Themes - RR_Themes_Exhibit_Link.pdf  \n3. View explanation of regional hierarchies - GEG_Exhibit_Link.pdf  \n4. View explanation of Theme/Exposure methodology - ESG_Sustainable_Solutions_External_Link.pdf  \n5. View explanation of HERS methodology - ESG_HERS_External_Link.pdf",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8fcf2a4cf9b85c6a",
+      "text": "The information and opinions in Morgan Stanley Research were prepared by Morgan Stanley & Co. LLC, and/or Morgan Stanley C.T.V.M. S.A., and/or Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V., and/or Morgan Stanley Canada Limited. As used in this disclosure section, Morgan Stanley includes Morgan Stanley & Co. LLC, Morgan Stanley C.T.V.M. S.A., Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V., Morgan Stanley Canada Limited and their affiliates as necessary.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "308a93417c1a2497",
+      "text": "For mportant dislures, stck price chrt and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website at www.morganstanley.com/researchdisclosures, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY, 10036 USA.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "cab44bd794006962",
+      "text": "For valuation methodology and risks associated with any recommendation, rating or price target referenced in this research report, please contact the Client Support Team as follows: US/Canada +1 800 303- 2495; Hong Kong +852 2848- 5999; Latin America +1 718 754- 5444 (U.S.); London +44 (0)20- 7425- 8169; Singapore +65 6834- 6860; Sydney +61 (0)2- 9770- 1505; Tokyo +81 (0)3- 6836- 9000. Alternatively you may contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "1804d842deb43f9d",
+      "text": "Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflict policies. A Portuguese version of the policy can be found at www.morganstanley.com.br",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "604269749b79b356",
+      "text": "The analyst or strategist (or a household member) identified below owns the following securities (or related derivatives): Jonathan Eisenson - Adobe Inc.(common or preferred stock), Sprout Social Inc(common or preferred stock); Meta A Marshall - Adobe Inc.(common or preferred stock), Intuit(common or preferred stock), Microsoft(common or preferred stock), Oracle Corporation(common or preferred stock), Palo Alto Networks Inc(common or preferred stock).",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "1a8ff6bbfe4ff959",
+      "text": "As of July 31, 2025, Morgan Stanley beneficially owned 1% or more of a class of common equity securities of the following companies covered in Morgan Stanley Research: Adobe Inc., Akamai Technologies, Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Cloudflare Inc, Coursera, Inc., CrowdStrike Holdings Inc, CyberArk Software Ltd, Datadog, Inc., Descartes Systems Group Inc, DocuSign Inc, Elastic NV, Figma Inc, Five9 Inc, Fortinet Inc, Freshworks Inc, Gen Digital Inc, Getilab Inc, GoDaddy Inc, Intuit, Klaviyo, Inc, LegalZoom Inc, Livermap Holdings Inc, Manhattan Associates Inc, Microsoft, MongoDB Inc, NICE Ltd, Okta, Inc., OneStream Inc, Oracle Corporation, PagerDuty, Inc., Palantir Technologies Inc., Palo Alto Networks Inc, Qualys Inc, Rapid7 Inc, RingCentral Inc, Salesforce, Inc., Samsara Inc, Semrush Holdings Inc - A, ServiceNow Inc, ServiceTitan Inc, Shopify Inc, Snowflake Inc, Sprinklr Inc, Sprout Social Inc, SPS Commerce Inc, Tenable Holdings Inc, Toast, Inc., Twilio Inc, UiPath Inc, Varonis Systems, Inc., Vex Inc, Wix.com Ltd, Workday Inc.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "8d6cac7424a0c869",
+      "text": "Within the last 12 months, Morgan Stanley managed or co- managed a public offering (or 144A offering of securities of Akamai Technologies, Inc., Autodesk, BILL Holdings Inc, Box Inc, Cloudflare Inc, CoreWeave, CyberArk Software Ltd, Datadog, Inc., DigitalOcean Holdings Inc, Figma Inc, Klaviyo, Inc, OneStream Inc, Sabre Corp, SailPoint Inc, ServiceTitan Inc, Varonis Systems, Inc., Zeta Global Holdings Corp.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "ae60ab8b6a0b0fe9",
+      "text": "Within the last 12 months, Morgan Stanley has received compensation for investment banking services from Akamai Technologies, Inc., Autodesk, BILL Holdings Inc, Box Inc, CCC Intelligent Solutions Holdings Inc, Cloudflare Inc, CoreWeave, Couchbase, Inc., CyberArk Software Ltd, Datadog, Inc., DigitalOcean Holdings Inc, DocuSign Inc, Figma Inc, Klaviyo, Inc, OneStream Inc, Sabre Corp, SailPoint Inc, Salesforce, Inc., Sabre Corp, SailPoint Inc, Salesforce, Inc., Sabre Corp, SailPoint Inc., Salesforce, Inc., Sabre Corp, SailPoint Inc., Salesforce, Inc., Sabre Corp.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e562dd02a9970386",
+      "text": "In the next 3 months, Morgan Stanley expects to receive or intends to seek compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atlassian Corporation PLC, Autodesk, BILL Holdings Inc, Blackline Inc, Box Inc, C3.ai, CCC Intelligent Solutions Holdings Inc, Check Point Software Technologies Ltd., Cloudflare Inc., CoreWeave, Cloudflare Inc., CoreWeave, Cloudflare Inc. In the next 3 months, Morgan Stanley has received compensation for investment banking services from Adobe Inc., Akamai Technologies, Inc., Amplitude Inc., Appian Corp, Asana Inc, Atl",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "3f20772f52993317",
+      "text": "DigitalOcean Holdings Inc, DocuSign Inc, Dynatrace Inc, Figma Inc, Five9 Inc, Fortinet Inc, Freshworks Inc, Gen Digital Inc, GoDaddy Inc, HubSpot, Inc, Intuit, Jamf Holding Corp, LegalZoom.com Inc, Microsoft, MongoDB Inc, NICE Ltd, OneStream Inc, Oracle Corporation, PagerDuty, Inc, Palantir Technologies Inc, Palo Alto Networks Inc, Qualys Inc, RingCentral Inc, Sabre Corp, SailPoint Inc, Salesforce, Inc, SentinelOne, Inc., ServiceNow Inc, ServiceTitan Inc, Shopify Inc, Snowflake Inc, Tenable Holdings Inc, Toast, Inc, Twilio Inc, Udemy Inc, UiPath Inc, Varonis Systems, Inc, Wix.Com Ltd, Workday Inc, Zeta Global Holdings Corp, Zoom Video Communications Inc, Zscaler Inc.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "2152658c4545400a",
+      "text": "An employee, director or consultant of Morgan Stanley is a director of Elastic NV, Tenable Holdings Inc. This person is not a research analyst or a member of a research analyst's household. Morgan Stanley & Co. LLC makes a market in the securities of 8x8 Inc, Amplitude Inc, Appian Corp, Asana Inc, Blackline Inc, Box Inc, Commerce.com Inc, Couchbase, Inc, Coursera, Inc, CyberArk Software Ltd, DigitalOcean Holdings Inc, Elastic NV, Five9 Inc, GoDaddy Inc, Jamf Holding Corp, JFrog Ltd, Klaviyo, Inc, LegalZoom.com Inc, Liveramp Holdings Inc, PagerDuty, Inc, Qualys Inc, Rapid7 Inc, RingCentral Inc, Sabre Corp, Semrush Holdings Inc - A, Sprinklr Inc, Sprout Social Inc, SPS Commerce Inc, Tenable Holdings Inc, Udemy Inc, Varonis Systems, Inc, Vertex Inc, Wix.Com Ltd, ZoomInfo Technologies Inc.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "c8640a07f52a9ebe",
+      "text": "The equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues. Equity Research analysts or strategists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "585f0b456a425c60",
+      "text": "Morgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity, fund management, commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Morgan Stanley trades or may trade as principal in the debt securities (or in related derivatives) that are the subject of the debt research report.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "a27bcb94b66b1683",
+      "text": "Certain disclosures listed above are also for compliance with applicable regulations in non- US jurisdictions.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "d791bcf925e6a3e6",
+      "text": "Morgan Stanley uses a relative rating system using terms such as Overweight, Equal- weight, Not- Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal- weight, Not- Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "943e34476d1b01f5",
+      "text": "(as of July 31, 2025)",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "c6ac12b7015dc526",
+      "text": "The Stock Ratings described below apply to Morgan Stanley's Fundamental Equity Research and do not apply to Debt Research produced by the Firm. For disclosure purposes only (in accordance with FINRA requirements), we include the category headings of Buy, Hold, and Sell alongside our ratings of Overweight, Equal- weight, Not- Rated and Underweight. Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal- weight, Not- Rated and Underweight are not the equivalent of buy, hold, and sell but represent recommended relative weightings (see definitions below). To satisfy regulatory requirements, we correspond Overweight, our most positive stock rating, with a buy recommendation; we correspond Equal- weight and Not- Rated to hold and Underweight to sell recommendations, respectively.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "bef01d2e22059041",
+      "text": "Coverage UniverseInvestment Banking Clients (IBC)Other Material Investment Services Clients (MISC)Stock Rating CategoryCount% of TotalCount% of Total IBC% of Rating CategoryCount% of Total Other MISCOverweight/Buy149540%37845%25%70141%Equal-weight/Hold160743%37445%23%76645%Not-Rated/Hold50%00%0%20%Underweight/Sell58816%8310%14%23614%Total3,6958351705",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "785849e3bc8ee93a",
+      "text": "Data include common stock and ADRs currently assigned ratings. Investment Banking Clients are companies from whom Morgan Stanley received investment banking compensation in the last 12 months. Due to rounding off of decimals, the percentages provided in the \\(\\%\\) of total' column may not add up to exactly 100 percent.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "e8ef93e0bdcd8a13",
+      "text": "Overweight (O). The stock's total return is expected to exceed the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12- 18 months. Equal- weight (E). The stock's total return is expected to be in line with the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12- 18 months. Not- Rated (NR). Currently the analyst does not have adequate conviction about the stock's total return relative to the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12- 18 months. Underweight (U). The stock's total return is expected to be below the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12- 18 months. Unless otherwise specified, the time frame for price targets included in Morgan Stanley Research is 12 to 18 months.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "61dbe73398d07c4d",
+      "text": "Attractive (A): The analyst expects the performance of his or her industry coverage universe over the next 12- 18 months to be attractive vs. the relevant broad market benchmark, as indicated below.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "5fd4604e5ee2c79e",
+      "text": "In- Line (I): The analyst expects the performance of his or her industry coverage universe over the next 12- 18 months to be in line with the relevant broad market benchmark, as indicated below.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "56f27fedec5b10d3",
+      "text": "Cautious (C): The analyst views the performance of his or her industry coverage universe over the next 12- 18 months with caution vs. the relevant broad market benchmark, as indicated below. Benchmarks for each region are as follows: North America - S&P 500; Latin America - relevant MSCI country index or MSCI Latin America Index; Europe - MSCI Europe; Japan - TOPIX; Asia - relevant MSCI country index or MSCI sub- regional index or MSCI AC Asia Pacific ex Japan Index.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "e0411cbfded5b5ce",
+      "text": "A member of Research who had or could have had access to the research prior to completion owns securities (or related derivatives) in the Atlassian Corporation PLC, Microsoft, Workday Inc. This person is not a research analyst or a member of research analyst's household.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "01d09a3a87fd8ef0",
+      "text": "Morgan Stanley Research policy is to update research reports as and when the Research Analyst and Research Management deem appropriate, based on developments with the issuer, the sector, or the market that may have a material impact on the research views or opinions stated therein. In addition, certain Research publications are intended to be updated on a regular periodic basis (weekly/monthly/quarterly/annual) and will ordinarily be updated with that frequency, unless the Research Analyst and Research Management determine that a different publication schedule is appropriate based on current conditions.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "9d45cacf6434b840",
+      "text": "Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd- Frank Wall Street Reform and Consumer Protection Act.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "7d49286e06491b59",
+      "text": "Morgan Stanley produces an equity research product called a \"Tactical Idea.\" Views contained in a \"Tactical Idea\" on a particular stock may be contrary to the recommendations or views expressed in research on the same stock. This may be the result of differing time horizons, methodologies, market events, or other factors. For all research available on a particular stock, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "50df27a3f29282a3",
+      "text": "Morgan Stanley Research is provided to our clients through our proprietary research portal on Matrix and also distributed electronically by Morgan Stanley to clients. Certain, but not all, Morgan Stanley Research products are also made available to clients through third- party vendors or redistributed to clients through alternate electronic means as a convenience. For access to all available Morgan Stanley Research, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "c944d74bdce23784",
+      "text": "Any access and/or use of Morgan Stanley Research is subject to Morgan Stanley's Terms of Use (http://www.morganstanley.com/terms.html). By accessing and/or using Morgan Stanley Research, you are indicating that you have read and agree to be bound by our Terms of Use (http://www.morganstanley.com/terms.html). In addition you consent to Morgan Stanley processing your personal data and using cookies in accordance with our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html), including for the purposes of",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "9414c8cb4dc22d6d",
+      "text": "seting y  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "e7d606d7d75a46b0",
+      "text": "of the JSE Limited and AZX (Pty) Ltd. RMB Morgan Stanley Proprietary Limited is a joint venture owned equally by Morgan Stanley International Holdings Inc. and RMB Investment Advisory Proprietary) Limited, which is wholly owned by FirstRand Limited. The information in Morgan Stanley Research is being disseminated by Morgan Stanley Saudi Arabia, regulated by the Capital Market Authority in the Kingdom of Saudi Arabia, and is directed at Sophisticated investors only.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "9e39d1f165c3dcb3",
+      "text": "The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (DIFC Branch), regulated by the Dubai Financial Services Authority (the DFSA) or by Morgan Stanley & Co. International plc (ADGM Branch), regulated by the Financial Services Regulatory Authority Abu Dhabi (the FSRA), and is directed at Professional Clients only, as defined by the DFSA or the FSRA, respectively. The financial products or financial services to which this research relates will only be made available to a customer who we are satisfied meets the regulatory criteria of a Professional Client. A distribution of the different MS Research ratings or recommendations, in percentage terms for Investments in each sector covered, is available upon request from your sales representative.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "c4f5e02d7aacd2b6",
+      "text": "The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (QFC Branch), regulated by the Qatar Financial Centre Regulatory Authority (the QFCRA), and is directed at business customers and market counterparties only and is not intended for Retail Customers as defined by the QFCRA.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "221cf2f114898957",
+      "text": "As required by the Capital Markets Board of Turkey, investment information, comments and recommendations stated here, are not within the scope of investment advisory activity. Investment advisory service is provided exclusively to persons based on their risk and income preferences by the authorized firms. Comments and recommendations stated here are general in nature. These opinions may not fit to your financial status, risk and return preferences. For this reason, to make an investment decision by relying solely to this information stated here may not bring about outcomes that fit your expectations.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "9c62662210a7693e",
+      "text": "The trademarks and service marks contained in Morgan Stanley Research are the property of their respective owners. Third-party data providers make no warranties or representations relating to the accuracy, completeness, or timeliness of the data they provide and shall not have liability for any damages relating to such data. The Global Industry Classification Standard (GICS) was developed by and is the exclusive property of MSCI and S&P.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "517fc64730400720",
+      "text": "Morgan Stanley Research, or any portion thereof may not be reprinted, sold or redistributed without the written consent of Morgan Stanley.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "b46c8a5d226881bd",
+      "text": "Indicators and trackers referenced in Morgan Stanley Research may not be used as, or treated as, a benchmark under Regulation EU 2016/1011, or any other similar framework. The issuers and/or fixed income products recommended or discussed in certain fixed income research reports may not be continuously followed. Accordingly, investors should regard those fixed income research reports as providing stand-alone analysis and should not expect continuing analysis or additional reports relating to such issuers and/or individual fixed income products. Morgan Stanley may hold, from time to time, material financial and commercial interests regarding the company subject to the Research report.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "5f9fd5582462dc51",
+      "text": "Registration granted by SEBI and certification from the National Institute of Securities Markets (NISM) in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Investment in securities market are subject to market risks. Read all the related documents carefully before investing.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "b949a8a60e835d61",
+      "text": "COMPANY (TICKER)RATING (AS OF)PRICE* (08/28/2025)Chris QuinteroBILL Holdings Inc (BILL.N)E (06/10/2025)$49.20Blackline Inc (BL.O)O (09/29/2024)$54.24Descartes Systems Group Inc (DSGX.O)E (07/13/2025)$100.00Manhattan Associates Inc. (MANH.O)U (07/13/2025)$218.46OneStream Inc (OS.O)O (01/16/2025)$19.83SPS Commerce Inc (SPSC.O)O (07/13/2025)$110.93Vertex Inc. (VERX.O)O (01/17/2024)$25.34Elizabeth Porter, CFAAmplitude Inc. (AMPL.O)E (01/13/2025)$11.72Autodesk (ADSK.O)O (08/23/2024)$288.49Figma Inc (FIG.N)E (08/25/2025)$71.26Freshworks Inc (FRSH.O)E (10/18/2021)$13.53GoDaddy Inc (GDDY.N)E (07/19/2021)$147.86HubSpot, Inc. (HUBS.N)O (03/21/2023)$476.34Klaviyo, Inc (KVYO.N)E (10/16/2023)$32.51LegalZoom.com Inc (LZ.O)U (07/28/2022)$11.15Liveramp Holdings Inc (RAMP.N)E (01/13/2025)$27.62Semrush Holdings Inc -A (SEMR.N)E (08/05/2025)$7.88Sprinklr Inc (CXM.N)E (07/19/2021)$8.75Sprout Social Inc (SPT.O)E (11/17/2020)$15.83Wix.Com Ltd (WIX.O)O (01/13/2025)$138.87Zeta Global Holdings Corp (ZETA.N)E (08/01/2024)$19.55ZoomInfo Technologies Inc (GTM.O)E (02/01/2024)$10.90Josh Baer, CFAAsana Inc (ASAN.N)U (05/20/2025)$14.56Box Inc (BOX.N)E (05/21/2024)$32.83",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "28049d42102a994f",
+      "text": "CCC Intelligent Solutions Holdings Inc (CCCS.O)O (11/13/2024)$10.03Commerce.com Inc. (CMRC.O)E (05/11/2021)$4.66Coursera, Inc. (COUR.N)E (06/05/2025)$11.61DigitalOcean Holdings Inc (DOCN.N)O (01/16/2025)$33.36Docebo Inc. (DCBO.O)E (05/12/2025)$31.29DocuSign Inc (DOCU.O)E (01/16/2024)$75.51Lightspeed POS Inc. (LSPD.N)E (02/18/2021)$12.42monday.com Ltd (MNDY.O)O (08/12/2025)$189.51Sabre Corp (SABR.O)E (03/16/2021)$1.79ServiceTitan Inc (TTAN.O)E (01/06/2025)$108.02Toast, Inc. (TOST.N)O (12/16/2021)$44.95Udemy Inc (UDMY.O)E (06/05/2025)$6.96Keith Weiss, CFAAdobe Inc. (ADBE.O)O (07/31/2023)$353.96Atlassian Corporation PLC (TEAM.O)O (01/13/2020)$176.78Check Point Software Technologies Ltd. (CHKP.O)E (10/16/2023)$191.26Cloudflare Inc (NET.N)O (12/02/2024)$213.42CoreWeave (CRWY.O)E (04/22/2025)$102.79CrowdStrike Holdings Inc (CRWD.O)E (07/14/2025)$442.00CyberArk Software Ltd (CYBR.O)E (01/09/2024)$453.17Fortinet Inc. (FTNT.O)E (08/07/2025)$79.29Gen Digital Inc. (GEN.O)E (06/07/2024)$30.21Intuit (INTU.O)O (02/26/2025)$668.20Jamf Holding Corp (JAMF.O)E (10/13/2024)$9.27Microsoft (MSFT.O)O (01/13/2016)$509.64Okta, Inc. (OKTA.O)O (12/02/2024)$92.59Oracle Corporation (ORCL.N)E (01/15/2019)$240.32Palo Alto Networks Inc (PANW.O)O (10/10/2017)$191.02Qualys Inc (QLYS.O)U (02/09/2021)$135.33Rapid7 Inc (RPD.O)E (08/11/2015)$20.90SailPoint Inc (SAIL.O)E (03/10/2025)$20.77Salesforce, Inc. (CRM.N)O (12/21/2023)$254.53Samsara Inc (IOT.N)E (03/23/2023)$36.45SentinelOne, Inc. (S.N)E (12/02/2024)$17.61ServiceNow Inc (NOW.N)E (10/21/2024)$928.60Shopify Inc (SHOP.O)O (04/19/2024)$141.54Tenable Holdings Inc (TENB.O)E (12/02/2024)$31.09Varonis Systems, Inc. (VRN.S.O)O (10/16/2023)$59.16Workday Inc (WDAY.O)E (02/19/2025)$228.50Zscaler Inc (ZS.O)E (01/12/2023)$280.42Meta A Marshall8x8 Inc (EGHT.O)U (06/14/2024)$2.02Five9 Inc (FIVN.O)E (10/10/2022)$26.69NICE Ltd. (NICE.O)O (10/16/2023)$142.70RingCentral Inc (RNG.N)E (08/08/2023)$30.71Twilio Inc (TWLO.N)O (02/24/2025)$106.39Zoom Video Communications Inc (ZM.O)E (10/11/2022)$80.83Roy D CampbellKaroooo Ltd (KARO.O)O (04/27/2021)$52.53Sanjit K SinghAkamai Technologies, Inc. (AKAM.O)U (08/05/2025)$78.39Appian Corp (APPN.O)E (12/03/2021)$30.71C3.ai (AI.N)U (01/04/2021)$17.31Confluent, Inc. (CFLT.O)E (01/16/2025)$20.05",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "ad9aca8d10051480",
+      "text": "Couchbase, Inc. (BASE.O) ++ \\$24.40",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "f57b70b3a3029c4f",
+      "text": "Datadog, Inc. (DDOG.O) E (01/16/2025) \\$140.96",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "93b644c817a5dae7",
+      "text": "Dynatrace Inc (DT.N) E (02/13/2024) \\$50.89",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "67f662235d4e7446",
+      "text": "Elastic NV (ESTC.N) O (12/16/2024) \\$87.79",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "87fa11444ad3e8de",
+      "text": "GitLab Inc (GTLB.O) O (10/09/2024) \\$49.03",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "f5fcdbf591359d48",
+      "text": "JFrog Ltd. (FROG.O) O (12/21/2023) \\$50.07",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "0f267ad0c3c4b470",
+      "text": "MongoDB Inc (MDB.O) O (04/12/2023) \\$318.10",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "58bfe22466d40ed4",
+      "text": "PagerDuty, Inc. (PD.N) E (01/24/2024) \\$16.92",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "c22958b3741812bc",
+      "text": "Palantir Technologies Inc. (PLTR.O) E (02/04/2025) \\$158.12",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "65ac8c876715d6e3",
+      "text": "Snowflake Inc. (SNOW.N) O (06/24/2025) \\$241.00",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "8586f32ff648f38c",
+      "text": "UiPath Inc (PATH.N) E (09/07/2022) \\$11.26",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "826a6fa0b9d6d6a3",
+      "text": "Stock Ratings are subject to change. Please see latest research for each company.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "02943966ce02b943",
+      "text": "\\* Historical prices are not split adjusted.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "e7535adaee104127",
+      "text": "© 2025 Morgan Stanley",
+      "page": 14,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "5dc8f59a60c48918",
+      "name": "ADGM Branch",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ed49291dd8535b70",
+      "name": "Abu Dhabi",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d253236a280984b1",
+      "name": "Adobe Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5c54d952a293ffa8",
+      "name": "Advisory Proprietary",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4c5e72151f56d037",
+      "name": "Akamai Technologies",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c34bbdfb2465d53e",
+      "name": "America\n\nStock",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a9935cd77e910646",
+      "name": "America Index",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a5388404a1cf2349",
+      "name": "Amplitude Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "61877749800a9f62",
+      "name": "Analysis\n\nExhibit",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e8600890357193e9",
+      "name": "Analyst Industry",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "264f4569dd91d68d",
+      "name": "Analyst Stock",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "134f4d6bbdc59528",
+      "name": "Annual Recurring",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b4f1c7e5aca7366d",
+      "name": "Appian Corp",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4b8992ea9660d033",
+      "name": "Asana Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e757aeec6b866ec3",
+      "name": "Atlassian Corporation",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "12bf0253c0bbe662",
+      "name": "Attractive Price",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "05127ad6fdcf7663",
+      "name": "BILL Holdings",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ca62b63244e3442b",
+      "name": "BILL Holdings Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b7c729c0e2366001",
+      "name": "Balance Sheet",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 2,
+        "axes": null,
+        "series": [],
+        "figure_id": "8b77d4964157e06f",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": null
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "Overweight",
+            "unit": "%",
+            "values": [
+              64
+            ]
+          },
+          {
+            "name": "Equal-weight",
+            "unit": "%",
+            "values": [
+              36
+            ]
+          },
+          {
+            "name": "Underweight",
+            "unit": "%",
+            "values": [
+              0
+            ]
+          }
+        ],
+        "figure_id": "a668762e7fcbd4a7",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "3298e79a4e08f57c",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "t. Remain EW. ## What Did We Like? Strong ARR beat. SentinelOne delivered \\(\\) 1,001\\$ mm in ARR (+24% YoY growth), ahead of consensus of \\(+22\\%\\) YoY, a beat of \\(\\sim 160\\) bps after a \\(\\sim 40\\) ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d59a51830ea95f05",
+        "value": 0.22,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%\\) QoQ. Given a back- end loaded quarter, revenue was in- line with expectations at \\(\\) 242\\$ mm (+22% YoY). Seeing traction with broader platform, particularly around AI security. \\(50\\%\\) of Senti",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "91d374ddde3d0f73",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "cted to close in FQ3.- Not yet significant profitability upside. While SentinelOne was able to post 2% operating margins, better than break-even expectations, the guide for the year called for 3% marg",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9f8da3445390f5f1",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "o post 2% operating margins, better than break-even expectations, the guide for the year called for 3% margins vs. 3-4% previously. As noted above, this is largely due to the Prompt Security acquisiti",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "0ac0d0fd19070499",
+        "value": -0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ing margins, better than break-even expectations, the guide for the year called for 3% margins vs. 3-4% previously. As noted above, this is largely due to the Prompt Security acquisition. On FCF, Sent",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "0557f62d6d7ed1b2",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4.7x EV/CY27e FCF of\\) \\ \\(201M discount back at\\) 12\\%\\$ - Total customers reach 22.1k in CY27, a 15% 3-yr CAGR - ARR reaches \\(\\) 1.8B\\(in CY27, a 22% 3-yr CAGR - Rev. grows to \\(\\) 1.6B\\(in CY27, a",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "855a2cc6ab031094",
+        "value": 0.22,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "12\\%\\$ - Total customers reach 22.1k in CY27, a 15% 3-yr CAGR - ARR reaches \\(\\) 1.8B\\(in CY27, a 22% 3-yr CAGR - Rev. grows to \\(\\) 1.6B\\(in CY27, a 24% 3-yr CAGR - Op. Margins improve from (19%) in",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "652f37a0769d0507",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "3-yr CAGR - ARR reaches \\(\\) 1.8B\\(in CY27, a 22% 3-yr CAGR - Rev. grows to \\(\\) 1.6B\\(in CY27, a 24% 3-yr CAGR - Op. Margins improve from (19%) in CY23 to 7% in CY27, yielding \\(\\) 201M\\(in FCF - Ap",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "26810c85d42b27df",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ", a 22% 3-yr CAGR - Rev. grows to \\(\\) 1.6B\\(in CY27, a 24% 3-yr CAGR - Op. Margins improve from (19%) in CY23 to 7% in CY27, yielding \\(\\) 201M\\(in FCF - Apply \\(4.7x EV/CY27 FCF mult to get to our\\)",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "24fa21f631fc3ccd",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "R - Rev. grows to \\(\\) 1.6B\\(in CY27, a 24% 3-yr CAGR - Op. Margins improve from (19%) in CY23 to 7% in CY27, yielding \\(\\) 201M\\(in FCF - Apply \\(4.7x EV/CY27 FCF mult to get to our\\) 25 bull valuat",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "11274a0b15b574a2",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "EV/CY27e FCF of\\) \\ \\(162M\\) , discount back at \\(12\\%\\) - Total customers reach 20.8k in CY27, a 14% 3-yr CAGR - ARR reaches \\(\\) 1.5B\\(in CY27, a 18% 3-yr CAGR - Rev. grows to \\(\\) 1.4B\\(in CY27, a",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a522349872f92ff3",
+        "value": 0.18,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "12\\%\\) - Total customers reach 20.8k in CY27, a 14% 3-yr CAGR - ARR reaches \\(\\) 1.5B\\(in CY27, a 18% 3-yr CAGR - Rev. grows to \\(\\) 1.4B\\(in CY27, a 20% 3-yr CAGR - Op. Margins improve from (19%) in",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7358158af41b9d28",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "3-yr CAGR - ARR reaches \\(\\) 1.5B\\(in CY27, a 18% 3-yr CAGR - Rev. grows to \\(\\) 1.4B\\(in CY27, a 20% 3-yr CAGR - Op. Margins improve from (19%) in CY23 to 7% in CY27, yielding \\(\\) 162M\\(in FCF. - A",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "8e3e595b7cf8905e",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ", a 18% 3-yr CAGR - Rev. grows to \\(\\) 1.4B\\(in CY27, a 20% 3-yr CAGR - Op. Margins improve from (19%) in CY23 to 7% in CY27, yielding \\(\\) 162M\\(in FCF. - Apply \\(4.0x EV/CY27 FCF mult to get to our\\",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "4f16cc144429b9e6",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "R - Rev. grows to \\(\\) 1.4B\\(in CY27, a 20% 3-yr CAGR - Op. Margins improve from (19%) in CY23 to 7% in CY27, yielding \\(\\) 162M\\(in FCF. - Apply \\(4.0x EV/CY27 FCF mult to get to our\\) 18 valuation",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "3e309be65c0ebbc3",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "9x EV/CY27e FCF of\\) \\ \\(129M\\) discount back at \\(12\\%\\) - Total customers reach 18.5k in CY27, a 10% 3-yr CAGR - ARR reaches \\(\\) 1.3B\\(in CY27, a 14% 3-yr CAGR - Rev. grows to \\(\\) 1.2B\\(in CY27, a",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "e48aa098e896faca",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "12\\%\\) - Total customers reach 18.5k in CY27, a 10% 3-yr CAGR - ARR reaches \\(\\) 1.3B\\(in CY27, a 14% 3-yr CAGR - Rev. grows to \\(\\) 1.2B\\(in CY27, a 16% 3-yr CAGR - Op. Margins improve from (19%) in",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "17519c1c3b677076",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "3-yr CAGR - ARR reaches \\(\\) 1.3B\\(in CY27, a 14% 3-yr CAGR - Rev. grows to \\(\\) 1.2B\\(in CY27, a 16% 3-yr CAGR - Op. Margins improve from (19%) in CY22 to 5% in CY27, yielding \\(\\) 129M\\(in FCF - Ap",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ec7e4edabd98062b",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ", a 14% 3-yr CAGR - Rev. grows to \\(\\) 1.2B\\(in CY27, a 16% 3-yr CAGR - Op. Margins improve from (19%) in CY22 to 5% in CY27, yielding \\(\\) 129M\\(in FCF - Apply \\(29x EV/CY27 FCF mult to get to our\\)",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "e5f6f5b40e7f18f3",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "R - Rev. grows to \\(\\) 1.2B\\(in CY27, a 16% 3-yr CAGR - Op. Margins improve from (19%) in CY22 to 5% in CY27, yielding \\(\\) 129M\\(in FCF - Apply \\(29x EV/CY27 FCF mult to get to our\\) 12 bear valuati",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "49a74971fa6d3b38",
+        "value": 0.23,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>256.0</td><td>272.8</td><td>1,000.0</td><td>1,201.8</td><td>1,411.8</td></tr><tr><td>YoY</td><td>23%</td><td>22%</td><td>22%</td><td>21%</td><td>22%</td><td>20.2%</td><td>17.5%</td></tr><tr><td>Old",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f2e54a7a55d1b9f5",
+        "value": 0.22,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>272.8</td><td>1,000.0</td><td>1,201.8</td><td>1,411.8</td></tr><tr><td>YoY</td><td>23%</td><td>22%</td><td>22%</td><td>21%</td><td>22%</td><td>20.2%</td><td>17.5%</td></tr><tr><td>Old Total Reven",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2722a2a12f97658d",
+        "value": 0.22,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>1,000.0</td><td>1,201.8</td><td>1,411.8</td></tr><tr><td>YoY</td><td>23%</td><td>22%</td><td>22%</td><td>21%</td><td>22%</td><td>20.2%</td><td>17.5%</td></tr><tr><td>Old Total Revenue</td><td>2",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "34e1d1a8da8abb23",
+        "value": 0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".0</td><td>1,201.8</td><td>1,411.8</td></tr><tr><td>YoY</td><td>23%</td><td>22%</td><td>22%</td><td>21%</td><td>22%</td><td>20.2%</td><td>17.5%</td></tr><tr><td>Old Total Revenue</td><td>229.0</td><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "7bc6de214ee25ad3",
+        "value": 0.22,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ",201.8</td><td>1,411.8</td></tr><tr><td>YoY</td><td>23%</td><td>22%</td><td>22%</td><td>21%</td><td>22%</td><td>20.2%</td><td>17.5%</td></tr><tr><td>Old Total Revenue</td><td>229.0</td><td>242.0</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "de51b8e9b10b49f3",
+        "value": 0.20199999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>1,411.8</td></tr><tr><td>YoY</td><td>23%</td><td>22%</td><td>22%</td><td>21%</td><td>22%</td><td>20.2%</td><td>17.5%</td></tr><tr><td>Old Total Revenue</td><td>229.0</td><td>242.0</td><td>254.1</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "280702d3adf0aa8c",
+        "value": 0.175,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>YoY</td><td>23%</td><td>22%</td><td>22%</td><td>21%</td><td>22%</td><td>20.2%</td><td>17.5%</td></tr><tr><td>Old Total Revenue</td><td>229.0</td><td>242.0</td><td>254.1</td><td>270.8</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "81513ef1214f781d",
+        "value": 0.22899999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>254.1</td><td>270.8</td><td>996.0</td><td>1,176.9</td><td>1,365.7</td></tr><tr><td>YoY</td><td>22.9%</td><td>21.6%</td><td>20.6%</td><td>20.1%</td><td>21%</td><td>18.2%</td><td>16.0%</td></tr><tr",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "8a5783b977677683",
+        "value": 0.21600000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>270.8</td><td>996.0</td><td>1,176.9</td><td>1,365.7</td></tr><tr><td>YoY</td><td>22.9%</td><td>21.6%</td><td>20.6%</td><td>20.1%</td><td>21%</td><td>18.2%</td><td>16.0%</td></tr><tr><td>% Change ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "cc5528a2954dbc68",
+        "value": 0.20600000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>996.0</td><td>1,176.9</td><td>1,365.7</td></tr><tr><td>YoY</td><td>22.9%</td><td>21.6%</td><td>20.6%</td><td>20.1%</td><td>21%</td><td>18.2%</td><td>16.0%</td></tr><tr><td>% Change in Revenue &#3",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "fb6c1ed75ad91f01",
+        "value": 0.201,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>1,176.9</td><td>1,365.7</td></tr><tr><td>YoY</td><td>22.9%</td><td>21.6%</td><td>20.6%</td><td>20.1%</td><td>21%</td><td>18.2%</td><td>16.0%</td></tr><tr><td>% Change in Revenue &#36;</td><td>0%<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "261bcb9a1e9a7bec",
+        "value": 0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>1,365.7</td></tr><tr><td>YoY</td><td>22.9%</td><td>21.6%</td><td>20.6%</td><td>20.1%</td><td>21%</td><td>18.2%</td><td>16.0%</td></tr><tr><td>% Change in Revenue &#36;</td><td>0%</td><td>0%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a4e5746dc30a9a31",
+        "value": 0.182,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".7</td></tr><tr><td>YoY</td><td>22.9%</td><td>21.6%</td><td>20.6%</td><td>20.1%</td><td>21%</td><td>18.2%</td><td>16.0%</td></tr><tr><td>% Change in Revenue &#36;</td><td>0%</td><td>0%</td><td>1%</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "dea22313d505a342",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><td>YoY</td><td>22.9%</td><td>21.6%</td><td>20.6%</td><td>20.1%</td><td>21%</td><td>18.2%</td><td>16.0%</td></tr><tr><td>% Change in Revenue &#36;</td><td>0%</td><td>0%</td><td>1%</td><td>1%</td><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b475b745ca199002",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>20.1%</td><td>21%</td><td>18.2%</td><td>16.0%</td></tr><tr><td>% Change in Revenue &#36;</td><td>0%</td><td>0%</td><td>1%</td><td>1%</td><td>0.4%</td><td>2.1%</td><td>3.4%</td></tr><tr><td>&#36; Ch",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "df07db3ec33c01c1",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>21%</td><td>18.2%</td><td>16.0%</td></tr><tr><td>% Change in Revenue &#36;</td><td>0%</td><td>0%</td><td>1%</td><td>1%</td><td>0.4%</td><td>2.1%</td><td>3.4%</td></tr><tr><td>&#36; Change in &#3",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4a5a5ba1ddc24ae6",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>18.2%</td><td>16.0%</td></tr><tr><td>% Change in Revenue &#36;</td><td>0%</td><td>0%</td><td>1%</td><td>1%</td><td>0.4%</td><td>2.1%</td><td>3.4%</td></tr><tr><td>&#36; Change in &#36;</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "264abfeb8baf8187",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>16.0%</td></tr><tr><td>% Change in Revenue &#36;</td><td>0%</td><td>0%</td><td>1%</td><td>1%</td><td>0.4%</td><td>2.1%</td><td>3.4%</td></tr><tr><td>&#36; Change in &#36;</td><td>$0.0</td><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "49fef3e32bace1a7",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6.0%</td></tr><tr><td>% Change in Revenue &#36;</td><td>0%</td><td>0%</td><td>1%</td><td>1%</td><td>0.4%</td><td>2.1%</td><td>3.4%</td></tr><tr><td>&#36; Change in &#36;</td><td>$0.0</td><td>$0.2</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2ec3b23d96fe5601",
+        "value": 0.021,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>% Change in Revenue &#36;</td><td>0%</td><td>0%</td><td>1%</td><td>1%</td><td>0.4%</td><td>2.1%</td><td>3.4%</td></tr><tr><td>&#36; Change in &#36;</td><td>$0.0</td><td>$0.2</td><td>$1.9</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "07c4ed66b4ecf936",
+        "value": 0.034,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ange in Revenue &#36;</td><td>0%</td><td>0%</td><td>1%</td><td>1%</td><td>0.4%</td><td>2.1%</td><td>3.4%</td></tr><tr><td>&#36; Change in &#36;</td><td>$0.0</td><td>$0.2</td><td>$1.9</td><td>$2.0</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "7bcce787fea0348f",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>1051.9</td><td>1110.1</td><td>1110.1</td><td>1304.6</td><td>1502.8</td></tr><tr><td>YoY</td><td>24%</td><td>24%</td><td>22%</td><td>21%</td><td>21%</td><td>17.5%</td><td>15.2%</td></tr><tr><td>Old",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4c76eec1896a9bf6",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>1110.1</td><td>1110.1</td><td>1304.6</td><td>1502.8</td></tr><tr><td>YoY</td><td>24%</td><td>24%</td><td>22%</td><td>21%</td><td>21%</td><td>17.5%</td><td>15.2%</td></tr><tr><td>Old ARR</td><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4e9461b19fa3de5e",
+        "value": 0.22,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1</td><td>1110.1</td><td>1304.6</td><td>1502.8</td></tr><tr><td>YoY</td><td>24%</td><td>24%</td><td>22%</td><td>21%</td><td>21%</td><td>17.5%</td><td>15.2%</td></tr><tr><td>Old ARR</td><td>948.1</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "98716b7f96ab5358",
+        "value": 0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "10.1</td><td>1304.6</td><td>1502.8</td></tr><tr><td>YoY</td><td>24%</td><td>24%</td><td>22%</td><td>21%</td><td>21%</td><td>17.5%</td><td>15.2%</td></tr><tr><td>Old ARR</td><td>948.1</td><td>985.0</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "27fe0d14ba04709e",
+        "value": 0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">1304.6</td><td>1502.8</td></tr><tr><td>YoY</td><td>24%</td><td>24%</td><td>22%</td><td>21%</td><td>21%</td><td>17.5%</td><td>15.2%</td></tr><tr><td>Old ARR</td><td>948.1</td><td>985.0</td><td>1035.9<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "0b1254698d7e7ef1",
+        "value": 0.175,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>1502.8</td></tr><tr><td>YoY</td><td>24%</td><td>24%</td><td>22%</td><td>21%</td><td>21%</td><td>17.5%</td><td>15.2%</td></tr><tr><td>Old ARR</td><td>948.1</td><td>985.0</td><td>1035.9</td><td>1094",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6c079a2056fbf6fc",
+        "value": 0.152,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>YoY</td><td>24%</td><td>24%</td><td>22%</td><td>21%</td><td>21%</td><td>17.5%</td><td>15.2%</td></tr><tr><td>Old ARR</td><td>948.1</td><td>985.0</td><td>1035.9</td><td>1094.0</td><td>109",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f0a34b1ee9b1709a",
+        "value": 0.244,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>1035.9</td><td>1094.0</td><td>1094.0</td><td>1272.4</td><td>1454.6</td></tr><tr><td>YoY</td><td>24.4%</td><td>22.2%</td><td>20.5%</td><td>18.9%</td><td>19%</td><td>16.3%</td><td>14.3%</td></tr><tr",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "59d34073ac136e8a",
+        "value": 0.222,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>1094.0</td><td>1094.0</td><td>1272.4</td><td>1454.6</td></tr><tr><td>YoY</td><td>24.4%</td><td>22.2%</td><td>20.5%</td><td>18.9%</td><td>19%</td><td>16.3%</td><td>14.3%</td></tr><tr><td>% Change<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "45bf1743c7a0608a",
+        "value": 0.205,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>1094.0</td><td>1272.4</td><td>1454.6</td></tr><tr><td>YoY</td><td>24.4%</td><td>22.2%</td><td>20.5%</td><td>18.9%</td><td>19%</td><td>16.3%</td><td>14.3%</td></tr><tr><td>% Change</td><td>0.0%</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "de0e5a91241f63eb",
+        "value": 0.18899999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>1272.4</td><td>1454.6</td></tr><tr><td>YoY</td><td>24.4%</td><td>22.2%</td><td>20.5%</td><td>18.9%</td><td>19%</td><td>16.3%</td><td>14.3%</td></tr><tr><td>% Change</td><td>0.0%</td><td>1.6%</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "726ded8e018ba21e",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>1454.6</td></tr><tr><td>YoY</td><td>24.4%</td><td>22.2%</td><td>20.5%</td><td>18.9%</td><td>19%</td><td>16.3%</td><td>14.3%</td></tr><tr><td>% Change</td><td>0.0%</td><td>1.6%</td><td>1.5%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "9ecfcc18c95194a8",
+        "value": 0.163,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".6</td></tr><tr><td>YoY</td><td>24.4%</td><td>22.2%</td><td>20.5%</td><td>18.9%</td><td>19%</td><td>16.3%</td><td>14.3%</td></tr><tr><td>% Change</td><td>0.0%</td><td>1.6%</td><td>1.5%</td><td>1.5%</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "1ee50ec732903b23",
+        "value": 0.14300000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><td>YoY</td><td>24.4%</td><td>22.2%</td><td>20.5%</td><td>18.9%</td><td>19%</td><td>16.3%</td><td>14.3%</td></tr><tr><td>% Change</td><td>0.0%</td><td>1.6%</td><td>1.5%</td><td>1.5%</td><td>1.5%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b9a2ec9e51f8dd38",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>20.5%</td><td>18.9%</td><td>19%</td><td>16.3%</td><td>14.3%</td></tr><tr><td>% Change</td><td>0.0%</td><td>1.6%</td><td>1.5%</td><td>1.5%</td><td>1.5%</td><td>2.5%</td><td>3.3%</td></tr><tr><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e5c4290ab87b1129",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>18.9%</td><td>19%</td><td>16.3%</td><td>14.3%</td></tr><tr><td>% Change</td><td>0.0%</td><td>1.6%</td><td>1.5%</td><td>1.5%</td><td>1.5%</td><td>2.5%</td><td>3.3%</td></tr><tr><td>&#36; Change ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a64a93e87bb699cc",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>19%</td><td>16.3%</td><td>14.3%</td></tr><tr><td>% Change</td><td>0.0%</td><td>1.6%</td><td>1.5%</td><td>1.5%</td><td>1.5%</td><td>2.5%</td><td>3.3%</td></tr><tr><td>&#36; Change in &#36;</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a60615f860e14883",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>16.3%</td><td>14.3%</td></tr><tr><td>% Change</td><td>0.0%</td><td>1.6%</td><td>1.5%</td><td>1.5%</td><td>1.5%</td><td>2.5%</td><td>3.3%</td></tr><tr><td>&#36; Change in &#36;</td><td>$0.0</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6764de870b3b0363",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>14.3%</td></tr><tr><td>% Change</td><td>0.0%</td><td>1.6%</td><td>1.5%</td><td>1.5%</td><td>1.5%</td><td>2.5%</td><td>3.3%</td></tr><tr><td>&#36; Change in &#36;</td><td>$0.0</td><td>$16.0</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5033e60461d67ae3",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>% Change</td><td>0.0%</td><td>1.6%</td><td>1.5%</td><td>1.5%</td><td>1.5%</td><td>2.5%</td><td>3.3%</td></tr><tr><td>&#36; Change in &#36;</td><td>$0.0</td><td>$16.0</td><td>$16.0</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "66d51058d5b713a7",
+        "value": 0.033,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>% Change</td><td>0.0%</td><td>1.6%</td><td>1.5%</td><td>1.5%</td><td>1.5%</td><td>2.5%</td><td>3.3%</td></tr><tr><td>&#36; Change in &#36;</td><td>$0.0</td><td>$16.0</td><td>$16.0</td><td>$16.1</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "988143c620623c84",
+        "value": -0.26,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".9</td><td>50.9</td><td>58.2</td><td>190.0</td><td>194.5</td><td>198.2</td></tr><tr><td>YoY</td><td>-26%</td><td>20%</td><td>-5%</td><td>-4%</td><td>-3%</td><td>2%</td><td>2%</td></tr><tr><td>Old Net-",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3364d4e287da60b3",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".9</td><td>58.2</td><td>190.0</td><td>194.5</td><td>198.2</td></tr><tr><td>YoY</td><td>-26%</td><td>20%</td><td>-5%</td><td>-4%</td><td>-3%</td><td>2%</td><td>2%</td></tr><tr><td>Old Net-New ARR</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "217b4039e90d77c0",
+        "value": -0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8.2</td><td>190.0</td><td>194.5</td><td>198.2</td></tr><tr><td>YoY</td><td>-26%</td><td>20%</td><td>-5%</td><td>-4%</td><td>-3%</td><td>2%</td><td>2%</td></tr><tr><td>Old Net-New ARR</td><td>28.0</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ea99d7265cc1e08d",
+        "value": -0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "190.0</td><td>194.5</td><td>198.2</td></tr><tr><td>YoY</td><td>-26%</td><td>20%</td><td>-5%</td><td>-4%</td><td>-3%</td><td>2%</td><td>2%</td></tr><tr><td>Old Net-New ARR</td><td>28.0</td><td>36.9</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "80e4b9919d0e66f2",
+        "value": -0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>194.5</td><td>198.2</td></tr><tr><td>YoY</td><td>-26%</td><td>20%</td><td>-5%</td><td>-4%</td><td>-3%</td><td>2%</td><td>2%</td></tr><tr><td>Old Net-New ARR</td><td>28.0</td><td>36.9</td><td>50.8</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e3fecc4ac68754bc",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>198.2</td></tr><tr><td>YoY</td><td>-26%</td><td>20%</td><td>-5%</td><td>-4%</td><td>-3%</td><td>2%</td><td>2%</td></tr><tr><td>Old Net-New ARR</td><td>28.0</td><td>36.9</td><td>50.8</td><td>58.2</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5d2051556c14e95f",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>YoY</td><td>-26%</td><td>20%</td><td>-5%</td><td>-4%</td><td>-3%</td><td>2%</td><td>2%</td></tr><tr><td>Old Net-New ARR</td><td>28.0</td><td>36.9</td><td>50.8</td><td>58.2</td><td>173.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "51d799e1365467a0",
+        "value": -0.255,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".9</td><td>50.8</td><td>58.2</td><td>173.9</td><td>178.4</td><td>182.2</td></tr><tr><td>YoY</td><td>-25.5%</td><td>-16.1%</td><td>-5.3%</td><td>-3.7%</td><td>-11%</td><td>2.5%</td><td>2.2%</td></tr><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "10e3e61739879d9f",
+        "value": 0.721,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "56.0</td><td>272.8</td><td>1,000.0</td><td>1,000.0</td></tr><tr><td>Year over year % change</td><td>72.1%</td><td>50.6%</td><td>47.7%</td><td>32.2%</td><td>22.9%</td><td>21.7%</td><td>21.5%</td><td>20",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "db2f78bd355b455d",
+        "value": 0.506,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "72.8</td><td>1,000.0</td><td>1,000.0</td></tr><tr><td>Year over year % change</td><td>72.1%</td><td>50.6%</td><td>47.7%</td><td>32.2%</td><td>22.9%</td><td>21.7%</td><td>21.5%</td><td>20.9%</td><td>21",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "3f7d8b1522c8837b",
+        "value": 0.47700000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ",000.0</td><td>1,000.0</td></tr><tr><td>Year over year % change</td><td>72.1%</td><td>50.6%</td><td>47.7%</td><td>32.2%</td><td>22.9%</td><td>21.7%</td><td>21.5%</td><td>20.9%</td><td>21.7%</td><td>20",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "ff7e8ecebad03ba0",
+        "value": 0.322,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">1,000.0</td></tr><tr><td>Year over year % change</td><td>72.1%</td><td>50.6%</td><td>47.7%</td><td>32.2%</td><td>22.9%</td><td>21.7%</td><td>21.5%</td><td>20.9%</td><td>21.7%</td><td>20.2%</td></tr><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "9f923e437a1da8b8",
+        "value": 0.22899999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>Year over year % change</td><td>72.1%</td><td>50.6%</td><td>47.7%</td><td>32.2%</td><td>22.9%</td><td>21.7%</td><td>21.5%</td><td>20.9%</td><td>21.7%</td><td>20.2%</td></tr><tr><td>Quarter",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "95f7a4968f7322ab",
+        "value": 0.217,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ar over year % change</td><td>72.1%</td><td>50.6%</td><td>47.7%</td><td>32.2%</td><td>22.9%</td><td>21.7%</td><td>21.5%</td><td>20.9%</td><td>21.7%</td><td>20.2%</td></tr><tr><td>Quarter over quarter ",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "124d5250ba264e62",
+        "value": 0.215,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "change</td><td>72.1%</td><td>50.6%</td><td>47.7%</td><td>32.2%</td><td>22.9%</td><td>21.7%</td><td>21.5%</td><td>20.9%</td><td>21.7%</td><td>20.2%</td></tr><tr><td>Quarter over quarter % change</td><t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "8a968d55a7833954",
+        "value": 0.209,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>72.1%</td><td>50.6%</td><td>47.7%</td><td>32.2%</td><td>22.9%</td><td>21.7%</td><td>21.5%</td><td>20.9%</td><td>21.7%</td><td>20.2%</td></tr><tr><td>Quarter over quarter % change</td><td></td><td></",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "575dc815bb0bb4f3",
+        "value": 0.217,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>50.6%</td><td>47.7%</td><td>32.2%</td><td>22.9%</td><td>21.7%</td><td>21.5%</td><td>20.9%</td><td>21.7%</td><td>20.2%</td></tr><tr><td>Quarter over quarter % change</td><td></td><td></td><td></td><t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "0d2f477134f667a6",
+        "value": 0.20199999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>47.7%</td><td>32.2%</td><td>22.9%</td><td>21.7%</td><td>21.5%</td><td>20.9%</td><td>21.7%</td><td>20.2%</td></tr><tr><td>Quarter over quarter % change</td><td></td><td></td><td></td><td></td><td>1.6",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "850ececf7bcb8466",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>20.2%</td></tr><tr><td>Quarter over quarter % change</td><td></td><td></td><td></td><td></td><td>1.6%</td><td>5.7%</td><td>5.7%</td><td>6.5%</td><td></td><td></td></tr><tr><td>Cost of Revenue</td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "989e25f060e1f1fe",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>Quarter over quarter % change</td><td></td><td></td><td></td><td></td><td>1.6%</td><td>5.7%</td><td>5.7%</td><td>6.5%</td><td></td><td></td></tr><tr><td>Cost of Revenue</td><td>75.9</td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "af16ea22507ae962",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Quarter over quarter % change</td><td></td><td></td><td></td><td></td><td>1.6%</td><td>5.7%</td><td>5.7%</td><td>6.5%</td><td></td><td></td></tr><tr><td>Cost of Revenue</td><td>75.9</td><td>117.6</td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "0491efc5cb04b91f",
+        "value": 0.065,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "quarter % change</td><td></td><td></td><td></td><td></td><td>1.6%</td><td>5.7%</td><td>5.7%</td><td>6.5%</td><td></td><td></td></tr><tr><td>Cost of Revenue</td><td>75.9</td><td>117.6</td><td>140.1</td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "fc1589d8beee714a",
+        "value": 0.629,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "191.5</td><td>209.9</td><td>216.5</td><td>790.4</td><td>217.8</td></tr><tr><td>Gross Profit</td><td>62.9%</td><td>72.1%</td><td>77.4%</td><td>78.3%</td><td>79.2%</td><td>79.1%</td><td>78.5%</td><td>79",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "5d646aa35e1d609d",
+        "value": 0.721,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "209.9</td><td>216.5</td><td>790.4</td><td>217.8</td></tr><tr><td>Gross Profit</td><td>62.9%</td><td>72.1%</td><td>77.4%</td><td>78.3%</td><td>79.2%</td><td>79.1%</td><td>78.5%</td><td>79.4%</td><td>79",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "e1cbbd108598da00",
+        "value": 0.774,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "216.5</td><td>790.4</td><td>217.8</td></tr><tr><td>Gross Profit</td><td>62.9%</td><td>72.1%</td><td>77.4%</td><td>78.3%</td><td>79.2%</td><td>79.1%</td><td>78.5%</td><td>79.4%</td><td>79.0%</td><td>78",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "efda7b8280d82d8e",
+        "value": 0.7829999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "790.4</td><td>217.8</td></tr><tr><td>Gross Profit</td><td>62.9%</td><td>72.1%</td><td>77.4%</td><td>78.3%</td><td>79.2%</td><td>79.1%</td><td>78.5%</td><td>79.4%</td><td>79.0%</td><td>78.5%</td></tr><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "7d15ef9730886e07",
+        "value": 0.792,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "217.8</td></tr><tr><td>Gross Profit</td><td>62.9%</td><td>72.1%</td><td>77.4%</td><td>78.3%</td><td>79.2%</td><td>79.1%</td><td>78.5%</td><td>79.4%</td><td>79.0%</td><td>78.5%</td></tr><tr><td>Gross M",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "10f0ce012dac0888",
+        "value": 0.7909999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>Gross Profit</td><td>62.9%</td><td>72.1%</td><td>77.4%</td><td>78.3%</td><td>79.2%</td><td>79.1%</td><td>78.5%</td><td>79.4%</td><td>79.0%</td><td>78.5%</td></tr><tr><td>Gross Margin</td><td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "005a7ada1fb3e7da",
+        "value": 0.785,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Profit</td><td>62.9%</td><td>72.1%</td><td>77.4%</td><td>78.3%</td><td>79.2%</td><td>79.1%</td><td>78.5%</td><td>79.4%</td><td>79.0%</td><td>78.5%</td></tr><tr><td>Gross Margin</td><td></td><td></td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "39b244dc6768b2f9",
+        "value": 0.794,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>62.9%</td><td>72.1%</td><td>77.4%</td><td>78.3%</td><td>79.2%</td><td>79.1%</td><td>78.5%</td><td>79.4%</td><td>79.0%</td><td>78.5%</td></tr><tr><td>Gross Margin</td><td></td><td></td><td></td><td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "993b755a39dabf9f",
+        "value": 0.79,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>72.1%</td><td>77.4%</td><td>78.3%</td><td>79.2%</td><td>79.1%</td><td>78.5%</td><td>79.4%</td><td>79.0%</td><td>78.5%</td></tr><tr><td>Gross Margin</td><td></td><td></td><td></td><td></td><td></td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "bcc2a22cee9d294c",
+        "value": 0.785,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>77.4%</td><td>78.3%</td><td>79.2%</td><td>79.1%</td><td>78.5%</td><td>79.4%</td><td>79.0%</td><td>78.5%</td></tr><tr><td>Gross Margin</td><td></td><td></td><td></td><td></td><td></td><td></td><td></",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "1867710e1d39cffc",
+        "value": 0.039,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>Operating Income</td><td>(187.4)</td><td>(208.9)</td><td>(118.2)</td><td>(89.4)</td><td>3.9%</td><td>5.4</td><td>19.4</td><td>14.4</td><td>30.1</td><td>4.1</td><td>6.7</td></tr><tr><td>Ope",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "6e28411184e60b7b",
+        "value": -0.214,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>29.4</td><td>83.2</td><td>19.5</td><td>24.5</td></tr><tr><td>EBITDA Margin</td><td>-7.9</td><td>-21.4%</td><td>-12.8%</td><td>2.1%</td><td>0.0%</td><td>7.3%</td><td>9.5%</td><td>10.8%</td><td>8.7%",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "99a12708407f32a4",
+        "value": -0.128,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>83.2</td><td>19.5</td><td>24.5</td></tr><tr><td>EBITDA Margin</td><td>-7.9</td><td>-21.4%</td><td>-12.8%</td><td>2.1%</td><td>0.0%</td><td>7.3%</td><td>9.5%</td><td>10.8%</td><td>8.7%</td><td>0.4%</",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "496ab0703f74dcc4",
+        "value": 0.021,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "19.5</td><td>24.5</td></tr><tr><td>EBITDA Margin</td><td>-7.9</td><td>-21.4%</td><td>-12.8%</td><td>2.1%</td><td>0.0%</td><td>7.3%</td><td>9.5%</td><td>10.8%</td><td>8.7%</td><td>0.4%</td><td>8.5%</td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "a29d0b7b8f2be550",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "24.5</td></tr><tr><td>EBITDA Margin</td><td>-7.9</td><td>-21.4%</td><td>-12.8%</td><td>2.1%</td><td>0.0%</td><td>7.3%</td><td>9.5%</td><td>10.8%</td><td>8.7%</td><td>0.4%</td><td>8.5%</td></tr><tr><td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "19359adb50351c39",
+        "value": 0.073,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>EBITDA Margin</td><td>-7.9</td><td>-21.4%</td><td>-12.8%</td><td>2.1%</td><td>0.0%</td><td>7.3%</td><td>9.5%</td><td>10.8%</td><td>8.7%</td><td>0.4%</td><td>8.5%</td></tr><tr><td>Total intere",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "efcb49c5ac119084",
+        "value": 0.095,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "DA Margin</td><td>-7.9</td><td>-21.4%</td><td>-12.8%</td><td>2.1%</td><td>0.0%</td><td>7.3%</td><td>9.5%</td><td>10.8%</td><td>8.7%</td><td>0.4%</td><td>8.5%</td></tr><tr><td>Total interest and other ",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "84d1a6be9ea5e0be",
+        "value": 0.10800000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>-7.9</td><td>-21.4%</td><td>-12.8%</td><td>2.1%</td><td>0.0%</td><td>7.3%</td><td>9.5%</td><td>10.8%</td><td>8.7%</td><td>0.4%</td><td>8.5%</td></tr><tr><td>Total interest and other income, net</",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "7ff005fb99ab867e",
+        "value": 0.087,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-21.4%</td><td>-12.8%</td><td>2.1%</td><td>0.0%</td><td>7.3%</td><td>9.5%</td><td>10.8%</td><td>8.7%</td><td>0.4%</td><td>8.5%</td></tr><tr><td>Total interest and other income, net</td><td>(2.3)</",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "96e3e5760def6ee4",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-12.8%</td><td>2.1%</td><td>0.0%</td><td>7.3%</td><td>9.5%</td><td>10.8%</td><td>8.7%</td><td>0.4%</td><td>8.5%</td></tr><tr><td>Total interest and other income, net</td><td>(2.3)</td><td>14.3</",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "94e8de2a6c2429ad",
+        "value": 0.085,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>2.1%</td><td>0.0%</td><td>7.3%</td><td>9.5%</td><td>10.8%</td><td>8.7%</td><td>0.4%</td><td>8.5%</td></tr><tr><td>Total interest and other income, net</td><td>(2.3)</td><td>14.3</td><td>44.9</",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "87b759099521f7fd",
+        "value": -0.466,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>21.7</td><td>25.9</td><td>73.8</td><td>15.7</td><td>18.6</td></tr><tr><td>% of revenues</td><td>-46.6%</td><td>-45.1%</td><td>-11.8%</td><td>2.7%</td><td>3.9%</td><td>7.1%</td><td>8.5%</td><td>9.5",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "3a85dbdfbc6bd190",
+        "value": -0.451,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>25.9</td><td>73.8</td><td>15.7</td><td>18.6</td></tr><tr><td>% of revenues</td><td>-46.6%</td><td>-45.1%</td><td>-11.8%</td><td>2.7%</td><td>3.9%</td><td>7.1%</td><td>8.5%</td><td>9.5%</td><td>7.4%<",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "ba405c1ad8017865",
+        "value": -0.11800000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "73.8</td><td>15.7</td><td>18.6</td></tr><tr><td>% of revenues</td><td>-46.6%</td><td>-45.1%</td><td>-11.8%</td><td>2.7%</td><td>3.9%</td><td>7.1%</td><td>8.5%</td><td>9.5%</td><td>7.4%</td><td>5.7%</t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "19ad0c9eec8f5b4e",
+        "value": 0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".7</td><td>18.6</td></tr><tr><td>% of revenues</td><td>-46.6%</td><td>-45.1%</td><td>-11.8%</td><td>2.7%</td><td>3.9%</td><td>7.1%</td><td>8.5%</td><td>9.5%</td><td>7.4%</td><td>5.7%</td></tr><tr><td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "69242f1bfd791adc",
+        "value": 0.039,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".6</td></tr><tr><td>% of revenues</td><td>-46.6%</td><td>-45.1%</td><td>-11.8%</td><td>2.7%</td><td>3.9%</td><td>7.1%</td><td>8.5%</td><td>9.5%</td><td>7.4%</td><td>5.7%</td></tr><tr><td>Provision for",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f3b4db00129a51ad",
+        "value": 0.071,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>% of revenues</td><td>-46.6%</td><td>-45.1%</td><td>-11.8%</td><td>2.7%</td><td>3.9%</td><td>7.1%</td><td>8.5%</td><td>9.5%</td><td>7.4%</td><td>5.7%</td></tr><tr><td>Provision for Income Taxes",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "b99957b036811f9a",
+        "value": 0.085,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "evenues</td><td>-46.6%</td><td>-45.1%</td><td>-11.8%</td><td>2.7%</td><td>3.9%</td><td>7.1%</td><td>8.5%</td><td>9.5%</td><td>7.4%</td><td>5.7%</td></tr><tr><td>Provision for Income Taxes</td><td>(1.0",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c04552a236368766",
+        "value": 0.095,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>-46.6%</td><td>-45.1%</td><td>-11.8%</td><td>2.7%</td><td>3.9%</td><td>7.1%</td><td>8.5%</td><td>9.5%</td><td>7.4%</td><td>5.7%</td></tr><tr><td>Provision for Income Taxes</td><td>(1.0)</td><td>(4.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f9b037e0cb7a2e5e",
+        "value": 0.07400000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>-45.1%</td><td>-11.8%</td><td>2.7%</td><td>3.9%</td><td>7.1%</td><td>8.5%</td><td>9.5%</td><td>7.4%</td><td>5.7%</td></tr><tr><td>Provision for Income Taxes</td><td>(1.0)</td><td>(4.1)</td><td>(5",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "e851232caf672710",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>-11.8%</td><td>2.7%</td><td>3.9%</td><td>7.1%</td><td>8.5%</td><td>9.5%</td><td>7.4%</td><td>5.7%</td></tr><tr><td>Provision for Income Taxes</td><td>(1.0)</td><td>(4.1)</td><td>(5.9)</td><td>(",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "b2795b65a037cb1e",
+        "value": -0.215,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>(4.1)</td><td>5.1</td><td>6.1</td><td>5.0</td><td>(8.0)</td></tr><tr><td>% Tax Rate</td><td>-21.5%</td><td>-8.0%</td><td>-21.1%</td><td>-24.9%</td><td>-23.6%</td><td>-23.6%</td><td>-23.6%</td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "1f379ff09f19fdf8",
+        "value": -0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>5.1</td><td>6.1</td><td>5.0</td><td>(8.0)</td></tr><tr><td>% Tax Rate</td><td>-21.5%</td><td>-8.0%</td><td>-21.1%</td><td>-24.9%</td><td>-23.6%</td><td>-23.6%</td><td>-23.6%</td><td>-23,6%</td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "af1c70d51a25e5c6",
+        "value": -0.21100000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>6.1</td><td>5.0</td><td>(8.0)</td></tr><tr><td>% Tax Rate</td><td>-21.5%</td><td>-8.0%</td><td>-21.1%</td><td>-24.9%</td><td>-23.6%</td><td>-23.6%</td><td>-23.6%</td><td>-23,6%</td><td>-5.0%</td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "50e6875794bc9066",
+        "value": -0.249,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>5.0</td><td>(8.0)</td></tr><tr><td>% Tax Rate</td><td>-21.5%</td><td>-8.0%</td><td>-21.1%</td><td>-24.9%</td><td>-23.6%</td><td>-23.6%</td><td>-23.6%</td><td>-23,6%</td><td>-5.0%</td><td>-10.0%</td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "d7baf453d3c13d50",
+        "value": -0.23600000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8.0)</td></tr><tr><td>% Tax Rate</td><td>-21.5%</td><td>-8.0%</td><td>-21.1%</td><td>-24.9%</td><td>-23.6%</td><td>-23.6%</td><td>-23.6%</td><td>-23,6%</td><td>-5.0%</td><td>-10.0%</td></tr><tr><td>Ne",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "bc6ba6ca44d0bc1c",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "to Networks Inc(common or preferred stock). As of July 31, 2025, Morgan Stanley beneficially owned 1% or more of a class of common equity securities of the following companies covered in Morgan Stanle",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "e3ff02990a942eee",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ry</td><td>Count</td><td>% of Total Other MISC</td></tr><tr><td>Overweight/Buy</td><td>1495</td><td>40%</td><td>378</td><td>45%</td><td>25%</td><td>701</td><td>41%</td></tr><tr><td>Equal-weight/Hold</",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "f2df8f0907d99f21",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">% of Total Other MISC</td></tr><tr><td>Overweight/Buy</td><td>1495</td><td>40%</td><td>378</td><td>45%</td><td>25%</td><td>701</td><td>41%</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%<",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "7624d63f3e278065",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Other MISC</td></tr><tr><td>Overweight/Buy</td><td>1495</td><td>40%</td><td>378</td><td>45%</td><td>25%</td><td>701</td><td>41%</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374<",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "ce6a6a81b8a499f8",
+        "value": 0.41,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Overweight/Buy</td><td>1495</td><td>40%</td><td>378</td><td>45%</td><td>25%</td><td>701</td><td>41%</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%</td><td>23%<",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "4e205aa466f2f59e",
+        "value": 0.43,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>45%</td><td>25%</td><td>701</td><td>41%</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%</td><td>23%</td><td>766</td><td>45%</td></tr><tr><td>Not-Rated/Hold</td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "8e63ce21ad692ecb",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>701</td><td>41%</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%</td><td>23%</td><td>766</td><td>45%</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "37be31aef53c5e76",
+        "value": 0.23,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>41%</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%</td><td>23%</td><td>766</td><td>45%</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "3b29cd56eefe562c",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%</td><td>23%</td><td>766</td><td>45%</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%</td><td>2</",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "a914883732391377",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4</td><td>45%</td><td>23%</td><td>766</td><td>45%</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%</td><td>2</td><td>0%</td></tr><tr><td>Underweight/Sell</td><td>58",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "deff4efba3cdc72b",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">23%</td><td>766</td><td>45%</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%</td><td>2</td><td>0%</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "6f35e395d29132cb",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>766</td><td>45%</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%</td><td>2</td><td>0%</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "53207395e4d7b76e",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%</td><td>2</td><td>0%</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><td>14%</td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "796a0c699291b351",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0</td><td>0%</td><td>0%</td><td>2</td><td>0%</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><td>14%</td><td>236</td><td>14%</td></tr><tr><td>Total</td><td>3,695<",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "b60706ff81a5177a",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>2</td><td>0%</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><td>14%</td><td>236</td><td>14%</td></tr><tr><td>Total</td><td>3,695</td><td></td><td>835</t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "a4c1fd5b18456692",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>0%</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><td>14%</td><td>236</td><td>14%</td></tr><tr><td>Total</td><td>3,695</td><td></td><td>835</td><td></td><",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "01a518ed2e756436",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><td>14%</td><td>236</td><td>14%</td></tr><tr><td>Total</td><td>3,695</td><td></td><td>835</td><td></td><td></td><td>1705</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "87ba49d70fa9ae00",
+        "value": 49.2,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "intero</td><td></td><td></td></tr><tr><td>BILL Holdings Inc (BILL.N)</td><td>E (06/10/2025)</td><td>$49.20</td></tr><tr><td>Blackline Inc (BL.O)</td><td>O (09/29/2024)</td><td>$54.24</td></tr><tr><td>",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "c2a1922482f75fd2",
+        "value": 54.24,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">E (06/10/2025)</td><td>$49.20</td></tr><tr><td>Blackline Inc (BL.O)</td><td>O (09/29/2024)</td><td>$54.24</td></tr><tr><td>Descartes Systems Group Inc (DSGX.O)</td><td>E (07/13/2025)</td><td>$100.00<",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "c96875b378ec43be",
+        "value": 100.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>$54.24</td></tr><tr><td>Descartes Systems Group Inc (DSGX.O)</td><td>E (07/13/2025)</td><td>$100.00</td></tr><tr><td>Manhattan Associates Inc. (MANH.O)</td><td>U (07/13/2025)</td><td>$218.46</",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "8a08c75b126effcf",
+        "value": 218.46,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$100.00</td></tr><tr><td>Manhattan Associates Inc. (MANH.O)</td><td>U (07/13/2025)</td><td>$218.46</td></tr><tr><td>OneStream Inc (OS.O)</td><td>O (01/16/2025)</td><td>$19.83</td></tr><tr><td",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "aba73329bb764dff",
+        "value": 19.83,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "U (07/13/2025)</td><td>$218.46</td></tr><tr><td>OneStream Inc (OS.O)</td><td>O (01/16/2025)</td><td>$19.83</td></tr><tr><td>SPS Commerce Inc (SPSC.O)</td><td>O (07/13/2025)</td><td>$110.93</td></tr><t",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "386e33a961a9cb44",
+        "value": 110.93,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "1/16/2025)</td><td>$19.83</td></tr><tr><td>SPS Commerce Inc (SPSC.O)</td><td>O (07/13/2025)</td><td>$110.93</td></tr><tr><td>Vertex Inc. (VERX.O)</td><td>O (01/17/2024)</td><td>$25.34</td></tr><tr><td",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "410f471ed750797a",
+        "value": 25.34,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "O (07/13/2025)</td><td>$110.93</td></tr><tr><td>Vertex Inc. (VERX.O)</td><td>O (01/17/2024)</td><td>$25.34</td></tr><tr><td>Elizabeth Porter, CFA</td><td></td><td></td></tr><tr><td>Amplitude Inc. (AMP",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "de11288142ce4457",
+        "value": 11.72,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "rter, CFA</td><td></td><td></td></tr><tr><td>Amplitude Inc. (AMPL.O)</td><td>E (01/13/2025)</td><td>$11.72</td></tr><tr><td>Autodesk (ADSK.O)</td><td>O (08/23/2024)</td><td>$288.49</td></tr><tr><td>Fi",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "bf5caa2edd040fa5",
+        "value": 288.49,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>E (01/13/2025)</td><td>$11.72</td></tr><tr><td>Autodesk (ADSK.O)</td><td>O (08/23/2024)</td><td>$288.49</td></tr><tr><td>Figma Inc (FIG.N)</td><td>E (08/25/2025)</td><td>$71.26</td></tr><tr><td>Fr",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "5180e87d6e8f86b9",
+        "value": 71.26,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>O (08/23/2024)</td><td>$288.49</td></tr><tr><td>Figma Inc (FIG.N)</td><td>E (08/25/2025)</td><td>$71.26</td></tr><tr><td>Freshworks Inc (FRSH.O)</td><td>E (10/18/2021)</td><td>$13.53</td></tr><tr><",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "12a5330d13e51c6f",
+        "value": 13.53,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(08/25/2025)</td><td>$71.26</td></tr><tr><td>Freshworks Inc (FRSH.O)</td><td>E (10/18/2021)</td><td>$13.53</td></tr><tr><td>GoDaddy Inc (GDDY.N)</td><td>E (07/19/2021)</td><td>$147.86</td></tr><tr><td",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "6772afa5e58dc72e",
+        "value": 147.86,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">E (10/18/2021)</td><td>$13.53</td></tr><tr><td>GoDaddy Inc (GDDY.N)</td><td>E (07/19/2021)</td><td>$147.86</td></tr><tr><td>HubSpot, Inc. (HUBS.N)</td><td>O (03/21/2023)</td><td>$476.34</td></tr><tr>",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "313ced36ab6db930",
+        "value": 476.34,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(07/19/2021)</td><td>$147.86</td></tr><tr><td>HubSpot, Inc. (HUBS.N)</td><td>O (03/21/2023)</td><td>$476.34</td></tr><tr><td>Klaviyo, Inc (KVYO.N)</td><td>E (10/16/2023)</td><td>$32.51</td></tr><tr><t",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "3b39c8770f1086f4",
+        "value": 32.51,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(03/21/2023)</td><td>$476.34</td></tr><tr><td>Klaviyo, Inc (KVYO.N)</td><td>E (10/16/2023)</td><td>$32.51</td></tr><tr><td>LegalZoom.com Inc (LZ.O)</td><td>U (07/28/2022)</td><td>$11.15</td></tr><tr><",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "c59c093797b4afaa",
+        "value": 11.15,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "10/16/2023)</td><td>$32.51</td></tr><tr><td>LegalZoom.com Inc (LZ.O)</td><td>U (07/28/2022)</td><td>$11.15</td></tr><tr><td>Liveramp Holdings Inc (RAMP.N)</td><td>E (01/13/2025)</td><td>$27.62</td></t",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "ccfcb967dba4c223",
+        "value": 27.62,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "2022)</td><td>$11.15</td></tr><tr><td>Liveramp Holdings Inc (RAMP.N)</td><td>E (01/13/2025)</td><td>$27.62</td></tr><tr><td>Semrush Holdings Inc -A (SEMR.N)</td><td>E (08/05/2025)</td><td>$7.88</td></",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "dc559992effb8c5f",
+        "value": 7.88,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "25)</td><td>$27.62</td></tr><tr><td>Semrush Holdings Inc -A (SEMR.N)</td><td>E (08/05/2025)</td><td>$7.88</td></tr><tr><td>Sprinklr Inc (CXM.N)</td><td>E (07/19/2021)</td><td>$8.75</td></tr><tr><td>Sp",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "3eccf7a0401f79cf",
+        "value": 8.75,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>E (08/05/2025)</td><td>$7.88</td></tr><tr><td>Sprinklr Inc (CXM.N)</td><td>E (07/19/2021)</td><td>$8.75</td></tr><tr><td>Sprout Social Inc (SPT.O)</td><td>E (11/17/2020)</td><td>$15.83</td></tr><tr>",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "0cb72b468b2df739",
+        "value": 15.83,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "07/19/2021)</td><td>$8.75</td></tr><tr><td>Sprout Social Inc (SPT.O)</td><td>E (11/17/2020)</td><td>$15.83</td></tr><tr><td>Wix.Com Ltd (WIX.O)</td><td>O (01/13/2025)</td><td>$138.87</td></tr><tr><td>",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "21159e912fccd094",
+        "value": 138.87,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>E (11/17/2020)</td><td>$15.83</td></tr><tr><td>Wix.Com Ltd (WIX.O)</td><td>O (01/13/2025)</td><td>$138.87</td></tr><tr><td>Zeta Global Holdings Corp (ZETA.N)</td><td>E (08/01/2024)</td><td>$19.55</t",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "ea9c9696926e1895",
+        "value": 19.55,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$138.87</td></tr><tr><td>Zeta Global Holdings Corp (ZETA.N)</td><td>E (08/01/2024)</td><td>$19.55</td></tr><tr><td>ZoomInfo Technologies Inc (GTM.O)</td><td>E (02/01/2024)</td><td>$10.90</td>",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "ff8ab81b02b5c941",
+        "value": 10.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "4)</td><td>$19.55</td></tr><tr><td>ZoomInfo Technologies Inc (GTM.O)</td><td>E (02/01/2024)</td><td>$10.90</td></tr><tr><td>Josh Baer, CFA</td><td></td><td></td></tr><tr><td>Asana Inc (ASAN.N)</td><td",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "ce81c559fa8395b2",
+        "value": 14.56,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Josh Baer, CFA</td><td></td><td></td></tr><tr><td>Asana Inc (ASAN.N)</td><td>U (05/20/2025)</td><td>$14.56</td></tr><tr><td>Box Inc (BOX.N)</td><td>E (05/21/2024)</td><td>$32.83</td></tr></table><｜end",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "48ab72106f4835a7",
+        "value": 32.83,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>U (05/20/2025)</td><td>$14.56</td></tr><tr><td>Box Inc (BOX.N)</td><td>E (05/21/2024)</td><td>$32.83</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "e093a81867d573b1",
+        "value": 10.03,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<table><tr><td>CCC Intelligent Solutions Holdings Inc (CCCS.O)</td><td>O (11/13/2024)</td><td>$10.03</td></tr><tr><td>Commerce.com Inc. (CMRC.O)</td><td>E (05/11/2021)</td><td>$4.66</td></tr><tr><td>C",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "f06d234f87a1d571",
+        "value": 4.66,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/13/2024)</td><td>$10.03</td></tr><tr><td>Commerce.com Inc. (CMRC.O)</td><td>E (05/11/2021)</td><td>$4.66</td></tr><tr><td>Coursera, Inc. (COUR.N)</td><td>E (06/05/2025)</td><td>$11.61</td></tr><tr><t",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "2953de62dd96c5b4",
+        "value": 11.61,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(05/11/2021)</td><td>$4.66</td></tr><tr><td>Coursera, Inc. (COUR.N)</td><td>E (06/05/2025)</td><td>$11.61</td></tr><tr><td>DigitalOcean Holdings Inc (DOCN.N)</td><td>O (01/16/2025)</td><td>$33.36</td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "86fb894b30b144d6",
+        "value": 33.36,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ")</td><td>$11.61</td></tr><tr><td>DigitalOcean Holdings Inc (DOCN.N)</td><td>O (01/16/2025)</td><td>$33.36</td></tr><tr><td>Docebo Inc. (DCBO.O)</td><td>E (05/12/2025)</td><td>$31.29</td></tr><tr><td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "915a7a2b12dccb1a",
+        "value": 31.29,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">O (01/16/2025)</td><td>$33.36</td></tr><tr><td>Docebo Inc. (DCBO.O)</td><td>E (05/12/2025)</td><td>$31.29</td></tr><tr><td>DocuSign Inc (DOCU.O)</td><td>E (01/16/2024)</td><td>$75.51</td></tr><tr><td",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "f6952fba60119229",
+        "value": 75.51,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "E (05/12/2025)</td><td>$31.29</td></tr><tr><td>DocuSign Inc (DOCU.O)</td><td>E (01/16/2024)</td><td>$75.51</td></tr><tr><td>Lightspeed POS Inc. (LSPD.N)</td><td>E (02/18/2021)</td><td>$12.42</td></tr>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "b674f4db5543b347",
+        "value": 12.42,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "6/2024)</td><td>$75.51</td></tr><tr><td>Lightspeed POS Inc. (LSPD.N)</td><td>E (02/18/2021)</td><td>$12.42</td></tr><tr><td>monday.com Ltd (MNDY.O)</td><td>O (08/12/2025)</td><td>$189.51</td></tr><tr>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "006e8129fc53cf25",
+        "value": 189.51,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(02/18/2021)</td><td>$12.42</td></tr><tr><td>monday.com Ltd (MNDY.O)</td><td>O (08/12/2025)</td><td>$189.51</td></tr><tr><td>Sabre Corp (SABR.O)</td><td>E (03/16/2021)</td><td>$1.79</td></tr><tr><td>S",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "42d1536abf6ab697",
+        "value": 1.79,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">O (08/12/2025)</td><td>$189.51</td></tr><tr><td>Sabre Corp (SABR.O)</td><td>E (03/16/2021)</td><td>$1.79</td></tr><tr><td>ServiceTitan Inc (TTAN.O)</td><td>E (01/06/2025)</td><td>$108.02</td></tr><tr",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "79cc51adf6ab5b2d",
+        "value": 108.02,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "03/16/2021)</td><td>$1.79</td></tr><tr><td>ServiceTitan Inc (TTAN.O)</td><td>E (01/06/2025)</td><td>$108.02</td></tr><tr><td>Toast, Inc. (TOST.N)</td><td>O (12/16/2021)</td><td>$44.95</td></tr><tr><td",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "7f02f7c2e21339ac",
+        "value": 44.95,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "E (01/06/2025)</td><td>$108.02</td></tr><tr><td>Toast, Inc. (TOST.N)</td><td>O (12/16/2021)</td><td>$44.95</td></tr><tr><td>Udemy Inc (UDMY.O)</td><td>E (06/05/2025)</td><td>$6.96</td></tr><tr><td>Kei",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "87e2a9e6bdb39c77",
+        "value": 6.96,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>O (12/16/2021)</td><td>$44.95</td></tr><tr><td>Udemy Inc (UDMY.O)</td><td>E (06/05/2025)</td><td>$6.96</td></tr><tr><td>Keith Weiss, CFA</td><td></td><td></td></tr><tr><td>Adobe Inc. (ADBE.O)</td><",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "b620603efa9a6873",
+        "value": 353.96,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "th Weiss, CFA</td><td></td><td></td></tr><tr><td>Adobe Inc. (ADBE.O)</td><td>O (07/31/2023)</td><td>$353.96</td></tr><tr><td>Atlassian Corporation PLC (TEAM.O)</td><td>O (01/13/2020)</td><td>$176.78</",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "20046d37b134f5ba",
+        "value": 176.78,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$353.96</td></tr><tr><td>Atlassian Corporation PLC (TEAM.O)</td><td>O (01/13/2020)</td><td>$176.78</td></tr><tr><td>Check Point Software Technologies Ltd. (CHKP.O)</td><td>E (10/16/2023)</td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "745624cbca39905b",
+        "value": 191.26,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ".78</td></tr><tr><td>Check Point Software Technologies Ltd. (CHKP.O)</td><td>E (10/16/2023)</td><td>$191.26</td></tr><tr><td>Cloudflare Inc (NET.N)</td><td>O (12/02/2024)</td><td>$213.42</td></tr><tr>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "875ed951828d8221",
+        "value": 213.42,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(10/16/2023)</td><td>$191.26</td></tr><tr><td>Cloudflare Inc (NET.N)</td><td>O (12/02/2024)</td><td>$213.42</td></tr><tr><td>CoreWeave (CRWY.O)</td><td>E (04/22/2025)</td><td>$102.79</td></tr><tr><td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "3426f996fa1e93f0",
+        "value": 102.79,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>O (12/02/2024)</td><td>$213.42</td></tr><tr><td>CoreWeave (CRWY.O)</td><td>E (04/22/2025)</td><td>$102.79</td></tr><tr><td>CrowdStrike Holdings Inc (CRWD.O)</td><td>E (07/14/2025)</td><td>$442.00</t",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "ab3fae75c35e62d7",
+        "value": 442.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ")</td><td>$102.79</td></tr><tr><td>CrowdStrike Holdings Inc (CRWD.O)</td><td>E (07/14/2025)</td><td>$442.00</td></tr><tr><td>CyberArk Software Ltd (CYBR.O)</td><td>E (01/09/2024)</td><td>$453.17</td><",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "6e2a942382953b12",
+        "value": 453.17,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "025)</td><td>$442.00</td></tr><tr><td>CyberArk Software Ltd (CYBR.O)</td><td>E (01/09/2024)</td><td>$453.17</td></tr><tr><td>Fortinet Inc. (FTNT.O)</td><td>E (08/07/2025)</td><td>$79.29</td></tr><tr><",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "1068126e80746127",
+        "value": 79.29,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(01/09/2024)</td><td>$453.17</td></tr><tr><td>Fortinet Inc. (FTNT.O)</td><td>E (08/07/2025)</td><td>$79.29</td></tr><tr><td>Gen Digital Inc. (GEN.O)</td><td>E (06/07/2024)</td><td>$30.21</td></tr><tr>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "f9d7b1f53e7677b6",
+        "value": 30.21,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "08/07/2025)</td><td>$79.29</td></tr><tr><td>Gen Digital Inc. (GEN.O)</td><td>E (06/07/2024)</td><td>$30.21</td></tr><tr><td>Intuit (INTU.O)</td><td>O (02/26/2025)</td><td>$668.20</td></tr><tr><td>Jamf",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "637886c3e8a4f585",
+        "value": 668.2,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>E (06/07/2024)</td><td>$30.21</td></tr><tr><td>Intuit (INTU.O)</td><td>O (02/26/2025)</td><td>$668.20</td></tr><tr><td>Jamf Holding Corp (JAMF.O)</td><td>E (10/13/2024)</td><td>$9.27</td></tr><t",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "341e015626d4ea2a",
+        "value": 9.27,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "26/2025)</td><td>$668.20</td></tr><tr><td>Jamf Holding Corp (JAMF.O)</td><td>E (10/13/2024)</td><td>$9.27</td></tr><tr><td>Microsoft (MSFT.O)</td><td>O (01/13/2016)</td><td>$509.64</td></tr><tr><td>Ok",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "2779d4e2ce68fd83",
+        "value": 509.64,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>E (10/13/2024)</td><td>$9.27</td></tr><tr><td>Microsoft (MSFT.O)</td><td>O (01/13/2016)</td><td>$509.64</td></tr><tr><td>Okta, Inc. (OKTA.O)</td><td>O (12/02/2024)</td><td>$92.59</td></tr><tr><td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "584b0d5c7ab63bb0",
+        "value": 92.59,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">O (01/13/2016)</td><td>$509.64</td></tr><tr><td>Okta, Inc. (OKTA.O)</td><td>O (12/02/2024)</td><td>$92.59</td></tr><tr><td>Oracle Corporation (ORCL.N)</td><td>E (01/15/2019)</td><td>$240.32</td></tr>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "c7f4209d83b837ff",
+        "value": 240.32,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "02/2024)</td><td>$92.59</td></tr><tr><td>Oracle Corporation (ORCL.N)</td><td>E (01/15/2019)</td><td>$240.32</td></tr><tr><td>Palo Alto Networks Inc (PANW.O)</td><td>O (10/10/2017)</td><td>$191.02</td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "2114b4bf508c7928",
+        "value": 191.02,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "19)</td><td>$240.32</td></tr><tr><td>Palo Alto Networks Inc (PANW.O)</td><td>O (10/10/2017)</td><td>$191.02</td></tr><tr><td>Qualys Inc (QLYS.O)</td><td>U (02/09/2021)</td><td>$135.33</td></tr><tr><td",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "a4799dc41d84ab15",
+        "value": 135.33,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">O (10/10/2017)</td><td>$191.02</td></tr><tr><td>Qualys Inc (QLYS.O)</td><td>U (02/09/2021)</td><td>$135.33</td></tr><tr><td>Rapid7 Inc (RPD.O)</td><td>E (08/11/2015)</td><td>$20.90</td></tr><tr><td>S",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "0cc04c3e6ac78733",
+        "value": 20.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>U (02/09/2021)</td><td>$135.33</td></tr><tr><td>Rapid7 Inc (RPD.O)</td><td>E (08/11/2015)</td><td>$20.90</td></tr><tr><td>SailPoint Inc (SAIL.O)</td><td>E (03/10/2025)</td><td>$20.77</td></tr><tr><t",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "36e4307d5506b85b",
+        "value": 20.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(08/11/2015)</td><td>$20.90</td></tr><tr><td>SailPoint Inc (SAIL.O)</td><td>E (03/10/2025)</td><td>$20.77</td></tr><tr><td>Salesforce, Inc. (CRM.N)</td><td>O (12/21/2023)</td><td>$254.53</td></tr><tr>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "45eece1a68ef73f3",
+        "value": 254.53,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "03/10/2025)</td><td>$20.77</td></tr><tr><td>Salesforce, Inc. (CRM.N)</td><td>O (12/21/2023)</td><td>$254.53</td></tr><tr><td>Samsara Inc (IOT.N)</td><td>E (03/23/2023)</td><td>$36.45</td></tr><tr><td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "c06718aa123c5b92",
+        "value": 36.45,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">O (12/21/2023)</td><td>$254.53</td></tr><tr><td>Samsara Inc (IOT.N)</td><td>E (03/23/2023)</td><td>$36.45</td></tr><tr><td>SentinelOne, Inc. (S.N)</td><td>E (12/02/2024)</td><td>$17.61</td></tr><tr><",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "66c69802ed584907",
+        "value": 17.61,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(03/23/2023)</td><td>$36.45</td></tr><tr><td>SentinelOne, Inc. (S.N)</td><td>E (12/02/2024)</td><td>$17.61</td></tr><tr><td>ServiceNow Inc (NOW.N)</td><td>E (10/21/2024)</td><td>$928.60</td></tr><tr><",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "3773c31e697dd398",
+        "value": 928.6,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(12/02/2024)</td><td>$17.61</td></tr><tr><td>ServiceNow Inc (NOW.N)</td><td>E (10/21/2024)</td><td>$928.60</td></tr><tr><td>Shopify Inc (SHOP.O)</td><td>O (04/19/2024)</td><td>$141.54</td></tr><tr><td",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "412d0a3d6b9afd80",
+        "value": 141.54,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "E (10/21/2024)</td><td>$928.60</td></tr><tr><td>Shopify Inc (SHOP.O)</td><td>O (04/19/2024)</td><td>$141.54</td></tr><tr><td>Tenable Holdings Inc (TENB.O)</td><td>E (12/02/2024)</td><td>$31.09</td></t",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "efdb0f13cceebd1c",
+        "value": 31.09,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "2024)</td><td>$141.54</td></tr><tr><td>Tenable Holdings Inc (TENB.O)</td><td>E (12/02/2024)</td><td>$31.09</td></tr><tr><td>Varonis Systems, Inc. (VRN.S.O)</td><td>O (10/16/2023)</td><td>$59.16</td></",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "f86e4dda3d5c9026",
+        "value": 59.16,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "024)</td><td>$31.09</td></tr><tr><td>Varonis Systems, Inc. (VRN.S.O)</td><td>O (10/16/2023)</td><td>$59.16</td></tr><tr><td>Workday Inc (WDAY.O)</td><td>E (02/19/2025)</td><td>$228.50</td></tr><tr><td",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "7d454d6cc13cc1e4",
+        "value": 228.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">O (10/16/2023)</td><td>$59.16</td></tr><tr><td>Workday Inc (WDAY.O)</td><td>E (02/19/2025)</td><td>$228.50</td></tr><tr><td>Zscaler Inc (ZS.O)</td><td>E (01/12/2023)</td><td>$280.42</td></tr><tr><td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "2276f98be05d253b",
+        "value": 280.42,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>E (02/19/2025)</td><td>$228.50</td></tr><tr><td>Zscaler Inc (ZS.O)</td><td>E (01/12/2023)</td><td>$280.42</td></tr><tr><td>Meta A Marshall</td><td></td><td></td></tr><tr><td>8x8 Inc (EGHT.O)</td><td",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "efee944c8fb315d4",
+        "value": 2.02,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">Meta A Marshall</td><td></td><td></td></tr><tr><td>8x8 Inc (EGHT.O)</td><td>U (06/14/2024)</td><td>$2.02</td></tr><tr><td>Five9 Inc (FIVN.O)</td><td>E (10/10/2022)</td><td>$26.69</td></tr><tr><td>NIC",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "3efd96d657420107",
+        "value": 26.69,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>U (06/14/2024)</td><td>$2.02</td></tr><tr><td>Five9 Inc (FIVN.O)</td><td>E (10/10/2022)</td><td>$26.69</td></tr><tr><td>NICE Ltd. (NICE.O)</td><td>O (10/16/2023)</td><td>$142.70</td></tr><tr><td>R",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "ac9862934d001e4c",
+        "value": 142.7,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>E (10/10/2022)</td><td>$26.69</td></tr><tr><td>NICE Ltd. (NICE.O)</td><td>O (10/16/2023)</td><td>$142.70</td></tr><tr><td>RingCentral Inc (RNG.N)</td><td>E (08/08/2023)</td><td>$30.71</td></tr><tr>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "ba06dd287b8c1aeb",
+        "value": 30.71,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "10/16/2023)</td><td>$142.70</td></tr><tr><td>RingCentral Inc (RNG.N)</td><td>E (08/08/2023)</td><td>$30.71</td></tr><tr><td>Twilio Inc (TWLO.N)</td><td>O (02/24/2025)</td><td>$106.39</td></tr><tr><td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "39b371da9e14ca66",
+        "value": 106.39,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>E (08/08/2023)</td><td>$30.71</td></tr><tr><td>Twilio Inc (TWLO.N)</td><td>O (02/24/2025)</td><td>$106.39</td></tr><tr><td>Zoom Video Communications Inc (ZM.O)</td><td>E (10/11/2022)</td><td>$80.83<",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "4d55cad7f73cd236",
+        "value": 80.83,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>$106.39</td></tr><tr><td>Zoom Video Communications Inc (ZM.O)</td><td>E (10/11/2022)</td><td>$80.83</td></tr><tr><td>Roy D Campbell</td><td></td><td></td></tr><tr><td>Karoooo Ltd (KARO.O)</td><",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "b5ba83d5038650d3",
+        "value": 52.53,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "y D Campbell</td><td></td><td></td></tr><tr><td>Karoooo Ltd (KARO.O)</td><td>O (04/27/2021)</td><td>$52.53</td></tr><tr><td>Sanjit K Singh</td><td></td><td></td></tr><tr><td>Akamai Technologies, Inc. ",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "8622d0a0ccb5b5f1",
+        "value": 78.39,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td></td><td></td></tr><tr><td>Akamai Technologies, Inc. (AKAM.O)</td><td>U (08/05/2025)</td><td>$78.39</td></tr><tr><td>Appian Corp (APPN.O)</td><td>E (12/03/2021)</td><td>$30.71</td></tr><tr><td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "46b585d013caad78",
+        "value": 30.71,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">U (08/05/2025)</td><td>$78.39</td></tr><tr><td>Appian Corp (APPN.O)</td><td>E (12/03/2021)</td><td>$30.71</td></tr><tr><td>C3.ai (AI.N)</td><td>U (01/04/2021)</td><td>$17.31</td></tr><tr><td>Confluen",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "58ba2ee41aab67b4",
+        "value": 17.31,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>E (12/03/2021)</td><td>$30.71</td></tr><tr><td>C3.ai (AI.N)</td><td>U (01/04/2021)</td><td>$17.31</td></tr><tr><td>Confluent, Inc. (CFLT.O)</td><td>E (01/16/2025)</td><td>$20.05</td></tr></ta",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "f8bddcd5bc3ceea6",
+        "value": 20.05,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "01/04/2021)</td><td>$17.31</td></tr><tr><td>Confluent, Inc. (CFLT.O)</td><td>E (01/16/2025)</td><td>$20.05</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "d6b73ee091fe2e87",
+        "value": 24.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Couchbase, Inc. (BASE.O) ++ \\$24.40 Datadog, Inc. (DDOG.O) E (01/16/2025) \\$140.96 Dynatrace Inc (DT.N) E (02/13/2024) \\$50.89 Elastic",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "0758d27f9f943783",
+        "value": 140.96,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Couchbase, Inc. (BASE.O) ++ \\$24.40 Datadog, Inc. (DDOG.O) E (01/16/2025) \\$140.96 Dynatrace Inc (DT.N) E (02/13/2024) \\$50.89 Elastic NV (ESTC.N) O (12/16/2024) \\$87.79 GitLab Inc",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "2daa14dc45a1c168",
+        "value": 50.89,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "O) ++ \\$24.40 Datadog, Inc. (DDOG.O) E (01/16/2025) \\$140.96 Dynatrace Inc (DT.N) E (02/13/2024) \\$50.89 Elastic NV (ESTC.N) O (12/16/2024) \\$87.79 GitLab Inc (GTLB.O) O (10/09/2024) \\$49.03 JFrog Ltd",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "9c122493dea6e5af",
+        "value": 87.79,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "16/2025) \\$140.96 Dynatrace Inc (DT.N) E (02/13/2024) \\$50.89 Elastic NV (ESTC.N) O (12/16/2024) \\$87.79 GitLab Inc (GTLB.O) O (10/09/2024) \\$49.03 JFrog Ltd. (FROG.O) O (12/21/2023) \\$50.07 MongoDB I",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "3b11b898d23f31f9",
+        "value": 49.03,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "2/13/2024) \\$50.89 Elastic NV (ESTC.N) O (12/16/2024) \\$87.79 GitLab Inc (GTLB.O) O (10/09/2024) \\$49.03 JFrog Ltd. (FROG.O) O (12/21/2023) \\$50.07 MongoDB Inc (MDB.O) O (04/12/2023) \\$318.10 PagerDut",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "ba2fb3a292cecd0d",
+        "value": 50070000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "2/16/2024) \\$87.79 GitLab Inc (GTLB.O) O (10/09/2024) \\$49.03 JFrog Ltd. (FROG.O) O (12/21/2023) \\$50.07 MongoDB Inc (MDB.O) O (04/12/2023) \\$318.10 PagerDuty, Inc. (PD.N) E (01/24/2024) \\$16.92 Palan",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "47132204b3d574ed",
+        "value": 318.1,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "0/09/2024) \\$49.03 JFrog Ltd. (FROG.O) O (12/21/2023) \\$50.07 MongoDB Inc (MDB.O) O (04/12/2023) \\$318.10 PagerDuty, Inc. (PD.N) E (01/24/2024) \\$16.92 Palantir Technologies Inc. (PLTR.O) E (02/04/202",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "325d0ba25609e7ee",
+        "value": 16.92,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/2023) \\$50.07 MongoDB Inc (MDB.O) O (04/12/2023) \\$318.10 PagerDuty, Inc. (PD.N) E (01/24/2024) \\$16.92 Palantir Technologies Inc. (PLTR.O) E (02/04/2025) \\$158.12 Snowflake Inc. (SNOW.N) O (06/24/20",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "313ac7da843b7879",
+        "value": 158.12,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "PagerDuty, Inc. (PD.N) E (01/24/2024) \\$16.92 Palantir Technologies Inc. (PLTR.O) E (02/04/2025) \\$158.12 Snowflake Inc. (SNOW.N) O (06/24/2025) \\$241.00 UiPath Inc (PATH.N) E (09/07/2022) \\$11.26 Sto",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "ea28eb6c3a07f27d",
+        "value": 241.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "alantir Technologies Inc. (PLTR.O) E (02/04/2025) \\$158.12 Snowflake Inc. (SNOW.N) O (06/24/2025) \\$241.00 UiPath Inc (PATH.N) E (09/07/2022) \\$11.26 Stock Ratings are subject to change. Please see la",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "1394adeba4f7f144",
+        "value": 11.26,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "025) \\$158.12 Snowflake Inc. (SNOW.N) O (06/24/2025) \\$241.00 UiPath Inc (PATH.N) E (09/07/2022) \\$11.26 Stock Ratings are subject to change. Please see latest research for each company. \\* Historical",
+        "provenance": {
+          "page": 14
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 2,
+      "tables_count": 0,
+      "numerical_data_count": 222,
+      "passages_count": 100,
+      "entities_count": 20
+    }
+  }
+}

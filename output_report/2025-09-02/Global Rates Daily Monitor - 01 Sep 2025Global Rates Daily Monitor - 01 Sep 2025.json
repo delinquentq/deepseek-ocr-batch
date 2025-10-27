@@ -1,0 +1,3279 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "c092995d13024e7f1b3f48512b14fefc",
+    "title": "3m z-score overview Outright (p2) and BEI (p7)",
+    "source_uri": "25.9月 普通个人版/9.2 普通个人版/Nomura/Global Rates Daily Monitor - 01 Sep 2025Global Rates Daily Monitor - 01 Sep 2025_2025-09-02",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:58:17.600910",
+      "extracted_at": "2025-10-27T00:58:17.600917"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 21,
+        "successful_pages": 21,
+        "date": "2025-09-02",
+        "publication": "25.9月 普通个人版/9.2 普通个人版/Nomura",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.11644107448719554
+        },
+        "input_relative_path": "25.9月 普通个人版/9.2 普通个人版/Nomura"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "f84d17b24d601123",
+      "text": "Global comparisons 2Individual markets 8",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "053b1591c77f79ac",
+      "text": "2yr5yr10yr20yr30yr10yr BEITSYs-1.8-1.9-1.3-0.30.31.1Bunds1.00.61.11.41.6-0.3OATs1.31.62.02.22.2-0.3Gilts0.91.21.81.81.8-JGBs1.71.71.41.11.2-",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1b013504e0743f55",
+      "text": "Foreign bonds with 3m currency hedges vs. JGBs (p4)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d5ae0b34c3fef136",
+      "text": "2yr5yr10yr20yr30yrTSYs vs. JGBs-0.8-1.10.31.21.1Bunds vs. JGBs0.4-0.20.51.41.4OATs vs. JGBs0.60.91.92.72.7Gilts vs. JGBs1.91.82.12.32.3",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0e8d623e572c2568",
+      "text": "JGBs with full currency hedges vs. foreign bonds (p5)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "68b929ad0c54c758",
+      "text": "2yr5yr10yr20yr30yrJGBs vs. JGBs-0.8-0.8-1.9-2.2-1.7JGBs vs. Bunds-1.1-1.0-1.8-2.1-2.0JGBs vs. OATs-2.0-2.3-2.7-2.8-2.5JGBs vs. Gilts-0.5-0.5-1.5-1.9-1.8",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "145bb4e2f2fb0534",
+      "text": "See Appendix A- 1 for analyst certification, important disclosures and the status of non- US analysts.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "de66f025317ea181",
+      "text": "Japan Rates Strategy",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2716a27e113a5ee3",
+      "text": "Bond-swap spreads vs. 3m averages",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0a6954643463bfa2",
+      "text": "Foreign bonds - 3m currency hedges and JGBs",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4e1f429d7adb270a",
+      "text": "10yr foreign bonds - 10yr JGBs",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "6afef47b7a925741",
+      "text": "20yr foreign bonds - 20yr JGBs",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "765b0783db953750",
+      "text": "2yr JGBs - 2yr foreign bonds",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "3a98b83435d729bc",
+      "text": "5yr JGBs - 5yr foreign bonds",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "16bb22f6e3ea080c",
+      "text": "10yr JGBs - 10yr foreign bonds",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "c550c23d9a64631c",
+      "text": "20yr JGBs - 20yr foreign bonds",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "813b7f7286ed17fa",
+      "text": "Implied yield curve volatility",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3e8895989ed5cd13",
+      "text": "Implied volatility vs. 3m averages",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "30a5872a61b4446b",
+      "text": "10yr breakeven inflation",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "ce77d5385f201199",
+      "text": "Breakeven inflation vs. 3m averages",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "b49f512b6310a0b0",
+      "text": "TSY 10yr, 2s10s, and 10s30s",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "cbc227dd8913b4f9",
+      "text": "TSY yield curve and JGBs with full currency hedges",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "2a00f1ecce44bf1f",
+      "text": "JGBs with full currency hedges vs. TSYs",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "9ee05655f4d8545d",
+      "text": "CUSIPYearsCpnMaturityIssue (yr)Amt (bn)PriceYield1d ChgASWVs 3mAvgASWRoll/CarryTSY risk1d Chg5d ChgVs 3m Avg1d Chg5d ChgVs 3m Avg3m Repo3m TSTYSwapASWDV0191282CJV40.44.25031-Jan-26259100-0124.145(1.3)(3.4)(10.2)(6.1)13.1(0.7)(1.2)(0.5)4.280.400.4091282CMH11.44.12531-Jan-27273100-163.756(0.9)(2.7)(16.2)15.825.4(0.1)0.1(0.3)4.28(19.6)(25.1)5.51.351.3791282CNP21.93.87531-Jul-27274100-1323.646(1.7)(4.2)20.628.6(0.8)(0.4)4.28(15.3)(18.9)3.51.821.8391282CNU13.03.62515-Aug-28378100-0363.583(0.9)(5.6)26.234.0(0.3)(0.4)4.28(8.0)(10.2)2.22.772.7891282CMG34.44.25031-Jan-30574102-1073.6700.0(6.4)(21.3)33.741.9(0.3)(0.2)(0.1)4.28(2.6)(5.0)2.43.994.0991282CNN74.93.87531-Jul-30575100-2523.6970.4(6.1)34.242.0(0.3)0.24.18(1.0)(3.9)3.04.424.4791282CMK46.44.37531-Jan-32746102-2533.8780.5(5.6)(19.1)42.650.5(0.5)0.7(0.2)4.280.6(1.8)2.45.545.7291282CNR86.94.00031-Jul-32747100-1423.9250.9(5.2)43.151.4(0.3)0.94.281.0(1.4)2.45.976.0291282CJZ58.54.00015-Feb-341012399-1324.0831.4(4.5)(16.4)47.456.0(0.1)1.1(0.9)4.281.7(0.5)2.27.097.0691282CMM09.54.62515-Feb-3510139103-13+4.1831.7(3.9)(14.1)52.059.00.01.2(0.3)4.282.0(0.1)2.07.627.9091282CNT410.04.25015-Aug-351056100-0574.2272.0(3.0)51.959.90.21.84.282.10.02.08.038.06912810PT911.54.75015-Feb-373017104-0274.2942.5(1.8)(10.3)50.357.00.32.00.44.282.00.41.68.819.19912810PW212.54.37515-Feb-38302399-2474.3982.7(1.3)(9.3)53.361.80.41.90.04.282.10.41.79.509.50912810QA913.53.50015-Feb-39302690-0664.4763.0(0.5)(8.4)51.564.50.52.2(0.4)4.282.20.41.810.429.42912810QE114.54.62515-Feb-403045100-07+4.6023.2(0.2)(6.8)64.572.70.52.40.14.282.30.41.910.4410.49912810SW915.51.87515-Feb-41208968-24+4.7513.70.7(5.8)56.083.80.82.60.14.282.50.42.112.658.71912810TF516.52.37515-Feb-42205872-134.8243.70.9(4.3)61.387.90.72.50.64.282.40.32.012.789.27912810TQ117.53.87515-Feb-43204488-2814.8253.91.1(3.7)69.885.40.82.40.44.282.10.21.912.2010.86912810TZ118.54.50015-Feb-44204395-2774.8413.80.7(3.7)73.984.80.61.7(0.4)4.281.90.21.812.2611.78912810UJ519.54.75015-Feb-45204598-1724.8673.81.1(2.8)76.585.80.51.7(0.3)4.251.80.11.812.5212.36912810UL019.75.00015-May-452046101-224.8653.71.278.285.30.41.84.281.80.11.712.3312.72912810RV221.53.00015-Feb-47303774-0954.9604.02.1(1.6)67.093.00.52.2(0.4)4.281.5(0.0)1.514.5410.82912810SA722.53.00015-Feb-48304573-1354.9794.12.6(1.2)67.594.40.62.4(0.6)4.281.3(0.1)1.414.9210.98912810SF623.53.00015-Feb-49305572-2264.9874.22.8(0.7)67.694.90.62.4(0.6)4.281.1(0.1)1.315.2811.14912810SL324.52.00015-Feb-50306057-2525.0154.53.10.659.397.60.82.50.14.280.9(0.2)1.117.039.86912810SU325.51.87515-Feb-51309055-0325.0184.43.51.757.898.10.72.70.74.280.7(0.2)0.917.659.74912810TD026.52.25015-Feb-52308559-27+5.0034.63.52.060.496.80.72.50.54.280.7(0.3)0.917.3410.40912810TN827.53.62515-Feb-53306680-0424.9574.53.41.371.092.60.62.2(0.6)4.280.7(0.3)1.015.9212.78912810TX628.54.25015-Feb-54307189-1824.9364.43.21.175.991.00.41.8(1.2)4.280.7(0.3)1.015.6514.05912810UG129.54.62515-Feb-55308095-1314.9214.43.21.979.090.20.41.7(0.8)4.280.7(0.4)1.115.6314.95912810UM830.04.75015-Aug-55303397-1264.9174.43.480.290.00.41.84.280.7(0.4)1.115.6715.29",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "66434f46f3d580de",
+      "text": "Bund 10yr, 2s10s, and 10s30s",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "8aabdae7164115f4",
+      "text": "JGBs with full currency hedges vs. Bunds",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "1926695015925039",
+      "text": "CUSIPBundsIssue (yr)Amt (bn)PriceYield1d Chg5d ChgVs 3m AvgOIS ParParOIS MM1d Chg5d ChgVs 3m AvgMod durBV01YearsCpnMaturityZH3751160.33.10012-Dec-25219100.3061.9462.14.35.3(11.0)(10.4)1.23.2(1.0)0.280.28YU56183081.32.00010-Dec-26219100.1021.914(0.2)(0.6)5.1(13.0)(12.8)(0.3)(0.7)0.11.231.25YM16256512.01.90016-Sep-2721099.9291.933(0.2)(1.1)(12.9)(13.1)0.00.61.981.98ZK88544483.12.40019-Oct-28530101.0832.0380.4(1.5)4.0(11.2)(11.3)0.40.71.62.933.02YW31930784.12.50011-Oct-29524101.3552.1510.5(2.1)3.1(8.6)(8.8)0.2(0.1)0.93.773.93YN96157025.12.20010-Oct-3051499.7582.2490.4(2.5)(7.3)(7.3)(0.2)(1.0)4.774.77BT24503156.50.00015-Feb-32103185.9662.3701.0(1.4)3.9(8.0)(5.8)0.2(0.3)1.56.315.42YL52008007.22.50015-Nov-3274100.1612.4741.2(0.7)(0.7)0.36.526.53ZF14515328.52.20015-Feb-34103597.0932.5861.4(0.9)5.51.01.70.5(0.2)2.37.517.38YQ96005829.52.50015-Feb-3510498.6282.6651.2(0.8)6.02.93.30.2(0.5)2.18.188.20YN771234510.02.60015-Aug-35101699.0152.7131.3(0.5)4.95.30.3(0.4)8.628.57BO221256710.70.00015-May-36152774.3732.8061.7(0.5)6.63.210.60.6(0.5)2.010.417.74BV982438412.71.00015-May-38163179.5022.9601.80.510.09.616.70.6(0.2)4.011.499.17EG120904813.84.2504-Jul-393219114.3422.9701.80.19.317.413.50.5(0.8)2.710.5912.18EH469710614.84.7504-Jul-403222120.4093.0221.7(0.0)10.221.515.80.2(1.1)3.010.9613.28ZB205472215.72.60015-May-41171593.9773.0891.70.311.218.120.60.1(0.9)3.412.5011.84EI322934716.83.2504-Jul-423221101.8273.1081.70.612.320.420.4(0.0)(0.8)3.812.8013.10EJ135811218.82.5004-Jul-44323490.6903.1631.81.213.720.023.6(0.1)(0.4)4.014.5113.22EK080950021.02.50015-Aug-46323589.3563.2052.21.515.522.726.80.0(0.4)4.615.7314.08AP115404023.01.25015-Aug-48314068.0453.2462.42.417.619.430.90.00.35.818.6912.73BP474265925.00.00015-Aug-50291344.8553.2652.53.019.713.833.30.00.77.224.1610.84BR246981427.00.00015-Aug-52313541.9603.2752.32.419.214.434.8(0.3)0.06.126.1010.95ZK957473028.01.80015-Aug-53301273.0383.2902.42.518.126.536.6(0.2)0.14.820.3214.86ZF660715329.02.50015-Aug-54312785.1033.3072.42.517.932.538.7(0.3)0.14.419.4916.61YQ063025731.02.90015-Aug-56311491.8603.3232.32.317.537.040.8(0.5)(0.2)3.719.4318.11",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "5196b3908e755a23",
+      "text": "OAT 10yr, 2s10s, and 10s30s",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "4082d7dd1dd04fce",
+      "text": "OAT yield curve and JGBs with full currency hedges",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "7f57b946bcb033dc",
+      "text": "JGBs with full currency hedges vs. OATs",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "bf0c535bed970f80",
+      "text": "CUSIPOATsIssue (yr)Amt (bn)PriceYieldId Chg5d ChgVs 3m AvgOIS ParParOIS MMId Chg5d ChgVs 3m AvgOAT risk Mod durDV01YearsCpnMaturityBH78479740.50.00025-Feb-2663699.0601.979(0.8)4.17.4(7.1)(6.8)(1.4)3.1(0.4)0.470.47ZL00499461.12.50024-Sep-26434100.5052.013(0.5)5.58.5(3.6)(3.4)(0.3)6.02.01.021.04ZF32215522.12.50024-Sep-27444100.7872.1050.30.93.74.04.10.52.6(0.4)1.952.01YR55321343.12.40024-Sep-28433100.2202.3240.60.83.817.017.60.73.01.02.862.93ZB42899124.52.75025-Feb-30657100.4812.6331.03.58.335.235.70.55.26.04.114.19YP48423065.52.70025-Feb-3162899.3902.8201.44.39.745.346.50.85.77.44.965.00BO93953736.20.00025-Nov-31115883.4582.9451.65.211.644.053.50.86.39.36.055.05BX56815607.22.00025-Nov-32105692.7963.1281.96.414.058.964.51.07.411.46.476.11ZH21111158.23.50025-Nov-331050101.4903.2892.47.715.773.173.61.58.512.66.897.18YX46929289.23.00025-Nov-34104496.5923.4362.48.517.577.681.91.58.913.87.727.64YR15612779.73.20025-May-35105097.5273.5032.49.118.082.185.81.49.414.18.148.01JK759630310.71.25025-May-36205779.1723.6282.69.319.274.792.71.69.214.59.627.65BV688282312.71.25025-May-38163474.4313.8252.710.221.579.6103.01.49.515.511.198.36AL997424013.81.75025-Jun-39223677.8743.8442.810.422.280.6101.01.49.515.611.659.11BJ736172514.70.50025-May-40203461.9993.9532.811.123.073.8109.31.410.115.813.498.38EH878672315.74.50025-Apr-413240106.2423.9562.911.323.4110.4107.31.410.215.611.0911.96YS794751016.73.60025-May-42171394.7174.0393.010.623.9106.4113.71.39.315.512.1111.59BY872148617.72.50025-May-43212680.3524.0783.111.124.995.8116.21.29.615.813.4310.88BO606012918.80.50025-Jun-44232453.4454.0983.210.726.172.2117.11.29.016.416.879.03EJ609837419.73.25025-May-45323288.4284.1173.411.125.6105.4118.51.49.315.313.8012.33AN613632822.72.00025-May-48313167.8814.2263.312.228.195.0129.01.010.116.416.5311.31ZF349733523.83.00025-Jun-49251581.5784.2443.111.528.2110.0130.90.79.316.215.7712.96AX284183824.71.50025-May-50313457.9484.2933.211.128.290.5136.00.78.815.818.3710.72ZP736071926.70.75025-May-52323444.0794.3163.211.429.178.3139.00.69.116.221.609.57BQ397777527.70.75025-May-53323342.7404.3413.411.429.478.6141.70.89.016.222.179.52ZM883808828.73.00025-May-54312677.6104.3853.511.629.1119.1146.40.79.115.717.3313.59ZD312968529.73.25025-May-55312480.9254.4143.511.929.5125.3149.60.79.415.917.2914.15YR448187930.73.75025-May-56311788.4654.4453.511.929.8136.6153.00.79.416.016.9915.21EI182316634.74.00025-Apr-60502191.8624.4653.612.330.8143.4156.20.79.516.417.5916.41JK759782240.71.75025-May-66501849.9284.4233.613.028.392.3154.10.410.113.522.7311.46BN616399046.70.50025-May-72511424.5554.2293.612.228.154.7137.10.19.113.532.818.10",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "95066f29894dc407",
+      "text": "Gilt 10yr, 2s10s, and 10s30s",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "3cf9a2e65e23ee4a",
+      "text": "Gilt yield curve and JGBs with full currency hedges",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "76c0702c1d2f8989",
+      "text": "JGBs with full currency hedges vs. Gilts",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "62ffb0990e092d05",
+      "text": "CUSIPGiftsIssue (yr)Amt (bn)PriceYield1d ChgASWSwapRoll/CarryGilt riskYearsCpn5d ChgVs 3m AvgParParOIS1d Chg5d ChgVs 3m AvgSwap1d Chg5d ChgVs 3m Avg3m Gilt3m Swap3m ASWMod durDV01ZN90572500.13.50022-Oct-2533699.9164.088(0.1)(1.4)(7.9)7.311.2(0.0)(1.0)(0.8)3.98(0.1)(0.4)(7.2)4.100.140.14BZ55488551.44.12529-Jan-27433100.2233.9590.6(3.1)5.218.817.30.1(2.7)(0.9)3.790.5(0.4)6.14.101.5(8.6)10.11.351.36ZF12807661.53.7507-Mar-2733799.7283.9370.6(2.7)4.419.116.30.1(2.3)(1.6)3.770.5(0.4)6.14.101.3(8.0)9.31.461.46YT03263552.54.3757-Mar-28347100.9443.9770.7(2.5)6.027.624.30.0(2.1)(0.4)3.730.7(0.4)6.44.10(0.1)(3.6)3.52.372.39ZB67137863.94.12522-Jul-29538100.3454.0270.7(2.1)6.328.225.0(0.5)(1.7)(0.4)3.781.2(0.5)6.74.100.6(0.7)1.33.553.57YS31094954.54.3757-Mar-30540101.1184.1010.7(2.2)6.033.629.9(0.8)(1.8)(1.1)3.801.5(0.5)7.04.101.7(0.3)2.04.074.11ZD21714646.14.00022-Oct-3183398.5404.2720.8(2.4)7.540.136.8(1.2)(1.9)(0.5)3.902.0(0.4)7.94.104.11.12.95.315.31ZN90563287.43.25031-Jan-33103492.4804.4521.9(1.4)10.346.245.4(0.4)(1.2)1.84.002.3(0.2)8.54.105.31.83.56.455.98ZH30588938.44.62531-Jan-341033100.2744.5852.5(0.7)11.654.951.0(0.0)(0.7)2.54.082.5(0.0)9.24.105.42.13.46.886.93YX33397118.94.25031-Jul-34103697.1204.6482.3(0.5)12.356.453.3(0.3)(0.6)2.74.112.60.09.54.105.52.23.37.297.11YR07559389.54.5007-Mar-35104198.3124.7222.1(0.7)12.760.156.4(0.5)(0.8)2.84.162.60.19.94.105.42.33.17.657.52BZ691391812.43.75029-Jan-38153388.3705.0202.51.116.864.566.6(0.4)0.54.94.352.90.611.94.104.52.32.19.578.49BQ372940813.41.12531-Jan-39182562.3045.0212.51.214.844.360.9(0.4)0.52.44.412.90.712.44.103.82.31.411.847.39YV156821614.44.37531-Jan-40153191.9605.1732.00.415.970.870.9(0.9)(0.4)2.94.462.90.812.94.103.92.21.710.359.56ZP446696416.11.25022-Oct-41223557.0305.2232.11.215.646.268.6(0.9)0.31.84.543.01.013.84.103.12.11.113.567.79ZH872839118.14.75022-Oct-43203392.3635.4162.31.618.281.281.2(0.8)0.53.54.603.11.214.74.103.51.91.611.5610.88EK333934919.43.50022-Jan-45313076.7685.4562.31.618.570.182.0(0.8)0.33.34.643.11.315.24.103.21.81.512.9610.00BN566051720.40.87531-Jan-46252444.0025.4582.41.720.044.280.1(0.7)0.34.44.663.21.415.54.102.71.71.017.057.52QZ554181321.91.50022-Jul-47312649.4735.4972.62.020.649.281.4(0.6)0.54.64.683.21.516.04.102.71.61.116.478.18AU379648223.41.75022-Jan-49303150.8725.5132.62.020.949.981.1(0.6)0.34.54.703.21.716.44.102.61.41.216.648.50BJ787656525.10.62522-Oct-50303334.4255.4432.91.723.133.272.6(0.3)(0.1)6.14.723.21.816.94.102.21.30.920.727.18BP130056825.91.25031-Jul-51303041.1325.5682.91.822.545.084.7(0.3)0.05.54.723.21.817.14.102.51.31.218.847.77EI825311026.93.75022-Jul-52412674.7695.5712.41.820.571.084.6(0.8)(0.1)3.34.733.21.817.34.102.81.21.615.0011.28ZM382322028.13.75022-Oct-53312873.9375.6002.71.820.672.787.3(0.6)(0.1)3.04.733.31.917.64.102.71.11.615.0611.34ZF268086528.94.37531-Jul-54313282.5835.5972.61.920.679.386.9(0.6)0.13.04.733.31.917.74.102.71.11.614.9212.38Y0161996530.45.37531-Jan-5631496.7845.5962.51.820.890.587.1(0.8)(0.1)2.94.723.31.917.94.102.71.01.714.5814.18AM064544131.91.75022-Jul-57403143.6275.5322.31.223.445.881.2(1.0)(0.8)5.24.723.32.018.14.101.70.90.819.258.44BJ457937836.10.50022-Oct-61412624.4495.0952.0(1.6)16.615.839.9(1.3)(3.7)(2.1)4.703.32.118.74.10(0.2)0.8(0.9)27.496.77ZK165791338.14.00022-Oct-63401975.3405.5652.51.721.675.288.3(0.8)(0.4)2.54.683.32.119.04.101.60.70.916.4312.61QJ158195939.92.50022-Jul-65502152.0995.4612.31.421.651.879.2(1.0)(0.7)2.44.673.32.019.34.100.80.70.218.839.86EJ712548142.93.50022-Jul-68552167.7595.4522.41.220.364.381.0(1.0)(0.6)0.64.643.32.019.64.101.00.60.417.7412.09AS462336746.11.62522-Oct-71532538.1485.1452.2(0.9)14.430.653.4(1.2)(2.9)(5.6)4.613.42.020.14.100.00.5(0.5)21.958.50BU075688448.11.12522-Oct-73521130.1904.9341.9(0.7)19.019.334.2(1.4)(2.7)(1.3)4.593.42.020.34.10(0.3)(0.8)25.017.65",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "49f30b3187920367",
+      "text": "JGB 10yr, 2s10s, and 10s30s",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "ef841f401948c8b6",
+      "text": "TSYs - 3m currency hedges vs. JGBs",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "57c6b606133041fb",
+      "text": "OATs - 3m currency hedges vs. JGBs",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "1762277d2ce6123b",
+      "text": "JGBsIssueAmt (yr)Issue (trn)PriceYieldASW5dChgVs 3mAvgOISParParOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg5dChgVs 3mAvgOISChg1dAvg<td colspan",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "6a09e86a20fd3769",
+      "text": "This report has been produced by Nomura Securities Co., Ltd. (NSC), Japan.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "70b902fb521fbab0",
+      "text": "See Disclaimers for Nomura Group entity details.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "7c0b4f7a3a728cb0",
+      "text": "For reports with respect to Indian public companies or authored by India-based NFASL research analysts: (i) Investment in securities markets is subject to market risks. Read all the related documents carefully before investing. (ii) Registration granted by SEBI, and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors. (iii) NFASL terms and conditions for availing research services is disclosed on NFASL webpage.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "41316a3fc1851d1d",
+      "text": "(1) Nomura Fiduciary Research & Consulting Co., Ltd. (NFRC) Tokyo, Japan. (m) Nomura Orient International Securities Co., Ltd. (NOI), is a majority owned joint venture amongst Nomura Group, Orient International (Holding) Co., Ltd, and Shanghai Huangpu Investment Holding (Group) Co., Ltd. In accordance with the laws of the People's Republic of China (\"PRC\", excluding Hong Kong, Macau and Taiwan, for the purpose of this document), NOI is licensed in the PRC to provide securities research and investment recommendations and it operates independently from the other members of the Nomura Group; in particular, NOI's interests in PRC securities are not disclosed to, or aggregated with the holdings of, any other Nomura Group entities and the interests in PRC securities of other Nomura Group entities are not disclosed to, or aggregated with the holdings of, NOI. An individual name printed next to NOI on the front page of a research report indicates that individual is employed by NOI to provide research assistance to NIHK under a research partnership agreement. 'NSFSPL' next to an employee's name on the front page of a research report indicates that the individual is employed by Nomura Structured Finance Services Private Limited to provide assistance to certain Nomura entities under inter-company agreements. 'Verdhana' next to an individual's name on the front page of a research report indicates that the individual is employed by PT Verdhana Sekuritas Indonesia (Verdhana') to provide research assistance to NIHK under a research partnership agreement and neither Verdhana nor such individual is licensed outside of Indonesia.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "167fede002c69d94",
+      "text": "THIS MATERIAL IS: (I) FOR YOUR PRIVATE INFORMATION, AND WE ARE NOT SOLICITING ANY ACTION BASED UPON IT; (II) NOT TO BE CONSTRUED AS AN OFFER TO SELL OR A SOLICITATION OF AN OFFER TO BUY ANY SECURITIES IN ANY JURISDICTION WHERE SUCH OFFER OR SOLICITATION WOULD BE ILLEGAL; AND (III) OTHER THAN DISCLOSURES RELATING TO THE NOMURA GROUP, BASED UPON INFORMATION FROM SOURCES THAT WE CONSIDER RELIABLE, BUT HAS NOT BEEN INDEPENDENTLY VERIFIED BY NOMURA GROUP.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "5f5884dc9cd8477e",
+      "text": "Other than disclosures relating to the Nomura Group, the Nomura Group does not warrant, represent or undertake, express or implied, that the document is fair, accurate, complete, correct, reliable or fit for any particular purpose or merchantable, and to the maximum extent permissible by law and/or regulation, does not accept liability (in negligence or otherwise, and in whole or in part) for any act (or decision not to act) resulting from use of this document and related data. To the maximum extent permissible by law and/or regulation, all warranties and other assurances by the Nomura Group are hereby excluded and the Nomura Group shall have no liability (in negligence or otherwise, and in whole or in part) for any loss howsoever arising from the use, misuse, or distribution of this material or the information contained in this material or otherwise arising in connection therewith. Opinions or estimates expressed are current opinions as of the original publication date appearing on this material and the information, including the opinions and estimates contained herein, are subject to change without notice. The Nomura Group, however, expressly disclaims any obligation, and therefore is under no duty, to update or revise this document. Any comments or statements made herein are those of the author(s) and may differ from views held by other parties within Nomura Group. Clients should consider whether any advice or recommendation in this report is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The Nomura Group does not provide tax advice.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "1cebfe7739f6ea5c",
+      "text": "The Nomura Group, and/or its officers, directors, employees and affiliates, may, to the extent permitted by applicable law and/or regulation, deal as principal, agent, or otherwise, or have long or short positions in, or buy or sell, the securities, commodities or instruments, or options or other derivative instruments based thereon, of issuers or securities mentioned herein. The Nomura Group companies may also act as market maker or liquidity provider (within the meaning of applicable regulations in the UK) in the financial instruments of the issuer. Where the activity of market maker is carried out in accordance with the definition given to it by specific laws and regulations of the US or other jurisdictions, this will be separately disclosed within the specific issuer disclosures.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "0b4ae1e0a5361871",
+      "text": "This document may contain information obtained from third parties, including, but not limited to, ratings from credit ratings agencies such as Standard & Poor's. The Nomura Group hereby expressly disclaims all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of the information obtained from third parties contained in this material or otherwise arising in connection therewith, and shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of any of the information obtained from third parties contained in this material or otherwise arising in connection therewith. Reproduction and distribution of third-party content in any form is prohibited except with the prior written permission of the related third-party. Third-party content providers do not, express or implied, guarantee the fairness, accuracy, completeness, correctness, timeliness or availability of any information, including ratings, and in any way responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use or misuse of such content. Third-party content providers give no express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Third-party content providers shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "59c179175e6c6333",
+      "text": "Any MSCI sourced information in this document is the exclusive property of MSCI Inc. (MSCI). Without prior written permission of MSCI, this information and any other MSCI intellectual property may not be duplicated, reproduced, re-disseminated, redistributed or used, in whole or in part, for any purpose whatsoever, including creating any financial products and any indices. This information is provided on an \"as is\" basis. The user assumes the entire risk of any use made of this information. MSCI, its affiliates and any third party involved in, or related to, computing or compiling the information hereby expressly disclaim all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of this material or the information contained in this material or otherwise arising in connection therewith. Without limiting any of the foregoing, in no event shall MSCI, any of its affiliates or any third party involved in, or related to, computing or compiling the information have any liability (in negligence or otherwise, and in whole or in part) for any damages of any kind. MSCI and the MSCI indexes are services marks of MSCI and its affiliates.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "b7da8dd66e27787d",
+      "text": "The intellectual property rights and any other rights, in Russell/Nomura Japan Equity Index belong to Nomura Fiduciary Research & Consulting Co., Ltd. (\"NFRC\") and FTSE Russell (\"Russell\"). NFRC and Russell do not guarantee fairness, accuracy, completeness, correctness, reliability, usefulness, marketability, merchantability or fitness of the Index, and do not account for business activities or services that any index user and/or its affiliates undertakes with the use of the Index.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "9ddb841dc5d78574",
+      "text": "Investors should consider this document as only a single factor in making their investment decision and, as such, the report should not be viewed as identifying or suggesting all risks, direct or indirect, that may be associated with any investment decision. Nomura Group produces a number of different types of research product including, among others, fundamental analysis and quantitative analysis; recommendations contained in one type of research product may differ from recommendations contained in other types of research product, whether as a result of differing time horizons, methodologies or otherwise. The Nomura Group publishes research product in a number of different ways including the posting of product on the Nomura Group portals and/or distribution directly to clients. Different groups of clients may receive different products and services from the research department depending on their individual requirements.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "279bd16243dc5b5d",
+      "text": "Figures presented herein may refer to past performance or simulations based on past performance which are not reliable indicators of future or likely performance. Where the information contains an expectation, projection or indication of future performance and business prospects, such forecasts may not be a reliable indicator of future or likely performance. Moreover, simulations are based on models and simplifying assumptions which may oversimplify and not reflect the future distribution of returns. Any figure, strategy or index created and published for illustrative purposes within this document is not intended for \"use\" as a \"benchmark\" as defined by the",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "8eaffe6f5ec5fa4a",
+      "text": "European Benchmark Regulation.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "10ffc90171f5b2e0",
+      "text": "Certain securities are subject to fluctuations in exchange rates that could have an adverse effect on the value or price of, or income derived from, the investment.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "501871871daedded",
+      "text": "w reviewed at any time as circumstances change. Stop loss levels for trades are also provided; which, if hit, closes the trade recommendation automatically. Prices and yields shown in recommendations are taken at the time of submission for publication and are based on either indicative Bloomberg, LSEG or Nomura prices and yields at that time. The prices and yields shown are not necessarily that which the trade recommendation can be implemented.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "554a817c62dc0475",
+      "text": "The seurit  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "5ceb72e471e5f91f",
+      "text": "Copyright © 2025 Nomura Securities Co., Ltd. All rights reserved.",
+      "page": 20,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "3062e21d617ad05f",
+      "name": "Any MSCI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fbd258dbd6877fcf",
+      "name": "Consulting Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "45c50e9aee04254b",
+      "name": "Daily Monitor",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "eb1a11c62763cbef",
+      "name": "Equity Index",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1143d21b06b41b7b",
+      "name": "European Benchmark",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "42ad161a826fef63",
+      "name": "FTSE Russell",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e3094f2af03bc4df",
+      "name": "Finance Services",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bb58b6aa78baf1e0",
+      "name": "Global Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ba701939e4f4e3bc",
+      "name": "Global Rates",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8b476ff778119b8d",
+      "name": "Hong Kong",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d0e70031df3a71ef",
+      "name": "Id Chg",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1d90972451cd1f6f",
+      "name": "International Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "708b6ebaca0b3351",
+      "name": "Investment Holding",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "78eb90cf82a5b99f",
+      "name": "Japan Rates",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "49f20e566de2f8d5",
+      "name": "MSCI Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9a563f8bba97eff6",
+      "name": "Nomura Fiduciary",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9a503a50b2d66f78",
+      "name": "Nomura Fiduciary Research & Consulting Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "594fddf8b75a7f0a",
+      "name": "Nomura Group",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0396444f0ee97843",
+      "name": "Nomura Japan",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8bb077ba0687a573",
+      "name": "Nomura Orient",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": "10yr yields",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0.0,
+              "max": 6.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "TSYs",
+            "unit": "%",
+            "values": [
+              4.1,
+              4.6,
+              4.2,
+              4.0,
+              4.4,
+              4.2
+            ]
+          },
+          {
+            "name": "Gilts",
+            "unit": "%",
+            "values": [
+              4.2,
+              4.8,
+              4.5,
+              4.6,
+              4.7,
+              4.6
+            ]
+          },
+          {
+            "name": "JGBs",
+            "unit": "%",
+            "values": [
+              1.0,
+              1.2,
+              1.5,
+              1.2,
+              1.5,
+              1.6
+            ]
+          },
+          {
+            "name": "OATs",
+            "unit": "%",
+            "values": [
+              2.9,
+              3.3,
+              3.5,
+              3.1,
+              3.4,
+              3.5
+            ]
+          },
+          {
+            "name": "Bunds",
+            "unit": "%",
+            "values": [
+              2.1,
+              2.6,
+              2.9,
+              2.6,
+              2.7,
+              2.8
+            ]
+          }
+        ],
+        "figure_id": "7a39feef5478111c",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "30yr yields",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0.5,
+              "max": 6.5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "TSYs",
+            "unit": "%",
+            "values": [
+              4.3,
+              4.8,
+              4.6,
+              4.9,
+              4.9,
+              4.9
+            ]
+          },
+          {
+            "name": "Gilts",
+            "unit": "%",
+            "values": [
+              4.7,
+              5.2,
+              5.3,
+              5.4,
+              5.4,
+              5.5
+            ]
+          },
+          {
+            "name": "JGBs",
+            "unit": "%",
+            "values": [
+              2.3,
+              2.4,
+              2.4,
+              2.8,
+              2.8,
+              3.0
+            ]
+          },
+          {
+            "name": "OATs",
+            "unit": "%",
+            "values": [
+              3.4,
+              3.7,
+              4.1,
+              4.0,
+              4.2,
+              4.4
+            ]
+          },
+          {
+            "name": "Bunds",
+            "unit": "%",
+            "values": [
+              2.3,
+              2.6,
+              3.1,
+              2.8,
+              3.0,
+              3.3
+            ]
+          }
+        ],
+        "figure_id": "52d481d8de51c676",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "2s10s spreads",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -0.2,
+              "max": 1.6
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "TSYs",
+            "unit": "%",
+            "values": [
+              0.0,
+              0.3,
+              0.2,
+              0.5,
+              0.4,
+              0.6
+            ]
+          },
+          {
+            "name": "Gilts",
+            "unit": "%",
+            "values": [
+              -0.1,
+              0.1,
+              0.4,
+              0.3,
+              0.2,
+              0.3
+            ]
+          },
+          {
+            "name": "JGBs",
+            "unit": "%",
+            "values": [
+              0.5,
+              0.5,
+              0.7,
+              0.7,
+              0.7,
+              0.8
+            ]
+          },
+          {
+            "name": "OATs",
+            "unit": "%",
+            "values": [
+              0.7,
+              0.9,
+              1.2,
+              1.3,
+              1.3,
+              1.4
+            ]
+          },
+          {
+            "name": "Bunds",
+            "unit": "%",
+            "values": [
+              0.1,
+              0.3,
+              0.7,
+              0.8,
+              0.7,
+              0.7
+            ]
+          }
+        ],
+        "figure_id": "4b3b6468c8ea872a",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": "Spreads",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0.0,
+              "max": 1.8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "TSYs",
+            "unit": "%",
+            "values": [
+              0.18,
+              0.22,
+              0.25,
+              0.45,
+              0.52,
+              0.65
+            ]
+          },
+          {
+            "name": "Gilts",
+            "unit": "%",
+            "values": [
+              0.52,
+              0.53,
+              0.45,
+              0.65,
+              0.75,
+              0.85
+            ]
+          },
+          {
+            "name": "JGBs",
+            "unit": "%",
+            "values": [
+              1.18,
+              1.05,
+              0.9,
+              1.35,
+              1.45,
+              1.48
+            ]
+          },
+          {
+            "name": "OATs",
+            "unit": "%",
+            "values": [
+              0.55,
+              0.58,
+              0.62,
+              0.75,
+              0.78,
+              0.88
+            ]
+          },
+          {
+            "name": "Bunds",
+            "unit": "%",
+            "values": [
+              0.22,
+              0.25,
+              0.3,
+              0.38,
+              0.45,
+              0.55
+            ]
+          }
+        ],
+        "figure_id": "aff5212bb460801f",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": "5yr Foreign bonds - 5yr GGBs",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Bp",
+            "range": {
+              "min": -180,
+              "max": 20
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "TSYs",
+            "unit": "Bp",
+            "values": [
+              -100,
+              -30,
+              -120,
+              -50,
+              -100,
+              -120
+            ]
+          },
+          {
+            "name": "Gilts",
+            "unit": "Bp",
+            "values": [
+              -115,
+              -70,
+              -80,
+              -70,
+              -80,
+              -60
+            ]
+          },
+          {
+            "name": "OATs",
+            "unit": "Bp",
+            "values": [
+              -100,
+              -40,
+              -60,
+              -10,
+              -10,
+              -5
+            ]
+          },
+          {
+            "name": "Bunds",
+            "unit": "Bp",
+            "values": [
+              -160,
+              -100,
+              -80,
+              -40,
+              -60,
+              -40
+            ]
+          }
+        ],
+        "figure_id": "f8a7444b108d77f0",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Bp",
+            "range": {
+              "min": -250,
+              "max": 0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "TSYs",
+            "unit": "Bp",
+            "values": [
+              -180,
+              -100,
+              -170,
+              -120,
+              -150,
+              -150
+            ]
+          },
+          {
+            "name": "Gilts",
+            "unit": "Bp",
+            "values": [
+              -150,
+              -100,
+              -100,
+              -80,
+              -100,
+              -80
+            ]
+          },
+          {
+            "name": "OATs",
+            "unit": "Bp",
+            "values": [
+              -140,
+              -60,
+              -40,
+              -70,
+              -40,
+              -20
+            ]
+          },
+          {
+            "name": "Bunds",
+            "unit": "Bp",
+            "values": [
+              -240,
+              -150,
+              -120,
+              -100,
+              -110,
+              -100
+            ]
+          }
+        ],
+        "figure_id": "82730ee435b38f63",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Bp",
+            "range": {
+              "min": 0,
+              "max": 80
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "TSYs",
+            "unit": "Bp",
+            "values": [
+              20,
+              19,
+              21,
+              25,
+              27,
+              24,
+              20,
+              22,
+              26,
+              24,
+              26,
+              28,
+              25,
+              20,
+              18,
+              20,
+              22,
+              24,
+              22,
+              20,
+              18,
+              16,
+              15,
+              14,
+              13
+            ]
+          },
+          {
+            "name": "Gilts",
+            "unit": "Bp",
+            "values": [
+              18,
+              16,
+              17,
+              20,
+              22,
+              20,
+              16,
+              18,
+              22,
+              20,
+              22,
+              24,
+              20,
+              16,
+              14,
+              16,
+              18,
+              20,
+              18,
+              16,
+              15,
+              14,
+              15,
+              16,
+              17
+            ]
+          },
+          {
+            "name": "OATs",
+            "unit": "Bp",
+            "values": [
+              20,
+              25,
+              32,
+              28,
+              25,
+              28,
+              30,
+              34,
+              32,
+              30,
+              35,
+              40,
+              35,
+              30,
+              32,
+              30,
+              28,
+              32,
+              30,
+              28,
+              26,
+              28,
+              30,
+              28,
+              27
+            ]
+          },
+          {
+            "name": "Bunds",
+            "unit": "Bp",
+            "values": [
+              45,
+              50,
+              48,
+              45,
+              42,
+              48,
+              50,
+              48,
+              45,
+              48,
+              52,
+              75,
+              58,
+              50,
+              48,
+              50,
+              48,
+              52,
+              50,
+              48,
+              45,
+              42,
+              44,
+              42,
+              40
+            ]
+          }
+        ],
+        "figure_id": "6c1ec3a7d6ea065e",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Bp",
+            "range": {
+              "min": -40,
+              "max": 120
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "TSYs",
+            "unit": "Bp",
+            "values": [
+              30,
+              35,
+              32,
+              25,
+              28,
+              38,
+              45,
+              40,
+              28,
+              38,
+              40,
+              35,
+              58,
+              60,
+              50,
+              45,
+              55,
+              60,
+              50,
+              42,
+              38,
+              30,
+              35,
+              30,
+              25,
+              35,
+              30,
+              20,
+              15
+            ]
+          },
+          {
+            "name": "Gilts",
+            "unit": "Bp",
+            "values": [
+              15,
+              10,
+              12,
+              18,
+              20,
+              22,
+              25,
+              28,
+              20,
+              25,
+              28,
+              30,
+              40,
+              50,
+              58,
+              50,
+              45,
+              50,
+              40,
+              35,
+              38,
+              40,
+              35,
+              30,
+              35,
+              38,
+              30,
+              25,
+              20
+            ]
+          },
+          {
+            "name": "OATs",
+            "unit": "Bp",
+            "values": [
+              0,
+              15,
+              10,
+              5,
+              0,
+              -10,
+              -18,
+              -15,
+              -10,
+              -18,
+              -20,
+              -15,
+              -18,
+              -10,
+              0,
+              10,
+              20,
+              30,
+              15,
+              10,
+              18,
+              15,
+              5,
+              0,
+              -5,
+              -10,
+              -15,
+              -20,
+              -25,
+              -30
+            ]
+          },
+          {
+            "name": "Bunds",
+            "unit": "Bp",
+            "values": [
+              65,
+              70,
+              60,
+              65,
+              60,
+              62,
+              68,
+              65,
+              60,
+              55,
+              50,
+              58,
+              65,
+              70,
+              60,
+              55,
+              60,
+              70,
+              110,
+              95,
+              85,
+              90,
+              80,
+              95,
+              85,
+              78,
+              80,
+              75,
+              78,
+              70,
+              75,
+              70,
+              65,
+              70,
+              75,
+              70,
+              65,
+              70,
+              75,
+              70,
+              65,
+              60,
+              55
+            ]
+          }
+        ],
+        "figure_id": "aaa02f15ee930572",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": "1y20y implied vol.",
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Apr-24",
+              "Jun-24",
+              "Aug-24",
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Feb-25",
+              "Apr-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "Bp/y",
+            "range": {
+              "min": 20,
+              "max": 220
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "USD",
+            "unit": "Bp/y",
+            "values": [
+              98,
+              92,
+              95,
+              93,
+              96,
+              90,
+              89,
+              100,
+              95,
+              88
+            ]
+          },
+          {
+            "name": "GBP",
+            "unit": "Bp/y",
+            "values": [
+              100,
+              95,
+              98,
+              96,
+              99,
+              92,
+              91,
+              102,
+              97,
+              90
+            ]
+          },
+          {
+            "name": "JPY",
+            "unit": "Bp/y",
+            "values": [
+              50,
+              52,
+              48,
+              42,
+              40,
+              38,
+              40,
+              55,
+              60,
+              58
+            ]
+          },
+          {
+            "name": "EUR",
+            "unit": "Bp/y",
+            "values": [
+              85,
+              78,
+              75,
+              70,
+              72,
+              68,
+              70,
+              80,
+              75,
+              70
+            ]
+          }
+        ],
+        "figure_id": "1e70ba84bbf42660",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": "Implied yield curve volatility",
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "Swap maturity"
+          },
+          "y": {
+            "unit": "bp",
+            "range": {
+              "min": 20,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "USD",
+            "unit": "bp",
+            "values": [
+              {
+                "x": 1,
+                "y": 90.5
+              },
+              {
+                "x": 2.5,
+                "y": 88
+              },
+              {
+                "x": 5,
+                "y": 85
+              },
+              {
+                "x": 7.5,
+                "y": 83.5
+              },
+              {
+                "x": 10,
+                "y": 82.5
+              },
+              {
+                "x": 12.5,
+                "y": 82
+              },
+              {
+                "x": 15,
+                "y": 82
+              },
+              {
+                "x": 17.5,
+                "y": 82
+              },
+              {
+                "x": 20,
+                "y": 82
+              },
+              {
+                "x": 22.5,
+                "y": 82
+              },
+              {
+                "x": 25,
+                "y": 82
+              },
+              {
+                "x": 27.5,
+                "y": 82
+              },
+              {
+                "x": 30,
+                "y": 82
+              }
+            ]
+          },
+          {
+            "name": "GBP",
+            "unit": "bp",
+            "values": [
+              {
+                "x": 1,
+                "y": 67
+              },
+              {
+                "x": 2.5,
+                "y": 70
+              },
+              {
+                "x": 5,
+                "y": 75
+              },
+              {
+                "x": 7.5,
+                "y": 79
+              },
+              {
+                "x": 10,
+                "y": 82
+              },
+              {
+                "x": 12.5,
+                "y": 83.5
+              },
+              {
+                "x": 15,
+                "y": 84.5
+              },
+              {
+                "x": 17.5,
+                "y": 85.5
+              },
+              {
+                "x": 20,
+                "y": 86
+              },
+              {
+                "x": 22.5,
+                "y": 86.5
+              },
+              {
+                "x": 25,
+                "y": 87
+              },
+              {
+                "x": 27.5,
+                "y": 87.5
+              },
+              {
+                "x": 30,
+                "y": 88
+              }
+            ]
+          },
+          {
+            "name": "JPY",
+            "unit": "bp",
+            "values": [
+              {
+                "x": 1,
+                "y": 41
+              },
+              {
+                "x": 2.5,
+                "y": 44
+              },
+              {
+                "x": 5,
+                "y": 48
+              },
+              {
+                "x": 7.5,
+                "y": 51
+              },
+              {
+                "x": 10,
+                "y": 54
+              },
+              {
+                "x": 12.5,
+                "y": 56
+              },
+              {
+                "x": 15,
+                "y": 58
+              },
+              {
+                "x": 17.5,
+                "y": 59
+              },
+              {
+                "x": 20,
+                "y": 60
+              },
+              {
+                "x": 22.5,
+                "y": 61
+              },
+              {
+                "x": 25,
+                "y": 62
+              },
+              {
+                "x": 27.5,
+                "y": 62.5
+              },
+              {
+                "x": 30,
+                "y": 63
+              }
+            ]
+          },
+          {
+            "name": "EUR",
+            "unit": "bp",
+            "values": [
+              {
+                "x": 1,
+                "y": 51
+              },
+              {
+                "x": 2.5,
+                "y": 55
+              },
+              {
+                "x": 5,
+                "y": 60
+              },
+              {
+                "x": 7.5,
+                "y": 64
+              },
+              {
+                "x": 10,
+                "y": 67
+              },
+              {
+                "x": 12.5,
+                "y": 68.5
+              },
+              {
+                "x": 15,
+                "y": 69.5
+              },
+              {
+                "x": 17.5,
+                "y": 70.5
+              },
+              {
+                "x": 20,
+                "y": 71
+              },
+              {
+                "x": 22.5,
+                "y": 72
+              },
+              {
+                "x": 25,
+                "y": 72.5
+              },
+              {
+                "x": 27.5,
+                "y": 73
+              },
+              {
+                "x": 30,
+                "y": 73.5
+              }
+            ]
+          }
+        ],
+        "figure_id": "a1535dc44d4ed3b5",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": "10y10y implied vol.",
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Apr-24",
+              "Jun-24",
+              "Aug-24",
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Feb-25",
+              "Apr-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "Bp/y",
+            "range": {
+              "min": 20,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "USD",
+            "unit": "Bp/y",
+            "values": [
+              84,
+              82,
+              82,
+              80,
+              82,
+              86,
+              83,
+              88,
+              89,
+              86
+            ]
+          },
+          {
+            "name": "GBP",
+            "unit": "Bp/y",
+            "values": [
+              82,
+              82,
+              83,
+              82,
+              84,
+              87,
+              89,
+              90,
+              89,
+              89
+            ]
+          },
+          {
+            "name": "JPY",
+            "unit": "Bp/y",
+            "values": [
+              43,
+              47,
+              42,
+              43,
+              45,
+              47,
+              44,
+              48,
+              52,
+              55
+            ]
+          },
+          {
+            "name": "EUR",
+            "unit": "Bp/y",
+            "values": [
+              74,
+              75,
+              73,
+              71,
+              69,
+              70,
+              71,
+              70,
+              72,
+              70
+            ]
+          }
+        ],
+        "figure_id": "0882eb27bf265100",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": "Implied volatility vs. 3m averages",
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "linear",
+            "labels": "Swap maturity"
+          },
+          "y": {
+            "unit": "bp",
+            "range": {
+              "min": -16,
+              "max": 2
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "USD",
+            "unit": "bp",
+            "values": [
+              {
+                "x": 1,
+                "y": -8.1
+              },
+              {
+                "x": 2,
+                "y": -9.3
+              },
+              {
+                "x": 3,
+                "y": -9.9
+              },
+              {
+                "x": 4,
+                "y": -10.1
+              },
+              {
+                "x": 5,
+                "y": -10.2
+              },
+              {
+                "x": 6,
+                "y": -10.1
+              },
+              {
+                "x": 7,
+                "y": -9.9
+              },
+              {
+                "x": 8,
+                "y": -9.7
+              },
+              {
+                "x": 9,
+                "y": -9.5
+              },
+              {
+                "x": 10,
+                "y": -8.5
+              },
+              {
+                "x": 15,
+                "y": -7.3
+              },
+              {
+                "x": 20,
+                "y": -6.1
+              },
+              {
+                "x": 30,
+                "y": -5.5
+              }
+            ]
+          },
+          {
+            "name": "GBP",
+            "unit": "bp",
+            "values": [
+              {
+                "x": 1,
+                "y": -14.5
+              },
+              {
+                "x": 2,
+                "y": -13.5
+              },
+              {
+                "x": 3,
+                "y": -12.5
+              },
+              {
+                "x": 4,
+                "y": -11.5
+              },
+              {
+                "x": 5,
+                "y": -10.5
+              },
+              {
+                "x": 6,
+                "y": -9.5
+              },
+              {
+                "x": 7,
+                "y": -8.5
+              },
+              {
+                "x": 8,
+                "y": -7.5
+              },
+              {
+                "x": 9,
+                "y": -6.5
+              },
+              {
+                "x": 10,
+                "y": -5.5
+              },
+              {
+                "x": 15,
+                "y": -4.5
+              },
+              {
+                "x": 20,
+                "y": -3.5
+              },
+              {
+                "x": 30,
+                "y": -2.5
+              }
+            ]
+          },
+          {
+            "name": "JPY",
+            "unit": "bp",
+            "values": [
+              {
+                "x": 1,
+                "y": 1.0
+              },
+              {
+                "x": 2,
+                "y": 0.9
+              },
+              {
+                "x": 3,
+                "y": 0.8
+              },
+              {
+                "x": 4,
+                "y": 0.7
+              },
+              {
+                "x": 5,
+                "y": 0.6
+              },
+              {
+                "x": 6,
+                "y": 0.5
+              },
+              {
+                "x": 7,
+                "y": 0.4
+              },
+              {
+                "x": 8,
+                "y": 0.3
+              },
+              {
+                "x": 9,
+                "y": 0.2
+              },
+              {
+                "x": 10,
+                "y": 0.1
+              },
+              {
+                "x": 15,
+                "y": 0.0
+              },
+              {
+                "x": 20,
+                "y": 0.0
+              },
+              {
+                "x": 30,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "name": "EUR",
+            "unit": "bp",
+            "values": [
+              {
+                "x": 1,
+                "y": -7.5
+              },
+              {
+                "x": 2,
+                "y": -7.0
+              },
+              {
+                "x": 3,
+                "y": -6.0
+              },
+              {
+                "x": 4,
+                "y": -5.0
+              },
+              {
+                "x": 5,
+                "y": -4.0
+              },
+              {
+                "x": 6,
+                "y": -3.5
+              },
+              {
+                "x": 7,
+                "y": -3.0
+              },
+              {
+                "x": 8,
+                "y": -2.5
+              },
+              {
+                "x": 9,
+                "y": -2.0
+              },
+              {
+                "x": 10,
+                "y": -1.5
+              },
+              {
+                "x": 15,
+                "y": -0.5
+              },
+              {
+                "x": 20,
+                "y": 0.0
+              },
+              {
+                "x": 30,
+                "y": 1.0
+              }
+            ]
+          }
+        ],
+        "figure_id": "be36d515dc0c9c01",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": "10yr breakeven inflation",
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Bp",
+            "range": {
+              "min": 0,
+              "max": 400
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "TSYs",
+            "unit": "Bp",
+            "values": [
+              228,
+              240,
+              240,
+              220,
+              230,
+              240
+            ]
+          },
+          {
+            "name": "OATs",
+            "unit": "Bp",
+            "values": [
+              195,
+              210,
+              220,
+              200,
+              205,
+              200
+            ]
+          },
+          {
+            "name": "JGBs",
+            "unit": "Bp",
+            "values": [
+              140,
+              150,
+              160,
+              110,
+              150,
+              160
+            ]
+          },
+          {
+            "name": "Gilts",
+            "unit": "Bp",
+            "values": [
+              345,
+              355,
+              350,
+              325,
+              315,
+              305
+            ]
+          },
+          {
+            "name": "Bunds",
+            "unit": "Bp",
+            "values": [
+              175,
+              190,
+              200,
+              180,
+              185,
+              180
+            ]
+          }
+        ],
+        "figure_id": "5c391ab51ea3f67f",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": "10yr real yields",
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -1.0,
+              "max": 2.5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "TSYs",
+            "unit": "%",
+            "values": [
+              1.9,
+              2.2,
+              1.9,
+              2.3,
+              2.1,
+              1.9
+            ]
+          },
+          {
+            "name": "OATs",
+            "unit": "%",
+            "values": [
+              0.9,
+              1.2,
+              1.4,
+              1.2,
+              1.3,
+              1.5
+            ]
+          },
+          {
+            "name": "JGBs",
+            "unit": "%",
+            "values": [
+              -0.4,
+              -0.3,
+              0.0,
+              0.1,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Gilts",
+            "unit": "%",
+            "values": [
+              0.8,
+              1.2,
+              1.3,
+              1.5,
+              1.4,
+              1.7
+            ]
+          },
+          {
+            "name": "Bunds",
+            "unit": "%",
+            "values": [
+              0.2,
+              0.5,
+              0.8,
+              0.6,
+              0.7,
+              0.9
+            ]
+          }
+        ],
+        "figure_id": "b29fe263764c8860",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": "TGT 10yr, 2s10s, and 10s30s",
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -1.0,
+              "max": 6.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "10yr",
+            "unit": "%",
+            "values": [
+              4.1,
+              4.6,
+              4.2,
+              4.4,
+              4.4,
+              4.2
+            ]
+          },
+          {
+            "name": "2s10s",
+            "unit": "%",
+            "values": [
+              0.2,
+              0.2,
+              0.3,
+              0.5,
+              0.5,
+              0.6
+            ]
+          },
+          {
+            "name": "10s30s",
+            "unit": "%",
+            "values": [
+              0.1,
+              0.2,
+              0.3,
+              0.5,
+              0.5,
+              0.6
+            ]
+          }
+        ],
+        "figure_id": "3c2956dfa7ed7b7c",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Bp",
+            "range": {
+              "min": 0,
+              "max": 120
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2yr",
+            "unit": "Bp",
+            "values": [
+              20,
+              18,
+              20,
+              25,
+              20,
+              15
+            ]
+          },
+          {
+            "name": "5yr",
+            "unit": "Bp",
+            "values": [
+              25,
+              20,
+              25,
+              30,
+              25,
+              20
+            ]
+          },
+          {
+            "name": "10yr",
+            "unit": "Bp",
+            "values": [
+              30,
+              25,
+              30,
+              40,
+              30,
+              25
+            ]
+          },
+          {
+            "name": "20yr",
+            "unit": "Bp",
+            "values": [
+              35,
+              30,
+              35,
+              60,
+              40,
+              30
+            ]
+          },
+          {
+            "name": "30yr",
+            "unit": "Bp",
+            "values": [
+              40,
+              35,
+              50,
+              70,
+              50,
+              35
+            ]
+          }
+        ],
+        "figure_id": "4c8b53786d5da276",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "line",
+        "title": "Bund 10yr, 2s10s, and 10s30s",
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0.0,
+              "max": 3.5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "10yr",
+            "unit": "%",
+            "values": [
+              2.05,
+              2.3,
+              2.85,
+              2.45,
+              2.55,
+              2.7
+            ]
+          },
+          {
+            "name": "2s10s",
+            "unit": "%",
+            "values": [
+              0.2,
+              0.25,
+              0.65,
+              0.75,
+              0.7,
+              0.75
+            ]
+          },
+          {
+            "name": "10s30s",
+            "unit": "%",
+            "values": [
+              0.15,
+              0.2,
+              0.25,
+              0.4,
+              0.45,
+              0.6
+            ]
+          }
+        ],
+        "figure_id": "9958b46c8e11f4d4",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Bp",
+            "range": {
+              "min": 20,
+              "max": 140
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2yr",
+            "unit": "Bp",
+            "values": [
+              47,
+              50,
+              44,
+              46,
+              48,
+              50,
+              68,
+              55,
+              50,
+              52,
+              50,
+              50,
+              48,
+              45,
+              43,
+              43,
+              42,
+              43
+            ]
+          },
+          {
+            "name": "5yr",
+            "unit": "Bp",
+            "values": [
+              58,
+              60,
+              55,
+              58,
+              60,
+              62,
+              80,
+              65,
+              60,
+              62,
+              60,
+              60,
+              58,
+              55,
+              53,
+              53,
+              52,
+              53
+            ]
+          },
+          {
+            "name": "10yr",
+            "unit": "Bp",
+            "values": [
+              65,
+              68,
+              60,
+              62,
+              65,
+              68,
+              85,
+              70,
+              65,
+              68,
+              65,
+              65,
+              62,
+              60,
+              58,
+              58,
+              57,
+              58
+            ]
+          },
+          {
+            "name": "20yr",
+            "unit": "Bp",
+            "values": [
+              70,
+              72,
+              65,
+              68,
+              70,
+              72,
+              90,
+              75,
+              70,
+              72,
+              70,
+              70,
+              68,
+              65,
+              63,
+              63,
+              62,
+              63
+            ]
+          },
+          {
+            "name": "30yr",
+            "unit": "Bp",
+            "values": [
+              68,
+              70,
+              63,
+              65,
+              68,
+              70,
+              88,
+              73,
+              68,
+              70,
+              68,
+              68,
+              65,
+              63,
+              61,
+              61,
+              60,
+              61
+            ]
+          }
+        ],
+        "figure_id": "ac0f57d7badf401e",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "line",
+        "title": "OAT 10yr, 2s10s, and 10s30s",
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0.0,
+              "max": 4.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "10yr",
+            "unit": "%",
+            "values": [
+              2.9,
+              3.2,
+              3.5,
+              3.2,
+              3.2,
+              3.5
+            ]
+          },
+          {
+            "name": "2s10s",
+            "unit": "%",
+            "values": [
+              0.7,
+              0.9,
+              1.2,
+              1.3,
+              1.2,
+              1.4
+            ]
+          },
+          {
+            "name": "10s30s",
+            "unit": "%",
+            "values": [
+              0.5,
+              0.5,
+              0.6,
+              0.7,
+              0.7,
+              0.9
+            ]
+          }
+        ],
+        "figure_id": "53c5a390f84737b3",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "line",
+        "title": "Gilt 10yr, 2s10s, and 10s30s",
+        "page": 14,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -1.0,
+              "max": 6.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "10yr",
+            "unit": "%",
+            "values": [
+              4.2,
+              4.8,
+              4.6,
+              4.8,
+              4.6,
+              4.8
+            ]
+          },
+          {
+            "name": "2s10s",
+            "unit": "%",
+            "values": [
+              0.0,
+              0.2,
+              0.4,
+              0.6,
+              0.6,
+              0.8
+            ]
+          },
+          {
+            "name": "10s30s",
+            "unit": "%",
+            "values": [
+              0.6,
+              0.6,
+              0.5,
+              0.8,
+              0.7,
+              0.8
+            ]
+          }
+        ],
+        "figure_id": "9e46ff8e66628ee9",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "line",
+        "title": "JGB 10yr, 2s10s, and 10s30s",
+        "page": 16,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0.0,
+              "max": 1.8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "10yr",
+            "unit": "%",
+            "values": [
+              1.08,
+              1.1,
+              1.2,
+              1.3,
+              1.4,
+              1.5,
+              1.58,
+              1.5,
+              1.3,
+              1.35,
+              1.4,
+              1.45,
+              1.5,
+              1.4,
+              1.45,
+              1.5,
+              1.55,
+              1.6,
+              1.65
+            ]
+          },
+          {
+            "name": "2s10s",
+            "unit": "%",
+            "values": [
+              0.45,
+              0.48,
+              0.5,
+              0.52,
+              0.55,
+              0.53,
+              0.55,
+              0.58,
+              0.6,
+              0.65,
+              0.7,
+              0.6,
+              0.65,
+              0.7,
+              0.75,
+              0.8,
+              0.75,
+              0.73,
+              0.75,
+              0.76,
+              0.75,
+              0.76,
+              0.77
+            ]
+          },
+          {
+            "name": "10s30s",
+            "unit": "%",
+            "values": [
+              1.15,
+              1.18,
+              1.1,
+              1.05,
+              1.0,
+              0.95,
+              0.9,
+              0.95,
+              1.0,
+              0.98,
+              1.0,
+              1.35,
+              1.4,
+              1.3,
+              1.35,
+              1.4,
+              1.45,
+              1.5,
+              1.48,
+              1.5,
+              1.55,
+              1.48,
+              1.5
+            ]
+          }
+        ],
+        "figure_id": "b6ef89a5cbcb1755",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "type": "line",
+        "title": "TSYs - 3m currency hedges vs. JGBs",
+        "page": 16,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Bp",
+            "range": {
+              "min": -250,
+              "max": 0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2yr",
+            "unit": "Bp",
+            "values": [
+              -75,
+              -45,
+              -90,
+              -70,
+              -90,
+              -100
+            ]
+          },
+          {
+            "name": "5yr",
+            "unit": "Bp",
+            "values": [
+              -100,
+              -50,
+              -120,
+              -90,
+              -120,
+              -120
+            ]
+          },
+          {
+            "name": "10yr",
+            "unit": "Bp",
+            "values": [
+              -120,
+              -60,
+              -140,
+              -100,
+              -130,
+              -130
+            ]
+          },
+          {
+            "name": "20yr",
+            "unit": "Bp",
+            "values": [
+              -170,
+              -90,
+              -160,
+              -150,
+              -160,
+              -150
+            ]
+          },
+          {
+            "name": "30yr",
+            "unit": "Bp",
+            "values": [
+              -220,
+              -140,
+              -200,
+              -200,
+              -210,
+              -200
+            ]
+          }
+        ],
+        "figure_id": "4abfc7741111cd08",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 16,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Bp",
+            "range": {
+              "min": -200,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2yr",
+            "unit": "Bp",
+            "values": [
+              -120,
+              -105,
+              -70,
+              -60,
+              -60,
+              -50,
+              -55,
+              -45,
+              -40,
+              -35,
+              -30,
+              -30,
+              -35,
+              -40,
+              -45,
+              -50,
+              -55,
+              -60,
+              -65,
+              -70,
+              -75,
+              -80,
+              -85,
+              -90,
+              -95,
+              -100,
+              -105,
+              -110,
+              -115,
+              -120,
+              -125,
+              -130,
+              -135,
+              -140,
+              -145,
+              -150,
+              -155,
+              -160,
+              -165,
+              -170,
+              -175,
+              -180,
+              -185,
+              -190,
+              -195,
+              -200
+            ]
+          },
+          {
+            "name": "5yr",
+            "unit": "Bp",
+            "values": [
+              -100,
+              -85,
+              -50,
+              -40,
+              -40,
+              -30,
+              -35,
+              -25,
+              -20,
+              -15,
+              -10,
+              -10,
+              -15,
+              -20,
+              -25,
+              -30,
+              -35,
+              -40,
+              -45,
+              -50,
+              -55,
+              -60,
+              -65,
+              -70,
+              -75,
+              -80,
+              -85,
+              -90,
+              -95,
+              -100,
+              -105,
+              -110,
+              -115,
+              -120,
+              -125,
+              -130,
+              -135,
+              -140,
+              -145,
+              -150,
+              -155,
+              -160,
+              -165,
+              -170,
+              -175,
+              -180
+            ]
+          },
+          {
+            "name": "10yr",
+            "unit": "Bp",
+            "values": [
+              -90,
+              -75,
+              -40,
+              -30,
+              -30,
+              -20,
+              -25,
+              -15,
+              -10,
+              -5,
+              0,
+              0,
+              -5,
+              -10,
+              -15,
+              -20,
+              -25,
+              -30,
+              -35,
+              -40,
+              -45,
+              -50,
+              -55,
+              -60,
+              -65,
+              -70,
+              -75,
+              -80,
+              -85,
+              -90,
+              -95,
+              -100,
+              -105,
+              -110,
+              -115,
+              -120,
+              -125,
+              -130,
+              -135,
+              -140,
+              -145,
+              -150,
+              -155,
+              -160,
+              -165,
+              -170
+            ]
+          },
+          {
+            "name": "20yr",
+            "unit": "Bp",
+            "values": [
+              -150,
+              -135,
+              -100,
+              -90,
+              -90,
+              -80,
+              -85,
+              -75,
+              -70,
+              -65,
+              -60,
+              -60,
+              -65,
+              -70,
+              -75,
+              -80,
+              -85,
+              -90,
+              -95,
+              -100,
+              -105,
+              -110,
+              -115,
+              -120,
+              -125,
+              -130,
+              -135,
+              -140,
+              -145,
+              -150,
+              -155,
+              -160,
+              -165,
+              -170,
+              -175,
+              -180,
+              -185,
+              -190,
+              -195,
+              -200,
+              -205,
+              -210,
+              -215,
+              -220,
+              -225,
+              -230
+            ]
+          },
+          {
+            "name": "30yr",
+            "unit": "Bp",
+            "values": [
+              -170,
+              -155,
+              -120,
+              -110,
+              -110,
+              -100,
+              -105,
+              -95,
+              -90,
+              -85,
+              -80,
+              -80,
+              -85,
+              -90,
+              -95,
+              -100,
+              -105,
+              -110,
+              -115,
+              -120,
+              -125,
+              -130,
+              -135,
+              -140,
+              -145,
+              -150,
+              -155,
+              -160,
+              -165,
+              -170,
+              -175,
+              -180,
+              -185,
+              -190,
+              -195,
+              -200,
+              -205,
+              -210,
+              -215,
+              -220,
+              -225,
+              -230,
+              -235,
+              -240,
+              -245,
+              -250
+            ]
+          }
+        ],
+        "figure_id": "5f0fa2266bf75af9",
+        "provenance": {
+          "page": 16
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 23,
+      "tables_count": 0,
+      "numerical_data_count": 0,
+      "passages_count": 56,
+      "entities_count": 20
+    }
+  }
+}

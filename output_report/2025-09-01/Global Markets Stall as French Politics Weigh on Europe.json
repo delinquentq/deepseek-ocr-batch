@@ -1,0 +1,4481 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "74f65910149807210dee19c193c48051",
+    "title": "The week at a glance - Global markets and indices",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/GS/Global Markets Stall as French Politics Weigh on Europe_2025-09-01",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:54:00.849050",
+      "extracted_at": "2025-10-26T11:54:00.849076"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 20,
+        "successful_pages": 20,
+        "date": "2025-09-01",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/GS",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 0,
+          "removed_paragraphs": 6,
+          "reduction_ratio": 0.011155958684298084
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/GS"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "d2234df93ae7617c",
+      "text": "Global equities were flat last week. Europe fell by \\(2\\%\\) (Exhibit 1) on political uncertainty in France. The CAC dropped \\(3.3\\%\\) (Exhibit 13), reflecting concerns of a potential French government collapse in the September 8 confidence vote.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "edeb7f19275838d6",
+      "text": "US: The ISM manufacturing index on Tuesday, the JOLTS job openings report on Wednesday, and the employment report on Friday. There are several speaking engagements by Fed officials this week, including an event with New York Fed President Williams on Thursday.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1c4068d7ac261524",
+      "text": "Europe: August flash inflation prints for the Euro Area and Sweden, final PMI data for August across Europe, and July UK retail sales. The key policy events are speeches by BoE and Riksbank officials.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "163e611a87198b1a",
+      "text": "Japan: The Q2 MOF Corporate Statistics, the July nominal cash wage growth, the Liberal Democratic Party (LDP) joint plenary meeting.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "db261b61721734b5",
+      "text": "AEJ: August PMIs and CPIs across the region, trade data in Korea, and central bank meeting in Malaysia.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "288e00c2ee104cb2",
+      "text": "Pricing is as of the close of Friday, August 29.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e495370908041263",
+      "text": "European equities had a strong start but have been flat since March, hit by weak earnings and tariff concerns. Consensus EPS growth for 2025 is now \\(- 1\\%\\) (from \\(+8\\%\\) in January), though our domestic basket (GSTDO) remained resilient. We forecast \\(4\\%\\) EPS growth next year, limited weaker USD and lower Brent.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e5dbe29257d40789",
+      "text": "European valuations are elevated (70th percentile), but still attractive vs. credit and US equities. Flows are picking up, though 1%1%1%1%1%1%1%1%1%1%1%. Over the next 12m, we expect a \\(5\\%\\) price return, \\(8\\%\\) total return, and double- digit returns in USD terms — supporting our case for diversification.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e63f3adb4e87da1d",
+      "text": "Seasonality is unfavourable but medium term we remain positive on Financials and Fiscal exposed companies (GSSTFISC). Small caps also look compelling amid rising M&A and EUR support.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "cc64bab2f23334fa",
+      "text": "See more: Strategy Matters: Investing in Europe's moment",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "608fe17dfa8bfdaf",
+      "text": "Investors should consider this report as only a single factor in making their investment decision. For Reg AC certification and other important disclosures, see the Disclosure Appendix, or go to www.gs.com/research/hedge.html.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "be7860f48d705c0b",
+      "text": "Exhibit 1: Global market performance",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "69b220c4af353265",
+      "text": "MSCI IndicesPrice Return (USD,%)1-Week1-MonthYTD1-YearUSA-0.11.410.0APXJ-0.30.416.3The World-0.41.812.7AC World-0.41.713.1EM-0.60.516.9Japan-0.96.816.5Europe-2.01.722.3",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d39497f515cefd89",
+      "text": "Source: Datastream, Goldman Sachs Global Investment Research",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "2611081ea9fd5f76",
+      "text": "Exhibit 3: MSCI AC World sector performance",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "6098951ac1a2de67",
+      "text": "GICS SectorsPrice Return (USD,%)1-WeekYTDEnergy1.4Communication0.421.1Materials0.317.1Technology0.213.5Real Estate4.1AC World-0.413.1Financials-0.619.3Health Care-0.92.3Cons. Disc-0.94.9Industrials-0.919.2Cons. Staples-1.57.8Utilities-2.114.5",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "06303f34ceb1ee0f",
+      "text": "Source: Datastream, Goldman Sachs Global Investment Research",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "20e52bb5c7714244",
+      "text": "Exhibit 2: World equity indices USD, indexed price performance",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "984fbff130a80743",
+      "text": "Source: Datastream, STOXX, Goldman Sachs Global Investment Research",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "dead97786a4b7a12",
+      "text": "Exhibit 4: Cross-asset performance",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b4214a9aed0ecca0",
+      "text": "MSCI IndicesPrice Return (USD,%)1-WeekYTDGold1.9Copper1.1Brent0.6US 10y0.3USD/EUR0.1USD/JPY0.1Germany 10y0.0AC World-0.4EM-0.6",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4918ea0b329abf2f",
+      "text": "Source: Datastream, Goldman Sachs Global Investment Research",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "28bbc9bdc5a07297",
+      "text": "Exhibit 5:GDP growth, \\(\\%\\) yoy:GS vs.consensus",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3b9465279d8a3d24",
+      "text": "Percent Change yoyReal GDP Growth20242025GSGSCons*GSUSA2.81.71.61.6Japan0.11.21.00.7Euro area0.91.21.11.2Germany-0.50.30.31.4France1.10.60.60.9Italy0.50.50.50.8Spain3.22.52.52.0UK1.11.41.21.2China5.04.74.73.9Developed Markets1.81.51.41.4Emerging Markets4.14.03.93.6World2.82.52.42.4",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "80b5248043bc3b68",
+      "text": "\\\\*Bloomberg country and GS aggregate consensus",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "161528a3334c04d6",
+      "text": "Exhibit 6:Goldman Sachs Macro 3,-6-and 12-month forecasts",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6dc68bc7fdfc5b28",
+      "text": "EquitiesCurrentForecastUp/Downside to 12m TP (%)3m6m12mS&amp;amp;P 50064606400660069006.8STOXX Europe 6005505605705805.4MSCI Asia-Pacific Ex-Japan6636606807107.1Topix30753050310032004.110Y Rate (%)US4.94.24.24.2-72 bpEuro Area (Germany)2.72.93.03.141 bpJapan2.61.61.71.8-77 bpCurrencies€/S1.171.171.201.256.9£/S1.351.351.361.392.8$/¥147142138135-8.1CommoditiesBrent Crude Oil ($/bbl)68.1656255-19.3NYMEX Nat. Gas ($/mmBtu)2.94.004.504.5052.9Gold ($/troy oz)344136103790412019.7LME Copper ($/mt)982296509720100252.1",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "a429d19493ab63d2",
+      "text": "Source: Bloomberg, Datastream, STOXX, Goldman Sachs Global Investment Research",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f548d383a566e8d2",
+      "text": "Exhibit 7:GS top-down vs.consensus bottom-up estimates of 2025 EPS growth",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6f29cbcfa4336433",
+      "text": "Source: I/B/E/S, Toyo Keizai, STOXX, MSCI, Goldman Sachs Global Investment Research",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "65e6a8003f108bbf",
+      "text": "Exhibit 8:GS top-down v consensus bottom-up estimates of 2026 EPS growth",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8d24685a7d1b3f34",
+      "text": "Source: I/B/E/S, Toyo Keizai, STOXX, MSCI, Goldman Sachs Global Investment Research",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "fd60b929ed8b034d",
+      "text": "Exhibit 9: GS Bull/Bear Market Indicator (GSBLBR)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "0585867fc3bceb68",
+      "text": "Source: Shiller, Haver Analytics, Datastream, Goldman Sachs Global Investment Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ecfdd130d4e00159",
+      "text": "The RAI is based on 27 pair- trades across asset classes measured on z- scores rel. to last 2 years' performance, see July 2016 GOAL for details",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "9a24db10137ab4d9",
+      "text": "Source: Goldman Sachs Global Investment Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "da8cf65af5dd1707",
+      "text": "GS Bull/Bear Market Indicator = Average percentile",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2564e2ed68abf4a4",
+      "text": "LevelPercentileShiller PE38.197%0-6 quarter yield curve-0.793%Unemployment4.280%Private sector Financial Balance3.269%Core Inflation3.157%ISM48.021%GS Bull/Bear Market Indicator69%",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "08c83ef880d0464e",
+      "text": "Note: \\(100^{th}\\) percentile means these variables are at their highest level, except for Private sector Financial Balance, yield curve and unemployment where \\(100\\%\\) means they are at their lowest.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "7964a481bff1d973",
+      "text": "Source: Haver Analytics, Datastream, Robert Shiller, Goldman Sachs Global Investment Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "0ef3bde8bc9bec04",
+      "text": "Source: EPFR, Datastream, Haver Analytics, Goldman Sachs Global Investment Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "cba771298d0f097d",
+      "text": "Exhibit 13: Global equity market performance (local indices)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "58d56744b29bd2b8",
+      "text": "MarketPrice return (Local CCY, %)Index1-week (Local)Ytd1YrChina (A)SHSZ3002.714.337.2BrazilIBOV2.517.64.0TaiwanTWSE2.05.29.1CanadaSPTSX600.914.421.7South KoreaKOSPI0.532.819.7SingaporeFSSTI0.412.725.4EgyptEGX300.320.116.1AustraliaAS510.110.011.5USSPX-0.19.815.5IndonesiaJCI-0.410.62.7SwitzerlandSMI-0.65.1(1.9)TurkeyXU100-0.714.814.8JapanTPX-0.810.414.2South AfricaJALSH-0.921.120.9MexicoMEXBOL-0.918.610.5NorwayOSEAX-1.015.314.6BelgiumBEL20EM-1.012.514.9New ZealandNZX 50DM-1.0(3.0)1.6HKHSI-1.025.041.0ThailandSET-1.3(11.7)(8.9)CzechPX-1.428.843.3MalaysiaFBMKLCI-1.4(4.1)(4.7)UKUKX-1.412.49.6China (H)HSCEI-1.522.743.2IndiaNIFTY-1.83.3(2.9)NetherlandsAEX-1.82.0(2.9)GermanyDAX-1.920.126.4Stoxx 600SXXP-2.08.44.9PhilippinesPCOMP-2.0(5.7)(10.7)DenmarkKFX-2.3(25.2)(42.9)SwedenOMX-2.45.71.5PortugalBVLX-2.422.811.0EuroStoxx 50SX5E-2.59.37.8ItalyFTSEMIB-2.623.423.4PolandWIG-2.731.724.1HungaryHUX-2.829.340.1SpainIBEX-3.028.831.5FranceCAC-3.34.40.8AustriaATX-3.626.024.5GreeceASE-3.937.641.7",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "77932777db9ee7d6",
+      "text": "Source: MSCI, STOXX, Local Index Compilers, FactSet, Goldman Sachs Global Investment Research",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5eb97055fd02b58a",
+      "text": "Relative Price return (vs MSCI AC World, USD, %)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1058fabe5ca42669",
+      "text": "MarketRelative Price return (vs MSCI AC World, USD, %)Index1-week (USD)China (A)SHSZ3003.83.821.8BrazilIBOV2.720.7(7.0)TaiwanTWSE2.5(0.3)(1.0)CanadaSPTSX602.16.74.4AustraliaAS511.33.2(7.5)South KoreaKOSPI1.127.5(0.3)SingaporeFSSTI0.66.812.4EgyptEGX300.512.61.2USSPX0.3(3.3)0.5IndonesiaJCI0.16.0(10.8)SwitzerlandSMI-0.1(10.9)(19.1)TurkeyXU100-0.2(20.2)(19.6)JapanTPX-0.411.526.0South AfricaJALSH-0.45.1(1.9)MexicoMEXBOL-0.417.24.9NorwayOSEAX-0.7(14.4)(19.9)BelgiumBEL20EM-0.714.16.5New ZealandNZX 50DM-0.836.940.3HKHSI-0.819.12.7ThailandSET-0.89.228.2CzechPX-0.9(5.2)(19.0)MalaysiaFBMKLCI-1.0(11.6)(17.5)UKUKX-1.28.2(2.4)China (H)HSCEI-1.52.2(12.4)IndiaNIFTY-1.610.3(5.2)NetherlandsAEX-1.622.618.6GermanyDAX-1.69.4(4.1)Stoxx 600SXXP-1.716.06.3PhilippinesPCOMP-1.8(17.7)(27.0)DenmarkKFX-2.0(28.7)(54.7)SwedenOMX-2.125.82.4PortugalBVLX-2.2(12.9)(22.7)EuroStoxx 50SX5E-2.210.5(1.1)ItalyFTSEMIB-2.326.415.5PolandWIG-2.636.116.8HungaryHUX-2.732.524.0SpainIBEX-3.14.9(8.4)FranceCAC-3.138.431.7AustriaATX-3.329.316.6GreeceASE-3.642.434.8-4-2024",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "19ca710c16707210",
+      "text": "Exhibit 14: 1-week sector performance across regions Light blue: below -1 standard dev. from the AC world market performance. Dark blue: above \\(+1\\) standard dev. from the AC world market performance.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a34a3f9e20ecb9c5",
+      "text": "MSCI IndexWeekly Absolute Performance (%) in USDUSCanadaUKGermanyFranceSwissSpainItalyDevd EuroJapanKoreaBrazilIndiaChinaTaiwanAC APxJEMAC WorldMarket-0.11.6-1.5-2.0-3.5-0.4-3.2-2.7-2.0-0.90.32.6-3.1-0.61.7-0.3-0.6-0.4Energy2.41.71.3--2.2-0.6-0.20.11.51.52.0-4.0-1.2--1.9-1.71.4Materials-0.13.50.7-3.1-3.8-0.7--1.61.0-3.60.7-2.88.2-0.41.60.00.3Industrials-0.80.1-0.3-0.5-3.7-1.6-2.70.7-1.9-0.12.00.0-3.00.0-0.8-0.3-0.4-0.9Capital Goods-0.4-1.31.0-0.2-3.6-1.5-2.30.7-1.50.22.0-0.8-2.41.40.90.40.2-0.6Comm &amp; Profess. Svcs-1.3-0.8-2.6--6.5-1.9---3.4-1.9---5.33.3-0.01.6-1.7Transportation-2.61.3--3.4-7.1-3.4-3.1--4.1-1.01.71.3-5.8-3.6-1.9-2.4-2.2-2.2Consumer Discretionary-0.5-1.2-3.0-3.10.12.7-3.1-0.4-1.2-2.41.311.1-2.2-2.0-2.3-1.6-1.8-0.9Automobiles &amp; Comp.-1.5-0.3--2.9-3.9---1.0-2.4-1.41.8--2.20.0-1.4-0.6-0.6-1.4Cons Dur. &amp; Apparel-0.1-1.9-5.2-3.11.12.8-3.11.0-3.3-1.2--1.4-2.1-2.6-1.9-1.7-0.7Consumer Svcs-0.10.0-2.8-6.3-5.1-1.4--2.9-2.8-0.2--2.8-3.4-2.7--1.7-2.8-0.7Retailing-0.3-1.9-3.2-5.0--0.4-4.2--2.8-3.6-11.1-2.5-2.4-2.2-2.1-2.2-0.8Consumer Staples-1.70.2-1.8-2.2-1.80.5--3.9-1.2-2.81.00.8-0.40.30.0-0.4-0.8-1.5Food &amp; Staples Retailing-1.00.1-1.5--5.5----2.1-4.1--6.10.4-0.7-0.1-1.0-2.3-1.2Food Bev. &amp; Tobacco-2.32.5-3.0--3.50.5--3.9-1.3-2.41.72.7-0.80.60.0-0.1-0.3-1.8Household &amp; Persnl Prod-1.5--0.6-2.2-0.4----0.6-1.6-1.3-0.0-1.2--0.3-0.5-1.2Health Care-0.7--1.5-2.3-3.9-0.3-2.71.3-1.2-2.1-1.04.0-3.6-2.33.4-1.7-2.2-0.9Healthcare Equip &amp; Svcs-0.6--0.1-1.7-4.6-2.1---2.8-1.21.14.0-6.1-3.2--1.3-2.5-0.9Pharma &amp; Biotech-0.7--1.6-2.8-3.3-0.1-2.70.5-0.9-2.6-1.1--2.8-2.33.4-1.9-2.2-0.9Financials0.62.5-3.5-3.7-7.4-1.2-3.7-4.1-3.6-1.40.24.2-4.0-2.6-2.1-1.6-2.3-0.6Banks2.24.2-4.0-10.6-8.3-2.6-3.7-4.4-4.6-1.0-0.54.1-3.5-2.6-1.7-1.7-2.1-0.6Diversified Financials0.4-0.5-2.8-3.9-4.1-0.4--2.2-2.2-0.42.24.8-5.3-3.70.3-1.7-3.00.0Insurance-1.2-0.5-2.2-2.7-6.7-1.8--3.0-2.9-2.51.42.9-4.7-2.2-3.9-1.3-2.3-1.8Real Estate-0.8-------Information Technology0.10.1-0.3-1.3-2.5-0.3---1.41.30.31.7-1.44.12.51.92.00.2Software &amp; Services0.5-0.1-1.4-0.5-3.2----0.9-1.5-0.11.7-1.54.9--1.3-0.60.3Tech Hardware &amp; Equip1.83.10.8-------0.60.5-2.1-3.72.91.21.21.6Semiconductor &amp; Equip-1.4---5.2-0.9----2.04.67.2--5.72.42.92.9-0.7Communication Svcs0.80.1-0.9-1.0-3.4-2.0-1.9-7.9-1.5-0.7-1.8-0.9-3.40.1-1.8-0.5-0.70.4Telecom Svcs0.50.10.4-0.8-4.1-2.0-1.9-7.9-1.20.9-1.3-0.9-3.5-0.6-2.0-1.9-2.4-0.3Media &amp; Entertainment0.8--2.5-2.5-2.4----2.1-3.3-1.9--2.40.2-1.3-0.10.00.5Utilities-2.1-1.3-1.7-2.5-6.3-2.5-3.2-2.5-3.1-2.4-6.02.9-3.6-0.7--1.5-1.2-2.1",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "45e0088539d71f31",
+      "text": "Source: FactSet, MSCI, Goldman Sachs Global Investment Research",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c9202eee9eb4c85f",
+      "text": "Light blue: below - 1 standard dev. from the AC world market performance. Dark blue: above +1 standard dev. from the AC world market performance.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "4be1f2444a7f0141",
+      "text": "YTD Absolute Performance (%) in USD",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c42081ba847ae0a3",
+      "text": "Exhibit 16: 12m trailing return contribution 12m trailing return in local currency",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ab1b2630763b2f31",
+      "text": "Source:FactSet,Datastream,STOXX,Goldman Sachs Global Investment Research",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "48d89c8cb771f27c",
+      "text": "Exhibit 17: MSCI AC World 12m trailing return contribution by sector/style 12m trailing return in local currency",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "f066b696ee3a34bc",
+      "text": "Source:FactSet,STOXX,Goldman Sachs Global Investment Research",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "62a3d4a83de5c335",
+      "text": "Exhibit 18: Sales growth, EPS growth and net margins Consensus estimates",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "6a07ef6a2b9c9554",
+      "text": "Sales Growth (%)EPS Growth (%)Net Margin (%)2025E2026E2025E2026E2025E2026ES&amp;amp;P 5005.86.29.013.013.414.2STOXX 6000.23.4-0.812.710.010.8TOPIX (FY basis)1.22.73.110.26.36.7MSCI AP ex Japan8.07.97.711.811.512.0MSCI EM8.18.111.213.511.612.2MSCI AC World4.75.68.512.512.012.7Energy-4.61.0-6.410.37.58.0Materials1.33.910.016.18.69.6Industrials4.35.95.613.58.89.3Cons. Discretionary4.26.1-1.220.37.38.2Cons. Staples2.63.80.98.36.97.1Health Care8.15.511.09.79.59.9Financials4.25.17.19.720.321.0IT13.811.521.317.820.321.3Communication Svs6.86.917.89.318.017.8Utilities3.43.27.07.310.711.2Real Estate5.14.84.28.116.917.9",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "a0c16af7c4e57205",
+      "text": "Source:FactSet,STOXX,Goldman Sachs Global Investment Research",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0b0786cdafa13a20",
+      "text": "Exhibit 19: MSCI AC World EPS Consensus estimates in USD",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ff2e3a1f8ad0ec5c",
+      "text": "Source:FactSet, Datastream,STOXX,Goldman Sachs Global Investment Research",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "08acbd96f2aaaf68",
+      "text": "Exhibit 20: 2025 EPS revisions Indexed to 100. Local currency",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "01b735b8d87295e9",
+      "text": "Source: FactSet, STOXX, Goldman Sachs Global Investment Research",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c4ef86febdf257ff",
+      "text": "Exhibit 21: 2025 Earnings Sentiment (nb upgrades - nb downgrades) / nb estimates over the past month",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "0c28c6e5c4a52f41",
+      "text": "Source: FactSet, STOXX, Goldman Sachs Global Investment Research",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "cce233d22faef5b7",
+      "text": "Exhibit 22: 3-month EPS revision MSCI AC World sectors and Global Regions. Local currency",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "01b84f6c8faca663",
+      "text": "Source: Datastream, I/B/E/S, STOXX, FactSet, Goldman Sachs Global Investment Research",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "ab83f3dbc21f3bef",
+      "text": "Exhibit 23: Year-to-date EPS revision MSCI AC World sectors and Global Regions. Local currency",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e825c4e8292594a3",
+      "text": "Source: Datastream, I/B/E/S, STOXX, FactSet, Goldman Sachs Global Investment Research",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e2958edb9f52c0ef",
+      "text": "Exhibit 24: 12m and 24m fwd MSCI AC World stock valuation 12m and 24m fwd P/E",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "bbca8e7437dd1c45",
+      "text": "Source: Datastream, I/B/E/S, Goldman Sachs Global Investment Research",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "d856b440a1d0e1b9",
+      "text": "Exhibit 25: Global market implied ERP (%)",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "72db11f3a020d649",
+      "text": "Source: Goldman Sachs Global Investment Research",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "02378cfe2c8d94bd",
+      "text": "Exhibit 26: MSCI Regions valuations 12-month forward P/E's relative to the last 20 years - STOXX 600 P/E for Europe",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "ff787fe86953d6e5",
+      "text": "Source: FactSet, Goldman Sachs Global Investment Research",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "4791a851face3694",
+      "text": "Exhibit 27: MSCI World sector/style valuations 12-month forward P/E's relative to the last 20 years",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "0888630d4c4b5483",
+      "text": "Source: FactSet, Datastream, Goldman Sachs Global Investment Research",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "a6a97e5a35037218",
+      "text": "Exhibit 28: Value vs. GrowthMSCI Indices relative price return (USD)",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "5407af2b0be1ac9d",
+      "text": "Exhibit 30: Cyclicals vs. DefensivesMSCI Indices relative price return (USD)",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "22a1dd07ae2e68e9",
+      "text": "Exhibit 30: Cyclicals vs. DefensivesMSCI Indices relative price return (USD)",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "860161cf30cc135d",
+      "text": "For details on the construction of the indices, please see: Cyclicals vs. Defensives: A global implementation",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "12f787f0b1beb429",
+      "text": "Source: Datastream, Worldscope, Goldman Sachs Global Investment Research",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "cfc037a051c397e3",
+      "text": "Exhibit 29: Small-cap vs. Large-capUS: MSCI USA Small vs. MSCI USA Large; Europe: MSCI Europe Small vs. MSCI Europe Large; MSCI Japan Small vs. MSCI Japan Large; MSCI EM Small vs. MSCI EM Large",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "d24caaecfec7fe1a",
+      "text": "Source: Datastream, STOXX, Goldman Sachs Global Investment Research",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "0082bdb71c2ba365",
+      "text": "Exhibit 31: Momentum vs. MarketMSCI Momentum Indices relative price return (USD)",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "fd54f5b6c3d6eee9",
+      "text": "Source: Datastream, Goldman Sachs Global Investment Research",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "f8c5feb5773e4cdf",
+      "text": "Exhibit 32: Value vs. Growth 12m fwd P/E Premium (or Discount)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "f917d0bc6f82261e",
+      "text": "Source: FactSet, Goldman Sachs Global Investment Research",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "05b67c60efb50ea2",
+      "text": "Exhibit 33: Small vs. Large 12m fwd P/E Premium (or Discount)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3bc8f97134f07f5a",
+      "text": "Source: FactSet, Goldman Sachs Global Investment Research",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "c91a8eaa591a9fcb",
+      "text": "Exhibit 34: Cyclicals vs. Defensives 12m fwd P/E Premium (or Discount)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "1d15c2b9dfa69f9c",
+      "text": "For details on the construction of the indices, please see: Cyclicals vs. Defensives: A global implementation",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "4dde957f6cfcf3c2",
+      "text": "Source: FactSet, Goldman Sachs Global Investment Research",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "4c9f9600807ae335",
+      "text": "Exhibit 35: Momentum vs. Market 12m fwd P/E Premium (or Discount)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "08b93ffa9ab8acf3",
+      "text": "Source: FactSet, Goldman Sachs Global Investment Research",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "cc0c31ef0dcfa790",
+      "text": "Exhibit 36: Index sector composition",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "61e8266590a021ca",
+      "text": "GICS SectorU.S.EuropeJapanAPxJAC WorldEnergy3.34.30.83.23.8Materials2.15.73.55.73.6Industrials8.717.923.47.210.7Consumer Discretionary10.68.718.313.710.7Consumer Staples6.010.35.63.96.4Health Care10.814.07.64.59.9Financials14.022.715.825.418.0Real Estate2.30.82.52.82.1Information Technology30.27.013.221.123.7Communication Services9.44.28.29.98.3Utilities2.54.31.12.62.8Total100.0100.0100.0100.0100.1",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "6cdea0485a30c3b8",
+      "text": "Exhibit 38: Geographical Sales Exposure MSCI Indices. See our Portfolio Passport 2024.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "e470f4ef7108efa7",
+      "text": "North AmericaEuropeJapanAPAC ex JapanOther EMUS719210Europe2148315Japan1576014APAC ex J86823",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "8a7d33a076a1c440",
+      "text": "Source: MSCI, FactSet, Goldman Sachs Global Investment Research",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "fdee543d1307962b",
+      "text": "Exhibit 37: GS recommended sector weightings by region",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "7b7d70f8076fc606",
+      "text": "GICS SectorU.S.EuropeJapanAPxJEnergyNUWUWUWMaterialsOWUWNUWIndustrialsNNNNConsumer discretionaryNNNNConsumer staplesNOWUWOWHealth careNNUWNFinancialsNOWOWNReal EstateOWNNUWInformation technologyOW*OWOWNCommunication servicesOW**OWOWOWUtilitiesOWNNOW",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "ae93eca972f50792",
+      "text": "\\\\*US OW refers just to Software & Services \\\\*\\\\*US OW refers just to Media & Entertainment",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "c7b8930c9ae1f6c8",
+      "text": "Source: Goldman Sachs Global Investment Research",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "1d482c34b73d1936",
+      "text": "Exhibit 39: Country Composition MSCI AC World Index",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "d702c9551cb741f8",
+      "text": "Source: FactSet, Goldman Sachs Global Investment Research",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "d3fa55671ad4e43b",
+      "text": "Indexed USD total returns, Equities refer to MSCI AC World, Commodities refer to S&P GSCI® & Bonds refer to US 10y Govt. bonds",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "858c031f77cfa5d0",
+      "text": "Source: FactSet, Goldman Sachs Global Investment Research",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "f71e579c5686a490",
+      "text": "Source: Datastream, Goldman Sachs Global Investment Research",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "9155bb244eb0161e",
+      "text": "S&P 500 vs. US 10y Index; EURO STOXX 50 vs. Germany 10y Index; Topix vs. Japan 10y Index; MSCI EM vs. US 10y Index",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "f2bd51d056ea1d8c",
+      "text": "Source: Datastream, STOXX, Goldman Sachs Global Investment Research",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "169d78d3bb52b99f",
+      "text": "S&P 500 vs. GS USD TWI; EURO STOXX 50 vs. EUR/USD; Topix vs. JPY/USD; MSCI EM vs. GS USD TWI",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "2e7a46f3c78ad33f",
+      "text": "Source: Datastream, STOXX, Goldman Sachs Global Investment Research",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "6599b7c5c29c930b",
+      "text": "Exhibit 44: Monthly flows from Global investors into DM and EM equity funds In USD bn.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "57beada0b83aa69a",
+      "text": "Source: EPFR, Goldman Sachs Global Investment Research",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "dabb220e8756ac81",
+      "text": "Exhibit 45: Cumulative flows into equity by regions Monthly flows, USD bn. EPFR Country Flows (weekly data for current month).",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "254e8ce7bfc73a65",
+      "text": "Source: EPFR, Haver Analytics, Goldman Sachs Global Investment Research",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "5c17a9b4b1ddc24b",
+      "text": "Exhibit 46: Calendarised flows from Global investors into DM and EM equity funds In USD bn.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "9c97606eb79b7126",
+      "text": "Source: EPFR, Goldman Sachs Global Investment Research",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "db5b93731f8434b2",
+      "text": "Exhibit 47: Cumulative flows from Global investors into DM and EM funds Active and Passive funds. Monthly flows, USD bn. EPFR Country Flows (weekly data for current month).",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "b14424cdfaf329b9",
+      "text": "Source: EPFR, Goldman Sachs Global Investment Research",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "1d28a54965d04596",
+      "text": "Exhibit 48: EM vs. DM performance Relative price performance, indexed to 100 from 1 year ago",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "b1625524510ff63f",
+      "text": "Source: FactSet, Goldman Sachs Global Investment Research",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "ac80bb332c1b9738",
+      "text": "Exhibit 49: 2025 earnings sentiment % for MSCI The World and EM Earnings sentiment = (upgrades – downgrades) / total estimates on all stocks",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "de1519cc5bbe3906",
+      "text": "Source: FactSet, Goldman Sachs Global Investment Research",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "6bbc8e2eecefddbb",
+      "text": "Exhibit 50: EM vs. DM valuation 12-month forward P/E Premium (Discount)",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "c646ffca8c167907",
+      "text": "Source: FactSet, Goldman Sachs Global Investment Research",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "02bc208dc9f0df4b",
+      "text": "Exhibit 51: EM vs. DM Cumulative flows (% Total Net Assets) Monthly flows, EPFR Country Flows (weekly data for current month).",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "9d9f0670ca26bc14",
+      "text": "Source: EPFR, Haver Analytics, Goldman Sachs Global Investment Research",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "dd5596a46d82b126",
+      "text": "Exhibit 52: Implied volatility of 3-month atms",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "89c062257262c5d0",
+      "text": "Source: Bloomberg, STOXX, Goldman Sachs Global Investment Research",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "657ee71dab41eecd",
+      "text": "Exhibit 53: 3-month normalised skew",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "7aedce6cfb8baede",
+      "text": "Source: Bloomberg, STOXX, Goldman Sachs Global Investment Research",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "f7d644e699097829",
+      "text": "Exhibit 54: 2025 dividend markets, rebased to 100",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "d59ca13c0dddc88d",
+      "text": "Source: Bloomberg, STOXX, Goldman Sachs Global Investment Research",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "fdd4764724dfa2ea",
+      "text": "Exhibit 55: 2025 implied dividend yield",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "bb1aff06d1ff073a",
+      "text": "Source: Bloomberg, STOXX, Goldman Sachs Global Investment Research",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "8092d607005a7cc2",
+      "text": "W not been influenced by considerations of the firm's business or client relationships.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "8e6d5e6e1be6258b",
+      "text": "Unless otherwise stated, the individuals listed on the cover page of this report are analysts in Goldman Sachs' Global Investment Research division.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "50032d1f86ebece6",
+      "text": "The ability to trade the basket(s) discussed in this research will depend upon market conditions, including liquidity and borrow constraints at the time of trade.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "18c035beb2449740",
+      "text": "All MSCI data used in this report is the exclusive property of MSCI, Inc. (MSCI). Without prior written permission of MSCI, this information and any other MSCI intellectual property may not be reproduced or reimined in any form and may not be used to create any financial instruments or products or any indices. This information is provided on an \"as is\" basis, and the user of this information assumes the entire risk of any use made of this information. Neither MSCI, any of its affiliates nor any third party involved in, or related to, computing or compiling the data makes any express or implied warranties or representations with respect to this information (or the results to be obtained by the use thereof), and MSCI, its affiliates and any such third party hereby expressly disclaim all warranties of originality, accuracy, completeness, merchantability or fitness for a particular purpose with respect to any of this information. Without limiting any of the foregoing, in no event shall MSCI, any of its affiliates or any third party involved in, or related to, computing or compiling the data have any liability for any direct, indirect, special, punitive, consequential or any other damages (including lost profits) even if notified of the possibility of such damages. MSCI and the MSCI indexes are service marks of MSCI and its affiliates. The Global Industry Classification Standard (GICS) were developed by and is the exclusive property of MSCI and Standard & Poor's. GICS is a service mark of MSCI and S&P and has been licensed for use by The Goldman Sachs Group, Inc.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "6a8d6e162148ac23",
+      "text": "See company- specific regulatory disclosures above for any of the following disclosures required as to companies referred to in this report: manager or co- manager in a pending transaction; \\(1\\%\\) or other ownership; compensation for certain services; types of client relationships; managed/co- managed public offerings in prior periods; directorships; for equity securities, market making and/or specialist role. Goldman Sachs trades or may trade as a principal in debt securities (or in related derivatives) of issuers discussed in this report.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "5ad4c6af46e1b245",
+      "text": "The following are additional required disclosures: Ownership and material conflicts of interest: Goldman Sachs policy prohibits its analysts, professionals reporting to analysts and members of their households from owning securities of any company in the analyst's area of coverage. Analyst compensation: Analysts are paid in part based on the profitability of Goldman Sachs, which includes investment banking revenues. Analyst as officer or director: Goldman Sachs policy generally prohibits its analysts, persons reporting to analysts or members of their households from serving as an officer, director or advisor of any company in the analyst's area of coverage. Non- U.S. Analysts: Non- U.S. analysts may not be associated persons of Goldman Sachs & Co. LLC and therefore may not be subject to FINRA Rule 2241 or FINRA Rule 2242 restrictions on communications with subject company, public appearances and trading securities held by the analysts.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "b14016c625417521",
+      "text": "The following disclosures are those required by the jurisdiction indicated, except to the extent already made above pursuant to United States laws and regulations. Australia: Goldman Sachs Australia Pty Ltd and its affiliates are not authorised deposit- taking institutions (as that term is defined in the Banking Act 1959 (Cth)) in Australia and do not provide banking services, nor carry on a banking business, in Australia. This research, and any access to it, is intended only for \"wholesale clients\" within the meaning of the Australian Corporations Act, unless otherwise agreed by Goldman Sachs. In producing research reports, members of Global Investment Research of Goldman Sachs Australia may attend site visits and other meetings hosted by the companies and other entities which are the subject of its research reports. In some instances the costs of such site visits or meetings may be met in part or in whole by the issuers concerned if Goldman Sachs Australia considers it is appropriate and reasonable in the specific circumstances relating to the site visit or meeting. To the extent that the contents of this document contains any financial product advice, it is general advice only and has been prepared by Goldman Sachs without taking into account a client's objectives, financial situation or needs. A client should, before acting on any such advice, consider the appropriateness of the advice having regard to the client's own objectives, financial situation and needs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests and a copy of Goldman Sachs' Australian Sell- Side Research Independence Policy Statement are available at: https://www.goldmansachs.com/disclosures/australia- new- zealand/index.html. Brazil: Disclosure information in relation to CVM Resolution n. 20 is available at https://www.gs.com/worldwide/brazil/area/gir/index.html. Where applicable, the Brazil- registered analyst primarily responsible for the content of this research report, as defined in Article 20 of CVM Resolution n. 20, is the first author named at the beginning of this report, unless indicated otherwise at the end of the text. Canada: This information is being provided to you for information purposes only and is not, and under no circumstances should be construed as, an advertisement, offering or solicitation by Goldman Sachs & Co. LLC for purchasers of securities in Canada to trade in any Canadian security. Goldman Sachs & Co. LLC is not registered as a dealer in any jurisdiction in Canada under applicable Canadian securities laws and generally is not permitted to trade in Canadian securities and may be prohibited from selling certain securities and products in certain jurisdictions in Canada. If you wish to trade in any Canadian securities or other products in Canada please contact Goldman Sachs",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "cde03488e8165358",
+      "text": "a    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    s    t    t",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "4bbb1f8cc9e4f887",
+      "text": "t i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "ab808fce8e20398c",
+      "text": "G  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t",
+      "page": 19,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "d21374722ad53c6f",
+      "name": "AC APxJ",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f6f92d41378d6729",
+      "name": "AC World",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "39916594493ef906",
+      "name": "All MSCI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "aec93c301a600066",
+      "name": "August PMIs",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6d4488d766412406",
+      "name": "Australia Pty",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facedae141187a9f",
+      "name": "Australian Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "37943b86af92d90f",
+      "name": "Australian Sell",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "665d58562cca56d1",
+      "name": "Banking Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c5aaf2b31202a6fb",
+      "name": "Bear Market",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "16a47dae06390882",
+      "name": "Brent Crude",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7cf340f0ce82f127",
+      "name": "CVM Resolution",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "23659f3551f0da52",
+      "name": "Capital Goods",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fe647a13f093fce9",
+      "name": "Communication Services",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d698dcf5e1be7c0f",
+      "name": "Communication Svcs",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dd7052495551f8c1",
+      "name": "Communication Svs",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "eed0aee603c8dce9",
+      "name": "Cons Dur",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "19ffc748d0b23e26",
+      "name": "Consensus EPS",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "042cabbd998bc59d",
+      "name": "Consumer Discretionary",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "235a5366a1bc856b",
+      "name": "Consumer Staples",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "51404113c5775327",
+      "name": "Consumer Svcs",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "May-25",
+              "Jul-25",
+              "Sep-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 80,
+              "max": 125
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "S&P 500",
+            "unit": null,
+            "values": [
+              97.0,
+              102.0,
+              107.0,
+              104.0,
+              92.0,
+              108.0,
+              114.0
+            ]
+          },
+          {
+            "name": "Topix",
+            "unit": null,
+            "values": [
+              100.0,
+              95.0,
+              98.0,
+              95.0,
+              83.0,
+              100.0,
+              112.0
+            ]
+          },
+          {
+            "name": "STOXX Europe 600",
+            "unit": null,
+            "values": [
+              98.0,
+              108.0,
+              100.0,
+              98.0,
+              95.0,
+              105.0,
+              110.0
+            ]
+          },
+          {
+            "name": "MSCI AC Asia Pacific ex-Japan",
+            "unit": null,
+            "values": [
+              95.0,
+              100.0,
+              102.0,
+              99.0,
+              90.0,
+              102.0,
+              110.0
+            ]
+          }
+        ],
+        "figure_id": "4882db1e5b07b9b9",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "S&P 500",
+              "STOXX 600",
+              "TOPIX (FY basis)",
+              "MXAPJ"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -2,
+              "max": 12
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "GS top down est.",
+            "unit": "%",
+            "values": [
+              7,
+              0,
+              3,
+              9
+            ]
+          },
+          {
+            "name": "Consensus bottom up est.",
+            "unit": "%",
+            "values": [
+              9,
+              -1,
+              3,
+              8
+            ]
+          }
+        ],
+        "figure_id": "97ddb4df7e96d0de",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "bar",
+        "title": "GS top-down vs consensus bottom-up estimates of 2026 EPS growth",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "S&P 500",
+              "STOXX 600",
+              "TOPIX (FY basis)",
+              "MXAPJ"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 16
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "GS top down est.",
+            "unit": "%",
+            "values": [
+              7,
+              4,
+              8,
+              10
+            ]
+          },
+          {
+            "name": "Consensus bottom up est.",
+            "unit": "%",
+            "values": [
+              13,
+              13,
+              10,
+              12
+            ]
+          }
+        ],
+        "figure_id": "ea1daea301425dc1",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "08",
+              "09",
+              "10",
+              "11",
+              "12",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -4,
+              "max": 2
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Momentum: GSRAIM (3m changes z-score)",
+            "unit": "z-score",
+            "values": [
+              -0.5,
+              0.5,
+              0.8,
+              0.2,
+              0.7,
+              0.9,
+              0.1,
+              -0.5,
+              0.2,
+              0.8,
+              0.9,
+              0.1,
+              -0.5,
+              0.8,
+              0.2,
+              0.7,
+              0.8,
+              0.5
+            ]
+          },
+          {
+            "name": "Risk Appetite Indicator: GSRAII (1y z-score)",
+            "unit": "z-score",
+            "values": [
+              -2.8,
+              -0.5,
+              0.8,
+              -0.2,
+              0.9,
+              0.5,
+              -0.8,
+              -1.5,
+              -0.2,
+              0.9,
+              1.2,
+              -0.5,
+              -3.5,
+              1.5,
+              -0.8,
+              0.8,
+              -0.5,
+              0.5
+            ]
+          }
+        ],
+        "figure_id": "7479b997a24daeff",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "MSCI AP ex-Japan",
+              "MSCI EM",
+              "MSCI AC World",
+              "TOPIX",
+              "S&P 500",
+              "STOXX 600"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -5,
+              "max": 20
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Dividend contribution",
+            "unit": "%",
+            "values": [
+              2.5,
+              2.5,
+              2.0,
+              2.0,
+              1.5,
+              3.0
+            ]
+          },
+          {
+            "name": "12m fwd EPS contribution",
+            "unit": "%",
+            "values": [
+              2.5,
+              3.5,
+              6.0,
+              4.5,
+              9.5,
+              -0.5
+            ]
+          },
+          {
+            "name": "12m fwd P/E contribution",
+            "unit": "%",
+            "values": [
+              13.5,
+              11.5,
+              8.5,
+              10.0,
+              6.5,
+              5.5
+            ]
+          },
+          {
+            "name": "Total return",
+            "unit": "%",
+            "values": [
+              18.5,
+              18.0,
+              17.0,
+              16.5,
+              17.5,
+              8.5
+            ]
+          }
+        ],
+        "figure_id": "44a084ed6c5b011c",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Com Services",
+              "Financials",
+              "IT",
+              "Cons Discret",
+              "Growth",
+              "Industrials",
+              "Market",
+              "Utilities",
+              "Value",
+              "Materials",
+              "Cons Staples",
+              "Energy",
+              "Real Estate",
+              "Health Care"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -30,
+              "max": 40
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Dividend contribution",
+            "unit": "%",
+            "values": [
+              2.0,
+              2.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "name": "12m fwd EPS contribution",
+            "unit": "%",
+            "values": [
+              18.0,
+              15.0,
+              3.0,
+              -7.0,
+              1.0,
+              7.0,
+              8.0,
+              3.0,
+              3.0,
+              -3.0,
+              -1.0,
+              -25.0,
+              -3.0,
+              -7.0
+            ]
+          },
+          {
+            "name": "12m fwd P/E contribution",
+            "unit": "%",
+            "values": [
+              16.0,
+              11.0,
+              20.0,
+              28.0,
+              20.0,
+              11.0,
+              9.0,
+              4.0,
+              6.0,
+              8.0,
+              3.0,
+              24.0,
+              4.0,
+              -10.0
+            ]
+          },
+          {
+            "name": "Total return",
+            "unit": "%",
+            "values": [
+              36.0,
+              28.0,
+              24.0,
+              22.0,
+              22.0,
+              19.0,
+              18.0,
+              14.0,
+              13.0,
+              10.0,
+              5.0,
+              4.0,
+              2.0,
+              -16.0
+            ]
+          }
+        ],
+        "figure_id": "9494563de4bcaf20",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-24",
+              "Apr-24",
+              "Jul-24",
+              "Oct-24",
+              "Jan-25",
+              "Apr-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 85,
+              "max": 110
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "S&P 500",
+            "unit": null,
+            "values": [
+              100.0,
+              100.0,
+              101.5,
+              101.5,
+              100.0,
+              98.5,
+              98.5,
+              96.5,
+              96.0,
+              97.0,
+              98.0
+            ]
+          },
+          {
+            "name": "STOXX 600",
+            "unit": null,
+            "values": [
+              100.0,
+              98.0,
+              96.0,
+              99.0,
+              98.0,
+              95.0,
+              92.0,
+              89.0,
+              87.0,
+              86.0,
+              86.0
+            ]
+          },
+          {
+            "name": "Topix",
+            "unit": null,
+            "values": [
+              100.0,
+              102.0,
+              103.0,
+              105.0,
+              106.0,
+              105.0,
+              106.0,
+              107.0,
+              105.0,
+              101.0,
+              101.0
+            ]
+          },
+          {
+            "name": "MSCI EM",
+            "unit": null,
+            "values": [
+              100.0,
+              98.0,
+              95.0,
+              96.0,
+              98.0,
+              97.0,
+              95.0,
+              92.0,
+              90.0,
+              91.0,
+              88.0
+            ]
+          }
+        ],
+        "figure_id": "a43e1bc6bf2544ca",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "line",
+        "title": "Earnings Sentiment",
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-24",
+              "Dec-24",
+              "Mar-25",
+              "Jun-25",
+              "Sep-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -60,
+              "max": 60
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "S&P 500",
+            "unit": "%",
+            "values": [
+              5,
+              -10,
+              -15,
+              -5,
+              0,
+              -10,
+              -20,
+              -30,
+              -50,
+              -40,
+              -20,
+              0,
+              10,
+              20,
+              30,
+              40,
+              38
+            ]
+          },
+          {
+            "name": "Topix",
+            "unit": "%",
+            "values": [
+              10,
+              5,
+              0,
+              -5,
+              -10,
+              -5,
+              0,
+              5,
+              0,
+              -10,
+              -5,
+              0,
+              5,
+              10,
+              15,
+              17
+            ]
+          },
+          {
+            "name": "STOXX 600",
+            "unit": "%",
+            "values": [
+              -10,
+              -15,
+              -20,
+              -10,
+              0,
+              -10,
+              -20,
+              -30,
+              -40,
+              -20,
+              -10,
+              0,
+              5,
+              0,
+              -5,
+              0,
+              5
+            ]
+          },
+          {
+            "name": "MSCI EM",
+            "unit": "%",
+            "values": [
+              -15,
+              -20,
+              -10,
+              -5,
+              -10,
+              -15,
+              -20,
+              -10,
+              0,
+              -10,
+              -5,
+              0,
+              -5,
+              -10,
+              -5,
+              0,
+              -5
+            ]
+          }
+        ],
+        "figure_id": "f18031ee64f5a4f4",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "-8%",
+              "-6%",
+              "-4%",
+              "-2%",
+              "0%",
+              "2%",
+              "4%"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "2025",
+            "unit": "%",
+            "values": [
+              3.5,
+              2.8,
+              1.8,
+              1.2,
+              -0.2,
+              -0.5,
+              -0.8,
+              -1.0,
+              -1.2,
+              -1.5,
+              -2.0,
+              -2.2,
+              -2.5,
+              -3.0,
+              -3.5,
+              -4.0,
+              -5.0,
+              -7.5
+            ]
+          },
+          {
+            "name": "2026",
+            "unit": "%",
+            "values": [
+              3.0,
+              2.5,
+              1.5,
+              1.0,
+              0.5,
+              -0.2,
+              -0.5,
+              -0.8,
+              -1.0,
+              -1.2,
+              -1.8,
+              -2.0,
+              -2.2,
+              -2.8,
+              -3.2,
+              -3.8,
+              -4.5,
+              -7.0
+            ]
+          }
+        ],
+        "figure_id": "eb564383576910f3",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "-20%",
+              "-16%",
+              "-12%",
+              "-8%",
+              "-4%",
+              "0%",
+              "4%",
+              "8%"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "2025",
+            "unit": "%",
+            "values": [
+              {
+                "category": "Comm Svs",
+                "value": 6.5
+              },
+              {
+                "category": "Financials",
+                "value": 6.0
+              },
+              {
+                "category": "Utilities",
+                "value": 2.5
+              },
+              {
+                "category": "IT",
+                "value": 1.5
+              },
+              {
+                "category": "MSCI AC World",
+                "value": -1.0
+              },
+              {
+                "category": "Industrials",
+                "value": -1.5
+              },
+              {
+                "category": "S&P 500",
+                "value": -2.0
+              },
+              {
+                "category": "Consumer Staples",
+                "value": -2.5
+              },
+              {
+                "category": "MSCI EM",
+                "value": -3.0
+              },
+              {
+                "category": "Health Care",
+                "value": -3.5
+              },
+              {
+                "category": "Real Estate",
+                "value": -4.0
+              },
+              {
+                "category": "Topix",
+                "value": -4.5
+              },
+              {
+                "category": "MXAPJ",
+                "value": -5.0
+              },
+              {
+                "category": "STOXX 600",
+                "value": -8.0
+              },
+              {
+                "category": "Materials",
+                "value": -9.0
+              },
+              {
+                "category": "Consumer Discretionary",
+                "value": -13.0
+              },
+              {
+                "category": "Energy",
+                "value": -14.0
+              }
+            ]
+          },
+          {
+            "name": "2026",
+            "unit": "%",
+            "values": [
+              {
+                "category": "Comm Svs",
+                "value": 7.0
+              },
+              {
+                "category": "Financials",
+                "value": 5.5
+              },
+              {
+                "category": "Utilities",
+                "value": 2.0
+              },
+              {
+                "category": "IT",
+                "value": 1.0
+              },
+              {
+                "category": "MSCI AC World",
+                "value": -0.5
+              },
+              {
+                "category": "Industrials",
+                "value": -1.0
+              },
+              {
+                "category": "S&P 500",
+                "value": -1.5
+              },
+              {
+                "category": "Consumer Staples",
+                "value": -2.0
+              },
+              {
+                "category": "MSCI EM",
+                "value": -2.5
+              },
+              {
+                "category": "Health Care",
+                "value": -3.0
+              },
+              {
+                "category": "Real Estate",
+                "value": -3.5
+              },
+              {
+                "category": "Topix",
+                "value": -4.0
+              },
+              {
+                "category": "MXAPJ",
+                "value": -4.5
+              },
+              {
+                "category": "STOXX 600",
+                "value": -7.5
+              },
+              {
+                "category": "Materials",
+                "value": -8.5
+              },
+              {
+                "category": "Consumer Discretionary",
+                "value": -12.5
+              },
+              {
+                "category": "Energy",
+                "value": -16.0
+              }
+            ]
+          }
+        ],
+        "figure_id": "f5f7cac52d8ec67f",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "89",
+              "92",
+              "95",
+              "98",
+              "01",
+              "04",
+              "07",
+              "10",
+              "13",
+              "16",
+              "19",
+              "22",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 6,
+              "max": 26
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "12m fwd P/E",
+            "unit": null,
+            "values": [
+              10.5,
+              14.5,
+              16.0,
+              20.0,
+              25.0,
+              18.0,
+              14.0,
+              12.0,
+              14.0,
+              16.0,
+              20.0,
+              17.0,
+              19.1
+            ]
+          },
+          {
+            "name": "24m fwd P/E",
+            "unit": null,
+            "values": [
+              9.0,
+              12.0,
+              14.0,
+              18.0,
+              22.0,
+              16.0,
+              12.0,
+              10.0,
+              12.0,
+              14.0,
+              18.0,
+              15.0,
+              17.0
+            ]
+          }
+        ],
+        "figure_id": "ca266756b9b8aa62",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "IT",
+              "Growth",
+              "Con Disc",
+              "Industrials",
+              "Comm Svcs",
+              "Con Stap",
+              "Market",
+              "Materials",
+              "Health Care",
+              "Utilities",
+              "Value",
+              "Energy",
+              "Financials"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 8,
+              "max": 32
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Current",
+            "unit": null,
+            "values": [
+              26.7,
+              26.2,
+              22.3,
+              21.2,
+              20.3,
+              19.7,
+              19.1,
+              16.8,
+              16.8,
+              15.7,
+              14.6,
+              13.6,
+              13.0
+            ]
+          },
+          {
+            "name": "Median",
+            "unit": null,
+            "values": [
+              17.5,
+              17.0,
+              16.5,
+              15.5,
+              15.0,
+              18.0,
+              14.5,
+              13.0,
+              15.0,
+              15.0,
+              13.0,
+              12.0,
+              12.0
+            ]
+          },
+          {
+            "name": "Interquartile range (min)",
+            "unit": null,
+            "values": [
+              15.0,
+              15.0,
+              14.0,
+              14.0,
+              13.0,
+              16.0,
+              13.0,
+              11.5,
+              13.0,
+              14.0,
+              12.0,
+              10.5,
+              11.0
+            ]
+          },
+          {
+            "name": "Interquartile range (max)",
+            "unit": null,
+            "values": [
+              20.5,
+              21.5,
+              18.5,
+              17.0,
+              17.0,
+              20.0,
+              16.0,
+              15.0,
+              17.0,
+              16.0,
+              14.0,
+              13.5,
+              13.0
+            ]
+          },
+          {
+            "name": "10th - 90th percentile (min)",
+            "unit": null,
+            "values": [
+              12.5,
+              12.0,
+              12.0,
+              12.0,
+              11.0,
+              14.0,
+              11.0,
+              10.0,
+              11.0,
+              12.0,
+              10.0,
+              9.0,
+              10.0
+            ]
+          },
+          {
+            "name": "10th - 90th percentile (max)",
+            "unit": null,
+            "values": [
+              28.0,
+              27.0,
+              24.0,
+              19.5,
+              20.0,
+              21.0,
+              19.5,
+              18.0,
+              20.0,
+              18.0,
+              16.0,
+              19.0,
+              15.0
+            ]
+          }
+        ],
+        "figure_id": "76f098ce22e81a80",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "line",
+        "title": "Value outperforms Growth",
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "May-25",
+              "Jul-25",
+              "Sep-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 80,
+              "max": 125
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": null,
+            "values": [
+              101,
+              98,
+              86,
+              98,
+              97,
+              89,
+              85
+            ]
+          },
+          {
+            "name": "Europe",
+            "unit": null,
+            "values": [
+              102,
+              103,
+              104,
+              112,
+              113,
+              116,
+              118
+            ]
+          },
+          {
+            "name": "Japan",
+            "unit": null,
+            "values": [
+              100,
+              101,
+              100,
+              109,
+              105,
+              107,
+              110
+            ]
+          },
+          {
+            "name": "EM",
+            "unit": null,
+            "values": [
+              100,
+              98,
+              95,
+              99,
+              92,
+              92,
+              91
+            ]
+          },
+          {
+            "name": "AC World",
+            "unit": null,
+            "values": [
+              102,
+              99,
+              90,
+              103,
+              98,
+              93,
+              92
+            ]
+          }
+        ],
+        "figure_id": "e4532f8585ec8a1e",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "line",
+        "title": "Cyclicals outperform Defensives",
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "May-25",
+              "Jul-25",
+              "Sep-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 85,
+              "max": 130
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": null,
+            "values": [
+              97.5,
+              107.5,
+              112.5,
+              105,
+              100,
+              110,
+              117.5
+            ]
+          },
+          {
+            "name": "Europe",
+            "unit": null,
+            "values": [
+              97.5,
+              105,
+              110,
+              115,
+              107.5,
+              115,
+              120
+            ]
+          },
+          {
+            "name": "Japan",
+            "unit": null,
+            "values": [
+              95,
+              100,
+              105,
+              107.5,
+              100,
+              105,
+              107.5
+            ]
+          },
+          {
+            "name": "EM",
+            "unit": null,
+            "values": [
+              97.5,
+              102.5,
+              107.5,
+              110,
+              105,
+              110,
+              115
+            ]
+          },
+          {
+            "name": "AC World",
+            "unit": null,
+            "values": [
+              97.5,
+              105,
+              110,
+              107.5,
+              102.5,
+              112.5,
+              117.5
+            ]
+          }
+        ],
+        "figure_id": "2e69a0169fa26c6e",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "line",
+        "title": "Value vs. Growth",
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -70,
+              "max": 0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": "%",
+            "values": [
+              -21.0,
+              -18.0,
+              -12.0,
+              -25.0,
+              -30.0,
+              -38.0,
+              -45.0,
+              -38.0,
+              -40.0,
+              -35.0,
+              -38.0
+            ]
+          },
+          {
+            "name": "Europe",
+            "unit": "%",
+            "values": [
+              -25.0,
+              -28.0,
+              -20.0,
+              -28.0,
+              -35.0,
+              -40.0,
+              -50.0,
+              -58.0,
+              -50.0,
+              -45.0,
+              -48.0
+            ]
+          },
+          {
+            "name": "Japan",
+            "unit": "%",
+            "values": [
+              -28.0,
+              -25.0,
+              -20.0,
+              -28.0,
+              -35.0,
+              -40.0,
+              -48.0,
+              -40.0,
+              -35.0,
+              -30.0,
+              -35.0
+            ]
+          },
+          {
+            "name": "EM",
+            "unit": "%",
+            "values": [
+              -38.0,
+              -35.0,
+              -40.0,
+              -35.0,
+              -40.0,
+              -45.0,
+              -50.0,
+              -55.0,
+              -50.0,
+              -45.0,
+              -40.0
+            ]
+          },
+          {
+            "name": "AC World",
+            "unit": "%",
+            "values": [
+              -25.0,
+              -28.0,
+              -20.0,
+              -28.0,
+              -35.0,
+              -40.0,
+              -48.0,
+              -50.0,
+              -45.0,
+              -40.0,
+              -42.0
+            ]
+          }
+        ],
+        "figure_id": "8d63c2a4e4b4473a",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "line",
+        "title": "Small vs. Large",
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -30,
+              "max": 60
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": "%",
+            "values": [
+              28,
+              35,
+              28,
+              30,
+              25,
+              20,
+              52,
+              15,
+              -10,
+              -10,
+              -15
+            ]
+          },
+          {
+            "name": "Europe",
+            "unit": "%",
+            "values": [
+              10,
+              15,
+              20,
+              25,
+              15,
+              -10,
+              30,
+              10,
+              -5,
+              10,
+              15
+            ]
+          },
+          {
+            "name": "Japan",
+            "unit": "%",
+            "values": [
+              12,
+              5,
+              -5,
+              10,
+              5,
+              -15,
+              20,
+              -10,
+              -5,
+              -10,
+              -5
+            ]
+          },
+          {
+            "name": "EM",
+            "unit": "%",
+            "values": [
+              15,
+              10,
+              15,
+              5,
+              0,
+              -10,
+              25,
+              -5,
+              -10,
+              -5,
+              -10
+            ]
+          },
+          {
+            "name": "AC World",
+            "unit": "%",
+            "values": [
+              20,
+              25,
+              20,
+              25,
+              20,
+              -5,
+              20,
+              -5,
+              -10,
+              -10,
+              -15
+            ]
+          }
+        ],
+        "figure_id": "25fca80306baf6fb",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "line",
+        "title": "Cyclicals vs. Defensives",
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -50,
+              "max": 20
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": "%",
+            "values": [
+              -10,
+              -12,
+              -2,
+              -10,
+              -15,
+              -10,
+              18,
+              -5,
+              -10,
+              -5,
+              7
+            ]
+          },
+          {
+            "name": "Europe",
+            "unit": "%",
+            "values": [
+              -30,
+              -35,
+              -20,
+              -40,
+              -30,
+              -35,
+              -10,
+              -30,
+              -40,
+              -30,
+              -25
+            ]
+          },
+          {
+            "name": "Japan",
+            "unit": "%",
+            "values": [
+              -25,
+              -30,
+              -15,
+              -25,
+              -20,
+              -25,
+              -5,
+              -20,
+              -30,
+              -20,
+              -15
+            ]
+          },
+          {
+            "name": "EM",
+            "unit": "%",
+            "values": [
+              -20,
+              -25,
+              -10,
+              -30,
+              -20,
+              -25,
+              -15,
+              -25,
+              -35,
+              -25,
+              -20
+            ]
+          },
+          {
+            "name": "AC World",
+            "unit": "%",
+            "values": [
+              -15,
+              -20,
+              -5,
+              -15,
+              -20,
+              -15,
+              5,
+              -10,
+              -15,
+              -10,
+              -5
+            ]
+          }
+        ],
+        "figure_id": "882e63d1deb26d5f",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "pie",
+        "title": null,
+        "page": 13,
+        "axes": null,
+        "series": [
+          {
+            "name": "United States",
+            "unit": "%",
+            "values": [
+              65
+            ]
+          },
+          {
+            "name": "Other",
+            "unit": "%",
+            "values": [
+              22
+            ]
+          },
+          {
+            "name": "Japan",
+            "unit": "%",
+            "values": [
+              5
+            ]
+          },
+          {
+            "name": "China",
+            "unit": "%",
+            "values": [
+              3
+            ]
+          },
+          {
+            "name": "UK",
+            "unit": "%",
+            "values": [
+              3
+            ]
+          },
+          {
+            "name": "France",
+            "unit": "%",
+            "values": [
+              2
+            ]
+          }
+        ],
+        "figure_id": "5d684c91106b2512",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 14,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-23",
+              "Jan-24",
+              "May-24",
+              "Sep-24",
+              "Jan-25",
+              "May-25",
+              "Sep-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 80,
+              "max": 150
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Equities",
+            "unit": null,
+            "values": [
+              98,
+              105,
+              115,
+              125,
+              128,
+              120,
+              145
+            ]
+          },
+          {
+            "name": "Bonds",
+            "unit": null,
+            "values": [
+              100,
+              102,
+              105,
+              108,
+              105,
+              103,
+              108
+            ]
+          },
+          {
+            "name": "Commodities",
+            "unit": null,
+            "values": [
+              102,
+              95,
+              100,
+              98,
+              102,
+              98,
+              105
+            ]
+          }
+        ],
+        "figure_id": "cd38b14158ee3a49",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 14,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-23",
+              "Jan-24",
+              "May-24",
+              "Sep-24",
+              "Jan-25",
+              "May-25",
+              "Sep-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -0.6,
+              "max": 1.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": null,
+            "values": [
+              0.32,
+              0.45,
+              0.2,
+              0.0,
+              0.28,
+              0.5,
+              0.6,
+              0.4,
+              0.2,
+              -0.1,
+              -0.2,
+              -0.4,
+              -0.3,
+              -0.2,
+              0.0,
+              0.2,
+              0.4,
+              0.6,
+              0.7,
+              0.6,
+              0.5,
+              0.3,
+              0.0,
+              -0.2,
+              -0.4
+            ]
+          },
+          {
+            "name": "Europe",
+            "unit": null,
+            "values": [
+              0.4,
+              0.5,
+              0.6,
+              0.4,
+              0.2,
+              0.0,
+              -0.1,
+              -0.2,
+              -0.1,
+              0.1,
+              0.3,
+              0.5,
+              0.6,
+              0.5,
+              0.3,
+              0.1,
+              -0.1,
+              -0.3,
+              -0.4,
+              -0.3,
+              -0.2,
+              0.0,
+              0.2,
+              0.4,
+              0.6,
+              0.7,
+              0.6,
+              0.5,
+              0.3,
+              0.0,
+              -0.3,
+              -0.5,
+              -0.4,
+              -0.3,
+              -0.2,
+              -0.1,
+              -0.2,
+              -0.3,
+              -0.4
+            ]
+          },
+          {
+            "name": "Japan",
+            "unit": null,
+            "values": [
+              0.5,
+              0.6,
+              0.7,
+              0.6,
+              0.5,
+              0.4,
+              0.3,
+              0.2,
+              0.1,
+              0.0,
+              -0.1,
+              -0.2,
+              -0.3,
+              -0.4,
+              -0.3,
+              -0.2,
+              -0.1,
+              0.0,
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.7,
+              0.6,
+              0.5,
+              0.4,
+              0.3,
+              0.2,
+              0.1,
+              0.0,
+              -0.1,
+              -0.2,
+              -0.3,
+              -0.4,
+              -0.3,
+              -0.2,
+              -0.1,
+              0.0,
+              -0.1,
+              -0.2,
+              -0.3,
+              -0.4
+            ]
+          },
+          {
+            "name": "EM",
+            "unit": null,
+            "values": [
+              0.4,
+              0.5,
+              0.6,
+              0.5,
+              0.4,
+              0.3,
+              0.2,
+              0.1,
+              0.0,
+              -0.1,
+              -0.2,
+              -0.1,
+              0.0,
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.5,
+              0.4,
+              0.3,
+              0.2,
+              0.1,
+              0.0,
+              -0.1,
+              -0.2,
+              -0.3,
+              -0.4,
+              -0.3,
+              -0.2,
+              -0.1,
+              0.0,
+              0.1,
+              0.2,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.7,
+              0.6,
+              0.5,
+              0.4,
+              0.3,
+              0.2,
+              0.1,
+              0.0,
+              -0.1,
+              -0.2,
+              -0.3,
+              -0.4
+            ]
+          }
+        ],
+        "figure_id": "ce483ef3050666ca",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 14,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-23",
+              "Jan-24",
+              "May-24",
+              "Sep-24",
+              "Jan-25",
+              "May-25",
+              "Sep-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -1.0,
+              "max": 0.8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": null,
+            "values": [
+              -0.6,
+              -0.7,
+              -0.4,
+              -0.5,
+              -0.3,
+              0.1,
+              -0.1,
+              -0.4,
+              -0.6,
+              -0.7,
+              -0.5,
+              -0.2,
+              0.1,
+              0.0,
+              -0.2,
+              -0.4,
+              -0.6
+            ]
+          },
+          {
+            "name": "Euro Area",
+            "unit": null,
+            "values": [
+              0.3,
+              0.6,
+              0.4,
+              0.2,
+              0.4,
+              0.6,
+              0.2,
+              0.0,
+              0.2,
+              0.4,
+              0.6,
+              0.4,
+              0.2,
+              0.0,
+              -0.2,
+              0.0,
+              0.2
+            ]
+          },
+          {
+            "name": "Japan",
+            "unit": null,
+            "values": [
+              -0.4,
+              -0.2,
+              0.0,
+              -0.2,
+              -0.4,
+              -0.6,
+              -0.8,
+              -0.6,
+              -0.4,
+              -0.2,
+              0.0,
+              0.2,
+              0.0,
+              -0.2,
+              -0.4,
+              -0.2,
+              0.0,
+              0.2,
+              0.3
+            ]
+          },
+          {
+            "name": "EM",
+            "unit": null,
+            "values": [
+              -0.7,
+              -0.6,
+              -0.5,
+              -0.6,
+              -0.7,
+              -0.6,
+              -0.5,
+              -0.4,
+              -0.3,
+              -0.2,
+              -0.1,
+              0.0,
+              -0.1,
+              -0.2,
+              -0.3,
+              -0.4,
+              -0.5
+            ]
+          }
+        ],
+        "figure_id": "5845a8f234b0022c",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "combo",
+        "title": "4-week flows into Global equities",
+        "page": 15,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": "$bn",
+            "range": {
+              "min": -100,
+              "max": 250
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Passive",
+            "unit": "$bn",
+            "values": [
+              10,
+              25,
+              40,
+              -5,
+              15,
+              100,
+              50,
+              60,
+              120,
+              80
+            ]
+          },
+          {
+            "name": "Active",
+            "unit": "$bn",
+            "values": [
+              -20,
+              -10,
+              30,
+              -60,
+              -20,
+              20,
+              -10,
+              -20,
+              -30,
+              -50
+            ]
+          },
+          {
+            "name": "Total",
+            "unit": "$bn",
+            "values": [
+              -10,
+              15,
+              70,
+              -65,
+              -5,
+              120,
+              40,
+              40,
+              90,
+              30
+            ]
+          }
+        ],
+        "figure_id": "12acc96393528e8d",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 15,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -300,
+              "max": 900
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": null,
+            "values": [
+              0,
+              -250,
+              350,
+              250,
+              200,
+              720
+            ]
+          },
+          {
+            "name": "Europe",
+            "unit": null,
+            "values": [
+              0,
+              -50,
+              150,
+              50,
+              -50,
+              50
+            ]
+          },
+          {
+            "name": "EM",
+            "unit": null,
+            "values": [
+              0,
+              100,
+              250,
+              350,
+              450,
+              620
+            ]
+          },
+          {
+            "name": "Asia-Pacific",
+            "unit": null,
+            "values": [
+              0,
+              200,
+              380,
+              420,
+              550,
+              800
+            ]
+          }
+        ],
+        "figure_id": "94c8fc6a237d77ec",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 15,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ]
+          },
+          "y": {
+            "unit": "$bn",
+            "range": {
+              "min": -400,
+              "max": 1000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2025",
+            "unit": "$bn",
+            "values": [
+              0,
+              10,
+              100,
+              180,
+              190,
+              180,
+              170,
+              160,
+              150,
+              140,
+              150,
+              160
+            ]
+          },
+          {
+            "name": "2024",
+            "unit": "$bn",
+            "values": [
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              60,
+              70,
+              80,
+              90,
+              100,
+              110
+            ]
+          },
+          {
+            "name": "2023",
+            "unit": "$bn",
+            "values": [
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              60,
+              70,
+              80,
+              90,
+              100,
+              110
+            ]
+          },
+          {
+            "name": "2022",
+            "unit": "$bn",
+            "values": [
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              60,
+              70,
+              80,
+              90,
+              100,
+              110
+            ]
+          },
+          {
+            "name": "2021",
+            "unit": "$bn",
+            "values": [
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              60,
+              70,
+              80,
+              90,
+              100,
+              110
+            ]
+          },
+          {
+            "name": "2020",
+            "unit": "$bn",
+            "values": [
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              60,
+              70,
+              80,
+              90,
+              100,
+              110
+            ]
+          },
+          {
+            "name": "2019",
+            "unit": "$bn",
+            "values": [
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              60,
+              70,
+              80,
+              90,
+              100,
+              110
+            ]
+          },
+          {
+            "name": "2018",
+            "unit": "$bn",
+            "values": [
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              60,
+              70,
+              80,
+              90,
+              100,
+              110
+            ]
+          },
+          {
+            "name": "2017",
+            "unit": "$bn",
+            "values": [
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              60,
+              70,
+              80,
+              90,
+              100,
+              110
+            ]
+          },
+          {
+            "name": "2016",
+            "unit": "$bn",
+            "values": [
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              60,
+              70,
+              80,
+              90,
+              100,
+              110
+            ]
+          },
+          {
+            "name": "2015",
+            "unit": "$bn",
+            "values": [
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              60,
+              70,
+              80,
+              90,
+              100,
+              110
+            ]
+          }
+        ],
+        "figure_id": "f43c804ebc059195",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 15,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "07",
+              "08",
+              "09",
+              "10",
+              "11",
+              "12",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -6000,
+              "max": 7000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Total",
+            "unit": null,
+            "values": [
+              0,
+              -200,
+              -400,
+              -300,
+              -200,
+              -400,
+              -500,
+              -300,
+              -100,
+              100,
+              200,
+              400,
+              200,
+              -200,
+              -400,
+              800,
+              900,
+              700,
+              1400
+            ]
+          },
+          {
+            "name": "Passive",
+            "unit": null,
+            "values": [
+              0,
+              200,
+              400,
+              600,
+              800,
+              1000,
+              1200,
+              1400,
+              1600,
+              1800,
+              2000,
+              2200,
+              2400,
+              2800,
+              3200,
+              3800,
+              4200,
+              5000,
+              6200
+            ]
+          },
+          {
+            "name": "Active",
+            "unit": null,
+            "values": [
+              0,
+              -400,
+              -800,
+              -900,
+              -1000,
+              -1400,
+              -1600,
+              -1700,
+              -1800,
+              -1900,
+              -2000,
+              -2000,
+              -2200,
+              -3000,
+              -3600,
+              -3000,
+              -3400,
+              -4300,
+              -4800
+            ]
+          }
+        ],
+        "figure_id": "1d2dcdfa124d6f7a",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 16,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "May-25",
+              "Jul-25",
+              "Sep-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 88,
+              "max": 110
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              99.5,
+              101.5,
+              98.5,
+              99.5,
+              99,
+              100.5,
+              102,
+              100.5,
+              101.5,
+              107.5,
+              106.5,
+              104,
+              102.5,
+              103,
+              102,
+              101,
+              100,
+              98,
+              96.5,
+              95.5,
+              94,
+              95,
+              96,
+              97.5,
+              96.5,
+              95.5,
+              94.5,
+              93.5,
+              93,
+              93.5,
+              94,
+              95,
+              96,
+              97,
+              98.5,
+              99.5,
+              96,
+              97.5,
+              99,
+              100.5,
+              102,
+              103.5,
+              102.5,
+              101.5,
+              100.5,
+              101.5,
+              102.5,
+              109,
+              95.5,
+              100.5,
+              102.5,
+              104,
+              103,
+              102,
+              101,
+              100,
+              99,
+              98,
+              99,
+              100,
+              101,
+              102,
+              101.5,
+              100.5,
+              101.5,
+              102.5,
+              101.5,
+              100.5,
+              101.5,
+              102.5,
+              102,
+              101,
+              100,
+              101,
+              102,
+              101.5,
+              100.5,
+              101.5,
+              102.5,
+              102,
+              101,
+              100
+            ]
+          }
+        ],
+        "figure_id": "194aee8e4ef1d339",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 16,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-21",
+              "Jul-21",
+              "Jan-22",
+              "Jul-22",
+              "Jan-23",
+              "Jul-23",
+              "Jan-24",
+              "Jul-24",
+              "Jan-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 24
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "EM",
+            "unit": "%",
+            "values": [
+              0.0,
+              4.0,
+              8.5,
+              9.0,
+              9.8,
+              13.5,
+              16.0,
+              20.5,
+              21.5,
+              22.0
+            ]
+          },
+          {
+            "name": "DM",
+            "unit": "%",
+            "values": [
+              0.0,
+              2.0,
+              3.5,
+              3.0,
+              2.5,
+              2.0,
+              2.5,
+              3.5,
+              4.0,
+              4.0
+            ]
+          }
+        ],
+        "figure_id": "60c879fffe94fb9d",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 17,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "May-25",
+              "Jul-25",
+              "Sep-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 10,
+              "max": 40
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "S&P 500",
+            "unit": null,
+            "values": [
+              12.5,
+              15.5,
+              13.5,
+              12,
+              13,
+              15,
+              18,
+              25,
+              20,
+              15,
+              13,
+              14,
+              12.5,
+              13.5
+            ]
+          },
+          {
+            "name": "Nikkei 225",
+            "unit": null,
+            "values": [
+              23,
+              22,
+              23.5,
+              22,
+              20,
+              19,
+              20,
+              22,
+              34,
+              28,
+              20,
+              19,
+              18,
+              19
+            ]
+          },
+          {
+            "name": "EURO STOXX 50",
+            "unit": null,
+            "values": [
+              17,
+              18,
+              16,
+              15,
+              16,
+              17,
+              18,
+              20,
+              30,
+              22,
+              18,
+              16,
+              15,
+              14
+            ]
+          },
+          {
+            "name": "Avg(KOSPI 200, HSCEI, NIFTY)",
+            "unit": null,
+            "values": [
+              18,
+              20,
+              22,
+              20,
+              18,
+              19,
+              21,
+              23,
+              29,
+              25,
+              20,
+              18,
+              17,
+              16
+            ]
+          }
+        ],
+        "figure_id": "8878120682bbd960",
+        "provenance": {
+          "page": 17
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 17,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "May-25",
+              "Jul-25",
+              "Sep-2"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 96,
+              "max": 108
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "S&P 500",
+            "unit": null,
+            "values": [
+              100.0,
+              99.0,
+              98.5,
+              99.5,
+              101.5,
+              102.5,
+              100.0,
+              99.5,
+              100.5,
+              101.5,
+              102.0,
+              102.5,
+              102.0,
+              102.5,
+              103.0,
+              102.5,
+              102.0,
+              102.5,
+              103.0,
+              103.5,
+              104.0,
+              104.5
+            ]
+          },
+          {
+            "name": "Euro STOXX 50",
+            "unit": null,
+            "values": [
+              100.0,
+              98.0,
+              97.0,
+              96.5,
+              96.0,
+              97.0,
+              97.5,
+              98.0,
+              98.5,
+              99.0,
+              99.5,
+              100.0,
+              100.5,
+              101.0,
+              101.5,
+              102.0,
+              101.5,
+              101.0,
+              101.5,
+              101.5,
+              101.5,
+              101.5
+            ]
+          },
+          {
+            "name": "Nikkei 225",
+            "unit": null,
+            "values": [
+              100.0,
+              101.0,
+              102.0,
+              103.0,
+              104.0,
+              105.0,
+              106.0,
+              107.0,
+              106.0,
+              105.0,
+              104.0,
+              103.0,
+              102.0,
+              103.0,
+              104.0,
+              105.0,
+              106.0,
+              107.0,
+              106.0,
+              105.0,
+              106.0,
+              107.0
+            ]
+          },
+          {
+            "name": "FTSE",
+            "unit": null,
+            "values": [
+              100.0,
+              99.0,
+              98.0,
+              97.0,
+              96.0,
+              97.0,
+              98.0,
+              99.0,
+              100.0,
+              101.0,
+              100.0,
+              99.0,
+              98.0,
+              97.0,
+              98.0,
+              99.0,
+              100.0,
+              101.0,
+              100.0,
+              99.0,
+              100.0,
+              101.0
+            ]
+          }
+        ],
+        "figure_id": "02e67230c5995adb",
+        "provenance": {
+          "page": 17
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 17,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "May-25",
+              "Jul-25",
+              "Sep-25"
+            ]
+          },
+          "y": {
+            "left": {
+              "unit": "%",
+              "range": {
+                "min": 2.6,
+                "max": 4.4
+              }
+            },
+            "right": {
+              "unit": null,
+              "range": {
+                "min": 1.2,
+                "max": 2.5
+              }
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "EURO STOXX 50",
+            "unit": "%",
+            "values": [
+              3.38,
+              3.15,
+              3.25,
+              3.1,
+              3.48,
+              3.1,
+              3.15
+            ]
+          },
+          {
+            "name": "FTSE",
+            "unit": "%",
+            "values": [
+              3.65,
+              3.55,
+              3.6,
+              3.5,
+              3.9,
+              3.4,
+              3.3
+            ]
+          },
+          {
+            "name": "S&P 500 (RHS)",
+            "unit": null,
+            "values": [
+              1.4,
+              1.3,
+              1.35,
+              1.4,
+              1.5,
+              1.25,
+              1.25
+            ]
+          },
+          {
+            "name": "Nikkei 225 (RHS)",
+            "unit": null,
+            "values": [
+              1.9,
+              1.8,
+              1.85,
+              2.0,
+              2.45,
+              1.9,
+              1.75
+            ]
+          }
+        ],
+        "figure_id": "eb2e31a9b404c169",
+        "provenance": {
+          "page": 17
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "04405d975d73df39",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed (70th percentile), but still attractive vs. credit and US equities. Flows are picking up, though 1%1%1%1%1%1%1%1%1%1%1%. Over the next 12m, we expect a \\(5\\%\\) price return, \\(8\\%\\) total return, a",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ff5df90894ba0a00",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "(70th percentile), but still attractive vs. credit and US equities. Flows are picking up, though 1%1%1%1%1%1%1%1%1%1%1%. Over the next 12m, we expect a \\(5\\%\\) price return, \\(8\\%\\) total return, and ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5295460f631e134c",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "70th percentile), but still attractive vs. credit and US equities. Flows are picking up, though 1%1%1%1%1%1%1%1%1%1%1%. Over the next 12m, we expect a \\(5\\%\\) price return, \\(8\\%\\) total return, and d",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7cab904ee2c95e69",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "th percentile), but still attractive vs. credit and US equities. Flows are picking up, though 1%1%1%1%1%1%1%1%1%1%1%. Over the next 12m, we expect a \\(5\\%\\) price return, \\(8\\%\\) total return, and dou",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "33229d1183f8262a",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "percentile), but still attractive vs. credit and US equities. Flows are picking up, though 1%1%1%1%1%1%1%1%1%1%1%. Over the next 12m, we expect a \\(5\\%\\) price return, \\(8\\%\\) total return, and double",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "00c9a633bda27a69",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ercentile), but still attractive vs. credit and US equities. Flows are picking up, though 1%1%1%1%1%1%1%1%1%1%1%. Over the next 12m, we expect a \\(5\\%\\) price return, \\(8\\%\\) total return, and double-",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "bfcde47340e94cad",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "centile), but still attractive vs. credit and US equities. Flows are picking up, though 1%1%1%1%1%1%1%1%1%1%1%. Over the next 12m, we expect a \\(5\\%\\) price return, \\(8\\%\\) total return, and double- d",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "876aa0a66bdb95a8",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ntile), but still attractive vs. credit and US equities. Flows are picking up, though 1%1%1%1%1%1%1%1%1%1%1%. Over the next 12m, we expect a \\(5\\%\\) price return, \\(8\\%\\) total return, and double- dig",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "00e1070c55a198ed",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ile), but still attractive vs. credit and US equities. Flows are picking up, though 1%1%1%1%1%1%1%1%1%1%1%. Over the next 12m, we expect a \\(5\\%\\) price return, \\(8\\%\\) total return, and double- digit",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "565a4e4a61f6dd65",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e), but still attractive vs. credit and US equities. Flows are picking up, though 1%1%1%1%1%1%1%1%1%1%1%. Over the next 12m, we expect a \\(5\\%\\) price return, \\(8\\%\\) total return, and double- digit r",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "3b061fd576ec5ca3",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ", but still attractive vs. credit and US equities. Flows are picking up, though 1%1%1%1%1%1%1%1%1%1%1%. Over the next 12m, we expect a \\(5\\%\\) price return, \\(8\\%\\) total return, and double- digit ret",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c786c26ae852c8cb",
+        "value": 0.97,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<table><tr><td></td><td>Level</td><td>Percentile</td></tr><tr><td>Shiller PE</td><td>38.1</td><td>97%</td></tr><tr><td>0-6 quarter yield curve</td><td>-0.7</td><td>93%</td></tr><tr><td>Unemployment</t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "b77bd99987b4fcfc",
+        "value": 0.93,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Shiller PE</td><td>38.1</td><td>97%</td></tr><tr><td>0-6 quarter yield curve</td><td>-0.7</td><td>93%</td></tr><tr><td>Unemployment</td><td>4.2</td><td>80%</td></tr><tr><td>Private sector Financial ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "78b6d3bde56e48e6",
+        "value": 0.8,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0-6 quarter yield curve</td><td>-0.7</td><td>93%</td></tr><tr><td>Unemployment</td><td>4.2</td><td>80%</td></tr><tr><td>Private sector Financial Balance</td><td>3.2</td><td>69%</td></tr><tr><td>Core ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7a3c6447db6248e2",
+        "value": 0.69,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "yment</td><td>4.2</td><td>80%</td></tr><tr><td>Private sector Financial Balance</td><td>3.2</td><td>69%</td></tr><tr><td>Core Inflation</td><td>3.1</td><td>57%</td></tr><tr><td>ISM</td><td>48.0</td><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "4e3934deded5e752",
+        "value": 0.57,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ector Financial Balance</td><td>3.2</td><td>69%</td></tr><tr><td>Core Inflation</td><td>3.1</td><td>57%</td></tr><tr><td>ISM</td><td>48.0</td><td>21%</td></tr><tr><td>GS Bull/Bear Market Indicator</td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "be0baa4ab0ee9a06",
+        "value": 0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>Core Inflation</td><td>3.1</td><td>57%</td></tr><tr><td>ISM</td><td>48.0</td><td>21%</td></tr><tr><td>GS Bull/Bear Market Indicator</td><td></td><td>69%</td></tr></table> Note: \\(10",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "5a7d0b5e65456e85",
+        "value": 0.69,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>ISM</td><td>48.0</td><td>21%</td></tr><tr><td>GS Bull/Bear Market Indicator</td><td></td><td>69%</td></tr></table> Note: \\(100^{th}\\) percentile means these variables are at their highest level",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 30,
+      "tables_count": 0,
+      "numerical_data_count": 18,
+      "passages_count": 146,
+      "entities_count": 20
+    }
+  }
+}

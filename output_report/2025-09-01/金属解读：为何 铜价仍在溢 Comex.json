@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "1c9b705b8bd011e07022e2cd83f70b33",
+    "title": "GS Metals Explainer: Why is Comex Copper still trading at a Premium? GS 金属解读：为何 Comex 铜价仍在溢价交易？",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/GS/金属解读：为何 铜价仍在溢 Comex_2025-09-01",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:02:39.944430",
+      "extracted_at": "2025-10-26T12:02:39.944445"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 1,
+        "successful_pages": 1,
+        "date": "2025-09-01",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/GS",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 0,
+          "removed_paragraphs": 0,
+          "reduction_ratio": 0.023788150807899422
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/GS"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "02ae7d2a28daac84",
+      "text": "Question 1: What's happening in US Copper? Where is the arb currently",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1cfd54355b1a9640",
+      "text": "问题1：美国铜市场发生了什么？目前套利机会在哪里？",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "759d77a188eec3a5",
+      "text": "CMX Copper is still trading above LME (despite the glut of metal in the US, and the confirmation of no tariffs to be implemented on Copper cathode until at least 2027). Below is a run of the premium to CMX, in USD/MT, as of London Close on Friday.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b43c20fa2af4e5bc",
+      "text": "尽管美国金属供应过剩，并且已确认在至少2027年之前不会对电解铜实施关税，CMX铜价仍高于LME。以下为截至周五伦敦收盘时，CMX溢价（以美元/吨计）的走势。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f7e417577396d101",
+      "text": "Arb (USD/MT)套利（美元/吨）Arb (%)套利（%）U25810.8%Z251721.7%H262382.4%K262762.8%N263163.2%U263463.4%Z264204.2%",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e30449ea76f496cf",
+      "text": "Question 2: Where is the historical floor for the arb?",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c5a357f9b7ab799e",
+      "text": "The frogt CMX/LME arb made lows in 2008 at - 180, and traded down to - 150 usd/MT through- out 2018 as CMXinventories normalised and fell back off 15 year highs. In the absence of tariff threats, this level would be a reasonable floor given the elevated US inventories.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2b7ec130dd2bb9b5",
+      "text": "2008年，近月CMX/LME套利价差触及- 180的低点，2018年期间在- 150美元/吨附近交易，因为CMX库存恢复正常并从15年来的高位回落。在没有关税威胁的情况下，考虑到美国库存高企，这一水平将是一个合理的底部。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b94bca1eb858422f",
+      "text": "N.B., through the 2018 US destocking, the front of the LME copper curve was in backwardation (2018 was the second consecutive annual market deficit, with strong China refined import pull/a strong China Cathode premium). At the same time, the CMX copper was in steady contango through the period. This widened the dislocation in the front during the 2018 episode, which is distinct from the current regime (where both curves are in contango, so no clear inventory shortage in either location).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ee1251cad7d73525",
+      "text": "注意，在2018年美国去库存过程中，LME铜曲线的近月处于现货升水状态（2018年是连续第二年的年度市场短缺。中国精炼铜进口需求强劲/中国电解铜升水高企）。与此同时，CMX铜在出期间则保持稳定的近期https://marquee.gs.com/content/markets/en/2025/09/01/79787185- 8d43- 4e4- 0- 8e8a- 5b91e755b068. html",
+      "page": 0,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "647d9d40d2f6b32b",
+      "name": "CMX Copper",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "931cd16963b856d3",
+      "name": "China Cathode",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5fc0ecff107951df",
+      "name": "Comex Copper",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "07d5eb1c598fb4c3",
+      "name": "GS Metals",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "597c7e6f222e2d9c",
+      "name": "London Close",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fed32e9dfc64ba97",
+      "name": "US Copper",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "ef7164a5490fbd79",
+        "value": 0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "MT)</td><td>套利（美元/吨）</td><td>Arb (%)</td><td>套利（%）</td></tr><tr><td>U25</td><td>81</td><td></td><td>0.8%</td></tr><tr><td>Z25</td><td>172</td><td></td><td>1.7%</td></tr><tr><td>H26</td><td>238</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5481a65eff684c16",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>U25</td><td>81</td><td></td><td>0.8%</td></tr><tr><td>Z25</td><td>172</td><td></td><td>1.7%</td></tr><tr><td>H26</td><td>238</td><td></td><td>2.4%</td></tr><tr><td>K26</td><td>276</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5c308a74444ecf83",
+        "value": 0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>Z25</td><td>172</td><td></td><td>1.7%</td></tr><tr><td>H26</td><td>238</td><td></td><td>2.4%</td></tr><tr><td>K26</td><td>276</td><td></td><td>2.8%</td></tr><tr><td>N26</td><td>316</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "1b59746043d80415",
+        "value": 0.027999999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>H26</td><td>238</td><td></td><td>2.4%</td></tr><tr><td>K26</td><td>276</td><td></td><td>2.8%</td></tr><tr><td>N26</td><td>316</td><td></td><td>3.2%</td></tr><tr><td>U26</td><td>346</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "af7f4431e2fd11e5",
+        "value": 0.032,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>K26</td><td>276</td><td></td><td>2.8%</td></tr><tr><td>N26</td><td>316</td><td></td><td>3.2%</td></tr><tr><td>U26</td><td>346</td><td></td><td>3.4%</td></tr><tr><td>Z26</td><td>420</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "47da9277c39fc085",
+        "value": 0.034,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>N26</td><td>316</td><td></td><td>3.2%</td></tr><tr><td>U26</td><td>346</td><td></td><td>3.4%</td></tr><tr><td>Z26</td><td>420</td><td></td><td>4.2%</td></tr></table> Question 2: Where is t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d750c02ccea0311d",
+        "value": 0.042,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>U26</td><td>346</td><td></td><td>3.4%</td></tr><tr><td>Z26</td><td>420</td><td></td><td>4.2%</td></tr></table> Question 2: Where is the historical floor for the arb? 问题2：套利的历史底部在哪里？ The fr",
+        "provenance": {
+          "page": 0
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 0,
+      "tables_count": 0,
+      "numerical_data_count": 7,
+      "passages_count": 10,
+      "entities_count": 6
+    }
+  }
+}

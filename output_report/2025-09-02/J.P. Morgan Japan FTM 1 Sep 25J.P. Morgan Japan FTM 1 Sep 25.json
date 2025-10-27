@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "d4679e49a487b30de31c61b41a05c4be",
+    "title": "Top Stories",
+    "source_uri": "2025-09-02/J.P. Morgan Japan FTM 1 Sep 25J.P. Morgan Japan FTM 1 Sep 25_2025-09-02",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:32:31.687273",
+      "extracted_at": "2025-10-27T00:32:31.687287"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 5,
+        "successful_pages": 5,
+        "date": "2025-09-02",
+        "publication": "2025-09-02",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 2,
+          "reduction_ratio": 0.09281084266352391
+        },
+        "input_relative_path": "2025-09-02"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "41f0d995342eae86",
+      "text": "Japan Equity Strategy: Monthly Strategy (Rie Nishihara/Akira Kishimoto)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "908f300126e28024",
+      "text": "Japanese stocks rose sharply in August, and both the Nikkei 225 and TOPIX set record highs for the first time in a year. Some market participants are skeptical that this rise is sustainable given Japan's political instability and weak corporate earnings in the Apr- Jun quarter, but our view is different. As expectations for when the Fed/BOJ will cut/hike interest rates are brought forward, we believe Japanese stocks are appreciating in response to the market view that yen appreciation will remain moderate from the perspective of supply/demand conditions accompanying large- scale investments by Japanese corporations in the US. Japanese corporate earnings were weak in the Apr- Jun quarter, but management comments on tariff impact and countermeasures going forward point to less tariff impact than the market is pricing in, and we expect both corporate earnings guidance and consensus forecasts to switch direction and start rising. In Japanese politics, we think a change of administration is still the most likely outcome despite the Cabinet support rate's rally, and if the new administration has a majority in the Lower House, we believe political stabilization will be positive for the stock market. Our core strategy recommendations remain domestic demand and banks given the prospects we see for only gradual yen appreciation and for domestic economic recovery.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0a3f7bfedcfe53b4",
+      "text": "As of August 29, the total market cap of the nine companies we cover was down \\(0.7\\%\\) from end- July, underperforming TOPIX by 5.2ppt. We think one contributing factor was uncertain growth potential as many companies reported weak overseas sales in April- June. July data showed continued firm production and shipments for daily necessities with some exceptions, but continued weak shipments for cosmetics aside from UV care products. Cosmetics imports resumed a decline in July, but we think this alone does not suggest an easing of competition in the cosmetics market. Rather, we think competition could intensify due to a series of new product releases and major product renewals by domestic and overseas high- prestige brands in September.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9db0e526b2a6938e",
+      "text": "Pharmaceutical Sector (Seiji Wakao, Ph.D.)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "beac59624ac08ecb",
+      "text": "IQVIA updated its sales data (National Sales Perspectives, NSP) for July 2025 on August 29. We note that sales in the last month of a quarter tend to rise in NSP data. We thus view QoQ growth rates as more important for capturing trends than MoM growth rates. Figures 1- 57 show monthly data. See our report on Symphony Health's July sales data here. Refer to our weekly report (August 18- 22) for weekly prescription data trends.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b62cee8bdab88562",
+      "text": "ASKUL (2678) (Ami Terai) (2678 JP, UW)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "37b9f51b4e8efb6b",
+      "text": "August sales: As expected, special demand for heatstroke- related merchandise a tailwind",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5842090a6eb80e65",
+      "text": "Cosmetics & Personal Care (Japan) (Akiko Kuwahara)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9155eb1cf0ebd1b0",
+      "text": "DATA & NEWS: Supply and prices: Skincare and makeup shipments continued to decline in July",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9810e3eb3d8354da",
+      "text": "Pharmaceutical Sector (Seiji Wakao, Ph.D.)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "0dec87b3d451ff4a",
+      "text": "IQVIA sales data: July 2025",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "3a9cfeb65a87caa3",
+      "text": "Japan Equity Strategy: Monthly Strategy (Rie Nishihara/Akira Kishimoto)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "90b6681527a5147b",
+      "text": "Sustainability of Japanese stock rally: Politics, tariff impact, and corporate reforms",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e15855cf0b826dc4",
+      "text": "Japan Fixed Income Markets Weekly (Hiroki Yamamoto/Takafumi Yamawaki)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "fdc47ecda62b2117",
+      "text": "Japan Rates Topics (Hiroki Yamamoto)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5d48c33ea92fd17d",
+      "text": "JGB Futures Rollover Outlook (Sep 2025/Dec 2025): Meet our new friend, JJA",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "747d951d70dcbfb0",
+      "text": "Economics. - - Japan (Ayako Fujita)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5426a669804c2891",
+      "text": "Japan Focus: Tax and part- time labor supply (Takuho Morimoto)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4147aa93c5210153",
+      "text": "Japan: IP fell in July, while tech production still firm (Takuho Morimoto)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "18e0279d63aba520",
+      "text": "Japan: Mixed signs from July retail sales and Aug. sentiment (Takuho Morimoto)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8edddeaa3093535e",
+      "text": "Japan: Policy effects mask strong momentum in Aug Tokyo CPI (Ayako Fujita)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "c55f15fa33cea58b",
+      "text": "Current FYNext FYCompanyIncreasesOracle Japan (4716)+2.8%+5.6% JPY",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f73a75c38f8671fe",
+      "text": "Global Stock Guide | Other FTMs Page | J.P. Morgan Markets Page | Daily Economic Briefing | Global Data Watch | Global Data Watch - Asia | Flows & Liquidity | The J.P. Morgan View",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "f21297b7ba90f28b",
+      "text": "Visit J.P. Morgan Markets for more market- leading research and financial solutions across the full trade and investment lifecycle.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "648a34d3367bbbe4",
+      "text": "Click here to send your feedback.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "be7a6485548b302a",
+      "text": "You received this e- mail because the content matches one of your saved preferences.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "215af7889f35194c",
+      "text": "If you no longer wish to receive these e- mails then click here and unsubscribe from the Publication 'Japan First to Market'.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a9bc75aa0a5cf91a",
+      "text": "Should you need any further assistance, write to us.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "f32014b7fbaa7ffc",
+      "text": "For analyst certifications and important disclosures, please refer to the disclosure section at the end of the individual linked notes.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f82cab6907e174e9",
+      "text": "Research excerpts: This material may include excerpts from previously published reports. For access to the full reports, including analyst certification and important disclosures, please contact your sales representative or the covering analyst's team, or visit https://www.jpmorganmarkets.com.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e53b90eeacd84477",
+      "text": "J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7f12adcbd1e05ec9",
+      "text": "Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "907e6351914f5693",
+      "text": "This email communication is for informational purposes only. It is not intended as an offer or solicitation for the purchase or sale of any financial instrument or as an official confirmation of any transaction. Opinions, estimates and assumptions expressed herein are made as of the date of this communication and are subject to change without notice. This email communication has been prepared based upon information, including market prices, data and other information, believed to be reliable; however, J.P. Morgan does not warrant its completeness or accuracy. Past performance is not indicative of future results. Before making an investment decision regarding any security or company referred in this email communication, you should refer to the most recent published research for the views and analysis of the analyst, including the investment thesis and valuation and risk, regarding such security or company. Additional information is available upon request.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "14d3567218310855",
+      "text": "All research reports made available to clients are simultaneously available on our client website, J.P. Morgan Markets. Not all research content is redistributed, e- mailed or made available to third- party aggregators. For all research reports available on a particular stock, please contact your sales representative.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "3cb7caba3493714d",
+      "text": "Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7c8a6482f319eb0c",
+      "text": "J.P. Morgan's full disclaimer: https://markets.jpmorgan.com/research/disclosures",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "82eea4243b74c267",
+      "text": "Copyright 2025 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third- party (\"J.P. Morgan Data\") in any third- party artificial intelligence (\"AI\") systems or models when such J.P. Morgan Data is accessible by a third- party. It is permissible to use J.P. Morgan Data for internal business purposes only in an AI system or model that protects the confidentiality of J.P. Morgan Data so as to prevent any and all access to or use of such J.P. Morgan Data by any third- party.",
+      "page": 4,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "ba9a806b94382162",
+      "name": "Akiko Kuwahara",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "30c3758c4d89ac2f",
+      "name": "Akira Kishimoto",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "54c7f72258c53ff0",
+      "name": "Ami Terai",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a1512fb64418edd8",
+      "name": "Aug Tokyo",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4e509c199be1a1b9",
+      "name": "Ayako Fujita",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2bd56820a249ab0e",
+      "name": "Backing\n\nJapan",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2f50ff12f12e8dbc",
+      "name": "Company Views",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6f9478a6ff6e4a12",
+      "name": "Current FY",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0f1c852939ef7bac",
+      "name": "Daily Economic",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a535aad95ec9a7ca",
+      "name": "EPS Estimate",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "48b9ccafdea62f35",
+      "name": "Equity Strategy",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7991ba85eee9d8c2",
+      "name": "Global Data",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "503432850e6b3a95",
+      "name": "Global Stock",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "07d42face28adce2",
+      "name": "Hiroki Yamamoto",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8b476ff778119b8d",
+      "name": "Hong Kong",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c3028de8990ecbf5",
+      "name": "In Japanese",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7640ccbf987f7c06",
+      "name": "Income Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f97eddb17fb2feee",
+      "name": "JGB Futures",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "84d2cec409b84b5a",
+      "name": "JJA\n\nEconomics",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03f4ee2b735fb77f",
+      "name": "JPMorgan Chase",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "db23136f20869c16",
+        "value": 0.027999999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td></tr><tr><td>Increases</td><td></td><td></td></tr><tr><td>Oracle Japan (4716)</td><td>+2.8%</td><td>+5.6% JPY</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "9adb40477a80ce06",
+        "value": 0.055999999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>Increases</td><td></td><td></td></tr><tr><td>Oracle Japan (4716)</td><td>+2.8%</td><td>+5.6% JPY</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 0,
+      "tables_count": 0,
+      "numerical_data_count": 2,
+      "passages_count": 37,
+      "entities_count": 20
+    }
+  }
+}

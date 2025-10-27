@@ -1,0 +1,2165 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "73334ab5e0f4c6afd67bdfb0486942aa",
+    "title": "Morgan Stanley | RESEARCH",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/MS/亚洲经济研究 观点中美财政政策对比亚洲经济研究 观点中美财政政策对比_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:31:14.976996",
+      "extracted_at": "2025-10-26T12:31:14.977011"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 10,
+        "successful_pages": 10,
+        "date": "2025-08-29",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/MS",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 6,
+          "reduction_ratio": 0.4874622356495468
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/MS"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "6913a81db0731b0c",
+      "text": "August 29, 2025 02:43 AM GMT",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6d0069eaa004ad14",
+      "text": "新冠疫情之后，中美两国的公债债务比率均大幅度的上升，但带来不同的宏观影响。在中国，我们认为债务占GDP的比重仍在上升，而在美国，我们的全球宏观策略团队预计更高的宏观风险溢价将对美元造成贬值压力。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b1b914656085937c",
+      "text": "自疫情以来，中国和美国的公共债务比率分别飙升至各自的历史高位（除疫情期间），达到两个经济体GDP的 \\(119\\%\\) 中国在疫后保持了对投资的倾斜，而美国则增加了家庭转移支付，导致经济结果出现分化。中国已经历连续九个季度的通缩，而美国的通胀在过去四年一直高于目标水平。对中国而言，“反内卷”将有助于提高部分行业的定价能力，但总体而言可能帮助不大；持续通缩将使债务占GDP的比重不断上升。对于美国而言，财政政策的制定增加了整体政策的不确定性。较高的宏观风险溢价意味着美元或将保持疲软。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "73ec0ef8ec74e1fa",
+      "text": "在本报告中，我们分析了疫情后中国公共债务比率上升后的宏观经济结果，并将情况与美国进行了比较。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "794f1b950e3163d4",
+      "text": "Exhibit 1: 疫情以来，中国和美国的公共债务比率均显著上升",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6c89b8aeb9f53a84",
+      "text": "Exhibit 2: 中国和美国的财政赤字仍然很大",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a078a9d9fb52d0a2",
+      "text": "资料来源：Haver、CEIC、万得、摩根士丹利研究部预测",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c2efee30743639b3",
+      "text": "This translated report is made available for convenience only and is based on the original research report published in English. In the event of any discrepancy between the translation and the original research report, the content in the original research report will prevail. The original research report can be found here: Asia Economics: The Viewpoint: China - Contrasting Its Fiscal Policy with the US (26 Aug 2025).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6a8d238b1e535660",
+      "text": "本翻译报告仅供参考之便，基于以英文发表的原版研究报告。如果翻译与原版研究报告有任何不一致之处，以原版研究报告中的内容为准。原版研究报告可在此处查看：Asia Economics: The Viewpoint: China - Contrasting Its Fiscal Policy with the US (26 Aug 2025).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "5287568707e1810d",
+      "text": "MORGAN STANLEY ASIA LIMITED Chetan Ahya",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0260010fe0b2a89a",
+      "text": "MORGAN STANLEY ASIA (SINGAPORE) PTE",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "54f8a1fd4ab1857d",
+      "text": "MORGAN STANLEY ASIA LIMITED",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "86e0800489a47024",
+      "text": "For important disclosures, refer to the Disclosure Section, located at the end of this report.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6a10295d592e77ac",
+      "text": "中国和美国——公共债务自疫情以来已经走高……在过去五年中，我们看到中美两国公共债务占GDP的比重迅速上升，达到GDP的 \\(119\\%\\) 。需注意的是，这两个经济体的年龄中位数非常相似，均为39岁左右，这表明其人口负担相似。此外，本已庞大的赤字还在进一步扩大。摩根士丹利预测，2026年美国的财政赤字占GDP的比重将扩大至 \\(7.1\\%\\) （2025年为 \\(6.1\\%\\) ，参见US Public Policy: Fiscal Over the Finish Line，2025年7月15日），而中国的广义财政赤字将扩大至GDP的 \\(14\\%\\) （2025年为GDP的 \\(13\\%\\) ）。这意味着全球最大的两个经济体的财政赤字总额将达到5.1万亿美元。",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ac1deda437b72606",
+      "text": "……但宏观结果截然不同：但相似之处仅此而已。公共债务比率上升的很大一部分源于疫情后的应对措施——美国通过举债向家庭转移支付，而中国则通过举债进行投资。更重要的是，宏观结果存在明显的分化：",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a481591908159a43",
+      "text": "- 支出组合：在美国，疫情后赤字的扩大更多地来自于收入赤字（非资本支出，例如向家庭的转移支付）的扩大。相比之下，中国的广义财政赤字继续由资本支出推动。尽管最近消费相关措施有所加强，但我们尚未看到收入赤字大幅扩大（更多详情见下文）。",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8b4ac6d1d6a962eb",
+      "text": "Exhibit 3：在美国，疫后赤字扩大更多来自收入赤字的扩大",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ba1d1d1c76bbaa89",
+      "text": "Exhibit 4：相比之下，中国广义财政赤字主要是由资本支出造成",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "291cd116237f2f92",
+      "text": "资料来源：CEIC、万得、摩根士丹利研究部预测；注：对于资本赤字，我们考虑了1）预算内资本赤字，2）分配给基础设施的超长期特别国债发行，3）地方政府专项债，4）预算外项目（政策性银行贷款、土地出让净收入、地方政府融资平台债券和贷款）和5）地方债务置换。对于1）预算内资本赤字，我们根据国家预算资助的固定资产投资占预算内支出的比例对预算内财政赤字进行了分解。对于4）中的土地出让净收入，我们按国际货币基金组织的惯例，将土地出让总收入用0.42折算，以计入征地成本、对农民的补偿以及土地开发成本。",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "7b09a1712e6b4d39",
+      "text": "- 外部平衡：由于美国财政赤字的扩大主要是由收入赤字上升导致的，这使得经常账户赤字大幅扩大。相比之下，中国的财政政策支持资本支出，旨在促进制造业出口，而国内私人消费增长仍然疲软。这使得中国的经常项目顺差创14年新高。",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "f819a3636107e5a2",
+      "text": "Exhibit5：由于收入赤字扩大导致美国财政赤字扩大",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6747fc55b7319cbc",
+      "text": "资料来源：Haver、P摩根士丹利研究部预测",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0c8ea67f25d5c5cc",
+      "text": "Exhibit6：……导致经常账户赤字扩大；相比之下，由于缺乏再平衡，中国的经常账户一直保持盈余",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "39e26eb925cb7e62",
+      "text": "- 通胀：美国过去四年的通胀率高于目标水平，而中国则一直面临通缩压力，过去九个季度GDP平减指数处于负值区间，这反映了支出结构的差异。",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3433dc93e1525a5a",
+      "text": "Exhibit7：过去四年，美国核心PCE通胀率一直高于美联储 \\(2\\%\\) 的目标……",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e422fc07cbc69bfb",
+      "text": "Exhibit8：……而在中国，GDP平减指数在过去九个季度一直处于持续通缩状态",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4c74e8172a957dec",
+      "text": "资料来源：Haver、P摩根士丹利研究部",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1485ffa2980d84ab",
+      "text": "- 总体债务趋势：两个经济体的政府债务占GDP的比重都急剧上升。然而，美国私人债务占GDP的比重有所下降，而中国却没有，这反映了支出结构和通胀结果的差异。这意味着，与美国不同的是，中国的总体债务占GDP的比重仍在上升。",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "da9d9c36196a6b12",
+      "text": "Exhibit9：虽然这两个经济体的政府资产负债表的杠杆率都在上升……",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0fd45ee2a80339db",
+      "text": "Exhibit10：……支出结构和随之而来的通缩挑战意味着，与美国不同的是，中国私营部门债务占GDP的比重仍然很高……",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "7f58c951beaa36a9",
+      "text": "注：包括家庭和非金融企业债务。资料来源：Haver、摩根士丹利研究部",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "838abe9a6e8c7bc1",
+      "text": "美国财政赤字仍将保持高位：我们的全球经济团队就美国和其他发达市场经济体的债务可持续性问题撰写了大量文章。例如，在报告Flashing Yellow: DM Sovereign Debt & Fiscal Flashpoints（2024年4月11日）中，我们的全球首席经济学家Seth Carpenter指出，“在债务偿还成本上升的背景下，当前的财政赤字路径正在形成一种局面，使得债务与GDP的比率可能无法实现稳定。”在《大而美法案》（OBBBA）通过后，我们的美国首席经济学家Michael Gapen预计，2026年美国财政赤字将扩大至GDP的 \\(7.1\\%\\) （参见US Public Policy: Fiscal Over the Finish Line，2025年7月15日）。这一财政政策安排，加上来自贸易政策以及美国货币政策中期可预测性的不确定性，共同导致了负面的“政策溢价”。他们认为，“负的政策溢价将继续令美元承压，而且溢价可能进一步扩大，利空美元。”有关详细信息，请参阅Global Macro Strategist: At the Edge of Hot Summer, At the Threshold of a Larger Fall（2025年8月25日）以及G10 FX Strategy: The Post-April 2 Dollar（2025年4月24日）",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "91e7407960841bbf",
+      "text": "中国的财政状况——看不到整合的迹象：我们的中国团队还预计，中国的广义财政赤字将扩大1.6个百分点，在2025年达到GDP的 \\(13\\%\\) ，在2026年达到 \\(14\\%\\) 。由于中国的GDP平减指数自2023年第二季度以来持续处于通缩状态，名义GDP增长一直受到抑制。通缩环境导致企业利润和家庭收入增长疲软。反映这一点的是，工业利润占GDP的比重已从2022年第一季度 \\(11.5\\%\\) 的峰值下降至目前的 \\(8.8\\%\\) ，而城镇家庭收入增长已放缓至2025年第二季度的同比 \\(4.4\\%\\) 。这些趋势反过来对税收收入施加了下行压力。再加上房地产行业低迷导致土地出让收入持续疲软，政府预算收入和土地出让收入占GDP的比重从疫情前的 \\(22\\%\\) 下降4.6个百分点至目前的 \\(17.4\\%\\) 。快速浏览一下预算内财政余额还可以发现，自2021年12月以来预算内赤字扩大1.3个百分点全部是由收入占GDP比重的下降推动的，而支出受到收入状况的制约。",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5503f4df590c9308",
+      "text": "Exhibit 15: 通缩压力拖累了企业利润……",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "0ecd2b7051220983",
+      "text": "资料来源：CEIC、摩根士丹利研究部；注：为保证样本的一致性，我们采用了2013年的工业利润，并使用同比增长来扩展这个数据系列。",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ab6924919f325883",
+      "text": "Exhibit 16: ……企业纷纷削减工资增长，以应对利润率压力",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d34f79aecb135197",
+      "text": "美国财政赤字仍将保持高位：我们的全球经济团队就美国和其他发达市场经济体的债务可持续性问题撰写了大量文章。例如，在报告Flashing Yellow: DM Sovereign Debt & Fiscal Flashpoints（2024年4月11日）中，我们的全球首席经济学家Seth Carpenter指出，“在债务偿还成本上升的背景下，当前的财政赤字路径正在形成一种局面，使得债务与GDP的比率可能无法实现稳定。”在《大而美法案》（OBBBA）通过后，我们的美国首席经济学家Michael Gapen预计，2026年美国财政赤字将扩大至GDP的 \\(7.1\\%\\) （参见US Public Policy: Fiscal Over the Finish Line，2025年7月15日）。这一财政政策安排，加上来自贸易政策以及美国货币政策中期可预测性的不确定性，共同导致了负面的“政策溢价”。他们认为，“负的政策溢价将继续令美元承压，而且溢价可能进一步扩大，利空美元。”有关详细信息，请参阅Global Macro Strategist: At the Edge of Hot Summer, At the Threshold of a Larger Fall（2025年8月25日）以及G10 FX Strategy: The Post-April 2 Dollar（2025年4月24日）",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f0cedca93a8280fb",
+      "text": "中国的财政状况——看不到整合的迹象：我们的中国团队还预计，中国的广义财政赤字将扩大1.6个百分点，在2025年达到GDP的 \\(13\\%\\) ，在2026年达到 \\(14\\%\\) 。由于中国的GDP平减指数自2023年第二季度以来持续处于通缩状态，名义GDP增长一直受到抑制。通缩环境导致企业利润和家庭收入增长疲软。反映这一点的是，工业利润占GDP的比重已从2022年第一季度 \\(11.5\\%\\) 的峰值下降至目前的 \\(8.8\\%\\) ，而城镇家庭收入增长已放缓至2025年第二季度的同比 \\(4.4\\%\\) 。这些趋势反过来对税收收入施加了下行压力。再加上房地产行业低迷导致土地出让收入持续疲软，政府预算收入和土地出让收入占GDP的比重从疫情前的 \\(22\\%\\) 下降4.6个百分点至目前的 \\(17.4\\%\\) 。快速浏览一下预算内财政余额还可以发现，自2021年12月以来预算内赤字扩大1.3个百分点全部是由收入占GDP比重的下降推动的，而支出受到收入状况的制约。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "8c343e137ca90fcc",
+      "text": "Exhibit 15: 通缩压力拖累了企业利润……",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1800edf81ec8a6b6",
+      "text": "资料来源：CEIC、摩根士丹利研究部；注：为保证样本的一致性，我们采用了2013年的工业利润，并使用同比增长来扩展这个数据系列。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4fbfce899b34b183",
+      "text": "Exhibit 16: ……企业纷纷削减工资增长，以应对利润率压力",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "910f144b6212d837",
+      "text": "Exhibit 17: 这导致税收收入增长面临下行压力",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "efc0df7a527f8a0f",
+      "text": "Exhibit 18: 随着房地产市场持续低迷，政府收入占GDP的比重急剧下降",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "b3840736a29e5672",
+      "text": "资料来源：CEIC、摩根士丹利研究部预测；注：\\\\*我们按国际货币基金组织的惯例，将土地出让总收入以0.42折算，以计入征地成本、对农民的补偿以及土地开发成本。",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c8298256ed7176f9",
+      "text": "中国的政府支出结构仍然偏向资本支出，加剧了通缩挑战：如上文简要讨论，中国决策层当前采取的支出也仍然集中在资本相关支出。尽管政策制定者在近几个月加快推出与消费相关的宽松措施（见China Musings: Small Steps, Right Direction，2025年8月14日），但规模一直不足。我们预计中国广义财政赤字中超过四分之三仍与资本支出有关，只有四分之一与非资本（收入）支出有关。自2024年9月政策转向以来，我们预计在广义赤字扩大的2.8个百分点中有2.5个百分点来自资本支出。我们认为资本支出的持续倾斜使通缩挑战持续存在。",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "e891b8ceb0679c73",
+      "text": "Exhibit 19: 支出结构仍然偏向于资本支出……",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "2c22c3f931edf55c",
+      "text": "资料来源：CEIC、万得、摩根士丹利研究部预测；注：对于资本赤字，我们考虑了1）预算内资本赤字，2）分配给基础设施的超长期特别国债发行，3）地方政府专项债，4）预算外项目（政策性银行贷款、土地出让净收入、地方政府融资平台债券和贷款）和5）地方债务置换。对于1）预算内资本赤字，我们根据国家预算资助的固定资产投资占预算内支出的比例对预算内财政赤字进行了分解。对于4）中的土地出让净收入，我们按国际货币基金组织的惯例，将土地出让总收入用0.42折算，以计入征地成本、对农民的补偿以及土地开发成本。",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "902de070a9da040d",
+      "text": "Exhibit 20: ……使通缩挑战持续存在",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "90c435059d1f0abb",
+      "text": "资料来源：CEIC、万得、摩根士丹利研究部预测；注：对于资本赤字，我们考虑了1）预算内资本赤字，2）分配给基础设施的超长期特别国债发行，3）地方政府专项债，4）预算外项目（政策性银行贷款、土地出让净收入、地方政府融资平台债券和贷款）和5）地方债务置换。对于1）预算内资本赤字，我们根据国家预算资助的固定资产投资占预算内支出的比例对预算内财政赤字进行了分解。对于4）中的土地出让净收入，我们按国际货币基金组织的惯例，将土地出让总收入用0.42折算，以计入征地成本、对农民的补偿以及土地开发成本。",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "eef3871ef897500f",
+      "text": "人口趋势的减弱将带来额外的阻力：从结构性角度来看，中国不断恶化的人口统计数据也将意味着，在以供应为中心的增长模式下，潜在增长将放缓，而需求缺口将进一步扩大。人口老龄化也将意味着公共支出中的社会福利负担将加重。",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "24cf20be46a6830f",
+      "text": "\\(r - g\\) 动态一直是有利的：我们所描述的背景反映了我们已经谈论了一段时间的债务通缩循环（见Sunday Start: Risks of a Debt- Deflation Loop in China，2023年8月20日）。管理债务通缩循环的关键要素之一是管理利率与增长之差（ \\(r - g\\) ）。在这方面，中国的政策制定者一直很好地管理这一缺口，确保在增长下滑或通缩压力开始累积导致实际利率上升时及时降息。虽然在利率和增长率之间保持适当的差距有助于将经济保持在合理区间，但由于经济增长仍依赖于投资驱动，对抗债务通缩循环的斗争仍旷日持久。",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c7700ed3fe64fc1b",
+      "text": "Exhibit 21：决策层已及时开始降息··",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "77cc05b78d611a27",
+      "text": "Exhibit 22：……管理实际利率和实际GDP增长之间的合理差距",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e36b65cbf5d1a52c",
+      "text": "资料来源：CEIC、摩根士丹利研究部预测",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e7ad2bd949e80c6b",
+      "text": "反内卷会有帮助，但程度有限：最近，决策层的思路出现转变，开始接受“通缩是一个需要应对的挑战”的观点。鉴于近期的反内卷相关举措预计将在未来几个月内进一步加强，我们认为决策层将能成功遏制过度竞争，并提高部分行业的定价能力。然而，我们仍然认为反内卷政策努力的前提假设是通缩是行业层面供需失衡所带来的一个微观挑战。我们认为，鉴于我们已列举出的各种挑战，在宏观层面实现再通胀将具有挑战性（更多详细信息，请参阅The Viewpoint: China: Anti- Involution - The Antidote to Deflation? 2025年7月21日）。",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c03300e9faffdbc4",
+      "text": "需从根本上改变增长模式……如上所述，现有宏观经济环境所面临的挑战仍然是增长模式依旧向投资倾斜。",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "36c803b8e9bb1b65",
+      "text": "- 停止创造新的过剩产能，以避免加剧通缩挑战。换言之，显著放缓新投资的增速。",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "91bf30d181f46b0b",
+      "text": "- 削减/关闭现有过剩产能，使其更符合行业需求条件，确保合理的已动用资本回报。- 接受较低的实际GDP增长目标。这对于减轻地方政府促进投资高增长的压力是必要的。- 通过增加社会福利支出，特别是针对农民工的社会福利支出，刺激国内消费，从而实现更好的增长组合，以实现再平衡，帮助经济摆脱通缩，维护社会稳定。",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "4c48f05223e975a8",
+      "text": "……但进展有限：我们认为，由于以下根深蒂固的框架要点，决策层并未大举改变中国的经济增长模式：",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "b7ffc3ae2e0a5b3d",
+      "text": "1）投资创造资产，而消费则加重一国的债务负担：从长远来看，决策层更倾向于投资而非消费。在经济周期性疲软时期刺激投资需求一直是决策层的首选项。这是因为他们认为投资生产率更高，有助于在未来创造有形资产和就业机会，而为刺激消费而提高杠杆会给后代带来债务负担。",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "97f78e0624fe051f",
+      "text": "而我们的观点则是：如果政府对制造业和/或低回报的基础设施项目进行过度投资，也会导致后代的债务增加。事实上，这就是过去五年中出现的情况，总债务占GDP的比重上升了40个百分点，达到 \\(30.4\\%\\) 。",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c3a6fbf9c66c2129",
+      "text": "2）生产力增长只能通过投资来推动：此外，在劳动年龄人口减少的背景下，政府认为生产率的提高将发挥关键作用。为了促进生产率增长，保持高投资增长非常重要。",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "b2cbe9627f45966e",
+      "text": "而我们的观点则是：过度投资导致了持续通缩，削弱了全要素生产率增长，这也反映在企业利润下降上。",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "5d0ae12c16151ea8",
+      "text": "3）通过增加社会福利的结构性支出来刺激消费并不是应对周期性衰退的适当措施：此外，决策层认为经济放缓更多是周期性因素，而不是结构性因素，通过持续提高政府支出以支持社会福利来应对周期性放缓是不合适的。",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7b0a77e8518ca249",
+      "text": "而我们的观点则是：我们认为，由于人口结构恶化和房地产行业的结构性下滑，中国正面临结构性增长放缓。为了确保消费占GDP的比重持续上升，决策层需要增加社会福利支出。这将发挥重要作用。消费者以旧换新计划的一次性支持无法可持续地增加消费支出。",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "75f486afcebe27b8",
+      "text": "结论：我们认为，目前通过过度投资来支持实际GDP增长的做法将意味着产能过剩和持续的通缩压力。事实上，在增长模式发生持续转变之前，我们认为债务通缩循环可能会持续。",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "2242948e328f2f02",
+      "text": "For valuation methodology and risks associated with any recommendation, rating or price target referenced in this research report, please contact the Client Support Team as follows: US/Canada +1 800 303- 2495; Hong Kong +852 2848- 5999; Latin America +1 718 754- 5444 (U.S.); London +44 (0)20- 7425- 8169; Singapore +65 6834- 6860; Sydney +61 (0)2- 9770- 1505; Tokyo +81 (0)3- 6836- 9000. Alternatively you may contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d4f1cae185dc87ab",
+      "text": "Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflict policies. A Portuguese version of the policy can be found at www.morganstanley.com.br",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "b212add7ecae3802",
+      "text": "The trademarks and service marks contained in Morgan Stanley Research are the property of their respective owners. Third- party data providers make no warranties or representations relating to the accuracy, completeness, or timeliness of the data they provide and shall not have liability for any damages relating to such data. The Global Industry Classification Standard (GICS) was developed by and is the exclusive property of MSCI and S&P.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "1fdfbd4b4687cd0c",
+      "text": "Morgan Stanley Research, or any portion thereof may not be reprinted, sold or redistributed without the written consent of Morgan Stanley.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "a7d0aad57e3b50b4",
+      "text": "ndicators and trackers referenced in Morgan Stanley Research may not be used as, or treated as, a benchmark under Regulation EU 2016/1011, or any other similar framework.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "dd3ca9e49b05f41c",
+      "text": "The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (DIFC Branch), regulated by the Dubai Financial Services Authority (the DFSA) or by Morgan Stanley & Co. International plc (ADGM Branch), regulated by the Financial Services Regulatory Authority Abu Dhabi (the FSRA), and is directed at Professional Clients only, as defined by the DFSA or the FSRA, respectively. The financial products or financial services to which this research relates will only be made available to a customer who we are satisfied meets the regulatory criteria of a Professional Client. A distribution of the different MS Research ratings or recommendations, in percentage terms for Investments in each sector covered, is available upon request from your sales representative.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "c1ba2836705ba5dd",
+      "text": "The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (QFC Branch), regulated by the Qatar Financial Centre Regulatory Authority (the QFCRA), and is directed at business customers and market counterparties only and is not intended for Retail Customers as defined by the QFCRA. As required by the Capital Markets Board of Turkey, investment information, comments and recommendations stated here, are not within the scope of investment advisory activity. Investment advisory service is provided exclusively to persons based on their risk and income preferences by the authorized firms. Comments and recommendations stated here are general in nature. These opinions may not fit to your financial status, risk and return preferences. For this reason, to make an investment decision by relying solely to this information stated here may not bring about outcomes that fit your expectations.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "c639d1df221b0616",
+      "text": "Registration granted by SEBI and certification from the National Institute of Securities Markets (NISM) in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Investment in securities market are subject to market risks. Read all the related documents carefully before investing.",
+      "page": 9,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "5dc8f59a60c48918",
+      "name": "ADGM Branch",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ed49291dd8535b70",
+      "name": "Abu Dhabi",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1d16977f04cb860a",
+      "name": "Asia Economics",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f429d0e2d533a643",
+      "name": "Chetan Ahya",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c184cb2eaab39cb8",
+      "name": "Client Support",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c8c0d67137b1b25c",
+      "name": "Conflict Management",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0b15514a7b8f9688",
+      "name": "Contrasting Its",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dd23d5c75d42815c",
+      "name": "DIFC Branch",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "93fb14a728af9633",
+      "name": "DM Sovereign",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fecd7724f66f04f7",
+      "name": "Deflation Loop",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a61f722f0dae303e",
+      "name": "Disclosure Section",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8ed3fafbb18d7293",
+      "name": "Dubai Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "214758dd1ead1b9c",
+      "name": "FX Strategy",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f279b250fb9ccc9a",
+      "name": "Financial Services",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "26415a45e02c6a77",
+      "name": "Finish Line",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0e5b2f6fd4378a00",
+      "name": "Fiscal Flashpoints",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "02519fb672ccba36",
+      "name": "Fiscal Over",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": "Government debt to GDP (%)",
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-00",
+              "Jun-01",
+              "Jun-02",
+              "Jun-03",
+              "Jun-04",
+              "Jun-05",
+              "Jun-06",
+              "Jun-07",
+              "Jun-08",
+              "Jun-09",
+              "Jun-10",
+              "Jun-11",
+              "Jun-12",
+              "Jun-13",
+              "Jun-14",
+              "Jun-15",
+              "Jun-16",
+              "Jun-17",
+              "Jun-18",
+              "Jun-19",
+              "Jun-20",
+              "Jun-21",
+              "Jun-22",
+              "Jun-23",
+              "Jun-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 20,
+              "max": 140
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": "%",
+            "values": [
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              63,
+              70,
+              75,
+              80,
+              85,
+              90,
+              95,
+              100,
+              102,
+              104,
+              105,
+              106,
+              130,
+              115,
+              110,
+              115,
+              120,
+              122
+            ]
+          },
+          {
+            "name": "China (RS)",
+            "unit": "%",
+            "values": [
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              52,
+              55,
+              57,
+              65,
+              70,
+              72,
+              75,
+              78,
+              80,
+              81,
+              82,
+              83,
+              84,
+              81,
+              95,
+              100,
+              105,
+              110,
+              115,
+              119
+            ]
+          }
+        ],
+        "figure_id": "ed88467f283fb7bc",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": "Fiscal deficit (% of GDP, 12M trailing sum)",
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-14",
+              "Jul-15",
+              "Jul-16",
+              "Jul-17",
+              "Jul-18",
+              "Jul-19",
+              "Jul-20",
+              "Jul-21",
+              "Jul-22",
+              "Jul-23",
+              "Jul-24",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -20.0,
+              "max": 0.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US (federal deficit)",
+            "unit": "%",
+            "values": [
+              -2.8,
+              -2.9,
+              -3.0,
+              -3.2,
+              -3.5,
+              -4.7,
+              -18.0,
+              -12.0,
+              -4.0,
+              -8.0,
+              -7.0,
+              -6.4
+            ]
+          },
+          {
+            "name": "China (augmented fiscal deficit)",
+            "unit": "%",
+            "values": [
+              -8.5,
+              -10.0,
+              -14.0,
+              -12.0,
+              -13.0,
+              -13.9,
+              -19.5,
+              -12.0,
+              -10.0,
+              -12.0,
+              -13.1,
+              -12.5
+            ]
+          }
+        ],
+        "figure_id": "a9e451f36bbce40e",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": "US federal deficit (% of GDP, 4Q trailing sum)",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Mar-10",
+              "Mar-11",
+              "Mar-12",
+              "Mar-13",
+              "Mar-14",
+              "Mar-15",
+              "Mar-16",
+              "Mar-17",
+              "Mar-18",
+              "Mar-19",
+              "Mar-20",
+              "Mar-21",
+              "Mar-22",
+              "Mar-23",
+              "Mar-24",
+              "Mar-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -20,
+              "max": 0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Government deficit",
+            "unit": "%",
+            "values": [
+              -10.0,
+              -9.0,
+              -8.0,
+              -6.0,
+              -4.0,
+              -3.0,
+              -3.0,
+              -4.0,
+              -5.0,
+              -5.3,
+              -10.0,
+              -17.0,
+              -10.0,
+              -6.0,
+              -6.5,
+              -6.9
+            ]
+          },
+          {
+            "name": "Revenue deficit",
+            "unit": "%",
+            "values": [
+              -9.0,
+              -8.0,
+              -7.0,
+              -5.0,
+              -3.0,
+              -2.0,
+              -2.0,
+              -3.0,
+              -4.0,
+              -4.8,
+              -9.0,
+              -16.0,
+              -9.0,
+              -5.0,
+              -5.8,
+              -6.2
+            ]
+          },
+          {
+            "name": "Capital deficit",
+            "unit": "%",
+            "values": [
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0,
+              -0.5,
+              -1.0,
+              -1.0,
+              -1.0,
+              -1.0,
+              -0.8,
+              -0.8
+            ]
+          }
+        ],
+        "figure_id": "f3e5dcf197360e3c",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "China augmented fiscal balance (% of GDP, 12M trailing sum)",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-14",
+              "Jul-15",
+              "Jul-16",
+              "Jul-17",
+              "Jul-18",
+              "Jul-19",
+              "Jul-20",
+              "Jul-21",
+              "Jul-22",
+              "Jul-23",
+              "Jul-24",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -20,
+              "max": 0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Augmented fiscal deficit",
+            "unit": "%",
+            "values": [
+              -8.5,
+              -10.5,
+              -14.0,
+              -12.0,
+              -13.0,
+              -13.9,
+              -19.5,
+              -12.0,
+              -14.0,
+              -11.0,
+              -10.0,
+              -13.1
+            ]
+          },
+          {
+            "name": "Revenue deficit",
+            "unit": "%",
+            "values": [
+              -0.5,
+              -1.5,
+              -2.5,
+              -2.0,
+              -3.0,
+              -3.2,
+              -5.0,
+              -3.0,
+              -2.0,
+              -2.5,
+              -2.0,
+              -3.0
+            ]
+          },
+          {
+            "name": "Capital deficit",
+            "unit": "%",
+            "values": [
+              -9.0,
+              -10.0,
+              -12.0,
+              -10.0,
+              -10.5,
+              -10.7,
+              -14.0,
+              -9.0,
+              -10.0,
+              -8.0,
+              -7.5,
+              -10.1
+            ]
+          }
+        ],
+        "figure_id": "4894dde0d3b52a25",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "Fiscal deficit (% of GDP, 12M trailing sum)",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-14",
+              "Jul-15",
+              "Jul-16",
+              "Jul-17",
+              "Jul-18",
+              "Jul-19",
+              "Jul-20",
+              "Jul-21",
+              "Jul-22",
+              "Jul-23",
+              "Jul-24",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -20.0,
+              "max": 0.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US (federal deficit)",
+            "unit": "%",
+            "values": [
+              -2.8,
+              -2.9,
+              -3.0,
+              -3.5,
+              -3.8,
+              -4.7,
+              -16.0,
+              -8.0,
+              -6.0,
+              -7.5,
+              -6.8,
+              -6.4
+            ]
+          },
+          {
+            "name": "China (augmented fiscal deficit)",
+            "unit": "%",
+            "values": [
+              -8.5,
+              -10.0,
+              -14.0,
+              -12.0,
+              -10.0,
+              -13.9,
+              -19.0,
+              -10.0,
+              -16.0,
+              -12.0,
+              -10.0,
+              -13.1
+            ]
+          }
+        ],
+        "figure_id": "36e188a5b2322678",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": "Current account balance (% of GDP, 4Q trailing sum)",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-10",
+              "Jun-11",
+              "Jun-12",
+              "Jun-13",
+              "Jun-14",
+              "Jun-15",
+              "Jun-16",
+              "Jun-17",
+              "Jun-18",
+              "Jun-19",
+              "Jun-20",
+              "Jun-21",
+              "Jun-22",
+              "Jun-23",
+              "Jun-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -5.0,
+              "max": 5.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": "%",
+            "values": [
+              -2.8,
+              -2.7,
+              -2.5,
+              -2.0,
+              -1.7,
+              -1.8,
+              -2.0,
+              -2.2,
+              -2.3,
+              -2.1,
+              -2.1,
+              -2.8,
+              -3.5,
+              -3.0,
+              -3.5,
+              -4.6
+            ]
+          },
+          {
+            "name": "China",
+            "unit": "%",
+            "values": [
+              3.5,
+              3.0,
+              2.0,
+              2.8,
+              2.0,
+              2.8,
+              1.8,
+              1.0,
+              2.0,
+              0.7,
+              1.5,
+              2.5,
+              2.0,
+              1.0,
+              2.0,
+              3.3
+            ]
+          }
+        ],
+        "figure_id": "74f215d3630d1c87",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": "Core inflation (%Y)",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-10",
+              "Jul-11",
+              "Jul-12",
+              "Jul-13",
+              "Jul-14",
+              "Jul-15",
+              "Jul-16",
+              "Jul-17",
+              "Jul-18",
+              "Jul-19",
+              "Jul-20",
+              "Jul-21",
+              "Jul-22",
+              "Jul-23",
+              "Jul-24",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -1,
+              "max": 6
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US (core PCE)",
+            "unit": "%",
+            "values": [
+              1.4,
+              1.9,
+              1.5,
+              1.4,
+              1.5,
+              1.3,
+              1.6,
+              1.7,
+              1.9,
+              1.7,
+              0.9,
+              3.8,
+              5.6,
+              3.8,
+              2.8,
+              2.9
+            ]
+          },
+          {
+            "name": "China (core CPI)",
+            "unit": "%",
+            "values": [
+              1.0,
+              2.4,
+              1.9,
+              1.7,
+              1.6,
+              1.4,
+              1.5,
+              2.0,
+              2.5,
+              1.7,
+              0.5,
+              0.0,
+              0.8,
+              0.7,
+              0.2,
+              0.8
+            ]
+          }
+        ],
+        "figure_id": "8b18e5f0bb03f9df",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": "GDP deflator (%Y)",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-10",
+              "Jun-11",
+              "Jun-12",
+              "Jun-13",
+              "Jun-14",
+              "Jun-15",
+              "Jun-16",
+              "Jun-17",
+              "Jun-18",
+              "Jun-19",
+              "Jun-20",
+              "Jun-21",
+              "Jun-22",
+              "Jun-23",
+              "Jun-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -2,
+              "max": 8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": "%",
+            "values": [
+              1.1,
+              1.8,
+              2.3,
+              1.7,
+              1.6,
+              1.8,
+              0.8,
+              1.5,
+              2.5,
+              1.6,
+              0.8,
+              4.8,
+              7.8,
+              3.5,
+              2.5,
+              2.6
+            ]
+          },
+          {
+            "name": "China",
+            "unit": "%",
+            "values": [
+              6.8,
+              7.9,
+              3.5,
+              1.5,
+              2.8,
+              0.5,
+              -0.5,
+              4.5,
+              3.2,
+              1.8,
+              -0.5,
+              2.5,
+              5.5,
+              -0.5,
+              -1.0,
+              -1.2
+            ]
+          }
+        ],
+        "figure_id": "45261e65ec6e1a1f",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": "Government debt to GDP (%)",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-00",
+              "Jun-01",
+              "Jun-02",
+              "Jun-03",
+              "Jun-04",
+              "Jun-05",
+              "Jun-06",
+              "Jun-07",
+              "Jun-08",
+              "Jun-09",
+              "Jun-10",
+              "Jun-11",
+              "Jun-12",
+              "Jun-13",
+              "Jun-14",
+              "Jun-15",
+              "Jun-16",
+              "Jun-17",
+              "Jun-18",
+              "Jun-19",
+              "Jun-20",
+              "Jun-21",
+              "Jun-22",
+              "Jun-23",
+              "Jun-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 20,
+              "max": 140
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": "%",
+            "values": [
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62,
+              65,
+              75,
+              85,
+              95,
+              100,
+              103,
+              105,
+              106,
+              105,
+              104,
+              105,
+              106,
+              128,
+              120,
+              115,
+              118,
+              120,
+              119
+            ]
+          },
+          {
+            "name": "China (RS)",
+            "unit": "%",
+            "values": [
+              42,
+              45,
+              48,
+              50,
+              52,
+              54,
+              55,
+              56,
+              57,
+              70,
+              72,
+              75,
+              78,
+              80,
+              81,
+              82,
+              84,
+              86,
+              88,
+              90,
+              95,
+              100,
+              108,
+              115,
+              119,
+              122
+            ]
+          }
+        ],
+        "figure_id": "272dd8a787535d86",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": "Private debt to GDP (%)",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Mar-00",
+              "Mar-01",
+              "Mar-02",
+              "Mar-03",
+              "Mar-04",
+              "Mar-05",
+              "Mar-06",
+              "Mar-07",
+              "Mar-08",
+              "Mar-09",
+              "Mar-10",
+              "Mar-11",
+              "Mar-12",
+              "Mar-13",
+              "Mar-14",
+              "Mar-15",
+              "Mar-16",
+              "Mar-17",
+              "Mar-18",
+              "Mar-19",
+              "Mar-20",
+              "Mar-21",
+              "Mar-22",
+              "Mar-23",
+              "Mar-24",
+              "Mar-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 80,
+              "max": 200
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": "%",
+            "values": [
+              131,
+              135,
+              140,
+              145,
+              148,
+              155,
+              163,
+              169,
+              173,
+              170,
+              160,
+              155,
+              150,
+              148,
+              149,
+              150,
+              151,
+              152,
+              150,
+              150,
+              185,
+              165,
+              155,
+              148,
+              143,
+              140
+            ]
+          },
+          {
+            "name": "China (RS)",
+            "unit": "%",
+            "values": [
+              145,
+              142,
+              142,
+              148,
+              150,
+              145,
+              138,
+              137,
+              140,
+              145,
+              150,
+              152,
+              158,
+              162,
+              168,
+              175,
+              180,
+              183,
+              185,
+              183,
+              180,
+              182,
+              183,
+              184,
+              185,
+              185
+            ]
+          }
+        ],
+        "figure_id": "482e72bdfacdc0b1",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": "China industrial profit to GDP (12M trailing sum)",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-11",
+              "Jun-12",
+              "Jun-13",
+              "Jun-14",
+              "Jun-15",
+              "Jun-16",
+              "Jun-17",
+              "Jun-18",
+              "Jun-19",
+              "Jun-20",
+              "Jun-21",
+              "Jun-22",
+              "Jun-23",
+              "Jun-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 8.5,
+              "max": 12.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "China industrial profit to GDP (12M trailing sum)",
+            "unit": "%",
+            "values": [
+              11.2,
+              11.6,
+              10.7,
+              11.2,
+              11.3,
+              10.0,
+              9.8,
+              10.2,
+              10.9,
+              10.5,
+              9.0,
+              10.5,
+              11.5,
+              10.5,
+              9.2,
+              9.8,
+              9.0,
+              8.8
+            ]
+          }
+        ],
+        "figure_id": "795d41bb9bd247be",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": "China (%Y)",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-19",
+              "Dec-19",
+              "Jun-20",
+              "Dec-20",
+              "Jun-21",
+              "Dec-21",
+              "Jun-22",
+              "Dec-22",
+              "Jun-23",
+              "Dec-23",
+              "Jun-24",
+              "Dec-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 2,
+              "max": 12
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Urban household disposable income",
+            "unit": "%",
+            "values": [
+              8.0,
+              7.9,
+              2.0,
+              5.5,
+              12.0,
+              5.7,
+              2.0,
+              3.0,
+              7.0,
+              4.7,
+              4.0,
+              4.9,
+              4.4
+            ]
+          },
+          {
+            "name": "Nominal GDP growth",
+            "unit": "%",
+            "values": [
+              7.8,
+              7.1,
+              2.0,
+              11.8,
+              10.5,
+              10.0,
+              3.8,
+              5.8,
+              5.8,
+              4.2,
+              4.0,
+              4.8,
+              3.9
+            ]
+          }
+        ],
+        "figure_id": "a3120de5cf42f98f",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": "China industrial profit to GDP (12M trailing sum)",
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-11",
+              "Jun-12",
+              "Jun-13",
+              "Jun-14",
+              "Jun-15",
+              "Jun-16",
+              "Jun-17",
+              "Jun-18",
+              "Jun-19",
+              "Jun-20",
+              "Jun-21",
+              "Jun-22",
+              "Jun-23",
+              "Jun-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 8.5,
+              "max": 12.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "China industrial profit to GDP (12M trailing sum)",
+            "unit": "%",
+            "values": [
+              11.2,
+              11.6,
+              10.7,
+              11.1,
+              11.3,
+              10.8,
+              10.0,
+              9.8,
+              9.9,
+              10.5,
+              10.9,
+              10.5,
+              9.0,
+              10.0,
+              11.5,
+              11.0,
+              9.3,
+              9.8,
+              9.0,
+              8.8
+            ]
+          }
+        ],
+        "figure_id": "e31ab83e6fca0faf",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": "China (%Y)",
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-19",
+              "Dec-19",
+              "Jun-20",
+              "Dec-20",
+              "Jun-21",
+              "Dec-21",
+              "Jun-22",
+              "Dec-22",
+              "Jun-23",
+              "Dec-23",
+              "Jun-24",
+              "Dec-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 2,
+              "max": 12
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Urban household disposable income",
+            "unit": "%",
+            "values": [
+              8.0,
+              7.9,
+              2.0,
+              5.6,
+              12.0,
+              5.8,
+              2.0,
+              3.0,
+              7.1,
+              4.5,
+              4.8,
+              4.9,
+              4.4
+            ]
+          },
+          {
+            "name": "Nominal GDP growth",
+            "unit": "%",
+            "values": [
+              7.9,
+              7.2,
+              2.0,
+              11.8,
+              10.5,
+              10.2,
+              3.9,
+              5.8,
+              5.8,
+              4.1,
+              4.0,
+              4.7,
+              3.9
+            ]
+          }
+        ],
+        "figure_id": "f1d3b3435c257421",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": "China (% GDP, 12M trailing sum)",
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-18",
+              "Jul-19",
+              "Jul-20",
+              "Jul-21",
+              "Jul-22",
+              "Jul-23",
+              "Jul-24",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 17,
+              "max": 25
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "General govt revenue + net land sales proceeds",
+            "unit": "%",
+            "values": [
+              23.2,
+              22.0,
+              21.0,
+              21.7,
+              18.0,
+              19.0,
+              17.5,
+              17.4
+            ]
+          },
+          {
+            "name": "General govt expenditure",
+            "unit": "%",
+            "values": [
+              23.7,
+              24.0,
+              23.0,
+              22.2,
+              21.0,
+              21.2,
+              21.0,
+              21.0
+            ]
+          }
+        ],
+        "figure_id": "a070c69cec446ca1",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": "China augmented fiscal balance (% of GDP, 12M trailing sum)",
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-14",
+              "Jul-15",
+              "Jul-16",
+              "Jul-17",
+              "Jul-18",
+              "Jul-19",
+              "Jul-20",
+              "Jul-21",
+              "Jul-22",
+              "Jul-23",
+              "Jul-24",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -20,
+              "max": 0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Augmented fiscal deficit",
+            "unit": "%",
+            "values": [
+              -8.5,
+              -10.0,
+              -13.5,
+              -12.0,
+              -11.0,
+              -13.9,
+              -20.0,
+              -12.0,
+              -16.0,
+              -12.0,
+              -10.0,
+              -13.1
+            ]
+          },
+          {
+            "name": "Revenue deficit",
+            "unit": "%",
+            "values": [
+              -0.5,
+              -1.5,
+              -2.5,
+              -2.0,
+              -3.0,
+              -3.2,
+              -5.0,
+              -2.0,
+              -3.0,
+              -2.0,
+              -2.5,
+              -3.0
+            ]
+          },
+          {
+            "name": "Capital deficit",
+            "unit": "%",
+            "values": [
+              -9.0,
+              -11.0,
+              -12.0,
+              -10.0,
+              -10.0,
+              -10.7,
+              -14.0,
+              -9.0,
+              -11.0,
+              -9.0,
+              -8.0,
+              -10.1
+            ]
+          }
+        ],
+        "figure_id": "ae38d8c5fbc9a072",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Expansion in augmented fiscal deficit since Aug-24 (pp)",
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Augmented fiscal deficit expansion",
+              "Of which: driven by revenue deficit expansion",
+              "Of which: driven by capital deficit expansion"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -3.0,
+              "max": 0.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Fiscal Deficit Expansion",
+            "unit": "%",
+            "values": [
+              -2.8,
+              -0.2,
+              -2.5
+            ]
+          }
+        ],
+        "figure_id": "51ec656adc0edc9e",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": "China 7-day reverse repo rate (%)",
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Dec-23",
+              "Mar-24",
+              "Jun-24",
+              "Sep-24",
+              "Dec-24",
+              "Mar-25",
+              "Jun-25",
+              "Sep-25",
+              "Dec-25",
+              "Mar-26",
+              "Jun-26",
+              "Sep-26",
+              "Dec-26"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 1.2,
+              "max": 1.9
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "China 7-day reverse repo rate",
+            "unit": "%",
+            "values": [
+              1.8,
+              1.8,
+              1.8,
+              1.7,
+              1.5,
+              1.5,
+              1.4,
+              1.4,
+              1.25,
+              1.25,
+              1.25,
+              1.25,
+              1.25
+            ]
+          }
+        ],
+        "figure_id": "eb418823eb80bbe7",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": "China",
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Dec-19",
+              "Dec-20",
+              "Dec-21",
+              "Dec-22",
+              "Dec-23",
+              "Dec-24",
+              "Dec-25",
+              "Dec-26"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -8,
+              "max": 12
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "China real policy rate (%, adjusted for GDP deflator)",
+            "unit": "%",
+            "values": [
+              0.5,
+              2.5,
+              -3.0,
+              2.0,
+              3.0,
+              2.5,
+              2.0,
+              1.7
+            ]
+          },
+          {
+            "name": "Real GDP growth (%Y)",
+            "unit": "%",
+            "values": [
+              6.5,
+              -7.0,
+              5.0,
+              4.0,
+              6.0,
+              5.2,
+              4.5,
+              4.6
+            ]
+          },
+          {
+            "name": "r-g",
+            "unit": "%",
+            "values": [
+              -6.0,
+              7.5,
+              -8.0,
+              -2.0,
+              -3.0,
+              -2.6,
+              -2.5,
+              -2.9
+            ]
+          }
+        ],
+        "figure_id": "d310417dfe9a8178",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 19,
+      "tables_count": 0,
+      "numerical_data_count": 0,
+      "passages_count": 74,
+      "entities_count": 20
+    }
+  }
+}

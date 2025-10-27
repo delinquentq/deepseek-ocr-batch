@@ -1,0 +1,970 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "f50f112436b0f1a25ced1d9e4153f509",
+    "title": "EVERCORE ISI",
+    "source_uri": "2025-08-30/SLIDES - Daryananis Data Download - Wknd Edition.SLIDES - Daryananis Data Download - Wknd Edition._2025-08-30",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:15:14.429933",
+      "extracted_at": "2025-10-27T00:15:14.429944"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 16,
+        "successful_pages": 16,
+        "date": "2025-08-30",
+        "publication": "2025-08-30",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.13278535151029136
+        },
+        "input_relative_path": "2025-08-30"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "2689adbc12294576",
+      "text": "Technology | IT Hardware & Networking",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4424588f5875e651",
+      "text": "Please see the analyst certification and important disclosures on page 14 of this report. Evercore ISI and affiliates do and seek to do business with companies covered in its research reports. Investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. © 2025. Evercore Group L.L.C. All rights reserved.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9a2e2a167ca24f31",
+      "text": "Technology | IT Hardware",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b291e0d05228ce6b",
+      "text": "Amit DaryananiSenior Managing Director, IT Hardware & Networking Analyst",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a6bd72a4562e23f7",
+      "text": "Irvin Liu Victor Santiago Hannah Liu Director . Senior Associate Associate",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "c63e2c98180346ba",
+      "text": "- High level – 1) Servers are weak – esp in Americas. 2) PCs – are OK, but HP > DELL. 3) Storage – Remains stable to strong esp on AFA side, 4) AI spend – NO END IN SIGHT.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "2a54c81061f5470d",
+      "text": "- DELL – Sizable sell off post print. Fear is AI empty calories. Message from dell @ core is – AI is going GREAT but rest of biz is struggling. Focus will be on how do we get margins up 250bps in H2 vs. H1 – Need server recovery + 1x costs going away + storage seasonality.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "733816649f06db34",
+      "text": "- psTG – Neck sprain – The vertical move of the stock was notable. Though we think some of this reflective of negative position into the print. My 2c → New CFO, so for you to guide for a notable acceleration in H2 things have to be really ramping up much better. Focus shifts to Accelerate + tech differentiation.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6c642670de800ab9",
+      "text": "- NTAP – steady as it goes, AFA weakness at +6% was notable but driven by public + EMEA... ex that we think AFA growth around 10%+. Room to raise guide next QTR.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b39e46597fd3e140",
+      "text": "- HPQ – Ramp up on PC should sustain, question will be on H2 duablity. Also Print continues to hold up fairly well on margins esp. FCF will be the focus in H2.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8ffce731dd1cfa26",
+      "text": "1. ECO - ISM Manufacturing - Tues. 2nd",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "8d5a772935974bae",
+      "text": "2. ECO - Durable Orders - Wed. 3rd",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "c8bf228b9eb727e3",
+      "text": "3. HPE - Hewlett Packard Enterprise Q2:25 EPS - Wed. 3rd",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5659e1d4b2da6a15",
+      "text": "4. CRDO - Credo Technology Q1:26 EPS - Wed. 3rd",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "298b7939a35dfb59",
+      "text": "5. ECO - ADP Employment Survey - Thu. 4th",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a28d68d36487dc30",
+      "text": "6. CIEN - Ciena Q3:25 EPS - Thu. 4th",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3dc90c15464cd68e",
+      "text": "7. AVGO - Broadcom Q3:25 EPS - Thu. 4th",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "20a005d305ef91ee",
+      "text": "8. ECO - Payrolls - Fri. 5th",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "eda5f2580f15df67",
+      "text": "- PSTG and STX were the top performers this week, up \\(+41.4\\%\\) and \\(+8.6\\%\\) , respectively.- DELL and FFIV were the lowest performers this week, down \\(-6.3\\%\\) and \\(-0.9\\%\\) , respectively.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b5705b0f51b97b7c",
+      "text": "1. IT Hardware/Networking – Key Highlights From Day 1 of The EVR ISI Semiconductor, IT Hardware & Networking Conference. 8/27",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "184ff0536c49e5b9",
+      "text": "2. IT Hardware/Networking – Lateral Reads from NVDA Jul -qtr EPS. 8/27",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8bb8ad380f916352",
+      "text": "3. IT Hardware/Networking – Key Highlights From Day 2 of The EVR ISI Semiconductor, IT Hardware & Networking Conference. 8/28",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "85c5f9d0be5452d7",
+      "text": "4. VRT – Thinking Through the Acquisition of Waylay NV. 8/26",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c2f93bdf21805c70",
+      "text": "5. DELL – Michael’s Long Game in Infrastructure, UPSIDE AHEAD. 8/28",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "ed9116bf30654ff0",
+      "text": "ANET - Multiple Ways To Win: We met with Brendan Gibbs (Area VP, Product Line Management) and Rudolph Araujo (Senior Director of Marketing & Investor Advocacy). During investor meetings, ANET highlighted their multi- vector growth outlook for 2025 (+25%) driven by front end (customers looking to refresh/invest in front end infra), backend (expect to exceed \\(\\) 1.5B\\(AI networking target with strength across key customers + neocodus), and campus/enterprise opportunities. Management also indicated that they are cautiously optimistic on the scale up opportunity for ethernet. While ANET has not quantified this opportunity, they see potential for it to be meaningful in 2027 (especially if there is more compute silicon diversity). Finally, we think enterprise remains a source of upside and notably that will extend beyond the campus opportunity.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "d07a7fbc4c520e9e",
+      "text": "Scale Up Opportunity for Ethernet: Although ANET has not quantified this opportunity, they view it as interesting market particularly if the industry sees some level of silicon diversity in AI beyond NVDA (NVLink currently the de facto standard in scale up). Cloud titans and other compute vendors are developing custom silicon and prefer to use a non- proprietary solution for scale- up. The company currently does not have an announced product related to scale up ethernet and does not expect the opportunity to be meaningful until 2027 at the earliest (IB was once the standard for scale out and that has shifted to ethernet; there is potential for a similar dynamic to occur within scale up). Tomahawk 6 might be a good option for non- NVLink scale up as well - ANET indicated that there are limited sales related to T6 but expects shipments to occur in H2:26 and for revenue to potentially ramp in 2027. Worth noting that cloud titan customers have not made the decision on scale up ethernet vs. other solutions such as UALink.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "d9ab41ffe3cb2c4d",
+      "text": "CDW- Prudent FY25 Guide; Multiple Upside Levers Ahead: We met with AI Miralles (CFO), Steven O'Brien (VP of IR), and Dan Cartwright. Management characterized growth in the last quarter as broadly balanced, with durable performance in networking and storage and server demand concentrated in large enterprises. Client devices delivered a sixth consecutive quarter of growth, driven primarily by the Windows 11 refresh rather than AI PCs—though management noted there is more room for growth with elevated ASPs as TTM PC revenue is \\(\\sim \\$ 6.7B\\) versus a \\(\\$ 8.2B\\) peak. SMB spending remains resilient but focused on devices and cloud, while corporate demand is broader across solutions and services. Federal remains uneven with strength in Defense while Civilian is weaker. Gross margin for the full year is expected to hold in the \\(\\sim 22\\%\\) range (street at \\(21.6\\%\\) ) while full- year FCF conversion is targeted at \\(80 - 90\\%\\) . In terms of capital allocation, the company is focusing on services- led M&A and opportunistic buybacks within balance- sheet discipline.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "2f99c8295bc5dfd6",
+      "text": "Infrastructure and Storage Strength: Networking and storage remain durable categories with broad- based growth. Server demand for the company has been concentrated in large enterprises while other channels have yet to show the same breadth of server demand—and management indicated hopes of stronger and broader demand across customers in the coming quarters.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "4c6ee5d0bd6bbe76",
+      "text": "Federal Demand Remains Choppy: While State and Local remain steady, federal spending patterns remain choppy—especially in civilian agencies which is based on headcount. Defense demand, however, has been more stable. CDW expects federal friction to persist through H2, though there could be some upside if stabilization comes sooner. In the long term, DOGE efficiency needs should support more technology spending and management remains confident in being a partner for government customers as dynamics normalize.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "b319aadb970616fd",
+      "text": "STX - HAMRing Home- Durable Growth in the Al Era: We met with Gianluca Romano (Executive Vice President & CFO) and Shayne Hudson (SVP, IR). We walked away from the meeting feeling more positive about the company's positioning in the HDD market long- term roadmap. Specifically, STX is leaning into its leadership in HAMR technology, having already qualified three major cloud customers and expecting to qualify all top seven by next summer. Demand in the cloud segment remains strong with visibility extending 3- 4 quarters through BTO, while constrained supply ensures everything produced is sold, even as some demand shifts forward into future quarters. Margins are expected to expand with favorable mix and scale as HAMR adoption accelerates, while cost discipline, streamlined R&D, and a stable balance sheet support the company's commitment to returning \\(75\\%\\) of FCF to shareholders. Longer term, Al and video workloads are reinforcing the structural role of HDDs in data architectures, with \\(\\sim 90\\%\\) of data expected to remain on disk.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "bc565d83702427c9",
+      "text": "WDC- Favorable Dynamics Stacking Up: We met with Ambrish Srivastava (VP, IR) and Amitesh Bajad (Director, IR). The company noted that visibility has improved with LTAs now in place with all top five hyperscalers into H1:26 (two extending into FY27). Notably, the HDD market is structurally different from previous cycles and showing better pricing than the \\(\\sim 7\\%\\) ASP base case decline outlined at their Investor Day. Not only has capacity tightened (\\~50M units vs. \\(\\sim 80M\\) during the peak), but the market is also shifting to EB- based terms. WDC also provided an update on HAMR, and that areal density development is ahead of plan. Though it's worth noting, that the company is also expanding their UltraSMR products - which provides \\(\\sim 20\\%\\) capacity uplift at no incremental cost. WDC expects UltraSMR to make up \\(\\sim 50\\%\\) of nearline by end- CY25, which should be margin accretive—though there may be some variability sequentially due to customer implementation and timing. Longer term, HDD growth is expected to remain favorable as they remain essential for cloud storage (\\~85% of data) alongside SSDs in tiered AI/inferencing architectures. On the balance sheet and cash flow side, WDC intends to sell its remaining SanDisk shares by February as it delivers toward 1- 1.5x net leverage and return 100% of excess cash over time.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "7b2c998c9de2ada0",
+      "text": "ALL YOU NEED TO KNOW: We had the opportunity to meet with several executives from MSI's management team including CEO Greg Brown, CFO Jason Winkler, Jack Molloy (COO), Uygar Gazioglu (SVP - Treasurer, Tax & IR), and Tim Yocum/Vicki Tzolov from Investor Relations at their HQ. During the event, MSI discussed attractive opportunities for the company presented by the recent \\$4.4B acquisition of Silvus (which was completed earlier this month), strong demand/budget backdrop across public sector customers (and potential tailwinds form OBBBA), product innovation-led growth across all three technologies, margin expansion levers (despite tariff headwinds), and M&A framework among other topics. We walked away from the meetings with incremental confidence in overall end demand fundamentals and MSI's ability to accelerate product orders growth in H2 (these were two key concerns for investors). More importantly, the meetings reinforced our view that Silvus will be a transformative asset for MSI that will provide the company with a more entrenched position in the defense vertical. Sticking with OP rating and raising target to \\$525 to reflect our more positive stance on the company's NT and LT growth prospects within their core businesses and Silvus.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "c82bcb2f827d9c1f",
+      "text": "Attractive Accretion from Silvus in CY26 Despite Need to Invest: Silvus currently generates \\$475M in annual revenue for CY25 should grow \\(\\sim 20\\%\\) in 2026 (despite expectations for lower Ukraine- related revenue). The asset is expected to be EPS neutral and \\(\\sim \\$ 0.20\\) accretive EPS next year despite incremental headcount investments needed to build sales headcount for federal, international go- to- market, government affairs, and R&D organizations. Silvus should benefit from being under the Motorola umbrella and be able to leverage the acquirer's global presence (120 countries) and relationships with defense customers. Currently, Silvus is mostly a product company; MSI sees potential wrap software/services as part of Silvus's offering in the future.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "5211014452c01686",
+      "text": "Initial claims improved a touch this week, remaining in a sideways trend. But with both the hires rate and quits rate moving lower, the labor market is showing some signs of moderation. Stan Shipley estimates payroll employment increases +115k in Aug.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "e5e461166d6aef94",
+      "text": "(Article 3(1)e and Article 7 of MAR)",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "c9ae80e25b8d12ee",
+      "text": "Time of dissemination: August 30 2025 12:00 PM ET",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "1a514f865fd0b0c1",
+      "text": "Evercore ISI's recommendations are based on a stock's total forecasted return over the next 12 months. Total forecasted return is equal to the expected percentage price return plus gross dividend yield. We divide our stocks under coverage into three primary ratings categories, with the following return guidelines:",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "973941f54f2b37eb",
+      "text": "Outperform- the total forecasted return is expected to be greater than the expected total return of the analyst's coverage sector. In Line- the total forecasted return is expected to be in line with the expected total return of the analyst's coverage sector. Underperform- the total forecasted return is expected to be less than the expected total return of the analyst's coverage sector. Coverage Suspended- the rating and target price have been removed pursuant to Evercore ISI policy when Evercore is acting in an advisory capacity in a merger or strategic transaction involving this company and in certain other circumstances. Rating Suspended- Evercore ISI has suspended the rating and target price for this stock because there is not sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, a rating or target price. The previous rating and target price, if any, are no longer in effect for this company and should not be relied upon.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "f78eb01e03c50cfe",
+      "text": "\"Prior to October 10, 2015, the \"Coverage Suspended\" and \"Rating Suspended\" categories were included in the category \"Suspended.\"",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "1f9e9c61ad91ed06",
+      "text": "FINRA requires that members who use a ratings system with terms other than \"Buy,\" \"Hold/Neutral\" and \"Sell\" to equate their own ratings to these categories. For this purpose, and in the Evercore ISI ratings distribution below, our Outperform, In Line, and Underperform ratings can be equated to Buy, Hold and Sell, respectively.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "3e04b00ae5ef3168",
+      "text": "Evercore ISI rating (as of 08/29/2025)",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "012c529a3dcbdab3",
+      "text": "Coverage UniverseInvestment Banking Services I Past 12 MonthsRatingsCountPct.RatingsCountPct.Buy44559Buy5111Hold27036Hold145Sell132Sell00Coverage Suspended182Coverage Suspended633Rating Suspended61Rating Suspended467",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "3d8e43180c4ea6a9",
+      "text": "Issuer-Specific Disclosures (as of August 29, 2025)",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "7fe3dbfc775a1cc0",
+      "text": "This report is approved and/or distributed by Evercore Group L.L.C. (\"Evercore Group\"), a U.S. licensed broker-dealer regulated by the Financial Industry Regulatory Authority (\"FINRA\") and by International Strategy & Investment Group (UK) Limited (\"ISI UK\"), which is authorized and regulated in the United Kingdom by the Financial Conduct Authority. The institutional sales, trading and research businesses of Evercore Group and ISI UK collectively operate under the global marketing brand name Evercore ISI (\"Evercore ISI\"). Both Evercore Group and ISI UK are subsidiaries of Evercore Inc. (\"Evercore\"). The trademarks, logos and service marks shown on this report are registered trademarks of Evercore Inc.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "80e63a68b925b158",
+      "text": "This report is provided for informational purposes only and subject to additional restrictions contained in this disclosure. It is not to be construed as an offer to buy or sell or a solicitation of an offer to buy or sell any financial instruments or to participate in any particular trading strategy in any jurisdiction. The information and opinions in this report were prepared by employees of affiliates of Evercore. The information herein is believed by Evercore ISI to be reliable and has been obtained from public sources believed to be reliable, but Evercore ISI makes no representation as to the accuracy or completeness of such information.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "07e5d0280e30c842",
+      "text": "Opinions, estimates and projections in this report constitute the current judgment of the author as of the date of this report. They do not necessarily reflect the opinions of Evercore or its affiliates and are subject to change without notice. In addition, opinions, estimates and projections in this report may differ from or be contrary to those expressed by other business areas or groups of Evercore and its affiliates.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "aa867344d50d4203",
+      "text": "Evercore ISI has no obligation to update, modify or amend this report or to otherwise notify a reader thereof in the event that any matter stated herein, or any opinion, projection, forecast or estimate set forth herein, changes or subsequently becomes inaccurate. Facts and views in Evercore ISI research reports and notes have not been reviewed by, and may not reflect information known to, professionals in other Evercore affiliates or business areas, including investment banking personnel. Evercore ISI salespeople, traders and other professionals may provide oral or written market commentary or trading strategies to our clients that reflect opinions that are contrary to the opinions expressed in this research.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "e745da590e618054",
+      "text": "Our asset management affiliates and investing businesses may make investment decisions that are inconsistent with the recommenda-tions or views expressed in this research.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "7f02df361e637683",
+      "text": "Evercore ISI does not provide individually tailored investment advice in research reports. The financial instruments discussed in this report are not suitable for all investors and investors must make their own investment decisions using their own independent advisors as they believe necessary and based upon their specific financial situations and investment objectives. This report has been prepared without regard to the particular investment strategies of financial, tax or other personal circumstances of the recipient. Nothing in this report constitutes investment, legal, accounting or tax advice, or a representation that any investment or strategy is suitable or appropriate to the recipient's individual circumstances, or otherwise constitutes a personal recommendation to the recipient. None of Evercore Group or its affiliates will treat any recipient of this report as its customer by virtue of the recipient having received this report.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "8cb02dc8140a1bc9",
+      "text": "Securities and other financial instruments discussed in this report, or recommended or offered by Evercore ISI, are not insured by the Federal Deposit Insurance Corporation and are not deposits of or other obligations of any insured depository institution. If a financial instrument is denominated in a currency other than an investor's currency, a change in exchange rates may adversely affect the price or value of, or the income derived from the financial instrument, and such investor effectively assumes such currency risk. In addition, income from an investment may fluctuate and the price or value of financial instruments described in this report, either directly or indirectly, may rise or fall. Estimates of future performance are based on assumptions that may not be realized. Furthermore, past performance is not necessarily indicative of future performance.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "6476f7724ec7cff4",
+      "text": "Please note that this report was prepared for and distributed by Evercore ISI to its institutional investor and market professional customers.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "37a1abaecd4c0a6c",
+      "text": "Recipients who are not institutional investor or market professional customers of Evercore ISI should seek the advice of their independent financial advisor before considering information in this report in connection with any investment decision, or for a necessary explanation of its contents.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "e5f13e7f47ace75b",
+      "text": "Electronic research is simultaneously distributed to all clients. This report is provided to Evercore ISI clients only and may not be, in whole or in part, or in any form or manner (i) copied, forwarded, distributed, shared, or made available to third parties, including as input to, or in connection with, any artificial intelligence or machine learning model; (ii) modified or otherwise used to create derivative works; or (iv) used to train or otherwise develop a generative artificial intelligence or machine learning model, without the express written consent of Evercore ISI. Receipt and review of this research report constitutes your agreement with the aforementioned limitations in use.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "16bba504f80e56a7",
+      "text": "This report is not intended for distribution to or use by any person or entity in any locality, state, country or other juris dction where such distribution, publication, availability or use would be contrary to law or regulation or which would subject Evercore Group or its affiliates to any registration or licensing requirement within such jurisdiction. If this report is being distributed by a financial institution other than Evercore ISI or its affiliates, that financial institution is solely responsible for such distribution and for compliance with the laws, rules and regulations of any jurisdiction where this report is distributed. Clients of that financial institution should contact that institution to effect any transaction in the securities mentioned in this report or if such clients require further information. This report does not constitute investment advice by Evercore ISI to the clients of the distributing financial institution, and neither Evercore ISI nor its affiliates, nor their respective officers, directors or employees, accept any liability whatsoever for any direct or consequential loss arising from their use of this report or its content.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "26ba0889d1d2ac5c",
+      "text": "Evercore is not authorized to act as a financial entity, securities intermediary, investment advisor or as any other regulated entity under Mexican law, and no actions, applications or filings have been undertaken in Mexico, whether before the National Banking and Securities Commission (Comisión Nacional Bancaria y de Valores \"CNBV\") or any other authority, in order for Evercore to carry out activities or render services that would otherwise require a license, registration or any other authorization for such purposes; neither is it regulated by the CNBV or any other Mexican authority. This document, nor its content, constitutes an offer, invitation or request to purchase or subscribe for securities or other instruments or to make or cancel investments, nor may it serve as the basis for any contract, commitment or decision of any kind.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "ebef65af1455b925",
+      "text": "For persons in the UK: In making this report available, Evercore makes no recommendation to buy, sell or otherwise deal in any securities or investments whatsoever and you should neither rely or act upon, directly or indirectly, any of the information contained in this report in respect of any such investment activity. This report is being directed at or distributed to, (a) persons who fall within the definition of Investment Professionals (set out in Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (the \"Order\"); (b) persons falling within the definition of high net worth companies, unincorporated associations, etc. (set out in Article 49(2) of the Order); (c) other persons to whom it may otherwise lawfully be communicated (all such persons together being referred to as \"relevant persons\"). This report must not be acted on or relied on by persons who are not relevant persons.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "f79e38287fdb2dcd",
+      "text": "For persons in Switzerland: The distribution of these materials to persons or entities in Switzerland is not intended to, and does not, constitute a financial service under the Swiss Financial Services Act (FinSA). In particular, the distribution of these materials does not constitute the provision of personal recommendations on transactions with financial instruments (investment advice) within the meaning of Article 3(c)(4) of FinSA.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "ccac1762481bebb5",
+      "text": "For persons in Australia: Evercore does not have an Australian Financial Services License (\"AFSL\"). This report is only to be distributed to persons who fall within the definition of \"wholesale\" investors under section 761G of the Corporations Act 2001 (Cth). This report must not be acted on or relied on by persons who are not wholesale investors. Evercore relies on the relief provided under ASIC Corporations (Foreign Financial Services Providers—Limited Connection) Instrument 2017/182 to provide this report to wholesale investors in Australia without an AFSL.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "bd2351c71f0ec866",
+      "text": "For persons in New Zealand: This material has been prepared by Evercore Group L.L.C. for distribution in New Zealand to financial advisors and wholesale clients only and has not been prepared for use by retail clients (as those terms are defined in the Financial Markets Conduct Act 2013 (\"FMCA\")). Evercore Group L.L.C. is not, and is not required to be, registered or licensed under the FMCA, and unless otherwise stated any financial products referred to in this material are generally only available in New Zealand for issue to those satisfying the wholesale investor criteria in the FMCA.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "30404fe3077538d1",
+      "text": "Applicable current disclosures regarding the subject companies covered in this report are available at the offices of Evercore ISI: 55 East 52nd Street, New York, NY 10055, and at the following site: https://evercoreisi.mediastierling.com/disclosure.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "9e3cccbfcab95d00",
+      "text": "In compliance with the European Securities and Markets Authority's Market Abuse Regulation, a list of all Evercore ISI recommendations disseminated in the preceding 12 months for the subject companies herein, may be found at the following site: https://evercoreisi.mediastierling.com/disclosure.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "603614b6e972391c",
+      "text": "© 2025. Evercore Group L.L.C. All rights reserved.",
+      "page": 15,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "796673a0646321e6",
+      "name": "ADP Employment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "513a6c2b6f184999",
+      "name": "AI Miralles",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c4e77d7381d00e15",
+      "name": "AI PCs",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6bfdb485e64d207a",
+      "name": "ASIC Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "485c9727d5251bd2",
+      "name": "Al Era",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c8149b6bd7d5bb4a",
+      "name": "Also Print",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6195b9dbdff32ae4",
+      "name": "Although ANET",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b2ed675eb29c6c12",
+      "name": "Ambrish Srivastava",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d1fc9fe8d0f74c76",
+      "name": "Amit DaryananiSenior",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "19cdc40a4f14f6c0",
+      "name": "Amitesh Bajad",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ecf7c1fb40f1f676",
+      "name": "Area VP",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d069c4f3bdd72616",
+      "name": "Associate\n\nAugust",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d3e0bfa99b45d8e6",
+      "name": "Attractive Accretion",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c948b097867d16e8",
+      "name": "Australian Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fe0fe46365786da9",
+      "name": "Both Evercore",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e336f7da2e8daa33",
+      "name": "Brendan Gibbs",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e905bb5a932e6e6a",
+      "name": "CEO Greg",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0f015e8e653ef082",
+      "name": "CFO Jason",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e78898fbd4b9b440",
+      "name": "Chicago\n\nALL",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "88f494f365f0299b",
+      "name": "Conduct Act",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": "U.S. INITIAL UNEMPLOYMENT CLAIMS",
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "96",
+              "98",
+              "00",
+              "02",
+              "04",
+              "06",
+              "08",
+              "10",
+              "12",
+              "14",
+              "16",
+              "18",
+              "20",
+              "22",
+              "24",
+              "26"
+            ]
+          },
+          "y": {
+            "unit": "k",
+            "range": {
+              "min": 180,
+              "max": 668
+            },
+            "label": "Log scale"
+          }
+        },
+        "series": [
+          {
+            "name": "4 Wk. Avg.",
+            "unit": "k",
+            "values": [
+              395,
+              320,
+              280,
+              480,
+              350,
+              300,
+              380,
+              668,
+              450,
+              350,
+              280,
+              220,
+              200,
+              668,
+              250,
+              229
+            ]
+          }
+        ],
+        "figure_id": "c418279f3a3d393e",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "other",
+        "title": "Potential wrap of software & services",
+        "page": 10,
+        "axes": null,
+        "series": [],
+        "figure_id": "4ea2b0e805e70583",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "PSTG",
+              "STX",
+              "CHDN",
+              "NTAP",
+              "WDC",
+              "HPQ",
+              "HPE",
+              "ST",
+              "AVNET",
+              "AKAM",
+              "KBRN",
+              "AAPL",
+              "CSCO",
+              "Median",
+              "TEL",
+              "DLR",
+              "WGM",
+              "ACN",
+              "MSI",
+              "IBM",
+              "CTSH",
+              "EQIX",
+              "RAL",
+              "CDW",
+              "VRT",
+              "APH",
+              "FFIV",
+              "DELL"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -10,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "%",
+            "values": [
+              41.4,
+              8.8,
+              8.3,
+              7.4,
+              7.2,
+              5.5,
+              3.8,
+              3.5,
+              3.3,
+              2.8,
+              2.7,
+              2.7,
+              2.4,
+              2.4,
+              2.2,
+              1.8,
+              1.4,
+              1.4,
+              1.2,
+              0.8,
+              0.8,
+              0.7,
+              0.7,
+              0.6,
+              0.4,
+              -0.8,
+              -0.9,
+              -6.3
+            ]
+          }
+        ],
+        "figure_id": "4e85ec73b6de5636",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "combo",
+        "title": "Companies Levered to Hyperscale",
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "VERTIV",
+              "ARISTA",
+              "ciena",
+              "DELL",
+              "Amphenol",
+              "IBM",
+              "CISCO",
+              "TE"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Companies Levered to Hyperscale",
+            "unit": "%",
+            "values": [
+              45,
+              45,
+              25,
+              12,
+              10,
+              5,
+              3,
+              1
+            ]
+          }
+        ],
+        "figure_id": "86c2dca41380a0db",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "other",
+        "title": "Paul Revere's Ride",
+        "page": 13,
+        "axes": {},
+        "series": [],
+        "figure_id": "0d4c19f6639e500d",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "02",
+              "04",
+              "06",
+              "08",
+              "10",
+              "12",
+              "14",
+              "16",
+              "18",
+              "20",
+              "22",
+              "24",
+              "26"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 1.0,
+              "max": 6.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "U.S. HIRES RATE",
+            "unit": "%",
+            "values": [
+              4.2,
+              3.8,
+              3.9,
+              3.9,
+              3.8,
+              3.9,
+              3.9,
+              3.0,
+              2.8,
+              3.0,
+              3.2,
+              3.4,
+              3.6,
+              3.7,
+              3.8,
+              3.9,
+              4.0,
+              6.0,
+              3.0,
+              4.5,
+              4.0,
+              3.5,
+              3.3
+            ]
+          },
+          {
+            "name": "U.S. QUITS RATE",
+            "unit": "%",
+            "values": [
+              2.3,
+              2.0,
+              2.1,
+              2.2,
+              2.1,
+              2.0,
+              2.0,
+              1.8,
+              1.2,
+              1.3,
+              1.4,
+              1.5,
+              1.6,
+              1.8,
+              2.0,
+              2.2,
+              1.5,
+              2.9,
+              2.5,
+              2.0
+            ]
+          }
+        ],
+        "figure_id": "071d12106c6523f2",
+        "provenance": {
+          "page": 11
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "7ad0969dcf60ab8d",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "er. Focus shifts to Accelerate + tech differentiation. - NTAP – steady as it goes, AFA weakness at +6% was notable but driven by public + EMEA... ex that we think AFA growth around 10%+. Room to raise",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ee31124917f66f4e",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ", AFA weakness at +6% was notable but driven by public + EMEA... ex that we think AFA growth around 10%+. Room to raise guide next QTR. - HPQ – Ramp up on PC should sustain, question will be on H2 dua",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "fba2f5398d128216",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Advocacy). During investor meetings, ANET highlighted their multi- vector growth outlook for 2025 (+25%) driven by front end (customers looking to refresh/invest in front end infra), backend (expect t",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "9ee6c5d7406c9af8",
+        "value": 6700000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ough management noted there is more room for growth with elevated ASPs as TTM PC revenue is \\(\\sim \\$ 6.7B\\) versus a \\(\\$ 8.2B\\) peak. SMB spending remains resilient but focused on devices and cloud,",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "7de7bdb77e00c94f",
+        "value": 8199999999.999999,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "there is more room for growth with elevated ASPs as TTM PC revenue is \\(\\sim \\$ 6.7B\\) versus a \\(\\$ 8.2B\\) peak. SMB spending remains resilient but focused on devices and cloud, while corporate deman",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "d789eb46f8aeb1ec",
+        "value": 0.85,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nger term, HDD growth is expected to remain favorable as they remain essential for cloud storage (\\~85% of data) alongside SSDs in tiered AI/inferencing architectures. On the balance sheet and cash fl",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "7aaa28a211ff82b1",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "sell its remaining SanDisk shares by February as it delivers toward 1- 1.5x net leverage and return 100% of excess cash over time.<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "5a04bede42a4090d",
+        "value": 4400000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ". During the event, MSI discussed attractive opportunities for the company presented by the recent \\$4.4B acquisition of Silvus (which was completed earlier this month), strong demand/budget backdrop ",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "f48f0ff48b00ca00",
+        "value": 525.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "a more entrenched position in the defense vertical. Sticking with OP rating and raising target to \\$525 to reflect our more positive stance on the company's NT and LT growth prospects within their cor",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "ea562ff52722cd58",
+        "value": 475000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ".jpg) Attractive Accretion from Silvus in CY26 Despite Need to Invest: Silvus currently generates \\$475M in annual revenue for CY25 should grow \\(\\sim 20\\%\\) in 2026 (despite expectations for lower Uk",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "84e2784de9b75d2f",
+        "value": 0.2,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "pectations for lower Ukraine- related revenue). The asset is expected to be EPS neutral and \\(\\sim \\$ 0.20\\) accretive EPS next year despite incremental headcount investments needed to build sales hea",
+        "provenance": {
+          "page": 9
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 6,
+      "tables_count": 0,
+      "numerical_data_count": 11,
+      "passages_count": 62,
+      "entities_count": 20
+    }
+  }
+}

@@ -1,0 +1,753 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "8acb7ca7dae5ed46766156285552c47f",
+    "title": "NOAURA",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Nomura/Japan equity quant memo - Forward EP based on next-FY forecasts performing well Forward EP based on next-FY forecasts pe_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:33:10.277964",
+      "extracted_at": "2025-10-26T12:33:10.277972"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 9,
+        "successful_pages": 9,
+        "date": "2025-08-29",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Nomura",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 7,
+          "removed_paragraphs": 4,
+          "reduction_ratio": 0.3067006150149719
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Nomura"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "8fe86300b38f0f82",
+      "text": "Implies that focus is already on next- FY earnings / gap in factor returns has consistently widened during previous periods of earnings forecast improvement",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4c138b3538f39458",
+      "text": "Looking at the year to date we observe that forecast E/P (the reciprocal of forward P/E), a key flow value factor, languished from the time of the tariff shock on 2 April through around the end of June. One reasonable interpretation of this is that valuations were not effective because of the uncertain earnings outlook. Since July, however, B/P (the inverse of P/B), a stock value factor, has been performing well.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e386e5db2bc232cd",
+      "text": "Normally, the forecast E/P factor that we monitor prioritizes next- FY forecasts, but in Figure 1 we compare next- FY forecast E/P factor returns with current- FY forecast E/P factor returns. This shows that next- FY forecast E/P factor returns were inferior in the first half of 2025, and this trend worsened immediately after the tariff shock of 2 April. This may have been due to investors taking the view that there was greater uncertainty about earnings in subsequent years than in the current fiscal year. However, this gap narrowed as 25/3 Q4 results were released, and the gap between the two has been widening recently, with next- FY forecast E/P as at advantage since July.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0302441dc6c8c6e3",
+      "text": "Fig. 1: Next-FY forecast E/P and current-FY forecast E/P factor returns",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "28a7cf5921ebe11c",
+      "text": "Note: Unjerse is TOPIX 500 constituents. Data for 2025 onwards. Source: Nomura, based on QUICK, Bloomberg, and IFIS data",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "13d3d90472b6383f",
+      "text": "Japan quantitative research",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a02abf598720b5e5",
+      "text": "There has been a lot of discussion recently about the impact of tariffs on earnings at individual companies. Since slightly before the 26/3 Q1 results season, however, share prices appear to be reacting to undervaluation based on next- FY earnings. In other words, investors may have abruptly started to shift their attention in terms of earnings to next- FY forecasts rather than current- FY forecasts.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "db6acf4960f5cc24",
+      "text": "In the past we have also observed such sudden shifts in investor attention toward the future. Figure 2 shows the long- term cumulative spread between next- FY forecast E/P and current- FY forecast E/P factor returns. Our analysis shows that when the revision index bottomed out and then improved substantially into positive territory in 2016 H2 and 2020 H2 (Figure 3), the next- FY forecast E/P factor tended to become more effective. When the revision index can be expected to improve sharply (implying a steeper improvement in future earnings), optimism about the earnings outlook apparently prevails, and interest in future earnings tends to increase. In other words, we should expect this factor return spread to continue to widen. Figure 4 shows stocks with a substantial gap between next- FY forecast E/P and current- FY E/P, and that appear undervalued based on next- FY forecast E/P.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ded80ebf5a92d09e",
+      "text": "Fig. 2: Cumulative spread between next-FY forecast E/P and current-FY forecast E/P factor returns",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "23e9ce44ab986e3e",
+      "text": "Note: Universe is TOPIX 500 constituents. Data for 2015 onwards. Source: Nomura, based on QUICK, Bloomberg, and IFIS data",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "1945b8d31e5060a7",
+      "text": "Fig. 3: Revision index",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "04c1cd40f781b900",
+      "text": "Note: Universe is TOPIX 500 constituents. Revisions are based on current-FY IBES forecasts and are compared to forecasts 12 weeks prior. Revision index \\(=\\) (number of companies with upward revisions minus number of companies with downward revisions) / universe. Data for 2015 onwards. Source: Nomura, based on QUICK, Bloomberg, and IFIS data",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9edafb7dfb87bf3e",
+      "text": "Fig.4: Stocks that look undervalued with next-FY forecast E/P higher than current-FY forecast E/P",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "dc227c9207414745",
+      "text": "CodeCompanyTSE-17market cap (x)Forecast P/E (x)Actual P/B (x)1333Maruha NichiroFoods168.98.630.751820Nishimatsu ConstructionConstruction materials213.610.761.271911Sumitomo ForestryConstruction materials1,059.68.481.211925Daiwa House IndustryConstruction materials3,486.210.591.341928Sekisui HouseConstruction materials2,227.48.631.181963JGC HoldingsConstruction materials369.911.620.972768SojitzCommercial &amp;amp; wholesale trade876.87.180.933105Nisshinbo HoldingsElectric appliances &amp;amp; precision instrument196.88.330.743116Toyota BoshokuAutomobiles &amp;amp; transportation equipment459.88.581.033132Mancina HoldingsCommercial &amp;amp; wholesale trade367.611.111.473231Nomura Real Estate HoldingsReal estate852.99.561.143291Iida Group HoldingsReal estate657.510.430.673405KurarayRaw materials &amp;amp; chemicals577.910.380.793407Asahi KaseiRaw materials &amp;amp; chemicals1,668.310.230.923941RengoRaw materials &amp;amp; chemicals248.27.980.544004Resonac HoldingsRaw materials &amp;amp; chemicals728.510.721.124005Sumitomo ChemicalRaw materials &amp;amp; chemicals739.810.430.844042TosohRaw materials &amp;amp; chemicals758.111.590.934043TokuyamaRaw materials &amp;amp; chemicals244.77.590.934183Mitsui ChemicalsRaw materials &amp;amp; chemicals734.910.920.894324Dentsu GroupIT &amp;amp; services, others733.611.781.274516Nippon ShinyakuPharmaceuticals217.47.870.864887Sawai Group HoldingsPharmaceuticals218.510.991.244902Konica MinoltaElectric appliances &amp;amp; precision instrument256.99.950.555019Idemitsu KosanEnergy resources1,281.39.020.765020ENEOS HoldingsEnergy resources2,375.29.950.795021Cosmo Energy HoldingsEnergy resources642.48.551.145101Yokohama RubberAutomobiles &amp;amp; transportation equipment914.29.191.055105Toyo TireAutomobiles &amp;amp; transportation equipment580.58.921.215110Sumitomo Rubber IndustriesAutomobiles &amp;amp; transportation equipment459.87.530.725201AGCConstruction &amp;amp; materials1,006.911.870.735232Sumitomo Osaka CementConstruction &amp;amp; materials131.38.120.695233Taiheyo CementConstruction &amp;amp; materials477.37.400.765334NiterraConstruction &amp;amp; materials1,056.010.071.555401Nippon SteelSteel &amp;amp; nonferrous metals3,353.17.350.675411JFE HoldingsSteel &amp;amp; nonferrous metals1,172.18.300.475471Daido SteelSteel &amp;amp; nonferrous metals274.510.060.635711Mitsubishi MaterialsSteel &amp;amp; nonferrous metals334.810.470.515832Chugin Financial GroupBanks391.49.050.695991NHK SpringConstruction &amp;amp; materials431.210.041.086301KomatsuMachinery4,827.011.581.556305Hitachi Construction MachineryMachinery1,000.511.481.266632JVKEnwoodElectric appliances &amp;amp; precision instrument204.711.511.656752Panasonic HoldingsElectric appliances &amp;amp; precision instrument3,764.08.530.826856HoribaElectric appliances &amp;amp; precision instrument470.511.541.506902DensoAutomobiles &amp;amp; transportation equipment6,239.711.741.306951JEOLElectric appliances &amp;amp; precision instrument241.910.181.767167Mebuki Financial GroupBanks905.310.560.937180Kyushu Financial GroupBanks408.210.620.577202Isuzu MotorsAutomobiles &amp;amp; transportation equipment1,394.68.571.027211Mitsubishi MotorsAutomobiles &amp;amp; transportation equipment588.68.260.687259AisinAutomobiles &amp;amp; transportation equipment1,868.311.010.957261Mazda MotorAutomobiles &amp;amp; transportation equipment637.27.010.377267Honda MotorAutomobiles &amp;amp; transportation equipment8,783.311.010.747270SubaruAutomobiles &amp;amp; transportation equipment2,180.811.430.817272Yamaha MotorAutomobiles &amp;amp; transportation equipment1,113.38.460.977282Toyoda GoseiAutomobiles &amp;amp; transportation equipment460.89.750.867337Hirogin HoldingsBanks433.69.400.837752RicohElectric appliances &amp;amp; precision instrument756.911.330.737911Toppan HoldingsIT &amp;amp; services, others1,115.211.650.888020KanematsuCommercial &amp;amp; wholesale trade264.47.851.488242H2O RetailingRetail trade267.511.530.898316Sumitomo Mitsui Financial GroupBanks15,784.610.511.098334Gunma BankBanks631.810.671.098377Hokuhoku Financial GroupBanks462.08.420.718418Yamaguchi Financial GroupBanks420.19.750.668570Aeon Financial ServiceFinancials (ex banks)323.010.890.738630Sompo HoldingsFinancials (ex banks)4,506.711.191.048876Relo GroupIT &amp;amp; services, others270.211.694.119501TEPCOElectric &amp;amp; gas utilities1,203.54.800.42",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "a05f8f562bb7b862",
+      "text": "Note: Universe is TOPIX 500 constituents. Shows stocks in top \\(30\\%\\) in terms of gap between next-FY E/P and current-FY E/P (greater undervaluation in terms of next-FY E/P) and in top \\(30\\%\\) in terms of undervaluation based on next-FY E/P. P/E based on IFIS estimates, with preference given to next-FY forecasts. As of 28 August. Source: Nomura, based on QUICK, Bloomberg and IFIS data",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "26ff1cd7d856a330",
+      "text": "Appendix A- 1This report has been produced by Nomura Securities Co., Ltd. (NSC), Japan. See Disclaimers for Nomura Group entity details.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "050f8c66ff1e5dbd",
+      "text": "The analysts responsible for preparing this report have received compensation based upon various factors including the firm's total revenues, a portion of which is generated by Investment Banking activities. Unless otherwise noted, the non- US analysts listed at the front of this report are not registered/qualified as research analysts under FINRA rules, may not be associated persons of NSI, and may not be subject to FINRA Rule 2241 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "cdca72e9266f7e1a",
+      "text": "Nomura Global Financial Products Inc. (NGFP) Nomura Derivative Products Inc. (NDP) and Nomura International plc. (Nlplc) are registered with the Commodities Futures Trading Commission and the National Futures Association (NFA) as swap dealers. NGFP, NDPI, and Nlplc are generally engaged in the trading of swaps and other derivative products, any of which may be the subject of this report.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b35ef9e69b6fcb96",
+      "text": "STOCKSA rating of 'Buy', indicates that the analyst expects the stock to outperform the Benchmark over the next 12 months. A rating of 'Neutral', indicates that the analyst expects the stock to perform in line with the Benchmark over the next 12 months. A rating of 'Reduce', indicates that",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "30e78aa7632171bd",
+      "text": "the analyst expects the stock to underperform the Benchmark over the next 12 months. A rating of 'Suspended', indicates that the rating, target price and estimates have been suspended temporarily to comply with applicable regulations and/or firm policies. Securities and/or companies that are labelled as 'Not rated' or shown as 'No rating' are not in regular research coverage. Investors should not expect continuing or additional information from Nomura relating to such securities and/or companies. Benchmarks are as follows: United States/Europe/Asia ex- Japan: please see valuation methodologies for explanations of relevant benchmarks for stocks, which can be accessed at: http://go.nomuranow.com/research/mDisclosures; Global Emerging Markets (ex- Asia): MSCI Emerging Markets ex- Asia, unless otherwise stated in the valuation methodology; Japan: Russell/Nomura Large Cap.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "c86da47d07bb9cb9",
+      "text": "A 'Bullish' stance, indicates that the analyst expects the sector to outperform the Benchmark during the next 12 months. A 'Neutral' stance, indicates that the analyst expects the sector to perform in line with the Benchmark during the next 12 months. A 'Bearish' stance, indicates that the analyst expects the sector to underperform the Benchmark during the next 12 months. Sectors that are labelled as 'Not rated' or shown as 'N/A' are not assigned ratings. Benchmarks are as follows: United States: S&P 500; Europe: Dow Jones STOXX 600; Global Emerging Markets (ex- Asia): MSCI Emerging Markets ex- Asia. Japan/Asia ex- Japan: Sector ratings are not assigned.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "44e6d4b13486fa9a",
+      "text": "A Target Price, if discussed, indicates the analyst's forecast for the share price with a 12- month time horizon, reflecting in part the analyst's estimates for the company's earnings. The achievement of any target price may be impeded by general market and macroeconomic trends, and by other risks related to the company or the market, and may not occur if the company's earnings differ from estimates.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "cc30afd4c0ec0db2",
+      "text": "from use of this document and related data. To the maximum extent permissible by law and/or regulation, all warranties and other assurances by the Nomura Group are hereby excluded and the Nomura Group shall have no liability (in negligence or otherwise, and in whole or in part) for any loss howsoever arising from the use, misuse, or distribution of this material or the information contained in this material or otherwise arising in connection therewith.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "fab54c106df2557b",
+      "text": "Opinions or estimates expressed are current opinions as of the original publication date appearing on this material and the information, including the opinions and estimates contained herein, are subject to change without notice. The Nomura Group, however, expressly disclaims any obligation, and therefore is under no duty, to update or revise this document. Any comments or statements made herein are those of the author(s) and may differ from views held by other parties within Nomura Group. Clients should consider whether any advice or recommendation in this report is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The Nomura Group does not provide tax advice.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4558e85b35383764",
+      "text": "The Nomura Group, and/or its officers, directors, employees and affiliates, may, to the extent permitted by applicable law and/or regulation, deal as principal, agent, or otherwise, or have long or short positions in, or buy or sell, the securities, commodities or instruments, or options or other derivative instruments based thereon, of issuers or securities mentioned herein. The Nomura Group companies may also act as market maker or liquidity provider (within the meaning of applicable regulations in the UK) in the financial instruments of the issuer. Where the activity of market maker is carried out in accordance with the definition given to it by specific laws and regulations of the US or other jurisdictions, this will be separately disclosed within the specific issuer disclosures.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "dc81f2fc563eb3cc",
+      "text": "This document may contain information obtained from third parties, including, but not limited to, ratings from credit ratings agencies such as Standard & Poor's. The Nomura Group hereby expressly disclaims all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of the information obtained from third parties contained in this material or otherwise arising in connection therewith, and shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of any of the information obtained from third parties contained in this material or otherwise arising in connection therewith. Reproduction and distribution of third- party content in any form is prohibited except with the prior written permission of the related third- party. Third- party content providers do not, express or implied, guarantee the fairness, accuracy, completeness, correctness, timeliness or availability of any information, including ratings, and are not in any way responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use or misuse of such content. Third- party content providers give no express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Third- party content providers shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Any MSCI sourced information in this document is the exclusive property of MSCI Inc. ('MSCI'). Without prior written permission of MSCI, this information and any other MSCI intellectual property may not be duplicated, reproduced, re- disseminated, redistributed or used, in whole or in part, for any purpose whatsoever, including creating any financial products and any indices. This information is provided on an \"as is\" basis. The user assumes the entire risk of any use made of this information. MSCI, its affiliates and any third party involved in, or related to, computing or compiling the information hereby expressly disclaim all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of this material or the information contained in this material or otherwise arising in connection therewith. Without limiting any of the foregoing, in no event shall MSCI, any of its affiliates or any third party involved in, or related to, computing or compiling the information have any liability (in negligence or otherwise, and in whole or in part) for any damages of any kind. MSCI and the MSCI indexes are services marks of MSCI and its affiliates.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "1453ae346ecc3aa5",
+      "text": "The intellectual property rights and any other rights, in Russell/Nomura Japan Equity Index belong to Nomura Fiduciary Research & Consulting Co., Ltd. (\"NFRC\") and FTSE Russell (\"Russell\"). NFRC and Russell do not guarantee fairness, accuracy, completeness, correctness, reliability, usefulness, marketability, merchantability or fitness of the Index, and do not account for business activities or services that any index user and/or its affiliates undertakes with the use of the Index.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "678b0f2bfea2f4d1",
+      "text": "Investors should consider this document as only a single factor in making their investment decision and, as such, the report should not be viewed as identifying or suggesting all risks, direct or indirect, that may be associated with any investment decision. Nomura Group produces a number of different types of research product including, among others, fundamental analysis and quantitative analysis; recommendations contained in one type of research product may differ from recommendations contained in other types of research product, whether as a result of differing time horizons, methodologies or otherwise. The Nomura Group publishes research product in a number of different ways including the posting of product on the Nomura Group portals and/or distribution directly to clients. Different groups of clients may receive different products and services from the research department depending on their individual requirements.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5ddb46ea52a84ff2",
+      "text": "Figures presented herein may refer to past performance or simulations based on past performance which are not reliable indicators of future or likely performance. Where the information contains an expectation, projection or indication of future performance and business prospects, such forecasts may not be a reliable indicator of future or likely performance. Moreover, simulations are based on models and simplifying assumptions which may oversimplify and not reflect the future distribution of returns. Any figure, strategy or index created and published for illustrative purposes within this document is not intended for \"use\" as a \"benchmark\" as defined by the European Benchmark Regulation. Certain securities are subject to fluctuations in exchange rates that could have an adverse effect on the value or price of, or income derived from, the investment.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4bd0c83fdd98d244",
+      "text": "With respect to Fixed Income Research: Recommendations fall into two categories: tactical, which typically last up to three months; or strategic, which typically last from 6- 12 months. However, trade recommendations may be reviewed at any time as circumstances change. 'Stop loss' levels for trades are also provided; which, if hit, closes the trade recommendation automatically. Prices and yields shown in recommendations are taken at the time of submission for publication and are based on either indicative Bloomberg, LSEG or Nomura prices and yields at that time. The prices and yields shown are not necessarily those at which the trade recommendation can be implemented.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3a292c4f2a0cf78f",
+      "text": "The seurties described herein may not have been registered under the US Securities Act of 1933 (the 1933 Act), and, in such case, may not be offered or sold in the US or to US persons unless they have been registered under the 1933 Act, or except in compliance with an exemption from the registration requirements of the 1933 Act. Unless governing law permits otherwise, any transaction should be executed via a Nomura entity in your home jurisdiction.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "f4b1ed9c24b36214",
+      "text": "This document has been approved for distribution in the UK as investment research by Nlplc. Nlplc is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. Nlplc is a member of the London Stock Exchange. This document does not constitute a personal recommendation within the meaning of applicable regulations in the UK, or take into account the particular investment objectives, financial situations, or needs of individual investors. This document is intended only for investors who are eligible counterparties' or 'professional clients' for the purposes of applicable regulations in the UK, and may not, therefore, be redistributed to persons who are 'retail clients' for such purposes.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "8e6567b32dfb3112",
+      "text": "This document has been approved for distribution in the European Economic Area as investment research by Nomura Financial Products Europe GmbH (NFPE). NFPE is a company organized as a limited liability company under German law registered in the Commercial Register of the Court of Frankfurt/Main under HRB 110223. NFPE is authorized and regulated by the German Federal Financial Supervisory Authority (BaFin).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "8bd59d4ce9dca4cd",
+      "text": "This document has been approved by NIHK, which is regulated by the Hong Kong Securities and Futures Commission, for distribution in Hong Kong by NIHK. This document is intended only for investors who are 'professional investors' for the purposes of applicable regulations in Hong Kong and may not, therefore, be redistributed to persons who are not 'professional investors' for such purposes.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c0e463c5401db676",
+      "text": "This document has been approved for distribution in Australia by NAL, which is authorized and regulated in Australia by the ASIC.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "2e7f25b20f18bc6c",
+      "text": "This document has also been approved for distribution in Malaysia by NSM.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "303fd37517ef90b9",
+      "text": "In Singapore, this document has been distributed by NSL, an exempt financial adviser as defined under the Financial Advisers Act (Chapter 110), among other things, and regulated by the Monetary Authority of Singapore. NSL may distribute this document produced by its foreign affiliates pursuant to an arrangement under Regulation 32C of the Financial Advisers Regulations. Where the recipient of this document is not an accredited, expert or institutional investor as defined by the Securities and Futures Act (Chapter 289), NSL accepts legal responsibility for the contents of this document in respect of such recipient only to the extent required by law. Recipients of this document in Singapore should contact NSL in respect of matters arising from, or in connection with, this document. THIS DOCUMENT IS INTENDED FOR GENERAL CIRCULATION. IT DOES NOT TAKE INTO ACCOUNT THE SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS OF ANY PARTICULAR PERSON. RECIPIENTS SHOULD TAKE INTO ACCOUNT THEIR SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS BEFORE MAKING A COMMITMENT TO PURCHASE ANY SECURITIES, INCLUDING SEEKING ADVICE FROM AN INDEPENDENT FINANCIAL ADVISER REGARDING THE SUITABILITY OF THE INVESTMENT, UNDER A SEPARATE ENGAGEMENT, AS THE RECIPIENT DEEMS FIT.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "929af419b5f54dc4",
+      "text": "Unless prohibited by the provisions of Regulation S of the 1933 Act, this material is distributed in the US, by NSI, a US- registered broker- dealer, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6, under the US Securities Exchange Act of 1934. The entity that prepared this document permits its separately operated affiliates within the Nomura Group to make copies of such documents available to their clients.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "11182188f73c28f3",
+      "text": "This document has not been approved for distribution to persons other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' (as defined by the Capital Markets Authority) in the Kingdom of Saudi Arabia ('Saudi Arabia') or a 'Market Counterparty' or a 'Professional Client' (as defined by the Dubai Financial Services Authority) in the United Arab Emirates ('UAE') or a 'Market Counterparty' or a 'Business Customer' (as defined by the Qatar Financial Centre Regulatory Authority) in the State of Qatar ('Qatar') by Nomura Saudi Arabia, Nlplc or any other member of the Nomura Group, as the case may be. Neither this document nor any copy thereof may be taken or transmitted or distributed, directly or indirectly, by any person other than those authorised to do so into Saudi Arabia or in the UAE or in Qatar or to any person other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' located in Saudi Arabia or a 'Market Counterparty' or a 'Professional Client' in the UAE or a 'Market Counterparty' or a 'Business Customer' in Qatar. Any failure to comply with these restrictions may constitute a violation of the laws of the UAE or Saudi Arabia or Qatar.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "be4400e62f197647",
+      "text": "For report with reference of TAIWAN public companies or authored by Taiwan based research analyst: THIS DOCUMENT IS SOLELY FOR REFERENCE ONLY. You should independently evaluate the investment risks and are solely responsible for your investment decisions. NO PORTION OF THE REPORT MAY BE REPRODUCED OR QUOTED BY THE PRESS OR ANY OTHER PERSON WITHOUT WRITTEN AUTHORIZATION FROM NOMURA GROUP. Pursuant to Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers and/or other applicable laws or regulations in Taiwan, you are prohibited to provide the reports to others (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities in connection with the reports which may involve conflicts of interests. INFORMATION ON SECURITIES / INSTRUMENTS NOT EXECUTABLE BY NOMURA INTERNATIONAL (HONG KONG) LTD., TAIPEI BRANCH IS FOR INFORMATIONAL PURPOSES ONLY AND IS NOT BE CONSTRUED AS A RECOMMENDATION OR A SOLICITATION TO TRADE IN SUCH SECURITIES / INSTRUMENTS.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "78f561b0832aeabd",
+      "text": "This material may not be distributed in Indonesia or passed on within the territory of the Republic of Indonesia or to persons who are Indonesian citizens (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the laws of the Republic of Indonesia. The securities mentioned in this document may not be offered or sold in Indonesia or to persons who are citizens of Indonesia (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the laws of the Republic of Indonesia.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "073f7bc96c8a86cd",
+      "text": "An individual name printed next to NOI on the front page of a research report indicates that this document is a translation of a research report issued by NOI in the PRC. In all other cases, this document is prepared by Nomura Group or its subsidiary or affiliate (collectively, \"Offshore Issuers\") that is not licensed in the PRC to provide securities research. This research report is not approved or intended to be circulated in the PRC. The A- share related analysis (if any) is not produced for any persons located or incorporated in the PRC. The recipients should not rely on any information contained in this research report in making investment decisions and Offshore Issuers take no responsibility in this regard. NO PART OF THIS MATERIAL MAY BE (I) COPIED, PHOTOCOPIED, REPRODUCED OR DUPLICATED IN ANY FORM, BY ANY MEANS; OR (II) REDISSEMINATED, REPUBLISHED OR REDISTRIBUTED WITHOUT THE PRIOR WRITTEN CONSENT OF A MEMBER OF THE",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "5ae2fc3bcc44d0e9",
+      "text": "NOMURA GROUP. If this document has been distributed by electronic transmission, such as e- mail, then such transmission cannot be guaranteed to be secure or error- free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. The sender therefore does not accept liability (in negligence or otherwise, and in whole or in part) for any errors or omissions in the contents of this document, which may arise as a result of electronic transmission. If verification is required, please request a hard- copy version.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "5bbfec120bfba434",
+      "text": "management fee (trust fee) of up to \\(5.5\\%\\) (tax included/annualized basis) of the net assets in trust, as well as fees based on investment performance. Other indirect costs may also be incurred. For foreign investment trusts, indirect fees may be incurred during the course of holding such as investment company compensation.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "a84572109eebd104",
+      "text": "Investment trusts invest mainly in securities such as Japanese and foreign equities and bonds, whose prices fluctuate. Investment trust unit prices fluctuate owing to price fluctuations in the underlying assets and to foreign exchange rate fluctuations. As such, investment trusts carry the risk of losses. Fees and risks vary by investment trust. Maximum applicable fees are subject to change; please thoroughly read the written materials provided, such as prospectuses or documents delivered before making a contract.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "9bcaaf450cbe85ef",
+      "text": "In interest rate swap transactions and USD/JPY basis swap transactions (\"interest rate swap transactions, etc.\"), only the agreed transaction payments shall be made on the settlement dates. Some interest rate swap transactions, etc. may require pledging of margin collateral. In some of these cases, transaction payments may exceed the amount of collateral. There shall be no advance notification of required collateral value or collateral ratios as they vary depending on the transaction. Interest rate swap transactions, etc. carry the risk of losses owing to fluctuations in market prices in the interest rate, currency and other markets, as well as reference indices. Losses incurred as such may exceed the value of margin collateral, in which case margin calls may be triggered. In the event that both parties agree to enter a replacement (or termination) transaction, the interest rates received (paid) under the new arrangement may differ from those in the original arrangement, even if terms other than the interest rates are identical to those in the original transaction. Risks vary by transaction. Please thoroughly read the written materials provided, such as documents delivered before making a contract and disclosure statements.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "25952c685881b63f",
+      "text": "In OTC transactions of credit default swaps (CDS), no sales commission will be charged. When entering into CDS transactions, the protection buyer will be required to pledge or entrust an agreed amount of margin collateral. In some of these cases, the transaction payments may exceed the amount of margin collateral. There shall be no advance notification of required collateral value or collateral ratios as they vary depending on the financial position of the protection buyer. CDS transactions carry the risk of losses owing to changes in the credit position of some or all of the referenced entities, and/or fluctuations of the interest rate market. The amount the protection buyer receives in the event that the CDS is triggered by a credit event may undercut the total amount of premiums that he/she has paid in the course of the transaction. Similarly, the amount the protection seller pays in the event of a credit event may exceed the total amount of premiums that he/she has received in the transaction. All other conditions being equal, the amount of premiums that the protection buyer pays and that received by the protection seller shall differ. In principle, CDS transactions will be limited to financial instruments business operators and qualified institutional investors. Transfers of equities to another securities company via the Japan Securities Depository Center are subject to a transfer fee of up to ¥11,000 (tax included) per issue transferred depending on volume. No account fee will be charged for marketable securities or monies deposited.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "ae0741dc323fe5f1",
+      "text": "Financial instruments firm registered with the Kanto Local Finance Bureau (registration No. 142)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "7f361d91a336a374",
+      "text": "Member associations: Japan Securities Dealers Association; Japan Investment Advisers Association; The Financial Futures Association of Japan; and Type II Financial Instruments Firms Association.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "61abf4bcafbc3e21",
+      "text": "The Nomura Group manages conflicts with respect to the production of research through its compliance policies and procedures (including, but not limited to, Conflicts of Interest, Chinese Wall and Confidentiality policies) as well as through the maintenance of Chinese Walls and employee training.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e110394bcea6f9ae",
+      "text": "Additional information regarding the methodologies or models used in the production of any investment recommendations contained within this document is available upon request by contacting the Research Analysts of Nomura listed on the front page. Disclosures information is available upon request and disclosure information is available at the Nomura Disclosure web page:",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "3b72f7055bd7567c",
+      "text": "http://go.nomuranow.com/research/m/Disclosures",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "082846dddf0a102a",
+      "text": "Copyright © 2025 Nomura Securities Co., Ltd., Japan. All rights reserved.",
+      "page": 8,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a1f3c989a82c5e49",
+      "name": "Aeon Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3062e21d617ad05f",
+      "name": "Any MSCI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f2d6594da6050da9",
+      "name": "Asahi Kasei",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03ec5d54e225b9d0",
+      "name": "Authorised Persons",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8c1abdd3ddd39022",
+      "name": "Business Customer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4f7793d11c185d65",
+      "name": "Chinese Wall",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "30f11a4354af2089",
+      "name": "Chinese Walls",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fa4486c83b96e637",
+      "name": "Chugin Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fdc72203b0d6a9fe",
+      "name": "Chugin Financial Group",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "aebbecf5515fe8dd",
+      "name": "Commercial Register",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b289f889abc2748a",
+      "name": "Commodities Futures",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fbd258dbd6877fcf",
+      "name": "Consulting Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "57a8635b40b67260",
+      "name": "Cosmo Energy",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "be16420b418a46b0",
+      "name": "Daido Steel",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3023255104c0c35c",
+      "name": "Daiwa House",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6ba4b0a762d135f4",
+      "name": "Dealers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8f75ddef24136c8d",
+      "name": "Dentsu Group",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "20141230",
+              "20150325",
+              "20150617",
+              "20150904",
+              "20151201",
+              "20160224",
+              "20160519",
+              "20160808",
+              "20161031",
+              "20170125",
+              "20170414",
+              "20170706",
+              "20170927",
+              "20171219",
+              "20180314",
+              "20180606",
+              "20180824",
+              "20181115",
+              "20190213",
+              "20190513",
+              "20190731",
+              "20191024",
+              "20200120",
+              "20200410",
+              "20200703",
+              "20200928",
+              "20201217",
+              "20210312",
+              "20210604",
+              "20210826",
+              "20211117",
+              "20220209",
+              "20220509",
+              "20220727",
+              "20221019",
+              "20230112",
+              "20230404",
+              "20230626",
+              "20230914",
+              "20231207",
+              "20240304",
+              "20240527",
+              "20240815",
+              "20241107",
+              "20250131",
+              "20250424",
+              "20250716"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -10.0,
+              "max": 25.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Next-FY forecast E/P factor returns - current-FY forecast E/P factor returns",
+            "unit": "%",
+            "values": [
+              0.5,
+              -2.0,
+              -3.0,
+              -3.5,
+              -4.0,
+              -6.5,
+              -5.0,
+              -5.5,
+              -4.5,
+              -4.0,
+              -3.0,
+              -1.0,
+              1.0,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5,
+              5.0,
+              5.5,
+              6.0,
+              6.5,
+              -1.0,
+              -5.5,
+              -1.0,
+              1.0,
+              10.0,
+              13.0,
+              14.0,
+              15.0,
+              16.0,
+              16.5,
+              17.0,
+              16.0,
+              15.0,
+              14.0,
+              13.0,
+              12.0,
+              12.5,
+              13.0,
+              14.0,
+              15.0,
+              16.0,
+              17.0,
+              18.0,
+              19.0
+            ]
+          }
+        ],
+        "figure_id": "6101ce7cabf69b79",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "20150102",
+              "20150327",
+              "20150619",
+              "20150911",
+              "20151204",
+              "20160226",
+              "20160520",
+              "20160812",
+              "20161104",
+              "20170127",
+              "20170421",
+              "20170714",
+              "20171006",
+              "20171229",
+              "20180323",
+              "20180615",
+              "20180907",
+              "20181130",
+              "20190222",
+              "20190524",
+              "20190816",
+              "20191108",
+              "20200131",
+              "20200424",
+              "20200717",
+              "20201009",
+              "20210101",
+              "20210326",
+              "20210618",
+              "20210910",
+              "20211203",
+              "20220225",
+              "20220520",
+              "20220812",
+              "20221104",
+              "20230127",
+              "20230421",
+              "20230714",
+              "20231006",
+              "20231229",
+              "20240322",
+              "20240614",
+              "20240906",
+              "20241129",
+              "20250221",
+              "20250516",
+              "20250808"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -100.0,
+              "max": 60.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "TOPIX500_RI",
+            "unit": null,
+            "values": [
+              25.0,
+              15.0,
+              10.0,
+              5.0,
+              -5.0,
+              -20.0,
+              -30.0,
+              -45.0,
+              -30.0,
+              -10.0,
+              10.0,
+              20.0,
+              30.0,
+              25.0,
+              20.0,
+              10.0,
+              -5.0,
+              -15.0,
+              -20.0,
+              -25.0,
+              -30.0,
+              -40.0,
+              -50.0,
+              -60.0,
+              -40.0,
+              -20.0,
+              0.0,
+              20.0,
+              30.0,
+              25.0,
+              15.0,
+              5.0,
+              -5.0,
+              -10.0,
+              -15.0,
+              -20.0,
+              -10.0,
+              0.0,
+              10.0,
+              15.0,
+              10.0,
+              5.0,
+              0.0,
+              -5.0,
+              -10.0,
+              -15.0,
+              -20.0
+            ]
+          }
+        ],
+        "figure_id": "068a681d696e8fc8",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "9f1f022c3584fc74",
+        "value": 11000.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "ecurities company via the Japan Securities Depository Center are subject to a transfer fee of up to ¥11,000 (tax included) per issue transferred depending on volume. No account fee will be charged for",
+        "provenance": {
+          "page": 8
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 2,
+      "tables_count": 0,
+      "numerical_data_count": 1,
+      "passages_count": 53,
+      "entities_count": 20
+    }
+  }
+}

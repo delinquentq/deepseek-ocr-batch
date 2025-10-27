@@ -1,0 +1,1206 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "7c9c46127f8b682273e02c1eec66e5bd",
+    "title": "![Figure 0-0](images/0_0.jpg)",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/JPM/JPM Tech HW Semis MRVL - Off the Call... Written by youJPM Tech HW Semis MRVL - Off the Call... Written by you_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:09:16.698558",
+      "extracted_at": "2025-10-26T12:09:16.698569"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 4,
+        "successful_pages": 4,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/JPM",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 10,
+          "reduction_ratio": 0.6265340459224069
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/JPM"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "6542294731a66e32",
+      "text": "IMPORTANTLY, Harlan hosts a call tomorrow at 8:30am ET to share what he learns from his 1x1 callback with MRVL, and to take your questions. Register here.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "533f9d410f47337d",
+      "text": "OVERALL: I wrote in my preview that \"MRVL's custom AI Investor Event, though expansive, left folks with unanswered questions.\" This results call said \"hold my beer.\" Quantitatively, numbers were just in- line with the guide (and the all- important datacenter number was a little weaker than consensus), and the F3Q guide embedded a completely unexpected DD % sequential drop in the datacenter business. Qualitatively, the team's tone- change and evasiveness was shocking to investors, and CEO Matt Murphy's answer to Harlan's question about AWS business left some investors wondering whether we've been mislead about the extent of the Trainium opportunity (or whether this was, as some more kindly imagine, an attempt to reset the narrative away from Amazon).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "68700544b42e1c7a",
+      "text": "This is one where I'LL LET INVESTOR FEEDBACK do the talking, because I think you all really captured the rainbow of possibilities and emotions; but first a list of the key evasions I noted...",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "edb184bb9d15bdd4",
+      "text": "- Didn't address/answer why they missed QoQ guides on DC and Enterprise/Carrier.- CFO couldn't answer a straightforward question about his most important business line because he \"didn't have his spreadsheet.\"- Didn't answer answer Vivek's question on 4Q DC YoY (where they should have visibility), which would have helped calm nerves.- Non-answers to Tim and Harlan's question – the latter, about AWS Trainium, being quite essential.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4ce0072aa97b6259",
+      "text": "- \"I'm not sure what happened there. I want to believe management was just unprepared and/or that Matt was frustrated by Harlan's question about AWS. But the non-answers to legitimate questions about changes to things they said fewer than 3 months ago is really surprising.\"- \"Matt is trying to redirect people from focusing on AMZN to talking about their diverse custom silicon opportunities. Commenting on individual sockets has contributed to noise. This company has incredible IP and is positioned well, and AMZN risks seem discounted.\"- \"In both substance and delivery they gave so many breadcrumbs last quarter to give the impression that they had won Trainium 3, and now radio silent. Also didn't reiterate growing with AMZN next year.\"- \"This was one of the oddest, vaguest calls I've ever heard.\"- \"I'm quite surprised by the miss in datacenter; if it wasn't for consumer the miss would have been even bigger for 2Q.\"- \"Do they need to comment if there's a material change, like not winning a next-node follow-on project?\"",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "68957fe5f61c1e02",
+      "text": "- \"I can't believe I have to stay in the office the day before a long weekend listening to these two broken records [DELL & MRVL].\"- \"Wait, what? He's responding to a question about custom silicon growth next year with comments on the recovery in core business?\"- \"He could not have given a worse answer to Harlan's question.\"- \"I really don't care about all of this noise. You can't dunk on this thing at \\(68. This is a great AI name and I've been waiting for this reset for a long time. Nothing like it with this kind of IP trading at 20x annualized.- \"Let's see what they say on the callback. They're usually more willing to defend their position on 1x1 calls. Don't want to upset AMZN.\"- \"Hopefully [CFO] Willem [Meintjes] can find the spreadsheet with the DC revenue breakdown in time for Harlan's callback.\"",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8f94a1e4f581ccb2",
+      "text": "Helped by AI servers, Revenue beat, but there was a margin and earnings toll. They raised F26 revenue from \\(\\) 101\\~105\\(to\\) \\ \\(105\\sim 109b\\) and EPS more modestly from \\(\\) 9.40\\(to\\) \\ \\(9.55\\) . The market seems more likely to be focused on the raise of the FY AI server shipment guidance from \\(\\) 15b+\\(to\\) \\ \\(20b\\) ... which brings the F2Q ISG OPM miss into stark relief. Call just started.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "31673daed3f4993a",
+      "text": "F2Q26F2Q26AI SERVERAI SERVERISGF3Q26F3Q26Rev (&#36;b)EPSJPM Survey Low$ 28.50$ 2.25$ 6.50$ 9.008.7%$ 26.00$ 2.31Company Guide$ 29.00$ 2.25$ 7.00$ 8.9010.3%$ 26.16$ 2.54Street Conspiracy$ 28.90$ 2.29$ 7.41$ 10.779.9%$ 27.21$ 2.55JPM Survey Mean$ 29.43$ 2.37$ 8.20$ 11.808.8%$ 27.00$ 2.45Actuals$ 29.80$ 2.32$ 7.40$ 10.2510.0%$ 27.00$ 2.55JPM Survey Median$ 29.40$ 2.30$ 8.40$ 15.5011.2%$ 29.80$ 2.75JPM Survey High$ 30.50$ 2.70$ 8.40$ 15.5011.2%$ 29.80$ 2.75",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "0fc0f6502dd1f66f",
+      "text": "Source: JPM Spec Sales Survey, StreetAccount",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "652d4d6b9377641a",
+      "text": "The bar was low and they missed it. In particular, Datacenter missed consensus by a bit, which isn't a great look, but networking beat by \\(\\sim 5\\%\\) . \"Marvell's growth is being fueled by strong AI demand for our custom silicon and electro- optics products, as well as",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "764ca3ad70669a37",
+      "text": "a significant increase in the pace of recovery in the enterprise networking and carrier infrastructure end markets...team now engaged in over 50 new opportunities across more than 10 customers.\" Call at 5:45pm. They're going to have a lot of work to do this afternoon...",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3a1132521fd4e2e6",
+      "text": "MRVLF2Q26F2Q26F2Q26F2Q26F3Q26F3Q26Rev ($b)DC Rev ($b)GMEPSRev Guide ($b)EPS GuideJPM Survey Low$    2.00$    1.5059.3%$    0.67$    2.10$    0.70Company Guide$    2.0059.5%$    0.67Street Consensus$    2.00$    1.5259.5%$    0.67$    2.12$    0.72Actuals$    2.00$    1.4959.4%$    0.67$    2.06$    0.74Survey Mean$    2.05$    1.5459.6%$    0.69$    2.19$    0.76JPM Survey Median$    2.05$    1.5459.5%$    0.69$    2.20$    0.75JPM Survey High$    2.10$    1.5860.0%$    0.73$    2.31$    0.87",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "7a99a85776323f77",
+      "text": "Source:JPM Spec Sales Survey, Factset, StreetAccount",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4bae9beea10e6f53",
+      "text": "TMT Trading: Stuart Humphrey - US TMT (Software, Semi's, Hardware, Payments)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "513d57d3ca30cb4a",
+      "text": "Michael Krueger - US TMT Derivatives Richard Arnopp - EU TMT Mike Kenneally - EU TMT Derivatives",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "09b351c499bce3a3",
+      "text": "North America Specialist Sales 28 August 2025",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "8e4dbfa826003d49",
+      "text": "Completed 28 Aug 2025 07:22 PM EDT",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "9b34a4850a1517a9",
+      "text": "Disseminated 28 Aug 2025 07:22 PM EDT",
+      "page": 4,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "cf4aafa3661ba946",
+      "name": "AI Investor",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bd393505c0fd04e8",
+      "name": "AWS Trainium",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1e49c00152888c7a",
+      "name": "CEO Matt",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9195b2c37fab3454",
+      "name": "Company Guide",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ba970dd052b75f53",
+      "name": "Contacts\n\nTMT",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8dfb7b42188ac42b",
+      "name": "DC Rev",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e2d81b30780f3ef0",
+      "name": "DC YoY",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4151838bdbc358a3",
+      "name": "Derivatives Richard",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3eed9f3a92133fd1",
+      "name": "EPS Guide",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "694e5e5b885abb4a",
+      "name": "First Take",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a82a96c401e4ac20",
+      "name": "JPM Spec",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3b5b9e564e0b6026",
+      "name": "JPM Survey",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5f130955b8b6d317",
+      "name": "Michael Krueger",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "329e31e48f05d9ab",
+      "name": "Mike Kenneally",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2880b80e7c1bcaae",
+      "name": "Morgan TMT",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5ffec2d87ab54820",
+      "name": "North America",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fdba24e5e501ac0c",
+      "name": "Rev Guide",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9a08d4c0ceb5fa65",
+      "name": "Sales Survey",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "88b5911b097cbba8",
+      "name": "Specialist Sales",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6c5132f43625105a",
+      "name": "Street Consensus",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "365abfc022d87768",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "434dee14f0b020e3",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 3,
+        "axes": null,
+        "series": [],
+        "figure_id": "784ec4d48e2b5f9c",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "d51780365f822cc7",
+        "value": -0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "th the DC revenue breakdown in time for Harlan's callback.\" ## First Take: DELL, MRVL ... ## DELL(-4%%)... Helped by AI servers, Revenue beat, but there was a margin and earnings toll. They raised F26",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2fce5286bae621e7",
+        "value": 0.087,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>JPM Survey Low</td><td>$ 28.50</td><td>$ 2.25</td><td>$ 6.50</td><td>$ 9.00</td><td>8.7%</td><td>$ 26.00</td><td>$ 2.31</td></tr><tr><td>Company Guide</td><td>$ 29.00</td><td>$ 2.25</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3099f7b577193746",
+        "value": 0.10300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>Company Guide</td><td>$ 29.00</td><td>$ 2.25</td><td>$ 7.00</td><td>$ 8.90</td><td>10.3%</td><td>$ 26.16</td><td>$ 2.54</td></tr><tr><td>Street Conspiracy</td><td>$ 28.90</td><td>$ 2.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9965685dec184dcc",
+        "value": 0.099,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>Street Conspiracy</td><td>$ 28.90</td><td>$ 2.29</td><td>$ 7.41</td><td>$ 10.77</td><td>9.9%</td><td>$ 27.21</td><td>$ 2.55</td></tr><tr><td>JPM Survey Mean</td><td>$ 29.43</td><td>$ 2.37<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e1d5e8c900a6dadb",
+        "value": 0.08800000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>JPM Survey Mean</td><td>$ 29.43</td><td>$ 2.37</td><td>$ 8.20</td><td>$ 11.80</td><td>8.8%</td><td>$ 27.00</td><td>$ 2.45</td></tr><tr><td>Actuals</td><td>$ 29.80</td><td>$ 2.32</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d2cc6db2ac8e0089",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2.45</td></tr><tr><td>Actuals</td><td>$ 29.80</td><td>$ 2.32</td><td>$ 7.40</td><td>$ 10.25</td><td>10.0%</td><td>$ 27.00</td><td>$ 2.55</td></tr><tr><td>JPM Survey Median</td><td>$ 29.40</td><td>$ 2.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "bf7167c77492f3e5",
+        "value": 0.11199999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>JPM Survey Median</td><td>$ 29.40</td><td>$ 2.30</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr><tr><td>JPM Survey High</td><td>$ 30.50</td><td>$ 2.70",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "80f9e1f72e076304",
+        "value": 0.11199999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>JPM Survey High</td><td>$ 30.50</td><td>$ 2.70</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr></table> Source: JPM Spec Sales Survey, StreetAccount ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d242d929b5c5c6a0",
+        "value": -0.08199999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>$ 29.80</td><td>$ 2.75</td></tr></table> Source: JPM Spec Sales Survey, StreetAccount ## MRVL (-8.2%)... The bar was low and they missed it. In particular, Datacenter missed consensus by a bit, whi",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a0c5518c81bfcf0d",
+        "value": 28.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "rowspan=\"2\">F3Q26</td></tr><tr><td>Rev (&#36;b)</td><td>EPS</td></tr><tr><td>JPM Survey Low</td><td>$ 28.50</td><td>$ 2.25</td><td>$ 6.50</td><td>$ 9.00</td><td>8.7%</td><td>$ 26.00</td><td>$ 2.31</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "bba006c7e8a2b739",
+        "value": 2.25,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "6</td></tr><tr><td>Rev (&#36;b)</td><td>EPS</td></tr><tr><td>JPM Survey Low</td><td>$ 28.50</td><td>$ 2.25</td><td>$ 6.50</td><td>$ 9.00</td><td>8.7%</td><td>$ 26.00</td><td>$ 2.31</td></tr><tr><td>Co",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "48fb5572234b6959",
+        "value": 6.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>Rev (&#36;b)</td><td>EPS</td></tr><tr><td>JPM Survey Low</td><td>$ 28.50</td><td>$ 2.25</td><td>$ 6.50</td><td>$ 9.00</td><td>8.7%</td><td>$ 26.00</td><td>$ 2.31</td></tr><tr><td>Company Guide</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "73f82d888cb2e054",
+        "value": 9.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ")</td><td>EPS</td></tr><tr><td>JPM Survey Low</td><td>$ 28.50</td><td>$ 2.25</td><td>$ 6.50</td><td>$ 9.00</td><td>8.7%</td><td>$ 26.00</td><td>$ 2.31</td></tr><tr><td>Company Guide</td><td>$ 29.00</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "dfd8e4b5637f4cc1",
+        "value": 26.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>JPM Survey Low</td><td>$ 28.50</td><td>$ 2.25</td><td>$ 6.50</td><td>$ 9.00</td><td>8.7%</td><td>$ 26.00</td><td>$ 2.31</td></tr><tr><td>Company Guide</td><td>$ 29.00</td><td>$ 2.25</td><td>$ 7.00<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "decc797f9b7a5732",
+        "value": 2.31,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "w</td><td>$ 28.50</td><td>$ 2.25</td><td>$ 6.50</td><td>$ 9.00</td><td>8.7%</td><td>$ 26.00</td><td>$ 2.31</td></tr><tr><td>Company Guide</td><td>$ 29.00</td><td>$ 2.25</td><td>$ 7.00</td><td>$ 8.90</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c782610df194c8ad",
+        "value": 29.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "0</td><td>$ 9.00</td><td>8.7%</td><td>$ 26.00</td><td>$ 2.31</td></tr><tr><td>Company Guide</td><td>$ 29.00</td><td>$ 2.25</td><td>$ 7.00</td><td>$ 8.90</td><td>10.3%</td><td>$ 26.16</td><td>$ 2.54</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "512ebe957266d636",
+        "value": 2.25,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>8.7%</td><td>$ 26.00</td><td>$ 2.31</td></tr><tr><td>Company Guide</td><td>$ 29.00</td><td>$ 2.25</td><td>$ 7.00</td><td>$ 8.90</td><td>10.3%</td><td>$ 26.16</td><td>$ 2.54</td></tr><tr><td>S",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "35d36d6601a64770",
+        "value": 7.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>$ 26.00</td><td>$ 2.31</td></tr><tr><td>Company Guide</td><td>$ 29.00</td><td>$ 2.25</td><td>$ 7.00</td><td>$ 8.90</td><td>10.3%</td><td>$ 26.16</td><td>$ 2.54</td></tr><tr><td>Street Conspirac",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "02aa5bbf7b42f3ac",
+        "value": 8.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>$ 2.31</td></tr><tr><td>Company Guide</td><td>$ 29.00</td><td>$ 2.25</td><td>$ 7.00</td><td>$ 8.90</td><td>10.3%</td><td>$ 26.16</td><td>$ 2.54</td></tr><tr><td>Street Conspiracy</td><td>$ 28.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4f25acf958b5bdb2",
+        "value": 26.16,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>Company Guide</td><td>$ 29.00</td><td>$ 2.25</td><td>$ 7.00</td><td>$ 8.90</td><td>10.3%</td><td>$ 26.16</td><td>$ 2.54</td></tr><tr><td>Street Conspiracy</td><td>$ 28.90</td><td>$ 2.29</td><td>$ 7",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d201abe80b15fdb0",
+        "value": 2.54,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$ 29.00</td><td>$ 2.25</td><td>$ 7.00</td><td>$ 8.90</td><td>10.3%</td><td>$ 26.16</td><td>$ 2.54</td></tr><tr><td>Street Conspiracy</td><td>$ 28.90</td><td>$ 2.29</td><td>$ 7.41</td><td>$ 10",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "fe6d9e8424f62250",
+        "value": 28.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>$ 8.90</td><td>10.3%</td><td>$ 26.16</td><td>$ 2.54</td></tr><tr><td>Street Conspiracy</td><td>$ 28.90</td><td>$ 2.29</td><td>$ 7.41</td><td>$ 10.77</td><td>9.9%</td><td>$ 27.21</td><td>$ 2.55</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ea9f643eeda9f236",
+        "value": 2.29,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>10.3%</td><td>$ 26.16</td><td>$ 2.54</td></tr><tr><td>Street Conspiracy</td><td>$ 28.90</td><td>$ 2.29</td><td>$ 7.41</td><td>$ 10.77</td><td>9.9%</td><td>$ 27.21</td><td>$ 2.55</td></tr><tr><td>J",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "748c5ddd8bd36bc7",
+        "value": 7.41,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$ 26.16</td><td>$ 2.54</td></tr><tr><td>Street Conspiracy</td><td>$ 28.90</td><td>$ 2.29</td><td>$ 7.41</td><td>$ 10.77</td><td>9.9%</td><td>$ 27.21</td><td>$ 2.55</td></tr><tr><td>JPM Survey Mean<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "90bae6179be3876b",
+        "value": 10.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$ 2.54</td></tr><tr><td>Street Conspiracy</td><td>$ 28.90</td><td>$ 2.29</td><td>$ 7.41</td><td>$ 10.77</td><td>9.9%</td><td>$ 27.21</td><td>$ 2.55</td></tr><tr><td>JPM Survey Mean</td><td>$ 29.43",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1a3d2b83143d6ec3",
+        "value": 27.21,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "treet Conspiracy</td><td>$ 28.90</td><td>$ 2.29</td><td>$ 7.41</td><td>$ 10.77</td><td>9.9%</td><td>$ 27.21</td><td>$ 2.55</td></tr><tr><td>JPM Survey Mean</td><td>$ 29.43</td><td>$ 2.37</td><td>$ 8.2",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6bb5e6eaaa10081a",
+        "value": 2.55,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$ 28.90</td><td>$ 2.29</td><td>$ 7.41</td><td>$ 10.77</td><td>9.9%</td><td>$ 27.21</td><td>$ 2.55</td></tr><tr><td>JPM Survey Mean</td><td>$ 29.43</td><td>$ 2.37</td><td>$ 8.20</td><td>$ 11.8",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "62f1ec9f7e08d1d6",
+        "value": 29.43,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>$ 10.77</td><td>9.9%</td><td>$ 27.21</td><td>$ 2.55</td></tr><tr><td>JPM Survey Mean</td><td>$ 29.43</td><td>$ 2.37</td><td>$ 8.20</td><td>$ 11.80</td><td>8.8%</td><td>$ 27.00</td><td>$ 2.45</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f2de6a17e3d90ae1",
+        "value": 2.37,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>9.9%</td><td>$ 27.21</td><td>$ 2.55</td></tr><tr><td>JPM Survey Mean</td><td>$ 29.43</td><td>$ 2.37</td><td>$ 8.20</td><td>$ 11.80</td><td>8.8%</td><td>$ 27.00</td><td>$ 2.45</td></tr><tr><td>A",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "533245b7cf7a712b",
+        "value": 8.2,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>$ 27.21</td><td>$ 2.55</td></tr><tr><td>JPM Survey Mean</td><td>$ 29.43</td><td>$ 2.37</td><td>$ 8.20</td><td>$ 11.80</td><td>8.8%</td><td>$ 27.00</td><td>$ 2.45</td></tr><tr><td>Actuals</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d1a290d9ac006e0a",
+        "value": 11.8,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>$ 2.55</td></tr><tr><td>JPM Survey Mean</td><td>$ 29.43</td><td>$ 2.37</td><td>$ 8.20</td><td>$ 11.80</td><td>8.8%</td><td>$ 27.00</td><td>$ 2.45</td></tr><tr><td>Actuals</td><td>$ 29.80</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4059d07fac54136b",
+        "value": 27.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">JPM Survey Mean</td><td>$ 29.43</td><td>$ 2.37</td><td>$ 8.20</td><td>$ 11.80</td><td>8.8%</td><td>$ 27.00</td><td>$ 2.45</td></tr><tr><td>Actuals</td><td>$ 29.80</td><td>$ 2.32</td><td>$ 7.40</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9ff34ee681fb2635",
+        "value": 2.45,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$ 29.43</td><td>$ 2.37</td><td>$ 8.20</td><td>$ 11.80</td><td>8.8%</td><td>$ 27.00</td><td>$ 2.45</td></tr><tr><td>Actuals</td><td>$ 29.80</td><td>$ 2.32</td><td>$ 7.40</td><td>$ 10.25</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2428ece8e3a92974",
+        "value": 29.8,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "$ 8.20</td><td>$ 11.80</td><td>8.8%</td><td>$ 27.00</td><td>$ 2.45</td></tr><tr><td>Actuals</td><td>$ 29.80</td><td>$ 2.32</td><td>$ 7.40</td><td>$ 10.25</td><td>10.0%</td><td>$ 27.00</td><td>$ 2.55</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "fcb6e9602f57e5a3",
+        "value": 2.32,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "11.80</td><td>8.8%</td><td>$ 27.00</td><td>$ 2.45</td></tr><tr><td>Actuals</td><td>$ 29.80</td><td>$ 2.32</td><td>$ 7.40</td><td>$ 10.25</td><td>10.0%</td><td>$ 27.00</td><td>$ 2.55</td></tr><tr><td>J",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e087e12164929794",
+        "value": 7.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "8.8%</td><td>$ 27.00</td><td>$ 2.45</td></tr><tr><td>Actuals</td><td>$ 29.80</td><td>$ 2.32</td><td>$ 7.40</td><td>$ 10.25</td><td>10.0%</td><td>$ 27.00</td><td>$ 2.55</td></tr><tr><td>JPM Survey Medi",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f3049e35d819dfc1",
+        "value": 10.25,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "27.00</td><td>$ 2.45</td></tr><tr><td>Actuals</td><td>$ 29.80</td><td>$ 2.32</td><td>$ 7.40</td><td>$ 10.25</td><td>10.0%</td><td>$ 27.00</td><td>$ 2.55</td></tr><tr><td>JPM Survey Median</td><td>$ 29",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "56cb37f03841cd93",
+        "value": 27.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<tr><td>Actuals</td><td>$ 29.80</td><td>$ 2.32</td><td>$ 7.40</td><td>$ 10.25</td><td>10.0%</td><td>$ 27.00</td><td>$ 2.55</td></tr><tr><td>JPM Survey Median</td><td>$ 29.40</td><td>$ 2.30</td><td>$ 8",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "82ed75ed04e30f81",
+        "value": 2.55,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>$ 29.80</td><td>$ 2.32</td><td>$ 7.40</td><td>$ 10.25</td><td>10.0%</td><td>$ 27.00</td><td>$ 2.55</td></tr><tr><td>JPM Survey Median</td><td>$ 29.40</td><td>$ 2.30</td><td>$ 8.40</td><td>$ 15",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c3e0422a8e3138fa",
+        "value": 29.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$ 10.25</td><td>10.0%</td><td>$ 27.00</td><td>$ 2.55</td></tr><tr><td>JPM Survey Median</td><td>$ 29.40</td><td>$ 2.30</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1419a053cc6f8966",
+        "value": 2.3,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>10.0%</td><td>$ 27.00</td><td>$ 2.55</td></tr><tr><td>JPM Survey Median</td><td>$ 29.40</td><td>$ 2.30</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr><tr><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "68ecac6adbb2ace8",
+        "value": 8.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$ 27.00</td><td>$ 2.55</td></tr><tr><td>JPM Survey Median</td><td>$ 29.40</td><td>$ 2.30</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr><tr><td>JPM Survey High",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "279b5e0520e3a33d",
+        "value": 15.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$ 2.55</td></tr><tr><td>JPM Survey Median</td><td>$ 29.40</td><td>$ 2.30</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr><tr><td>JPM Survey High</td><td>$ 30.5",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b974702fbca90c3e",
+        "value": 29.8,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "M Survey Median</td><td>$ 29.40</td><td>$ 2.30</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr><tr><td>JPM Survey High</td><td>$ 30.50</td><td>$ 2.70</td><td>$ 8.4",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f69ceffc1abf2ce7",
+        "value": 2.75,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>$ 29.40</td><td>$ 2.30</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr><tr><td>JPM Survey High</td><td>$ 30.50</td><td>$ 2.70</td><td>$ 8.40</td><td>$ 15.5",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c4e49bff1d2667b0",
+        "value": 30.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr><tr><td>JPM Survey High</td><td>$ 30.50</td><td>$ 2.70</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "40cd008da770bda1",
+        "value": 2.7,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr><tr><td>JPM Survey High</td><td>$ 30.50</td><td>$ 2.70</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr></table>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "50fe9bcbe47e9d6b",
+        "value": 8.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>$ 29.80</td><td>$ 2.75</td></tr><tr><td>JPM Survey High</td><td>$ 30.50</td><td>$ 2.70</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr></table> Source: JPM Sp",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b60d3aee6fcbd3ec",
+        "value": 15.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>$ 2.75</td></tr><tr><td>JPM Survey High</td><td>$ 30.50</td><td>$ 2.70</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr></table> Source: JPM Spec Sales Survey",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "705e88f32f45600b",
+        "value": 29.8,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "JPM Survey High</td><td>$ 30.50</td><td>$ 2.70</td><td>$ 8.40</td><td>$ 15.50</td><td>11.2%</td><td>$ 29.80</td><td>$ 2.75</td></tr></table> Source: JPM Spec Sales Survey, StreetAccount ## MRVL (-8.2%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5ca2d45227a62e85",
+        "value": 0.593,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>EPS Guide</td><td></td></tr><tr><td>JPM Survey Low</td><td>$ 2.00</td><td>$ 1.50</td><td>59.3%</td><td>$ 0.67</td><td>$ 2.10</td><td>$ 0.70</td><td></td></tr><tr><td>Company Guide</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "c636802ddc822820",
+        "value": 0.595,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2.10</td><td>$ 0.70</td><td></td></tr><tr><td>Company Guide</td><td>$ 2.00</td><td></td><td>59.5%</td><td>$ 0.67</td><td></td><td></td><td></td></tr><tr><td>Street Consensus</td><td>$ 2.00</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "737fad9f2917449f",
+        "value": 0.595,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></td><td></td><td></td></tr><tr><td>Street Consensus</td><td>$ 2.00</td><td>$ 1.52</td><td>59.5%</td><td>$ 0.67</td><td>$ 2.12</td><td>$ 0.72</td><td></td></tr><tr><td>Actuals</td><td>$",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "bdfc3702ad0e6739",
+        "value": 0.594,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".12</td><td>$ 0.72</td><td></td></tr><tr><td>Actuals</td><td>$ 2.00</td><td>$ 1.49</td><td>59.4%</td><td>$ 0.67</td><td>$ 2.06</td><td>$ 0.74</td><td></td></tr><tr><td>Survey Mean</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "714f060d15b5b79d",
+        "value": 0.596,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>$ 0.74</td><td></td></tr><tr><td>Survey Mean</td><td>$ 2.05</td><td>$ 1.54</td><td>59.6%</td><td>$ 0.69</td><td>$ 2.19</td><td>$ 0.76</td><td></td></tr><tr><td>JPM Survey Median</",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "82fc39c23d41b026",
+        "value": 0.595,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>$ 0.76</td><td></td></tr><tr><td>JPM Survey Median</td><td>$ 2.05</td><td>$ 1.54</td><td>59.5%</td><td>$ 0.69</td><td>$ 2.20</td><td>$ 0.75</td><td></td></tr><tr><td>JPM Survey High</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "775b62a76355a86b",
+        "value": 0.6,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>$ 0.75</td><td></td></tr><tr><td>JPM Survey High</td><td>$ 2.10</td><td>$ 1.58</td><td>60.0%</td><td>$ 0.73</td><td>$ 2.31</td><td>$ 0.87</td><td></td></tr></table> Source:JPM Spec S",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "6d928441316312e4",
+        "value": 2.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>EPS</td><td>Rev Guide ($b)</td><td>EPS Guide</td><td></td></tr><tr><td>JPM Survey Low</td><td>$ 2.00</td><td>$ 1.50</td><td>59.3%</td><td>$ 0.67</td><td>$ 2.10</td><td>$ 0.70</td><td></td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "649a42ca45ade81a",
+        "value": 1.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Rev Guide ($b)</td><td>EPS Guide</td><td></td></tr><tr><td>JPM Survey Low</td><td>$ 2.00</td><td>$ 1.50</td><td>59.3%</td><td>$ 0.67</td><td>$ 2.10</td><td>$ 0.70</td><td></td></tr><tr><td>Compa",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "4acc1f57a37e8cad",
+        "value": 0.67,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td></td></tr><tr><td>JPM Survey Low</td><td>$ 2.00</td><td>$ 1.50</td><td>59.3%</td><td>$ 0.67</td><td>$ 2.10</td><td>$ 0.70</td><td></td></tr><tr><td>Company Guide</td><td>$ 2.00</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "17c1cf0bae354fc4",
+        "value": 2.1,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><tr><td>JPM Survey Low</td><td>$ 2.00</td><td>$ 1.50</td><td>59.3%</td><td>$ 0.67</td><td>$ 2.10</td><td>$ 0.70</td><td></td></tr><tr><td>Company Guide</td><td>$ 2.00</td><td></td><td>59.5%<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "1bdf7ad76f7812a6",
+        "value": 0.7,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "y Low</td><td>$ 2.00</td><td>$ 1.50</td><td>59.3%</td><td>$ 0.67</td><td>$ 2.10</td><td>$ 0.70</td><td></td></tr><tr><td>Company Guide</td><td>$ 2.00</td><td></td><td>59.5%</td><td>$ 0.67<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "3584b5cb709d6ee9",
+        "value": 2.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>$ 0.67</td><td>$ 2.10</td><td>$ 0.70</td><td></td></tr><tr><td>Company Guide</td><td>$ 2.00</td><td></td><td>59.5%</td><td>$ 0.67</td><td></td><td></td><td></td></tr><tr><td>Street Consens",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "4e234072aaa294c9",
+        "value": 0.67,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">$ 0.70</td><td></td></tr><tr><td>Company Guide</td><td>$ 2.00</td><td></td><td>59.5%</td><td>$ 0.67</td><td></td><td></td><td></td></tr><tr><td>Street Consensus</td><td>$ 2.00</td><td>$ 1.52</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7fa72ab5770228b5",
+        "value": 2.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>59.5%</td><td>$ 0.67</td><td></td><td></td><td></td></tr><tr><td>Street Consensus</td><td>$ 2.00</td><td>$ 1.52</td><td>59.5%</td><td>$ 0.67</td><td>$ 2.12</td><td>$ 0.72</td><td></td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ad34aacf06d753a3",
+        "value": 1.52,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$ 0.67</td><td></td><td></td><td></td></tr><tr><td>Street Consensus</td><td>$ 2.00</td><td>$ 1.52</td><td>59.5%</td><td>$ 0.67</td><td>$ 2.12</td><td>$ 0.72</td><td></td></tr><tr><td>Actua",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "30c2fc523f9e48cd",
+        "value": 0.67,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td></td></tr><tr><td>Street Consensus</td><td>$ 2.00</td><td>$ 1.52</td><td>59.5%</td><td>$ 0.67</td><td>$ 2.12</td><td>$ 0.72</td><td></td></tr><tr><td>Actuals</td><td>$ 2.00</td><td>$",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2d80e10fce6d3f6c",
+        "value": 2.12,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "tr><td>Street Consensus</td><td>$ 2.00</td><td>$ 1.52</td><td>59.5%</td><td>$ 0.67</td><td>$ 2.12</td><td>$ 0.72</td><td></td></tr><tr><td>Actuals</td><td>$ 2.00</td><td>$ 1.49</td><td>59.",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0d607ea288bbb06f",
+        "value": 0.72,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ensus</td><td>$ 2.00</td><td>$ 1.52</td><td>59.5%</td><td>$ 0.67</td><td>$ 2.12</td><td>$ 0.72</td><td></td></tr><tr><td>Actuals</td><td>$ 2.00</td><td>$ 1.49</td><td>59.4%</td><td>$ 0.",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2cb1e941c975de5b",
+        "value": 2.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ".5%</td><td>$ 0.67</td><td>$ 2.12</td><td>$ 0.72</td><td></td></tr><tr><td>Actuals</td><td>$ 2.00</td><td>$ 1.49</td><td>59.4%</td><td>$ 0.67</td><td>$ 2.06</td><td>$ 0.74</td><td></td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "629a0e6ee10d4f3d",
+        "value": 1.49,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ".67</td><td>$ 2.12</td><td>$ 0.72</td><td></td></tr><tr><td>Actuals</td><td>$ 2.00</td><td>$ 1.49</td><td>59.4%</td><td>$ 0.67</td><td>$ 2.06</td><td>$ 0.74</td><td></td></tr><tr><td>Surve",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0046025f4c06c6a7",
+        "value": 0.67,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "0.72</td><td></td></tr><tr><td>Actuals</td><td>$ 2.00</td><td>$ 1.49</td><td>59.4%</td><td>$ 0.67</td><td>$ 2.06</td><td>$ 0.74</td><td></td></tr><tr><td>Survey Mean</td><td>$ 2.05</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a6051865774b8745",
+        "value": 2.06,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td></tr><tr><td>Actuals</td><td>$ 2.00</td><td>$ 1.49</td><td>59.4%</td><td>$ 0.67</td><td>$ 2.06</td><td>$ 0.74</td><td></td></tr><tr><td>Survey Mean</td><td>$ 2.05</td><td>$ 1.54</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a2e5036aa65c3735",
+        "value": 0.74,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "tuals</td><td>$ 2.00</td><td>$ 1.49</td><td>59.4%</td><td>$ 0.67</td><td>$ 2.06</td><td>$ 0.74</td><td></td></tr><tr><td>Survey Mean</td><td>$ 2.05</td><td>$ 1.54</td><td>59.6%</td><td>$",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "49b41dbad4bb23a8",
+        "value": 2.05,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>$ 0.67</td><td>$ 2.06</td><td>$ 0.74</td><td></td></tr><tr><td>Survey Mean</td><td>$ 2.05</td><td>$ 1.54</td><td>59.6%</td><td>$ 0.69</td><td>$ 2.19</td><td>$ 0.76</td><td></td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "41fe89a46b66e25f",
+        "value": 1.54,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>$ 2.06</td><td>$ 0.74</td><td></td></tr><tr><td>Survey Mean</td><td>$ 2.05</td><td>$ 1.54</td><td>59.6%</td><td>$ 0.69</td><td>$ 2.19</td><td>$ 0.76</td><td></td></tr><tr><td>JPM S",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "eae2ddca52cd23ba",
+        "value": 0.69,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ".74</td><td></td></tr><tr><td>Survey Mean</td><td>$ 2.05</td><td>$ 1.54</td><td>59.6%</td><td>$ 0.69</td><td>$ 2.19</td><td>$ 0.76</td><td></td></tr><tr><td>JPM Survey Median</td><td>$ 2.05</",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "fd1a9c0d92579b37",
+        "value": 2.19,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/tr><tr><td>Survey Mean</td><td>$ 2.05</td><td>$ 1.54</td><td>59.6%</td><td>$ 0.69</td><td>$ 2.19</td><td>$ 0.76</td><td></td></tr><tr><td>JPM Survey Median</td><td>$ 2.05</td><td>$ 1.54</",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a1accee712de2b88",
+        "value": 0.76,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Mean</td><td>$ 2.05</td><td>$ 1.54</td><td>59.6%</td><td>$ 0.69</td><td>$ 2.19</td><td>$ 0.76</td><td></td></tr><tr><td>JPM Survey Median</td><td>$ 2.05</td><td>$ 1.54</td><td>59.5%</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "3bb8773617ce865e",
+        "value": 2.05,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>$ 0.69</td><td>$ 2.19</td><td>$ 0.76</td><td></td></tr><tr><td>JPM Survey Median</td><td>$ 2.05</td><td>$ 1.54</td><td>59.5%</td><td>$ 0.69</td><td>$ 2.20</td><td>$ 0.75</td><td></td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "d6844ecf7c0e0d35",
+        "value": 1.54,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>$ 2.19</td><td>$ 0.76</td><td></td></tr><tr><td>JPM Survey Median</td><td>$ 2.05</td><td>$ 1.54</td><td>59.5%</td><td>$ 0.69</td><td>$ 2.20</td><td>$ 0.75</td><td></td></tr><tr><td>JPM S",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "9be74bdb033f6d0f",
+        "value": 0.69,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td></td></tr><tr><td>JPM Survey Median</td><td>$ 2.05</td><td>$ 1.54</td><td>59.5%</td><td>$ 0.69</td><td>$ 2.20</td><td>$ 0.75</td><td></td></tr><tr><td>JPM Survey High</td><td>$ 2.10</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "6f41c0e50fb53ace",
+        "value": 2.2,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "r><td>JPM Survey Median</td><td>$ 2.05</td><td>$ 1.54</td><td>59.5%</td><td>$ 0.69</td><td>$ 2.20</td><td>$ 0.75</td><td></td></tr><tr><td>JPM Survey High</td><td>$ 2.10</td><td>$ 1.58</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0d642cb7ae1f7a8c",
+        "value": 0.75,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "edian</td><td>$ 2.05</td><td>$ 1.54</td><td>59.5%</td><td>$ 0.69</td><td>$ 2.20</td><td>$ 0.75</td><td></td></tr><tr><td>JPM Survey High</td><td>$ 2.10</td><td>$ 1.58</td><td>60.0%</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "460cdd656ad5946d",
+        "value": 2.1,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$ 0.69</td><td>$ 2.20</td><td>$ 0.75</td><td></td></tr><tr><td>JPM Survey High</td><td>$ 2.10</td><td>$ 1.58</td><td>60.0%</td><td>$ 0.73</td><td>$ 2.31</td><td>$ 0.87</td><td></td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f48c717bfdd48e90",
+        "value": 1.58,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$ 2.20</td><td>$ 0.75</td><td></td></tr><tr><td>JPM Survey High</td><td>$ 2.10</td><td>$ 1.58</td><td>60.0%</td><td>$ 0.73</td><td>$ 2.31</td><td>$ 0.87</td><td></td></tr></table> Sou",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "cfc0b506d6e33433",
+        "value": 0.73,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td></td></tr><tr><td>JPM Survey High</td><td>$ 2.10</td><td>$ 1.58</td><td>60.0%</td><td>$ 0.73</td><td>$ 2.31</td><td>$ 0.87</td><td></td></tr></table> Source:JPM Spec Sales Survey, Facts",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ac2b003f0c445df3",
+        "value": 2.31,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<tr><td>JPM Survey High</td><td>$ 2.10</td><td>$ 1.58</td><td>60.0%</td><td>$ 0.73</td><td>$ 2.31</td><td>$ 0.87</td><td></td></tr></table> Source:JPM Spec Sales Survey, Factset, StreetAccount",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "6e34d9ff0e4874a1",
+        "value": 0.87,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "High</td><td>$ 2.10</td><td>$ 1.58</td><td>60.0%</td><td>$ 0.73</td><td>$ 2.31</td><td>$ 0.87</td><td></td></tr></table> Source:JPM Spec Sales Survey, Factset, StreetAccount ![Figure 2-0](ima",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 3,
+      "tables_count": 0,
+      "numerical_data_count": 89,
+      "passages_count": 18,
+      "entities_count": 20
+    }
+  }
+}

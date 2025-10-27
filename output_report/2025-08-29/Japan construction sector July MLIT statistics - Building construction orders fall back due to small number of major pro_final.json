@@ -1,0 +1,1386 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "c91dc2fb9e6b9c553531eaec1ff82c72",
+    "title": "NOAURA",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Nomura/Japan construction sector July MLIT statistics - Building construction orders fall back due to small number of major pro_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:33:08.235218",
+      "extracted_at": "2025-10-26T12:33:08.235228"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 11,
+        "successful_pages": 11,
+        "date": "2025-08-29",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Nomura",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 7,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.29419870229540224
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Nomura"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "c0155383de27b5f5",
+      "text": "Average building start price up, with a few exceptions",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "7dafc142b28ba259",
+      "text": "According to order receipt data for 50 major construction companies released on 29 August, building construction orders fell \\(29\\%\\) y- y (down \\(30\\%\\) in Japan) in July. Orders were down for factories, offices, and lodging facilities. We attribute this to a fallback from a concentration of multiple large orders for factory projects a year earlier and limited orders for redevelopment and other major projects booked in July 2025. We think orders for major redevelopment projects and factory projects may remain in a fallow period from July onwards, resulting in sustained y- y declines over multiple months. That said, general contractors have plentiful order backlogs, and inquiries about other projects, ie, inbound- related projects and data centers, look to have been solid, on which basis we envision sustained improvements in margins at the point of order thanks to a focus on margins. Civil engineering orders rose \\(14\\%\\) in July (down \\(3\\%\\) in Japan). In Japan, orders fell for roads, harbors, and airports. Road project orders from local governments and expressway companies declined. Expressway operators look to have been reining in new orders because of budget shortages, and we expect orders for expressway projects to continue to fall in August and beyond.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1a6f4774e04245ab",
+      "text": "The construction start statistics for July, announced on the same day, showed building construction start floor space down \\(13\\%\\) , with residential starts down \\(9\\%\\) and nonresidential starts down \\(21\\%\\) . Among nonresidential buildings, start floor area was down for offices, warehouses, and factories. There were few large- scale project starts again in July, and we think that SMEs continued to rein in capex because of rising construction costs. The average building start price (projected construction costs divided by building start floor area, 12- month moving average) of \\(309,000 / \\mathrm{m}^2\\) was slightly up from \\(301,000 / \\mathrm{m}^2\\) in June (Figure 1). Average building start price was broadly flat for residential projects and up for nonresidential projects. For nonresidential buildings, average prices were down for manufacturing and lodging, but up for other categories including services, education, and transportation, and the mix also contributed to an improvement in average prices for nonresidential buildings as a whole thanks to a decline in exposure to the transportation sector, where average prices are low. We attribute the decline in average building start prices for manufacturing facilities to a decline in starts of large projects such as semiconductor and EV battery plants, which carry high prices. General contractors look to have continued to hike prices at the point of order, and major general contractors look to have received inquiries about an increased number of projects, up to those that would start around 28/3. With the number of special orders on the rise, in which projects are received without competitive bidding, we expect companies to continue to raise prices to pass through increases in labor and other costs and improve margins at the point of order.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "798e43e5f54c8895",
+      "text": "The July survey on supply and demand for construction labor, announced on 25 August, showed an average shortage of \\(1.8\\%\\) for the six skilled construction worker categories, and given that labor supply- demand conditions tend to tighten through the summer, tightened from \\(1.1\\%\\) in the June survey, it was not as tight as the \\(2.3\\%\\) reading a year earlier (Figure 4). Shortages increased y- y for scaffolding workers but eased for form workers (building construction) and steel reinforcement workers (building construction). We attribute the easing in the shortage for structural work to the low number of redevelopment projects and smaller projects. We see limited risk of labor supply- demand conditions tightening, given that many of the redevelopment projects currently being",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ee6b3d3a55685f4c",
+      "text": "planned would be due for completion in 29/3 or later, and start floor area for redevelopment projects and smaller projects is expected to decline over the near term.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "149fa53d4613e8d9",
+      "text": "Among engineering categories, the shortage of electricians was \\(1.2\\%\\) (flat m- m) and the shortage of plumbers increased by \\(0.6\\mathrm{ppt}\\mathrm{m} - \\mathrm{m}\\) to \\(1.2\\%\\) (the equivalent readings for July 2024 were \\(1.2\\%\\) and \\(0.6\\%\\) ). The shortage of plumbers increased m- m in Hokkaido, which we attribute to progress with major semiconductor- related projects as well as seasonality. We expect supply- demand for plumbers to slacken from 27/3 onwards as major semiconductor projects are expected to run their course in 26/3. Shortages of electricians have remained high in absolute terms, and we expect supply- demand conditions to remain tight as a result of an increase in work related to data centers and power transmission networks.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "0a391a78681a7db3",
+      "text": "Fig. 1: Building start prices and Building Construction Cost Index",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5dc33511c8ee9b5e",
+      "text": "Source: Nomura, based on MLIT and Construction Research Institute data",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "08e169a52ff24669",
+      "text": "Fig. 2: Building start prices over long term (April 1985-)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "c76ce5cfb6fa0ac2",
+      "text": "Source: Nomura, based on Ministry of Land, Infrastructure, Transport and Tourism data",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b314a605000a57fc",
+      "text": "Fig. 3: Supply-demand for skilled construction workers, by region",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "37fbd01543e683d5",
+      "text": "Source: Nomura, based on Ministry of Land, Infrastructure, Transport and Tourism data",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "a08b26a06c8c3d46",
+      "text": "Fig. 4: Average shortages in six categories of skilled construction workers",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b044fccc1ca3bfde",
+      "text": "Source: Nomura, based on Ministry of Land, Infrastructure, Transport and Tourism data",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3a70f600ec5385c1",
+      "text": "Fig. 5: Shortages by skill for skilled construction workers",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "901f244272775de6",
+      "text": "Note: 12-month moving average basis. Source: Nomura, based on Ministry of Land, Infrastructure, Transportation and Tourism survey on construction labor supply-demand",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "0d82278e23b243a9",
+      "text": "Fig. 6: Price breakdown by type of construction work",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d30d2934486a3cf4",
+      "text": "Note: 2015 average market prices indexed to 100. Source: Nomura, based on Construction Research Institute data",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3e9ab91678c35c4e",
+      "text": "Fig. 7: Orders at 50 largest construction companies",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e01af449cca59688",
+      "text": "(FY)(Ybn)1314151617181920212223Apr-Jul24Apr-Jul25E26E27ETotal13,26814,35814,22514,79114,89615,85914,92914,88115,09816,53818,0015,33518,9566,20019,25019,05019,110Japan12,40113,59013,67814,47514,34315,21014,12914,52214,73515,88517,3455,10918,3175,89418,70018,50018,560Private sector8,4838,8939,59610,08810,15011,62710,61110,09610,92711,63612,5363,94613,6464,83813,93013,70013,760Manufacturing1,4571,6761,9501,8802,1742,4412,3681,9922,4243,2673,1961,1193,5189763,7503,5503,550Nonmanufacturing7,0267,2177,6468,2087,9769,1868,2438,1048,5038,3689,3402,82710,1283,86310,18010,15010,210Housing1,3011,3811,6151,6661,3141,7401,4031,3701,2591,5711,5615131,9464471,7501,7501,750Offices1,2061,5511,8941,5971,6272,0271,7412,0312,2772,1752,8808442,9681,2683,1003,1003,150Schools & hospitals1,5191,1011,2819637061,1449421,0969601,0361,1482699982181,1501,1901,190of which, educational/cultural facilities585537693450389630659705578686872208756160750750750of which, healthcare/welfare facilities9345635885133175132833903823502766124258400440440Stores and warehousing/logistics facilities9759931,0321,1131,1361,2191,4371,4141,5671,4381,5063801,5615431,5801,5101,520of which, stores672567490566565587466392422324570118527192560550550of which, warehousing/logistics facilities3034245425475716329711,0221,1451,1149372621,0343511,020960970Other nonmanufacturing2,0242,1631,8742,8703,1933,0562,7212,1942,4392,1482,2458212,6541,3862,6002,6002,600Public3,4394,2273,5683,8683,6603,1133,0143,9053,3503,7044,2879844,1138704,2004,2004,200Other479470514519532471504520459545522179558187570600600Overseas867768547315554649799359363653656226639306550550550Building construction8,8479,1839,6519,9169,69611,0589,8819,60810,38911,29412,1363,73613,0834,53313,45013,25013,310Civil engineering4,4215,1754,5744,8745,2004,8015,0475,2734,7095,2435,8651,5985,8731,6675,8005,8005,800% y-yTotal208-1416-601109135162-10Private sector14585115-9-5865199232-20Manufacturing-21516-41612-3-162235-24110-137-50Nonmanufacturing18367-315-10-25-21212837101Public3123-168-5-15-330-141116-7-4-12200Overseas68-11-29-42761723-551801124-335-1400Building construction17453-214-11-3898228213-10Civil engineering2817-1277-854-111112-404-100Proportion of total (%)Building construction6764686765706665696867706973707070Civil engineering3336323335303435313233303127303030",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2ca1a1337ce315a7",
+      "text": "Note: Estimates by Nomura.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "66430ef08a345e54",
+      "text": "Source: Ministry of Land, Infrastructure, Transport and Tourism data, Nomura estimates",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f10e2e99c234acaf",
+      "text": "Appendix A- 1This report has been produced by Nomura Securities Co., Ltd. (NSC), Japan. See Disclaimers for Nomura Group entity details.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "be105f622752dd52",
+      "text": "The analysts responsible for preparing this report have received compensation based upon various factors including the firm's total revenues, a portion of which is generated by Investment Banking activities. Unless otherwise noted, the non- US analysts listed at the front of this report are not registered/qualified as research analysts under FINRA rules, may not be associated persons of NSI, and may not be subject to FINRA Rule 2241 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "94c140ca3607fc7e",
+      "text": "Nomura Global Financial Products Inc. (NGFP) Nomura Derivative Products Inc. (NDP) and Nomura International plc. (Nlplc) are registered with the Commodities Futures Trading Commission and the National Futures Association (NFA) as swap dealers. NGFP, NDPI, and Nlplc are generally engaged in the trading of swaps and other derivative products, any of which may be the subject of this report.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c0b717672d39587a",
+      "text": "A rating of 'Buy', indicates that the analyst expects the stock to outperform the Benchmark over the next 12 months. A rating of 'Neutral', indicates that the analyst expects the stock to perform in line with the Benchmark over the next 12 months. A rating of 'Reduce', indicates that",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "851007dea3439d0f",
+      "text": "the analyst expects the stock to underperform the Benchmark over the next 12 months. A rating of 'Suspended', indicates that the rating, target price and estimates have been suspended temporarily to comply with applicable regulations and/or firm policies. Securities and/or companies that are labelled as 'Not rated' or shown as 'No rating' are not in regular research coverage. Investors should not expect continuing or additional information from Nomura relating to such securities and/or companies. Benchmarks are as follows: United States/Europe/Asia ex- Japan: please see valuation methodologies for explanations of relevant benchmarks for stocks, which can be accessed at: http://go.nomuranow.com/research/mDisclosures; Global Emerging Markets (ex- Asia): MSCI Emerging Markets ex- Asia, unless otherwise stated in the valuation methodology; Japan: Russell/Nomura Large Cap.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "53180e377c38940c",
+      "text": "A 'Bullish' stance, indicates that the analyst expects the sector to outperform the Benchmark during the next 12 months. A 'Neutral' stance, indicates that the analyst expects the sector to perform in line with the Benchmark during the next 12 months. A 'Bearish' stance, indicates that the analyst expects the sector to underperform the Benchmark during the next 12 months. Sectors that are labelled as 'Not rated' or shown as 'N/A' are not assigned ratings. Benchmarks are as follows: United States: S&P 500; Europe: Dow Jones STOXX 600; Global Emerging Markets (ex- Asia): MSCI Emerging Markets ex- Asia. Japan/Asia ex- Japan: Sector ratings are not assigned.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "6e35f0f0fc9885db",
+      "text": "A Target Price, if discussed, indicates the analyst's forecast for the share price with a 12- month time horizon, reflecting in part the analyst's estimates for the company's earnings. The achievement of any target price may be impeded by general market and macroeconomic trends, and by other risks related to the company or the market, and may not occur if the company's earnings differ from estimates.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "bc89ee5a2f8cf151",
+      "text": "from use of this document and related data. To the maximum extent permissible by law and/or regulation, all warranties and other assurances by the Nomura Group are hereby excluded and the Nomura Group shall have no liability (in negligence or otherwise, and in whole or in part) for any loss howsoever arising from the use, misuse, or distribution of this material or the information contained in this material or otherwise arising in connection therewith.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0c1247fea9b524db",
+      "text": "Opinions or estimates expressed are current opinions as of the original publication date appearing on this material and the information, including the opinions and estimates contained herein, are subject to change without notice. The Nomura Group, however, expressly disclaims any obligation, and therefore is under no duty, to update or revise this document. Any comments or statements made herein are those of the author(s) and may differ from views held by other parties within Nomura Group. Clients should consider whether any advice or recommendation in this report is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The Nomura Group does not provide tax advice.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "4e7ff6c3c88c4e78",
+      "text": "The Nomura Group, and/or its officers, directors, employees and affiliates, may, to the extent permitted by applicable law and/or regulation, deal as principal, agent, or otherwise, or have long or short positions in, or buy or sell, the securities, commodities or instruments, or options or other derivative instruments based thereon, of issuers or securities mentioned herein. The Nomura Group companies may also act as market maker or liquidity provider (within the meaning of applicable regulations in the UK) in the financial instruments of the issuer. Where the activity of market maker is carried out in accordance with the definition given to it by specific laws and regulations of the US or other jurisdictions, this will be separately disclosed within the specific issuer disclosures.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "3a193b976e0f450e",
+      "text": "This document may contain information obtained from third parties, including, but not limited to, ratings from credit ratings agencies such as Standard & Poor's. The Nomura Group hereby expressly disclaims all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of the information obtained from third parties contained in this material or otherwise arising in connection therewith, and shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of any of the information obtained from third parties contained in this material or otherwise arising in connection therewith. Reproduction and distribution of third- party content in any form is prohibited except with the prior written permission of the related third- party. Third- party content providers do not, express or implied, guarantee the fairness, accuracy, completeness, correctness, timeliness or availability of any information, including ratings, and are not in any way responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use or misuse of such content. Third- party content providers give no express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Third- party content providers shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Any MSCI sourced information in this document is the exclusive property of MSCI Inc. ('MSCI'). Without prior written permission of MSCI, this information and any other MSCI intellectual property may not be duplicated, reproduced, re- disseminated, redistributed or used, in whole or in part, for any purpose whatsoever, including creating any financial products and any indices. This information is provided on an \"as is\" basis. The user assumes the entire risk of any use made of this information. MSCI, its affiliates and any third party involved in, or related to, computing or compiling the information hereby expressly disclaim all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of this material or the information contained in this material or otherwise arising in connection therewith. Without limiting any of the foregoing, in no event shall MSCI, any of its affiliates or any third party involved in, or related to, computing or compiling the information have any liability (in negligence or otherwise, and in whole or in part) for any damages of any kind. MSCI and the MSCI indexes are services marks of MSCI and its affiliates.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "63888fe8128446c1",
+      "text": "The intellectual property rights and any other rights, in Russell/Nomura Japan Equity Index belong to Nomura Fiduciary Research & Consulting Co., Ltd. (\"NFRC\") and FTSE Russell (\"Russell\"). NFRC and Russell do not guarantee fairness, accuracy, completeness, correctness, reliability, usefulness, marketability, merchantability or fitness of the Index, and do not account for business activities or services that any index user and/or its affiliates undertakes with the use of the Index.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "6f3c2e4148345576",
+      "text": "Investors should consider this document as only a single factor in making their investment decision and, as such, the report should not be viewed as identifying or suggesting all risks, direct or indirect, that may be associated with any investment decision. Nomura Group produces a number of different types of research product including, among others, fundamental analysis and quantitative analysis; recommendations contained in one type of research product may differ from recommendations contained in other types of research product, whether as a result of differing time horizons, methodologies or otherwise. The Nomura Group publishes research product in a number of different ways including the posting of product on the Nomura Group portals and/or distribution directly to clients. Different groups of clients may receive different products and services from the research department depending on their individual requirements.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "39fe00cf5b65ea87",
+      "text": "Figures presented herein may refer to past performance or simulations based on past performance which are not reliable indicators of future or likely performance. Where the information contains an expectation, projection or indication of future performance and business prospects, such forecasts may not be a reliable indicator of future or likely performance. Moreover, simulations are based on models and simplifying assumptions which may oversimplify and not reflect the future distribution of returns. Any figure, strategy or index created and published for illustrative purposes within this document is not intended for \"use\" as a \"benchmark\" as defined by the European Benchmark Regulation. Certain securities are subject to fluctuations in exchange rates that could have an adverse effect on the value or price of, or income derived from, the investment.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e50ea956df356cc5",
+      "text": "With respect to Fixed Income Research: Recommendations fall into two categories: tactical, which typically last up to three months; or strategic, which typically last from 6- 12 months. However, trade recommendations may be reviewed at any time as circumstances change. 'Stop loss' levels for trades are also provided; which, if hit, closes the trade recommendation automatically. Prices and yields shown in recommendations are taken at the time of submission for publication and are based on either indicative Bloomberg, LSEG or Nomura prices and yields at that time. The prices and yields shown are not necessarily those at which the trade recommendation can be implemented.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "90ed82510211689f",
+      "text": "The securities described herein may not have been registered under the US Securities Act of 1933 (the '1933 Act'), and, in such case, may not be offered or sold in the US or to US persons unless they have been registered under the 1933 Act, or except in compliance with an exemption from the registration requirements of the 1933 Act. Unless governing law permits otherwise, any transaction should be executed via a Nomura entity in your home jurisdiction.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "25b501ff4e25812d",
+      "text": "This document has been approved for distribution in the UK as investment research by Nlplc. Nlplc is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. Nlplc is a member of the London Stock Exchange. This document does not constitute a personal recommendation within the meaning of applicable regulations in the UK, or take into account the particular investment objectives, financial situations, or needs of individual investors. This document is intended only for investors who are 'eligible counterparties' or 'professional clients' for the purposes of applicable regulations in the UK, and may not, therefore, be redistributed to persons who are 'retail clients' for such purposes.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "da06db56915c9ce2",
+      "text": "This document has been approved for distribution in the European Economic Area as investment research by Nomura Financial Products Europe GmbH (\"NFPE\"). NFPE is a company organized as a limited liability company under German law registered in the Commercial Register of the Court of Frankfurt/Main under HRB 110223. NFPE is authorized and regulated by the German Federal Financial Supervisory Authority (BaFin).",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "78ce2822f0e645ae",
+      "text": "This document has been approved by NIHK, which is regulated by the Hong Kong Securities and Futures Commission, for distribution in Hong Kong by NIHK. This document is intended only for investors who are 'professional investors' for the purposes of applicable regulations in Hong Kong and may not, therefore, be redistributed to persons who are not 'professional investors' for such purposes.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c65e8b6e06e84f5d",
+      "text": "This document has been approved for distribution in Australia by NAL, which is authorized and regulated in Australia by the ASIC. This document has also been approved for distribution in Malaysia by NSM.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "37e88a18262cb1e4",
+      "text": "In Singapore, this document has been distributed by NSL, an exempt financial adviser as defined under the Financial Advisers Act (Chapter 110), among other things, and regulated by the Monetary Authority of Singapore. NSL may distribute this document produced by its foreign affiliates pursuant to an arrangement under Regulation 32C of the Financial Advisers Regulations. Where the recipient of this document is not an accredited, expert or institutional investor as defined by the Securities and Futures Act (Chapter 289), NSL accepts legal responsibility for the contents of this document in respect of such recipient only to the extent required by law. Recipients of this document in Singapore should contact NSL in respect of matters arising from, or in connection with, this document. THIS DOCUMENT IS INTENDED FOR GENERAL CIRCULATION. IT DOES NOT TAKE INTO ACCOUNT THE SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS OF ANY PARTICULAR PERSON. RECIPIENTS SHOULD TAKE INTO ACCOUNT THEIR SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS BEFORE MAKING A COMMITMENT TO PURCHASE ANY SECURITIES, INCLUDING SEEKING ADVICE FROM AN INDEPENDENT FINANCIAL ADVISER REGARDING THE SUITABILITY OF THE INVESTMENT, UNDER A SEPARATE ENGAGEMENT, AS THE RECIPIENT DEEMS FIT.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "6b281b0722a3ce03",
+      "text": "Unless prohibited by the provisions of Regulation S of the 1933 Act, this material is distributed in the US, by NSI, a US- registered broker- dealer, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6, under the US Securities Exchange Act of 1934. The entity that prepared this document permits its separately operated affiliates within the Nomura Group to make copies of such documents available to their clients.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "8287268c41a66753",
+      "text": "This document has not been approved for distribution to persons other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' (as defined by the Capital Markets Authority) in the Kingdom of Saudi Arabia ('Saudi Arabia') or a 'Market Counterparty' or a 'Professional Client' (as defined by the Dubai Financial Services Authority) in the United Arab Emirates ('UAE') or a 'Market Counterparty' or a 'Business Customer' (as defined by the Qatar Financial Centre Regulatory Authority) in the State of Qatar ('Qatar') by Nomura Saudi Arabia, Nlplc or any other member of the Nomura Group, as the case may be. Neither this document nor any copy thereof may be taken or transmitted or distributed, directly or indirectly, by any person other than those authorised to do so into Saudi Arabia or in the UAE or in Qatar or to any person other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' located in Saudi Arabia or a 'Market Counterparty' or a 'Professional Client' in the UAE or a 'Market Counterparty' or a 'Business Customer' in Qatar. Any failure to comply with these restrictions may constitute a violation of the laws of the UAE or Saudi Arabia or Qatar.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e70a7f9a96ea8c1a",
+      "text": "For report with reference of TAIWAN public companies or authored by Taiwan based research analyst: THIS DOCUMENT IS SOLELY FOR REFERENCE ONLY. You should independently evaluate the investment risks and are solely responsible for your investment decisions. NO PORTION OF THE REPORT MAY BE REPRODUCED OR QUOTED BY THE PRESS OR ANY OTHER PERSON WITHOUT WRITTEN AUTHORIZATION FROM NOMURA GROUP. Pursuant to Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers and/or other applicable laws or regulations in Taiwan, you are prohibited to provide the reports to others (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities in connection with the reports which may involve conflicts of interests. INFORMATION ON SECURITIES / INSTRUMENTS NOT EXECUTABLE BY NOMURA INTERNATIONAL (HONG KONG) LTD., TAIPEI BRANCH IS FOR INFORMATIONAL PURPOSES ONLY AND IS NOT BE CONSTRUED AS A RECOMMENDATION OR A SOLICITATION TO TRADE IN SUCH SECURITIES / INSTRUMENTS.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "420f0d2333d51d53",
+      "text": "This material may not be distributed in Indonesia or passed on within the territory of the Republic of Indonesia or to persons who are Indonesian citizens (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the laws of the Republic of Indonesia. The securities mentioned in this document may not be offered or sold in Indonesia or to persons who are citizens of Indonesia (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the laws of the Republic of Indonesia.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c9ae2b1f4ce44924",
+      "text": "An individual name printed next to NOI on the front page of a research report indicates that this document is a translation of a research report issued by NOI in the PRC. In all other cases, this document is prepared by Nomura Group or its subsidiary or affiliate (collectively, \"Offshore Issuers\") that is not licensed in the PRC to provide securities research. This research report is not approved or intended to be circulated in the PRC. The A- share related analysis (if any) is not produced for any persons located or incorporated in the PRC. The recipients should not rely on any information contained in this research report in making investment decisions and Offshore Issuers take no responsibility in this regard. NO PART OF THIS MATERIAL MAY BE (I) COPIED, PHOTOCOPIED, REPRODUCED OR DUPLICATED IN ANY FORM, BY ANY MEANS; OR (II) REDISSEMINATED, REPUBLISHED OR REDISTRIBUTED WITHOUT THE PRIOR WRITTEN CONSENT OF A MEMBER OF THE",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "deda18edd854342d",
+      "text": "NOMURA GROUP. If this document has been distributed by electronic transmission, such as e- mail, then such transmission cannot be guaranteed to be secure or error- free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. The sender therefore does not accept liability (in negligence or otherwise, and in whole or in part) for any errors or omissions in the contents of this document, which may arise as a result of electronic transmission. If verification is required, please request a hard- copy version.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "29aa3448933fc57b",
+      "text": "management fee (trust fee) of up to \\(5.5\\%\\) (tax included/annualized basis) of the net assets in trust, as well as fees based on investment performance. Other indirect costs may also be incurred. For foreign investment trusts, indirect fees may be incurred during the course of holding such as investment company compensation.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "82442550906b7257",
+      "text": "Investment trusts invest mainly in securities such as Japanese and foreign equities and bonds, whose prices fluctuate. Investment trust unit prices fluctuate owing to price fluctuations in the underlying assets and to foreign exchange rate fluctuations. As such, investment trusts carry the risk of losses. Fees and risks vary by investment trust. Maximum applicable fees are subject to change; please thoroughly read the written materials provided, such as prospectuses or documents delivered before making a contract.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "ef5baedbe7ba54fb",
+      "text": "In interest rate swap transactions and USD/JPY basis swap transactions (\"interest rate swap transactions, etc.\"), only the agreed transaction payments shall be made on the settlement dates. Some interest rate swap transactions, etc. may require pledging of margin collateral. In some of these cases, transaction payments may exceed the amount of collateral. There shall be no advance notification of required collateral value or collateral ratios as they vary depending on the transaction. Interest rate swap transactions, etc. carry the risk of losses owing to fluctuations in market prices in the interest rate, currency and other markets, as well as reference indices. Losses incurred as such may exceed the value of margin collateral, in which case margin calls may be triggered. In the event that both parties agree to enter a replacement (or termination) transaction, the interest rates received (paid) under the new arrangement may differ from those in the original arrangement, even if terms other than the interest rates are identical to those in the original transaction. Risks vary by transaction. Please thoroughly read the written materials provided, such as documents delivered before making a contract and disclosure statements.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "5f12e2e259088a2f",
+      "text": "In OTC transactions of credit default swaps (CDS), no sales commission will be charged. When entering into CDS transactions, the protection buyer will be required to pledge or entrust an agreed amount of margin collateral. In some of these cases, the transaction payments may exceed the amount of margin collateral. There shall be no advance notification of required collateral value or collateral ratios as they vary depending on the financial position of the protection buyer. CDS transactions carry the risk of losses owing to changes in the credit position of some or all of the referenced entities, and/or fluctuations of the interest rate market. The amount the protection buyer receives in the event that the CDS is triggered by a credit event may undercut the total amount of premiums that he/she has paid in the course of the transaction. Similarly, the amount the protection seller pays in the event of a credit event may exceed the total amount of premiums that he/she has received in the transaction. All other conditions being equal, the amount of premiums that the protection buyer pays and that received by the protection seller shall differ. In principle, CDS transactions will be limited to financial instruments business operators and qualified institutional investors. Transfers of equities to another securities company via the Japan Securities Depository Center are subject to a transfer fee of up to ¥11,000 (tax included) per issue transferred depending on volume. No account fee will be charged for marketable securities or monies deposited.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "91f50ead588f4154",
+      "text": "Financial instruments firm registered with the Kanto Local Finance Bureau (registration No. 142)",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "62946b5eb4d06cb0",
+      "text": "Member associations: Japan Securities Dealers Association; Japan Investment Advisers Association; The Financial Futures Association of Japan; and Type II Financial Instruments Firms Association.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "da0022194f59c4bb",
+      "text": "The Nomura Group manages conflicts with respect to the production of research through its compliance policies and procedures (including, but not limited to, Conflicts of Interest, Chinese Wall and Confidentiality policies) as well as through the maintenance of Chinese Walls and employee training.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "32774bf61c560e94",
+      "text": "Additional information regarding the methodologies or models used in the production of any investment recommendations contained within this document is available upon request by contacting the Research Analysts of Nomura listed on the front page. Disclosures information is available upon request and disclosure information is available at the Nomura Disclosure web page:",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "f2b924489ac5ae5d",
+      "text": "http://go.nomuranow.com/research/m/Disclosures Copyright © 2025 Nomura Securities Co., Ltd., Japan. All rights reserved.",
+      "page": 10,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3062e21d617ad05f",
+      "name": "Any MSCI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03ec5d54e225b9d0",
+      "name": "Authorised Persons",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "414554b172f45d6c",
+      "name": "Building Construction",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8c1abdd3ddd39022",
+      "name": "Business Customer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4f7793d11c185d65",
+      "name": "Chinese Wall",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "30f11a4354af2089",
+      "name": "Chinese Walls",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "aebbecf5515fe8dd",
+      "name": "Commercial Register",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b289f889abc2748a",
+      "name": "Commodities Futures",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f4e8266244116e94",
+      "name": "Construction Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fbd258dbd6877fcf",
+      "name": "Consulting Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "deb848a39d6d8507",
+      "name": "Cost Index",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6ba4b0a762d135f4",
+      "name": "Dealers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "874f9120200b4051",
+      "name": "Depository Center",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c5c926d0de6c0582",
+      "name": "Disclosures Copyright",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "25ef7f96e7172005",
+      "name": "Dow Jones",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8ed3fafbb18d7293",
+      "name": "Dubai Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "eb1a11c62763cbef",
+      "name": "Equity Index",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "200704",
+              "200804",
+              "200904",
+              "201004",
+              "201104",
+              "201204",
+              "201304",
+              "201404",
+              "201504",
+              "201604",
+              "201704",
+              "201804",
+              "201904",
+              "202004",
+              "202104",
+              "202204",
+              "202304",
+              "202404",
+              "202504"
+            ]
+          },
+          "y": {
+            "unit": "¥'000/m²",
+            "range": {
+              "min": 130,
+              "max": 380
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Construction start floor area (12-month moving average)",
+            "unit": "¥'000/m²",
+            "values": [
+              155,
+              170,
+              165,
+              160,
+              165,
+              165,
+              170,
+              175,
+              180,
+              180,
+              185,
+              190,
+              195,
+              200,
+              210,
+              225,
+              245,
+              265,
+              280,
+              300,
+              320,
+              340,
+              360
+            ]
+          },
+          {
+            "name": "Building start price (12-M moving average)",
+            "unit": "¥'000/m²",
+            "values": [
+              160,
+              185,
+              175,
+              170,
+              175,
+              175,
+              180,
+              190,
+              200,
+              205,
+              225,
+              215,
+              220,
+              225,
+              230,
+              240,
+              260,
+              280,
+              300,
+              320,
+              340,
+              360,
+              375
+            ]
+          },
+          {
+            "name": "Building Construction Cost Index (rhs)",
+            "unit": "(2015 = 100)",
+            "values": [
+              95,
+              90,
+              85,
+              80,
+              85,
+              90,
+              95,
+              100,
+              105,
+              110,
+              115,
+              120,
+              125,
+              130,
+              135,
+              140
+            ]
+          },
+          {
+            "name": "Construction material costs (rhs)",
+            "unit": "(2015 = 100)",
+            "values": [
+              100,
+              105,
+              100,
+              95,
+              90,
+              95,
+              100,
+              105,
+              110,
+              115,
+              120,
+              125,
+              130,
+              135,
+              140,
+              145
+            ]
+          }
+        ],
+        "figure_id": "33937088dfeb1e22",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "198504",
+              "198604",
+              "198704",
+              "198804",
+              "198904",
+              "199004",
+              "199104",
+              "199204",
+              "199304",
+              "199404",
+              "199504",
+              "199604",
+              "199704",
+              "199804",
+              "199904",
+              "200004",
+              "200104",
+              "200204",
+              "200304",
+              "200404",
+              "200504",
+              "200604",
+              "200704",
+              "200804",
+              "200904",
+              "201004",
+              "201104",
+              "201204",
+              "201304",
+              "201404",
+              "201504",
+              "201604",
+              "201704",
+              "201804",
+              "201904",
+              "202004",
+              "202104",
+              "202204",
+              "202304",
+              "202404",
+              "202504"
+            ]
+          },
+          "y": {
+            "unit": "¥'000/m²",
+            "range": {
+              "min": 100,
+              "max": 400
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Building start price (monthly basis)",
+            "unit": "¥'000/m²",
+            "values": [
+              110,
+              115,
+              125,
+              140,
+              160,
+              185,
+              195,
+              200,
+              190,
+              180,
+              170,
+              160,
+              155,
+              150,
+              145,
+              140,
+              140,
+              145,
+              150,
+              155,
+              160,
+              165,
+              180,
+              190,
+              180,
+              170,
+              165,
+              160,
+              165,
+              170,
+              180,
+              190,
+              200,
+              210,
+              220,
+              230,
+              240,
+              260,
+              290,
+              320,
+              380
+            ]
+          },
+          {
+            "name": "Building start price (12-M moving average)",
+            "unit": "¥'000/m²",
+            "values": [
+              110,
+              115,
+              125,
+              140,
+              160,
+              180,
+              190,
+              195,
+              190,
+              180,
+              170,
+              160,
+              155,
+              150,
+              145,
+              140,
+              140,
+              145,
+              150,
+              155,
+              160,
+              165,
+              175,
+              185,
+              180,
+              170,
+              165,
+              160,
+              165,
+              170,
+              180,
+              190,
+              200,
+              210,
+              220,
+              230,
+              240,
+              260,
+              290,
+              310,
+              330
+            ]
+          }
+        ],
+        "figure_id": "8aebc6aab64a49f4",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "06",
+              "07",
+              "08",
+              "09",
+              "10",
+              "11",
+              "12",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -12,
+              "max": 12
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Kinki",
+            "unit": "%",
+            "values": [
+              2.5,
+              4.5,
+              -0.5,
+              -8.5,
+              -4.5,
+              11,
+              4.5,
+              8.5,
+              2.5,
+              -0.5,
+              -2.5,
+              1.5,
+              2.5,
+              4.5,
+              1.5,
+              -0.5,
+              1.5,
+              2.5,
+              1.5,
+              -0.5
+            ]
+          },
+          {
+            "name": "Kanto",
+            "unit": "%",
+            "values": [
+              8.5,
+              2.5,
+              -2.5,
+              -4.5,
+              -0.5,
+              6.5,
+              2.5,
+              4.5,
+              1.5,
+              -0.5,
+              -1.5,
+              2.5,
+              1.5,
+              3.5,
+              1.5,
+              -0.5,
+              1.5,
+              2.5,
+              1.5,
+              -0.5
+            ]
+          },
+          {
+            "name": "Tohoku",
+            "unit": "%",
+            "values": [
+              0.5,
+              -0.5,
+              -2.5,
+              -0.5,
+              -0.5,
+              2.5,
+              0.5,
+              2.5,
+              0.5,
+              -0.5,
+              -0.5,
+              1.5,
+              0.5,
+              2.5,
+              0.5,
+              -0.5,
+              0.5,
+              1.5,
+              0.5,
+              -0.5
+            ]
+          },
+          {
+            "name": "Nationwide total",
+            "unit": "%",
+            "values": [
+              4.5,
+              1.5,
+              -1.5,
+              -4.5,
+              -1.5,
+              4.5,
+              2.5,
+              3.5,
+              1.5,
+              -0.5,
+              -1.5,
+              2.5,
+              1.5,
+              3.5,
+              1.5,
+              -0.5,
+              1.5,
+              2.5,
+              1.5,
+              -0.5
+            ]
+          }
+        ],
+        "figure_id": "440f255b232642be",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10",
+              "11",
+              "12",
+              "1",
+              "2",
+              "3"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -3.0,
+              "max": 4.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "FY14",
+            "unit": "%",
+            "values": [
+              2.3,
+              1.9,
+              1.8,
+              2.0,
+              1.9,
+              1.8,
+              2.0,
+              2.6,
+              1.8,
+              1.0,
+              0.8,
+              0.6
+            ]
+          },
+          {
+            "name": "FY15",
+            "unit": "%",
+            "values": [
+              1.9,
+              1.8,
+              1.0,
+              1.2,
+              2.6,
+              2.7,
+              2.0,
+              1.8,
+              1.4,
+              1.9,
+              1.9,
+              1.8
+            ]
+          },
+          {
+            "name": "FY16",
+            "unit": "%",
+            "values": [
+              0.4,
+              0.7,
+              1.0,
+              1.8,
+              1.2,
+              1.6,
+              1.4,
+              1.6,
+              1.2,
+              0.8,
+              0.6,
+              0.5
+            ]
+          },
+          {
+            "name": "FY17",
+            "unit": "%",
+            "values": [
+              0.5,
+              0.8,
+              1.5,
+              2.2,
+              1.8,
+              2.0,
+              2.0,
+              2.1,
+              1.6,
+              1.2,
+              1.0,
+              0.8
+            ]
+          },
+          {
+            "name": "FY18",
+            "unit": "%",
+            "values": [
+              0.2,
+              0.6,
+              1.2,
+              1.8,
+              2.0,
+              3.2,
+              2.0,
+              2.9,
+              1.6,
+              1.4,
+              1.2,
+              1.0
+            ]
+          },
+          {
+            "name": "FY19",
+            "unit": "%",
+            "values": [
+              1.3,
+              1.5,
+              1.6,
+              2.0,
+              2.4,
+              2.0,
+              1.8,
+              2.4,
+              1.8,
+              1.5,
+              1.0,
+              0.9
+            ]
+          },
+          {
+            "name": "FY20",
+            "unit": "%",
+            "values": [
+              0.0,
+              0.2,
+              0.5,
+              0.5,
+              0.9,
+              1.0,
+              0.9,
+              0.5,
+              0.2,
+              0.2,
+              0.3,
+              0.4
+            ]
+          },
+          {
+            "name": "FY21",
+            "unit": "%",
+            "values": [
+              -0.5,
+              -0.1,
+              0.0,
+              -0.1,
+              0.5,
+              0.8,
+              1.0,
+              1.2,
+              0.8,
+              0.6,
+              0.5,
+              0.4
+            ]
+          },
+          {
+            "name": "FY22",
+            "unit": "%",
+            "values": [
+              1.1,
+              1.9,
+              2.0,
+              2.4,
+              2.0,
+              2.2,
+              2.5,
+              1.2,
+              0.6,
+              0.8,
+              0.4,
+              0.2
+            ]
+          },
+          {
+            "name": "FY23",
+            "unit": "%",
+            "values": [
+              0.8,
+              1.2,
+              1.8,
+              2.0,
+              2.2,
+              2.5,
+              2.0,
+              1.5,
+              1.0,
+              1.8,
+              1.9,
+              1.7
+            ]
+          },
+          {
+            "name": "FY24",
+            "unit": "%",
+            "values": [
+              1.0,
+              0.5,
+              0.2,
+              2.4,
+              2.0,
+              1.2,
+              0.7,
+              0.6,
+              0.5,
+              0.3,
+              0.2,
+              0.2
+            ]
+          },
+          {
+            "name": "FY25",
+            "unit": "%",
+            "values": [
+              0.3,
+              0.4,
+              0.8,
+              1.0,
+              1.5,
+              1.8,
+              1.6,
+              1.4,
+              1.0,
+              0.6,
+              0.5,
+              0.6
+            ]
+          }
+        ],
+        "figure_id": "45b5ff1aa733ac2e",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "11",
+              "12",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -2.0,
+              "max": 5.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Formwork (construction)",
+            "unit": "%",
+            "values": [
+              0.2,
+              1.0,
+              1.8,
+              2.9,
+              1.8,
+              0.8,
+              0.5,
+              1.2,
+              1.6,
+              1.2,
+              0.8,
+              1.5,
+              2.9,
+              2.0,
+              1.0
+            ]
+          },
+          {
+            "name": "Steel reinforcement (construction)",
+            "unit": "%",
+            "values": [
+              0.5,
+              2.0,
+              4.3,
+              3.5,
+              2.0,
+              0.0,
+              -1.0,
+              0.5,
+              2.6,
+              -0.5,
+              -1.0,
+              2.0,
+              3.5,
+              1.0,
+              -0.5
+            ]
+          },
+          {
+            "name": "Electrical work",
+            "unit": "%",
+            "values": [
+              -0.2,
+              0.5,
+              1.0,
+              2.0,
+              1.0,
+              0.5,
+              0.0,
+              0.8,
+              1.5,
+              1.0,
+              0.5,
+              1.5,
+              2.0,
+              1.5,
+              0.8
+            ]
+          },
+          {
+            "name": "HVAC installation",
+            "unit": "%",
+            "values": [
+              -0.1,
+              0.0,
+              0.5,
+              1.2,
+              1.0,
+              0.5,
+              0.2,
+              1.0,
+              1.5,
+              1.0,
+              0.7,
+              1.2,
+              1.8,
+              1.5,
+              0.9
+            ]
+          },
+          {
+            "name": "Average for eight skills",
+            "unit": "%",
+            "values": [
+              0.0,
+              0.8,
+              1.5,
+              2.2,
+              1.5,
+              0.8,
+              0.5,
+              1.2,
+              1.6,
+              1.2,
+              0.8,
+              1.5,
+              2.0,
+              1.5,
+              0.9
+            ]
+          }
+        ],
+        "figure_id": "1bc0461197497c09",
+        "provenance": {
+          "page": 4
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "2c75adf71392ade6",
+        "value": 11000.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "ecurities company via the Japan Securities Depository Center are subject to a transfer fee of up to ¥11,000 (tax included) per issue transferred depending on volume. No account fee will be charged for",
+        "provenance": {
+          "page": 10
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 5,
+      "tables_count": 0,
+      "numerical_data_count": 1,
+      "passages_count": 58,
+      "entities_count": 20
+    }
+  }
+}

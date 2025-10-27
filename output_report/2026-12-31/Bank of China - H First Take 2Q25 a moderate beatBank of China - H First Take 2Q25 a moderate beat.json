@@ -1,0 +1,3194 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "799cbbc43d427a7d57aca3bf094cbd11",
+    "title": "J.P.Morgan",
+    "source_uri": "2026-12-31/Bank of China - H First Take 2Q25 a moderate beatBank of China - H First Take 2Q25 a moderate beat_2026-12-31",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:27:29.941950",
+      "extracted_at": "2025-10-27T00:27:29.941959"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 14,
+        "successful_pages": 14,
+        "date": "2026-12-31",
+        "publication": "2026-12-31",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 7,
+          "reduction_ratio": 0.11201436118976038
+        },
+        "input_relative_path": "2026-12-31"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "d80f1fe0cde8324d",
+      "text": "First Take: 2Q25 a moderate beat",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "bff4714cd87140ca",
+      "text": "Our First Take: 2Q25 - moderate beat. 2Q25 net profit \\((+1\\%\\) y/y) beat JPM by 1ppt, more notably, revenue \\((+5\\%\\) y/y) beat JPM by 4ppt. This is mainly driven by non- NII \\((+34\\%\\) y/y), with fee \\(+19\\%\\) y/y, accelerating from 1Q \\((+2\\%\\) y/y), and non- fee income \\(+44\\%\\) y/y. On the negative side, NII contracted \\(6\\%\\) y/y, the highest contraction among the Big 4 SOE banks peers.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2833fabcfea0be6e",
+      "text": "- Robust non-NII growth \\((+34\\%\\) y/y), with fee growth \\(+19\\%\\) y/y: Net fee rose by \\(19\\%\\) y/y (vs 1Q \\(+2\\%\\) y/y), and non-fee income rose by \\(44\\%\\) y/y. 2Q non-NII contributed to \\(35\\%\\) of revenue, the highest among the Big 4 banks.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "47151234bf67a65e",
+      "text": "- Stable asset quality: The NPL ratio was -1bps q/q, SML ratio -3bps h/h, and NPL coverage stable at \\(197\\%\\) . On the negative side, the overdue ratio picked up 13bps h/h in 1H25. Please refer to Table 4-Table 6.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9d688015ad70e782",
+      "text": "- Accretive impact of new capital: BOC's CET 1 ratio improved 75bps (in line with expectations) to \\(12.57\\%\\) , mainly due to Rmb165bn of capital injection in 2Q, with share count dilution of \\(9\\%\\) .",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "232edf9da5eb578c",
+      "text": "- NII contracted \\(6\\%\\) y/y, NIM -6bps q/q: NII was 3ppt below JPMe, and NIM is 3bps below our expectations. With the Fed rate cut in 4Q25, there could be downside to NII in 2H25.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "689603268971d033",
+      "text": "- OPEX rose by \\(11\\%\\) y/y: Missed JPMe by 12ppt.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "cf3e31dd1f1eaeba",
+      "text": "- We expect, muted consensus revisions.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "12d460397a0b7ac5",
+      "text": "- We expect a moderately positive share price reaction post the 2Q print, but we expect BOC to underperform ICBC and CCB, though we believe it may outperform ABC.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "770f5d9ed2a7cfc0",
+      "text": "3988. HK, 3988 HK Price: HK\\$4.26 29 Aug 2025 Price Target: HK\\$5.50 PT End Date: 31 Dec 2026",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e8bf6a565e78d882",
+      "text": "See page 7 for analyst certification and important disclosures, including non- US analyst disclosures. J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6131eccd59a3a070",
+      "text": "Table 1: Summary of 1H25 results",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "eeca3cf15e2878c6",
+      "text": "In Rmb mm unlessotherwise stated1H242H241H25HoHYoY1H25EJPM Est.ActualVs. Est.FY25EJPM Est.RunrateNII226,760222,174214,816-3%-5%218,235-2%443,07748%Non-Interest Income91,16992,668114,60224%26%104,44110%206,19056%Fees42,86033,73046,79139%9%44,1466%79,56259%Non-fee48,30958,93867,81115%40%60,29512%126,62754%Total Income317,929314,842329,4185%4%322,6762%649,26751%Operating expenses(108,290)(127,480)(119,496)-6%10%(113,043)6%(247,967)48%Staff costs(50,103)(63,321)(52,261)-17%4%(52,608)-1%(119,728)44%Other operating expenses(58,187)(64,159)(67,235)5%16%(60,435)11%(128,239)52%PPOP209,639187,362209,92212%0%209,6330%401,29952%LLP(72,684)(48,177)(64,931)35%-11%(61,862)5%(100,602)65%Other Provisions12,1056,0347,42923%-39%(1,000)-843%(2,000)-371%Pre-Tax149,203145,751153,0185%3%147,2714%299,69751%Income Tax(22,667)(19,568)(26,880)37%19%(22,373)20%(42,838)63%Attributable Income118,601119,240117,591-1%-1%117,2600%240,82149%Gross Loans21,088,97821,543,58523,006,3067%9%22,743,4461%23,342,905Deposits23,630,70624,202,58825,638,3126%8%26,622,847-4%27,155,304Equity2,648,8212,816,2312,987,5906%13%2,964,1831%3,052,563Total Assets33,907,26735,061,29936,790,6135%9%36,968,4040%38,073,210RWA18,539,05519,217,55920,470,5987%10%20,262,8681%20,868,427Key RatiosNIM1.44%1.36%1.26%-10 bps-18 bps1.27%-1 bps1.27%Cost income ratio34.1%40.5%36.3%-422 bps221 bps35.0%124 bps38.2%ROE9.0%8.7%8.1%-62 bps-88 bps8.1%-1 bps8.2%ROA0.72%0.69%0.65%-4 bps-6 bps0.65%0 bps0.66%NPL Ratio1.24%1.25%1.24%-1 bps0 bps1.25%-1 bps1.25%NPL Coverage ratio202%201%197.4%-321 bps-430 bps200.1%-271 bps194.7%Loan loss reserve2.50%2.50%2.45%-6 bps-5 bps2.51%-6 bps2.44%LDR89.2%89.0%89.7%72 bps49 bps85.4%431 bps86.0%Credit costs0.71%0.45%0.58%13 bps-13 bps0.56%2 bps0.45%Core capital ratio12.03%12.20%12.57%37 bps54 bps13.09%-52 bps13.05%Tier 1 ratio14.02%14.38%14.32%-6 bps30 bps14.72%-40 bps14.62%CAR18.91%18.76%18.67%-9 bps-24 bps18.99%-32 bps18.86%",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a74564cf482f27a4",
+      "text": "Source: BOC financial reports 1H24-1H25, J.P. Morgan estimates.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "25945fb8bf2bb2af",
+      "text": "Table 2: Summary of 2Q25 financials",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6dc4db279520d17b",
+      "text": "In Rmb mm unless otherwise stated3Q244Q241Q252Q25QoQYoY2Q25EA vs EKey P&amp;amp;L ItemsNII114,048109,237112,937107,727107,089-1%-6%110,508Non-Interest Income42,84351,93940,72957,18457,4180%34%47,257Fees17,73317,83315,89725,65121,140-18%19%18,495Non-fees25,11034,10624,83231,53336,27815%44%28,762Total Income156,891161,176153,666164,911164,5070%5%157,765Operating expenses(53,997)(64,412)(63,068)(59,608)(59,888)0%11%(53,435)PPOP102,89496,76490,598105,303104,619-1%2%104,330Total provisions(25,648)(25,261)(16,882)(32,246)(25,256)-22%-2%(30,616)Pre-Tax77,30672,12673,62573,34979,6699%3%73,922Income Tax(10,743)(11,173)(8,395)(14,705)(12,175)-17%13%(7,668)Attributable Income62,61257,16262,07854,36463,22716%1%62,896Key Balance Sheet ItemsGross Loans21,088,97821,435,92821,543,58522,608,74823,006,3062%9%Including NPL amount261,267270,037268,781281,208284,6561%9%Total deposits23,630,70623,710,63024,202,58825,610,49925,638,3120%8%Total assets33,907,26734,068,98835,061,29935,987,14736,790,6132%9%Equity2,648,8212,742,1072,816,2312,826,3432,987,5906%13%RWA18,539,05518,756,33919,217,55920,061,04020,470,5982%10%Key RatiosNIM1.43%1.36%1.36%1.29%1.23%-6 bps-20 bps1.26%Cost income ratio34.42%39.96%41.04%36.15%36.40%26 bps199 bpsROE9.4%8.5%8.9%7.7%8.7%99 bps-75 bpsROA0.74%0.67%0.72%0.61%0.69%8 bps-5 bpsNPL Ratio1.24%1.26%1.25%1.25%1.24%-1 bps0 bpsNPL Coverage ratio201.7%198.9%200.6%198.0%197.39%-58 bps-430 bpsLoan loss reserve2.50%2.51%2.50%2.47%2.45%-3 bps-5 bpsCredit cost0.49%0.48%0.31%0.58%0.44%-14 bps-5 bpsLDR (Group)89.2%90.4%89.0%88.3%89.7%145 bps49 bpsCore capital ratio12.03%12.23%12.20%11.82%12.57%75 bps54 bpsTier 1 ratio14.02%14.36%14.38%13.80%14.32%52 bps30 bpsCAR18.91%19.01%18.76%17.98%18.67%69 bps-24 bps",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3359c13f3703fdff",
+      "text": "Source: BOC quarterly reports 2Q24-2Q25.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "159c2dd17ad6052a",
+      "text": "Table 3: The loan deposit spread of BOC's domestic and overseas business",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "bd5d77bccfdc142d",
+      "text": "1H232H231H242H241H25HoHYoYLoan yieldDomestic RMB3.92%3.61%3.42%3.15%2.87%-28 bps-55 bpsDomestic FX4.06%4.76%4.81%4.84%4.68%-16 bps-13 bpsOverseas4.76%5.26%5.14%4.96%4.29%-68 bps-85 bpsDeposits costsDomestic RMB1.85%1.82%1.74%1.60%1.47%-13 bps-26 bpsDomestic FX2.17%2.57%2.28%2.12%2.14%2 bps-14 bpsOverseas2.91%3.41%3.48%3.22%2.85%-37 bps-64 bpsLoan deposit spreadDomestic RMB2.08%1.79%1.68%1.55%1.40%-15 bps-29 bpsDomestic FX1.90%2.19%2.54%2.72%2.55%-17 bps1 bpsOverseas1.85%1.84%1.66%1.74%1.44%-30 bps-22 bps",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "817e1e5d8c283932",
+      "text": "Source: BOC financial reports 1H23-1H25.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e2070496b5904313",
+      "text": "Table 4: Asset yield and funding costs",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e6bfbb0f8d745d56",
+      "text": "NIM analysis1H242H241H25HoHYoYDomestic RMB3.42%3.15%2.87%-28 bps-55 bpsDomestic FX4.81%4.84%4.68%-16 bps-13 bpsOverseas5.14%4.96%4.29%-68 bps-85 bpsGross loans3.70%3.43%3.08%-34 bps-62 bpsInvestments3.25%3.12%2.95%-17 bps-30 bpsCentral bank2.53%2.45%2.37%-9 bps-17 bpsAverage IEA Yield3.44%3.24%2.97%-27 bps-47 bpsDomestic RMB1.74%1.60%1.47%-13 bps-26 bpsDomestic FX2.28%2.12%2.14%2 bps-14 bpsOverseas3.48%3.22%2.85%-37 bps-64 bpsDEPOSITS2.06%1.91%1.74%-17 bps-32 bpsInterbank2.54%2.45%2.12%-33 bps-42 bpsDebt and Securities2.99%2.84%2.66%-18 bps-33 bpsAverage Funding Costs2.19%2.06%1.86%-20 bps-33 bps",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1a6f943b105c3d72",
+      "text": "Source: BOC financial reports 1H24-1H25",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "cfc8a1ea331d5573",
+      "text": "Table 5: Asset quality metrics",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "31a50fecbdf51ec5",
+      "text": "Ratios1H232H231H242H241H25HoHYoY1-90 days0.35%0.37%0.43%0.36%0.46%10 bps3 bps&gt;90 days0.62%0.69%0.78%0.83%0.86%3 bps8 bpsTotal overdue loans0.98%1.06%1.21%1.19%1.32%13 bps11 bpsLLR2.42%2.44%2.50%2.50%2.86%36 bps36 bpsNPL coverage188.4%191.7%201.7%200.6%212.1%1149 bps1040 bpsNPL1.28%1.27%1.24%1.25%1.24%-1 bps0 bpsSML1.23%1.46%1.43%1.47%1.44%-3 bps0 bps",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "bde5202d749ccb55",
+      "text": "Source: BOC financial reports 1H23-1H25.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "de84790b0640c926",
+      "text": "Table 6: Loans by sector and asset quality of domestic loan book",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "dc978c3569b24363",
+      "text": "As % of total loansNPL ratio1H242H241H25HoHYoY2H241H25 HoH (%)Corporate loans57.4%58.9%152 bps97 bps57.4%1.26%1.19% -7 bpsManufacturing14.8%15.4%67 bps121 bps14.8%1.08%0.87% -20 bpsCommercial and services17.2%18.9%172 bps187 bps17.2%1.36%1.26% -9 bpsReal estate5.2%5.1%-12 bps-18 bps5.2%4.94%5.38% 44 bpsProduction and supply of electricity, heating, gas and water6.9%7.0%10 bps58 bps6.9%0.91%0.75% -15 bpsMining1.4%1.4%2 bps-1 bps1.4%0.92%0.84% -8 bpsLogistics, post & transportation2.6%2.5%-12 bps-33 bps2.6%0.28%0.25% -3 bpsWater, environment and public utility management12.0%11.8%-27 bps-15 bps12.0%1.10%0.98% -13 bpsPublic utilities1.2%1.2%-4 bps-10 bps1.2%1.28%1.50% 23 bpsConstruction2.7%2.8%16 bps4 bps2.7%1.43%1.25% -18 bpsFinancial services2.9%2.9%-5 bps-36 bps2.9%0.03%0.00% -3 bpsOthers0.5%0.5%2 bps4 bps0.5%1.59%1.30% -28 bpsDiscounted bills10.0%10.5%55 bps164 bps10.0%0.00%0.00% 0 bpsRetail loans32.6%30.5%-207 bps-261 bps32.6%0.97%1.15% 18 bpsMortgage loans22.1%20.5%-156 bps-233 bps22.1%0.61%0.74% 13 bpsCredit cards3.2%2.6%-64 bps-67 bps3.2%1.73%1.93% 20 bpsOthers7.3%7.4%13 bps38 bps7.3%1.73%2.01% 29 bpsTotal domestic loans100.0%100.0%0 bps0 bps100.0%1.17%1.18% 1 bps",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "65f684ae485d4f78",
+      "text": "Source: BOC financial reports 1H24-1H25.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "46ab99ab94aaa9b4",
+      "text": "Table 7: PnL of BOC's overseas business",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "aea617c180065f99",
+      "text": "1H242H241H25HoHYoYInterest income119,574116,647110,519-5%-8%Interest expense-82,348-79,016-76,532-3%-7%NII37,22637,63133,987-10%-9%Non-Interest Income29,87034,32243,74127%46%Fees8,0708,65410,23118%27%Dealing8,92510,48620,61197%131%Others12,87515,18212,899-15%0%Total Income67,09671,95377,7288%16%Operating expenses-23,041-27,275-28,6025%24%PPOP44,05544,67849,12610%12%LLP-15,157-13,694-11,416-17%-25%Other Provisions12,1056,0347,42923%-39%Pre-Tax41,00337,23945,47522%11%Assets6,085,0746,451,1226,712,5164%10%PBT/ Avg Assets1.36%1.19%1.38%19 bps2 bpsCost-income34.34%37.91%36.80%-111 bps246 bpsNII/ Op Inc55.48%52.30%43.73%-857 bps-1176 bpsFee/ Op Inc12.03%12.03%13.16%114 bps114 bpsNIM1.91%1.93%1.77%-15 bps-13 bpsCredit Costs0.99%0.89%0.74%-15 bps-25 bpsImpairment charges0.10%0.24%0.12%-12 bps2 bps",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "74c5d955767b96c9",
+      "text": "Source: BOC financial reports 1H24-1H25.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "33b78922f68fd03e",
+      "text": "·Easing concerns on tariff impact: BOC may be more exposed to peers on exported related loans. But we believe China's exporters may be more prepared for tariffs than companies in other regions. Our sensitivity analysis shows that",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "810511b1c41b8c83",
+      "text": "if US- export related loans' NPL ratio rises to \\(20\\%\\) , impact on BOC's earnings would be \\(5\\%\\) , hence the downside is manageable.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "2b0500a578afcee9",
+      "text": "- **Rate cut may ease pressure on credit cost and loan demand:** The recent downward shift of 3M USD yield curve may bring downside to overseas NIM, but upside on loan demand and easing asset quality risk. On net, this is positive for BOC in our view.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "0261f66db69357ff",
+      "text": "- The bank's fee income trend is likely to be stronger than peers: Management cited cross-border settlement business as one of the key drivers, and it expects the trend to continue.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "6b078810cc3d80f3",
+      "text": "Our Dec-26 price target of HK\\(5.50 is based on DDM, using a cost of equity of 11.25\\%, a normalized ROE of 8.6\\% and a terminal date of 31 December 2027. We derive the valuation for the A-share first and then apply an H-share discount of 15\\% for BOC-H.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "985f64860fe85256",
+      "text": "Key assumptions/parametersNormalised ROE8.6%Cost of capital11.25%Long-term growth4.5%Fair terminal P/BV0.61Dec-26 A-share valuation (RMB)6.00CNY/HKD1.09H-share discount-15%Dec-26 H-share PT (HKD)5.50",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "11f79d2277ab686f",
+      "text": "Source: J.P. Morgan estimates.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "16261551ec4ece27",
+      "text": "Other Companies Discussed in This Report (all prices in this report as of market close on 29 August 2025, unless otherwise indicated)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "a0ca7353ef322cfe",
+      "text": "Agricultural Bank of China - H(1288. HK/HK\\\\$5.25/OW), China Construction Bank - H(0939. HK/HK\\\\$7.51/OW), Industrial and Commercial Bank of China - H(1398. HK/HK\\\\$5.77/OW)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "91fcc1d85a65d730",
+      "text": "Analyst Certification: The Research Analyst(s) denoted by an \"AC\" on the cover of this report certifies (or, where multiple Research Analysts are primarily responsible for this report, the Research Analyst denoted by an \"AC\" on the cover or within the document individually certifies, with respect to each security or issuer that the Research Analyst covers in this research) that: (1) all of the views expressed in this report accurately reflect the Research Analyst's personal views about any and all of the subject securities or issuers; and (2) no part of any of the Research Analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the Research Analyst(s) in this report. For all Korea-based Research Analysts listed on the front cover, if applicable, they also certify, as per KOFIA requirements, that the Research Analyst's analysis was made in good faith and that the views reflect the Research Analyst's own opinion, without undue influence or intervention.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "d70e8626d537c1de",
+      "text": "All authors named within this report are Research Analysts who produce independent research unless otherwise specified. In Europe, Sector Specialists (Sales and Trading) may be shown on this report as contacts but are not authors of the report or part of the Research Department.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "4b69cb39cc42cbea",
+      "text": "Bank of China - H (3988.HK, 3988 HK) Price Chart",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "5e6e73fc4a196f98",
+      "text": "Source: Bloomberg Finance L.P. and J.P. Morgan; price data adjusted for stock splits and dividends. Initiated coverage Jul 05, 2006. All share prices are as of market close on the previous business day.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "744d456a9ba161a0",
+      "text": "DateRatingPrice (HK$)Price Target (HK$)05-Sep-22OW2.733.104-Jan-23N2.86325-Apr-23N3.123.306-Jul-23N3.103.126-Jul-23N2.82328-Jul-23N2.833.117-Aug-23N2.662.9512-Oct-23N2.742.901-Nov-23OW2.743.217-Jan-24OW2.913.407-Mar-24OW3.103.830-May-24OW3.78401-Aug-24OW3.484.210-Sep-24OW3.34413-Nov-24N3.643.708-Jan-25N3.923.813-Mar-25N4.514.1531-Mar-25OW4.595.419-Aug-25OW4.395.5",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e21970a0d6a2fbce",
+      "text": "Industrial and Commercial Bank of China - H (1398.HK, 1398 HK) Price Chart",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "397085ab0886aaa6",
+      "text": "Source: Bloomberg Finance L.P. and J.P. Morgan; price data adjusted for stock splits and dividends. Initiated coverage Dec 18, 2006. All share prices are as of market close on the previous business day.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "535f530d2328ad78",
+      "text": "DateRatingPrice (HK$)Price Target (HK$)06-Sep-22N3.904.509-Dec-22N3.844.624-Apr-23N4.26513-Jun-23OW4.335.806-Jul-23OW4.115.426-Jul-23OW3.695.517-Aug-23OW3.424.713-Oct-23OW3.924.605-Mar-24OW4.02530-May-24OW4.555.202-Aug-24OW4.355.501-Sep-24N4.495.108-Jan-25OW4.915.813-Mar-25OW5.536.318-Apr-25OW5.356.619-Aug-25OW5.887.2",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "fa5502cfbad5d99e",
+      "text": "Agricultural Bank of China - H (1288.HK, 1288 HK) Price Chart",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "63ba694ff47f3c1c",
+      "text": "Source: Bloomberg Finance L.P. and J.P. Morgan; price data adjusted for stock splits and dividends. Initiated coverage Aug 25, 2010. All share prices are as of market close on the previous business day.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "876b8216ce256d64",
+      "text": "China Construction Bank - H (0939.HK, 939 HK) Price Chart",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "a5a9e7126aa5a091",
+      "text": "DateRatingPrice (HK$)Price Target (HK$)05-Sep-22N2.522.909-Dec-22N2.572.828-Mar-23OW2.863.3524-Apr-23OW3.033.510-Jul-23OW2.853.326-Jul-23OW2.723.128-Jul-23OW2.713.2517-Aug-23N2.582.912-Oct-23N2.883.1502-Jan-24N3.013.207-Mar-24N3.243.6512-Mar-24N3.283.702-Apr-24OW3.30430-May-24OW3.743.802-Aug-24OW3.534.210-Sep-24OW3.514.2508-Jan-25OW4.264.813-Mar-25OW4.885.2518-Apr-25OW4.515.519-Aug-25OW5.376.1",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "606b39c9c142276a",
+      "text": "18-Apr-25OW6.677.919-Aug-25OW7.719.2",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "5aeb4d8670e0d0e0",
+      "text": "18-Apr-25OW6.677.919-Aug-25OW7.719.2",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "7d1ef73f60975a7e",
+      "text": "The chart(s) show J.P. Morgan's continuing coverage of the stocks; the current analysts may or may not have covered it over the entire period.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c04844fa0b060420",
+      "text": "J.P. Morgan ratings or designations: \\(\\mathrm{OW} =\\) Overweight, \\(\\mathrm{N} =\\) Neutral, \\(\\mathrm{UW} =\\) Underweight, \\(\\mathrm{NR} =\\) Not Rated",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c5afe903f7a67dd2",
+      "text": "J.P. Morgan uses the following rating system: Overweight (over the duration of the price target indicated in this report, we expect this stock will outperform the average total return of the stocks in the Research Analyst's, or the Research Analyst's team's, coverage universe); Neutral (over the duration of the price target indicated in this report, we expect this stock will perform in line with the average total return of the stocks in the Research Analyst's, or the Research Analyst's team's, coverage universe); and Underweight (over the duration of the price target indicated in this report, we expect this stock will underperform the average total return of the stocks in the Research Analyst's, or the Research Analyst's team's, coverage universe. NR is Not Rated. In this case, J.P. Morgan has removed the rating and, if applicable, the price target, for this stock because of either a lack of a sufficient fundamental basis or for legal, regulatory or policy reasons. The previous rating and, if applicable, the price target, no longer should be relied upon. An NR designation is not a recommendation or a rating. In Americas equity research, some stocks under coverage have a rating but no price target; in these cases, we",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e31d98ca7f3a49d4",
+      "text": "expect the stock will outperform/perform in line/underperform the average total return of the stocks in the Research Analyst's, or the Research Analyst's team's, coverage universe over the next six to 12 months. In our Asia (ex-Australia and ex-India) and U.K. small- and mid-cap Equity Research, each stock's expected total return is compared to the expected total return of a benchmark country market index, not to those Research Analysts' coverage universe. If it does not appear in the Important Disclosures section of this report, the certifying Research Analyst's coverage universe can be found on J.P. Morgan's Research website, https://www.jpmorganmarkets.com.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "74499132a2fd18d8",
+      "text": "Coverage Universe: Lei, Katherine : Agricultural Bank of China - A (601288. SS), Agricultural Bank of China - H (1288. HK), Bank of China - A (601988. SS), Bank of China - H (3988. HK), Bank of Communications - A (601328. SS), Bank of Communications - H (3328. HK), China Cinda Asset Management Co Ltd (1359) (1359. HK), China Citic Bank - A (601998. SS), China Citic Bank - H (0998. HK), China Construction Bank - A (601939. SS), China Construction Bank - H (0939. HK), China Everbright Bank - A (601818. SS), China Everbright Bank - H (6818. HK), China Merchants Bank - A (600036. SS), China Merchants Bank - H (3968. HK), China Minsheng Banking - A (600016. SS), China Minsheng Banking - H (1988. HK), Futu Holdings (FUTU), HSBC Holdings plc (0005) (0005. HK), Huaxia Bank - A (600015. SS), Industrial Bank - A (601166. SS), Industrial and Commercial Bank of China - A (601398. SS), Industrial and Commercial Bank of China - H (1398. HK), Lufax Holding (LU), Ping An Bank - A (000001. SZ), Postal Savings Bank of China (1658) (1658. HK), Qfin Holdings (QFIN), Shanghai Pudong Development Bank - A (600000. SS), Standard Chartered Pte (HK) (2888) (2888. HK)",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "48dcbec507137fe1",
+      "text": "J.P. Morgan Equity Research Ratings Distribution, as of July 05, 2025",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "943eab4fc2fb65f0",
+      "text": "Overweight (buy)Neutral (hold)Underweight (sell)J.P. Morgan Global Equity Research Coverage*50%37%13%IB clients**50%48%35%JPMS Equity Research Coverage*47%41%12%IB clients**72%69%51%",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "4237d21078707d45",
+      "text": "\\\\*Please note that the percentages may not add to \\(100\\%\\) because of rounding. \\\\*\\\\*Percentage of subject companies within each of the \"buy,\" \"hold\" and \"sell\" categories for which J.P. Morgan has provided investment banking services within the previous 12 months. For purposes of FINRA ratings distribution rules only, our Overweight rating falls into a buy rating category; our Neutral rating falls into a hold rating category; and our Underweight rating falls into a sell rating category. Please note that stocks with an NR designation are not included in the table above. This information is current as of the end of the most recent calendar quarter.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "5faf3ac3809f1d90",
+      "text": "A history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & Commentary page of http://www.jpmorganmarkets.com where you can also search by analyst name, sector or financial instrument.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "136d303e7e352d41",
+      "text": "Analysts' Compensation: The research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "71d091ecf99fa12d",
+      "text": "Registration of non- US Analysts: Unless otherwise noted, the non- US analysts listed on the front of this report are employees of non- US affiliates of J.P. Morgan Securities LLC, may not be registered as research analysts under FINRA rules, may not be associated persons of J.P. Morgan Securities LLC, and may not be subject to FINRA Rule 2241 or 2242 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "e1bdf82eff8afff6",
+      "text": "J.P. Morgan is a marketing name for investment banking businesses of JPMorgan Chase & Co. and its subsidiaries and affiliates worldwide.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "1304e44c1d6444d2",
+      "text": "UK MIFID FICC research unbundling exemption: UK clients should refer to UK MIFID Research Unbundling exemption for details of J.P. Morgan's implementation of the FICC research exemption and guidance on relevant FICC research categorisation.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "30fadef52010b50d",
+      "text": "All research material made available to clients are simultaneously available on our client website, J.P. Morgan Markets, unless specifically permitted by relevant laws. Not all research content is redistributed, e- mailed or made available to third- party aggregators. For all research material available on a particular stock, please contact your sales representative.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "3677e6443b12b852",
+      "text": "Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "d6f66cb25a8c5835",
+      "text": "J.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or administered by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this report is intended to be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such Sanctioned Securities. Clients should be aware of their own legal and compliance obligations when making investment decisions.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "247c2b98a9383884",
+      "text": "Any digital or crypto assets discussed in this research report are subject to a rapidly changing regulatory landscape. For relevant regulatory advisories on crypto assets, including bitcoin and ether, please see https://www.jpmorgan.com/disclosures/cryptoasset- disclosure.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "407b7bbdee09e253",
+      "text": "The author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold themselves out as being able to do so.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "0e83a4812bf9f212",
+      "text": "Exchange- Traded Funds (ETFs): J.P. Morgan Securities LLC (\"JPMS\") acts as authorized participant for substantially all U.S.- listed ETFs. To the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction- based compensation in connection with the distribution of those ETF shares and may earn fees for performing other trade- related services, such as securities lending to short sellers of the ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or dealer to the ETFs. In addition, affiliates of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, index calculation and/or maintenance and other services.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "4b91ad8eb79a4932",
+      "text": "Options and Futures related research: If the information contained herein regards options- or futures- related research, such information is available only to persons who have received the proper options or futures risk disclosure documents. Please contact your J.P. Morgan Representative or visit https://www.theocc.com/components/docs/riskstoc.pdf for a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options or https://www.finra.org/sites/default/files/2020- 08/Security_Futures_Risk_Disclosure_Statement_2020. pdf for a copy of the Security Futures Risk Disclosure Statement.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "54a041a79ac35671",
+      "text": "Changes to Interbank Offered Rates (IBORs) and other benchmark rates: Certain interest rate benchmarks are, or may in the future become, subject to ongoing international, national and other regulatory guidance, reform and proposals for reform. For more information, please consult: https://www.jpmorgan.com/global/disclosures/interbank_offered_rates",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "74fc1289dfdffed6",
+      "text": "Private Bank Clients: Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its subsidiaries (\"J.P. Morgan Private Bank\"), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, including, but not limited to, the J.P. Morgan Corporate and Investment Bank and its Global Research division.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "efa1bcb13df0c09a",
+      "text": "Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of this research. Where more than one legal entity is listed under an analyst's name, the first legal entity is responsible for the production unless stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated below in the legal entity disclosures, this material has been distributed by the legal entity responsible for production, or where more than one legal entity is listed under the analyst's name, the first legal entity will be responsible for distribution. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "fee7e1d55a6483dc",
+      "text": "Argentina: JPMorgan Chase Bank N.A Sucursal Buenos Aires is regulated by Banco Central de la República Argentina (\"BCRA\"- Central Bank of Argentina) and Comisión Nacional de Valores (\"CNV\"- Argentinian Securities Commission - ALYC y AN Integral N°51).",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "4f9335d82e6637ca",
+      "text": "Australia: J.P. Morgan Securities Australia Limited (\"JPMSAL\") (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the Australian Securities and Investments Commission and is a Market Participant of ASX Limited, a Clearing and Settlement Participant of ASX Clear Pty Limited and a Clearing Participant of ASX Clear (Futures) Pty Limited. This material is issued and distributed in Australia by or on behalf of JPMSAL only to \"wholesale clients\" (as defined in section 761G of the Corporations Act 2001). A list of all financial products covered can be found by visiting https://www.jpm.com/research/disclosures. J.P. Morgan seeks to cover companies of relevance to the domestic and international investor base across all Global Industry Classification Standard (GICS) sectors, as well as across a range of market capitalisation sizes. If applicable, in the course of conducting public side due diligence on the subject",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "625b6082c7f1e77f",
+      "text": "company(ies), the Research Analyst team may at times perform such diligence through corporate engagements such as site visits, discussions with company representatives, management presentations, etc. Research issued by JPMASL has been prepared in accordance with J.P. Morgan Australia's Research Independence Policy which can be found at the following link: J.P. Morgan Australia - Research Independence Policy.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "9a9d7b2a9c00c45e",
+      "text": "Canada: J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Canadian Investment Regulatory Organization and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed in Canada by or on behalf of J.P. Morgan Securities Canada Inc.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "13b2bc18c6c41aee",
+      "text": "Chile: Inversiones J.P. Morgan Limitada is an unregulated entity incorporated in Chile.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "77460503c18ee701",
+      "text": "China: J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy business.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "b89e1eec390fb6b5",
+      "text": "Colombia: Banco J.P. Morgan Colombia S.A. is supervised by the Superintendencia Financiera de Colombia (SFC).",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "2788fff455e58a58",
+      "text": "Dubai International Financial Centre (DIFC): JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO Box 506551, Dubai, UAE. This material has been distributed by JPMorgan Chase Bank, N.A., Dubai Branch to persons regarded as professional clients or market counterparties as defined under the DFSA rules.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "36bc9d77d8562210",
+      "text": "European Economic Area (EEA): Unless specified to the contrary, research is distributed in the EEA by J.P. Morgan SE (\"JPM SE\"), which is authorised as a credit institution by the Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and jointly supervised by the BaFin, the German Central Bank (Deutsche Bundesbank) and the European Central Bank (ECB). JPM SE is a company headquartered in Frankfurt with registered address at TaunusTurm, Taunustor 1, Frankfurt am Main, 60310, Germany. The material has been distributed in the EEA to persons regarded as professional investors (or equivalent) pursuant to Art. 4 para. 1 no. 10 and Annex II of MiFID II and its respective implementation in their home jurisdictions (\"EEA professional investors\"). This material must not be acted on or relied on by persons who are not EEA professional investors. Any investment or investment activity to which this material relates is only available to EEA relevant persons and will be engaged in only with EEA relevant persons.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "be5ba97827b30835",
+      "text": "Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is regulated by the Securities and Futures Commission in Hong Kong. J.P. Morgan Chase Bank, N.A., Hong Kong Branch (CE Number AAL996) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission, is organized under the laws of the United States with limited liability. Where the distribution of this material is a regulated activity in Hong Kong, the material is distributed in Hong Kong by or through J.P. Morgan Securities (Asia Pacific) Limited and/or J.P. Morgan Broking (Hong Kong) Limited.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "7217fffd5264fcfd",
+      "text": "Indonesia: PT J.P. Morgan Sekuritas Indonesia is a member of the Indonesia Stock Exchange and is registered and supervised by the Otoritas Jasa Keuangan (OJK).",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "ed126c3aca1c4a8a",
+      "text": "Korea: J.P. Morgan Securities (Far East) Limited, Seoul Branch, is a member of the Korea Exchange (KRX). JPMorgan Chase Bank, N.A., Seoul Branch, is licensed as a branch office of foreign bank (JPMorgan Chase Bank, N.A.) in Korea. Both entities are regulated by the Financial Services Commission (FSC) and the Financial Supervisory Service (FSS). For non- macro research material, the material is distributed in Korea by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3d20dedf8f78e080",
+      "text": "Japan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services Agency in Japan.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "2b930006d58f556b",
+      "text": "Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146- X), which is a Participating Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission in Malaysia.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "c4c41cd08734c25f",
+      "text": "Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V. and J.P. Morgan Grupo Financiero are members of the Mexican Stock Exchange and are authorized to act as a broker dealer by the National Banking and Securities Exchange Commission.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "77a160bf35011cda",
+      "text": "New Zealand: This material is issued and distributed by JPMSAL in New Zealand only to \"wholesale clients\" (as defined in the Financial Markets Conduct Act 2013). JPMSAL is registered as a Financial Service Provider under the Financial Service providers (Registration and Dispute Resolution) Act of 2008.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "88d3043523761da3",
+      "text": "Philippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the Securities Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and Exchange Commission.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "ffb6709e58ac8db4",
+      "text": "Singapore: This material is issued and distributed in Singapore by or through J.P. Morgan Securities Singapore Private Limited (JPMS) [MDDI (P) 057/08/2025 and Co. Reg. No.: 199405335R], which is a member of the Singapore Exchange Securities Trading Limited, and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore), both of which are regulated by the Monetary Authority of Singapore. This material is issued and distributed in Singapore only to accredited investors, expert investors and institutional investors, as defined in Section 4A of the Securities and Futures Act, Cap. 289 (SFA). This material is not intended to be issued or distributed to any retail investors or any other investors that do not fall into the classes of \"accredited investors,\" \"expert investors\" or \"institutional investors,\" as defined under Section 4A of the SFA. Recipients of this material in Singapore are to contact JPMSR or JPMCB Singapore in respect of any matters arising from, or in connection with, the material.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "623f5d6a12219f18",
+      "text": "South Africa: J.P. Morgan Equities South Africa Proprietary Limited and JPMorgan Chase Bank, N.A., Johannesburg Branch are members of the Johannesburg Securities Exchange and are regulated by the Financial Services Conduct Authority (FSCA).",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "f80dd34afb7b91c9",
+      "text": "Taiwan: J.P. Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company- type) and regulated by the Taiwan Securities and Futures Bureau. Material relating to equity securities is issued and distributed in Taiwan by J.P. Morgan Securities (Taiwan) Limited, subject to the license scope and the applicable laws and the regulations in Taiwan. To the extent that J.P. Morgan Securities (Taiwan) Limited produces research materials on securities not listed on the Taiwan Stock Exchange or Taipei",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "7a7f11046d2b71ca",
+      "text": "Exchange (\"Non- Taiwan Listed Securities\"), these materials shall not constitute securities recommendations for the purpose of applicable Taiwan regulations, and, for the avoidance of doubt, J.P. Morgan Securities (Taiwan) Limited does not act as broker for Non- Taiwan Listed Securities. According to Paragraph 2, Article 7- 1 of Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers (as amended or supplemented) and/or other applicable laws or regulations, please note that the recipient of this material is not permitted to engage in any activities in connection with the material that may give rise to conflicts of interests, unless otherwise disclosed in the \"Important Disclosures\" in this material.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "3fcf7f68de0dfce7",
+      "text": "Thailand: This material is issued and distributed in Thailand by JPMorgan Securities (Thailand) Ltd., which is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission, and its registered address is 3rd Floor, 20 North Sathorn Road, Silom, Bangkok, Bangkok 10500.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "9a969ddd2dce7162",
+      "text": "UK: Research is produced in the UK by J.P. Morgan Securities plc (\"JPMS plc\") which is a member of the London Stock Exchange and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority or J.P. Morgan Markets Limited (\"JPMML Ltd\") which is authorised and regulated by the Financial Conduct Authority. Unless specified to the contrary, this material is distributed in the UK by JPMS plc and is directed in the UK only to: (a) persons having professional experience in matters relating to investments falling within article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) (Order) 2005 (\"the FPO\"); (b) persons outlined in article 49 of the FPO (high net worth companies, unincorporated associations or partnerships, the trustees of high value trusts, etc.); or (c) any persons to whom this communication may otherwise lawfully be made; all such persons being referred to as \"UK relevant persons\". This material must not be acted on or relied on by persons who are not UK relevant persons. Any investment or investment activity to which this material relates is only available to UK relevant persons and will be engaged in only with UK relevant persons. A description of J.P. Morgan EMEA's policy for prevention and avoidance of conflicts of interest related to the production of Research can be found at the following link: J.P. Morgan EMEA - Research Independence Policy.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "ca981b2d05a5c633",
+      "text": "Independence Policy.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "939ce4012eb64275",
+      "text": "U.S.: J.P. Morgan Securities LLC (\"JPMS\") is a member of the NYSE, FINRA, SIPC, and the NFA. JPMorgan Chase Bank, N.A. is a member of the FDIC. Material published by non- U.S. affiliates is distributed in the U.S. by JPMS who accepts responsibility for its content.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "7efdb00459458c35",
+      "text": "General: Additional information is available upon request. The information in this material has been obtained from sources believed to be reliable. While all reasonable care has been taken to ensure that the facts stated in this material are accurate and that the forecasts, opinions and expectations contained herein are fair and reasonable, JPMorgan Chase & Co. or its affiliates and/or subsidiaries (collectively J.P. Morgan) make no representations or warranties whatsoever to the completeness or accuracy of the material provided, except with respect to any disclosures relative to J.P. Morgan and the Research Analyst's involvement with the issuer that is the subject of the material. Accordingly, no reliance should be placed on the accuracy, fairness or completeness of the information contained in this material. There may be certain discrepancies with data and/or limited content in this material as a result of calculations, adjustments, translations to different languages, and/or local regulatory restrictions, as applicable. These discrepancies should not impact the overall investment analysis, views and/or recommendations of the subject company (ies) that may be discussed in the material. Artificial intelligence tools may have been used in the preparation of this material, including assisting in data analysis, pattern recognition, and content drafting for research material. J.P. Morgan accepts no liability whatsoever for any loss arising from any use of this material or its contents, and neither J.P. Morgan nor any of its respective directors, officers or employees, shall be in any way responsible for the contents hereof, apart from the liabilities and responsibilities that may be imposed on them by the relevant regulatory authority in the jurisdiction in question, or the regulatory regime thereunder. Opinions, forecasts or projections contained in this material represent J.P. Morgan's current opinions or judgment as of the date of the material only and are therefore subject to change without notice. Periodic",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "c0e7a6d04e128e87",
+      "text": "updates may be provided on companies/industries based on company- specific developments or announcements, market conditions or any other publicly available information. There can be no assurance that future results or events will be consistent with any such opinions, forecasts or projections, which represent only one possible outcome. Furthermore, such opinions, forecasts or projections are subject to certain risks, uncertainties and assumptions that have not been verified, and future actual results or events could differ materially. The value of, or income from, any investments referred to in this material may fluctuate and/or be affected by changes in exchange rates. All pricing is indicative as of the close of market for the securities discussed, unless otherwise stated. Past performance is not indicative of future results. Accordingly, investors may receive back less than originally invested. This material is not intended as an offer or solicitation for the purchase or sale of any financial instrument. The opinions and recommendations herein do not take into account individual client circumstances, objectives, or needs and are not intended as recommendations of particular securities, financial instruments or strategies to particular clients. This material may include views on structured securities, options, futures and other derivatives. These are complex instruments, may involve a high degree of risk and may be appropriate investments only for sophisticated investors who are capable of understanding and assuming the risks involved. The recipients of this material must make their own independent decisions regarding any securities or financial instruments mentioned herein and should seek advice from such independent financial, legal, tax or other adviser as they deem necessary. J.P. Morgan may trade as a principal on the basis of the Research Analysts' views and research, and it may also engage in transactions for its own account or for its clients' accounts in a manner inconsistent with the views taken in this material, and J.P. Morgan is under no obligation to ensure that such other communication is brought to the attention of any recipient of this material. Others within J.P. Morgan, including Strategists, Sales staff and other Research Analysts, may take views that are inconsistent with those taken in this material. Employees of J.P. Morgan not involved in the preparation of this material may have investments in the securities (or derivatives of such securities) mentioned in this material and may trade them in ways different from those discussed in this material. This material is not an advertisement for or marketing of any issuer, its products or services, or its securities in any jurisdiction.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "1393c4eeec68f2d5",
+      "text": "Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "20890686e79df4ea",
+      "text": "MSCI: Certain information herein (\"Information\") is reproduced by permission of MSCI Inc., its affiliates and information providers (\"MSCI\") ©2025. No reproduction or dissemination of the Information is permitted without an appropriate license. MSCI MAKES NO EXPRESS OR IMPLIED WARRANTIES (INCLUDING MERCHANTABILITY OR FITNESS) AS TO THE INFORMATION AND DISCLAIMS ALL LIABILITY TO THE EXTENT PERMITTED BY LAW. No Information constitutes investment advice, except for any applicable Information from MSCI ESG Research. Subject also to mscicom/disclaimer",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "5b5748a2c73f8572",
+      "text": "Sustainalytics: Certain information, data, analyses and opinions contained herein are reproduced by permission of Sustainalytics and: (1) includes the proprietary information of Sustainalytics; (2) may not be copied or redistributed except as specifically authorized; (3) do not constitute investment advice nor an endorsement of any product or project; (4) are provided solely for informational purposes; and (5) are not warranted to be complete, accurate or timely. Sustainalytics is not responsible for any trading decisions, damages or other losses related to it or its use. The use of the data is subject to conditions available at https://www.sustainalytics.com/legal- disclaimers. ©2025 Sustainalytics. All Rights Reserved.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "942192476efa9a09",
+      "text": "\"Other Disclosures\" last revised August 02, 2025.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "5541c535a4ade4ec",
+      "text": "Copyright 2025 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third- party (\"J.P. Morgan Data\") in any third- party artificial intelligence (\"AI\") systems or models when such J.P. Morgan Data is accessible by a third- party. It is permissible to use J.P. Morgan Data for internal business purposes only in an AI system or model that protects the confidentiality of J.P. Morgan Data so as to prevent any and all access to or use of such J.P. Morgan Data by any third- party.",
+      "page": 13,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "39648bedcf2f4a19",
+      "name": "AFS Licence",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0e89cfc2054df5ce",
+      "name": "AN Integral",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0ef0c39c126f6fa4",
+      "name": "ASX Clear",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cc3137194d646091",
+      "name": "ASX Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a7eb5a1d077c9b32",
+      "name": "Agricultural Bank",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a416231886f0fa52",
+      "name": "All Rights",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "783f70a024710eb5",
+      "name": "An NR",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "517917b86efb07cf",
+      "name": "Analyst Certification",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21cd74fee7a13752",
+      "name": "Annex II",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f4758147dc564ecb",
+      "name": "Argentinian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1e1a97e508b3d959",
+      "name": "Asset Management",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d2b53cdf04ca85af",
+      "name": "Attributable Income",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "babb54828c5096a2",
+      "name": "Australia Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bc98bb53ad7f2a24",
+      "name": "Australian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b1c56088468d05f4",
+      "name": "Average Funding",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "82c4c89b0aa6d059",
+      "name": "Average IEA",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b9397d989f02043d",
+      "name": "Avg Assets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "34925fcaabe8def5",
+      "name": "Banco Central",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6f7f625bd90b9fa5",
+      "name": "Bloomberg Finance",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 22",
+              "Jan 23",
+              "May 23",
+              "Sep 23",
+              "Jan 24",
+              "May 24",
+              "Sep 24",
+              "Jan 25",
+              "May 25"
+            ]
+          },
+          "y": {
+            "unit": "HK$",
+            "range": {
+              "min": 2,
+              "max": 7
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Price",
+            "unit": "HK$",
+            "values": [
+              2.7,
+              3.0,
+              3.2,
+              2.8,
+              3.0,
+              4.0,
+              3.5,
+              4.5,
+              4.8
+            ]
+          }
+        ],
+        "figure_id": "230a87d8e8bb08a9",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "Sep 22",
+              "Jan 23",
+              "May 23",
+              "Sep 23",
+              "Jan 24",
+              "May 24",
+              "Sep 24",
+              "Jan 25",
+              "May 25"
+            ]
+          },
+          "y": {
+            "unit": "HK$",
+            "range": {
+              "min": 1,
+              "max": 8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Price",
+            "unit": "HK$",
+            "values": [
+              2.5,
+              2.3,
+              2.6,
+              2.8,
+              3.0,
+              3.2,
+              2.7,
+              2.9,
+              3.1,
+              3.3,
+              3.5,
+              3.7,
+              3.9,
+              4.1,
+              4.3,
+              4.5,
+              4.7,
+              4.9,
+              5.1,
+              5.3,
+              5.5
+            ]
+          }
+        ],
+        "figure_id": "ca18a8e8c6d500a2",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "Sep 22",
+              "Jan 23",
+              "May 23",
+              "Sep 23",
+              "Jan 24",
+              "May 24",
+              "Sep 24",
+              "Jan 25",
+              "May 25"
+            ]
+          },
+          "y": {
+            "unit": "HK$",
+            "range": {
+              "min": 3,
+              "max": 9
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Price",
+            "unit": "HK$",
+            "values": null
+          }
+        ],
+        "figure_id": "ca2e6406582d0dda",
+        "provenance": {
+          "page": 8
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "6ff6736eff92bebe",
+        "value": 4.26,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ICBC and CCB, though we believe it may outperform ABC. ## Overweight 3988. HK, 3988 HK Price: HK\\$4.26 29 Aug 2025 Price Target: HK\\$5.50 PT End Date: 31 Dec 2026 ![Figure 0-0](images/0_0.jpg) See pag",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c11accf34ebcb0a9",
+        "value": 5.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "may outperform ABC. ## Overweight 3988. HK, 3988 HK Price: HK\\$4.26 29 Aug 2025 Price Target: HK\\$5.50 PT End Date: 31 Dec 2026 ![Figure 0-0](images/0_0.jpg) See page 7 for analyst certification and i",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ac195c50b7abf07c",
+        "value": -0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "t.</td><td>Run<br>rate</td></tr><tr><td>NII</td><td>226,760</td><td>222,174</td><td>214,816</td><td>-3%</td><td>-5%</td><td>218,235</td><td>-2%</td><td>443,077</td><td>48%</td></tr><tr><td>Non-Interes",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d3218858f5603d64",
+        "value": -0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "un<br>rate</td></tr><tr><td>NII</td><td>226,760</td><td>222,174</td><td>214,816</td><td>-3%</td><td>-5%</td><td>218,235</td><td>-2%</td><td>443,077</td><td>48%</td></tr><tr><td>Non-Interest Income</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "26e83998c55403c5",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "NII</td><td>226,760</td><td>222,174</td><td>214,816</td><td>-3%</td><td>-5%</td><td>218,235</td><td>-2%</td><td>443,077</td><td>48%</td></tr><tr><td>Non-Interest Income</td><td>91,169</td><td>92,668</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2cd6367e0ee1d09c",
+        "value": 0.48,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "222,174</td><td>214,816</td><td>-3%</td><td>-5%</td><td>218,235</td><td>-2%</td><td>443,077</td><td>48%</td></tr><tr><td>Non-Interest Income</td><td>91,169</td><td>92,668</td><td>114,602</td><td>24%</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7fd3d99f21ece85e",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>48%</td></tr><tr><td>Non-Interest Income</td><td>91,169</td><td>92,668</td><td>114,602</td><td>24%</td><td>26%</td><td>104,441</td><td>10%</td><td>206,190</td><td>56%</td></tr><tr><td>Fees</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ba3aff0a1ee30e32",
+        "value": 0.26,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>Non-Interest Income</td><td>91,169</td><td>92,668</td><td>114,602</td><td>24%</td><td>26%</td><td>104,441</td><td>10%</td><td>206,190</td><td>56%</td></tr><tr><td>Fees</td><td>42,860</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4e6613056b03476a",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ncome</td><td>91,169</td><td>92,668</td><td>114,602</td><td>24%</td><td>26%</td><td>104,441</td><td>10%</td><td>206,190</td><td>56%</td></tr><tr><td>Fees</td><td>42,860</td><td>33,730</td><td>46,791</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5a63345b9b92ccd3",
+        "value": 0.56,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">92,668</td><td>114,602</td><td>24%</td><td>26%</td><td>104,441</td><td>10%</td><td>206,190</td><td>56%</td></tr><tr><td>Fees</td><td>42,860</td><td>33,730</td><td>46,791</td><td>39%</td><td>9%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "cce5bada4e051d76",
+        "value": 0.39,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>206,190</td><td>56%</td></tr><tr><td>Fees</td><td>42,860</td><td>33,730</td><td>46,791</td><td>39%</td><td>9%</td><td>44,146</td><td>6%</td><td>79,562</td><td>59%</td></tr><tr><td>Non-fee</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8680a65a8ea1bc3e",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>56%</td></tr><tr><td>Fees</td><td>42,860</td><td>33,730</td><td>46,791</td><td>39%</td><td>9%</td><td>44,146</td><td>6%</td><td>79,562</td><td>59%</td></tr><tr><td>Non-fee</td><td>48,309</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "776ac0117aa8340b",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Fees</td><td>42,860</td><td>33,730</td><td>46,791</td><td>39%</td><td>9%</td><td>44,146</td><td>6%</td><td>79,562</td><td>59%</td></tr><tr><td>Non-fee</td><td>48,309</td><td>58,938</td><td>67,811<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8be0768279b26611",
+        "value": 0.59,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>33,730</td><td>46,791</td><td>39%</td><td>9%</td><td>44,146</td><td>6%</td><td>79,562</td><td>59%</td></tr><tr><td>Non-fee</td><td>48,309</td><td>58,938</td><td>67,811</td><td>15%</td><td>40%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "04995dd3335ac62d",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>79,562</td><td>59%</td></tr><tr><td>Non-fee</td><td>48,309</td><td>58,938</td><td>67,811</td><td>15%</td><td>40%</td><td>60,295</td><td>12%</td><td>126,627</td><td>54%</td></tr><tr><td>Total Income",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d3bdbea2f47daa75",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>59%</td></tr><tr><td>Non-fee</td><td>48,309</td><td>58,938</td><td>67,811</td><td>15%</td><td>40%</td><td>60,295</td><td>12%</td><td>126,627</td><td>54%</td></tr><tr><td>Total Income</td><td>317",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "42ecf7e22c5890f1",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Non-fee</td><td>48,309</td><td>58,938</td><td>67,811</td><td>15%</td><td>40%</td><td>60,295</td><td>12%</td><td>126,627</td><td>54%</td></tr><tr><td>Total Income</td><td>317,929</td><td>314,842</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "bc5c9cb2de693c0d",
+        "value": 0.54,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>58,938</td><td>67,811</td><td>15%</td><td>40%</td><td>60,295</td><td>12%</td><td>126,627</td><td>54%</td></tr><tr><td>Total Income</td><td>317,929</td><td>314,842</td><td>329,418</td><td>5%</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1d1ef843ff939fa0",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "7</td><td>54%</td></tr><tr><td>Total Income</td><td>317,929</td><td>314,842</td><td>329,418</td><td>5%</td><td>4%</td><td>322,676</td><td>2%</td><td>649,267</td><td>51%</td></tr><tr><td>Operating expe",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "28383d8457a2fb36",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4%</td></tr><tr><td>Total Income</td><td>317,929</td><td>314,842</td><td>329,418</td><td>5%</td><td>4%</td><td>322,676</td><td>2%</td><td>649,267</td><td>51%</td></tr><tr><td>Operating expenses</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "97dadf91039eb8d4",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ncome</td><td>317,929</td><td>314,842</td><td>329,418</td><td>5%</td><td>4%</td><td>322,676</td><td>2%</td><td>649,267</td><td>51%</td></tr><tr><td>Operating expenses</td><td>(108,290)</td><td>(127,48",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2521a6d772a395e3",
+        "value": 0.51,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>314,842</td><td>329,418</td><td>5%</td><td>4%</td><td>322,676</td><td>2%</td><td>649,267</td><td>51%</td></tr><tr><td>Operating expenses</td><td>(108,290)</td><td>(127,480)</td><td>(119,496)</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c09a33a523eb1fcc",
+        "value": -0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>Operating expenses</td><td>(108,290)</td><td>(127,480)</td><td>(119,496)</td><td>-6%</td><td>10%</td><td>(113,043)</td><td>6%</td><td>(247,967)</td><td>48%</td></tr><tr><td>Staff co",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4c65f6d976539ec0",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>Operating expenses</td><td>(108,290)</td><td>(127,480)</td><td>(119,496)</td><td>-6%</td><td>10%</td><td>(113,043)</td><td>6%</td><td>(247,967)</td><td>48%</td></tr><tr><td>Staff costs</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "efcd61f636022536",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>(108,290)</td><td>(127,480)</td><td>(119,496)</td><td>-6%</td><td>10%</td><td>(113,043)</td><td>6%</td><td>(247,967)</td><td>48%</td></tr><tr><td>Staff costs</td><td>(50,103)</td><td>(63,321)</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e2b0ba276cc70da3",
+        "value": 0.48,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0)</td><td>(119,496)</td><td>-6%</td><td>10%</td><td>(113,043)</td><td>6%</td><td>(247,967)</td><td>48%</td></tr><tr><td>Staff costs</td><td>(50,103)</td><td>(63,321)</td><td>(52,261)</td><td>-17%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a3008e16d272b1ff",
+        "value": -0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>48%</td></tr><tr><td>Staff costs</td><td>(50,103)</td><td>(63,321)</td><td>(52,261)</td><td>-17%</td><td>4%</td><td>(52,608)</td><td>-1%</td><td>(119,728)</td><td>44%</td></tr><tr><td>Other op",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "62e19330e19769c6",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>Staff costs</td><td>(50,103)</td><td>(63,321)</td><td>(52,261)</td><td>-17%</td><td>4%</td><td>(52,608)</td><td>-1%</td><td>(119,728)</td><td>44%</td></tr><tr><td>Other operating expen",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "092471ff8c432248",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>(50,103)</td><td>(63,321)</td><td>(52,261)</td><td>-17%</td><td>4%</td><td>(52,608)</td><td>-1%</td><td>(119,728)</td><td>44%</td></tr><tr><td>Other operating expenses</td><td>(58,187)</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3fda10b7a69040b9",
+        "value": 0.44,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "21)</td><td>(52,261)</td><td>-17%</td><td>4%</td><td>(52,608)</td><td>-1%</td><td>(119,728)</td><td>44%</td></tr><tr><td>Other operating expenses</td><td>(58,187)</td><td>(64,159)</td><td>(67,235)</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4acfff62d21da223",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>Other operating expenses</td><td>(58,187)</td><td>(64,159)</td><td>(67,235)</td><td>5%</td><td>16%</td><td>(60,435)</td><td>11%</td><td>(128,239)</td><td>52%</td></tr><tr><td>PPOP</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4f15ac1ffcf8ac9f",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Other operating expenses</td><td>(58,187)</td><td>(64,159)</td><td>(67,235)</td><td>5%</td><td>16%</td><td>(60,435)</td><td>11%</td><td>(128,239)</td><td>52%</td></tr><tr><td>PPOP</td><td>209,639",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4bc04a4488504a7f",
+        "value": 0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>(58,187)</td><td>(64,159)</td><td>(67,235)</td><td>5%</td><td>16%</td><td>(60,435)</td><td>11%</td><td>(128,239)</td><td>52%</td></tr><tr><td>PPOP</td><td>209,639</td><td>187,362</td><td>209,",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "025b8e4a3f5e06cc",
+        "value": 0.52,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "159)</td><td>(67,235)</td><td>5%</td><td>16%</td><td>(60,435)</td><td>11%</td><td>(128,239)</td><td>52%</td></tr><tr><td>PPOP</td><td>209,639</td><td>187,362</td><td>209,922</td><td>12%</td><td>0%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f81235802c893247",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "(128,239)</td><td>52%</td></tr><tr><td>PPOP</td><td>209,639</td><td>187,362</td><td>209,922</td><td>12%</td><td>0%</td><td>209,633</td><td>0%</td><td>401,299</td><td>52%</td></tr><tr><td>LLP</td><td>(",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7bdb360122655959",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>52%</td></tr><tr><td>PPOP</td><td>209,639</td><td>187,362</td><td>209,922</td><td>12%</td><td>0%</td><td>209,633</td><td>0%</td><td>401,299</td><td>52%</td></tr><tr><td>LLP</td><td>(72,684)</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4230a6edca10ef34",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "PPOP</td><td>209,639</td><td>187,362</td><td>209,922</td><td>12%</td><td>0%</td><td>209,633</td><td>0%</td><td>401,299</td><td>52%</td></tr><tr><td>LLP</td><td>(72,684)</td><td>(48,177)</td><td>(64,93",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c6d9dd46fb5ed94d",
+        "value": 0.52,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>187,362</td><td>209,922</td><td>12%</td><td>0%</td><td>209,633</td><td>0%</td><td>401,299</td><td>52%</td></tr><tr><td>LLP</td><td>(72,684)</td><td>(48,177)</td><td>(64,931)</td><td>35%</td><td>-11%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c60b832c10cd0d70",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "401,299</td><td>52%</td></tr><tr><td>LLP</td><td>(72,684)</td><td>(48,177)</td><td>(64,931)</td><td>35%</td><td>-11%</td><td>(61,862)</td><td>5%</td><td>(100,602)</td><td>65%</td></tr><tr><td>Other Pr",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8aa28cdf00745a72",
+        "value": -0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>52%</td></tr><tr><td>LLP</td><td>(72,684)</td><td>(48,177)</td><td>(64,931)</td><td>35%</td><td>-11%</td><td>(61,862)</td><td>5%</td><td>(100,602)</td><td>65%</td></tr><tr><td>Other Provisions</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "0d6f6bb82c2d9e6c",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>(72,684)</td><td>(48,177)</td><td>(64,931)</td><td>35%</td><td>-11%</td><td>(61,862)</td><td>5%</td><td>(100,602)</td><td>65%</td></tr><tr><td>Other Provisions</td><td>12,105</td><td>6,034</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c8bcab41acb55628",
+        "value": 0.65,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "77)</td><td>(64,931)</td><td>35%</td><td>-11%</td><td>(61,862)</td><td>5%</td><td>(100,602)</td><td>65%</td></tr><tr><td>Other Provisions</td><td>12,105</td><td>6,034</td><td>7,429</td><td>23%</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "da0f38a0e0b13fe6",
+        "value": 0.23,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2)</td><td>65%</td></tr><tr><td>Other Provisions</td><td>12,105</td><td>6,034</td><td>7,429</td><td>23%</td><td>-39%</td><td>(1,000)</td><td>-843%</td><td>(2,000)</td><td>-371%</td></tr><tr><td>Pre-Ta",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4c4d791ce1f17ac3",
+        "value": -0.39,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5%</td></tr><tr><td>Other Provisions</td><td>12,105</td><td>6,034</td><td>7,429</td><td>23%</td><td>-39%</td><td>(1,000)</td><td>-843%</td><td>(2,000)</td><td>-371%</td></tr><tr><td>Pre-Tax</td><td>14",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "da71afd151dea479",
+        "value": -8.43,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "visions</td><td>12,105</td><td>6,034</td><td>7,429</td><td>23%</td><td>-39%</td><td>(1,000)</td><td>-843%</td><td>(2,000)</td><td>-371%</td></tr><tr><td>Pre-Tax</td><td>149,203</td><td>145,751</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "63bae37225ac1e31",
+        "value": -3.71,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">6,034</td><td>7,429</td><td>23%</td><td>-39%</td><td>(1,000)</td><td>-843%</td><td>(2,000)</td><td>-371%</td></tr><tr><td>Pre-Tax</td><td>149,203</td><td>145,751</td><td>153,018</td><td>5%</td><td>3%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1a4fe01f3b3a090c",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "000)</td><td>-371%</td></tr><tr><td>Pre-Tax</td><td>149,203</td><td>145,751</td><td>153,018</td><td>5%</td><td>3%</td><td>147,271</td><td>4%</td><td>299,697</td><td>51%</td></tr><tr><td>Income Tax</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "388ada4c8f4b8ef1",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-371%</td></tr><tr><td>Pre-Tax</td><td>149,203</td><td>145,751</td><td>153,018</td><td>5%</td><td>3%</td><td>147,271</td><td>4%</td><td>299,697</td><td>51%</td></tr><tr><td>Income Tax</td><td>(22,66",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c4e761a2b803e5a1",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e-Tax</td><td>149,203</td><td>145,751</td><td>153,018</td><td>5%</td><td>3%</td><td>147,271</td><td>4%</td><td>299,697</td><td>51%</td></tr><tr><td>Income Tax</td><td>(22,667)</td><td>(19,568)</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3405506c582a54d5",
+        "value": 0.51,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>145,751</td><td>153,018</td><td>5%</td><td>3%</td><td>147,271</td><td>4%</td><td>299,697</td><td>51%</td></tr><tr><td>Income Tax</td><td>(22,667)</td><td>(19,568)</td><td>(26,880)</td><td>37%</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "df3b9eb2605fdf29",
+        "value": 0.37,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>51%</td></tr><tr><td>Income Tax</td><td>(22,667)</td><td>(19,568)</td><td>(26,880)</td><td>37%</td><td>19%</td><td>(22,373)</td><td>20%</td><td>(42,838)</td><td>63%</td></tr><tr><td>Attributa",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "447c91424d31b5dd",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>Income Tax</td><td>(22,667)</td><td>(19,568)</td><td>(26,880)</td><td>37%</td><td>19%</td><td>(22,373)</td><td>20%</td><td>(42,838)</td><td>63%</td></tr><tr><td>Attributable Income</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7b792a513e952fa9",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>NII</td><td>114,048</td><td>109,237</td><td>112,937</td><td>107,727</td><td>107,089</td><td>-1%</td><td>-6%</td><td>110,508</td></tr><tr><td>Non-Interest Income</td><td>42,843</td><td>51,939</",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "73228832df3ae8c8",
+        "value": -0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>114,048</td><td>109,237</td><td>112,937</td><td>107,727</td><td>107,089</td><td>-1%</td><td>-6%</td><td>110,508</td></tr><tr><td>Non-Interest Income</td><td>42,843</td><td>51,939</td><td>40,72",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "13a2dfe63974d986",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-Interest Income</td><td>42,843</td><td>51,939</td><td>40,729</td><td>57,184</td><td>57,418</td><td>0%</td><td>34%</td><td>47,257</td></tr><tr><td>Fees</td><td>17,733</td><td>17,833</td><td>15,897</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f4c3a271e9dab13a",
+        "value": 0.34,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ncome</td><td>42,843</td><td>51,939</td><td>40,729</td><td>57,184</td><td>57,418</td><td>0%</td><td>34%</td><td>47,257</td></tr><tr><td>Fees</td><td>17,733</td><td>17,833</td><td>15,897</td><td>25,651",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "28a6f53ab3e12643",
+        "value": -0.18,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>Fees</td><td>17,733</td><td>17,833</td><td>15,897</td><td>25,651</td><td>21,140</td><td>-18%</td><td>19%</td><td>18,495</td></tr><tr><td>Non-fees</td><td>25,110</td><td>34,106</td><td>24,8",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "965258e1e9446514",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ees</td><td>17,733</td><td>17,833</td><td>15,897</td><td>25,651</td><td>21,140</td><td>-18%</td><td>19%</td><td>18,495</td></tr><tr><td>Non-fees</td><td>25,110</td><td>34,106</td><td>24,832</td><td>31",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7ec8736e7d7d2cd9",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>Non-fees</td><td>25,110</td><td>34,106</td><td>24,832</td><td>31,533</td><td>36,278</td><td>15%</td><td>44%</td><td>28,762</td></tr><tr><td>Total Income</td><td>156,891</td><td>161,176</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "13ffa8f88afacda1",
+        "value": 0.44,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "fees</td><td>25,110</td><td>34,106</td><td>24,832</td><td>31,533</td><td>36,278</td><td>15%</td><td>44%</td><td>28,762</td></tr><tr><td>Total Income</td><td>156,891</td><td>161,176</td><td>153,666</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "8ae2ed9293587cb7",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "otal Income</td><td>156,891</td><td>161,176</td><td>153,666</td><td>164,911</td><td>164,507</td><td>0%</td><td>5%</td><td>157,765</td></tr><tr><td>Operating expenses</td><td>(53,997)</td><td>(64,412)<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2b4589a951f53811",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>156,891</td><td>161,176</td><td>153,666</td><td>164,911</td><td>164,507</td><td>0%</td><td>5%</td><td>157,765</td></tr><tr><td>Operating expenses</td><td>(53,997)</td><td>(64,412)</td><td>(63",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f1c0426c6ed8749c",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "penses</td><td>(53,997)</td><td>(64,412)</td><td>(63,068)</td><td>(59,608)</td><td>(59,888)</td><td>0%</td><td>11%</td><td>(53,435)</td></tr><tr><td>PPOP</td><td>102,894</td><td>96,764</td><td>90,598<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "cc249e98d3d9f7b8",
+        "value": 0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>(53,997)</td><td>(64,412)</td><td>(63,068)</td><td>(59,608)</td><td>(59,888)</td><td>0%</td><td>11%</td><td>(53,435)</td></tr><tr><td>PPOP</td><td>102,894</td><td>96,764</td><td>90,598</td><td>105",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "677a9f68ec692ecc",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>PPOP</td><td>102,894</td><td>96,764</td><td>90,598</td><td>105,303</td><td>104,619</td><td>-1%</td><td>2%</td><td>104,330</td></tr><tr><td>Total provisions</td><td>(25,648)</td><td>(25,261)</",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "9fce31b89e199bca",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "P</td><td>102,894</td><td>96,764</td><td>90,598</td><td>105,303</td><td>104,619</td><td>-1%</td><td>2%</td><td>104,330</td></tr><tr><td>Total provisions</td><td>(25,648)</td><td>(25,261)</td><td>(16,8",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "641af4009ca5c947",
+        "value": -0.22,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "isions</td><td>(25,648)</td><td>(25,261)</td><td>(16,882)</td><td>(32,246)</td><td>(25,256)</td><td>-22%</td><td>-2%</td><td>(30,616)</td></tr><tr><td>Pre-Tax</td><td>77,306</td><td>72,126</td><td>73,",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "e7137cb7e9269144",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>(25,648)</td><td>(25,261)</td><td>(16,882)</td><td>(32,246)</td><td>(25,256)</td><td>-22%</td><td>-2%</td><td>(30,616)</td></tr><tr><td>Pre-Tax</td><td>77,306</td><td>72,126</td><td>73,625</td><td>7",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "bf0995071e29b5b2",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>Pre-Tax</td><td>77,306</td><td>72,126</td><td>73,625</td><td>73,349</td><td>79,669</td><td>9%</td><td>3%</td><td>73,922</td></tr><tr><td>Income Tax</td><td>(10,743)</td><td>(11,173)</td><td>(",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2bb5bc72274cbf35",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e-Tax</td><td>77,306</td><td>72,126</td><td>73,625</td><td>73,349</td><td>79,669</td><td>9%</td><td>3%</td><td>73,922</td></tr><tr><td>Income Tax</td><td>(10,743)</td><td>(11,173)</td><td>(8,395)</td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0e3cf4d4c699e6af",
+        "value": -0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ome Tax</td><td>(10,743)</td><td>(11,173)</td><td>(8,395)</td><td>(14,705)</td><td>(12,175)</td><td>-17%</td><td>13%</td><td>(7,668)</td></tr><tr><td>Attributable Income</td><td>62,612</td><td>57,162<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "679a8dd18fa12833",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>(10,743)</td><td>(11,173)</td><td>(8,395)</td><td>(14,705)</td><td>(12,175)</td><td>-17%</td><td>13%</td><td>(7,668)</td></tr><tr><td>Attributable Income</td><td>62,612</td><td>57,162</td><td>62,07",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "3524ab8b259407cc",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ributable Income</td><td>62,612</td><td>57,162</td><td>62,078</td><td>54,364</td><td>63,227</td><td>16%</td><td>1%</td><td>62,896</td></tr><tr><td>Key Balance Sheet Items</td><td></td><td></td><td></t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "12bfc42f8ae9efe8",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "come</td><td>62,612</td><td>57,162</td><td>62,078</td><td>54,364</td><td>63,227</td><td>16%</td><td>1%</td><td>62,896</td></tr><tr><td>Key Balance Sheet Items</td><td></td><td></td><td></td><td></td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "57ad0944768c87f8",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>21,088,978</td><td>21,435,928</td><td>21,543,585</td><td>22,608,748</td><td>23,006,306</td><td>2%</td><td>9%</td><td></td></tr><tr><td>Including NPL amount</td><td>261,267</td><td>270,037</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "43c380b0c4602db4",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ",978</td><td>21,435,928</td><td>21,543,585</td><td>22,608,748</td><td>23,006,306</td><td>2%</td><td>9%</td><td></td></tr><tr><td>Including NPL amount</td><td>261,267</td><td>270,037</td><td>268,781</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "968d1b8545631ee1",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "NPL amount</td><td>261,267</td><td>270,037</td><td>268,781</td><td>281,208</td><td>284,656</td><td>1%</td><td>9%</td><td></td></tr><tr><td>Total deposits</td><td>23,630,706</td><td>23,710,630</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "3b24739c1e5e7fb2",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>261,267</td><td>270,037</td><td>268,781</td><td>281,208</td><td>284,656</td><td>1%</td><td>9%</td><td></td></tr><tr><td>Total deposits</td><td>23,630,706</td><td>23,710,630</td><td>24,202,588",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "30ae5662f6ba6b9a",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>23,630,706</td><td>23,710,630</td><td>24,202,588</td><td>25,610,499</td><td>25,638,312</td><td>0%</td><td>8%</td><td></td></tr><tr><td>Total assets</td><td>33,907,267</td><td>34,068,988</td><td>3",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "20f1802a11aa5b80",
+        "value": 0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ",706</td><td>23,710,630</td><td>24,202,588</td><td>25,610,499</td><td>25,638,312</td><td>0%</td><td>8%</td><td></td></tr><tr><td>Total assets</td><td>33,907,267</td><td>34,068,988</td><td>35,061,299</",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a7bc813e95ff02ef",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>33,907,267</td><td>34,068,988</td><td>35,061,299</td><td>35,987,147</td><td>36,790,613</td><td>2%</td><td>9%</td><td></td></tr><tr><td>Equity</td><td>2,648,821</td><td>2,742,107</td><td>2,816,231",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "57e61d6f9ec51c61",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ",267</td><td>34,068,988</td><td>35,061,299</td><td>35,987,147</td><td>36,790,613</td><td>2%</td><td>9%</td><td></td></tr><tr><td>Equity</td><td>2,648,821</td><td>2,742,107</td><td>2,816,231</td><td>2,",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ca365d3d9b10350d",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "y</td><td>2,648,821</td><td>2,742,107</td><td>2,816,231</td><td>2,826,343</td><td>2,987,590</td><td>6%</td><td>13%</td><td></td></tr><tr><td>RWA</td><td>18,539,055</td><td>18,756,339</td><td>19,217,55",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "9a3f81667fe4f4f0",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ",648,821</td><td>2,742,107</td><td>2,816,231</td><td>2,826,343</td><td>2,987,590</td><td>6%</td><td>13%</td><td></td></tr><tr><td>RWA</td><td>18,539,055</td><td>18,756,339</td><td>19,217,559</td><td>2",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a1ad1d5b6e06a346",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>18,539,055</td><td>18,756,339</td><td>19,217,559</td><td>20,061,040</td><td>20,470,598</td><td>2%</td><td>10%</td><td></td></tr><tr><td>Key Ratios</td><td></td><td></td><td></td><td></td><td></td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "445ac77c12104cc0",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ",055</td><td>18,756,339</td><td>19,217,559</td><td>20,061,040</td><td>20,470,598</td><td>2%</td><td>10%</td><td></td></tr><tr><td>Key Ratios</td><td></td><td></td><td></td><td></td><td></td><td></td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "c44cac2bef1495ee",
+        "value": 0.0143,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NIM</td><td>1.43%</td><td>1.36%</td><td>1.36%</td><td>1.29%</td><td>1.23%</td><td>-6 bps</td><td>-20 bps</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a0f05c74cc8a8cab",
+        "value": 0.013600000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NIM</td><td>1.43%</td><td>1.36%</td><td>1.36%</td><td>1.29%</td><td>1.23%</td><td>-6 bps</td><td>-20 bps</td><td>1.26%</td></t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "16d77e3002c62157",
+        "value": 0.013600000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td></td><td></td><td></td><td></td></tr><tr><td>NIM</td><td>1.43%</td><td>1.36%</td><td>1.36%</td><td>1.29%</td><td>1.23%</td><td>-6 bps</td><td>-20 bps</td><td>1.26%</td></tr><tr><td>Cost",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "fcdba7661a341c8a",
+        "value": 0.0129,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td><td></td><td></td></tr><tr><td>NIM</td><td>1.43%</td><td>1.36%</td><td>1.36%</td><td>1.29%</td><td>1.23%</td><td>-6 bps</td><td>-20 bps</td><td>1.26%</td></tr><tr><td>Cost income ratio<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0bfd501540bfafeb",
+        "value": 0.0123,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td><td></td></tr><tr><td>NIM</td><td>1.43%</td><td>1.36%</td><td>1.36%</td><td>1.29%</td><td>1.23%</td><td>-6 bps</td><td>-20 bps</td><td>1.26%</td></tr><tr><td>Cost income ratio</td><td>34.42%",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "08dbcf36534d70bd",
+        "value": 0.0126,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".43%</td><td>1.36%</td><td>1.36%</td><td>1.29%</td><td>1.23%</td><td>-6 bps</td><td>-20 bps</td><td>1.26%</td></tr><tr><td>Cost income ratio</td><td>34.42%</td><td>39.96%</td><td>41.04%</td><td>36.15%",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "bf743631f5062c45",
+        "value": 0.3442,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>1.23%</td><td>-6 bps</td><td>-20 bps</td><td>1.26%</td></tr><tr><td>Cost income ratio</td><td>34.42%</td><td>39.96%</td><td>41.04%</td><td>36.15%</td><td>36.40%</td><td>26 bps</td><td>199 bps</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "01e5fe271373aea5",
+        "value": 0.3996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>-6 bps</td><td>-20 bps</td><td>1.26%</td></tr><tr><td>Cost income ratio</td><td>34.42%</td><td>39.96%</td><td>41.04%</td><td>36.15%</td><td>36.40%</td><td>26 bps</td><td>199 bps</td><td></td></tr",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "1cb728b841a9d76a",
+        "value": 0.4104,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>-20 bps</td><td>1.26%</td></tr><tr><td>Cost income ratio</td><td>34.42%</td><td>39.96%</td><td>41.04%</td><td>36.15%</td><td>36.40%</td><td>26 bps</td><td>199 bps</td><td></td></tr><tr><td>ROE</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "1d12ae8b60fcb46c",
+        "value": 0.3615,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>1.26%</td></tr><tr><td>Cost income ratio</td><td>34.42%</td><td>39.96%</td><td>41.04%</td><td>36.15%</td><td>36.40%</td><td>26 bps</td><td>199 bps</td><td></td></tr><tr><td>ROE</td><td>9.4%</td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "07c731712d1521a9",
+        "value": 0.364,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>Cost income ratio</td><td>34.42%</td><td>39.96%</td><td>41.04%</td><td>36.15%</td><td>36.40%</td><td>26 bps</td><td>199 bps</td><td></td></tr><tr><td>ROE</td><td>9.4%</td><td>8.5%</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "741bcd845a23bbbd",
+        "value": 0.094,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>36.15%</td><td>36.40%</td><td>26 bps</td><td>199 bps</td><td></td></tr><tr><td>ROE</td><td>9.4%</td><td>8.5%</td><td>8.9%</td><td>7.7%</td><td>8.7%</td><td>99 bps</td><td>-75 bps</td><td></td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0d4e8d1fbef82b43",
+        "value": 0.085,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5%</td><td>36.40%</td><td>26 bps</td><td>199 bps</td><td></td></tr><tr><td>ROE</td><td>9.4%</td><td>8.5%</td><td>8.9%</td><td>7.7%</td><td>8.7%</td><td>99 bps</td><td>-75 bps</td><td></td></tr><tr><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f047efc604941401",
+        "value": 0.08900000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".40%</td><td>26 bps</td><td>199 bps</td><td></td></tr><tr><td>ROE</td><td>9.4%</td><td>8.5%</td><td>8.9%</td><td>7.7%</td><td>8.7%</td><td>99 bps</td><td>-75 bps</td><td></td></tr><tr><td>ROA</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2cf84f181f3ee0c3",
+        "value": 0.077,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "26 bps</td><td>199 bps</td><td></td></tr><tr><td>ROE</td><td>9.4%</td><td>8.5%</td><td>8.9%</td><td>7.7%</td><td>8.7%</td><td>99 bps</td><td>-75 bps</td><td></td></tr><tr><td>ROA</td><td>0.74%</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ac6eddbe77fe70bc",
+        "value": 0.087,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>199 bps</td><td></td></tr><tr><td>ROE</td><td>9.4%</td><td>8.5%</td><td>8.9%</td><td>7.7%</td><td>8.7%</td><td>99 bps</td><td>-75 bps</td><td></td></tr><tr><td>ROA</td><td>0.74%</td><td>0.67%</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "61146536e1bd6a78",
+        "value": 0.0392,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic RMB</td><td>3.92%</td><td>3.61%</td><td>3.42%</td><td>3.15%</td><td>2.87%</td><td>-28 bps</td><td>-55 bps</td></",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "1c41543324a41d65",
+        "value": 0.0361,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic RMB</td><td>3.92%</td><td>3.61%</td><td>3.42%</td><td>3.15%</td><td>2.87%</td><td>-28 bps</td><td>-55 bps</td></tr><tr><td>Dom",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7cc8b8c4ea82341b",
+        "value": 0.0342,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td></td><td></td><td></td></tr><tr><td>Domestic RMB</td><td>3.92%</td><td>3.61%</td><td>3.42%</td><td>3.15%</td><td>2.87%</td><td>-28 bps</td><td>-55 bps</td></tr><tr><td>Domestic FX</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ea9e0ed2fcbc90be",
+        "value": 0.0315,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td><td></td></tr><tr><td>Domestic RMB</td><td>3.92%</td><td>3.61%</td><td>3.42%</td><td>3.15%</td><td>2.87%</td><td>-28 bps</td><td>-55 bps</td></tr><tr><td>Domestic FX</td><td>4.06%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "2f89837fed9390c9",
+        "value": 0.0287,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td></tr><tr><td>Domestic RMB</td><td>3.92%</td><td>3.61%</td><td>3.42%</td><td>3.15%</td><td>2.87%</td><td>-28 bps</td><td>-55 bps</td></tr><tr><td>Domestic FX</td><td>4.06%</td><td>4.76%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "cddf333731af2e2c",
+        "value": 0.0406,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2%</td><td>3.15%</td><td>2.87%</td><td>-28 bps</td><td>-55 bps</td></tr><tr><td>Domestic FX</td><td>4.06%</td><td>4.76%</td><td>4.81%</td><td>4.84%</td><td>4.68%</td><td>-16 bps</td><td>-13 bps</td></",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a2d4025350d07684",
+        "value": 0.047599999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5%</td><td>2.87%</td><td>-28 bps</td><td>-55 bps</td></tr><tr><td>Domestic FX</td><td>4.06%</td><td>4.76%</td><td>4.81%</td><td>4.84%</td><td>4.68%</td><td>-16 bps</td><td>-13 bps</td></tr><tr><td>Ove",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "2c068f420388c69e",
+        "value": 0.0481,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "7%</td><td>-28 bps</td><td>-55 bps</td></tr><tr><td>Domestic FX</td><td>4.06%</td><td>4.76%</td><td>4.81%</td><td>4.84%</td><td>4.68%</td><td>-16 bps</td><td>-13 bps</td></tr><tr><td>Overseas</td><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "2241a99b1550312d",
+        "value": 0.0484,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "bps</td><td>-55 bps</td></tr><tr><td>Domestic FX</td><td>4.06%</td><td>4.76%</td><td>4.81%</td><td>4.84%</td><td>4.68%</td><td>-16 bps</td><td>-13 bps</td></tr><tr><td>Overseas</td><td>4.76%</td><td>5",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "590366ed191deb01",
+        "value": 0.046799999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "55 bps</td></tr><tr><td>Domestic FX</td><td>4.06%</td><td>4.76%</td><td>4.81%</td><td>4.84%</td><td>4.68%</td><td>-16 bps</td><td>-13 bps</td></tr><tr><td>Overseas</td><td>4.76%</td><td>5.26%</td><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a7c9c81c7b9d4978",
+        "value": 0.047599999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4.81%</td><td>4.84%</td><td>4.68%</td><td>-16 bps</td><td>-13 bps</td></tr><tr><td>Overseas</td><td>4.76%</td><td>5.26%</td><td>5.14%</td><td>4.96%</td><td>4.29%</td><td>-68 bps</td><td>-85 bps</td></",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "910d31fc9e7615ab",
+        "value": 0.0526,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4.84%</td><td>4.68%</td><td>-16 bps</td><td>-13 bps</td></tr><tr><td>Overseas</td><td>4.76%</td><td>5.26%</td><td>5.14%</td><td>4.96%</td><td>4.29%</td><td>-68 bps</td><td>-85 bps</td></tr><tr><td>Dep",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "b1420149d174e758",
+        "value": 0.051399999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4.68%</td><td>-16 bps</td><td>-13 bps</td></tr><tr><td>Overseas</td><td>4.76%</td><td>5.26%</td><td>5.14%</td><td>4.96%</td><td>4.29%</td><td>-68 bps</td><td>-85 bps</td></tr><tr><td>Deposits costs</t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "8869cb701bef76e9",
+        "value": 0.0496,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-16 bps</td><td>-13 bps</td></tr><tr><td>Overseas</td><td>4.76%</td><td>5.26%</td><td>5.14%</td><td>4.96%</td><td>4.29%</td><td>-68 bps</td><td>-85 bps</td></tr><tr><td>Deposits costs</td><td></td><td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "3ab3875c6d151740",
+        "value": 0.0429,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-13 bps</td></tr><tr><td>Overseas</td><td>4.76%</td><td>5.26%</td><td>5.14%</td><td>4.96%</td><td>4.29%</td><td>-68 bps</td><td>-85 bps</td></tr><tr><td>Deposits costs</td><td></td><td></td><td></td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "19ae16a0383e65cb",
+        "value": 0.018500000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic RMB</td><td>1.85%</td><td>1.82%</td><td>1.74%</td><td>1.60%</td><td>1.47%</td><td>-13 bps</td><td>-26 bps</td></",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "53e662dc87325092",
+        "value": 0.0182,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic RMB</td><td>1.85%</td><td>1.82%</td><td>1.74%</td><td>1.60%</td><td>1.47%</td><td>-13 bps</td><td>-26 bps</td></tr><tr><td>Dom",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "80b24b1be93fe64e",
+        "value": 0.0174,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td></td><td></td><td></td></tr><tr><td>Domestic RMB</td><td>1.85%</td><td>1.82%</td><td>1.74%</td><td>1.60%</td><td>1.47%</td><td>-13 bps</td><td>-26 bps</td></tr><tr><td>Domestic FX</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "1cdda0ac530ad60f",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td><td></td></tr><tr><td>Domestic RMB</td><td>1.85%</td><td>1.82%</td><td>1.74%</td><td>1.60%</td><td>1.47%</td><td>-13 bps</td><td>-26 bps</td></tr><tr><td>Domestic FX</td><td>2.17%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ff8c36db657337c3",
+        "value": 0.0147,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td></tr><tr><td>Domestic RMB</td><td>1.85%</td><td>1.82%</td><td>1.74%</td><td>1.60%</td><td>1.47%</td><td>-13 bps</td><td>-26 bps</td></tr><tr><td>Domestic FX</td><td>2.17%</td><td>2.57%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "223d8be04eb30229",
+        "value": 0.0217,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4%</td><td>1.60%</td><td>1.47%</td><td>-13 bps</td><td>-26 bps</td></tr><tr><td>Domestic FX</td><td>2.17%</td><td>2.57%</td><td>2.28%</td><td>2.12%</td><td>2.14%</td><td>2 bps</td><td>-14 bps</td></tr",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "f95a7ee6ec2d27e3",
+        "value": 0.025699999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0%</td><td>1.47%</td><td>-13 bps</td><td>-26 bps</td></tr><tr><td>Domestic FX</td><td>2.17%</td><td>2.57%</td><td>2.28%</td><td>2.12%</td><td>2.14%</td><td>2 bps</td><td>-14 bps</td></tr><tr><td>Overs",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c38b07fca84f1f15",
+        "value": 0.022799999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "7%</td><td>-13 bps</td><td>-26 bps</td></tr><tr><td>Domestic FX</td><td>2.17%</td><td>2.57%</td><td>2.28%</td><td>2.12%</td><td>2.14%</td><td>2 bps</td><td>-14 bps</td></tr><tr><td>Overseas</td><td>2.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e6b4026168131c1d",
+        "value": 0.0212,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "bps</td><td>-26 bps</td></tr><tr><td>Domestic FX</td><td>2.17%</td><td>2.57%</td><td>2.28%</td><td>2.12%</td><td>2.14%</td><td>2 bps</td><td>-14 bps</td></tr><tr><td>Overseas</td><td>2.91%</td><td>3.4",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "9b39fcc4507087be",
+        "value": 0.021400000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "26 bps</td></tr><tr><td>Domestic FX</td><td>2.17%</td><td>2.57%</td><td>2.28%</td><td>2.12%</td><td>2.14%</td><td>2 bps</td><td>-14 bps</td></tr><tr><td>Overseas</td><td>2.91%</td><td>3.41%</td><td>3.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a7c113f3ae1570da",
+        "value": 0.0291,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>2.28%</td><td>2.12%</td><td>2.14%</td><td>2 bps</td><td>-14 bps</td></tr><tr><td>Overseas</td><td>2.91%</td><td>3.41%</td><td>3.48%</td><td>3.22%</td><td>2.85%</td><td>-37 bps</td><td>-64 bps</td></",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "055ca5c7b4f93f05",
+        "value": 0.0341,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>2.12%</td><td>2.14%</td><td>2 bps</td><td>-14 bps</td></tr><tr><td>Overseas</td><td>2.91%</td><td>3.41%</td><td>3.48%</td><td>3.22%</td><td>2.85%</td><td>-37 bps</td><td>-64 bps</td></tr><tr><td>Loa",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "80105c5a233329c4",
+        "value": 0.0348,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>2.14%</td><td>2 bps</td><td>-14 bps</td></tr><tr><td>Overseas</td><td>2.91%</td><td>3.41%</td><td>3.48%</td><td>3.22%</td><td>2.85%</td><td>-37 bps</td><td>-64 bps</td></tr><tr><td>Loan deposit spre",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "04a3bfa0c0650305",
+        "value": 0.0322,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>2 bps</td><td>-14 bps</td></tr><tr><td>Overseas</td><td>2.91%</td><td>3.41%</td><td>3.48%</td><td>3.22%</td><td>2.85%</td><td>-37 bps</td><td>-64 bps</td></tr><tr><td>Loan deposit spread</td><td></t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "0adcd8f9ab3c06ad",
+        "value": 0.0285,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-14 bps</td></tr><tr><td>Overseas</td><td>2.91%</td><td>3.41%</td><td>3.48%</td><td>3.22%</td><td>2.85%</td><td>-37 bps</td><td>-64 bps</td></tr><tr><td>Loan deposit spread</td><td></td><td></td><td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "699890b36561f675",
+        "value": 0.0208,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic RMB</td><td>2.08%</td><td>1.79%</td><td>1.68%</td><td>1.55%</td><td>1.40%</td><td>-15 bps</td><td>-29 bps</td></",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "41eb696a0d9d1d49",
+        "value": 0.0179,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic RMB</td><td>2.08%</td><td>1.79%</td><td>1.68%</td><td>1.55%</td><td>1.40%</td><td>-15 bps</td><td>-29 bps</td></tr><tr><td>Dom",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "157df14b2ea8944d",
+        "value": 0.0168,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td></td><td></td><td></td></tr><tr><td>Domestic RMB</td><td>2.08%</td><td>1.79%</td><td>1.68%</td><td>1.55%</td><td>1.40%</td><td>-15 bps</td><td>-29 bps</td></tr><tr><td>Domestic FX</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d976821a36819b55",
+        "value": 0.0155,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td><td></td></tr><tr><td>Domestic RMB</td><td>2.08%</td><td>1.79%</td><td>1.68%</td><td>1.55%</td><td>1.40%</td><td>-15 bps</td><td>-29 bps</td></tr><tr><td>Domestic FX</td><td>1.90%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "feb7d2e1357e9bf9",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td></tr><tr><td>Domestic RMB</td><td>2.08%</td><td>1.79%</td><td>1.68%</td><td>1.55%</td><td>1.40%</td><td>-15 bps</td><td>-29 bps</td></tr><tr><td>Domestic FX</td><td>1.90%</td><td>2.19%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "8265eff85ac60ca5",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8%</td><td>1.55%</td><td>1.40%</td><td>-15 bps</td><td>-29 bps</td></tr><tr><td>Domestic FX</td><td>1.90%</td><td>2.19%</td><td>2.54%</td><td>2.72%</td><td>2.55%</td><td>-17 bps</td><td>1 bps</td></tr",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "40c2db6d5a70f2f1",
+        "value": 0.0219,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5%</td><td>1.40%</td><td>-15 bps</td><td>-29 bps</td></tr><tr><td>Domestic FX</td><td>1.90%</td><td>2.19%</td><td>2.54%</td><td>2.72%</td><td>2.55%</td><td>-17 bps</td><td>1 bps</td></tr><tr><td>Overs",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e8a68623e57c1f61",
+        "value": 0.0254,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0%</td><td>-15 bps</td><td>-29 bps</td></tr><tr><td>Domestic FX</td><td>1.90%</td><td>2.19%</td><td>2.54%</td><td>2.72%</td><td>2.55%</td><td>-17 bps</td><td>1 bps</td></tr><tr><td>Overseas</td><td>1.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ab4929fac03848b4",
+        "value": 0.027200000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "bps</td><td>-29 bps</td></tr><tr><td>Domestic FX</td><td>1.90%</td><td>2.19%</td><td>2.54%</td><td>2.72%</td><td>2.55%</td><td>-17 bps</td><td>1 bps</td></tr><tr><td>Overseas</td><td>1.85%</td><td>1.8",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "96870e841bb9b0cf",
+        "value": 0.0255,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "29 bps</td></tr><tr><td>Domestic FX</td><td>1.90%</td><td>2.19%</td><td>2.54%</td><td>2.72%</td><td>2.55%</td><td>-17 bps</td><td>1 bps</td></tr><tr><td>Overseas</td><td>1.85%</td><td>1.84%</td><td>1.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7eeea4f6f42ed453",
+        "value": 0.018500000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>2.54%</td><td>2.72%</td><td>2.55%</td><td>-17 bps</td><td>1 bps</td></tr><tr><td>Overseas</td><td>1.85%</td><td>1.84%</td><td>1.66%</td><td>1.74%</td><td>1.44%</td><td>-30 bps</td><td>-22 bps</td></",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ac5e0b4ccdd6bd39",
+        "value": 0.0184,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>2.72%</td><td>2.55%</td><td>-17 bps</td><td>1 bps</td></tr><tr><td>Overseas</td><td>1.85%</td><td>1.84%</td><td>1.66%</td><td>1.74%</td><td>1.44%</td><td>-30 bps</td><td>-22 bps</td></tr></table> So",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "8edecf4c0003ad2f",
+        "value": 0.0166,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>2.55%</td><td>-17 bps</td><td>1 bps</td></tr><tr><td>Overseas</td><td>1.85%</td><td>1.84%</td><td>1.66%</td><td>1.74%</td><td>1.44%</td><td>-30 bps</td><td>-22 bps</td></tr></table> Source: BOC fina",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "46695e263e0820b7",
+        "value": 0.0174,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-17 bps</td><td>1 bps</td></tr><tr><td>Overseas</td><td>1.85%</td><td>1.84%</td><td>1.66%</td><td>1.74%</td><td>1.44%</td><td>-30 bps</td><td>-22 bps</td></tr></table> Source: BOC financial reports ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "5d96b35fd9c62fd5",
+        "value": 0.0144,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>1 bps</td></tr><tr><td>Overseas</td><td>1.85%</td><td>1.84%</td><td>1.66%</td><td>1.74%</td><td>1.44%</td><td>-30 bps</td><td>-22 bps</td></tr></table> Source: BOC financial reports 1H23-1H25. Tab",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "1b36d443207e7c55",
+        "value": 0.0342,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>1H24</td><td>2H24</td><td>1H25</td><td>HoH</td><td>YoY</td></tr><tr><td>Domestic RMB</td><td>3.42%</td><td>3.15%</td><td>2.87%</td><td>-28 bps</td><td>-55 bps</td></tr><tr><td>Domestic FX</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "33eef33fdee357be",
+        "value": 0.0315,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>2H24</td><td>1H25</td><td>HoH</td><td>YoY</td></tr><tr><td>Domestic RMB</td><td>3.42%</td><td>3.15%</td><td>2.87%</td><td>-28 bps</td><td>-55 bps</td></tr><tr><td>Domestic FX</td><td>4.81%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "18c61b4c4bb1ea63",
+        "value": 0.0287,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>1H25</td><td>HoH</td><td>YoY</td></tr><tr><td>Domestic RMB</td><td>3.42%</td><td>3.15%</td><td>2.87%</td><td>-28 bps</td><td>-55 bps</td></tr><tr><td>Domestic FX</td><td>4.81%</td><td>4.84%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "2062065c13d34571",
+        "value": 0.0481,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2%</td><td>3.15%</td><td>2.87%</td><td>-28 bps</td><td>-55 bps</td></tr><tr><td>Domestic FX</td><td>4.81%</td><td>4.84%</td><td>4.68%</td><td>-16 bps</td><td>-13 bps</td></tr><tr><td>Overseas</td><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ef7e0678034c66d7",
+        "value": 0.0484,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5%</td><td>2.87%</td><td>-28 bps</td><td>-55 bps</td></tr><tr><td>Domestic FX</td><td>4.81%</td><td>4.84%</td><td>4.68%</td><td>-16 bps</td><td>-13 bps</td></tr><tr><td>Overseas</td><td>5.14%</td><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "51adef6e08e23adc",
+        "value": 0.574,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>HoH</td><td>YoY</td><td>2H24</td><td>1H25 HoH (%)</td></tr><tr><td>Corporate loans</td><td>57.4%</td><td>58.9%</td><td>152 bps</td><td>97 bps</td><td>57.4%</td><td>1.26%</td><td>1.19% -7 bps<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "07d6a9a16fb1049a",
+        "value": 0.589,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>YoY</td><td>2H24</td><td>1H25 HoH (%)</td></tr><tr><td>Corporate loans</td><td>57.4%</td><td>58.9%</td><td>152 bps</td><td>97 bps</td><td>57.4%</td><td>1.26%</td><td>1.19% -7 bps</td></tr><tr><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "0f19aa4ed8d83737",
+        "value": 0.574,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>Corporate loans</td><td>57.4%</td><td>58.9%</td><td>152 bps</td><td>97 bps</td><td>57.4%</td><td>1.26%</td><td>1.19% -7 bps</td></tr><tr><td>Manufacturing</td><td>14.8%</td><td>15.4%<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2de303e2f848a1c3",
+        "value": 0.0126,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Corporate loans</td><td>57.4%</td><td>58.9%</td><td>152 bps</td><td>97 bps</td><td>57.4%</td><td>1.26%</td><td>1.19% -7 bps</td></tr><tr><td>Manufacturing</td><td>14.8%</td><td>15.4%</td><td>67 bps",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "9e2305d43a82016e",
+        "value": 0.011899999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "oans</td><td>57.4%</td><td>58.9%</td><td>152 bps</td><td>97 bps</td><td>57.4%</td><td>1.26%</td><td>1.19% -7 bps</td></tr><tr><td>Manufacturing</td><td>14.8%</td><td>15.4%</td><td>67 bps</td><td>121 b",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "1126acb7caf0f477",
+        "value": 0.14800000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>97 bps</td><td>57.4%</td><td>1.26%</td><td>1.19% -7 bps</td></tr><tr><td>Manufacturing</td><td>14.8%</td><td>15.4%</td><td>67 bps</td><td>121 bps</td><td>14.8%</td><td>1.08%</td><td>0.87% -20 bps",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "8dd1d2deea161618",
+        "value": 0.154,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>57.4%</td><td>1.26%</td><td>1.19% -7 bps</td></tr><tr><td>Manufacturing</td><td>14.8%</td><td>15.4%</td><td>67 bps</td><td>121 bps</td><td>14.8%</td><td>1.08%</td><td>0.87% -20 bps</td></tr><tr>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "34025e7fff9413b2",
+        "value": 0.14800000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s</td></tr><tr><td>Manufacturing</td><td>14.8%</td><td>15.4%</td><td>67 bps</td><td>121 bps</td><td>14.8%</td><td>1.08%</td><td>0.87% -20 bps</td></tr><tr><td>Commercial and services</td><td>17.2%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3cd1c1e1b4a93ea1",
+        "value": 0.0108,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Manufacturing</td><td>14.8%</td><td>15.4%</td><td>67 bps</td><td>121 bps</td><td>14.8%</td><td>1.08%</td><td>0.87% -20 bps</td></tr><tr><td>Commercial and services</td><td>17.2%</td><td>18.9%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c27373cd3e12dca6",
+        "value": 0.0087,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ring</td><td>14.8%</td><td>15.4%</td><td>67 bps</td><td>121 bps</td><td>14.8%</td><td>1.08%</td><td>0.87% -20 bps</td></tr><tr><td>Commercial and services</td><td>17.2%</td><td>18.9%</td><td>172 bps</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "01a32258ee66ee5b",
+        "value": 0.172,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>14.8%</td><td>1.08%</td><td>0.87% -20 bps</td></tr><tr><td>Commercial and services</td><td>17.2%</td><td>18.9%</td><td>172 bps</td><td>187 bps</td><td>17.2%</td><td>1.36%</td><td>1.26% -9 bps",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "af96e303d203a49b",
+        "value": 0.18899999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>1.08%</td><td>0.87% -20 bps</td></tr><tr><td>Commercial and services</td><td>17.2%</td><td>18.9%</td><td>172 bps</td><td>187 bps</td><td>17.2%</td><td>1.36%</td><td>1.26% -9 bps</td></tr><tr>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d92f83f9aba76c3e",
+        "value": 0.172,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>Commercial and services</td><td>17.2%</td><td>18.9%</td><td>172 bps</td><td>187 bps</td><td>17.2%</td><td>1.36%</td><td>1.26% -9 bps</td></tr><tr><td>Real estate</td><td>5.2%</td><td>5.1%</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "af1c92b587512073",
+        "value": 0.013600000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "cial and services</td><td>17.2%</td><td>18.9%</td><td>172 bps</td><td>187 bps</td><td>17.2%</td><td>1.36%</td><td>1.26% -9 bps</td></tr><tr><td>Real estate</td><td>5.2%</td><td>5.1%</td><td>-12 bps</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c6f9cfb5017eb180",
+        "value": 0.0126,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ces</td><td>17.2%</td><td>18.9%</td><td>172 bps</td><td>187 bps</td><td>17.2%</td><td>1.36%</td><td>1.26% -9 bps</td></tr><tr><td>Real estate</td><td>5.2%</td><td>5.1%</td><td>-12 bps</td><td>-18 bps<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "67ccf59db5c6ff4a",
+        "value": 0.052000000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>187 bps</td><td>17.2%</td><td>1.36%</td><td>1.26% -9 bps</td></tr><tr><td>Real estate</td><td>5.2%</td><td>5.1%</td><td>-12 bps</td><td>-18 bps</td><td>5.2%</td><td>4.94%</td><td>5.38% 44 bps</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "088ec9d2ff5aa87e",
+        "value": 0.051,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>17.2%</td><td>1.36%</td><td>1.26% -9 bps</td></tr><tr><td>Real estate</td><td>5.2%</td><td>5.1%</td><td>-12 bps</td><td>-18 bps</td><td>5.2%</td><td>4.94%</td><td>5.38% 44 bps</td></tr><tr><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "91edbfc3d3df4856",
+        "value": 0.052000000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "bps</td></tr><tr><td>Real estate</td><td>5.2%</td><td>5.1%</td><td>-12 bps</td><td>-18 bps</td><td>5.2%</td><td>4.94%</td><td>5.38% 44 bps</td></tr><tr><td>Production and supply of electricity, heatin",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "71c29fe706c74e03",
+        "value": 0.049400000000000006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>Real estate</td><td>5.2%</td><td>5.1%</td><td>-12 bps</td><td>-18 bps</td><td>5.2%</td><td>4.94%</td><td>5.38% 44 bps</td></tr><tr><td>Production and supply of electricity, heating, gas and w",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c68ce96f659b7108",
+        "value": 0.0538,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "estate</td><td>5.2%</td><td>5.1%</td><td>-12 bps</td><td>-18 bps</td><td>5.2%</td><td>4.94%</td><td>5.38% 44 bps</td></tr><tr><td>Production and supply of electricity, heating, gas and water</td><td>6",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6a2d2827a8dbda05",
+        "value": 0.069,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">5.38% 44 bps</td></tr><tr><td>Production and supply of electricity, heating, gas and water</td><td>6.9%</td><td>7.0%</td><td>10 bps</td><td>58 bps</td><td>6.9%</td><td>0.91%</td><td>0.75% -15 bps</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "51545c1a99ea51ac",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>Production and supply of electricity, heating, gas and water</td><td>6.9%</td><td>7.0%</td><td>10 bps</td><td>58 bps</td><td>6.9%</td><td>0.91%</td><td>0.75% -15 bps</td></tr><tr><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ba1ce70620ccf916",
+        "value": 0.069,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "electricity, heating, gas and water</td><td>6.9%</td><td>7.0%</td><td>10 bps</td><td>58 bps</td><td>6.9%</td><td>0.91%</td><td>0.75% -15 bps</td></tr><tr><td>Mining</td><td>1.4%</td><td>1.4%</td><td>2",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "23edc53f1243297c",
+        "value": 0.0091,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "heating, gas and water</td><td>6.9%</td><td>7.0%</td><td>10 bps</td><td>58 bps</td><td>6.9%</td><td>0.91%</td><td>0.75% -15 bps</td></tr><tr><td>Mining</td><td>1.4%</td><td>1.4%</td><td>2 bps</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "9ad905b7122c75e4",
+        "value": 0.0075,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nd water</td><td>6.9%</td><td>7.0%</td><td>10 bps</td><td>58 bps</td><td>6.9%</td><td>0.91%</td><td>0.75% -15 bps</td></tr><tr><td>Mining</td><td>1.4%</td><td>1.4%</td><td>2 bps</td><td>-1 bps</td><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ce48ff437907a8f6",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "bps</td><td>58 bps</td><td>6.9%</td><td>0.91%</td><td>0.75% -15 bps</td></tr><tr><td>Mining</td><td>1.4%</td><td>1.4%</td><td>2 bps</td><td>-1 bps</td><td>1.4%</td><td>0.92%</td><td>0.84% -8 bps</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6ad1ca40ade49cec",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8 bps</td><td>6.9%</td><td>0.91%</td><td>0.75% -15 bps</td></tr><tr><td>Mining</td><td>1.4%</td><td>1.4%</td><td>2 bps</td><td>-1 bps</td><td>1.4%</td><td>0.92%</td><td>0.84% -8 bps</td></tr><tr><td>L",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "20501a85c5aab2ab",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".75% -15 bps</td></tr><tr><td>Mining</td><td>1.4%</td><td>1.4%</td><td>2 bps</td><td>-1 bps</td><td>1.4%</td><td>0.92%</td><td>0.84% -8 bps</td></tr><tr><td>Logistics, post & transportation</td><td>2.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "618be0992fb309bf",
+        "value": 0.0092,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>Mining</td><td>1.4%</td><td>1.4%</td><td>2 bps</td><td>-1 bps</td><td>1.4%</td><td>0.92%</td><td>0.84% -8 bps</td></tr><tr><td>Logistics, post & transportation</td><td>2.6%</td><td>2.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "7e94f83e8e59d6a9",
+        "value": 0.0084,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Mining</td><td>1.4%</td><td>1.4%</td><td>2 bps</td><td>-1 bps</td><td>1.4%</td><td>0.92%</td><td>0.84% -8 bps</td></tr><tr><td>Logistics, post & transportation</td><td>2.6%</td><td>2.5%</td><td>-12",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d75c65e1ea47328b",
+        "value": 0.026000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>1.4%</td><td>0.92%</td><td>0.84% -8 bps</td></tr><tr><td>Logistics, post & transportation</td><td>2.6%</td><td>2.5%</td><td>-12 bps</td><td>-33 bps</td><td>2.6%</td><td>0.28%</td><td>0.25% -3 bps</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "8c165875956368ba",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0.92%</td><td>0.84% -8 bps</td></tr><tr><td>Logistics, post & transportation</td><td>2.6%</td><td>2.5%</td><td>-12 bps</td><td>-33 bps</td><td>2.6%</td><td>0.28%</td><td>0.25% -3 bps</td></tr><tr><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "38932d9f69377eb7",
+        "value": 0.026000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Logistics, post & transportation</td><td>2.6%</td><td>2.5%</td><td>-12 bps</td><td>-33 bps</td><td>2.6%</td><td>0.28%</td><td>0.25% -3 bps</td></tr><tr><td>Water, environment and public utility manag",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4597f9aa288bac4b",
+        "value": 0.0028000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ost & transportation</td><td>2.6%</td><td>2.5%</td><td>-12 bps</td><td>-33 bps</td><td>2.6%</td><td>0.28%</td><td>0.25% -3 bps</td></tr><tr><td>Water, environment and public utility management</td><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5a3f3749035c5f30",
+        "value": 0.0025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tation</td><td>2.6%</td><td>2.5%</td><td>-12 bps</td><td>-33 bps</td><td>2.6%</td><td>0.28%</td><td>0.25% -3 bps</td></tr><tr><td>Water, environment and public utility management</td><td>12.0%</td><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f6969d6adc4cc3e7",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".28%</td><td>0.25% -3 bps</td></tr><tr><td>Water, environment and public utility management</td><td>12.0%</td><td>11.8%</td><td>-27 bps</td><td>-15 bps</td><td>12.0%</td><td>1.10%</td><td>0.98% -13 bp",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c76b3555c875e054",
+        "value": 0.11800000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".25% -3 bps</td></tr><tr><td>Water, environment and public utility management</td><td>12.0%</td><td>11.8%</td><td>-27 bps</td><td>-15 bps</td><td>12.0%</td><td>1.10%</td><td>0.98% -13 bps</td></tr><tr",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "cbeb88134778c976",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "t and public utility management</td><td>12.0%</td><td>11.8%</td><td>-27 bps</td><td>-15 bps</td><td>12.0%</td><td>1.10%</td><td>0.98% -13 bps</td></tr><tr><td>Public utilities</td><td>1.2%</td><td>1.2",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a62803c1ca28a518",
+        "value": 0.011000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tility management</td><td>12.0%</td><td>11.8%</td><td>-27 bps</td><td>-15 bps</td><td>12.0%</td><td>1.10%</td><td>0.98% -13 bps</td></tr><tr><td>Public utilities</td><td>1.2%</td><td>1.2%</td><td>-4 b",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5c4a96fe0ab3f620",
+        "value": 0.0098,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ent</td><td>12.0%</td><td>11.8%</td><td>-27 bps</td><td>-15 bps</td><td>12.0%</td><td>1.10%</td><td>0.98% -13 bps</td></tr><tr><td>Public utilities</td><td>1.2%</td><td>1.2%</td><td>-4 bps</td><td>-10",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "818dae42e2ddd6cf",
+        "value": 0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-15 bps</td><td>12.0%</td><td>1.10%</td><td>0.98% -13 bps</td></tr><tr><td>Public utilities</td><td>1.2%</td><td>1.2%</td><td>-4 bps</td><td>-10 bps</td><td>1.2%</td><td>1.28%</td><td>1.50% 23 bps</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ee1559984bb395f2",
+        "value": 0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>12.0%</td><td>1.10%</td><td>0.98% -13 bps</td></tr><tr><td>Public utilities</td><td>1.2%</td><td>1.2%</td><td>-4 bps</td><td>-10 bps</td><td>1.2%</td><td>1.28%</td><td>1.50% 23 bps</td></tr><tr><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c90e6696e478bdf3",
+        "value": 0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>Public utilities</td><td>1.2%</td><td>1.2%</td><td>-4 bps</td><td>-10 bps</td><td>1.2%</td><td>1.28%</td><td>1.50% 23 bps</td></tr><tr><td>Construction</td><td>2.7%</td><td>2.8%</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "85f00be92a380d8b",
+        "value": 0.0128,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Public utilities</td><td>1.2%</td><td>1.2%</td><td>-4 bps</td><td>-10 bps</td><td>1.2%</td><td>1.28%</td><td>1.50% 23 bps</td></tr><tr><td>Construction</td><td>2.7%</td><td>2.8%</td><td>16 bps</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6e0114df8d690643",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ilities</td><td>1.2%</td><td>1.2%</td><td>-4 bps</td><td>-10 bps</td><td>1.2%</td><td>1.28%</td><td>1.50% 23 bps</td></tr><tr><td>Construction</td><td>2.7%</td><td>2.8%</td><td>16 bps</td><td>4 bps</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d248f3ce513a8c1e",
+        "value": 0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-10 bps</td><td>1.2%</td><td>1.28%</td><td>1.50% 23 bps</td></tr><tr><td>Construction</td><td>2.7%</td><td>2.8%</td><td>16 bps</td><td>4 bps</td><td>2.7%</td><td>1.43%</td><td>1.25% -18 bps</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4e644fca4171ff5c",
+        "value": 0.027999999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>1.2%</td><td>1.28%</td><td>1.50% 23 bps</td></tr><tr><td>Construction</td><td>2.7%</td><td>2.8%</td><td>16 bps</td><td>4 bps</td><td>2.7%</td><td>1.43%</td><td>1.25% -18 bps</td></tr><tr><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2c3b57533e5bc9c2",
+        "value": 0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "23 bps</td></tr><tr><td>Construction</td><td>2.7%</td><td>2.8%</td><td>16 bps</td><td>4 bps</td><td>2.7%</td><td>1.43%</td><td>1.25% -18 bps</td></tr><tr><td>Financial services</td><td>2.9%</td><td>2.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6444133b81a55632",
+        "value": 0.0143,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>Construction</td><td>2.7%</td><td>2.8%</td><td>16 bps</td><td>4 bps</td><td>2.7%</td><td>1.43%</td><td>1.25% -18 bps</td></tr><tr><td>Financial services</td><td>2.9%</td><td>2.9%</td><td>-5",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "377acf8072a9ee17",
+        "value": 0.0125,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "struction</td><td>2.7%</td><td>2.8%</td><td>16 bps</td><td>4 bps</td><td>2.7%</td><td>1.43%</td><td>1.25% -18 bps</td></tr><tr><td>Financial services</td><td>2.9%</td><td>2.9%</td><td>-5 bps</td><td>-",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "77dad039fde829e6",
+        "value": 0.086,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "C-H. <table><tr><td colspan=\"2\">Key assumptions/parameters</td></tr><tr><td>Normalised ROE</td><td>8.6%</td></tr><tr><td>Cost of capital</td><td>11.25%</td></tr><tr><td>Long-term growth</td><td>4.5%</",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "3e02f430a7bb33f6",
+        "value": 0.1125,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ns/parameters</td></tr><tr><td>Normalised ROE</td><td>8.6%</td></tr><tr><td>Cost of capital</td><td>11.25%</td></tr><tr><td>Long-term growth</td><td>4.5%</td></tr><tr><td>Fair terminal P/BV</td><td>0.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "7194d395e7a71604",
+        "value": 0.045,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>8.6%</td></tr><tr><td>Cost of capital</td><td>11.25%</td></tr><tr><td>Long-term growth</td><td>4.5%</td></tr><tr><td>Fair terminal P/BV</td><td>0.61</td></tr><tr><td>Dec-26 A-share valuation (RMB",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f1d23bb7475f4487",
+        "value": -0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "(RMB)</td><td>6.00</td></tr><tr><td>CNY/HKD</td><td>1.09</td></tr><tr><td>H-share discount</td><td>-15%</td></tr><tr><td>Dec-26 H-share PT (HKD)</td><td>5.50</td></tr></table> Source: J.P. Morgan esti",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "b2f0b47f4499e426",
+        "value": 5.25,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "t close on 29 August 2025, unless otherwise indicated) Agricultural Bank of China - H(1288. HK/HK\\\\$5.25/OW), China Construction Bank - H(0939. HK/HK\\\\$7.51/OW), Industrial and Commercial Bank of Chin",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "25bfee97b3805f3d",
+        "value": 7.51,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d) Agricultural Bank of China - H(1288. HK/HK\\\\$5.25/OW), China Construction Bank - H(0939. HK/HK\\\\$7.51/OW), Industrial and Commercial Bank of China - H(1398. HK/HK\\\\$5.77/OW) Analyst Certification: ",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "67b8483db84b2cdf",
+        "value": 5.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "struction Bank - H(0939. HK/HK\\\\$7.51/OW), Industrial and Commercial Bank of China - H(1398. HK/HK\\\\$5.77/OW) Analyst Certification: The Research Analyst(s) denoted by an \"AC\" on the cover of this rep",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "b70fee012af226f5",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d)</td><td>Underweight (sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "92f6e42c7e8a9bdb",
+        "value": 0.37,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nderweight (sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>J",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "594874b9f5bf0bc9",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity R",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "89475d4a856cfea7",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%<",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "052982dae8d4c28f",
+        "value": 0.48,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rch Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%<",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "2b920cfb644096e8",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "c0bb5b1c740b0a8a",
+        "value": 0.47,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "1798e1a49dc52ad9",
+        "value": 0.41,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> ",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "99d483742e54239b",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\\\*Please no",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "186ae4f7d2be784a",
+        "value": 0.72,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\\\*Please note that the percentages may not add to \\(1",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "4c3fe3fae655f31f",
+        "value": 0.69,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rch Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\\\*Please note that the percentages may not add to \\(100\\%\\) becau",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "a82564ffcc0b5ab8",
+        "value": 0.51,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\\\*Please note that the percentages may not add to \\(100\\%\\) because of roundi",
+        "provenance": {
+          "page": 9
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 3,
+      "tables_count": 0,
+      "numerical_data_count": 221,
+      "passages_count": 110,
+      "entities_count": 20
+    }
+  }
+}

@@ -1,0 +1,1605 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "183ae09f861f8b6de4bb4c284c10548b",
+    "title": "NOAURA",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Nomura/The Economy Next Week - Laser focused on the US NFP reportThe Economy Next Week - Laser focused on the US NFP report_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:34:30.860887",
+      "extracted_at": "2025-10-26T12:34:30.860901"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 18,
+        "successful_pages": 18,
+        "date": "2025-08-29",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Nomura",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 6,
+          "removed_paragraphs": 20,
+          "reduction_ratio": 0.1184152802618702
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Nomura"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "4b556a94380d5c38",
+      "text": "We expect a modest US job gain of 85K, with the unemployment rate ticking up to \\(4.3\\%\\) . Also on tap are euro area's CPI and China's PMI.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f97bf1cf7adca78c",
+      "text": "CONTENTSForecast summary. 2Our view in a nutshell. 3Economic data calendar. 4Central bank forecasts. 5Data previewsUnited States / Data preview. 6Europe / Data preview. 8Japan / Data preview. 10Asia / Data preview. 12Contacts. 18",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f1766411eb9a76db",
+      "text": "China: Will the real economy benefit from the stock market boom? We believe a stock market rally may provide limited boost to the real economy.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "90c77353b340e1db",
+      "text": "United States: August Employment Preview We expect headline NFP likely grew 85k in August.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d9cb5e79194f9ab4",
+      "text": "India: US tariffs hit \\(50\\%\\) ; economic- policy inflection ahead We expect targeted fiscal support and a 25bp rate cut in October, and have lowered our FY26 GDP growth forecast to \\(6\\%\\) from \\(6.2\\%\\) .",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "17e5fa674204cb3f",
+      "text": "Asia: Entering the negative of policy easing Amid benign inflation, weaker growth and Fed rate cuts will provide the next trigger. We expect more cuts in India, Korea, Thailand, and Indonesia.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "554fa7f8cfa56969",
+      "text": "Economic Insights - A trio of forces are impacting global trade patterns Focusing on over 20 of the world's largest economies, the impacts vary.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b37c53698e2f9b27",
+      "text": "Japan FY25- 27 economic outlook We expect: (1) core CPI inflation to swing downward in 2026 and then return to around \\(2\\%\\) in 2027; and (2) BOJ rate hikes to end in 2027.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0f7ec1640918ee7b",
+      "text": "Korea: BOK on hold, but signals an October cut Amid easing concerns about the housing market, the BOK's cautious growth outlook supports more rate cuts.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "bdbd4e741e149165",
+      "text": "Philippines: BSP signals its easing cycle is nearly done after another 25bp cut ... barring a major shock to the growth and inflation outlooks.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "061ca4da96ec2d0c",
+      "text": "Singapore: Strong industrial output growth and a slight drop in core inflation in July We maintain our 2025 GDP growth forecast of \\(2.6\\%\\) , but still pencil in a slowdown in H2.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6de420dd1a491d15",
+      "text": "Taiwan: IP growth remains robust, led by strong tech production Strong tech production continues to offset weakness in the non- tech sectors, supporting above- trend GDP growth.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "14193ca76020bc4f",
+      "text": "Australia: Part noise, part signal Australia July CPI indicator prints well above consensus.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b792ccad647f3c31",
+      "text": "We discuss the US jobs report, inflation data in Europe, China's balancing act, and the next leg of Asian central bank easing.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0d1ae85a49c5f931",
+      "text": "Asia: Entering the next leg of policy easing",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "81fcab1b5419147c",
+      "text": "Fig.1:Forecast summary table",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5d44e408589fcaec",
+      "text": "Real GDP (% y-o-y)Consumer Prices (%y-o-y)Policy Rate (% end period)20242025202620242025202620242025Global3.32.92.84.03.02.8Developed1.71.41.22.72.5 ↓2.2Emerging Markets4.54.13.95.13.43.2Americas2.71.61.43.33.12.9United States*2.81.61.33.02.82.64.3753.8753.625Canada1.61.51.52.42.02.13.252.502.50Latin America†2.51.71.84.64.53.9Brazil3.42.31.64.45.24.4Chile2.62.32.24.34.23.2Colombia1.72.52.86.65.03.8Mexico1.50.41.44.73.93.8Peru3.33.12.72.41.82.3Asia/Pacific4.64.44.11.81.21.7Japan0.11.00.82.83.01.30.250.500.75Australia1.01.72.23.22.53.14.353.353.10New Zealand-0.50.82.02.92.52.04.252.752.50Asia ex Japan, Aust, NZ5.14.84.41.70.91.7China5.04.64.00.20.00.51.501.301.30Hong Kong2.53.02.91.71.31.54.754.254.00India6.76.66.54.92.64.36.505.005.00Indonesia5.04.84.92.31.82.66.004.504.25Malaysia5.14.44.01.81.41.93.002.752.75Philippines5.75.35.63.21.82.85.754.754.75Singapore***4.42.61.72.40.71.13.031.881.50South Korea2.01.01.92.32.01.93.002.252.00Taiwan4.84.62.72.21.81.92.0002.0002.000Thailand2.51.81.60.4-0.3-0.32.251.251.00Western Europe0.91.1 ↓1.1 ↓2.42.3 ↓2.0Euro area**0.91.1 ↓1.1 ↓2.42.1 ↓1.9 ↓3.002.002.00France1.10.7 ↑1.02.30.91.9 ↑3.002.002.00Germany-0.50.30.92.52.1 ↑2.13.002.002.00Italy0.50.60.81.12.11.73.002.002.00Spain3.22.72.72.92.72.0 ↓3.002.002.00United Kingdom1.11.31.12.53.42.34.753.753.50EEMEA2.92.12.420.513.99.5Czech Republic-1.12.12.12.52.52.2Hungary-0.60.82.93.74.63.5Poland-2.93.43.33.73.72.9Romania0.81.42.35.65.34.6South Africa0.61.01.64.43.44.1Turkey3.22.93.460.034.223.3Russia4.11.41.48.49.15.5Israel0.32.84.03.13.12.3",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5aeacdc55ec31f6e",
+      "text": "Note: for detailed outlook tables, please see Global Economic Outlook Monthly The Fed is back in play, 13 August 2025. Aggregates are calculated using purchasing power parity (PPP) adjusted shares of world GDP (table covers about \\(83\\%\\) of world GDP on a PPP basis); our forecasts incorporate assumptions on the future path of oil prices based on a price futures. Currently assumed Brent oil prices for 2025 and 2026 are \\(\\) 70.3\\(and\\) \\ \\(65.6\\) , respectively. Policy rate for China is 7d reverse repo rate. Consumer prices for euro area countries are HICP measure. \\\\*The US policy rate forecasts are midpoints of the \\(3.75 - 4.00\\%\\) for 2025 and \\(3.50 - 3.75\\%\\) for 2026 target federal funds rate range, respectively. \\\\*\\\\*Policy rate for the euro area is deposit facility rate. \\\\*\\\\*For Singapore, the policy rate refers to the SORA 3-month compounded average. \\\\*CPI forecasts for Latin America are year-on-year changes for December. The \\(t_{1}\\) arrows signify changes from the last issue. Reported numbers are in bold. We use Bloomberg Economic Forecasts for Latin America, and EEMEA; rest are Nomura forecasts. Source: IMF, Bloomberg, Nomura Global economics",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8fce89971a7f9c98",
+      "text": "United States- We expect the FOMC will cut 25bp at the upcoming September meeting.- We expect this to be followed by additional quarterly cuts in December and March.- Data released since the June FOMC have shown a sharp deterioration in employment and less inflation pressure than feared.- We expect the OBBBA to be moderately cumulative in the near term, given frontloaded incentives and backloaded spending cuts.- The labor market is rapidly losing momentum, and risks remain skewed to the downside.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "d4f465781083f55b",
+      "text": "Canada- The July CPI report highlighted elevated core inflation. We expect a gradual moderation in the coming months.- We expect the BoC to hold rates steady until price pressures have waned, and forecast a 25bp cut in December 2025.- The unemployment rate is likely to remain elevated, while downside risks to growth due to tariffs have increased.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3f04cbd064d759f4",
+      "text": "Euro area- While fiscal policy should be growth- positive in the medium term, higher tariffs make the near- term view more challenging.- We see HICP inflation of around \\(2.0\\%\\) in H2 2025. There are upside risks from a tariff response, but downside risks from China.- We believe the ECB has finished its cutting cycle as we expect GDP growth to accelerate and inflation to be at target in H2 2025.- The ECB began full roll- off of APP portfolio redemptions in July 2023 and PEPP portfolio redemptions in January 2025.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "83c0ed5065b4a9e7",
+      "text": "Elsewhere in Europe- Switzerland: Inflation is near zero. We expect tariffs to weigh on the economy and a final policy rate cut to \\(- 0.25\\%\\) in September.- Sweden: Economic activity growth remains weak. However, above- target inflation should prevent further policy rate cuts.- Norway: Norges Bank commenced its cutting cycle in June despite high inflation readings in 2025. We expect two more cuts this year.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f493443a4afa2b4a",
+      "text": "Asia- Tariffs, policy uncertainty and weak global demand are likely to slow Asia's export and capex growth sharply in H2 2025.- Open economies (Thailand, Singapore, Taiwan, Korea) are most vulnerable, while India and the Philippines are more insulated.- Disinflation should sustain, due to lower oil prices, weak demand, and a redirection of Chinese exports to the region.- The soft growth- inflation backdrop calls for a frontloaded and deeper rate cutting cycle in the region, with fiscal support also on tap.- Korea: Amid easing financial stability concerns, we expect the BOK to deliver two more 25bp cuts in October and February.- India: Trump's \\(50\\%\\) tariffs are growth negative. Weak growth and underwhelming inflation should lead to 50bp of further rate cuts.- Indonesia: Populist measures of the new government raise fiscal risks while current account deficits continue to widen.- Australia: Inflation pressures are gradually easing; we expect two more 25bp rate cuts, in November and February.- New Zealand: With material spare capacity and a dovish central bank, we forecast 25bp rate cuts in November and February.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c8df40622410b1f6",
+      "text": "China- Despite decent growth in H1 and the stock market rally, we see the high risk of a demand slowdown, driven by multiple factors.- Consumption demand could be weighed down by the new austerity measures and a payback effect from the trade- in program.- The anti- involution campaign that aims to address overcapacity could reduce demand for raw materials and investment.- The export growth slowdown could worsen due to US tariffs, payback from front- loading and the end of de minimis loophole.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "dab81855b667365f",
+      "text": "Fig. 3: Central bank forecast summary",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1711f65c2b2e2a24",
+      "text": "USCANUKEURSWENORSWIAUSNZJPNCHNINDKORIDNTHAJan 2400000000Feb 2400000000Mar 24000000-250100Apr 240000000250May 2400-2500000Jun 240-250-2500-2500000Jul 240-250015-1000Aug 24-25-2500-25000Sep 24-50-250-25-250-2500-20-25Oct 24-50-25-5000-250-25Nov 24-25-25-5000-50-250Dec 24-25-500-25-250-5000000Current4.38%2.75%4.00%2.00%2.00%4.25%0.00%3.60%3.00%0.50%1.40%5.50%2.50%5.00%1.50%Jan 250-25-25-250250-25Feb 25-25-25-50-25-250-25Mar 250-250-2500-2500Apr 250-250-2500May 250-2500-25-250-10-25-25Jun 25000-25-25-25-250-5000Jul 250000000-25Aug 25-2500-25-2500-25-25Sep 25-250000-25-2500-25Oct 2500000-10-25-250-25Nov 25-2500-25-2500Dec 25-25-25000-25000-25-250End 253.88%2.50%3.75%2.00%2.00%3.75%-0.25%3.35%2.75%0.50%1.30%5.00%2.25%4.50%1.25%Jan 260002500Feb 26-2500-25-250-250-25Mar 26-25000-2500000Apr 260000000000May 260000000Jun 260000-25000000Jul 26000000000Aug 260000000Sep 260000000000Oct 26000000000Nov 26000000000Dec 26000000000000End 263.63%2.50%3.50%2.00%2.00%3.25%-0.25%3.10%2.50%0.75%1.30%5.00%2.00%4.25%1.00%",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "df089e22b755ebf9",
+      "text": "Note: In some cases exact meeting dates have not been announced, so we are estimating the month that a meeting will occur. The dark grey dashed line separates meetings that have occurred and our forecasts for future meetings. The policy rate referenced for China is the PBoC 7-day OMO reverse repo rate, for the ECB it is the deposit facility rate and for the Federal Reserve it is the mid-point of the Federal Funds Target Rate upper and lower bounds.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e38cd05256ed2215",
+      "text": "Source: Bloomberg, Nomura",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4fdd02624289a046",
+      "text": "Job gains likely edged up, while the unemployment rate ticked up in August.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "d0258eef51a46b10",
+      "text": "ISM Manufacturing (Tuesday): We expect the ISM Manufacturing Index likely ticked up to 48.7 in August from 48.0 in July. Regional Fed manufacturing surveys pointed to a modest improvement in manufacturing activity, while the preliminary print of the S&P manufacturing PMI returned to expansionary territory in the month. An extension of the trade truce with China was also likely a tailwind for sentiment.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "eb6133b2ec79fca1",
+      "text": "JOLTS (Wednesday): Job openings likely fell to 7370k in July from 7437k in June. Our forecast suggests the job openings rate remained sideways at \\(4.4\\%\\) . The V- U ratio likely ticked down to 1.02 from 1.06 previously, its lowest level since March, consistent with the recent decline in the Conference Board labor differential. Alternative data from Indeed and Lightcast suggest that total job openings have continued to edge down, despite a modest pick up in new job openings. Hiring rate likely picked up in July following a tick down in June, in line with the July employment report.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3d64c68144bbd0bf",
+      "text": "Fed Beige Book (Wednesday): Based on regional Fed business surveys since early July, business sentiment likely continued to improve gradually. The latest Beige Book said economic activity \"increased slightly\" and the general economic assessment in the next Beige Book could be upgraded to \"increased modestly\" or \"moderately.\" It would be important to monitor comments on labor markets, in particular, the availability of foreign- born workers as well as the status of hiring and layoffs. Another key point to watch is whether higher costs from tariffs were passed on to consumers. Note that the latest Beige Book mentioned a higher likelihood of price increasing \"more rapidly by late summer.\"",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "7cee90ef513fedb9",
+      "text": "Vehicle sales (Wednesday): Vehicles sales likely grew 16.1mn saar from 16.4mn in July. An end to EV incentive in September accelerated the EV sales. Additionally, Labor Day deals and promotional incentives likely boosted sales.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "86a58cb69f9d9057",
+      "text": "Trade balance (Thursday): Based on our forecast for advance goods trade balance, we expect the trade deficit widened to \\(\\) 66.0bn\\(in July. We will revisit our forecast following the release of July advance goods trade balance report.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f725f3ac221e41c7",
+      "text": "Jobless claims (Thursday): Both initial and continuing claims ticked down this week. Initial claims remained low while continuing claims remained at a relatively elevated level, which is consistent with a low- hiring and low- firing situation. We expect a similar trend to continue in coming weeks.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "62c5f48e7255189f",
+      "text": "Nonfarm productivity (Thursday): Considering the upward revision to Q2 real GDP, the final estimate of nonfarm productivity will likely be revised higher by three- tenths to \\(2.7\\%\\) while the growth of unit labor costs will likely be revised down to \\(1.2\\%\\) due to higher productivity growth and downward revisions to labor inputs.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "49fad649af49296e",
+      "text": "ISM Services (Thursday): The ISM Services Index likely ticked up to 51.2 in August from 50.1 in July. Regional Fed services survey noted an improvement in activity and local business conditions.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "22cc88ebeca2f282",
+      "text": "Employment Report (Friday): We expect headline nonfarm payrolls (NFP) likely grew 85k in August. Historical patterns suggest payrolls could be revised higher modestly for July. Private job gains likely remained slow at 80k following a 83k increase in July. Government employment likely rebounded following a negative print in July.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "9995995f8681573f",
+      "text": "We forecast the unemployment rate, which has been emphasized by policymakers as a reliable measure to gauge labor market strength, likely ticked up by one- tenth to \\(4.3\\%\\) in August. Average hourly earnings (AHE) growth likely just rounded down to \\(0.3\\%\\) m- o- m. Risks are skewed towards a higher print due to a positive calendar effect in August. The labor market is losing momentum, and shifting balance of risks to the Fed's dual mandate is likely to lead to a 25bp cut at the September meeting. Contained layoffs and few signs of acute labor market stress are likely to limit aggressive easing though.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3ed263f9797ee47b",
+      "text": "North America Economics",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "02c9093f04d6ebe7",
+      "text": "Fig. 4: Forecasts for economic indicators released during the week of 1 September",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "2a42378883df85a8",
+      "text": "Monday 1 SeptemberUnitsPeriodPrev 2Prev 1LastNomuraConsensusLabor Day - Markets ClosedTuesday 2 September9.45S&P manufacturing PMIIndexAug-Fin52.949.853.3n.a. n.a.10.00ISM manufacturingIndexAug48.549.048.048.7 48.910.00Construction spending% m-o-mJul0.1-0.4-0.4n.a. 0.1Wednesday 3 September7.00Mortgage applications% w-o-w29-Aug10.9-1.4-0.5n.a. n.a.10.00Factory orders% m-o-mJul-3.98.3-4.8n.a. -1.410.00JOLTS job openings000sJul7395771274377370 n.a.14.00Fed Beige BookSepTotal vehicle salesmn saarAug15.715.316.416.1 16.0Thursday 4 September8.30Initial jobless claims000s30-Aug224234229n.a. n.a.8.30Continuing jobless claims000s23-Aug194219611954n.a. n.a.8.15ADP private employment000sAug29-23104n.a. 708.30Trade balance&#36;bnJul-60.3-71.7-60.2-66.0 -62.68.30Nonfarm productivity% q-o-q arQ2-Fin1.7-1.82.42.7 n.a.8.30Unit labor costs% q-o-q arQ2-Fin3.86.91.61.2 n.a.9.45S&P services PMIIndexAug-Fin52.955.755.4n.a. n.a.10.00ISM servicesIndexAug49.950.850.151.2 50.5Friday 5 September8.30Nonfarm payrolls000sAug19147385 808.30Private payrolls000sAug6938380 758.30Unemployment rate%Aug4.24.14.24.3 4.38.30Average hourly earnings% m-o-mAug0.40.20.30.3 0.38.30Average weekly hoursLevelAug34.334.234.334.3 34.3",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "ea3d6ab2886d6d8c",
+      "text": "Note: Eastern Daylight Time (EDT)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "dea7b7c37e85b904",
+      "text": "Source: Haver, Bloomberg, Nomura",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "5a95b71ffcf6fee8",
+      "text": "Headline euro area HICP inflation for August will be a key release. The final estimate of euro area Q2 GDP and Swedish and Swiss inflation will also be published.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7ca95f4fafeebcc8",
+      "text": "Sweden and Norway PMIs, August (Monday, Wednesday): In Sweden, the manufacturing PMI rose to a three- year high of 54.2 in July from 51.8 in June. However, this was offset by a fall in the services PMI, which returned to contraction territory, so the composite PMI was just inside expansion territory at 50.3 in July. We expect a rise in the composite index in August, in line with a better Economic Tendency Survey. In Norway, the manufacturing PMI rose to 50.9 in July, after it has fluctuated around 50 for the past few months. We expect it to remain at a similar level in August.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "09101b3c225cf052",
+      "text": "UK Household borrowing, July (Monday): We forecast net mortgage lending of £3.0bn in July, down from June's strong £5.3bn, but still above the 2024 monthly average of £2.1bn. Also, we expect mortgage approvals to fall to 63,500 from 64,200 in June. This is as some key activity indices in the July RICS survey weakened: the new buyer enquiries balance turned negative once again, falling to - 6 from 4 in June. The sales over the past month balance also fell to - 24 in July from - 1 in June. We expect £1.4bn of net consumer credit, in line with June and also the average for the past six months.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "138523df0e881970",
+      "text": "Euro area Unemployment rate, July (Monday): We forecast the euro area unemployment rate was unchanged at \\(6.2\\%\\) in July, though we see material downside risks to \\(6.1\\%\\) . Most euro area member states have seen their unemployment rates sidestep, and the decline in unemployment moderated markedly in Spain. However, the Austrian unemployment rate fell by 10bp to \\(7.3\\%\\) in July, and we see risks that Italy's unemployment rate, too, retraces in July after upward volatility in May and June.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "08baf6571c73fb89",
+      "text": "Euro area HICP inflation, August (Tuesday): We believe underlying momentum in European inflation is slowing, and that euro area HICP inflation will hover around the ECB's \\(2.0\\%\\) target until year- end. We will be looking out for two things in the August HICP inflation data: (1) is services price momentum slowing gradually in line with our expectations? And (2) is there any sign of weaker- than- normal core goods prices owing to Chinese goods dumping? We expect the answers to be yes and no, respectively. We forecast euro area HICP inflation will be unchanged at \\(2.0\\%\\) y- o- y in August and core HICP inflation will ease to \\(2.2\\%\\) .",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "a97c519a0223ba2c",
+      "text": "Switzerland CPI inflation, August (Thursday): We expect CPI inflation of \\(0.1\\%\\) y- o- y in August. This would be a 0.1pp slowdown from July's annual rate, as we expect weaker price pressures from the transport and hospitality sectors, which surprised to the upside in July. We also forecast core CPI inflation to slow to \\(0.5\\%\\) y- o- y from \\(0.8\\%\\) in July. The SNB forecasts CPI inflation to average \\(0.1\\%\\) in Q3.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "2de68ae8066b9594",
+      "text": "Sweden CPIF inflation, August (Thursday): We expect Sweden CPIF inflation to rise to \\(3.3\\%\\) y- o- y in August from \\(3.0\\%\\) in July, and CPIF ex- energy to slow slightly to \\(3.1\\%\\) , because we expect energy prices to continue to drive up the headline rate as household electricity bills have risen over the summer. In June and July, inflation surprised the Riksbank notably to the upside, partly driven by package holidays and car rental prices. Even with a partial unwinding of these price rises in August, we expect inflation to stand well above the Riksbank's forecast, which expects \\(2.7\\%\\) inflation on both the CPIF and CPIF ex- energy measures.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "1417280d633e980f",
+      "text": "UK Decision Maker Panel survey, August (Thursday): A notable point from the last survey is that realised annual employment fell by \\(0.1\\%\\) in the three months to July, 0.4pp lower than in the three months to June, and expectations for employment growth over the next year have also weakened. Inflation expectations remained fairly sticky, as year- ahead CPI inflation expectations rose by \\(0.1pp\\) to \\(3.2\\%\\) in the three months to July, though there was a decrease of \\(0.1pp\\) in the single month data. Annual own- price growth rose by \\(0.1pp\\) to \\(3.6\\%\\) in the three months to July.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "9692716119bea5be",
+      "text": "Euro area Retail sales, July (Thursday): We forecast euro area retail sales to have declined by \\(1.0\\%\\) m- o- m in July. This forecast is based on \\(31\\%\\) of country- level data already published and our assumptions for the remaining countries.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c3d5450e7ee87f44",
+      "text": "UK retail sales, July (Friday): We expect a small rise in retail sales volumes in July, of \\(0.4\\%\\) m- o- m (excluding auto fuel). This would follow a \\(0.6\\%\\) m- o- m rise in June and May's",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "f6796f8f781aaf90",
+      "text": "\\(2.9\\%\\) drop. According to the BRC, annual UK retail sales (like-for-like) grew by \\(1.8\\%\\) y-o-y in July, slower than June's \\(2.7\\%\\) rise but above the average for the 12 months to June. Also, sporting events including the Women's Euros could have boosted sales. However, consumer confidence fell slightly in June and fairly high inflation likely dampened volumes growth.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "1f026e0c6efdb2e6",
+      "text": "**Germany Factory orders, July (Friday):** We forecast German factory orders declined by \\(1.4\\%\\) m-o-m in July, following a \\(1.0\\%\\) decline in June. This would be in line with surveys that suggested new orders fell on the month, from domestic and foreign firms.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "76b11b8bcf22ab6d",
+      "text": "**Euro area GDP, Q2 2025 – final estimate (Friday):** We forecast euro area GDP growth for Q2 2025 will be confirmed at \\(0.1\\%\\) q-o-q in the final release. The expenditure breakdown, released alongside, is likely to suggest domestic demand contributed positively whereas net trade was a drag owing to the unwinding of tariff front-running which occurred in Q1 2025.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2ac7522d4deb9aff",
+      "text": "Fig. 5: Forecasts for economic indicators released during the week of 1 September",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "4e72828e6ecb5fcf",
+      "text": "Monday 1 SeptemberUnitsPeriodPrev 2Prev 1LastNomuraConsensus07:00UKNationwide House Px% y-o-yAug3.52.12.4n.a. n.a.07:30SwedenSwedbank/Silf PMI ManufacturingIndexAug53.551.854.2n.a. n.a.08:15SpainPMI ManufacturingIndexAug50.551.451.9n.a. n.a.08:45ItalyPMI ManufacturingIndexAug49.248.449.8n.a. n.a.09:00ItalyUnemployment rate%Jul6.16.56.3n.a. n.a.09:00NorwayDNB/NIMA PMI ManufacturingIndexAug51.349.350.9n.a. n.a.09:30UKNet Consumer CreditGBP bnJul2.00.91.41.4 n.a.09:30UKMortgage LendingGBP bnJul-0.62.25.33.0 n.a.09:30UKMortgage ApprovalskJul60.963.364.263.5 n.a.09:30UKM4 Money Supply% y-o-yJul3.23.53.3n.a. n.a.09:30UKM4 Ex IOFCs 3M Annualised3m % y-o-yJul2.83.43.0n.a. n.a.10:00Euro areaUnemployment rate%Jul6.26.26.26.2 n.a.Tuesday 2 SeptemberUnitsPeriodPrev 2Prev 1LastNomuraConsensus10:00Euro areaHICP% y-o-yAug P P1.92.02.02.0 n.a.10:00Euro areaCore HICP% y-o-yAug P2.32.32.32.2 n.a.10:00ItalyProducer prices% m-o-mJul-3.0-0.82.2n.a. n.a.Wednesday 3 SeptemberUnitsPeriodPrev 2Prev 1LastNomuraConsensus07:30SwedenSwedbank/Silf PMI ServicesIndexAug50.654.348.8n.a. n.a.07:30SwedenSwedbank/Silf PMI CompositeIndexAug51.453.650.3n.a. n.a.08:15SpainPMI ServicesIndexAug51.351.955.1n.a. n.a.08:15SpainPMI CompositeIndexAug51.452.154.7n.a. n.a.08:30Euro areaECBs Lagarde Speaks at ESRB Event08:45ItalyPMI ServicesIndexAug53.252.152.3n.a. n.a.08:45ItalyPMI CompositeIndexAug52.551.151.5n.a. n.a.09:15UKBOE's Breeden Speaks10:00Euro areaProducer prices% m-o-mJul-2.2-0.60.8n.a. n.a.14:15UKBOE Rate-Setters Appear in ParliamentThursday 4 SeptemberUnitsPeriodPrev 2Prev 1LastNomuraConsensus07:00SwedenCPIF% y-o-yAug P2.32.83.03.3 n.a.07:00SwedenCPIF ex-energy% y-o-yAug P2.53.33.23.1 n.a.07:30SwitzerlandCPI% y-o-yAug-0.10.10.20.1 n.a.07:30SwitzerlandCPI Core% y-o-yAug0.50.60.80.5 n.a.09:30UKPMI ConstructionIndexAug47.948.844.3n.a. n.a.09:30UKDMP 3M Output Price Expectations% y-o-yAug3.73.63.7n.a. n.a.10:00Euro areaRetail sales% m-o-mJul0.5-0.30.3-1.0 n.a.10:30Euro areaECB's Cipollone Speaks in EU ParliamentFriday 5 SeptemberUnitsPeriodPrev 2Prev 1LastNomuraConsensus05:00SwedenSwedish Housing Price Data From Maklarstatistik07:00GermanyFactory orders% m-o-mJul1.7-0.8-1.0-1.4 n.a.07:00UKRetail Sales Ex Auto Fuel% m-o-mJul1.8-2.90.60.4 n.a.09:00ItalyRetail sales% m-o-mJul0.8-0.40.6n.a. n.a.10:00Euro areaGDP% q-o-q2Q T0.30.60.10.1 n.a.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "60848556be4d92ba",
+      "text": "We expect summer bonuses to continue to be reflected in earnings in July, as they were in June.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "581e91e78d69de7b",
+      "text": "We forecast a y- o- y rise of \\(3.0\\%\\) in July 2025 per- capita total cash earnings (per- capita nominal wages), which would be down slightly from a rise of \\(3.1\\%\\) in June. We expect the decline in real wages (adjusted for inflation using the all- item CPI excluding imputed rent on owner- occupied housing) to narrow to \\(- 0.6\\%\\) in July from \\(- 0.8\\%\\) in June on a decline in CPI inflation.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "8a079fc60ae5c7f3",
+      "text": "We think that wage hikes for FY25 have more or less been reflected in the Monthly Labor Survey as of June 2025. Accordingly, we forecast a \\(2.6\\%\\) rise in full- time workers' scheduled cash earnings (broadly equivalent to full- time workers' base pay) in July 2025, on a par with June 2025. Summer bonuses are also paid in July. We therefore expect special cash earnings, which reflect bonuses, to have risen at a similar pace in July as in June 2025 (+4.4%). However, to the extent that special cash earnings accounted for a slightly smaller percentage of total wages in July than in June, the boost to total cash earnings (contribution) is likely to have been slightly smaller than in June, even if growth in special cash earnings had been the same as in June.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "19422a34549f09c2",
+      "text": "We caution that the impact of sample changes, which will be reflected in preliminary data from July 2025, could lead to unexpected fluctuations in wage growth. One- third of the businesses with 5- 29 employees surveyed are replaced every six months, with the replacement occurring in July. As the number of employed persons at these businesses accounts for around \\(40\\%\\) of the total number of employed persons, this sample change means that just over \\(10\\%\\) of employed persons ( \\(40\\%\\) x one- third) sampled in the survey will be changed.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "d0d4fc73ee44550c",
+      "text": "July Family Income and Expenditure Survey, real household spending (households with two or more members, Friday): We forecast a \\(2.9\\%\\) y- o- y rise in July 2025 real household spending (households with two or more members). On a seasonally adjusted basis, this works out to a \\(2.1\\%\\) m- o- m rise in spending in July, roughly on a par with the April- June average.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "3a22c408f1fea4de",
+      "text": "Credit card spending (adjusted for inflation by Nomura), which is correlated with real household spending, rose m- o- m in July. Based on credit card spending value by category, we think both goods and services contributed to growth. Summer bonuses paid out between June and July may have boosted real disposable income, which in turn may have boosted household spending.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "230c5c9a812bfe15",
+      "text": "To gain a picture of overall private consumption in July, we also need to look at the Total Consumption Trend Index (CTI macro) and Consumption Activity Index (travel account balance adjusted), which are closer to the definition of real private consumption used in the GDP data (both to be released on 5 September).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "91269611d4ca1252",
+      "text": "August Bond Market Survey degree of bond market functioning DI (Monday): The BOJ conducts its Bond Market Survey of major institutional investors on a quarterly basis to measure the functioning of the Japanese bond market. The degree of bond market functioning DI (high - low), a key indicator, had continued to improve since bottoming out in the February 2023 survey, but deteriorated to - 44 in the May 2025 survey (down 31pt versus the February 2025 survey) in response to lower liquidity in the super- long market and soaring interest rates.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "43a11106229f20ed",
+      "text": "Liquidity in the super- long JGB market has remained low even as of August 2025. In addition, large- lot sales of JGBs by some investors resulted in the BOJ filling out its entire budget for JGB purchases in August. We think this also reflects the decline in the functioning of the JGB market.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "9303b30ce0e0d921",
+      "text": "At the same time, super- long JGB yields were broadly flat in early August, when the survey is likely to have been conducted, and we do not expect super- long JGB yields to rise at the same pace as during the previous survey period (1- 9 May). The BOJ has also been reducing its JGB purchases in line with its plans, and we expect this to contribute to",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "dea97286cbd04bd5",
+      "text": "an improvement in market functioning.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "fac203b2dd5cf292",
+      "text": "While we expect the August survey to show that the JGB market is generally lacking in functionality, we think it will show a modest upturn versus the May survey.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "edb15b1c8e1717eb",
+      "text": "Fig. 6: Forecasts for economic indicators released during the week of 1 September",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "0f30996c09f3154e",
+      "text": "Monday 1 SeptemberUnitsPeriodPrev 2Prev 1LastNomuraConsensus8.50Investment in plant and equipment% y-o-yQ28.1-0.26.4n.a. n.a16.00Bond Market Survey% pointsAug-20-13-44n.a. n.aTuesday 2 SeptemberNo indicatorsWednesday 3 SeptemberNo indicatorsThursday 4 SeptemberNo indicatorsFriday 5 September8.30Total cash earnings (per-capita nominal wages)% y-o-yJul2.01.43.13.0 n.a.8.30Consumer spending% y-o-yJul-0.14.71.32.9 n.a.14.00Economic coincident indexIndexJul116.0116.0116.7n.a. n.a.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "dad9bc911a86b8b1",
+      "text": "We expect BNM to leave its policy rate unchanged, a rise in Australia's Q2 GDP growth, moderation in Korea's export growth and regional inflation to stay benign.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "f08eb98cdc3753f2",
+      "text": "China: We expect the official manufacturing PMI to remain subdued at 49.3 in August, unchanged from July, in view of slowing export momentum, the ongoing anti- involution campaign, the payback effect from the consumer trade- in program, and the muted EPMI print. China's EPMI, a non- seasonally adjusted leading indicator of the official PMI, increased by 1.1pp to 46.8 in August from 47.9 in July, smaller than the historical July- to- August average increase of 1.4pp.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "6b04fe80aa8524c0",
+      "text": "We expect the official non- manufacturing PMI to edge down to 50.0 in August from 50.1 in July, weighed on by the ongoing austerity rules and falling seasonal summer holiday demand, though the stock market boom could provide some support. In addition, the PMI for the construction sector is likely to decline, as suggested by high- frequency data.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "0fddf7cf889a81e8",
+      "text": "We expect the RatingDog manufacturing PMI (formerly Caixin manufacturing PMI), which surveys more SMEs and exporters in the eastern coastal region of China, to remain subdued at 49.8 in August from 49.5 in July. Growth in Korea's exports to China improved to \\(2.7\\%\\) y- o- y in the first 20 days of August from \\(- 3.0\\%\\) in July, while its imports from China edged down to \\(3.8\\%\\) y- o- y in the first 20 days of August from \\(4.0\\%\\) in July.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "d1ae9423d71c72e2",
+      "text": "Malaysia: We expect BNM to leave its overnight policy rate unchanged at \\(2.75\\%\\) after the \"pre- emptive\" 25bp cut at its previous MPC meeting. We think BNM remains optimistic on the near- term growth outlook and the resilience of domestic demand, despite acknowledging risks from tariff- related uncertainty. BNM recently revised its 2025 GDP growth forecast to a still- decent \\(4.0 - 4.8\\%\\) (Nomura: \\(4.4\\%\\) ), and the modified reciprocal tariff of \\(19\\%\\) , according to BNM, is within its assumptions. We think the tone of the policy statement should be relatively neutral and BNM will still likely signal a data- dependent approach. BNM Governor Abdul Rasheed Ghaffour, who said previously that BNM is not on a pre- set course, continues to describe the economy as remaining on a \"solid footing\" in the Q2 bulletin. We also expect BNM to remain comfortable with the inflation outlook, likely citing the limited impact of the government's fiscal consolidation measures. On FX, we think BNM will maintain its stance, reiterating that the currency's performance is driven by external factors and supported by strong fundamentals and its ongoing initiatives.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3b97c16b810af0a9",
+      "text": "Australia: We estimate that Q2 GDP rose by a healthy \\(0.6\\%\\) q- o- q and \\(1.7\\%\\) y- o- y. Final data clues to be released over the next few days might impact our final tracking. Data released to date suggest respectable growth in private demand, with solid growth in consumer spending, weak growth in dwelling investment and modest growth in spending on plant and equipment investment. We also expect positive growth in government spending, and a positive contribution from net exports, with export volumes outpacing imports. Australian commodity prices fell around \\(5\\%\\) q- o- q in Q2, and we expect this to weigh on the terms of trade (down around \\(3\\%\\) q- o- q), company profits and income growth. Our forecast implies modest but positive growth in GDP per capita and GDP per hour worked, with population and hours worked both rising by around \\(0.4\\%\\) q- o- q in Q2.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "652951b573d75984",
+      "text": "Korea: We expect export growth to drop to \\(0.3\\%\\) y- o- y in August from \\(5.8\\%\\) , partly due to base effects. Other measures used to gauge underlying trends, however, are likely to remain relatively steady with daily average export growth moderating to \\(4.8\\%\\) y- o- y in August from \\(5.9\\%\\) in July. Furthermore, after adjusting for seasonality, the three- month change in exports, which may reflect underlying chip export growth more accurately, likely picked up to \\(3.1\\%\\) sa in August from \\(1.3\\%\\) sa in July. Thus, despite our forecast for a likely sharp decline in August export growth, we expect modest gains in exports in the coming months. Amid strong demand for AI, resilient growth in exports (particularly chips) to non- US markets should partly offset weakness in export growth to the US.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "09282b0352f0be39",
+      "text": "We expect inflation to ease to \\(2.0\\%\\) y- o- y in August from \\(2.1\\%\\) in July, reflecting lower energy prices. While services price inflation likely remained sticky, weaker food and energy prices likely resulted in stable headline inflation. Amid a modest recovery in consumption, however, we expect core inflation to increase slightly to \\(2.1\\%\\) y- o- y in August from \\(2.0\\%\\) in July, led by higher goods price inflation. That said, we expect inflation to remain under control as the consumption recovery is likely to remain modest, and is hence unlikely to significantly raise inflationary pressures.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "1f11a9b3b455340e",
+      "text": "**Taiwan**: We expect headline inflation to remain unchanged at 1.5% y-o-y in August, as a rise in vegetable prices due to heavy rains caused by Typhoon Danas is likely to be offset by base effects associated with Typhoon Gaemi in the same month last year. On a sequential basis, this implies inflation momentum likely rose to 0.32% m-o-m sa from 0.24%. At the same time, we expect core inflation to hold steady at 1.7% y-o-y in August, reflecting stable underlying price trends.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "1b99d070b31bf94e",
+      "text": "**Indonesia**: We expect a slight uptick in CPI inflation to 2.5% y-o-y in August from 2.4% in July, as food prices were relatively unchanged following the surge seen in July, with prices of key items such as rice and red onion remaining elevated, while lower non-subsidized fuel prices only partly provided some offset. We also expect core inflation to remain unchanged at 2.3% y-o-y, in line with subdued demand conditions and stable gold prices.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "1ae81ba92ac0b25c",
+      "text": "We expect the goods trade surplus to narrow to USD1.2bn in July from USD4.1bn in June, as export growth likely moderated to 8.3% y-o-y from 11.3%, due to lower commodity prices, especially coal, and weaker external demand, evidenced by the decline in manufacturing PMIs of key trading partners. Import growth likely increased to 5.2% y-o-y in July from 4.3% in June, owing to higher oil prices.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "43745c3d0f4d4bf1",
+      "text": "**Thailand**: We expect CPI inflation to decline further to -0.9% y-o-y in August from -0.7% in July, led by lower raw food price inflation, reflecting falling meat and vegetable prices.We also expect core inflation to ease further to 0.7% from 0.8%, reflecting weak demand-side pressures amid tight financial conditions.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "f64c31abd2295476",
+      "text": "**Philippines**: We expect CPI inflation to rise to 1.3% y-o-y in August from 0.9% in July,reflecting a combination of less favourable base effects, a pickup in vegetable prices after recent typhoons, and a sizeable adjustment in electricity generation charges. Core inflation, however, likely remained stable, consistent with stable demand conditions and the still-negative output gap.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "4813d5c910d255c7",
+      "text": "Fig. 7: Forecasts for economic indicators released during the week of 1 September",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "92758f932a3303cf",
+      "text": "Sunday 31 AugustUnitsPeriodPrev 2Prev 1LastNomuraConsensus9:30ChinaOfficial manufacturing PMIIndexAug49.549.749.349.39:30ChinaOfficial non-manufacturing PMIIndexAug50.350.550.150.0Monday 1 September8:00S. KoreaExports% y-o-yAug-1.34.45.80.38:00S. KoreaTrade balanceUSD bnAug6.99.16.66.19:45ChinaRatingDog manufacturing PMIIndexAug48.350.449.549.812:00IndonesiaCPI% y-o-yAug1.61.92.42.512:00IndonesiaCore CPI% y-o-yAug2.42.42.32.312:00IndonesiaExports% y-o-yJul5.39.711.38.312:00IndonesiaImports% y-o-yJul21.14.14.35.212:00IndonesiaTrade balanceUSD bnJul0.24.34.11.2Tuesday 2 September7:00S. KoreaCPI% y-o-yAug1.92.22.12.0Wednesday 3 September7:00S. KoreaReal GDP (final)% q-o-q, sa2Q0.1-0.20.60.67:00S. KoreaReal GDP (final)% y-o-y2Q1.10.00.50.59:30AustraliaReal GDP% q-o-q, sa2Q0.30.60.20.69:30AustraliaReal GDP% y-o-y2Q0.81.31.31.7Thursday 4 SeptemberThailandCPI% y-o-yAug-0.6-0.3-0.7-0.9ThailandCore CPI% y-o-yAug1.11.10.80.77:00S. KoreaCurrent account balanceUSD bnJul5.710.114.312.115:00MalaysiaBNM overnight policy rate%Sep2.752.752.752.75Friday 5 September9:00PhilippinesCPI% y-o-yAug1.31.40.91.313:00SingaporeRetail sales (value)% y-o-yJul0.21.32.32.316:00TaiwanCPI% y-o-yAug1.51.41.51.5Sunday 7 SeptemberChinaFX reservesUSD bnAug328533173292n.a.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "ea8f6722e3bc1898",
+      "text": "Note: Hong Kong times.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "b5f1098fd7f1e914",
+      "text": "Source: Bloomberg and Nomura Global Economics.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "41737fef202503c8",
+      "text": "Appendix A- 1This report has been produced by Nomura Securities International, Inc. (NSI), US. See Disclaimers for Nomura Group entity details.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "65029125ea3ca42a",
+      "text": "The analysts responsible for preparing this report have received compensation based upon various factors including the firm's total revenues, a portion of which is generated by Investment Banking activities. Unless otherwise noted, the non- US analysts listed at the front of this report are not registered/qualified as research analysts under FINRA rules, may not be associated persons of NSI, and may not be subject to FINRA Rule 2241 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "0e505c82c71f18d4",
+      "text": "Nomura Global Financial Products Inc. (NGFP) Nomura Derivative Products Inc. (NDP) and Nomura International plc. (NIplc) are registered with the Commodities Futures Trading Commission and the National Futures Association (NFA) as swap dealers. NGFP, NDPI, and NIplc are generally engaged in the trading of swaps and other derivative products, any of which may be the subject of this report.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "b814914b871a5084",
+      "text": "report indicates that the individual is employed by PT Verdhana Sekuritas Indonesia (Verdhana) to provide research assistance to NIHK under a research partnership agreement and neither Verdhana nor such individual is licensed outside of Indonesia. THIS MATERIAL IS: (I) FOR YOUR PRIVATE INFORMATION, AND WE ARE NOT SOLICITING ANY ACTION BASED UPON IT; (II) NOT TO BE CONSTRUED AS AN OFFER TO SELL OR A SOLICITATION OF AN OFFER TO BUY ANY SECURITIES IN ANY JURISDICTION WHERE SUCH OFFER OR SOLICITATION WOULD BE ILLEGAL; AND (III) OTHER THAN DISCLOSURES RELATING TO THE NOMURA GROUP, BASED UPON INFORMATION FROM SOURCES THAT WE CONSIDER RELIABLE, BUT HAS NOT BEEN INDEPENDENTLY VERIFIED BY NOMURA GROUP.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "ea48d13fa4d71aba",
+      "text": "Other than disclosures relating to the Nomura Group, the Nomura Group does not warrant, represent or undertake, express or implied, that the document is fair, accurate, complete, correct, reliable or fit for any particular purpose or merchantable, and to the maximum extent permissible by law and/or regulation, does not accept liability (in negligence or otherwise, and in whole or in part) for any act (or decision not to act) resulting from use of this document and related data. To the maximum extent permissible by law and/or regulation, all warranties and other assurances by the Nomura Group are hereby excluded and the Nomura Group shall have no liability (in negligence or otherwise, and in whole or in part) for any loss howsoever arising from the use, misuse, or distribution of this material or the information contained in this material or otherwise arising in connection therewith.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "6244dfc1e4db6757",
+      "text": "Opinions or estimates expressed are current opinions as of the original publication date appearing on this material and the information, including the opinions and estimates contained herein, are subject to change without notice. The Nomura Group, however, expressly disclaims any obligation, and therefore is under no duty, to update or revise this document. Any comments or statements made herein are those of the author(s) and may differ from views held by other parties within Nomura Group. Clients should consider whether any advice or recommendation in this report is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The Nomura Group does not provide tax advice.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "371575f145b65d11",
+      "text": "The Nomura Group, and/or its officers, directors, employees and affiliates, may, to the extent permitted by applicable law and/or regulation, deal as principal, agent, or otherwise, or have long or short positions in, or buy or sell, the securities, commodities or instruments, or options or other derivative instruments based thereon, of issuers or securities mentioned herein. The Nomura Group companies may also act as market maker or liquidity provider (within the meaning of applicable regulations in the UK) in the financial instruments of the issuer. Where the activity of market maker is carried out in accordance with the definition given to it by specific laws and regulations of the US or other jurisdictions, this will be separately disclosed within the specific issuer disclosures.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "770909e96c6a3f86",
+      "text": "This document may contain information obtained from third parties, including, but not limited to, ratings from credit ratings agencies such as Standard & Poor's. The Nomura Group hereby expressly disclaims all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of the information obtained from third parties contained in this material or otherwise arising in connection therewith, and shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of any of the information obtained from third parties contained in this material or otherwise arising in connection therewith. Reproduction and distribution of third- party content in any form is prohibited except with the prior written permission of the related third- party. Third- party content providers do not, express or implied, guarantee the fairness, accuracy, completeness, correctness, timeliness or availability of any information, including ratings, and are not in any way responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use or misuse of such content. Third- party content providers give no express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Third- party content providers shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Any MSCI sourced information in this document is the exclusive property of MSCI Inc. ('MSCI'). Without prior written permission of MSCI, this information and any other MSCI intellectual property may not be duplicated, reproduced, re- disseminated, redistributed or used, in whole or in part, for any purpose whatsoever, including creating any financial products and any indices. This information is provided on an \"as is\" basis. The user assumes the entire risk of any use made of this information. MSCI, its affiliates and any third party involved in, or related to, computing or compiling the information hereby expressly disclaim all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of this material or the information contained in this material or otherwise arising in connection therewith. Without limiting any of the foregoing, in no event shall MSCI, any of its affiliates or any third party involved in, or related to, computing or compiling the information have any liability (in negligence or otherwise, and in whole or in part) for any damages of any kind. MSCI and the MSCI indexes are services marks of MSCI and its affiliates.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "f6207adddf382956",
+      "text": "The intellectual property rights and any other rights, in Russell/Nomura Japan Equity Index belong to Nomura Fiduciary Research & Consulting Co., Ltd. (\"NFRC\") and FTSE Russell (\"Russell\"). NFRC and Russell do not guarantee fairness, accuracy, completeness, correctness, reliability, usefulness, marketability, merchantability or fitness of the Index, and do not account for business activities or services that any index user and/or its affiliates undertakes with the use of the Index.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "9d00269dd4a233fb",
+      "text": "Investors should consider this document as only a single factor in making their investment decision and, as such, the report should not be viewed as identifying or suggesting all risks, direct or indirect, that may be associated with any investment decision. Nomura Group produces a number of different types of research product including, among others, fundamental analysis and quantitative analysis; recommendations contained in one type of research product may differ from recommendations contained in other types of research product, whether as a result of differing time horizons, methodologies or otherwise. The Nomura Group publishes research product in a number of different ways including the posting of product on the Nomura Group portals and/or distribution directly to clients. Different groups of clients may receive different products and services from the research department depending on their individual requirements.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "e61cec88962bf1d6",
+      "text": "Figures presented herein may refer to past performance or simulations based on past performance which are not reliable indicators of future or likely performance. Where the information contains an expectation, projection or indication of future performance and business prospects, such",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "0e00796de3a511c0",
+      "text": "forecasts may not be a reliable indicator of future or likely performance. Moreover, simulations are based on models and simplifying assumptions which may oversimplify and not reflect the future distribution of returns. Any figure, strategy or index created and published for illustrative purposes within this document is not intended for \"use\" as a \"benchmark\" as defined by the European Benchmark Regulation. Certain securities are subject to fluctuations in exchange rates that could have an adverse effect on the value or price of, or income derived from, the investment.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "6db8175825e48f1b",
+      "text": "With respect to Fixed Income Research: Recommendations fall into two categories: tactical, which typically last up to three months; or strategic, which typically last from 6- 12 months. However, trade recommendations may be reviewed at any time as circumstances change. 'Stop loss' levels for trades are also provided; which, if hit, closes the trade recommendation automatically. Prices and yields shown in recommendations are taken at the time of submission for publication and are based on either indicative Bloomberg, LSEG or Nomura prices and yields at that time. The prices and yields shown are not necessarily those at which the trade recommendation can be implemented.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "be98d9707b13f75f",
+      "text": "The securities described herein may not have been registered under the US Securities Act of 1933 (the '1933 Act'), and, in such case, may not be offered or sold in the US or to US persons unless they have been registered under the 1933 Act, or except in compliance with an exemption from the registration requirements of the 1933 Act. Unless governing law permits otherwise, any transaction should be executed via a Nomura entity in your home jurisdiction.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "d6a585c90effbe03",
+      "text": "This document has been approved for distribution in the UK as investment research by NIplc. NIplc is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. NIplc is a member of the London Stock Exchange. This document does not constitute a personal recommendation within the meaning of applicable regulations in the UK, or take into account the particular investment objectives, financial situations, or needs of individual investors. This document is intended only for investors who are 'eligible counterparties' or 'professional clients' for the purposes of applicable regulations in the UK, and may not, therefore, be redistributed to persons who are 'retail clients' for such purposes.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "6335e18b1403898b",
+      "text": "This document has been approved for distribution in the European Economic Area as investment research by Nomura Financial Products Europe GmbH (NFPE). NFPE is a company organized as a limited liability company under German law registered in the Commercial Register of the Court of Frankfurt/Main under HRB 110223. NFPE is authorized and regulated by the German Federal Financial Supervisory Authority (BaFin).",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "ab2d4ed1ddd7029a",
+      "text": "This document has been approved by NIHK, which is regulated by the Hong Kong Securities and Futures Commission, for distribution in Hong Kong by NIHK. This document is intended only for investors who are 'professional investors' for the purposes of applicable regulations in Hong Kong and may not, therefore, be redistributed to persons who are not 'professional investors' for such purposes.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "acfd72998e769d5d",
+      "text": "This document has been approved for distribution in Australia by NAL, which is authorized and regulated in Australia by the ASIC.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "802b1a0452ab8d5b",
+      "text": "This document has also been approved for distribution in Malaysia by NSM.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "d9bec317e6fe30e4",
+      "text": "In Singapore, this document has been distributed by NSL, an exempt financial adviser as defined under the Financial Advisers Act (Chapter 110), among other things, and regulated by the Monetary Authority of Singapore. NSL may distribute this document produced by its foreign affiliates pursuant to an arrangement under Regulation 32C of the Financial Advisers Regulations. Where the recipient of this document is not an accredited, expert or institutional investor as defined by the Securities and Futures Act (Chapter 289), NSL accepts legal responsibility for the contents of this document in respect of such recipient only to the extent required by law. Recipients of this document in Singapore should contact NSL in respect of matters arising from, or in connection with, this document. THIS DOCUMENT IS INTENDED FOR GENERAL CIRCULATION. IT DOES NOT TAKE INTO ACCOUNT THE SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS OF ANY PARTICULAR PERSON. RECIPIENTS SHOULD TAKE INTO ACCOUNT THEIR SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS BEFORE MAKING A COMMITMENT TO PURCHASE ANY SECURITIES, INCLUDING SEEKING ADVICE FROM AN INDEPENDENT FINANCIAL ADVISER REGARDING THE SUITABILITY OF THE INVESTMENT, UNDER A SEPARATE ENGAGEMENT, AS THE RECIPIENT DEEMS FIT.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "f9fb9f2a4b00cf37",
+      "text": "Unless prohibited by the provisions of Regulation S of the 1933 Act, this material is distributed in the US, by NSI, a US- registered broker- dealer, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6, under the US Securities Exchange Act of 1934. The entity that prepared this document permits its separately operated affiliates within the Nomura Group to make copies of such documents available to their clients.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "1067aff6e75046de",
+      "text": "This document has not been approved for distribution to persons other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' (as defined by the Capital Markets Authority) in the Kingdom of Saudi Arabia ('Saudi Arabia') or a 'Market Counterparty' or a 'Professional Client' (as defined by the Dubai Financial Services Authority) in the United Arab Emirates ('UAE') or a 'Market Counterparty' or a 'Business Customer' (as defined by the Qatar Financial Centre Regulatory Authority) in the State of Qatar ('Qatar') by Nomura Saudi Arabia, NIplc or any other member of the Nomura Group, as the case may be. Neither this document nor any copy thereof may be taken or transmitted or distributed, directly or indirectly, by any person other than those authorised to do so into Saudi Arabia or in the UAE or in Qatar or to any person other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' located in Saudi Arabia or a 'Market Counterparty' or a 'Professional Client' in the UAE or a 'Market Counterparty' or a 'Business Customer' in Qatar. Any failure to comply with these restrictions may constitute a violation of the laws of the UAE or Saudi Arabia or Qatar.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "b67659f4b338e6b6",
+      "text": "For report with reference of TAIWAN public companies or authored by Taiwan based research analyst:",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "11ff1cf1bc1e0a7f",
+      "text": "THIS DOCUMENT IS SOLELY FOR REFERENCE ONLY. You should independently evaluate the investment risks and are solely responsible for your investment decisions. NO PORTION OF THE REPORT MAY BE REPRODUCED OR QUOTED BY THE PRESS OR ANY OTHER PERSON WITHOUT WRITTEN AUTHORIZATION FROM NOMURA GROUP. Pursuant to Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers and/or other applicable laws or regulations in Taiwan, you are prohibited to provide the reports to others (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities in connection with the reports which may involve conflicts of interests. INFORMATION ON SECURITIES / INSTRUMENTS NOT EXECUTABLE BY NOMURA INTERNATIONAL (HONG KONG) LTD., TAIPEI BRANCH IS FOR INFORMATIONAL PURPOSES ONLY AND IS NOT BE CONSTRUED AS A RECOMMENDATION OR A SOLICITATION TO TRADE IN SUCH SECURITIES / INSTRUMENTS.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "f0f9ff8af078ddec",
+      "text": "This material may not be distributed in Indonesia or passed on within the territory of the Republic of Indonesia or to persons who are Indonesian citizens (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "f30dd6d9cbaa1fda",
+      "text": "laws of the Republic of Indonesia. The securities mentioned in this document may not be offered or sold in Indonesia or to persons who are citizens of Indonesia (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the laws of the Republic of Indonesia.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "b8d8e670e0ed4d9d",
+      "text": "An individual name printed next to NOI on the front page of a research report indicates that this document is a translation of a research report issued by NOI in the PRC. In all other cases, this document is prepared by Nomura Group or its subsidiary or affiliate (collectively, \"Offshore Issuers\") that is not licensed in the PRC to provide securities research. This research report is not approved or intended to be circulated in the PRC. The A- share related analysis (if any) is not produced for any persons located or incorporated in the PRC. The recipients should not rely on any information contained in this research report in making investment decisions and Offshore Issuers take no responsibility in this regard. NO PART OF THIS MATERIAL MAY BE (I) COPIED, PHOTOCOPIED, REPRODUCED OR DUPLICATED IN ANY FORM, BY ANY MEANS; OR (II) REDISSEMINATED, REPUBLISHED OR REDISTRIBUTED WITHOUT THE PRIOR WRITTEN CONSENT OF A MEMBER OF THE NOMURA GROUP. If this document has been distributed by electronic transmission, such as e- mail, then such transmission cannot be guaranteed to be secure or error- free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. The sender therefore does not accept liability (in negligence or otherwise, and in whole or in part) for any errors or omissions in the contents of this document, which may arise as a result of electronic transmission. If verification is required, please request a hard- copy version.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "4e08e42559413510",
+      "text": "Financial instruments firm registered with the Kanto Local Finance Bureau (registration No. 142)",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "65458362ea6ba917",
+      "text": "Member associations: Japan Securities Dealers Association; Japan Investment Advisers Association; The Financial Futures Association of Japan; and Type II Financial Instruments Firms Association.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "e218ca2370f7ddb5",
+      "text": "The Nomura Group manages conflicts with respect to the production of research through its compliance policies and procedures (including, but not limited to, Conflicts of Interest, Chinese Wall and Confidentiality policies) as well as through the maintenance of Chinese Walls and employee training.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "b19476b8c4c0e534",
+      "text": "Additional information regarding the methodologies or models used in the production of any investment recommendations contained within this document is available upon request by contacting the Research Analysts of Nomura listed on the front page. Disclosures information is available upon request and disclosure information is available at the Nomura Disclosure web page:",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "efabf1756b5aae87",
+      "text": "http://go.nomuranow.com/research/m/Disclosures",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "6847c97200ab59bc",
+      "text": "Copyright © 2025 Nomura Securities International, Inc., US. All rights reserved.",
+      "page": 16,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "62ccdba27d218f1f",
+      "name": "Abdul Rasheed",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3062e21d617ad05f",
+      "name": "Any MSCI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d3bd14ffd2aa4585",
+      "name": "Asia\n\nAsia",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dd78e332923ce00e",
+      "name": "August Bond",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ee7f8989a4fe2e9b",
+      "name": "August Employment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9ffd3642d6d9bee4",
+      "name": "August HICP",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "10e9fc40d3af9c3e",
+      "name": "Australia July",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03ec5d54e225b9d0",
+      "name": "Authorised Persons",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bb3691b50d16fbb5",
+      "name": "BNM Governor",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "29104f50c5346adf",
+      "name": "BOE Rate",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "53c17715e51c36cf",
+      "name": "Beige Book",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a17687dcdb55e7e7",
+      "name": "Bloomberg Economic",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1d3d45497ab9198c",
+      "name": "Bond Market",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6284d27103a5aba3",
+      "name": "Breeden Speaks",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8c1abdd3ddd39022",
+      "name": "Business Customer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ed7035d91b51699c",
+      "name": "CONTENTS\n\nCONTENTSForecast",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "315da0e0d824335c",
+      "name": "CPI Core",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c0be6597751f1a85",
+      "name": "Canada\n\nCanada",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": "The Week Ahead",
+        "page": 1,
+        "axes": {},
+        "series": [],
+        "figure_id": "a9420dcf3f0832a7",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": "NOMURA MacroBrew",
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "5cceef41f231b905",
+        "provenance": {
+          "page": 1
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "667d542d548ac9f5",
+        "value": 0.0438,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>0</td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>Current</td><td>4.38%</td><td>2.75%</td><td>4.00%</td><td>2.00%</td><td>2.00%</td><td>4.25%</td><td>0.00%</td><td>3.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "9af7a162da45e63f",
+        "value": 0.0275,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></td><td>0</td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>Current</td><td>4.38%</td><td>2.75%</td><td>4.00%</td><td>2.00%</td><td>2.00%</td><td>4.25%</td><td>0.00%</td><td>3.60%</td><td>3.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2a38b1da003197c1",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>Current</td><td>4.38%</td><td>2.75%</td><td>4.00%</td><td>2.00%</td><td>2.00%</td><td>4.25%</td><td>0.00%</td><td>3.60%</td><td>3.00%</td><td>0.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "18a2d90ae7abe8d9",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0</td><td>0</td><td></td></tr><tr><td>Current</td><td>4.38%</td><td>2.75%</td><td>4.00%</td><td>2.00%</td><td>2.00%</td><td>4.25%</td><td>0.00%</td><td>3.60%</td><td>3.00%</td><td>0.50%</td><td>1.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4a51ae716b86c0f2",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0</td><td></td></tr><tr><td>Current</td><td>4.38%</td><td>2.75%</td><td>4.00%</td><td>2.00%</td><td>2.00%</td><td>4.25%</td><td>0.00%</td><td>3.60%</td><td>3.00%</td><td>0.50%</td><td>1.40%</td><td>5.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a161fdb1e3707964",
+        "value": 0.0425,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>Current</td><td>4.38%</td><td>2.75%</td><td>4.00%</td><td>2.00%</td><td>2.00%</td><td>4.25%</td><td>0.00%</td><td>3.60%</td><td>3.00%</td><td>0.50%</td><td>1.40%</td><td>5.50%</td><td>2.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "00d071bb2e213e40",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Current</td><td>4.38%</td><td>2.75%</td><td>4.00%</td><td>2.00%</td><td>2.00%</td><td>4.25%</td><td>0.00%</td><td>3.60%</td><td>3.00%</td><td>0.50%</td><td>1.40%</td><td>5.50%</td><td>2.50%</td><td>5.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "329a48b5584d5d3a",
+        "value": 0.036000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>4.38%</td><td>2.75%</td><td>4.00%</td><td>2.00%</td><td>2.00%</td><td>4.25%</td><td>0.00%</td><td>3.60%</td><td>3.00%</td><td>0.50%</td><td>1.40%</td><td>5.50%</td><td>2.50%</td><td>5.00%</td><td>1.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "816ceb877183f01f",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>2.75%</td><td>4.00%</td><td>2.00%</td><td>2.00%</td><td>4.25%</td><td>0.00%</td><td>3.60%</td><td>3.00%</td><td>0.50%</td><td>1.40%</td><td>5.50%</td><td>2.50%</td><td>5.00%</td><td>1.50%</td></tr><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "88f93a485efd30bf",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>4.00%</td><td>2.00%</td><td>2.00%</td><td>4.25%</td><td>0.00%</td><td>3.60%</td><td>3.00%</td><td>0.50%</td><td>1.40%</td><td>5.50%</td><td>2.50%</td><td>5.00%</td><td>1.50%</td></tr><tr><td>Jan 25<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "1e1c36901e6f3da8",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>2.00%</td><td>2.00%</td><td>4.25%</td><td>0.00%</td><td>3.60%</td><td>3.00%</td><td>0.50%</td><td>1.40%</td><td>5.50%</td><td>2.50%</td><td>5.00%</td><td>1.50%</td></tr><tr><td>Jan 25</td><td>0</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "429aedc5eb3eb03f",
+        "value": 0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>2.00%</td><td>4.25%</td><td>0.00%</td><td>3.60%</td><td>3.00%</td><td>0.50%</td><td>1.40%</td><td>5.50%</td><td>2.50%</td><td>5.00%</td><td>1.50%</td></tr><tr><td>Jan 25</td><td>0</td><td>-25</td><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5e03547f4eae2b3b",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>4.25%</td><td>0.00%</td><td>3.60%</td><td>3.00%</td><td>0.50%</td><td>1.40%</td><td>5.50%</td><td>2.50%</td><td>5.00%</td><td>1.50%</td></tr><tr><td>Jan 25</td><td>0</td><td>-25</td><td></td><td>-25",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ac76338bfa88bf4e",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0.00%</td><td>3.60%</td><td>3.00%</td><td>0.50%</td><td>1.40%</td><td>5.50%</td><td>2.50%</td><td>5.00%</td><td>1.50%</td></tr><tr><td>Jan 25</td><td>0</td><td>-25</td><td></td><td>-25</td><td>-25</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4d36eb80a14d9b55",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>3.60%</td><td>3.00%</td><td>0.50%</td><td>1.40%</td><td>5.50%</td><td>2.50%</td><td>5.00%</td><td>1.50%</td></tr><tr><td>Jan 25</td><td>0</td><td>-25</td><td></td><td>-25</td><td>-25</td><td>0</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "8785f9d87e7b34fe",
+        "value": 0.0388,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0</td><td></td><td>0</td><td>-25</td><td>-25</td><td>0</td><td></td></tr><tr><td>End 25</td><td>3.88%</td><td>2.50%</td><td>3.75%</td><td>2.00%</td><td>2.00%</td><td>3.75%</td><td>-0.25%</td><td>3",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "593628d306159634",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>0</td><td>-25</td><td>-25</td><td>0</td><td></td></tr><tr><td>End 25</td><td>3.88%</td><td>2.50%</td><td>3.75%</td><td>2.00%</td><td>2.00%</td><td>3.75%</td><td>-0.25%</td><td>3.35%</td><td>2",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "dfa9f2b0cff840e8",
+        "value": 0.0375,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>-25</td><td>-25</td><td>0</td><td></td></tr><tr><td>End 25</td><td>3.88%</td><td>2.50%</td><td>3.75%</td><td>2.00%</td><td>2.00%</td><td>3.75%</td><td>-0.25%</td><td>3.35%</td><td>2.75%</td><td>0",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2157545bd77ee216",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>-25</td><td>0</td><td></td></tr><tr><td>End 25</td><td>3.88%</td><td>2.50%</td><td>3.75%</td><td>2.00%</td><td>2.00%</td><td>3.75%</td><td>-0.25%</td><td>3.35%</td><td>2.75%</td><td>0.50%</td><td>1",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5f9a571d29453319",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0</td><td></td></tr><tr><td>End 25</td><td>3.88%</td><td>2.50%</td><td>3.75%</td><td>2.00%</td><td>2.00%</td><td>3.75%</td><td>-0.25%</td><td>3.35%</td><td>2.75%</td><td>0.50%</td><td>1.30%</td><td>5",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "43e8e6397d334ae9",
+        "value": 0.0375,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>End 25</td><td>3.88%</td><td>2.50%</td><td>3.75%</td><td>2.00%</td><td>2.00%</td><td>3.75%</td><td>-0.25%</td><td>3.35%</td><td>2.75%</td><td>0.50%</td><td>1.30%</td><td>5.00%</td><td>2",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "34f8591dbc30b82a",
+        "value": -0.0025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">End 25</td><td>3.88%</td><td>2.50%</td><td>3.75%</td><td>2.00%</td><td>2.00%</td><td>3.75%</td><td>-0.25%</td><td>3.35%</td><td>2.75%</td><td>0.50%</td><td>1.30%</td><td>5.00%</td><td>2.25%</td><td>4",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b9461b2f7d4d88c2",
+        "value": 0.0335,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">3.88%</td><td>2.50%</td><td>3.75%</td><td>2.00%</td><td>2.00%</td><td>3.75%</td><td>-0.25%</td><td>3.35%</td><td>2.75%</td><td>0.50%</td><td>1.30%</td><td>5.00%</td><td>2.25%</td><td>4.50%</td><td>1.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3dc617ca57af2f0c",
+        "value": 0.0275,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">2.50%</td><td>3.75%</td><td>2.00%</td><td>2.00%</td><td>3.75%</td><td>-0.25%</td><td>3.35%</td><td>2.75%</td><td>0.50%</td><td>1.30%</td><td>5.00%</td><td>2.25%</td><td>4.50%</td><td>1.25%</td></tr><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "59f51c8f23af324a",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">3.75%</td><td>2.00%</td><td>2.00%</td><td>3.75%</td><td>-0.25%</td><td>3.35%</td><td>2.75%</td><td>0.50%</td><td>1.30%</td><td>5.00%</td><td>2.25%</td><td>4.50%</td><td>1.25%</td></tr><tr><td>Jan 26<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a50e85c2f2b1d480",
+        "value": 0.013000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">2.00%</td><td>2.00%</td><td>3.75%</td><td>-0.25%</td><td>3.35%</td><td>2.75%</td><td>0.50%</td><td>1.30%</td><td>5.00%</td><td>2.25%</td><td>4.50%</td><td>1.25%</td></tr><tr><td>Jan 26</td><td>0</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3e3224872d9ed890",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">2.00%</td><td>3.75%</td><td>-0.25%</td><td>3.35%</td><td>2.75%</td><td>0.50%</td><td>1.30%</td><td>5.00%</td><td>2.25%</td><td>4.50%</td><td>1.25%</td></tr><tr><td>Jan 26</td><td>0</td><td>0</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "34783772c94b2ab9",
+        "value": 0.0225,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">3.75%</td><td>-0.25%</td><td>3.35%</td><td>2.75%</td><td>0.50%</td><td>1.30%</td><td>5.00%</td><td>2.25%</td><td>4.50%</td><td>1.25%</td></tr><tr><td>Jan 26</td><td>0</td><td>0</td><td></td><td></td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ef08a3d06522dbfb",
+        "value": 0.045,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">-0.25%</td><td>3.35%</td><td>2.75%</td><td>0.50%</td><td>1.30%</td><td>5.00%</td><td>2.25%</td><td>4.50%</td><td>1.25%</td></tr><tr><td>Jan 26</td><td>0</td><td>0</td><td></td><td></td><td>0</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a71d03e0e03bf5e4",
+        "value": 0.0125,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>3.35%</td><td>2.75%</td><td>0.50%</td><td>1.30%</td><td>5.00%</td><td>2.25%</td><td>4.50%</td><td>1.25%</td></tr><tr><td>Jan 26</td><td>0</td><td>0</td><td></td><td></td><td>0</td><td></td><td></td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "675ef5f299d783bd",
+        "value": 0.0363,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>End 26</td><td>3.63%</td><td>2.50%</td><td>3.50%</td><td>2.00%</td><td>2.00%</td><td>3.25%</td><td>-0.25%</td><td>3",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "bafca4d9503abda0",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>End 26</td><td>3.63%</td><td>2.50%</td><td>3.50%</td><td>2.00%</td><td>2.00%</td><td>3.25%</td><td>-0.25%</td><td>3.10%</td><td>2",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ef54f97348830542",
+        "value": 0.035,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>0</td><td>0</td><td>0</td><td></td></tr><tr><td>End 26</td><td>3.63%</td><td>2.50%</td><td>3.50%</td><td>2.00%</td><td>2.00%</td><td>3.25%</td><td>-0.25%</td><td>3.10%</td><td>2.50%</td><td>0",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "1e4fec6a4e4cc573",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>0</td><td>0</td><td></td></tr><tr><td>End 26</td><td>3.63%</td><td>2.50%</td><td>3.50%</td><td>2.00%</td><td>2.00%</td><td>3.25%</td><td>-0.25%</td><td>3.10%</td><td>2.50%</td><td>0.75%</td><td>1",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5f9a571d29453319",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0</td><td></td></tr><tr><td>End 26</td><td>3.63%</td><td>2.50%</td><td>3.50%</td><td>2.00%</td><td>2.00%</td><td>3.25%</td><td>-0.25%</td><td>3.10%</td><td>2.50%</td><td>0.75%</td><td>1.30%</td><td>5",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "fe05191182d53395",
+        "value": 0.0325,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>End 26</td><td>3.63%</td><td>2.50%</td><td>3.50%</td><td>2.00%</td><td>2.00%</td><td>3.25%</td><td>-0.25%</td><td>3.10%</td><td>2.50%</td><td>0.75%</td><td>1.30%</td><td>5.00%</td><td>2",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3f184c6dec5e7df3",
+        "value": -0.0025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">End 26</td><td>3.63%</td><td>2.50%</td><td>3.50%</td><td>2.00%</td><td>2.00%</td><td>3.25%</td><td>-0.25%</td><td>3.10%</td><td>2.50%</td><td>0.75%</td><td>1.30%</td><td>5.00%</td><td>2.00%</td><td>4",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "16dad3f259d10ad0",
+        "value": 0.031,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">3.63%</td><td>2.50%</td><td>3.50%</td><td>2.00%</td><td>2.00%</td><td>3.25%</td><td>-0.25%</td><td>3.10%</td><td>2.50%</td><td>0.75%</td><td>1.30%</td><td>5.00%</td><td>2.00%</td><td>4.25%</td><td>1.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6065d43ba74459bc",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">2.50%</td><td>3.50%</td><td>2.00%</td><td>2.00%</td><td>3.25%</td><td>-0.25%</td><td>3.10%</td><td>2.50%</td><td>0.75%</td><td>1.30%</td><td>5.00%</td><td>2.00%</td><td>4.25%</td><td>1.00%</td></tr><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "62510878d39defb9",
+        "value": 0.0075,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">3.50%</td><td>2.00%</td><td>2.00%</td><td>3.25%</td><td>-0.25%</td><td>3.10%</td><td>2.50%</td><td>0.75%</td><td>1.30%</td><td>5.00%</td><td>2.00%</td><td>4.25%</td><td>1.00%</td></tr></table> Note: ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a50e85c2f2b1d480",
+        "value": 0.013000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">2.00%</td><td>2.00%</td><td>3.25%</td><td>-0.25%</td><td>3.10%</td><td>2.50%</td><td>0.75%</td><td>1.30%</td><td>5.00%</td><td>2.00%</td><td>4.25%</td><td>1.00%</td></tr></table> Note: In some cases ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a51963239c0e4d8e",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">2.00%</td><td>3.25%</td><td>-0.25%</td><td>3.10%</td><td>2.50%</td><td>0.75%</td><td>1.30%</td><td>5.00%</td><td>2.00%</td><td>4.25%</td><td>1.00%</td></tr></table> Note: In some cases exact meeting ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6770f02912e184b1",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">3.25%</td><td>-0.25%</td><td>3.10%</td><td>2.50%</td><td>0.75%</td><td>1.30%</td><td>5.00%</td><td>2.00%</td><td>4.25%</td><td>1.00%</td></tr></table> Note: In some cases exact meeting dates have not",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "60978b18b7e64a15",
+        "value": 0.0425,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">-0.25%</td><td>3.10%</td><td>2.50%</td><td>0.75%</td><td>1.30%</td><td>5.00%</td><td>2.00%</td><td>4.25%</td><td>1.00%</td></tr></table> Note: In some cases exact meeting dates have not been announce",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "01175113c92dc922",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>3.10%</td><td>2.50%</td><td>0.75%</td><td>1.30%</td><td>5.00%</td><td>2.00%</td><td>4.25%</td><td>1.00%</td></tr></table> Note: In some cases exact meeting dates have not been announced, so we are e",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5cb4af0adb690a1f",
+        "value": 3.0,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "imilar level in August. UK Household borrowing, July (Monday): We forecast net mortgage lending of £3.0bn in July, down from June's strong £5.3bn, but still above the 2024 monthly average of £2.1bn. A",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "3c765f5979d21201",
+        "value": 5.3,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "rrowing, July (Monday): We forecast net mortgage lending of £3.0bn in July, down from June's strong £5.3bn, but still above the 2024 monthly average of £2.1bn. Also, we expect mortgage approvals to fa",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "83ff158543f9f198",
+        "value": 2.1,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "ding of £3.0bn in July, down from June's strong £5.3bn, but still above the 2024 monthly average of £2.1bn. Also, we expect mortgage approvals to fall to 63,500 from 64,200 in June. This is as some ke",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "20bb834b09e5c0ac",
+        "value": 1.4,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "n June. The sales over the past month balance also fell to - 24 in July from - 1 in June. We expect £1.4bn of net consumer credit, in line with June and also the average for the past six months. Euro ",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "9aeb423824e1cf99",
+        "value": 0.044000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "cial cash earnings, which reflect bonuses, to have risen at a similar pace in July as in June 2025 (+4.4%). However, to the extent that special cash earnings accounted for a slightly smaller percentag",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "eb3f74f79f493017",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "**Taiwan**: We expect headline inflation to remain unchanged at 1.5% y-o-y in August, as a rise in vegetable prices due to heavy rains caused by Typhoon Danas is likely",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "6b78c37d0ba3a197",
+        "value": 0.0032,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "in the same month last year. On a sequential basis, this implies inflation momentum likely rose to 0.32% m-o-m sa from 0.24%. At the same time, we expect core inflation to hold steady at 1.7% y-o-y in",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "10ae041f811f7765",
+        "value": 0.0024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ast year. On a sequential basis, this implies inflation momentum likely rose to 0.32% m-o-m sa from 0.24%. At the same time, we expect core inflation to hold steady at 1.7% y-o-y in August, reflecting",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "f666d84a725bff48",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ely rose to 0.32% m-o-m sa from 0.24%. At the same time, we expect core inflation to hold steady at 1.7% y-o-y in August, reflecting stable underlying price trends. **Indonesia**: We expect a slight u",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "ff2230d27b21caee",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "cting stable underlying price trends. **Indonesia**: We expect a slight uptick in CPI inflation to 2.5% y-o-y in August from 2.4% in July, as food prices were relatively unchanged following the surge ",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "b5da1e9364d6c433",
+        "value": 0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ice trends. **Indonesia**: We expect a slight uptick in CPI inflation to 2.5% y-o-y in August from 2.4% in July, as food prices were relatively unchanged following the surge seen in July, with prices ",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "a1ceb5a5fcd125b5",
+        "value": 0.023,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "fuel prices only partly provided some offset. We also expect core inflation to remain unchanged at 2.3% y-o-y, in line with subdued demand conditions and stable gold prices. We expect the goods trade ",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "0a55b3be63045a8a",
+        "value": 0.083,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e surplus to narrow to USD1.2bn in July from USD4.1bn in June, as export growth likely moderated to 8.3% y-o-y from 11.3%, due to lower commodity prices, especially coal, and weaker external demand, e",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "62881a71d6714531",
+        "value": 0.113,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "row to USD1.2bn in July from USD4.1bn in June, as export growth likely moderated to 8.3% y-o-y from 11.3%, due to lower commodity prices, especially coal, and weaker external demand, evidenced by the ",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "16cb2a313615563b",
+        "value": 0.052000000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ced by the decline in manufacturing PMIs of key trading partners. Import growth likely increased to 5.2% y-o-y in July from 4.3% in June, owing to higher oil prices. **Thailand**: We expect CPI inflat",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "240c46a599e1ae98",
+        "value": 0.043,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nufacturing PMIs of key trading partners. Import growth likely increased to 5.2% y-o-y in July from 4.3% in June, owing to higher oil prices. **Thailand**: We expect CPI inflation to decline further t",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "5566cb48cc15a6d1",
+        "value": -0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "% in June, owing to higher oil prices. **Thailand**: We expect CPI inflation to decline further to -0.9% y-o-y in August from -0.7% in July, led by lower raw food price inflation, reflecting falling m",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "6a4e662bc681aa9a",
+        "value": -0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "oil prices. **Thailand**: We expect CPI inflation to decline further to -0.9% y-o-y in August from -0.7% in July, led by lower raw food price inflation, reflecting falling meat and vegetable prices.We",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "0cd25a028eb3ef4c",
+        "value": 0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tion, reflecting falling meat and vegetable prices.We also expect core inflation to ease further to 0.7% from 0.8%, reflecting weak demand-side pressures amid tight financial conditions. **Philippines",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "43fe3f1936291b3d",
+        "value": 0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ecting falling meat and vegetable prices.We also expect core inflation to ease further to 0.7% from 0.8%, reflecting weak demand-side pressures amid tight financial conditions. **Philippines**: We exp",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "64df9a2ce97ad9f0",
+        "value": 0.013000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ide pressures amid tight financial conditions. **Philippines**: We expect CPI inflation to rise to 1.3% y-o-y in August from 0.9% in July,reflecting a combination of less favourable base effects, a pi",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "9a3bd353100c4b34",
+        "value": 0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "inancial conditions. **Philippines**: We expect CPI inflation to rise to 1.3% y-o-y in August from 0.9% in July,reflecting a combination of less favourable base effects, a pickup in vegetable prices a",
+        "provenance": {
+          "page": 12
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 2,
+      "tables_count": 0,
+      "numerical_data_count": 67,
+      "passages_count": 123,
+      "entities_count": 20
+    }
+  }
+}

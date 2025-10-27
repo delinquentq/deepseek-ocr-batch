@@ -1,0 +1,1667 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "d1a71a8a3a733b5579f152cfc780e20c",
+    "title": "J.P.Morgan",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/JPM/Ramsay Health CareRamsay Health Care_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:11:59.068502",
+      "extracted_at": "2025-10-26T12:11:59.068511"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 9,
+        "successful_pages": 9,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/JPM",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 3,
+          "removed_paragraphs": 4,
+          "reduction_ratio": 0.12707268979116249
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/JPM"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "01425888148fb4c1",
+      "text": "FY25 Result - First Take",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "bb4cfdea37cf6f91",
+      "text": "Continuing profit \\(5\\%\\) below forecast but \\(4\\%\\) beat to cons - driven by EUR operations and lower tax. The FY25 continuing operations result (EBIT) matched our forecast but the composition was disappointing with the Australian operation missing our forecast by \\(\\sim 5\\%\\) . The UK was also a miss due to a weaker result from Elysium. These results were offset by better numbers from Europe, the business which we expect to be sold. No meaningful guidance was provided for the operations but a new public hospital at Joondalup Hospital in WA is expected to reduce EBIT by \\(\\) 37m\\((- 6.4\\%)\\) of FY24 underlying AUS EBIT). This likely means a contraction in earnings from Australia in FY26. This will be partially offset by a\\) \\ \\(20m\\) lower Interest guidance compared to our forecast.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "fe20b0a95b6cdd1e",
+      "text": "Key positives. Operating cash flow better than we expected. Interest range reduced. Key negatives. Australian margins dropped and weaker outlook due to a lower contribution from public hospitals. UK miss due to Elysium falling short. Outlook and guidance. Australian business to grow EBIT in FY26, but negative annual impact to EBIT set to be \\(\\) 37m\\(. Interest guide scaled down to\\) \\ \\(600 - 620m\\) . Expected share price reaction. Down mid- single- digits.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "fa3b4773b4e77da4",
+      "text": "Figure 1: Ramsay Health Care - FY25 Result",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "7a41dee390099e65",
+      "text": "ASMFY24AFY25AFY25ADiff vs JPMFY25 %pthBBG consensusvs. ActualRevenue from services16,772.117,990.517,536.7-0.9%6.3%17,750.50.5%EBITDA2,125.72,191.92,159.4-1.4%1.6%2,185.0-1.2%D&A-1,128.1-1,147.8-1,116.8-2.7%-1.0%EBIT997.61,043.31,042.6-0.1%4.5%1,032.01.0%Finance costs (net)-613.0-601.9-604.40.4%-1.4%Income tax-121.3-150.7-55.5-63.2%-54.2%Monitors7.331.5-22.3-170.9%-405.5%NPAT - continuing276.6322.1363.3-3.2%12.8%293.54.8%Non recurring items618.1-263.8-281.36.6%-145.9%Statutory NPAT888.758.324.9-58.8%-87.3%EPS core (cpa)110.9132.5125.3-5.4%13.0%Dividend (cpa)80.084.080.0-4.8%-82.0-2.4%",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9e3a30a22d2244da",
+      "text": "Source: J.P. Morgan estimates, Company data, Bloomberg Finance L.P. consensus estimates.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "7f293964480d3efa",
+      "text": "RHC.AX,RHC AU Price (27 Aug 25):A\\$38.09 Price Target (Jun- 26):A\\$40.00",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4735f2e9aae38417",
+      "text": "Australia Australia Healthcare",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "446bc9585de3ec56",
+      "text": "J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "31c9d80ed29ef7ce",
+      "text": "Figure 2: Divisional revenue table - by segment in A$m",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "6044ce61b8208070",
+      "text": "A$mFY24AFY25eFY25ADiff vs JPMFY25 %gthRevenueAustralia6,042.36,352.06,311.9-0.6%4.5%UK2,360.82,687.32,661.7-1.0%12.7%France5,764.26,217.66,155.4-1.0%6.8%Nordics2,593.62,748.72,704.8-1.6%4.3%EBITDARAustralia813.1859.2828.1-3.6%1.8%UK318.4335.9328.7-2.2%3.2%France852.6865.9888.22.6%4.2%Nordics292.3282.3284.40.7%-2.7%EBITDAR marginAustralia13.5%13.5%13.1%-41 bps-34 bpsUK13.5%12.5%12.3%-15 bps-114 bpsFrance14.8%13.9%14.4%50 bps-36 bpsNordics11.3%10.3%10.5%24 bps-76 bps",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9dbcc3ced1894045",
+      "text": "Source: J.P. Morgan estimates, Company data.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "effd895856ba1f81",
+      "text": "Figure 3: Divisional revenue table - by segment in local currency",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "3b9911ff991a3aad",
+      "text": "FY24AFY25eFY25ADiff vs JPMFY25 %gthRevenueAustralia (A$m)6,0426,3526,311.9-0.6%4.5%UK (Em)1,2291,3231,330.70.6%8.3%Continental Europe (Em)5,0655,3355,242.0-1.7%3.5%EBITDARAustralia (A$m)813.1859.2829.1-3.5%2.0%UK (Em)165.8167.5161.2-3.7%-2.8%Continental Europe (Em)694.4682.2708.83.9%2.1%EBITDAR marginAustralia13.5%13.5%13.1%-39 bps-2.4%UK13.5%12.7%12.1%-55 bps-10.2%Continental Europe13.7%12.8%13.5%74 bps-1.4%",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "c3e6f14098cc90b8",
+      "text": "Source: J.P. Morgan estimates, Company data.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4d6ff6149b4c4ef0",
+      "text": "Ramsay Health Care offers a solid, wide- ranging portfolio of hospitals and healthcare assets located globally in Australia and Europe. The company was positioned to benefit from a full recovery post the pandemic, however the pathway has remained challenged with inflationary pressures, availability of labour and an overall shift in allocation of resources. The outlook for a recovery back to pre- pandemic levels is intact competitively, given Ramsay's solid premium portfolio of assets in a defensive industry, however the path over the near term may be difficult with insufficient funding and tariffs to meet costs. While we believe the worst has passed and challenges remain, there is some scope for upside with the strategic review of its underperforming European assets. Retain Neutral.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "11d53b37b3d34665",
+      "text": "Our Jun- 26 price target of A\\(40 is based on a DCF methodology (terminal growth assumption of 3.0%, WACC 7.7%, beta 1.0) with a five- year horizon, with our spot valuation rolled forward at the cost of equity, less any dividends paid between now and the price target date.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "da96fca85bad0534",
+      "text": "ValuationJun-26RHC AUBeta1.00Equity value (A$m)WACC7.7%Net debt (A$m)Terminal growth rate3.0%No. of shares (mil)Price Target (A$m)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "80e18063d91c21e9",
+      "text": "Source: J.P. Morgan estimates",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "36f07d9d4af144ab",
+      "text": "Analyst Certification: The Research Analyst(s) denoted by an \"AC\" on the cover of this report certifies (or, where multiple Research Analysts are primarily responsible for this report, the Research Analyst denoted by an \"AC\" on the cover or within the document individually certifies, with respect to each security or issuer that the Research Analyst covers in this research) that: (1) all of the views expressed in this report accurately reflect the Research Analyst's personal views about any and all of the subject securities or issuers; and (2) no part of any of the Research Analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the Research Analyst(s) in this report. For all Korea-based Research Analysts listed on the front cover, if applicable, they also certify, as per KOFIA requirements, that the Research Analyst's analysis was made in good faith and that the views reflect the Research Analyst's own opinion, without undue influence or intervention.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "19607f7e2c468dda",
+      "text": "All authors named within this report are Research Analysts who produce independent research unless otherwise specified. In Europe, Sector Specialists (Sales and Trading) may be shown on this report as contacts but are not authors of the report or part of the Research Department.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "cc3cdfb87924f893",
+      "text": "J.P. Morgan uses the following rating system: Overweight (over the duration of the price target indicated in this report, we expect this stock will outperform the average total return of the stocks in the Research Analyst's, or the Research Analyst's team's, coverage universe); Neutral (over the duration of the price target indicated in this report, we expect this stock will perform in line with the average total return of the stocks in the Research Analyst's, or the Research Analyst's team's, coverage universe); and Underweight (over the duration of the price target indicated in this report, we expect this stock will underperform the average total return of the stocks in the Research Analyst's, or the Research Analyst's team's, coverage universe. NR is Not Rated. In this case, J.P. Morgan has removed the rating and, if applicable, the price target, for this stock because of either a lack of a sufficient fundamental basis or for legal, regulatory or policy reasons. The previous rating and, if applicable, the",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "626a709fbb5e6358",
+      "text": "price target, no longer should be relied upon. An NR designation is not a recommendation or a rating. In Americas equity research, some stocks under coverage have a rating but no price target; in these cases, we expect the stock will outperform/perform in line/underperform the average total return of the stocks in the Research Analyst's, or the Research Analyst's team's, coverage universe over the next six to 12 months. In our Asia (ex-Australia and ex-India) and U.K. small- and mid-cap Equity Research, each stock's expected total return is compared to the expected total return of a benchmark country market index, not to those Research Analysts' coverage universe. If it does not appear in the Important Disclosures section of this report, the certifying Research Analyst's coverage universe can be found on J.P. Morgan's Research website, https://www.jpmorganmarkets.com.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "060bfe1f578b6d72",
+      "text": "Coverage Universe: Low, David: Ansell Limited (ANN.AX), CSL Limited (CSL.AX), Cochlear Limited (COH.AX), EBOS Group (EBO.AX), Fisher & Paykel Healthcare (FPH.NZ), Helaius Ltd (HLS.AX), Integral Diagnostics (IDX.AX), Mach7 Technologies (MT7.AX), Nanosonics Ltd (NAN.AX), Neuren Pharmaceuticals (NEU.AX), PolyNovo (PNV.AX), Pro Medicus (PME.AX), Ramsay Health Care (RHC.AX), Regis Healthcare (REG.AX), ResMed Inc (RMD), ResMed Inc - CDI (RMD.AX), Sonic Healthcare (SHL.AX), Telix Pharmaceuticals (TLX.AX)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2a7df1bc0b8e0cb5",
+      "text": "J.P. Morgan Equity Research Ratings Distribution, as of July 05, 2025",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6b488524c2bc0cd2",
+      "text": "Overweight (buy)Neutral (hold)Underweight (sell)J.P. Morgan Global Equity Research Coverage*50%37%13%IB clients**50%48%35%JPMS Equity Research Coverage*47%41%12%IB clients**72%69%51%",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e2eb4107007628d0",
+      "text": "\\*Please note that the percentages may not add to \\(100\\%\\) because of rounding. \\*\\*Percentage of subject companies within each of the \"buy,\" \"hold\" and \"sell\" categories for which J.P. Morgan has provided investment banking services within the previous 12 months.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4cdb9a28d4034b35",
+      "text": "For purposes of FINRA ratings distribution rules only, our Overweight rating falls into a buy rating category; our Neutral rating falls into a hold rating category; and our Underweight rating falls into a sell rating category. Please note that stocks with an NR designation are not included in the table above. This information is current as of the end of the most recent calendar quarter.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "900b512a75038d8b",
+      "text": "A history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & Commentary page of http://www.jpmorganmarkets.com where you can also search by analyst name, sector or financial instrument.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "bef1321098913d93",
+      "text": "Analysts' Compensation: The research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4fa491cb15367e61",
+      "text": "Registration of non- US Analysts: Unless otherwise noted, the non- US analysts listed on the front of this report are employees of non- US affiliates of J.P. Morgan Securities LLC, may not be registered as research analysts under FINRA rules, may not be associated persons of J.P. Morgan Securities LLC, and may not be subject to FINRA Rule 2241 or 2242 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "c82fea5d74eadfe9",
+      "text": "J.P. Morgan is a marketing name for investment banking businesses of JPMorgan Chase & Co. and its subsidiaries and affiliates worldwide.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "9cd9f6494cee7aeb",
+      "text": "UK MIFID FICC research unbundling exemption: UK clients should refer to UK MIFID Research Unbundling exemption for details of J.P. Morgan's implementation of the FICC research exemption and guidance on relevant FICC research categorisation.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "8e5793f46fbb7391",
+      "text": "All research material made available to clients are simultaneously available on our client website, J.P. Morgan Markets, unless specifically permitted by relevant laws. Not all research content is redistributed, e- mailed or made available to third- party aggregators. For all research material available on a particular stock, please contact your sales representative.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6207c3ee27ff31c4",
+      "text": "Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b0fbee2e57294515",
+      "text": "J.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or administered by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this report is intended to",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "13886a7dd41d3fbe",
+      "text": "be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such Sanctioned Securities. Clients should be aware of their own legal and compliance obligations when making investment decisions.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4722cf721a8d2817",
+      "text": "Any digital or crypto assets discussed in this research report are subject to a rapidly changing regulatory landscape. For relevant regulatory advisories on crypto assets, including bitcoin and ether, please see https://www.jpmorgan.com/disclosures/cryptoasset- disclosure.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "63d24a787fe7c84d",
+      "text": "The author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold themselves out as being able to do so.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "0d8598d9d19e3ed5",
+      "text": "Exchange- Traded Funds (ETFs): J.P. Morgan Securities LLC (\"JPMS\") acts as authorized participant for substantially all U.S.- listed ETFs. To the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction- based compensation in connection with the distribution of those ETF shares and may earn fees for performing other trade- related services, such as securities lending to short sellers of the ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or dealer to the ETFs. In addition, affiliates of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, index calculation and/or maintenance and other services.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a1e83eecfbdc7acf",
+      "text": "Options and Futures related research: If the information contained herein regards options- or futures- related research, such information is available only to persons who have received the proper options or futures risk disclosure documents. Please contact your J.P. Morgan Representative or visit https://www.theocc.com/components/docs/riskstoc.pdf for a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options or https://www.finra.org/sites/default/files/2020- 08/Security_Futures_Risk_Disclosure_Statement_2020.pdf for a copy of the Security Futures Risk Disclosure Statement.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "026bfade9f92ab72",
+      "text": "Changes to Interbank Offered Rates (IBORs) and other benchmark rates: Certain interest rate benchmarks are, or may in the future become, subject to ongoing international, national and other regulatory guidance, reform and proposals for reform. For more information, please consult: https://www.jpmorgan.com/global/disclosures/interbank_offered_rates",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "fc02b2317f334f87",
+      "text": "Private Bank Clients: Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its subsidiaries (\"J.P. Morgan Private Bank\"), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, including, but not limited to, the J.P. Morgan Corporate and Investment Bank and its Global Research division.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a6d23c84d849f4bf",
+      "text": "Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of this research. Where more than one legal entity is listed under an analyst's name, the first legal entity is responsible for the production unless stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated below in the legal entity disclosures, this material has been distributed by the legal entity responsible for production, or where more than one legal entity is listed under the analyst's name, the first legal entity will be responsible for distribution. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "abbef77a61562451",
+      "text": "Legal Entities Disclosures and Country- /Region- Specific Disclosures:",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a50ab410583e207d",
+      "text": "Argentina: JPMorgan Chase Bank N.A Sucursal Buenos Aires is regulated by Banco Central de la Republica Argentina (\"BCRA\"- Central Bank of Argentina) and Comision Nacional de Valores (\"CNV\"- Argentinian Securities Commission - ALYC y AN Integral N°51).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "dd5d377e922bd933",
+      "text": "Australia: J.P. Morgan Securities Australia Limited (\"JPMSAL\") (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the Australian Securities and Investments Commission and is a Market Participant of ASX Limited, a Clearing and Settlement Participant of ASX Clear Pty Limited and a Clearing Participant of ASX Clear (Futures) Pty Limited. This material is issued and distributed in Australia by or on behalf of JPMSAL only to \"wholesale clients\" (as defined in section 761G of the Corporations Act 2001). A list of all financial products covered can be found by visiting https://www.jpm.com/research/disclosures. J.P. Morgan seeks to cover companies of relevance to the domestic and international investor base across all Global Industry Classification Standard (GICS) sectors, as well as across a range of market capitalisation sizes. If applicable, in the course of conducting public side due diligence on the subject company(ies), the Research Analyst team may at times perform such diligence through corporate engagements such as site visits, discussions with company representatives, management presentations, etc. Research issued by JPMSAL has been prepared in accordance with J.P. Morgan Australia's Research Independence Policy which can be found at the following link: J.P. Morgan Australia - Research Independence Policy.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "28af3adaeb02e590",
+      "text": "Canada: J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Canadian Investment Regulatory Organization and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed in Canada by or on behalf of J.P. Morgan Securities Canada Inc.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "2e9a4282e5439c1f",
+      "text": "Chile: Inversiones J.P. Morgan Limitada is an unregulated entity incorporated in Chile.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "2b4f2785b52f002c",
+      "text": "China: J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy business.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "b726c2c7c56903c9",
+      "text": "Colombia: Banco J.P. Morgan Colombia S.A. is supervised by the Superintendencia Financiera de Colombia (SFC).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "fdbbbfbd2c44e46c",
+      "text": "Dubai International Financial Centre (DIFC): JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO Box 506551, Dubai, UAE. This material has been distributed by JPMorgan Chase Bank, N.A., Dubai Branch to persons regarded as professional clients or market counterparties as defined under the DFSA rules.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "13a8fa792fa0a430",
+      "text": "European Economic Area (EEA): Unless specified to the contrary, research is distributed in the EEA by J.P. Morgan SE (\"JPM SE\"), which is authorised as a credit institution by the Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and jointly supervised by the BaFin, the German Central Bank (Deutsche Bundesbank) and the European Central Bank (ECB). JPM SE is a company headquartered in Frankfurt with registered address at TaunusTurm, Taunustor 1, Frankfurt am Main, 60310, Germany. The material has been distributed in the EEA to persons regarded as professional investors (or equivalent) pursuant to Art. 4 para. 1 no. 10 and Annex II of MiFID II and its respective implementation in their home jurisdictions (\"EEA professional investors\"). This material must not be acted on or relied on by persons who are not EEA professional investors. Any investment or investment activity to which this material relates is only available to EEA relevant persons and will be engaged in only with EEA relevant persons.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9a1ba67fd338ce16",
+      "text": "Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is regulated by the Securities and Futures Commission in Hong Kong. J.P. Morgan Chase Bank, N.A., Hong Kong Branch (CE Number AAL996) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission, is organized under the laws of the United States with limited liability. Where the distribution of this material is a regulated activity in Hong Kong, the material is distributed in Hong Kong by or through J.P. Morgan Securities (Asia Pacific) Limited and/or J.P. Morgan Broking (Hong Kong) Limited.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "330f394658eca004",
+      "text": "Indonesia: PT J.P. Morgan Sekuritas Indonesia is a member of the Indonesia Stock Exchange and is registered and supervised by the Otoritas Jasa Keuangan (OJK).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "47ba17f8bb8b9e78",
+      "text": "Korea: J.P. Morgan Securities (Far East) Limited, Seoul Branch, is a member of the Korea Exchange (KRX). JPMorgan Chase Bank, N.A., Seoul Branch, is licensed as a branch office of foreign bank (JPMorgan Chase Bank, N.A.) in Korea. Both entities are regulated by the Financial Services Commission (FSC) and the Financial Supervisory Service (FSS). For non- macro research material, the material is distributed in Korea by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "383bbcbcf0237c69",
+      "text": "Japan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services Agency in Japan.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c8a4972475a6942f",
+      "text": "Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146- X), which is a Participating Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission in Malaysia.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "fd626d5d7836ef57",
+      "text": "Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V. and J.P. Morgan Grupo Financiero are members of the Mexican Stock Exchange and are authorized to act as a broker dealer by the National Banking and Securities Exchange Commission.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1eb33268c8ae7b70",
+      "text": "New Zealand: This material is issued and distributed by JPMSAI in New Zealand only to \"wholesale clients\" (as defined in the Financial Markets Conduct Act 2013). JPMSAI is registered as a Financial Service Provider under the Financial Service providers (Registration and Dispute Resolution) Act of 2008.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "ac6ec3eabaa4616c",
+      "text": "Philippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the Securities Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and Exchange Commission.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "714209e9e2b4a2ab",
+      "text": "Singapore: This material is issued and distributed in Singapore by or through J.P. Morgan Securities Singapore Private Limited (JPMSS) [MDDI (P) 057/08/2025 and Co. Reg. No.: 199405335R], which is a member of the Singapore Exchange Securities Trading Limited, and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore), both of which are regulated by the Monetary Authority of Singapore. This material is issued and distributed in Singapore only to accredited investors, expert investors and institutional investors, as defined in Section 4A of the Securities and Futures Act, Cap. 289 (SFA). This material is not intended to be issued or distributed to any retail investors or any other investors that do not fall into the classes of \"accredited investors,\" \"expert investors\" or \"institutional investors,\" as defined under Section 4A of",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "12cae5d2c3efdff0",
+      "text": "the SFA. Recipients of this material in Singapore are to contact JPMSS or JPMCB Singapore in respect of any matters arising from, or in connection with, the material.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "cff9d6e27a0c0066",
+      "text": "South Africa: J.P. Morgan Equities South Africa Proprietary Limited and JPMorgan Chase Bank, N.A., Johannesburg Branch are members of the Johannesburg Securities Exchange and are regulated by the Financial Services Conduct Authority (FSCA).",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7fc3f4c8a5e29484",
+      "text": "Taiwan: J.P. Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company- type) and regulated by the Taiwan Securities and Futures Bureau. Material relating to equity securities is issued and distributed in Taiwan by J.P. Morgan Securities (Taiwan) Limited, subject to the license scope and the applicable laws and the regulations in Taiwan. To the extent that J.P. Morgan Securities (Taiwan) Limited produces research materials on securities not listed on the Taiwan Stock Exchange or Taipei Exchange (\"Non- Taiwan Listed Securities\"), these materials shall not constitute securities recommendations for the purpose of applicable Taiwan regulations, and, for the avoidance of doubt, J.P. Morgan Securities (Taiwan) Limited does not act as broker for Non- Taiwan Listed Securities. According to Paragraph 2, Article 7- 1 of Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers (as amended or supplemented) and/or other applicable laws or regulations, please note that the recipient of this material is not permitted to engage in any activities in connection with the material that may give rise to conflicts of interests, unless otherwise disclosed in the \"Important Disclosures\" in this material.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "44c745082549f5ff",
+      "text": "Thailand: This material is issued and distributed in Thailand by JPMorgan Securities (Thailand) Ltd., which is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission, and its registered address is 3rd Floor, 20 North Sathorn Road, Silom, Bangrak, Bangkok 10500.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0cc0fb663f21d1e1",
+      "text": "UK: Research is produced in the UK by J.P. Morgan Securities plc (\"JPMs plc\") which is a member of the London Stock Exchange and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority or J.P. Morgan Markets Limited (\"JPMML Ltd\") which is authorised and regulated by the Financial Conduct Authority. Unless specified to the contrary, this material is distributed in the UK by JPMs plc and is directed in the UK only to: (a) persons having professional experience in matters relating to investments falling within article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) (Order) 2005 (\"the FPO\"); (b) persons outlined in article 49 of the FPO (high net worth companies, unincorporated associations or partnerships, the trustees of high value trusts, etc.); or (c) any persons to whom this communication may otherwise lawfully be made; all such persons being referred to as \"UK relevant persons\". This material must not be acted on or relied on by persons who are not UK relevant persons. Any investment or investment activity to which this material relates is only available to UK relevant persons and will be engaged in only with UK relevant persons. A description of J.P. Morgan EMEA's policy for prevention and avoidance of conflicts of interest related to the production of Research can be found at the following link: J.P. Morgan EMEA - Research Independence Policy.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e2c3e4a5b19ea00e",
+      "text": "U.S.: J.P. Morgan Securities LLC (\"JPMs\") is a member of the NYSE, FINRA, SIPC, and the NFA. JPMorgan Chase Bank, N.A. is a member of the FDIC. Material published by non- U.S. affiliates is distributed in the U.S. by JPMs who accepts responsibility for its content.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0ac5b392f5a3423c",
+      "text": "General: Additional information is available upon request. The information in this material has been obtained from sources believed to be reliable. While all reasonable care has been taken to ensure that the facts stated in this material are accurate and that the forecasts, opinions and expectations contained herein are fair and reasonable, JPMorgan Chase & Co. or its affiliates and/or subsidiaries (collectively J.P. Morgan) make no representations or warranties whatsoever to the completeness or accuracy of the material provided, except with respect to any disclosures relative to J.P. Morgan and the Research Analyst's involvement with the issuer that is the subject of the material. Accordingly, no reliance should be placed on the accuracy, fairness or completeness of the information contained in this material. There may be certain discrepancies with data and/or limited content in this material as a result of calculations, adjustments, translations to different languages, and/or local regulatory restrictions, as applicable. These discrepancies should not impact the overall investment analysis, views and/or recommendations of the subject company(ies) that may be discussed in the material. Artificial intelligence tools may have been used in the preparation of this material, including assisting in data analysis, pattern recognition, and content drafting for research material. J.P. Morgan accepts no liability whatsoever for any loss arising from any use of this material or its contents, and neither J.P. Morgan nor any of its respective directors, officers or employees, shall be in any way responsible for the contents hereof, apart from the liabilities and responsibilities that may be imposed on them by the relevant regulatory authority in the jurisdiction in question, or the regulatory regime thereunder. Opinions, forecasts or projections contained in this material represent J.P. Morgan's current opinions or judgment as of the date of the material only and are therefore subject to change without notice. Periodic updates may be provided on companies/industries based on company- specific developments or announcements, market conditions or any other publicly available information. There can be no assurance that future results or events will be consistent with any such opinions, forecasts or projections, which represent only one possible outcome. Furthermore, such opinions, forecasts or projections are subject to certain risks, uncertainties and assumptions that have not been verified, and future actual results or events could differ materially. The value of, or income from, any investments referred to in this material may fluctuate and/or be affected by changes in exchange rates. All pricing is indicative as of the close of market for the securities discussed, unless otherwise stated. Past performance is not indicative of future results. Accordingly, investors may receive back less than originally invested. This material is not intended as an offer or solicitation for the purchase or sale of any financial instrument. The opinions and recommendations herein do not take into account individual client circumstances, objectives, or needs and are not intended as recommendations of particular securities, financial instruments or strategies to particular clients. This material may include views on structured securities, options, futures and other derivatives. These are complex instruments, may involve a high degree of risk and may be appropriate investments only for sophisticated investors who are capable of understanding and assuming the risks involved. The recipients of this material must make their own independent decisions regarding any securities or financial instruments mentioned herein and should seek advice from such independent financial, legal, tax or other adviser as they deem necessary. J.P. Morgan may trade as a principal on the basis of the Research Analysts' views and research, and it may also engage in transactions for its own account or for its clients' accounts in a",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7e20f52daabe6f9b",
+      "text": "manner inconsistent with the views taken in this material, and J.P. Morgan is under no obligation to ensure that such other communication is brought to the attention of any recipient of this material. Others within J.P. Morgan, including Strategists, Sales staff and other Research Analysts, may take views that are inconsistent with those taken in this material. Employees of J.P. Morgan not involved in the preparation of this material may have investments in the securities (or derivatives of such securities) mentioned in this material and may trade them in ways different from those discussed in this material. This material is not an advertisement for or marketing of any issuer, its products or services, or its securities in any jurisdiction.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "674598be993ab918",
+      "text": "Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "a83cd63e409cf492",
+      "text": "MSCI: Certain information herein (\"Information\") is reproduced by permission of MSCI Inc., its affiliates and information providers (\"MSCI\") ©2025. No reproduction or dissemination of the Information is permitted without an appropriate license. MSCI MAKES NO EXPRESS OR IMPLIED WARRANTIES (INCLUDING MERCHANTABILITY OR FITNESS) AS TO THE INFORMATION AND DISCLAIMS ALL LIABILITY TO THE EXTENT PERMITTED BY LAW. No Information constitutes investment advice, except for any applicable Information from MSCI ESG Research. Subject also to mscicom/disclaimer",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2d0ef45f3777a938",
+      "text": "Sustainalytics: Certain information, data, analyses and opinions contained herein are reproduced by permission of Sustainalytics and: (1) includes the proprietary information of Sustainalytics; (2) may not be copied or redistributed except as specifically authorized; (3) do not constitute investment advice nor an endorsement of any product or project; (4) are provided solely for informational purposes; and (5) are not warranted to be complete, accurate or timely. Sustainalytics is not responsible for any trading decisions, damages or other losses related to it or its use. The use of the data is subject to conditions available at https://www.sustainalytics.com/legal- disclaimers. ©2025 Sustainalytics. All Rights Reserved.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e6a4e2efaeffd295",
+      "text": "\"Other Disclosures\" last revised August 02, 2025.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "80168acd156d7655",
+      "text": "Copyright 2025 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third- party (\"J.P. Morgan Data\") in any third- party artificial intelligence (\"AI\") systems or models when such J.P. Morgan Data is accessible by a third- party. It is permissible to use J.P. Morgan Data for internal business purposes only in an AI system or model that protects the confidentiality of J.P. Morgan Data so as to prevent any and all access to or use of such J.P. Morgan Data by any third- party.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e965d12a847eccf4",
+      "text": "Completed 28 Aug 2025 10:25 AM AEST",
+      "page": 8,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "39648bedcf2f4a19",
+      "name": "AFS Licence",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0e89cfc2054df5ce",
+      "name": "AN Integral",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0ef0c39c126f6fa4",
+      "name": "ASX Clear",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cc3137194d646091",
+      "name": "ASX Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a416231886f0fa52",
+      "name": "All Rights",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "783f70a024710eb5",
+      "name": "An NR",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "517917b86efb07cf",
+      "name": "Analyst Certification",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21cd74fee7a13752",
+      "name": "Annex II",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a7db987e8c43ec70",
+      "name": "Ansell Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f4758147dc564ecb",
+      "name": "Argentinian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a2c1eb0e1d1e7784",
+      "name": "Australia Australia",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "babb54828c5096a2",
+      "name": "Australia Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bc98bb53ad7f2a24",
+      "name": "Australian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "34925fcaabe8def5",
+      "name": "Banco Central",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6f7f625bd90b9fa5",
+      "name": "Bloomberg Finance",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "81119df9d2108575",
+      "name": "Bursa Malaysia",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03898be786b38f70",
+      "name": "CE Number",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b69efeab9b1bfc3f",
+      "name": "CSL Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "13eec11f9f77d58d",
+      "name": "Canada Inc",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": "Ramsay Health Care (RHC.AX, RHC AU) Price Chart",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "Sep 22",
+              "Jan 23",
+              "May 23",
+              "Sep 23",
+              "Jan 24",
+              "May 24",
+              "Sep 24",
+              "Jan 25",
+              "May 25"
+            ]
+          },
+          "y": {
+            "unit": "A$",
+            "range": {
+              "min": 20,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Price",
+            "unit": "A$",
+            "values": [
+              70.21,
+              67.91,
+              63.7,
+              61.87,
+              48.71,
+              54.91,
+              56.27,
+              47.11,
+              44.56,
+              36.18
+            ]
+          },
+          {
+            "name": "Price Target",
+            "unit": "A$",
+            "values": [
+              71,
+              75.5,
+              76,
+              71,
+              60,
+              57.5,
+              50,
+              50,
+              43,
+              40
+            ]
+          }
+        ],
+        "figure_id": "15b0b6e5f8090dc2",
+        "provenance": {
+          "page": 4
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "cd459133320629bc",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Result <table><tr><td>ASM</td><td>FY24A</td><td>FY25A</td><td>FY25A</td><td>Diff vs JPM</td><td>FY25 %pth</td><td>BBG consensus</td><td>vs. Actual</td></tr><tr><td>Revenue from services</td><td>16,772",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a10fee6a63cc4a5e",
+        "value": -0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "l</td></tr><tr><td>Revenue from services</td><td>16,772.1</td><td>17,990.5</td><td>17,536.7</td><td>-0.9%</td><td>6.3%</td><td>17,750.5</td><td>0.5%</td></tr><tr><td>EBITDA</td><td>2,125.7</td><td>2,1",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "4d4d7be6a2c5dbcb",
+        "value": 0.063,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Revenue from services</td><td>16,772.1</td><td>17,990.5</td><td>17,536.7</td><td>-0.9%</td><td>6.3%</td><td>17,750.5</td><td>0.5%</td></tr><tr><td>EBITDA</td><td>2,125.7</td><td>2,191.9</td><td>2",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5f429671a2f6a0cd",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>16,772.1</td><td>17,990.5</td><td>17,536.7</td><td>-0.9%</td><td>6.3%</td><td>17,750.5</td><td>0.5%</td></tr><tr><td>EBITDA</td><td>2,125.7</td><td>2,191.9</td><td>2,159.4</td><td>-1.4%</td><td>1",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "9280a019700a1499",
+        "value": -0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ",750.5</td><td>0.5%</td></tr><tr><td>EBITDA</td><td>2,125.7</td><td>2,191.9</td><td>2,159.4</td><td>-1.4%</td><td>1.6%</td><td>2,185.0</td><td>-1.2%</td></tr><tr><td>D&A</td><td>-1,128.1</td><td>-1,14",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "cbe2dd6521a65e05",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0.5%</td></tr><tr><td>EBITDA</td><td>2,125.7</td><td>2,191.9</td><td>2,159.4</td><td>-1.4%</td><td>1.6%</td><td>2,185.0</td><td>-1.2%</td></tr><tr><td>D&A</td><td>-1,128.1</td><td>-1,147.8</td><td>-1",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "093807f6652e4db8",
+        "value": -0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>2,125.7</td><td>2,191.9</td><td>2,159.4</td><td>-1.4%</td><td>1.6%</td><td>2,185.0</td><td>-1.2%</td></tr><tr><td>D&A</td><td>-1,128.1</td><td>-1,147.8</td><td>-1,116.8</td><td>-2.7%</td><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5784e7141ac24434",
+        "value": -0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "185.0</td><td>-1.2%</td></tr><tr><td>D&A</td><td>-1,128.1</td><td>-1,147.8</td><td>-1,116.8</td><td>-2.7%</td><td>-1.0%</td><td></td><td></td></tr><tr><td>EBIT</td><td>997.6</td><td>1,043.3</td><td>1,",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "388b1fc585d80af9",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-1.2%</td></tr><tr><td>D&A</td><td>-1,128.1</td><td>-1,147.8</td><td>-1,116.8</td><td>-2.7%</td><td>-1.0%</td><td></td><td></td></tr><tr><td>EBIT</td><td>997.6</td><td>1,043.3</td><td>1,042.6</td><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5bc999770e439712",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-1.0%</td><td></td><td></td></tr><tr><td>EBIT</td><td>997.6</td><td>1,043.3</td><td>1,042.6</td><td>-0.1%</td><td>4.5%</td><td>1,032.0</td><td>1.0%</td></tr><tr><td>Finance costs (net)</td><td>-613.0<",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "730a5023aeed6626",
+        "value": 0.045,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td></tr><tr><td>EBIT</td><td>997.6</td><td>1,043.3</td><td>1,042.6</td><td>-0.1%</td><td>4.5%</td><td>1,032.0</td><td>1.0%</td></tr><tr><td>Finance costs (net)</td><td>-613.0</td><td>-601.9",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "db20ea70d49c0cb9",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "IT</td><td>997.6</td><td>1,043.3</td><td>1,042.6</td><td>-0.1%</td><td>4.5%</td><td>1,032.0</td><td>1.0%</td></tr><tr><td>Finance costs (net)</td><td>-613.0</td><td>-601.9</td><td>-604.4</td><td>0.4%<",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7de65c1ce9cf6d64",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>1.0%</td></tr><tr><td>Finance costs (net)</td><td>-613.0</td><td>-601.9</td><td>-604.4</td><td>0.4%</td><td>-1.4%</td><td></td><td></td></tr><tr><td>Income tax</td><td>-121.3</td><td>-150.7</td><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c3039b6bf41e08dd",
+        "value": -0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>Finance costs (net)</td><td>-613.0</td><td>-601.9</td><td>-604.4</td><td>0.4%</td><td>-1.4%</td><td></td><td></td></tr><tr><td>Income tax</td><td>-121.3</td><td>-150.7</td><td>-55.5</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "470d45ba8e42313d",
+        "value": -0.632,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td></td><td></td></tr><tr><td>Income tax</td><td>-121.3</td><td>-150.7</td><td>-55.5</td><td>-63.2%</td><td>-54.2%</td><td></td><td></td></tr><tr><td>Monitors</td><td>7.3</td><td>31.5</td><td>-",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "47e4f384285c3027",
+        "value": -0.542,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td></td></tr><tr><td>Income tax</td><td>-121.3</td><td>-150.7</td><td>-55.5</td><td>-63.2%</td><td>-54.2%</td><td></td><td></td></tr><tr><td>Monitors</td><td>7.3</td><td>31.5</td><td>-22.3</td><td>-1",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a3ee0e31df1176dc",
+        "value": -1.709,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-54.2%</td><td></td><td></td></tr><tr><td>Monitors</td><td>7.3</td><td>31.5</td><td>-22.3</td><td>-170.9%</td><td>-405.5%</td><td></td><td></td></tr><tr><td>NPAT - continuing</td><td>276.6</td><td>3",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "affc459a38925d10",
+        "value": -4.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td></tr><tr><td>Monitors</td><td>7.3</td><td>31.5</td><td>-22.3</td><td>-170.9%</td><td>-405.5%</td><td></td><td></td></tr><tr><td>NPAT - continuing</td><td>276.6</td><td>322.1</td><td>363",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "fc5bfbc9a0708378",
+        "value": -0.032,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td><td></td></tr><tr><td>NPAT - continuing</td><td>276.6</td><td>322.1</td><td>363.3</td><td>-3.2%</td><td>12.8%</td><td>293.5</td><td>4.8%</td></tr><tr><td>Non recurring items</td><td>618.1</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "1e71c66679d06860",
+        "value": 0.128,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>NPAT - continuing</td><td>276.6</td><td>322.1</td><td>363.3</td><td>-3.2%</td><td>12.8%</td><td>293.5</td><td>4.8%</td></tr><tr><td>Non recurring items</td><td>618.1</td><td>-263.8</",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ca0eee123c2c76eb",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tinuing</td><td>276.6</td><td>322.1</td><td>363.3</td><td>-3.2%</td><td>12.8%</td><td>293.5</td><td>4.8%</td></tr><tr><td>Non recurring items</td><td>618.1</td><td>-263.8</td><td>-281.3</td><td>6.6%</",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a4fd4c5d689714ff",
+        "value": 0.066,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>4.8%</td></tr><tr><td>Non recurring items</td><td>618.1</td><td>-263.8</td><td>-281.3</td><td>6.6%</td><td>-145.9%</td><td></td><td></td></tr><tr><td>Statutory NPAT</td><td>888.7</td><td>58.3</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "21ee909d88f5d29b",
+        "value": -1.459,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>Non recurring items</td><td>618.1</td><td>-263.8</td><td>-281.3</td><td>6.6%</td><td>-145.9%</td><td></td><td></td></tr><tr><td>Statutory NPAT</td><td>888.7</td><td>58.3</td><td>24.9</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a13f58dfac068c0c",
+        "value": -0.588,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td></td><td></td></tr><tr><td>Statutory NPAT</td><td>888.7</td><td>58.3</td><td>24.9</td><td>-58.8%</td><td>-87.3%</td><td></td><td></td></tr><tr><td>EPS core (cpa)</td><td>110.9</td><td>132.5<",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "191f64d79190893f",
+        "value": -0.873,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td></td></tr><tr><td>Statutory NPAT</td><td>888.7</td><td>58.3</td><td>24.9</td><td>-58.8%</td><td>-87.3%</td><td></td><td></td></tr><tr><td>EPS core (cpa)</td><td>110.9</td><td>132.5</td><td>125.3</",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a4fccbdb3aaa680f",
+        "value": -0.054000000000000006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td><td></td></tr><tr><td>EPS core (cpa)</td><td>110.9</td><td>132.5</td><td>125.3</td><td>-5.4%</td><td>13.0%</td><td></td><td></td></tr><tr><td>Dividend (cpa)</td><td>80.0</td><td>84.0</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "42f3d1983d0266c6",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></td></tr><tr><td>EPS core (cpa)</td><td>110.9</td><td>132.5</td><td>125.3</td><td>-5.4%</td><td>13.0%</td><td></td><td></td></tr><tr><td>Dividend (cpa)</td><td>80.0</td><td>84.0</td><td>80.0</td><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7a487ec03c116850",
+        "value": -0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0%</td><td></td><td></td></tr><tr><td>Dividend (cpa)</td><td>80.0</td><td>84.0</td><td>80.0</td><td>-4.8%</td><td>-</td><td>82.0</td><td>-2.4%</td></tr></table> Source: J.P. Morgan estimates, Company ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "1bf5ffe900e8ba57",
+        "value": -0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Dividend (cpa)</td><td>80.0</td><td>84.0</td><td>80.0</td><td>-4.8%</td><td>-</td><td>82.0</td><td>-2.4%</td></tr></table> Source: J.P. Morgan estimates, Company data, Bloomberg Finance L.P. consensu",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c4f3b459ac7e84d6",
+        "value": 38.09,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ny data, Bloomberg Finance L.P. consensus estimates. ## Neutral RHC.AX,RHC AU Price (27 Aug 25):A\\$38.09 Price Target (Jun- 26):A\\$40.00 ![Figure 0-1](images/0_1.jpg) Australia Australia Healthcare ##",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c8365a2e50b989ff",
+        "value": 40.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "consensus estimates. ## Neutral RHC.AX,RHC AU Price (27 Aug 25):A\\$38.09 Price Target (Jun- 26):A\\$40.00 ![Figure 0-1](images/0_1.jpg) Australia Australia Healthcare ## See page 4 for analyst certific",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d967e9f61f6c4411",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "in A$m <table><tr><td>A$m</td><td>FY24A</td><td>FY25e</td><td>FY25A</td><td>Diff vs JPM</td><td>FY25 %gth</td></tr><tr><td>Revenue</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Austral",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "13afc6fefbf15c86",
+        "value": -0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td><td></td></tr><tr><td>Australia</td><td>6,042.3</td><td>6,352.0</td><td>6,311.9</td><td>-0.6%</td><td>4.5%</td></tr><tr><td>UK</td><td>2,360.8</td><td>2,687.3</td><td>2,661.7</td><td>-1.0%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e7e69a4ad1441015",
+        "value": 0.045,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td></tr><tr><td>Australia</td><td>6,042.3</td><td>6,352.0</td><td>6,311.9</td><td>-0.6%</td><td>4.5%</td></tr><tr><td>UK</td><td>2,360.8</td><td>2,687.3</td><td>2,661.7</td><td>-1.0%</td><td>12.7%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "dee2108f9615d6a8",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>-0.6%</td><td>4.5%</td></tr><tr><td>UK</td><td>2,360.8</td><td>2,687.3</td><td>2,661.7</td><td>-1.0%</td><td>12.7%</td></tr><tr><td>France</td><td>5,764.2</td><td>6,217.6</td><td>6,155.4</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "81293a3fc001442b",
+        "value": 0.127,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>4.5%</td></tr><tr><td>UK</td><td>2,360.8</td><td>2,687.3</td><td>2,661.7</td><td>-1.0%</td><td>12.7%</td></tr><tr><td>France</td><td>5,764.2</td><td>6,217.6</td><td>6,155.4</td><td>-1.0%</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7bfd6e2cc8e45fd9",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-1.0%</td><td>12.7%</td></tr><tr><td>France</td><td>5,764.2</td><td>6,217.6</td><td>6,155.4</td><td>-1.0%</td><td>6.8%</td></tr><tr><td>Nordics</td><td>2,593.6</td><td>2,748.7</td><td>2,704.8</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8c10b5758bc09379",
+        "value": 0.068,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "12.7%</td></tr><tr><td>France</td><td>5,764.2</td><td>6,217.6</td><td>6,155.4</td><td>-1.0%</td><td>6.8%</td></tr><tr><td>Nordics</td><td>2,593.6</td><td>2,748.7</td><td>2,704.8</td><td>-1.6%</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f3f1f947ba8ead2c",
+        "value": -0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-1.0%</td><td>6.8%</td></tr><tr><td>Nordics</td><td>2,593.6</td><td>2,748.7</td><td>2,704.8</td><td>-1.6%</td><td>4.3%</td></tr><tr><td>EBITDAR</td><td></td><td></td><td></td><td></td><td></td></tr><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3ef232f9e3d18bb5",
+        "value": 0.043,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6.8%</td></tr><tr><td>Nordics</td><td>2,593.6</td><td>2,748.7</td><td>2,704.8</td><td>-1.6%</td><td>4.3%</td></tr><tr><td>EBITDAR</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Australi",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7db87917671394ae",
+        "value": -0.036000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td></td><td></td><td></td></tr><tr><td>Australia</td><td>813.1</td><td>859.2</td><td>828.1</td><td>-3.6%</td><td>1.8%</td></tr><tr><td>UK</td><td>318.4</td><td>335.9</td><td>328.7</td><td>-2.2%</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4c3641d16f59bb7a",
+        "value": 0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td></tr><tr><td>Australia</td><td>813.1</td><td>859.2</td><td>828.1</td><td>-3.6%</td><td>1.8%</td></tr><tr><td>UK</td><td>318.4</td><td>335.9</td><td>328.7</td><td>-2.2%</td><td>3.2%</td></",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4f08d4228a4a1798",
+        "value": -0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".1</td><td>-3.6%</td><td>1.8%</td></tr><tr><td>UK</td><td>318.4</td><td>335.9</td><td>328.7</td><td>-2.2%</td><td>3.2%</td></tr><tr><td>France</td><td>852.6</td><td>865.9</td><td>888.2</td><td>2.6%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "581a51cb9f2eedb1",
+        "value": 0.032,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6%</td><td>1.8%</td></tr><tr><td>UK</td><td>318.4</td><td>335.9</td><td>328.7</td><td>-2.2%</td><td>3.2%</td></tr><tr><td>France</td><td>852.6</td><td>865.9</td><td>888.2</td><td>2.6%</td><td>4.2%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "999f686c79dcdee8",
+        "value": 0.026000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>-2.2%</td><td>3.2%</td></tr><tr><td>France</td><td>852.6</td><td>865.9</td><td>888.2</td><td>2.6%</td><td>4.2%</td></tr><tr><td>Nordics</td><td>292.3</td><td>282.3</td><td>284.4</td><td>0.7%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "eed5d8d4638a837e",
+        "value": 0.042,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>3.2%</td></tr><tr><td>France</td><td>852.6</td><td>865.9</td><td>888.2</td><td>2.6%</td><td>4.2%</td></tr><tr><td>Nordics</td><td>292.3</td><td>282.3</td><td>284.4</td><td>0.7%</td><td>-2.7%</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "54a6ce50d8d6874a",
+        "value": 0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>2.6%</td><td>4.2%</td></tr><tr><td>Nordics</td><td>292.3</td><td>282.3</td><td>284.4</td><td>0.7%</td><td>-2.7%</td></tr><tr><td>EBITDAR margin</td><td></td><td></td><td></td><td></td><td></td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "118c70354f57fd5f",
+        "value": -0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>4.2%</td></tr><tr><td>Nordics</td><td>292.3</td><td>282.3</td><td>284.4</td><td>0.7%</td><td>-2.7%</td></tr><tr><td>EBITDAR margin</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d00525693e445016",
+        "value": 0.135,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>EBITDAR margin</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Australia</td><td>13.5%</td><td>13.5%</td><td>13.1%</td><td>-41 bps</td><td>-34 bps</td></tr><tr><td>UK</td><td>13.5%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9e7d0a956a7f30de",
+        "value": 0.135,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "argin</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Australia</td><td>13.5%</td><td>13.5%</td><td>13.1%</td><td>-41 bps</td><td>-34 bps</td></tr><tr><td>UK</td><td>13.5%</td><td>12.5%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "fd1d1a80f7e24512",
+        "value": 0.131,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td><td></td><td></td><td></td></tr><tr><td>Australia</td><td>13.5%</td><td>13.5%</td><td>13.1%</td><td>-41 bps</td><td>-34 bps</td></tr><tr><td>UK</td><td>13.5%</td><td>12.5%</td><td>12.3%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f52fac3af46c05f0",
+        "value": 0.135,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>13.5%</td><td>13.5%</td><td>13.1%</td><td>-41 bps</td><td>-34 bps</td></tr><tr><td>UK</td><td>13.5%</td><td>12.5%</td><td>12.3%</td><td>-15 bps</td><td>-114 bps</td></tr><tr><td>France</td><td>1",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "edada7582aba7215",
+        "value": 0.125,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>13.5%</td><td>13.1%</td><td>-41 bps</td><td>-34 bps</td></tr><tr><td>UK</td><td>13.5%</td><td>12.5%</td><td>12.3%</td><td>-15 bps</td><td>-114 bps</td></tr><tr><td>France</td><td>14.8%</td><td>1",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "be34b64e1ada895a",
+        "value": 0.12300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>13.1%</td><td>-41 bps</td><td>-34 bps</td></tr><tr><td>UK</td><td>13.5%</td><td>12.5%</td><td>12.3%</td><td>-15 bps</td><td>-114 bps</td></tr><tr><td>France</td><td>14.8%</td><td>13.9%</td><td>1",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "cfacd602cab832b3",
+        "value": 0.14800000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">13.5%</td><td>12.5%</td><td>12.3%</td><td>-15 bps</td><td>-114 bps</td></tr><tr><td>France</td><td>14.8%</td><td>13.9%</td><td>14.4%</td><td>50 bps</td><td>-36 bps</td></tr><tr><td>Nordics</td><td>11",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "afc1ef82e67f3cfd",
+        "value": 0.139,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">12.5%</td><td>12.3%</td><td>-15 bps</td><td>-114 bps</td></tr><tr><td>France</td><td>14.8%</td><td>13.9%</td><td>14.4%</td><td>50 bps</td><td>-36 bps</td></tr><tr><td>Nordics</td><td>11.3%</td><td>10",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f598531955bb7e6e",
+        "value": 0.14400000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">12.3%</td><td>-15 bps</td><td>-114 bps</td></tr><tr><td>France</td><td>14.8%</td><td>13.9%</td><td>14.4%</td><td>50 bps</td><td>-36 bps</td></tr><tr><td>Nordics</td><td>11.3%</td><td>10.3%</td><td>10",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c497d579e789ab1a",
+        "value": 0.113,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>14.8%</td><td>13.9%</td><td>14.4%</td><td>50 bps</td><td>-36 bps</td></tr><tr><td>Nordics</td><td>11.3%</td><td>10.3%</td><td>10.5%</td><td>24 bps</td><td>-76 bps</td></tr></table> Source: J.P. Morg",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b9582176e3472d1e",
+        "value": 0.10300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>13.9%</td><td>14.4%</td><td>50 bps</td><td>-36 bps</td></tr><tr><td>Nordics</td><td>11.3%</td><td>10.3%</td><td>10.5%</td><td>24 bps</td><td>-76 bps</td></tr></table> Source: J.P. Morgan estimates, ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f535b9c552315af1",
+        "value": 0.105,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>14.4%</td><td>50 bps</td><td>-36 bps</td></tr><tr><td>Nordics</td><td>11.3%</td><td>10.3%</td><td>10.5%</td><td>24 bps</td><td>-76 bps</td></tr></table> Source: J.P. Morgan estimates, Company data. ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "990d97b651fd9e69",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "l currency <table><tr><td></td><td>FY24A</td><td>FY25e</td><td>FY25A</td><td>Diff vs JPM</td><td>FY25 %gth</td></tr><tr><td>Revenue</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Austra",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a01c314a7fcd37b3",
+        "value": -0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td><td></td></tr><tr><td>Australia (A$m)</td><td>6,042</td><td>6,352</td><td>6,311.9</td><td>-0.6%</td><td>4.5%</td></tr><tr><td>UK (Em)</td><td>1,229</td><td>1,323</td><td>1,330.7</td><td>0.6%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "268efc9bf4b93063",
+        "value": 0.045,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>Australia (A$m)</td><td>6,042</td><td>6,352</td><td>6,311.9</td><td>-0.6%</td><td>4.5%</td></tr><tr><td>UK (Em)</td><td>1,229</td><td>1,323</td><td>1,330.7</td><td>0.6%</td><td>8.3%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9c3e5c4a98235ddc",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-0.6%</td><td>4.5%</td></tr><tr><td>UK (Em)</td><td>1,229</td><td>1,323</td><td>1,330.7</td><td>0.6%</td><td>8.3%</td></tr><tr><td>Continental Europe (Em)</td><td>5,065</td><td>5,335</td><td>5,242",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b3c18090487353c4",
+        "value": 0.083,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>4.5%</td></tr><tr><td>UK (Em)</td><td>1,229</td><td>1,323</td><td>1,330.7</td><td>0.6%</td><td>8.3%</td></tr><tr><td>Continental Europe (Em)</td><td>5,065</td><td>5,335</td><td>5,242.0</td><td>-1",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "67fc8356e9f79e0c",
+        "value": -0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>8.3%</td></tr><tr><td>Continental Europe (Em)</td><td>5,065</td><td>5,335</td><td>5,242.0</td><td>-1.7%</td><td>3.5%</td></tr><tr><td>EBITDAR</td><td></td><td></td><td></td><td></td><td></td></tr><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7285d3dc97854589",
+        "value": 0.035,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><tr><td>Continental Europe (Em)</td><td>5,065</td><td>5,335</td><td>5,242.0</td><td>-1.7%</td><td>3.5%</td></tr><tr><td>EBITDAR</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Australi",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d49b75fbe51a5215",
+        "value": -0.035,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td><td></td></tr><tr><td>Australia (A$m)</td><td>813.1</td><td>859.2</td><td>829.1</td><td>-3.5%</td><td>2.0%</td></tr><tr><td>UK (Em)</td><td>165.8</td><td>167.5</td><td>161.2</td><td>-3.7%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2a94e03897efafaf",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td></tr><tr><td>Australia (A$m)</td><td>813.1</td><td>859.2</td><td>829.1</td><td>-3.5%</td><td>2.0%</td></tr><tr><td>UK (Em)</td><td>165.8</td><td>167.5</td><td>161.2</td><td>-3.7%</td><td>-2.8%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4f56b94a1b83e9d2",
+        "value": -0.037000000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-3.5%</td><td>2.0%</td></tr><tr><td>UK (Em)</td><td>165.8</td><td>167.5</td><td>161.2</td><td>-3.7%</td><td>-2.8%</td></tr><tr><td>Continental Europe (Em)</td><td>694.4</td><td>682.2</td><td>708",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e804e42dfb0de078",
+        "value": -0.027999999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>2.0%</td></tr><tr><td>UK (Em)</td><td>165.8</td><td>167.5</td><td>161.2</td><td>-3.7%</td><td>-2.8%</td></tr><tr><td>Continental Europe (Em)</td><td>694.4</td><td>682.2</td><td>708.8</td><td>3.9",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a8189b4216c3ac24",
+        "value": 0.039,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>-2.8%</td></tr><tr><td>Continental Europe (Em)</td><td>694.4</td><td>682.2</td><td>708.8</td><td>3.9%</td><td>2.1%</td></tr><tr><td>EBITDAR margin</td><td></td><td></td><td></td><td></td><td></td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8a04b4a7a46f00c4",
+        "value": 0.021,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>Continental Europe (Em)</td><td>694.4</td><td>682.2</td><td>708.8</td><td>3.9%</td><td>2.1%</td></tr><tr><td>EBITDAR margin</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>A",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d00525693e445016",
+        "value": 0.135,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>EBITDAR margin</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Australia</td><td>13.5%</td><td>13.5%</td><td>13.1%</td><td>-39 bps</td><td>-2.4%</td></tr><tr><td>UK</td><td>13.5%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9e7d0a956a7f30de",
+        "value": 0.135,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "argin</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Australia</td><td>13.5%</td><td>13.5%</td><td>13.1%</td><td>-39 bps</td><td>-2.4%</td></tr><tr><td>UK</td><td>13.5%</td><td>12.7%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "fd1d1a80f7e24512",
+        "value": 0.131,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td><td></td><td></td><td></td></tr><tr><td>Australia</td><td>13.5%</td><td>13.5%</td><td>13.1%</td><td>-39 bps</td><td>-2.4%</td></tr><tr><td>UK</td><td>13.5%</td><td>12.7%</td><td>12.1%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a5961218fe9e293e",
+        "value": -0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td></tr><tr><td>Australia</td><td>13.5%</td><td>13.5%</td><td>13.1%</td><td>-39 bps</td><td>-2.4%</td></tr><tr><td>UK</td><td>13.5%</td><td>12.7%</td><td>12.1%</td><td>-55 bps</td><td>-10.2%</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3ebce9b7d5fad0e0",
+        "value": 0.135,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>13.5%</td><td>13.5%</td><td>13.1%</td><td>-39 bps</td><td>-2.4%</td></tr><tr><td>UK</td><td>13.5%</td><td>12.7%</td><td>12.1%</td><td>-55 bps</td><td>-10.2%</td></tr><tr><td>Continental Europe",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "28f87d7c9ad8831c",
+        "value": 0.127,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>13.5%</td><td>13.1%</td><td>-39 bps</td><td>-2.4%</td></tr><tr><td>UK</td><td>13.5%</td><td>12.7%</td><td>12.1%</td><td>-55 bps</td><td>-10.2%</td></tr><tr><td>Continental Europe</td><td>13.7%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e0a4e95688c772dc",
+        "value": 0.121,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>13.1%</td><td>-39 bps</td><td>-2.4%</td></tr><tr><td>UK</td><td>13.5%</td><td>12.7%</td><td>12.1%</td><td>-55 bps</td><td>-10.2%</td></tr><tr><td>Continental Europe</td><td>13.7%</td><td>12.8%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4d767fa26600781c",
+        "value": -0.102,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>-2.4%</td></tr><tr><td>UK</td><td>13.5%</td><td>12.7%</td><td>12.1%</td><td>-55 bps</td><td>-10.2%</td></tr><tr><td>Continental Europe</td><td>13.7%</td><td>12.8%</td><td>13.5%</td><td>74 bps<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b6bdcf5a83cbdac1",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ion Our Jun- 26 price target of A\\(40 is based on a DCF methodology (terminal growth assumption of 3.0%, WACC 7.7%, beta 1.0) with a five- year horizon, with our spot valuation rolled forward at the c",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5d03a87373026c88",
+        "value": 0.077,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "n- 26 price target of A\\(40 is based on a DCF methodology (terminal growth assumption of 3.0%, WACC 7.7%, beta 1.0) with a five- year horizon, with our spot valuation rolled forward at the cost of equ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2db7c8d38635ac79",
+        "value": 0.077,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">RHC AU</td></tr><tr><td>Beta</td><td>1.00</td><td>Equity value (A$m)</td></tr><tr><td>WACC</td><td>7.7%</td><td>Net debt (A$m)</td></tr><tr><td>Terminal growth rate</td><td>3.0%</td><td>No. of shares",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5ce36f8cbec88282",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>WACC</td><td>7.7%</td><td>Net debt (A$m)</td></tr><tr><td>Terminal growth rate</td><td>3.0%</td><td>No. of shares (mil)</td></tr><tr><td></td><td></td><td>Price Target (A$m)</td></tr></ta",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "10343c02a1fa2d25",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d)</td><td>Underweight (sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6669ccbf3ffca2f0",
+        "value": 0.37,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nderweight (sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>J",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d556fec024c18e48",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity R",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3fbf536c3a1034c5",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "72d209daaebe81d7",
+        "value": 0.48,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rch Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "db5674ee58333e45",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3bf05cce659beea0",
+        "value": 0.47,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "0dfefd5bf76ee504",
+        "value": 0.41,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "1b77ff8920ee2d83",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\*Please not",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2ea0622f45147c4d",
+        "value": 0.72,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\*Please note that the percentages may not add to \\(10",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b69b9bdfef0d09df",
+        "value": 0.69,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rch Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\*Please note that the percentages may not add to \\(100\\%\\) becaus",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e6b24d660b22ef5c",
+        "value": 0.51,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\*Please note that the percentages may not add to \\(100\\%\\) because of roundin",
+        "provenance": {
+          "page": 4
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 1,
+      "tables_count": 0,
+      "numerical_data_count": 97,
+      "passages_count": 76,
+      "entities_count": 20
+    }
+  }
+}

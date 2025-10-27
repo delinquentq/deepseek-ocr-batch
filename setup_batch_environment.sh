@@ -181,7 +181,7 @@ python run_batch_processor.py -y
 
 处理完成后，结果将保存在 `output_results/` 目录：
 - `{filename}.md` - Markdown文本
-- `{filename}_final.json` - 结构化JSON数据
+- `{filename}.json` - 结构化JSON数据
 - `images/` - 提取的图表图像
 
 ## 性能优化 (RTX 3090)

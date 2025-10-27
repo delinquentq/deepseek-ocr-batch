@@ -1,0 +1,2289 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "5f55a24fd438b0fd056cee512a600697",
+    "title": "Jefferies",
+    "source_uri": "2025-08-29/India Financial Daily 29 August 2025India Financial Daily 29 August 2025_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:41:33.262358",
+      "extracted_at": "2025-10-27T00:41:33.262365"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 18,
+        "successful_pages": 18,
+        "date": "2025-08-29",
+        "publication": "2025-08-29",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 9,
+          "reduction_ratio": 0.16223826618445814
+        },
+        "input_relative_path": "2025-08-29"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "c4669b2ed0b0af2f",
+      "text": "India | Financial Daily",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a41ab8c9f1d7c446",
+      "text": "India Financial Daily, 29 August 2025",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b86a0197e83aee72",
+      "text": "As of last close (28- Aug), Nifty was down by \\(0.9\\%\\) and Nifty Bank was down by \\(1.2\\%\\) . India Shelter Finance and Authum Investment Infrastructure were the top performers, while Poonawalla Fincorp and Sundaram Finance under- performed. Over the past month, Nifty has fallen by \\(1\\%\\) , and Nifty Bank has fallen by \\(4\\%\\) .",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2f894a533a87a7be",
+      "text": "BJFIN IN - Roadshow Feedback: Improving LI, Steady GI & Fostering New Ventures",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "514baf14fd7d7727",
+      "text": "Growth and Asset Quality Headwinds; Expect Better Trends in 2H",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1a6fbe03feff3e14",
+      "text": "AHPI withdrawals advisory on Bajaj Allianz & Care Health: As per media reports, AHPI has revoked the order withdrawing cashless facility for BAGIC and Care Health (sub of Reliager). The decision to revoke was taken following AHPI's meeting with BAGIC, which was attended by representatives from top hospital chains. (Aug 28, CNBC TV18)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "279904c91a501604",
+      "text": "GIC seeks full GST exemption on health insurance: As per media reports, General Insurance Council (GIC) has written to the Finance Ministry, seeking full GST exemption on health insurance. They have also requested for GST on key expenses like commissions and reinsurance to be exempted. GIC believes that lack of full exemption will increase cost for insurers by \\(7 - 10\\%\\) . (Aug 29, CNBC TV18)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a2aa63fe29a177ed",
+      "text": "BOB cuts interest rates on car & mortgage loans: Bank of Baroda has reduced its interest rates on car loans by 25bps and LAP by 70bps effective immediately. The floating car loan interest rates now start at \\(8.15\\%\\) (vs \\(8.40\\%\\) earlier). Rates on LAPs have also been lowered to \\(9.15\\%\\) (vs \\(9.85\\%\\) earlier). (Aug 28, Financial Express)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9e3ad52ab9ddb691",
+      "text": "Jio Payments Bank to launch savings a/c that auto invests in overnight MF's for better returns: Jio Payments Bank will soon launch a \"savings pro\" deposit a/c which will auto- invest idle cash in the bank a/c into overnight MFs for better returns. As of June- end, the Bank's overall depositors stood at 2.58mn, and total deposits amounted to Rs3.6bn. (Aug 28, Business Line)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "93b134f30c65c7fc",
+      "text": "RBI to hold Rs1.5tn 6- day VRRR auction: RBI will hold a Rs1.5tn, 6- day VRRR auction on 29- Aug to absorb the exceptional liquidity from the system and to keep short- term rates aligned with the policy repo rate. On 28- Aug, the RBI accepted bids amounting to Rs495bn in its 1- day VRRR auction, against the notified amount of Rs750bn. (Aug 28, Business Line)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "28339cd850c1b2f5",
+      "text": "Unity Bank and BharatPe partner to launch India's first EMI driven card: BharatPe, in partnership with Unity SFB, announced the launch of Unity Bank BharatPe Credit Card. The card offers flexible EMI options of up to 12 months, helping customers manage big- ticket purchases with ease. The card aims to make everyday payments including bill payments, travel, insurance premiums, among others, both online and offline more rewarding. (Aug 28, Business Line)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d3caa267f32eab30",
+      "text": "Govt to meet banks & fintechs to discuss Online Gaming Act: Senior officials from the Ministry of Finance and the Ministry of Electronics and Information Technology will meet representatives of leading banks and fintechs on 29- Aug to draw up the implementation road map for the newly enacted Online Gaming Act, 2025. The law prohibits all forms of real- money gaming and requires financial institutions to block payments to banned platforms. (Aug 28, Business Standard)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "8adef7bbf7d92048",
+      "text": "Exhibit 1 - System liquidity in surplus territory at \\(\\sim \\mathsf{Rs}2.4\\mathsf{t n}\\) as of 28-Aug",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f4e4d529d2a61ce4",
+      "text": "Exhibit 2 - Money market trends",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "453b9ed4e41c1bee",
+      "text": "Money markets28-Aug-2527-Aug-2528-Jul-25Call rate (%)5.45.05.03M CD rate (%)5.95.85.810Yr Gsec (%)6.56.66.41Yr AAA (%)6.66.66.410Yr AAA (%)7.47.47.2",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "05961686efa68b20",
+      "text": "Source: Bloomberg, Jefferies",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ee33868fb16b3168",
+      "text": "Exhibit 3 - Market performance: Indices & financials",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e697b271baf9d26d",
+      "text": "Equity MarketsPrice%1dNifty Bank53,820(1.2)Nifty24,501(0.9)Top PerformersPrice%1dIndia Shelter Finance Corp9524.6Arthur Investment Infrastructure3,1962.3Star Health &amp;amp; Allied Insurance4431.8Dolat Algoech811.2Muthoot Microfin1541.1Bottom PerformersPrice%1d360 One WAM1,044(4.0)Northern Arc Capital239(4.2)CSB Bank372(4.5)Poonawalla Fincorp430(5.1)Sundaram Finance4,625(5.2)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "45fff51b12a5c1d6",
+      "text": "Source: Bloomberg, Jefferies; Universe covers financials with mkt cap > US\\\\$200mn",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a7606a5ce7444385",
+      "text": "Exhibit 4 - Key events to watch out for",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "45bf55df26f238a4",
+      "text": "Calendar:29-Aug-2025GOP Year, GVA Yoy, Fiscal Deficit YTD INR, Bank Credit YoY1-Sep-2025India PM Manufacturing3-Sep-2025India PM Composite, PMI Services5-Sep-2025Foreign Exchange Reserves12-Sep-2025CPI YoY, Foreign Exchange Reserves15-Sep-2025Wholesale Prices YoY, Exports &amp;amp; Imports YoY, Trade Balance29-Sep-2025Foreign Exchange Reserves22-Sep-2025Exgh Infrastructure Industries23-Sep-2025India PM Composite, Manufacturing, Services, BOP Current AccountBalance",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "52d59602dbb2db79",
+      "text": "Source: Bloomberg, Jefferies",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "70b627c36a4048ed",
+      "text": "Exhibit 5 - Bank credit growth stood at \\(10\\%\\) YoY on 8-Aug-25",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "750c65b5995623e7",
+      "text": "Source: RBI, Jefferies",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "688ede9dbcdbed5f",
+      "text": "Exhibit 7 - Bank deposit growth stood at \\(10\\%\\) YoY on 8-Aug-25",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "c281db1cdd05bcc9",
+      "text": "Source: RBI, Jefferies",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e9272cb4add43c4e",
+      "text": "Exhibit 9 - Credit/deposits ratio stable at \\(\\sim 79\\%\\) levels",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "6b895ea642d5cf71",
+      "text": "Source: RBI, Jefferies",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "40764f3454ef2f69",
+      "text": "Exhibit 11 - Investment/deposits ratio stable at \\(\\sim 29\\%\\) levels",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5e6b385c84c4f2e9",
+      "text": "Source: RBI, Jefferies",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "65cd29bcaabee638",
+      "text": "Exhibit 6 - Trend in aggregate bank credit",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "bc7403b5958bf92e",
+      "text": "Source: RBI, Jefferies, Aug-24 onwards includes merged nos",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d16aff09273bcb07",
+      "text": "Exhibit 8 - Trend in aggregate deposits",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5f3d9f692fd24e2c",
+      "text": "Source: RBI, Jefferies, Aug-24 onwards includes merged nos",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "7dc3dc8a9aebbd18",
+      "text": "Exhibit 10 - Trend in aggregate investments",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "0609540657320b12",
+      "text": "Source: RBI, Jefferies, Aug-24 onwards includes merged nos",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "063d2dbd0ffc1a35",
+      "text": "Exhibit 12 - Valuation matrix: Lenders",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9c9b6eed474b91f0",
+      "text": "LendersPrice (Rs)Mkt Cap (US$bn)ADTO (US$bn)Rating (Rs)Target price (Rs)UpsideAdjusted PB (x)PB (x)Div Yield (%)ROA (%)ROE (%)1/4F2/6EF2/7EF2/8EF2/9EF2/10EF2/11EF2/12EF2/13EF2/14EF2/15EF2/16EF2/17EF2/18EF2/19EF2/20EF2/21EF2/22EF2/23EPrivate banksHDFC Bank958168209BUY1,2005%2.72.42.12.92.72.42019161.1%1.4%1.3%1.8%1.6%1.7%15%13%14%ICICI Bank1,399114155BUY1,7606%3.12.62.23.43.02.61817140.8%0.9%1.0%2.4%2.2%2.2%19%17%17%Axis Bank1,0523795BUY1,37030%1.71.51.31.81.61.4111290.1%0.1%0.1%1.7%1.4%1.6%16%13%14%Kotak Bank1,9454494BUY2,55031%2.41.91.53.32.92.01916120.1%0.1%0.1%2.5%2.2%2.2%13%13%13%Indusind Bank7476.650BUY92023%1.00.90.90.90.80.92221130.0%0.0%0.0%0.5%0.8%4%4%3%7%IDFC First Bank685.722BUY8220%1.41.31.21.31.21.13321120.4%0.4%0.5%0.5%0.7%1.0%4%6%9%Bandhan Bank1633.016BUY21532%1.11.00.91.11.00.9108.87.10.9%1.1%1.4%1.5%1.5%1.6%12%12%13%PSU banksSBI80285100BUY97021%1.51.21.01.61.41.37.97.96.62.0%2.3%1.1%1.0%1.1%18%15%15%15%BOB2331426HOLD2559%1.00.90.80.90.70.62.35.83.6%3.5%3.8%1.2%1.0%1.0%16%14%13%PNB1011328BUY12523%1.00.90.80.90.80.86.97.46.22.9%2.7%3.2%1.0%0.8%0.9%15%12%13%NBFGHDFC Financial Services7827.455BUY90015%4.23.42.93.93.12.72926200.2%0.2%0.3%2.2%2.1%2.4%15%14%15%Bajaj Finance8776291BUY1,10025%5.74.94.15.64.84.03328220.6%0.5%0.7%4.0%3.9%4.0%19%19%20%LIC HF5473.413HOLD63516%0.90.80.70.80.70.75.55.85.71.7%1.9%2.0%1.8%1.6%1.5%16%14%12%Shriman Finance5721246BUY80040%2.01.71.42.01.71.4131190.8%0.8%1.0%3.1%3.1%3.3%16%16%17%Pramal Ent.1,1232.910.7UNPF1,000-11%1.00.90.90.80.80.82828280.9%0.9%-0.7%0.9%1.2%-2.3%3.5%5.7%5.7%CIFC1,4401435BUY1,75022%5.84.83.95.14.53.52824180.2%0.2%2.4%2.9%2.5%20%22%21%21%MMFS2594.18HOLD29815%1.81.51.41.51.41.22112112.3%2.3%2.3%1.9%1.9%12%12%12%12%Avax1,5421.44.3BUY2,17541%2.92.52.22.82.42.12119160.0%0.0%0.3%3.3%3.2%3.4%14%14%14%Mint1,0001.12.4BUY95031%2.01.51.31.81.22.821111090.7%0.8%0.9%2.2%2.2%2.2%18%18%17%Home First1,2431.56.6BUY1,57026%4.63.02.64.32.62.9252923190.0%0.0%0.0%3.5%3.9%3.9%16%13%15%SBI Cards804914HOLD96019%5.95.04.25.54.84.04030210.3%0.4%0.5%3.1%3.6%4.5%15%17%20%AB Capital2778.320BUY32216%4.23.63.12.41.41.613100.0%0.0%0.0%2.1%2.0%2.0%15%15%15%15%IFR Finance4882.112HOLD4657%1.61.41.31.11.21.01913100.6%0.5%1.2%1.5%2.0%2.5%8%11%13%Mutho Finance2,6451222BUY2,95012%4.03.32.73.73.62.62014131.2%0.8%1.9%5.0%5.7%5.4%20%13%13%Manapupram Finance2632.520HOLD2755%1.91.61.41.81.51.3181510.50.7%0.9%1.3%2.5%2.9%3.7%10%11%14%",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b8bfa4b3e836c359",
+      "text": "Source: Company data, Jefferies estimates",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "bc3c03bd7cf38ebc",
+      "text": "Exhibit 13 - Valuation matrix: Insurers",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "498d7f1479c5b87f",
+      "text": "Life InsurersPriceMkt CapADTORatingTarget priceUpsideP/EV (x)P/APe (x)P/VNB (x)VNB Margin (%)VNB Margin (%)Operating ROE(US$bn)(US$bn)(US$bn)(Rs)(%)F2/5F2/6EF2/7EF2/5F2/6EF2/7F2/5HDFC Life7751925Buy91017%3.02.62.36.75.44.1282526%26%16%16%ICICI Pru Life610109.1Buy78028%1.81.61.43.42.61.71713823%24%24%13%Max Fin. Serv1,6096.316Buy1,90018%2.72.31.95.54.63.821151124%25%25%19%SBI Life1,8172122Buy2,18020%2.62.21.94.83.82.819151128%28%20%17%",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "2579f1d64b8324f0",
+      "text": "Exhibit 14 - Valuation matrix: AMCs",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "cb762b220e29d730",
+      "text": "General InsurersPriceMkt CapADTORatingTarget priceUpsideP/EV (x)P/APe (x)P/APe (x)P/APe (X)P/APe (X)P/APe (X)F2/5F2/6EF2/7EF2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)P/APe (x)P/APe (x)F2/5F2/6EF2/7F2/5F2/6EF2/7P/APe (x)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "373f90b710559c36",
+      "text": "Unless specified, no company has commented on the press reports.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2e869ae817cbdb98",
+      "text": "BJFIN IN- Roadshow Feedback: Improving LI, Steady GI & Fostering New Ventures  Growth and Asset Quality Headwinds; Expect Better Trends in 2H  ICICBC IN- FY25 AR and 20F: Balancing Growth & Risks Well  July 2025 Card Data: Industry Spending Growth Moderates vs. June  BAF IN- Roadshow Feedback: SME Not as Weak as Feared; Growth to Stay Healthy  BJFIN IN- Grooming Financial Ventures; Initiate at Buy  NBFC 1QFY26 Review: Growth Moderates & AQ Pressure Rises  HDBFS IN- A Well- Rounded NBFC; Initiate at Buy  HDFCB IN- Roadshow Feedback: On Track on Guidance; Merger Synergies; Buy Stays  NUVAMA IN- 1QFY26: In- Line Results; WM Segment Ramping Up Well  MUTH IN- 1QFY26 Results: Solid Quarter; Strong AUM Growth; NPA Recoveries Boost Profit  HDFCLIFE IN- Roadshow Feedback: Stable Regulation, Aim to Double Business over 4- 5yrs  AAVAS IN- 1QFY26 Results: Profit Miss; Loan Growth Pickup the Key  ICICI Bank's Minimum Savings Balance Hike & Comparison with Peers  MF Jul- 25: Pure Equity Flows Hit Record High Amid Choppy Markets  SBIN IN- 1QFY26: Steady Performance Continues  MAXF IN- 1QFY26: Earnings Beat; Attractive Vals  LI Prem Jul- 25: Divergent Growth  RBI Grants In- Principle Approval to AU Small Finance Bank to a Universal Bank  BSE IN- 1QFY26 Results: Healthy Qtr, But Slight Drag if Options Vols Stay Soft  GI Jul- 25: Softer Growth; PSLs Continue to Lead  ABCAP IN- 1QFY26 Results: NBFC Profit Marginally Ahead; NLF Trends Healthy  IIB IN- Rajiv Anand to Take Charge as CEO  SME Emerges As New AQ Risk; Uptick in Eco Activity & Tariff Clarity Are Key  LICHF IN- 1QFY26 Results Miss; NIM Pressure Ahead, But Valuations Offer Support  APTUS IN- 1QFY26 Results: In- Line Quarter; Growth Moderates; Spreads Set to Improve  POLICYBZ IN- 1QFY26 Results: Healthy Growth, In- Line With Expectations  CIFC IN- 1QFY26: In Line Profit; Softer Growth & AQ Trends; Expect Improvement in 2H  HDFCB IN- FY25 AR Analysis: Deposits & Loan Tracking Well; PSL Key Deliverable  IIFL IN- 1QFY26 Results: Rising Stress To Cap ROE Improvement; Downgrade to Hold",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3ff7471b35913d91",
+      "text": "PNB IN- 1QFY26: Slightly Softer Topline but Stable AQ; Buy StaysSTARHEAL IN- 1QFY26 Results: Business Stabilizing; Risk- Reward in Balance; Hold StayPIEL IN- 1QFY26 Results: Profit Beat Due To Provision ReleaseIIB IN- 1QFY26: No Negative AQ Surprises; Improving Fee & Opex Key for New CEOGODIGIT IN- 1QFY26 Results: Tad Miss on CoR; IFRS ROE at 19%NAM IN- 1QFY26 Results: MTM Gains and Steady Flows Aid Core PerformanceHOMEFIRS IN- 1QFY26 Results: Profit Beat; Some Headwinds, But Growth Still HealthySBICARD IN- 1QFY26: In Line PAT, But Credit Cost DisappointsHOMEFIRS IN- 1QFY26 Results First Cut: Profit Beat on Higher NII & Fees; AQ Slips QoQKMB IN- 1QFY26: Weaker Core Nos; Higher Cut in Deposit Rates to Aid EarningsIDFCFB IN- 1QFY26: Tad Miss; MFI Pressure Easing, But Lower SB Rate Cut Drives EPS CutSHFL IN- 1QFY26: In- line Profit; Asset Quality Holds Up; Reasonable ValuationsKFINTECH IN- 1QFY26: Slight Fall in Yields a Marginal Drag on Profit; Prospects Stay StrongBOB IN- 1QFY26: NPLs in Int'l Loans Drag Profit; Stay on HoldSBLIFE IN- 1QFY26: Softer Growth To Pick- Up; Vals Reasonable for QualityBAF IN- 1QFY26: Inline Results; Some Drag from MSME LoansCMSINFO IN- 1QFY26: Another Soft Qtr Even as Franchise Gets StrongerMMFS IN- 1QFY26: Profit Miss Due to Higher Provision; ROA Improvement Key for Re- RatingPAYTM IN- Improving Core; Upgrade From Hold to BuyBAF IN- New CEO's Sudden Exit; Rajeev To Be In Charge Again; Watch For SuccessionCANF IN- 1QFY26 Results: Growth Subdued, But Should Inch UpHDFCB IN- 1QFY26: Better Growth and Bouyant Outlook; Stays Among Top PicksBANDHAN IN- 1QFY26: Earnings Tad Ahead, But Momentum Still SofterICICIBC IN- 1QFY26: Better Profitability; Growth to Improve; Buy StaysAXSB IN- 1QFY26: Asset Quality Disappoints; Expect Trends to StabiliseHDFCAMC IN- 1QFY26 Results: MTM Gains & Flows Lift Growth360ONE IN- 1QFY26 Results: Strong MTM Gains Lift ARR; Net Inflows Can ImproveJIOFIN IN- Jio Financial Services: 1Q Results and Business UpdateReality Check Summit: Feedback from India's Largest Loan Distributor, AndromedaFireside Chat with Leading Algo Trader on The New Normal for F&O MarketHDFCLIFE IN- 1QFY26: Steady Performance ContinuesIPRU IN- 1QFY26: Better Product Mix Aids Margin; Watch Out for Persistency",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b445b6fabdf3de7f",
+      "text": "ICICIGI IN- 1QFY26 Results: Steady Underwriting With Treasury BoostAXSB IN- FY25 AR: Retail Performance Drags; Improvement Key to Re-ratingLower Volatility and JS Matter Drag Options ActivityLI Prem June- 25: Divergent GrowthMF Jun- 25: Equity Flows Rebound; SIPs Fare BetterIndia BFSI Monthly - June 2025Analysing Metrics Across Wealth ManagersSEBI's Proposals on AIF/ PMS Biz of MFs May Need More DeliberationsSEBI's Clarification & Uptick in Options Turnover May Allay Concerns1Q26 Preview: Softer Growth for Lenders; NLFs to See Better TrendsNBFC 1QFY26 Preview: Softer Growth and Asset Quality TrendsOptions Activity Drops \\(20\\% +\\) ; JS May be One of Four ReasonsKMB IN- 1QFY26 Pre-Qtr: Healthy Loan Growth; Deposit Growth Picks-upIIB IN- 1QFY26 Pre-Qtr: Loans Contract, Deposits Manageable; Credit Rating IntactImpact of Jane Street Order on Mkts, BSE & NuvamaSHFL IN- Steady Growth; Addressable Used CV Pool Growth to Improve in FY27HDFCB IN- 1Q Pre-Qtr: Loan Growth Picks Up; Healthy Deposit MobilisationBAF IN- 1QFY26 Pre-Qtr: Healthy Growth Despite Softer Mkt TrendsWhat's Leading the Moderation in Credit Growth? What Can Lift it?CIBIL Data: Credit Demand Softens; Unsecured Stress Stabilising in Mar'25May 2025 Card Data: Industry Spending Growth Moderates vs. AprilCIFC IN- Softer Near-Term Trends; But Stay PositiveKFINTECH IN- Roadshow Takeaways: Focus on Intl Merger Synergies; See Strong Growth AheadSBIN IN- R/S Feedback: To Sustain 1% ROA Despite Rate Cuts; New Growth AreasRBI Eases Project Financing Norms vs. Draft; +ve for Infra LendersBSE IN- Expiry day shift may impact vols a tad; Scope to mitigate impactHDFCB IN- Feedback from US Access Day: Stays on Course for Better GrowthMAXF IN- Feedback from US/UK Access Days: Healthy Growth & Smoother TransitionBSE IN- Access Day Feedback: Ramping Up Existing & New PlatformsMF May- 25: Equity Flows Fall On Higher Redemptions; SIPs StableLI Prem May- 25: Soft Sector Growth on High Base; Pvt. Ahead & Axis- Max LeadsGI May- 25: Softer Growth; Regulatory Action Key to Monitor",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "e83f4c173c1adb67",
+      "text": "RBI Goes All- In to Lift Growth; Positive on Banks & NBFCs  RBIs Jumbo Rate Cut To Boost Margins At NBFCs  Final Gold Loan Rules Relaxed Vs. Draft; Removes Overhang for Gold Financiers  MFI Trends Mar- 25: Stress May Stay Higher in 1H, & Ease Thereafter  New Faces of Indian Financials  Housing Finance: Disbursement Growth Moderates In FY25  Financials 4QFY25 Review: Pvt Banks, Select NBFCs & Most NLFs Lead  Final Oil Limits Balance Risk Controls and Scope to Grow  NUVAMA IN- 4QFY25 Results: Earnings Ahead Aided By Stronger Cap Mkts  BANDHAN IN- Roadshow Feedback: Watchful on Near- Term AQ; Aiming ROA of 1.8- 1.9% by FY28  MAXF IN- Exit of CEO A Slight Set- Back; Smooth Transition Key; Sector Tailwinds To Help  NBFC 4QFY25 Review: Growth Moderates As Expected; Asset Quality Improves  April 2025 Card Data: Industry Spending Growth Moderates vs. March Highs  IIB IN- 4QFY25: Clean- up Qtr; Await New CEO; Franchise Vals Reasonable  CMSINFO IN- 4QFY25: Execution Delays; Stronger Competitive Position To Payoff  POLICYBZ IN- 4QFY25 Results: Profitability Improving  LICHF IN- NIM Pressure Ahead; Reasonable Valuations; Downgrade to Hold  MUTH IN- 4QFY25 Results: Another Strong Quarter  MAXF IN- 4QFY25: Good Performance Despite Challenges; Stays Among Top Picks  ABCAP IN- 4QFY25 Results: NBFC Profit Tad Ahead; Healthy NLF Trends  LI Prem Apr- 25: Growth Soft on High Base When Ulips Were Strong; Axis- Max Leads  IIFL IN- 4QFY25 Results: Earnings to Recover From FY25 Trough  MGFL IN- MGFL 4QFY25: Disappointing Quarter; New CEO Announced  MF Apr- 25: Higher SIPs Reflect More Op. Days  GI Apr- 25: Healthy Growth; PSUs Upping Ante In Motor Insurance  MMFS IN- MMFS Announces Capital Raise Through Rights Issue  PNB IN- 4QFY25: Core Results In Line  BOB IN- 4QFY25: Weaker NIMs & Credit Quality Drag Performance; Stay on Hold  APTUS IN- 4QFY25 Results: In- Line Quarter; Growth Moderates; Spreads to Improve Slightly  PIEL IN- 4QFY25 Results: Core Profits Disappoint; RoA Improvement To Be Gradual  BSE IN- 4QFY25 Results: Strong End to the Year  PAYTM IN- 4QFY25 Results: Slightly Ahead of Expectations",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "517dc7e454372953",
+      "text": "India BFSI Monthly - April 2025  SBIN IN- 4QFY25: Core Trends Steady  KMB IN- 4QFY25: Steady Qtr; Healthy Growth Ahead  HOMEFIRS IN- 4QFY25 Results: Another Steady Quarter; Healthy Growth Outlook  BANDHAN IN- 4QFY25: A Weak Qtr; See Improvement from 2HFY26  STARHEAL IN- 4QFY25 Results: Weak Core Amidst Industry Headwinds  KFINTECH IN- 4QFY25: Healthy Growth; Int'l Business Ramp-up Is Key  BAF IN- 4QFY25: Strong Qtr on Growth & Quality; New CEO Resets Targets A Tad Lower  IIB IN- Assessing Franchise Value Amidst Management Churn  NAM IN- 4QFY25: Steady Business Momentum  GODIGIT IN- 4QFY25: Tad Higher COR; IFRS ROE at 15%  Much Needed Regulatory Clarity Could Aid Returns Among LIs  CIFC IN- 4QFY25: Results Beat; Healthy Growth, Improving AQ; NIMs to Expand  SHFL IN- 4QFY25: PAT Miss; Some Stress But Manageable; Stay Positive  IDFCFB IN- 4QFY25: Expectedly Weak Due to MFI; Ex-MFI Steady; Improvement Ahead  AXSB IN- 4QFY25: Lags Peers, But Should Improve in FY26; Valuation Attractive  SBILIFE IN- 4QFY25: Better Results & Outlook; Scope to Re-rate  CANF IN- 4QFY25 Results: Loan Growth to Improve Gradually  SBICARD IN- 4QFY25: Asset Quality Metrics Turning; Valuation Limits Upside Potential  360ONE IN- 4QFY25: Slight Hick-Up Qtr; RM Stability & New Partnerships to Lead Growth  LI Prem Mar- 25: An Expected Softness in Premium Growth with Lower ULIP Sales  MMFS IN- 4QFY25 Profit Miss on Lower Margins  360ONE IN- Exclusive Collaboration with UBS is a Positive  Final LCR Norms to Release 6ppt; a Rs10trn Positive vs First Draft  KFINTECH IN- Takeaways from Analyst Meet on Recent M&A: Riding Global FA Opportunity  ICICIBC IN- 4QFY25: Continues to Deliver; Stays Among Top Picks  HDFCB IN- 4QFY25: Earnings Ahead; On Track for Rebound Year; Stays Among Top- Picks  HDFCAMC IN- 4QFY25 Results: Core In Line With Noncore Boost; ESOP Costs Can Drag  HDFCLIFE IN- 4QFY25: Inline Results; Classic Compounder  JIOFIN IN- Jio Financial Services: 4Q Results and Business Update  IDFCFB IN- Capital Raise Through CCPS  KFINTECH IN- Acquisition to Aid Int'l Expansion; Deal Valuation Appears Attractive",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "1ef5e9c15ceb7897",
+      "text": "360ONE IN- Proposes Preferential Issue",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "46abf26c3f4fa8e8",
+      "text": "ICICIGI IN- 4QFY25: Earnings Miss; Competition from PSUs is a Near- Term Risk",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "439d51aa69cbb720",
+      "text": "IPRU IN- 4QFY25: VNB Beat, But - Ve Assumption Chg Disappoints a Bit",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "27becd49304edecc",
+      "text": "HOMEFIRS IN- Factoring Capital Raise; Stays Our Preferred AHFC Pick",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "ddfdc424c52a2ef4",
+      "text": "Deposit Rate Cuts Begin; More To Come",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "550bc9ef5975d48c",
+      "text": "MF Mar- 25: Flows Moderate, But Still At A Healthy Level",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "eb025ed9f678f825",
+      "text": "Easier Liquidity can be 100- 150bps CRR Cut; Will Mitigate Impact of Rate Cuts",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "b1bb5a2f71653be5",
+      "text": "Proposed Tighter Gold Loan Norms Not As Harsh As Feared",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e438dcccc6e16d74",
+      "text": "GI Mar- 25: Premium Growth Picks Up Sequentially",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "1804fe77e3500054",
+      "text": "Financials 4QFY25 Preview: Divergent Trends Across Sub- Segments",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d259eb27a6af3acf",
+      "text": "NBFC 4QFY25 Preview: Divergent Profit Growth",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c95c05b6fdc6dbc0",
+      "text": "MFI Industry Trends Dec- 24: Deleveraging May Take Longer; Stress in Near- Term",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "b4859be224fbf9c8",
+      "text": "IDFCFB IN- 4Q PreQtr: Healthy Balance Sheet Growth; MFI Drag Near- Term Pain",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "845a01540b71c0bd",
+      "text": "HDFCB IN- 4Q PreQtr: Loan Growth Picks Up; Steady Deposit Mobilisation",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "af89ff7562fee8c5",
+      "text": "BANDHAN IN- 4QFY25 PreQtr: Softer Growth; MFI Collections Stable QoQ but Subpar",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "950415e3f9187036",
+      "text": "BAF IN- 4QFY25 PreQtr: Strong Growth Continues",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "cdad85a9adffe6b4",
+      "text": "Watch out for SBI, not just RBI",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "a431e7d826f7af10",
+      "text": "Feedback from Bank Meetings: Uptick in Retail Lending & Stabilising Quality",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "919745953243b758",
+      "text": "SEBI's Push to Spread Out F&O Expiry Days to Abate Concerns for BSE",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "5311878b627fc1e5",
+      "text": "NBFC Access Day Takeaways: Improving Op. Environment; Some Stability in AQ",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "95c0bd5040949594",
+      "text": "Slight Relaxation of PSL Eligible Loans Positive for Banks, esp. HDFCB",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "566337d6ef29d5dc",
+      "text": "JAF6: Feedback from Indian Financials",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "0f12e554aec43161",
+      "text": "MGFL IN- Bain to Acquire Joint Control in MGFL Through Equity Infusion",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "3c324fead2fb7b26",
+      "text": "BAF IN- Smoothest Possible Succession; BUY",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e5160d3f4f1e2acc",
+      "text": "GI Segment- wise Feb- 25: Group Health & Commercial Lines Drag Growth",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "3befdc555b0f51f6",
+      "text": "PAYTM IN- Lower UPI Incentive Is a Negative; Will Watch for Potential MDR on UPI",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "bb6df3e01a8ac3cd",
+      "text": "ABCAP IN- Risk- Reward Appears Favourable",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c6c80e45ebcfcc25",
+      "text": "Highlights from BFS Call On Share Purchase Agreement with Allianz",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "69af2e191ec8c9a4",
+      "text": "Sector Fundamentals Stabilising; Reasonable Valuations",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "f9e7b2b14c984798",
+      "text": "MF Feb- 25: Equity Flows Moderate, But SIPs Hold Firm",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d726f2e36399b57a",
+      "text": "Trinity of Growth Boosters",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "586b1540daeeec46",
+      "text": "Fireside Chat with Leading Algo- Trader on Impact of New F&O Norms/ Practices",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "261143c7393d4ee7",
+      "text": "LI Prem Feb- 25: Growth Slows on Higher Base and Lower ULIP Sales",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "345131d967b06020",
+      "text": "GI Feb- 25: Premium Stays Soft",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "d98ea11d56893140",
+      "text": "IIB IN- Surprise Accounting Adj. Leads to Profit Hit; Reflects Weak Internal Controls",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "3b5e186210a0dbf2",
+      "text": "HDFCB IN- R/S Takeaways: Improving Macro Conditions and Loan Growth; Stays as Top Pick",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "7ab248cfd6b3de47",
+      "text": "IIB IN- Shorter Extension for CEO; Succession Ahead; Less Pricey Valuation Helps",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "e862d13d562252f9",
+      "text": "CIFC IN- Growth & Asset Quality Outlook Stabilising",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "3e2e3a2b89270bbb",
+      "text": "India BFSI Monthly - February 2025",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "70e8ea6c5a46ac66",
+      "text": "New Expiry Day for NSE May Affect BSE Volumes; Scope to Mitigate Impact",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "b84a67ad5a5b55ef",
+      "text": "IDFCFB IN- Roadshow feedback: MFI drags near- term; deposits & synergies to lift ROE",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "fa25c035be79952b",
+      "text": "Proposal on Oil limit Is Comprehensive; Slight - ve on EPS",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "b12dc0108544600f",
+      "text": "SBILIFE IN- Roadshow Feedback: Focusing on Profitable Growth",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "32ab91816c4301c6",
+      "text": "RBI Eases Risk Weight On Bank Loans to NBFCs & MFI; Year of Easing in Play",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "09257f1ba8a906b0",
+      "text": "Bank Loan Risk Weight Cut Positive For NBFCs",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "8769fdfa62b75240",
+      "text": "HDFCARC IN- Key takeaways from interaction with MD & CEO",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "2bc10224fc9c20fe",
+      "text": "360ONE IN- Analyst Meet Takeaways; Assume Coverage at Buy",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "9c7ef253d17e13bd",
+      "text": "KFINTECH IN- Not As Vulnerable as Stock Price Points; We Take the Pill and BUY",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "bd6efc31f4da058f",
+      "text": "SHFL IN- Steady Growth & Attractive Valuations; Stays Among Top Picks",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "38ec109135a0dcdc",
+      "text": "Financials' 3QFY25 Review: Banks Better on Core; NBFCs Divergent; NLFs Strong",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "55dfa49cf37a05e7",
+      "text": "NBFC 3QFY25 Review: Growth Moderates; Some Stability in Credit Cost Outlook",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "61f49d005462b271",
+      "text": "GODIGIT IN- Analyst Day Takeaways; Assume Coverage at Buy",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "9c06c493ada83626",
+      "text": "GI Segment- wise Jan- 25: Group Health & Motor Drive Improvement in Growth",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "aa1df1171dea03dd",
+      "text": "KMB IN- Relief From RBI to Aid Earnings & Rerating",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "6060eec295620118",
+      "text": "MF Jan- 25: Equity Flows Sustain Amid Market Weakness",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "b7c5bb9beb500901",
+      "text": "GI Jan- 25: Growth Picks Up Sequentially",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "967094d0a63e43e0",
+      "text": "NBFCs: Rate Cut Tailwind For Margins",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "76acfc3897a982e7",
+      "text": "Year of Easing' Theme Is Panning Out",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "00a45f8424173a3b",
+      "text": "LI Prem Jan- 25: Growth Improves Led by Pvt; HDFCL & SBIL Ahead; IPru Lags",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "b58ff8df91e72295",
+      "text": "MPC Takeaway: 25bps Rate Cut; Comfort (Not Action) on Liquidity",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "7f454594ba089abc",
+      "text": "India BFSI Monthly - January 2025",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "67cdbfcfd8ef702c",
+      "text": "Liquidity Balancing Act at Upcoming MPC",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "edbac464c4a06ff5",
+      "text": "Budget Proposals for Insurers: Manageable Impact for LI; Tad Higher on Sahi",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "a077b6bc46720d1b",
+      "text": "RBI to Replenish Liquidity; Positive for Banks & NBFCs",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "6ae53ba04a0ea203",
+      "text": "NLFs 2025 Outlook: Mixed Bag",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "d3834ccde674c30d",
+      "text": "NBFCs 2025 Outlook: Growth to Stabilise, Divergent AQ; Stay Selective",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "750adbb6825ca864",
+      "text": "Themes for 2025: Year of Easing",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "ae989a6081495692",
+      "text": "For Important Disclosure information on companies recommended in this report, please visit our website at https://javatar.bluematrix.com/ sellside/Disclosures.action or call 212.284.2300.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "b0a2e61aaa438cc8",
+      "text": "(Article 3(1)e and Article 7 of MAR)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "1cdc6d3ad093486a",
+      "text": "Recommendation Published Recommendation Distributed",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "b92eecfa9bbd4f4f",
+      "text": "August 29, 2025 3:44 A.M. August 29, 2025 3:44 A.M.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "592a481ba103ffe2",
+      "text": "Within the past twelve months, 360 One WAM Ltd has been a client of Jefferies Financial Group Inc., its affiliates or subsidiaries and investment banking services are being or have been provided.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "af6a68b330bcc2bc",
+      "text": "Within the past 12 months, Jefferies Financial Group Inc., its affiliates or subsidiaries has received compensation from investment banking services from 360 One WAM Ltd.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "fb1a883b61e45673",
+      "text": "Jefferies Financial Group Inc., its affiliates or subsidiaries has acted as a manager or co- manager in the underwriting or placement of securities for 360 One WAM Ltd or one of its affiliates within the past twelve months.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "83f1090395e1c5f4",
+      "text": "Jefferies Financial Group Inc., its affiliates or subsidiaries expect to receive or intend to seek compensation for investment banking services from Aavas Financiers Limited within the next three months.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "59cf07eb48019579",
+      "text": "Within the past twelve months, Aavas Financiers Limited has been a client of Jefferies Financial Group Inc., its affiliates or subsidiaries and investment banking services are being or have been provided.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "c525fc5b7a5bf530",
+      "text": "Jefferies Financial Group Inc., its affiliates or subsidiaries is acting as a manager or co- manager in the underwriting or placement of securities for HDB Financial Services Ltd or one of its affiliates.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "1a2789bf8eb8f88b",
+      "text": "Within the past twelve months, HDB Financial Services Ltd has been a client of Jefferies Financial Group Inc., its affiliates or subsidiaries and investment banking services are being or have been provided. Jefferies International Ltd, its affiliates or subsidiaries has, or had, within the past 12 months an agreement to provide investment services to HDB Financial Services Ltd. Jefferies Financial Group Inc., its affiliates or subsidiaries expect to receive or intend to seek compensation for investment banking services from HDB Financial Services Ltd within the next three months. Within the past 12 months, Jefferies Financial Group Inc., its affiliates or subsidiaries has received compensation from investment banking services from HDB Financial Services Ltd. Jefferies Financial Group Inc., its affiliates or subsidiaries is acting as a manager or co- manager in the underwriting or placement of securities for ICICI Bank or one of its affiliates. Jefferies Financial Group Inc., its affiliates or subsidiaries expect to receive or intend to seek compensation for investment banking services from KFin Technologies Limited within the next three months. Jefferies Financial Group Inc., its affiliates or subsidiaries is acting as a manager or co- manager in the underwriting or placement of securities for KFin Technologies Limited or one of its affiliates. Within the past twelve months, KFin Technologies Limited has been a client of Jefferies Financial Group Inc., its affiliates or subsidiaries and investment banking services are being or have been provided. Jefferies International Ltd, its affiliates or subsidiaries has, or had, within the past 12 months an agreement to provide investment services to KFin Technologies Limited. Jefferies Financial Group Inc., its affiliates or subsidiaries expect to receive or intend to seek compensation for investment banking services from PB Fintech Limited within the next three months. Jefferies Financial Group Inc., its affiliates or subsidiaries is acting as a manager or co- manager in the underwriting or placement of securities for PB Fintech Limited or one of its affiliates. Within the past twelve months, PB Fintech Limited has been a client of Jefferies Financial Group Inc., its affiliates or subsidiaries and investment banking services are being or have been provided. Jefferies International Ltd, its affiliates or subsidiaries has, or had, within the past 12 months an agreement to provide investment services to PB Fintech Limited. Within the past twelve months, Bain Capital Partners, LLC has been a client of Jefferies Financial Group Inc., its affiliates or subsidiaries and investment banking services are being or have been provided. Jefferies Financial Group Inc., its affiliates or subsidiaries expect to receive or intend to seek compensation for investment banking services from Bain Capital Partners, LLC within the next three months. Within the past 12 months, Jefferies Financial Group Inc., its affiliates or subsidiaries has received compensation from investment banking services from Bain Capital Partners, LLC. Jefferies Financial Group Inc., its affiliates or subsidiaries expect to receive or intend to seek compensation for investment banking services from Bain Capital Private Equity (Europe) LLP within the next three months.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "7ed8199738c16ce2",
+      "text": "For Important Disclosure information on companies recommended in this report, please visit our website at https://javatr.bluematrix.com/ sellside/Disclosures.action or call 212.284.2300.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "50c3ee669a9328a5",
+      "text": "Buy - Describes securities that we expect to provide a total return (price appreciation plus yield) of \\(15\\%\\) or more within a 12- month period. Hold - Describes securities that we expect to provide a total return (price appreciation plus yield) of plus \\(15\\%\\) or minus \\(10\\%\\) within a 12- month period. Underperform - Describes securities that we expect to provide a total return (price appreciation plus yield) of minus \\(10\\%\\) or less within a 12- month period. The expected total return (price appreciation plus yield) for Buy rated securities with an average security price consistently below \\(10\\) is \\(20\\%\\) or more within a 12- month period as these companies are typically more volatile than the overall stock market. For Hold rated securities with an average security price consistently below \\(10\\) , the expected total return (price appreciation plus yield) is plus or minus \\(20\\%\\) within a 12- month period. For Underperform rated securities with an average security price consistently below \\(10\\) , the expected total return (price appreciation plus yield) is minus \\(20\\%\\) or less within a 12- month period.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "f9adf73c642c9ce7",
+      "text": "NR - The investment rating and price target have been temporarily suspended. Such suspensions are in compliance with applicable regulations and/or Jefferies policies.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "3bb60620dd63d9a1",
+      "text": "CS - Coverage Suspended. Jefferies has suspended coverage of this company.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "523fd88230b39902",
+      "text": "NC - Not covered. Jefferies does not cover this company.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "56e3a473732e155d",
+      "text": "Restricted - Describes issuers where, in conjunction with Jefferies engagement in certain transactions, company policy or applicable securities regulations prohibit certain types of communications, including investment recommendations.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "2c00bc226ac66532",
+      "text": "Monitor - Describes securities whose company fundamentals and financials are being monitored, and for which no financial projections or opinions on the investment merits of the company are provided.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "4abe16ca7f65c01e",
+      "text": "Jefferies' methodology for assigning ratings may include the following: market capitalization, maturity, growth/value, volatility and expected total return over the next 12 months. The price targets are based on several methodologies, which may include, but are not restricted to, analyses of market risk, growth rate, revenue stream, discounted cash flow (DCF), EBITDA, EPS, cash flow (CF), free cash flow (FCF), EV/EBITDA, P/E, PE/growth, P/CF, P/FCF,",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "e52fcd2303584d3b",
+      "text": "premium (discount)/average group EV/EBITDA, premium (discount)/average group P/E, sum of the parts, net asset value, dividend returns, and return on equity (ROE) over the next 12 months.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "b63623ec47a924f8",
+      "text": "Jefferies Franchise Picks include stock selections from among the best stock ideas from our equity analysts over a 12 month period. Stock selection is based on fundamental analysis and may take into account other factors such as analyst conviction, differentiated analysis, a favorable risk/reward ratio and investment themes that Jefferies analysts are recommending. Jefferies Franchise Picks will include only Buy rated stocks and the number can vary depending on analyst recommendations for inclusion. Stocks will be added as new opportunities arise and removed when the reason for inclusion changes, the stock has met its desired return, if it is no longer rated Buy and/or if it triggers a stop loss. Stocks having 120 day volatility in the bottom quartile of S&P stocks will continue to have a \\(15\\%\\) stop loss, and the remainder will have a \\(20\\%\\) stop. Franchise Picks are not intended to represent a recommended portfolio of stocks and is not sector based, but we may note where we believe a Pick falls within an investment style such as growth or value.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "1197792188681ab3",
+      "text": "- 360 One WAM Ltd (360ONE IN: INR1,042.50, BUY)- Aavas Financiers Limited (AAVAS IN: INR1,541.00, BUY)- Aditya Birla Capital Limited (ABCAP IN: INR277.45, BUY)- Allianz (ALV GR: €361.60, HOLD)- Aptus Value Housing Finance Limited (APTUS IN: INR324.85, BUY)- Axis Bank (AXSB IN: INR1,052.35, BUY)- BSE Limited (BSE IN: INR2,178.40, HOLD)- Bajaj Finance Limited (BAF IN: INR877.05, BUY)- Bajaj Finserv Limited (BJFIN IN: INR1,914.90, BUY)- Bandhan Bank Ltd (BANDHAN IN: INR162.80, BUY)- Bank of Baroda (BOB IN: INR233.20, HOLD)- CMS Info Systems Limited (CMSINFO IN: INR424.60, BUY)- Can Fin Homes Limited (CANF IN: INR725.55, BUY)- Cholamandalam Investment and Finance Company (CIFC IN: INR1,439.95, BUY)- Go Digit General Insurance Ltd. (GODIGIT IN: INR365.55, BUY)- HDB Financial Services Ltd (HDBFS IN: INR781.50, BUY)- HDFC Asset Management Co Ltd (HDFCAMC IN: INR5,579.40, BUY)- HDFC Bank (HDFCB IN: INR958.00, BUY)- HDFC Standard Life Insurance Company (HDFCLIFE IN: INR775.10, BUY)- Home First Finance Company India Limited (HOMEFIRS IN: INR1,241.95, BUY)- Housing Development Finance Corp. Ltd. (HDFC IN: INR2,729.95, RESTRICTED)- ICICI Bank (ICICIBC IN: INR1,398.80, BUY)- ICICI Lombard General Insurance Company Limited (ICICIGI IN: INR1,860.60, BUY)- ICICI Prudential Life Insurance Company (IPRU IN: INR609.85, BUY)- IDFC First Bank Limited (IDFCFB IN: INR68.06, BUY)- IIFL Finance Limited (IIFL IN: INR436.00, HOLD)- IndusInd Bank Limited (IIB IN: INR746.75, BUY)- KFin Technologies Limited (KFINTECH IN: INR1,049.90, BUY)- Kotak Mahindra Bank Limited (KMB IN: INR1,946.10, BUY)- LIC Housing Finance Limited (LICHF IN: INR547.35, HOLD)- Mahindra and Mahindra Financial Services Limited (MMFS IN: INR259.55, HOLD)- Manappuram Finance Limited (MGFL IN: INR262.90, HOLD)- Max Financial Services Limited (MAXF IN: INR1,608.25, BUY)- Muthoot Finance Limited (MUTH IN: INR2,645.20, BUY)- Nippon Life India Asset Management Limited (NAM IN: INR800.25, BUY)- Nuvama Wealth Management Ltd (NUVAMA IN: INR6,554.10, BUY)- One 97 Communications Limited (PAYTM IN: INR1,229.70, BUY)",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "d94ff4b96a5e1591",
+      "text": "- PB Fintech Limited (POLICYBZ IN: INR1,807.15, BUY)- Piramal Enterprises Limited (PIEL IN: INR1,122.25, UNDERPERFORM)- Punjab National Bank (PNB IN: INR101.45, BUY)- SBI Cards and Payment Services Limited (SBICARD IN: INR801.85, HOLD)- SBI Life Insurance Company (SBI LIFE IN: INR1,816.60, BUY)- Shriram Finance (SHFL IN: INR571.85, BUY)- Star Health & Allied Insurance (STARHEAL IN: INR443.80, HOLD)- State Bank of India (SBIN IN: INR802.05, BUY)",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "aee97f9b358a733d",
+      "text": "Distribution of Ratings",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "982fb5c9fbdfcf98",
+      "text": "CountPercentCountPercentCountPercentBUY211160.63%37017.53%1185.59%HOLD121334.84%1058.66%221.81%UNDERPERFORM1584.54%31.90%31.90%",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "c877eca2abddc6a8",
+      "text": "Jefries does busines and seeks to do busines with companies covered in its research reports, and expects to receive or intends to seek compensation for investment banking services among other activities from such companies. As a result, investors should be aware that Jefferies may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. Jefferies Equity Research refers to research reports produced by analysts employed by one of the following Jefferies Financial Group Inc. (Jefferies) companies:",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "6fb6a05989728e2f",
+      "text": "United States: Jefferies LLC which is an SEC registered broker- dealer and a member of FINRA (and distributed by Jefferies Research Services, LLC, an SEC registered Investment Adviser, to clients paying separately for such research).",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "d2737704ac214a9d",
+      "text": "Canada: Jefferies Securities Inc., which is an investment dealer registered in each of the thirteen Canadian jurisdictions and a dealer member of the Canadian Investment Regulatory Organization, including research reports produced jointly by Jefferies Securities Inc. and another Jefferies entity (and distributed by Jefferies Securities Inc.).",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "142bb9171b3b33a5",
+      "text": "Where Jefferies Securities Inc. distributes research reports produced by Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch or Jefferies India Private Limited, you are advised that each of Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch and Jefferies India Private Limited operates as a dealer in your jurisdiction under an exemption from the dealer registration requirements contained in National Instrument 31- 103 Registration Requirements, Exemptions and Ongoing Registrant Obligations and, as such, each of Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch and Jefferies India Private Limited is not required to be and is not a registered dealer or adviser in your jurisdiction. You are advised that where Jefferies LLC or Jefferies International Limited prepared this research report, it was not prepared in accordance with Canadian disclosure requirements relating to research reports in Canada.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "2f024d1437935178",
+      "text": "United Kingdom: Jefferies International Limited, which is authorized and regulated by the Financial Conduct Authority; registered in England and Wales No. 1978621; registered office: 100 Bishopsgate, London EC2N 4JL; telephone +44 (0)20 7029 8000; facsimile +44 (0)20 7029 8010.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "e2e24ab84a7ff749",
+      "text": "Japan: Jefferies (Japan) Limited, Tokyo Branch, which is a securities company registered by the Financial Services Agency of Japan and is a member of the Japan Securities Dealers Association; located at Tokyo Midtown Hibiya 30F Hibiya Mitsui Tower, 1- 1- 2 Yurakucho, Chiyoda- ku, Tokyo 100- 0006; telephone +813 5251 6100; facsimile +813 5251 6101.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "0c1544c1556bea30",
+      "text": "Australia: Jefferies (Australia) Pty Limited (ACN 623 059 898), which holds an Australian financial services license (AFSL 504712) and is located at Level 20, 60 Martin Place, Sydney NSW 2000; telephone +61 2 9364 2800.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "1e2fe4e1727f97b5",
+      "text": "Dubai: Jefferies International Limited, Dubai branch, which is licensed by the Dubai Financial Services Authority (DFSA Reference Number F007325); registered office Unit L31- 06, L31- 07, Level 31, ICD Brookfield Pace, DIFC, PO Box 121208, Dubai, UAE.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "f1312bce515abf3b",
+      "text": "This report was prepared by personnel who are associated with Jefferies (Jefferies Securities Inc., Jefferies International Limited, Jefferies GmbH, Jefferies Hong Kong Limited, Jefferies Singapore Limited, Jefferies (Japan) Limited, Tokyo Branch, Jefferies India Private Limited), and Jefferies (Australia) Pty Ltd; or by personnel who are associated with both Jefferies LLC and Jefferies Research Services LLC (\"JRS\"). Jefferies LLC is a US registered broker- dealer and is affiliated with JRS, which is a US registered investment adviser. JRS does not create tailored or personalized research and all research provided by JRS is impersonal. If you are paying separately for this research, it is being provided to you by JRS. Otherwise, it is being provided by Jefferies LLC. Jefferies LLC, JRS, and their affiliates are collectively referred to below as \"Jefferies\". Jefferies may seek to do business with companies covered in this research report. As a result, investors should be aware that Jefferies may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only one of many factors in making their investment decisions. Specific conflict of interest and other disclosures that are required by FINRA, the Canadian Investment Regulatory Organization and other rules are set forth in this disclosure section.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "c9a4b0ff64edc1e8",
+      "text": "If you are receiving this report from a non- US Jefferies entity, please note the following: Unless prohibited by the provisions of Regulation S of the U.S. Securities Act of 1933, as amended, this material is distributed in the United States by Jefferies LLC, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6 under the US Securities Exchange Act of 1934, as amended. Transactions by or on behalf of any US person may only be effected through Jefferies LLC. In the United Kingdom and European Economic Area this report is issued and/or approved for distribution by Jefferies International Limited (\"JIL\") and/or Jefferies GmbH and is intended for use only by persons who have, or have been assessed as having, suitable professional experience and expertise, or by persons to whom it can be otherwise lawfully distributed. Jefferies LLC, JIL, Jefferies GmbH and their affiliates, may make a market or provide liquidity in the financial instruments referred to in this report; and where they do make a market, such activity is disclosed specifically in this report under \"company specific disclosures\".",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "5899b4c5ca5c90ca",
+      "text": "For Canadian investors, this material is intended for use only by professional or institutional investors. None of the investments or investment services mentioned or described herein is available to other persons or to anyone in Canada who is not a \"permitted client\" as defined by National Instrument 31- 103 Registration Requirements, Exemptions and Ongoing Registrant Obligations, as applicable. This research report is a general discussion of the merits and",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "a22f5ce84f709e25",
+      "text": "financial situation, or needs.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "e4fc2b8ff775fafe",
+      "text": "The price and value of the investments referred to herein and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "2e06cbbb552eb02b",
+      "text": "This report may contain forward looking statements that may be affected by inaccurate assumptions or by known or unknown risks, uncertainties, and other important factors. As a result, the actual results, events, performance or achievements of the financial product may be materially different from those expressed or implied in such statements.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "76b57ef4f7b34014",
+      "text": "This report has been prepared independently of any issuer of securities mentioned herein and not as agent of any issuer of securities. No Equity Research personnel have authority whatsoever to make any representations or warranty on behalf of the issuer(s). Any comments or statements made herein are those of the Jefferies entity producing this report and may differ from the views of other Jefferies entities.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "69e7d40ba8629ed3",
+      "text": "This report may contain information obtained from third parties, including ratings from credit ratings agencies such as Standard & Poor's, and information derived from third-party or proprietary generative artificial intelligence (Gen AI) models. Jefferies does not guarantee the accuracy, completeness, timeliness or availability of this information, and is not responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use of such content. Neither Jefferies nor any third-party content providers, including providers of Gen AI models, give any express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Neither Jefferies nor any third-party content provider shall be liable for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs,",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "ff2a48377202b224",
+      "text": "expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase, hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Reproduction and distribution of third party content in any form is prohibited except with the prior written permission of the related third party.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "a826a11a0bbefb1b",
+      "text": "Jefferies research reports are disseminated and available electronically, and, in some cases, also in printed form. Electronic research is simultaneously made available to all clients. This report or any portion hereof may not be copied, reprinted, sold, or redistributed or disclosed by the recipient or any third party, by content scraping or extraction, automated processing, or any other form or means, without the prior written consent of Jefferies. Any unauthorized use is prohibited. Neither Jefferies nor any of its respective directors, officers or employees, is responsible for guaranteeing the financial success of any investment, or accepts any liability whatsoever for any direct, indirect or consequential damages or losses arising from any use of this report or its contents. Nothing herein shall be construed to waive any liability Jefferies has under applicable U.S. federal or state securities laws.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "0af254ed872d1486",
+      "text": "For Important Disclosure information relating to JRS, please see https://adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx? BRCHR_VRSN_ID=483878 and https://adviserinfo.sec.gov/Firm/292142 or visit our website at https://javatar.bluematrix.com/sellside/Disclosures.action, or www.jefferies.com, or call 1.888. JEFFERIES.",
+      "page": 17,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "2cb3618593b2590f",
+      "name": "AB Capital",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ba27f2ec87afbf9c",
+      "name": "AQ\n\nSlight",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0c4adee55261791d",
+      "name": "AQ Pressure",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "de0165621fc18093",
+      "name": "AQ Slips",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ca2069d27aa20762",
+      "name": "AQ Surprises",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "68ebcfd4e8f83aa3",
+      "name": "AQ Trends",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "29b72ab5bbd828ca",
+      "name": "AR Analysis",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1b4dcde71ec2aa8e",
+      "name": "AU Small",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98c78a9622e68b47",
+      "name": "Aavas Financiers",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6847d30932be374b",
+      "name": "Aavas Financiers Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1445c7889754d92e",
+      "name": "Abate Concerns",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ce5259b1cc2dfb8a",
+      "name": "Access Day",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "95d38872cf13d82a",
+      "name": "Acquire Joint",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "293d14db915e3f81",
+      "name": "Across Sub",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4c76ff78daa0e338",
+      "name": "ActivityLI Prem",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d4f3965867c85243",
+      "name": "Addressable Used",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "91f41131a17c32de",
+      "name": "Aditya Birla",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "60a6165d9506333a",
+      "name": "Aditya Birla Capital Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a87fb5efff17d066",
+      "name": "Adjusted PB",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "66099f3912d72f5c",
+      "name": "Affect BSE",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 3,
+        "axes": null,
+        "series": [],
+        "figure_id": "1e5b7bf4ff023e37",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": "Credit/Deposits (%)",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-22",
+              "Sep-22",
+              "Oct-22",
+              "Nov-22",
+              "Dec-22",
+              "Jan-23",
+              "Feb-23",
+              "Mar-23",
+              "Apr-23",
+              "May-23",
+              "Jun-23",
+              "Jul-23",
+              "Aug-23",
+              "Sep-23",
+              "Oct-23",
+              "Nov-23",
+              "Dec-23",
+              "Jan-24",
+              "Feb-24",
+              "Mar-24",
+              "Apr-24",
+              "May-24",
+              "Jun-24",
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 60,
+              "max": 85
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Credit/Deposits",
+            "unit": "%",
+            "values": [
+              73.0,
+              73.5,
+              74.0,
+              74.5,
+              75.0,
+              75.5,
+              75.8,
+              75.0,
+              74.5,
+              75.0,
+              75.5,
+              76.0,
+              76.5,
+              77.0,
+              77.5,
+              78.0,
+              78.2,
+              78.0,
+              77.8,
+              78.0,
+              77.5,
+              77.8,
+              78.0,
+              78.5,
+              79.0,
+              79.5,
+              80.0,
+              80.5,
+              80.8,
+              81.0,
+              80.5,
+              80.0,
+              79.5,
+              79.0,
+              79.2,
+              79.5,
+              79.5
+            ]
+          }
+        ],
+        "figure_id": "4eaf8ae80e49e3e4",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "area",
+        "title": "Aggregate Investments (Rstn)",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-22",
+              "Dec-22",
+              "Apr-23",
+              "Aug-23",
+              "Dec-23",
+              "Apr-24",
+              "Aug-24",
+              "Dec-24",
+              "Apr-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Rstn",
+            "range": {
+              "min": 0,
+              "max": 75
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Aggregate Investments",
+            "unit": "Rstn",
+            "values": [
+              49.5,
+              50.5,
+              54.0,
+              57.0,
+              59.0,
+              61.0,
+              63.0,
+              64.5,
+              65.5,
+              66.0
+            ]
+          }
+        ],
+        "figure_id": "e1a7862a101824f1",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "area",
+        "title": "Aggregate Deposits (Rstn)",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-22",
+              "Dec-22",
+              "Apr-23",
+              "Aug-23",
+              "Dec-23",
+              "Apr-24",
+              "Aug-24",
+              "Dec-24",
+              "Apr-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Rstn",
+            "range": {
+              "min": 100,
+              "max": 260
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Aggregate Deposits",
+            "unit": "Rstn",
+            "values": [
+              170,
+              175,
+              180,
+              190,
+              195,
+              205,
+              215,
+              220,
+              230,
+              235
+            ]
+          }
+        ],
+        "figure_id": "4387ee6d595d7a52",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "area",
+        "title": "Aggregate Bank Credit (Rstn)",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-22",
+              "Dec-22",
+              "Apr-23",
+              "Aug-23",
+              "Dec-23",
+              "Apr-24",
+              "Aug-24",
+              "Dec-24",
+              "Apr-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Rstn",
+            "range": {
+              "min": 70,
+              "max": 210
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Aggregate Bank Credit",
+            "unit": "Rstn",
+            "values": [
+              125,
+              130,
+              138,
+              145,
+              155,
+              165,
+              172,
+              178,
+              183,
+              187
+            ]
+          }
+        ],
+        "figure_id": "eb3c2577ad31eeca",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "area",
+        "title": "System liquidity in surplus territory at ~Rs2.4tn as of 28-Aug",
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-22",
+              "Nov-22",
+              "Feb-23",
+              "May-23",
+              "Aug-23",
+              "Nov-23",
+              "Feb-24",
+              "May-24",
+              "Aug-24",
+              "Nov-24",
+              "Feb-25",
+              "May-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "Rsbn",
+            "range": {
+              "min": -4000,
+              "max": 4000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Surplus liquidity/ (deficit)",
+            "unit": "Rsbn",
+            "values": []
+          }
+        ],
+        "figure_id": "65cc5f0ee7bea21c",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": "Credit growth (% YoY)",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-22",
+              "Sep-22",
+              "Oct-22",
+              "Nov-22",
+              "Dec-22",
+              "Jan-23",
+              "Feb-23",
+              "Mar-23",
+              "Apr-23",
+              "May-23",
+              "Jun-23",
+              "Jul-23",
+              "Aug-23",
+              "Sep-23",
+              "Oct-23",
+              "Nov-23",
+              "Dec-23",
+              "Jan-24",
+              "Feb-24",
+              "Mar-24",
+              "Apr-24",
+              "May-24",
+              "Jun-24",
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 4,
+              "max": 20
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Credit growth (% YoY)",
+            "unit": "%",
+            "values": [
+              14.0,
+              15.5,
+              15.0,
+              16.5,
+              17.0,
+              15.0,
+              16.0,
+              15.5,
+              15.0,
+              15.5,
+              15.0,
+              14.5,
+              15.0,
+              15.5,
+              16.0,
+              16.5,
+              16.0,
+              16.5,
+              16.0,
+              15.5,
+              16.0,
+              15.5,
+              14.0,
+              13.5,
+              13.0,
+              12.5,
+              12.0,
+              11.0,
+              11.5,
+              11.0,
+              11.0,
+              10.5,
+              10.0,
+              9.0,
+              9.5,
+              10.0,
+              10.5
+            ]
+          }
+        ],
+        "figure_id": "5f345c28d62bbc65",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "Deposit growth (% YoY)",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-22",
+              "Nov-22",
+              "Feb-23",
+              "May-23",
+              "Aug-23",
+              "Nov-23",
+              "Feb-24",
+              "May-24",
+              "Aug-24",
+              "Nov-24",
+              "Feb-25",
+              "May-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 4,
+              "max": 16
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Deposit growth",
+            "unit": "% YoY",
+            "values": [
+              9.0,
+              9.8,
+              8.2,
+              9.2,
+              10.5,
+              10.0,
+              10.8,
+              12.5,
+              12.0,
+              12.5,
+              12.8,
+              12.5,
+              12.8,
+              12.0,
+              12.5,
+              12.8,
+              12.5,
+              12.8,
+              13.0,
+              12.8,
+              12.5,
+              12.8,
+              12.5,
+              12.0,
+              11.5,
+              11.0,
+              11.8,
+              11.0,
+              11.8,
+              12.0,
+              11.8,
+              11.0,
+              10.0,
+              11.0,
+              10.8,
+              10.5,
+              10.8,
+              10.5,
+              10.0,
+              10.5,
+              10.8,
+              10.5,
+              10.5
+            ]
+          }
+        ],
+        "figure_id": "5385ac11495f2c78",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "083037020a89f4c9",
+        "value": 200.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "5.2)</td></tr></table> Source: Bloomberg, Jefferies; Universe covers financials with mkt cap > US\\\\$200mn Exhibit 4 - Key events to watch out for <table><tr><td>Calendar:</td><td></td></tr><tr><td>29-",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "215af5fffba0f2bb",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td></tr><tr><td>HDFC Bank</td><td>958</td><td>168</td><td>209</td><td>BUY</td><td>1,200</td><td>5%</td><td>2.7</td><td>2.4</td><td>2.1</td><td>2.9</td><td>2.7</td><td>2.4</td><td>20</td><td>19</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5a16f367995d5078",
+        "value": 0.011000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>2.4</td><td>2.1</td><td>2.9</td><td>2.7</td><td>2.4</td><td>20</td><td>19</td><td>16</td><td>1.1%</td><td>1.4%</td><td>1.3%</td><td>1.8%</td><td>1.6%</td><td>1.7%</td><td>15%</td><td>13%</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "92b952f565064563",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>2.1</td><td>2.9</td><td>2.7</td><td>2.4</td><td>20</td><td>19</td><td>16</td><td>1.1%</td><td>1.4%</td><td>1.3%</td><td>1.8%</td><td>1.6%</td><td>1.7%</td><td>15%</td><td>13%</td><td>14%</td></t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "55a8aef6458b1762",
+        "value": 0.013000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>2.9</td><td>2.7</td><td>2.4</td><td>20</td><td>19</td><td>16</td><td>1.1%</td><td>1.4%</td><td>1.3%</td><td>1.8%</td><td>1.6%</td><td>1.7%</td><td>15%</td><td>13%</td><td>14%</td></tr><tr><td>ICI",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7678f011ce61240b",
+        "value": 0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>2.7</td><td>2.4</td><td>20</td><td>19</td><td>16</td><td>1.1%</td><td>1.4%</td><td>1.3%</td><td>1.8%</td><td>1.6%</td><td>1.7%</td><td>15%</td><td>13%</td><td>14%</td></tr><tr><td>ICICI Bank</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "06f40f5765194e90",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>2.4</td><td>20</td><td>19</td><td>16</td><td>1.1%</td><td>1.4%</td><td>1.3%</td><td>1.8%</td><td>1.6%</td><td>1.7%</td><td>15%</td><td>13%</td><td>14%</td></tr><tr><td>ICICI Bank</td><td>1,399</td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "07ea970cead3e567",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>20</td><td>19</td><td>16</td><td>1.1%</td><td>1.4%</td><td>1.3%</td><td>1.8%</td><td>1.6%</td><td>1.7%</td><td>15%</td><td>13%</td><td>14%</td></tr><tr><td>ICICI Bank</td><td>1,399</td><td>114</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5f3db7e5524e5b61",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "19</td><td>16</td><td>1.1%</td><td>1.4%</td><td>1.3%</td><td>1.8%</td><td>1.6%</td><td>1.7%</td><td>15%</td><td>13%</td><td>14%</td></tr><tr><td>ICICI Bank</td><td>1,399</td><td>114</td><td>155</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "bcbdd93361876fc5",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6</td><td>1.1%</td><td>1.4%</td><td>1.3%</td><td>1.8%</td><td>1.6%</td><td>1.7%</td><td>15%</td><td>13%</td><td>14%</td></tr><tr><td>ICICI Bank</td><td>1,399</td><td>114</td><td>155</td><td>BUY</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "98c84727787b24bc",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1%</td><td>1.4%</td><td>1.3%</td><td>1.8%</td><td>1.6%</td><td>1.7%</td><td>15%</td><td>13%</td><td>14%</td></tr><tr><td>ICICI Bank</td><td>1,399</td><td>114</td><td>155</td><td>BUY</td><td>1,760</td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5fbe3708b5fb2591",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>ICICI Bank</td><td>1,399</td><td>114</td><td>155</td><td>BUY</td><td>1,760</td><td>6%</td><td>3.1</td><td>2.6</td><td>2.2</td><td>3.4</td><td>3.0</td><td>2.6</td><td>18</td><td>17</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7e6f2fb96e3d79bc",
+        "value": 0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>2.6</td><td>2.2</td><td>3.4</td><td>3.0</td><td>2.6</td><td>18</td><td>17</td><td>14</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>2.4%</td><td>2.2%</td><td>2.2%</td><td>19%</td><td>17%</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7ebbbe36d46339c6",
+        "value": 0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>2.2</td><td>3.4</td><td>3.0</td><td>2.6</td><td>18</td><td>17</td><td>14</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>2.4%</td><td>2.2%</td><td>2.2%</td><td>19%</td><td>17%</td><td>17%</td></t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "202dc56a30d2b6a4",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>3.4</td><td>3.0</td><td>2.6</td><td>18</td><td>17</td><td>14</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>2.4%</td><td>2.2%</td><td>2.2%</td><td>19%</td><td>17%</td><td>17%</td></tr><tr><td>Axi",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "778b3d62eec06534",
+        "value": 0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>3.0</td><td>2.6</td><td>18</td><td>17</td><td>14</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>2.4%</td><td>2.2%</td><td>2.2%</td><td>19%</td><td>17%</td><td>17%</td></tr><tr><td>Axis Bank</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f459afcc165931b1",
+        "value": 0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>2.6</td><td>18</td><td>17</td><td>14</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>2.4%</td><td>2.2%</td><td>2.2%</td><td>19%</td><td>17%</td><td>17%</td></tr><tr><td>Axis Bank</td><td>1,052</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "1c1bd23e0bb99e05",
+        "value": 0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>18</td><td>17</td><td>14</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>2.4%</td><td>2.2%</td><td>2.2%</td><td>19%</td><td>17%</td><td>17%</td></tr><tr><td>Axis Bank</td><td>1,052</td><td>37</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "723f06b95bc7feca",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "17</td><td>14</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>2.4%</td><td>2.2%</td><td>2.2%</td><td>19%</td><td>17%</td><td>17%</td></tr><tr><td>Axis Bank</td><td>1,052</td><td>37</td><td>95</td><td>B",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "11cdf85d1921cdfd",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>2.4%</td><td>2.2%</td><td>2.2%</td><td>19%</td><td>17%</td><td>17%</td></tr><tr><td>Axis Bank</td><td>1,052</td><td>37</td><td>95</td><td>BUY</td><td>1",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "8624beb929b38484",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8%</td><td>0.9%</td><td>1.0%</td><td>2.4%</td><td>2.2%</td><td>2.2%</td><td>19%</td><td>17%</td><td>17%</td></tr><tr><td>Axis Bank</td><td>1,052</td><td>37</td><td>95</td><td>BUY</td><td>1,370</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "15e288a1e0f1cc39",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "7%</td></tr><tr><td>Axis Bank</td><td>1,052</td><td>37</td><td>95</td><td>BUY</td><td>1,370</td><td>30%</td><td>1.7</td><td>1.5</td><td>1.3</td><td>1.8</td><td>1.6</td><td>1.4</td><td>11</td><td>12</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ab45ef1513b9ca40",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>1.5</td><td>1.3</td><td>1.8</td><td>1.6</td><td>1.4</td><td>11</td><td>12</td><td>9</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>1.7%</td><td>1.4%</td><td>1.6%</td><td>16%</td><td>13%</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "d1c029850518c9c0",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>1.3</td><td>1.8</td><td>1.6</td><td>1.4</td><td>11</td><td>12</td><td>9</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>1.7%</td><td>1.4%</td><td>1.6%</td><td>16%</td><td>13%</td><td>14%</td></t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "df25a8262a08ea76",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>1.8</td><td>1.6</td><td>1.4</td><td>11</td><td>12</td><td>9</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>1.7%</td><td>1.4%</td><td>1.6%</td><td>16%</td><td>13%</td><td>14%</td></tr><tr><td>Kot",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "516d71eaf0beaaa8",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>1.6</td><td>1.4</td><td>11</td><td>12</td><td>9</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>1.7%</td><td>1.4%</td><td>1.6%</td><td>16%</td><td>13%</td><td>14%</td></tr><tr><td>Kotak Bank</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "6f5d9d58b79e5922",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>1.4</td><td>11</td><td>12</td><td>9</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>1.7%</td><td>1.4%</td><td>1.6%</td><td>16%</td><td>13%</td><td>14%</td></tr><tr><td>Kotak Bank</td><td>1,945</td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "c2a1e3bc81d760b0",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>11</td><td>12</td><td>9</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>1.7%</td><td>1.4%</td><td>1.6%</td><td>16%</td><td>13%</td><td>14%</td></tr><tr><td>Kotak Bank</td><td>1,945</td><td>44</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "9bd38ab34efe36e8",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">12</td><td>9</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>1.7%</td><td>1.4%</td><td>1.6%</td><td>16%</td><td>13%</td><td>14%</td></tr><tr><td>Kotak Bank</td><td>1,945</td><td>44</td><td>94</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "396c94a92d94fdd1",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "9</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>1.7%</td><td>1.4%</td><td>1.6%</td><td>16%</td><td>13%</td><td>14%</td></tr><tr><td>Kotak Bank</td><td>1,945</td><td>44</td><td>94</td><td>BUY</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "252c6479da6ece80",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1%</td><td>0.1%</td><td>0.1%</td><td>1.7%</td><td>1.4%</td><td>1.6%</td><td>16%</td><td>13%</td><td>14%</td></tr><tr><td>Kotak Bank</td><td>1,945</td><td>44</td><td>94</td><td>BUY</td><td>2,550</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0dc332342580f0b5",
+        "value": 0.31,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>Kotak Bank</td><td>1,945</td><td>44</td><td>94</td><td>BUY</td><td>2,550</td><td>31%</td><td>2.4</td><td>1.9</td><td>1.5</td><td>3.3</td><td>2.9</td><td>2.0</td><td>19</td><td>16</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7cd7f88f01dda191",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>1.9</td><td>1.5</td><td>3.3</td><td>2.9</td><td>2.0</td><td>19</td><td>16</td><td>12</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>2.5%</td><td>2.2%</td><td>2.2%</td><td>13%</td><td>13%</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "75d4ba2b6070f1cf",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>1.5</td><td>3.3</td><td>2.9</td><td>2.0</td><td>19</td><td>16</td><td>12</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>2.5%</td><td>2.2%</td><td>2.2%</td><td>13%</td><td>13%</td><td>13%</td></t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f319e04b360cc673",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>3.3</td><td>2.9</td><td>2.0</td><td>19</td><td>16</td><td>12</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>2.5%</td><td>2.2%</td><td>2.2%</td><td>13%</td><td>13%</td><td>13%</td></tr><tr><td>Ind",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "797ba972e9e77e89",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>2.9</td><td>2.0</td><td>19</td><td>16</td><td>12</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>2.5%</td><td>2.2%</td><td>2.2%</td><td>13%</td><td>13%</td><td>13%</td></tr><tr><td>Indusind Bank</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "08004613aada61b5",
+        "value": 0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>2.0</td><td>19</td><td>16</td><td>12</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>2.5%</td><td>2.2%</td><td>2.2%</td><td>13%</td><td>13%</td><td>13%</td></tr><tr><td>Indusind Bank</td><td>747</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "1926a26e9d292f86",
+        "value": 0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>19</td><td>16</td><td>12</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>2.5%</td><td>2.2%</td><td>2.2%</td><td>13%</td><td>13%</td><td>13%</td></tr><tr><td>Indusind Bank</td><td>747</td><td>6.6</td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0d2d9c26af7508ef",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "16</td><td>12</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>2.5%</td><td>2.2%</td><td>2.2%</td><td>13%</td><td>13%</td><td>13%</td></tr><tr><td>Indusind Bank</td><td>747</td><td>6.6</td><td>50</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5fed0cb8513b8ac7",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2</td><td>0.1%</td><td>0.1%</td><td>0.1%</td><td>2.5%</td><td>2.2%</td><td>2.2%</td><td>13%</td><td>13%</td><td>13%</td></tr><tr><td>Indusind Bank</td><td>747</td><td>6.6</td><td>50</td><td>BUY</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "891d6c379f434b06",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1%</td><td>0.1%</td><td>0.1%</td><td>2.5%</td><td>2.2%</td><td>2.2%</td><td>13%</td><td>13%</td><td>13%</td></tr><tr><td>Indusind Bank</td><td>747</td><td>6.6</td><td>50</td><td>BUY</td><td>920</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "aff268e8e15c2d63",
+        "value": 0.23,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>Indusind Bank</td><td>747</td><td>6.6</td><td>50</td><td>BUY</td><td>920</td><td>23%</td><td>1.0</td><td>0.9</td><td>0.9</td><td>0.9</td><td>0.8</td><td>0.9</td><td>22</td><td>21</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a101d6df2b3b201e",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>0.9</td><td>0.9</td><td>0.9</td><td>0.8</td><td>0.9</td><td>22</td><td>21</td><td>13</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.5%</td><td>0.8%</td><td>4%</td><td>4%</td><td>3%</td><td>7%",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "6cac01e0cc1bf7c0",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>0.9</td><td>0.9</td><td>0.8</td><td>0.9</td><td>22</td><td>21</td><td>13</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.5%</td><td>0.8%</td><td>4%</td><td>4%</td><td>3%</td><td>7%</td></tr><tr",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "367cf17b51f92381",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>0.9</td><td>0.8</td><td>0.9</td><td>22</td><td>21</td><td>13</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.5%</td><td>0.8%</td><td>4%</td><td>4%</td><td>3%</td><td>7%</td></tr><tr><td>IDFC Fir",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ce34cb64cff0acff",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.8</td><td>0.9</td><td>22</td><td>21</td><td>13</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.5%</td><td>0.8%</td><td>4%</td><td>4%</td><td>3%</td><td>7%</td></tr><tr><td>IDFC First Bank</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "209b9cec24682f44",
+        "value": 0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>0.9</td><td>22</td><td>21</td><td>13</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.5%</td><td>0.8%</td><td>4%</td><td>4%</td><td>3%</td><td>7%</td></tr><tr><td>IDFC First Bank</td><td>68</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2e89b978a70501d9",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>22</td><td>21</td><td>13</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.5%</td><td>0.8%</td><td>4%</td><td>4%</td><td>3%</td><td>7%</td></tr><tr><td>IDFC First Bank</td><td>68</td><td>5.7</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2b0af52cc2f2f1f0",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>21</td><td>13</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.5%</td><td>0.8%</td><td>4%</td><td>4%</td><td>3%</td><td>7%</td></tr><tr><td>IDFC First Bank</td><td>68</td><td>5.7</td><td>22</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "e66bd27fc4162f0f",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>13</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.5%</td><td>0.8%</td><td>4%</td><td>4%</td><td>3%</td><td>7%</td></tr><tr><td>IDFC First Bank</td><td>68</td><td>5.7</td><td>22</td><td>BUY</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "322eea2ff9edf28e",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.5%</td><td>0.8%</td><td>4%</td><td>4%</td><td>3%</td><td>7%</td></tr><tr><td>IDFC First Bank</td><td>68</td><td>5.7</td><td>22</td><td>BUY</td><td>82</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "8dbe6c3a2152d6e7",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rises; Improving Fee & Opex Key for New CEOGODIGIT IN- 1QFY26 Results: Tad Miss on CoR; IFRS ROE at 19%NAM IN- 1QFY26 Results: MTM Gains and Steady Flows Aid Core PerformanceHOMEFIRS IN- 1QFY26 Result",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "db33e665de04c876",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Takeaways: Focus on Intl Merger Synergies; See Strong Growth AheadSBIN IN- R/S Feedback: To Sustain 1% ROA Despite Rate Cuts; New Growth AreasRBI Eases Project Financing Norms vs. Draft; +ve for Infra",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "cfb4be13e14957bf",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "By Stronger Cap Mkts BANDHAN IN- Roadshow Feedback: Watchful on Near- Term AQ; Aiming ROA of 1.8- 1.9% by FY28 MAXF IN- Exit of CEO A Slight Set- Back; Smooth Transition Key; Sector Tailwinds To Help",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "a881c3ea700cbc04",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nt Churn NAM IN- 4QFY25: Steady Business Momentum GODIGIT IN- 4QFY25: Tad Higher COR; IFRS ROE at 15% Much Needed Regulatory Clarity Could Aid Returns Among LIs CIFC IN- 4QFY25: Results Beat; Healthy",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "d7b320a723d64a0f",
+        "value": 361.6,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "AS IN: INR1,541.00, BUY)- Aditya Birla Capital Limited (ABCAP IN: INR277.45, BUY)- Allianz (ALV GR: €361.60, HOLD)- Aptus Value Housing Finance Limited (APTUS IN: INR324.85, BUY)- Axis Bank (AXSB IN: ",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "c920fe153c727f0f",
+        "value": 0.6063000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>Count</td><td>Percent</td><td>Count</td><td>Percent</td></tr><tr><td>BUY</td><td>2111</td><td>60.63%</td><td>370</td><td>17.53%</td><td>118</td><td>5.59%</td></tr><tr><td>HOLD</td><td>1213</td><",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "11f31c89254e7e90",
+        "value": 0.1753,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Count</td><td>Percent</td></tr><tr><td>BUY</td><td>2111</td><td>60.63%</td><td>370</td><td>17.53%</td><td>118</td><td>5.59%</td></tr><tr><td>HOLD</td><td>1213</td><td>34.84%</td><td>105</td><",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "d8de7351c4fb0814",
+        "value": 0.0559,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ent</td></tr><tr><td>BUY</td><td>2111</td><td>60.63%</td><td>370</td><td>17.53%</td><td>118</td><td>5.59%</td></tr><tr><td>HOLD</td><td>1213</td><td>34.84%</td><td>105</td><td>8.66%</td><td>22</td><td",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "9327d7fed3a8964d",
+        "value": 0.34840000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "63%</td><td>370</td><td>17.53%</td><td>118</td><td>5.59%</td></tr><tr><td>HOLD</td><td>1213</td><td>34.84%</td><td>105</td><td>8.66%</td><td>22</td><td>1.81%</td></tr><tr><td>UNDERPERFORM</td><td>158<",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "4d1013efc585b5b9",
+        "value": 0.0866,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "53%</td><td>118</td><td>5.59%</td></tr><tr><td>HOLD</td><td>1213</td><td>34.84%</td><td>105</td><td>8.66%</td><td>22</td><td>1.81%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "13a80e6223e58e89",
+        "value": 0.0181,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".59%</td></tr><tr><td>HOLD</td><td>1213</td><td>34.84%</td><td>105</td><td>8.66%</td><td>22</td><td>1.81%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td>",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "ae4298a32e7ef3f8",
+        "value": 0.0454,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>105</td><td>8.66%</td><td>22</td><td>1.81%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td><td>1.90%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "9b5bbc12f791d994",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>22</td><td>1.81%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td><td>1.90%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "3d5c82d25e0829b9",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td><td>1.90%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 14
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 8,
+      "tables_count": 0,
+      "numerical_data_count": 65,
+      "passages_count": 160,
+      "entities_count": 20
+    }
+  }
+}

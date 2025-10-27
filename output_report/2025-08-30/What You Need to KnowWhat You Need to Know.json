@@ -1,0 +1,822 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "38c7513bd60ef868927e39c70ddb6bdd",
+    "title": "Jefferies",
+    "source_uri": "2025-08-30/What You Need to KnowWhat You Need to Know_2025-08-30",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:45:32.944866",
+      "extracted_at": "2025-10-27T00:45:32.944876"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 8,
+        "successful_pages": 8,
+        "date": "2025-08-30",
+        "publication": "2025-08-30",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 6,
+          "reduction_ratio": 0.2736354999846772
+        },
+        "input_relative_path": "2025-08-30"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "74fadcd394adb70f",
+      "text": "What You Need to Know",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4530ba7033c7e1ef",
+      "text": "We are pleased to present a selection of our most insightful, best- read and most- watched US content. This week, we share insights on the direction of healthcare policy, extend our cautious stance on IT services and see rising generalist interest driving gold equities. We delve into the FCF on offer at BA, see evidence of a turn at SIG and offer some advice to RGA.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1aba81e499270e85",
+      "text": "Healthcare Policy: Checks with an HC staffer for a leading GOP Congressman suggest the enhanced tax subsidies for HC insurance set to expire at YE may well be extended and state Medicaid rate increases have been submitted. Hospitals to benefit from both.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "44f9fe6dc00c0090",
+      "text": "Gold Miners: Following two consecutive qtrs of wide margins + strong FCF, generalist interest is rising. Small net inflows into the GDX confirm. When generalists enter, multiples expand materially. P/NAV up from 0.7x to 0.8x ytd, still below 1x hist avg. B, KGC, EDV, DPM amongst top picks.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e5768c28803d0591",
+      "text": "IT Services: Extending our cautious view as macro and technological advances, esp AI disruption fears, have really taken root this past Q, weighing on client new project spend. CTSH, EXLS offer relative safety.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4e7f61892763f7da",
+      "text": "Nvidia: Remains top pick as rock solid demand (Blackwell/Hopper sold out), while next- gen Rubin remains on track and China licenses offer +\\\\$2- 5B rev upside in Oct Q. Path to \\\\$8+ EPS in '27.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "78be5a56d9a77b98",
+      "text": "Boeing: Perception AIR offers better quality FCF captures some investor preference. But BA's FCF is recovering well, \\(8.5B / \\$ 11B'27 / 28\\) est FCF could pull- fwd on better build rates, px, concessions.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "95d1f14ad84b7a85",
+      "text": "Intercontinental Exchange: Time w/CFO reveals mortgage activity slowly rebounding, likely further fueled by lower rates, while FI data demand remains strong. Share repurch a NT priority.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "204b4e868f63a1ef",
+      "text": "Affirm: Broad eComm and BNPL growth, and share gains on top, continues to drive upside to forecasts. Int'l and lean into \\(0\\%\\) APR product can propel addit network volumes.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9c3dfa4a61d0f682",
+      "text": "Reinsurance Grp of America: Negative sentiment underpins sector worst performance. Improved messaging around rising levg to global mortality improvement and target ROEs would help.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b3d19477d845c9f7",
+      "text": "Repligen: DHR's Gdviva's recent small- scale bioproc solution (TFF) launch bears watching given RGEN's market dominance. MSD% growth at 7x revs does not compel.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "cd9248a68f7edd41",
+      "text": "Signet Jeelers: Turnaround is gaining traction under new leadership, w/RE rationalization, faster store layout refreshes, push into fashion jewelry. Web traffic accel, FCF strong. \\(20\\%\\) of shares out repurc over last 5Qs.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3a7e4bfce7c59324",
+      "text": "Soulder Innovations: Proprietary shoulder implant platform's superior clinical data, differentiated tools, efficiency advantages support share gains and peer- leading \\(>30\\%\\) CAGR thru '28. New Buy.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2b4e55338cd2e44d",
+      "text": "[Video] Global Container Markets & US Consumer Retail Takes: Omar Nokta discusses recent trends in container shipping, transpacific dynamics w/partners Carlos Furuya/Jason Tan and US retail inventory levels and order momentum w/Randy Konik",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "995eaecce1380ed0",
+      "text": "(Article 3(1)e and Article 7 of MAR) Recommendation Published Recommendation Distributed",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "aeafe78a90ee8092",
+      "text": "August 29, 2025 13:31 P.M. August 30, 2025 10:00 A.M.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "ec5e2186f4bde711",
+      "text": "Jefferies International Limited is acting as financial advisor to Airbus on its definitive agreement to acquire certain industrial assets from Spirit Aerosystems Inc. Jefferies International Limited is acting as financial advisor to Airbus on its definitive agreement to acquire certain industrial assets fr om Spirit Aerosystems Inc. The Analyst has visited the material operations of Barrick Gold Corporation. The issuer has paid or reimbursed some or all of the Analyst's travel expenses with respect to that visit",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "7e77fec82b990e72",
+      "text": "The Analyst has visited the material operations of Kinross Gold Corporation. The issuer has paid or reimbursed some or all of the Analyst's travel expenses with respect to that visit.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "fc4e8aa041ed746a",
+      "text": "The Analyst has visited the material operations of Kinross Gold Corporation. The issuer has paid or reimbursed some or all of the Analyst's travel expenses with respect to that visit.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "74bcbeeb7a85aaba",
+      "text": "Jefferies Financial Group Inc., its affiliates or subsidiaries expect to receive or intend to seek compensation for investment banking services from Airbus Group NV within the next three months.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e56043cb6a3c2372",
+      "text": "Within the past twelve months, Airbus Group NV has been a client of Jefferies Financial Group Inc., its affiliates or subsidiaries and investment banking services are being or have been provided.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "ddbd1aef46d1b480",
+      "text": "Jefferies International Ltd, its affiliates or subsidiaries has, or had, within the past 12 months an agreement to provide investment services to Airbus Group NV. Within the past 12 months, Jefferies Financial Group Inc., its affiliates or subsidiaries has received compensation from investment banking services from Shoulder Innovations, Inc.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1283290fb1057b70",
+      "text": "Jefferies Financial Group Inc., its affiliates or subsidiaries expect to receive or intend to seek compensation for investment banking services from Shoulder Innovations, Inc. within the next three months.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4869faba04ed1331",
+      "text": "Within the past twelve months, Shoulder Innovations, Inc. has been a client of Jefferies Financial Group Inc., its affiliates or subsidiaries and investment banking services are being or have been provided.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8a442b4d8e895797",
+      "text": "Jefferies Financial Group Inc., its affiliates or subsidiaries has acted as a manager or co- manager in the underwriting or placement of securities for Shoulder Innovations, Inc. or one of its affiliates within the past twelve months.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "162129fcc22e7883",
+      "text": "For Important Disclosure information on companies recommended in this report, please visit our website at https://javatar.bluematrix.com/sellside/ Disclosures.action or call 212.284.2300.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "db81ea051b3b95d0",
+      "text": "Buy - Describes securities that we expect to provide a total return (price appreciation plus yield) of \\(15\\%\\) or more within a 12- month period. Hold - Describes securities that we expect to provide a total return (price appreciation plus yield) of plus \\(15\\%\\) or minus \\(10\\%\\) within a 12- month period. Underperform - Describes securities that we expect to provide a total return (price appreciation plus yield) of minus \\(10\\%\\) or less within a 12- month period. The expected total return (price appreciation plus yield) for Buy rated securities with an average security price consistently below \\(10\\) is \\(20\\%\\) or more within a 12- month period as these companies are typically more volatile than the overall stock market. For Hold rated securities with an average security price consistently",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3982c6c7de7ff879",
+      "text": "below \\(\\) 10\\(, the expected total return (price appreciation plus yield) is plus or minus\\) 20\\% \\(within a 12 - month period. For Underperform rated securities with an average security price consistently below\\) \\ \\(10\\) , the expected total return (price appreciation plus yield) is minus \\(20\\%\\) or less within a 12- month period.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "fa7877fd9ca7a131",
+      "text": "NR - The investment rating and price target have been temporarily suspended. Such suspensions are in compliance with applicable regulations and/or Jefferies policies.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "275f86662dc3efbd",
+      "text": "CS - Coverage Suspended. Jefferies has suspended coverage of this company.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4902862d6c5d93da",
+      "text": "NC - Not covered. Jefferies does not cover this company.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "abd35c8a479cbabd",
+      "text": "Restricted - Describes issuers where, in conjunction with Jefferies engagement in certain transactions, company policy or applicable securities regulations prohibit certain types of communications, including investment recommendations.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "32e2d1c561240227",
+      "text": "Monitor - Describes securities whose company fundamentals and financials are being monitored, and for which no financial projections or opinions on the investment merits of the company are provided.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "dd27c7f9e28db0fc",
+      "text": "Jefferies' methodology for assigning ratings may include the following: market capitalization, maturity, growth/value, volatility and expected total return over the next 12 months. The price targets are based on several methodologies, which may include, but are not restricted to, analyses of market risk, growth rate, revenue stream, discounted cash flow (DCF), EBITDA, EPS, cash flow (CF), free cash flow (FCF), EV/EBITDA, P/E, PE/rowth, P/CF, P/FCF, premium (discount)/average group EV/EBITDA, premium (discount)/average group P/E, sum of the parts, net asset value, dividend returns, and return on equity (ROE) over the next 12 months.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "fb4b6119d309e62f",
+      "text": "Jefferies Franchise Picks include stock selections from among the best stock ideas from our equity analysts over a 12 month period. Stock selection is based on fundamental analysis and may take into account other factors such as analyst conviction, differentiated analysis, a favorable risk/reward ratio and investment themes that Jefferies analysts are recommending. Jefferies Franchise Picks will include only Buy rated stocks and the number can vary depending on analyst recommendations for inclusion. Stocks will be added as new opportunities arise and removed when the reason for inclusion changes, the stock has met its desired return, if it is no longer rated Buy and/or if it triggers a stop loss. Stocks having 120 day volatility in the bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent a recommended portfolio of stocks and is not sector based, but we may note where we believe a Pick falls within an investment style such as growth or value.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5fbbafbc6505a50a",
+      "text": "- Affirm Holdings, Inc. (AFRM: $88.46, BUY)- Airbus Group NV (AIR FP: €179.06, BUY)- Barrick Mining Corp (B: $26.63, BUY)- Cognizant Technology Solutions Corp. (CTSH: $72.25, BUY)- Danaher Corp. (DHR: $205.82, BUY)- Dundee Precious Metals Inc (DPM CN: C$25.46, BUY)- Endeavour Mining (EDV CN: C$47.75, BUY)- ExlService Holdings, Inc. (EXLS: $43.78, BUY)- Intercontinental Exchange (ICE: $176.60, BUY)- Kinross Gold Corp. (KGC: $20.90, BUY)- NVIDIA Corporation (NVDA: $174.18, BUY)- Reinsurance Group of America Inc (RGA: $194.79, BUY)- Repligen Corporation (RGEN: $122.32, HOLD)- Shoulder Innovations, Inc. (SI: $14.82, BUY)- Signet Jewelers Ltd (SIG: $88.05, BUY)- The Boeing Company (BA: $234.68, BUY)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ce1c74e33389caf7",
+      "text": "Distribution of Ratings",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "bfc5de20afaaa655",
+      "text": "CountPercentCountPercentCountPercentBUY210760.60%37017.56%1185.60%HOLD121234.86%1078.83%221.82%UNDERPERFORM1584.54%31.90%31.90%",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b3ce58344976d619",
+      "text": "Jefferies does busines and seeks to do busines with companies covered in its research reports, and expects to receive or intends to seek compensation for investment banking services among other activities from such companies. As a result, investors should be aware that Jefferies may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "90edd3add09751c6",
+      "text": "Jefferies Equity Research refers to research reports produced by analysts employed by one of the following Jefferies Financial Group Inc. (Jefferies) companies: United States: Jefferies LLC which is an SEC registered broker- dealer and a member of FINRA (and distributed by Jefferies Research Services, LLC, an SEC registered Investment Adviser, to clients paying separately for such research).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8e84e209e6726dd2",
+      "text": "Canada: Jefferies Securities Inc., which is an investment dealer registered in each of the thirteen Canadian jurisdictions and a dealer member of the Canadian Investment Regulatory Organization, including research reports produced jointly by Jefferies Securities Inc. and another Jefferies entity (and distributed by Jefferies Securities Inc.).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "883303f344384416",
+      "text": "Where Jefferies Securities Inc. distributes research reports produced by Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch or Jefferies India Private Limited, you are advised that each of Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch and Jefferies India Private Limited operates as a dealer in your jurisdiction under an exemption from the dealer registration requirements contained in National Instrument 31- 103 Registration Requirements, Exemptions and Ongoing Registrant Obligations and, as such, each of Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch and Jefferies India Private Limited is not required to be and is not a registered dealer or adviser in your jurisdiction. You are advised that where Jefferies LLC or Jefferies International Limited prepared this research report, it was not prepared in accordance with Canadian disclosure requirements relating to research reports in Canada.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "90218a75f45f92de",
+      "text": "United Kingdom: Jefferies International Limited, which is authorized and regulated by the Financial Conduct Authority, registered in England and Wales No. 1978621; registered office: 100 Bishopsgate, London EC2N 4JL; telephone +44 (0)20 7029 8000; facsimile +44 (0)20 7029 8010.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4062a2ffa453ffad",
+      "text": "Japan: Jefferies (Japan) Limited, Tokyo Branch, which is a securities company registered by the Financial Services Agency of Japan and is a member of the Japan Securities Dealers Association; located at Tokyo Midtown Hibiya 30F Hibiya Mitsui Tower, 1- 1- 2 Yurakucho, Chiyoda- ku, Tokyo 100- 0006; telephone +813 5251 6100; facsimile +813 5251 6101.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4f39357d9811544a",
+      "text": "Australia: Jefferies (Australia) Pty Limited (ACN 623 059 898), which holds an Australian financial services license (AFSL 504712) and is located at Level 20, 60 Martin Place, Sydney NSW 2000; telephone +61 2 9364 2800.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "849657c01147d42c",
+      "text": "Dubai: Jefferies International Limited, Dubai branch, which is licensed by the Dubai Financial Services Authority (DFSA Reference Number F007325); registered office Unit L31- 06, L31- 07, Level 31, ICD Brookfield Pace, DIFC, PO Box 121208, Dubai, UAE.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f21450c28b308c37",
+      "text": "This report was prepared by personnel who are associated with Jefferies (Jefferies Securities Inc., Jefferies International Limited, Jefferies GmbH, Jefferies Hong Kong Limited, Jefferies Singapore Limited, Jefferies (Japan) Limited, Tokyo Branch, Jefferies India Private Limited), and Jefferies (Australia) Pty Ltd; or by personnel who are associated with both Jefferies LLC and Jefferies Research Services LLC (\"JRS\"). Jefferies LLC is a US registered broker- dealer and is affiliated with JRS, which is a US registered investment adviser. JRS does not create tailored or personalized research and all research provided by JRS is impersonal. If you are paying separately for this research, it is being provided to you by JRS. Otherwise, it is being provided by Jefferies LLC. Jefferies LLC, JRS, and their affiliates are collectively referred to below as \"Jefferies\". Jefferies may seek to do business with companies covered in this research report. As a result, investors should be aware that Jefferies may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only one of many factors in making their investment decisions. Specific conflict of interest and other disclosures that are required by FINRA, the Canadian Investment Regulatory Organization and other rules are set forth in this disclosure section.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5b937986669e3b89",
+      "text": "If you are receiving this report from a non- US Jefferies entity, please note the following: Unless prohibited by the provisions of Regulation S of the U.S. Securities Act of 1933, as amended, this material is distributed in the United States by Jefferies LLC, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6 under the US Securities Exchange Act of 1934, as amended. Transactions by or on behalf of any US person may only be effected through Jefferies LLC. In the United Kingdom and European Economic Area this report is issued and/or approved for distribution by Jefferies International Limited (\"JIL\") and/or Jefferies GmbH and is intended for use only by persons who have, or have been assessed as having, suitable professional experience and expertise, or by persons to whom it can be otherwise lawfully distributed. Jefferies LLC, JIL, Jefferies GmbH and their affiliates, may make a market or provide liquidity in the financial instruments referred to in this report; and where they do make a market, such activity is disclosed specifically in this report under \"company specific disclosures\".",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "602904a44357019b",
+      "text": "For Canadian investors, this material is intended for use only by professional or institutional investors. None of the investments or investment services mentioned or described herein is available to other persons or to anyone in Canada who is not a permitted client as defined by National Instrument 31- 103 Registration Requirements, Exemptions and Ongoing Registrant Obligations, as applicable. This research report is a general discussion of the merits and risks of a security or securities only, and is not in any way meant to be tailored to the needs and circumstances of any recipient. The information contained herein is not, and under no circumstances is to be construed as, an offer to sell securities described herein, or solicitation of an offer to buy securities described herein, in Canada or any province or territory thereof. Any offer or sale of the securities described herein in Canada will be made only under an exemption from the requirements to file a prospectus with the relevant Canadian securities regulators, if applicable, and only by a dealer properly registered under applicable securities laws or, alternatively, pursuant to an exemption from the dealer registration requirement in the relevant province or territory of Canada in which such offer or sale is made. The information contained herein is under no circumstances to be construed as investment advice in any province or territory of Canada and is not tailored to the needs of the recipient. To the extent that the information contained herein references securities of an issuer incorporated, formed or created under the laws of Canada or a province or territory of Canada, any trades in such securities must be conducted through a dealer registered in Canada. No securities commission or similar regulatory authority in Canada has reviewed or in any way passed judgment upon this research report, the information contained herein or the merits of the securities described herein, and any representation to the contrary is an offence.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "81a8df2024c48fc0",
+      "text": "By providing this report, neither JRS nor any other Jefferies entity accepts any authority, discretion, or control over the management of the recipient's assets. Any action taken by the recipient of this report, based on the information in the report, is at the recipient's sole judgment and risk. The recipient must perform his or her own independent review of any prospective investment. If the recipient uses the services of Jefferies LLC (or other affiliated broker-dealers), in connection with a purchase or sale of a security that is a subject of these materials, such broker- dealer may act as principal for its own accounts or as agent for another person. Only JRS is registered with the SEC as an investment adviser, and therefore neither Jefferies LLC nor any other Jefferies affiliate has any fiduciary duty in connection with distribution of these reports.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1adbead7418a2d32",
+      "text": "The price and value of the investments referred to herein and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9b8512756ed14216",
+      "text": "This report may contain forward looking statements that may be affected by inaccurate assumptions or by known or unknown risks, uncertainties, and other important factors. As a result, the actual results, events, performance or achievements of the financial product may be materially different from those expressed or implied in such statements.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "67a16e67775bdb08",
+      "text": "This report has been prepared independently of any issuer of securities mentioned herein and not as agent of any issuer of securities. No Equity Research personnel have authority whatsoever to make any representations or warranty on behalf of the issuer(s). Any comments or statements made herein are those of the Jefferies entity producing this report and may differ from the views of other Jefferies entities.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "58f37497184b7d1f",
+      "text": "This report may contain information obtained from third parties, including ratings from credit ratings agencies such as Standard & Poor's, and information derived from third-party or proprietary generative artificial intelligence (Gen AI) models. Jefferies does not guarantee the accuracy, completeness, timeliness or availability of this information, and is not responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use of such content. Neither Jefferies nor any third-party content providers, including providers of Gen AI models, give any express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Neither Jefferies nor any third-party content provider shall be liable for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase, hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Reproduction and distribution of third party content in any form is prohibited except with the prior written permission of the related third party.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0af41a2a27e92d26",
+      "text": "Jefferies research reports are disseminated and available electronically, and, in some cases, also in printed form. Electronic research is simultaneously made available to all clients. This report or any portion hereof may not be copied, reprinted, sold, or redistributed or disclosed by the recipient or any third party, by content scraping or extraction, automated processing, or any other form or means, without the prior written consent of Jefferies. Any unauthorized use is prohibited. Neither Jefferies nor any of its respective directors, officers or employees, is responsible for guaranteeing the financial success of any investment, or accepts any liability whatsoever for any direct, indirect or consequential damages or losses arising from any use of this report or its contents. Nothing herein shall be construed to waive any liability Jefferies has under applicable U.S. federal or state securities laws.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ab8309ce43ab18d8",
+      "text": "For Important Disclosure information relating to JRS, please see https://adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx? BRCHR_VRSN_ID=483878 and https://adviserinfo.sec.gov/Firm/292142 or visit our website at https://javatar.bluematrix.com/sellside/Disclosures.action, or www.jefferies.com, or call 1.888.JEFFERIES.",
+      "page": 7,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "2450bc36394921d6",
+      "name": "Affirm Holdings",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3d21bff502fc6cf5",
+      "name": "Airbus Group",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ba6d748165f5cc75",
+      "name": "America Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6b13de7bfcaabb97",
+      "name": "Barrick Gold",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8494e19ed9376dc9",
+      "name": "Barrick Mining",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7229ae497e46c1a3",
+      "name": "Barrick Mining Corp",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dbd35dc300cff7df",
+      "name": "But BA",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7860a2554c61a53f",
+      "name": "Canadian Investment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d4c3a66820bd4d81",
+      "name": "Carlos Furuya",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "271efda39c51fea3",
+      "name": "Cognizant Technology",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b78595a1c252c620",
+      "name": "Cognizant Technology Solutions Corp",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0c759b57d9ad2ce6",
+      "name": "Company Specific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4b9be408e155a05b",
+      "name": "Coverage Suspended",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e9cd18ef1469e32c",
+      "name": "DFSA Reference",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facbafb345c102d6",
+      "name": "Danaher Corp",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6ba4b0a762d135f4",
+      "name": "Dealers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3a9f1e728b314846",
+      "name": "Disclosures\n\nJefferies",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8ed3fafbb18d7293",
+      "name": "Dubai Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7793a890bcbf8d0c",
+      "name": "Dundee Precious",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "32e532ec06407a2b",
+      "name": "Dundee Precious Metals Inc",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": "Company Valuation/Risks",
+        "page": 3,
+        "axes": null,
+        "series": [],
+        "figure_id": "b5986ae317196c15",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "9bfb235043c75675",
+        "value": 2.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "and (Blackwell/Hopper sold out), while next- gen Rubin remains on track and China licenses offer +\\\\$2- 5B rev upside in Oct Q. Path to \\\\$8+ EPS in '27. Boeing: Perception AIR offers better quality F",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "1b671c0176318d72",
+        "value": 8.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "next- gen Rubin remains on track and China licenses offer +\\\\$2- 5B rev upside in Oct Q. Path to \\\\$8+ EPS in '27. Boeing: Perception AIR offers better quality FCF captures some investor preference. B",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c28d603bf976f07a",
+        "value": 11000000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "rs better quality FCF captures some investor preference. But BA's FCF is recovering well, \\(8.5B / \\$ 11B'27 / 28\\) est FCF could pull- fwd on better build rates, px, concessions. Intercontinental Exc",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "6ed83cd188309a43",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "loss. Stocks having 120 day volatility in the bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "1bfd2870fd627565",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent a recommended portfolio of stocks and is not ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "aa435da5db885397",
+        "value": 88.46,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ch as growth or value. ## Other Companies Mentioned in This Report - Affirm Holdings, Inc. (AFRM: $88.46, BUY)- Airbus Group NV (AIR FP: €179.06, BUY)- Barrick Mining Corp (B: $26.63, BUY)- Cognizant ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "aa3f0342ee744faf",
+        "value": 179.06,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "ies Mentioned in This Report - Affirm Holdings, Inc. (AFRM: $88.46, BUY)- Airbus Group NV (AIR FP: €179.06, BUY)- Barrick Mining Corp (B: $26.63, BUY)- Cognizant Technology Solutions Corp. (CTSH: $72.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "75594887d3ec2cf6",
+        "value": 26.63,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Holdings, Inc. (AFRM: $88.46, BUY)- Airbus Group NV (AIR FP: €179.06, BUY)- Barrick Mining Corp (B: $26.63, BUY)- Cognizant Technology Solutions Corp. (CTSH: $72.25, BUY)- Danaher Corp. (DHR: $205.82,",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "112b79409475a599",
+        "value": 72.25,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "P: €179.06, BUY)- Barrick Mining Corp (B: $26.63, BUY)- Cognizant Technology Solutions Corp. (CTSH: $72.25, BUY)- Danaher Corp. (DHR: $205.82, BUY)- Dundee Precious Metals Inc (DPM CN: C$25.46, BUY)- ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d3ae00a765a55b66",
+        "value": 205.82,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "orp (B: $26.63, BUY)- Cognizant Technology Solutions Corp. (CTSH: $72.25, BUY)- Danaher Corp. (DHR: $205.82, BUY)- Dundee Precious Metals Inc (DPM CN: C$25.46, BUY)- Endeavour Mining (EDV CN: C$47.75,",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "5f5f06efc5fd985b",
+        "value": 25.46,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Corp. (CTSH: $72.25, BUY)- Danaher Corp. (DHR: $205.82, BUY)- Dundee Precious Metals Inc (DPM CN: C$25.46, BUY)- Endeavour Mining (EDV CN: C$47.75, BUY)- ExlService Holdings, Inc. (EXLS: $43.78, BUY)-",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "79e92d2b6bf3cc86",
+        "value": 47.75,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(DHR: $205.82, BUY)- Dundee Precious Metals Inc (DPM CN: C$25.46, BUY)- Endeavour Mining (EDV CN: C$47.75, BUY)- ExlService Holdings, Inc. (EXLS: $43.78, BUY)- Intercontinental Exchange (ICE: $176.60,",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "951ad822f954a3d3",
+        "value": 43.78,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "c (DPM CN: C$25.46, BUY)- Endeavour Mining (EDV CN: C$47.75, BUY)- ExlService Holdings, Inc. (EXLS: $43.78, BUY)- Intercontinental Exchange (ICE: $176.60, BUY)- Kinross Gold Corp. (KGC: $20.90, BUY)- ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "3b521d0d7ceb5e3b",
+        "value": 176.6,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "V CN: C$47.75, BUY)- ExlService Holdings, Inc. (EXLS: $43.78, BUY)- Intercontinental Exchange (ICE: $176.60, BUY)- Kinross Gold Corp. (KGC: $20.90, BUY)- NVIDIA Corporation (NVDA: $174.18, BUY)- Reins",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "2a4727e2d722cd79",
+        "value": 20.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ", Inc. (EXLS: $43.78, BUY)- Intercontinental Exchange (ICE: $176.60, BUY)- Kinross Gold Corp. (KGC: $20.90, BUY)- NVIDIA Corporation (NVDA: $174.18, BUY)- Reinsurance Group of America Inc (RGA: $194.7",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "dd49d2bb995a0e57",
+        "value": 174.18,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ntal Exchange (ICE: $176.60, BUY)- Kinross Gold Corp. (KGC: $20.90, BUY)- NVIDIA Corporation (NVDA: $174.18, BUY)- Reinsurance Group of America Inc (RGA: $194.79, BUY)- Repligen Corporation (RGEN: $12",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "806eeb3c7f8fd010",
+        "value": 194.79,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(KGC: $20.90, BUY)- NVIDIA Corporation (NVDA: $174.18, BUY)- Reinsurance Group of America Inc (RGA: $194.79, BUY)- Repligen Corporation (RGEN: $122.32, HOLD)- Shoulder Innovations, Inc. (SI: $14.82, B",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d9a29655a369decf",
+        "value": 122.32,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "A: $174.18, BUY)- Reinsurance Group of America Inc (RGA: $194.79, BUY)- Repligen Corporation (RGEN: $122.32, HOLD)- Shoulder Innovations, Inc. (SI: $14.82, BUY)- Signet Jewelers Ltd (SIG: $88.05, BUY)",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "4c439ad6edb5f921",
+        "value": 14.82,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "nc (RGA: $194.79, BUY)- Repligen Corporation (RGEN: $122.32, HOLD)- Shoulder Innovations, Inc. (SI: $14.82, BUY)- Signet Jewelers Ltd (SIG: $88.05, BUY)- The Boeing Company (BA: $234.68, BUY)<｜end▁of▁",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "3c96fc510ba4b686",
+        "value": 88.05,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "tion (RGEN: $122.32, HOLD)- Shoulder Innovations, Inc. (SI: $14.82, BUY)- Signet Jewelers Ltd (SIG: $88.05, BUY)- The Boeing Company (BA: $234.68, BUY)<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "dce80b8bf1021a20",
+        "value": 234.68,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "nnovations, Inc. (SI: $14.82, BUY)- Signet Jewelers Ltd (SIG: $88.05, BUY)- The Boeing Company (BA: $234.68, BUY)<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e6b14adf47f15948",
+        "value": 0.606,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>Count</td><td>Percent</td><td>Count</td><td>Percent</td></tr><tr><td>BUY</td><td>2107</td><td>60.60%</td><td>370</td><td>17.56%</td><td>118</td><td>5.60%</td></tr><tr><td>HOLD</td><td>1212</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f8bbc74bf1342abb",
+        "value": 0.17559999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Count</td><td>Percent</td></tr><tr><td>BUY</td><td>2107</td><td>60.60%</td><td>370</td><td>17.56%</td><td>118</td><td>5.60%</td></tr><tr><td>HOLD</td><td>1212</td><td>34.86%</td><td>107</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "cd1767f260ea6409",
+        "value": 0.055999999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ent</td></tr><tr><td>BUY</td><td>2107</td><td>60.60%</td><td>370</td><td>17.56%</td><td>118</td><td>5.60%</td></tr><tr><td>HOLD</td><td>1212</td><td>34.86%</td><td>107</td><td>8.83%</td><td>22</td><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e95cff1d6f4d1676",
+        "value": 0.3486,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "60%</td><td>370</td><td>17.56%</td><td>118</td><td>5.60%</td></tr><tr><td>HOLD</td><td>1212</td><td>34.86%</td><td>107</td><td>8.83%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>158<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "8c30081675fa1ead",
+        "value": 0.0883,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "56%</td><td>118</td><td>5.60%</td></tr><tr><td>HOLD</td><td>1212</td><td>34.86%</td><td>107</td><td>8.83%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a3a1117224b4b317",
+        "value": 0.0182,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".60%</td></tr><tr><td>HOLD</td><td>1212</td><td>34.86%</td><td>107</td><td>8.83%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "99a5a969bac38b5b",
+        "value": 0.0454,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>107</td><td>8.83%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td><td>1.90%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d175f1853d3c53f8",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td><td>1.90%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "408d15809a0b4cbc",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td><td>1.90%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 1,
+      "tables_count": 0,
+      "numerical_data_count": 30,
+      "passages_count": 56,
+      "entities_count": 20
+    }
+  }
+}

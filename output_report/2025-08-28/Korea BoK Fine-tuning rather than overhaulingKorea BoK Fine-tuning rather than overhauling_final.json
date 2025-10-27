@@ -1,0 +1,708 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "62db3cde350f6682d856bd0504eece4a",
+    "title": "BoK: Fine-tuning rather than overhauling",
+    "source_uri": "2025-08-28/Korea BoK Fine-tuning rather than overhaulingKorea BoK Fine-tuning rather than overhauling_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T05:34:19.946194",
+      "extracted_at": "2025-10-26T05:34:19.946205"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 10,
+        "successful_pages": 10,
+        "date": "2025-08-28",
+        "publication": "2025-08-28",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 4,
+          "removed_paragraphs": 19,
+          "reduction_ratio": 0.44055527642866443
+        },
+        "input_relative_path": "2025-08-28"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "49b54cded53ff45c",
+      "text": "The BoK kept rates unchanged, but with one dissenting vote for a cut. The governor extended the path for easing into H1 26 and said today's pause was a mere recalibration of the timing. We think the bar for no cut in 2026 is very high and keep our baseline for cuts in October 2025 and February 2026.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b3f385b3bb55feae",
+      "text": "The Bank of Korea (BoK) kept its policy rate unchanged, but with a dissenting vote in favour of a cut. This was broadly in line with our expectation for a dovish hold, partly acknowledging the need for further cuts based on a still- wide negative output gap, but prioritising financial stability conditions due to insufficient progress in stabilising housing prices and expectations for persistent rises in those prices.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d23c17bdcb17b39b",
+      "text": "We believe the meeting was broadly in line with our expectation for a dovish hold - although the BoK did not give as strong signal for an October cut as they did in January and April. One dissenting vote suggests that the decision for this meeting was not an easy hold. We believe the fact that five members are open to a cut in next three months and preferred to monitor domestic and external developments should mean that a Fed rate cut in September and more easing in property price momentum should lead to a cut in October.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f312d18f2bc2bd32",
+      "text": "The BoK governor extended the path for easing into H126 as the output gap is likely to remain negative until H1 26. The governor made it clear that the decision today does not mean the BoK is reconsidering the depth of the cutting cycle, but is adjusting the timing. This was in part as the BoK prioritised coordination with macroprudential policy. The BoK governor noted that housing prices are not directly part of financial stability concerns and the BoK is not behind the curve.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "530b81e307680d9c",
+      "text": "We believe the bar for no cut this year is high. The BoK assumed \\(1.1\\%\\) q/q sa growth in Q3 (versus trend growth of \\(0.4 - 0.5\\%\\) ), but still guided for a cut in next three months. In our view, this suggests that the federal members see resilient growth in Q3 as more of a temporary developments. The government change of stance toward a more expansionary fiscal policy poses some upside risk (around 20bp) to the bank's 2026 GDP growth forecast, as the BoK used previous government's medium- term fiscal framework. However, we think the output gap likely remains negative regardless, and whether the BoK gauges this as a sustainable change in stance or a temporary boost in 2026 will be more important in determining policy in 2026.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "df21ead8d2edfe78",
+      "text": "This document is intended for institutional investors and is not subject to all of the independence and disclosure standards applicable to debt research reports prepared for retail investors under U.S. FINRA Rule 2242. Barclays trades the securities covered in this report for its own account and on a discretionary basis on behalf of certain clients. Such trading interests may be contrary to the recommendations offered in this report.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d413a7694053a384",
+      "text": "Please see analyst certifications and important disclosures beginning on page 8. Completed: 28- Aug- 25, 09:28 GMT Released: 28- Aug- 25, 09:32 GMT Restricted - External",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "51df60bc14d65fcf",
+      "text": "We maintain our baseline for the BoK to cut in October 2025 and February 2026, broadly matching the governor's guidance. We think further stabilisation in housing prices is likely to be the key factor in navigating the timing of the next cut. We the the combination of housing- supply measures and modest tightening of macroprudential policy by raising the risk weights for new mortgages or fine- tuning Jeonse related lending could bring housing sector sentiment lower.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8a3bd0ff75c85f44",
+      "text": "The Bank of Korea (BoK) kept its policy rate unchanged, but with a dissenting vote in favour of a cut. This was broadly in line with our expectation for a dovish hold, partly acknowledging the need for further cuts based on still- wide negative output gap, but instead prioritising financial stability conditions due to insufficient progress in stabilisation in housing prices and the still- elevated expectations for further housing price gains.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9c25a6561c111770",
+      "text": "The decision came after the five members who voted to keep the rates unchanged preferred to monitor the domestic and external developments, such as further progress slowing the rise in housing prices in the Seoul metropolitan area, policy coordination with the property- related policy, and monetary policy decisions in the US. Meanwhile, the dissenting member, Dr Shin Sung- Hwan, preferred a pre- emptive cut to reduce negative output gap on expectation that the Fed's cut in September and further stabilisation in housing prices suggested some arguments in favour of a cut.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "26c98e388cdd8e59",
+      "text": "In terms of forward guidance for the next three months, five members kept the door open for a cut in next three months. This was less dovish compared with our expectation for all members expecting a cut in next three months, since it will also cover November meeting. Five members noted that given relatively notable below- trend growth for the foreseeable future, they preferred to keep the option to cut rates, while deciding the timing based on the balance of risks and financial stability conditions. The other member was more hawkish on financial stability issues, noting that it may take longer to relieve financial stability concerns, while noting that, of course, the member will be data- dependent.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e30f3ccb062933c1",
+      "text": "FIGURE 1. Despite staying on hold with unanimous votes, four members are open to a cut in next three months",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a559ec29cda875ae",
+      "text": "Dark blue dots indicate a member's preference for a hike in the next three months; light blue dots indicate a member's preference for a hold in the next three months; yellow dots indicate member's preference to keep both a hike and cut as options; red dots indicate a member's preference for a cut.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d1b92d9ba58af23c",
+      "text": "Source: Bank of Korea, Barclays Research",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "bb1d77ac0cb94343",
+      "text": "Even beyond the relatively clear stance for further easing, we believe the BoK governor managed the market expectation relatively well and kept financial conditions relatively loose. The governor gave a clear signal that the BoK is still on an easing cycle, but the decision today notes a recalibration of the pace rather than the depth of the cycle.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a816bad3a4497749",
+      "text": "The BoK governor extended the path for easing cycle into H1 2026. Assuming a \\(1.6\\%\\) growth forecast for 2026 and the transition in the housing market conditions in Seoul metropolitan area on further measures (including both additional housing supply and additional macroprudential measures, in our view), the BoK governor conditionally guided that the easing cycle could continue in 01 26 given relatively wide negative output gap into H1 26.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "93b95d8053b87763",
+      "text": "Further more, the BoK governor also noted that the decision today is more of an adjustment of the timing of the rate cuts rather than magnitude of the rate cuts. The statement from the Monetary Policy Board reiterated that the \"board will maintain its rate cut stance to mitigate downside risks to economic growth and adjust the timing and pace of any further base rate cuts.\" The governor also added that today's decision does not mean that the size of the cuts are being reduced, but rather an adjustment of the timing.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c4670493858a56d3",
+      "text": "That said, the BoK governor pushed back against the potential perception that the BoK is behind the curve due to the decision today. The governor noted that the BoK has been relatively pre- emptive in delivering 100bp rate cuts thus far, which in theory likely contributed to 24bp to GDP growth. The governor claimed that a cross- sectional comparison of growth and real rates across different countries suggests that Korea's policy conditions are relatively accommodative. The governor also noted that liquidity conditions are, if anything, broadly reflecting an accommodative stance.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "90e0aa419a7e1312",
+      "text": "With the negative output gap remaining relatively large, we do not think the hurdle for the BoK to ease further is high. Instead, the BoK governor stressed the reason for adjusting the pace is partly because of: 1) the limitations of rate cuts; and 2) caution against side- effects.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "04400640cbf7895f",
+      "text": "- The governor notes below-trend growth this year is partly due to domestic political uncertainties and tariffs. In our view, the construction downcycle, which is more due to medium-term deleveraging, is also another factor. Even with aggressive easing, the impact from the political uncertainty and tariffs may not benefit much and construction cycle restructuring may be partly delayed as well.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f23cd18d0f4dfd7f",
+      "text": "- Meanwhile, a fast pace of rate cuts could increase side-effects on property prices, household leverage, and household expectations for housing prices. The BoK is waiting for other supplementary measures, such as housing supply and additional macroprudential measures, to find room to reduce sufficiently reduce potential side-effects.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "d807e554f686263d",
+      "text": "- The BoK governor clarified that housing prices are not directly related to financial stability, but the bank still focuses on household loan growth. However, the correlation between housing prices and household leverage, as well as importance of Seoul metropolitan housing prices for the economy, was the key reason why the BoK looks at housing prices. Meanwhile, the governor also noted solid transaction volume in June risks increasing household loan growth in August and kept the BoK cautious.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1e617b39d39aa21d",
+      "text": "- The BoK governor also clarified that the BoK is not keen for a correction of the housing market either. But the BoK will watch out for whether: 1) Seoul metro area housing prices are materially higher than the trend and whether they can continue to rise; and 2) Seoul's price momentum widens into other regions.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "87bbc7876c8c2079",
+      "text": "Although the BoK did not give a clear signal on an October rate cut, we do not think the BoK is done with the rate cuts for this year or next. While raising the GDP growth forecast to \\(0.9\\%\\) from \\(0.8\\%\\) , the BoK raised its growth forecast for Q3 sequential growth substantially to \\(1.1\\%\\) from \\(0.7\\%\\) . This is higher than the Bloomberg consensus for Q3 tracking at \\(0.9\\%\\) and close",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c6717b2d3d0d3790",
+      "text": "to our bullish tracking estimate of \\(1.2 - 1.3\\%\\) . Despite the resilient growth forecast for Q3, the board's preference for a cut in next three months suggests their view of the rebound is more temporary and likely due to the fiscal stimulus. This suggests to us that improving growth is unlikely to alter the easing path, at least in the near term.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b63936d7585b6ad6",
+      "text": "We think the fiscal policy outlook into the next year could pose some upside risks to the 2026 growth forecast. The BoK governor also noted that the BoK's economic forecasts used the medium- term fiscal framework from the government last year (Budget: Increase in 2025 issuances more likely to be one- off than structural, 27 Aug 2024). While the medium- term fiscal framework envisaged 2026 managed budget deficit at \\(2.7\\%\\) , we believe the likelihood of a deficit of about \\(4\\%\\) is relatively high under the current administration's expansionary fiscal policy (Presidential election: The return of big government, 4 June 2025).",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "23355adf0c1e5603",
+      "text": "- We believe the budget expenditure is likely to be at least KRW730trn, versus KRW704tn in the 2024 medium-term fiscal framework, which suggests a KRW25-35trn increase in spending from the baseline.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "619a653290f244ab",
+      "text": "- However, discretionary spending cuts, which typically would have a higher fiscal multiplier, and an increase in mandatory spending, which typically has slightly lower fiscal multiplier, mean the GDP boost from the increased spending may not be very strong.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ff8e83ed6d0c36c9",
+      "text": "- Even assuming 20bp boost to the GDP from expansionary fiscal policy, this likely means next year's GDP growth of \\(1.8\\%\\) (+20bp from \\(1.6\\%\\) baseline in August) is still around or slightly below potential growth - suggesting the negative output gap will remain wide in H1 26, in our view.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "7c569d6f8d3c2e72",
+      "text": "- Furthermore, whether the BoK sees this as a sustainable fiscal path or not will also influence its decision on whether that 20bp boost in 2026 is a temporary or a sustained stance change in fiscal policy.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "58d0f818bb2bd772",
+      "text": "FIGURE 2. BoK raised its growth forecast to \\(0.9\\%\\) for 2025",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "98f8b3318e0359cc",
+      "text": "Source: Bank of Korea, Barclays Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "bf4563f522890fb3",
+      "text": "FIGURE 3. Q3 forecast was revised much higher",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a688101223fa55ae",
+      "text": "Source: Bank of Korea, Barclays Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5fb2b4ea1ea07b97",
+      "text": "We maintain our baseline for BoK rate cuts in October 2025 and February 2026, which we think broadly aligns well with the governor's guidance. We think further stabilisation in housing prices is likely to be the key factor in determining the timing of the next cut. We think the combination of housing supply measures and modest tightening of macroprudential policy",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "6c6f91d5c2a59de8",
+      "text": "by raising the risk weights of new mortgage or some fine- tuning of Jeonse related lending could bring the sentiment lower.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b220bea67a1a962e",
+      "text": "The BoK revised its 2025 growth forecast higher to \\(0.9\\%\\) from \\(0.8\\%\\) in May. The governor explained that there was 20bp boost from fiscal stimulus and sentiment improvements, and additional 20bp increase from exports turning out to be better than expected, but a 30bp drag from the construction weakness. The expenditure breakdown also showed 15bp boost to consumption, 5bp increase from capex, and 20bp upgrade from exports, but 30bp decline in construction investment.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ff24586d60f1f2b7",
+      "text": "FIGURE 4. Details of the BoK's 2025 GDP growth revision",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "53ba499c72a9842e",
+      "text": "Source: Bank of Korea, Barclays Research",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e8612c01f664ed23",
+      "text": "In the BoK's baseline, the bank expected overall tariff conditions to remain unchanged, but added \\(15\\%\\) tariff from semiconductors and pharmaceuticals from Q1 26. Given these assumptions, the BoK expects the effective tariff rate from the US on Korea will be around \\(16\\%\\) and on China it be around \\(45\\%\\) by end- 2026. We believe the BoK remains relatively cautious on the outlook for exports with 45bp drag in 2025 and 60bp drag in 2026, exactly matching our forecast of cumulative 105bp impact (Tariffs: Korea gets a deal, 31 Jul 2025).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "05146fdabfc338fa",
+      "text": "- In its optimistic scenario, the BoK assumes a US tariff cut on China, Canada, and Mexico, where they expect Korea's 2026 GDP growth to be \\(1.7\\%\\) .- In its pessimistic scenario, the BoK assumes an escalation in the tariff on China, Canada, and Mexico, as well as some retaliation. This likely means Korea's 2026 GDP growth and inflation lowered to \\(1.4\\%\\) and \\(1.8\\%\\) , respectively.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "9fc6ad3c1890583d",
+      "text": "On inflation, the BoK sees relatively modest upside risk to its inflation forecast, partly due to some of the non-core products movements. Into 2026, the BoK cited some improvements in consumption momentum as a factor that will increase core inflation.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d523977a1a5a2c25",
+      "text": "FIGURE 5. BoK raises inflation forecast marginally",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4838e50ab5148c84",
+      "text": "Source:Bank of Korea,Barcrays Research",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c712923d715ee436",
+      "text": "FIGURE 6. Quarterly trajectory assumes modestly sticky pressure",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5070c2ed3f767c6d",
+      "text": "Source:Bank of Korea,Barcrays Research",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "ef185a4b618f6ce1",
+      "text": "FIGURE 7. Better exports outlook especially in 2026, but materially weaker construction growth in 2025",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "848bdfe1b0545e36",
+      "text": "2025 (May)2025 (Aug)Δ (bp/unit)2026 (May)2026 (Aug)Δ (bp/unit)Global assumptionsGlobal growth (%)2.72.8+102.72.7+0Global trade (%)2.42.6+202.52.4-10Crude oil ($/bbl)69.068.0-165.063.0-2KoreaGDP growth (%)0.80.9+101.61.6+0Private consumption (%)1.11.4+301.61.6+0Exports (%)-0.12.5+2600.7-0.1-80Current account balance ($ bn)82.0110.0+2872.085.0+13CPI inflation (%)1.92.0+101.81.9+10Core inflation (excl food and energy, %)1.91.9+01.81.9+10Employment (y/y, in thousands)12.017.0+510.013.0+3",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "0c319fd61b931b8f",
+      "text": "Source:Bank of Korea,Barcrays Research",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5ddfa610149c4243",
+      "text": "FIGURE 8. MPC statement comparison between August and July",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "4a844db81d7a0085",
+      "text": "Aug-2025Jul-2025The Monetary Policy Board of the Bank of Korea decided today to leave the Base Rate unchanged at 2.50% for the intermeeting period. With inflation remaining stable, economic growth, while there is still high uncertainty surrounding the economic growth outlook, has shown modest improvement, mainly driven by domestic demand, and movements in housing prices in Seoul and its surrounding areas and in household debt need to be further monitored. The Board, therefore, judged that it is appropriate to maintain the current level of the Base Rate and to assess any changes in domestic and external conditions.The Monetary Policy Board of the Bank of Korea decided today to leave the Base Rate unchanged at 2.50% for the intermeeting period. Economic growth is forecast to remain low for some time and there is high uncertainty related to trade negotiations, while the inflation rate remains broadly stable. However, as it is also necessary to assess the impact of the recently strengthened measures for household debt management and given the significant acceleration in housing prices in Seoul and its surrounding areas and household debt, the Board judged that it is appropriate to maintain the current level of the Base Rate.Global economyCurrently available information suggests that, despite progress made on trade negotiations between the U.S. and major economies, the global economy is expected to gradually slow in growth and experience a divergence in inflation trajectories across countries, as the impact of tariff increases starts to materialize. In global financial markets, long-term U.S. Treasury yields and the U.S. dollar index rose, and then fell due to the heightened expectation of an interest rate cut by the U.S. Federal Reserve. Stock prices in major economies have risen as uncertainty regarding tariff negotiations eased. Looking ahead, the global economy and financial markets will be influenced by developments in trade negotiations between the U.S. and China, by the prospects for product-specific tariffs, and by changes in monetary policies in major economies.Korean economyIn terms of the domestic economy, despite continued sluggishness in construction investment, growth has improved due to a recovery in consumption and due to a better than expected increase in exports, mainly driven by semiconductors. The increase in the overall number of employed persons has continued, but some major industries, such as manufacturing, have continued to decline. Going forward, domestic demand is expected to sustain a modest recovery, affected by the implementation of a supplementary budget and by an improvement in consumer sentiment. Exports are likely to show favorable movements for some time, but are likely to gradually slow as the impacts of U.S. tariffs expand. Consequently, the growth rate is forecast at 0.9% for this year, slightly above the May forecast of 0.8%. The growth rate for next year is expected to be consistent with the previous forecast of 1.6%. High uncertainty remains along the future path of economic growth concerning trade negotiations between the U.S. and China and concerning the imposition of product-specific tariffs, as well as the pace of recovery in domestic demand.InflationInflation has remained stable, with consumer price inflation falling slightly to 2.1% in July, while core inflation (excluding changes in food and energy prices from the CPI) held steady at 2.0%. Short-term inflation expectations among the general public have increased slightly to 2.6% in August from 2.5% in the previous month. Looking ahead, despite rising agricultural, livestock, and fishery prices, inflation is projected to remain at around 2% due to subdued demand-side pressure and due to the stabilization of global oil prices. As a result, consumer price inflation is forecast to be 2.0% for this year, slightly above the May forecast of 1.9%, and core inflation is expected to be consistent with the previous forecast of 1.9%. Next year, consumer price inflation and core inflation are both forecast to be 1.9%, slightly above the previous forecast of 1.8% due to the continuing recovery in consumption. The future path of inflation is likely to be affected by economic conditions at home and abroad, by movements in exchange rates and in global oil prices, and by the government&#x27;s price stabilization measures.Financial StabilityFinancial and foreign exchange markets have generally remained stable. Long-term Korean Treasury bond yields have fluctuated within a narrow range. The upward trend of stock prices has somewhat weakened due to corrective pressure from the increases so far and due to changes in expectations concerning regulatory reforms in the capital market. The Korean won to U.S. dollar exchange rate rose due to expectations that residents&#x27; demand for overseas investment funds would continue. The increase in household loans has significantly lessened, affected by the government&#x27;s household debt measures. In Seoul and its surrounding areas, housing price increases and transaction volumes have decelerated, but the expectations for rising housing prices remain high.Monetary Policy OutlookThe Board will continue to conduct monetary policy in order to stabilize consumer price inflation at the target level over the medium-term horizon as it monitors economic growth while paying attention to financial stability. The domestic economy has shown some improvement in growth, but uncertainties surrounding the future path of economic growth remain high due to U.S. tariff policies, while inflation remains on a stable trajectory. Regarding financial stability, it is necessary to further assess whether it will remain on a sustained path of stability while housing price appreciation in Seoul and its surrounding areas and household debt growth have moderated, and to remain cautious about the possibility of increased exchange rate volatility. Therefore, the Board will maintain its rate cut stance to mitigate downside risks to economic growth and adjust the timing and pace of any further Base Rate cuts while closely monitoring changes in domestic and external policy conditions and examining the resulting impact on inflation and financial stability.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1d73e970f7651bb2",
+      "text": "The statement is from the BoK and we highlight the key changes in blue. Source: Bank of Korea, Barclays Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "98fc802c9b5350d4",
+      "text": "I, Bum Ki Son, CFA, hereby certify (1) that the views expressed in this research report accurately reflect my personal views about any or all of the subject securities or issuers referred to in this research report and (2) no part of my compensation was, is or will be directly or indirectly related to the specific recommendations or views expressed in this research report.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "211a10ca1d41195c",
+      "text": "All pricing information is indicative only. Unless otherwise indicated, prices are sourced from LSEG Data & Analytics and reflect the closing price in the relevant trading market, which may not be the last available price at the time of publication.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "6a7e48f1f9b5dcda",
+      "text": "In addition to any ratings assigned under Barclays' formal rating systems, this publication may contain investment recommendations in the form of trade ideas, thematic screens, scorecards or portfolio recommendations that have been produced by analysts in FICC Research. Any such investment recommendations produced by non- Credit Research teams shall remain open until they are subsequently amended, rebalanced or closed in a future research report. Any such investment recommendations produced by the Credit Research teams are valid at current market conditions and may not be otherwise relied upon.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e8f7cbbe0535c122",
+      "text": "Barclays FICC Research may have published other investment recommendations in respect of the same securities/instruments recommended in this research report during the preceding 12 months. To view all investment recommendations published by Barclays FICC Research in the preceding 12 months please refer to https://live.barcap.com/go/research/Recommendations.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "82a4a04c7a1197ca",
+      "text": "This material is distributed in Canada by Barclays Capital Canada Inc., a registered investment dealer, a Dealer Member of Canadian Investment Regulatory Organization (www.ciro.ca), and a Member of the Canadian Investor Protection Fund (CIPF).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "2c7fdbb2705770ad",
+      "text": "This communication is directed at persons who are a \"Wholesale Client\" as defined by the Australian Corporations Act 2001.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "06b8f579dda4d771",
+      "text": "Middle East: Nothing herein should be considered investment advice as defined in the Israeli Regulation of Investment Advisory, Investment Marketing and Portfolio Management Law, 1995 (\"Advisory Law\"). This document is being made to eligible clients (as defined under the Advisory Law) only. Barclays Israeli branch previously held an investment marketing license with the Israel Securities Authority but it cancelled such license on 30/11/2014",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "1002c15cbb3918cc",
+      "text": "as it solely provides its services to eligible clients pursuant to available exemptions under the Advisory Law, therefore a license with the Israel Securities Authority is not required. Accordingly, Barclays does not maintain an insurance coverage pursuant to the Advisory Law.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "dc45a2b40abc7182",
+      "text": "Russia: This material is not intended for investors who are not Qualified Investors according to the laws of the Russian Federation as it might contain information about or description of the features of financial instruments not admitted for public offering and/or circulation in the Russian Federation and thus not eligible for non- Qualified Investors. If you are not a Qualified Investor according to the laws of the Russian Federation, please dispose of any copy of this material in your possession.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "e1e6e4a28b4dc810",
+      "text": "Sustainable Investing Related Research: There is currently no globally accepted framework or definition (legal, regulatory or otherwise) of, nor market consensus as to what constitutes a 'sustainable', 'ESG', 'green', 'climate- friendly' or an equivalent company, investment, strategy or consideration or what precise attributes are required to be eligible to be categorised by such terms. This means there are different ways to evaluate a company or an investment and so different values may be placed on certain sustainability credentials as well as adverse ESG- related impacts of companies and ESG controversies. The evolving nature of sustainable investing considerations, models and methodologies means it can be challenging to definitively and universally classify a company or investment under a sustainable investing label and there may be areas where such companies and investments could improve or where adverse ESG- related impacts or ESG controversies exist. The evolving nature of sustainable finance related regulations and the development of jurisdiction- specific regulatory criteria also means that there is likely to be a degree of divergence as to the interpretation of such terms in the market. We expect industry guidance, market practice, and regulations in this field to continue to evolve.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "89232f04aeadfe1d",
+      "text": "Any information, data, image, or other content including from a third party source contained, referred to herein or used for whatsoever purpose by Barclays or a third party (\"Information\"), in relation to any actual or potential 'ESG', 'sustainable' or equivalent objective, issue, factor or consideration is not intended to be relied upon for ESG or sustainability classification, regulatory regime or industry initiative purposes (\"ESG Regimes\"), unless otherwise stated. Nothing in these materials, including any images included therein, is intended to convey, suggest or indicate that Barclays considers or represents any product, service, person or body mentioned in these materials as meeting or qualifying for any ESG or sustainability classification, label or similar standards that may exist under ESG Regimes. Barclays has not conducted any assessment of compliance with ESG Regimes. Parties are reminded to make their own assessments for these purposes.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "65c7a6c857ec28d4",
+      "text": "IRS Circular 230 Prepared Materials Disclaimer: Barclays does not provide tax advice and nothing contained herein should be construed to be tax advice. Please be advised that any discussion of U.S. tax matters contained herein (including any attachments) (i) is not intended or written to be used, and cannot be used, by you for the purpose of avoiding U.S. tax- related penalties; and (ii) was written to support the promotion or marketing of the transactions or other matters addressed herein. Accordingly, you should seek advice based on your particular circumstances from an independent tax advisor.",
+      "page": 10,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "d1cf412485ca8530",
+      "name": "Advisory Law",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facedae141187a9f",
+      "name": "Australian Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "46a2e39eafb9f3ae",
+      "name": "Barclays Capital",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0b4eca9b275ab9cb",
+      "name": "Barclays FICC",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d1d3bfaf58595d0a",
+      "name": "Barclays Israeli",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ccf133d649c357ba",
+      "name": "Barclays Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c962cb01b8dbd0db",
+      "name": "Barcrays Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "30de6ce0f54a1b1e",
+      "name": "Base Rate",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7512462d17d428bf",
+      "name": "Bum Ki",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "13eec11f9f77d58d",
+      "name": "Canada Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7860a2554c61a53f",
+      "name": "Canadian Investment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d704b6ac0c024d24",
+      "name": "Canadian Investor",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "53f855bb33905256",
+      "name": "Credit Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "95d224c524720bd7",
+      "name": "Dealer Member",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "716e1885bb20f1e2",
+      "name": "Dr Shin",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e1d8f45240b776a0",
+      "name": "ESG Regimes",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "464d7c9480869171",
+      "name": "FICC Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "82e2237339d60d8d",
+      "name": "FINRA Rule",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b23d8bc824cce7a4",
+      "name": "Federal Reserve",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b11c09c490a831f8",
+      "name": "Financial Stability",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "4320505bdc463072",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>The Monetary Policy Board of the Bank of Korea decided today to leave the Base Rate unchanged at 2.50% for the intermeeting period. With inflation remaining stable, economic growth, while there is ",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "4320505bdc463072",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>The Monetary Policy Board of the Bank of Korea decided today to leave the Base Rate unchanged at 2.50% for the intermeeting period. Economic growth is forecast to remain low for some time and there",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "04980e07767ad731",
+        "value": 0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "gradually slow as the impacts of U.S. tariffs expand. Consequently, the growth rate is forecast at 0.9% for this year, slightly above the May forecast of 0.8%. The growth rate for next year is expecte",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "a4607ceddf501d71",
+        "value": 0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Consequently, the growth rate is forecast at 0.9% for this year, slightly above the May forecast of 0.8%. The growth rate for next year is expected to be consistent with the previous forecast of 1.6%.",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "347d53dc3e6c7e64",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "t of 0.8%. The growth rate for next year is expected to be consistent with the previous forecast of 1.6%. High uncertainty remains along the future path of economic growth concerning trade negotiation",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "e3f30914e67fdb83",
+        "value": 0.021,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Inflation</td><td>Inflation has remained stable, with consumer price inflation falling slightly to 2.1% in July, while core inflation (excluding changes in food and energy prices from the CPI) held s",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "cfa1819526c37f22",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "uly, while core inflation (excluding changes in food and energy prices from the CPI) held steady at 2.0%. Short-term inflation expectations among the general public have increased slightly to 2.6% in ",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "1e02fd17c7f2467e",
+        "value": 0.026000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "eady at 2.0%. Short-term inflation expectations among the general public have increased slightly to 2.6% in August from 2.5% in the previous month. Looking ahead, despite rising agricultural, livestoc",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "3c318c15bfd72546",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "term inflation expectations among the general public have increased slightly to 2.6% in August from 2.5% in the previous month. Looking ahead, despite rising agricultural, livestock, and fishery price",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "a70ee00e5164ded7",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "pite rising agricultural, livestock, and fishery prices, inflation is projected to remain at around 2% due to subdued demand-side pressure and due to the stabilization of global oil prices. As a resul",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "663ca5eb2984fac8",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "to the stabilization of global oil prices. As a result, consumer price inflation is forecast to be 2.0% for this year, slightly above the May forecast of 1.9%, and core inflation is expected to be con",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "1db32480dd489bfd",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ", consumer price inflation is forecast to be 2.0% for this year, slightly above the May forecast of 1.9%, and core inflation is expected to be consistent with the previous forecast of 1.9%. Next year,",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "b83dbfade2e00ff1",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "May forecast of 1.9%, and core inflation is expected to be consistent with the previous forecast of 1.9%. Next year, consumer price inflation and core inflation are both forecast to be 1.9%, slightly ",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "7055f74eac1ef25e",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "us forecast of 1.9%. Next year, consumer price inflation and core inflation are both forecast to be 1.9%, slightly above the previous forecast of 1.8% due to the continuing recovery in consumption. Th",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "3364d8135076aa45",
+        "value": 0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "inflation and core inflation are both forecast to be 1.9%, slightly above the previous forecast of 1.8% due to the continuing recovery in consumption. The future path of inflation is likely to be affe",
+        "provenance": {
+          "page": 6
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 0,
+      "tables_count": 0,
+      "numerical_data_count": 15,
+      "passages_count": 64,
+      "entities_count": 20
+    }
+  }
+}

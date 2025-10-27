@@ -1,0 +1,1851 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "63febc2b999460f002022b599d2601fe",
+    "title": "1.1.1.1.1.1.1.1.1.1.1<｜end▁of▁sentence｜>",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/DB/NVIDIA Corporation F2Q26 Jul Results Solid upside even with China still on the comeNVIDIA Corporation F2Q26 Jul Results _2025-08-27",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:43:52.540945",
+      "extracted_at": "2025-10-26T11:43:52.540958"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 14,
+        "successful_pages": 14,
+        "date": "2025-08-27",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/DB",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 2,
+          "reduction_ratio": 0.185635328349274
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/DB"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "de1bb9322d658881",
+      "text": "impressive all around results, the Data Center business \"only\" grew \\(\\sim +5\\%\\) q/q as it had to absorb a \\(\\sim\\) 4b q/q decline in H20 shipments to China. Ex the China H20, the remainder of the segment grew a healthy \\(\\sim +10\\%\\) q/q. DF3026 Opex was guided to \\(\\) 4.2\\(b vs. DBe of\\) \\ \\(4.1b\\) and rising an estimated \\(\\sim\\) 400m q/q, with the co now seeing growth of high \\(30\\%\\) y/y (vs. mid \\(30\\%\\) y/y prior), citing an acceleration of investments to capitalize on emerging growth opportunities. e5The geopolitical landscape remains highly volatile as NVDA indicated the USG has not yet codified regulations to enable the shipment of H20s despite issuing a number of licenses. While NVDA appears poised to resume shipments at some point, the magnitude, timing, and accounting (15% fee to USG) remain uncertain.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "7ae4f25684683051",
+      "text": "Figure 1: 2Q26 Results",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b4369905ac66ef85",
+      "text": "Source:Deutsche Bank Estimates,Company Data, Bloomberg Finance LP",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "11828dfca34a91d9",
+      "text": "Figure 2: 3Q26E Guidance",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "594e8b7730d62681",
+      "text": "Source:Deutsche Bank Estimates,Company Data,Bloomberg Finance LP",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "99289d00688dadd0",
+      "text": "Figure 3: Summary of estimate changes",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "69dce5809cfc6c7e",
+      "text": "Source : Deutsche Bank Estimates",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c5ae5e83ef484791",
+      "text": "On higher estimates, we raise our P/T to &#36;180 and maintain our Hold rating. Our P/T is based on a consistent multiple of \\(\\sim 27x\\) our CY26E EPS on higher estimates. This multiple marks a premium to semi peers to reflect fast growth and strong earnings momentum, but still represents a discount to the co's 5- year average. Upside/ downside risks include better- worse- than- expected Gaming, Data Center, Automotive, and OEM/Other revenue growth, higher- lower- than- expected profitability, macro, design win/product execution, and market share shifts. Positive/negative company- specific risks include market share gains/losses in Graphics and Compute & Networking businesses, competitive and pricing pressure, product execution, and impacts to profitability from investments.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "670b2ecf88e98706",
+      "text": "Figure 9: NVIDIA Income Statement (\\$ in millions, except per share data)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "beb64a4243af1881",
+      "text": "Apr-24 1Q25Jul-24 2Q25Oct-24 3Q25Jan-25 4Q25Year 1Q25Apr-25 2Q26Jul-25 2Q26Oct-25 3Q26EJan-26 4Q26EYear 1Q27EApr-27 2Q27EJul-27 3Q27EOct-27 3Q28EJan-28 4Q28EYear 4Q28ERevenues$26,044$30,040$35,082$39,331$130,497$44,062$46,743$55,998$60,241$207,044$65,021$68,572$72,499$79,862$83,963$90,006$93,714$347,545Depreciation2702893624251,3464886196246292,3606346496546696646692,646Cost of Goods5,2147,0228,39810,0173,94838,06616,71612,16414,14014,95157,23115,43016,50716,92022,07723,27724,437Gross Profit (Non-GAAP)20,56022,72926,32228,89498,50526,85833,96041,23445,261147,31348,95751,42654,07359,22966,81569,57069,570Research and Development (Non-GAAP)1,9812,2412,4572,7329,4112,8983,0713,3993,65713,0253,8174,0254,25616,6024,6884,8245,0815,290Selling, General and Admin. (Non-GAAP)5205515896462,3066857248118733,0939109599781,0183,8651,0771,1331,2141,264Other Non-GAAP adjustments00000001000000Total Operating Expenses (Non-GAAP)2,5012,7923,0453,37811,7173,5833,7954,2104,52916,1184,7264,9845,234Operating Income18,09519,33723,27625,51686,78823,27530,16537,02340,723131,19644,23146,44248,30350,76053,83456,54260,50063,016Interest Income3594444725111,7865155925917582,4569321,1981,3231,7612,0432,1642,4752,831Interest Expense on ST Debt00000001000000Interest Expense on LT Debt646161612476362626200000Interest Expense on Conv. Debt646161612476362626200000Total Interest Expense64616161(11)6362626200000Other Non-Operating Expenses(4)330(11)(11)(11)(11)(11)(11)(11)(11)(11)(11)(12)(11)(12)(11)(12)(11)Other Income (Exp. &amp; Income)18,36120,31723,68725,97388,33823,72330,50537,55241,428133,20845,10147,54850,10652,34058,52262,62265,429Income Tax Expense3,1293,3953,6773,9973,0973,0254,0104,0104,01021,7777,6627,6629,1039,1039,10310,73510,735Non-GAAP Net Income for Diluted EPS$15,238$16,952$20,010$22,066$74,266$19,854$25,595$31,356$34,552$111,437$37,660$39,703$41,839$46,370$48,866$52,290$54,634$52,159P/Basic EPS$0.62$0.69$0.82$0.90$3.02$0.81$1.05$1.29$1.42$4.58$1.55$1.64$1.73$1.91$2.02$2.27$2.27$2.27P/Fully Diluted EPS$0.61$0.68$0.81$0.89$2.99$0.81$1.04$1.28$1.41$4.54$1.54$1.63$1.72$1.89$2.02$2.26$2.26$2.26Weighted Average Shares Out. (in 000s)24,620,00024,578,00024,533,00024,489,00024,555,00024,441,00024,366,00024,328,00024,286,00024,354,75024,251,00024,216,00024,181,00024,198,50024,116,00024,086,00024,056,00024,026,000Diluted Shares (in 000s)24,890,00024,848,00024,774,00024,706,00024,804,50024,611,00024,532,00024,492,00024,452,00024,521,75024,417,00024,382,00024,347,00024,312,00024,268,00024,252,00024,222,00024,192,000Net ESO Expense$1,011$1,154$1,252$1,321$4,738$1,474$1,624$1,705$1,705$6,508$1,790$1,880$1,974$1,974$2,018$2,018$2,018$2,018Adjusted Basic GAAP EPS (incl-ESO)$0.58$0.64$0.76$0.85$2.83$0.75$0.98$1.22$1.35$4.31$1.48$1.56$1.61$1.74$1.74$1.74$1.74Adjusted Diluted GAAP EPS (incl-ESO)$0.57$0.64$0.76$0.84$2.80$0.75$0.98$1.21$1.34$4.28$1.47$1.55$1.64$1.71$1.71$1.71$1.71Common Dividends Per Share$0.00$0.01$0.01$0.01$0.03$0.01$0.01$0.01Nonrecurring Charges$71($51)$119($565)($326)($3,325)$0($1,986)$0$0$0$0$0$1$0$0$0Tax Effect of Charges(725)(750)(670)(781)(2,926)(694)(126)0(820)0000000GAAP Net Inc. for Dil. EPS$14,881$16,599$19,309$22,091$72,880$18,775$26,422$29,651$32,887$107,735$35,869$37,823$39,865$41,040$44,299$44,299$44,299GAAP Basic EPS$0.60$0.68$0.79$0.90$2.97$0.71$1.08$1.22$1.35$4.42$1.48$1.56$1.65$1.71$1.71$1.71$1.71GAAP Diluted EPS$0.60$0.67$0.78$0.89$2.94$0.76$1.08$1.21$1.34$4.39$1.47$1.55$1.64$1.71$1.71$1.71$1.71Revenue % Change - Sequential17.8%15.3%16.8%12.1%N/M12.0%6.1%19.8%7.6%N/M7.9%5.5%5.7%N/M5.8%5.1%7.2%4.1%EPS % Change - Sequential18.7%11.4%18.4%10.6%N/M(9.5%)29.1%22.7%10.5%N/M5.8%6.5%5.5%N/M4.8%4.8%4.8%Revenue % Changes, yr over yr.262.1%122.4%93.6%77.9%114.2%69.2%55.6%53.2%58.7%N/M46.7%48.7%22.8%22.4%24.1%24.1%23.4%EPS % Change, yr over yr.461.9%153.0%101.0%73.2%32.0%52.0%58.5%58.4%58.1%N/M26.8%27.1%23.8%23.7%25.6%25.9%24.8%Gross Margin78.9%75.7%75.0%73.5%75.0%75.5%71.2%73.7%73.5%N/M74.5%74.6%74.4%74.2%74.2%74.4%74.4%Tax DPS Margin7.67.57.07.26.66.06.16.16.35.95.95.95.95.85.75.85.8SG&A/Sales2.01.81.71.61.81.61.51.41.41.31.31.31.31.21.31.31.3Operating Expenses9.69.38.78.68.68.18.17.57.37.27.37.27.37.37.27.37.1Operating Margin69.366.466.364.964.965.162.861.767.467.267.267.267.267.367.367.367.3Non-Operating Margin1.61.71.51.41.51.31.81.21.41.51.81.91.91.91.91.81.8Pretax Margin70.567.667.566.066.053.865.367.168.869.469.369.169.269.369.569.569.5Tax Rate17.016.615.515.015.015.116.116.516.316.316.516.516.516.516.616.516.5Net Margin58.557.957.156.156.156.957.453.857.957.957.957.857.858.158.158.158.1",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "8895e89fe70f7f3b",
+      "text": "Source: Company data, Deutsche Bank estimates",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "bcc457bae37f2e56",
+      "text": "NVIDIA provided the following guidance:",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6d316020b1b32bc2",
+      "text": "Revenues: \\(54b + / - 2\\%\\) Non- GAAP GM: \\(73.5\\%\\) PF Opex: \\(4.2b\\) Other income/expense: \\(500m\\) (income) Tax rate: \\(16.5\\% + / - 1\\%\\)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "bb6cb0b07f4640e7",
+      "text": "Figure 7: Fwd qtr est product segment mix",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d3636b68b730fd08",
+      "text": "Figure 8: Fwd qtr est segment growth (new vs. old)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "728066d3ef55f37a",
+      "text": "Source : Deutsche Bank estimates",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "aa8bf749f607f4b5",
+      "text": "Source : Deutsche Bank estimates",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "bf724c25562db6e0",
+      "text": "Figure 9: NVIDIA Income Statement (\\$ in millions, except per share data)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "69fc6ab85006fdb1",
+      "text": "Apr-24 1Q25Jul-24 2Q25Oct-24 3Q25Jan-25 4Q25Year 1Q25Apr-25 2Q26Jul-25 2Q26Oct-25 3Q26EJan-26 4Q26EYear 1Q27EApr-27 2Q27EJul-27 3Q27EOct-27 3Q28EJan-28 4Q28EYear 4Q28ERevenues$26,044$30,040$35,082$39,331$130,497$44,062$46,743$55,998$60,241$207,044$65,021$68,572$72,499$79,862$83,963$90,006$93,714$347,545Depreciation2702893624251,3464886196246292,3606346496546696646692,646Cost of Goods5,2147,0228,39810,0173,94838,06616,71612,16414,14014,95157,23115,43016,50716,92022,07723,27724,437Gross Profit (Non-GAAP)20,56022,72926,32228,89498,50526,85833,96041,23445,261147,31348,95751,42654,07359,22966,81569,57069,570Research and Development (Non-GAAP)1,9812,2412,4572,7329,4112,8983,0713,3993,65713,0253,8174,0254,25616,6024,6884,8245,0815,290Selling, General and Admin. (Non-GAAP)5205515896462,3066857248118733,0939109599781,0183,8651,0771,1331,2141,264Other Non-GAAP adjustments00000001000000Total Operating Expenses (Non-GAAP)2,5012,7923,0453,37811,7173,5833,7954,2104,52916,1184,7264,9845,234Operating Income18,09519,33723,27625,51686,78823,27530,16537,02340,723131,19644,23146,44248,30350,76053,83456,54260,50063,016Interest Income3594444725111,7865155925917582,4569321,1981,3231,7612,0432,1642,4752,831Interest Expense on ST Debt00000001000000Interest Expense on LT Debt646161612476362626200000Interest Expense on Conv. Debt646161612476362626200000Total Interest Expense64616161(11)6362626200000Other Non-Operating Expenses(4)330(11)(11)(11)(11)(11)(11)(11)(11)(11)(11)(12)(11)(12)(11)(12)(11)Other Income (Exp. &amp; Income)18,36120,31723,68725,97388,33823,72330,50537,55241,428133,20845,10147,54850,10652,34058,52262,62265,429Income Tax Expense3,1293,3953,6773,9973,0973,0254,0104,0104,01021,7777,6627,6629,1039,1039,10310,73510,735Non-GAAP Net Income for Diluted EPS$15,238$16,952$20,010$22,066$74,266$19,854$25,595$31,356$34,552$111,437$37,660$39,703$41,839$46,370$48,866$52,290$54,634$52,159P/Basic EPS$0.62$0.69$0.82$0.90$3.02$0.81$1.05$1.29$1.42$4.58$1.55$1.64$1.73$1.91$2.02$2.27$2.27$2.27P/Fully Diluted EPS$0.61$0.68$0.81$0.89$2.99$0.81$1.04$1.28$1.41$4.54$1.54$1.63$1.72$1.89$2.02$2.26$2.26$2.26Weighted Average Shares Out. (in 000s)24,620,00024,578,00024,533,00024,489,00024,555,00024,441,00024,366,00024,328,00024,286,00024,354,75024,251,00024,216,00024,181,00024,198,50024,116,00024,086,00024,056,00024,026,000Diluted Shares (in 000s)24,890,00024,848,00024,774,00024,706,00024,804,50024,611,00024,532,00024,492,00024,452,00024,521,75024,417,00024,382,00024,347,00024,312,00024,268,00024,252,00024,222,00024,192,000Net ESO Expense$1,011$1,154$1,252$1,321$4,738$1,474$1,624$1,705$1,705$6,508$1,790$1,880$1,974$1,974$2,018$2,018$2,018$2,018Adjusted Basic GAAP EPS (incl-ESO)$0.58$0.64$0.76$0.85$2.83$0.75$0.98$1.22$1.35$4.31$1.48$1.56$1.61$1.74$1.74$1.74$1.74Adjusted Diluted GAAP EPS (incl-ESO)$0.57$0.64$0.76$0.84$2.80$0.75$0.98$1.21$1.34$4.28$1.47$1.55$1.64$1.71$1.71$1.71$1.71Common Dividends Per Share$0.00$0.01$0.01$0.01$0.03$0.01$0.01$0.01Nonrecurring Charges$71($51)$119($565)($326)($3,325)$0($1,986)$0$0$0$0$0$1$0$0$0Tax Effect of Charges(725)(750)(670)(781)(2,926)(694)(126)0(820)0000000GAAP Net Inc. for Dil. EPS$14,881$16,599$19,309$22,091$72,880$18,775$26,422$29,651$32,887$107,735$35,869$37,823$39,865$41,040$44,299$44,299$44,299GAAP Basic EPS$0.60$0.68$0.79$0.90$2.97$0.71$1.08$1.22$1.35$4.42$1.48$1.56$1.65$1.71$1.71$1.71$1.71GAAP Diluted EPS$0.60$0.67$0.78$0.89$2.94$0.76$1.08$1.21$1.34$4.39$1.47$1.55$1.64$1.71$1.71$1.71$1.71Revenue % Change - Sequential17.8%15.3%16.8%12.1%N/M12.0%6.1%19.8%7.6%N/M7.9%5.5%5.7%N/M5.8%5.1%7.2%4.1%EPS % Change - Sequential18.7%11.4%18.4%10.6%N/M(9.5%)29.1%22.7%10.5%N/M5.8%6.5%5.5%N/M4.8%4.8%4.8%Revenue % Changes, yr over yr.262.1%122.4%93.6%77.9%114.2%69.2%55.6%53.2%58.7%N/M46.7%48.7%22.8%22.4%24.1%24.1%23.4%EPS % Change, yr over yr.461.9%153.0%101.0%73.2%32.0%52.0%58.5%58.4%58.1%N/M26.8%27.1%23.8%23.7%25.6%25.9%24.8%Gross Margin78.9%75.7%75.0%73.5%75.0%75.5%71.2%73.7%73.5%N/M74.5%74.6%74.4%74.2%74.2%74.4%74.4%Tax DPS Margin7.67.57.07.26.66.06.16.16.35.95.95.95.95.85.75.85.8SG&A/Sales2.01.81.71.61.81.61.51.41.41.31.31.31.31.21.31.31.3Operating Expenses9.69.38.78.68.68.18.17.57.37.27.37.27.37.37.27.37.1Operating Margin69.366.466.364.964.965.162.861.767.467.267.267.267.267.367.367.367.3Non-Operating Margin1.61.71.51.41.51.31.81.21.41.51.81.91.91.91.91.81.8Pretax Margin70.567.667.566.066.053.865.367.168.869.469.369.169.269.369.569.569.5Tax Rate17.016.615.515.015.015.116.116.516.316.316.516.516.516.516.616.516.5Net Margin58.557.957.156.156.156.957.453.857.957.957.957.857.858.158.158.158.1",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8c9e77d77432bdc2",
+      "text": "Source: Company data, Deutsche Bank estimates",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "39906f6f8574beb7",
+      "text": "Historical recommendations and target price: NVIDIA Corporation (NVDA.OQ) (as of 08/27/2025)",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "061c204659609c54",
+      "text": "Current Recommendations Buy Hold Sell Not Rated Suspended Rating",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "fb89880d05601907",
+      "text": "\\\\*\\\\* Analyst is no longer at Deutsche Bank",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "849b054de0487dc0",
+      "text": "1.10/17/2022Hold, Target Price Change USD 140.00, Current Price USD 118.88 Ross Seymore11.05/23/2024Hold, Target Price Change USD 1000.00, Current Price USD 1037.99 Ross Seymore2.11/17/2022Hold, Target Price Change USD 150.00, Current Price USD 156.77 Ross Seymore12.06/10/2024Hold, Target Price Change USD 100.00, Current Price USD 121.79 Joe Schwab3.12/13/2022Hold, Target Price Change USD 170.00, Current Price USD 180.72 Ross Seymore13.08/29/2024Hold, Target Price Change USD 115.00, Current Price USD 117.59 Ross Seymore4.02/23/2023Hold, Target Price Change USD 200.00, Current Price USD 236.64 Ross Seymore14.11/21/2024Hold, Target Price Change USD 140.00, Current Price USD 146.67 Ross Seymore5.03/22/2023Hold, Target Price Change USD 220.00, Current Price USD 264.68 Ross Seymore15.02/27/2025Hold, Target Price Change USD 145.00, Current Price USD 120.15 Ross Seymore6.05/25/2023Hold, Target Price Change USD 390.00, Current Price USD 379.80 Ross Seymore16.04/07/2025Hold, Target Price Change USD 135.00, Current Price USD 97.64 Ross Seymore7.07/16/2023Hold, Target Price Change USD 440.00, Current Price USD 454.69 Ross Seymore17.04/21/2025Hold, Target Price Change USD 125.00, Current Price USD 96.91 Ross Seymore8.08/24/2023Hold, Target Price Change USD 560.00, Current Price USD 471.63 Ross Seymore18.05/29/2025Hold, Target Price Change USD 145.00, Current Price USD 139.19 Ross Seymore9.02/22/2024Hold, Target Price Change USD 720.00, Current Price USD 785.38 Ross Seymore19.07/15/2025Hold, Target Price Change USD 155.00, Current Price USD 170.70 Ross Seymore10.03/19/2024Hold, Target Price Change USD 850.00, Current Price USD 893.98 Ross Seymore",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e47cec325b5376b8",
+      "text": "The Equity Rating Dispersion Chart depicts the following:",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "8e6d8460e6473efb",
+      "text": "The proportion of recommendations that are rated \"buy\", \"sell\" and \"hold\" over the previous 12 months. This is shown for securities issued in the stated region e.g. \"Europe Universe\". See rating definitions below. This is represented by the \"Companies Covered\" bars in the chart. The percentage value displayed above the bar is the proportion as a percentage. E.g. \\(50\\%\\) above the \"buy\" / \"Companies Covered\" bar means that \\(50\\%\\) of DB's equity research covered companies over the past 12 months have a \"buy\" rating.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "77582a58b6071047",
+      "text": "Next to each of the three respective bars showing the proportion of \"buy\", \"sell\" and \"hold\" recommendations we provide two additional bars to show:",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d6bea075291494c3",
+      "text": "- The proportion of \"buy\", \"sell\" or \"hold recommendations where Deutsche Bank and or/Affiliates provided MIFID Investment or Ancillary Services in the past 12 months. This is represented in the \"MIFID Investment and Ancillary Services\" bar. The percentage value displayed above the bar shows the proportion of Companies Covered with the given rating where DB has also provided MIFID Investment and Ancillary Services in the past 12 months. E.g. \\(50\\%\\) above the \"Cos. w/ MIFID Investment and Ancillary Services\" bar means \\(50\\%\\) of the Companies Covered with the rating stated have also received MIFID Investment and Ancillary Services from DB.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "ebb98bc2df1dcb94",
+      "text": "- The proportion of \"buy\" (or \"sell\" or \"hold) recommendations where Deutsche Bank and or/Affiliates has provided Investment Banking services in the past 12 months for which it has received compensation. The percentage value displayed above the bar shows the proportion of Companies Covered with the stated rating where DB has also provided Investment Banking services in the past 12 months. E.g. \\(50\\%\\) above the \"Cos. w/ Investment Banking relationship\" bar means \\(50\\%\\) of the Companies Covered with the rating stated also have an Investment Banking Relationship with DB.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c7e9c357cb17a43d",
+      "text": "Buy: Based on a current 12- month view of TSR, we recommend that investors buy the stock.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "96f2972be2b439d7",
+      "text": "Sell: Based on a current 12- month view of TSR, we recommend that investors sell the stock.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "f97fda6a8752fab1",
+      "text": "Hold: We take a neutral view on the stock 12- months out and, based on this time horizon, do not recommend either a Buy or Sell.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2baefeaf06fca62f",
+      "text": "TSR = Total Shareholder Return. Percentage change in share price from current price to projected target price plus projected dividend yield",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "7c5e64fc6ddd47b1",
+      "text": "Newly issued research recommendations and target prices supersede previously published research.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "eefe6ce717735e72",
+      "text": "The information and opinions in this report were prepared by Deutsche Bank AG or one of its affiliates (collectively 'Deutsche Bank'). Though the information herein is believed to be reliable and has been obtained from public sources believed to be reliable, Deutsche Bank makes no representation as to its accuracy or completeness. Hyperlinks to third- party websites in this report are provided for reader convenience only. Deutsche Bank neither endorses the content nor is responsible for the accuracy or security controls of those websites.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "7d1ccd636e36dccf",
+      "text": "If you use the services of Deutsche Bank in connection with a purchase or sale of a security that is discussed in this report, or is included or discussed in another communication (oral or written) from a Deutsche Bank analyst, Deutsche Bank may act as principal for its own account or as agent for another person.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "a6d89619b7f652c1",
+      "text": "Deutsche Bank may consider this report in deciding to trade as principal. It may also engage in transactions, for its own account or with customers, in a manner inconsistent with the views taken in this research report. Others within Deutsche Bank, including strategists, sales staff and other analysts, may take views that are inconsistent with those taken in this research report. Deutsche Bank issues a variety of research products, including fundamental analysis, equity- linked analysis, quantitative analysis and trade ideas. Recommendations contained in one type of communication may differ from recommendations contained in others, whether as a result of differing time horizons, methodologies, perspectives or otherwise. Deutsche Bank and/or its affiliates may also be holding debt or equity securities of the issuers it writes on. Analysts are paid in part based on the profitability of Deutsche Bank AG and its affiliates, which includes investment banking, trading and principal trading revenues.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "aac3f3b5cdc66aa1",
+      "text": "Opinions, estimates and projections constitute the current judgment of the author as of the date of this report. They do not necessarily reflect the opinions of Deutsche Bank and are subject to change without notice. Deutsche Bank provides liquidity for buyers and sellers of securities issued by the companies it covers. Deutsche Bank research analysts sometimes have shorter- term trade ideas that may be inconsistent with Deutsche Bank's existing longer- term ratings. Some trade ideas for equities are listed as Catalyst Calls on the Research Website (https://research.db.com/Research/), and can be found on the general coverage list and also on the covered company's page. A Catalyst Call represents a high- conviction belief by an analyst that a stock will outperform or underperform the market and/or a specified sector over a time frame of no less than two weeks and no more than three months. In addition to Catalyst Calls, analysts may occasionally discuss with our clients, and with Deutsche Bank salespersons and traders, trading strategies or ideas that reference catalysts or events that may have a near- term or medium- term impact on the market price of the securities discussed in this report, which impact may be directionally counter to the analysts' current 12- month view of total return or investment return as described herein. Deutsche Bank has no obligation to update, modify or amend this report or to otherwise notify a recipient thereof if an opinion, forecast or estimate changes or becomes inaccurate. Coverage and the frequency of changes in market conditions and in both general and company- specific economic prospects make it difficult to update research at defined intervals. Updates are at the sole discretion of the coverage analyst or of the Research Department Management, and the majority of reports are published at irregular intervals. This report is provided for informational purposes only and does not take into account the particular investment objectives, financial situations, or needs of individual clients. It is not an offer or a solicitation of an offer to buy or sell any financial instruments or to participate in any particular trading strategy. Target prices are inherently imprecise and a product of the analyst's judgment. The financial instruments discussed in this report may not be suitable for all investors, and investors must make their own informed investment decisions. Prices and availability of financial instruments are subject to change without notice, and investment transactions can lead to losses as a result of price fluctuations and other factors. If a financial instrument is denominated in a currency other than an investor's currency, a change in exchange rates may adversely affect the investment. Past performance is not necessarily indicative of future results. Performance calculations exclude transaction costs, unless otherwise indicated. Unless otherwise indicated, prices are current as of the end of the previous trading session and are sourced from local exchanges via Reuters, Bloomberg and other vendors. Data is also sourced from Deutsche Bank, subject companies, and other parties. Artificial intelligence tools may be used in the preparation of this material, including but not limited to assist in fact- finding, data analysis, pattern recognition, content drafting and editorial corrections pertaining to research material.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "434f07dc3ef1a195",
+      "text": "The Deutsche Bank Research Department is independent of other business divisions of the Bank. Details regarding our organizational arrangements and information barriers we have to prevent and avoid conflicts of interest with respect to our research are available on our website (https://research.db.com/Research/) under Disclaimer.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "3b19780b5c252433",
+      "text": "Macroeconomic fluctuations often account for most of the risks associated with exposures to instruments that promise to pay fixed or variable interest rates. For an investor who is long fixed- rate instruments (thus receiving these cash flows), increases in interest rates naturally lift the discount factors applied to the expected cash flows and thus cause a loss. The longer the maturity of a certain cash flow and the higher the move in the discount factor, the higher will be the loss. Upside surprises in inflation, fiscal funding needs, and FX depreciation rates are among the most common adverse macroeconomic shocks to receivers. But counterparty exposure, issuer creditworthiness, client segmentation, regulation (including changes in assets holding limits for different types of investors), changes in tax policies, currency convertibility (which may constrain currency conversion, repatriation of profits and/or liquidation of positions), and settlement issues related to local clearing houses are also important risk factors. The sensitivity of fixed- income instruments to macroeconomic shocks may be mitigated by indexing the contracted cash flows to inflation, to FX depreciation, or to specified interest rates - these are common in emerging markets. The index fixings may - by construction - lag or mis- measure the actual move in the underlying variables they are intended to track. The choice of the proper fixing (or metric) is particularly important in swaps markets, where floating coupon rates (i.e., coupons indexed to a typically short- dated interest rate reference index) are exchanged for fixed coupons. Funding in a currency that differs from the currency in which coupons are denominated carries FX risk. Options on swaps (swaptions) the risks typical to options in addition to the risks related to rates movements.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "03f40358b0123e31",
+      "text": "Derivative transactions involve numerous risks including market, counterparty default and illiquidity risk. The appropriateness of these products for use by investors depends on the investors' own circumstances, including their tax position, their regulatory environment and the nature of their other assets and liabilities; as such, investors should take expert legal and financial advice before entering into any transaction similar to or inspired by the contents of this publication. The risk of loss in futures trading and options, foreign or domestic, can be substantial. As a result of the high degree of leverage obtainable in futures and options trading, losses may be incurred that are greater than the amount of funds initially deposited - up to theoretically unlimited losses. Trading in options involves risk and is not suitable for all investors. Prior to buying or selling an option, investors must review the 'Characteristics and Risks of Standardized Options\", at https://www.theocc.com/company- information/documents- and- archives/publications. If you are unable to access the website, please contact your Deutsche Bank representative for a copy of this important document.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "64d2364d9d9173f3",
+      "text": "Participants in foreign exchange transactions may incur risks arising from several factors, including the following: (i) exchange rates can be volatile and are subject to large fluctuations; (ii) the value of currencies may be affected by numerous market factors, including world and national economic, political and regulatory events, events in equity and debt markets and changes in interest rates; and (iii) currencies may be subject to devaluation or government- imposed exchange controls, which could affect the value of the currency. Investors in securities such as ADRs, whose values are affected by the currency of an underlying security, effectively assume currency risk.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "2ef2454d32c389a5",
+      "text": "Unless governing law provides otherwise, all transactions should be executed through the Deutsche Bank entity in the investor's home jurisdiction. Aside from within this report, important conflict disclosures can also be found at https://research.db.com/Research/ on each company's research page. Investors are strongly encouraged to review this information before investing.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "71bd026761f53fd5",
+      "text": "Deutsche Bank (which includes Deutsche Bank AG, its branches and affiliated companies) is not acting as a financial adviser, consultant or fiduciary to you or any of your agents (collectively, \"You\" or \"Your\") with respect to any information provided in this report. Deutsche Bank does not provide investment, legal, tax or accounting advice, Deutsche Bank is not acting as your impartial adviser, and does not express any opinion or recommendation whatsoever as to any strategies, products or any other information presented in the materials. Information contained herein is being provided solely on the basis that the recipient will make an independent assessment of the merits of any investment decision, and it does not constitute a recommendation of, or express an opinion on, any product or service or any trading strategy.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "1c6fe47373f92aa2",
+      "text": "The information presented is general in nature and is not directed to retirement accounts or any specific person or account type, and is therefore provided to You on the express basis that it is not advice, and You may not rely upon it in making Your decision. The information we provide is being directed only to persons we believe to be financially sophisticated, who are capable of evaluating investment risks independently, both in general and with regard to particular transactions and investment strategies, and who understand that Deutsche Bank has financial interests in the offering of its products and services. If this is not the case, or if You are an IRA or other retail investor receiving this directly from us, we ask that you inform us immediately.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "e723b9eafd1270a9",
+      "text": "In July 2018, Deutsche Bank revised its rating system for short term ideas whereby the branding has been changed to Catalyst Calls (\"CC\") from SOLAR ideas; the rating categories for Catalyst Calls originated in the Americas region have been made consistent with the categories used by Analysts globally; and the effective time period for CCs has been reduced from a maximum of 180 days to 90 days.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "4c23b09c3b6faf08",
+      "text": "nkAusRauBusApproved and/or distributed by Deutsche Bank Securities Incorporated, a member of FINRA and SIPC. Analysts located outside of the United States are employed by non- US affiliates and are not registered/qualified as research analysts with FINRA.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "2c0389b1f01221b0",
+      "text": "iHo7sBka i7k7NAda mosBa USd5a nkAusRa TAKhR2NAmoved and/or distributed by Deutsche Bank AG, a joint stock corporation with limited liability incorporated in the Federal Republic of Germany with its principal office in Frankfurt am Main. Deutsche Bank AG is authorized under German Banking Law and is subject to supervision by the European Central Bank and by BaFin, Germany's Federal Financial Supervisory Authority.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "82a73848f128846b",
+      "text": "nkAusRaTAkhR7NApproved and/or distributed by Deutsche Bank AG acting through its London Branch at 21 Moorfields, London EC2Y 9DB. Deutsche Bank AG in the United Kingdom is authorised by the Prudential Regulation Authority and is subject to limited regulation by the Prudential Regulation Authority and Financial Conduct Authority. Details about the extent of our authorisation and regulation are available on request.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "7c96c9623d5a3b91",
+      "text": "C7khaT7kharmp: Distributed by Deutsche Bank AG, Hong Kong Branch except for any research content relating to futures contracts within the meaning of the Hong Kong Securities and Futures Ordinance Cap. 571. Research reports on such futures contracts are not intended for access by persons who are located, incorporated, constituted or resident in Hong Kong. The author(s) of a research report may not be licensed to carry on regulated activities in Hong Kong and, if not licensed, do not hold themselves out as being able to do so. The provisions set out above in the 'Additional Information' section shall apply to the fullest extent permissible by local laws and regulations, including without limitation the Code of Conduct for Persons Licensed or Registered with the Securities and Futures Commission. This report is intended for distribution only to 'professional investors' as defined in Part 1 of Schedule of the SFO. This document must not be acted or relied on by persons who are not professional investors. Any investment or investment activity to which this document relates is only available to professional investors and will be engaged only with professional investors.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "20244d11260b28c4",
+      "text": "ykRAPprepared by Deutsche Equities India Private Limited (DEIPL) having CIN: U65990MH2002PTC137431 and registered",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "e668de19923813c6",
+      "text": "VIBIk: Approved and/or distributed by Deutsche Securities Inc.(DSI). Registration number - Registered as a financial instruments dealer by the Head of the Kanto Local Finance Bureau (Kinsho) No. 117. Member of associations: JSDA, Type II Financial Instruments Firms Association and The Financial Futures Association of Japan. Commissions and risks involved in stock transactions - for stock transactions, we charge stock commissions and consumption tax by multiplying the transaction amount by the commission rate agreed with each customer. Stock transactions can lead to losses as a result of share price fluctuations and other factors. Transactions in foreign stocks can lead to additional losses stemming from foreign exchange fluctuations. We may also charge commissions and fees for certain categories of investment advice, products and services. Recommended investment strategies, products and services carry the risk of losses to principal and other losses as a result of changes in market and/or economic trends, and/or fluctuations in market value. Before deciding on the purchase of financial products and/or services, customers should carefully read the relevant disclosures, prospectuses and other documentation. 'Moody's', 'Standard Poor's', and 'Fitch' mentioned in this report are not registered credit rating agencies in Japan unless Japan or 'Nippon' is specifically designated in the name of the entity. Reports on Japanese listed companies not written by analysts of DSI are written by Deutsche Bank Group's analysts with the coverage companies specified by DSI. Some of the foreign securities stated on this report are not disclosed according to the Financial Instruments and Exchange Law of Japan. Target prices set by Deutsche Bank's equity analysts are based on a 12- month forecast period.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3cb85ce530bad576",
+      "text": "T7osB: Distributed by Deutsche Securities Korea Co.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "aa1369e6b42b43c9",
+      "text": "r7HulamFoAdBatesche Bank AG Johannesburg is incorporated in the Federal Republic of Germany (Branch Register Number in South Africa: 1998/003298/10).",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "52561cea8a59d58d",
+      "text": "rAkhBI7ostAhis report is issued by Deutsche Bank AG, Singapore Branch (One Raffles Quay #18- 00 South Tower Singapore 048583, 65 6423 8001), which may be contacted in respect of any matters arising from, or in connection with, this report. Where this report is issued or promulgated by Deutsche Bank in Singapore to a person who is not an accredited investor, expert investor or institutional investor (as defined in the applicable Singapore laws and regulations), they accept legal responsibility to such person for its contents.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "099c788e5a0c9a24",
+      "text": "QBA6Bklnformation on securities/investments that trade in Taiwan is for your reference only. Readers should independently evaluate investment risks and are solely responsible for their investment decisions. Deutsche Bank research may not be distributed to the Taiwan public media or quoted or used by the Taiwan public media without written consent. Information on securities/instruments that do not trade in Taiwan is for informational purposes only and is not to be construed as a recommendation to trade in such securities/instruments.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "1a62644b82a8ec2a",
+      "text": "(BuBa Deutsche Bank AG in the Qatar Financial Centre (registered no. 00032) is regulated by the Qatar Financial Centre Regulatory Authority. Deutsche Bank AG - QFC Branch may undertake only the financial services activities that fall within the scope of its existing QFCRA license. Its principal place of business in the QFC: Qatar Financial Centre, Tower, West Bay, Level 5, PO Box 14928, Doha, Qatar. This information has been distributed by Deutsche Bank AG. Related financial products or services are only available only to Business Customers, as defined by the Qatar Financial Centre Regulatory Authority.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "1529b8c4fd73962a",
+      "text": "pH AB: The information, interpretation and opinions submitted herein are not in the context of, and do not constitute, any appraisal or evaluation activity requiring a license in the Russian Federation.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "a95525106e35dadb",
+      "text": "TAkhR7Na7FarBHRAamoBDAesche Securities Saudi Arabia (DSSA) is a closed joint stock company authorized by the Capital Market Authority of the Kingdom of Saudi Arabia with a license number (No. 37- 07073) to conduct the following business activities: Dealing, Arranging, Advising, and Custody activities. DSSA registered office is Faisaliah Tower, 17th Floor, King Fahad Road - Al Olaya District Riyadh, Kingdom of Saudi Arabia P.O. Box 301806.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "62de27d3bcb8f3c0",
+      "text": "nkAusRamoBJaiNAoBuBuesche Bank AG in the Dubai International Financial Centre (registered no. 00045) is regulated by the Dubai Financial Services Authority. Deutsche Bank AG - DIFC Branch may only undertake the financial services activities that fall within the scope of its existing DFSA license. Principal place of business in the DIFC: Dubai International Financial Centre, The Gate Village, Building 5, PO Box 504902, Dubai, U.A.E. This information has been distributed by Deutsche Bank AG. Related financial products or services are available only to Professional Clients, as defined by the Dubai Financial Services Authority.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "81f4a87b4f210272",
+      "text": "mH uoB)ABa BkRacsa6a:SB)BiBhis research is intended only for 'wholesale clients' within the meaning of the Australian Corporations Act and New Zealand Financial Advisors Act, respectively. Please refer to Australia- specific research disclosures and related information at https://www.dbresearch.com/PROD/RPS_EN- PROD/PROD0000000000521304.xhtml. Where research refers to any particular financial product recipients of the research should consider any product disclosure statement,",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "65bbde6cf656f863",
+      "text": "prospectus or other applicable disclosure document before making any decision about whether to acquire the product. In preparing this report, the primary analyst or an individual who assisted in the preparation of this report has likely been in contact with the company that is the subject of this research for confirmation/clarification of data, facts, statements, permission to use company- sourced material in the report, and/or site- visit attendance. Without prior approval from Research Management, analysts may not accept from current or potential Banking clients the costs of travel, accommodations, or other expenses incurred by analysts attending site visits, conferences, social events, and the like. Similarly, without prior approval from Research Management and Anti- Bribery and Corruption (\"ABC\") team, analysts may not accept perks or other items of value for their personal use from issuers they cover.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "17aedc6fb4ee3c03",
+      "text": "Additional information relative to securities, other financial products or issuers discussed in this report is available upon request. This report may not be reproduced, distributed or published without Deutsche Bank's prior written consent.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "2dfa0997ae955d3d",
+      "text": "Backtested, hypothetical or simulated performance results have inherent limitations. Unlike an actual performance record based on trading actual client portfolios, simulated results are achieved by means of the retroactive application of a backtested model itself designed with the benefit of hindsight. Taking into account historical events the backtesting of performance also differs from actual account performance because an actual investment strategy may be adjusted any time, for any reason, including a response to material, economic or market factors. The backtested performance includes hypothetical results that do not reflect the reinvestment of dividends and other earnings or the deduction of advisory fees, brokerage or other commissions, and any other expenses that a client would have paid or actually paid. No representation is made that any trading strategy or account will or is likely to achieve profits or losses similar to those shown. Alternative modeling techniques or assumptions might produce significantly different results and prove to be more appropriate. Past hypothetical backtest results are neither an indicator nor guarantee of future returns. Actual results will vary, perhaps materially, from the analysis.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "63e8ef42cf3a8628",
+      "text": "The method for computing individual E,S,G and composite ESG scores set forth herein is a novel method developed by the Research department within Deutsche Bank AG, computed using a systematic approach without human intervention. Different data providers, market sectors and geographies approach ESG analysis and incorporate the findings in a variety of ways. As such, the ESG scores referred to herein may differ from equivalent ratings developed and implemented by other ESG data providers in the market and may also differ from equivalent ratings developed and implemented by other divisions within the Deutsche Bank Group. Such ESG scores also differ from other ratings and rankings that have historically been applied in research reports published by Deutsche Bank AG. Further, such ESG scores do not represent a formal or official view of Deutsche Bank AG. It should be noted that the decision to incorporate ESG factors into any investment strategy may inhibit the ability to participate in certain investment opportunities that otherwise would be consistent with your investment objective and other principal investment strategies. The returns on a portfolio consisting primarily of sustainable investments may be lower or higher than portfolios where ESG factors, exclusions, or other sustainability issues are not considered, and the investment opportunities available to such portfolios may differ. Companies may not necessarily meet high performance standards on all aspects of ESG or sustainable investing issues; there is also no guarantee that any company will meet expectations in connection with corporate responsibility, sustainability, and/or impact performance.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "e1a6009c529a80a9",
+      "text": "Copyright © 2025 Deutsche Bank AG",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "02751697f2fe5b53",
+      "text": "David Folkerts-LandauGroup Chief Economist and Global Head of ResearchPam FinelliGlobal Chief Operating Officer ResearchSteve PollardGlobal Head of Company Research and SalesJim ReidGlobal Head of Macro and Thematic ResearchTim RokossaHead of Germany ResearchGerry GallagherHead of European Company ResearchMatthew BarnardHead of Americas Company ResearchPeter MillikenHead of APAC Company ResearchDebbie JonesGlobal Head of Sustainability and Data Innovation, ResearchSameer GoelGlobal Head of EM &amp;amp; APAC ResearchFrancis YaredGlobal Head of Rates ResearchGeorge SaravelosGlobal Head of FX ResearchPeter HooperVice-Chair of Research",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "2f1dd752d929659a",
+      "text": "International Production Locations",
+      "page": 13,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "94b53d927a78638e",
+      "name": "APAC Company",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dedd998545ea0057",
+      "name": "APAC Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "092bf78f9c97ba17",
+      "name": "Additional Information",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "632539ff99e7db06",
+      "name": "Adjusted Basic",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5270219b2d989bd0",
+      "name": "Adjusted Diluted",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "33a00902411204ce",
+      "name": "Al Olaya",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4ff813fb52554f7b",
+      "name": "Americas Company",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "60194751da3b40ce",
+      "name": "Ancillary Services",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facedae141187a9f",
+      "name": "Australian Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3b6756fda2e2cb9d",
+      "name": "Bank AG",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c0d7172b7620ff9e",
+      "name": "Bank Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27c290df29b6d433",
+      "name": "Basic EPS",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6f7f625bd90b9fa5",
+      "name": "Bloomberg Finance",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8328a94275b5caaf",
+      "name": "Branch Register",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bf389003eb3f5fcd",
+      "name": "BuBa Deutsche",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6e0ffcf69212414d",
+      "name": "Business Customers",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "277dd1daf4d4611b",
+      "name": "Buy Hold",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c431581487440696",
+      "name": "Capital Market",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4fbff104c1af6aad",
+      "name": "Catalyst Call",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21cae29ea3e446e5",
+      "name": "Catalyst Calls",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "table",
+        "title": "Summary of estimate changes",
+        "page": 3,
+        "axes": {},
+        "series": [
+          {
+            "name": "Revenue",
+            "unit": "USD",
+            "values": {
+              "New 3Q26E": 55998,
+              "Old 3Q26E": 50637,
+              "New 2026E": 207044,
+              "Old 2026E": 195551,
+              "New 2027E": 281549,
+              "Old 2027E": 243950
+            }
+          },
+          {
+            "name": "q/q",
+            "unit": "%",
+            "values": {
+              "New 3Q26E": 20,
+              "Old 3Q26E": 10,
+              "New 2026E": null,
+              "Old 2026E": null,
+              "New 2027E": null,
+              "Old 2027E": null
+            }
+          },
+          {
+            "name": "y/y",
+            "unit": "%",
+            "values": {
+              "New 3Q26E": 60,
+              "Old 3Q26E": 44,
+              "New 2026E": 59,
+              "Old 2026E": 50,
+              "New 2027E": 36,
+              "Old 2027E": 25
+            }
+          }
+        ],
+        "figure_id": "a6edb66b107cf5fc",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "pie",
+        "title": null,
+        "page": 5,
+        "axes": null,
+        "series": [
+          {
+            "name": "Automotive",
+            "unit": "%",
+            "values": [
+              1
+            ]
+          },
+          {
+            "name": "OEM & Other",
+            "unit": "%",
+            "values": [
+              0
+            ]
+          },
+          {
+            "name": "Gaming",
+            "unit": "%",
+            "values": [
+              8
+            ]
+          },
+          {
+            "name": "Pro Vis",
+            "unit": "%",
+            "values": [
+              1
+            ]
+          },
+          {
+            "name": "Data Center",
+            "unit": "%",
+            "values": [
+              90
+            ]
+          }
+        ],
+        "figure_id": "34fda8b9c480e950",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Gaming",
+              "Pro Vis",
+              "Data Center",
+              "Automotive",
+              "OEM & Other"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 25
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "3Q26E",
+            "unit": "%",
+            "values": [
+              5,
+              2,
+              22,
+              2,
+              10
+            ]
+          },
+          {
+            "name": "3Q26 Old",
+            "unit": "%",
+            "values": [
+              12,
+              5,
+              10,
+              10,
+              10
+            ]
+          }
+        ],
+        "figure_id": "58274b96e6d63176",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan '23",
+              "Jul '23",
+              "Jan '24",
+              "Jul '24",
+              "Jan '25",
+              "Jul '25"
+            ]
+          },
+          "y": {
+            "unit": "Security price",
+            "range": {
+              "min": 0.0,
+              "max": 1500.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Security price",
+            "unit": null,
+            "values": [
+              118.88,
+              156.77,
+              180.72,
+              236.64,
+              264.68,
+              379.8,
+              454.69,
+              471.63,
+              785.38,
+              893.98,
+              1037.99,
+              121.79,
+              117.59,
+              146.67,
+              120.15,
+              97.64,
+              96.91,
+              139.19,
+              170.7
+            ]
+          }
+        ],
+        "figure_id": "315d89af4b909bfb",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "BUY",
+              "HOLD",
+              "SELL"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 375
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "companies covered",
+            "unit": null,
+            "values": [
+              360,
+              315,
+              5
+            ]
+          },
+          {
+            "name": "Cos. w/ Banking Relationship",
+            "unit": null,
+            "values": [
+              160,
+              110,
+              0
+            ]
+          },
+          {
+            "name": "MIFID Investment & Ancillary Services",
+            "unit": null,
+            "values": [
+              230,
+              180,
+              5
+            ]
+          }
+        ],
+        "figure_id": "614ab95300339c2a",
+        "provenance": {
+          "page": 9
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "086872ea7ab8e4a9",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "While NVDA appears poised to resume shipments at some point, the magnitude, timing, and accounting (15% fee to USG) remain uncertain. ![Figure 1-0](images/1_0.jpg) <center>Figure 1: 2Q26 Results </cen",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d761b426f13b3f31",
+        "value": 0.17800000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>$1.71</td><td>$1.71</td><td>$1.71</td><td></td></tr><tr><td>Revenue % Change - Sequential</td><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "11275fc1e7b0bbef",
+        "value": 0.153,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>$1.71</td><td>$1.71</td><td></td></tr><tr><td>Revenue % Change - Sequential</td><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "9b621b33671b5ff4",
+        "value": 0.168,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>$1.71</td><td></td></tr><tr><td>Revenue % Change - Sequential</td><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e59c7238bea4937c",
+        "value": 0.121,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td></tr><tr><td>Revenue % Change - Sequential</td><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "f3de8175e5690013",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e % Change - Sequential</td><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "80a0b03cce7382c6",
+        "value": 0.061,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "equential</td><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a69becbe0e2cf54e",
+        "value": 0.198,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "49096655d2e0b91a",
+        "value": 0.076,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "8246d9291f7512b8",
+        "value": 0.079,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "99b9e1972a8d91c2",
+        "value": 0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>E",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a397977e30d6486c",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change -",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "4ca172294efc015c",
+        "value": 0.057999999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "eb173c97bf19edd7",
+        "value": 0.051,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "4d84ebf33731bc54",
+        "value": 0.07200000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "5db5f232d20043c2",
+        "value": 0.040999999999999995,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "eacfabe637e5bf09",
+        "value": 0.187,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7399e4bafae9f4c6",
+        "value": 0.114,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "058a0f727ee83db6",
+        "value": 0.184,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "8f620c779ee84ac2",
+        "value": 0.106,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "205f9c0dc55c9173",
+        "value": 0.095,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "% Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "58f094e46465db21",
+        "value": 0.29100000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "quential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c2fe552cfc27fdd7",
+        "value": 0.22699999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ba3ae124a3a5945d",
+        "value": 0.105,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "551dce650a9310e7",
+        "value": 0.057999999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "32b19c4ade37a907",
+        "value": 0.065,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Reven",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7ebcd655f3644380",
+        "value": 0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Revenue % Changes,",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "425fc13d4a089ac4",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "332d91afe86b32c8",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>12",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "911a9d0748c6676d",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "605d8ed5c8d67cbd",
+        "value": 2.6210000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7673fbf81136c372",
+        "value": 1.224,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "942c457d14ea7ee4",
+        "value": 0.9359999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4.8%</td><td></td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "4c40d0e43b3d1d30",
+        "value": 0.779,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e03e01e410ef9c43",
+        "value": 1.1420000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d3e1d455f5feca44",
+        "value": 0.6920000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "anges, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d726504341dc0e1f",
+        "value": 0.556,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "936c33dae6bd8ded",
+        "value": 0.532,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "62.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "57f8ec107f2da542",
+        "value": 0.5870000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d1cee59b7f008754",
+        "value": 0.467,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "9adbef1a658b17c7",
+        "value": 0.48700000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "317ffbd454ee467a",
+        "value": 0.228,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "bf9f0b6ce9007647",
+        "value": 0.22399999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "170c8f5479c09963",
+        "value": 0.24100000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "94de20b41a40ccda",
+        "value": 0.24100000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ed9085f9fc22ced3",
+        "value": 0.23399999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0%</td><td>101.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e97a01c23bc11af3",
+        "value": 4.619,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0%</td><td>101.0%</td><td>73.2%</td><td>32.0%</td><td>52.0%</td><td>58.5%</td><td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "b0c68a8261ee5429",
+        "value": 1.53,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0%</td><td>101.0%</td><td>73.2%</td><td>32.0%</td><td>52.0%</td><td>58.5%</td><td>58.4%</td><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d005a64ddfa80583",
+        "value": 1.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0%</td><td>101.0%</td><td>73.2%</td><td>32.0%</td><td>52.0%</td><td>58.5%</td><td>58.4%</td><td>58.1%</td><td>N",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a087dd97b5350b28",
+        "value": 0.732,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0%</td><td>101.0%</td><td>73.2%</td><td>32.0%</td><td>52.0%</td><td>58.5%</td><td>58.4%</td><td>58.1%</td><td>N/M</td><td>26.8",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "26161d56aed7744d",
+        "value": 0.32,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0%</td><td>101.0%</td><td>73.2%</td><td>32.0%</td><td>52.0%</td><td>58.5%</td><td>58.4%</td><td>58.1%</td><td>N/M</td><td>26.8%</td><td>27.1",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "59fa5732f85770e0",
+        "value": 0.17800000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>$1.71</td><td>$1.71</td><td>$1.71</td><td></td></tr><tr><td>Revenue % Change - Sequential</td><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "a5d6968470f5aa55",
+        "value": 0.153,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>$1.71</td><td>$1.71</td><td></td></tr><tr><td>Revenue % Change - Sequential</td><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%<",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c456b9e9abc43e7d",
+        "value": 0.168,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>$1.71</td><td></td></tr><tr><td>Revenue % Change - Sequential</td><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "e03a4dd061bdc95a",
+        "value": 0.121,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td></tr><tr><td>Revenue % Change - Sequential</td><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "9c4820dd03c70428",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e % Change - Sequential</td><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "b390985f5987475e",
+        "value": 0.061,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "equential</td><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "e5a31bca30f35c5a",
+        "value": 0.198,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>17.8%</td><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "bda73e0f1a06780a",
+        "value": 0.076,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>15.3%</td><td>16.8%</td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c97857c7ef5da2d7",
+        "value": 0.079,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>12.1%</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "1eba90f15df098a7",
+        "value": 0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>N/M</td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>E",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "a746dbc586cf94aa",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>12.0%</td><td>6.1%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change -",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "6f7edfa962b752d0",
+        "value": 0.057999999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>19.8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "fc7a1dcb62573de9",
+        "value": 0.051,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8%</td><td>7.6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "e0a24f8c3d2e0af3",
+        "value": 0.07200000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6%</td><td>N/M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "12eb265bf45636f8",
+        "value": 0.040999999999999995,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "M</td><td>7.9%</td><td>5.5%</td><td>5.7%</td><td>N/M</td><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "05dac1e316b40999",
+        "value": 0.187,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>5.8%</td><td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c34dd4549875fb29",
+        "value": 0.114,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>5.1%</td><td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c2d632997023a1f2",
+        "value": 0.184,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>7.2%</td><td>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "01c0024f6aee0a7b",
+        "value": 0.106,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>4.1%</td></tr><tr><td>EPS % Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%<",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c100dca83e093529",
+        "value": 0.095,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "% Change - Sequential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "e17a05c48c60b394",
+        "value": 0.29100000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "quential</td><td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "7c8264ffe56837d2",
+        "value": 0.22699999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>18.7%</td><td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c526ede2825405c0",
+        "value": 0.105,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>11.4%</td><td>18.4%</td><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "a74df239ffca1ce4",
+        "value": 0.057999999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>10.6%</td><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "33214dadc7acd734",
+        "value": 0.065,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>N/M</td><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Reven",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "227fe35267f3e11b",
+        "value": 0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>(9.5%)</td><td>29.1%</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Revenue % Changes,",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "3ee9bb42bdc91b5d",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>22.7%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "1998cc392a71a3ee",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>10.5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>12",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "e02687f27ef7ae8f",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5%</td><td>N/M</td><td>5.8%</td><td>6.5%</td><td>5.5%</td><td>N/M</td><td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "631b3251e9f2f89d",
+        "value": 2.6210000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>4.8%</td><td>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "6a56d1e77ad5027f",
+        "value": 1.224,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>4.8%</td><td>4.8%</td><td></td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "6af9a4afa43f95d1",
+        "value": 0.9359999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4.8%</td><td></td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "837e5c916670b45e",
+        "value": 0.779,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "e5f059fc4741d89c",
+        "value": 1.1420000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Revenue % Changes, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "e6e915b46bc662e7",
+        "value": 0.6920000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "anges, yr over yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "be1b4a90a3f07435",
+        "value": 0.556,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "yr.</td><td>262.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f27840dca148b259",
+        "value": 0.532,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "62.1%</td><td>122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "1eae8705eefc72a6",
+        "value": 0.5870000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "122.4%</td><td>93.6%</td><td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "4092116078028a60",
+        "value": 0.467,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>77.9%</td><td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "982f5ee278d55dfe",
+        "value": 0.48700000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>114.2%</td><td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "08e0df3318de7ae9",
+        "value": 0.228,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>69.2%</td><td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "9d50c3b013a7348d",
+        "value": 0.22399999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>55.6%</td><td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.<",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "a26b1376c2f135ad",
+        "value": 0.24100000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>53.2%</td><td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "221ce5025b00d6c4",
+        "value": 0.24100000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>58.7%</td><td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "91aefa967970dd75",
+        "value": 0.23399999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>N/M</td><td>46.7%</td><td>48.7%</td><td>22.8%</td><td>22.4%</td><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0%</td><td>101.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f6f3dabddb85532a",
+        "value": 4.619,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>24.1%</td><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0%</td><td>101.0%</td><td>73.2%</td><td>32.0%</td><td>52.0%</td><td>58.5%</td><td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "2daacbead61a8356",
+        "value": 1.53,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>24.1%</td><td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0%</td><td>101.0%</td><td>73.2%</td><td>32.0%</td><td>52.0%</td><td>58.5%</td><td>58.4%</td><td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "2c1db11180da71df",
+        "value": 1.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>23.4%</td><td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0%</td><td>101.0%</td><td>73.2%</td><td>32.0%</td><td>52.0%</td><td>58.5%</td><td>58.4%</td><td>58.1%</td><td>N",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "83fee64300c26fa5",
+        "value": 0.732,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></td></tr><tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0%</td><td>101.0%</td><td>73.2%</td><td>32.0%</td><td>52.0%</td><td>58.5%</td><td>58.4%</td><td>58.1%</td><td>N/M</td><td>26.8",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "1e5c43c3ca8ce2ea",
+        "value": 0.32,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>EPS % Change, yr over yr.</td><td>461.9%</td><td>153.0%</td><td>101.0%</td><td>73.2%</td><td>32.0%</td><td>52.0%</td><td>58.5%</td><td>58.4%</td><td>58.1%</td><td>N/M</td><td>26.8%</td><td>27.1",
+        "provenance": {
+          "page": 5
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 5,
+      "tables_count": 0,
+      "numerical_data_count": 101,
+      "passages_count": 68,
+      "entities_count": 20
+    }
+  }
+}

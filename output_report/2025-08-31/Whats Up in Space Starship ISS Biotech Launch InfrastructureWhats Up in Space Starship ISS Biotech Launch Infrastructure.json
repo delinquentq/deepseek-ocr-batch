@@ -1,0 +1,861 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "91afcb80332ba0d0738435e167ac0a84",
+    "title": "Jefferies",
+    "source_uri": "2025-08-31/Whats Up in Space Starship ISS Biotech Launch InfrastructureWhats Up in Space Starship ISS Biotech Launch Infrastructure_2025-08-31",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:45:48.349930",
+      "extracted_at": "2025-10-27T00:45:48.349939"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 11,
+        "successful_pages": 11,
+        "date": "2025-08-31",
+        "publication": "2025-08-31",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 6,
+          "reduction_ratio": 0.25495221978897076
+        },
+        "input_relative_path": "2025-08-31"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "b6862a7618303cf0",
+      "text": "USA | Aerospace & Defense Electronics",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4dde4352370db832",
+      "text": "What's Up in Space: Starship, ISS Biotech, Launch Infrastructure",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1ea3ce9857092ff6",
+      "text": "In this weekly report, we highlight key events and implications for the space sector: 1) SpaceX Starship completes tenth flight test with a successful launch; 2) Redwire \\(\\) 25\\mathrm{MM}\\$ NASA ID/IQ for on- orbit biotech support on ISS; 3) Aerospacelab raises \\(\\) 110\\mathrm{MM}\\$ for production facility expansion; 4) Rocket Lab completes 70th Electron launch, stands up new Neutron launch pad.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "eb5b9f3abc50a3d1",
+      "text": "SpaceX Starship Completes A Successful Tenth Test Flight. SpaceX's Starship completed its tenth test flight with the successful launch putting the program back on track following failures on the last three test flights. The ascent appeared successful excluding the premature shutdown of one of 33 Raptor engines in the Super Heavy booster, with the Starship reaching its planned suborbital trajectory. The mission also included the deployment of eight mass simulators of next- gen Starlink satellites. Starship had a successful controlled reentry to its targeted splashdown zone in the Indian Ocean.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "559d4eda01885851",
+      "text": "Redwire To Provide Biotech On- Orbit Ops at ISS. Redwire was awarded a NASA single award \\(\\) 25\\mathrm{MM}\\$ ceiling five year ID/IQ to fulfill future task orders for biotechnology facilities, on- orbit operations support, mission integration, and related services for the agency on the ISS. Under the contract, RDW was recently issued a \\(\\) 2.5\\mathrm{MM}\\$ task order from NASA's In Space Production Application (InSPA) program to support additional drug development investigations on the ISS using Redwire's PIL- BOX technology. Redwire will provide services to manage, integrate, and facilitate experiments and support on- orbit operations for NASA- funded life and material sciences research investigations on the ISS that are processed every year.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "88f324f388ca8b93",
+      "text": "Aerospacelab Raises \\(\\) 110\\mathrm{MM}\\$ For Satellite Production. Aerospacelab, a Belgian satellite maker, has raised \\(\\) 94\\mathrm{MM}\\$ ( \\(110\\mathrm{MM}\\) ) to expand manufacturing capacity. The company has now raised a total of \\(\\) 134\\mathrm{MM}\\$ . The funds are expected to go toward the completion of its \"Megafactory\" in Belgium that can support capacity to manufacture up to 500 satellites per year by 2027 with production of 150 to 700kg satellites kicking off in early 2026. Current named customers include Xona Space Systems, Albedo, JAXA/Mitsui Bussan Aerospace of Japan and ESA/European Defense Agencies. Aerospacelab is differentiating through designing and producing subsystems in- house and leveraging commercial off- the- shelf components to cut costs and lead times. Aerospacelab has deployed nine satellites to date. Aerospacelab has been shortlisted to build \\(>290\\) mostly LEO satellites by SpaceX/ISE (EC backed consortium of SES, Eutelsat, and Hispasa) with a target service date of 2031. The company is currently in the RFI phase with SpaceX/ISE as it assesses technical maturity, development road maps and production capacity with the RFP phase to open Sept 20th and supplier selection before year end.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "8c494bb131d2c26c",
+      "text": "RockeLab Launches 5 Sats on 70th Electron Flight. A Rocket Lab Electron launched five satellites for a confidential commercial customer marking the 70th overall liftoff for its Electron rocket and 1th mission of 2025. The launch was from Rocket Lab's New Zealand site.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "081b19be938a1590",
+      "text": "Rocket Lab Inaugurates Neutron Launch Pad. Rocket Lab officially opened its Launch Complex 3 at the Mid- Atlantic Regional Spaceport. The new site is expected to host Neutron launches, with the first launch of the rocket planned for as early as the end of this year. Rocket Lab has designed the pad to minimize the cost and time needed to refurbish in between launches. This includes a design to be able to turn in 24 hours. Construction of the launch complex started in late 2023 and included 700 tons of steel and 140 cubic meters of concrete.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "71248a7c57c01c39",
+      "text": "Elbit JUPITER Space Camera Launches on NAOS Satellite. Elbit Systems JUPITER space camera successfully launched on a National Advanced Optical Systems satellite. The NAOS satellite, manufactured by OHB Italia, will support a wide- band of earth observation missions, including military operations, environmental monitoring and scientific research. Elbit's camera is an advanced space camera featuring a very large aperture and lightweight design with multispectral across a combination of imaging channels. This includes a high- resolution panchromatic channel, RGB channel along with a near- infrared channel. In addition to the camera, Elbit Systems also developed and supplied advanced algorithms to support the NAOS mission ground system.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "25a2ad281ea82d57",
+      "text": "ESA and EC Awards Two Launch Contracts. ESA has signed the first awards under the Flight Ticket Initiative, a joint program with the European Commission. The Flight Ticket Initiative is meant to help European companies and organizations test technologies in orbit along with provide new competitive opportunities for European launch companies. One contract to carry three payloads went to Avio with another for two payloads to Isar Aerospace. Avio is expected to fly the three payloads as secondaries on an unspecified future Vega C launch. Isar will carry two payloads on a Spectrum launch which is scheduled for no earlier than next year. In January 2024, Isar Aerospace, Orbex, PLD Space, Arianespace (since then Avio has taken over launch services/marketing of Vega C) and Rocket Factory Augsburg were selected to compete for future launches under the program.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "36f4202b8a475a24",
+      "text": "We present What's Up in Space reports published in the past several months.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3ff5a06226402ef0",
+      "text": "What's Up in Space: 100, X- 37B, NASA Launch, Space Force Ranges - Aug 24, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e1d046f2d6921a7d",
+      "text": "What's Up in Space: NSSL, Executive Orders, Geost and DARC - Aug 17, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4c2be4e33b2952b2",
+      "text": "What's Up in Space: SpaceMD, Connectivity, NSSL, PRR - Aug 10, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b068c794087cd0de",
+      "text": "What's Up in Space: SATCOM, X- 37B, Broadband, Lunar - Aug 3, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4ef0dc9bc603125d",
+      "text": "What's Up in Space: Golden Dome, Space Economy, GSSAP - July 27, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "13433ea3554ad7b8",
+      "text": "What's Up in Space: Unfunded Priorities, OCX, Starlab, and Competitor Launches - July 20, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1ed195de990b44da",
+      "text": "What's Up in Space: NASA Marked Up, Evolved, DAP, and More Launches - July 13, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "91755769f7ea3a5a",
+      "text": "What's Up in Space: Staying in Lane 1, T2DES Europa, ROSA, T2TL- Beta, mPower - July 3, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "af6ee7dab1f74418",
+      "text": "What's Up in Space: Kuiper, Launches, Hot Fire and Ax- 4 - June 29, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "26d8a50104c683fa",
+      "text": "What's Up in Space: MILNET, Hammerhead, Spectrum, Starship and Near- Earth Comms - June 22, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "600ded2b2bf7423d",
+      "text": "What's Up in Space: RDW Acquisition, New Glenn / Starliner Delays + Fund Raises - June 15, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4c007b29c1f17d6c",
+      "text": "What's Up in Space: Orbital Launches, Ranges, Epoch 2, MASON, and Impulse - June 8, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "147df77fc393e81e",
+      "text": "What's Up in Space: Starship, Payload Acquisition, GPS and Space Sensors - June 1, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "66a9eb03fcbe0e83",
+      "text": "What's Up in Space: Comm' Imagery, Golden Dome, Space as a Service, Starship - May 25, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4654259b18f9148d",
+      "text": "What's Up in Space: Hybrid Space, Space Tracking, Robotics and Propulsion - May 18, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "42d62ccf8cd977be",
+      "text": "What's Up in Space: NASA Cuts Face Pushback, Quantum, and Space Needs > Funding - May 11, 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4a332830f423a5b3",
+      "text": "What's Up in Space: GSSAP Shift, SDA Pause, HBTSS Success, Kuiper, Cap Raises - May 4, 2025  What's Up in Space: Kuiper, Crystallizer, HASTE, NASA Administrator - April 27, 2025  What's Up in Space: NASA Science, Golden Dome, Docking, GEO Sats - April 21, 2025  What's Up in Space: NSSL, Tracking Layer, Foo Fighter, Moon and Mars - April 13, 2025  What's Up in Space: New Glenn, Deals, Kuiper, Starship, and Satellite Merger - April 6, 2025  What's Up in Space: Vulcan Cert, Orbital Launches, CASR, PIL- BOX, DoD Sats - March 30, 2025  What's Up in Space: ISS Crew Home, Starliner, Edge, VLEO and Optical Comms - March 23, 2025  What's Up in Space: Laser Comms, Tranche 1, Constellations, Moon, and X- 37B - March 16, 2025  What's Up in Space: Protect and Defend, Mars, Focal Plane Modules, and Starship - March 9, 2025  What's Up in Space: Golden Dome, Laser Comms, Lunar Lander and Neutron - March 2, 2025  What's Up in Space: Rebid, Warrants, ISS, SLS - Feb 23, 2025  What's Up in Space: RDW MAKO, MDA Space Globalstar, Iron Dome, SAR - Feb 16, 2025  What's Up in Space: Airlock, ThrustMe, VIPER, Consolidation - Feb 9, 2025  What's Up in Space: Upsilon, NSSL, Research Lockers and DTC - Feb 2, 2025  What's Up in Space: Redwire + Edge, Mars, Mercury and Leap-Ahead - Jan 26, 2025  What's Up in Space: A New Glenn, Transporter, Starship, NGA, ROSA - Jan 19, 2025  What's Up in Space: Starship Again, Orbital Launches, MACH- TB, and a New Glenn - Jan 12, 2025  What's Up in Space: OneWeb Order, IRIS2, NRO, Link 16 and More Sats - Dec 22, 2024  What's Up in Space: AFRL, NSSL Cert, New Glenn, TacSat and \\(\\) 350BB\\$ - Dec 15, 2024  What's Up in Space: Artemis, Luno, Lightspeed, Reentry and Resilient Comms - Dec 8, 2024  What's Up in Space: Tranche 3, Ghost Mission, FCC Approval, and Dragonfly - Dec 1, 2024  What's Up in Space: SDA Tranche 1, AVAV/BlueHalo, ABL Exit, Cap Raises - Nov 24, 2024  What's Up in Space: Neutron, O3b mPOWER, PDR, Cap Raise, ISS Resupply - Nov 17, 2024  What's Up in Space: Australia Cancellation, Starship Again, Intel Sharing - Nov 10, 2024  What's Up in Space: Rapid Prototyping, Staying in the Lane, Space FMS Surge - Nov 3, 2024  What's Up in Space: Epoch 1, OPIR, PIL- BOX, NRO Constellations - Oct 27, 2024  What's Up in Space: Proba, Lattice, Clean Catch and Europa Clipper - Oct 20, 2024  What's Up in Space: Tranche 3, Starship, Foo Fighter and New Clusters - Oct 13, 2024  What's Up in Space: Gogo, Next- Gen OPIR, LEO Buses, Impulse and Ghost - Oct 6, 2024  What's Up in Space: Lunar Dawn, NOAA, R- GPS and Commercial SATCOM - Sept 29, 2024",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "594c07a3bd25d99f",
+      "text": "What's Up in Space: OISL Yields, Cert Flights, Funding Constellations - Sept 22, 2024  What's Up in Space: Spacewalk, Earth Observation, NRO, Direct-to-Cell - Sept 15, 2024  What's Up in Space: Launches Resume, Hera Close, OPIR Payload Delivered, NGA AI - Sept 8, 2024  What's Up in Space: Falcon 9, CEO Departure, DARC, and RF Payloads - Sept 2, 2024  What's Up in Space: Laser Cuts, Gamma Award, SpaceX Return Flight - Aug 26, 2024  What's Up in Space: Starliner, Acquisitions, Epoch 2 and Viper - Aug 18, 2024  What's Up in Space: Alpha Launch Deal, Starliner, Thrusters and China Mega - Aug 11, 2024  What's Up in Space: Falcon 9 Returns, Atlas V NSSL Done, PDR and Generative AI - Aug 4, 2024  What's Up in Space: Rocket Returns, Starship, ROSA, Artemis, and LinQuest - July 21, 2024  What's Up in Space: Delta, Thrusters, Ariane 6 and Return from the ISS - July 14, 2024  What's Up in Space: OSP-4, COSI, SpaceX, Tranche 3 and Alpha - July 7, 2024  What's Up in Space: Kuiper, Canadarm3, Deorbit and ReOrbit, and Wallops - June 30th, 2024  What's Up in Space: GeoXO, Electron, SabreSat and Epoch 1 - June 23rd, 2024  What's Up in Space: NSSL, Starshield, ROSA and VSS Unity Retirement - June 16th, 2024  What's Up in Space: Alpha, Starliner Finally, HALO, Telescopes and Starship - June 9th, 2024  What's Up in Space: GEO Comms, Space Stations, Direct to Cell and EW Training - June 2nd, 2024  What's Up in Space: Orbital Launches, ASATs, Rapid Spacecraft and Robotic Arms - May 27th, 2024  What's Up in Space: Starliner Again, Phantom, Tracking, and Direct-to-Device - May 19th, 2024  What's Up in Space: Starliner, Neutron, Phantom, and Application Expansion - May 12th, 2024  What's Up in Space: FOO Fighter Award, Acquisitions and Polar CDR - May 5th, 2024  What's Up in Space: Humans in Space, Starliner Closer and Upper Stage Reuse - April 28th, 2024",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1db6d7eaab8cf526",
+      "text": "We arrive at our price target for ESLT using a blended average of P/E, EV/EBITDA, and FCF yield off our 2026 estimates. Risks include Defense budgets.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "1c76fa3a421462b1",
+      "text": "We value Redwire on 2027E PF EV/EBITDA. Risks include program delays, funding constraints, rising competitive pressures from new companies, and risk to M&A integration.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "9e1d6032a1da8bab",
+      "text": "(Article 3(1)e and Article 7 of MAR) Recommendation Published Recommendation Distributed",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "e65cfe417d969515",
+      "text": "August 29, 2025 12:10 P.M. August 31, 2025 10:00 A.M.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "aaf1aaf0de992f49",
+      "text": "Buy - Describes securities that we expect to provide a total return (price appreciation plus yield) of \\(15\\%\\) or more within a 12- month period.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a5540e4c5d6433d4",
+      "text": "Hold - Describes securities that we expect to provide a total return (price appreciation plus yield) of plus \\(15\\%\\) or minus \\(10\\%\\) within a 12- month period.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "881143e0533eb423",
+      "text": "Underperform - Describes securities that we expect to provide a total return (price appreciation plus yield) of minus \\(10\\%\\) or less within a 12- month period.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8b38fb3455a4918a",
+      "text": "The expected total return (price appreciation plus yield) for Buy rated securities with an average security price consistently below \\(10\\%\\) or more within a 12- month period as these companies are typically more volatile than the overall stock market. For Hold rated securities with an average security price consistently below \\(10,\\) the expected total return (price appreciation plus yield) is plus or minus \\(20\\%\\) within a 12- month period. For Underperform rated securities with an average security price consistently below \\(10,\\) the expected total return (price appreciation plus yield) is minus \\(20\\%\\) or less within a 12- month period.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "db1c2dc67037965d",
+      "text": "NR - The investment rating and price target have been temporarily suspended. Such suspensions are in compliance with applicable regulations and/or Jefferies policies.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "765e66230d42db04",
+      "text": "CS - Coverage Suspended. Jefferies has suspended coverage of this company.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "7a6bacbd9e5e3a30",
+      "text": "NC - Not covered. Jefferies does not cover this company.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c0bf4b94559cca7a",
+      "text": "Restricted - Describes issuers where, in conjunction with Jefferies engagement in certain transactions, company policy or applicable securities regulations prohibit certain types of communications, including investment recommendations.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "7ac4628ed0910c8f",
+      "text": "Monitor - Describes securities whose company fundamentals and financials are being monitored, and for which no financial projections or opinions on the investment merits of the company are provided.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "ff4777c018e65265",
+      "text": "Jefferies' methodology for assigning ratings may include the following: market capitalization, maturity, growth/value, volatility and expected total return over the next 12 months. The price targets are based on several methodologies, which may include, but are not restricted to, analyses of market risk, growth rate, revenue",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "32ad2bae308385d4",
+      "text": "stream, discounted cash flow (DCF), EBITDA, EPS, cash flow (CF), free cash flow (FCF), EV/EBITDA, P/E, PE/growth, P/CF, P/FCF, premium (discount)/average group EV/EBITDA, premium (discount)/average group P/E, sum of the parts, net asset value, dividend returns, and return on equity (ROE) over the next 12 months.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "11c70402c2d3237c",
+      "text": "Jefferies Franchise Picks include stock selections from among the best stock ideas from our equity analysts over a 12 month period. Stock selection is based on fundamental analysis and may take into account other factors such as analyst conviction, differentiated analysis, a favorable risk/reward ratio and investment themes that Jefferies analysts are recommending. Jefferies Franchise Picks will include only Buy rated stocks and the number can vary depending on analyst recommendations for inclusion. Stocks will be added as new opportunities arise and removed when the reason for inclusion changes, the stock has met its desired return, if it is no longer rated Buy and/or if it triggers a stop loss. Stocks having 120 day volatility in the bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent a recommended portfolio of stocks and is not sector based, but we may note where we believe a Pick falls within an investment style such as growth or value.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "3015ad549507c1cb",
+      "text": "- Elbit Systems Ltd. (ESLT: \\(480.21, HOLD) \n- Redwire (RDW:\\)8.91, BUY)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c7738a0916c2b544",
+      "text": "**Notes**: Each box in the Rating and Price Target History chart above represents actions over the past three years in which an analyst initiated on a company,made a change to a rating or price target of a company or discontinued coverage of a company.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0891f26c01acc2b1",
+      "text": "I: Initiating Coverage",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "f82f0f59ceab42b1",
+      "text": "Distribution of RatingsIB Serv./Past12 Mos.JIL Mkt Serv./Past12 Mos.CountPercentCountPercentCountPercentBUY210760.60%37017.56%1185.60%HOLD121234.86%1078.83%221.82%UNDERPERFORM1584.54%31.90%31.90%",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "d256e4dd9cd4b9df",
+      "text": "Jefferies does busines and seeks to do busines with companies covered in its research reports, and expects to receive or intends to seek compensation for investment banking services among other activities from such companies. As a result, investors should be aware that Jefferies may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2a8896ec73e84d7e",
+      "text": "Jefferies Equity Research refers to research reports produced by analysts employed by one of the following Jefferies Financial Group Inc. (Jefferies) companies: United States: Jefferies LLC which is an SEC registered broker- dealer and a member of FINRA (and distributed by Jefferies Research Services, LLC, an SEC registered Investment Adviser, to clients paying separately for such research).",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "6e885ddc54f83fa9",
+      "text": "Canada: Jefferies Securities Inc., which is an investment dealer registered in each of the thirteen Canadian jurisdictions and a dealer member of the Canadian Investment Regulatory Organization, including research reports produced jointly by Jefferies Securities Inc. and another Jefferies entity (and distributed by Jefferies Securities Inc.).",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2039ed90bb3d93b1",
+      "text": "Where Jefferies Securities Inc. distributes research reports produced by Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch or Jefferies India Private Limited, you are advised that each of Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch and Jefferies India Private Limited operates as a dealer in your jurisdiction under an exemption from the dealer registration requirements contained in National Instrument 31- 103 Registration Requirements, Exemptions and Ongoing Registrant Obligations and, as such, each of Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch and Jefferies India Private Limited is not required to be and is not a registered dealer or adviser in your jurisdiction. You are advised that where Jefferies LLC or Jefferies International Limited prepared this research report, it was not prepared in accordance with Canadian disclosure requirements relating to research reports in Canada.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "07b5f396c29708fe",
+      "text": "United Kingdom: Jefferies International Limited, which is authorized and regulated by the Financial Conduct Authority, registered in England and Wales No. 1978621; registered office: 100 Bishopsgate, London EC2N 4JL; telephone +44 (0)20 7029 8000; facsimile +44 (0)20 7029 8010.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "9afc6a72a93b723a",
+      "text": "Japan: Jefferies (Japan) Limited, Tokyo Branch, which is a securities company registered by the Financial Services Agency of Japan and is a member of the Japan Securities Dealers Association; located at Tokyo Midtown Hibiya 30F Hibiya Mitsui Tower, 1- 1- 2 Yurakucho, Chiyoda- ku, Tokyo 100- 0006; telephone +813 5251 6100; facsimile +813 5251 6101.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "b92582b8215ce22b",
+      "text": "Australia: Jefferies (Australia) Pty Limited (ACN 623 059 898), which holds an Australian financial services license (AFSL 504712) and is located at Level 20, 60 Martin Place, Sydney NSW 2000; telephone +61 2 9364 2800.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "3198b39b63bacc99",
+      "text": "Dubai: Jefferies International Limited, Dubai branch, which is licensed by the Dubai Financial Services Authority (DFSA Reference Number F007325); registered office Unit L31- 06, L31- 07, Level 31, ICD Brookfield Pace, DIFC, PO Box 121208, Dubai, UAE.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "375a36cb87ea695e",
+      "text": "This report was prepared by personnel who are associated with Jefferies (Jefferies Securities Inc., Jefferies International Limited, Jefferies GmbH, Jefferies Hong Kong Limited, Jefferies Singapore Limited, Jefferies (Japan) Limited, Tokyo Branch, Jefferies India Private Limited), and Jefferies (Australia) Pty Ltd; or by personnel who are associated with both Jefferies LLC and Jefferies Research Services LLC (\"JRS\"). Jefferies LLC is a US registered broker- dealer and is affiliated with JRS, which is a US registered investment adviser. JRS does not create tailored or personalized research and all research provided by JRS is impersonal. If you are paying separately for this research, it is being provided to you by JRS. Otherwise, it is being provided by Jefferies LLC. Jefferies LLC, JRS, and their affiliates are collectively referred to below as \"Jefferies\". Jefferies may seek to do business with companies covered in this research report. As a result, investors should be aware that Jefferies may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only one of many factors in making their investment decisions. Specific conflict of interest and other disclosures that are required by FINRA, the Canadian Investment Regulatory Organization and other rules are set forth in this disclosure section.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "4b41280891996d71",
+      "text": "If you are receiving this report from a non- US Jefferies entity, please note the following: Unless prohibited by the provisions of Regulation S of the U.S. Securities Act of 1933, as amended, this material is distributed in the United States by Jefferies LLC, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6 under the US Securities Exchange Act of 1934, as amended. Transactions by or on behalf of any US person may only be effected through Jefferies LLC. In the United Kingdom and European Economic Area this report is issued and/or approved for distribution by Jefferies International Limited (\"JIL\") and/or Jefferies GmbH and is intended for use only by persons who have, or have been assessed as having, suitable professional experience and expertise, or by persons to whom it can be otherwise lawfully distributed. Jefferies LLC, JIL, Jefferies GmbH and their affiliates, may make a market or provide liquidity in the financial instruments referred to in this report; and where they do make a market, such activity is disclosed specifically in this report under \"company specific disclosures\".",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "b3c9ff725910ef80",
+      "text": "For Canadian investors, this material is intended for use only by professional or institutional investors. None of the investments or investment services mentioned or described herein is available to other persons or to anyone in Canada who is not a \"permitted client\" as defined by National Instrument 31- 103 Registration Requirements, Exemptions and Ongoing Registrant Obligations, as applicable. This research report is a general discussion of the merits and risks of a security or securities only, and is not in any way meant to be tailored to the needs and circumstances of any recipient. The information contained herein is not, and under no circumstances is to be construed as, an offer to sell securities described herein, or solicitation of an offer to buy securities described herein, in Canada or any province or territory thereof. Any offer or sale of the securities described herein in Canada will be made only under an exemption from the requirements to file a prospectus with the relevant Canadian securities regulators, if applicable, and only by a dealer properly registered under applicable securities laws or, alternatively, pursuant to an exemption from the dealer registration requirement in the relevant province or territory of Canada in which such offer or sale is made. The information contained herein is under no circumstances to be construed as investment advice in any province or territory of Canada and is not tailored to the needs of the recipient. To the extent that the information contained herein references securities of an issuer incorporated, formed or created under the laws of Canada or a province or territory of Canada, any trades in such securities must be conducted through a dealer registered in Canada. No securities commission or similar regulatory authority in Canada has reviewed or in any way passed judgment upon this research report, the information contained herein or the merits of the securities described herein, and any representation to the contrary is an offence.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "14331a556b4507b7",
+      "text": "By providing this report, neither JRS nor any other Jefferies entity accepts any authority, discretion, or control over the management of the recipient's assets. Any action taken by the recipient of this report, based on the information in the report, is at the recipient's sole judgment and risk. The recipient must perform his or her own independent review of any prospective investment. If the recipient uses the services of Jefferies LLC (or other affiliated broker-dealers), in connection with a purchase or sale of a security that is a subject of these materials, such broker- dealer may act as principal for its own accounts or as agent for another person. Only JRS is registered with the SEC as an investment adviser, and therefore neither Jefferies LLC nor any other Jefferies affiliate has any fiduciary duty in connection with distribution of these reports.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "c1d3670c5760b6ce",
+      "text": "The price and value of the investments referred to herein and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "71ab49a77f5d985e",
+      "text": "This report may contain forward looking statements that may be affected by inaccurate assumptions or by known or unknown risks, uncertainties, and other important factors. As a result, the actual results, events, performance or achievements of the financial product may be materially different from those expressed or implied in such statements.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "ee4f8a060bcae2ca",
+      "text": "This report has been prepared independently of any issuer of securities mentioned herein and not as agent of any issuer of securities. No Equity Research personnel have authority whatsoever to make any representations or warranty on behalf of the issuer(s). Any comments or statements made herein are those of the Jefferies entity producing this report and may differ from the views of other Jefferies entities.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "3ad1adc35b14f477",
+      "text": "This report may contain information obtained from third parties, including ratings from credit ratings agencies such as Standard & Poor's, and information derived from third-party or proprietary generative artificial intelligence (Gen AI) models. Jefferies does not guarantee the accuracy, completeness, timeliness or availability of this information, and is not responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use of such content. Neither Jefferies nor any third-party content providers, including providers of Gen AI models, give any express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Neither Jefferies nor any third-party content provider shall be liable for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase, hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Reproduction and distribution of third party content in any form is prohibited except with the prior written permission of the related third party.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "5a9c40d4d3e6dc09",
+      "text": "Jefferies research reports are disseminated and available electronically, and, in some cases, also in printed form. Electronic research is simultaneously made available to all clients. This report or any portion hereof may not be copied, reprinted, sold, or redistributed or disclosed by the recipient or any third party, by content scraping or extraction, automated processing, or any other form or means, without the prior written consent of Jefferies. Any unauthorized use is prohibited. Neither Jefferies nor any of its respective directors, officers or employees, is responsible for guaranteeing the financial success of any investment, or accepts any liability whatsoever for any direct, indirect or consequential damages or losses arising from any use of this report or its contents. Nothing herein shall be construed to waive any liability Jefferies has under applicable U.S. federal or state securities laws.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "235f3d51f4d85127",
+      "text": "For Important Disclosure information relating to JRS, please see https://adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx? BRCHR_VRSN_ID=483878 and https://adviserinfo.sec.gov/Firm/292142 or visit our website at https://javatar.bluematrix.com/sellside/Disclosures.action, or www.jefferies.com, or call 1.888.JEFFERIES.",
+      "page": 10,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "7234fae43272a91d",
+      "name": "ABL Exit",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "085e0bc28eddcde5",
+      "name": "Aerospacelab Raises",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "12adfd11870c1ff9",
+      "name": "Alpha Launch",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f914e2cc4cac17b8",
+      "name": "Application Expansion",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c414fa0af1cfc1bb",
+      "name": "Atlantic Regional",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3d3099ccdbc21306",
+      "name": "Australia Cancellation",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d76b2a4949a73e9e",
+      "name": "CEO Departure",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7860a2554c61a53f",
+      "name": "Canadian Investment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c7d93cfae6568ae2",
+      "name": "Cap Raise",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8cce221cc0f14a79",
+      "name": "Cap Raises",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f40af061f8c5eb1c",
+      "name": "Cert Flights",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "969b68a218f6bc62",
+      "name": "China Mega",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7d2dc341051301cc",
+      "name": "Clean Catch",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "68c39787d57bde08",
+      "name": "Commercial SATCOM",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8bb7d9a681cb9e40",
+      "name": "Company Valuation",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "49c3abd89e7831f7",
+      "name": "Competitor Launches",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4b9be408e155a05b",
+      "name": "Coverage Suspended",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e9cd18ef1469e32c",
+      "name": "DFSA Reference",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6ba4b0a762d135f4",
+      "name": "Dealers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4caf8a8ec4f5a4d7",
+      "name": "Defense Electronics",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": "Rating and Price Target History for Redwire (RDW) as of 08-28-2025",
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "Oct 22",
+              "Jan 23",
+              "Apr 23",
+              "Jul 23",
+              "Oct 23",
+              "Jan 24",
+              "Apr 24",
+              "Jul 24",
+              "Oct 24",
+              "Jan 25",
+              "Apr 25",
+              "Jul 25"
+            ]
+          },
+          "y": {
+            "unit": "USD",
+            "range": {
+              "min": 0,
+              "max": 30
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Price",
+            "unit": "USD",
+            "values": [
+              {
+                "date": "2022-10-03",
+                "value": 2.5
+              },
+              {
+                "date": "2022-11-09",
+                "value": 2.5
+              },
+              {
+                "date": "2023-05-10",
+                "value": 3.5
+              },
+              {
+                "date": "2024-11-07",
+                "value": 10.5
+              },
+              {
+                "date": "2025-01-06",
+                "value": 25.0
+              },
+              {
+                "date": "2025-03-17",
+                "value": 15.0
+              },
+              {
+                "date": "2025-06-23",
+                "value": 20.0
+              },
+              {
+                "date": "2025-08-07",
+                "value": 9.0
+              }
+            ]
+          }
+        ],
+        "figure_id": "2ad5d1fc482c2770",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "line",
+        "title": "Rating and Price Target History for: Elbit Systems Ltd. (ESLT) as of 08-28-2025",
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "Oct 22",
+              "Jan 23",
+              "Apr 23",
+              "Jul 23",
+              "Oct 23",
+              "Jan 24",
+              "Apr 24",
+              "Jul 24",
+              "Oct 24",
+              "Jan 25",
+              "Apr 25",
+              "Jul 25"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": 150,
+              "max": 500
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Price Target",
+            "unit": "$",
+            "values": [
+              {
+                "date": "11/30/2022",
+                "value": 170.0
+              },
+              {
+                "date": "01/12/2023",
+                "value": 190.0
+              },
+              {
+                "date": "03/29/2023",
+                "value": 185.0
+              },
+              {
+                "date": "06/01/2023",
+                "value": 210.0
+              },
+              {
+                "date": "11/29/2023",
+                "value": 215.0
+              },
+              {
+                "date": "03/28/2024",
+                "value": 220.0
+              },
+              {
+                "date": "08/15/2024",
+                "value": 215.0
+              },
+              {
+                "date": "11/20/2024",
+                "value": 240.0
+              },
+              {
+                "date": "12/10/2024",
+                "value": 260.0
+              },
+              {
+                "date": "03/19/2025",
+                "value": 464.0
+              },
+              {
+                "date": "04/14/2025",
+                "value": 435.0
+              },
+              {
+                "date": "05/22/2025",
+                "value": 450.0
+              },
+              {
+                "date": "07/10/2025",
+                "value": 495.0
+              },
+              {
+                "date": "08/13/2025",
+                "value": 510.0
+              }
+            ]
+          }
+        ],
+        "figure_id": "1885033d75076acd",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "11f8bd6061d1628c",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "loss. Stocks having 120 day volatility in the bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "fc17a60fe53e64f2",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent a recommended portfolio of stocks and is not ",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "2fed2eceeb9ad131",
+        "value": 0.606,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>Count</td><td>Percent</td><td>Count</td><td>Percent</td></tr><tr><td>BUY</td><td>2107</td><td>60.60%</td><td>370</td><td>17.56%</td><td>118</td><td>5.60%</td></tr><tr><td>HOLD</td><td>1212</td><",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "cb2735e76dca6e01",
+        "value": 0.17559999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Count</td><td>Percent</td></tr><tr><td>BUY</td><td>2107</td><td>60.60%</td><td>370</td><td>17.56%</td><td>118</td><td>5.60%</td></tr><tr><td>HOLD</td><td>1212</td><td>34.86%</td><td>107</td><",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "00af6ce6e98bcb60",
+        "value": 0.055999999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ent</td></tr><tr><td>BUY</td><td>2107</td><td>60.60%</td><td>370</td><td>17.56%</td><td>118</td><td>5.60%</td></tr><tr><td>HOLD</td><td>1212</td><td>34.86%</td><td>107</td><td>8.83%</td><td>22</td><td",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "4eac3e6961848471",
+        "value": 0.3486,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "60%</td><td>370</td><td>17.56%</td><td>118</td><td>5.60%</td></tr><tr><td>HOLD</td><td>1212</td><td>34.86%</td><td>107</td><td>8.83%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>158<",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "c9a83ff20c114f0e",
+        "value": 0.0883,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "56%</td><td>118</td><td>5.60%</td></tr><tr><td>HOLD</td><td>1212</td><td>34.86%</td><td>107</td><td>8.83%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "f425903e704af839",
+        "value": 0.0182,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".60%</td></tr><tr><td>HOLD</td><td>1212</td><td>34.86%</td><td>107</td><td>8.83%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "f593834f755f1b6e",
+        "value": 0.0454,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>107</td><td>8.83%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td><td>1.90%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "830cf4c34fc1279d",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td><td>1.90%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "4d141fb64e68ae86",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td><td>1.90%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 2,
+      "tables_count": 0,
+      "numerical_data_count": 11,
+      "passages_count": 67,
+      "entities_count": 20
+    }
+  }
+}

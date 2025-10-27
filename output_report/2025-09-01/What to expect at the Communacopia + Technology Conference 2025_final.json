@@ -1,0 +1,923 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "a74b31d2c8fc04606c481d8aa45fd4c3",
+    "title": "What to expect at the Communacopia + Technology Conference 2025",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/GS/What to expect at the Communacopia + Technology Conference 2025_2025-09-01",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:01:53.265433",
+      "extracted_at": "2025-10-26T12:01:53.265452"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 13,
+        "successful_pages": 13,
+        "date": "2025-09-01",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/GS",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.06223148027600578
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/GS"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "7e29fb99b238f6f0",
+      "text": "The Goldman Sachs Communacopia and Technology Conference will take place in San Francisco from September 8- 11, and we look forward to participation from 29 global companies across Digital/AI Semis, EDA Software, Analog, SemiCap Equipment, and Memory/Storage. We present our views on the top debates in the Semis landscape as we see them heading into the conference:",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "305d423b7e35ad70",
+      "text": "Key Debate #1 - AI - Applications, Returns, and Competition: We expect companies to discuss the evolving AI landscape with respect to infrastructure spending and CapEx trends, emerging use cases, ROI metrics, and competition - including custom silicon. We expect companies to strike a broadly positive tone on AI spending, with more debate on competitive trends.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3ae1eec97ff437c7",
+      "text": "Key Debate #2 - Can EDA Software Accelerate Its Growth Trajectory? We expect EDA Software providers to address whether or not they can leverage the trend of more custom silicon designs to drive accelerating growth for the industry. Expect key points of debate to be tied to customer R&D spending trends, the increasing use of IP libraries, and the ability to monetize AI toolsets to drive pricing uplift.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0cc45958b90415b4",
+      "text": "Key Debate #3 - Are We Entering an Analog Upturn, or Another False Start? We expect analog companies to address the ongoing investor debate over whether the industry is entering a true cyclical upturn, or simply another false start as end demand levels remain uneven.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "aade0d10c7065dae",
+      "text": "Key Debate #4 - Will WFE Trend Up, Down, or Sideways in 2026? We expect companies to provide further context to whether next year will be a growth year for the industry - with key debate points being the direction of spending in China, the magnitude of the downturn in trailing- edge spending, and relative market share positions among vendors.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "21ef848aee143dd9",
+      "text": "Key Debate #5 - Storage: How Long Can Tailwinds Persist? We expect companies to speak to demand and pricing trends across the memory and HDD sectors - with a likely focus on industry supply- side prudence as companies limit supply additions to drive higher pricing and margins.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f93d1415157bdd2a",
+      "text": "Goldman Sachs does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. For Reg AC certification and other important disclosures, see the Disclosure Appendix, or go to www.gs.com/research/hedge.html. Analysts employed by non- US affiliates are not registered/qualified as research analysts with FINRA in the U.S.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "332e0a0236f5a334",
+      "text": "Key Debate #1 - Al - Applications, Returns, and CompetitionBased on our conversations with investors, we believe the major points of investor debate for Digital and AI- related Semiconductors are: (1) How much more upside is there to AI spending in 2026? (2) What is the direction of travel for AI spending in 2027? (3) Framing the market opportunity from non- traditional customers such as sovereigns and AI startups; (4) Quantifying the returns and economic rationale for AI spending; (5) Competitive trends between merchant and custom silicon vendors.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "01e30cd46b556864",
+      "text": "We expect companies to strike a bullish tone on Al opportunities in both the near term and long run. In the near term, we expect companies to point to a robust hyperscale spending environment, plus emerging opportunities from non- traditional customers (such as sovereigns) and physical Al/robotics. Relative to returns, we expect companies to highlight examples of corporate productivity gains. We also expect intensifying debate over competition between merchant and custom silicon solutions.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "324331b6a620aa05",
+      "text": "Nvidia: We expect an overall bullish tone on Al from Nvidia, with the company likely to highlight its ongoing Blackwell ramp, and its Rubin platform in mid- 2026. We also expect the company to address competitive dynamics and highlight its full- stack software solution and lead with CUDA relative to custom silicon vendors.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "13cdc3bc74dc4654",
+      "text": "Broadcom: We expect Broadcom to remain positive on the Al opportunity, and highlight its leadership in Al networking and custom XPUs. We expect management to address the \"merchant vs. custom\" debate and the customer adoption trends, with commentary on incremental custom silicon engagements.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "754c6ae1ffdd41df",
+      "text": "AMD: We expect AMD to address its growing Datacenter presence and how it tends to close the performance gap vs. Nvidia in 2026 and beyond. We also expect AMD to discuss share gains in Server CPUs and ongoing strength in PCs.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "85060cc359b02e4c",
+      "text": "ARM: We expect ARM to highlight its growing presence in the Datacenter with ARM- based CPUs, and reiterate its target of \\(50\\%\\) share by end of 2025 while highlighting strength in CSS offerings across various markets.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e7e76f897407b4d8",
+      "text": "What we think:Recent 2Q results from hyperscalers and Nvidia point to a robust spending environment at traditional and new customers sustaining at least into 2026. However, visibility on the sustainability of spending in 2027 is lower, and we expect this to be an increasing focus of investor debate. In terms of competition, we believe merchant solutions remain the de facto standard in the near term - but we expect ASIC solutions to drive increasing cost- effective solutions in 2027 and beyond.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "57910258657aba0d",
+      "text": "Based on our investor conversions, we believe the major debate points on the EDA group are: (1) the sustainability of EDA and IP revenue momentum; (2) the long term implications of Synopsys' acquisition of Ansys on competitive trends; (3) the potential legacy term impacts from prior US exports controls, and competition from local vendors.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "ee7be37465112ee9",
+      "text": "What we think the companies will say:",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8757847ed9140a2c",
+      "text": "We expect Cadence and Synopsys to strike a bullish tone regarding their long- term outlooks for both the EDA and IP markets, fueled by robust demand for more custom chip design across a broader range of customers (who have a greater need for IP) and the diffusing necessity of EDA. Notably, Synopsys is scheduled to report FY3Q earnings on the second day of the conference, likely providing updated synergy/accretion targets surrounding their acquisition of Ansys (see link for our preview and link for our accretion note) — and we would expect further details on strategic and financial targets to be addressed at the conference. Finally, we expect both companies to provide additional commentary on the China market post the export control measures instituted in May, which were later removed in July.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "abdff33f4020fe87",
+      "text": "We expect management teams to share multiple datapoints that support a bullish outlook for both the core EDA software and IP markets, which will include delineating AI- driven content and pricing tailwinds, as well as demand strength across regions, including China. We remain bullish on both Cadence and Synopsys, as we view them as two of the top quality compounders within our coverage, with exposure to multiple industry themes (e.g. growing base of customers, accelerating IP demand, the potential for price accretion from AI features).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "36e4e0b7ed913d78",
+      "text": "Based on our conversations with investors, we believe the major debate points on the analog group are: (1) Has the industry simply troughed (with fundamentals bouncing along the bottom), or has an actual upturn begun? (2) If we are in an upturn, what is the rate of recovery and how much upside to Street estimates remains? (3) Are the analog stocks already fully pricing in a recovery?",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a752785cf4f09508",
+      "text": "We expect companies to strike a similar tone relative to 2Q earnings calls, but with some level of nuance regarding real- time order and backlog metrics. Specifically, we expect management teams to communicate that demand in most end markets — with the exception of automotive — is exhibiting signs of recovery, with lower levels of customer/distributor inventory giving way to increasing order activity and backlog levels. We expect Texas Instruments to reiterate that the industrial and consumer- facing markets continue to recover at a solid pace; we expect incremental color regarding its view on China, where it struck a more guarded tone on its earnings call. We expect Microchip to provide additional datapoints on its bookings momentum, backlog levels, and product lead times - and to strike a relatively bullish tone overall.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ef00ee5f7953bf52",
+      "text": "We expect selectively positive commentary from some analog companies on demand improvement to gradually broaden to more companies with more universally positive end market commentary over time. We remain bullish on the group as we believe the analog sector is in a state of supply- driven cyclical recovery, and believe there is ample room for Street estimates to move higher over the next 4- 6 quarters on supply side dynamics alone.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "0ccf6c4b4b65eb7b",
+      "text": "Exhibit 1: Analog units are \\(\\sim 10\\%\\) below historical trendline as of June Analog unit shipments (3-month rolling average)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b79d78bde13c4f1d",
+      "text": "Source: SIA, Goldman Sachs Global Investment Research",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "16954825b6621121",
+      "text": "Based on our conversations with investors, we believe the major points of debate on 2026 WFE are: (1) What is the direction of travel with respect to Global WFE spending in 2026? (2) What is the outlook for China given heightened investment levels over the past few years? (3) What is relative trajectory of key demand drivers including DRAM, NAND, leading- edge Foundry/Logic, and trailing- edge logic?",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a87f5d961ff5e75c",
+      "text": "We expect companies to strike a cautiously optimistic tone on WFE growth in 2026, as there remains uncertainty regarding the short- term outlook for China (recent US export controls) and select logic customers. We also believe there will be a focus on the continued strength of AI- related investments as hyperscalers scale their AI infrastructure buildouts. We expect more attention on idiosyncratic growth drivers including HBM DRAM, Advanced Packaging, and Gate- All- Around (GAA) given their potential for growth relative to a muted spending environment.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "19cd61a65519e5ae",
+      "text": "Applied Materials: We expect management to clarify its near- term cautious commentary regarding China demand, as well as the pace of leading- edge Foundry/Logic WFE spending in 2026.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "12ca65fba9c4d755",
+      "text": "Lam Research: Management may provide an update regarding the company's outlook for the direction of WFE growth in 2026, and speak to Lam's ability to outgrow the market.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f4c1d1a9117e431b",
+      "text": "KLA: We expect KLA to reiterate its view of industry WFE growth in 2026, and to provide an update on specific drivers of performance such as Advanced Packaging.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "e98cc0bddbd31f6d",
+      "text": "Teradyne: We expect Teradyne to speak to its VIP TAM opportunity in 2026, and to potentially discuss its traction with new customers.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8402cb1f8896638f",
+      "text": "Entegris: Although management is not presenting at the conference, in investor meetings we expect Entegris to focus on the potential for growth and margin improvement in 2026.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "fec07f94c0e67596",
+      "text": "We continue to believe that muted WFE growth will materialize for the industry in 2026, as investments in leading- edge foundry and potential growth in China are offset by leading- edge logic and broader trailing- edge declines. We expect exposure to growth verticals such as etch and deposition (given their role in scaling 3D structures) will be crucial to outgrow the market in the medium term. With this in mind, we still believe next year will be seen as a \"node transition\" year, given the continued ramp of 2 nm at TSMC and the inclusion of Molybdenum as a solid precursor in 3D NAND. At a high level, we believe that the overall WFE industry will remain in a mid- cycle state, categorized by continued spending on AI (including HBM) and further normalization in trailing- edge spending.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "560d2750de3e590d",
+      "text": "Exhibit 2: 2025-27 WFE is driven by NAND/HBM/leading-edge Foundry",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9f5e114fda1a8dc1",
+      "text": "Source: Company data, Goldman Sachs Global Investment Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "4ccd5cf047d9d471",
+      "text": "Based on our conversations with investors, we believe the major points of debate on the sustainability of NAND and HDD growth are: (1) What is the level of industry- wide supply- side prudence that can be maintained going forward?; (2) What should be expected relative to qualification and production ramp of higher capacity drives (e.g. HAMR, eSSD)?",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "6639b10f60947686",
+      "text": "We expect companies to maintain a positive tone on the sustainability of pricing growth going forward. Additionally, we believe HDD suppliers will be focused on expressing the view that gross margins have room to grow from current levels, as cost efficiency continues to scale with higher- capacity drives. On the NAND side, we believe SanDisk will look to detail the extent of industry undersupply for the balance of the year. Lastly, we believe there is a chance the companies provide updates on technology qualification progress, as hyperscale customers continue to prioritize AI infrastructure builds, including storage.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c0da48fe4249b259",
+      "text": "Seagate: Management could offer up additional commentary on the status of its HAMR qualification with both its lead CSP customer, as well as with other key accounts.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "6394d2d607124cda",
+      "text": "Western Digital: We expect management to provide more details on the company's qualification progress for both its ePMP and UltraSMP platforms.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ef94d844010ead3c",
+      "text": "SanDisk: We believe management will continue to emphasize its view of an under- supplied environment in the NAND industry and favorable setup for pricing in 2H25.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "148838819ebc1446",
+      "text": "Although we have seen several consecutive quarters of HDD inventory restocking, we believe there is still a case for continued positive momentum in the industry, particularly given the capacity that was permanently taken out of the system during the last downturn. In a duopoly market, we see Seagate gaining share in the Nearline market (off a local low) as the company ramps HAMR at its key CSP customers. In NAND, we remain positive on the industry's through- cycle growth trajectory and expect margins for SanDisk to increase materially as under- utilization and startup costs fade. At a high level, we believe that both the HDD and NAND markets can continue to outperform, driven by prudent supply- side discipline.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "60bb513f22b1fd9a",
+      "text": "Exhibit 3: Nearline exabytes have grown in the low-20% range over the last several years, and have eclipsed prior peak levels",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "5634c29d8652437a",
+      "text": "We, James Schneider, Ph.D., Anmol Makkar, Chris Kress, David Balaban and Luya You, hereby certify that all of the views expressed in this report accurately reflect our personal views about the subject company or companies and its or their securities. We also certify that no part of our compensation was, or will be, directly or indirectly, related to the specific recommendations or views expressed in this report.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "f8f24b19429f7ea3",
+      "text": "Unless otherwise stated, the individuals listed on the cover page of this report are analysts in Goldman Sachs' Global Investment Research division.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "e729acc171384ee4",
+      "text": "The Goldman Sachs Factor Profile provides investment context for a stock by comparing key attributes to the market (i.e. our universe of rated stocks) and its sector peers. The four key attributes depicted are: Growth, Financial Returns, Multiple (e.g. valuation) and Integrated (a composite of Growth, Financial Returns and Multiple). Growth, Financial Returns and Multiple are calculated by using normalized ranks for specific metrics for each stock. The normalized ranks for the metrics are then averaged and converted into percentiles for the relevant attribute. The precise calculation of each metric may vary depending on the fiscal year, industry and region, but the standard approach is as follows:",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "4c2e0a4c30564006",
+      "text": "Growth is based on a stock's forward- looking sales growth, EBITDA growth and EPS growth (for financial stocks, only EPS and sales growth), with a higher percentile indicating a higher growth company. Financial Returns is based on a stock's forward- looking ROE, ROCE and CROCI (for financial stocks, only ROE), with a higher percentile indicating a company with higher financial returns. Multiple is based on a stock's forward- looking P/E, P/B, price/dividend (P/D), EV/EBITDA, EV/FCF and EV/Debt Adjusted Cash Flow (DACF) (for financial stocks, only P/E, P/B and P/D), with a higher percentile indicating a stock trading at a higher multiple. The Integrated percentile is calculated as the average of the Growth percentile, Financial Returns percentile and (100% - Multiple percentile).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "e6bead8f6ad3b038",
+      "text": "Financial Returns and Multiple use the Goldman Sachs analyst forecasts at the fiscal year- end at least three quarters in the future. Growth uses inputs for the fiscal year at least seven quarters in the future compared with the year at least three quarters in the future (on a per- share basis for all metrics).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "936667039957550f",
+      "text": "For a more detailed description of how we calculate the GS Factor Profile, please contact your GS representative.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "064dff4ea56b7052",
+      "text": "Across our global coverage, we examine stocks using an M&A framework, considering both qualitative factors and quantitative factors (which may vary across sectors and regions) to incorporate the potential that certain companies could be acquired. We then assign a M&A rank as a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines we incorporate an M&A component into our target price. M&A rank of 3 is considered immaterial and therefore does not factor into our price target, and may or may not be discussed in research.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "03b07af2ae1d0bd6",
+      "text": "Quantum is Goldman Sachs' proprietary database providing access to detailed financial statement histories, forecasts and ratios. It can be used for in- depth analysis of a single company, or to make comparisons between companies in different sectors and markets.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "43be970660c0721d",
+      "text": "ARM Holdings (Neutral, \\(\\) 142.55\\(, Advanced Micro Devices Inc. (Neutral,\\) \\ \\(168.58\\) , Applied Materials Inc. (Buy, \\(\\) 165.27\\(, Broadcom Inc. (Buy,\\) \\ \\(308.65\\) , Cadence Design Systems Inc. (Buy, \\(\\) 354.29\\(, Entegris Inc. (Neutral,\\) \\ \\(83.86\\) , KLA Corp. (Neutral, \\(\\) 894.00\\(, Lam Research Corp. (Buy,\\) \\ \\(104.09\\) , Microchip Technology Inc. (Buy, \\(\\) 65.25\\(, Nvidia Corp. (Buy,\\) \\ \\(180.17\\) , SanDisk Corp. (Buy, \\(\\) 50.87\\(, Seagate Technology (Buy,\\) \\ \\(172.38\\) , Synopsys Inc. (Buy, \\(\\) 612.17\\(, Teradyne Inc. (Sell,\\) \\ \\(117.89\\) , Texas Instruments Inc. (Buy, \\(\\) 204.09\\( and Western Digital Corp. (Neutral,\\) \\ \\(82.04\\)",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "40b420904c9e7ed8",
+      "text": "See company- specific regulatory disclosures above for any of the following disclosures required as to companies referred to in this report: manager or co- manager in a pending transaction; \\(1\\%\\) or other ownership; compensation for certain services; types of client relationships; managed/co- managed public offerings in prior periods; directorships; for equity securities, market making and/or specialist role. Goldman Sachs trades or may trade as a principal in debt securities (or in related derivatives) of issuers discussed in this report.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "cbe9ddc36c119176",
+      "text": "The following are additional required disclosures: Ownership and material conflicts of interest: Goldman Sachs policy prohibits its analysts, professionals reporting to analysts and members of their households from owning securities of any company in the analyst's area of coverage. Analyst compensation: Analysts are paid in part based on the profitability of Goldman Sachs, which includes investment banking revenues. Analyst as officer or director: Goldman Sachs policy generally prohibits its analysts, persons reporting to analysts or members of their households from serving as an officer, director or advisor of any company in the analyst's area of coverage. Non- U.S. Analysts: Non- U.S. analysts may not be associated persons of Goldman Sachs & Co. LLC and therefore may not be subject to FINRA Rule 2241 or FINRA Rule 2242 restrictions on",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "1422c96f4e1f7680",
+      "text": "communications with subject company, public appearances and trading securities held by the analysts.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "4c095c96856cb984",
+      "text": "Distributio f rts: e th disution f rts dislse above. Price chart: Se the price chart, with changes of ratings and price targets in prior periods, above, or, if electronic format or if with respect to multiple companies which are the subject of this report, on the Goldman Sachs website at https://www.gs.com/research/hedge.html.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "7e89e77625436059",
+      "text": "The following disclosures are those required by the jurisdiction indicated, except to the extent already made above pursuant to United States laws and regulations. Australia: Goldman Sachs Australia Pty Ltd and its affiliates are not authorised deposit- taking institutions (as that term is defined in the Banking Act 1959 (Cth) in Australia and do not provide banking services, nor carry on a banking business, in Australia. This research, and any access to it, is intended only for \"wholesale clients\" within the meaning of the Australian Corporations Act, unless otherwise agreed by Goldman Sachs. In producing research reports, members of Global Investment Research of Goldman Sachs Australia may attend site visits and other meetings hosted by the companies and other entities which are the subject of its research reports. In some instances the costs of such site visits or meetings may be met in part or in whole by the issuers concerned if Goldman Sachs Australia considers it is appropriate and reasonable in the specific circumstances relating to the site visit or meeting. To the extent that the contents of this document contains any financial product advice, it is general advice only and has been prepared by Goldman Sachs without taking into account a client's objectives, financial situation and needs. A client should, before acting on any such advice, consider the appropriateness of the advice having regard to the client's own objectives, financial situation and needs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests and a copy of Goldman Sachs' Australian Sell- Side Research Independence Policy Statement are available at: https://www.goldmansachs.com/disclosures/australia- new- zealand/index.html. Brazil: Disclosure information in relation to CVM Resolution n. 20 is available at https://www.gs.com/worldwide/brazil/area/gr/index.html. Where applicable, the Brazil- registered analyst primarily responsible for the content of this research report, as defined in Article 20 of CVM Resolution n. 20, is the first author named at the beginning of this report, unless indicated otherwise at the end of the text. Canada: This information is being provided to you for information purposes only and is not, and under no circumstances should be construed as, an advertisement, offering or solicitation by Goldman Sachs & Co. LLC for purchasers of securities in Canada to trade in any Canadian security. Goldman Sachs & Co. LLC is not registered as a dealer in any jurisdiction in Canada under applicable Canadian securities laws and generally is not permitted to trade in Canadian securities and may be prohibited from selling certain securities and products in certain jurisdictions in Canada. If you wish to trade in any Canadian securities or other products in Canada please contact Goldman Sachs Canada Inc., an affiliate of The Goldman Sachs Group Inc., or another registered Canadian dealer. Hong Kong: Further information on the securities of covered companies referred to in this research may be obtained on request from Goldman Sachs (Asia) L.L.C. India: Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (India) Securities Private Limited, Research Analyst - SEBI Registration Number INH000001493, 951- A, Rational House, Appasahbe Marathe Marg, Prabhadevi, Mumbai 400 025, India, Corporate Identity Number U74140MH2006FTC160634, Phone +91 22 6616 9000, Fax +91 22 6616 9001. Goldman Sachs may beneficially own \\(1\\%\\) or more of the securities (as such term is defined in clause 2 (h) the Indian Securities Contracts (Regulation) Act, 1956) of the subject company or companies referred to in this research report. Investment in securities market are subject to market risks. Read all the related documents carefully before investing. Registration granted by SEBI and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Goldman Sachs (India) Securities Private Limited compliance officer and investor grievance contact details can be found at this link: https://publishing.gs.com/disclosures/hedge.html - /general/equity. Japan: See below. Korea: This research, and any access to it, is intended only for \"professional investors\" within the meaning of the Financial Services and Capital Markets Act, unless otherwise agreed by Goldman Sachs. Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (Asia) L.L.C., Seoul Branch. New Zealand: Goldman Sachs New Zealand Limited and its affiliates are neither \"registered banks\" nor \"deposit takers\" (as defined in the Reserve Bank of New Zealand Act 1989) in New Zealand. This research, and any access to it, is intended for \"wholesale clients\" (as defined in the Financial Advisers Act 2008) unless otherwise agreed by Goldman Sachs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests is available at: https://www.goldmansachs.com/disclosures/australia- new- zealand/index.html. Russia: Research reports distributed in the Russian Federation are not advertising as defined in the Russian legislation, but are information and analysis not having product promotion as their main purpose and do not provide appraisal within the meaning of the Russian legislation on appraisal activity. Research reports do not constitute a personalized investment recommendation as defined in Russian laws and regulations, are not addressed to a specific client, and are prepared without analyzing the financial circumstances, investment profiles or risk profiles of clients. Goldman Sachs assumes no responsibility for any investment decisions that may be taken by a client or any other person based on this research report. Singapore: Goldman Sachs (Singapore) Pte. (Company Number: 198602165W), which is regulated by the Monetary Authority of Singapore, accepts legal responsibility for this research, and should be contacted with respect to any matters arising from, or in connection with, this research. Taiwan: This material is for reference only and must not be reprinted without permission. Investors should carefully consider their own investment risk. Investment results are the responsibility of the individual investor. United Kingdom: Persons who would be categorized as retail clients in the United Kingdom, as such term is defined in the rules of the Financial Conduct Authority, should read this research in conjunction with prior Goldman Sachs research on the covered companies referred to herein and should refer to the risk warnings that have been sent to them by Goldman Sachs International. A copy of these risks warnings, and a glossary of certain financial terms used in this report, are available from Goldman Sachs International on request.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "e1768596fcf837ab",
+      "text": "European Union and United Kingdom: Disclosure information in relation to Article 6 (2) of the European Commission Delegated Regulation (EU) (2016/958) supplementing Regulation (EU) No 596/2014 of the European Parliament and of the Council (including as that Delegated Regulation is implemented into United Kingdom domestic law and regulation following the United Kingdom's departure from the European Union and the European Economic Area) with regard to regulatory technical standards for the technical arrangements for objective presentation of investment recommendations or other information recommending or suggesting an investment strategy and for disclosure of particular interests or indications of conflicts of interest is available at https://www.gs.com/disclosures/europeanpolicy.html which states the European Policy for Managing Conflicts of Interest in Connection with Investment Research.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "2c041c7e97c7696e",
+      "text": "Japan: Goldman Sachs Japan Co., Ltd. is a Financial Instrument Dealer registered with the Kanto Financial Bureau under registration number Kinsho 69, and a member of Japan Securities Dealers Association, Financial Futures Association of Japan Type II Financial Instruments Firms Association, The Investment Trusts Association, Japan, and Japan Investment Advisers Association. Sales and purchase of equities are subject to commission pre- determined with clients plus consumption tax. See company- specific disclosures as to any applicable disclosures required by Japanese stock exchanges, the Japanese Securities Dealers Association or the Japanese Securities Finance Company.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "0b6ffb82374af0a7",
+      "text": "Buy (B), Neutral (N), Sell (S) Analysts recommend stocks as Buys or Sells for inclusion on various regional Investment Lists. Being assigned a Buy or Sell on an Investment List is determined by a stock's total return potential relative to its coverage universe. Any stock not assigned as a Buy or a Sell on an Investment List with an active rating (i.e., a stock that is not Rating Suspended, Not Rated, Early- Stage Biotech, Coverage Suspended or Not Covered), is deemed Neutral. Each region manages Regional Conviction Lists, which are selected from Buy rated stocks on the respective region's Investment Lists and represent investment recommendations focused on the size of the total return potential and/or the likelihood of the realization of the return across their respective areas of coverage. The addition or removal of stocks from such Conviction Lists are managed by the Investment Review Committee or other designated committee in each respective region and do not represent a change in the analysts' investment rating for such stocks.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "cebe48380a395bd0",
+      "text": "Total return potential represents the upside or downside differential between the current share price and the price target, including all paid or",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "1ea0c6eb07783a5a",
+      "text": "anticipated dividends, expected during the time horizon associated with the price target. Price targets are required for all covered stocks. The total return potential, price target and associated time horizon are stated in each report adding or reiterating an Investment List membership.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "c3930837f02a5301",
+      "text": "Coverage Universe: A list of all stocks in each coverage universe is available by primary analyst, stock and coverage universe at https://www.gs.com/research/hedge.html.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "abad1e70dbec0980",
+      "text": "Not Rated (NR). The investment rating, target price and earnings estimates (where relevant) are removed pursuant to Goldman Sachs policy when Goldman Sachs is acting in an advisory capacity in a merger or in a strategic transaction involving this company, when there are legal, regulatory or policy constraints due to Goldman Sachs' involvement in a transaction, and in certain other circumstances. Early- Stage Biotech (ES). An investment rating and a target price are not assigned pursuant to Goldman Sachs policy when this company neither has a drug, treatment or medical device that has passed a Phase II clinical trial nor a license to distribute a post- Phase II drug, treatment or medical device. Rating Suspended (RS). Goldman Sachs Research has suspended the investment rating and price target for this stock, because there is not a sufficient fundamental basis for determining an investment rating or target price. The previous investment rating and target price, if any, are no longer in effect for this stock and should not be relied upon. Coverage Suspended (CS). Goldman Sachs has suspended coverage of this company. Not Covered (NC). Goldman Sachs does not cover this company.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "a84260fa180b2686",
+      "text": "Goldman Sachs International (\"GSI\"), authorised by the Prudential Regulation Authority (\"PRA\") and regulated by the Financial Conduct Authority (\"FCA\") and the PRA, has approved this research in connection with its distribution in the United Kingdom.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "7c95fcf392b4ea67",
+      "text": "European Economic Area: GSI, authorised by the PRA and regulated by the FCA and the PRA, disseminates research in the following jurisdictions within the European Economic Area: the Grand Duchy of Luxembourg, Italy, the Kingdom of Belgium, the Kingdom of Denmark, the Kingdom of Norway, the Republic of Finland and the Republic of Ireland; GSI - Succursale de Paris (Paris branch) which is authorised by the French Autorite de controle prudentiel et de resolution (\"ACPR\") and regulated by the Autorite de controle prudentiel et de resolution and the Autorite des marches financiers (\"AMF\") disseminates research in France; GSI - Succursal en Espana (Madrid branch) authorized in Spain by the Comision Nacional del Mercado de Valores disseminates research in the Kingdom of Spain; GSI - Sweden Banklial (Stockholm branch) is authorized by the SFSA as a \"third country branch\" in accordance with Chapter 4, Section 4 of the Swedish Securities and Market Act (Sw. lag (2007:528) om vardepappersmarknaden) disseminates research in the Kingdom of Sweden; Goldman Sachs Bank Europe SE (\"GSBE\") is a credit institution incorporated in Germany and, within the Single Supervisory Mechanism, subject to direct prudential supervision by the European Central Bank and in other respects supervised by German Federal Financial Supervisory Authority (Bundesanstalt fur Finanzdienstleistungsaufsicht, BaFin) and Deutsche Bundesbank and disseminates research in the Federal Republic of Germany and those jurisdictions within the European Economic Area where GSI is not authorised to disseminate research and additionally, GSBE, Copenhagen Branch filial af GSBE, Tyskland, supervised by the Danish Financial Authority disseminates research in the Kingdom of Denmark; GSBE - Sucursal en Espana (Madrid branch) subject (to a limited extent) to local supervision by the Bank of Spain disseminates research in the Kingdom of Spain; GSBE - Succursale Italia (Milan branch) to the relevant applicable extent, subject to local supervision by the Bank of Italy (Banca d'Italia) and the Italian Companies and Exchange Commission (Commissione Nazionale per le Societa e la Borsa \"Consob\") disseminates research in Italy; GSBE - Succursale de Paris (Paris branch), supervised by the AMF and by the ACPR disseminates research in France; and GSBE - Sweden Banklial (Stockholm branch), to a limited extent, subject to local supervision by the Swedish Financial Supervisory Authority (Finansinspektionen) disseminates research in the Kingdom of Sweden.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "18317924faa85a2a",
+      "text": "This research is for our clients only. Other than disclosures relating to Goldman Sachs, this research is based on current public information that we consider reliable, but we do not represent it as accurate or complete, and it should not be relied on as such. The information, opinions, estimates and forecasts contained herein are as of the date hereof and are subject to change without prior notification. We seek to update our research as appropriate, but various regulations may prevent us from doing so. Other than certain industry reports published on a periodic basis, the large majority of reports are published at irregular intervals as appropriate in the analyst's judgment.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "c4fd5e6cae03517b",
+      "text": "Goldman Sachs conducts a global full- service, integrated investment banking, investment management, and brokerage business. We have investment banking and other business relationships with a substantial percentage of the companies covered by Global Investment Research. Goldman Sachs & Co. LLC, the United States broker dealer, is a member of SIPC (https://www.sipc.org).",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "f4d27dc3176052b3",
+      "text": "Our salespeople, traders, and other professionals may provide oral or written market commentary or trading strategies to our clients and principal trading desks that reflect opinions that are contrary to the opinions expressed in this research. Our asset management area, principal trading desks and investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "63fa420d097ffe16",
+      "text": "The analysts named in this report may have from time to time discussed with our clients, including Goldman Sachs salespersons and traders, or may discuss in this report, trading strategies that reference catalysts or events that may have a near- term impact on the market price of the equity securities discussed in this report, which impact may be directionally counter to the analyst's published price target expectations for such stocks. Any such trading strategies are distinct from and do not affect the analyst's fundamental equity rating for such stocks, which rating reflects a stock's return potential relative to its coverage universe as described herein.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "75e1d2f71fa4a03d",
+      "text": "We and our affiliates, officers, directors, and employees will from time to time have long or short positions in, act as principal in, and buy or sell, the securities or derivatives, if any, referred to in this research, unless otherwise prohibited by regulation or Goldman Sachs policy.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "6928a9e80820624f",
+      "text": "The views attributed to third party presenters at Goldman Sachs arranged conferences, including individuals from other parts of Goldman Sachs, do not necessarily reflect those of Global Investment Research and are not an official view of Goldman Sachs.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "674f85d435ecf408",
+      "text": "Any third party referenced herein, including any salespeople, traders and other professionals or members of their household, may have positions in the products mentioned that are inconsistent with the views expressed by analysts named in this report.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "d4de682f9142a055",
+      "text": "This research is not an offer to sell or the solicitation of an offer to buy any security in any jurisdiction where such an offer or solicitation would be illegal. It does not constitute a personal recommendation or take into account the particular investment objectives, financial situations, or needs of",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "7b4c8221e07e744a",
+      "text": "individual clients. Clients should consider whether any advice or recommendation in this research is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The price and value of investments referred to in this research and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "720c0f79eedfeb72",
+      "text": "Certain transactions, including those involving futures, options, and other derivatives, give rise to substantial risk and are not suitable for all investors. Investors should review current options and futures disclosure documents which are available from Goldman Sachs sales representatives or at https://www.theocc.com/about/publications/character- risks.jsp and https://www.goldmansachs.com/disclosures/cftc_fcm_disclosures. Transaction costs may be significant in option strategies calling for multiple purchase and sales of options such as spreads. Supporting documentation will be supplied upon request.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "017feb05ef82db94",
+      "text": "Differing Levels of Service provided by Global Investment Research: The level and types of services provided to you by Goldman Sachs Global Investment Research may vary as compared to that provided to internal and other external clients of GS, depending on various factors including your individual preferences as to the frequency and manner of receiving communication, your risk profile and investment focus and perspective (e.g., marketwide, sector specific, long term, short term), the size and scope of your overall client relationship with GS, and legal and regulatory constraints. As an example, certain clients may request to receive notifications when research on specific securities is published, and certain clients may request that specific data underlying analysts' fundamental analysis available on our internal client websites be delivered to them electronically through data feeds or otherwise. No change to an analyst's fundamental research views (e.g., ratings, price targets, or material changes to earnings estimates for equity securities), will be communicated to any client prior to inclusion of such information in a research report broadly disseminated through electronic publication to our internal client websites or through other means, as necessary, to all clients who are entitled to receive such reports.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "fd0c87d601d6a84e",
+      "text": "All research reports are disseminated and available to all clients simultaneously through electronic publication to our internal client websites. Not all research content is redistributed to our clients or available to third- party aggregators, nor is Goldman Sachs responsible for the redistribution of our research by third party aggregators. For research, models or other data related to one or more securities, markets or asset classes (including related services) that may be available to you, please contact your GS representative or go to https://research.gs.com.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "484fb9e9f6381690",
+      "text": "Disclosure information is also available at https://www.gs.com/research/hedge.html or from Research Compliance, 200 West Street, New York, NY 10282.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "d058cf8c38d0bfe4",
+      "text": "You are permitted to store, display, analyze, modify, reformat, and print the information made available to you via this service only for your own use. You may not resell or reverse engineer this information to calculate or develop any index for disclosure and/or marketing or create any other derivative works or commercial product(s), data or offerings without the express written consent of Goldman Sachs. You are not permitted to publish, transmit, or otherwise reproduce this information, in whole or in part, in any format to any third party without the express written consent of Goldman Sachs. This foregoing restriction includes, without limitation, using, extracting, downloading or retrieving this information, in whole or in part, to train or finetune a machine learning or artificial intelligence system, or to provide or reproduce this information, in whole or in part, as a prompt or input to any such system.",
+      "page": 12,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "5de035462d51a4c0",
+      "name": "AI Semis",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a16576aabf9e9e0a",
+      "name": "ARM Holdings",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c11dc453545d222e",
+      "name": "Advanced Micro",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e43bbd938f8697bd",
+      "name": "Advanced Micro Devices Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b97be582ca275d56",
+      "name": "Advanced Packaging",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b529dcfa79e034b8",
+      "name": "Analog Upturn",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "514514fe9eb7f3e0",
+      "name": "Anmol Makkar",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4206ee27e5f2e8bf",
+      "name": "Another False",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0b7770fe3c1b61c9",
+      "name": "Appasahbe Marathe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "75174b90c21a43a2",
+      "name": "Applied Materials",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "92503ee7f2bfd683",
+      "name": "Applied Materials Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9784c3cdc322b25c",
+      "name": "Are We",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6d4488d766412406",
+      "name": "Australia Pty",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facedae141187a9f",
+      "name": "Australian Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "37943b86af92d90f",
+      "name": "Australian Sell",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "10c4b9fb39db2245",
+      "name": "Bank Europe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "665d58562cca56d1",
+      "name": "Banking Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d2f19b6036537d6c",
+      "name": "Broadcom Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7cf340f0ce82f127",
+      "name": "CVM Resolution",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "waterfall",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2024 WFE",
+              "DRAM",
+              "NAND",
+              "Foundry",
+              "Logic/Other",
+              "2025E WFE",
+              "DRAM",
+              "NAND",
+              "Logic/Other",
+              "2026E WFE",
+              "DRAM",
+              "NAND",
+              "Foundry",
+              "2027E WFE"
+            ]
+          },
+          "y": {
+            "unit": "$bn",
+            "range": {
+              "min": 80,
+              "max": 120
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "WFE",
+            "unit": "$bn",
+            "values": [
+              101.2,
+              1.3,
+              3.3,
+              5.2,
+              -5.1,
+              105.9,
+              1.4,
+              2.0,
+              -1.4,
+              107.8,
+              1.5,
+              1.8,
+              4.0,
+              114.9
+            ]
+          }
+        ],
+        "figure_id": "22237ff30f169337",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1Q19",
+              "2Q19",
+              "3Q19",
+              "4Q19",
+              "1Q20",
+              "2Q20",
+              "3Q20",
+              "4Q20",
+              "1Q21",
+              "2Q21",
+              "3Q21",
+              "4Q21",
+              "1Q22",
+              "2Q22",
+              "3Q22",
+              "4Q22",
+              "1Q23",
+              "2Q23",
+              "3Q23",
+              "4Q23",
+              "1Q24",
+              "2Q24",
+              "3Q24",
+              "4Q24",
+              "1Q25",
+              "2Q25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 400000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Capacity Optimized Petabytes Shipped",
+            "unit": "Petabytes",
+            "values": [
+              90000,
+              100000,
+              145000,
+              138000,
+              170000,
+              165000,
+              150000,
+              150000,
+              185000,
+              245000,
+              240000,
+              250000,
+              245000,
+              255000,
+              220000,
+              180000,
+              150000,
+              130000,
+              120000,
+              155000,
+              195000,
+              240000,
+              280000,
+              300000,
+              320000,
+              340000
+            ]
+          },
+          {
+            "name": "25% EB CAGR",
+            "unit": null,
+            "values": [
+              90000,
+              95000,
+              100000,
+              105000,
+              110000,
+              118000,
+              125000,
+              132000,
+              140000,
+              150000,
+              160000,
+              170000,
+              180000,
+              190000,
+              200000,
+              215000,
+              230000,
+              245000,
+              260000,
+              275000,
+              290000,
+              310000,
+              330000,
+              350000,
+              370000,
+              390000
+            ]
+          },
+          {
+            "name": "20% EB CAGR",
+            "unit": null,
+            "values": [
+              90000,
+              93000,
+              96000,
+              99000,
+              102000,
+              106000,
+              110000,
+              114000,
+              118000,
+              122000,
+              127000,
+              132000,
+              137000,
+              142000,
+              148000,
+              153000,
+              159000,
+              165000,
+              172000,
+              178000,
+              185000,
+              192000,
+              200000,
+              208000,
+              216000,
+              224000
+            ]
+          }
+        ],
+        "figure_id": "7604dbb40e99a685",
+        "provenance": {
+          "page": 9
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "0bef688c03985c41",
+        "value": -0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "![Figure 8-0](images/8_0.jpg) <center>Exhibit 3: Nearline exabytes have grown in the low-20% range over the last several years, and have eclipsed prior peak levels </center> <center>Source:ID",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "bf6f5bf427641d2a",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "percentile is calculated as the average of the Growth percentile, Financial Returns percentile and (100% - Multiple percentile). Financial Returns and Multiple use the Goldman Sachs analyst forecasts ",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "1435a9dbd410a5ba",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ank as a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "060ec48fe079f819",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) pro",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "7cb21fc6abdf1109",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "g high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in ",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "d5d68f0e76e75b3e",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "h (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line ",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "6850783d48711964",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ecoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "8ae33ad89cf7ea4f",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ing an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines we ",
+        "provenance": {
+          "page": 9
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 2,
+      "tables_count": 0,
+      "numerical_data_count": 8,
+      "passages_count": 77,
+      "entities_count": 20
+    }
+  }
+}

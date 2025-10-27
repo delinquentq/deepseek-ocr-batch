@@ -37,10 +37,10 @@ def print_banner():
     """打印启动横幅"""
     banner = f"""
 {Colors.CYAN}{'='*80}
-{Colors.BOLD}                    DeepSeek OCR 批量处理系统 v2.0
+{Colors.BOLD}                    DeepSeek OCR 批量处理系统 v3.0
 {Colors.CYAN}{'='*80}
-{Colors.GREEN}🚀 基于 DeepSeek-OCR + OpenRouter 双模型的智能文档处理系统
-{Colors.BLUE}🎯 针对 RTX 3090 24G 显存优化
+{Colors.GREEN}🚀 基于 DeepSeek-OCR + Gemini 的智能文档处理系统
+{Colors.BLUE}🎯 针对 RTX 4090 24G 显存优化
 {Colors.YELLOW}📊 支持批量PDF处理并输出结构化JSON数据
 {Colors.CYAN}{'='*80}{Colors.RESET}
     """

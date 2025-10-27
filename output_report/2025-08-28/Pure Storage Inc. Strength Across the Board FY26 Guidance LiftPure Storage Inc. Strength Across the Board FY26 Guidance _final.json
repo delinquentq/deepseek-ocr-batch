@@ -1,0 +1,944 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "e2aa7eaed786af68f71d9296d5ca53d9",
+    "title": "Strength Across the Board, FY26 Guidance Lift",
+    "source_uri": "2025-08-28/Pure Storage Inc. Strength Across the Board FY26 Guidance LiftPure Storage Inc. Strength Across the Board FY26 Guidance _2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T06:01:11.426219",
+      "extracted_at": "2025-10-26T06:01:11.426232"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 10,
+        "successful_pages": 10,
+        "date": "2025-08-28",
+        "publication": "2025-08-28",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 9,
+          "removed_paragraphs": 32,
+          "reduction_ratio": 0.5768130765005588
+        },
+        "input_relative_path": "2025-08-28"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "59f4a4a8a27809ef",
+      "text": "Top- line, TCV, and margins all came in ahead of expectations with the META collaboration continuing on track. META initiated its first volume deployment with PSTG in the Q, and the company noted increased interest from other hyperscalers. FY top- line guidance lift with 2H GM acceleration expected.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c732c818fe2eb21f",
+      "text": "PSTG posted a solid Q on top- line, mix, TCV, and margins in the Q. Evergreen//One TCV came in at \\(\\) 125M\\(up 24\\% y / y\\) and \\(>30\\% q / q\\) with the velocity segment (deals \\(< 5M\\) ) driving the outperformance. Despite the strength in the Q, we note the metric can be variable and swing Q to Q. Management continues to expect growth of Evergreen//One this year. Product GMs came in ahead of expectations, up 400bps q/q with mix across hardware/software and products, as well as salesforce adjustments helping to drive the beat. We expect 2H acceleration in both product and services GMs.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "10f478115bd5ddd2",
+      "text": "Macro and secular demand trends both positive in the Q. META relationship is continuing as expected, and PSTG continues to assume deployment of 1- 2 exabytes of DirectFlash technology and potentially more by FY end. The company recognized revenue this past Q on the deployments that have begun, though we expect revenue this past Q and the remainder of 2H revenue to be de minimis. Recall, this deal is not expected to meaningfully contribute to revenue until FY27 (CY26), and will be licensing/support services (no hardware in sales) and will reside in the Products segment. Management highlighted an acceleration in interest from other hyperscalers, though no new wins were announced.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0c54d726955039df",
+      "text": "In light of the outperformance in the Q, as well as improving secular and macro demand trends heading into 2H, management raised FY top- line guidance from 11% to 14% at the midpoint. 17% OM still expected for the year, given the investments required for the META deal, though management called out the sales team's efficiency in holding value and discounting discipline this Q (which was part of the margin issue last Q). Management did not see any change in linearity in the Q, beyond higher volumes from demand strength.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ec5f3deaf8435a9a",
+      "text": "- The numbers. Revenue of \\(\\) 861M\\(beat our estimate by 2\\% (product driven), and EPS of\\) \\ \\(0.43\\) came in above our \\(\\) 0.35\\(estimate. GM of\\) 72.1\\% \\(came in above our estimate, with both product and Subscription Services margins coming in higher than expected. OM of\\) 15.1\\% \\(slightly ahead of our\\) 14.8\\% \\(expectations.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2ae07b557a7f7eca",
+      "text": "Please see analyst certifications and important disclosures beginning on page 4. Completed: 28- Aug- 25, 11:46 GMT Released: 28- Aug- 25, 11:47 GMT Restricted - External",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "41ccd336a53e5920",
+      "text": "PSTG EQUAL WEIGHT Unchanged IT Hardware and Communications NEUTRAL Equipment Unchanged Price Target USD 70.00 raised 23% from USD 57.00 Price (27- Aug- 25) USD 60.86 Potential Upside/Downside +15.0% Source: Bloomberg, Barclays Research",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a3505e4cb2754491",
+      "text": "Market Cap (USD mn) 19890 Shares Outstanding (mn) 326.83 Free Float (%) 94.61 52 Wk Avg Daily Volume (mn) 2.9 Dividend Yield (%) N/A Return on Equity TTM (%) 9.76 Current BVPS (USD) 3.81 Source: Bloomberg",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "00f35950378cb9fd",
+      "text": "Price Performance Exchange- NYSE 52 Week range USD 73.67- 34.51",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3a9ae83c13c73eaf",
+      "text": "Source: IDC Link to Barclays Live for interactive charting",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2203b8ea48174bd1",
+      "text": "- **Positives.** Product GM moved higher Q/Q, with customers moving towards higher end solutions. Additionally sales force management of pricing/discounting discipline also helped overall GM. Though management did not mention commodity costs being a driver in margin improvement, we expect moderation of QLC flash pricing to boost product GMs through the year. Evergreen//One TCV surprised to the upside this Q, driven by high velocity deals, and management continues to expect growth this year (though acknowledges TCV can be variable). Management continues to have conversations with hyperscalers, though nothing yet to announce. The META relationship is progressing as expected with management highlighting potential for more than 1-2 exabytes this year. Although the macro environment continues to be dynamic, management lifted FY top-line guidance on the strength in the Q and positive secular demand they are seeing. Notably, both US and International regions saw q/q and y/y strength in the quarter.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "f796eb89fd55045e",
+      "text": "- **Concerns.** Despite the outperformance in TCV in the Q, companies' preference between aaS and traditional sales can be variable with large deals swinging the metric from Q to Q as well. Revenue from the META deal this year is expected to be de minimis, though this has already been well telegraphed to the Street. Despite the GM outperformance the ~17% FY OM guidance was maintained.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4d2ce5d8b6dea94c",
+      "text": "**Estimates and rating.** We adjust our estimates for FY26-27 to account for the better than expected GM in the Q and strength in Evergreen//One, as well as the broader business. We move our PT to $70, from $57, based on 5.5x (up from 4.5x) our FY27 revenue estimate of $4.0Bn (up from $3.9Bn). We remain Equal Weight as we believe the increased valuation already reflects new opportunities in AI and with hyperscalers.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9bfb0e3022401483",
+      "text": "PSTG: Quarterly and Annual EPS (USD)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4b98afd54484a733",
+      "text": "FY Jan202520262027Change y/yActualOldNewConsOldNewCons20262027Q10.32A0.29A0.29A0.29A0.34E0.35E0.40E-9%21%Q20.44A0.35E0.43A0.39E0.43E0.46E0.52E-2%7%Q30.50A0.46E0.51E0.52E0.51E0.49E0.64E2%-4%Q40.45A0.58E0.56E0.60E0.55E0.56E0.71E24%0%Year1.70A1.68E1.79E1.81E1.83E1.86E2.28E5%4%P/E35.833.932.7",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "086fcefe767bea2a",
+      "text": "Consensus numbers are from Bloomberg received on 27-Aug-2025; 12:50 GMT",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9c6951fc54ea5dd6",
+      "text": "Source: Barclays Research",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9dc066ce63a85d08",
+      "text": "IT Hardware and Communications Equipment",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "684b9c89fa4d7575",
+      "text": "NEUTRALPure Storage, Inc. (PSTG)Income statement (US$mn)2025A2026E2027E2028ECAGREQUAL WEIGHTRevenue3,1683,6133,9914,30510.8%Price Target USD 70.00EBITDA (adj)68875888699813.2%EBIT (adj)61571881713.5%Pre-tax income (adj)62368677887712.1%Tax rate (%)712202044.7%Net income (adj)5816046237026.5%EPS (adj) (US$)1.701.791.862.117.4%Diluted shares (mn)342.7334.5335.0332.6-1.0%DPS (US$)0.000.000.000.00N/AMargin and return data2025A2026E2027E2028EAverageEBITDA (adj) margin (%)21.721.022.223.222.0EBIT (adj) margin (%)17.717.018.019.017.9Pre-tax (adj) margin (%)19.619.019.520.419.6Net (adj) margin (%)18.416.715.616.316.7Operating CF margin (%)23.824.217.615.820.4ROIC (%)-452.9-158.4-95.3-87.1-198.4ROA (%)13.212.913.013.813.2ROE (%)40.039.543.247.942.6Balance sheet and cash flow (US$mn)2025A2026E2027E2028ECAGRCash and equivalents1,5221,7101,9352,11411.6%Total assets3,9644,2064,4334,7346.1%Short and long-term debt100000-100.0%Other long-term liabilities2192682682686.9%Total liabilities2,6572,8373,1023,3708.2%Net debt/(funds)-1,422-1,710-1,935-2,114N/AShareholders&#x27; equity1,3061,3691,3321,3641.5%Change in working capital80214-20325-32.0%Cash flow from operations753874704681-3.3%Capital expenditure-227-273-279-301N/AFree cash flow526601424380-10.3%NOPAT5225415756547.7%",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "d788f0342623c52b",
+      "text": "Upside/Downside scenariosPrice HistoryPrior 12 monthsHighPrice TargetNext 12 monthsUpside85.0073.67Current60.8634.51LowDownside",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3c05346612dbb59c",
+      "text": "Note: FY End Jan Source: Company data, Bloomberg, Barclays Research",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9f8bf3efd2030905",
+      "text": "I, Tim Long, hereby certify (1) that the views expressed in this research report accurately reflect my personal views about any or all of the subject securities or issuers referred to in this research report and (2) no part of my compensation was, is or will be directly or indirectly related to the specific recommendations or views expressed in this research report.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "eea48d6b8f9086f1",
+      "text": "Pure Storage, Inc. (PSTG, 27- Aug- 2025, USD 60.86), Equal Weight/Neutral, CE/J/K/M",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "807b353b03ade98a",
+      "text": "Unless otherwise indicated, prices are sourced from Bloomberg and reflect the closing price in the relevant trading market, which may not be the last available closing price at the time of publication.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e7c0eb37df78b334",
+      "text": "P: A partner, director or officer of Barclays Capital Canada Inc. has, during the preceding 12 months, provided services to the subject company for remuneration, other than normal course investment advisory or trade execution services.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1c89e157eecafcce",
+      "text": "R: Barclays Capital Canada Inc. has received compensation for investment banking services from this issuer in the past 12 months.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6d0ba8bdc88196f2",
+      "text": "S: This issuer is a Corporate Broker to Barclays PLC.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "db8b641e6ec1e102",
+      "text": "U: The equity securities of this Canadian issuer include subordinate voting restricted shares.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "fe1114b4be11b9b6",
+      "text": "V: The equity securities of this Canadian issuer include non- voting restricted shares.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "a699a6ed2fb4649d",
+      "text": "Overweight - The stock is expected to outperform the unweighted expected total return of the industry coverage universe over a 12- month investment horizon.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "63fff6c2d1f144b2",
+      "text": "Equal Weight - The stock is expected to perform in line with the unweighted expected total return of the industry coverage universe over a 12- month investment horizon.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2a87d5928b036c2b",
+      "text": "Underweight - The stock is expected to underperform the unweighted expected total return of the industry coverage universe over a 12- month investment horizon.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2857c642bf302f3b",
+      "text": "Positive - industry coverage universe fundamentals/valuations are improving.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "a89a77a9bbff468b",
+      "text": "Neutral - industry coverage universe fundamentals/valuations are steady, neither improving nor deteriorating.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "671d1484a5c3d402",
+      "text": "Negative - industry coverage universe fundamentals/valuations are deteriorating.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "23797bbe02cb7e04",
+      "text": "Below is the list of companies that constitute the \"industry coverage universe\":",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "9c1c7be59ead6b1d",
+      "text": "Apple, Inc. (AAPL) CDW Corp. (CDW) Cisco Systems, Inc. (CSCO) Dell Technologies Inc. (DELL) Flex Ltd (FLEX)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ee0011d4c8023d36",
+      "text": "Arista Networks, Inc. (ANET) Celestica Inc. (CLS) Corning Incorporated (GLW) F5, Inc. (FFIV) Garmin (GRMN)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f5775e51558f3cae",
+      "text": "Axon Enterprise, Inc. (AXON) Ciena Corporation (CIEN) Corsair Gaming, Inc. (CRSR) Fabrinet (FN) Harmonic, Inc. (HLIT)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2ce8de56eac0894e",
+      "text": "Barclays | Pure Storage, Inc.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8d3d4925e9f19243",
+      "text": "Hewlett Packard Enterprise Company (HPE) Keysight Technologies, Inc. (KEYS) NetApp, Inc. (NTAP) Super Micro (SMCI) Zebra Technologies Corp. (ZBRA)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "2d914f443058957e",
+      "text": "HP Inc. (HPQ) Logitech (LOGI) Nutanix, Inc (NTNX) TD Synnex (SNX)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8bd0aeda647d4988",
+      "text": "Jabil (JBL) Motorola Solutions, Inc. (MSI) Pure Storage, Inc. (PSTG) Ubiquiti, Inc. (UI)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "96f9050a559adfcf",
+      "text": "In addition to any ratings assigned under Barclays' formal rating systems, this publication may contain investment recommendations in the form of trade ideas, thematic screens, scorecards or portfolio recommendations that have been produced by analysts within Equity Research. Any such investment recommendations shall remain open until they are subsequently amended, rebalanced or closed in a future research report.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a86ecbc282e47f56",
+      "text": "Barclays may also re- distribute equity research reports produced by third- party research providers that contain recommendations that differ from and/or conflict with those published by Barclays' Equity Research Department.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "07c3529b74e62646",
+      "text": "Barclays Equity Research may have published other investment recommendations in respect of the same securities/instruments recommended in this research report during the preceding 12 months. To view all investment recommendations published by Barclays Equity Research in the preceding 12 months please refer to https://live.barcap.com/go/research/Recommendations.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "ef0fb79ff03ef98c",
+      "text": "Stock Rating: EQUAL WEIGHTIndustry View: NEUTRALClosing Price: USD 60.86 (27-Aug-2025)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "2112219e10a678f6",
+      "text": "Rating and Price Target Chart - USD (as of 27-Aug-2025)Currency=USD",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "bf9079b815942257",
+      "text": "Source: IDC, Barclays Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "03d98991a2d5a438",
+      "text": "Link to Barclays Live for interactive charting",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "af95abd5a9e9f341",
+      "text": "Publication DateClosing Price*RatingAdjusted Price Target28-May-202555.1457.0003-Dec-202453.5461.0029-May-202463.0056.0021-May-202460.12Equal Weight28-Feb-202442.1251.0030-Aug-202336.4842.0031-May-202328.7938.0001-Mar-202328.7937.0031-Aug-202228.9742.00",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "a582adc8a855c79f",
+      "text": "On 28- Aug- 2022, prior to any intra- day change that may have been published, the rating for this security was Overweight, and the adjusted price target was 39.00.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "93ff89ebba39d51c",
+      "text": "Source: Bloomberg, Barclays Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "b6d3a63fd4068801",
+      "text": "\\*This is the closing price referenced in the publication, which may not be the last available closing price at the time of publication.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "a803ba9d88fa60c1",
+      "text": "Historical stock prices and price targets may have been adjusted for stock splits and dividends.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "15eb41cbc49e9a45",
+      "text": "Valuation Methodology: We rate PSTG Equal Weight with a price target of \\(\\) 70\\$ . Our price target assumes the stock trades at an EV/sales multiple of 5.5x our FY27e revenue estimate. This multiple represents a premium to the peer group of lower- growth, legacy peers.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "3195d542b4ce6f97",
+      "text": "Risks which May Impede the Achievement of the Barclays Research Valuation and Price Target: 1) Large enterprise. We like the investment in large enterprise, but the timing and sustainability of positive outcomes is uncertain. 2) Competition. Pure led AFA early, but others caught up. Next others will try to close the gap in AI and NVMe. 3) Valuation. We view valuation as attractive, but as EPS- based valuation becomes more important, Pure will have to demonstrate better operating leverage.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c78c7384bebfc7f2",
+      "text": "This material is distributed in Canada by Barclays Capital Canada Inc., a registered investment dealer, a Dealer Member of Canadian Investment Regulatory Organization (www.ciro.ca), and a Member of the Canadian Investor Protection Fund (CIPF).",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "8e49171869c238e5",
+      "text": "This communication is directed at persons who are a \"Wholesale Client\" as defined by the Australian Corporations Act 2001.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "a8190e0969efc37c",
+      "text": "Middle East: Nothing herein should be considered investment advice as defined in the Israeli Regulation of Investment Advisory, Investment Marketing and Portfolio Management Law, 1995 (\"Advisory Law\"). This document is being made to eligible clients (as defined under the Advisory Law) only. Barclays Israeli branch previously held an investment marketing license with the Israel Securities Authority but it cancelled such license on 30/11/2014",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "481c56aa4d7ef468",
+      "text": "as it solely provides its services to eligible clients pursuant to available exemptions under the Advisory Law, therefore a license with the Israel Securities Authority is not required. Accordingly, Barclays does not maintain an insurance coverage pursuant to the Advisory Law.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "d452e87f312d5083",
+      "text": "Russia: This material is not intended for investors who are not Qualified Investors according to the laws of the Russian Federation as it might contain information about or description of the features of financial instruments not admitted for public offering and/or circulation in the Russian Federation and thus not eligible for non- Qualified Investors. If you are not a Qualified Investor according to the laws of the Russian Federation, please dispose of any copy of this material in your possession.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "d16a6b15df7a3828",
+      "text": "Sustainable Investing Related Research: There is currently no globally accepted framework or definition (legal, regulatory or otherwise) of, nor market consensus as to what constitutes a 'sustainable', 'ESG', 'green', 'climate- friendly' or an equivalent company, investment, strategy or consideration or what precise attributes are required to be eligible to be categorised by such terms. This means there are different ways to evaluate a company or an investment and so different values may be placed on certain sustainability credentials as well as adverse ESG- related impacts of companies and ESG controversies. The evolving nature of sustainable investing considerations, models and methodologies means it can be challenging to definitively and universally classify a company or investment under a sustainable investing label and there may be areas where such companies and investments could improve or where adverse ESG- related impacts or ESG controversies exist. The evolving nature of sustainable finance related regulations and the development of jurisdiction- specific regulatory criteria also means that there is likely to be a degree of divergence as to the interpretation of such terms in the market. We expect industry guidance, market practice, and regulations in this field to continue to evolve.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "90e64d70df2c308b",
+      "text": "Any information, data, image, or other content including from a third party source contained, referred to herein or used for whatsoever purpose by Barclays or a third party (\"Information\"), in relation to any actual or potential 'ESG', 'sustainable' or equivalent objective, issue, factor or consideration is not intended to be relied upon for ESG or sustainability classification, regulatory regime or industry initiative purposes (\"ESG Regimes\"), unless otherwise stated. Nothing in these materials, including any images included therein, is intended to convey, suggest or indicate that Barclays considers or represents any product, service, person or body mentioned in these materials as meeting or qualifying for any ESG or sustainability classification, label or similar standards that may exist under ESG Regimes. Barclays has not conducted any assessment of compliance with ESG Regimes. Parties are reminded to make their own assessments for these purposes.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "ceddd84068830e5c",
+      "text": "IRS Circular 230 Prepared Materials Disclaimer: Barclays does not provide tax advice and nothing contained herein should be construed to be tax advice. Please be advised that any discussion of U.S. tax matters contained herein (including any attachments) (i) is not intended or written to be used, and cannot be used, by you for the purpose of avoiding U.S. tax- related penalties; and (ii) was written to support the promotion or marketing of the transactions or other matters addressed herein. Accordingly, you should seek advice based on your particular circumstances from an independent tax advisor.",
+      "page": 9,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "8ecf5f701f73bde6",
+      "name": "Adjusted Price",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d1cf412485ca8530",
+      "name": "Advisory Law",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3f19bf164f69ace0",
+      "name": "Annual EPS",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ccbf084e2812afa7",
+      "name": "Arista Networks",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facedae141187a9f",
+      "name": "Australian Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d9d261d8a47fe0b4",
+      "name": "Axon Enterprise",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "46a2e39eafb9f3ae",
+      "name": "Barclays Capital",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "64387d09d2494c79",
+      "name": "Barclays Capital Canada Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4d2d57430a6b5e51",
+      "name": "Barclays Equity",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d1d3bfaf58595d0a",
+      "name": "Barclays Israeli",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "05ab2ec667d770bf",
+      "name": "Barclays Live",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "520bb613ae942fa6",
+      "name": "Barclays PLC",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ccf133d649c357ba",
+      "name": "Barclays Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3ec0ba704b7d9bd6",
+      "name": "Bloomberg\n\nPrice",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "42049daaa633756e",
+      "name": "CDW Corp",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "13eec11f9f77d58d",
+      "name": "Canada Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7860a2554c61a53f",
+      "name": "Canadian Investment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d704b6ac0c024d24",
+      "name": "Canadian Investor",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a2baa1ff24739854",
+      "name": "Celestica Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a6c81784754155e2",
+      "name": "Ciena Corporation",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "a0ee1b505cf5c5ed",
+        "value": 0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "oving secular and macro demand trends heading into 2H, management raised FY top- line guidance from 11% to 14% at the midpoint. 17% OM still expected for the year, given the investments required for t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "03fcc096e26a47ca",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ecular and macro demand trends heading into 2H, management raised FY top- line guidance from 11% to 14% at the midpoint. 17% OM still expected for the year, given the investments required for the META",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d242d4e460de2251",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nd trends heading into 2H, management raised FY top- line guidance from 11% to 14% at the midpoint. 17% OM still expected for the year, given the investments required for the META deal, though managem",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a0fa246c794fc317",
+        "value": 0.23,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Unchanged IT Hardware and Communications NEUTRAL Equipment Unchanged Price Target USD 70.00 raised 23% from USD 57.00 Price (27- Aug- 25) USD 60.86 Potential Upside/Downside +15.0% Source: Bloomberg, ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "b506e345b8481138",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Target USD 70.00 raised 23% from USD 57.00 Price (27- Aug- 25) USD 60.86 Potential Upside/Downside +15.0% Source: Bloomberg, Barclays Research Market Cap (USD mn) 19890 Shares Outstanding (mn) 326.83 ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e6fb1560049fdd65",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "is, though this has already been well telegraphed to the Street. Despite the GM outperformance the ~17% FY OM guidance was maintained. **Estimates and rating.** We adjust our estimates for FY26-27 to ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4ddf9e625770f59c",
+        "value": -0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0.32A</td><td>0.29A</td><td>0.29A</td><td>0.29A</td><td>0.34E</td><td>0.35E</td><td>0.40E</td><td>-9%</td><td>21%</td></tr><tr><td>Q2</td><td>0.44A</td><td>0.35E</td><td>0.43A</td><td>0.39E</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4dfcb60316478002",
+        "value": 0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.29A</td><td>0.29A</td><td>0.29A</td><td>0.34E</td><td>0.35E</td><td>0.40E</td><td>-9%</td><td>21%</td></tr><tr><td>Q2</td><td>0.44A</td><td>0.35E</td><td>0.43A</td><td>0.39E</td><td>0.43E</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f8f281173755157c",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0.44A</td><td>0.35E</td><td>0.43A</td><td>0.39E</td><td>0.43E</td><td>0.46E</td><td>0.52E</td><td>-2%</td><td>7%</td></tr><tr><td>Q3</td><td>0.50A</td><td>0.46E</td><td>0.51E</td><td>0.52E</td><td>0",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "67685f5c86a1f0cf",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.35E</td><td>0.43A</td><td>0.39E</td><td>0.43E</td><td>0.46E</td><td>0.52E</td><td>-2%</td><td>7%</td></tr><tr><td>Q3</td><td>0.50A</td><td>0.46E</td><td>0.51E</td><td>0.52E</td><td>0.51E</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "80c082112fbce1d4",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0.50A</td><td>0.46E</td><td>0.51E</td><td>0.52E</td><td>0.51E</td><td>0.49E</td><td>0.64E</td><td>2%</td><td>-4%</td></tr><tr><td>Q4</td><td>0.45A</td><td>0.58E</td><td>0.56E</td><td>0.60E</td><td>0",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b5fb6c137c647a73",
+        "value": -0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>0.46E</td><td>0.51E</td><td>0.52E</td><td>0.51E</td><td>0.49E</td><td>0.64E</td><td>2%</td><td>-4%</td></tr><tr><td>Q4</td><td>0.45A</td><td>0.58E</td><td>0.56E</td><td>0.60E</td><td>0.55E</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "85bd8e4d356f485d",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0.45A</td><td>0.58E</td><td>0.56E</td><td>0.60E</td><td>0.55E</td><td>0.56E</td><td>0.71E</td><td>24%</td><td>0%</td></tr><tr><td>Year</td><td>1.70A</td><td>1.68E</td><td>1.79E</td><td>1.81E</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "dfcf01bd1ea4bb02",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.58E</td><td>0.56E</td><td>0.60E</td><td>0.55E</td><td>0.56E</td><td>0.71E</td><td>24%</td><td>0%</td></tr><tr><td>Year</td><td>1.70A</td><td>1.68E</td><td>1.79E</td><td>1.81E</td><td>1.83E</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f3994741d6de05a6",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>1.70A</td><td>1.68E</td><td>1.79E</td><td>1.81E</td><td>1.83E</td><td>1.86E</td><td>2.28E</td><td>5%</td><td>4%</td></tr><tr><td>P/E</td><td>35.8</td><td></td><td>33.9</td><td></td><td></td><td>32.7",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "28c9c6cc18937939",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>1.68E</td><td>1.79E</td><td>1.81E</td><td>1.83E</td><td>1.86E</td><td>2.28E</td><td>5%</td><td>4%</td></tr><tr><td>P/E</td><td>35.8</td><td></td><td>33.9</td><td></td><td></td><td>32.7</td><td></",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2187066c85621ba4",
+        "value": 70.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "cted GM in the Q and strength in Evergreen//One, as well as the broader business. We move our PT to $70, from $57, based on 5.5x (up from 4.5x) our FY27 revenue estimate of $4.0Bn (up from $3.9Bn). We",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1b2a4879881f28b5",
+        "value": 57.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "the Q and strength in Evergreen//One, as well as the broader business. We move our PT to $70, from $57, based on 5.5x (up from 4.5x) our FY27 revenue estimate of $4.0Bn (up from $3.9Bn). We remain Equ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4dbba8a51d5fd0e5",
+        "value": 4000000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "usiness. We move our PT to $70, from $57, based on 5.5x (up from 4.5x) our FY27 revenue estimate of $4.0Bn (up from $3.9Bn). We remain Equal Weight as we believe the increased valuation already reflec",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f1010e5442085da4",
+        "value": 3900000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "our PT to $70, from $57, based on 5.5x (up from 4.5x) our FY27 revenue estimate of $4.0Bn (up from $3.9Bn). We remain Equal Weight as we believe the increased valuation already reflects new opportunit",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "82389364c1227422",
+        "value": 0.10800000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "UAL WEIGHT</td></tr><tr><td>Revenue</td><td>3,168</td><td>3,613</td><td>3,991</td><td>4,305</td><td>10.8%</td><td>Price Target USD 70.00</td></tr><tr><td>EBITDA (adj)</td><td>688</td><td>758</td><td>8",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "dd34b27ecb6b3cde",
+        "value": 0.132,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "get USD 70.00</td></tr><tr><td>EBITDA (adj)</td><td>688</td><td>758</td><td>886</td><td>998</td><td>13.2%</td><td></td></tr><tr><td>EBIT (adj)</td><td></td><td>615</td><td>718</td><td>817</td><td>13.5",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "98457b31508df4fc",
+        "value": 0.135,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>13.2%</td><td></td></tr><tr><td>EBIT (adj)</td><td></td><td>615</td><td>718</td><td>817</td><td>13.5%</td><td></td></tr><tr><td>Pre-tax income (adj)</td><td>623</td><td>686</td><td>778</td><td>877",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "6603cc44a006da59",
+        "value": 0.121,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td></tr><tr><td>Pre-tax income (adj)</td><td>623</td><td>686</td><td>778</td><td>877</td><td>12.1%</td><td></td></tr><tr><td>Tax rate (%)</td><td>7</td><td>12</td><td>20</td><td>20</td><td>44.7",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "1469591236f61bdc",
+        "value": 0.447,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>12.1%</td><td></td></tr><tr><td>Tax rate (%)</td><td>7</td><td>12</td><td>20</td><td>20</td><td>44.7%</td><td></td></tr><tr><td>Net income (adj)</td><td>581</td><td>604</td><td>623</td><td>702</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5bf5217f7cdc3696",
+        "value": 0.065,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td></tr><tr><td>Net income (adj)</td><td>581</td><td>604</td><td>623</td><td>702</td><td>6.5%</td><td></td></tr><tr><td>EPS (adj) (US$)</td><td>1.70</td><td>1.79</td><td>1.86</td><td>2.11</",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5174743408a66980",
+        "value": 0.07400000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td></tr><tr><td>EPS (adj) (US$)</td><td>1.70</td><td>1.79</td><td>1.86</td><td>2.11</td><td>7.4%</td><td></td></tr><tr><td>Diluted shares (mn)</td><td>342.7</td><td>334.5</td><td>335.0</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "529caee524df95e7",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>Diluted shares (mn)</td><td>342.7</td><td>334.5</td><td>335.0</td><td>332.6</td><td>-1.0%</td><td></td></tr><tr><td>DPS (US$)</td><td>0.00</td><td>0.00</td><td>0.00</td><td>0.00</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "e9f3d8a47da45afa",
+        "value": 0.11599999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>Cash and equivalents</td><td>1,522</td><td>1,710</td><td>1,935</td><td>2,114</td><td>11.6%</td><td></td></tr><tr><td>Total assets</td><td>3,964</td><td>4,206</td><td>4,433</td><td>4,734",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ada56d11cc71e399",
+        "value": 0.061,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td></tr><tr><td>Total assets</td><td>3,964</td><td>4,206</td><td>4,433</td><td>4,734</td><td>6.1%</td><td></td></tr><tr><td>Short and long-term debt</td><td>100</td><td>0</td><td>0</td><td>0</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "c8630d743f0c448a",
+        "value": -1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td></tr><tr><td>Short and long-term debt</td><td>100</td><td>0</td><td>0</td><td>0</td><td>-100.0%</td><td></td></tr><tr><td>Other long-term liabilities</td><td>219</td><td>268</td><td>268</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "529b6a8e0b209294",
+        "value": 0.069,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>Other long-term liabilities</td><td>219</td><td>268</td><td>268</td><td>268</td><td>6.9%</td><td></td></tr><tr><td>Total liabilities</td><td>2,657</td><td>2,837</td><td>3,102</td><td>3",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ff7b84f9f0cba140",
+        "value": 0.08199999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>Total liabilities</td><td>2,657</td><td>2,837</td><td>3,102</td><td>3,370</td><td>8.2%</td><td></td></tr><tr><td>Net debt/(funds)</td><td>-1,422</td><td>-1,710</td><td>-1,935</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a35e55a32871b83a",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><tr><td>Shareholders&#x27; equity</td><td>1,306</td><td>1,369</td><td>1,332</td><td>1,364</td><td>1.5%</td><td></td></tr><tr><td>Change in working capital</td><td>80</td><td>214</td><td>-203</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "cea20a230a15684b",
+        "value": -0.32,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td></tr><tr><td>Change in working capital</td><td>80</td><td>214</td><td>-203</td><td>25</td><td>-32.0%</td><td></td></tr><tr><td>Cash flow from operations</td><td>753</td><td>874</td><td>704</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "cc6c621fbe0003bf",
+        "value": -0.033,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>Cash flow from operations</td><td>753</td><td>874</td><td>704</td><td>681</td><td>-3.3%</td><td></td></tr><tr><td>Capital expenditure</td><td>-227</td><td>-273</td><td>-279</td><td>-",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "34d5665eba0c4d25",
+        "value": -0.10300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/A</td><td></td></tr><tr><td>Free cash flow</td><td>526</td><td>601</td><td>424</td><td>380</td><td>-10.3%</td><td></td></tr><tr><td>NOPAT</td><td>522</td><td>541</td><td>575</td><td>654</td><td>7.7%<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ee55ed2646e27b1b",
+        "value": 0.077,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>-10.3%</td><td></td></tr><tr><td>NOPAT</td><td>522</td><td>541</td><td>575</td><td>654</td><td>7.7%</td><td></td></tr></table> <table><tr><td colspan=\"5\">Upside/Downside scenarios</td></tr><tr><t",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 0,
+      "tables_count": 0,
+      "numerical_data_count": 38,
+      "passages_count": 65,
+      "entities_count": 20
+    }
+  }
+}

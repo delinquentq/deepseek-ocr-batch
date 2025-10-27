@@ -1,0 +1,2790 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "072d6d30288d4566b89111aa23403b5a",
+    "title": "Morgan Stanley | RESEARCH",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/MS/Global Macro Commentary August 28 Retracing FlatterGlobal Macro Commentary August 28 Retracing Flatter_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:28:09.012427",
+      "extracted_at": "2025-10-26T12:28:09.012441"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 14,
+        "successful_pages": 14,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/MS",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 9,
+          "reduction_ratio": 0.1025511137377404
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/MS"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "611bc621c065b59f",
+      "text": "August 28, 2025 11:44 PM GMT",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b0030e2f20865eeb",
+      "text": "US rates twist- flatten, supportedly firm GDP data; key events for Fed leadership in the coming week; S&P 500 at record highs; JGBs rally on BoJ statements suggesting potential rate hike delays; Polish fiscal concerns; DXY at 97.813 (- 0.4%); US 10y at 4.206% (- 3.0bp).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "46766343b84e4172",
+      "text": "- US rates twist flatten in a partial unwinding of recent steepening. Front-end Treasuries sell off modestly (2y: +2bp), supported by an upside surprise in 2Q GDP, revised up to 3.3% (C: 3.1%; P: 3.0%) on stronger-than-expected business investment, and slightly weak initial jobless claims (229k; C: 230k) and continuing jobless claims (1,954k; C: 1,966k). Long-end Treasuries rally (30y: -5bp), potentially aided by demand from portfolio duration extensions before the end of the month. The 7y auction in the afternoon tails by 0.3bp, but high allocation to indirect bidders conveys decent demand.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2c711cea1faa9ad1",
+      "text": "- USD weakens (DXY: -0.4%) and gold rallies 0.6% as Fed leadership remains in focus. Fed Governor Cook files a lawsuit seeking a temporary restraining order to prevent her removal, with an emergency hearing scheduled to begin at 10:00am EST on Friday. After markets close, the US Senate Banking Committee schedules Miran's initial hearing for September 4, after which both the committee and the full Senate must vote to confirm Miran by simple majority, with media reports suggesting he will likely be confirmed before the September meeting.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "082854c6a9514b96",
+      "text": "- Risk-sensitive currencies outperform the dollar weakness (USD/SEK - 0.6%, AUD/USD +0.4%, NZD/USD +0.5%). The safe-haven JPY gains 0.3% against USD, despite delays in US-Japan trade discussions as Japanese officials canceled planned visit. USD/NOK weakens 0.2% as oil prices trend upwards (percent +0.8%) amid continued military activity between Russia and Ukraine, with German Chancellor Merz suggesting that there will be no meeting between Russian President Putin and Ukrainian President Zelensky.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2867a90069a82b96",
+      "text": "- US equities extend their rally, appearing to look through domestic political developments. The S&P 500 gains 0.3% to a record high of over \\$6,500 after highly anticipated large-cap tech earnings signal impacts from US-China trade restrictions, but also continued strong demand for AI spending. Accordingly, the tech-exposed NASDAQ 100 (+0.6%) outperforms the S&P 500.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "23f096c2536d8fa8",
+      "text": "- German bunds modestly twist flatten in sympathy with the US (2y: +2bp; 30y: -1bp) as OAT-Bund spreads tighten ~3bp after widening on French fiscal concerns throughout the week. EUR gains 0.4% against USD as the EU advances proposals to reduce tariffs on US goods in hopes of securing lower",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "72e96b1beffae922",
+      "text": "Morgan Stanley does and seeks to do business with companies covered in Morgan Stanley Research. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of Morgan Stanley Research. Investors should consider Morgan Stanley Research as only a single factor in making their investment decision.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f2cc978fc52fd497",
+      "text": "For analyst certification and other important disclosures, refer to the Disclosure Section, located at the end of this report.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6c3a9c0e9bab6333",
+      "text": "\\(+ =\\) Analysts employed by non- U.S. affiliates are not registered with FINRA, may not be associated persons of the member and may not be subject to FINRA restrictions on communications with a subject company, public appearances and trading securities held by a research analyst account.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6cb6cca325b0ca3f",
+      "text": "US tariffs on EU autos.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9acad06ded488b7d",
+      "text": "CEEMEA rates see mixed performance in a quiet session, with Poland underperforming on fiscal concerns. The Polish government increases its 2025 fiscal deficit forecast to \\(6.9\\%\\) of GDP (P: \\(5.5\\%\\) ), driven by high defense, welfare, and debt servicing costs. Accordingly, Polish rates sell off \\(\\sim 5bp\\) across the curve.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "508d8290bb1158b0",
+      "text": "Rates and equities rally in several LatAm economies. In Brazil, equities rally (Ibovespa: \\(+1.6\\%\\) ) as President Lula states he may not seek reelection if he is not in good health amid new polls showing lower approval ratings for his administration. BRL gains \\(0.2\\%\\) against USD as local interest rate futures rally (Jan 31 D1: - 13bp). In Mexico, rates rally 5- 6bp across the curve, despite a slight downside surprise in July unemployment (2.77%; C: 2.86%; P: 2.69%). The government proposes plans to increase tariffs on Chinese imports, potentially strengthening relations with the US ahead of the 2026 review of the USMCA free trade agreement. Our Mexico economists revised their forecasts to incorporate faster rate cuts from Banxico, in line with the US.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "1b80b918dbb1b163",
+      "text": "Japanese rates rally modestly as Boj policymakers imply potential delays to rate hikes. In the Tokyo morning, 30y JGBs rally 2bp, seemingly driven by expectations of further issuance reductions in long- end sectors. Boj Board Member Nakagawa mentions in a speech that the Tankan survey, released October 1, will be \"important to monitor.\" Accordingly, market participants infer that a September rate hike is less likely. 2y JGBs initially rally, but retrace some of the move in the afternoon as the 2y auction tails 2.2bp on weak demand. JGBs ultimately bull- flatten (2y: - 1bp; 30y: - 2bp). In Korea, KRW gains \\(0.7\\%\\) against USD as BoK Governor Rhee highlights ongoing FX discussions with the US Treasury. Korean rates see modest moves after the BoK remains on hold at its August meeting, but sells off 2bp after Governor Rhee suggests that faster rate cuts could spur housing and debt risks, rather than growth. In the Philippines; PHP holds steady as the BSP lowers rates by 25bp, in line with expectations. PHP strengthens \\(0.1\\%\\) against USD after BSP Governor Regolona states that the central bank may be nearing the end of its current easing cycle. In India's first trading session since \\(50\\%\\) US tariffs took effect, INR shows little reaction (USD/INR: - 0.05%), suggesting the tariff implementation was largely priced beforehand. Indian rates rally (10y IGB: - 8bp) amid unconfirmed reports that the RBI has engaged with local banks that approached the RBI about taking action during debt sales, possibly via open market bond purchases.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "2c0e7c0d47e3e838",
+      "text": "Source: Morgan Stanley Research, Bloomberg",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "7be6657907495732",
+      "text": "Exhibit 2: Inflation Closes (5pm NY)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3576669f81865d4d",
+      "text": "Source: Morgan Stanley Research, Bloomberg",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "baf4951d0811ae84",
+      "text": "Exhibit 3: Macro Closes (5pm NY)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1f9135f20842f15b",
+      "text": "Source: Morgan Stanley Research, Bloomberg",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0ff30123fa820b02",
+      "text": "7:00am BST - Germany July Retail Sales (MSe: \\(0.4\\%\\) m/m; C: \\(0\\%\\) ; P: \\(1\\%\\) ). We expect retail sales to move up as real wage gains translate to higher consumption 7:45am BST - France August CPI (MSe: \\(1\\%\\) y/y; C: \\(1\\%\\) ; P: \\(1\\%\\) ). We expect stable headline inflation. Base effects will push down services inflation, while energy inflation is likely to increase 8:00am BST - Spain August CPI (MSe: \\(2.7\\%\\) ; C: \\(2.8\\%\\) ; P: \\(2.7\\%\\) ). We expect a mild decline in energy prices. Food inflation should come stronger. For core, we see a marginal move to the downside 8:55am BST - Germany August Unemployment Rate (MSe: \\(6.3\\%\\) ; C: \\(6.4\\%\\) ; P: \\(6.3\\%\\) ). We expect a stable unemployment rate as services hiring compensates for layoffs in manufacturing 10:00am BST - Italy August CPI (MSe: \\(1.7\\%\\) ; C: \\(1.6\\%\\) ; P: \\(1.7\\%\\) ). We expect headline CPI to remain steady. Core inflation shows persistence, with core CPI projected to rise from \\(1.8\\%\\) y/y to \\(1.9\\%\\) y/y 10:00am BST - ECB Vice President de Guindos will speak at EEA Congress in Pamplona 11:00am BST - Portugal August CPI (MSe: \\(2.7\\%\\) ; P: \\(2.6\\%\\) ). We see a slight",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b5dc6a60b4553259",
+      "text": "uptick due to some strength in food inflation",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "f25f7066cb856928",
+      "text": "- 13:00am BST - Germany August CPI (MSe: 2.1%; C: 2.1%; P: 2.0%). We expect headline inflation to rise, driven by higher energy inflation, with core CPI inflation moving sideways (2.7% y/y)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "de468839e76c0f49",
+      "text": "- 7:00am GMT - Sweden 2Q Final GDP (MSe: 0.3% q/q; C: 0.4% q/q; P: 0.1% q/q). We expect the final GDP to be revised up slightly to 0.3% q/q. We expect household consumption, industrial production and net exports improved in the June monthly indicators published after the flash GDP.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "6b67a3945609a7f0",
+      "text": "- 7:00am GMT - Sweden July Retail Sales (MSe: 1.5% m/m; P: 2.5% m/m). We expect retail sales should further improve in July due to seasonality and improving consumer confidence.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "97bab8a85953e3b7",
+      "text": "- 7:00am GMT - Norway August Unemployment Rate (MSe: 2.2% m/m; P: 2.2% m/m)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "57e17a124e454ea3",
+      "text": "- 8:30am EST - Canada 2Q Quarterly GDP, Annualized (C: -0.7%; P: 2.2%).",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ab3029b44a835698",
+      "text": "- 8:30am EST - US July Personal Income (MSe: 0.4% m/m; C: 0.4%; P: 0.3%) & Real Personal Spending (MSe: 0.3%; C: 0.3%; P: 0.1%). We expect real spending rose 0.3% m/m and nominal spending rose 0.5%. Real goods spending is stronger, up 0.8% m/m, led by autos, with real services spending flat. We expect nominal personal income rose 0.4% m/m in July, with labor compensation up 0.5% (rental income has been softening slightly.) We expect the saving rate fell slightly from 4.5% in June to 4.3% in July.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "de3cd0596896a22b",
+      "text": "- 8:30am EST - US July Core PCE (MSe: 0.27% m/m, 2.91% y/y; C: 0.3%; P: 0.3%) & Headline PCE (MSe: 0.22% m/m; C: 0.2%; P: 0.3%). Incorporating our forecast of a slight upward revision in core PCE for June (+2bp in m/m print), we expect the 3-month annualized pace at 3.08% (vs. 2.71% in June), the 6-month at 3.06% (vs. 3.21% prior), and the y/y rate at 2.91% (vs. 2.81% in June). We expect headline PCE rose 0.22% m/m and 2.66% y/y. While prices in goods more exposed to tariffs continued to increase, other less exposed goods categories fell, leaving core goods prices basically flat on the month (MSe 0.01% m/m). We expect services prices accelerated in July. We are now tracking core services ex-housing at 0.38% m/m.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a3c888a9c2fb3aee",
+      "text": "- 8:30am EST - US July Trade Balance (MSe: -98.0; C: -90.0; P: -86.0): Renewed rise in gold inventory suggests slower exports or faster imports of gold. We think gold flows added about \\$11bn to the trade gap in July, with other imports rising modestly (+0.5%) and exports slipping slightly. In total, we expect the trade gap widened to \\$98bn. Gold flows won't affect 3Q GDP; the swings elsewhere in exports and imports are small.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "038c6b4f9faeea32",
+      "text": "- 10am EST - US August UMich Consumer Sentiment (C: 58.6; P: 58.6). Long-run inflation expectations fell ½ point to 3.4% in the preliminary report for August. This report pulls in the full month's data.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "9cb65fea2de19abc",
+      "text": "- Fri 7:00am HKT - Korea July Industrial Production (C: 3.9% y/y; P: 1.6%)  \n- 9:00am HKT - Philippines July Trade Balance (C: -\\(4.30bn; P: -\\)3.95bn); July Exports (C: 10.5% y/y; P: 26.1%); July Imports (C: 0.6% y/y; P: 10.8%)  \n- 10:00am HKT - Singapore July Money Supply M2 (P: 7.8% y/y)  \n- 3:00pm HKT - Thailand July Current Account Balance (C: \\$1.0bn; P: \\$2.4bn)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "fb9d0b186da5214b",
+      "text": "- 3:30pm HKT - Thailand July Trade Balance (P: \\(3.3bn\\); Exports (P: 16.1% y/y) & Imports (P: 13.8% y/y))",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1d5ec52a5c90c57d",
+      "text": "- 6:30pm HKT - India 2Q25 GDP (MSe: 6.8% y/y; C: 6.7%; P: 7.4%). We expect GDP growth to moderate due to slower capital formation.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d62924ac5dfddf88",
+      "text": "- 6:30pm HKT - India 2Q25 GVA (MSe: 6.5% y/y; C: 6.4%; P: 6.8%) & July Fiscal Deficit YTD (P: INR2.8tr)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4a08af44f175556c",
+      "text": "- 7:30am BST - Hungary July Trade Balance (C: EUR0mn; P: EUR1039mn)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "91cca59e11ee134f",
+      "text": "- 8:00am BST - Czech Republic 2Q GDP (C: 2.4%; P: 2.4%)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "85b8085ca2e6df4f",
+      "text": "- 9:00am BST - Poland August CPI (MSe: 2.9% y/y; C: 2.9%; P: 3.1%). After having dropped significantly to 3.1%Y in July, we now expect inflation to tick down further to 2.9%Y in August. Read more",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "19fedd6ef7e3a97c",
+      "text": "- 13:00pm BST - South Africa July Trade Balance (C: ZAR19.7bn; P: ZAR22.0bn)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2c6b8e91af4f5b2a",
+      "text": "Exhibit 4: G4 Central Bank Implied Pricing",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4b19746cf152066c",
+      "text": "FedCentral Bank OISCentral Bank OISImplied1d Δ (bp)Total ΔECBImplied1d Δ (bp)Total ΔBOJImplied1d Δ (bp)EFR (8/27)4.3300.0-EONIA (8/27)1.9250.0-SONIA (8/27)3.9680.009/17/254.1090.3(22.1)09/11/251.9170.4(0.8)09/18/253.963(0.4)10/29/253.977(0.0)(35.3)10/30/251.8950.4(3.0)11/06/253.9180.212/10/253.7801.2(55.0)12/18/251.8280.5(7.7)12/18/253.8680.301/28/263.6582.5(9.7)02/05/261.8050.9(12.0)02/05/263.754(2.5)03/18/263.5133.3(81.7)03/19/261.7621.5(16.3)03/19/263.722(2.2)04/29/263.4123.7(91.8)04/30/261.7501.1(17.5)04/30/263.653(2.1)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d92b9e6bcd2d09e9",
+      "text": "Source: Morgan Stanley Research, Bloomberg",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "877acfbd5295eb18",
+      "text": "- BoJ Board Member Nakagawa conveyed caution on the economic outlook, with limited details on the BoJ's internal views regarding the US economic path. She stated that \"the global economy, including Japan, is heading toward a slowdown, and we want to assess the extent of that deceleration given the high uncertainty.\" See more",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "17f1136e1156e11f",
+      "text": "- Fed Governor Waller reiterated that \"the FOMC should not wait until the labor market deteriorates\" to cut rates. He does not \"believe that a cut of larger than 25 basis points is needed in September,\" but suggests that view could change if the August employment report \"points to a substantially weakening economy and inflation remains well contained.\" Waller says he anticipates \"additional cuts over the next three to six months, and the pace of rate cuts will be driven by the incoming data.\"",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "a42cab728f900601",
+      "text": "- In Korea, BoK maintained its policy rate at 2.50% at its August meeting (MSe: 2.25%; C: 2.50%; P: 2.50%), citing modest improvement in the growth outlook and the need to further monitor movements in house prices and household debt. The BoK revised its 2025 growth forecast slightly higher to 0.9% y/y (P: 0.8%) on the back of a sustained modest recovery in domestic demand as exports gradually slow, while keeping the 2026 growth forecast unchanged at 1.6%. The inflation forecasts were also revised modestly higher, with 2025 headline and core CPI at 2.0% y/y (P: 1.9%) and 1.9% y/y (P: 1.9%) respectively, and 2026 headline and core CPI at 1.9% (P: 1.8%) due to",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "efc9eeca1367b23b",
+      "text": "the continued recovery in consumption. Read more",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4f434ff6733c469a",
+      "text": "- BoK Governor Rhee revealed that one board member proposed cutting rates due to a cooling housing market and Fed easing risks. He added that 5 of 6 board members are open to a rate cut within the next 3 months, up from 4 members at the last meeting. He noted faster rate cuts may spur housing and debt risks more than growth, and reiterated further cuts are dependent on growth and financial stability. He estimated that the cumulative 100bp of rate cuts may have boosted growth by 24bp, adding that potential growth may be below 2% due to aging and other structural factors. Rhee stated that FX discussions are ongoing with the US Treasury, and the BoK's FX interventions in the past 1-2 years aimed to limit KRW depreciation, a move which the US may view as \"desirable\". Rhee said the outcome of the US-Korea summit did not warrant a revision to the growth outlook.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "1c55f50050314808",
+      "text": "- In the Philippines, BSP lowered its policy rate by 25bp to 5.00% at its August meeting, as widely expected (MSE: 5.00%; C: 5.00%; P: 5.25%). The central bank said that inflation expectations remain well-anchored and the outlook for inflation is broadly unchanged, projecting inflation at 1.7% for 2025, 3.3% for 2026, and 3.4% for 2027. It flagged upside risks from possible electricity rate adjustments and higher rice tariffs. BSP noted that domestic demand has been firm, but external headwinds from global trade policies may temper the growth outlook for the Philippines.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "9a0b82f7a777681f",
+      "text": "- BSP Governor Remolona stated there is room for another rate cut in 2025, and it may be the last in the current easing cycle. He said the latest data puts the Philippines at the sweet spot for both inflation and output, and the policy rate is also \"at our Goldilocks rate, neither too high nor too low\". He characterized the BSP's stance as \"still dovish but slightly less so than before.\" He added that the BSP is moving away from short-dated issuance.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "26cc3ca7f149f636",
+      "text": "- In Egypt, the CBE lowered its policy rate by 200bp to 22% in a larger-than-expected rate cut (MSE: 22.5%; C: 23.0%; P: 24.0%)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f4bd3c6513d3b9ed",
+      "text": "- US Q2 GDP Second Estimate: 3.3% q/q (MSE: 3.1%; C: 3.1%; P: 3.0%). The second estimate of US GDP comes in slightly above expectations. Personal consumption revised up from 1.4% to 1.6%. No adjustment in PCE inflation, headline or core. Fixed investment revised up to 3.3% from 0.4%. The decline in structures was reduced (-8.9%; P: -10.3%). IP was revised sharply higher to 12.8% (P: 6.4%). Equipment spending was also revised sharply higher, with final sales to domestic purchasers jumping to 1.6% (P: 1.1%). This suggests the economy grew about 1.5% in 1H 25, still signalling a moderating economy, though not as sharply as suggested by the advance estimate. Finally, the first estimate of gross domestic income rebounded sharply in Q2, rising 4.8% q/q in real terms. The significant rise in GDI (4.8% q/q saar) appears to be driven mainly by \"Taxes on production and imports.\" This category rose \\$230bn in the quarter and reflects public-sector tariff revenue.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "e9e0c4f2b50e9523",
+      "text": "- US Initial Jobless Claims: 229k (MSE: 230k; C: 230k; P: 234k) & Continuing",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "cc190b8814dce77b",
+      "text": "Jobless Claims: 1954k (MSe: 1970k; C: 1966k; P: 1961k). The four- week moving average remains virtually unchanged, also \\~229k.- Eurozone August Economic Confidence: 95.2 (MSe: 96.0; C: 96.0; P: 95.7)- Belgium August CPI: 1.9% y/y (MSe: 2.0%; P: 1.9%)- Sweden August Economic Tendency Survey: Shows cautious recovery, but improvement needed in resource utilization.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1d4d6d1d3638165e",
+      "text": "Philippines July Budget Balance: - PHP18.9bn (P: - PHP241.6bn) India July Industrial Production: 3.5% y/y (C: 2.2%; P: 1.5%) South Africa July PPI: 1.5% y/y (C: 1.4%; P: 0.6%) Turkey July Trade Balance: - US\\(6.4bn (P: - US\\)8.2bn) Hungary July Unemployment Rate: 4.3% (C: 4.4%; P: 4.3%)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "511e8f829d554797",
+      "text": "For more details, please refer to our economists' weekly reports and data previews:",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "d2b16a8d4d1a57f8",
+      "text": "US Japan Europe Asia/Pacific CEEMEA Latin America",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0ccefe1287a84834",
+      "text": "Please click here if you would like to receive our weekly strategic advice on global rates, FX, and EM. See our latest Global Macro Strategist: At the Edge of Hot Summer, At the Threshold of a Larger Fall and our recent publications:",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "a1c4fe4e0d9ca7c4",
+      "text": "- Poland Economics and Macro Strategy: NBP Preview - Easing into Autumn- Argentina Sovereign Credit Strategy: GDP Warrant Update - Next Steps- ECB Surveys: Survey of Monetary Analysts",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "458954fd92604a03",
+      "text": "MORGAN STANLEY & CO. LLC",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "d17a5d0512420fd5",
+      "text": "- US 10y: Total 200%, Trade Longs Only: 100%, Fade Shorts Portfolio: 100%  \n- German 10y: Total 200%, Trade Longs Only: 100%, Fade Short Portfolio: 100%  \n- Japan 10y: Total 100%, Trade Longs Only: 0%, Fade Shorts Portfolio: 100%  \n- UK 10y: Total 200%, Trade Longs Only: 100%, Fade Shorts Portfolio: 100%",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7fcb61a32a6e7287",
+      "text": "Enhancements to a G4 10y government bond futures momentum strategy have produced higher Sharpe ratios and stronger returns, relative to total return government bond indices for the G4, US, Germany, Japan, and the UK since 2000. See A \"Smarter\" (Beta) Way to Trade G4 10y Futures Duration? for more information on these strategies.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "03364e586314c7de",
+      "text": "Exhibit 5: Trading Signals for G4 Smarter (beta) Trading Strategy",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0cbb49b9dbacd173",
+      "text": "Current Risk, G4 10y FuturesG4 Strategy WeightTrade Longs PortfolioFade Shorts PortfolioTotal Risk Trade Longs OnlyTotal Risk Trade Longs PortfolioTrade Longs PortfolioTrade Longs PortfolioFade Shorts PortfolioFade Shorts PortfolioJB 10y Future32.50%100%100%100%200%8/5/20259/10/20258/18/20259/24/2025GE 10y Future29.25%100%100%100%200%7/23/20258/27/20257/30/20259/3/2025US 10y Future30.50%100%0%100%100%7/31/20259/5/2025--UK 10y Future7.75%100%100%100%200%8/4/20259/9/20258/15/20259/22/2025",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "a2375d9588026ede",
+      "text": "Source: Morgan Stanley Research",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "56a0f822eba5fa07",
+      "text": "When the 5- day moving average crosses above the 20- day moving average, buy the futures contract (long duration) and hold for a 25- business- day period. When the 5- day moving average crosses below the 20- day moving average, buy the futures contract and hold for a 25- business- day period. In short, this strategy buys futures when the Simple Moving Average Crossover (SMAX) generates both a long and a short signal, given the historical outperformance of long signals traded long and the underperformance of short signals traded short. Given that the SMAX could generate both a long and a short signal within the predefined holding period, an investor may have a 200% long position since each of the two signals would be traded in separate portfolio sleeves.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "37e7fd0d5962f9cc",
+      "text": "When the 5- day moving average crosses above the 20- day moving average, buy the futures contract (long duration) and hold for a 25- business- day period. When the 5- day moving average crosses below the 20- day moving average, do nothing. In short, an investor ONLY trades long signals initiated by the SMAX given their historical precedent to outperform.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "819b399e6baadf51",
+      "text": "Combining the individual trading signals based on 10y Treasury future (TY) price patterns before and after US holidays has generated an annual strategy with no down years since 1987. See Trading 10y Treasury Futures Around US Holidays for more information.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "51c5821f3caabcc6",
+      "text": "Using historical data since 1983, we created a trading strategy using 10y Treasury futures (TY) that trades 11 times per year, either long or short, before or after the following US holidays: New Year's Day, Martin Luther King Day, Presidents' Day, Good Friday, Memorial Day, Independence Day, Labor Day, Columbus Day, Thanksgiving, and Christmas. Exhibit 6 displays the trading rules:",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "f9a81850a6dc306f",
+      "text": "Exhibit 6: Trading rules for US holiday trading model using US 10y futures contracts (TY)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "cae5f747a6b9b92b",
+      "text": "HolidayDay of WeekDirectionBefore/After HolidayTrading Rule (business days, 3pm NY unless specified)Trade Entry (business days)Trade Exit (business days)New Year&#x27;s DayRotatesLong TYAfterBuy TY New Years +1, Sell TY New Years +4New Year +1New Year +4Martin Luther King Day 1MondayLong TYBeforeBuy TY Tuesday before MLK, Sell Friday before MLKMLK - 4MLK - 1Martin Luther King Day 2MondayShort TYAfterSell TY Tuesday after MLK, Buy Friday after MLKMLK + 1MLK + 4President&#x27;s DayMondayLong TYAfterBuy TY Tuesday after Pres. Day, Sell TY Friday after Pres. DayPres. Day +1Pres. Day +4Good FridayFridayLong TYAfterBuy TY Monday after Good Friday, Sell TY Friday after Good FridayGood Friday + 1Good Friday + 5Memorial DayMondayLong TYAfterBuy TY Tuesday after Mem. Day, Sell TY Friday after Mem. DayMem. Day + 1Mem. Day + 4Independence Day (July 4th)RotatesLong TYAfterBuy TY Independence Day + 2, Sell TY Independence Day + 4Ind. Day + 2Ind. Day + 4Labor DayMondayLong TYBeforeBuy TY Monday before Labor Day, Sell TY Thursday before Labor DayLabor Day - 4Labor Day - 2Columbus DayMondayShort TYBeforeSell TY Monday before Col. Day, Buy TY Thursday before Col. DayColumb. Day - 5Columb. Day - 2ThanksgivingThursdayLong TYBeforeBuy TY Friday before Thanksgiving, Sell TY Tuesday before ThanksgivingThanksgiving - 4Thanksgiving - 2ChristmasRotatesShort TYBeforeSell TY Christmas Day - 4, Buy TY Christmas Day - 1Christmas - 4Christmas - 1",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d1b2feac53f56676",
+      "text": "Source: Morgan Stanley Research. Note: Past performance is no guarantee of future results.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "dd1450d27c9355a9",
+      "text": "For important disclosures, stock price charts and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website at www.morganstanley.com/researchdisclosures, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY, 10036 USA.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "ce9c86a9e0c21caf",
+      "text": "For valuation methodology and risks associated with any recommendation, rating or price target referenced in this research report, please contact the Client Support Team as follows: US/Canada +1 800 303- 2495; Hong Kong +852 2848- 5999; Latin America +1 718 754- 5444 (U.S.); London +44 (0)20- 7425- 8169; Singapore +65 6834- 6860; Sydney +61 (0)2- 9770- 1505; Tokyo +81 (0)3- 6836- 9000. Alternatively you may contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "f2998436d57aeea4",
+      "text": "Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflict policies. A Portuguese version of the policy can be found at www.morganstanley.com.br",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "56bffbcdc882fa04",
+      "text": "Within the last 12 months, Morgan Stanley managed or co- managed a public offering (or 144A offering) of securities of Germany, United States of America. Within the last 12 months, Morgan Stanley has received compensation for investment banking services from Germany. In the next 3 months, Morgan Stanley expects to receive or intends to seek compensation for investment banking services from Germany, Japan, United Kingdom, United States of America. Within the last 12 months, Morgan Stanley has received compensation for products and services other than investment banking services from Germany. Within the last 12 months, Morgan Stanley has provided or is providing investment banking services to, or has an investment banking client relationship with, the following company: Germany, Japan, United Kingdom, United States of America. Within the last 12 months, Morgan Stanley has either provided or is providing non- investment banking, securities- related services to and/or in the past has entered into an agreement to provide services or has a client relationship with the following company: Germany.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "4e9d4c18d3bda10b",
+      "text": "The equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues. Equity Research analysts' or strategists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "f683b6d7b6956a0e",
+      "text": "Morgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity, fund management, commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Morgan Stanley trades or may trade as principal in the debt securities (or in related derivatives) that are the subject of the debt research report.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "5e12684677b7d44d",
+      "text": "Certain disclosures listed above are also for compliance with applicable regulations in non- US jurisdictions.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "b8ccfcaa28757fbe",
+      "text": "Morgan Stanley uses a relative rating system using terms such as Overweight, Equal- weight, Not- Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal- weight, Not- Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "efe478cb2d7e94fe",
+      "text": "(as of July 31, 2025)",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "480d6be4f7763bdb",
+      "text": "The Stock Ratings described below apply to Morgan Stanley's Fundamental Equity Research and do not apply to Debt Research produced by the Firm.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "1c2578c9c86f465e",
+      "text": "For dislure p  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i  i  i  i  i  e  i  i  i  i  i  i  i  i  i  i  ,  i  i  i  i  i",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3a69bb08e3195143",
+      "text": "seting y  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "78f8cb17f183324a",
+      "text": "21f th  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t",
+      "page": 13,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "7c45becb6245f308",
+      "name": "After Holiday",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e4cbc241932be799",
+      "name": "Argentina Sovereign",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3fc8bf4709e110b5",
+      "name": "Around US",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9e64646633819193",
+      "name": "Average Crossover",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "347b0e33ec1eb52f",
+      "name": "BSP Governor",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "02b78e87c1f3a6a4",
+      "name": "Banking Committee",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2b407cb3c1bfe89b",
+      "name": "Belgium August",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "11e0931e479ae858",
+      "name": "BoJ Board",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dd5bb9d5d888bfef",
+      "name": "BoK Governor",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "860b3b4ddc6b79ae",
+      "name": "Boj Board",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1247b90ca9945d15",
+      "name": "Budget Balance",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "321877f3b24b1f95",
+      "name": "Buy Friday",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ac4b6b3dab41091d",
+      "name": "Buy TY",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "246559ad6397328f",
+      "name": "Central Bank",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2f09ecc7e9697f4b",
+      "name": "Christmas Day",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c184cb2eaab39cb8",
+      "name": "Client Support",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8f1f4caf1af6d199",
+      "name": "Columbus Day",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c8c0d67137b1b25c",
+      "name": "Conflict Management",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "09af01c03cfd6efb",
+      "name": "Core PCE",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6b2d1154188fe0ed",
+      "name": "Credit Strategy",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "table",
+        "title": "G4 Rates Closes (5pm NY)",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2y",
+              "3y",
+              "5y",
+              "7y",
+              "10y",
+              "20y",
+              "30y"
+            ]
+          },
+          "y": null
+        },
+        "series": [
+          {
+            "name": "US - 28-Aug",
+            "unit": null,
+            "values": [
+              3.629,
+              3.588,
+              3.691,
+              3.909,
+              4.203,
+              4.828,
+              4.876
+            ]
+          },
+          {
+            "name": "US - 1d Δ (bp)",
+            "unit": "bp",
+            "values": [
+              2.1,
+              0.8,
+              -0.5,
+              -2.3,
+              -3.1,
+              -4.4,
+              -4.6
+            ]
+          },
+          {
+            "name": "Germany - 28-Aug",
+            "unit": null,
+            "values": [
+              1.931,
+              2.032,
+              2.241,
+              2.405,
+              2.693,
+              3.178,
+              3.296
+            ]
+          },
+          {
+            "name": "Germany - 1d Δ (bp)",
+            "unit": "bp",
+            "values": [
+              1.8,
+              1.3,
+              0.6,
+              0.0,
+              -0.6,
+              -0.6,
+              -1.0
+            ]
+          },
+          {
+            "name": "UK - 28-Aug",
+            "unit": null,
+            "values": [
+              3.931,
+              3.94,
+              4.0,
+              4.0,
+              4.699,
+              5.431,
+              5.57
+            ]
+          },
+          {
+            "name": "UK - 1d Δ (bp)",
+            "unit": "bp",
+            "values": [
+              -0.7,
+              -3.2,
+              -3.6,
+              -4.1,
+              -3.6,
+              -3.3,
+              -3.0
+            ]
+          },
+          {
+            "name": "Japan - 28-Aug",
+            "unit": null,
+            "values": [
+              0.854,
+              0.938,
+              1.154,
+              1.379,
+              1.613,
+              2.621,
+              3.211
+            ]
+          },
+          {
+            "name": "Japan - 1d Δ (bp)",
+            "unit": "bp",
+            "values": [
+              -0.8,
+              -0.6,
+              -0.2,
+              -0.9,
+              -0.8,
+              -2.5,
+              -1.4
+            ]
+          }
+        ],
+        "figure_id": "7d86031133d3dae6",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "table",
+        "title": "US TIPS and 10y Real Yields, BEI",
+        "page": 3,
+        "axes": {},
+        "series": [
+          {
+            "name": "US TIPS",
+            "unit": null,
+            "values": [
+              {
+                "Tenor": "5y",
+                "28-Aug": 1.133,
+                "1d Δ (bp)": 1.0
+              },
+              {
+                "Tenor": "BEI",
+                "28-Aug": 2.534,
+                "1d Δ (bp)": -1.6
+              },
+              {
+                "Tenor": "10y",
+                "28-Aug": 1.786,
+                "1d Δ (bp)": -0.8
+              },
+              {
+                "Tenor": "BEI",
+                "28-Aug": 2.416,
+                "1d Δ (bp)": -2.3
+              },
+              {
+                "Tenor": "30y",
+                "28-Aug": 2.601,
+                "1d Δ (bp)": -2.3
+              },
+              {
+                "Tenor": "BEI",
+                "28-Aug": 2.277,
+                "1d Δ (bp)": -2.3
+              }
+            ]
+          },
+          {
+            "name": "10y Real Yields, BEI (DBRI)",
+            "unit": null,
+            "values": [
+              {
+                "Tenor": "DBRI",
+                "28-Aug": 0.72,
+                "1d Δ (bp)": 0.8
+              },
+              {
+                "Tenor": "BEI",
+                "28-Aug": 1.741,
+                "1d Δ (bp)": -0.9
+              }
+            ]
+          },
+          {
+            "name": "10y Real Yields, BEI (UKTI)",
+            "unit": null,
+            "values": [
+              {
+                "Tenor": "UKTI",
+                "28-Aug": 1.646,
+                "1d Δ (bp)": -4.7
+              },
+              {
+                "Tenor": "BEI",
+                "28-Aug": 3.057,
+                "1d Δ (bp)": 1.3
+              }
+            ]
+          },
+          {
+            "name": "10y Real Yields, BEI (JGBi)",
+            "unit": null,
+            "values": [
+              {
+                "Tenor": "JGBi",
+                "28-Aug": 0.032,
+                "1d Δ (bp)": -0.7
+              },
+              {
+                "Tenor": "BEI",
+                "28-Aug": 1.565,
+                "1d Δ (bp)": -0.3
+              }
+            ]
+          },
+          {
+            "name": "10y Real Yields, BEI (BTPI)",
+            "unit": null,
+            "values": [
+              {
+                "Tenor": "BTPI",
+                "28-Aug": 1.897,
+                "1d Δ (bp)": -3.7
+              },
+              {
+                "Tenor": "BEI",
+                "28-Aug": 1.694,
+                "1d Δ (bp)": -0.2
+              }
+            ]
+          }
+        ],
+        "figure_id": "f9b87552aca6ef72",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "table",
+        "title": "Market Overview",
+        "page": 3,
+        "axes": {},
+        "series": [
+          {
+            "name": "Majors",
+            "unit": null,
+            "values": [
+              {
+                "Spot": "DXY",
+                "28-Aug": 97.81,
+                "1d Δ (%)": -0.4
+              },
+              {
+                "Spot": "EUR",
+                "28-Aug": 1.168,
+                "1d Δ (%)": 0.4
+              },
+              {
+                "Spot": "GBP",
+                "28-Aug": 1.351,
+                "1d Δ (%)": 0.1
+              },
+              {
+                "Spot": "JPY",
+                "28-Aug": 146.93,
+                "1d Δ (%)": -0.3
+              },
+              {
+                "Spot": "CHF",
+                "28-Aug": 0.801,
+                "1d Δ (%)": -0.1
+              },
+              {
+                "Spot": "AUD",
+                "28-Aug": 0.653,
+                "1d Δ (%)": 0.4
+              },
+              {
+                "Spot": "CAD",
+                "28-Aug": 1.375,
+                "1d Δ (%)": -0.3
+              }
+            ]
+          },
+          {
+            "name": "EM",
+            "unit": null,
+            "values": [
+              {
+                "Spot": "CNH",
+                "28-Aug": 7.12,
+                "1d Δ (%)": -0.5
+              },
+              {
+                "Spot": "INR",
+                "28-Aug": 87.63,
+                "1d Δ (%)": -0.1
+              },
+              {
+                "Spot": "THB",
+                "28-Aug": 32.37,
+                "1d Δ (%)": -0.3
+              },
+              {
+                "Spot": "KRW",
+                "28-Aug": 1384.85,
+                "1d Δ (%)": -0.7
+              },
+              {
+                "Spot": "ZAR",
+                "28-Aug": 17.7,
+                "1d Δ (%)": 0.0
+              },
+              {
+                "Spot": "MXN",
+                "28-Aug": 18.65,
+                "1d Δ (%)": -0.1
+              },
+              {
+                "Spot": "BRL",
+                "28-Aug": 5.41,
+                "1d Δ (%)": -0.1
+              }
+            ]
+          },
+          {
+            "name": "Equities / Commodities",
+            "unit": null,
+            "values": [
+              {
+                "Index": "S&P",
+                "28-Aug": 6501.86,
+                "1d Δ (%)": 0.3
+              },
+              {
+                "Index": "Stoxx",
+                "28-Aug": 5396.73,
+                "1d Δ (%)": 0.1
+              },
+              {
+                "Index": "FTSE",
+                "28-Aug": 9216.82,
+                "1d Δ (%)": -0.4
+              },
+              {
+                "Index": "Nikkei",
+                "28-Aug": 42828.79,
+                "1d Δ (%)": 0.7
+              },
+              {
+                "Index": "VIX",
+                "28-Aug": 14.43,
+                "1d Δ (%)": -2.8
+              },
+              {
+                "Index": "Gold (S)",
+                "28-Aug": 3417.08,
+                "1d Δ (%)": 0.6
+              },
+              {
+                "Index": "WTI (Fut)",
+                "28-Aug": 64.6,
+                "1d Δ (%)": 0.7
+              }
+            ]
+          }
+        ],
+        "figure_id": "f48d5fa0b166cb18",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "027b66c52c1c9d9b",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "y on BoJ statements suggesting potential rate hike delays; Polish fiscal concerns; DXY at 97.813 (- 0.4%); US 10y at 4.206% (- 3.0bp). ## Major Moves & Catalysts ## USD rates unwind some recent steepe",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "f6917955054eb251",
+        "value": 0.04206000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ts suggesting potential rate hike delays; Polish fiscal concerns; DXY at 97.813 (- 0.4%); US 10y at 4.206% (- 3.0bp). ## Major Moves & Catalysts ## USD rates unwind some recent steepening as market pa",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "3668f650c343da26",
+        "value": 0.033,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d Treasuries sell off modestly (2y: +2bp), supported by an upside surprise in 2Q GDP, revised up to 3.3% (C: 3.1%; P: 3.0%) on stronger-than-expected business investment, and slightly weak initial job",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "815766cd1ca7ed87",
+        "value": 0.031,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ies sell off modestly (2y: +2bp), supported by an upside surprise in 2Q GDP, revised up to 3.3% (C: 3.1%; P: 3.0%) on stronger-than-expected business investment, and slightly weak initial jobless clai",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "76cbfde7acd0536b",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "off modestly (2y: +2bp), supported by an upside surprise in 2Q GDP, revised up to 3.3% (C: 3.1%; P: 3.0%) on stronger-than-expected business investment, and slightly weak initial jobless claims (229k;",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "cde55160b7e47719",
+        "value": -0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tails by 0.3bp, but high allocation to indirect bidders conveys decent demand. - USD weakens (DXY: -0.4%) and gold rallies 0.6% as Fed leadership remains in focus. Fed Governor Cook files a lawsuit se",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c9f852201876fde6",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "allocation to indirect bidders conveys decent demand. - USD weakens (DXY: -0.4%) and gold rallies 0.6% as Fed leadership remains in focus. Fed Governor Cook files a lawsuit seeking a temporary restrai",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "03e206aca0d61aa8",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "efore the September meeting. - Risk-sensitive currencies outperform the dollar weakness (USD/SEK - 0.6%, AUD/USD +0.4%, NZD/USD +0.5%). The safe-haven JPY gains 0.3% against USD, despite delays in US-",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5ca94b415b7cf4b3",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ember meeting. - Risk-sensitive currencies outperform the dollar weakness (USD/SEK - 0.6%, AUD/USD +0.4%, NZD/USD +0.5%). The safe-haven JPY gains 0.3% against USD, despite delays in US-Japan trade di",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "56844863d42c7dd8",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "- Risk-sensitive currencies outperform the dollar weakness (USD/SEK - 0.6%, AUD/USD +0.4%, NZD/USD +0.5%). The safe-haven JPY gains 0.3% against USD, despite delays in US-Japan trade discussions as Ja",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "681f8985a4202c4b",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "erform the dollar weakness (USD/SEK - 0.6%, AUD/USD +0.4%, NZD/USD +0.5%). The safe-haven JPY gains 0.3% against USD, despite delays in US-Japan trade discussions as Japanese officials canceled planne",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "8aec1516a0b0958c",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "delays in US-Japan trade discussions as Japanese officials canceled planned visit. USD/NOK weakens 0.2% as oil prices trend upwards (percent +0.8%) amid continued military activity between Russia and ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "2df640c45151e022",
+        "value": 0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "apanese officials canceled planned visit. USD/NOK weakens 0.2% as oil prices trend upwards (percent +0.8%) amid continued military activity between Russia and Ukraine, with German Chancellor Merz sugg",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d13f22dbaf74f427",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "es extend their rally, appearing to look through domestic political developments. The S&P 500 gains 0.3% to a record high of over \\$6,500 after highly anticipated large-cap tech earnings signal impact",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5d68709a78bc0c47",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ctions, but also continued strong demand for AI spending. Accordingly, the tech-exposed NASDAQ 100 (+0.6%) outperforms the S&P 500. - German bunds modestly twist flatten in sympathy with the US (2y: +",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7a8ff7cb8ae92729",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "T-Bund spreads tighten ~3bp after widening on French fiscal concerns throughout the week. EUR gains 0.4% against USD as the EU advances proposals to reduce tariffs on US goods in hopes of securing low",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "0f27db8992c4ae45",
+        "value": 6500.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "g to look through domestic political developments. The S&P 500 gains 0.3% to a record high of over \\$6,500 after highly anticipated large-cap tech earnings signal impacts from US-China trade restricti",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "36494353fb58dd9e",
+        "value": 0.0277,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "xico, rates rally 5- 6bp across the curve, despite a slight downside surprise in July unemployment (2.77%; C: 2.86%; P: 2.69%). The government proposes plans to increase tariffs on Chinese imports, po",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "507d89c62583a1ae",
+        "value": 0.0286,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s rally 5- 6bp across the curve, despite a slight downside surprise in July unemployment (2.77%; C: 2.86%; P: 2.69%). The government proposes plans to increase tariffs on Chinese imports, potentially ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e119a572d80750c7",
+        "value": 0.0269,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6bp across the curve, despite a slight downside surprise in July unemployment (2.77%; C: 2.86%; P: 2.69%). The government proposes plans to increase tariffs on Chinese imports, potentially strengtheni",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1b337313ba5ffb36",
+        "value": 0.0005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "first trading session since \\(50\\%\\) US tariffs took effect, INR shows little reaction (USD/INR: - 0.05%), suggesting the tariff implementation was largely priced beforehand. Indian rates rally (10y I",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9e892afd8ca5fa83",
+        "value": 0.021,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "uptick due to some strength in food inflation - 13:00am BST - Germany August CPI (MSe: 2.1%; C: 2.1%; P: 2.0%). We expect headline inflation to rise, driven by higher energy inflation, with c",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "9e892afd8ca5fa83",
+        "value": 0.021,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "uptick due to some strength in food inflation - 13:00am BST - Germany August CPI (MSe: 2.1%; C: 2.1%; P: 2.0%). We expect headline inflation to rise, driven by higher energy inflation, with core CPI i",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "223d32ddba84182f",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "due to some strength in food inflation - 13:00am BST - Germany August CPI (MSe: 2.1%; C: 2.1%; P: 2.0%). We expect headline inflation to rise, driven by higher energy inflation, with core CPI inflatio",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c10cadc54526dc91",
+        "value": 0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "line inflation to rise, driven by higher energy inflation, with core CPI inflation moving sideways (2.7% y/y) - 7:00am GMT - Sweden 2Q Final GDP (MSe: 0.3% q/q; C: 0.4% q/q; P: 0.1% q/q). We expect th",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d6f831c406bf41ff",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ation, with core CPI inflation moving sideways (2.7% y/y) - 7:00am GMT - Sweden 2Q Final GDP (MSe: 0.3% q/q; C: 0.4% q/q; P: 0.1% q/q). We expect the final GDP to be revised up slightly to 0.3% q/q. W",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "4c493c1a460be0af",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ore CPI inflation moving sideways (2.7% y/y) - 7:00am GMT - Sweden 2Q Final GDP (MSe: 0.3% q/q; C: 0.4% q/q; P: 0.1% q/q). We expect the final GDP to be revised up slightly to 0.3% q/q. We expect hous",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "4ffd8f8936b1cb40",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tion moving sideways (2.7% y/y) - 7:00am GMT - Sweden 2Q Final GDP (MSe: 0.3% q/q; C: 0.4% q/q; P: 0.1% q/q). We expect the final GDP to be revised up slightly to 0.3% q/q. We expect household consump",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c54a4a9c663d0617",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "GDP (MSe: 0.3% q/q; C: 0.4% q/q; P: 0.1% q/q). We expect the final GDP to be revised up slightly to 0.3% q/q. We expect household consumption, industrial production and net exports improved in the Jun",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "0f680d3f68f459a7",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ne monthly indicators published after the flash GDP. - 7:00am GMT - Sweden July Retail Sales (MSe: 1.5% m/m; P: 2.5% m/m). We expect retail sales should further improve in July due to seasonality and ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "607bb356d606de59",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "dicators published after the flash GDP. - 7:00am GMT - Sweden July Retail Sales (MSe: 1.5% m/m; P: 2.5% m/m). We expect retail sales should further improve in July due to seasonality and improving con",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "98f0c0fafc4aeed2",
+        "value": 0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "easonality and improving consumer confidence. - 7:00am GMT - Norway August Unemployment Rate (MSe: 2.2% m/m; P: 2.2% m/m) - 8:30am EST - Canada 2Q Quarterly GDP, Annualized (C: -0.7%; P: 2.2%). - 8:30",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "bdc32f7873f48585",
+        "value": 0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d improving consumer confidence. - 7:00am GMT - Norway August Unemployment Rate (MSe: 2.2% m/m; P: 2.2% m/m) - 8:30am EST - Canada 2Q Quarterly GDP, Annualized (C: -0.7%; P: 2.2%). - 8:30am EST - US J",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "f65a35f6e373e7c0",
+        "value": -0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "mployment Rate (MSe: 2.2% m/m; P: 2.2% m/m) - 8:30am EST - Canada 2Q Quarterly GDP, Annualized (C: -0.7%; P: 2.2%). - 8:30am EST - US July Personal Income (MSe: 0.4% m/m; C: 0.4%; P: 0.3%) & Real Pers",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "b64d43ecd92a9857",
+        "value": 0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Rate (MSe: 2.2% m/m; P: 2.2% m/m) - 8:30am EST - Canada 2Q Quarterly GDP, Annualized (C: -0.7%; P: 2.2%). - 8:30am EST - US July Personal Income (MSe: 0.4% m/m; C: 0.4%; P: 0.3%) & Real Personal Spend",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a7aad800d7afc18b",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ada 2Q Quarterly GDP, Annualized (C: -0.7%; P: 2.2%). - 8:30am EST - US July Personal Income (MSe: 0.4% m/m; C: 0.4%; P: 0.3%) & Real Personal Spending (MSe: 0.3%; C: 0.3%; P: 0.1%). We expect real sp",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "2c0d780330cbfac7",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rly GDP, Annualized (C: -0.7%; P: 2.2%). - 8:30am EST - US July Personal Income (MSe: 0.4% m/m; C: 0.4%; P: 0.3%) & Real Personal Spending (MSe: 0.3%; C: 0.3%; P: 0.1%). We expect real spending rose 0",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "8b23dc9f1447145a",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Annualized (C: -0.7%; P: 2.2%). - 8:30am EST - US July Personal Income (MSe: 0.4% m/m; C: 0.4%; P: 0.3%) & Real Personal Spending (MSe: 0.3%; C: 0.3%; P: 0.1%). We expect real spending rose 0.3% m/m a",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "dd0590e04647a0de",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "30am EST - US July Personal Income (MSe: 0.4% m/m; C: 0.4%; P: 0.3%) & Real Personal Spending (MSe: 0.3%; C: 0.3%; P: 0.1%). We expect real spending rose 0.3% m/m and nominal spending rose 0.5%. Real ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "86e7bb4d9f607d82",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "- US July Personal Income (MSe: 0.4% m/m; C: 0.4%; P: 0.3%) & Real Personal Spending (MSe: 0.3%; C: 0.3%; P: 0.1%). We expect real spending rose 0.3% m/m and nominal spending rose 0.5%. Real goods spe",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "52d7e53f0ed55a7d",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Personal Income (MSe: 0.4% m/m; C: 0.4%; P: 0.3%) & Real Personal Spending (MSe: 0.3%; C: 0.3%; P: 0.1%). We expect real spending rose 0.3% m/m and nominal spending rose 0.5%. Real goods spending is s",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "72a895970abb8a44",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0.4%; P: 0.3%) & Real Personal Spending (MSe: 0.3%; C: 0.3%; P: 0.1%). We expect real spending rose 0.3% m/m and nominal spending rose 0.5%. Real goods spending is stronger, up 0.8% m/m, led by autos,",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "25291493ae03e881",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ding (MSe: 0.3%; C: 0.3%; P: 0.1%). We expect real spending rose 0.3% m/m and nominal spending rose 0.5%. Real goods spending is stronger, up 0.8% m/m, led by autos, with real services spending flat. ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "5180ca12baab7357",
+        "value": 0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ect real spending rose 0.3% m/m and nominal spending rose 0.5%. Real goods spending is stronger, up 0.8% m/m, led by autos, with real services spending flat. We expect nominal personal income rose 0.4",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "8f699bc8366753f1",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "up 0.8% m/m, led by autos, with real services spending flat. We expect nominal personal income rose 0.4% m/m in July, with labor compensation up 0.5% (rental income has been softening slightly.) We ex",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "654f5055dad6cf3c",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "spending flat. We expect nominal personal income rose 0.4% m/m in July, with labor compensation up 0.5% (rental income has been softening slightly.) We expect the saving rate fell slightly from 4.5% i",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "5f4e648c17d75381",
+        "value": 0.045,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "n up 0.5% (rental income has been softening slightly.) We expect the saving rate fell slightly from 4.5% in June to 4.3% in July. - 8:30am EST - US July Core PCE (MSe: 0.27% m/m, 2.91% y/y; C: 0.3%; P",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "332021b7db5d7afb",
+        "value": 0.043,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "l income has been softening slightly.) We expect the saving rate fell slightly from 4.5% in June to 4.3% in July. - 8:30am EST - US July Core PCE (MSe: 0.27% m/m, 2.91% y/y; C: 0.3%; P: 0.3%) & Headli",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "212a1c6e682e18c3",
+        "value": 0.0027,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "saving rate fell slightly from 4.5% in June to 4.3% in July. - 8:30am EST - US July Core PCE (MSe: 0.27% m/m, 2.91% y/y; C: 0.3%; P: 0.3%) & Headline PCE (MSe: 0.22% m/m; C: 0.2%; P: 0.3%). Incorporat",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "56a121982bf42161",
+        "value": 0.0291,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "fell slightly from 4.5% in June to 4.3% in July. - 8:30am EST - US July Core PCE (MSe: 0.27% m/m, 2.91% y/y; C: 0.3%; P: 0.3%) & Headline PCE (MSe: 0.22% m/m; C: 0.2%; P: 0.3%). Incorporating our fore",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "2b65ceb93eb171a6",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "from 4.5% in June to 4.3% in July. - 8:30am EST - US July Core PCE (MSe: 0.27% m/m, 2.91% y/y; C: 0.3%; P: 0.3%) & Headline PCE (MSe: 0.22% m/m; C: 0.2%; P: 0.3%). Incorporating our forecast of a slig",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "663d06c1da57a939",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "% in June to 4.3% in July. - 8:30am EST - US July Core PCE (MSe: 0.27% m/m, 2.91% y/y; C: 0.3%; P: 0.3%) & Headline PCE (MSe: 0.22% m/m; C: 0.2%; P: 0.3%). Incorporating our forecast of a slight upwar",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "cb8092f98949c5be",
+        "value": 0.0022,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "- 8:30am EST - US July Core PCE (MSe: 0.27% m/m, 2.91% y/y; C: 0.3%; P: 0.3%) & Headline PCE (MSe: 0.22% m/m; C: 0.2%; P: 0.3%). Incorporating our forecast of a slight upward revision in core PCE for ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "56211ffca99b94e6",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "- US July Core PCE (MSe: 0.27% m/m, 2.91% y/y; C: 0.3%; P: 0.3%) & Headline PCE (MSe: 0.22% m/m; C: 0.2%; P: 0.3%). Incorporating our forecast of a slight upward revision in core PCE for June (+2bp in",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "979453e9c36a9470",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Core PCE (MSe: 0.27% m/m, 2.91% y/y; C: 0.3%; P: 0.3%) & Headline PCE (MSe: 0.22% m/m; C: 0.2%; P: 0.3%). Incorporating our forecast of a slight upward revision in core PCE for June (+2bp in m/m print",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7047e7b75bcf4ed9",
+        "value": 0.0308,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "upward revision in core PCE for June (+2bp in m/m print), we expect the 3-month annualized pace at 3.08% (vs. 2.71% in June), the 6-month at 3.06% (vs. 3.21% prior), and the y/y rate at 2.91% (vs. 2.8",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "883b453f3e5014a6",
+        "value": 0.0271,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ision in core PCE for June (+2bp in m/m print), we expect the 3-month annualized pace at 3.08% (vs. 2.71% in June), the 6-month at 3.06% (vs. 3.21% prior), and the y/y rate at 2.91% (vs. 2.81% in June",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c4d58ad75fc1dff1",
+        "value": 0.030600000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "p in m/m print), we expect the 3-month annualized pace at 3.08% (vs. 2.71% in June), the 6-month at 3.06% (vs. 3.21% prior), and the y/y rate at 2.91% (vs. 2.81% in June). We expect headline PCE rose ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "1dabb45587bf77ff",
+        "value": 0.0321,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "int), we expect the 3-month annualized pace at 3.08% (vs. 2.71% in June), the 6-month at 3.06% (vs. 3.21% prior), and the y/y rate at 2.91% (vs. 2.81% in June). We expect headline PCE rose 0.22% m/m a",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "20b19e738decda60",
+        "value": 0.0291,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ized pace at 3.08% (vs. 2.71% in June), the 6-month at 3.06% (vs. 3.21% prior), and the y/y rate at 2.91% (vs. 2.81% in June). We expect headline PCE rose 0.22% m/m and 2.66% y/y. While prices in good",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "232d304f8c09c98c",
+        "value": 0.0281,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "t 3.08% (vs. 2.71% in June), the 6-month at 3.06% (vs. 3.21% prior), and the y/y rate at 2.91% (vs. 2.81% in June). We expect headline PCE rose 0.22% m/m and 2.66% y/y. While prices in goods more expo",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e724087917d2e4c8",
+        "value": 0.0022,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "3.06% (vs. 3.21% prior), and the y/y rate at 2.91% (vs. 2.81% in June). We expect headline PCE rose 0.22% m/m and 2.66% y/y. While prices in goods more exposed to tariffs continued to increase, other ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ee86cbeec4d3835b",
+        "value": 0.026600000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1% prior), and the y/y rate at 2.91% (vs. 2.81% in June). We expect headline PCE rose 0.22% m/m and 2.66% y/y. While prices in goods more exposed to tariffs continued to increase, other less exposed g",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "211078371c7dd56b",
+        "value": 0.0001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ther less exposed goods categories fell, leaving core goods prices basically flat on the month (MSe 0.01% m/m). We expect services prices accelerated in July. We are now tracking core services ex-hous",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "da8c5e091f1fdf62",
+        "value": 0.0038,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/m). We expect services prices accelerated in July. We are now tracking core services ex-housing at 0.38% m/m. - 8:30am EST - US July Trade Balance (MSe: -98.0; C: -90.0; P: -86.0): Renewed rise in go",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e4e177cf3e6582e1",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e think gold flows added about \\$11bn to the trade gap in July, with other imports rising modestly (+0.5%) and exports slipping slightly. In total, we expect the trade gap widened to \\$98bn. Gold flow",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c3a0855da9fa85e6",
+        "value": 0.034,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "August UMich Consumer Sentiment (C: 58.6; P: 58.6). Long-run inflation expectations fell ½ point to 3.4% in the preliminary report for August. This report pulls in the full month's data. ## Emerging M",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c75afec4a7b719d6",
+        "value": 0.039,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "he full month's data. ## Emerging Markets - Fri 7:00am HKT - Korea July Industrial Production (C: 3.9% y/y; P: 1.6%) - 9:00am HKT - Philippines July Trade Balance (C: -\\(4.30bn; P: -\\)3.95bn); July Ex",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d9decacea047570a",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "'s data. ## Emerging Markets - Fri 7:00am HKT - Korea July Industrial Production (C: 3.9% y/y; P: 1.6%) - 9:00am HKT - Philippines July Trade Balance (C: -\\(4.30bn; P: -\\)3.95bn); July Exports (C: 10.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "76b9b7e674abf961",
+        "value": 0.105,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".6%) - 9:00am HKT - Philippines July Trade Balance (C: -\\(4.30bn; P: -\\)3.95bn); July Exports (C: 10.5% y/y; P: 26.1%); July Imports (C: 0.6% y/y; P: 10.8%) - 10:00am HKT - Singapore July Money Supply",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "672d66e1e42e9938",
+        "value": 0.261,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "m HKT - Philippines July Trade Balance (C: -\\(4.30bn; P: -\\)3.95bn); July Exports (C: 10.5% y/y; P: 26.1%); July Imports (C: 0.6% y/y; P: 10.8%) - 10:00am HKT - Singapore July Money Supply M2 (P: 7.8%",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "6061533368a79b4a",
+        "value": 0.161,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "- 3:30pm HKT - Thailand July Trade Balance (P: \\(3.3bn\\); Exports (P: 16.1% y/y) & Imports (P: 13.8% y/y)) - 6:30pm HKT - India 2Q25 GDP (MSe: 6.8% y/y; C: 6.7%; P: 7.4%). We",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "feb73a41ef6a6a9b",
+        "value": 0.138,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "- 3:30pm HKT - Thailand July Trade Balance (P: \\(3.3bn\\); Exports (P: 16.1% y/y) & Imports (P: 13.8% y/y)) - 6:30pm HKT - India 2Q25 GDP (MSe: 6.8% y/y; C: 6.7%; P: 7.4%). We expect GDP growth to mod",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ce2f09e6d0fcdcdc",
+        "value": 0.068,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "P: \\(3.3bn\\); Exports (P: 16.1% y/y) & Imports (P: 13.8% y/y)) - 6:30pm HKT - India 2Q25 GDP (MSe: 6.8% y/y; C: 6.7%; P: 7.4%). We expect GDP growth to moderate due to slower capital formation. - 6:30",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a5f0e2b53476fcaa",
+        "value": 0.067,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Exports (P: 16.1% y/y) & Imports (P: 13.8% y/y)) - 6:30pm HKT - India 2Q25 GDP (MSe: 6.8% y/y; C: 6.7%; P: 7.4%). We expect GDP growth to moderate due to slower capital formation. - 6:30pm HKT - India",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "8228a18269e1a4ff",
+        "value": 0.07400000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "(P: 16.1% y/y) & Imports (P: 13.8% y/y)) - 6:30pm HKT - India 2Q25 GDP (MSe: 6.8% y/y; C: 6.7%; P: 7.4%). We expect GDP growth to moderate due to slower capital formation. - 6:30pm HKT - India 2Q25 GV",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "38bc8ab93d3c33b3",
+        "value": 0.065,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "expect GDP growth to moderate due to slower capital formation. - 6:30pm HKT - India 2Q25 GVA (MSe: 6.5% y/y; C: 6.4%; P: 6.8%) & July Fiscal Deficit YTD (P: INR2.8tr) - 7:30am BST - Hungary July Trade",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a7373c266348ad8a",
+        "value": 0.064,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "owth to moderate due to slower capital formation. - 6:30pm HKT - India 2Q25 GVA (MSe: 6.5% y/y; C: 6.4%; P: 6.8%) & July Fiscal Deficit YTD (P: INR2.8tr) - 7:30am BST - Hungary July Trade Balance (C: ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d782e3a6f634b286",
+        "value": 0.068,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "oderate due to slower capital formation. - 6:30pm HKT - India 2Q25 GVA (MSe: 6.5% y/y; C: 6.4%; P: 6.8%) & July Fiscal Deficit YTD (P: INR2.8tr) - 7:30am BST - Hungary July Trade Balance (C: EUR0mn; P",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "053f72ecec4590b9",
+        "value": 0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ST - Hungary July Trade Balance (C: EUR0mn; P: EUR1039mn) - 8:00am BST - Czech Republic 2Q GDP (C: 2.4%; P: 2.4%) - 9:00am BST - Poland August CPI (MSe: 2.9% y/y; C: 2.9%; P: 3.1%). After having dropp",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "7d6cc69e8197b2d5",
+        "value": 0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ary July Trade Balance (C: EUR0mn; P: EUR1039mn) - 8:00am BST - Czech Republic 2Q GDP (C: 2.4%; P: 2.4%) - 9:00am BST - Poland August CPI (MSe: 2.9% y/y; C: 2.9%; P: 3.1%). After having dropped signif",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3aff231ab3812e10",
+        "value": 0.028999999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "n) - 8:00am BST - Czech Republic 2Q GDP (C: 2.4%; P: 2.4%) - 9:00am BST - Poland August CPI (MSe: 2.9% y/y; C: 2.9%; P: 3.1%). After having dropped significantly to 3.1%Y in July, we now expect inflat",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "0742a0c37a409cc8",
+        "value": 0.028999999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "BST - Czech Republic 2Q GDP (C: 2.4%; P: 2.4%) - 9:00am BST - Poland August CPI (MSe: 2.9% y/y; C: 2.9%; P: 3.1%). After having dropped significantly to 3.1%Y in July, we now expect inflation to tick ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f8a0fb0870ab8dff",
+        "value": 0.031,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ch Republic 2Q GDP (C: 2.4%; P: 2.4%) - 9:00am BST - Poland August CPI (MSe: 2.9% y/y; C: 2.9%; P: 3.1%). After having dropped significantly to 3.1%Y in July, we now expect inflation to tick down furt",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d97f8d70f8ed5505",
+        "value": 0.031,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "am BST - Poland August CPI (MSe: 2.9% y/y; C: 2.9%; P: 3.1%). After having dropped significantly to 3.1%Y in July, we now expect inflation to tick down further to 2.9%Y in August. Read more - 13:00pm ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "aa9a8ed4abc43db8",
+        "value": 0.028999999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "fter having dropped significantly to 3.1%Y in July, we now expect inflation to tick down further to 2.9%Y in August. Read more - 13:00pm BST - South Africa July Trade Balance (C: ZAR19.7bn; P: ZAR22.0",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "44d09f67ed2ac52e",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e driven by the incoming data.\" ## Emerging Markets - In Korea, BoK maintained its policy rate at 2.50% at its August meeting (MSe: 2.25%; C: 2.50%; P: 2.50%), citing modest improvement in the growth ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "63b9a5e8eadb9e55",
+        "value": 0.0225,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "# Emerging Markets - In Korea, BoK maintained its policy rate at 2.50% at its August meeting (MSe: 2.25%; C: 2.50%; P: 2.50%), citing modest improvement in the growth outlook and the need to further m",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a2543818a6656d80",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Markets - In Korea, BoK maintained its policy rate at 2.50% at its August meeting (MSe: 2.25%; C: 2.50%; P: 2.50%), citing modest improvement in the growth outlook and the need to further monitor move",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "63eb96936ee7cf30",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "- In Korea, BoK maintained its policy rate at 2.50% at its August meeting (MSe: 2.25%; C: 2.50%; P: 2.50%), citing modest improvement in the growth outlook and the need to further monitor movements in",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "14f2e54df714b1a6",
+        "value": 0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nts in house prices and household debt. The BoK revised its 2025 growth forecast slightly higher to 0.9% y/y (P: 0.8%) on the back of a sustained modest recovery in domestic demand as exports graduall",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "437a1bf04c2bf596",
+        "value": 0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "prices and household debt. The BoK revised its 2025 growth forecast slightly higher to 0.9% y/y (P: 0.8%) on the back of a sustained modest recovery in domestic demand as exports gradually slow, while",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "9d6bda6d2d5f666e",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "y in domestic demand as exports gradually slow, while keeping the 2026 growth forecast unchanged at 1.6%. The inflation forecasts were also revised modestly higher, with 2025 headline and core CPI at ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "cad7dec8c612bb6c",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1.6%. The inflation forecasts were also revised modestly higher, with 2025 headline and core CPI at 2.0% y/y (P: 1.9%) and 1.9% y/y (P: 1.9%) respectively, and 2026 headline and core CPI at 1.9% (P: 1",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c555cfbe418de690",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "lation forecasts were also revised modestly higher, with 2025 headline and core CPI at 2.0% y/y (P: 1.9%) and 1.9% y/y (P: 1.9%) respectively, and 2026 headline and core CPI at 1.9% (P: 1.8%) due to<｜",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "9558f7bf93378ec4",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ecasts were also revised modestly higher, with 2025 headline and core CPI at 2.0% y/y (P: 1.9%) and 1.9% y/y (P: 1.9%) respectively, and 2026 headline and core CPI at 1.9% (P: 1.8%) due to<｜end▁of▁sen",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "67c65941d44a97b9",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "lso revised modestly higher, with 2025 headline and core CPI at 2.0% y/y (P: 1.9%) and 1.9% y/y (P: 1.9%) respectively, and 2026 headline and core CPI at 1.9% (P: 1.8%) due to<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "8009f62647405b24",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "re CPI at 2.0% y/y (P: 1.9%) and 1.9% y/y (P: 1.9%) respectively, and 2026 headline and core CPI at 1.9% (P: 1.8%) due to<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "250a7806ea08dbb7",
+        "value": 0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2.0% y/y (P: 1.9%) and 1.9% y/y (P: 1.9%) respectively, and 2026 headline and core CPI at 1.9% (P: 1.8%) due to<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "849a74af0cd61004",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ative 100bp of rate cuts may have boosted growth by 24bp, adding that potential growth may be below 2% due to aging and other structural factors. Rhee stated that FX discussions are ongoing with the U",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "346dbcd982b78a28",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ant a revision to the growth outlook. - In the Philippines, BSP lowered its policy rate by 25bp to 5.00% at its August meeting, as widely expected (MSE: 5.00%; C: 5.00%; P: 5.25%). The central bank sa",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "fc4f650756475408",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "pines, BSP lowered its policy rate by 25bp to 5.00% at its August meeting, as widely expected (MSE: 5.00%; C: 5.00%; P: 5.25%). The central bank said that inflation expectations remain well-anchored a",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "bc6ddbec9534a645",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "lowered its policy rate by 25bp to 5.00% at its August meeting, as widely expected (MSE: 5.00%; C: 5.00%; P: 5.25%). The central bank said that inflation expectations remain well-anchored and the outl",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "330c553323502aaa",
+        "value": 0.0525,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ts policy rate by 25bp to 5.00% at its August meeting, as widely expected (MSE: 5.00%; C: 5.00%; P: 5.25%). The central bank said that inflation expectations remain well-anchored and the outlook for i",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "3c1bf015a3c0d379",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ns remain well-anchored and the outlook for inflation is broadly unchanged, projecting inflation at 1.7% for 2025, 3.3% for 2026, and 3.4% for 2027. It flagged upside risks from possible electricity r",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f26ee7a24a88524b",
+        "value": 0.033,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "anchored and the outlook for inflation is broadly unchanged, projecting inflation at 1.7% for 2025, 3.3% for 2026, and 3.4% for 2027. It flagged upside risks from possible electricity rate adjustments",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "d7885fe783ddafa7",
+        "value": 0.034,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tlook for inflation is broadly unchanged, projecting inflation at 1.7% for 2025, 3.3% for 2026, and 3.4% for 2027. It flagged upside risks from possible electricity rate adjustments and higher rice ta",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "471cdd0a8a72f74c",
+        "value": 0.22,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "is moving away from short-dated issuance. - In Egypt, the CBE lowered its policy rate by 200bp to 22% in a larger-than-expected rate cut (MSE: 22.5%; C: 23.0%; P: 24.0%) ## Economic Releases ## Devel",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "12ee15f633e81eff",
+        "value": 0.225,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "In Egypt, the CBE lowered its policy rate by 200bp to 22% in a larger-than-expected rate cut (MSE: 22.5%; C: 23.0%; P: 24.0%) ## Economic Releases ## Developed Markets - US Q2 GDP Second Estimate: 3.3",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "ad3ef122ca907ea6",
+        "value": 0.23,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "the CBE lowered its policy rate by 200bp to 22% in a larger-than-expected rate cut (MSE: 22.5%; C: 23.0%; P: 24.0%) ## Economic Releases ## Developed Markets - US Q2 GDP Second Estimate: 3.3% q/q (MSE",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "ce8444ab0503b117",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "owered its policy rate by 200bp to 22% in a larger-than-expected rate cut (MSE: 22.5%; C: 23.0%; P: 24.0%) ## Economic Releases ## Developed Markets - US Q2 GDP Second Estimate: 3.3% q/q (MSE: 3.1%; C",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "04e294cb952107a6",
+        "value": 0.033,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2.5%; C: 23.0%; P: 24.0%) ## Economic Releases ## Developed Markets - US Q2 GDP Second Estimate: 3.3% q/q (MSE: 3.1%; C: 3.1%; P: 3.0%). The second estimate of US GDP comes in slightly above expectati",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "01260be040dc8b0f",
+        "value": 0.031,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "P: 24.0%) ## Economic Releases ## Developed Markets - US Q2 GDP Second Estimate: 3.3% q/q (MSE: 3.1%; C: 3.1%; P: 3.0%). The second estimate of US GDP comes in slightly above expectations. Personal co",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c8171f2889691fab",
+        "value": 0.031,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ") ## Economic Releases ## Developed Markets - US Q2 GDP Second Estimate: 3.3% q/q (MSE: 3.1%; C: 3.1%; P: 3.0%). The second estimate of US GDP comes in slightly above expectations. Personal consumptio",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "34fd25d6d40f38ad",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nomic Releases ## Developed Markets - US Q2 GDP Second Estimate: 3.3% q/q (MSE: 3.1%; C: 3.1%; P: 3.0%). The second estimate of US GDP comes in slightly above expectations. Personal consumption revise",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f2813c08883b8bb4",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "econd estimate of US GDP comes in slightly above expectations. Personal consumption revised up from 1.4% to 1.6%. No adjustment in PCE inflation, headline or core. Fixed investment revised up to 3.3% ",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f336c463b2ac8698",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "timate of US GDP comes in slightly above expectations. Personal consumption revised up from 1.4% to 1.6%. No adjustment in PCE inflation, headline or core. Fixed investment revised up to 3.3% from 0.4",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "083bfc87a3f24c30",
+        "value": 0.033,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "from 1.4% to 1.6%. No adjustment in PCE inflation, headline or core. Fixed investment revised up to 3.3% from 0.4%. The decline in structures was reduced (-8.9%; P: -10.3%). IP was revised sharply hig",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "b46692c7c590b160",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "to 1.6%. No adjustment in PCE inflation, headline or core. Fixed investment revised up to 3.3% from 0.4%. The decline in structures was reduced (-8.9%; P: -10.3%). IP was revised sharply higher to 12.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "7c02f6b52885c247",
+        "value": -0.08900000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "line or core. Fixed investment revised up to 3.3% from 0.4%. The decline in structures was reduced (-8.9%; P: -10.3%). IP was revised sharply higher to 12.8% (P: 6.4%). Equipment spending was also rev",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "690667891632bbbd",
+        "value": -0.10300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "re. Fixed investment revised up to 3.3% from 0.4%. The decline in structures was reduced (-8.9%; P: -10.3%). IP was revised sharply higher to 12.8% (P: 6.4%). Equipment spending was also revised sharp",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "bdee30c5fa963b73",
+        "value": 0.128,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "om 0.4%. The decline in structures was reduced (-8.9%; P: -10.3%). IP was revised sharply higher to 12.8% (P: 6.4%). Equipment spending was also revised sharply higher, with final sales to domestic pu",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "4a712117780b2839",
+        "value": 0.064,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "he decline in structures was reduced (-8.9%; P: -10.3%). IP was revised sharply higher to 12.8% (P: 6.4%). Equipment spending was also revised sharply higher, with final sales to domestic purchasers j",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "6c1640ed4b27165f",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ipment spending was also revised sharply higher, with final sales to domestic purchasers jumping to 1.6% (P: 1.1%). This suggests the economy grew about 1.5% in 1H 25, still signalling a moderating ec",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "357be3c9c26b669d",
+        "value": 0.011000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ending was also revised sharply higher, with final sales to domestic purchasers jumping to 1.6% (P: 1.1%). This suggests the economy grew about 1.5% in 1H 25, still signalling a moderating economy, th",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "5ee1fcdd094fc5e2",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "final sales to domestic purchasers jumping to 1.6% (P: 1.1%). This suggests the economy grew about 1.5% in 1H 25, still signalling a moderating economy, though not as sharply as suggested by the advan",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "04d153e8c05eea82",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ance estimate. Finally, the first estimate of gross domestic income rebounded sharply in Q2, rising 4.8% q/q in real terms. The significant rise in GDI (4.8% q/q saar) appears to be driven mainly by \"",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "87dd8b9e51288b37",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "omestic income rebounded sharply in Q2, rising 4.8% q/q in real terms. The significant rise in GDI (4.8% q/q saar) appears to be driven mainly by \"Taxes on production and imports.\" This category rose ",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "812db41ec83c2c33",
+        "value": 230.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ".8% q/q saar) appears to be driven mainly by \"Taxes on production and imports.\" This category rose \\$230bn in the quarter and reflects public-sector tariff revenue. - US Initial Jobless Claims: 229k (",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "eb17456182da28e3",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "229k.- Eurozone August Economic Confidence: 95.2 (MSe: 96.0; C: 96.0; P: 95.7)- Belgium August CPI: 1.9% y/y (MSe: 2.0%; P: 1.9%)- Sweden August Economic Tendency Survey: Shows cautious recovery, but ",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "0d1336443838ddaa",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "August Economic Confidence: 95.2 (MSe: 96.0; C: 96.0; P: 95.7)- Belgium August CPI: 1.9% y/y (MSe: 2.0%; P: 1.9%)- Sweden August Economic Tendency Survey: Shows cautious recovery, but improvement need",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "048f5a4f131eda01",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "conomic Confidence: 95.2 (MSe: 96.0; C: 96.0; P: 95.7)- Belgium August CPI: 1.9% y/y (MSe: 2.0%; P: 1.9%)- Sweden August Economic Tendency Survey: Shows cautious recovery, but improvement needed in re",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "f9c752e8a94d73bd",
+        "value": 0.035,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s Philippines July Budget Balance: - PHP18.9bn (P: - PHP241.6bn) India July Industrial Production: 3.5% y/y (C: 2.2%; P: 1.5%) South Africa July PPI: 1.5% y/y (C: 1.4%; P: 0.6%) Turkey July Trade Bala",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "94b45241245d388f",
+        "value": 0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s July Budget Balance: - PHP18.9bn (P: - PHP241.6bn) India July Industrial Production: 3.5% y/y (C: 2.2%; P: 1.5%) South Africa July PPI: 1.5% y/y (C: 1.4%; P: 0.6%) Turkey July Trade Balance: - US\\(6",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "87ffa721b3f5ef9e",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "dget Balance: - PHP18.9bn (P: - PHP241.6bn) India July Industrial Production: 3.5% y/y (C: 2.2%; P: 1.5%) South Africa July PPI: 1.5% y/y (C: 1.4%; P: 0.6%) Turkey July Trade Balance: - US\\(6.4bn (P: ",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "d26f29eeaf78403c",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "- PHP241.6bn) India July Industrial Production: 3.5% y/y (C: 2.2%; P: 1.5%) South Africa July PPI: 1.5% y/y (C: 1.4%; P: 0.6%) Turkey July Trade Balance: - US\\(6.4bn (P: - US\\)8.2bn) Hungary July Unem",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "312abd30a7643b3b",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ") India July Industrial Production: 3.5% y/y (C: 2.2%; P: 1.5%) South Africa July PPI: 1.5% y/y (C: 1.4%; P: 0.6%) Turkey July Trade Balance: - US\\(6.4bn (P: - US\\)8.2bn) Hungary July Unemployment Rat",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "164b372cf9d0a083",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "uly Industrial Production: 3.5% y/y (C: 2.2%; P: 1.5%) South Africa July PPI: 1.5% y/y (C: 1.4%; P: 0.6%) Turkey July Trade Balance: - US\\(6.4bn (P: - US\\)8.2bn) Hungary July Unemployment Rate: 4.3% (",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "6c18d9c5647c3082",
+        "value": 0.043,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%; P: 0.6%) Turkey July Trade Balance: - US\\(6.4bn (P: - US\\)8.2bn) Hungary July Unemployment Rate: 4.3% (C: 4.4%; P: 4.3%) For more details, please refer to our economists' weekly reports and data pr",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "d63c1ceb22b67080",
+        "value": 0.044000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%) Turkey July Trade Balance: - US\\(6.4bn (P: - US\\)8.2bn) Hungary July Unemployment Rate: 4.3% (C: 4.4%; P: 4.3%) For more details, please refer to our economists' weekly reports and data previews: U",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "ffe2b8a7bc085371",
+        "value": 0.043,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "July Trade Balance: - US\\(6.4bn (P: - US\\)8.2bn) Hungary July Unemployment Rate: 4.3% (C: 4.4%; P: 4.3%) For more details, please refer to our economists' weekly reports and data previews: US Japan Eu",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "74227a61206bbc59",
+        "value": 2.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rategy MORGAN STANLEY & CO. LLC +1 212 761- 1837 ## Currently Active Strategies - US 10y: Total 200%, Trade Longs Only: 100%, Fade Shorts Portfolio: 100% - German 10y: Total 200%, Trade Longs Only:",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "aecec49a8a54d552",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "CO. LLC +1 212 761- 1837 ## Currently Active Strategies - US 10y: Total 200%, Trade Longs Only: 100%, Fade Shorts Portfolio: 100% - German 10y: Total 200%, Trade Longs Only: 100%, Fade Short Portfol",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "3ba84480958dcaa4",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "# Currently Active Strategies - US 10y: Total 200%, Trade Longs Only: 100%, Fade Shorts Portfolio: 100% - German 10y: Total 200%, Trade Longs Only: 100%, Fade Short Portfolio: 100% - Japan 10y: Total",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "60d62145041b04a5",
+        "value": 2.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "es - US 10y: Total 200%, Trade Longs Only: 100%, Fade Shorts Portfolio: 100% - German 10y: Total 200%, Trade Longs Only: 100%, Fade Short Portfolio: 100% - Japan 10y: Total 100%, Trade Longs Only: 0%",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "57b59558867b584c",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ", Trade Longs Only: 100%, Fade Shorts Portfolio: 100% - German 10y: Total 200%, Trade Longs Only: 100%, Fade Short Portfolio: 100% - Japan 10y: Total 100%, Trade Longs Only: 0%, Fade Shorts Portfolio:",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "6cf4af7514a7cc34",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "de Shorts Portfolio: 100% - German 10y: Total 200%, Trade Longs Only: 100%, Fade Short Portfolio: 100% - Japan 10y: Total 100%, Trade Longs Only: 0%, Fade Shorts Portfolio: 100% - UK 10y: Total 200%",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "dedf730c267bcead",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "- German 10y: Total 200%, Trade Longs Only: 100%, Fade Short Portfolio: 100% - Japan 10y: Total 100%, Trade Longs Only: 0%, Fade Shorts Portfolio: 100% - UK 10y: Total 200%, Trade Longs Only: 100%,",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "b53d8c5740fa7e85",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0%, Trade Longs Only: 100%, Fade Short Portfolio: 100% - Japan 10y: Total 100%, Trade Longs Only: 0%, Fade Shorts Portfolio: 100% - UK 10y: Total 200%, Trade Longs Only: 100%, Fade Shorts Portfolio:",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "64343dad1a8c9b2c",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Fade Short Portfolio: 100% - Japan 10y: Total 100%, Trade Longs Only: 0%, Fade Shorts Portfolio: 100% - UK 10y: Total 200%, Trade Longs Only: 100%, Fade Shorts Portfolio: 100% Enhancements to a G4 1",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "037601516f355762",
+        "value": 2.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "100% - Japan 10y: Total 100%, Trade Longs Only: 0%, Fade Shorts Portfolio: 100% - UK 10y: Total 200%, Trade Longs Only: 100%, Fade Shorts Portfolio: 100% Enhancements to a G4 10y government bond futu",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "c12e8ab134079d51",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "l 100%, Trade Longs Only: 0%, Fade Shorts Portfolio: 100% - UK 10y: Total 200%, Trade Longs Only: 100%, Fade Shorts Portfolio: 100% Enhancements to a G4 10y government bond futures momentum strategy h",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "7dc1c481d59fc8af",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Fade Shorts Portfolio: 100% - UK 10y: Total 200%, Trade Longs Only: 100%, Fade Shorts Portfolio: 100% Enhancements to a G4 10y government bond futures momentum strategy have produced higher Sharpe rat",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "f334af44e7a81615",
+        "value": 0.325,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Fade Shorts Portfolio</td><td>Fade Shorts Portfolio</td></tr><tr><td>JB 10y Future</td><td>32.50%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>8/5/2025</td><td>9/10/2025</td><t",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "448e46792a57d4f0",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "horts Portfolio</td><td>Fade Shorts Portfolio</td></tr><tr><td>JB 10y Future</td><td>32.50%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>8/5/2025</td><td>9/10/2025</td><td>8/18/2025</td",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "6e15b0ebc00b4776",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "io</td><td>Fade Shorts Portfolio</td></tr><tr><td>JB 10y Future</td><td>32.50%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>8/5/2025</td><td>9/10/2025</td><td>8/18/2025</td><td>9/24/202",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "3880ea39010da623",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "de Shorts Portfolio</td></tr><tr><td>JB 10y Future</td><td>32.50%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>8/5/2025</td><td>9/10/2025</td><td>8/18/2025</td><td>9/24/2025</td></tr><t",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "856c00bceb0fe25e",
+        "value": 2.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tfolio</td></tr><tr><td>JB 10y Future</td><td>32.50%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>8/5/2025</td><td>9/10/2025</td><td>8/18/2025</td><td>9/24/2025</td></tr><tr><td>GE 10y ",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "2bdc41ba62762101",
+        "value": 0.2925,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5/2025</td><td>9/10/2025</td><td>8/18/2025</td><td>9/24/2025</td></tr><tr><td>GE 10y Future</td><td>29.25%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>7/23/2025</td><td>8/27/2025</td><",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "ae7304889239cf2e",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "9/10/2025</td><td>8/18/2025</td><td>9/24/2025</td></tr><tr><td>GE 10y Future</td><td>29.25%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>7/23/2025</td><td>8/27/2025</td><td>7/30/2025</t",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "d2e0014d1b0f30ae",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>8/18/2025</td><td>9/24/2025</td></tr><tr><td>GE 10y Future</td><td>29.25%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>7/23/2025</td><td>8/27/2025</td><td>7/30/2025</td><td>9/3/202",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "47c24f5e38a0c2a6",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5</td><td>9/24/2025</td></tr><tr><td>GE 10y Future</td><td>29.25%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>7/23/2025</td><td>8/27/2025</td><td>7/30/2025</td><td>9/3/2025</td></tr><t",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "bc6551fbc7267edb",
+        "value": 2.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4/2025</td></tr><tr><td>GE 10y Future</td><td>29.25%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>7/23/2025</td><td>8/27/2025</td><td>7/30/2025</td><td>9/3/2025</td></tr><tr><td>US 10y ",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "1dd51add32b04261",
+        "value": 0.305,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "23/2025</td><td>8/27/2025</td><td>7/30/2025</td><td>9/3/2025</td></tr><tr><td>US 10y Future</td><td>30.50%</td><td>100%</td><td>0%</td><td>100%</td><td>100%</td><td>7/31/2025</td><td>9/5/2025</td><td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "38f988e40ce55997",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">8/27/2025</td><td>7/30/2025</td><td>9/3/2025</td></tr><tr><td>US 10y Future</td><td>30.50%</td><td>100%</td><td>0%</td><td>100%</td><td>100%</td><td>7/31/2025</td><td>9/5/2025</td><td>-</td><td>-</td",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "af13c895dc802386",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>7/30/2025</td><td>9/3/2025</td></tr><tr><td>US 10y Future</td><td>30.50%</td><td>100%</td><td>0%</td><td>100%</td><td>100%</td><td>7/31/2025</td><td>9/5/2025</td><td>-</td><td>-</td></tr><tr><td",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "0de5472bace04548",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2025</td><td>9/3/2025</td></tr><tr><td>US 10y Future</td><td>30.50%</td><td>100%</td><td>0%</td><td>100%</td><td>100%</td><td>7/31/2025</td><td>9/5/2025</td><td>-</td><td>-</td></tr><tr><td>UK 10y Fut",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "195b5f1b0e9c9a74",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "9/3/2025</td></tr><tr><td>US 10y Future</td><td>30.50%</td><td>100%</td><td>0%</td><td>100%</td><td>100%</td><td>7/31/2025</td><td>9/5/2025</td><td>-</td><td>-</td></tr><tr><td>UK 10y Future</td><td>7",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "3889c52e32d7f329",
+        "value": 0.0775,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">100%</td><td>7/31/2025</td><td>9/5/2025</td><td>-</td><td>-</td></tr><tr><td>UK 10y Future</td><td>7.75%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>8/4/2025</td><td>9/9/2025</td><td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "d81e15574ff66a14",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "7/31/2025</td><td>9/5/2025</td><td>-</td><td>-</td></tr><tr><td>UK 10y Future</td><td>7.75%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>8/4/2025</td><td>9/9/2025</td><td>8/15/2025</td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "eb85173c27abe408",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>9/5/2025</td><td>-</td><td>-</td></tr><tr><td>UK 10y Future</td><td>7.75%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>8/4/2025</td><td>9/9/2025</td><td>8/15/2025</td><td>9/22/2025",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "b801c8dfc760eae8",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>-</td><td>-</td></tr><tr><td>UK 10y Future</td><td>7.75%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>8/4/2025</td><td>9/9/2025</td><td>8/15/2025</td><td>9/22/2025</td></tr></t",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "2f5a5e12da192e17",
+        "value": 2.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-</td></tr><tr><td>UK 10y Future</td><td>7.75%</td><td>100%</td><td>100%</td><td>100%</td><td>200%</td><td>8/4/2025</td><td>9/9/2025</td><td>8/15/2025</td><td>9/22/2025</td></tr></table> Source:",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "d3373be9fc2bbfb8",
+        "value": 2.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "enerate both a long and a short signal within the predefined holding period, an investor may have a 200% long position since each of the two signals would be traded in separate portfolio sleeves. ## T",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 3,
+      "tables_count": 0,
+      "numerical_data_count": 174,
+      "passages_count": 83,
+      "entities_count": 20
+    }
+  }
+}

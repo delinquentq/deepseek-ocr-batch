@@ -1,0 +1,3325 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "394b305cc4649cf0adde339a68047e82",
+    "title": "J.P.Morgan",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/JPM/Global Equity Derivatives Strategy Quest thematic allocation framework update AI and fintech remain strategic priorities_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:07:53.140976",
+      "extracted_at": "2025-10-26T12:07:53.140995"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 17,
+        "successful_pages": 17,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/JPM",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 10,
+          "reduction_ratio": 0.05785223253020089
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/JPM"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "61ec16c221fa4536",
+      "text": "Quest thematic allocation framework update: Al and fintech remain strategic priorities, adaptive hedging strategies and implementation ideas",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9ccd006016d5cee6",
+      "text": "AI and Fintech as Thematic Strategic Priorities: We provide an update on our Quest thematic allocation framework since its debut in January 2025. The framework continues to emphasize AI and Fintech as key themes, with overweight positions in semiconductors, software, and capital markets. These segments remain attractive due to favorable growth and price trends, driven by advancements in AI infrastructure and monetization, alongside the rising adoption of blockchain solutions. This year, thematic strategies face challenges such as policy uncertainty and market volatility. However, investors should remain confident in these strategic allocations, as they position the portfolio to capture long- term potential in these high- growth areas.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0a31daf1538c2230",
+      "text": "Dynamically Hedging Market Risks with Term Structure Signals: To better navigate market volatility, we employ a dynamic hedging strategy guided by volatility term structure signals. When markets appear oversold, indicated by a sharp inversion in the implied volatility term structure, we reduce short exposure in MSCI World futures. This approach balances downside protection with the flexibility to capitalize on market rebounds. Since 2014, the dynamic long- short strategy has improved the CAGR/Vol ratio to 0.61 compared to 0.38 for the static version. This approach also performed well in April this year, resulting in an \\(8.3\\%\\) year- to- date return, compared to \\(2.9\\%\\) for the static long- short strategy.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e104255caa836ce3",
+      "text": "Capturing Policy Tailwinds and AI Momentum via Tech ETFs (SMH/ SOXX/XLK) and Custom Baskets: Semiconductors and software remain the highest- ranked sectors in our Quest thematic allocation framework, supported by strong growth fundamentals and price momentum. According to our US Equity Strategy team, the OBBBA adds a clear policy tailwind, with immediate expensing of capex and R&D expected to deliver meaningful tax benefits while reinforcing the ongoing AI and datacenter investment cycle. Investors can gain exposure through ETFs such as SMH, SOXX, and XLK, or via our custom baskets targeting expensing beneficiaries (JPGTIEXB ) and AI/Datacenter infrastructure (JPAIMAIDE ) (link). Options markets in these ETFs continue to trade rich to realized with steep put- call skew, creating favorable conditions for short- volatility structures. In terms of derivatives implementation, we highlight accumulators on ETFs and call spread collars on both ETFs and baskets as efficient ways to capture upside while monetizing volatility and skew premia.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2ba017e5be1348b0",
+      "text": "The Quest thematic allocation framework can be applied to custom portfolio holdings comprising of baskets, ETFs and indices. For investors interested in tailored analysis, please contact us for further details.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "aab5af6a965223d6",
+      "text": "See page 12 for analyst certification and important disclosures.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "28a63043dc76c329",
+      "text": "J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d1fb5cb1732a56c6",
+      "text": "The Quest thematic allocation framework systematically explores investment opportunities by integrating growth potential and price trends, while adjusting to factors like news popularity and liquidity (see here). The framework can be applied to custom portfolio holdings. This report provides an update on the framework's performance and current signals using sector portfolios. By using sector portfolios as proxies for thematic investments, we aim to minimize survival bias and leverage a more comprehensive historical data set for trend analysis.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4eb2aa71a995103f",
+      "text": "In the first 7 months of 2025, our Quest thematic allocation framework has demonstrated performance that is in line with the global equity market, with a year- to- date return of \\(10.9\\%\\) , aligning with the broader MSCI World Index (Figure 1). Since 2014, the strategy has maintained an annualized return of \\(13.2\\%\\) and a CAGR/volatility ratio of 0.84, compared to \\(10\\%\\) and 0.68 for the MSCI World (Figure 2).",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "215e6f7160b1db30",
+      "text": "Our Quest thematic allocation framework emphasizes AI and Fintech as key thematic priorities this year, with overweight positions in Semiconductors, Software, and Capital Markets (Table 1). These sectors are attractive due to favorable growth and price trends, driven by advancements in AI infrastructure and monetization, alongside the rising adoption of blockchain solutions. Despite challenges such as policy uncertainty and market volatility this year, investors should remain confident in these strategic allocations, as they position the portfolio to capture long- term potential in these high- growth areas.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "dcacf17da242bc5a",
+      "text": "Figure 1: Quest thematic allocation strategy performance by year",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "31391b9f5c0950af",
+      "text": "Note: Data as of Jul 31, 2025. Past performance is not an indicator of future results Source: RavenPack, J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance LP",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8a599ee5749c3365",
+      "text": "Figure 2: Key performance statistics for the Quest thematic allocation strategy",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e5bf699c2ee468b6",
+      "text": "Quest allocation strategy (Long only)MSCI WorldStart12/31/201312/31/2013End7/31/20257/31/2025Cumulative return321.2%203.2%CAGR13.2%10.0%Max drawdown-30.7%-34.0%Calmar0.430.29Volatility15.8%14.7%Max drawdown / Volatility-1.95-2.32CAGR / Volatility0.840.68",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4ceb29aea759f633",
+      "text": "Figure 2 Quest thematic allocation strategy performance compared to MSCI World",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e19785ac39017c97",
+      "text": "Note: Data as of Jul 31, 2025. Past performance is not an indicator of future results Source: RavenPack, J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9f681de70804b39d",
+      "text": "Table 1: Weight allocation of Quest thematic allocation strategy in 2025",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "dd20458a9567ee4f",
+      "text": "RankJan-25Feb-25Mar-25Apr-25May-25Jun-25Jul-25Aug-25Average1Capital Markets16.3%16.0%19.9%27.7%17.7%21.0%18.1%20.5%19.6%2Semiconductors &amp;amp; Semiconductor20.0%20.0%0.0%28.6%18.2%0.0%20.0%22.2%16.1%3Software20.0%20.0%22.2%0.0%18.2%0.0%20.0%22.2%15.3%4Entertainment5.5%5.5%7.2%10.1%6.5%8.7%7.5%8.8%7.5%5Health Care Equipment &amp;amp; Suppli9.3%9.4%12.0%16.6%0.0%0.0%0.0%0.0%5.9%6Broadline Retail14.0%15.1%17.7%0.0%0.0%0.0%0.0%-0.0%5.8%7Hotels, Restaurants &amp;amp; Leisure8.5%8.1%10.5%0.0%0.0%0.0%9.2%10.2%5.8%8Electronic Equipment, Instrume3.1%3.1%3.7%5.2%3.4%4.2%3.6%4.0%3.8%9Electrical Equipment0.0%0.0%0.0%7.2%4.6%6.0%5.1%5.9%3.6%10Aerospace &amp;amp; Defense0.0%0.0%0.0%0.0%11.3%14.4%0.0%0.0%3.2%11Biotechnology0.0%0.0%0.0%0.0%8.1%8.3%7.1%0.0%2.9%12IT Services0.0%0.0%0.0%0.0%7.0%8.5%7.3%0.0%2.9%13Pharmaceuticals0.0%0.0%0.0%0.0%22.2%0.0%0.0%0.0%2.8%14Life Sciences Tools &amp;amp; Services0.0%0.0%4.7%0.0%0.0%0.0%0.0%4.0%1.1%15Real Estate Management &amp;amp; Devel0.0%0.0%2.1%0.0%2.0%0.0%2.0%2.2%1.0%16Commercial Services &amp;amp; Supplies0.0%0.0%0.0%4.7%3.2%0.0%0.0%0.0%1.0%17Diversified Telecommunication0.0%0.0%0.0%0.0%6.6%0.0%0.0%0.0%8.8%18Media2.6%2.2%0.0%0.0%0.0%0.0%-0.0%0.0%0.6%19Containers &amp;amp; Packaging0.7%0.6%0.0%0.0%0.0%0.0%-0.0%0.0%0.2%",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "a8107c45088359d7",
+      "text": "Note: Industries that are never selected in 2025 are hidden in the table. Source: RavenPack, J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "d4abcde3ee78a9cf",
+      "text": "Table 2: Yearly return attribution for the Quest thematic allocation strategy",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1bec386be8c840b4",
+      "text": "YearRank IndexTop performing portfolioBottom performing portfolioTop performing portfolioBottom performing portfolioReturncontribution. IndexReturncontribution.YearRank IndexReturncontribution. IndexReturncontribution.20251 Capital Markets3.3% Software-0.8%20191 Software3.9% Interactive Media &amp;amp; Services-0.9%20252 Entertainment2.1% Hotels, Restaurants &amp;amp; Leisure-0.7%20192 Semiconductors &amp;amp; Semiconductor3.3% Health Care Providers &amp;amp; Service0.0%20253 Aerospace &amp;amp; Defense1.7% Life Sciences Tools &amp;amp; Services-0.3%20193 Financial Services3.1% Building Products0.0%20254 Electrical Equipment1.7% Media-0.1%20194 Pharmaceuticals2.9% Food Products0.0%20255 Semiconductors &amp;amp; Semiconductor0.9% Containers &amp;amp; Packaging0.0%20195 Health Care Equipment &amp;amp; Supply2.5% Containers &amp;amp; Packaging0.1%20241 Semiconductors &amp;amp; Semiconductor6.8% Diversified Telecommunication-0.9%20181 Interactive Media &amp;amp; Services1.9% Pharmaceuticals-1.3%20242 Capital Markets4.6% Interactive Media &amp;amp; Services-1.7%20182 Software1.5% Health Care Providers &amp;amp; Service-1.2%20243 Broadline Retail4.5% Professional Services-0.6%20183 Oil, Gas &amp;amp; Consumable Fuels1.3% Aerospace &amp;amp; Defense-1.0%20244 Pharmaceuticals1.5% Oil, Gas &amp;amp; Consumable Fuels-0.1%20184 Financial Services0.6% Biotechnology-0.9%20245 Entertainment1.3% Multi-Utilities-0.1%20185 Chemicals0.4% Entertainment-0.7%20231 Software8.5% IT Services-0.9%20171 Semiconductors &amp;amp; Semiconductor6.1% Biotechnology-0.2%20232 Semiconductors &amp;amp; Semiconductor6.7% Pharmaceuticals-0.9%20172 Software4.2% Broadline Retail-0.1%20233 Interactive Media &amp;amp; Services5.8% Professional Services-0.4%20173 Interactive Media &amp;amp; Services2.8% Health Care Providers &amp;amp; Service-0.1%20234 Health Care Equipment &amp;amp; Supply2.8% Biotechnology-0.3%20174 Machinery2.3% Containers &amp;amp; Packaging0.1%20235 Hotels, Restaurants &amp;amp; Leisure2.5% Electrical Equipment-0.3%20175 Health Care Equipment &amp;amp; Supply1.4% Energy Equipment &amp;amp; Services0.1%20221 Insurance2.3% Software-8.6%20161 Semiconductors &amp;amp; Semiconductor2.9% Pharmaceuticals-2.3%20222 Aerospace &amp;amp; Defense1.5% Health Care Providers &amp;amp; Service-1.2%20162 Metals &amp;amp; Mining2.3% Biotechnology-1.1%20223 Health Care Providers &amp;amp; Service1.4% Aerospace &amp;amp; Defense-1.0%20163 Oil, Gas &amp;amp; Consumable Fuels1.0% Interactive Media &amp;amp; Services-0.7%20224 Biotechnology1.4% Biotechnology-0.9%20164 Food Products0.9% Health Care Providers &amp;amp; Service-0.2%20225 Pharmaceuticals1.2% Entertainment-0.7%20165 Health Care Equipment &amp;amp; Supply0.8% Broadline Retail-0.1%20211 Semiconductors &amp;amp; Semiconductor10.1% Aerospace &amp;amp; Defense-2.2%20151 Interactive Media &amp;amp; Services2.8% Oil, Gas &amp;amp; Consumable Fuels-3.3%20212 Automobiles4.2% Interactive Media &amp;amp; Services-1.7%20152 Health Care Providers &amp;amp; Service1.3% Diversified Telecommunication-0.8%20213 Life Sciences Tools &amp;amp; Services1.5% Professional Services-0.6%20153 Health Care Equipment &amp;amp; Supply0.8% Capital Markets-0.6%20214 Specialty Retail1.0% Oil, Gas &amp;amp; Consumable Fuels-0.1%20154 Aerospace &amp;amp; Defense0.8% Entertainment-0.5%20215 Banks0.8% Multi-Utilities-0.1%20155 Biotechnology0.7% Electric Utilities-0.4%20201 Semiconductors &amp;amp; Semiconductor7.5% Aerospace &amp;amp; Defense-2.2%20141 Biotechnology5.0% Financial Services-0.5%20202 Broadline Retail7.5% Interactive Media &amp;amp; Services-1.7%20142 Semiconductors &amp;amp; Semiconductor3.0% Household Durables-0.4%20203 Automobiles2.5% Professional Services-0.6%20143 Health Care Providers &amp;amp; Service1.5% Broadline Retail-0.3%20204 Life Sciences Tools &amp;amp; Services1.8% Oil, Gas &amp;amp; Consumable Fuels-0.1%20144 Electric Utilities1.2% Energy Equipment &amp;amp; Services-0.2%20205 Textiles, Apparel &amp;amp; Luxury Goo1.6% Multi-Utilities-0.1%20145 Software0.7% Containers &amp;amp; Packaging-0.1%",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3b1d0b566d628bbd",
+      "text": "Note: Data as of Jul 31, 2025. Past performance is not an indicator of future results Source: RavenPack, J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "71dba17b46856964",
+      "text": "The strategy continues to emphasize AI and Fintech as its strategic priorities, with high allocation in Semiconductors, Software, and Capital Markets. These sectors remain attractive due to favorable growth and price trends. Based on our analysis of news data, Capital Markets is linked to blockchain and fintech adoption, while Semiconductors are associated with cloud computing and AI infrastructure, and Software is tied to AI applications and cybersecurity (Table 3). The ongoing excitement around artificial intelligence has spotlighted AI infrastructure and monetization, driving gains in semiconductors and related software. At the same time, the rise of cryptocurrencies, stablecoins, and digital platforms has boosted Capital Markets, reflecting how financial technology continues to reshape investor behavior. Together, these sectors have significantly contributed to performance, anchoring the strategy to themes with long- term potential in high- growth areas.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e5382b28edeb9136",
+      "text": "The scorecard generated from the thematic allocation framework can assist investors in determining which themes to consider and when to take action. It serves as a tool for guiding thematic asset allocation strategies.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "91527c4db40ffc43",
+      "text": "Why this matters: Investors often encounter difficulties in selecting themes and timing their investments. The scorecard addresses this challenge by offering a structured framework for evaluating themes, reducing reliance on subjective",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "7ba56a4c08175501",
+      "text": "**How it helps investors:** The scorecard provides a comparative ranking of themes based on core factors such as growth potential, earnings revisions, and price trends. Adjustments for liquidity-related signals, like news popularity and liquidity, make the scorecard responsive to changes in market conditions. This approach helps investors prioritize themes with strong potential while considering current market influences.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b0b3f33ed618b5c0",
+      "text": "**How to read it:** Each theme is scored across the core factors of the framework. Themes with higher composite scores represent stronger investment opportunities based on both fundamental and market-driven criteria. The scorecard also includes trend indicators, offering guidance on whether a theme's attractiveness is rising or declining, providing actionable insights for portfolio allocation.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ff194cd0e6dc625f",
+      "text": "For more details, please refer to **Introducing the Quest thematic allocation framework**",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "701538f80fc74ea4",
+      "text": "Table 3: The scorecard derived from the thematic allocation framework provides an objective and standardized evaluation of investment themes",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "8d705f10ab8c30eb",
+      "text": "PortfolioLiquidity-driven modeCompositeScoreRelated investment themeLates weightGrowth trendPrice trend12345Software22.2%107✓0.80Artificial IntelligenceCybersecurityCloud-computingRobotics and Automation FintechSemiconductors &amp; Semiconductor22.2%88✓0.80Cloud-computingArtificial IntelligenceMetaverseCybersecurityAutonomous VehicleCapital Markets20.5%910✓1.00BlockchainFintechCrypto-CurrencyHotels, Restaurants &amp; Leisure10.2%88✓0.90Food SecurityE-sportsEntertainment8.8%99✓0.80E-sportsMetaverseElectrical Equipment5.9%910✓1.00Energy EfficiencyRenewable EnergyElectric VehicleArtificial IntelligenceWind EnergyElectronic Equipment, Instrume4.0%910✓1.00Energy EfficiencyEducation TechnologyFuture MobilityElectric VehicleRobotics and AutomationLife Sciences Tools &amp; Services4.0%104-0.80GenomicsSustainable WaterRobotics and Automation Hydrogen EnergySustainable Food and AgReal Estate Management &amp; Devel2.2%89✓0.80Solar energySmart CityPopulation AgeingBlockchainMetaverse",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5278e806bdd418c6",
+      "text": "Note: Data as of Jul 31, 2025",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7cd0baf2eb3f2b0b",
+      "text": "Source: RavenPack, J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5e9779d3ae17d5ad",
+      "text": "While AI and fintech remain the core of the strategy, we recognize the risks of sharp market corrections. In April 2025, for instance, tariff threats from the Trump administration triggered a \\(17\\%\\) market drop, and our strategy experienced a deeper drawdown of \\(21\\%\\) . To better navigate such episodes, we employ a dynamic hedging overlay using volatility term structure signals.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "02914041dab30111",
+      "text": "Unlike a static hedge, which maintains a constant short position in MSCI World futures, this approach scales hedge exposure according to market conditions. When markets appear oversold—indicated by a sharp inversion in the implied volatility term structure (1Y- 3M ATM vol spread \\(Figure 4: Integrating term structure signal into the hedging mechanism can help capture the rebound after market stress periods",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "adbb903b1fc0878c",
+      "text": "Source: RavenPack, J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "0aebfc9e1f46a167",
+      "text": "Figure 5: YTD performance history of Quest allocation long-short strategy with and without term structure signal",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "9a2f1f7f43baec8c",
+      "text": "Source: RavenPack, J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P. Note: Past performance is not an indicator of future results",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8b06733df5d07db7",
+      "text": "Methodology: We back- tested the effectiveness of term structure signal in long- short strategy. The default setting is keeping \\(100\\%\\) of hedge on all the time, while using term structure signal to tell us when to reduce hedge. To be more",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "78891f4e0e7c9a1e",
+      "text": "conservative, we only take off \\(50\\%\\) of the hedge when the signal is triggered. That said, we always have at least \\(50\\%\\) of the hedge on top of the strategy.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0b5b6a6f901cd087",
+      "text": "- **Short instrument**: MSCI World futures",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "a16c7052d5771888",
+      "text": "- **Rebalance frequency of the short leg**: We adjust the notional of the short leg on a weekly basis to match that of long leg.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "4ba02a03bd1bba89",
+      "text": "- **Benchmark**: Keep \\(100\\%\\) of hedge on all the time, i.e., we match the notional of the short leg with the long leg every week.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e11768ce565fd757",
+      "text": "- **Enhanced long-short strategy using term structure signal**: When 1Y – 3M implied vol spread of \\(\\text{TPX} Hedge using MSCI World futuresQuest allocation strategy (Long only)MSCI WorldLong short (term structure signal)Long short (hedge ratio = 1)Start12/31/201312/31/201312/31/201312End7/31/20257/31/20257/31/20257Cumulative return321.2%203.2%127.1%68.9%CAGR13.2%10.0%7.3%4.6%Max drawdown-30.7%-34.0%-12.8%-11.3%Calmar0.430.290.570.41Volatility15.8%14.7%12.0%12.3%Max drawdown/Volatility-1.95-2.32-1.07-0.92CAGR/Volatility0.840.680.610.38Return by year201413.2%4.9%6.9%2015-0.8%-0.9%-1.0%-0.3%201616.0%7.5%-1.1%-0.3%201727.3%22.4%5.3%5.3%2018-3.5%-9.4%9.2%9.0%201928.9%28.6%4.4%2.3%202030.4%15.9%27.4%11.4%202116.9%21.8%-2.2%4.2%202213.3%18.1%15.1%8.2%202327.3%23.8%8.1%8.1%202420.7%18.7%9.3%7.2%2025 YTD10.9%10.9%8.3%2.9%",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "688bdeaa5bbb7ed5",
+      "text": "Note: Data as of Jul 31, 2025. Past performance is not an indicator of future results\nSource: J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "58e57f92f9239ad7",
+      "text": "Since 2020, the term structure signal has been particularly effective, capturing rebounds following drawdowns and resulting in a \\(27.4\\%\\) return for the long- short strategy utilizing the signal, compared to \\(11.4\\%\\) for the strategy without it. This approach also performed well in April this year, resulting in an \\(8.3\\%\\) year- to- date return, compared to \\(2.9\\%\\) for the static hedging strategy. This demonstrates the term structure signal's ability to enhance returns by dynamically adjusting to market conditions.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "821405ce28061a8e",
+      "text": "Semiconductor and software stocks continue to carry the heaviest weights in our Quest thematic allocation framework. These sectors consistently rank at the top in both growth characteristics and price momentum, and the alignment of fundamentals with price signals has kept them as structural overweight positions in our model. Their leadership within the framework reflects both durability of earnings growth and resilience of market trends.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "443090b6e0a5c6fd",
+      "text": "The One Big Beautiful Bill Act (OBBBA) provides a thematic tailwind that complements this positioning (see here). Its immediate expensing provisions for capital expenditures and R&D are expected to generate significant tax savings for capital- intensive industries, with particular benefit to technology hardware, software, and AI- related companies. The timing of these provisions is especially relevant, as they overlap with an ongoing wave of AI and datacenter investment in which semiconductors remain at the core. Together, these dynamics suggest that the OBBBA will act as a sector- level catalyst over the next 6 to 18 months, reinforcing the signals captured by the Quest framework with a clear policy driver.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "de6759cbb1f72e40",
+      "text": "Figure 6: Semiconductor and Software industry weights for major tech ETFs and custom baskets",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "df691d337270ef24",
+      "text": "Based on GICS Industry (level 3) Source: J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "1a883d0212360514",
+      "text": "Figure 7: YTD performance for major tech ETFs and custom baskets",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "ee86005b868bf38a",
+      "text": "Source: J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P. Note: Past performance is not an indicator of future results",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "a4212ed5525dd885",
+      "text": "In listed markets, ETFs such as SMH, SOXX, and XLK provide liquid access to these sectors, along with a liquid options markets. In addition, investors may consider our Immediate Expensing Beneficiaries basket (JPGTIEXB Index) and AI/Datacenter basket (JPAMAIDE Index), which target these themes more directly. While options are not listed on the baskets, we can implement OTC options or swaps to gain exposure. Please refer to the report for more detailed basket construction methodology.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "bdf1cd9d7cb29de8",
+      "text": "From a pricing standpoint, options markets in SMH, SOXX, and XLK display conditions that favor strategies with a short- volatility and short- skew bias. Long- dated implied volatility trades at a premium to realized, while skew has steepened on persistent hedging demand ahead of upcoming policy events including the NFP (9/5) and the FOMC (9/18). The gap between 1Y ATM implied and 1M realized is 2.0 vol in SOXX, 2.8 vol in SMH, and 0.9 vol in XLK. These dynamics allow investors to extract value from option premia while retaining exposure to sector upside.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "d0d89d5abae192dd",
+      "text": "Figure 8: Implied and realized volatility history for major tech ETFs",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "6786042bcfd248b5",
+      "text": "Source: J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "3493a9431f5ac70b",
+      "text": "An accumulator is one implementation for ETFs, allowing investors to build long exposure at discounted levels while systematically monetizing rich implied volatility. The structure benefits from low realized volatility: if the underlying remains range- bound, the discount embedded at inception is locked in.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "4ed183a49d90735d",
+      "text": "Figure 9: Indicative pricing for accumulators",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "6f517d772d082cfe",
+      "text": "UnderlyingGuaranteed PeriodsSettlement FrequencyTenor (m)KO (%)Strike(%)SMH US1mWeekly1210584.12SOXX US1mWeekly1210586.63XLK US1mWeekly1210590.14",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "5e85ce3ea2b68668",
+      "text": "Prices as of 26 August 2025. Accumulators: 1Y maturity, 2x leverage below strike level, monthly settlement, client receives 50bps upfront Knockout at \\(105\\%\\) , the guaranteed period in an accumulator ensures that if a knockout event occurs within this timeframe, the client will receive a predetermined number of shares at the strike price. Source: J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "e8b2cfd5dab615d0",
+      "text": "For both ETFs and baskets, a call spread collar is a natural alternative. By selling a put and buying a call spread, investors monetize expensive downside skew to fund upside participation. A variation can embed barriers to improve cost efficiency—for example, selling a knock- in put while buying a knock- out call. Setting the knock- in barrier at a distant out- of- the- money level allows investors to capture volatility premium while keeping the likelihood of barrier activation low. Meanwhile, the knock- out condition on the call reduces premium outlay while maintaining meaningful upside exposure up to the barrier.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "209fe79d1531f032",
+      "text": "Figure 10: Indicative pricing for buying a call spread and selling a put at zero cost",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "09251ba49c44563d",
+      "text": "UnderlyingOption expiryLong call strikeShort call strikeShort put strikeSMH US18Sep26105.0%115.0%82.0%SOXX US18Sep26105.0%115.0%83.0%XLK US18Sep26105.0%115.0%92.0%JPAMAIDE18Sep26105.0%115.0%88.6%",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "62f88461f84f72cf",
+      "text": "Prices as of 22 August 2025. Source: J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "f278fea7e35080bf",
+      "text": "Figure 11: Indicative pricing for buying a knock-out call and selling a knock-in put at zero cost",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "bdfe61970642fba2",
+      "text": "UnderlyingOption expiryLong KO callShort KI putStrikeBarrierStrikeBarrierSMH US18Sep26100.0%142.3%100.0%70.0%SOXX US18Sep26100.0%140.6%100.0%70.0%XLK US18Sep26100.0%128.1%100.0%85.0%",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "b8b6b916a93af281",
+      "text": "Continuous observation for the knock-in and knock-out barriers. Prices as of 22 August 2025. Source: J.P. Morgan Equity Derivatives Strategy; Bloomberg Finance L.P.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "dfbb58286972afc2",
+      "text": "We prefer buying swaps to gain exposure to our Immediate Expensing Beneficiaries basket (JPGTIEXB Index), as the pricing of a call spread collar on the basket is not attractive given the basket's low implied volatility.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "21b21a2d30052282",
+      "text": "Risks to Strategies: Not all option strategies are suitable for investors; certain strategies may expose investors to significant potential losses. We have summarized the risks of selected derivative strategies. For additional risk information, please call your sales representative for a copy of \"Characteristics and Risks of Standardized Options.\" We advise investors to consult their tax advisors and legal counsel about the tax implications of these strategies. Please also refer to option risk disclosure documents.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "fac9f59653cfd37a",
+      "text": "Put Sale: Investors who sell put options will own the underlying asset if the asset's price falls below the strike price of the put option. Investors, therefore, will be exposed to any decline in the underlying asset's price below the strike potentially to zero, and they will not participate in any price appreciation in the underlying asset if the option expires unexercised.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "4db958023f5f24ec",
+      "text": "Call Sale: Investors who sell uncovered call options have exposure on the upside that is theoretically unlimited.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "85eaa425ea9dfe07",
+      "text": "Call Overwrite or Buywrite: Investors who sell call options against a long position in the underlying asset give up any appreciation in the underlying asset's price above the strike price of the call option, and they remain exposed to the downside of the underlying asset in the return for the receipt of the option premium.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "bcebe922b323fdff",
+      "text": "Booster: In a sell- off, the maximum realized downside potential of a double- up booster is the net premium paid. In a rally, option losses are potentially unlimited as the investor is net short a call. When overlaid onto a long position in the underlying asset, upside losses are capped (as for a covered call), but downside losses are not.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "1b8b052c278ca4b9",
+      "text": "Collar: Locks in the amount that can be realized at maturity to a range defined by the put and call strike. If the collar is not costless, investors risk losing \\(100\\%\\) of the premium paid. Since investors are selling a call option, they give up any price appreciation in the underlying asset above the strike price of the call option.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "f1af88efc0479aba",
+      "text": "Call Purchase: Options are a decaying asset, and investors risk losing \\(100\\%\\) of the premium paid if the underlying asset's price is below the strike price of the call option.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "40ca908e0676c4ff",
+      "text": "Put Purchase: Options are a decaying asset, and investors risk losing \\(100\\%\\) of the premium paid if the underlying asset's price is above the strike price of the put option.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "906ba8e74719fe6e",
+      "text": "Straddle or Strangle: The seller of a straddle or strangle is exposed to increases in the underlying asset's price above the call strike and declines in the underlying asset's price below the put strike. Since exposure on the upside is theoretically unlimited, investors who also own the underlying asset would have limited losses should the underlying asset rally. Covered writers are exposed to declines in the underlying asset position as well as any additional exposure should the underlying asset decline below the strike price of the put option. Having sold a covered call option, the investor gives up all appreciation in the underlying asset above the strike price of the call option.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "604ddff6f7c118ad",
+      "text": "Put Spread: The buyer of a put spread risks losing \\(100\\%\\) of the premium paid. The buyer of higher- ratio put spread has unlimited downside below the lower strike (down to zero), dependent on the number of lower- struck puts sold. The maximum gain is limited to the spread between the two put strikes, when the underlying is at the lower strike. Investors who own the underlying asset will have downside protection between the higher- strike put and the lower- strike put. However, should the underlying asset's price fall below the strike price of the lower- strike put, investors regain exposure to the underlying asset, and this exposure is multiplied by the number of puts sold.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3e03d06cb3f6c60e",
+      "text": "Call Spread: The buyer risks losing \\(100\\%\\) of the premium paid. The gain is limited to the spread between the two strike prices. The seller of a call spread risks losing an amount equal to the spread between the two call strikes less the net premium received. By selling a covered call spread, the investor remains exposed to the downside of the underlying asset and gives up the spread between the two call strikes should the underlying asset rally.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "1ae802054c279d50",
+      "text": "Butterfly Spread: A butterfly spread consists of two spreads established simultaneously - one a bull spread and the other a bear spread. The resulting position is neutral, that is, the investor will profit if the underlying is stable. Butterfly spreads are established at a net debit. The maximum profit will occur at the middle strike price; the maximum loss is the net debit.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "deb09af63c5a8d39",
+      "text": "Pricing Is Illustrative Only: Prices quoted in the above trade ideas are our estimate of current market levels, and are not indicative trading levels.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "6a7c9af40cefed85",
+      "text": "Analyst Certification: The Research Analyst(s) denoted by an \"AC\" on the cover of this report certifies (or, where multiple Research Analysts are primarily responsible for this report, the Research Analyst denoted by an \"AC\" on the cover or within the document individually certifies, with respect to each security or issuer that the Research Analyst covers in this research) that: (1) all of the views expressed in this report accurately reflect the Research Analyst's personal views about any and all of the subject securities or issuers; and (2) no part of any of the Research Analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the Research Analyst(s) in this report. For all Korea- based Research Analysts listed on the front cover, if applicable, they also certify, as per KOFIA requirements, that the Research Analyst's analysis was made in good faith and that the views reflect the Research Analyst's own opinion, without undue influence or intervention.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "32411ad47cec51dc",
+      "text": "All authors named within this report are Research Analysts who produce independent research unless otherwise specified. In Europe, Sector",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "21d5aefd61c02068",
+      "text": "Specialists (Sales and Trading) may be shown on this report as contacts but are not authors of the report or part of the Research Department.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "f2f0277d5f798fa8",
+      "text": "J.P. Morgan uses the following rating system: Overweight (over the duration of the price target indicated in this report, we expect this stock will outperform the average total return of the stocks in the Research Analyst's, or the Research Analyst's team's, coverage universe); Neutral (over the duration of the price target indicated in this report, we expect this stock will perform in line with the average total return of the stocks in the Research Analyst's, or the Research Analyst's team's, coverage universe); and Underweight (over the duration of the price target indicated in this report, we expect this stock will underperform the average total return of the stocks in the Research Analyst's, or the Research Analyst's team's, coverage universe. NR is Not Rated. In this case, J.P. Morgan has removed the rating and, if applicable, the price target, for this stock because of either a lack of a sufficient fundamental basis or for legal, regulatory or policy reasons. The previous rating and, if applicable, the price target, no longer should be relied upon. An NR designation is not a recommendation or a rating. In Americas equity research, some stocks under coverage have a rating but no price target; in these cases, we expect the stock will outperform/perform in line/underperform the average total return of the stocks in the Research Analyst's, or the Research Analyst's team's, coverage universe over the next six to 12 months. In our Asia (ex- Australia and ex- India) and U.K. small- and mid- cap Equity Research, each stock's expected total return is compared to the expected total return of a benchmark country market index, not to those Research Analysts' coverage universe. If it does not appear in the Important Disclosures section of this report, the certifying Research Analyst's coverage universe can be found on J.P. Morgan's Research website, https://www.jpmorganmarkets.com.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "35364621e4543ad3",
+      "text": "J.P. Morgan Equity Research Ratings Distribution, as of July 05, 2025",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "a7d10e425c33f109",
+      "text": "Overweight (buy)Neutral (hold)Underweight (sell)J.P. Morgan Global Equity Research Coverage*50%37%13%IB clients**50%48%35%JPMS Equity Research Coverage*47%41%12%IB clients**72%69%51%",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "3f17fcfa3cbf1ead",
+      "text": "\\*Please note that the percentages may not add to \\(100\\%\\) because of rounding. \\*\\*Percentage of subject companies within each of the \"buy,\" \"hold\" and \"sell\" categories for which J.P. Morgan has provided investment banking services within the previous 12 months.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "875010c8355c1765",
+      "text": "For purposes of FINRA ratings distribution rules only, our Overweight rating falls into a buy rating category; our Neutral rating falls into a hold rating category; and our Underweight rating falls into a sell rating category. Please note that stocks with an NR designation are not included in the table above. This information is current as of the end of the most recent calendar quarter.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "8f8d08dcaa0d65d5",
+      "text": "A history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & Commentary page of http://www.jpmorganmarkets.com where you can also search by analyst name, sector or financial instrument.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "433d1e1d2c6be126",
+      "text": "Analysts' Compensation: The research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "e041ebb97b473a8c",
+      "text": "Registration of non- US Analysts: Unless otherwise noted, the non- US analysts listed on the front of this report are employees of non- US affiliates of J.P. Morgan Securities LLC, may not be registered as research analysts under FINRA rules, may not be associated persons of J.P. Morgan Securities LLC, and may not be subject to FINRA Rule 2241 or 2242 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "b8d0b399732f29ea",
+      "text": "UK MIFID FICC research unbundling exemption: UK clients should refer to UK MIFID Research Unbundling exemption for details of J.P. Morgan’s implementation of the FICC research exemption and guidance on relevant FICC research categorisation.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "a041177cfc4daeed",
+      "text": "All research material made available to clients are simultaneously available on our client website, J.P. Morgan Markets, unless specifically permitted by relevant laws. Not all research content is redistributed, e- mailed or made available to third- party aggregators. For all research material available on a particular stock, please contact your sales representative.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "f9df94f9573cd35c",
+      "text": "Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "957fbb7a9b2753c1",
+      "text": "J.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or administered by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this report is intended to be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such Sanctioned Securities. Clients should be aware of their own legal and compliance obligations when making investment decisions.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "e2c58fc33752d81e",
+      "text": "Any digital or crypto assets discussed in this research report are subject to a rapidly changing regulatory landscape. For relevant regulatory advisories on crypto assets, including bitcoin and ether, please see https://www.jpmorgan.com/disclosures/cryptoasset- disclosure.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "3e42eca18999fa70",
+      "text": "The author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold themselves out as being able to do so.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "1ae31f83f17e5475",
+      "text": "Exchange- Traded Funds (ETFs): J.P. Morgan Securities LLC (“JPMS”) acts as authorized participant for substantially all U.S.- listed ETFs. To the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction- based compensation in connection with the distribution of those ETF shares and may earn fees for performing other trade- related services, such as securities lending to short sellers of the ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or dealer to the ETFs. In addition, affiliates of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, index calculation and/or maintenance and other services.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "5109f6d0d7cf90d1",
+      "text": "Options and Futures related research: If the information contained herein regards options- or futures- related research, such information is available only to persons who have received the proper options or futures risk disclosure documents. Please contact your J.P. Morgan Representative or visit https://www.theocc.com/components/docs/riskstoc.pdf for a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options or",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "c85299b49cc99ab3",
+      "text": "https://www.finra.org/sites/default/files/2020- 08/Security_Futures_Risk_Disclosure_Statement_2020.pdf for a copy of the Security Futures Risk Disclosure Statement.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "74e6d96052964255",
+      "text": "Changes to Interbank Offered Rates (IBORs) and other benchmark rates: Certain interest rate benchmarks are, or may in the future become, subject to ongoing international, national and other regulatory guidance, reform and proposals for reform. For more information, please consult: https://www.jpmorgan.com/global/disclosures/interbank_offered_rates",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "6885f004c51f2cd0",
+      "text": "Private Bank Clients: Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its subsidiaries (“J.P. Morgan Private Bank”), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, including, but not limited to, the J.P. Morgan Corporate and Investment Bank and its Global Research division.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "dbf1e514b0136285",
+      "text": "Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of this research. Where more than one legal entity is listed under an analyst’s name, the first legal entity is responsible for the production unless stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated below in the legal entity disclosures, this material has been distributed by the legal entity responsible for production, or where more than one legal entity is listed under the analyst’s name, the first legal entity will be responsible for distribution. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "1656633195756d57",
+      "text": "Legal Entities Disclosures and Country-/Region- Specific Disclosures:",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "812c14d5c26beadf",
+      "text": "Argentina: JPMorgan Chase Bank N.A Sucursal Buenos Aires is regulated by Banco Central de la República Argentina (“BCRA”- Central Bank of Argentina) and Comisión Nacional de Valores (“CNV”- Argentinian Securities Commission - ALYC y AN Integral N°51).",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "ea0708c0da68fc80",
+      "text": "Australia: J.P. Morgan Securities Australia Limited (“JPMSAL”) (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the Australian Securities and Investments Commission and is a Market Participant of ASX Limited, a Clearing and Settlement Participant of ASX Clear Pty Limited and a Clearing Participant of ASX Clear (Futures) Pty Limited. This material is issued and distributed in Australia by or on behalf of JPMSAL only to \"wholesale clients\" (as defined in section 761G of the Corporations Act 2001). A list of all financial products covered can be found by visiting https://www.jpmm.com/research/disclosures. J.P. Morgan seeks to cover companies of relevance to the domestic and international investor base across all Global Industry Classification Standard (GICS) sectors, as well as across a range of market capitalisation sizes. If applicable, in the course of conducting public side due diligence on the subject company(ies), the Research Analyst team may at times perform such diligence through corporate engagements such as site visits, discussions with company representatives, management presentations, etc. Research issued by JPMSAL has been prepared in accordance with J.P. Morgan Australia’s Research Independence Policy which can be found at the following link: J.P. Morgan Australia - Research Independence Policy.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "ef478cabae854e84",
+      "text": "Canada: J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Canadian Investment Regulatory Organization and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed in Canada by or on behalf of J.P. Morgan Securities Canada Inc.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "ac829e9486dce70b",
+      "text": "Chile: Inversiones J.P. Morgan Limitada is an unregulated entity incorporated in Chile.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "150a7143e7bf0a5f",
+      "text": "China: J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy business.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "7a4501cb1b8a0944",
+      "text": "Colombia: Banco J.P. Morgan Colombia S.A. is supervised by the Superintendencia Financiera de Colombia (SFC).",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "d17d2b25b002b45a",
+      "text": "Dubai International Financial Centre (DIFC): JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO Box 506551, Dubai, UAE. This material has been distributed by JPMorgan Chase Bank, N.A., Dubai Branch to persons regarded as professional clients or market counterparties as defined under the DFSA rules.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "884636649996330e",
+      "text": "European Economic Area (EEA): Unless specified to the contrary, research is distributed in the EEA by J.P. Morgan SE (\"JPM SE\"), which is authorised as a credit institution by the Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and jointly supervised by the BaFin, the German Central Bank (Deutsche Bundesbank) and the European Central Bank (ECB). JPM SE is a company headquartered in Frankfurt with registered address at TaunusTurm, Taunustor 1, Frankfurt am Main, 60310, Germany. The material has been distributed in the EEA to persons regarded as professional investors (or equivalent) pursuant to Art. 4 para. 1 no. 10 and Annex II of MiFID II and its respective implementation in their home jurisdictions (\"EEA professional investors\"). This material must not be acted on or relied on by persons who are not EEA professional investors. Any investment or investment activity to which this material relates is only available to EEA relevant persons and will be engaged in only with EEA relevant persons.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "345f51fbc1ed71d0",
+      "text": "Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is regulated by the Securities and Futures Commission in Hong Kong. J.P. Morgan Chase Bank, N.A., Hong Kong Branch (CE Number AAL996) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission, is organized under the laws of the United States with limited liability. Where the distribution of this material is a regulated activity in Hong Kong, the material is distributed in Hong Kong by or through J.P. Morgan Securities (Asia Pacific) Limited and/or J.P. Morgan Broking (Hong Kong) Limited.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "94a475feecb230f7",
+      "text": "Indonesia: PT J.P. Morgan Sekuritas Indonesia is a member of the Indonesia Stock Exchange and is registered and supervised by the Otoritas Jasa Keuangan (OJK).",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "054a25e87a72667a",
+      "text": "Korea: J.P. Morgan Securities (Far East) Limited, Seoul Branch, is a member of the Korea Exchange (KRX). JPMorgan Chase Bank, N.A., Seoul Branch, is licensed as a branch office of foreign bank (JPMorgan Chase Bank, N.A.) in Korea. Both entities are regulated by the Financial Services Commission (FSC) and the Financial Supervisory Service (FSS). For non- macro research material, the material is distributed in Korea by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "081de205406ef731",
+      "text": "Japan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services Agency in Japan.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "a97087f4263b1eeb",
+      "text": "Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146- X), which is a Participating Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission in Malaysia.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "cb39ea8de898d9ae",
+      "text": "Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V. and J.P. Morgan Grupo Financiero are members of the Mexican Stock Exchange and are authorized to act as a broker dealer by the National Banking and Securities Exchange Commission.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "0fcae99f975d10a9",
+      "text": "New Zealand: This material is issued and distributed by JPMSAI in New Zealand only to \"wholesale clients\" (as defined in the Financial Markets Conduct Act 2013). JPMSAI is registered as a Financial Service Provider under the Financial Service providers (Registration and",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "e7a2d052fda90042",
+      "text": "Dispute Resolution) Act of 2008.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "123df1fb2ce8958c",
+      "text": "Philippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the Securities Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and Exchange Commission.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "073069205e26de26",
+      "text": "Singapore: This material is issued and distributed in Singapore by or through J.P. Morgan Securities Singapore Private Limited (JPMSS) [MDDI (P) 057/08/2025 and Co. Reg. No.: 199405335R], which is a member of the Singapore Exchange Securities Trading Limited, and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore), both of which are regulated by the Monetary Authority of Singapore. This material is issued and distributed in Singapore only to accredited investors, expert investors and institutional investors, as defined in Section 4A of the Securities and Futures Act, Cap. 289 (SFA). This material is not intended to be issued or distributed to any retail investors or any other investors that do not fall into the classes of \"accredited investors,\" \"expert investors\" or \"institutional investors,\" as defined under Section 4A of the SFA. Recipients of this material in Singapore are to contact JPMSS or JPMCB Singapore in respect of any matters arising from, or in connection with, the material.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "0adb100781a00d04",
+      "text": "South Africa: J.P. Morgan Equities South Africa Proprietary Limited and JPMorgan Chase Bank, N.A., Johannesburg Branch are members of the Johannesburg Securities Exchange and are regulated by the Financial Services Conduct Authority (FSCA).",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "69a643bed1738a3b",
+      "text": "Taiwan: J.P. Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company- type) and regulated by the Taiwan Securities and Futures Bureau. Material relating to equity securities is issued and distributed in Taiwan by J.P. Morgan Securities (Taiwan) Limited, subject to the license scope and the applicable laws and the regulations in Taiwan. To the extent that J.P. Morgan Securities (Taiwan) Limited produces research materials on securities not listed on the Taiwan Stock Exchange or Taipei Exchange (\"Non- Taiwan Listed Securities\"), these materials shall not constitute securities recommendations for the purpose of applicable Taiwan regulations, and, for the avoidance of doubt, J.P. Morgan Securities (Taiwan) Limited does not act as broker for Non- Taiwan Listed Securities. According to Paragraph 2, Article 7- 1 of Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers (as amended or supplemented) and/or other applicable laws or regulations, please note that the recipient of this material is not permitted to engage in any activities in connection with the material that may give rise to conflicts of interests, unless otherwise disclosed in the \"Important Disclosures\" in this material.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "023cbe8d2cb4baea",
+      "text": "Thailand: This material is issued and distributed in Thailand by JPMorgan Securities (Thailand) Ltd., which is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission, and its registered address is 3rd Floor, 20 North Sathorn Road, Silom, Bangrak, Bangkok 10500.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "e38aafbdc8ed2d10",
+      "text": "UK: Research is produced in the UK by J.P. Morgan Securities plc (\"JPMS plc\") which is a member of the London Stock Exchange and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority or J.P. Morgan Markets Limited (\"JPMML Ltd\") which is authorised and regulated by the Financial Conduct Authority. Unless specified to the contrary, this material is distributed in the UK by JPMS plc and is directed in the UK only to: (a) persons having professional experience in matters relating to investments falling within article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) (Order) 2005 (\"the FPO\"); (b) persons outlined in article 49 of the FPO (high net worth companies, unincorporated associations or partnerships, the trustees of high value trusts, etc.); or (c) any persons to whom this communication may otherwise lawfully be made; all such persons being referred to as \"UK relevant persons\". This material must not be acted on or relied on by persons who are not UK relevant persons. Any investment or investment activity to which this material relates is only available to UK relevant persons and will be engaged in only with UK relevant persons. A description of J.P. Morgan EMEA's policy for prevention and avoidance of conflicts of interest related to the production of Research can be found at the following link: J.P. Morgan EMEA - Research Independence Policy.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "846f32cd54f52e76",
+      "text": "U.S.: J.P. Morgan Securities LLC (\"JPMS\") is a member of the NYSE, FINRA, SIPC, and the NFA. JPMorgan Chase Bank, N.A. is a member of the FDIC. Material published by non- U.S. affiliates is distributed in the U.S. by JPMS who accepts responsibility for its content.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "9f5a1f904214b2af",
+      "text": "General: Additional information is available upon request. The information in this material has been obtained from sources believed to be reliable. While all reasonable care has been taken to ensure that the facts stated in this material are accurate and that the forecasts, opinions and expectations contained herein are fair and reasonable, JPMorgan Chase & Co. or its affiliates and/or subsidiaries (collectively J.P. Morgan) make no representations or warranties whatsoever to the completeness or accuracy of the material provided, except with respect to any disclosures relative to J.P. Morgan and the Research Analyst's involvement with the issuer that is the subject of the material. Accordingly, no reliance should be placed on the accuracy, fairness or completeness of the information contained in this material. There may be certain discrepancies with data and/or limited content in this material as a result of calculations, adjustments, translations to different languages, and/or local regulatory restrictions, as applicable. These discrepancies should not impact the overall investment analysis, views and/or recommendations of the subject company(ies) that may be discussed in the material. Artificial intelligence tools may have been used in the preparation of this material, including assisting in data analysis, pattern recognition, and content drafting for research material. J.P. Morgan accepts no liability whatsoever for any loss arising from any use of this material or its contents, and neither J.P. Morgan nor any of its respective directors, officers or employees, shall be in any way responsible for the contents hereof, apart from the liabilities and responsibilities that may be imposed on them by the relevant regulatory authority in the jurisdiction in question, or the regulatory regime thereunder. Opinions, forecasts or projections contained in this material represent J.P. Morgan's current opinions or judgment as of the date of the material only and are therefore subject to change without notice. Periodic updates may be provided on companies/industries based on company- specific developments or announcements, market conditions or any other publicly available information. There can be no assurance that future results or events will be consistent with any such opinions, forecasts or projections, which represent only one possible outcome. Furthermore, such opinions, forecasts or projections are subject to certain risks, uncertainties and assumptions that have not been verified, and future actual results or events could differ materially. The value",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "489e7a7d11eb3dc5",
+      "text": "of, or income from, any investments referred to in this material may fluctuate and/or be affected by changes in exchange rates. All pricing is indicative as of the close of market for the securities discussed, unless otherwise stated. Past performance is not indicative of future results. Accordingly, investors may receive back less than originally invested. This material is not intended as an offer or solicitation for the purchase or sale of any financial instrument. The opinions and recommendations herein do not take into account individual client circumstances, objectives, or needs and are not intended as recommendations of particular securities, financial instruments or strategies to particular clients. This material may include views on structured securities, options, futures and other derivatives. These are complex instruments, may involve a high degree of risk and may be appropriate investments only for sophisticated investors who are capable of understanding and assuming the risks involved. The recipients of this material must make their own independent decisions regarding any securities or financial instruments mentioned herein and should seek advice from such independent financial, legal, tax or other adviser as they deem necessary. J.P. Morgan may trade as a principal on the basis of the Research Analysts' views and research, and it may also engage in transactions for its own account or for its clients' accounts in a manner inconsistent with the views taken in this material, and J.P. Morgan is under no obligation to ensure that such other communication is brought to the attention of any recipient of this material. Others within J.P. Morgan, including Strategists, Sales staff and other Research Analysts, may take views that are inconsistent with those taken in this material. Employees of J.P. Morgan not involved in the preparation of this material may have investments in the securities (or derivatives of such securities) mentioned in this material and may trade them in ways different from those discussed in this material. This material is not an advertisement for or marketing of any issuer, its products or services, or its securities in any jurisdiction.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "31d11474d91bdf5a",
+      "text": "Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "29866f5613fa954b",
+      "text": "MSCI: Certain information herein (\"Information\") is reproduced by permission of MSCI Inc., its affiliates and information providers (\"MSCI\") ©2025. No reproduction or dissemination of the Information is permitted without an appropriate license. MSCI MAKES NO EXPRESS OR IMPLIED WARRANTIES (INCLUDING MERCHANTABILITY OR FITNESS) AS TO THE INFORMATION AND DISCLAIMS ALL LIABILITY TO THE EXTENT PERMITTED BY LAW. No information constitutes investment advice, except for any applicable Information from MSCI ESG Research. Subject also to msc.com/disclaimer",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "6e7a201fd3e37084",
+      "text": "Sustainalytics: Certain information, data, analyses and opinions contained herein are reproduced by permission of Sustainalytics and: (1) includes the proprietary information of Sustainalytics; (2) may not be copied or redistributed except as specifically authorized; (3) do not constitute investment advice nor an endorsement of any product or project; (4) are provided solely for informational purposes; and (5) are not warranted to be complete, accurate or timely. Sustainalytics is not responsible for any trading decisions, damages or other losses related to it or its use. The use of the data is subject to conditions available at https://www.sustainalytics.com/legal- disclaimers. ©2025 Sustainalytics. All Rights Reserved.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "f6f7f94fc7cb3517",
+      "text": "\"Other Disclosures\" last revised August 02, 2025.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "1748f4af0bf6284b",
+      "text": "Copyright 2025 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third- party (\"J.P. Morgan Data\") in any third- party artificial intelligence (\"AI\") systems or models when such J.P. Morgan Data is accessible by a third- party. It is permissible to use J.P. Morgan Data for internal business purposes only in an AI system or model that protects the confidentiality of J.P. Morgan Data so as to prevent any and all access to or use of such J.P. Morgan Data by any third- party.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "67cec63cf8727332",
+      "text": "Completed 28 Aug 2025 06:06 PM HKT",
+      "page": 16,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "39648bedcf2f4a19",
+      "name": "AFS Licence",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6c8f46b924ddd0a3",
+      "name": "AI Momentum",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0e89cfc2054df5ce",
+      "name": "AN Integral",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0ef0c39c126f6fa4",
+      "name": "ASX Clear",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cc3137194d646091",
+      "name": "ASX Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a416231886f0fa52",
+      "name": "All Rights",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "51568ed014eb22db",
+      "name": "Allocation Details",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "783f70a024710eb5",
+      "name": "An NR",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "517917b86efb07cf",
+      "name": "Analyst Certification",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21cd74fee7a13752",
+      "name": "Annex II",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f4758147dc564ecb",
+      "name": "Argentinian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5cd2adc9e2a5254e",
+      "name": "Artificial Intelligence",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "babb54828c5096a2",
+      "name": "Australia Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bc98bb53ad7f2a24",
+      "name": "Australian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d8d8c42cd1fb476e",
+      "name": "Automation Fintech",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "36273982c28abf23",
+      "name": "Automation Hydrogen",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2eaf75d1366965f5",
+      "name": "Autonomous Vehicle",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "34925fcaabe8def5",
+      "name": "Banco Central",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3157eba8635b8055",
+      "name": "Big Beautiful",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "bar",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025 YTD"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -25,
+              "max": 30
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Quest allocation strategy (Long only)",
+            "unit": "%",
+            "values": [
+              16.5,
+              -14.0,
+              26.5,
+              20.5,
+              10.5
+            ]
+          },
+          {
+            "name": "MSCI World",
+            "unit": "%",
+            "values": [
+              21.5,
+              -19.0,
+              23.5,
+              18.5,
+              10.8
+            ]
+          }
+        ],
+        "figure_id": "248bf3274cee480c",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "SOXX",
+              "SMH",
+              "XLK",
+              "JPGTIEXB",
+              "JPAMAIDE"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Semiconductors & Semiconductor Equipment Weight (%)",
+            "unit": "%",
+            "values": [
+              99,
+              92,
+              36,
+              14,
+              12
+            ]
+          },
+          {
+            "name": "Software Weight (%)",
+            "unit": "%",
+            "values": [
+              0,
+              7,
+              36,
+              28,
+              16
+            ]
+          }
+        ],
+        "figure_id": "921c5ebb5c9b9572",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 60,
+              "max": 150
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "SOXX",
+            "unit": null,
+            "values": [
+              100,
+              105,
+              95,
+              80,
+              85,
+              105,
+              115,
+              130
+            ]
+          },
+          {
+            "name": "SMH",
+            "unit": null,
+            "values": [
+              100,
+              100,
+              90,
+              80,
+              90,
+              100,
+              110,
+              120
+            ]
+          },
+          {
+            "name": "XLK",
+            "unit": null,
+            "values": [
+              100,
+              100,
+              90,
+              80,
+              90,
+              100,
+              110,
+              115
+            ]
+          },
+          {
+            "name": "JPGTIEXB",
+            "unit": null,
+            "values": [
+              100,
+              100,
+              95,
+              85,
+              95,
+              100,
+              105,
+              110
+            ]
+          },
+          {
+            "name": "JPAMAIDE",
+            "unit": null,
+            "values": [
+              100,
+              105,
+              95,
+              75,
+              85,
+              105,
+              120,
+              140
+            ]
+          }
+        ],
+        "figure_id": "0425b5db83363884",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan 23",
+              "Jul 23",
+              "Jan 24",
+              "Jul 24",
+              "Jan 25",
+              "Jul 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 10,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "SOXX 1Y ATM implied volatility",
+            "unit": null,
+            "values": [
+              32,
+              30,
+              28,
+              30,
+              32,
+              28
+            ]
+          },
+          {
+            "name": "SOXX 1M realized volatility",
+            "unit": null,
+            "values": [
+              38,
+              25,
+              35,
+              20,
+              48,
+              25
+            ]
+          },
+          {
+            "name": "SMH 1Y ATM implied volatility",
+            "unit": null,
+            "values": [
+              32,
+              30,
+              28,
+              30,
+              32,
+              28
+            ]
+          },
+          {
+            "name": "SMH 1M realized volatility",
+            "unit": null,
+            "values": [
+              38,
+              25,
+              35,
+              20,
+              48,
+              25
+            ]
+          },
+          {
+            "name": "XLK 1Y ATM implied volatility",
+            "unit": null,
+            "values": [
+              28,
+              25,
+              22,
+              25,
+              28,
+              22
+            ]
+          },
+          {
+            "name": "XLK 1M realized volatility",
+            "unit": null,
+            "values": [
+              35,
+              20,
+              30,
+              15,
+              45,
+              15
+            ]
+          }
+        ],
+        "figure_id": "d0c22d11d4339e41",
+        "provenance": {
+          "page": 10
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "bb358da68e62a2af",
+        "value": 3.2119999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>End</td><td>7/31/2025</td><td>7/31/2025</td></tr><tr><td>Cumulative return</td><td>321.2%</td><td>203.2%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td></tr><tr><td>Max drawdow",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8ccf0ef80ef5158a",
+        "value": 2.032,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>End</td><td>7/31/2025</td><td>7/31/2025</td></tr><tr><td>Cumulative return</td><td>321.2%</td><td>203.2%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td></tr><tr><td>Max drawdown</td><td>-30.7",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "77482b22dd973734",
+        "value": 0.132,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2025</td></tr><tr><td>Cumulative return</td><td>321.2%</td><td>203.2%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td></tr><tr><td>Max drawdown</td><td>-30.7%</td><td>-34.0%</td></tr><tr><td>Cal",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1e377bd28a7f4adb",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>Cumulative return</td><td>321.2%</td><td>203.2%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td></tr><tr><td>Max drawdown</td><td>-30.7%</td><td>-34.0%</td></tr><tr><td>Calmar</td><td>0.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3ae7e06c2aaa9822",
+        "value": -0.307,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>203.2%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td></tr><tr><td>Max drawdown</td><td>-30.7%</td><td>-34.0%</td></tr><tr><td>Calmar</td><td>0.43</td><td>0.29</td></tr><tr><td>Volatility<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d886743689b7b791",
+        "value": -0.34,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td></tr><tr><td>Max drawdown</td><td>-30.7%</td><td>-34.0%</td></tr><tr><td>Calmar</td><td>0.43</td><td>0.29</td></tr><tr><td>Volatility</td><td>15.8%</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "306da6758c782cd0",
+        "value": 0.158,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>-34.0%</td></tr><tr><td>Calmar</td><td>0.43</td><td>0.29</td></tr><tr><td>Volatility</td><td>15.8%</td><td>14.7%</td></tr><tr><td>Max drawdown / Volatility</td><td>-1.95</td><td>-2.32</td></tr>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2ba9706a42c403cb",
+        "value": 0.147,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>Calmar</td><td>0.43</td><td>0.29</td></tr><tr><td>Volatility</td><td>15.8%</td><td>14.7%</td></tr><tr><td>Max drawdown / Volatility</td><td>-1.95</td><td>-2.32</td></tr><tr><td>CAGR /",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5d9b0d89ba9a5ccc",
+        "value": 0.163,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "25</td><td>Jul-25</td><td>Aug-25</td><td>Average</td></tr><tr><td>1</td><td>Capital Markets</td><td>16.3%</td><td>16.0%</td><td>19.9%</td><td>27.7%</td><td>17.7%</td><td>21.0%</td><td>18.1%</td><td>20",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5da4cccc0458792a",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-25</td><td>Aug-25</td><td>Average</td></tr><tr><td>1</td><td>Capital Markets</td><td>16.3%</td><td>16.0%</td><td>19.9%</td><td>27.7%</td><td>17.7%</td><td>21.0%</td><td>18.1%</td><td>20.5%</td><td>19",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5433a97619251083",
+        "value": 0.19899999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "g-25</td><td>Average</td></tr><tr><td>1</td><td>Capital Markets</td><td>16.3%</td><td>16.0%</td><td>19.9%</td><td>27.7%</td><td>17.7%</td><td>21.0%</td><td>18.1%</td><td>20.5%</td><td>19.6%</td></tr><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "182d3e846d1e95b7",
+        "value": 0.27699999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "verage</td></tr><tr><td>1</td><td>Capital Markets</td><td>16.3%</td><td>16.0%</td><td>19.9%</td><td>27.7%</td><td>17.7%</td><td>21.0%</td><td>18.1%</td><td>20.5%</td><td>19.6%</td></tr><tr><td>2</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f5ea414ee57fd845",
+        "value": 0.177,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><tr><td>1</td><td>Capital Markets</td><td>16.3%</td><td>16.0%</td><td>19.9%</td><td>27.7%</td><td>17.7%</td><td>21.0%</td><td>18.1%</td><td>20.5%</td><td>19.6%</td></tr><tr><td>2</td><td>Semiconduct",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5406e0620b3e1a15",
+        "value": 0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>Capital Markets</td><td>16.3%</td><td>16.0%</td><td>19.9%</td><td>27.7%</td><td>17.7%</td><td>21.0%</td><td>18.1%</td><td>20.5%</td><td>19.6%</td></tr><tr><td>2</td><td>Semiconductors &amp;amp; ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "54b996ae45ff29dc",
+        "value": 0.18100000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Markets</td><td>16.3%</td><td>16.0%</td><td>19.9%</td><td>27.7%</td><td>17.7%</td><td>21.0%</td><td>18.1%</td><td>20.5%</td><td>19.6%</td></tr><tr><td>2</td><td>Semiconductors &amp;amp; Semiconductor<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "9e8a0a6543c6437c",
+        "value": 0.205,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>16.3%</td><td>16.0%</td><td>19.9%</td><td>27.7%</td><td>17.7%</td><td>21.0%</td><td>18.1%</td><td>20.5%</td><td>19.6%</td></tr><tr><td>2</td><td>Semiconductors &amp;amp; Semiconductor</td><td>20.0%<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f34cbfcfa13b08a6",
+        "value": 0.196,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>16.0%</td><td>19.9%</td><td>27.7%</td><td>17.7%</td><td>21.0%</td><td>18.1%</td><td>20.5%</td><td>19.6%</td></tr><tr><td>2</td><td>Semiconductors &amp;amp; Semiconductor</td><td>20.0%</td><td>20.0%<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "cb231781de4d866f",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>20.5%</td><td>19.6%</td></tr><tr><td>2</td><td>Semiconductors &amp;amp; Semiconductor</td><td>20.0%</td><td>20.0%</td><td>0.0%</td><td>28.6%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f7bacaafbbaa644d",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>19.6%</td></tr><tr><td>2</td><td>Semiconductors &amp;amp; Semiconductor</td><td>20.0%</td><td>20.0%</td><td>0.0%</td><td>28.6%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>16.1",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5f42e2ad7a03af37",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>2</td><td>Semiconductors &amp;amp; Semiconductor</td><td>20.0%</td><td>20.0%</td><td>0.0%</td><td>28.6%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>16.1%</td></tr><tr",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "48de2e552f2a8e70",
+        "value": 0.28600000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>2</td><td>Semiconductors &amp;amp; Semiconductor</td><td>20.0%</td><td>20.0%</td><td>0.0%</td><td>28.6%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>16.1%</td></tr><tr><td>3</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "4de820736a4276a1",
+        "value": 0.182,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "miconductors &amp;amp; Semiconductor</td><td>20.0%</td><td>20.0%</td><td>0.0%</td><td>28.6%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>16.1%</td></tr><tr><td>3</td><td>Software</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ea786563587d14cd",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "amp;amp; Semiconductor</td><td>20.0%</td><td>20.0%</td><td>0.0%</td><td>28.6%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>16.1%</td></tr><tr><td>3</td><td>Software</td><td>20.0%</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "eceb27af862cc796",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "conductor</td><td>20.0%</td><td>20.0%</td><td>0.0%</td><td>28.6%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>16.1%</td></tr><tr><td>3</td><td>Software</td><td>20.0%</td><td>20.0%</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5db4ba5e19059e55",
+        "value": 0.222,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>20.0%</td><td>20.0%</td><td>0.0%</td><td>28.6%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>16.1%</td></tr><tr><td>3</td><td>Software</td><td>20.0%</td><td>20.0%</td><td>22.2%</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "27def579f40f2a02",
+        "value": 0.161,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>20.0%</td><td>0.0%</td><td>28.6%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>16.1%</td></tr><tr><td>3</td><td>Software</td><td>20.0%</td><td>20.0%</td><td>22.2%</td><td>0.0%</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "02d4e67517aa65d3",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>16.1%</td></tr><tr><td>3</td><td>Software</td><td>20.0%</td><td>20.0%</td><td>22.2%</td><td>0.0%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "9730df1eb1334303",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>20.0%</td><td>22.2%</td><td>16.1%</td></tr><tr><td>3</td><td>Software</td><td>20.0%</td><td>20.0%</td><td>22.2%</td><td>0.0%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>15.3",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "15367b8e8683b6da",
+        "value": 0.222,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>22.2%</td><td>16.1%</td></tr><tr><td>3</td><td>Software</td><td>20.0%</td><td>20.0%</td><td>22.2%</td><td>0.0%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>15.3%</td></tr><tr",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "93e8ab9c0be530f0",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>16.1%</td></tr><tr><td>3</td><td>Software</td><td>20.0%</td><td>20.0%</td><td>22.2%</td><td>0.0%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>15.3%</td></tr><tr><td>4</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f8c52459ee71291b",
+        "value": 0.182,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>3</td><td>Software</td><td>20.0%</td><td>20.0%</td><td>22.2%</td><td>0.0%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>15.3%</td></tr><tr><td>4</td><td>Entertainmen",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "61c5afa696850951",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>3</td><td>Software</td><td>20.0%</td><td>20.0%</td><td>22.2%</td><td>0.0%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>15.3%</td></tr><tr><td>4</td><td>Entertainment</td><td>5.5%",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f4cdd70bd3385d35",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Software</td><td>20.0%</td><td>20.0%</td><td>22.2%</td><td>0.0%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>15.3%</td></tr><tr><td>4</td><td>Entertainment</td><td>5.5%</td><td>5.5%",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5db4ba5e19059e55",
+        "value": 0.222,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>20.0%</td><td>20.0%</td><td>22.2%</td><td>0.0%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>15.3%</td></tr><tr><td>4</td><td>Entertainment</td><td>5.5%</td><td>5.5%</td><td>7.2%<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "c238dab6f801c05e",
+        "value": 0.153,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>20.0%</td><td>22.2%</td><td>0.0%</td><td>18.2%</td><td>0.0%</td><td>20.0%</td><td>22.2%</td><td>15.3%</td></tr><tr><td>4</td><td>Entertainment</td><td>5.5%</td><td>5.5%</td><td>7.2%</td><td>10.1%<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a15355797e9947ac",
+        "value": 0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.0%</td><td>20.0%</td><td>22.2%</td><td>15.3%</td></tr><tr><td>4</td><td>Entertainment</td><td>5.5%</td><td>5.5%</td><td>7.2%</td><td>10.1%</td><td>6.5%</td><td>8.7%</td><td>7.5%</td><td>8.8%</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "d81a10ec15d2da35",
+        "value": 0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>20.0%</td><td>22.2%</td><td>15.3%</td></tr><tr><td>4</td><td>Entertainment</td><td>5.5%</td><td>5.5%</td><td>7.2%</td><td>10.1%</td><td>6.5%</td><td>8.7%</td><td>7.5%</td><td>8.8%</td><td>7.5%</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "17725f447ed0be7d",
+        "value": 0.07200000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>22.2%</td><td>15.3%</td></tr><tr><td>4</td><td>Entertainment</td><td>5.5%</td><td>5.5%</td><td>7.2%</td><td>10.1%</td><td>6.5%</td><td>8.7%</td><td>7.5%</td><td>8.8%</td><td>7.5%</td></tr><tr><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "4c0c93b1146d8aff",
+        "value": 0.10099999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>15.3%</td></tr><tr><td>4</td><td>Entertainment</td><td>5.5%</td><td>5.5%</td><td>7.2%</td><td>10.1%</td><td>6.5%</td><td>8.7%</td><td>7.5%</td><td>8.8%</td><td>7.5%</td></tr><tr><td>5</td><td>He",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "aa1a7d390f2cbec4",
+        "value": 0.065,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>4</td><td>Entertainment</td><td>5.5%</td><td>5.5%</td><td>7.2%</td><td>10.1%</td><td>6.5%</td><td>8.7%</td><td>7.5%</td><td>8.8%</td><td>7.5%</td></tr><tr><td>5</td><td>Health Care Equi",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "16323723a4f7f6ec",
+        "value": 0.087,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>4</td><td>Entertainment</td><td>5.5%</td><td>5.5%</td><td>7.2%</td><td>10.1%</td><td>6.5%</td><td>8.7%</td><td>7.5%</td><td>8.8%</td><td>7.5%</td></tr><tr><td>5</td><td>Health Care Equipment &amp;am",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f86412fa9ea39c00",
+        "value": 0.075,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ntertainment</td><td>5.5%</td><td>5.5%</td><td>7.2%</td><td>10.1%</td><td>6.5%</td><td>8.7%</td><td>7.5%</td><td>8.8%</td><td>7.5%</td></tr><tr><td>5</td><td>Health Care Equipment &amp;amp; Suppli</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a18eabb07e16add3",
+        "value": 0.08800000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>5.5%</td><td>5.5%</td><td>7.2%</td><td>10.1%</td><td>6.5%</td><td>8.7%</td><td>7.5%</td><td>8.8%</td><td>7.5%</td></tr><tr><td>5</td><td>Health Care Equipment &amp;amp; Suppli</td><td>9.3%</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0b0cb466ac9d9935",
+        "value": 0.075,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>5.5%</td><td>7.2%</td><td>10.1%</td><td>6.5%</td><td>8.7%</td><td>7.5%</td><td>8.8%</td><td>7.5%</td></tr><tr><td>5</td><td>Health Care Equipment &amp;amp; Suppli</td><td>9.3%</td><td>9.4%</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "934bc1d5b529a77b",
+        "value": 0.09300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>8.8%</td><td>7.5%</td></tr><tr><td>5</td><td>Health Care Equipment &amp;amp; Suppli</td><td>9.3%</td><td>9.4%</td><td>12.0%</td><td>16.6%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "50e562808e04ee21",
+        "value": 0.094,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>7.5%</td></tr><tr><td>5</td><td>Health Care Equipment &amp;amp; Suppli</td><td>9.3%</td><td>9.4%</td><td>12.0%</td><td>16.6%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>5.9%</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2ceda93f1486f9ce",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>5</td><td>Health Care Equipment &amp;amp; Suppli</td><td>9.3%</td><td>9.4%</td><td>12.0%</td><td>16.6%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>5.9%</td></tr><tr><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "98f9f39b67685279",
+        "value": 0.166,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>5</td><td>Health Care Equipment &amp;amp; Suppli</td><td>9.3%</td><td>9.4%</td><td>12.0%</td><td>16.6%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>5.9%</td></tr><tr><td>6</td><td>Br",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7ba6e61d53ed149f",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ealth Care Equipment &amp;amp; Suppli</td><td>9.3%</td><td>9.4%</td><td>12.0%</td><td>16.6%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>5.9%</td></tr><tr><td>6</td><td>Broadline Retail",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "602d258f7484ce10",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "uipment &amp;amp; Suppli</td><td>9.3%</td><td>9.4%</td><td>12.0%</td><td>16.6%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>5.9%</td></tr><tr><td>6</td><td>Broadline Retail</td><td>14.0",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "9a646d2759cbb59f",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "amp; Suppli</td><td>9.3%</td><td>9.4%</td><td>12.0%</td><td>16.6%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>5.9%</td></tr><tr><td>6</td><td>Broadline Retail</td><td>14.0%</td><td>15.",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "c183e3fbb8a2d74a",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>9.3%</td><td>9.4%</td><td>12.0%</td><td>16.6%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>5.9%</td></tr><tr><td>6</td><td>Broadline Retail</td><td>14.0%</td><td>15.1%</td><td>17",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a3cba3d141b892f3",
+        "value": 0.059000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>9.4%</td><td>12.0%</td><td>16.6%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>5.9%</td></tr><tr><td>6</td><td>Broadline Retail</td><td>14.0%</td><td>15.1%</td><td>17.7%</td><td>0",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "014d5c5b74eebff8",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.0%</td><td>0.0%</td><td>0.0%</td><td>5.9%</td></tr><tr><td>6</td><td>Broadline Retail</td><td>14.0%</td><td>15.1%</td><td>17.7%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>-0.0%<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "6f27aa9fa850abc2",
+        "value": 0.151,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>0.0%</td><td>0.0%</td><td>5.9%</td></tr><tr><td>6</td><td>Broadline Retail</td><td>14.0%</td><td>15.1%</td><td>17.7%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>-0.0%</td><td>5.8%</",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "fe60d9d30f6c5061",
+        "value": 0.177,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0.0%</td><td>5.9%</td></tr><tr><td>6</td><td>Broadline Retail</td><td>14.0%</td><td>15.1%</td><td>17.7%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>-0.0%</td><td>5.8%</td></tr><tr><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "74a991170de259f0",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">5.9%</td></tr><tr><td>6</td><td>Broadline Retail</td><td>14.0%</td><td>15.1%</td><td>17.7%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>-0.0%</td><td>5.8%</td></tr><tr><td>7</td><td>Ho",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5df43ed59012cc71",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><tr><td>6</td><td>Broadline Retail</td><td>14.0%</td><td>15.1%</td><td>17.7%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>0.0%</td><td>-0.0%</td><td>5.8%</td></tr><tr><td>7</td><td>Hotels, Restaur",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "d0e2c83833e17320",
+        "value": 0.033,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Return<br>contribution.</td><td></td><td></td></tr><tr><td>2025</td><td>1 Capital Markets</td><td>3.3% Software</td><td>-0.8%</td><td>2019</td><td>1 Software</td><td>3.9% Interactive Media &amp;amp;",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "af0c06e5a991be62",
+        "value": -0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "on.</td><td></td><td></td></tr><tr><td>2025</td><td>1 Capital Markets</td><td>3.3% Software</td><td>-0.8%</td><td>2019</td><td>1 Software</td><td>3.9% Interactive Media &amp;amp; Services</td><td>-0.9",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "f897967451c8b2e4",
+        "value": 0.039,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>1 Capital Markets</td><td>3.3% Software</td><td>-0.8%</td><td>2019</td><td>1 Software</td><td>3.9% Interactive Media &amp;amp; Services</td><td>-0.9%</td><td></td><td></td></tr><tr><td>2025</td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a3df3e70107496fd",
+        "value": -0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-0.8%</td><td>2019</td><td>1 Software</td><td>3.9% Interactive Media &amp;amp; Services</td><td>-0.9%</td><td></td><td></td></tr><tr><td>2025</td><td>2 Entertainment</td><td>2.1% Hotels, Restauran",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7aa5087e4bb5a870",
+        "value": 0.021,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "amp; Services</td><td>-0.9%</td><td></td><td></td></tr><tr><td>2025</td><td>2 Entertainment</td><td>2.1% Hotels, Restaurants &amp;amp; Leisure</td><td>-0.7%</td><td>2019</td><td>2 Semiconductors &amp;",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "aa9433c0db01a6c7",
+        "value": -0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>2025</td><td>2 Entertainment</td><td>2.1% Hotels, Restaurants &amp;amp; Leisure</td><td>-0.7%</td><td>2019</td><td>2 Semiconductors &amp;amp; Semiconductor</td><td>3.3% Health Care Provide",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7110a7e335fa186d",
+        "value": 0.033,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "mp;amp; Leisure</td><td>-0.7%</td><td>2019</td><td>2 Semiconductors &amp;amp; Semiconductor</td><td>3.3% Health Care Providers &amp;amp; Service</td><td>0.0%</td><td></td><td></td></tr><tr><td>2025</t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e1d09911ccd05c41",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Semiconductors &amp;amp; Semiconductor</td><td>3.3% Health Care Providers &amp;amp; Service</td><td>0.0%</td><td></td><td></td></tr><tr><td>2025</td><td>3 Aerospace &amp;amp; Defense</td><td>1.7% Life",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c4e83a61786390dd",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>0.0%</td><td></td><td></td></tr><tr><td>2025</td><td>3 Aerospace &amp;amp; Defense</td><td>1.7% Life Sciences Tools &amp;amp; Services</td><td>-0.3%</td><td>2019</td><td>3 Financial Services<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d38f540462655a5c",
+        "value": -0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5</td><td>3 Aerospace &amp;amp; Defense</td><td>1.7% Life Sciences Tools &amp;amp; Services</td><td>-0.3%</td><td>2019</td><td>3 Financial Services</td><td>3.1% Building Products</td><td>0.0%</td><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "70e4b80a07721a47",
+        "value": 0.031,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e Sciences Tools &amp;amp; Services</td><td>-0.3%</td><td>2019</td><td>3 Financial Services</td><td>3.1% Building Products</td><td>0.0%</td><td></td><td></td></tr><tr><td>2025</td><td>4 Electrical Equ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "87d0e2556f8a9b89",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ices</td><td>-0.3%</td><td>2019</td><td>3 Financial Services</td><td>3.1% Building Products</td><td>0.0%</td><td></td><td></td></tr><tr><td>2025</td><td>4 Electrical Equipment</td><td>1.7% Media</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "029f993350fd8602",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "roducts</td><td>0.0%</td><td></td><td></td></tr><tr><td>2025</td><td>4 Electrical Equipment</td><td>1.7% Media</td><td>-0.1%</td><td>2019</td><td>4 Pharmaceuticals</td><td>2.9% Food Products</td><td>0",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a1fde36942a76bc2",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td></td><td></td></tr><tr><td>2025</td><td>4 Electrical Equipment</td><td>1.7% Media</td><td>-0.1%</td><td>2019</td><td>4 Pharmaceuticals</td><td>2.9% Food Products</td><td>0.0%</td><td></td><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d5fbe236aa3b9d78",
+        "value": 0.028999999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "lectrical Equipment</td><td>1.7% Media</td><td>-0.1%</td><td>2019</td><td>4 Pharmaceuticals</td><td>2.9% Food Products</td><td>0.0%</td><td></td><td></td></tr><tr><td>2025</td><td>5 Semiconductors &am",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7e64393bfb1ef723",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">1.7% Media</td><td>-0.1%</td><td>2019</td><td>4 Pharmaceuticals</td><td>2.9% Food Products</td><td>0.0%</td><td></td><td></td></tr><tr><td>2025</td><td>5 Semiconductors &amp;amp; Semiconductor</td><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "6b6f55ce6ce94b85",
+        "value": 0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0%</td><td></td><td></td></tr><tr><td>2025</td><td>5 Semiconductors &amp;amp; Semiconductor</td><td>0.9% Containers &amp;amp; Packaging</td><td>0.0%</td><td>2019</td><td>5 Health Care Equipment &amp;a",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "af29db35e5a56edb",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>5 Semiconductors &amp;amp; Semiconductor</td><td>0.9% Containers &amp;amp; Packaging</td><td>0.0%</td><td>2019</td><td>5 Health Care Equipment &amp;amp; Supply</td><td>2.5% Containers &amp;amp;",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ee8c77f29295bfa2",
+        "value": 0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "p;amp; Packaging</td><td>0.0%</td><td>2019</td><td>5 Health Care Equipment &amp;amp; Supply</td><td>2.5% Containers &amp;amp; Packaging</td><td>0.1%</td><td></td><td></td></tr><tr><td>2024</td><td>1 S",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "55c5de6a512263b1",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>5 Health Care Equipment &amp;amp; Supply</td><td>2.5% Containers &amp;amp; Packaging</td><td>0.1%</td><td></td><td></td></tr><tr><td>2024</td><td>1 Semiconductors &amp;amp; Semiconductor</td><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "1855215c95a6488b",
+        "value": 0.068,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1%</td><td></td><td></td></tr><tr><td>2024</td><td>1 Semiconductors &amp;amp; Semiconductor</td><td>6.8% Diversified Telecommunication</td><td>-0.9%</td><td>2018</td><td>1 Interactive Media &amp;amp; ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "919b12db7210556e",
+        "value": -0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>1 Semiconductors &amp;amp; Semiconductor</td><td>6.8% Diversified Telecommunication</td><td>-0.9%</td><td>2018</td><td>1 Interactive Media &amp;amp; Services</td><td>1.9% Pharmaceuticals</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d5e0b90bfe1fea56",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Telecommunication</td><td>-0.9%</td><td>2018</td><td>1 Interactive Media &amp;amp; Services</td><td>1.9% Pharmaceuticals</td><td>-1.3%</td><td></td><td></td></tr><tr><td>2024</td><td>2 Capital Markets",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "f01d658ba2977cd6",
+        "value": -0.013000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "9%</td><td>2018</td><td>1 Interactive Media &amp;amp; Services</td><td>1.9% Pharmaceuticals</td><td>-1.3%</td><td></td><td></td></tr><tr><td>2024</td><td>2 Capital Markets</td><td>4.6% Interactive Med",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d938a93e74578e48",
+        "value": 0.046,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "maceuticals</td><td>-1.3%</td><td></td><td></td></tr><tr><td>2024</td><td>2 Capital Markets</td><td>4.6% Interactive Media &amp;amp; Services</td><td>-1.7%</td><td>2018</td><td>2 Software</td><td>1.5%",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "667adc632da8f62c",
+        "value": -0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>2024</td><td>2 Capital Markets</td><td>4.6% Interactive Media &amp;amp; Services</td><td>-1.7%</td><td>2018</td><td>2 Software</td><td>1.5% Health Care Providers &amp;amp; Service</td><td>-",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "634d045f935bc2b5",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>4.6% Interactive Media &amp;amp; Services</td><td>-1.7%</td><td>2018</td><td>2 Software</td><td>1.5% Health Care Providers &amp;amp; Service</td><td>-1.2%</td><td></td><td></td></tr><tr><td>2024</",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "97607e098169e7f5",
+        "value": -0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">-1.7%</td><td>2018</td><td>2 Software</td><td>1.5% Health Care Providers &amp;amp; Service</td><td>-1.2%</td><td></td><td></td></tr><tr><td>2024</td><td>3 Broadline Retail</td><td>4.5% Professional S",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "5d43579d88f5c6cc",
+        "value": 0.045,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "p; Service</td><td>-1.2%</td><td></td><td></td></tr><tr><td>2024</td><td>3 Broadline Retail</td><td>4.5% Professional Services</td><td>-0.6%</td><td>2018</td><td>3 Oil, Gas &amp;amp; Consumable Fuels<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "1d33ccace937f261",
+        "value": -0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td></tr><tr><td>2024</td><td>3 Broadline Retail</td><td>4.5% Professional Services</td><td>-0.6%</td><td>2018</td><td>3 Oil, Gas &amp;amp; Consumable Fuels</td><td>1.3% Aerospace &amp;amp; De",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "cd9a514d1315917b",
+        "value": 0.013000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "fessional Services</td><td>-0.6%</td><td>2018</td><td>3 Oil, Gas &amp;amp; Consumable Fuels</td><td>1.3% Aerospace &amp;amp; Defense</td><td>-1.0%</td><td></td><td></td></tr><tr><td>2024</td><td>4 Pha",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "aee0b270e707c18f",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2018</td><td>3 Oil, Gas &amp;amp; Consumable Fuels</td><td>1.3% Aerospace &amp;amp; Defense</td><td>-1.0%</td><td></td><td></td></tr><tr><td>2024</td><td>4 Pharmaceuticals</td><td>1.5% Oil, Gas &amp;a",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "802339c714f49ee8",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "mp; Defense</td><td>-1.0%</td><td></td><td></td></tr><tr><td>2024</td><td>4 Pharmaceuticals</td><td>1.5% Oil, Gas &amp;amp; Consumable Fuels</td><td>-0.1%</td><td>2018</td><td>4 Financial Services</td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "31c008039cdc0ce4",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>2024</td><td>4 Pharmaceuticals</td><td>1.5% Oil, Gas &amp;amp; Consumable Fuels</td><td>-0.1%</td><td>2018</td><td>4 Financial Services</td><td>0.6% Biotechnology</td><td>-0.9%</td><td></t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "81aaa251d4dc7880",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Oil, Gas &amp;amp; Consumable Fuels</td><td>-0.1%</td><td>2018</td><td>4 Financial Services</td><td>0.6% Biotechnology</td><td>-0.9%</td><td></td><td></td></tr><tr><td>2024</td><td>5 Entertainment</td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "b9aa1c56f52f5950",
+        "value": -0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "le Fuels</td><td>-0.1%</td><td>2018</td><td>4 Financial Services</td><td>0.6% Biotechnology</td><td>-0.9%</td><td></td><td></td></tr><tr><td>2024</td><td>5 Entertainment</td><td>1.3% Multi-Utilities</",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "771c3254383a2dde",
+        "value": 0.013000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Biotechnology</td><td>-0.9%</td><td></td><td></td></tr><tr><td>2024</td><td>5 Entertainment</td><td>1.3% Multi-Utilities</td><td>-0.1%</td><td>2018</td><td>5 Chemicals</td><td>0.4% Entertainment</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "0c99b931d6fa514f",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td><td></td></tr><tr><td>2024</td><td>5 Entertainment</td><td>1.3% Multi-Utilities</td><td>-0.1%</td><td>2018</td><td>5 Chemicals</td><td>0.4% Entertainment</td><td>-0.7%</td><td></td><td></t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ce62551c7242a213",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5 Entertainment</td><td>1.3% Multi-Utilities</td><td>-0.1%</td><td>2018</td><td>5 Chemicals</td><td>0.4% Entertainment</td><td>-0.7%</td><td></td><td></td></tr><tr><td>2023</td><td>1 Software</td><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "b83bf03f36b89742",
+        "value": -0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "% Multi-Utilities</td><td>-0.1%</td><td>2018</td><td>5 Chemicals</td><td>0.4% Entertainment</td><td>-0.7%</td><td></td><td></td></tr><tr><td>2023</td><td>1 Software</td><td>8.5% IT Services</td><td>-0",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "89fee1bf2fdf3845",
+        "value": 0.085,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0.4% Entertainment</td><td>-0.7%</td><td></td><td></td></tr><tr><td>2023</td><td>1 Software</td><td>8.5% IT Services</td><td>-0.9%</td><td>2017</td><td>1 Semiconductors &amp;amp; Semiconductor</td><td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "da5cdbcc587a53e9",
+        "value": -0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-0.7%</td><td></td><td></td></tr><tr><td>2023</td><td>1 Software</td><td>8.5% IT Services</td><td>-0.9%</td><td>2017</td><td>1 Semiconductors &amp;amp; Semiconductor</td><td>6.1% Biotechnology</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "474fea772d473719",
+        "value": 0.061,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".5% IT Services</td><td>-0.9%</td><td>2017</td><td>1 Semiconductors &amp;amp; Semiconductor</td><td>6.1% Biotechnology</td><td>-0.2%</td><td></td><td></td></tr><tr><td>2023</td><td>2 Semiconductors &a",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "baf7b8194261c9eb",
+        "value": -0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "9%</td><td>2017</td><td>1 Semiconductors &amp;amp; Semiconductor</td><td>6.1% Biotechnology</td><td>-0.2%</td><td></td><td></td></tr><tr><td>2023</td><td>2 Semiconductors &amp;amp; Semiconductor</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "8fc49a6745d0041a",
+        "value": 0.067,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2%</td><td></td><td></td></tr><tr><td>2023</td><td>2 Semiconductors &amp;amp; Semiconductor</td><td>6.7% Pharmaceuticals</td><td>-0.9%</td><td>2017</td><td>2 Software</td><td>4.2% Broadline Retail</td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "fde2e3bf6f1f8935",
+        "value": -0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>2023</td><td>2 Semiconductors &amp;amp; Semiconductor</td><td>6.7% Pharmaceuticals</td><td>-0.9%</td><td>2017</td><td>2 Software</td><td>4.2% Broadline Retail</td><td>-0.1%</td><td></td><td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "3e2e22c446bbe037",
+        "value": 0.042,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "p; Semiconductor</td><td>6.7% Pharmaceuticals</td><td>-0.9%</td><td>2017</td><td>2 Software</td><td>4.2% Broadline Retail</td><td>-0.1%</td><td></td><td></td></tr><tr><td>2023</td><td>3 Interactive Me",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a4e746c85d49dce5",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Pharmaceuticals</td><td>-0.9%</td><td>2017</td><td>2 Software</td><td>4.2% Broadline Retail</td><td>-0.1%</td><td></td><td></td></tr><tr><td>2023</td><td>3 Interactive Media &amp;amp; Services</td><td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "56e2ce515be65639",
+        "value": 0.057999999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0.1%</td><td></td><td></td></tr><tr><td>2023</td><td>3 Interactive Media &amp;amp; Services</td><td>5.8% Professional Services</td><td>-0.4%</td><td>2017</td><td>3 Interactive Media &amp;amp; Services",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c5ae4c578316d1a5",
+        "value": -0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>2023</td><td>3 Interactive Media &amp;amp; Services</td><td>5.8% Professional Services</td><td>-0.4%</td><td>2017</td><td>3 Interactive Media &amp;amp; Services</td><td>2.8% Health Care Providers",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "55a499b10eb156cb",
+        "value": 0.222,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Price trend</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td></tr><tr><td>Software</td><td>22.2%</td><td>10</td><td>7</td><td>✓</td><td>0.80</td><td>Artificial Intelligence</td><td>Cybersecur",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3324efd398d12f4f",
+        "value": 0.222,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Robotics and Automation Fintech</td></tr><tr><td>Semiconductors &amp; Semiconductor</td><td>22.2%</td><td>8</td><td>8</td><td>✓</td><td>0.80</td><td>Cloud-computing</td><td>Artificial Intellig",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "90056aa538ce73de",
+        "value": 0.205,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Metaverse</td><td>Cybersecurity</td><td>Autonomous Vehicle</td></tr><tr><td>Capital Markets</td><td>20.5%</td><td>9</td><td>10</td><td>✓</td><td>1.00</td><td>Blockchain</td><td>Fintech</td><td>Crypto-",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2a21d5336ea9386e",
+        "value": 0.102,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>Crypto-Currency</td><td></td><td></td></tr><tr><td>Hotels, Restaurants &amp; Leisure</td><td>10.2%</td><td>8</td><td>8</td><td>✓</td><td>0.90</td><td>Food Security</td><td>E-sports</td><td></td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b17a3b0fd74662a7",
+        "value": 0.08800000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Food Security</td><td>E-sports</td><td></td><td></td><td></td></tr><tr><td>Entertainment</td><td>8.8%</td><td>9</td><td>9</td><td>✓</td><td>0.80</td><td>E-sports</td><td>Metaverse</td><td></td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6342a983c9f9f00e",
+        "value": 0.059000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "E-sports</td><td>Metaverse</td><td></td><td></td><td></td></tr><tr><td>Electrical Equipment</td><td>5.9%</td><td>9</td><td>10</td><td>✓</td><td>1.00</td><td>Energy Efficiency</td><td>Renewable Energy<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "dc0199e3252299d5",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Artificial Intelligence</td><td>Wind Energy</td></tr><tr><td>Electronic Equipment, Instrume</td><td>4.0%</td><td>9</td><td>10</td><td>✓</td><td>1.00</td><td>Energy Efficiency</td><td>Education Technol",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b622889bf2340d5e",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Vehicle</td><td>Robotics and Automation</td></tr><tr><td>Life Sciences Tools &amp; Services</td><td>4.0%</td><td>10</td><td>4</td><td>-</td><td>0.80</td><td>Genomics</td><td>Sustainable Water</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6071085e62838510",
+        "value": 0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>Sustainable Food and Ag</td><td></td></tr><tr><td>Real Estate Management &amp; Devel</td><td>2.2%</td><td>8</td><td>9</td><td>✓</td><td>0.80</td><td>Solar energy</td><td>Smart City</td><td>Popu",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "cbe90d38269f6844",
+        "value": 3.2119999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">7/31/2025</td><td>7/31/2025</td><td>7/31/2025</td><td>7</td></tr><tr><td>Cumulative return</td><td>321.2%</td><td>203.2%</td><td>127.1%</td><td>68.9%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "afd31c86963086b0",
+        "value": 2.032,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>7/31/2025</td><td>7/31/2025</td><td>7</td></tr><tr><td>Cumulative return</td><td>321.2%</td><td>203.2%</td><td>127.1%</td><td>68.9%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td><td>7.3%</",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "699efc5a41ab8cd3",
+        "value": 1.271,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>7/31/2025</td><td>7</td></tr><tr><td>Cumulative return</td><td>321.2%</td><td>203.2%</td><td>127.1%</td><td>68.9%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td><td>7.3%</td><td>4.6%</td",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "022ce977d8c5dfab",
+        "value": 0.6890000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5</td><td>7</td></tr><tr><td>Cumulative return</td><td>321.2%</td><td>203.2%</td><td>127.1%</td><td>68.9%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td><td>7.3%</td><td>4.6%</td></tr><tr><td>M",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "ca0946ec30ca88ba",
+        "value": 0.132,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ive return</td><td>321.2%</td><td>203.2%</td><td>127.1%</td><td>68.9%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td><td>7.3%</td><td>4.6%</td></tr><tr><td>Max drawdown</td><td>-30.7%</td><td>-",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "669664902cd36e3b",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>321.2%</td><td>203.2%</td><td>127.1%</td><td>68.9%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td><td>7.3%</td><td>4.6%</td></tr><tr><td>Max drawdown</td><td>-30.7%</td><td>-34.0%</td><td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "5b85c30f6fd45fdc",
+        "value": 0.073,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>203.2%</td><td>127.1%</td><td>68.9%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td><td>7.3%</td><td>4.6%</td></tr><tr><td>Max drawdown</td><td>-30.7%</td><td>-34.0%</td><td>-12.8%</td><td",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "4c0ecc844ff73573",
+        "value": 0.046,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>127.1%</td><td>68.9%</td></tr><tr><td>CAGR</td><td>13.2%</td><td>10.0%</td><td>7.3%</td><td>4.6%</td></tr><tr><td>Max drawdown</td><td>-30.7%</td><td>-34.0%</td><td>-12.8%</td><td>-11.3%</td><",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "6c5e88dc57936071",
+        "value": -0.307,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>CAGR</td><td>13.2%</td><td>10.0%</td><td>7.3%</td><td>4.6%</td></tr><tr><td>Max drawdown</td><td>-30.7%</td><td>-34.0%</td><td>-12.8%</td><td>-11.3%</td></tr><tr><td>Calmar</td><td>0.43</td><td>0.2",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "10efd4a355bc3ff7",
+        "value": -0.34,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">13.2%</td><td>10.0%</td><td>7.3%</td><td>4.6%</td></tr><tr><td>Max drawdown</td><td>-30.7%</td><td>-34.0%</td><td>-12.8%</td><td>-11.3%</td></tr><tr><td>Calmar</td><td>0.43</td><td>0.29</td><td>0.57<",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "7620865974cd127a",
+        "value": -0.128,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "10.0%</td><td>7.3%</td><td>4.6%</td></tr><tr><td>Max drawdown</td><td>-30.7%</td><td>-34.0%</td><td>-12.8%</td><td>-11.3%</td></tr><tr><td>Calmar</td><td>0.43</td><td>0.29</td><td>0.57</td><td>0.41</t",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "63eb2eefee99b89f",
+        "value": -0.113,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".3%</td><td>4.6%</td></tr><tr><td>Max drawdown</td><td>-30.7%</td><td>-34.0%</td><td>-12.8%</td><td>-11.3%</td></tr><tr><td>Calmar</td><td>0.43</td><td>0.29</td><td>0.57</td><td>0.41</td></tr><tr><td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "0bb8f4603fda8022",
+        "value": 0.158,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Calmar</td><td>0.43</td><td>0.29</td><td>0.57</td><td>0.41</td></tr><tr><td>Volatility</td><td>15.8%</td><td>14.7%</td><td>12.0%</td><td>12.3%</td></tr><tr><td>Max drawdown/Volatility</td><td>-1.",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "7751d44b99f3927b",
+        "value": 0.147,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>0.43</td><td>0.29</td><td>0.57</td><td>0.41</td></tr><tr><td>Volatility</td><td>15.8%</td><td>14.7%</td><td>12.0%</td><td>12.3%</td></tr><tr><td>Max drawdown/Volatility</td><td>-1.95</td><td>-2.",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "955d79a7d04ed6c9",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>0.29</td><td>0.57</td><td>0.41</td></tr><tr><td>Volatility</td><td>15.8%</td><td>14.7%</td><td>12.0%</td><td>12.3%</td></tr><tr><td>Max drawdown/Volatility</td><td>-1.95</td><td>-2.32</td><td>-1.",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "86c57ee6b91c57e5",
+        "value": 0.12300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.57</td><td>0.41</td></tr><tr><td>Volatility</td><td>15.8%</td><td>14.7%</td><td>12.0%</td><td>12.3%</td></tr><tr><td>Max drawdown/Volatility</td><td>-1.95</td><td>-2.32</td><td>-1.07</td><td>-0.",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "41a7dfa9197dcb97",
+        "value": 0.132,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>0.84</td><td>0.68</td><td>0.61</td><td>0.38</td></tr><tr><td>Return by year</td><td>2014</td><td>13.2%</td><td>4.9%</td><td>6.9%</td></tr><tr><td>2015</td><td>-0.8%</td><td>-0.9%</td><td>-1.0%</td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "ba218e6b8c7ddb9d",
+        "value": 0.049,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0.68</td><td>0.61</td><td>0.38</td></tr><tr><td>Return by year</td><td>2014</td><td>13.2%</td><td>4.9%</td><td>6.9%</td></tr><tr><td>2015</td><td>-0.8%</td><td>-0.9%</td><td>-1.0%</td><td>-0.3%</td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "7e0fe8558cc98c7f",
+        "value": 0.069,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0.61</td><td>0.38</td></tr><tr><td>Return by year</td><td>2014</td><td>13.2%</td><td>4.9%</td><td>6.9%</td></tr><tr><td>2015</td><td>-0.8%</td><td>-0.9%</td><td>-1.0%</td><td>-0.3%</td></tr><tr><td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "78109b4d2bb0c5d7",
+        "value": -0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Return by year</td><td>2014</td><td>13.2%</td><td>4.9%</td><td>6.9%</td></tr><tr><td>2015</td><td>-0.8%</td><td>-0.9%</td><td>-1.0%</td><td>-0.3%</td></tr><tr><td>2016</td><td>16.0%</td><td>7.5%</td",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "2deac4f720f5126e",
+        "value": -0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ar</td><td>2014</td><td>13.2%</td><td>4.9%</td><td>6.9%</td></tr><tr><td>2015</td><td>-0.8%</td><td>-0.9%</td><td>-1.0%</td><td>-0.3%</td></tr><tr><td>2016</td><td>16.0%</td><td>7.5%</td><td>-1.1%</td",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "cfd2b68de8091968",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4</td><td>13.2%</td><td>4.9%</td><td>6.9%</td></tr><tr><td>2015</td><td>-0.8%</td><td>-0.9%</td><td>-1.0%</td><td>-0.3%</td></tr><tr><td>2016</td><td>16.0%</td><td>7.5%</td><td>-1.1%</td><td>-0.3%</td",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "a8481c3004cab3d3",
+        "value": -0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>4.9%</td><td>6.9%</td></tr><tr><td>2015</td><td>-0.8%</td><td>-0.9%</td><td>-1.0%</td><td>-0.3%</td></tr><tr><td>2016</td><td>16.0%</td><td>7.5%</td><td>-1.1%</td><td>-0.3%</td></tr><tr><td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "35386f39b6b34142",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>2015</td><td>-0.8%</td><td>-0.9%</td><td>-1.0%</td><td>-0.3%</td></tr><tr><td>2016</td><td>16.0%</td><td>7.5%</td><td>-1.1%</td><td>-0.3%</td></tr><tr><td>2017</td><td>27.3%</td><td>22.4%</td",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "753235139f61db43",
+        "value": 0.075,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>-0.8%</td><td>-0.9%</td><td>-1.0%</td><td>-0.3%</td></tr><tr><td>2016</td><td>16.0%</td><td>7.5%</td><td>-1.1%</td><td>-0.3%</td></tr><tr><td>2017</td><td>27.3%</td><td>22.4%</td><td>5.3%</td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "43e298b952e8cd75",
+        "value": -0.011000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>-0.9%</td><td>-1.0%</td><td>-0.3%</td></tr><tr><td>2016</td><td>16.0%</td><td>7.5%</td><td>-1.1%</td><td>-0.3%</td></tr><tr><td>2017</td><td>27.3%</td><td>22.4%</td><td>5.3%</td><td>5.3%</td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "4430269bb898c42b",
+        "value": -0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>-1.0%</td><td>-0.3%</td></tr><tr><td>2016</td><td>16.0%</td><td>7.5%</td><td>-1.1%</td><td>-0.3%</td></tr><tr><td>2017</td><td>27.3%</td><td>22.4%</td><td>5.3%</td><td>5.3%</td></tr><tr><td>2",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "a228081327d7bee1",
+        "value": 0.273,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><tr><td>2016</td><td>16.0%</td><td>7.5%</td><td>-1.1%</td><td>-0.3%</td></tr><tr><td>2017</td><td>27.3%</td><td>22.4%</td><td>5.3%</td><td>5.3%</td></tr><tr><td>2018</td><td>-3.5%</td><td>-9.4%</td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "3803d9082078548e",
+        "value": 0.22399999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>16.0%</td><td>7.5%</td><td>-1.1%</td><td>-0.3%</td></tr><tr><td>2017</td><td>27.3%</td><td>22.4%</td><td>5.3%</td><td>5.3%</td></tr><tr><td>2018</td><td>-3.5%</td><td>-9.4%</td><td>9.2%</td><",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "8011b5609c9e4aef",
+        "value": 0.053,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>7.5%</td><td>-1.1%</td><td>-0.3%</td></tr><tr><td>2017</td><td>27.3%</td><td>22.4%</td><td>5.3%</td><td>5.3%</td></tr><tr><td>2018</td><td>-3.5%</td><td>-9.4%</td><td>9.2%</td><td>9.0%</td></",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "c705425828601d04",
+        "value": 0.053,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>-1.1%</td><td>-0.3%</td></tr><tr><td>2017</td><td>27.3%</td><td>22.4%</td><td>5.3%</td><td>5.3%</td></tr><tr><td>2018</td><td>-3.5%</td><td>-9.4%</td><td>9.2%</td><td>9.0%</td></tr><tr><td>20",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "894ebdd390c46539",
+        "value": -0.035,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>2017</td><td>27.3%</td><td>22.4%</td><td>5.3%</td><td>5.3%</td></tr><tr><td>2018</td><td>-3.5%</td><td>-9.4%</td><td>9.2%</td><td>9.0%</td></tr><tr><td>2019</td><td>28.9%</td><td>28.6%</td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "2e09f7f87f8bb2fd",
+        "value": -0.094,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "7</td><td>27.3%</td><td>22.4%</td><td>5.3%</td><td>5.3%</td></tr><tr><td>2018</td><td>-3.5%</td><td>-9.4%</td><td>9.2%</td><td>9.0%</td></tr><tr><td>2019</td><td>28.9%</td><td>28.6%</td><td>4.4%</td><",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "a05e666a222c62e8",
+        "value": 0.092,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>22.4%</td><td>5.3%</td><td>5.3%</td></tr><tr><td>2018</td><td>-3.5%</td><td>-9.4%</td><td>9.2%</td><td>9.0%</td></tr><tr><td>2019</td><td>28.9%</td><td>28.6%</td><td>4.4%</td><td>2.3%</td></",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "587f688d6f19cdcc",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4%</td><td>5.3%</td><td>5.3%</td></tr><tr><td>2018</td><td>-3.5%</td><td>-9.4%</td><td>9.2%</td><td>9.0%</td></tr><tr><td>2019</td><td>28.9%</td><td>28.6%</td><td>4.4%</td><td>2.3%</td></tr><tr><td>20",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "a72c8a1140547e50",
+        "value": 0.289,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>2018</td><td>-3.5%</td><td>-9.4%</td><td>9.2%</td><td>9.0%</td></tr><tr><td>2019</td><td>28.9%</td><td>28.6%</td><td>4.4%</td><td>2.3%</td></tr><tr><td>2020</td><td>30.4%</td><td>15.9%</td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "d316099b4473e2d2",
+        "value": 0.28600000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8</td><td>-3.5%</td><td>-9.4%</td><td>9.2%</td><td>9.0%</td></tr><tr><td>2019</td><td>28.9%</td><td>28.6%</td><td>4.4%</td><td>2.3%</td></tr><tr><td>2020</td><td>30.4%</td><td>15.9%</td><td>27.4%</td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "d78b9eb1889f844b",
+        "value": 0.044000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>-9.4%</td><td>9.2%</td><td>9.0%</td></tr><tr><td>2019</td><td>28.9%</td><td>28.6%</td><td>4.4%</td><td>2.3%</td></tr><tr><td>2020</td><td>30.4%</td><td>15.9%</td><td>27.4%</td><td>11.4%</td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "5dd45bb28cf76c0b",
+        "value": 0.023,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4%</td><td>9.2%</td><td>9.0%</td></tr><tr><td>2019</td><td>28.9%</td><td>28.6%</td><td>4.4%</td><td>2.3%</td></tr><tr><td>2020</td><td>30.4%</td><td>15.9%</td><td>27.4%</td><td>11.4%</td></tr><tr><td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "a7123547998b6f84",
+        "value": 0.304,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>2019</td><td>28.9%</td><td>28.6%</td><td>4.4%</td><td>2.3%</td></tr><tr><td>2020</td><td>30.4%</td><td>15.9%</td><td>27.4%</td><td>11.4%</td></tr><tr><td>2021</td><td>16.9%</td><td>21.8%</t",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "1070ccb582ef375c",
+        "value": 0.159,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "9</td><td>28.9%</td><td>28.6%</td><td>4.4%</td><td>2.3%</td></tr><tr><td>2020</td><td>30.4%</td><td>15.9%</td><td>27.4%</td><td>11.4%</td></tr><tr><td>2021</td><td>16.9%</td><td>21.8%</td><td>-2.2%</t",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "0e92a5e221a01091",
+        "value": 0.27399999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>28.6%</td><td>4.4%</td><td>2.3%</td></tr><tr><td>2020</td><td>30.4%</td><td>15.9%</td><td>27.4%</td><td>11.4%</td></tr><tr><td>2021</td><td>16.9%</td><td>21.8%</td><td>-2.2%</td><td>4.2%</td",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "f26968d17652a18c",
+        "value": 0.114,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>4.4%</td><td>2.3%</td></tr><tr><td>2020</td><td>30.4%</td><td>15.9%</td><td>27.4%</td><td>11.4%</td></tr><tr><td>2021</td><td>16.9%</td><td>21.8%</td><td>-2.2%</td><td>4.2%</td></tr><tr><td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "b3afc145afb8f658",
+        "value": 0.16899999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>2020</td><td>30.4%</td><td>15.9%</td><td>27.4%</td><td>11.4%</td></tr><tr><td>2021</td><td>16.9%</td><td>21.8%</td><td>-2.2%</td><td>4.2%</td></tr><tr><td>2022</td><td>13.3%</td><td>18.1%</td",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "f00150ea729f895d",
+        "value": 0.218,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>30.4%</td><td>15.9%</td><td>27.4%</td><td>11.4%</td></tr><tr><td>2021</td><td>16.9%</td><td>21.8%</td><td>-2.2%</td><td>4.2%</td></tr><tr><td>2022</td><td>13.3%</td><td>18.1%</td><td>15.1%</td",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "9b0b31c0a2fa97ed",
+        "value": -0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>15.9%</td><td>27.4%</td><td>11.4%</td></tr><tr><td>2021</td><td>16.9%</td><td>21.8%</td><td>-2.2%</td><td>4.2%</td></tr><tr><td>2022</td><td>13.3%</td><td>18.1%</td><td>15.1%</td><td>8.2%</td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "9dcd884163e8751e",
+        "value": 0.042,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>27.4%</td><td>11.4%</td></tr><tr><td>2021</td><td>16.9%</td><td>21.8%</td><td>-2.2%</td><td>4.2%</td></tr><tr><td>2022</td><td>13.3%</td><td>18.1%</td><td>15.1%</td><td>8.2%</td></tr><tr><td>2",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "f504126dd50a7937",
+        "value": 0.133,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><tr><td>2021</td><td>16.9%</td><td>21.8%</td><td>-2.2%</td><td>4.2%</td></tr><tr><td>2022</td><td>13.3%</td><td>18.1%</td><td>15.1%</td><td>8.2%</td></tr><tr><td>2023</td><td>27.3%</td><td>23.8%</td",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "0c882f8eb3cf8132",
+        "value": 0.18100000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>16.9%</td><td>21.8%</td><td>-2.2%</td><td>4.2%</td></tr><tr><td>2022</td><td>13.3%</td><td>18.1%</td><td>15.1%</td><td>8.2%</td></tr><tr><td>2023</td><td>27.3%</td><td>23.8%</td><td>8.1%</td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "4f5fdac4abecc5e7",
+        "value": 0.151,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>21.8%</td><td>-2.2%</td><td>4.2%</td></tr><tr><td>2022</td><td>13.3%</td><td>18.1%</td><td>15.1%</td><td>8.2%</td></tr><tr><td>2023</td><td>27.3%</td><td>23.8%</td><td>8.1%</td><td>8.1%</td><",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "b427a461aca53f49",
+        "value": 1.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Short call strike</td><td>Short put strike</td></tr><tr><td>SMH US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>82.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>105.0%</td><td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "558bf26f49cb4cf9",
+        "value": 1.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "call strike</td><td>Short put strike</td></tr><tr><td>SMH US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>82.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "1e4fde763135cd8f",
+        "value": 0.82,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Short put strike</td></tr><tr><td>SMH US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>82.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>83.0%</td></tr>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "0bc429d924206e2a",
+        "value": 1.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8Sep26</td><td>105.0%</td><td>115.0%</td><td>82.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>83.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>105.0%</td><td>1",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "57963d93f4720482",
+        "value": 1.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "105.0%</td><td>115.0%</td><td>82.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>83.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>9",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "7358ea7f601a43e0",
+        "value": 0.83,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "115.0%</td><td>82.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>83.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>92.0%</td></tr><",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "f5c7f0354f8f26e4",
+        "value": 1.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "18Sep26</td><td>105.0%</td><td>115.0%</td><td>83.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>92.0%</td></tr><tr><td>JPAMAIDE</td><td>18Sep26</td><td>105.0%</td><td",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "c5b7666f4a803902",
+        "value": 1.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">105.0%</td><td>115.0%</td><td>83.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>92.0%</td></tr><tr><td>JPAMAIDE</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "fc4c700ac42fd46f",
+        "value": 0.92,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">115.0%</td><td>83.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>92.0%</td></tr><tr><td>JPAMAIDE</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>88.6%</td></tr",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "584ccf0abe0bf122",
+        "value": 1.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Sep26</td><td>105.0%</td><td>115.0%</td><td>92.0%</td></tr><tr><td>JPAMAIDE</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>88.6%</td></tr></table> Prices as of 22 August 2025. Source: J.P. Morg",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "550e131fc500c29c",
+        "value": 1.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "05.0%</td><td>115.0%</td><td>92.0%</td></tr><tr><td>JPAMAIDE</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>88.6%</td></tr></table> Prices as of 22 August 2025. Source: J.P. Morgan Equity Deriv",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "4e0e09e64e6fcce3",
+        "value": 0.8859999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "15.0%</td><td>92.0%</td></tr><tr><td>JPAMAIDE</td><td>18Sep26</td><td>105.0%</td><td>115.0%</td><td>88.6%</td></tr></table> Prices as of 22 August 2025. Source: J.P. Morgan Equity Derivatives Strategy",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "0db90457dd841aeb",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rike</td><td>Barrier</td><td>Strike</td><td>Barrier</td></tr><tr><td>SMH US</td><td>18Sep26</td><td>100.0%</td><td>142.3%</td><td>100.0%</td><td>70.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "fdfab015b679e67a",
+        "value": 1.423,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rrier</td><td>Strike</td><td>Barrier</td></tr><tr><td>SMH US</td><td>18Sep26</td><td>100.0%</td><td>142.3%</td><td>100.0%</td><td>70.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>100.0%</td><td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "4ca721e683b925bf",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "trike</td><td>Barrier</td></tr><tr><td>SMH US</td><td>18Sep26</td><td>100.0%</td><td>142.3%</td><td>100.0%</td><td>70.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>100.0%</td><td>140.6%</td><td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "d804c06e7a91508c",
+        "value": 0.7,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "arrier</td></tr><tr><td>SMH US</td><td>18Sep26</td><td>100.0%</td><td>142.3%</td><td>100.0%</td><td>70.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>100.0%</td><td>140.6%</td><td>100.0%</td><td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "903dfd547449cd42",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "100.0%</td><td>142.3%</td><td>100.0%</td><td>70.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>100.0%</td><td>140.6%</td><td>100.0%</td><td>70.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>1",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "d40507a24519c254",
+        "value": 1.406,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "142.3%</td><td>100.0%</td><td>70.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>100.0%</td><td>140.6%</td><td>100.0%</td><td>70.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>100.0%</td><td>1",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "200b2be1cca35866",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "100.0%</td><td>70.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>100.0%</td><td>140.6%</td><td>100.0%</td><td>70.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>100.0%</td><td>128.1%</td><td>1",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "e456a9112ff2ceb0",
+        "value": 0.7,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "70.0%</td></tr><tr><td>SOXX US</td><td>18Sep26</td><td>100.0%</td><td>140.6%</td><td>100.0%</td><td>70.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>100.0%</td><td>128.1%</td><td>100.0%</td><td>8",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "ef3e8135aa4a2906",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">100.0%</td><td>140.6%</td><td>100.0%</td><td>70.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>100.0%</td><td>128.1%</td><td>100.0%</td><td>85.0%</td></tr></table> Continuous observation for the ",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "38b81547f0ec59bd",
+        "value": 1.281,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">140.6%</td><td>100.0%</td><td>70.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>100.0%</td><td>128.1%</td><td>100.0%</td><td>85.0%</td></tr></table> Continuous observation for the knock-in and kn",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "c2ecbc42c165b773",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">100.0%</td><td>70.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>100.0%</td><td>128.1%</td><td>100.0%</td><td>85.0%</td></tr></table> Continuous observation for the knock-in and knock-out barrier",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "0c3a969888876bd6",
+        "value": 0.85,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">70.0%</td></tr><tr><td>XLK US</td><td>18Sep26</td><td>100.0%</td><td>128.1%</td><td>100.0%</td><td>85.0%</td></tr></table> Continuous observation for the knock-in and knock-out barriers. Prices as of",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "b1fa7cefa4f60036",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d)</td><td>Underweight (sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "d7aa1253a7a63eae",
+        "value": 0.37,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nderweight (sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>J",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "0f6c6f7ed2f78153",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity R",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "d085b93e3e4a0e22",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%<",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "10a4cf9443201203",
+        "value": 0.48,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rch Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%<",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "40390fe831a9830d",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "ead9a0bb6d5d6f1e",
+        "value": 0.47,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ients**</td><td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "e1ed0dab689dcf49",
+        "value": 0.41,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>50%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> ",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "6b5b5b8804881466",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\*Please not",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "7cbc2fbdc548a5cf",
+        "value": 0.72,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\*Please note that the percentages may not add to \\(10",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "dd39d04e524ef376",
+        "value": 0.69,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rch Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\*Please note that the percentages may not add to \\(100\\%\\) becaus",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "num_id": "5a32e5b80a423685",
+        "value": 0.51,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\*Please note that the percentages may not add to \\(100\\%\\) because of roundin",
+        "provenance": {
+          "page": 12
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 4,
+      "tables_count": 0,
+      "numerical_data_count": 203,
+      "passages_count": 135,
+      "entities_count": 20
+    }
+  }
+}

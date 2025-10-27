@@ -1,0 +1,968 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "bfafa6e13003855e4e25883f11029b2d",
+    "title": "Morgan Stanley | RESEARCH",
+    "source_uri": "2025-08-31/GDS Holdings Ltd China BEST Conference 3Q 2025 FeedbackGDS Holdings Ltd China BEST Conference 3Q 2025 Feedback_2025-08-31",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:48:11.754635",
+      "extracted_at": "2025-10-27T00:48:11.754643"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 7,
+        "successful_pages": 7,
+        "date": "2025-08-31",
+        "publication": "2025-08-31",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 5,
+          "reduction_ratio": 0.18705547652916077
+        },
+        "input_relative_path": "2025-08-31"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "999dc64042ece0dc",
+      "text": "August 31, 2025 06:30 PM GMT",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0221d19e78ad2716",
+      "text": "Update on orders: If the new NVIDIA chipset is delivered in 1H26, given a 6-month construction period, we think GDS would likely see relevant DC orders in 4Q25. The company noted that they are seeing some decent demand from traditional CPU businesses, including food delivery, which saw some expansion from key customers. Those orders mostly use existing inventories and require limited incremental capex.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "bcc44ce9ab5d65de",
+      "text": "Outlook: Even without a major breakthrough in NVIDIA chipset supply, GDS believes it could still win orders backed by domestic GPUs and traditional workload. It continues to believe it could deliver 200- 300MW annual capacity in the future with \\(\\sim\\) Rmb5bn capex per year.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "cd0645b73fec03a7",
+      "text": "Supply/demand dynamics: GDS sees its project IRR increasing by 1ppt due to faster unitization ramp- up. It also noted that window guidance from the government has been restricting incremental supply to the market. If this is sustained, the company thinks the industry would likely see better pricing in the future.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2418af485b29470c",
+      "text": "MORGAN STANLEY ASIA LIMITED+",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a502db4cd8a9eb0d",
+      "text": "Yang Liu Equity Analyst",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "92d77e1821037ae4",
+      "text": "GDS Holdings Ltd (GDS.O, GDS US)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "be6cb0a77ebc0676",
+      "text": "Greater China Telecoms | China",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f74298e0ae573dac",
+      "text": "Up/downside to price target (%)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "38b123308dbf5433",
+      "text": "Shr price, close (Aug 29, 2025)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1e496e8c77a60d0b",
+      "text": "Sh out, dil, curr (mn)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "cef433286789cc81",
+      "text": "Avg daily trading value (mn)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "97b93a0895f5938f",
+      "text": "Revenue, net (Rmb mn)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c7138e81602b053e",
+      "text": "Unless otherwise noted, all metrics are based on Morgan Stanley ModelWare framework",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2b8434c4312a1467",
+      "text": "\\\\*\\\\* = Based on consensus methodology",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0a23548bb7bcb0d9",
+      "text": "\\(\\S =\\) Consensus data is provided by Refinitiv Estimates",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d96522541e000011",
+      "text": "\\(\\epsilon =\\) Morgan Stanley Research estimates",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e802f44d8174ffe2",
+      "text": "Morgan Stanley does and seeks to do business with companies covered in Morgan Stanley Research. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of Morgan Stanley Research. Investors should consider Morgan Stanley Research as only a single factor in making their investment decision.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "5df65c41159150fe",
+      "text": "For analyst certification and other important disclosures, refer to the Disclosure Section, located at the end of this report.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f404ef8ebe50d001",
+      "text": "\\(+ =\\) Analysts employed by non- U.S. affiliates are not registered with FINRA, may not be associated persons of the member and may not be subject to FINRA restrictions on communications with a subject company, public appearances and trading securities held by a research analyst account.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "8a0adffedb410bdb",
+      "text": "Base case SOTP valuation:",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "7f5f37e5fac82aaa",
+      "text": "GDS China: 2026E EV/EBITDA multiple of 15x and FX assumption of Rmb7.15/USD. GDS International: 2027E EV/EBITDA multiple of 17.5x (a \\(10\\%\\) discount to the global peers' average because of GDSI's shorter track record and no dividend) discounted by \\(10\\%\\) to derive a 12- month forward value.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8d9cd14deae93378",
+      "text": "Progress in asset monetization via REITs at accretive valuations Volume recovery in China leads to pricing rebound Accelerated sales in overseas markets or entering new markets Further interest rate cut in China or in the US",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "23d870f044cf0434",
+      "text": "Hyperscalers reduce their capex, particularly their AI investment More intense competition and pricing compression Reverse of interest rates downward trend in China and the US",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "11998e3678f9cbaa",
+      "text": "For important disclosures, stock price charts and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website at www.morganstanley.com/researchdisclosures, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY, 10036 USA.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "d10f4daa009218ec",
+      "text": "For valuation methodology and risks associated with any recommendation, rating or price target referenced in this research report, please contact the Client Support Team as follows: US/Canada +1 800 303- 2495; Hong Kong +852 2848- 5999; Latin America +1 718 754- 5444 (U.S.); London +44 (0)20- 7425- 8169; Singapore +65 6834- 6860; Sydney +61 (0)2- 9770- 1505; Tokyo +81 (0)3- 6836- 9000. Alternatively you may contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "63ea55becf4e269b",
+      "text": "Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflictpolicies. A Portuguese version of the policy can be found at www.morganstanley.com.br",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b6ae0069702304ff",
+      "text": "As of July 31, 2025, Morgan Stanley beneficially owned 1% or more of a class of common equity securities of the following companies covered in Morgan Stanley Research: Beijing Sinet Technology, China Communication Service Co Ltd, China Tower Corp Ltd, GDS Holdings Ltd, VNET Group Inc.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "af764a7ff36cc23e",
+      "text": "Within the last 12 months, Morgan Stanley managed or co- managed a public offering (or 144A offering) of securities of GDS Holdings Ltd.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "cb574321afe29bac",
+      "text": "Within the last 12 months, Morgan Stanley has received compensation for investment banking services from GDS Holdings Ltd.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "2263b5fcefd127fb",
+      "text": "In the next 3 months, Morgan Stanley expects to receive or intends to seek compensation for investment banking services from China Telecom, China Tower Corp Ltd, Far Eastone, GDS Holdings Ltd, HTHKH, PCCW Ltd, SUNVision Holdings Limited, Taiwan Mobile, VNET Group Inc.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3a64ff3777e51610",
+      "text": "Within the last 12 months, Morgan Stanley has received compensation for products and services other than investment banking services from China Unicom, China United Network Communications, Chunghwa Telecom, PCCW Ltd, VNET Group Inc.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3a7c6ccfe5f39aa0",
+      "text": "Within the last 12 months, Morgan Stanley has provided or is providing investment banking services to, or has an investment banking client relationship with, the following company: China Telecom, China Tower Corp Ltd, Far Eastone, GDS Holdings Ltd, HTHKH, PCCW Ltd, SUNVision Holdings Limited, Taiwan Mobile, VNET Group Inc.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c94a4e7d7f586e8f",
+      "text": "Within the last 12 months, Morgan Stanley has either provided or is providing non- investment banking, securities- related services to and/or in the past has entered into an agreement to provide services or has a client relationship with the following company: China Unicom, China United Network Communications, Chunghwa Telecom, PCCW Ltd, VNET Group Inc.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "40befdf19e1f4957",
+      "text": "The equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues. Equity Research analysts' or strategists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "db100579a2084c39",
+      "text": "Morgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity, fund management, commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Morgan Stanley trades or may trade as principal in the debt securities (or in related derivatives) that are the subject of the debt research report.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "76a312de0a283e7e",
+      "text": "Certain disclosures listed above are also for compliance with applicable regulations in non- US jurisdictions.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8bc81811adb3e76a",
+      "text": "Morgan Stanley uses a relative rating system using terms such as Overweight, Equal- weight, Not- Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal- weight, Not- Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c049e4e1c049f5c4",
+      "text": "(as of July 31, 2025)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "887ea7f62f75d81f",
+      "text": "The Stock Ratings described below apply to Morgan Stanley's Fundamental Equity Research and do not apply to Debt Research produced by the Firm.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8077c733b3fc61d4",
+      "text": "For dislure p  i   t  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t  T   t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t  t  t  y  t  t  t  t  t  t  t  t  t  t   t  t  t  t  t  t  t  t  t  t  y   t  t  t  t  t  t  t",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ebd06cecad83cd5c",
+      "text": "GDS Holdings Ltd (GDS.O) - As of 08/31/25 GMT in USD Industry : Greater China Telecoms",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ae8dc9a97310bcf9",
+      "text": "Price Target History: 7/23/20: 95; 10/26/20: 100; 11/17/20: 105; 3/8/21: 108; 5/18/21: 90; 7/23/21: 80; 10/8/21: 70; 2/9/22: 60; 3/24/22: 58; 5/16/22: 48; 9/1/22: 40; 11/15/22: 22; 11/28/22: 21; 1/9/23: 34; 3/13/23: 24; 6/8/23: 16; 4/25/24: 13.3; 7/24/24: 16; 8/22/24: 23; 9/3/24: 24; 9/26/24: 30; 2/10/25: 39; 5/21/25: 42; 7/3/25: 52; 8/21/25: 54",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "10135edf27011659",
+      "text": "Source: Morgan Stanley Research Date Format: MM/DD/YY Price Target - No Price Target Assigned (NA) Stock Price (Not Covered by Current Analyst) Stock Price (Covered by Current Analyst) Stock and Industry Ratings (abbreviations below) appear as + Stock Rating/Industry View Stock Ratings Overweight (O) Equal- weight (E) Underweight (U) Not- Rated (NR) No Rating Available (NA) Industry View: Attractive (A) In- line (I) Cautious (C) No Rating (NR) Effective January 13, 2014, the stocks covered by Morgan Stanley Pacific will be rated relative to the analyst's industry (or industry team's) coverage. Effective January 13, 2014, the industry view benchmarks for Morgan Stanley Asia Pacific are as follows: relevant MSCI country index or MSCI sub- regional index or MSCI AC Asia Pacific ex Japan Index.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b8b517230c3719aa",
+      "text": "Morgan Stanley Research policy is to update research reports as and when the Research Analyst and Research Management deem appropriate, based on developments with the issuer, the sector, or the market that may have a material impact on the research views or opinions stated therein. In addition, certain Research publications are intended to be updated on a regular periodic basis (weekly/monthly/quarterly/annual) and will ordinarily be updated with that frequency, unless the Research Analyst and Research Management determine that a different publication schedule is appropriate based on current conditions.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1929653eb0dada0b",
+      "text": "Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd- Frank Wall Street Reform and Consumer Protection Act.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "53869f04fb5780df",
+      "text": "Morgan Stanley produces an equity research product called a \"Tactical Idea.\" Views contained in a \"Tactical Idea\" on a particular stock may be contrary to the recommendations or views expressed in research on the same stock. This may be the result of differing time horizons, methodologies, market events, or other factors. For all research available on a particular stock, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7d43b2c297b164ba",
+      "text": "Morgan Stanley Research is provided to our clients through our proprietary research portal on Matrix and also distributed electronically by Morgan Stanley to clients. Certain, but not all, Morgan Stanley Research products are also made available to clients through third- party vendors or redistributed to clients through alternate electronic means as a convenience. For access to all available Morgan Stanley Research, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "61447d66efad9860",
+      "text": "Any access and/or use of Morgan Stanley Research is subject to Morgan Stanley's Terms of Use (http://www.morganstanley.com/terms.html). By accessing and/or using Morgan Stanley Research, you are indicating that you have read and agree to be bound by our Terms of Use (http://www.morganstanley.com/terms.html). In addition you consent to Morgan Stanley processing your personal data and using cookies in accordance with our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html), including for the purposes of setting your preferences and to collect readership data so that we can deliver better and more personalized service and products to you. To find out more information about how Morgan Stanley processes personal data, how we use cookies and how to reject cookies see our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html). If you do not agree to our Terms of Use and/or if you do not wish to provide your consent to Morgan Stanley processing your personal data or using cookies please do not access our research. Morgan Stanley Research does not provide individually tailored investment advice. Morgan Stanley Research has been prepared without regard to the circumstances and objectives of those who receive it. Morgan Stanley recommends that investors independently evaluate particular investments and strategies, and encourages investors to seek the advice of a financial adviser. The appropriateness of an investment or strategy will depend on an investor's circumstances and objectives. The securities, instruments, or strategies discussed in Morgan Stanley Research may not be suitable for all investors, and certain investors may not be eligible to purchase or participate in some or all of them. Morgan Stanley Research is not an offer to buy or sell or the",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "425531ed2755e1bf",
+      "text": "solicitation of an offer to buy or sell any security/instrument or to participate in any particular trading strategy. The value of and income from your investments may vary because of changes in interest rates, foreign exchange rates, default rates, prepayment rates, securities/instruments prices, market indexes, operational or financial conditions of companies or other factors. There may be time limitations on the exercise of options or other rights in securities/instruments transactions. Past performance is not necessarily a guide to future performance. Estimates of future performance are based on assumptions that may not be realized. If provided, and unless otherwise stated, the closing price on the cover page is that of the primary exchange for the subject company's securities/instruments.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c0f466e8333daad9",
+      "text": "The fixed income research analysts, strategists or economists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality, accuracy and value of research, firm profitability or revenues (which include fixed income trading and capital markets profitability or revenues), client feedback and competitive factors. Fixed Income Research analysts, strategists or economists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "0d5d2e5ba702f64e",
+      "text": "The Important Regulatory Disclosures on Subject Companies' section in Morgan Stanley Research lists all companies mentioned where Morgan Stanley owns \\(1\\%\\) or more of a class of common equity securities of the companies. For all other companies mentioned in Morgan Stanley Research, Morgan Stanley may have an investment of less than \\(1\\%\\) in securities/instruments or derivatives of securities/instruments of companies and may trade them in ways different from those discussed in Morgan Stanley Research. Employees of Morgan Stanley not involved in the preparation of Morgan Stanley Research may have investments in securities/instruments or derivatives of securities/instruments of companies mentioned and may trade them in ways different from those discussed in Morgan Stanley Research. Derivatives may be issued by Morgan Stanley or associated persons.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "d80029f87bcf6ab6",
+      "text": "With the exception of information regarding Morgan Stanley, Morgan Stanley Research is based on public information. Morgan Stanley makes every effort to use reliable, comprehensive information, but we make no representation that it is accurate or complete. We have no obligation to tell you when opinions or information in Morgan Stanley Research change apart from when we intend to discontinue equity research coverage of a subject company. Facts and views presented in Morgan Stanley Research have not been reviewed by, and may not reflect information known to, professionals in other Morgan Stanley business areas, including investment banking personnel.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "d7b2984bfb1f7e24",
+      "text": "Morgan Stanley Research personnel may participate in company events such as site visits and are generally prohibited from accepting payment by the company of associated expenses unless pre- approved by authorized members of Research management.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "6480ba9463f841ee",
+      "text": "Morgan Stanley may make investment decisions that are inconsistent with the recommendations or views in this report.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a4a2d7fb2760805a",
+      "text": "To our readers based in Taiwan or trading in Taiwan securities/instruments: Information on securities/instruments that trade in Taiwan is distributed by Morgan Stanley Taiwan Limited (MSTL). Such information is for your reference only. The reader should independently evaluate the investment risks and is solely responsible for their investment decisions. Morgan Stanley Research may not be distributed to the public media or quoted or used by the public media without the express written consent of Morgan Stanley. Any non- customer reader within the scope of Article 7- 1 of the Taiwan Stock Exchange Recommendation Regulations accessing and/or receiving Morgan Stanley Research is not permitted to provide Morgan Stanley Research to any third party (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities regarding Morgan Stanley Research which may create or give the appearance of creating a conflict of interest. Information on securities/instruments that do not trade in Taiwan is for informational purposes only and is not to be construed as a recommendation or a solicitation to trade in such securities/instruments. MSTL may not execute transactions for clients in these securities/instruments.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "721ca40ac26581a0",
+      "text": "Certain information in Morgan Stanley Research was sourced by employees of the Shanghai Representative Office of Morgan Stanley Asia Limited for the use of Morgan Stanley Asia Limited. Morgan Stanley is not incorporated under PRC law and the research in relation to this report is conducted outside the PRC. Morgan Stanley Research does not constitute an offer to sell or the solicitation of an offer to buy any securities in the PRC. PRC investors shall have the relevant qualifications to invest in such securities and shall be responsible for obtaining all relevant approvals, licenses, verifications and/or registrations from the relevant governmental authorities themselves. Neither this report nor any part of it is intended as, or shall constitute, provision of any consultancy or advisory service of securities investment as defined under PRC law. Such information is provided for your reference only.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "956a1eb1807d155c",
+      "text": "Morgan Stanley Hong Kong Securities Limited is the liquidity provider/market maker for securities of China Tower Corp Ltd listed on the Stock Exchange of Hong Kong Limited. An updated list can be found on HKEx website: http://www.hkex.com.hk.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "93177608f9e6b41f",
+      "text": "The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (DIFC Branch), regulated by the Dubai Financial Services Authority (the DFSA)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "357db82d8ba7b520",
+      "text": "or by Morgan Stanley & Co. International plc (ADGM Branch), regulated by the Financial Services Regulatory Authority Abu Dhabi (the FSRA), and is directed at Professional Clients only, as defined by the DFSA or the FSRA, respectively. The financial products or financial services to which this research relates will only be made available to a customer who we are satisfied meets the regulatory criteria of a Professional Client. A distribution of the different MS Research ratings or recommendations, in percentage terms for Investments in each sector covered, is available upon request from your sales representative.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1c41df5dc2b2e1ae",
+      "text": "The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (QFC Branch), regulated by the Qatar Financial Centre Regulatory Authority (the QFCRA), and is directed at business customers and market counterparties only and is not intended for Retail Customers as defined by the QFCRA.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "b956b5513a672e2d",
+      "text": "As required by the Capital Markets Board of Turkey, investment information, comments and recommendations stated here, are not within the scope of investment advisory activity. Investment advisory service is provided exclusively to persons based on their risk and income preferences by the authorized firms. Comments and recommendations stated here are general in nature. These opinions may not fit to your financial status, risk and return preferences. For this reason, to make an investment decision by relying solely to this information stated here may not bring about outcomes that fit your expectations.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "b72aae733bc7ced7",
+      "text": "The trademarks and service marks contained in Morgan Stanley Research are the property of their respective owners. Third- party data providers make no warranties or representations relating to the accuracy, completeness, or timeliness of the data they provide and shall not have liability for any damages relating to such data. The Global Industry Classification Standard (GICS) was developed by and is the exclusive property of MSCI and S&P.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "195e7c8e5c2c8e00",
+      "text": "Morgan Stanley Research, or any portion thereof may not be reprinted, sold or redistributed without the written consent of Morgan Stanley. Indicators and trackers referenced in Morgan Stanley Research may not be used as, or treated as, a benchmark under Regulation EU 2016/101, or any other similar framework.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "cbfe9f5e79eec695",
+      "text": "The issuers and/or fixed income products recommended or discussed in certain fixed income research reports may not be continuously followed. Accordingly, investors should regard those fixed income research reports as providing stand- alone analysis and should not expect continuing analysis or additional reports relating to such issuers and/or individual fixed income products. Morgan Stanley may hold, from time to time, material financial and commercial interests regarding the company subject to the Research report.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "772147f190f191ed",
+      "text": "Registration granted by SEBI and certification from the National Institute of Securities Markets (NISM) in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Investment in securities market are subject to market risks. Read all the related documents carefully before investing.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "60c321a117fdd643",
+      "text": "COMPANY (TICKER)RATING (AS OF)PRICE* (08/29/2025)Gary YuChina Mobile Limited (0941.HK)O (01/19/2020)HK$89.45China Mobile Limited (600941.SS)E (07/06/2023)Rmb109.50China Telecom (601728.SS)E (07/06/2023)Rmb7.61China Telecom (0728.HK)O (10/30/2016)HK$5.80China Tower Corp Ltd (0788.HK)O (01/21/2025)HK$11.74China Unicom (0762.HK)O (03/27/2018)HK$9.90China United Network Communications (600050.SS)U (10/30/2016)Rmb5.70Tom TangBeijing Sinnet Technology (300383.SZ)U (05/16/2022)Rmb16.15China Communication Service Co Ltd (0552.HK)E (11/12/2024)HK$4.63Chunghwa Telecom (2412.TW)E (04/29/2025)NT$132.50Far Eastone (4904.TW)O (10/16/2024)NT$84.20Guangdong Aofei Data Technology Co Ltd (300738.SZ)E (10/23/2023)Rmb23.51HKT Trust and HKT Ltd. (6823.HK)O (12/11/2020)HK$11.80HTHKH (0215.HK)E (07/26/2021)HK$1.11PCCW Ltd (0008.HK)E (09/07/2023)HK$5.26SUNeVision Holdings Limited (1686.HK)O (08/03/2020)HK$7.63Taiwan Mobile (3045.TW)O (10/16/2024)NT$106.50VNET Group Inc (VNET.O)O (10/04/2017)US$8.66Yang LiuGDS Holdings Ltd (GDS.O)O (02/09/2022)US$34.56",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "34e410c856c44013",
+      "text": "Stock Ratings are subject to change. Please see latest research for each company. \\\\* Historical prices are not split adjusted.",
+      "page": 6,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "5dc8f59a60c48918",
+      "name": "ADGM Branch",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ed49291dd8535b70",
+      "name": "Abu Dhabi",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "70b2ec65e3a7030f",
+      "name": "Asia Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "eb5e9964d8454d92",
+      "name": "Beijing Sinet",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8a2363853ecbacef",
+      "name": "Beijing Sinnet",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a2e35726cec97fe8",
+      "name": "China\n\nStock",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8c545aff6b03b6bf",
+      "name": "China BEST",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7c879e18180a650d",
+      "name": "China Communication",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2e6efbb5a35d5d9a",
+      "name": "China Communication Service Co Ltd",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ccdfb5f0a2d2640",
+      "name": "China Mobile",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "64aca9ab3d4f267f",
+      "name": "China Mobile Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f64ba2fb69eb0220",
+      "name": "China Telecom",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6b39b90389094e12",
+      "name": "China Tower",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6a5674891db951a7",
+      "name": "China Tower Corp Ltd",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3dd993da503ad5a3",
+      "name": "China Unicom",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "219dcc52732df4d5",
+      "name": "China United",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e1713cb1db9bf221",
+      "name": "Chunghwa Telecom",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "combo",
+        "title": "Industry: Greater China Telecoms",
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "08/01\n2022",
+              "08/01\n2023",
+              "08/01\n2024",
+              "08/01\n2025"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 70
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Red Dashed Line",
+            "unit": null,
+            "values": [
+              {
+                "x": "08/01/2022",
+                "y": 48
+              },
+              {
+                "x": "10/01/2022",
+                "y": 40
+              },
+              {
+                "x": "01/01/2023",
+                "y": 34
+              },
+              {
+                "x": "03/01/2023",
+                "y": 24
+              },
+              {
+                "x": "05/01/2023",
+                "y": 16
+              },
+              {
+                "x": "09/01/2023",
+                "y": 13.3
+              },
+              {
+                "x": "01/01/2024",
+                "y": 16
+              },
+              {
+                "x": "03/01/2024",
+                "y": 22
+              },
+              {
+                "x": "05/01/2024",
+                "y": 30
+              },
+              {
+                "x": "09/01/2024",
+                "y": 39
+              },
+              {
+                "x": "11/01/2024",
+                "y": 42
+              },
+              {
+                "x": "01/01/2025",
+                "y": 52
+              },
+              {
+                "x": "03/01/2025",
+                "y": 54
+              }
+            ]
+          },
+          {
+            "name": "Blue Line",
+            "unit": null,
+            "values": [
+              {
+                "x": "08/01/2022",
+                "y": 30
+              },
+              {
+                "x": "09/01/2022",
+                "y": 25
+              },
+              {
+                "x": "10/01/2022",
+                "y": 20
+              },
+              {
+                "x": "11/01/2022",
+                "y": 22
+              },
+              {
+                "x": "12/01/2022",
+                "y": 20
+              },
+              {
+                "x": "01/01/2023",
+                "y": 22
+              },
+              {
+                "x": "02/01/2023",
+                "y": 20
+              },
+              {
+                "x": "03/01/2023",
+                "y": 18
+              },
+              {
+                "x": "04/01/2023",
+                "y": 15
+              },
+              {
+                "x": "05/01/2023",
+                "y": 12
+              },
+              {
+                "x": "06/01/2023",
+                "y": 10
+              },
+              {
+                "x": "07/01/2023",
+                "y": 8
+              },
+              {
+                "x": "08/01/2023",
+                "y": 7
+              },
+              {
+                "x": "09/01/2023",
+                "y": 8
+              },
+              {
+                "x": "10/01/2023",
+                "y": 10
+              },
+              {
+                "x": "11/01/2023",
+                "y": 12
+              },
+              {
+                "x": "12/01/2023",
+                "y": 15
+              },
+              {
+                "x": "01/01/2024",
+                "y": 18
+              },
+              {
+                "x": "02/01/2024",
+                "y": 20
+              },
+              {
+                "x": "03/01/2024",
+                "y": 22
+              },
+              {
+                "x": "04/01/2024",
+                "y": 25
+              },
+              {
+                "x": "05/01/2024",
+                "y": 28
+              },
+              {
+                "x": "06/01/2024",
+                "y": 30
+              },
+              {
+                "x": "07/01/2024",
+                "y": 32
+              },
+              {
+                "x": "08/01/2024",
+                "y": 39
+              },
+              {
+                "x": "09/01/2024",
+                "y": 35
+              },
+              {
+                "x": "10/01/2024",
+                "y": 30
+              },
+              {
+                "x": "11/01/2024",
+                "y": 25
+              },
+              {
+                "x": "12/01/2024",
+                "y": 30
+              },
+              {
+                "x": "01/01/2025",
+                "y": 35
+              },
+              {
+                "x": "02/01/2025",
+                "y": 32
+              },
+              {
+                "x": "03/01/2025",
+                "y": 30
+              }
+            ]
+          }
+        ],
+        "figure_id": "d905d455e37a410a",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": {
+          "x": null,
+          "y": null
+        },
+        "series": [],
+        "figure_id": "792e6731d36e93cf",
+        "provenance": {
+          "page": 1
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "0ff13667a116ec5b",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Regulatory Disclosures on Subject Companies As of July 31, 2025, Morgan Stanley beneficially owned 1% or more of a class of common equity securities of the following companies covered in Morgan Stanle",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "6c432a84a7b7df3e",
+        "value": 89.45,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td></td><td></td></tr><tr><td>China Mobile Limited (0941.HK)</td><td>O (01/19/2020)</td><td>HK$89.45</td></tr><tr><td>China Mobile Limited (600941.SS)</td><td>E (07/06/2023)</td><td>Rmb109.50</t",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "a370a30702340aa1",
+        "value": 5.8,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/06/2023)</td><td>Rmb7.61</td></tr><tr><td>China Telecom (0728.HK)</td><td>O (10/30/2016)</td><td>HK$5.80</td></tr><tr><td>China Tower Corp Ltd (0788.HK)</td><td>O (01/21/2025)</td><td>HK$11.74</td></",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "12425f208523ad28",
+        "value": 11.74,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "6)</td><td>HK$5.80</td></tr><tr><td>China Tower Corp Ltd (0788.HK)</td><td>O (01/21/2025)</td><td>HK$11.74</td></tr><tr><td>China Unicom (0762.HK)</td><td>O (03/27/2018)</td><td>HK$9.90</td></tr><tr><",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "3d72eed36d801705",
+        "value": 9.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/21/2025)</td><td>HK$11.74</td></tr><tr><td>China Unicom (0762.HK)</td><td>O (03/27/2018)</td><td>HK$9.90</td></tr><tr><td>China United Network Communications (600050.SS)</td><td>U (10/30/2016)</td><t",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "beae49653650ae8f",
+        "value": 4.63,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "6.15</td></tr><tr><td>China Communication Service Co Ltd (0552.HK)</td><td>E (11/12/2024)</td><td>HK$4.63</td></tr><tr><td>Chunghwa Telecom (2412.TW)</td><td>E (04/29/2025)</td><td>NT$132.50</td></tr>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "9ad5b206f2bd606a",
+        "value": 132.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/2024)</td><td>HK$4.63</td></tr><tr><td>Chunghwa Telecom (2412.TW)</td><td>E (04/29/2025)</td><td>NT$132.50</td></tr><tr><td>Far Eastone (4904.TW)</td><td>O (10/16/2024)</td><td>NT$84.20</td></tr><tr>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "ff3742a73c1871db",
+        "value": 84.2,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/29/2025)</td><td>NT$132.50</td></tr><tr><td>Far Eastone (4904.TW)</td><td>O (10/16/2024)</td><td>NT$84.20</td></tr><tr><td>Guangdong Aofei Data Technology Co Ltd (300738.SZ)</td><td>E (10/23/2023)</t",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "8b02d5c96f90ba30",
+        "value": 11.8,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>Rmb23.51</td></tr><tr><td>HKT Trust and HKT Ltd. (6823.HK)</td><td>O (12/11/2020)</td><td>HK$11.80</td></tr><tr><td>HTHKH (0215.HK)</td><td>E (07/26/2021)</td><td>HK$1.11</td></tr><tr><td>PCCW",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "d15666362d140735",
+        "value": 1.11,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>O (12/11/2020)</td><td>HK$11.80</td></tr><tr><td>HTHKH (0215.HK)</td><td>E (07/26/2021)</td><td>HK$1.11</td></tr><tr><td>PCCW Ltd (0008.HK)</td><td>E (09/07/2023)</td><td>HK$5.26</td></tr><tr><td>SU",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "eaa85b01caaf30d6",
+        "value": 5.26,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "E (07/26/2021)</td><td>HK$1.11</td></tr><tr><td>PCCW Ltd (0008.HK)</td><td>E (09/07/2023)</td><td>HK$5.26</td></tr><tr><td>SUNeVision Holdings Limited (1686.HK)</td><td>O (08/03/2020)</td><td>HK$7.63<",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "74b8b6b20de57f2f",
+        "value": 7.63,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>HK$5.26</td></tr><tr><td>SUNeVision Holdings Limited (1686.HK)</td><td>O (08/03/2020)</td><td>HK$7.63</td></tr><tr><td>Taiwan Mobile (3045.TW)</td><td>O (10/16/2024)</td><td>NT$106.50</td></tr><tr",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "cb1a3c5b96d5c7c3",
+        "value": 106.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/03/2020)</td><td>HK$7.63</td></tr><tr><td>Taiwan Mobile (3045.TW)</td><td>O (10/16/2024)</td><td>NT$106.50</td></tr><tr><td>VNET Group Inc (VNET.O)</td><td>O (10/04/2017)</td><td>US$8.66</td></tr><tr",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "116dd5285f8bfd3c",
+        "value": 8.66,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "6/2024)</td><td>NT$106.50</td></tr><tr><td>VNET Group Inc (VNET.O)</td><td>O (10/04/2017)</td><td>US$8.66</td></tr><tr><td>Yang Liu</td><td></td><td></td></tr><tr><td>GDS Holdings Ltd (GDS.O)</td><td>",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "28209c0cad05b6a0",
+        "value": 34.56,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ng Liu</td><td></td><td></td></tr><tr><td>GDS Holdings Ltd (GDS.O)</td><td>O (02/09/2022)</td><td>US$34.56</td></tr></table> Stock Ratings are subject to change. Please see latest research for each co",
+        "provenance": {
+          "page": 6
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 2,
+      "tables_count": 0,
+      "numerical_data_count": 15,
+      "passages_count": 68,
+      "entities_count": 20
+    }
+  }
+}

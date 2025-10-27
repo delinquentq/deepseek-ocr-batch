@@ -1,0 +1,1821 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "4aabf1bdfc88560a1730931dbb2e8a84",
+    "title": "![Figure 0-0](images/0_0.jpg)",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Citi/Credit Snapshot - Citi Credit OptionsCredit Snapshot - Citi Credit Options_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:38:17.165827",
+      "extracted_at": "2025-10-26T11:38:17.165838"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 8,
+        "successful_pages": 8,
+        "date": "2025-08-29",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Citi",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 0,
+          "removed_paragraphs": 0,
+          "reduction_ratio": 0.007027786787760837
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Citi"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "05547e51b48f443e",
+      "text": "IGVolatilityRealizedBps/DayImpliedRealizedImplied1M32%33%0.003M29%42%0.006M51%48%0.00",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "3eddd914818854e4",
+      "text": "HYVolatilityRealizedBps/DayImpliedRealizedImplied1M28%28%0.003M25%35%0.006M44%42%0.00",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "0f14cec7c5f5411f",
+      "text": "HYVolatilityRealizedBps/DayImpliedRealizedImplied1M30%49%0.003M31%50%0.006M44%52%0.00",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ba4e0a417bcde434",
+      "text": "XOverVolatilityRealizedBps/DayImpliedRealizedImplied1M29%40%0.003M27%42%0.006M39%45%0.00",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "05c1ce6f582cbf4d",
+      "text": "IGLevel1M ATM3M ATM6M ATMClose0.033%42%48%1W Ago0.038%45%50%1M Ago0.039%43%53%3M Ago0.043%45%45%6M Ago0.035%39%41%",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "818243d708ddaa69",
+      "text": "HYLevel1M ATM3M ATM6M ATMClose0.028%35%42%1W Ago0.033%38%43%1M Ago0.031%38%45%3M Ago0.040%43%45%6M Ago0.031%35%40%",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "1534a9046c8a4fa7",
+      "text": "HYLevel1M ATM3M ATM6M ATMClose0.049%50%52%1W Ago0.042%47%49%1M Ago0.037%43%47%3M Ago0.044%49%53%6M Ago0.039%41%45%",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "50559a4e7ecdb603",
+      "text": "HYLevel1M ATM3M ATM6M ATMClose0.040%42%45%1W Ago0.036%40%43%1M Ago0.029%35%41%3M Ago0.038%43%46%6M Ago0.031%34%38%",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "959f851851e7ea03",
+      "text": "NameCurrent Percentile1Y RangeIG 1M 40-20 PS13.383%HY 1M 40-20 PS9.870%MA 1M 40-20 PS14.574%XO 1M 40-20 PS13.084%FS 1M 40-20 PS16.784%IG 1M 20 RR20.571%HY 1M 20 RR17.567%MA 1M 20 RR28.587%XO 1M 20 RR22.985%FS 1M 20 RR32.089%IG 1M 40-20 RS2.338%HY 1M 40-20 RS3.158%MA 1M 40-20 RS5.590%XO 1M 40-20 RS3.174%FS 1M 40-20 RS6.093%IG 1M Impl32.820%HY 1M Impl28.025%MA 1M Impl48.783%XO 1M Impl39.680%FS 1M Impl52.088%IG 1M Rlzd32.359%HY 1M Rlzd27.854%MA 1M Rlzd30.451%XO 1M Rlzd29.269%FS 1M Rlzd33.562%IG 1M Imp/Rlzd1.027%HY 1M Imp/Rlzd1.039%MA 1M Imp/Rlzd1.673%XO 1M Imp/Rlzd1.455%FS 1M Imp/Rlzd1.564%IG 3M/1M 50D Cal Sprd9.496%HY 3M/1M 50D Cal Sprd7.595%MA 3M/1M 50D Cal Sprd1.624%XO 3M/1M 50D Cal Sprd2.527%FS 3M/1M 50D Cal Sprd2.023%IG 3M/2M 50D Cal Sprd4.593%HY 3M/2M 50D Cal Sprd3.282%MA 3M/2M 50D Cal Sprd1.129%XO 3M/2M 50D Cal Sprd1.535%FS 3M/2M 50D Cal Sprd1.328%IG 6M/3M 50D Cal Sprd6.285%HY 6M/3M 50D Cal Sprd6.783%MA 6M/3M 50D Cal Sprd1.515%XO 6M/3M 50D Cal Sprd2.724%FS 6M/3M 50D Cal Sprd2.721%",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "362d55e5917735e9",
+      "text": "NameCurrent Percentile1Y RangeIG 3M 40-20 PS13.950%HY 3M 40-20 PS10.324%MA 3M 40-20 PS13.485%XO 3M 40-20 PS12.187%FS 3M 40-20 PS16.243%IG 3M 20 RR28.779%HY 3M 20 RR21.633%MA 3M 20 RR28.387%XO 3M 20 RR23.783%FS 3M 20 RR33.365%IG 3M 40-20 RS6.072%HY 3M 40-20 RS5.052%MA 3M 40-20 RS6.482%XO 3M 40-20 RS4.564%FS 3M 40-20 RS7.287%IG 3M Impl42.245%HY 3M Impl35.543%MA 3M Impl50.382%XO 3M Impl42.080%FS 3M Impl54.088%IG 3M Rlzd20.828%HY 3M Rlzd21.119%MA 3M Rlzd30.042%XO 3M Rlzd30.343%FS 3M Rlzd41.131%IG 3M Imp/Rlzd1.573%HY 3M Imp/Rlzd1.478%MA 3M Imp/Rlzd1.674%XO 3M Imp/Rlzd1.679%FS 3M Imp/Rlzd1.888%MA-IG 1M 50D16.099%MA-IG 3M 50D8.199%MA-IG 6M 50D3.468%XO-HY 1M 50D11.599%XO-HY 3M 50D6.694%XO-HY 6M 50D2.580%LQD 1M ATM Vol6.08%LQD 1M Rlzd Vol5.411%LQD 1M Imp/Rlzd1.152%LQD 3M ATM Vol6.65%LQD 3M Rlzd Vol5.60%LQD 3M Imp/Rlzd1.274%HYG 1M ATM Vol3.49%HYG 1M Rlzd Vol3.846%HYG 1M Imp/Rlzd0.923%HYG 3M ATM Vol3.61%HYG 3M Rlzd Vol3.20%HYG 3M Imp/Rlzd1.150%",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "2ef80ae630e01f1a",
+      "text": "www. vivi. com/company. it is material.",
+      "page": 7,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "71ccf1f8b12674b5",
+      "name": "ATM Vol",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "19fe6378da66b3e4",
+      "name": "Cal Sprd",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "691565e606721a67",
+      "name": "Current Percentile",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8124334b55adfe63",
+      "name": "Rlzd Vol",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "bar",
+        "title": "IG Bps/Day Histogram",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "0.5",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              ">5"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "%",
+            "values": [
+              52,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "figure_id": "39d927955352b516",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "bar",
+        "title": "HY Bps/Day Histogram",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2.5",
+              "5",
+              "10",
+              "15",
+              "20",
+              "25",
+              ">25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Series 1",
+            "unit": "%",
+            "values": [
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "Series 2",
+            "unit": "%",
+            "values": [
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "figure_id": "54bfc7528478c344",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "bar",
+        "title": "MA Bps/Day Histogram",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "0.5",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              ">"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Frequency",
+            "unit": "%",
+            "values": [
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "figure_id": "f8876d9bc77743f2",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "bar",
+        "title": "XO Bps/Day Histogram",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2.5",
+              "5",
+              "10",
+              "15",
+              "20",
+              "25",
+              ">25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Frequency",
+            "unit": "%",
+            "values": [
+              50,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "figure_id": "9f898449aa3ededb",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "90D Back-Looking Implied/Realized Ratio",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "21-Aug-24",
+              "21-Dec-24",
+              "21-Apr-25",
+              "21-Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 50,
+              "max": 275
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Implied/Realized Ratio",
+            "unit": "%",
+            "values": [
+              75,
+              100,
+              125,
+              140,
+              120,
+              105,
+              180,
+              225,
+              200,
+              250,
+              260,
+              220,
+              200,
+              180,
+              190,
+              170,
+              160,
+              170,
+              150,
+              120,
+              100,
+              80,
+              70,
+              75,
+              80,
+              90,
+              100,
+              120,
+              150,
+              180,
+              200,
+              220,
+              190,
+              170,
+              150,
+              140
+            ]
+          }
+        ],
+        "figure_id": "3ec3e181c16a9c4e",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "90D Back-Looking Implied/Realized Ratio",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "21-Aug-24",
+              "21-Dec-24",
+              "21-Apr-25",
+              "21-Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 50,
+              "max": 250
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Implied/Realized Ratio",
+            "unit": "%",
+            "values": [
+              90,
+              140,
+              120,
+              100,
+              110,
+              125,
+              215,
+              160,
+              230,
+              190,
+              170,
+              150,
+              175,
+              160,
+              140,
+              150,
+              130,
+              145,
+              120,
+              100,
+              80,
+              70,
+              65,
+              75,
+              90,
+              120,
+              220,
+              190,
+              230,
+              190,
+              170,
+              140,
+              160
+            ]
+          }
+        ],
+        "figure_id": "da28fcc7398b1cc3",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "scatter",
+        "title": "3M Implied Vol vs IG Spread",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "45",
+              "55",
+              "65",
+              "75",
+              "85",
+              "95"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 30,
+              "max": 90
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Data Points",
+            "unit": null,
+            "values": [
+              {
+                "x": 45,
+                "y": 30
+              },
+              {
+                "x": 50,
+                "y": 40
+              },
+              {
+                "x": 55,
+                "y": 50
+              },
+              {
+                "x": 60,
+                "y": 60
+              },
+              {
+                "x": 65,
+                "y": 70
+              },
+              {
+                "x": 70,
+                "y": 80
+              },
+              {
+                "x": 75,
+                "y": 90
+              }
+            ]
+          }
+        ],
+        "figure_id": "fba780ff85b8744b",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "scatter",
+        "title": "3M Implied Vol vs HY Spread",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "250",
+              "300",
+              "350",
+              "400",
+              "450"
+            ],
+            "unit": null,
+            "range": {
+              "min": 250,
+              "max": 450
+            }
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 30,
+              "max": 75
+            },
+            "labels": [
+              "30%",
+              "35%",
+              "40%",
+              "45%",
+              "50%",
+              "55%",
+              "60%",
+              "65%",
+              "70%",
+              "75%"
+            ]
+          }
+        },
+        "series": [],
+        "figure_id": "108e8ee457c58ea0",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "scatter",
+        "title": "3M Implied Vol vs Main Spread",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "40",
+              "50",
+              "60",
+              "70"
+            ],
+            "unit": null,
+            "range": {
+              "min": 40,
+              "max": 70
+            }
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 30,
+              "max": 80
+            },
+            "labels": [
+              "30%",
+              "35%",
+              "40%",
+              "45%",
+              "50%",
+              "55%",
+              "60%",
+              "65%",
+              "70%",
+              "75%",
+              "80%"
+            ]
+          }
+        },
+        "series": [],
+        "figure_id": "73f0d3ffe2c4015d",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "scatter",
+        "title": "3M Implied Vol vs XO Spread",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "200",
+              "250",
+              "300",
+              "350",
+              "400"
+            ],
+            "unit": null,
+            "range": {
+              "min": 200,
+              "max": 400
+            }
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 30,
+              "max": 70
+            },
+            "labels": [
+              "30%",
+              "35%",
+              "40%",
+              "45%",
+              "50%",
+              "55%",
+              "60%",
+              "65%",
+              "70%"
+            ]
+          }
+        },
+        "series": [],
+        "figure_id": "4f5c5eb439615b56",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": null
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0.0,
+              "max": 1.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "CDX IG Price Vol vs SPX Vol",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "CDX IG Price Vol vs VIX",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "CDX IG Price Vol vs LQD Vol",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "CDX HY Price Vol vs SPX Vol",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "CDX HY Price Vol vs VIX",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "CDX HY Price Vol vs HYG Vol",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "iTraxx Main Price Vol vs Stoxx Vol",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "iTraxx Main Price Vol vs V2X",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "iTraxx Xover Price Vol vs Stoxx Vol",
+            "unit": null,
+            "values": []
+          }
+        ],
+        "figure_id": "1de63411dfc89ae5",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-24",
+              "Oct-24",
+              "Dec-24",
+              "Feb-25",
+              "Apr-25",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "CDX IG Price Vol/SPX Vol",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "iTraxx Main Price Vol/Stoxx Vol",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "CDX HY Price Vol/SPX Vol",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "iTraxx Xover Price Vol/Stoxx Vol",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "CDX IG Price Vol/VIX",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "iTraxx Main Price Vol/V2X",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "CDX HY Price Vol/VIX",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "iTraxx Xover Price Vol/V2X",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "CDX HY Price Vol/HYG Vol",
+            "unit": null,
+            "values": []
+          }
+        ],
+        "figure_id": "494a8e1792d83e78",
+        "provenance": {
+          "page": 6
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "07ef13385a4da564",
+        "value": 0.32,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "y<br/>Realized</td><td>Bps/Day<br/>Implied</td><td>Realized<br/>Implied</td></tr><tr><td>1M</td><td>32%</td><td>33%</td><td>0.00</td></tr><tr><td>3M</td><td>29%</td><td>42%</td><td>0.00</td></tr><tr><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2e32767c5a0e0d1c",
+        "value": 0.33,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed</td><td>Bps/Day<br/>Implied</td><td>Realized<br/>Implied</td></tr><tr><td>1M</td><td>32%</td><td>33%</td><td>0.00</td></tr><tr><td>3M</td><td>29%</td><td>42%</td><td>0.00</td></tr><tr><td>6M</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "66efc4de31277ce8",
+        "value": 0.29,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed<br/>Implied</td></tr><tr><td>1M</td><td>32%</td><td>33%</td><td>0.00</td></tr><tr><td>3M</td><td>29%</td><td>42%</td><td>0.00</td></tr><tr><td>6M</td><td>51%</td><td>48%</td><td>0.00</td></tr></tab",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "89edc7848f93664f",
+        "value": 0.42,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed</td></tr><tr><td>1M</td><td>32%</td><td>33%</td><td>0.00</td></tr><tr><td>3M</td><td>29%</td><td>42%</td><td>0.00</td></tr><tr><td>6M</td><td>51%</td><td>48%</td><td>0.00</td></tr></table> <table>H",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d0d89617a8fdff34",
+        "value": 0.51,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>0.00</td></tr><tr><td>3M</td><td>29%</td><td>42%</td><td>0.00</td></tr><tr><td>6M</td><td>51%</td><td>48%</td><td>0.00</td></tr></table> <table>HY<td>Volatility<br/>Realized</td><td>Bps/Day<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "89bb9257805d4b19",
+        "value": 0.48,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "00</td></tr><tr><td>3M</td><td>29%</td><td>42%</td><td>0.00</td></tr><tr><td>6M</td><td>51%</td><td>48%</td><td>0.00</td></tr></table> <table>HY<td>Volatility<br/>Realized</td><td>Bps/Day<br/>Implied<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5a1b5be3b1e6eac2",
+        "value": 0.28,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "y<br/>Realized</td><td>Bps/Day<br/>Implied</td><td>Realized<br/>Implied</td></tr><tr><td>1M</td><td>28%</td><td>28%</td><td>0.00</td></tr><tr><td>3M</td><td>25%</td><td>35%</td><td>0.00</td></tr><tr><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f69a55f6fcea28c3",
+        "value": 0.28,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed</td><td>Bps/Day<br/>Implied</td><td>Realized<br/>Implied</td></tr><tr><td>1M</td><td>28%</td><td>28%</td><td>0.00</td></tr><tr><td>3M</td><td>25%</td><td>35%</td><td>0.00</td></tr><tr><td>6M</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "dca0bab794c63bbf",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed<br/>Implied</td></tr><tr><td>1M</td><td>28%</td><td>28%</td><td>0.00</td></tr><tr><td>3M</td><td>25%</td><td>35%</td><td>0.00</td></tr><tr><td>6M</td><td>44%</td><td>42%</td><td>0.00</td></tr></tab",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "02e6c7322720f76d",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed</td></tr><tr><td>1M</td><td>28%</td><td>28%</td><td>0.00</td></tr><tr><td>3M</td><td>25%</td><td>35%</td><td>0.00</td></tr><tr><td>6M</td><td>44%</td><td>42%</td><td>0.00</td></tr></table> <table>H",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "0fd5caa793d3a2d1",
+        "value": 0.44,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>0.00</td></tr><tr><td>3M</td><td>25%</td><td>35%</td><td>0.00</td></tr><tr><td>6M</td><td>44%</td><td>42%</td><td>0.00</td></tr></table> <table>HY<td>Volatility<br/>Realized</td><td>Bps/Day<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b8cfedb9647cb881",
+        "value": 0.42,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "00</td></tr><tr><td>3M</td><td>25%</td><td>35%</td><td>0.00</td></tr><tr><td>6M</td><td>44%</td><td>42%</td><td>0.00</td></tr></table> <table>HY<td>Volatility<br/>Realized</td><td>Bps/Day<br/>Implied<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f45877e33f9b1779",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "y<br/>Realized</td><td>Bps/Day<br/>Implied</td><td>Realized<br/>Implied</td></tr><tr><td>1M</td><td>30%</td><td>49%</td><td>0.00</td></tr><tr><td>3M</td><td>31%</td><td>50%</td><td>0.00</td></tr><tr><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3ccdbd329453610a",
+        "value": 0.49,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed</td><td>Bps/Day<br/>Implied</td><td>Realized<br/>Implied</td></tr><tr><td>1M</td><td>30%</td><td>49%</td><td>0.00</td></tr><tr><td>3M</td><td>31%</td><td>50%</td><td>0.00</td></tr><tr><td>6M</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a6e84ab6283d5433",
+        "value": 0.31,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed<br/>Implied</td></tr><tr><td>1M</td><td>30%</td><td>49%</td><td>0.00</td></tr><tr><td>3M</td><td>31%</td><td>50%</td><td>0.00</td></tr><tr><td>6M</td><td>44%</td><td>52%</td><td>0.00</td></tr></tab",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "24264a8aaef0ff14",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed</td></tr><tr><td>1M</td><td>30%</td><td>49%</td><td>0.00</td></tr><tr><td>3M</td><td>31%</td><td>50%</td><td>0.00</td></tr><tr><td>6M</td><td>44%</td><td>52%</td><td>0.00</td></tr></table> <table><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "0fd5caa793d3a2d1",
+        "value": 0.44,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>0.00</td></tr><tr><td>3M</td><td>31%</td><td>50%</td><td>0.00</td></tr><tr><td>6M</td><td>44%</td><td>52%</td><td>0.00</td></tr></table> <table><table><tr><td>XOver</td><td>Volatility<br/>Re",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "78787faefe18faf8",
+        "value": 0.52,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "00</td></tr><tr><td>3M</td><td>31%</td><td>50%</td><td>0.00</td></tr><tr><td>6M</td><td>44%</td><td>52%</td><td>0.00</td></tr></table> <table><table><tr><td>XOver</td><td>Volatility<br/>Realized</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "dce43d38b1a51101",
+        "value": 0.29,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "y<br/>Realized</td><td>Bps/Day<br/>Implied</td><td>Realized<br/>Implied</td></tr><tr><td>1M</td><td>29%</td><td>40%</td><td>0.00</td></tr><tr><td>3M</td><td>27%</td><td>42%</td><td>0.00</td></tr><tr><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "14d6298c7e51a59c",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed</td><td>Bps/Day<br/>Implied</td><td>Realized<br/>Implied</td></tr><tr><td>1M</td><td>29%</td><td>40%</td><td>0.00</td></tr><tr><td>3M</td><td>27%</td><td>42%</td><td>0.00</td></tr><tr><td>6M</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "648326ad1ae94c62",
+        "value": 0.27,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed<br/>Implied</td></tr><tr><td>1M</td><td>29%</td><td>40%</td><td>0.00</td></tr><tr><td>3M</td><td>27%</td><td>42%</td><td>0.00</td></tr><tr><td>6M</td><td>39%</td><td>45%</td><td>0.00</td></tr></tab",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "89edc7848f93664f",
+        "value": 0.42,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed</td></tr><tr><td>1M</td><td>29%</td><td>40%</td><td>0.00</td></tr><tr><td>3M</td><td>27%</td><td>42%</td><td>0.00</td></tr><tr><td>6M</td><td>39%</td><td>45%</td><td>0.00</td></tr></table> <table><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "20a5da8cf4bcba59",
+        "value": 0.39,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>0.00</td></tr><tr><td>3M</td><td>27%</td><td>42%</td><td>0.00</td></tr><tr><td>6M</td><td>39%</td><td>45%</td><td>0.00</td></tr></table> <table><tr><td>IG</td><td>Level</td><td>1M ATM</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5462987c17782520",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "00</td></tr><tr><td>3M</td><td>27%</td><td>42%</td><td>0.00</td></tr><tr><td>6M</td><td>39%</td><td>45%</td><td>0.00</td></tr></table> <table><tr><td>IG</td><td>Level</td><td>1M ATM</td><td>3M ATM</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ac83c353b2bd2e73",
+        "value": 0.33,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>Level</td><td>1M ATM</td><td>3M ATM</td><td>6M ATM</td></tr><tr><td>Close</td><td>0.0</td><td>33%</td><td>42%</td><td>48%</td></tr><tr><td>1W Ago</td><td>0.0</td><td>38%</td><td>45%</td><td>50%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "caa76993e85c6ae5",
+        "value": 0.42,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>1M ATM</td><td>3M ATM</td><td>6M ATM</td></tr><tr><td>Close</td><td>0.0</td><td>33%</td><td>42%</td><td>48%</td></tr><tr><td>1W Ago</td><td>0.0</td><td>38%</td><td>45%</td><td>50%</td></tr><tr",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6fe9f14227ddb0c1",
+        "value": 0.48,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "TM</td><td>3M ATM</td><td>6M ATM</td></tr><tr><td>Close</td><td>0.0</td><td>33%</td><td>42%</td><td>48%</td></tr><tr><td>1W Ago</td><td>0.0</td><td>38%</td><td>45%</td><td>50%</td></tr><tr><td>1M Ago<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5f8f87dc5af634ec",
+        "value": 0.38,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Close</td><td>0.0</td><td>33%</td><td>42%</td><td>48%</td></tr><tr><td>1W Ago</td><td>0.0</td><td>38%</td><td>45%</td><td>50%</td></tr><tr><td>1M Ago</td><td>0.0</td><td>39%</td><td>43%</td><td>53%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "812c148d8c2b84d5",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.0</td><td>33%</td><td>42%</td><td>48%</td></tr><tr><td>1W Ago</td><td>0.0</td><td>38%</td><td>45%</td><td>50%</td></tr><tr><td>1M Ago</td><td>0.0</td><td>39%</td><td>43%</td><td>53%</td></tr><tr",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8e604ddedd3653b7",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>33%</td><td>42%</td><td>48%</td></tr><tr><td>1W Ago</td><td>0.0</td><td>38%</td><td>45%</td><td>50%</td></tr><tr><td>1M Ago</td><td>0.0</td><td>39%</td><td>43%</td><td>53%</td></tr><tr><td>3M Ago<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "59c76f43862fab95",
+        "value": 0.39,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">1W Ago</td><td>0.0</td><td>38%</td><td>45%</td><td>50%</td></tr><tr><td>1M Ago</td><td>0.0</td><td>39%</td><td>43%</td><td>53%</td></tr><tr><td>3M Ago</td><td>0.0</td><td>43%</td><td>45%</td><td>45%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "86767c485268de1c",
+        "value": 0.43,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.0</td><td>38%</td><td>45%</td><td>50%</td></tr><tr><td>1M Ago</td><td>0.0</td><td>39%</td><td>43%</td><td>53%</td></tr><tr><td>3M Ago</td><td>0.0</td><td>43%</td><td>45%</td><td>45%</td></tr><tr",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d020b515d1aa2da0",
+        "value": 0.53,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>38%</td><td>45%</td><td>50%</td></tr><tr><td>1M Ago</td><td>0.0</td><td>39%</td><td>43%</td><td>53%</td></tr><tr><td>3M Ago</td><td>0.0</td><td>43%</td><td>45%</td><td>45%</td></tr><tr><td>6M Ago<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "993a133eac5ce997",
+        "value": 0.43,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">1M Ago</td><td>0.0</td><td>39%</td><td>43%</td><td>53%</td></tr><tr><td>3M Ago</td><td>0.0</td><td>43%</td><td>45%</td><td>45%</td></tr><tr><td>6M Ago</td><td>0.0</td><td>35%</td><td>39%</td><td>41%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "968a6b6641f600a2",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.0</td><td>39%</td><td>43%</td><td>53%</td></tr><tr><td>3M Ago</td><td>0.0</td><td>43%</td><td>45%</td><td>45%</td></tr><tr><td>6M Ago</td><td>0.0</td><td>35%</td><td>39%</td><td>41%</td></tr></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e486b781efdb15c9",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>39%</td><td>43%</td><td>53%</td></tr><tr><td>3M Ago</td><td>0.0</td><td>43%</td><td>45%</td><td>45%</td></tr><tr><td>6M Ago</td><td>0.0</td><td>35%</td><td>39%</td><td>41%</td></tr></table> <table",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "13995dd72bf09424",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">3M Ago</td><td>0.0</td><td>43%</td><td>45%</td><td>45%</td></tr><tr><td>6M Ago</td><td>0.0</td><td>35%</td><td>39%</td><td>41%</td></tr></table> <table>HY<td>Level</td><td>1M ATM</td><td>3M ATM</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1c81f2974625f782",
+        "value": 0.39,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.0</td><td>43%</td><td>45%</td><td>45%</td></tr><tr><td>6M Ago</td><td>0.0</td><td>35%</td><td>39%</td><td>41%</td></tr></table> <table>HY<td>Level</td><td>1M ATM</td><td>3M ATM</td><td>6M ATM</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d8c45550192f2f03",
+        "value": 0.41,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>43%</td><td>45%</td><td>45%</td></tr><tr><td>6M Ago</td><td>0.0</td><td>35%</td><td>39%</td><td>41%</td></tr></table> <table>HY<td>Level</td><td>1M ATM</td><td>3M ATM</td><td>6M ATM</td></tr><tr><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "35d5d8baf1d5b83f",
+        "value": 0.28,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "HY<td>Level</td><td>1M ATM</td><td>3M ATM</td><td>6M ATM</td></tr><tr><td>Close</td><td>0.0</td><td>28%</td><td>35%</td><td>42%</td></tr><tr><td>1W Ago</td><td>0.0</td><td>33%</td><td>38%</td><td>43%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "07e2faefb5fcbf14",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>1M ATM</td><td>3M ATM</td><td>6M ATM</td></tr><tr><td>Close</td><td>0.0</td><td>28%</td><td>35%</td><td>42%</td></tr><tr><td>1W Ago</td><td>0.0</td><td>33%</td><td>38%</td><td>43%</td></tr><tr",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9c9879d2cb4a6355",
+        "value": 0.42,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "TM</td><td>3M ATM</td><td>6M ATM</td></tr><tr><td>Close</td><td>0.0</td><td>28%</td><td>35%</td><td>42%</td></tr><tr><td>1W Ago</td><td>0.0</td><td>33%</td><td>38%</td><td>43%</td></tr><tr><td>1M Ago<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "383b3109d5c33444",
+        "value": 0.33,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Close</td><td>0.0</td><td>28%</td><td>35%</td><td>42%</td></tr><tr><td>1W Ago</td><td>0.0</td><td>33%</td><td>38%</td><td>43%</td></tr><tr><td>1M Ago</td><td>0.0</td><td>31%</td><td>38%</td><td>45%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ae8748bcf49b07d0",
+        "value": 0.38,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.0</td><td>28%</td><td>35%</td><td>42%</td></tr><tr><td>1W Ago</td><td>0.0</td><td>33%</td><td>38%</td><td>43%</td></tr><tr><td>1M Ago</td><td>0.0</td><td>31%</td><td>38%</td><td>45%</td></tr><tr",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5d32183528e576ac",
+        "value": 0.43,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>28%</td><td>35%</td><td>42%</td></tr><tr><td>1W Ago</td><td>0.0</td><td>33%</td><td>38%</td><td>43%</td></tr><tr><td>1M Ago</td><td>0.0</td><td>31%</td><td>38%</td><td>45%</td></tr><tr><td>3M Ago<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2d991e161c59d1aa",
+        "value": 0.31,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">1W Ago</td><td>0.0</td><td>33%</td><td>38%</td><td>43%</td></tr><tr><td>1M Ago</td><td>0.0</td><td>31%</td><td>38%</td><td>45%</td></tr><tr><td>3M Ago</td><td>0.0</td><td>40%</td><td>43%</td><td>45%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c49a3ea60472bf8b",
+        "value": 0.38,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.0</td><td>33%</td><td>38%</td><td>43%</td></tr><tr><td>1M Ago</td><td>0.0</td><td>31%</td><td>38%</td><td>45%</td></tr><tr><td>3M Ago</td><td>0.0</td><td>40%</td><td>43%</td><td>45%</td></tr><tr",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e3bcdab720a9d724",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>33%</td><td>38%</td><td>43%</td></tr><tr><td>1M Ago</td><td>0.0</td><td>31%</td><td>38%</td><td>45%</td></tr><tr><td>3M Ago</td><td>0.0</td><td>40%</td><td>43%</td><td>45%</td></tr><tr><td>6M Ago<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9e41ce9f5a485d4c",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">1M Ago</td><td>0.0</td><td>31%</td><td>38%</td><td>45%</td></tr><tr><td>3M Ago</td><td>0.0</td><td>40%</td><td>43%</td><td>45%</td></tr><tr><td>6M Ago</td><td>0.0</td><td>31%</td><td>35%</td><td>40%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e814eb3ebb5452b2",
+        "value": 0.43,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.0</td><td>31%</td><td>38%</td><td>45%</td></tr><tr><td>3M Ago</td><td>0.0</td><td>40%</td><td>43%</td><td>45%</td></tr><tr><td>6M Ago</td><td>0.0</td><td>31%</td><td>35%</td><td>40%</td></tr></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "93edfa4bc6c85121",
+        "value": 0.83,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "me</td><td>Current Percentile</td><td>1Y Range</td></tr><tr><td>IG 1M 40-20 PS</td><td>13.3</td><td>83%</td></tr><tr><td>HY 1M 40-20 PS</td><td>9.8</td><td>70%</td></tr><tr><td>MA 1M 40-20 PS</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "be5a267ec4f05a37",
+        "value": 0.7,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>IG 1M 40-20 PS</td><td>13.3</td><td>83%</td></tr><tr><td>HY 1M 40-20 PS</td><td>9.8</td><td>70%</td></tr><tr><td>MA 1M 40-20 PS</td><td>14.5</td><td>74%</td></tr><tr><td>XO 1M 40-20 PS</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a0ec76ede6551e28",
+        "value": 0.74,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>HY 1M 40-20 PS</td><td>9.8</td><td>70%</td></tr><tr><td>MA 1M 40-20 PS</td><td>14.5</td><td>74%</td></tr><tr><td>XO 1M 40-20 PS</td><td>13.0</td><td>84%</td></tr><tr><td>FS 1M 40-20 PS</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "750a6e81c9d81f7b",
+        "value": 0.84,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>MA 1M 40-20 PS</td><td>14.5</td><td>74%</td></tr><tr><td>XO 1M 40-20 PS</td><td>13.0</td><td>84%</td></tr><tr><td>FS 1M 40-20 PS</td><td>16.7</td><td>84%</td></tr><tr><td>IG 1M 20 RR</td><td>20",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "74a7b16fe278caef",
+        "value": 0.84,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>XO 1M 40-20 PS</td><td>13.0</td><td>84%</td></tr><tr><td>FS 1M 40-20 PS</td><td>16.7</td><td>84%</td></tr><tr><td>IG 1M 20 RR</td><td>20.5</td><td>71%</td></tr><tr><td>HY 1M 20 RR</td><td>17.5<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ba87f6856bb9486e",
+        "value": 0.71,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><tr><td>FS 1M 40-20 PS</td><td>16.7</td><td>84%</td></tr><tr><td>IG 1M 20 RR</td><td>20.5</td><td>71%</td></tr><tr><td>HY 1M 20 RR</td><td>17.5</td><td>67%</td></tr><tr><td>MA 1M 20 RR</td><td>28.5<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "fe8bb39a0e7cf584",
+        "value": 0.67,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>IG 1M 20 RR</td><td>20.5</td><td>71%</td></tr><tr><td>HY 1M 20 RR</td><td>17.5</td><td>67%</td></tr><tr><td>MA 1M 20 RR</td><td>28.5</td><td>87%</td></tr><tr><td>XO 1M 20 RR</td><td>22.9<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5ceca4f06e483cf5",
+        "value": 0.87,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>HY 1M 20 RR</td><td>17.5</td><td>67%</td></tr><tr><td>MA 1M 20 RR</td><td>28.5</td><td>87%</td></tr><tr><td>XO 1M 20 RR</td><td>22.9</td><td>85%</td></tr><tr><td>FS 1M 20 RR</td><td>32.0<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "eda1babad2985501",
+        "value": 0.85,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>MA 1M 20 RR</td><td>28.5</td><td>87%</td></tr><tr><td>XO 1M 20 RR</td><td>22.9</td><td>85%</td></tr><tr><td>FS 1M 20 RR</td><td>32.0</td><td>89%</td></tr><tr><td>IG 1M 40-20 RS</td><td>2.",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0cdebb797e81dde1",
+        "value": 0.89,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>XO 1M 20 RR</td><td>22.9</td><td>85%</td></tr><tr><td>FS 1M 20 RR</td><td>32.0</td><td>89%</td></tr><tr><td>IG 1M 40-20 RS</td><td>2.3</td><td>38%</td></tr><tr><td>HY 1M 40-20 RS</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7cf8fbfcdabf8039",
+        "value": 0.38,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>FS 1M 20 RR</td><td>32.0</td><td>89%</td></tr><tr><td>IG 1M 40-20 RS</td><td>2.3</td><td>38%</td></tr><tr><td>HY 1M 40-20 RS</td><td>3.1</td><td>58%</td></tr><tr><td>MA 1M 40-20 RS</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7e520d5f30b3c0ca",
+        "value": 0.58,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>IG 1M 40-20 RS</td><td>2.3</td><td>38%</td></tr><tr><td>HY 1M 40-20 RS</td><td>3.1</td><td>58%</td></tr><tr><td>MA 1M 40-20 RS</td><td>5.5</td><td>90%</td></tr><tr><td>XO 1M 40-20 RS</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "128bf23f2cf502ac",
+        "value": 0.9,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>HY 1M 40-20 RS</td><td>3.1</td><td>58%</td></tr><tr><td>MA 1M 40-20 RS</td><td>5.5</td><td>90%</td></tr><tr><td>XO 1M 40-20 RS</td><td>3.1</td><td>74%</td></tr><tr><td>FS 1M 40-20 RS</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "bced60c951feed1e",
+        "value": 0.74,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>MA 1M 40-20 RS</td><td>5.5</td><td>90%</td></tr><tr><td>XO 1M 40-20 RS</td><td>3.1</td><td>74%</td></tr><tr><td>FS 1M 40-20 RS</td><td>6.0</td><td>93%</td></tr><tr><td>IG 1M Impl</td><td>32.8",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "28190b261eb97419",
+        "value": 0.93,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>XO 1M 40-20 RS</td><td>3.1</td><td>74%</td></tr><tr><td>FS 1M 40-20 RS</td><td>6.0</td><td>93%</td></tr><tr><td>IG 1M Impl</td><td>32.8</td><td>20%</td></tr><tr><td>HY 1M Impl</td><td>28.0</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "52f10400ab0605eb",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>FS 1M 40-20 RS</td><td>6.0</td><td>93%</td></tr><tr><td>IG 1M Impl</td><td>32.8</td><td>20%</td></tr><tr><td>HY 1M Impl</td><td>28.0</td><td>25%</td></tr><tr><td>MA 1M Impl</td><td>48.7</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5d471907c641f3aa",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>IG 1M Impl</td><td>32.8</td><td>20%</td></tr><tr><td>HY 1M Impl</td><td>28.0</td><td>25%</td></tr><tr><td>MA 1M Impl</td><td>48.7</td><td>83%</td></tr><tr><td>XO 1M Impl</td><td>39.6</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "8eb7e48c22601b77",
+        "value": 0.83,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>HY 1M Impl</td><td>28.0</td><td>25%</td></tr><tr><td>MA 1M Impl</td><td>48.7</td><td>83%</td></tr><tr><td>XO 1M Impl</td><td>39.6</td><td>80%</td></tr><tr><td>FS 1M Impl</td><td>52.0</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "429a9c0d264c58ca",
+        "value": 0.8,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>MA 1M Impl</td><td>48.7</td><td>83%</td></tr><tr><td>XO 1M Impl</td><td>39.6</td><td>80%</td></tr><tr><td>FS 1M Impl</td><td>52.0</td><td>88%</td></tr><tr><td>IG 1M Rlzd</td><td>32.3</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "86a8ef4eaa2af16f",
+        "value": 0.88,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>XO 1M Impl</td><td>39.6</td><td>80%</td></tr><tr><td>FS 1M Impl</td><td>52.0</td><td>88%</td></tr><tr><td>IG 1M Rlzd</td><td>32.3</td><td>59%</td></tr><tr><td>HY 1M Rlzd</td><td>27.8</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "b94cd8c3c6aa6a67",
+        "value": 0.59,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>FS 1M Impl</td><td>52.0</td><td>88%</td></tr><tr><td>IG 1M Rlzd</td><td>32.3</td><td>59%</td></tr><tr><td>HY 1M Rlzd</td><td>27.8</td><td>54%</td></tr><tr><td>MA 1M Rlzd</td><td>30.4</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "8f88bafaf07336b5",
+        "value": 0.54,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>IG 1M Rlzd</td><td>32.3</td><td>59%</td></tr><tr><td>HY 1M Rlzd</td><td>27.8</td><td>54%</td></tr><tr><td>MA 1M Rlzd</td><td>30.4</td><td>51%</td></tr><tr><td>XO 1M Rlzd</td><td>29.2</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "c532f29c7481bceb",
+        "value": 0.51,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>HY 1M Rlzd</td><td>27.8</td><td>54%</td></tr><tr><td>MA 1M Rlzd</td><td>30.4</td><td>51%</td></tr><tr><td>XO 1M Rlzd</td><td>29.2</td><td>69%</td></tr><tr><td>FS 1M Rlzd</td><td>33.5</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5138287b882ea1f9",
+        "value": 0.69,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>MA 1M Rlzd</td><td>30.4</td><td>51%</td></tr><tr><td>XO 1M Rlzd</td><td>29.2</td><td>69%</td></tr><tr><td>FS 1M Rlzd</td><td>33.5</td><td>62%</td></tr><tr><td>IG 1M Imp/Rlzd</td><td>1.0",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "3dd36c9a196b948e",
+        "value": 0.62,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>XO 1M Rlzd</td><td>29.2</td><td>69%</td></tr><tr><td>FS 1M Rlzd</td><td>33.5</td><td>62%</td></tr><tr><td>IG 1M Imp/Rlzd</td><td>1.0</td><td>27%</td></tr><tr><td>HY 1M Imp/Rlzd</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "24f9b67e5071e9df",
+        "value": 0.27,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>FS 1M Rlzd</td><td>33.5</td><td>62%</td></tr><tr><td>IG 1M Imp/Rlzd</td><td>1.0</td><td>27%</td></tr><tr><td>HY 1M Imp/Rlzd</td><td>1.0</td><td>39%</td></tr><tr><td>MA 1M Imp/Rlzd</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "dc28ab8c63379958",
+        "value": 0.39,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>IG 1M Imp/Rlzd</td><td>1.0</td><td>27%</td></tr><tr><td>HY 1M Imp/Rlzd</td><td>1.0</td><td>39%</td></tr><tr><td>MA 1M Imp/Rlzd</td><td>1.6</td><td>73%</td></tr><tr><td>XO 1M Imp/Rlzd</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0658b73a8568e3fa",
+        "value": 0.73,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>HY 1M Imp/Rlzd</td><td>1.0</td><td>39%</td></tr><tr><td>MA 1M Imp/Rlzd</td><td>1.6</td><td>73%</td></tr><tr><td>XO 1M Imp/Rlzd</td><td>1.4</td><td>55%</td></tr><tr><td>FS 1M Imp/Rlzd</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "33379243d81d822b",
+        "value": 0.55,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>MA 1M Imp/Rlzd</td><td>1.6</td><td>73%</td></tr><tr><td>XO 1M Imp/Rlzd</td><td>1.4</td><td>55%</td></tr><tr><td>FS 1M Imp/Rlzd</td><td>1.5</td><td>64%</td></tr><tr><td>IG 3M/1M 50D Cal Sprd</",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5e4084b7390c9009",
+        "value": 0.64,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>XO 1M Imp/Rlzd</td><td>1.4</td><td>55%</td></tr><tr><td>FS 1M Imp/Rlzd</td><td>1.5</td><td>64%</td></tr><tr><td>IG 3M/1M 50D Cal Sprd</td><td>9.4</td><td>96%</td></tr><tr><td>HY 3M/1M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ab4dc893793f82f2",
+        "value": 0.96,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>FS 1M Imp/Rlzd</td><td>1.5</td><td>64%</td></tr><tr><td>IG 3M/1M 50D Cal Sprd</td><td>9.4</td><td>96%</td></tr><tr><td>HY 3M/1M 50D Cal Sprd</td><td>7.5</td><td>95%</td></tr><tr><td>MA 3M/1M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "069fe6a44fb9f9f8",
+        "value": 0.95,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/1M 50D Cal Sprd</td><td>9.4</td><td>96%</td></tr><tr><td>HY 3M/1M 50D Cal Sprd</td><td>7.5</td><td>95%</td></tr><tr><td>MA 3M/1M 50D Cal Sprd</td><td>1.6</td><td>24%</td></tr><tr><td>XO 3M/1M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "e1fd26b1faf6b674",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/1M 50D Cal Sprd</td><td>7.5</td><td>95%</td></tr><tr><td>MA 3M/1M 50D Cal Sprd</td><td>1.6</td><td>24%</td></tr><tr><td>XO 3M/1M 50D Cal Sprd</td><td>2.5</td><td>27%</td></tr><tr><td>FS 3M/1M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "d3acee8656c8d496",
+        "value": 0.27,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/1M 50D Cal Sprd</td><td>1.6</td><td>24%</td></tr><tr><td>XO 3M/1M 50D Cal Sprd</td><td>2.5</td><td>27%</td></tr><tr><td>FS 3M/1M 50D Cal Sprd</td><td>2.0</td><td>23%</td></tr><tr><td>IG 3M/2M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ef86001fa79f8867",
+        "value": 0.23,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/1M 50D Cal Sprd</td><td>2.5</td><td>27%</td></tr><tr><td>FS 3M/1M 50D Cal Sprd</td><td>2.0</td><td>23%</td></tr><tr><td>IG 3M/2M 50D Cal Sprd</td><td>4.5</td><td>93%</td></tr><tr><td>HY 3M/2M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2d10a254c887a724",
+        "value": 0.93,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/1M 50D Cal Sprd</td><td>2.0</td><td>23%</td></tr><tr><td>IG 3M/2M 50D Cal Sprd</td><td>4.5</td><td>93%</td></tr><tr><td>HY 3M/2M 50D Cal Sprd</td><td>3.2</td><td>82%</td></tr><tr><td>MA 3M/2M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a9880c4bb93004e1",
+        "value": 0.82,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/2M 50D Cal Sprd</td><td>4.5</td><td>93%</td></tr><tr><td>HY 3M/2M 50D Cal Sprd</td><td>3.2</td><td>82%</td></tr><tr><td>MA 3M/2M 50D Cal Sprd</td><td>1.1</td><td>29%</td></tr><tr><td>XO 3M/2M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0653cde5313d884f",
+        "value": 0.29,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/2M 50D Cal Sprd</td><td>3.2</td><td>82%</td></tr><tr><td>MA 3M/2M 50D Cal Sprd</td><td>1.1</td><td>29%</td></tr><tr><td>XO 3M/2M 50D Cal Sprd</td><td>1.5</td><td>35%</td></tr><tr><td>FS 3M/2M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "fad486586f668ddb",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/2M 50D Cal Sprd</td><td>1.1</td><td>29%</td></tr><tr><td>XO 3M/2M 50D Cal Sprd</td><td>1.5</td><td>35%</td></tr><tr><td>FS 3M/2M 50D Cal Sprd</td><td>1.3</td><td>28%</td></tr><tr><td>IG 6M/3M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "bece40eca2c6d5e2",
+        "value": 0.28,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/2M 50D Cal Sprd</td><td>1.5</td><td>35%</td></tr><tr><td>FS 3M/2M 50D Cal Sprd</td><td>1.3</td><td>28%</td></tr><tr><td>IG 6M/3M 50D Cal Sprd</td><td>6.2</td><td>85%</td></tr><tr><td>HY 6M/3M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ab75b4f7ea200ac5",
+        "value": 0.85,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/2M 50D Cal Sprd</td><td>1.3</td><td>28%</td></tr><tr><td>IG 6M/3M 50D Cal Sprd</td><td>6.2</td><td>85%</td></tr><tr><td>HY 6M/3M 50D Cal Sprd</td><td>6.7</td><td>83%</td></tr><tr><td>MA 6M/3M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "e6c07c3f8da7b382",
+        "value": 0.83,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/3M 50D Cal Sprd</td><td>6.2</td><td>85%</td></tr><tr><td>HY 6M/3M 50D Cal Sprd</td><td>6.7</td><td>83%</td></tr><tr><td>MA 6M/3M 50D Cal Sprd</td><td>1.5</td><td>15%</td></tr><tr><td>XO 6M/3M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "b7588d6b47a0ce61",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/3M 50D Cal Sprd</td><td>6.7</td><td>83%</td></tr><tr><td>MA 6M/3M 50D Cal Sprd</td><td>1.5</td><td>15%</td></tr><tr><td>XO 6M/3M 50D Cal Sprd</td><td>2.7</td><td>24%</td></tr><tr><td>FS 6M/3M 50D Cal",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "1c697a4f574a19dd",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/3M 50D Cal Sprd</td><td>1.5</td><td>15%</td></tr><tr><td>XO 6M/3M 50D Cal Sprd</td><td>2.7</td><td>24%</td></tr><tr><td>FS 6M/3M 50D Cal Sprd</td><td>2.7</td><td>21%</td></tr></table> <table><tr><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "d787649fb4623e78",
+        "value": 0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/3M 50D Cal Sprd</td><td>2.7</td><td>24%</td></tr><tr><td>FS 6M/3M 50D Cal Sprd</td><td>2.7</td><td>21%</td></tr></table> <table><tr><td>Name</td><td>Current Percentile</td><td>1Y Range</td></tr><tr><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "77ba9a4f2997129b",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "me</td><td>Current Percentile</td><td>1Y Range</td></tr><tr><td>IG 3M 40-20 PS</td><td>13.9</td><td>50%</td></tr><tr><td>HY 3M 40-20 PS</td><td>10.3</td><td>24%</td></tr><tr><td>MA 3M 40-20 PS</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "b2acef4f9d882365",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>IG 3M 40-20 PS</td><td>13.9</td><td>50%</td></tr><tr><td>HY 3M 40-20 PS</td><td>10.3</td><td>24%</td></tr><tr><td>MA 3M 40-20 PS</td><td>13.4</td><td>85%</td></tr><tr><td>XO 3M 40-20 PS</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "942aeea61971f9a6",
+        "value": 0.85,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>HY 3M 40-20 PS</td><td>10.3</td><td>24%</td></tr><tr><td>MA 3M 40-20 PS</td><td>13.4</td><td>85%</td></tr><tr><td>XO 3M 40-20 PS</td><td>12.1</td><td>87%</td></tr><tr><td>FS 3M 40-20 PS</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "b49ce6e3fffae0d4",
+        "value": 0.87,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>MA 3M 40-20 PS</td><td>13.4</td><td>85%</td></tr><tr><td>XO 3M 40-20 PS</td><td>12.1</td><td>87%</td></tr><tr><td>FS 3M 40-20 PS</td><td>16.2</td><td>43%</td></tr><tr><td>IG 3M 20 RR</td><td>28",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "6677bb03a530003c",
+        "value": 0.43,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>XO 3M 40-20 PS</td><td>12.1</td><td>87%</td></tr><tr><td>FS 3M 40-20 PS</td><td>16.2</td><td>43%</td></tr><tr><td>IG 3M 20 RR</td><td>28.7</td><td>79%</td></tr><tr><td>HY 3M 20 RR</td><td>21.6<",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 12,
+      "tables_count": 0,
+      "numerical_data_count": 100,
+      "passages_count": 11,
+      "entities_count": 4
+    }
+  }
+}

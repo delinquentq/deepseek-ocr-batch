@@ -1,0 +1,1222 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "81725fe45ae91734f0ee012b6b07dc69",
+    "title": "Deutsche Bank Research",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/DB/Who really owns it Mapping U.S. Asset ExposuresWho really owns it Mapping U.S. Asset Exposures_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:44:27.040766",
+      "extracted_at": "2025-10-26T11:44:27.040780"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 13,
+        "successful_pages": 13,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/DB",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 2,
+          "reduction_ratio": 0.07353761926276348
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/DB"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "1b347d9987c40af7",
+      "text": "Understanding the exposure of the global economy to US assets is key in the context of the big geopolitical and economic shifts taking place. Doing so is far more difficult than it seems, however. Official statistics suffer from big measurement problems, most notably in their ability to report the ultimate beneficial owner of an asset. Many US assets are held indirectly via custodians or investment funds located in a different jurisdiction to the ultimate investor.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "63263cdb9f33ddbb",
+      "text": "In this report, we look at the composition and distribution of foreign portfolio investment in US assets within G10 and major EMs. We start by documenting the measurement problems in existing data. We show that these measurement problems are large, with for example Euro- area ownership of US assets potentially around half of reported estimates in official statistics. We adjust this data by reallocating assets across different countries using recently published academic techniques.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ca0d34e032473a7e",
+      "text": "Our conclusions are stark. The Scandinavian economies, Singapore, Switzerland, Japan and Canada stand out as having the largest exposures to US assets exceeding \\(50\\%\\) of domestic output. Canada's exposure stands out the most, with more than two thirds of foreign assets allocated to the US. Sweden's portfolio holdings stand out for being the most skewed towards US equity ownership, while Japan's is most heavily skewed towards fixed income. EM ownership of US assets is generally smaller. We will be using these observations to help inform our views on the relative sensitivity of individual currencies to different US asset classes.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "cafa6d64383902fb",
+      "text": "Soha Rizkallah  Strategist  +44- 20- 754- 71842",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "fdc05d9e471dbc80",
+      "text": "George Saravelos  Strategist  +44- 20- 754- 79118",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "8e5702571535cadc",
+      "text": "Understanding the exposure of the global economy to US assets is key in the context of the big geopolitical and economic shifts taking place. In this report, we look at the composition and distribution of foreign portfolio investment in US assets within G10 and major EMs.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "cd97229912b5b293",
+      "text": "Our primary data source is the IMF's Investment Positions by Counterpart Economy dataset (PIP, formerly CPIS). The Portfolio Investment Positions by Counterpart Economy dataset is a survey conducted by the IMF that records the foreign portfolio assets held by the residents of each reporting economy, with liabilities derived from reported holdings. It is the most comprehensive source for cross- border portfolio holdings, but comes with well- known limitations. We address those in the first section of the report, and propose some adjustments to the data provided. In the second section of the report, we look at the breakdown of adjusted US portfolio holdings.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "26753db2c0895581",
+      "text": "The limitations of the IMF PIP dataset can be summarized as follows:",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "65f1bfa97e7b9942",
+      "text": "First, asset coverage is incomplete across both countries and sectors. Some emerging market economies, such as the UAE and Qatar, do not participate in the IMF PIP survey, while certain portfolio positions are reported without a specified counterparty. Amongst participating economies, assets are also systematically underreported in selected sectors. This is particularly true for household assets held abroad, which are often unrecorded when placed through foreign custodians or offshore funds (Zucman, 20131). In addition, the PIP survey excludes reserve assets, which are collected separately through the IMF's SEFER survey. Participation in SEFER is also voluntary and incomplete, with some major central banks not reporting, and the data reported on an aggregate basis rather than at the country level. This leaves gaps in estimates of offshore positions in U.S. assets with a large share of central bank reserves allocated to US debt (Figure 1).",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "7242799144c3144b",
+      "text": "Second, reported foreign asset holdings are often misallocated to offshore financial centers. U.S. holdings of many G10 and EM economies are understated, as assets booked in offshore centers are not reassigned to their ultimate investment destination. At the same time, holdings recorded in fund- domicile centers such as Luxembourg and Ireland are overstated, as the PIP attributes holdings to the investing fund rather than to the underlying investor, inflating euro area aggregates. This distortion does not apply to custodians like the UK and Switzerland, however, as countries retain some visibility on their own resident holdings vs securities held on behalf of clients. The distinction between fund- domicile centers and custodians is illustrated when US TIC liabilities are set against PIP US holdings: the PIP data adjusts for custodial bias in the UK and Switzerland but not for fund- domicile bias in Luxembourg and Ireland.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "808fb767db9c683f",
+      "text": "Much of the literature2 has highlighted the need to improve the reporting of cross- border assets, given persistent underreporting across sectors and countries. In this note, we do not attempt to resolve the problem of underreported assets, nor do we examine the foreign exposures of countries that do not participate in the PIP. Instead, our focus is on proposing adjustments for misallocated US holdings arising",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e4d18c11e3b0508e",
+      "text": "from custodial and fund-domicile effects, while also defining several coverage by complementing PIP data with national sources where available. To correct for offshore center allocations in the euro area, we draw on BeER3 et al. adjusted portfolio data, which reassign exposures from offshore centers to ultimate investors. Since these estimates are only available up to 2020, we extend them to current levels by applying the ratio of adjusted to unadjusted euro-area exposures. For the rest of G10 and EM economies, we reallocate part of the investments recorded in offshore centers back to the U.S., using the share of U.S. assets in total foreign assets (excluding offshore centers) as the reallocation ratio. We report both the adjusted and unadjusted U.S. asset positions in the appendix.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6f8d606a219b1560",
+      "text": "Figure 1: A large share of central bank reserves is allocated to US debt",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "83ad1b9d6c4d3c0c",
+      "text": "Source:IMF,Deutsche Bank",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c5b1185e9dc7bfcd",
+      "text": "Figure 3: Luxembourg and Ireland (fund domiciles) account for the largest shares of euro-area US holdings",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "cd68d82190bf3871",
+      "text": "Source:IMF,Deutsche Bank",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9a110fdc2768f78f",
+      "text": "Figure 2: The US asset exposures of a number of G10 and EM economies are understated, with U.S. investments often channeled through offshore centers",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6de8fbeee5a96c4c",
+      "text": "Source:IMF PIP, Haver Analytics, Deutsche Bank",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "aeb631ad392dec30",
+      "text": "Figure 4: PIP-based portfolio holdings are adjusted in part for custodial bias in countries such as Switzerland and the UK\\*4",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9ce90889cb9478e8",
+      "text": "Source:TIC, Haver Analytics,",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1f0db8c2548be868",
+      "text": "Figure 5: In G10, the Eurozone holds the largest outright portfolio investment position in US assets followed by Japan",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a6e34ad983350105",
+      "text": "Figure 6: Norway and Singapore's US portfolio holdings exceed the size of their GDP",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "fbace5403648d552",
+      "text": "Source : Deutsche Bank, Haver Analytics, IMF",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4619659ece30af95",
+      "text": "Source : Deutsche Bank, Haver Analytics IMF",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "554e21678478bf02",
+      "text": "Figure 7:Relative to its own total foreign portfolio holdings, Canada is the most exposed G10 economy to US assets",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d5785486b68a52c8",
+      "text": "Figure 8: Within US portfolio holdings, Japan exhibits the strongest exposure towards debt securities",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b3d391b57cd493b0",
+      "text": "Source : Deutsche Bank, Haver Analytics, IMF",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b339267aaeac2a2e",
+      "text": "Source : Deutsche Bank, Haver Analytics, IMF",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "c3c12fe5df692d07",
+      "text": "Figure 5: In G10, the Eurozone holds the largest outright portfolio investment position in US assets followed by Japan",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4fe9c60016959624",
+      "text": "Figure 6: Norway and Singapore's US portfolio holdings exceed the size of their GDP",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ab134611dccff89e",
+      "text": "Source: Deutsche Bank, Haver Analytics, IMF",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d8f7534aec99846e",
+      "text": "Source: Deutsche Bank, Haver Analytics IMF",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d95360c4acc94270",
+      "text": "Figure 7: Relative to its own total foreign portfolio holdings, Canada is the most exposed G10 economy to US assets",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2153ec4c30e5cfed",
+      "text": "Figure 8: Within US portfolio holdings, Japan exhibits the strongest exposure towards debt securities",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "15b9b76cc0dcfd17",
+      "text": "Source: Deutsche Bank, Haver Analytics, IMF",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b1c95ad52e0a54ba",
+      "text": "Source: Deutsche Bank, Haver Analytics, IMF",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e66af92f057e3a40",
+      "text": "Figure 9: Pension funds and insurance funds dominate in Japan and Australia5",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "bc181969440c04ce",
+      "text": "Source : Deutsche Bank, Haver Analytics, IMF",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "30c1292bed1d4d41",
+      "text": "Figure 10: Unadjusted US Portfolio Holdings",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "4d7f3c515250b512",
+      "text": "Figure 11: Adjusted US Portfolio Holdings",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "063cdadf672e6a0f",
+      "text": "Source: Deutsche Bank, Haver Analytics",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "a5754a54cf0b4d78",
+      "text": "Source: Deutsche Bank, Haver Analytics",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "372468d6b90aa129",
+      "text": "\\*Prices are current as of the end of the previous trading session unless otherwise indicated and are sourced from local exchanges via Reuters, Bloomberg and other vendors. Other information is sourced from Deutsche Bank, subject companies, and other sources. For further information regarding disclosures relevant to Deutsche Bank Research, please visit our global disclosure look- up page on our website at https://research.db.com/Research/Disclosures/FICCDisclosures. Aside from within this report, important risk and conflict disclosures can also be found at https://research.db.com/Research/Disclosures/Disclaimer. Investors are strongly encouraged to review this information before investing.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8f10626e68cfbd59",
+      "text": "The information and opinions in this report were prepared by Deutsche Bank AG or one of its affiliates (collectively 'Deutsche Bank'). Though the information herein is believed to be reliable and has been obtained from public sources believed to be reliable, Deutsche Bank makes no representation as to its accuracy or completeness. Hyperlinks to third- party websites in this report are provided for reader convenience only. Deutsche Bank neither endorses the content nor is responsible for the accuracy or security controls of those websites.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c87fdf8aa922ce23",
+      "text": "If you use the services of Deutsche Bank in connection with a purchase or sale of a security that is discussed in this report, or is included or discussed in another communication (oral or written) from a Deutsche Bank analyst, Deutsche Bank may act as principal for its own account or as agent for another person.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2e9111ad5c8c240d",
+      "text": "Deutsche Bank may consider this report in deciding to trade as principal. It may also engage in transactions, for its own account or with customers, in a manner inconsistent with the views taken in this research report. Others within Deutsche Bank, including strategists, sales staff and other analysts, may take views that are inconsistent with those taken in this research report. Deutsche Bank issues a variety of research products, including fundamental analysis, equity- linked analysis, quantitative analysis and trade ideas. Recommendations contained in one type of communication may differ from recommendations contained in others, whether as a result of differing time horizons, methodologies, perspectives or otherwise. Deutsche Bank and/or its affiliates may also be holding debt or equity securities of the issuers it writes on. Analysts are paid in part based on the profitability of Deutsche Bank AG and its affiliates, which includes investment banking, trading and principal trading revenues.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "35f08d12ccdb57c4",
+      "text": "Opinions, estimates and projections constitute the current judgment of the author as of the date of this report. They do not necessarily reflect the opinions of Deutsche Bank and are subject to change without notice. Deutsche Bank provides liquidity for buyers and sellers of securities issued by the companies it covers. Deutsche Bank research analysts sometimes have shorter- term trade ideas that may be inconsistent with Deutsche Bank's existing longer- term ratings. Some trade ideas for equities are listed as Catalyst Calls on the Research Website (https://research.db.com/Research/), and can be found on the general coverage list and also on the covered company's page. A Catalyst Call represents a high- conviction belief by an analyst that a stock will outperform or underperform the market and/or a specified sector over a time frame of no less than two weeks and no more than three months. In addition to Catalyst Calls, analysts may occasionally discuss with our clients, and with Deutsche Bank salespersons and traders, trading strategies or ideas that reference catalysts or events that may have a near- term or medium- term impact on the market price of the securities discussed in this report, which impact may be directionally counter to the analysts' current 12- month view of total return or investment return as described herein. Deutsche Bank has no obligation to update, modify or amend this report or to otherwise notify a recipient thereof if an opinion, forecast or estimate changes or becomes inaccurate. Coverage and the frequency of changes in market conditions and in both general and company- specific economic prospects make it difficult to update research at defined intervals. Updates are at the sole discretion of the coverage analyst or of the Research Department Management, and the majority of reports are published at irregular intervals. This report is provided for informational purposes only and does not take into account the particular investment objectives, financial situations, or needs of individual clients. It is not an offer or a solicitation of an offer to buy or sell any financial instruments or to participate in any particular trading strategy. Target prices are inherently imprecise and a product of the analyst's judgment. The financial instruments discussed in this report may not be suitable for all investors, and investors must make their own informed investment decisions. Prices and availability of financial instruments are subject to change without notice, and investment transactions can lead to losses as a result of price fluctuations and other factors. If a financial instrument is denominated in a currency other than an investor's currency, a change in exchange rates may adversely affect the investment. Past performance is not necessarily indicative of future results. Performance calculations exclude transaction costs, unless otherwise indicated. Unless otherwise indicated, prices are current as of the end of the previous trading session and are sourced from local exchanges via Reuters, Bloomberg and other vendors. Data is also sourced from Deutsche Bank, subject companies, and other parties. Artificial intelligence tools may be used in the preparation of this material, including but not limited to assist in fact- finding, data analysis, pattern recognition, content drafting and editorial corrections pertaining to research material.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "0531b2b84191cb05",
+      "text": "The Deutsche Bank Research Department is independent of other business divisions of the Bank. Details regarding our organizational arrangements and information barriers we have to prevent and avoid conflicts of interest with respect to our research are available on our website (https://research.db.com/Research/) under Disclaimer.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c43815e05b5c477f",
+      "text": "Macroeconomic fluctuations often account for most of the risks associated with exposures to instruments that promise to pay fixed or variable interest rates. For an investor who is long fixed- rate instruments (thus receiving these cash flows), increases in interest rates naturally lift the discount factors applied to the expected cash flows and thus cause a loss. The longer the maturity of a certain cash flow and the higher the move in the discount factor, the higher will be the loss. Upside surprises in inflation, fiscal funding needs, and FX depreciation rates are among the most common adverse macroeconomic shocks to receivers. But counterparty exposure, issuer creditworthiness, client segmentation, regulation (including changes in assets holding limits for different types of investors), changes in tax policies, currency convertibility (which may constrain currency conversion, repatriation of profits and/or liquidation of positions), and settlement issues related to local clearing houses are also important risk factors. The sensitivity of fixed- income instruments to macroeconomic shocks may be mitigated by indexing the contracted cash flows to inflation, to FX depreciation, or to specified interest rates - these are common in emerging markets. The index fixings may - by construction - lag or mis- measure the actual move in the underlying variables they are intended to track. The choice of the proper fixing (or metric) is particularly important in swaps markets, where floating coupon rates (i.e., coupons indexed to a typically short- dated interest rate reference index) are exchanged for fixed coupons. Funding in a currency that differs from the currency in which coupons are denominated carries FX risk. Options on swaps (swaptions) the risks typical to options in addition to the risks related to rates movements.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "002dc89b1363eb46",
+      "text": "Derivative transactions involve numerous risks including market, counterparty default and illiquidity risk. The appropriateness of these products for use by investors depends on the investors' own circumstances, including their tax position, their regulatory environment and the nature of their other assets and liabilities; as such, investors should take expert legal and financial advice before entering into any transaction similar to or inspired by the contents of this publication. The risk of loss in futures trading and options, foreign or domestic, can be substantial. As a result of the high degree of leverage obtainable in futures and options trading, losses may be incurred that are greater than the amount of funds initially deposited - up to theoretically unlimited losses. Trading in options involves risk and is not suitable for all investors. Prior to buying or selling an option, investors must review the 'Characteristics and Risks of Standardized Options\", at https://www.theocc.com/company- information/documents- and- archives/publications. If you are unable to access the website, please contact your Deutsche Bank representative for a copy of this important document.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "6552ebb554d1a46d",
+      "text": "Participants in foreign exchange transactions may incur risks arising from several factors, including the following: (i) exchange rates can be volatile and are subject to large fluctuations; (ii) the value of currencies may be affected by numerous market factors, including world and national economic, political and regulatory events, events in equity and debt markets and changes in interest rates; and (iii) currencies may be subject to devaluation or government- imposed exchange controls, which could affect the value of the currency. Investors in securities such as ADRs, whose values are affected by the currency of an underlying security, effectively assume currency risk.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "2f04488dcbf30f95",
+      "text": "Unless governing law provides otherwise, all transactions should be executed through the Deutsche Bank entity in the investor's home jurisdiction. Aside from within this report, important conflict disclosures can also be found at https://research.db.com/Research/ on each company's research page. Investors are strongly encouraged to review this information before investing.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "4a78503355cd7944",
+      "text": "Deutsche Bank (which includes Deutsche Bank AG, its branches and affiliated companies) is not acting as a financial adviser, consultant or fiduciary to you or any of your agents (collectively, \"You\" or \"Your\") with respect to any information provided in this report. Deutsche Bank does not provide investment, legal, tax or accounting advice, Deutsche Bank is not acting as your impartial adviser, and does not express any opinion or recommendation whatsoever as to any strategies, products or any other information presented in the materials. Information contained herein is being provided solely on the basis that the recipient will make an independent assessment of the merits of any investment decision, and it does not constitute a recommendation of, or express an opinion on, any product or service or any trading strategy.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "2891ed95b7c53a12",
+      "text": "The information presented is general in nature and is not directed to retirement accounts or any specific person or account type, and is therefore provided to You on the express basis that it is not advice, and You may not rely upon it in making Your decision. The information we provide is being directed only to persons we believe to be financially sophisticated, who are capable of evaluating investment risks independently, both in general and with regard to particular transactions and investment strategies, and who understand that Deutsche Bank has financial interests in the offering of its products and services. If this is not the case, or if You are an IRA or other retail investor receiving this directly from us, we ask that you inform us immediately.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "f02ad0e4db318110",
+      "text": "In July 2018, Deutsche Bank revised its rating system for short term ideas whereby the branding has been changed to Catalyst Calls (\"CC\") from SOLAR ideas; the rating categories for Catalyst Calls originated in the Americas region have been made consistent with the categories used by Analysts globally; and the effective time period for CCs has been reduced from a maximum of 180 days to 90 days.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "fcc3fd2bba3c131a",
+      "text": "United States: Approved and/or distributed by Deutsche Bank Securities Incorporated, a member of FINRA and SIPC. Analysts located outside of the United States are employed by non- US affiliates and are not registered/qualified as research analysts with FINRA.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "a9d87629178c5369",
+      "text": "European Economic Area (exc. United Kingdom): Approved and/or distributed by Deutsche Bank AG, a joint stock corporation with limited liability incorporated in the Federal Republic of Germany with its principal office in Frankfurt am Main. Deutsche Bank AG is authorized under German Banking Law and is subject to supervision by the European Central Bank and by BaFin, Germany's Federal Financial Supervisory Authority.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "be981e86927c4ca3",
+      "text": "United Kingdom: Approved and/or distributed by Deutsche Bank AG acting through its London Branch at 21 Moorfields, London EC2Y 9DB. Deutsche Bank AG in the United Kingdom is authorised by the Prudential Regulation Authority and is subject to limited regulation by the Prudential Regulation Authority and Financial Conduct Authority. Details about the extent of our authorisation and regulation are available on request.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "c07d8a5ffb5857dc",
+      "text": "Hong Kong SAR: Distributed by Deutsche Bank AG, Hong Kong Branch, except for any research content relating to futures contracts within the meaning of the Hong Kong Securities and Futures Ordinance Cap. 571. Research reports on such futures contracts are not intended for access by persons who are located, incorporated, constituted or resident in Hong Kong. The author(s) of a research report may not be licensed to carry on regulated activities in Hong Kong, and if not licensed, do not hold themselves out as being able to do so. The provisions set out above in the 'Additional Information' section shall apply to the fullest extent permissible by local laws and regulations, including without limitation the Code of Conduct for Persons Licensed or Registered with the Securities and Futures Commission. This report is intended for distribution only to 'professional investors' as defined in Part 1 of Schedule of the SFO. This document must not be acted or relied on by persons who are not professional investors. Any investment or investment activity to which this document relates is only available to professional investors and will be engaged only with professional investors.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "ff1ee4d3702edbb6",
+      "text": "India: Prepared by Deutsche Equities India Private Limited (DEIPL) having CIN: U65990MH2002PTC137431 and registered",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "8c0de2028bd062c2",
+      "text": "Japan: Approved and/or distributed by Deutsche Securities Inc.(DSI). Registration number - Registered as a financial instruments dealer by the Head of the Kanto Local Finance Bureau (Kinsho) No. 117. Member of associations: JSDA, Type II Financial Instruments Firms Association and The Financial Futures Association of Japan. Commissions and risks involved in stock transactions - for stock transactions, we charge stock commissions and consumption tax by multiplying the transaction amount by the commission rate agreed with each customer. Stock transactions can lead to losses as a result of share price fluctuations and other factors. Transactions in foreign stocks can lead to additional losses stemming from foreign exchange fluctuations. We may also charge commissions and fees for certain categories of investment advice, products and services. Recommended investment strategies, products and services carry the risk of losses to principal and other losses as a result of changes in market and/or economic trends, and/or fluctuations in market value. Before deciding on the purchase of financial products and/or services, customers should carefully read the relevant disclosures, prospectuses and other documentation. 'Moody's', 'Standard Poor's', and 'Fitch' mentioned in this report are not registered credit rating agencies in Japan unless Japan or 'Nippon' is specifically designated in the name of the entity. Reports on Japanese listed companies not written by analysts of DSI are written by Deutsche Bank Group's analysts with the coverage companies specified by DSI. Some of the foreign securities stated on this report are not disclosed according to the Financial Instruments and Exchange Law of Japan. Target prices set by Deutsche Bank's equity analysts are based on a 12- month forecast period.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "302f5865a75ddbb5",
+      "text": "Korea: Distributed by Deutsche Securities Korea Co.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "dff91695596f3f97",
+      "text": "South Africa: Deutsche Bank AG Johannesburg is incorporated in the Federal Republic of Germany (Branch Register Number in South Africa: 1998/003298/10).",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "bb170713f1353a54",
+      "text": "Singapore: This report is issued by Deutsche Bank AG, Singapore Branch (One Raffles Quay #18- 00 South Tower Singapore 048583, 65 6423 8001), which may be contacted in respect of any matters arising from, or in connection with, this report. Where this report is issued or promulgated by Deutsche Bank in Singapore to a person who is not an accredited investor, expert investor or institutional investor (as defined in the applicable Singapore laws and regulations), they accept legal responsibility to such person for its contents.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "cc590aede6044379",
+      "text": "Taiwan: Information on securities/investments that trade in Taiwan is for your reference only. Readers should independently evaluate investment risks and are solely responsible for their investment decisions. Deutsche Bank research may not be distributed to the Taiwan public media or quoted or used by the Taiwan public media without written consent. Information on securities/instruments that do not trade in Taiwan is for informational purposes only and is not to be construed as a recommendation to trade in such securities/instruments.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "4c8a6eb28537ffce",
+      "text": "Qatar: Deutsche Bank AG in the Qatar Financial Centre (registered no. 00032) is regulated by the Qatar Financial Centre Regulatory Authority. Deutsche Bank AG - QFC Branch may undertake only the financial services activities that fall within the scope of its existing QFCRA license. Its principal place of business in the QFC: Qatar Financial Centre, Tower, West Bay, Level 5, PO Box 14928, Doha, Qatar. This information has been distributed by Deutsche Bank AG. Related financial products or services are only available only to Business Customers, as defined by the Qatar Financial Centre Regulatory Authority.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "bd76db5ab5e03bb2",
+      "text": "Russia: The information, interpretation and opinions submitted herein are not in the context of, and do not constitute, any appraisal or evaluation activity requiring a license in the Russian Federation.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "13d39f562c8e8295",
+      "text": "Kingdom of Saudi Arabia: Deutsche Securities Saudi Arabia (DSSA) is a closed joint stock company authorized by the Capital Market Authority of the Kingdom of Saudi Arabia with a license number (No. 37- 07073) to conduct the following business activities: Dealing, Arranging, Advising, and Custody activities. DSSA registered office is Faisaliah Tower, 17th Floor, King Fahad Road - Al Olaya District Riyadh, Kingdom of Saudi Arabia P.O. Box 301806.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "d5cc3f10ee96674c",
+      "text": "United Arab Emirates: Deutsche Bank AG in the Dubai International Financial Centre (registered no. 00045) is regulated by the Dubai Financial Services Authority. Deutsche Bank AG - DIFC Branch may only undertake the financial services activities that fall within the scope of its existing DFSA license. Principal place of business in the DIFC: Dubai International Financial Centre, The Gate Village, Building 5, PO Box 504902, Dubai, U.A.E. This information has been distributed by Deutsche Bank AG. Related financial products or services are available only to Professional Clients, as defined by the Dubai Financial Services Authority.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "4d863a84dee7ef74",
+      "text": "Australia and New Zealand: This research is intended only for 'wholesale clients' within the meaning of the Australian Corporations Act and New Zealand Financial Advisors Act, respectively. Please refer to Australia- specific research disclosures and related information at https://www.dbresearch.com/PROD/RPS_EN-PROD/PROD0000000000521304.xhtml. Where research refers to any particular financial product recipients of the research should consider any product disclosure statement,",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "2858d74e7a87d4a9",
+      "text": "prospectus or other applicable disclosure document before making any decision about whether to acquire the product. In preparing this report, the primary analyst or an individual who assisted in the preparation of this report has likely been in contact with the company that is the subject of this research for confirmation/clarification of data, facts, statements, permission to use company- sourced material in the report, and/or site- visit attendance. Without prior approval from Research Management, analysts may not accept from current or potential Banking clients the costs of travel, accommodations, or other expenses incurred by analysts attending site visits, conferences, social events, and the like. Similarly, without prior approval from Research Management and Anti- Bribery and Corruption (\"ABC\") team, analysts may not accept perks or other items of value for their personal use from issuers they cover.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "d775fc28bf2b4fa9",
+      "text": "Additional information relative to securities, other financial products or issuers discussed in this report is available upon request. This report may not be reproduced, distributed or published without Deutsche Bank's prior written consent.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "f7224f0466ebd8b2",
+      "text": "Backtested, hypothetical or simulated performance results have inherent limitations. Unlike an actual performance record based on trading actual client portfolios, simulated results are achieved by means of the retroactive application of a backtested model itself designed with the benefit of hindsight. Taking into account historical events the backtesting of performance also differs from actual account performance because an actual investment strategy may be adjusted any time, for any reason, including a response to material, economic or market factors. The backtested performance includes hypothetical results that do not reflect the reinvestment of dividends and other earnings or the deduction of advisory fees, brokerage or other commissions, and any other expenses that a client would have paid or actually paid. No representation is made that any trading strategy or account will or is likely to achieve profits or losses similar to those shown. Alternative modeling techniques or assumptions might produce significantly different results and prove to be more appropriate. Past hypothetical backtest results are neither an indicator nor guarantee of future returns. Actual results will vary, perhaps materially, from the analysis.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "9a9e7ee95870cdb2",
+      "text": "The method for computing individual E,S,G and composite ESG scores set forth herein is a novel method developed by the Research department within Deutsche Bank AG, computed using a systematic approach without human intervention. Different data providers, market sectors and geographies approach ESG analysis and incorporate the findings in a variety of ways. As such, the ESG scores referred to herein may differ from equivalent ratings developed and implemented by other ESG data providers in the market and may also differ from equivalent ratings developed and implemented by other divisions within the Deutsche Bank Group. Such ESG scores also differ from other ratings and rankings that have historically been applied in research reports published by Deutsche Bank AG. Further, such ESG scores do not represent a formal or official view of Deutsche Bank AG.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "20e6a4062468222d",
+      "text": "It should be noted that the decision to incorporate ESG factors into any investment strategy may inhibit the ability to participate in certain investment opportunities that otherwise would be consistent with your investment objective and other principal investment strategies. The returns on a portfolio consisting primarily of sustainable investments may be lower or higher than portfolios where ESG factors, exclusions, or other sustainability issues are not considered, and the investment opportunities available to such portfolios may differ. Companies may not necessarily meet high performance standards on all aspects of ESG or sustainable investing issues; there is also no guarantee that any company will meet expectations in connection with corporate responsibility, sustainability, and/or impact performance.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "ad15bf46321c4fab",
+      "text": "Copyright © 2025 Deutsche Bank AG",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "6e00e8c68c3ecea2",
+      "text": "David Folkerts-LandauGroup Chief Economist and Global Head of ResearchPam FinelliGlobal Chief Operating Officer ResearchSteve PollardGlobal Head of Company Research and SalesJim ReidGlobal Head of Macro and Thematic ResearchTim RokossaHead of Germany ResearchGerry GallagherHead of European Company ResearchMatthew BarnardHead of Americas Company ResearchPeter MillikenHead of APAC Company ResearchDebbie JonesGlobal Head of Sustainability and Data Innovation, ResearchSameer GoelGlobal Head of EM &amp;amp; APAC ResearchFrancis YaredGlobal Head of Rates ResearchGeorge SaravelosGlobal Head of FX ResearchPeter HooperVice-Chair of Research",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "98f2698074a37757",
+      "text": "International Production Locations",
+      "page": 12,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "b2781a52d39eab9c",
+      "name": "AG Johannesburg",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "94b53d927a78638e",
+      "name": "APAC Company",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dedd998545ea0057",
+      "name": "APAC Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "092bf78f9c97ba17",
+      "name": "Additional Information",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "53f12e5202a89b59",
+      "name": "Adjusted US",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6ad91d1626d744e1",
+      "name": "Adjustments\n\nThe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "33a00902411204ce",
+      "name": "Al Olaya",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4ff813fb52554f7b",
+      "name": "Americas Company",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "935df8c5e0ec164b",
+      "name": "Asset Exposures",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facedae141187a9f",
+      "name": "Australian Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c0d7172b7620ff9e",
+      "name": "Bank Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8328a94275b5caaf",
+      "name": "Branch Register",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6e0ffcf69212414d",
+      "name": "Business Customers",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c431581487440696",
+      "name": "Capital Market",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4fbff104c1af6aad",
+      "name": "Catalyst Call",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21cae29ea3e446e5",
+      "name": "Catalyst Calls",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f1e17dd0bf7bdb4a",
+      "name": "Company Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fd8057389cab4d8f",
+      "name": "Counterpart Economy",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dd23d5c75d42815c",
+      "name": "DIFC Branch",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": "FX Special Report",
+        "page": 1,
+        "axes": {},
+        "series": [],
+        "figure_id": "15dc584f5b2e7519",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "445ef23d074732e5",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Securities held as Foreign Exchange Reserves (SEFER) and by International Organizations (SSIO) - trlns USD",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023"
+            ]
+          },
+          "y": {
+            "unit": "trlns USD",
+            "range": {
+              "min": 0,
+              "max": 7.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US equities",
+            "unit": "trlns USD",
+            "values": [
+              0.08,
+              0.1,
+              0.1,
+              0.12,
+              0.15,
+              0.18,
+              0.15,
+              0.16
+            ]
+          },
+          {
+            "name": "US debt",
+            "unit": "trlns USD",
+            "values": [
+              2.48,
+              2.5,
+              2.5,
+              2.55,
+              2.7,
+              2.75,
+              2.45,
+              2.5
+            ]
+          },
+          {
+            "name": "Others",
+            "unit": "trlns USD",
+            "values": [
+              2.7,
+              3.0,
+              3.0,
+              3.2,
+              3.75,
+              3.3,
+              2.95,
+              3.1
+            ]
+          },
+          {
+            "name": "World assets",
+            "unit": "trlns USD",
+            "values": [
+              5.26,
+              5.6,
+              5.6,
+              5.87,
+              6.6,
+              6.23,
+              5.55,
+              5.76
+            ]
+          }
+        ],
+        "figure_id": "b8bd8d2c1fae8a6e",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Euro-area US holdings (blns, USD)",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Ireland",
+              "Luxembourg",
+              "Germany",
+              "France",
+              "The Netherlands",
+              "Italy",
+              "Finland",
+              "Belgium",
+              "Austria",
+              "Portugal",
+              "Malta",
+              "Slovenia",
+              "Cyprus",
+              "Greece",
+              "Slovakia",
+              "Estonia",
+              "Latvia"
+            ]
+          },
+          "y": {
+            "unit": "blns, USD",
+            "range": {
+              "min": 0,
+              "max": 2500
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US holdings",
+            "unit": "blns, USD",
+            "values": [
+              2100,
+              1900,
+              780,
+              680,
+              650,
+              250,
+              150,
+              100,
+              50,
+              20,
+              10,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ]
+          }
+        ],
+        "figure_id": "aa95fc1bf62d85a9",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Share of portfolio assets in offshore centers vs total foreign portfolio assets",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "South Africa",
+              "Czechia",
+              "Sweden",
+              "Japan",
+              "Hungary",
+              "Brazil",
+              "Poland",
+              "Australia",
+              "South Korea",
+              "Norway",
+              "Canada",
+              "New Zealand"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 80
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Share of portfolio assets",
+            "unit": "%",
+            "values": [
+              67,
+              34,
+              30,
+              29,
+              29,
+              28,
+              23,
+              17,
+              15,
+              14,
+              8,
+              7
+            ]
+          }
+        ],
+        "figure_id": "d066111946a2a229",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Foreign Holdings of US assets - % Change US TIC vs CPIS Data",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Switzerland",
+              "UK",
+              "Japan",
+              "South Africa",
+              "Luxembourg",
+              "Sweden",
+              "South Korea",
+              "Canada",
+              "France",
+              "Germany",
+              "Ireland"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -40,
+              "max": 160
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Change",
+            "unit": "%",
+            "values": [
+              120,
+              90,
+              25,
+              23,
+              10,
+              15,
+              15,
+              13,
+              10,
+              -10,
+              -20
+            ]
+          }
+        ],
+        "figure_id": "bbfe5f8514aa67e7",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Investment Position Into the US - Debt/Equity breakdown",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Poland",
+              "Japan",
+              "Singapore",
+              "Switzerland",
+              "Euro area",
+              "Hungary",
+              "UK",
+              "Norway",
+              "Canada",
+              "New Zealand",
+              "Brazil",
+              "South Korea",
+              "Australia",
+              "Czechia",
+              "South Africa",
+              "Sweden"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Debt",
+            "unit": "%",
+            "values": [
+              57,
+              55,
+              50,
+              39,
+              37,
+              36,
+              34,
+              23,
+              22,
+              21,
+              19,
+              18,
+              17,
+              15,
+              10,
+              7
+            ]
+          },
+          {
+            "name": "Equity",
+            "unit": "%",
+            "values": [
+              43,
+              45,
+              50,
+              61,
+              63,
+              64,
+              66,
+              77,
+              78,
+              79,
+              81,
+              82,
+              83,
+              85,
+              90,
+              93
+            ]
+          }
+        ],
+        "figure_id": "6255ee06bb1b978b",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Investment Position into the US - Debt/Equity breakdown",
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Poland",
+              "Japan",
+              "Singapore",
+              "Switzerland",
+              "Euro area",
+              "Hungary",
+              "UK",
+              "Norway",
+              "Canada",
+              "New Zealand",
+              "Brazil",
+              "South Korea",
+              "Australia",
+              "Czechia",
+              "South Africa",
+              "Sweden"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Debt",
+            "unit": "%",
+            "values": [
+              57,
+              55,
+              50,
+              40,
+              37,
+              35,
+              33,
+              25,
+              23,
+              22,
+              20,
+              19,
+              18,
+              15,
+              10,
+              8
+            ]
+          },
+          {
+            "name": "Equity",
+            "unit": "%",
+            "values": [
+              43,
+              45,
+              50,
+              60,
+              63,
+              65,
+              67,
+              75,
+              77,
+              78,
+              80,
+              81,
+              82,
+              85,
+              90,
+              92
+            ]
+          }
+        ],
+        "figure_id": "2d3d971894837d98",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "bar",
+        "title": "US Portfolio holdings (unadjusted, blns USD)",
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Euro Area",
+              "Japan",
+              "Canada",
+              "UK",
+              "Norway",
+              "Singapore",
+              "South Korea",
+              "Australia",
+              "Switzerland",
+              "Sweden",
+              "New Zealand",
+              "South Africa",
+              "Brazil",
+              "Poland",
+              "Czech Republic",
+              "Hungary"
+            ]
+          },
+          "y": {
+            "unit": "blns USD",
+            "range": {
+              "min": 0,
+              "max": 8000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Portfolio Holdings",
+            "unit": "blns USD",
+            "values": [
+              7350,
+              2050,
+              1950,
+              1500,
+              800,
+              750,
+              600,
+              550,
+              500,
+              350,
+              150,
+              100,
+              80,
+              50,
+              30,
+              20
+            ]
+          }
+        ],
+        "figure_id": "6efb3acabe7bbd1b",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "bar",
+        "title": "US portfolio holdings (adjusted, blns USD)",
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Euro Area",
+              "Japan",
+              "Canada",
+              "UK",
+              "Norway",
+              "Singapore",
+              "Switzerland",
+              "Australia",
+              "South Korea",
+              "Sweden",
+              "South Africa",
+              "New Zealand",
+              "Brazil",
+              "Poland",
+              "Czech republic",
+              "Hungary"
+            ]
+          },
+          "y": {
+            "unit": "blns USD",
+            "range": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US portfolio holdings",
+            "unit": "blns USD",
+            "values": [
+              4700,
+              2900,
+              2050,
+              1950,
+              900,
+              800,
+              780,
+              700,
+              650,
+              500,
+              100,
+              80,
+              50,
+              30,
+              20,
+              10
+            ]
+          }
+        ],
+        "figure_id": "db70fdf9ac4e6f4b",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 10,
+      "tables_count": 0,
+      "numerical_data_count": 0,
+      "passages_count": 78,
+      "entities_count": 20
+    }
+  }
+}

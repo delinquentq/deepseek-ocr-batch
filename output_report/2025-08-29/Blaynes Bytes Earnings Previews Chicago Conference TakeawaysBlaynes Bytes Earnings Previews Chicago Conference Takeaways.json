@@ -1,0 +1,999 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "418b3f68e552d6553038f63424ad4c4c",
+    "title": "Jefferies",
+    "source_uri": "2025-08-29/Blaynes Bytes Earnings Previews Chicago Conference TakeawaysBlaynes Bytes Earnings Previews Chicago Conference Takeaways_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:39:21.529102",
+      "extracted_at": "2025-10-27T00:39:21.529109"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 8,
+        "successful_pages": 8,
+        "date": "2025-08-29",
+        "publication": "2025-08-29",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 10,
+          "reduction_ratio": 0.3016878210529177
+        },
+        "input_relative_path": "2025-08-29"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "d759a528c5bb7102",
+      "text": "USA | Semiconductors",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e23cf18ad7612047",
+      "text": "Blayne's Bytes: Earnings (P) reviews, Chicago Conference Takeaways",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "571ad53c40733159",
+      "text": "Coming back with our takeaways from a busy week at our 2025 Jefferies Semiconductor, IT Hardware & Communications Technology Summit. We held a joint call with EU Semis & Hardware Analyst Janardan Menon yesterday (replay link below). Also providing our views on NVDA/MRVL earnings from this week and AVGO print on Thursday next week.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "fe988c378d38c924",
+      "text": "2025 Chicago Conference Takeaways: Our annual conference just wrapped up with roughly 100 companies in attendance. Optical was the brightest area with LITE favored given a more incremental 800G/1.6T ramp vs COHR but both should see tailwinds. 200G/lane should also push more active cabling, which is a 2026 driver for both ACCs (MTSI and SMTC) and AECs (CRDO and ALAB). MTSI is one of our favorite names given strong ramps in A&D and Telco and this DC opportunity layering on top. The messaging from Analog remained constructive but with seasonality swinging negative, the broader recovery is likely a 2026 story. In SPE, AMAT did seem to be more of an anomaly with others not pointing to China weakness. LRXC sounded very confident in its competitive position with drivers such as Moly, but it's hard to avoid the Memory overhang for the group. Memory is the area where investors were the most negative as there are fears that a Samsung HBM qualification would likely cause an oversupply and NAND fears circle around a softer demand profile pushing pricing lower. Please see our full conference note HERE (including company specific breakdowns) and replay from our takeaways call HERE!",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a7c619500ada136d",
+      "text": "AVGO Preview - TPU Ramp Upside Alongside Continued Networking Growth: Setup looks positive into the quarter with Ironwood beginning to ramp in July and more significantly into October. We see potential for \\(>\\) 2B in upside to the Semi Solutions business, led by TPU sales approaching \\(3 - 4B\\) , networking strong across the board, and significant growth in the non- AI business given the significant upside in MRVL's Enterprise/Carrier businesses guiding up \\(30\\%\\) in October. GMs could take a small hit from the increased ASIC mix but the Street of \\(77.8\\%\\) seems reasonable if strength in Switching and Non- AI helps offset. Overall, we think positioning is mixed into the print with those seeking AI exposure with relative safety still involved, but others worried about the catalyst path moving forward while we wait for proof points on future AI ASIC ramps and the potential for growth next year in the Software business. The upside in the quarter should be seen positively, but we wouldn't expect to see any big updates to the ASIC roadmap which is driving the valuation.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6656f01892c9f78b",
+      "text": "NVDA Earnings - Roadmap Remains on Track with Upside from China: October guidance was in line with expectations but most importantly, the B300 rollout is progressing smoothly, Rubin timeline remains on track, and China licenses offer potential for additional revenue to October with upside pending demand outlook. While a select number of China- based customers have received licenses over the past few weeks, NVDA has not shipped any H20s based on those licenses. Sold \\(\\) 650\\(to H20 to unrestricted customer outside of China with\\) \\ \\(2.5\\) B of H20 revenue to China possible if geopolitical issues reside. Overall demand remains strong with NVDA on track to achieve \\(\\) 4\\(in Sovereign AI revenue this year with expectations for\\) \\ \\(3 - 4T\\) in total AI infrastructure spend by end of decade. Networking revenue tallied \\(\\) 7B\\(with Spectrum - X revenue growing DD \\% sequentially and is now at\\) \\ \\(10B\\) annualized run rate (vs \\(\\) 8B\\(prior,\\) +25\\% \\(Q/Q to\\) \\ \\(2.5B\\) with InfiniBand nearly doubling Q/Q as well. Overall, NVDA remains our Top Pick with plenty of runway for growth as demand signals remain robust and the roadmap remains on track. Please see our full earnings note HERE.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "94a77545358223df",
+      "text": "Figure 1 - JEF vs Consensus: AVGO",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1fdc8e9b3999a446",
+      "text": "AVG REVEALSOCTOBER QUIRERevenueJEF EstConsensusJEF EstConsensusQ0$15.87$15.82$15.78$15.73Gross Margin78.1%78.1%77.8%77.8%Operating Expenses2,2002,1052,1952,193Operating Margin64.3%64.9%64.7%64.9%EBITDA Margin66.0%66.1%66.6%66.0%Net Income$5,179$5,207$5,799$5,093EPS - (per-ASO)$1.45$1.46$1.77$1.49Share Count4,0714,0394,0614,042SegmentsJEF EstConsensusJEF EstConsensusSemiconductor solutions$5,155$5,110$5,881$5,955Q09%8%5%10%AI5,127AI19%12%ROAD4,028Infrastructure1%Q0$5,652$5,736$5,852$5,853",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ec2f528d3c0dc9e0",
+      "text": "Source: FactSet, Jefferies Research",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "08454688dcfa1db3",
+      "text": "MRVL Earnings - Optical Trending Well but ASIC Visibility Remains Low: Optical is performing well (guided up DD % Q/Q in Q3) with Carrier/Enterprise expected to be up \\(30\\%\\) in aggregate, but the focus continues to be the ASIC business which is expected to see lumpiness in Q3. The DC business is expected to be flat Q/Q (implying Custom business down DD % Q/Q) but Custom expected to grow in 2H vs 1H (implies significant bounce back in Q4). MRVL shifted to less customer specific commentary regarding ASIC programs at its AI day and therefore didn't reiterate that its lead ASIC customer will grow in C26. Nonetheless, progressing well on \\(18+\\) XPU sockets (vs 18 prior) with several already in volume production and announced scale- up switching opportunity in UAL and Ethernet for AI workloads. Initial volume shipments for 1.6T DSPs have already begun and the stronger optical market should be a continued tailwind for the business. Overall, we see the MSFT opportunity in late C26 as the much bigger story driver but Alchip share- loss concerns will continue until there is more visibility on the ASIC business. Please see our full earnings note HERE.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "f3203aa099f8fc48",
+      "text": "Company Valuation/Risks",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "434fc570345b2b6d",
+      "text": "For Important Disclosure information on companies recommended in this report, please visit our website at https://javatar.bluematrix.com/sellside/ Disclosures.action or call 212.284.2300.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8dbf6177d6230314",
+      "text": "(Article 3(1)e and Article 7 of MAR) Recommendation Published Recommendation Distributed",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "2dde4d0fb5b5b4d8",
+      "text": "August 29, 2025 13:52 P.M. August 29, 2025 13:52 P.M.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b9a84c1a4af6f35e",
+      "text": "Within the past twelve months, Jefferies Financial Group Inc. and/or its affiliates received compensation for products and services other than investment banking services from non- investment banking, securities related compensation for client services it provided to Marvell Technology Group Ltd. Within the past twelve months, Jefferies Financial Group Inc. and/or its affiliates received compensation for products and services other than investment banking services from non- investment banking, securities related compensation for client services it provided to Microsoft Corporation.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0ddae2d5ed225c22",
+      "text": "For Important Disclosure information on companies recommended in this report, please visit our website at https://javatar.bluematrix.com/sellside/ Disclosures.action or call 212.284.2300.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "590b16828fdcfe3c",
+      "text": "Buy - Describes securities that we expect to provide a total return (price appreciation plus yield) of \\(15\\%\\) or more within a 12- month period. Hold - Describes securities that we expect to provide a total return (price appreciation plus yield) of plus \\(15\\%\\) or minus \\(10\\%\\) within a 12- month period. Underperform - Describes securities that we expect to provide a total return (price appreciation plus yield) of minus \\(10\\%\\) or less within a 12- month period. The expected total return (price appreciation plus yield) for Buy rated securities with an average security price consistently below \\(10\\) is \\(20\\%\\) or more within a 12- month period as these companies are typically more volatile than the overall stock market. For Hold rated securities with an average security price consistently below \\(10\\) , the expected total return (price appreciation plus yield) is plus or minus \\(20\\%\\) within a 12- month period. For Underperform rated securities with an average security price consistently below \\(10\\) , the expected total return (price appreciation plus yield) is minus \\(20\\%\\) or less within a 12- month period.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e1f2075feb7adccc",
+      "text": "NR - The investment rating and price target have been temporarily suspended. Such suspensions are in compliance with applicable regulations and/or Jefferies policies.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4cccf5f9f72aa320",
+      "text": "CS - Coverage Suspended. Jefferies has suspended coverage of this company.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "c07815b9dd976b31",
+      "text": "NC - Not covered. Jefferies does not cover this company.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "06b9fd623afd39c8",
+      "text": "Restricted - Describes issuers where, in conjunction with Jefferies engagement in certain transactions, company policy or applicable securities regulations prohibit certain types of communications, including investment recommendations.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5db4be1ef6fd9f1f",
+      "text": "Monitor - Describes securities whose company fundamentals and financials are being monitored, and for which no financial projections or opinions on the investment merits of the company are provided.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "10180f689cb83a38",
+      "text": "Jefferies methodology for assigning ratings may include the following: market capitalization, maturity, growth/value, volatility and expected total return over the next 12 months. The price targets are based on several methodologies, which may include, but are not restricted to, analyses of market risk, growth rate, revenue stream, discounted cash flow (DCF), EBITDA, EPS, cash flow (CF), free cash flow (FCF), EV/EBITDA, P/E, PE/growth, P/CF, P/FCF, premium (discount)/average group EV/EBITDA, premium (discount)/average group P/E, sum of the parts, net asset value, dividend returns, and return on equity (ROE) over the next 12 months.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "66dde26a62faabf7",
+      "text": "Jefferies Franchise Picks include stock selections from among the best stock ideas from our equity analysts over a 12 month period. Stock selection is based on fundamental analysis and may take into account other factors such as analyst conviction, differentiated analysis, a favorable risk/reward ratio and investment themes that Jefferies analysts are recommending. Jefferies Franchise Picks will include only Buy rated stocks and the number can vary depending on analyst recommendations for inclusion. Stocks will be added as new opportunities arise and removed when the reason for inclusion changes, the stock has met its desired return, if it is no longer rated Buy and/or if it triggers a stop loss. Stocks having 120 day volatility in the bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent a recommended portfolio of stocks and is not sector based, but we may note where we believe a Pick falls within an investment style such as growth or value.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "83867048e410fe33",
+      "text": "Other Companies Mentioned in This Report- Alchip Technologies Ltd (3661 TT: TWD4,000.00, BUY)- Applied Materials Inc. (AMAT: \\(165.27, BUY)\\) - Astera Labs Inc (ALAB: \\(189.15, BUY)\\) - Broadcom (AVGO: \\(308.65, BUY)\\) - Coherent Corp (COHR: \\(95.20, BUY)\\) - LAM Research Corporation (LRCX: \\(104.09, BUY)\\) - Lumentum Holdings Inc. (LITE: \\(135.55, BUY)\\) - MACOM Technology (MTSI: \\(133.89, BUY)\\) - Marvell Technology Group Ltd. (MRVL: \\(77.23, BUY)\\) - Microsoft Corporation (MSFT: \\(509.64, BUY)\\) - NVIDIA Corporation (NVDA: \\(180.17, BUY)\\)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ce1c74e33389caf7",
+      "text": "Distribution of Ratings",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "793e636ea6d3dcb1",
+      "text": "CountPercentCountPercentCountPercentBUY211160.63%37017.53%1185.59%HOLD121334.84%1058.66%221.81%UNDERPERFORM1584.54%31.90%31.90%",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b3ce58344976d619",
+      "text": "Jefferies does busines and seeks to do busines with companies covered in its research reports, and expects to receive or intends to seek compensation for investment banking services among other activities from such companies. As a result, investors should be aware that Jefferies may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "90edd3add09751c6",
+      "text": "Jefferies Equity Research refers to research reports produced by analysts employed by one of the following Jefferies Financial Group Inc. (Jefferies) companies: United States: Jefferies LLC which is an SEC registered broker- dealer and a member of FINRA (and distributed by Jefferies Research Services, LLC, an SEC registered Investment Adviser, to clients paying separately for such research).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8e84e209e6726dd2",
+      "text": "Canada: Jefferies Securities Inc., which is an investment dealer registered in each of the thirteen Canadian jurisdictions and a dealer member of the Canadian Investment Regulatory Organization, including research reports produced jointly by Jefferies Securities Inc. and another Jefferies entity (and distributed by Jefferies Securities Inc.).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "883303f344384416",
+      "text": "Where Jefferies Securities Inc. distributes research reports produced by Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch or Jefferies India Private Limited, you are advised that each of Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch and Jefferies India Private Limited operates as a dealer in your jurisdiction under an exemption from the dealer registration requirements contained in National Instrument 31- 103 Registration Requirements, Exemptions and Ongoing Registrant Obligations and, as such, each of Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch and Jefferies India Private Limited is not required to be and is not a registered dealer or adviser in your jurisdiction. You are advised that where Jefferies LLC or Jefferies International Limited prepared this research report, it was not prepared in accordance with Canadian disclosure requirements relating to research reports in Canada.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "90218a75f45f92de",
+      "text": "United Kingdom: Jefferies International Limited, which is authorized and regulated by the Financial Conduct Authority, registered in England and Wales No. 1978621; registered office: 100 Bishopsgate, London EC2N 4JL; telephone +44 (0)20 7029 8000; facsimile +44 (0)20 7029 8010.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4062a2ffa453ffad",
+      "text": "Japan: Jefferies (Japan) Limited, Tokyo Branch, which is a securities company registered by the Financial Services Agency of Japan and is a member of the Japan Securities Dealers Association; located at Tokyo Midtown Hibiya 30F Hibiya Mitsui Tower, 1- 1- 2 Yurakucho, Chiyoda- ku, Tokyo 100- 0006; telephone +813 5251 6100; facsimile +813 5251 6101.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4f39357d9811544a",
+      "text": "Australia: Jefferies (Australia) Pty Limited (ACN 623 059 898), which holds an Australian financial services license (AFSL 504712) and is located at Level 20, 60 Martin Place, Sydney NSW 2000; telephone +61 2 9364 2800.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "849657c01147d42c",
+      "text": "Dubai: Jefferies International Limited, Dubai branch, which is licensed by the Dubai Financial Services Authority (DFSA Reference Number F007325); registered office Unit L31- 06, L31- 07, Level 31, ICD Brookfield Pace, DIFC, PO Box 121208, Dubai, UAE.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f21450c28b308c37",
+      "text": "This report was prepared by personnel who are associated with Jefferies (Jefferies Securities Inc., Jefferies International Limited, Jefferies GmbH, Jefferies Hong Kong Limited, Jefferies Singapore Limited, Jefferies (Japan) Limited, Tokyo Branch, Jefferies India Private Limited), and Jefferies (Australia) Pty Ltd; or by personnel who are associated with both Jefferies LLC and Jefferies Research Services LLC (\"JRS\"). Jefferies LLC is a US registered broker- dealer and is affiliated with JRS, which is a US registered investment adviser. JRS does not create tailored or personalized research and all research provided by JRS is impersonal. If you are paying separately for this research, it is being provided to you by JRS. Otherwise, it is being provided by Jefferies LLC. Jefferies LLC, JRS, and their affiliates are collectively referred to below as \"Jefferies\". Jefferies may seek to do business with companies covered in this research report. As a result, investors should be aware that Jefferies may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only one of many factors in making their investment decisions. Specific conflict of interest and other disclosures that are required by FINRA, the Canadian Investment Regulatory Organization and other rules are set forth in this disclosure section.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5b937986669e3b89",
+      "text": "If you are receiving this report from a non- US Jefferies entity, please note the following: Unless prohibited by the provisions of Regulation S of the U.S. Securities Act of 1933, as amended, this material is distributed in the United States by Jefferies LLC, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6 under the US Securities Exchange Act of 1934, as amended. Transactions by or on behalf of any US person may only be effected through Jefferies LLC. In the United Kingdom and European Economic Area this report is issued and/or approved for distribution by Jefferies International Limited (\"JIL\") and/or Jefferies GmbH and is intended for use only by persons who have, or have been assessed as having, suitable professional experience and expertise, or by persons to whom it can be otherwise lawfully distributed. Jefferies LLC, JIL, Jefferies GmbH and their affiliates, may make a market or provide liquidity in the financial instruments referred to in this report; and where they do make a market, such activity is disclosed specifically in this report under \"company specific disclosures\".",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "602904a44357019b",
+      "text": "For Canadian investors, this material is intended for use only by professional or institutional investors. None of the investments or investment services mentioned or described herein is available to other persons or to anyone in Canada who is not a permitted client as defined by National Instrument 31- 103 Registration Requirements, Exemptions and Ongoing Registrant Obligations, as applicable. This research report is a general discussion of the merits and risks of a security or securities only, and is not in any way meant to be tailored to the needs and circumstances of any recipient. The information contained herein is not, and under no circumstances is to be construed as, an offer to sell securities described herein, or solicitation of an offer to buy securities described herein, in Canada or any province or territory thereof. Any offer or sale of the securities described herein in Canada will be made only under an exemption from the requirements to file a prospectus with the relevant Canadian securities regulators, if applicable, and only by a dealer properly registered under applicable securities laws or, alternatively, pursuant to an exemption from the dealer registration requirement in the relevant province or territory of Canada in which such offer or sale is made. The information contained herein is under no circumstances to be construed as investment advice in any province or territory of Canada and is not tailored to the needs of the recipient. To the extent that the information contained herein references securities of an issuer incorporated, formed or created under the laws of Canada or a province or territory of Canada, any trades in such securities must be conducted through a dealer registered in Canada. No securities commission or similar regulatory authority in Canada has reviewed or in any way passed judgment upon this research report, the information contained herein or the merits of the securities described herein, and any representation to the contrary is an offence.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "81a8df2024c48fc0",
+      "text": "By providing this report, neither JRS nor any other Jefferies entity accepts any authority, discretion, or control over the management of the recipient's assets. Any action taken by the recipient of this report, based on the information in the report, is at the recipient's sole judgment and risk. The recipient must perform his or her own independent review of any prospective investment. If the recipient uses the services of Jefferies LLC (or other affiliated broker-dealers), in connection with a purchase or sale of a security that is a subject of these materials, such broker- dealer may act as principal for its own accounts or as agent for another person. Only JRS is registered with the SEC as an investment adviser, and therefore neither Jefferies LLC nor any other Jefferies affiliate has any fiduciary duty in connection with distribution of these reports.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1adbead7418a2d32",
+      "text": "The price and value of the investments referred to herein and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9b8512756ed14216",
+      "text": "This report may contain forward looking statements that may be affected by inaccurate assumptions or by known or unknown risks, uncertainties, and other important factors. As a result, the actual results, events, performance or achievements of the financial product may be materially different from those expressed or implied in such statements.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "67a16e67775bdb08",
+      "text": "This report has been prepared independently of any issuer of securities mentioned herein and not as agent of any issuer of securities. No Equity Research personnel have authority whatsoever to make any representations or warranty on behalf of the issuer(s). Any comments or statements made herein are those of the Jefferies entity producing this report and may differ from the views of other Jefferies entities.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "58f37497184b7d1f",
+      "text": "This report may contain information obtained from third parties, including ratings from credit ratings agencies such as Standard & Poor's, and information derived from third-party or proprietary generative artificial intelligence (Gen AI) models. Jefferies does not guarantee the accuracy, completeness, timeliness or availability of this information, and is not responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use of such content. Neither Jefferies nor any third-party content providers, including providers of Gen AI models, give any express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Neither Jefferies nor any third-party content provider shall be liable for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase, hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Reproduction and distribution of third party content in any form is prohibited except with the prior written permission of the related third party.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0af41a2a27e92d26",
+      "text": "Jefferies research reports are disseminated and available electronically, and, in some cases, also in printed form. Electronic research is simultaneously made available to all clients. This report or any portion hereof may not be copied, reprinted, sold, or redistributed or disclosed by the recipient or any third party, by content scraping or extraction, automated processing, or any other form or means, without the prior written consent of Jefferies. Any unauthorized use is prohibited. Neither Jefferies nor any of its respective directors, officers or employees, is responsible for guaranteeing the financial success of any investment, or accepts any liability whatsoever for any direct, indirect or consequential damages or losses arising from any use of this report or its contents. Nothing herein shall be construed to waive any liability Jefferies has under applicable U.S. federal or state securities laws.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ab8309ce43ab18d8",
+      "text": "For Important Disclosure information relating to JRS, please see https://adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx? BRCHR_VRSN_ID=483878 and https://adviserinfo.sec.gov/Firm/292142 or visit our website at https://javatar.bluematrix.com/sellside/Disclosures.action, or www.jefferies.com, or call 1.888.JEFFERIES.",
+      "page": 7,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "12e1560dbf5d9ec5",
+      "name": "ASIC Visibility",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6d965a232e99a3aa",
+      "name": "AVGO Preview",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c64fb66febfab95a",
+      "name": "Alchip Technologies",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ca94a766a5d75aff",
+      "name": "Alchip Technologies Ltd",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "75174b90c21a43a2",
+      "name": "Applied Materials",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "92503ee7f2bfd683",
+      "name": "Applied Materials Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "89bad88527d48f45",
+      "name": "Astera Labs",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "aef71ff1b16d9354",
+      "name": "Astera Labs Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7860a2554c61a53f",
+      "name": "Canadian Investment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a881538aee449655",
+      "name": "Chicago Conference",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7c12a7091f465029",
+      "name": "Coherent Corp",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e1a042e20a35eebd",
+      "name": "Communications Technology",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0c759b57d9ad2ce6",
+      "name": "Company Specific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b7851d3d9c4bab22",
+      "name": "Continued Networking",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4b9be408e155a05b",
+      "name": "Coverage Suspended",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e9cd18ef1469e32c",
+      "name": "DFSA Reference",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6ba4b0a762d135f4",
+      "name": "Dealers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3a9f1e728b314846",
+      "name": "Disclosures\n\nJefferies",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8a16a5df061f6437",
+      "name": "Disclosures\n\nWithin",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8ed3fafbb18d7293",
+      "name": "Dubai Financial",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": "Key Takeaways from our Global Semis Conference in Chicago",
+        "page": 1,
+        "axes": null,
+        "series": [
+          {
+            "name": "William Beavington",
+            "unit": null,
+            "values": [
+              "Global Specialist Sales for Sustainability & Technology"
+            ]
+          },
+          {
+            "name": "Blayne Curtis",
+            "unit": null,
+            "values": [
+              "Managing Director",
+              "Equity Research"
+            ]
+          },
+          {
+            "name": "Janardan Menon",
+            "unit": null,
+            "values": [
+              "Managing Director",
+              "Technology Analyst"
+            ]
+          },
+          {
+            "name": "Jeffrey Favuzza",
+            "unit": null,
+            "values": [
+              "Vice President",
+              "TMT Specialist"
+            ]
+          }
+        ],
+        "figure_id": "a6a73afa2acd2b67",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 2,
+        "axes": null,
+        "series": [],
+        "figure_id": "aaf7158144f6cae4",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "11aa0b9fbcdd378c",
+        "value": 0.7809999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0</td><td>$15.87</td><td>$15.82</td><td>$15.78</td><td>$15.73</td></tr><tr><td>Gross Margin</td><td>78.1%</td><td>78.1%</td><td>77.8%</td><td>77.8%</td></tr><tr><td>Operating Expenses</td><td>2,200</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "242b33cf06240577",
+        "value": 0.7809999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "87</td><td>$15.82</td><td>$15.78</td><td>$15.73</td></tr><tr><td>Gross Margin</td><td>78.1%</td><td>78.1%</td><td>77.8%</td><td>77.8%</td></tr><tr><td>Operating Expenses</td><td>2,200</td><td>2,105</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "bf6c8f0930d285f0",
+        "value": 0.778,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".82</td><td>$15.78</td><td>$15.73</td></tr><tr><td>Gross Margin</td><td>78.1%</td><td>78.1%</td><td>77.8%</td><td>77.8%</td></tr><tr><td>Operating Expenses</td><td>2,200</td><td>2,105</td><td>2,195</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "25f031520af482bf",
+        "value": 0.778,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5.78</td><td>$15.73</td></tr><tr><td>Gross Margin</td><td>78.1%</td><td>78.1%</td><td>77.8%</td><td>77.8%</td></tr><tr><td>Operating Expenses</td><td>2,200</td><td>2,105</td><td>2,195</td><td>2,193</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "863ef88a653cb8eb",
+        "value": 0.643,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s</td><td>2,200</td><td>2,105</td><td>2,195</td><td>2,193</td></tr><tr><td>Operating Margin</td><td>64.3%</td><td>64.9%</td><td>64.7%</td><td>64.9%</td></tr><tr><td>EBITDA Margin</td><td>66.0%</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "0534869b9ae3fa2f",
+        "value": 0.649,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0</td><td>2,105</td><td>2,195</td><td>2,193</td></tr><tr><td>Operating Margin</td><td>64.3%</td><td>64.9%</td><td>64.7%</td><td>64.9%</td></tr><tr><td>EBITDA Margin</td><td>66.0%</td><td>66.1%</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c851d0cb9fe368ae",
+        "value": 0.647,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5</td><td>2,195</td><td>2,193</td></tr><tr><td>Operating Margin</td><td>64.3%</td><td>64.9%</td><td>64.7%</td><td>64.9%</td></tr><tr><td>EBITDA Margin</td><td>66.0%</td><td>66.1%</td><td>66.6%</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "f5d71676db031693",
+        "value": 0.649,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5</td><td>2,193</td></tr><tr><td>Operating Margin</td><td>64.3%</td><td>64.9%</td><td>64.7%</td><td>64.9%</td></tr><tr><td>EBITDA Margin</td><td>66.0%</td><td>66.1%</td><td>66.6%</td><td>66.0%</td></t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "10db37b7faa49bfd",
+        "value": 0.66,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rgin</td><td>64.3%</td><td>64.9%</td><td>64.7%</td><td>64.9%</td></tr><tr><td>EBITDA Margin</td><td>66.0%</td><td>66.1%</td><td>66.6%</td><td>66.0%</td></tr><tr><td>Net Income</td><td>$5,179</td><td>$",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "3ffced618ba1592b",
+        "value": 0.6609999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4.3%</td><td>64.9%</td><td>64.7%</td><td>64.9%</td></tr><tr><td>EBITDA Margin</td><td>66.0%</td><td>66.1%</td><td>66.6%</td><td>66.0%</td></tr><tr><td>Net Income</td><td>$5,179</td><td>$5,207</td><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "702ff524db3c8b53",
+        "value": 0.6659999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4.9%</td><td>64.7%</td><td>64.9%</td></tr><tr><td>EBITDA Margin</td><td>66.0%</td><td>66.1%</td><td>66.6%</td><td>66.0%</td></tr><tr><td>Net Income</td><td>$5,179</td><td>$5,207</td><td>$5,799</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "b25dfd14f4bca2bd",
+        "value": 0.66,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4.7%</td><td>64.9%</td></tr><tr><td>EBITDA Margin</td><td>66.0%</td><td>66.1%</td><td>66.6%</td><td>66.0%</td></tr><tr><td>Net Income</td><td>$5,179</td><td>$5,207</td><td>$5,799</td><td>$5,093</td></",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d4cb35e1abfef707",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r solutions</td><td>$5,155</td><td>$5,110</td><td>$5,881</td><td>$5,955</td></tr><tr><td>Q0</td><td>9%</td><td>8%</td><td>5%</td><td>10%</td></tr><tr><td>AI</td><td>5,127</td><td></td><td></td><td></t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "1d5d91a4165b45ba",
+        "value": 0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>$5,155</td><td>$5,110</td><td>$5,881</td><td>$5,955</td></tr><tr><td>Q0</td><td>9%</td><td>8%</td><td>5%</td><td>10%</td></tr><tr><td>AI</td><td>5,127</td><td></td><td></td><td></td></tr><tr>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "f634dd8e9318f43d",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ",155</td><td>$5,110</td><td>$5,881</td><td>$5,955</td></tr><tr><td>Q0</td><td>9%</td><td>8%</td><td>5%</td><td>10%</td></tr><tr><td>AI</td><td>5,127</td><td></td><td></td><td></td></tr><tr><td>AI</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7c3e17fb47b3fab5",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>$5,110</td><td>$5,881</td><td>$5,955</td></tr><tr><td>Q0</td><td>9%</td><td>8%</td><td>5%</td><td>10%</td></tr><tr><td>AI</td><td>5,127</td><td></td><td></td><td></td></tr><tr><td>AI</td><td>19%</td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "508801145f7b857d",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>10%</td></tr><tr><td>AI</td><td>5,127</td><td></td><td></td><td></td></tr><tr><td>AI</td><td>19%</td><td>12%</td><td></td><td></td></tr><tr><td>ROAD</td><td>4,028</td><td></td><td></td><td></td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "0a73e05fb603c00a",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>AI</td><td>5,127</td><td></td><td></td><td></td></tr><tr><td>AI</td><td>19%</td><td>12%</td><td></td><td></td></tr><tr><td>ROAD</td><td>4,028</td><td></td><td></td><td></td></tr><tr><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "73e648bf65385c7a",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>ROAD</td><td>4,028</td><td></td><td></td><td></td></tr><tr><td>Infrastructure</td><td>1%</td><td></td><td></td><td></td></tr><tr><td>Q0</td><td>$5,652</td><td>$5,736</td><td>$5,852</td><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "064cc734b9ce07a1",
+        "value": 15.87,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "nue</td><td>JEF Est</td><td>Consensus</td><td>JEF Est</td><td>Consensus</td></tr><tr><td>Q0</td><td>$15.87</td><td>$15.82</td><td>$15.78</td><td>$15.73</td></tr><tr><td>Gross Margin</td><td>78.1%</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "26d3064556b6e883",
+        "value": 15.82,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Est</td><td>Consensus</td><td>JEF Est</td><td>Consensus</td></tr><tr><td>Q0</td><td>$15.87</td><td>$15.82</td><td>$15.78</td><td>$15.73</td></tr><tr><td>Gross Margin</td><td>78.1%</td><td>78.1%</td><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "46d6ce829798de0b",
+        "value": 15.78,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "nsensus</td><td>JEF Est</td><td>Consensus</td></tr><tr><td>Q0</td><td>$15.87</td><td>$15.82</td><td>$15.78</td><td>$15.73</td></tr><tr><td>Gross Margin</td><td>78.1%</td><td>78.1%</td><td>77.8%</td><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "980155b9ecaca8c3",
+        "value": 15.73,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">JEF Est</td><td>Consensus</td></tr><tr><td>Q0</td><td>$15.87</td><td>$15.82</td><td>$15.78</td><td>$15.73</td></tr><tr><td>Gross Margin</td><td>78.1%</td><td>78.1%</td><td>77.8%</td><td>77.8%</td></t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "51b4a6ab71f1587e",
+        "value": 5179.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Margin</td><td>66.0%</td><td>66.1%</td><td>66.6%</td><td>66.0%</td></tr><tr><td>Net Income</td><td>$5,179</td><td>$5,207</td><td>$5,799</td><td>$5,093</td></tr><tr><td>EPS - (per-ASO)</td><td>$1.45</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "37a30ffbad33f548",
+        "value": 5207.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">66.0%</td><td>66.1%</td><td>66.6%</td><td>66.0%</td></tr><tr><td>Net Income</td><td>$5,179</td><td>$5,207</td><td>$5,799</td><td>$5,093</td></tr><tr><td>EPS - (per-ASO)</td><td>$1.45</td><td>$1.46</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "f37ce0fdbac77a45",
+        "value": 5799.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "66.1%</td><td>66.6%</td><td>66.0%</td></tr><tr><td>Net Income</td><td>$5,179</td><td>$5,207</td><td>$5,799</td><td>$5,093</td></tr><tr><td>EPS - (per-ASO)</td><td>$1.45</td><td>$1.46</td><td>$1.77</td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "16d89f3c0d04be29",
+        "value": 5093.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "6.6%</td><td>66.0%</td></tr><tr><td>Net Income</td><td>$5,179</td><td>$5,207</td><td>$5,799</td><td>$5,093</td></tr><tr><td>EPS - (per-ASO)</td><td>$1.45</td><td>$1.46</td><td>$1.77</td><td>$1.49</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "acfdafd67b0d8103",
+        "value": 1.45,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>$5,179</td><td>$5,207</td><td>$5,799</td><td>$5,093</td></tr><tr><td>EPS - (per-ASO)</td><td>$1.45</td><td>$1.46</td><td>$1.77</td><td>$1.49</td></tr><tr><td>Share Count</td><td>4,071</td><td>4",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "53ace279c827f0c9",
+        "value": 1.46,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>$5,207</td><td>$5,799</td><td>$5,093</td></tr><tr><td>EPS - (per-ASO)</td><td>$1.45</td><td>$1.46</td><td>$1.77</td><td>$1.49</td></tr><tr><td>Share Count</td><td>4,071</td><td>4,039</td><td>4",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "6cfdd7c7f1a24fb4",
+        "value": 1.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$5,799</td><td>$5,093</td></tr><tr><td>EPS - (per-ASO)</td><td>$1.45</td><td>$1.46</td><td>$1.77</td><td>$1.49</td></tr><tr><td>Share Count</td><td>4,071</td><td>4,039</td><td>4,061</td><td>4",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a3617b8277bab66f",
+        "value": 1.49,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "9</td><td>$5,093</td></tr><tr><td>EPS - (per-ASO)</td><td>$1.45</td><td>$1.46</td><td>$1.77</td><td>$1.49</td></tr><tr><td>Share Count</td><td>4,071</td><td>4,039</td><td>4,061</td><td>4,042</td></tr>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "51fa7c937b4427e1",
+        "value": 5155.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>Consensus</td><td>JEF Est</td><td>Consensus</td></tr><tr><td>Semiconductor solutions</td><td>$5,155</td><td>$5,110</td><td>$5,881</td><td>$5,955</td></tr><tr><td>Q0</td><td>9%</td><td>8%</td><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a6a56b0703ceb5d4",
+        "value": 5110.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "s</td><td>JEF Est</td><td>Consensus</td></tr><tr><td>Semiconductor solutions</td><td>$5,155</td><td>$5,110</td><td>$5,881</td><td>$5,955</td></tr><tr><td>Q0</td><td>9%</td><td>8%</td><td>5%</td><td>10",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "75afb86f4b50f223",
+        "value": 5881.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "st</td><td>Consensus</td></tr><tr><td>Semiconductor solutions</td><td>$5,155</td><td>$5,110</td><td>$5,881</td><td>$5,955</td></tr><tr><td>Q0</td><td>9%</td><td>8%</td><td>5%</td><td>10%</td></tr><tr>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7864b1bdacad0432",
+        "value": 5955.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ensus</td></tr><tr><td>Semiconductor solutions</td><td>$5,155</td><td>$5,110</td><td>$5,881</td><td>$5,955</td></tr><tr><td>Q0</td><td>9%</td><td>8%</td><td>5%</td><td>10%</td></tr><tr><td>AI</td><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c06a3363734967bb",
+        "value": 5652.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "></td></tr><tr><td>Infrastructure</td><td>1%</td><td></td><td></td><td></td></tr><tr><td>Q0</td><td>$5,652</td><td>$5,736</td><td>$5,852</td><td>$5,853</td></tr></table> Source: FactSet, Jefferies Res",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "af026a01c102e954",
+        "value": 5736.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>Infrastructure</td><td>1%</td><td></td><td></td><td></td></tr><tr><td>Q0</td><td>$5,652</td><td>$5,736</td><td>$5,852</td><td>$5,853</td></tr></table> Source: FactSet, Jefferies Research",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "6fffb6675586af79",
+        "value": 5852.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ure</td><td>1%</td><td></td><td></td><td></td></tr><tr><td>Q0</td><td>$5,652</td><td>$5,736</td><td>$5,852</td><td>$5,853</td></tr></table> Source: FactSet, Jefferies Research",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "258df2681622c6b6",
+        "value": 5853.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td></td><td></td><td></td></tr><tr><td>Q0</td><td>$5,652</td><td>$5,736</td><td>$5,852</td><td>$5,853</td></tr></table> Source: FactSet, Jefferies Research",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "6ed83cd188309a43",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "loss. Stocks having 120 day volatility in the bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "1bfd2870fd627565",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent a recommended portfolio of stocks and is not ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a861e6aaff89b474",
+        "value": 0.6063000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>Count</td><td>Percent</td><td>Count</td><td>Percent</td></tr><tr><td>BUY</td><td>2111</td><td>60.63%</td><td>370</td><td>17.53%</td><td>118</td><td>5.59%</td></tr><tr><td>HOLD</td><td>1213</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "92563a1ce962bf67",
+        "value": 0.1753,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Count</td><td>Percent</td></tr><tr><td>BUY</td><td>2111</td><td>60.63%</td><td>370</td><td>17.53%</td><td>118</td><td>5.59%</td></tr><tr><td>HOLD</td><td>1213</td><td>34.84%</td><td>105</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b70a448bbad1c50d",
+        "value": 0.0559,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ent</td></tr><tr><td>BUY</td><td>2111</td><td>60.63%</td><td>370</td><td>17.53%</td><td>118</td><td>5.59%</td></tr><tr><td>HOLD</td><td>1213</td><td>34.84%</td><td>105</td><td>8.66%</td><td>22</td><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "1876a4de4e5d4526",
+        "value": 0.34840000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "63%</td><td>370</td><td>17.53%</td><td>118</td><td>5.59%</td></tr><tr><td>HOLD</td><td>1213</td><td>34.84%</td><td>105</td><td>8.66%</td><td>22</td><td>1.81%</td></tr><tr><td>UNDERPERFORM</td><td>158<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4984764782ea08c0",
+        "value": 0.0866,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "53%</td><td>118</td><td>5.59%</td></tr><tr><td>HOLD</td><td>1213</td><td>34.84%</td><td>105</td><td>8.66%</td><td>22</td><td>1.81%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "631f350f465d5caf",
+        "value": 0.0181,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".59%</td></tr><tr><td>HOLD</td><td>1213</td><td>34.84%</td><td>105</td><td>8.66%</td><td>22</td><td>1.81%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f40406ff71f32863",
+        "value": 0.0454,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>105</td><td>8.66%</td><td>22</td><td>1.81%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td><td>1.90%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6b97f31d5b869062",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>22</td><td>1.81%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td><td>1.90%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "408d15809a0b4cbc",
+        "value": 0.019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>UNDERPERFORM</td><td>158</td><td>4.54%</td><td>3</td><td>1.90%</td><td>3</td><td>1.90%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 2,
+      "tables_count": 0,
+      "numerical_data_count": 50,
+      "passages_count": 45,
+      "entities_count": 20
+    }
+  }
+}

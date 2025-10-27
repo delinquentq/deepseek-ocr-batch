@@ -1,0 +1,7368 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "8d44f7a6d34218e8492db3ff5e5c329b",
+    "title": "Morgan Stanley | RESEARCH",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/MS/Investor Presentation 叙事之变和现实之困Investor Presentation 叙事之变和现实之困_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:28:20.184672",
+      "extracted_at": "2025-10-26T12:28:20.184683"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 47,
+        "successful_pages": 47,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/MS",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 3,
+          "reduction_ratio": 0.3799775416774639
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/MS"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "97b5a88eab12afea",
+      "text": "August 28, 2025 09:19 AM GMT",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e7d5e29dbce3eb74",
+      "text": "This translated report is made available for convenience only and is based on the original research report published in English. In the event of any discrepancy between the translation and the original research report, the content in the original research report will prevail. The original research report can be found here: Investor Presentation: Narrative Shift vs. Reality Check (28 Aug 2025).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3d89e67703cf5c19",
+      "text": "本翻译报告仅供参考之便，基于以英文发表的原版研究报告。如果翻译与原版研究报告有任何不一致之处，以原版研究报告中的内容为准。原版研究报告可在此处查看：Investor Presentation: Narrative Shift vs. Reality Check (28 Aug 2025).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "5170d77076637999",
+      "text": "For important disclosures, refer to the Disclosure Section, located at the end of this report.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ff23c7cca5e5029f",
+      "text": "资料来源：CEIC，MSCI，FactSet，万得，中国人民银行，中国证券投资基金业协会，摩根士丹利研究部。注：数据截至2025年7月底。自由流动性 \\(= \\mathsf{M}1\\) 增速减去PPI增速减去工业增加值增速（工业增加值同比增速使用3个月移动平均值）。绘制的趋势线代表摩根士丹利经济团队对2025年三、四季度的预测。对于2025年以来的M1，我们使用官方M1减去住户活期存款。",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "1e12aed52838390f",
+      "text": "今年上半年机构和散户为A股带来了1.5-1.7万亿人民币的流动性",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e530d2c3170af5bb",
+      "text": "金融数据显示居民新增存款超季节性下跌...",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "fb92029afd9e3b00",
+      "text": "...而同时非银金融机构新增存款显著上升。这或许反映了居民存款正边际向股市“搬家”。",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9b3fede5e7e9ed5e",
+      "text": "继央行在一季度货币政策执行报告中删除“防范资金空转”表述后，该表述又在8月15日发布的二季度报告中重现。同时，本次报告未再提及“用好证券、基金、保险公司互换便利和股票回购增持再贷款”。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "470b9b6e6a367423",
+      "text": "两融余额占自由流通市值的比重仍处于历史平均水平左右",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "7d7d387e23268efa",
+      "text": "两融占A股日成交量的比重仍低于2020年的峰值水平，也远低于2015年",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "518af0e729bf8624",
+      "text": "资料来源：CEIC，摩根士丹利研究部。注：数据截至2025年8月18日",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f63e54e2beff1780",
+      "text": "资料来源：政府公告，摩根士丹利研究部预测（E）",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "4c8cda69936cf910",
+      "text": "1 创新推出债券市场“科技板”支持金融机构、科技型企业、私募股权投资机构等三类主体发行科技创新债券",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "79203f3df55ba822",
+      "text": "2 组建国家创业投资引导基金将带动地方资金、社会资本近1万亿元",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "3a0ee3f0f9a98245",
+      "text": "3 进一步扩大科技创新和技术改造再贷款从目前的5千亿人民币扩大到8千至1万亿人民币",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "93423e74840a2770",
+      "text": "4 增加预算内科学技术支出达到1.2万亿人民币，同比上升8.3%（全国一般公共预算总支出同比增速为4.4%）",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "1cc41faf55774663",
+      "text": "资料来源：摩根士丹利研究部。仅显示部分摩根士丹利覆盖股票。详情请见“China AI: The Sleeping Giant Awakens,”2025年5月13日。",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "36dcec42e2a75ec9",
+      "text": "资料来源：IDC，摩根士丹利研究部，Artificial Analysis。聊天机器人Arena评分维度：风格控制、硬提示、编程、匹配、创意写作、指令遵循、长查询和多轮对话。发布日期基于模型的首次公开发布。",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "3d6edfdba10effec",
+      "text": "缓解人工智能对劳动力市场造成的扰动，还需更多政策支持",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "e4f8aa0d5795e8bd",
+      "text": "根据IMF的预测，对新兴市场而言，约有4成的就业岗位会受到AI的影响。具体而言，受影响的岗位分两种：",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "b56f0b5e10fdf068",
+      "text": "1）高AI口，高互补性的工作：人力投入难以被取代，但单位劳动生产率将因AI而提高2）高AI口、低互补性的工作：人工智能可完全替代人力投入。",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "f1f077d3c4237a1d",
+      "text": "资料来源：国际货币基金组织，联合国，财新，摩根士丹利研究部预测",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "bf1d840fd164b495",
+      "text": "2023年以来中国在“人形机器人”方面的专利申请份额显著增加",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "1e829b4b451b2053",
+      "text": "自动驾驶方面，国内C-DCU市场也由本土供应商主导",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "92da3c9bc2ced537",
+      "text": "资料来源：谷歌专利数据检索系统，盖世汽车资讯，摩根士丹利研究部。\\\\*根据发布时间来排序。我们包含了通过谷歌专利检索系统获得的最新数据，截止日期为2024年11月。注：C- DCU = 汽车域控制器",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "139a23e296a7ad25",
+      "text": "我们预测到2050年人形机器人累计应用规模将达到10亿台...",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "90b4e30e0bec1481",
+      "text": "...其中约 \\(30\\%\\) 来自中国",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "145515525fb79bfb",
+      "text": "累计应用规模(千台)Classification2036204020442050低收入国家2461,0993,90114,006中低收入国家3,74516,24857,553204,498中高收入国家12,33077,327243,338504,307高收入国家7,36339,714123,249296,427北美2,15911,51235,81686,866亚太地区11,46374,886231,596439,936南亚2,2589,79734,705122,733撒哈拉以南非洲1,1374,96717,61762,938欧洲及中亚3,90220,61764,798163,370中东及北非8614,14613,87142,532拉美及加勒比地区1,8628,28929,03298,361其他未分类地区411736072,501美国1,93410,28932,01777,703中国8,59361,047185,532302,316其他国家13,15763,051210,492639,219商用机器人22,066127,714407,418935,052家用机器人1,6186,67320,62384,185总计23,684134,387428,0411,019,238",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "2d8b2a7db42efe56",
+      "text": "我们的汽车行业分析师萧柏庭预测到2030年自动驾驶汽车市场规模将达到2,000亿美元，到2035年将达到3,000- 4,000亿美元。",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "487264b1da3664a7",
+      "text": "从日本的经验来看，制造业投资未能在1990年代末及2000年代初提振工资增速...",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "80a73bf5e98bf089",
+      "text": "资料来源：Haver，日本产业伙伴数据库，摩根士丹利研究部",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "c888dc644cd20801",
+      "text": "...同时，非制造业经历了持续的生产率下降",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "31fae050514fb562",
+      "text": "供给侧改革1.0(2015-18)反内卷1.0(目前)目标行业上游行业主要为中下游行业企业属性国企主导民企主导执行方式行政指令更加平衡和灵活产能类型落后产能先进产能需求端刺激1.财政补贴用于安置失业人员2.债务置换缓解地方财政压力3.棚户区改造高政府债务限制财政扩张",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "175884bd6bf3f8cf",
+      "text": "近期重要事件：四中全会：十五五规划是否会在结构性改革方面提供更为清晰的指引。",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "50c68740d57bb9b7",
+      "text": "资料来源：CEIC，政府网站，摩根士丹利研究部。注：大部分情况下企业所得税和印花税的央地分成比例为60:40。但中央政府对中央国有企业、银行和保险公司的企业所得税以及证券交易税享有100%的份额。“负值是由于出口退税。",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "31a5d3a121c57d1a",
+      "text": "上游与下游之间的价差对利润率的影响存在一定的时滞",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "0f0c2e8d0370fbb1",
+      "text": "今年全年实际GDP增速有望达到 \\(4.8\\%\\) ，下半年增速将有所下滑",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "205dd24299f9ec27",
+      "text": "资料来源：CEIC，摩根士丹利研究部预测",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "2604495b55d503ca",
+      "text": "资料来源：CEIC，白宫，摩根士丹利研究部预测",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "17c702a93c3f9454",
+      "text": "资料来源：CEIC，财政部，中国人民银行，摩根士丹利研究部预测",
+      "page": 24,
+      "section": null
+    },
+    {
+      "passage_id": "3238e3e887a58155",
+      "text": "通缩顽疾难解，名义GDP走弱拖累工资增速",
+      "page": 25,
+      "section": null
+    },
+    {
+      "passage_id": "e0e7a7bf48dc404a",
+      "text": "房地产下行周期中二手住宅价格表现（指数化，第0期=100）",
+      "page": 26,
+      "section": null
+    },
+    {
+      "passage_id": "e7a592d040980811",
+      "text": "房地产拐点前后相隔季度。括号内数字代表房价峰值时期\\\\*日本：城镇地区土地价格\\\\*中国：六个主要城市二手房价格",
+      "page": 26,
+      "section": null
+    },
+    {
+      "passage_id": "4bcbd007aa092a3a",
+      "text": "未来10-15年内出生人口或将趋于稳定，但2040年之后将再度面临下行压力",
+      "page": 28,
+      "section": null
+    },
+    {
+      "passage_id": "b68397315587d1cf",
+      "text": "资料来源：CEIC，OECD，摩根士丹利研究部。\\\\*如2022年数据缺失，则用2021年数据代替",
+      "page": 29,
+      "section": null
+    },
+    {
+      "passage_id": "8ed29000ab285b3e",
+      "text": "增加社保支出将有利于释放居民防御性储蓄用于消费",
+      "page": 29,
+      "section": null
+    },
+    {
+      "passage_id": "345bc2e90b910d8d",
+      "text": "过去十年，中国家庭部门维持着较高的储蓄率，而私人消费占GDP的比重也停留在 \\(38\\%\\) 左右的较低水平",
+      "page": 29,
+      "section": null
+    },
+    {
+      "passage_id": "65bf77e79ac8cf0f",
+      "text": "养老保险(2023)城镇职工基本养老保险城乡居民基本养老保险覆盖人群(百万人)521545平均社保支出(人民币)44,9122,671养老金替代率44%(2020年)12.5%(2018年)养老保险结余(万亿人民币)6.41.5医疗保险(2023)城镇职工基本医疗保险城乡居民基本医疗保险参保人数(百万人)371963平均医保支出(人民币)4,7851,086医保结余(万亿人民币)3.90.8",
+      "page": 30,
+      "section": null
+    },
+    {
+      "passage_id": "8db2d31d8b329e95",
+      "text": "资料来源：CEIC，国家医疗保障局，摩根士丹利研究部",
+      "page": 30,
+      "section": null
+    },
+    {
+      "passage_id": "0bd5dfc379f73f4c",
+      "text": "贸易调查产品调查开始日调查报告日关税执行日201调查太阳能电池板17-May-1731-Oct-177-Feb-18201调查洗衣机17-May-175-Oct-177-Feb-18232调查钢铁20-Apr-1711-Jan-1823-Mar-18232调查铝26-Apr-1717-Jan-1823-Mar-18232调查汽车及汽车零部件23-May-1817-Feb-193-Apr-25301调查中国(科技和知识产权保护)18-Aug-1722-Mar-186-Jun-18正在进行的贸易调查232调查半导体及设备1-Apr-25正在进行232调查药品及活性成分1-Apr-25正在进行232调查木材、锯材及其衍生产品1-Mar-25正在进行232调查关键材料15-Apr-25正在进行",
+      "page": 31,
+      "section": null
+    },
+    {
+      "passage_id": "530215100056da23",
+      "text": "资料来源：Dataweb，白宫，美国贸易代表办公室，美国商务部，美国国际贸易委员会，摩根士丹利研究部预测",
+      "page": 31,
+      "section": null
+    },
+    {
+      "passage_id": "38bbe85974582624",
+      "text": "中美在各产品上贸易差额的演变（2024年对比2019年）",
+      "page": 32,
+      "section": null
+    },
+    {
+      "passage_id": "a021e7e6d3730ccb",
+      "text": "资料来源：Haver，美国能源部，摩根士丹利研究部",
+      "page": 32,
+      "section": null
+    },
+    {
+      "passage_id": "000ed54f76ae6612",
+      "text": "7月15日：美国商务部长卢特尼克表示，作为稀土谈判的一部分，美国将恢复对华H20芯片供应",
+      "page": 32,
+      "section": null
+    },
+    {
+      "passage_id": "5a23d89066b0ad3b",
+      "text": "中国对美出口中，有大约 \\(40\\%\\) 的产品对关税的弹性较低",
+      "page": 33,
+      "section": null
+    },
+    {
+      "passage_id": "4f41ca700111c5fa",
+      "text": "资料来源：Dataweb，哈佛大学增长实验室，联合国商品统计数据库，摩根士丹利研究部。",
+      "page": 33,
+      "section": null
+    },
+    {
+      "passage_id": "0c6c0909badb1a45",
+      "text": "中国是全球极少数有能力进口低复杂度商品，但出口高复杂度商品的国家之一",
+      "page": 33,
+      "section": null
+    },
+    {
+      "passage_id": "e5a989d398f2d595",
+      "text": "鉴于区域经济的紧密联系，亚洲经济体难以对华加征关税",
+      "page": 34,
+      "section": null
+    },
+    {
+      "passage_id": "cebc715fa8cf05db",
+      "text": "而对东盟经济体来说，限制中国企业投资也充满挑战",
+      "page": 34,
+      "section": null
+    },
+    {
+      "passage_id": "e47cd1fd6ac9b3ef",
+      "text": "中国在各经济体外商直接投资中的占比（2023）",
+      "page": 34,
+      "section": null
+    },
+    {
+      "passage_id": "dad2280550b787ae",
+      "text": "资料来源：CEIC，世界综合贸易方案，亚洲开发银行，Haver，摩根士丹利研究部。右图注脚：我们使用中国对外直接投资来衡量来自中国的FDI流入，并使用各个经济体的国际收支平衡表（BOP）FDI流入数据来衡量整体FDI流入。",
+      "page": 34,
+      "section": null
+    },
+    {
+      "passage_id": "98f58729cc209fd4",
+      "text": "我们预计美元对人民币汇率今年年底达到7.15，明年年底达到7.05",
+      "page": 36,
+      "section": null
+    },
+    {
+      "passage_id": "123aad8b2607d9aa",
+      "text": "人民币对美元温和升值，但对一篮子货币适度贬值",
+      "page": 36,
+      "section": null
+    },
+    {
+      "passage_id": "27c526c05e211826",
+      "text": "单靠人民币升值无法降低中国对美的巨大贸易顺差",
+      "page": 37,
+      "section": null
+    },
+    {
+      "passage_id": "b5dde087359edf11",
+      "text": "目前的经济基本面并不支持人民币的大幅升值",
+      "page": 37,
+      "section": null
+    },
+    {
+      "passage_id": "7d0a3a50260510a6",
+      "text": "资料来源：中国人民银行，摩根士丹利研究部",
+      "page": 38,
+      "section": null
+    },
+    {
+      "passage_id": "727a989bf1c6c7d3",
+      "text": "- 设立银行间市场交易报告库- 设立数字人民币国际运营中心- 研究推进人民币外汇期货交易，便利金融机构和外贸企业更好管理汇率风险。- 设立个人征信机构。为金融机构提供多元化、差异化的个人征信产品，进一步健全社会征信体系。",
+      "page": 39,
+      "section": null
+    },
+    {
+      "passage_id": "475e9e8cea227bdc",
+      "text": "- 发展自贸离岸债- 在上海临港新片区开展离岸贸易金融服务综合改革试点- 优化升级自由贸易账户功能，提升跨境贸易投资自由化便利化水平",
+      "page": 39,
+      "section": null
+    },
+    {
+      "passage_id": "fbb2f7833a9109e2",
+      "text": "资料来源：京东，圆币科技，渣打银行，摩根士丹利研究部",
+      "page": 40,
+      "section": null
+    },
+    {
+      "passage_id": "4ce3d991b46b646b",
+      "text": "香港人民币存款：1万亿人民币内地人民币存款：300万亿人民币",
+      "page": 42,
+      "section": null
+    },
+    {
+      "passage_id": "fa08c4d3236c167c",
+      "text": "央行为防止人民币在岸和离岸价格出现大幅偏离，导致离岸高质量人民币资产供给受限",
+      "page": 42,
+      "section": null
+    },
+    {
+      "passage_id": "1649138e3b7d2d4e",
+      "text": "可能影响离岸人民币稳定币在全球跨境支付及中心化金融应用中的市场接受度",
+      "page": 42,
+      "section": null
+    },
+    {
+      "passage_id": "50393acdd95c6f94",
+      "text": "过去三年人民币在全球储备货币中的份额有所下降...",
+      "page": 43,
+      "section": null
+    },
+    {
+      "passage_id": "e478e79bd458ab5b",
+      "text": "...症结在于“3D”挑战下，全球投资人对中国信心不足",
+      "page": 43,
+      "section": null
+    },
+    {
+      "passage_id": "4deab393bb0ca154",
+      "text": "Important note regarding economic sanctions. This research references U.S. Executive Order 14032 and/or entities or securities that are designated thereunder. Executive Order 14032 may prohibit U.S. persons from buying certain securities of entities named in this note/presentation. The data set forth in this research is for informational purposes and does not represent Morgan Stanley's view as to whether or not any of the instruments discussed in this note are subject to sanctions. Any references in this report to entities, debt or equity instruments that may be covered by such sanctions should not be read as recommending or advising as to any investment activities in relation to such entities or instruments. Users of this report are solely responsible for ensuring that their investment activities in relation to any sanctioned entities and/or securities are carried out in compliance with applicable sanctions.",
+      "page": 44,
+      "section": null
+    },
+    {
+      "passage_id": "d86195e059e3cc90",
+      "text": "Important note regarding export controls. This note references export controls maintained by the U.S. Department of Commerce Bureau of Industry and Security (BIS) and/or entities that may be subject to export control restrictions. These controls may restrict export, re- export or transfer (in- country) of certain items covered by the Export Administration Regulations (EAR). This disclaimer does not represent Morgan Stanley's view as to whether or not the export, re- export or transfer (in- country) of any items is subject to export controls laws. Investors are solely responsible for ensuring that their investment activities in relation to any entities are carried out in compliance with applicable export controls laws.",
+      "page": 44,
+      "section": null
+    },
+    {
+      "passage_id": "b60867fa5b184de0",
+      "text": "Important note regarding economic sanctions. This research may reference jurisdiction(s) or person(s) which are the subject of sanctions administered or enforced by the U.S. Department of the Treasury's Office of Foreign Assets Control (\"OFAC\"), the United Kingdom, the European Union and/or by other countries and multi- national bodies. Any references in this report to jurisdictions, persons (individuals or entities), debt or equity instruments, or projects that may be covered by such sanctions are strictly incidental to general coverage of the relevant economic sector as germane to its overall financial outlook, and should not be read as recommending or advising as to any investment activities in relation to such jurisdictions, persons, instruments, or projects. Users of this report are solely responsible for ensuring that their investment activities are carried out in compliance with applicable sanctions.",
+      "page": 44,
+      "section": null
+    },
+    {
+      "passage_id": "31897902492459a2",
+      "text": "For valuation methodology and risks associated with any recommendation, rating or price target referenced in this research report, please contact the Client Support Team as follows: US/Canada +1 800 303- 2495; Hong Kong +852 2848- 5999; Latin America +1 718 754- 5444 (U.S.); London +44 (0)20- 7425- 8169; Singapore +65 6834- 6860; Sydney +61 (0)2- 9770- 1505; Tokyo +81 (0)3- 6836- 9000. Alternatively you may contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.",
+      "page": 45,
+      "section": null
+    },
+    {
+      "passage_id": "8b4f5e11987d0eb8",
+      "text": "Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflict policies. A Portuguese version of the policy can be found at www.morganstanley.com.br",
+      "page": 45,
+      "section": null
+    },
+    {
+      "passage_id": "25aa4958ffcefa71",
+      "text": "The trademarks and service marks contained in Morgan Stanley Research are the property of their respective owners. Third- party data providers make no warranties or representations relating to the accuracy, completeness, or timeliness of the data they provide and shall not have liability for any damages relating to such data. The Global Industry Classification Standard (GICS) was developed by and is the exclusive property of MSCI and S&P.",
+      "page": 46,
+      "section": null
+    },
+    {
+      "passage_id": "b636ea80f57ee853",
+      "text": "Morgan Stanley Research, or any portion thereof may not be reprinted, sold or redistributed without the written consent of Morgan Stanley.",
+      "page": 46,
+      "section": null
+    },
+    {
+      "passage_id": "b0c1736f13df5a6e",
+      "text": "ndicators and trackers referenced in Morgan Stanley Research may not be used as, or treated as, a benchmark under Regulation EU 2016/1011, or any other similar framework.",
+      "page": 46,
+      "section": null
+    },
+    {
+      "passage_id": "10a8189c6386dc1b",
+      "text": "The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (DIFC Branch), regulated by the Dubai Financial Services Authority (the DFSA) or by Morgan Stanley & Co. International plc (ADGM Branch), regulated by the Financial Services Regulatory Authority Abu Dhabi (the FSRA), and is directed at Professional Clients only, as defined by the DFSA or the FSRA, respectively. The financial products or financial services to which this research relates will only be made available to a customer who we are satisfied meets the regulatory criteria of a Professional Client. A distribution of the different MS Research ratings or recommendations, in percentage terms for Investments in each sector covered, is available upon request from your sales representative.",
+      "page": 46,
+      "section": null
+    },
+    {
+      "passage_id": "9c67f597af9f6874",
+      "text": "The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (QFC Branch), regulated by the Qatar Financial Centre Regulatory Authority (the QFCRA), and is directed at business customers and market counterparties only and is not intended for Retail Customers as defined by the QFCRA. As required by the Capital Markets Board of Turkey, investment information, comments and recommendations stated here, are not within the scope of investment advisory activity. Investment advisory service is provided exclusively to persons based on their risk and income preferences by the authorized firms. Comments and recommendations stated here are general in nature. These opinions may not fit to your financial status, risk and return preferences. For this reason, to make an investment decision by relying solely to this information stated here may not bring about outcomes that fit your expectations.",
+      "page": 46,
+      "section": null
+    },
+    {
+      "passage_id": "513d0f3f09f2543f",
+      "text": "Registration granted by SEBI and certification from the National Institute of Securities Markets (NISM) in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Investment in securities market are subject to market risks. Read all the related documents carefully before investing.",
+      "page": 46,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "5dc8f59a60c48918",
+      "name": "ADGM Branch",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ed49291dd8535b70",
+      "name": "Abu Dhabi",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f9e191b862163be0",
+      "name": "Artificial Analysis",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6e3291cf16861c3c",
+      "name": "China AI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c184cb2eaab39cb8",
+      "name": "Client Support",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4527347b1b9d141f",
+      "name": "Commerce Bureau",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c8c0d67137b1b25c",
+      "name": "Conflict Management",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dd23d5c75d42815c",
+      "name": "DIFC Branch",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a61f722f0dae303e",
+      "name": "Disclosure Section",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8ed3fafbb18d7293",
+      "name": "Dubai Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9a18968af130ca00",
+      "name": "European Union",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5bad3fddff82465f",
+      "name": "Executive Order",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "34f15d74140ad657",
+      "name": "Export Administration",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f279b250fb9ccc9a",
+      "name": "Financial Services",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7b0c4dda8aeb0822",
+      "name": "Foreign Assets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5c8e0e4945ebffb8",
+      "name": "Giant Awakens",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1593896ebb352445",
+      "name": "Global Research",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": "中文版研究报告",
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "eb91b202287f4cf1",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-03",
+              "Jan-04",
+              "Jan-05",
+              "Jan-06",
+              "Jan-07",
+              "Jan-08",
+              "Jan-09",
+              "Jan-10",
+              "Jan-11",
+              "Jan-12",
+              "Jan-13",
+              "Jan-14",
+              "Jan-15",
+              "Jan-16",
+              "Jan-17",
+              "Jan-18",
+              "Jan-19",
+              "Jan-20",
+              "Jan-21",
+              "Jan-22",
+              "Jan-23",
+              "Jan-24",
+              "Jan-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -200,
+              "max": 200
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "明晟中国指数,同比增速",
+            "unit": null,
+            "values": [
+              10,
+              85,
+              -5,
+              20,
+              50,
+              150,
+              75,
+              -5,
+              -20,
+              10,
+              -5,
+              20,
+              50,
+              -5,
+              70,
+              -5,
+              60,
+              105,
+              -5,
+              -60,
+              -10,
+              -5,
+              40
+            ]
+          },
+          {
+            "name": "中国自由流动性指数同比增速-右轴",
+            "unit": null,
+            "values": [
+              -10,
+              -20,
+              -50,
+              -70,
+              -50,
+              -10,
+              160,
+              110,
+              -50,
+              -80,
+              -10,
+              -50,
+              20,
+              -10,
+              140,
+              -40,
+              -60,
+              -10,
+              -180,
+              -100,
+              30,
+              -70,
+              -20
+            ]
+          },
+          {
+            "name": "摩根士丹利中国自由流动性指数预期-右轴",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              0
+            ]
+          }
+        ],
+        "figure_id": "6bb0dd8a202d5465",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "bar",
+        "title": "2025年上半年A股资金净流入规模",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "机构",
+              "散户"
+            ]
+          },
+          "y": {
+            "unit": "十亿人民币",
+            "range": {
+              "min": 0,
+              "max": 1200
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "机构-险资",
+            "unit": "十亿人民币",
+            "values": [
+              600
+            ]
+          },
+          {
+            "name": "机构-私募基金",
+            "unit": "十亿人民币",
+            "values": [
+              280
+            ]
+          },
+          {
+            "name": "机构-公募基金",
+            "unit": "十亿人民币",
+            "values": [
+              "90-100"
+            ]
+          },
+          {
+            "name": "机构-央行互换便利和再贷款工具",
+            "unit": "十亿人民币",
+            "values": [
+              135
+            ]
+          },
+          {
+            "name": "散户",
+            "unit": "十亿人民币",
+            "values": [
+              "400-500"
+            ]
+          }
+        ],
+        "figure_id": "28b85024495eb05a",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "新增住户存款, 十亿人民币",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ]
+          },
+          "y": {
+            "unit": "十亿人民币",
+            "range": {
+              "min": -3000,
+              "max": 6000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "过去5年平均",
+            "unit": "十亿人民币",
+            "values": [
+              4000,
+              2000,
+              3000,
+              -1000,
+              0,
+              2000,
+              0,
+              500,
+              1000,
+              -500,
+              1000,
+              2000
+            ]
+          },
+          {
+            "name": "2024",
+            "unit": "十亿人民币",
+            "values": [
+              2500,
+              3000,
+              3000,
+              -2000,
+              500,
+              2200,
+              -500,
+              500,
+              2200,
+              -500,
+              1000,
+              2200
+            ]
+          },
+          {
+            "name": "2025",
+            "unit": "十亿人民币",
+            "values": [
+              5500,
+              600,
+              3000,
+              -1500,
+              500,
+              2500,
+              -1000,
+              0,
+              1000,
+              -500,
+              1000,
+              2000
+            ]
+          }
+        ],
+        "figure_id": "37405c05268c99d3",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": "非银金融机构新增存款 (十亿人民币)",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ]
+          },
+          "y": {
+            "unit": "十亿人民币",
+            "range": {
+              "min": -4000,
+              "max": 4000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "过去5年平均",
+            "unit": "十亿人民币",
+            "values": [
+              500,
+              1000,
+              -200,
+              200,
+              1000,
+              -100,
+              700,
+              -100,
+              -100,
+              500,
+              700,
+              -2000
+            ]
+          },
+          {
+            "name": "2024",
+            "unit": "十亿人民币",
+            "values": [
+              600,
+              1100,
+              -200,
+              -100,
+              500,
+              -200,
+              700,
+              600,
+              800,
+              1000,
+              200,
+              -3000
+            ]
+          },
+          {
+            "name": "2025",
+            "unit": "十亿人民币",
+            "values": [
+              -1000,
+              2800,
+              -1500,
+              1600,
+              1200,
+              -500,
+              2100,
+              -200,
+              -100,
+              -100,
+              -100,
+              -100
+            ]
+          }
+        ],
+        "figure_id": "3ea6f8acdf6f2bc8",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "combo",
+        "title": "央行流动性净投放",
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Apr-23",
+              "Jun-23",
+              "Aug-23",
+              "Oct-23",
+              "Dec-23",
+              "Feb-24",
+              "Apr-24",
+              "Jun-24",
+              "Aug-24",
+              "Oct-24",
+              "Dec-24",
+              "Feb-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25 MTD"
+            ]
+          },
+          "y": {
+            "unit": "十亿人民币",
+            "range": {
+              "min": -2500,
+              "max": 4500
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "传统公开市场操作",
+            "unit": "十亿人民币",
+            "values": [
+              -200,
+              -100,
+              -100,
+              -100,
+              -100,
+              -800,
+              -100,
+              -100,
+              -100,
+              -100,
+              1000,
+              -100,
+              -100,
+              -100,
+              -100
+            ]
+          },
+          {
+            "name": "降准",
+            "unit": "十亿人民币",
+            "values": [
+              0,
+              0,
+              1500,
+              0,
+              0,
+              1000,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "买断式逆回购",
+            "unit": "十亿人民币",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1700,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "央行借贷便利",
+            "unit": "十亿人民币",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              -1800,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "央行买卖国债",
+            "unit": "十亿人民币",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "净投放",
+            "unit": "十亿人民币",
+            "values": [
+              -500,
+              1200,
+              -700,
+              1500,
+              500,
+              1000,
+              -500,
+              -700,
+              1000,
+              200,
+              1200,
+              3700,
+              -700,
+              1200,
+              500
+            ]
+          }
+        ],
+        "figure_id": "48899ee4b3a0d015",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Apr-23",
+              "Jun-23",
+              "Aug-23",
+              "Oct-23",
+              "Dec-23",
+              "Feb-24",
+              "Apr-24",
+              "Jun-24",
+              "Aug-24",
+              "Oct-24",
+              "Dec-24",
+              "Feb-25",
+              "Apr-25",
+              "Jun-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 1.3,
+              "max": 2.3
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "DR007",
+            "unit": "%",
+            "values": [
+              2.0,
+              1.8,
+              1.9,
+              1.8,
+              1.9,
+              1.8,
+              1.8,
+              1.8,
+              1.8,
+              1.7,
+              1.7,
+              2.0,
+              1.7,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "name": "7天逆回购利率 (政策利率)",
+            "unit": "%",
+            "values": [
+              2.0,
+              1.9,
+              1.9,
+              1.8,
+              1.8,
+              1.8,
+              1.8,
+              1.8,
+              1.8,
+              1.5,
+              1.5,
+              1.5,
+              1.4,
+              1.4,
+              1.4
+            ]
+          }
+        ],
+        "figure_id": "e48fd23ebe37adbf",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Feb-13",
+              "Aug-13",
+              "Feb-14",
+              "Aug-14",
+              "Feb-15",
+              "Aug-15",
+              "Feb-16",
+              "Aug-16",
+              "Feb-17",
+              "Aug-17",
+              "Feb-18",
+              "Aug-18",
+              "Feb-19",
+              "Aug-19",
+              "Feb-20",
+              "Aug-20",
+              "Feb-21",
+              "Aug-21",
+              "Feb-22",
+              "Aug-22",
+              "Feb-23",
+              "Aug-23",
+              "Feb-24",
+              "Aug-24",
+              "Feb-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "百万美元",
+            "range": {
+              "min": 0,
+              "max": 400000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "A股两融余额 (百万美元)",
+            "unit": "百万美元",
+            "values": [
+              15000,
+              30000,
+              50000,
+              80000,
+              200000,
+              370000,
+              150000,
+              130000,
+              120000,
+              130000,
+              110000,
+              120000,
+              110000,
+              130000,
+              120000,
+              150000,
+              200000,
+              250000,
+              270000,
+              230000,
+              200000,
+              220000,
+              250000,
+              270000,
+              290000,
+              310000
+            ]
+          },
+          {
+            "name": "两融余额占流通市值比例-右轴",
+            "unit": "%",
+            "values": [
+              2.5,
+              3.5,
+              4.5,
+              6.0,
+              9.0,
+              11.5,
+              7.0,
+              6.0,
+              5.0,
+              5.5,
+              5.0,
+              5.5,
+              5.0,
+              5.5,
+              5.0,
+              5.5,
+              5.0,
+              5.0,
+              4.5,
+              4.0,
+              4.0,
+              4.5,
+              5.0,
+              5.0,
+              5.0,
+              2.0
+            ]
+          }
+        ],
+        "figure_id": "5700b6f5bf980d6f",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Mar-15",
+              "Aug-15",
+              "Jan-16",
+              "Jun-16",
+              "Nov-16",
+              "Apr-17",
+              "Sep-17",
+              "Feb-18",
+              "Jul-18",
+              "Dec-18",
+              "May-19",
+              "Oct-19",
+              "Mar-20",
+              "Aug-20",
+              "Jan-21",
+              "Jun-21",
+              "Nov-21",
+              "Apr-22",
+              "Sep-22",
+              "Feb-23",
+              "Jul-23",
+              "Dec-23",
+              "May-24",
+              "Oct-24",
+              "Mar-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": "十亿人民币",
+            "range": {
+              "min": 0,
+              "max": 2500
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "两融余额, 十亿人民币",
+            "unit": "十亿人民币",
+            "values": [
+              2250,
+              1000,
+              850,
+              900,
+              800,
+              850,
+              950,
+              900,
+              850,
+              700,
+              650,
+              900,
+              1000,
+              1100,
+              1200,
+              1300,
+              1100,
+              1000,
+              900,
+              800,
+              850,
+              900,
+              1000,
+              1800,
+              1900,
+              2100
+            ]
+          },
+          {
+            "name": "两融余额占A股日成交量比重 (一个月移动平均, 右轴)",
+            "unit": "%",
+            "values": [
+              17.0,
+              10.0,
+              12.0,
+              9.0,
+              8.0,
+              10.0,
+              11.0,
+              15.0,
+              13.0,
+              10.0,
+              14.0,
+              11.0,
+              12.0,
+              14.0,
+              13.0,
+              10.0,
+              8.0,
+              7.0,
+              9.0,
+              8.0,
+              9.0,
+              10.0,
+              8.0,
+              10.0,
+              9.0,
+              10.0
+            ]
+          }
+        ],
+        "figure_id": "fcf5e29d0e9c9bef",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "other",
+        "title": "China Frontiers Stock Implications",
+        "page": 7,
+        "axes": null,
+        "series": [
+          {
+            "name": "R&D - China's Advantage",
+            "unit": null,
+            "values": [
+              "Motor vehicles",
+              "Machinery",
+              "Computer & electronic",
+              "Transportation equipment",
+              "Chemicals"
+            ]
+          },
+          {
+            "name": "R&D - New Frontiers",
+            "unit": null,
+            "values": [
+              "Information technology",
+              "Semiconductor",
+              "Pharmaceutical"
+            ]
+          },
+          {
+            "name": "Talent - China's Advantage",
+            "unit": null,
+            "values": [
+              "Engineering",
+              "Business administration & law"
+            ]
+          },
+          {
+            "name": "Talent - New Frontiers",
+            "unit": null,
+            "values": [
+              "AI",
+              "Data science",
+              "Smart manufacturing"
+            ]
+          },
+          {
+            "name": "Capital Inflow - China's Advantage",
+            "unit": null,
+            "values": [
+              "Advanced manufacturing, esp. IC, new energy, machinery",
+              "Auto"
+            ]
+          },
+          {
+            "name": "Capital Inflow - New Frontiers",
+            "unit": null,
+            "values": [
+              "New materials",
+              "Aerospace",
+              "Pharmaceutical",
+              "Software"
+            ]
+          },
+          {
+            "name": "Government support - China's Advantage",
+            "unit": null,
+            "values": [
+              "New energy"
+            ]
+          },
+          {
+            "name": "Government support - New Frontiers",
+            "unit": null,
+            "values": [
+              "Aerospace",
+              "Semiconductor",
+              "Biomedical technology",
+              "AI and embodied AI"
+            ]
+          },
+          {
+            "name": "Market demand - China's Advantage",
+            "unit": null,
+            "values": [
+              "3C",
+              "Auto",
+              "Electrical equipment"
+            ]
+          },
+          {
+            "name": "Market demand - New Frontiers",
+            "unit": null,
+            "values": [
+              "Pharmaceutical",
+              "Humanoid robot",
+              "eVTOL"
+            ]
+          },
+          {
+            "name": "Supply chain foundation - China's Advantage",
+            "unit": null,
+            "values": [
+              "3C",
+              "Auto",
+              "Automation and robotics"
+            ]
+          },
+          {
+            "name": "Supply chain foundation - New Frontiers",
+            "unit": null,
+            "values": [
+              "Semiconductor",
+              "Healthcare",
+              "Aerospace",
+              "Software"
+            ]
+          },
+          {
+            "name": "Key Frontiers",
+            "unit": null,
+            "values": [
+              "Semiconductor",
+              "Software",
+              "Aerospace",
+              "AI and physical AI (e.g. humanoid robot)",
+              "Pharmaceutical",
+              "New Materials"
+            ]
+          }
+        ],
+        "figure_id": "1c14bd52749725b3",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "combo",
+        "title": "对名义固定资产投资增速的贡献",
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025E"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -4.0,
+              "max": 10.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "新兴产业",
+            "unit": "%",
+            "values": [
+              0.2,
+              1.6,
+              3.7,
+              3.5,
+              3.2,
+              3.7
+            ]
+          },
+          {
+            "name": "房地产",
+            "unit": "%",
+            "values": [
+              2.3,
+              1.2,
+              -3.0,
+              -0.5,
+              -2.0,
+              -2.0
+            ]
+          },
+          {
+            "name": "其他",
+            "unit": "%",
+            "values": [
+              0.5,
+              2.0,
+              4.3,
+              2.5,
+              2.5,
+              4.3
+            ]
+          },
+          {
+            "name": "固定资产投资总额",
+            "unit": "%",
+            "values": [
+              3.0,
+              4.8,
+              5.0,
+              3.0,
+              3.2,
+              4.0
+            ]
+          }
+        ],
+        "figure_id": "fa56b3ec742efe68",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "gantt",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1870-1879",
+              "1880-1889",
+              "1890-1899",
+              "1900-1909",
+              "1910-1919",
+              "1920-1929",
+              "1930-1939",
+              "1940-1949",
+              "1950-1959",
+              "1960-1969",
+              "1970-1979",
+              "1980-1989",
+              "1990-1999",
+              "2000-2009",
+              "2010-2019",
+              "2020-2023",
+              "2023-2029",
+              "2030-2040"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "#1",
+            "unit": null,
+            "values": [
+              {
+                "category": "大宗商品",
+                "start": "1870-1879",
+                "end": "1909-1919"
+              },
+              {
+                "category": "石油",
+                "start": "1920-1929",
+                "end": "1939-1949"
+              },
+              {
+                "category": "零售",
+                "start": "1940-1949",
+                "end": "1959-1969"
+              },
+              {
+                "category": "科技",
+                "start": "1970-1979",
+                "end": "2019-2023"
+              },
+              {
+                "category": "通信",
+                "start": "2020-2023",
+                "end": "2040-2040"
+              }
+            ]
+          },
+          {
+            "name": "#2",
+            "unit": null,
+            "values": [
+              {
+                "category": "汽车",
+                "start": "1870-1879",
+                "end": "1919-1929"
+              },
+              {
+                "category": "大宗商品",
+                "start": "1920-1929",
+                "end": "1939-1949"
+              },
+              {
+                "category": "石油",
+                "start": "1940-1949",
+                "end": "1969-1979"
+              },
+              {
+                "category": "零售",
+                "start": "1970-1979",
+                "end": "1989-1999"
+              },
+              {
+                "category": "科技",
+                "start": "1990-1999",
+                "end": "2019-2023"
+              },
+              {
+                "category": "通信",
+                "start": "2020-2023",
+                "end": "2040-2040"
+              }
+            ]
+          },
+          {
+            "name": "#3",
+            "unit": null,
+            "values": [
+              {
+                "category": "公用事业",
+                "start": "1870-1879",
+                "end": "1909-1919"
+              },
+              {
+                "category": "汽车",
+                "start": "1910-1919",
+                "end": "1929-1939"
+              },
+              {
+                "category": "大宗商品",
+                "start": "1930-1939",
+                "end": "1949-1959"
+              },
+              {
+                "category": "石油",
+                "start": "1950-1959",
+                "end": "1969-1979"
+              },
+              {
+                "category": "零售",
+                "start": "1970-1979",
+                "end": "1989-1999"
+              },
+              {
+                "category": "科技",
+                "start": "1990-1999",
+                "end": "2009-2019"
+              },
+              {
+                "category": "通信",
+                "start": "2010-2019",
+                "end": "2029-2040"
+              }
+            ]
+          }
+        ],
+        "figure_id": "5ff74f148f55793a",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "other",
+        "title": "Chinese Tech Ecosystem Landscape",
+        "page": 10,
+        "axes": {},
+        "series": [
+          {
+            "name": "Infrastructure - Semis/Hardware",
+            "unit": "company",
+            "values": [
+              "SMIC",
+              "Empyrean",
+              "asmedia",
+              "LUXSHARE",
+              "inspur",
+              "ACM",
+              "FOXCONN",
+              "NAURA",
+              "Chroma",
+              "AMEC",
+              "MONTAGE",
+              "Lenovo",
+              "SCC"
+            ]
+          },
+          {
+            "name": "Infrastructure - Datacenters",
+            "unit": "company",
+            "values": [
+              "GDS万国数据",
+              "世纪互联 VNET"
+            ]
+          },
+          {
+            "name": "Infrastructure - Power",
+            "unit": "company",
+            "values": [
+              "Envicool",
+              "潍柴动力 WEICHAI POWER"
+            ]
+          },
+          {
+            "name": "Platform",
+            "unit": "company",
+            "values": [
+              "Tencent",
+              "Baidu",
+              "Alibaba",
+              "iFLYTEK"
+            ]
+          },
+          {
+            "name": "Applications - Internet/Software",
+            "unit": "company",
+            "values": [
+              "Trip.com",
+              "Meituan",
+              "BOSS直聘",
+              "JD.COM",
+              "Kingdee",
+              "NetEase Games",
+              "KUAISHOU",
+              "Tencent",
+              "Alibaba",
+              "Baidu"
+            ]
+          },
+          {
+            "name": "Applications - Auto",
+            "unit": "company",
+            "values": [
+              "Horizon Robotics",
+              "XPENG",
+              "NIO",
+              "BYD",
+              "ZEEKR",
+              "Li Auto"
+            ]
+          },
+          {
+            "name": "Applications - Healthcare",
+            "unit": "company",
+            "values": [
+              "mindray",
+              "固生堂",
+              "Alibaba Health",
+              "FOSUNPHARMA 复星医药",
+              "DIAN Diagnostics",
+              "UNITED IMAGING"
+            ]
+          },
+          {
+            "name": "Applications - Education",
+            "unit": "company",
+            "values": [
+              "TAL 好未来",
+              "Electronics",
+              "Xiaomi",
+              "tuya"
+            ]
+          },
+          {
+            "name": "Applications - Consumer",
+            "unit": "company",
+            "values": [
+              "Midea",
+              "Haier",
+              "roborock",
+              "ECOVACS ROBOTICS",
+              "GREE",
+              "YumChina",
+              "POP MART",
+              "巨子生物"
+            ]
+          },
+          {
+            "name": "Applications - Transportation",
+            "unit": "company",
+            "values": [
+              "SF HOLDING"
+            ]
+          },
+          {
+            "name": "Applications - Financials",
+            "unit": "company",
+            "values": [
+              "平安银行"
+            ]
+          }
+        ],
+        "figure_id": "f35f48f733bececb",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "line",
+        "title": "聊天机器人Arena评分",
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "4Q22",
+              "1Q23",
+              "2Q23",
+              "3Q23",
+              "4Q23",
+              "1Q24",
+              "2Q24",
+              "3Q24",
+              "4Q24",
+              "1Q25"
+            ]
+          },
+          "y": {
+            "unit": "Arena评分",
+            "range": {
+              "min": 1000,
+              "max": 1450
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "美国",
+            "unit": "Arena评分",
+            "values": [
+              {
+                "x": "4Q22",
+                "y": 1105,
+                "label": "GPT-3.5 Turbo"
+              },
+              {
+                "x": "1Q23",
+                "y": 1165,
+                "label": "GPT-4"
+              },
+              {
+                "x": "2Q23",
+                "y": 1165
+              },
+              {
+                "x": "3Q23",
+                "y": 1255,
+                "label": "GPT-4 Turbo"
+              },
+              {
+                "x": "4Q23",
+                "y": 1255
+              },
+              {
+                "x": "1Q24",
+                "y": 1280,
+                "label": "GPT-4o"
+              },
+              {
+                "x": "2Q24",
+                "y": 1280
+              },
+              {
+                "x": "3Q24",
+                "y": 1330,
+                "label": "GPT-o1"
+              },
+              {
+                "x": "4Q24",
+                "y": 1330
+              },
+              {
+                "x": "1Q25",
+                "y": 1400,
+                "label": "Grok-3"
+              }
+            ]
+          },
+          {
+            "name": "中国",
+            "unit": "Arena评分",
+            "values": [
+              {
+                "x": "3Q23",
+                "y": 1060,
+                "label": "Qwen Chat 7B"
+              },
+              {
+                "x": "4Q23",
+                "y": 1060
+              },
+              {
+                "x": "1Q24",
+                "y": 1260,
+                "label": "Qwen-Max"
+              },
+              {
+                "x": "2Q24",
+                "y": 1260,
+                "label": "Deepseek-V2"
+              },
+              {
+                "x": "3Q24",
+                "y": 1260,
+                "label": "Deepseek-V3"
+              },
+              {
+                "x": "4Q24",
+                "y": 1315,
+                "label": "Deepseek-R1"
+              },
+              {
+                "x": "1Q25",
+                "y": 1360
+              }
+            ]
+          }
+        ],
+        "figure_id": "85f090a784920088",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "scatter",
+        "title": "Artificial Analysis Quality Index; Price: USD per 1M Tokens",
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "Price (USD per M Tokens)",
+            "unit": "USD per M Tokens",
+            "range": {
+              "min": 0,
+              "max": 30
+            }
+          },
+          "y": {
+            "type": "value",
+            "labels": "Artificial Analysis Quality Index",
+            "unit": "Index",
+            "range": {
+              "min": 45,
+              "max": 95
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "o1",
+            "unit": null,
+            "values": [
+              {
+                "x": 25.5,
+                "y": 87.5
+              }
+            ]
+          },
+          {
+            "name": "o3-mini",
+            "unit": null,
+            "values": [
+              {
+                "x": 2.5,
+                "y": 92.5
+              }
+            ]
+          },
+          {
+            "name": "o1-mini",
+            "unit": null,
+            "values": [
+              {
+                "x": 5.5,
+                "y": 84
+              }
+            ]
+          },
+          {
+            "name": "GPT-4o (Nov '24)",
+            "unit": null,
+            "values": [
+              {
+                "x": 6.5,
+                "y": 80
+              }
+            ]
+          },
+          {
+            "name": "GPT-4o mini",
+            "unit": null,
+            "values": [
+              {
+                "x": 1.5,
+                "y": 70
+              }
+            ]
+          },
+          {
+            "name": "Llama 3.3 70B",
+            "unit": null,
+            "values": [
+              {
+                "x": 2.5,
+                "y": 88
+              }
+            ]
+          },
+          {
+            "name": "Llama 3.1 405B",
+            "unit": null,
+            "values": [
+              {
+                "x": 3.5,
+                "y": 68
+              }
+            ]
+          },
+          {
+            "name": "Llama 3.1 8B",
+            "unit": null,
+            "values": [
+              {
+                "x": 0.5,
+                "y": 52.5
+              }
+            ]
+          },
+          {
+            "name": "Claude 3.5 Sonnet (Oct)",
+            "unit": null,
+            "values": [
+              {
+                "x": 7.5,
+                "y": 74
+              }
+            ]
+          },
+          {
+            "name": "Claude 3.5 Haiku",
+            "unit": null,
+            "values": [
+              {
+                "x": 3.5,
+                "y": 64
+              }
+            ]
+          },
+          {
+            "name": "Mistral Large 2 (Nov '24)",
+            "unit": null,
+            "values": [
+              {
+                "x": 7.5,
+                "y": 76
+              }
+            ]
+          },
+          {
+            "name": "Mistral Small 3",
+            "unit": null,
+            "values": [
+              {
+                "x": 1.5,
+                "y": 60
+              }
+            ]
+          },
+          {
+            "name": "Nova Pro",
+            "unit": null,
+            "values": [
+              {
+                "x": 3.5,
+                "y": 78
+              }
+            ]
+          },
+          {
+            "name": "DeepSeek R1",
+            "unit": null,
+            "values": [
+              {
+                "x": 3.5,
+                "y": 90
+              }
+            ]
+          },
+          {
+            "name": "DeepSeek V3",
+            "unit": null,
+            "values": [
+              {
+                "x": 1.5,
+                "y": 90
+              }
+            ]
+          },
+          {
+            "name": "Qwen2.5 Max",
+            "unit": null,
+            "values": [
+              {
+                "x": 3.5,
+                "y": 88
+              }
+            ]
+          },
+          {
+            "name": "Qwen Turbo",
+            "unit": null,
+            "values": [
+              {
+                "x": 2.5,
+                "y": 72
+              }
+            ]
+          }
+        ],
+        "figure_id": "d1f52ff7cc65edf5",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "heatmap",
+        "title": "高AI敞口，高互补性工作的AI渗透率",
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "0%",
+              "5%",
+              "11%",
+              "16%",
+              "21%",
+              "27%",
+              "32%"
+            ]
+          },
+          "y": {
+            "type": "category",
+            "labels": [
+              "0%",
+              "6%",
+              "12%",
+              "18%",
+              "24%",
+              "30%",
+              "36%"
+            ]
+          }
+        },
+        "series": [
+          {
+            "name": "AI渗透率",
+            "unit": "value",
+            "values": [
+              [
+                "0%",
+                "0%",
+                null
+              ],
+              [
+                "5%",
+                "0%",
+                387
+              ],
+              [
+                "11%",
+                "0%",
+                773
+              ],
+              [
+                "16%",
+                "0%",
+                1160
+              ],
+              [
+                "21%",
+                "0%",
+                1546
+              ],
+              [
+                "27%",
+                "0%",
+                1933
+              ],
+              [
+                "32%",
+                "0%",
+                2319
+              ],
+              [
+                "0%",
+                "6%",
+                1388
+              ],
+              [
+                "5%",
+                "6%",
+                1774
+              ],
+              [
+                "11%",
+                "6%",
+                2161
+              ],
+              [
+                "16%",
+                "6%",
+                2547
+              ],
+              [
+                "21%",
+                "6%",
+                2934
+              ],
+              [
+                "27%",
+                "6%",
+                3320
+              ],
+              [
+                "32%",
+                "6%",
+                3707
+              ],
+              [
+                "0%",
+                "12%",
+                2775
+              ],
+              [
+                "5%",
+                "12%",
+                3162
+              ],
+              [
+                "11%",
+                "12%",
+                3548
+              ],
+              [
+                "16%",
+                "12%",
+                3935
+              ],
+              [
+                "21%",
+                "12%",
+                4322
+              ],
+              [
+                "27%",
+                "12%",
+                4708
+              ],
+              [
+                "32%",
+                "12%",
+                5095
+              ],
+              [
+                "0%",
+                "18%",
+                4163
+              ],
+              [
+                "5%",
+                "18%",
+                4549
+              ],
+              [
+                "11%",
+                "18%",
+                4936
+              ],
+              [
+                "16%",
+                "18%",
+                5323
+              ],
+              [
+                "21%",
+                "18%",
+                5709
+              ],
+              [
+                "27%",
+                "18%",
+                6096
+              ],
+              [
+                "32%",
+                "18%",
+                6482
+              ],
+              [
+                "0%",
+                "24%",
+                5550
+              ],
+              [
+                "5%",
+                "24%",
+                5937
+              ],
+              [
+                "11%",
+                "24%",
+                6324
+              ],
+              [
+                "16%",
+                "24%",
+                6710
+              ],
+              [
+                "21%",
+                "24%",
+                7097
+              ],
+              [
+                "27%",
+                "24%",
+                7483
+              ],
+              [
+                "32%",
+                "24%",
+                7870
+              ],
+              [
+                "0%",
+                "30%",
+                6938
+              ],
+              [
+                "5%",
+                "30%",
+                7325
+              ],
+              [
+                "11%",
+                "30%",
+                7711
+              ],
+              [
+                "16%",
+                "30%",
+                8098
+              ],
+              [
+                "21%",
+                "30%",
+                8484
+              ],
+              [
+                "27%",
+                "30%",
+                8871
+              ],
+              [
+                "32%",
+                "30%",
+                9258
+              ],
+              [
+                "0%",
+                "36%",
+                8326
+              ],
+              [
+                "5%",
+                "36%",
+                8712
+              ],
+              [
+                "11%",
+                "36%",
+                9099
+              ],
+              [
+                "16%",
+                "36%",
+                9485
+              ],
+              [
+                "21%",
+                "36%",
+                9872
+              ],
+              [
+                "27%",
+                "36%",
+                10259
+              ],
+              [
+                "32%",
+                "36%",
+                10645
+              ]
+            ]
+          }
+        ],
+        "figure_id": "9f0062310d435878",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 12,
+        "axes": null,
+        "series": [
+          {
+            "name": "在不易受人工智能取代的行业创造更多的就业机会",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "加强社会保障",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "加大对人工智能教育和职业培训的支持力度",
+            "unit": null,
+            "values": []
+          }
+        ],
+        "figure_id": "20dee9c0e35dcfc9",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "bar",
+        "title": "全球专利申请量",
+        "page": 13,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Dec-19",
+              "Feb-20",
+              "Apr-20",
+              "Jun-20",
+              "Aug-20",
+              "Oct-20",
+              "Dec-20",
+              "Feb-21",
+              "Apr-21",
+              "Jun-21",
+              "Aug-21",
+              "Oct-21",
+              "Dec-21",
+              "Feb-22",
+              "Apr-22",
+              "Jun-22",
+              "Aug-22",
+              "Oct-22",
+              "Dec-22",
+              "Feb-23",
+              "Apr-23",
+              "Jun-23",
+              "Aug-23",
+              "Oct-23",
+              "Dec-23",
+              "Feb-24",
+              "Apr-24",
+              "Jun-24",
+              "Aug-24",
+              "Oct-24"
+            ]
+          },
+          "y": {
+            "unit": "件",
+            "range": {
+              "min": 0,
+              "max": 330
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "中国",
+            "unit": "件",
+            "values": [
+              30,
+              35,
+              45,
+              58,
+              65,
+              70,
+              60,
+              75,
+              70,
+              78,
+              65,
+              55,
+              50,
+              60,
+              70,
+              65,
+              60,
+              65,
+              70,
+              80,
+              100,
+              110,
+              120,
+              125,
+              130,
+              145,
+              150,
+              160,
+              170,
+              150
+            ]
+          },
+          {
+            "name": "美国",
+            "unit": "件",
+            "values": [
+              15,
+              18,
+              20,
+              25,
+              28,
+              30,
+              25,
+              30,
+              35,
+              30,
+              25,
+              20,
+              25,
+              30,
+              35,
+              30,
+              25,
+              30,
+              35,
+              40,
+              45,
+              48,
+              50,
+              55,
+              60,
+              65,
+              70,
+              75,
+              80,
+              70
+            ]
+          },
+          {
+            "name": "日本",
+            "unit": "件",
+            "values": [
+              8,
+              10,
+              12,
+              15,
+              18,
+              20,
+              15,
+              18,
+              20,
+              18,
+              15,
+              12,
+              15,
+              18,
+              20,
+              18,
+              15,
+              18,
+              20,
+              22,
+              25,
+              28,
+              30,
+              32,
+              35,
+              38,
+              40,
+              42,
+              45,
+              40
+            ]
+          },
+          {
+            "name": "其他",
+            "unit": "件",
+            "values": [
+              7,
+              9,
+              11,
+              13,
+              15,
+              17,
+              15,
+              17,
+              19,
+              17,
+              15,
+              13,
+              15,
+              17,
+              19,
+              17,
+              15,
+              17,
+              19,
+              21,
+              24,
+              26,
+              28,
+              30,
+              33,
+              36,
+              39,
+              42,
+              45,
+              40
+            ]
+          }
+        ],
+        "figure_id": "583348a034056174",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "type": "pie",
+        "title": "汽车域控制器供应商",
+        "page": 13,
+        "axes": null,
+        "series": [
+          {
+            "name": "Others",
+            "unit": "%",
+            "values": [
+              26.7
+            ]
+          },
+          {
+            "name": "Desay",
+            "unit": "%",
+            "values": [
+              16.1
+            ]
+          },
+          {
+            "name": "Pegatron+Quanta (Tesla)",
+            "unit": "%",
+            "values": [
+              9.9
+            ]
+          },
+          {
+            "name": "Ecarx",
+            "unit": "%",
+            "values": [
+              8.4
+            ]
+          },
+          {
+            "name": "Autolink",
+            "unit": "%",
+            "values": [
+              8.2
+            ]
+          },
+          {
+            "name": "Megatronix",
+            "unit": "%",
+            "values": [
+              7.5
+            ]
+          },
+          {
+            "name": "Bosch",
+            "unit": "%",
+            "values": [
+              5.8
+            ]
+          },
+          {
+            "name": "Foryou",
+            "unit": "%",
+            "values": [
+              4.6
+            ]
+          },
+          {
+            "name": "Pateo",
+            "unit": "%",
+            "values": [
+              4.5
+            ]
+          },
+          {
+            "name": "Flex",
+            "unit": "%",
+            "values": [
+              4.3
+            ]
+          },
+          {
+            "name": "Nobo",
+            "unit": "%",
+            "values": [
+              4.2
+            ]
+          }
+        ],
+        "figure_id": "815ce5c72534d5d3",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 14,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2024",
+              "2025e",
+              "2026e",
+              "2027e",
+              "2028e",
+              "2029e",
+              "2030e",
+              "2031e",
+              "2032e",
+              "2033e",
+              "2034e",
+              "2035e",
+              "2036e",
+              "2037e",
+              "2038e",
+              "2039e",
+              "2040e",
+              "2041e",
+              "2042e",
+              "2043e",
+              "2044e",
+              "2045e",
+              "2046e",
+              "2047e",
+              "2048e",
+              "2049e",
+              "2050e"
+            ]
+          },
+          "y": {
+            "unit": "十亿美元",
+            "range": {
+              "min": 0,
+              "max": 5000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "美国",
+            "unit": "十亿美元",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "低收入国家",
+            "unit": "十亿美元",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "中高收入国家 (中国除外)",
+            "unit": "十亿美元",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "中国",
+            "unit": "十亿美元",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "中低收入国家",
+            "unit": "十亿美元",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "高收入国家 (美国除外)",
+            "unit": "十亿美元",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "全球人形机器人存量",
+            "unit": "千台",
+            "values": [
+              0,
+              3,
+              4,
+              6,
+              11,
+              24,
+              24,
+              67,
+              84,
+              97,
+              117,
+              211,
+              280,
+              459,
+              638,
+              886,
+              1216,
+              1622,
+              1994,
+              2418,
+              2750,
+              3172,
+              3510,
+              4001,
+              4254,
+              4621,
+              4703
+            ]
+          }
+        ],
+        "figure_id": "95d86012078cf5b6",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "bar",
+        "title": "各智驾级别汽车年销量",
+        "page": 15,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2024",
+              "2025",
+              "2026",
+              "2027",
+              "2028",
+              "2029",
+              "2030",
+              "2031",
+              "2032",
+              "2033",
+              "2034",
+              "2035",
+              "2036",
+              "2037",
+              "2038",
+              "2039",
+              "2040",
+              "2041",
+              "2042",
+              "2043",
+              "2044",
+              "2045",
+              "2046",
+              "2047",
+              "2048",
+              "2049"
+            ]
+          },
+          "y": {
+            "unit": "百万辆",
+            "range": {
+              "min": 0.0,
+              "max": 140.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "L0",
+            "unit": "百万辆",
+            "values": [
+              24.0,
+              20.0,
+              16.0,
+              12.0,
+              8.0,
+              4.0,
+              2.0,
+              1.0,
+              0.5,
+              0.2,
+              0.1,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "name": "L1/2",
+            "unit": "百万辆",
+            "values": [
+              56.0,
+              58.0,
+              60.0,
+              62.0,
+              64.0,
+              65.0,
+              66.0,
+              65.0,
+              63.0,
+              60.0,
+              56.0,
+              50.0,
+              44.0,
+              38.0,
+              32.0,
+              26.0,
+              20.0,
+              15.0,
+              10.0,
+              7.0,
+              4.0,
+              2.0,
+              1.0,
+              0.5,
+              0.2,
+              0.1
+            ]
+          },
+          {
+            "name": "L3",
+            "unit": "百万辆",
+            "values": [
+              4.0,
+              8.0,
+              12.0,
+              16.0,
+              20.0,
+              22.0,
+              24.0,
+              26.0,
+              28.0,
+              30.0,
+              32.0,
+              34.0,
+              36.0,
+              38.0,
+              36.0,
+              32.0,
+              28.0,
+              24.0,
+              20.0,
+              16.0,
+              12.0,
+              9.0,
+              6.0,
+              4.0,
+              2.0,
+              1.0
+            ]
+          },
+          {
+            "name": "L4",
+            "unit": "百万辆",
+            "values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.0,
+              4.0,
+              6.0,
+              8.0,
+              10.0,
+              12.0,
+              16.0,
+              20.0,
+              24.0,
+              28.0,
+              32.0,
+              36.0,
+              40.0,
+              44.0,
+              48.0,
+              52.0,
+              56.0,
+              60.0,
+              62.0,
+              64.0,
+              65.0
+            ]
+          },
+          {
+            "name": "L5",
+            "unit": "百万辆",
+            "values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              4.0,
+              8.0,
+              12.0,
+              16.0,
+              20.0,
+              24.0,
+              28.0,
+              32.0,
+              36.0,
+              40.0,
+              44.0,
+              48.0
+            ]
+          }
+        ],
+        "figure_id": "accb98059593d354",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 15,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "自动驾驶零部件成本"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "基准情境:竞争跟合作共存",
+            "unit": null,
+            "values": [
+              "我们预计全球整车厂将试图抓住智能驾驶机遇。预计自2026年起将在下一代电动车及混动车中加速导入L2+级别智能驾驶技术。"
+            ]
+          },
+          {
+            "name": "情境1:合作",
+            "unit": null,
+            "values": [
+              "随着中国自动驾驶供应链与全球整车厂协作日益加深,预计将推动零部件成本下行,并加速智能驾驶技术的渗透率提升。"
+            ]
+          },
+          {
+            "name": "情境3:竞争",
+            "unit": null,
+            "values": [
+              "若中外在自动驾驶领域的协作趋缓,则将加剧中国/新兴市场与全球整车厂在零部件成本上的分化。全球整车厂成本上行将拖累智能驾驶技术的渗透。"
+            ]
+          }
+        ],
+        "figure_id": "89bded878e0705d4",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "type": "bar",
+        "title": "日本",
+        "page": 16,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "86-90",
+              "91-95",
+              "96-00",
+              "01-05",
+              "06-10",
+              "11-15",
+              "16-20"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -2,
+              "max": 12
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "机械设备及知识产权资本开支增速",
+            "unit": "%",
+            "values": [
+              11.2,
+              0.2,
+              3.4,
+              2.3,
+              -1.5,
+              3.0,
+              -0.1
+            ]
+          },
+          {
+            "name": "户均可支配收入增速",
+            "unit": "%",
+            "values": [
+              3.2,
+              1.8,
+              -0.2,
+              -2.0,
+              -0.5,
+              -0.1,
+              3.1
+            ]
+          }
+        ],
+        "figure_id": "045cd191de70a13a",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "type": "bar",
+        "title": "日本全要素生产率",
+        "page": 16,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "71-75",
+              "76-80",
+              "81-85",
+              "86-90",
+              "91-95",
+              "96-00",
+              "01-05",
+              "06-10",
+              "11-15",
+              "16-20"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -2.0,
+              "max": 7.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "制造业",
+            "unit": "%",
+            "values": [
+              2.3,
+              6.0,
+              4.0,
+              2.5,
+              0.5,
+              1.2,
+              2.5,
+              1.0,
+              1.1,
+              0.5
+            ]
+          },
+          {
+            "name": "非制造业",
+            "unit": "%",
+            "values": [
+              1.2,
+              0.7,
+              0.1,
+              2.6,
+              -0.8,
+              -0.2,
+              0.5,
+              -0.7,
+              0.9,
+              0.3
+            ]
+          }
+        ],
+        "figure_id": "dd0b3b8fcb5a5eab",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 17,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "疲软",
+              "良好"
+            ]
+          },
+          "y": {
+            "type": "category",
+            "labels": [
+              "运动式减产",
+              "市场化措施+结构性改革"
+            ]
+          }
+        },
+        "series": [
+          {
+            "name": "最坏情境",
+            "unit": null,
+            "values": [
+              "由于需求依然疲弱，部分行业经历短期价格回升后，经济可能再次陷入通缩。"
+            ]
+          },
+          {
+            "name": "次优情境",
+            "unit": null,
+            "values": [
+              "短期可能出现快速再通胀，但路径依赖难以打破。资源错配可能在其他行业重新显现，导致内卷式竞争与通缩压力回升。"
+            ]
+          },
+          {
+            "name": "基准情境",
+            "unit": null,
+            "values": [
+              "通缩压力或将延续至2026年；但最终中国可以稳步步入再通涨。"
+            ]
+          },
+          {
+            "name": "理想情境",
+            "unit": null,
+            "values": [
+              "再平衡加快，实现更加有力及可持续的再通胀。"
+            ]
+          }
+        ],
+        "figure_id": "35b14f921aeefabb",
+        "provenance": {
+          "page": 17
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 18,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Dec-14",
+              "Jun-15",
+              "Dec-15",
+              "Jun-16",
+              "Dec-16",
+              "Jun-17",
+              "Dec-17",
+              "Jun-18",
+              "Dec-18",
+              "Jun-19",
+              "Dec-19",
+              "Jun-20",
+              "Dec-20",
+              "Jun-21",
+              "Dec-21",
+              "Jun-22",
+              "Dec-22",
+              "Jun-23",
+              "Dec-23",
+              "Jun-24",
+              "Dec-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -5,
+              "max": 15
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "出口+房地产投资,同比%",
+            "unit": "%",
+            "values": [
+              8.5,
+              -1.5,
+              -4.5,
+              2.5,
+              8.5,
+              11.5,
+              6.5,
+              9.5,
+              7.5,
+              6,
+              -5,
+              10,
+              11,
+              7.5,
+              8,
+              -1,
+              -5,
+              -1,
+              1,
+              0.5,
+              2.5,
+              0.5
+            ]
+          },
+          {
+            "name": "PPI同比%-右轴",
+            "unit": "%",
+            "values": [
+              -2,
+              -4,
+              -5,
+              -2,
+              5,
+              7,
+              5,
+              4,
+              1,
+              -1,
+              -3,
+              -1,
+              8,
+              13,
+              7,
+              2,
+              -4,
+              -3,
+              -1,
+              -2,
+              -2,
+              -3
+            ]
+          }
+        ],
+        "figure_id": "442f8219d1989540",
+        "provenance": {
+          "page": 18
+        }
+      },
+      {
+        "type": "bar",
+        "title": "民企占比",
+        "page": 19,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "光伏",
+              "锂电池",
+              "电动车",
+              "水泥",
+              "钢铁"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "民企占比",
+            "unit": "%",
+            "values": [
+              95,
+              95,
+              65,
+              50,
+              35
+            ]
+          }
+        ],
+        "figure_id": "69c258021be8f49a",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 19,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2015-1H16",
+              "2Q23-Now"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "大宗商品",
+            "unit": "%",
+            "values": [
+              64,
+              28
+            ]
+          },
+          {
+            "name": "非大宗商品",
+            "unit": "%",
+            "values": [
+              36,
+              72
+            ]
+          }
+        ],
+        "figure_id": "0fbf9f9a7d8fe5fa",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "type": "bar",
+        "title": "中央-地方税收比例",
+        "page": 20,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "增值税(38%)",
+              "企业所得税(23%)",
+              "进口环节增值税和消费税(11%)",
+              "消费税(9%)",
+              "个人所得税(8%)",
+              "印花税(2%)",
+              "房地产税(2%)",
+              "其他中央税收(-6%*)",
+              "其他地方税收(13%)"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "中央",
+            "unit": "%",
+            "values": [
+              50,
+              64,
+              100,
+              100,
+              60,
+              48,
+              100,
+              100,
+              0
+            ]
+          },
+          {
+            "name": "地方",
+            "unit": "%",
+            "values": [
+              50,
+              36,
+              0,
+              0,
+              40,
+              52,
+              0,
+              0,
+              100
+            ]
+          }
+        ],
+        "figure_id": "4fd98890403926b3",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "type": "other",
+        "title": "无标题",
+        "page": 20,
+        "axes": null,
+        "series": [
+          {
+            "name": "完善干部考核",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "改革财税体制",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "重构宏观目标",
+            "unit": null,
+            "values": []
+          }
+        ],
+        "figure_id": "109939b083f1bb29",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "type": "line",
+        "title": "中国PPI分项指数",
+        "page": 21,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-22",
+              "Sep-22",
+              "Nov-22",
+              "Jan-23",
+              "Mar-23",
+              "May-23",
+              "Jul-23",
+              "Sep-23",
+              "Nov-23",
+              "Jan-24",
+              "Mar-24",
+              "May-24",
+              "Jul-24",
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "May-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -2.0,
+              "max": 1.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "生产资料",
+            "unit": null,
+            "values": [
+              -1.7,
+              -0.7,
+              0.1,
+              -0.6,
+              0.0,
+              -1.1,
+              -0.8,
+              0.4,
+              -0.2,
+              -0.4,
+              -0.3,
+              0.4,
+              -0.1,
+              -1.0,
+              0.1,
+              -0.2,
+              -0.4,
+              -0.6,
+              -0.3
+            ]
+          },
+          {
+            "name": "生活资料",
+            "unit": null,
+            "values": [
+              0.2,
+              0.0,
+              0.5,
+              -0.1,
+              0.1,
+              -0.2,
+              0.2,
+              0.0,
+              -0.1,
+              -0.2,
+              -0.1,
+              -0.1,
+              0.0,
+              -0.1,
+              0.0,
+              -0.1,
+              -0.2,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "figure_id": "3b8bbc2b97b6487d",
+        "provenance": {
+          "page": 21
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 21,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "-5%",
+              "0%",
+              "5%",
+              "10%",
+              "15%",
+              "20%",
+              "25%",
+              "30%"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null,
+            "labels": [
+              "氢氧化锂",
+              "煤炭",
+              "多晶硅",
+              "黑色金属",
+              "石化产品",
+              "有色金属",
+              "农产品",
+              "建筑材料"
+            ]
+          }
+        },
+        "series": [
+          {
+            "name": "7月20日对比6月20日",
+            "unit": "%",
+            "values": [
+              -0.005,
+              0.015,
+              0.3,
+              0.015,
+              0.01,
+              0.005,
+              0.01,
+              -0.03
+            ]
+          },
+          {
+            "name": "8月20日对比7月20日",
+            "unit": "%",
+            "values": [
+              0.145,
+              0.13,
+              0.04,
+              0.035,
+              0.02,
+              0.005,
+              0.005,
+              -0.01
+            ]
+          }
+        ],
+        "figure_id": "4046abd03b4e0d56",
+        "provenance": {
+          "page": 21
+        }
+      },
+      {
+        "type": "line",
+        "title": "规模以上工业企业利润 (12个月移动平均)",
+        "page": 22,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-14",
+              "Dec-14",
+              "Jun-15",
+              "Dec-15",
+              "Jun-16",
+              "Dec-16",
+              "Jun-17",
+              "Dec-17",
+              "Jun-18",
+              "Dec-18",
+              "Jun-19",
+              "Dec-19",
+              "Jun-20",
+              "Dec-20",
+              "Jun-21",
+              "Dec-21",
+              "Jun-22",
+              "Dec-22",
+              "Jun-23",
+              "Dec-23",
+              "Jun-24",
+              "Dec-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 4.5,
+              "max": 7.5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "大宗商品",
+            "unit": "%",
+            "values": [
+              6.18,
+              5.65,
+              5.1,
+              4.65,
+              4.7,
+              5.2,
+              5.8,
+              6.4,
+              6.85,
+              6.0,
+              5.4,
+              5.75,
+              5.1,
+              6.0,
+              6.95,
+              6.7,
+              6.0,
+              5.2,
+              5.85,
+              5.8,
+              5.2,
+              4.8,
+              4.85
+            ]
+          },
+          {
+            "name": "非大宗商品",
+            "unit": "%",
+            "values": [
+              6.85,
+              6.6,
+              6.55,
+              6.6,
+              6.6,
+              6.7,
+              6.8,
+              6.9,
+              6.9,
+              6.6,
+              6.15,
+              6.2,
+              6.7,
+              7.2,
+              7.3,
+              7.0,
+              6.5,
+              6.0,
+              6.2,
+              6.0,
+              5.8,
+              5.6,
+              5.45
+            ]
+          }
+        ],
+        "figure_id": "ec6df9e77856f2d9",
+        "provenance": {
+          "page": 22
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 22,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-13",
+              "Mar-14",
+              "Dec-14",
+              "Sep-15",
+              "Jun-16",
+              "Mar-17",
+              "Dec-17",
+              "Sep-18",
+              "Jun-19",
+              "Mar-20",
+              "Dec-20",
+              "Sep-21",
+              "Jun-22",
+              "Mar-23",
+              "Dec-23",
+              "Sep-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "left": {
+              "unit": "%",
+              "range": {
+                "min": -20,
+                "max": 10
+              }
+            },
+            "right": {
+              "unit": "%",
+              "range": {
+                "min": -4.0,
+                "max": 2.0
+              }
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "下游PPI-上游PPI",
+            "unit": "%",
+            "values": [
+              3.0,
+              1.5,
+              2.0,
+              6.0,
+              4.0,
+              -9.0,
+              -7.0,
+              -5.0,
+              0.0,
+              5.0,
+              -2.0,
+              -17.0,
+              -10.0,
+              5.0,
+              2.0,
+              1.0,
+              3.0
+            ]
+          },
+          {
+            "name": "下游企业利润率同比变化 (滞后12个月, 右轴)",
+            "unit": "%",
+            "values": [
+              -0.5,
+              -0.5,
+              0.0,
+              0.5,
+              -0.5,
+              -1.0,
+              -0.5,
+              -0.5,
+              1.0,
+              2.0,
+              0.0,
+              -1.0,
+              -0.5,
+              0.0,
+              -0.5,
+              -1.0,
+              -1.5
+            ]
+          }
+        ],
+        "figure_id": "80d9e01d6567d498",
+        "provenance": {
+          "page": 22
+        }
+      },
+      {
+        "type": "line",
+        "title": "实际GDP与名义GDP同比%",
+        "page": 23,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Mar-23",
+              "Jun-23",
+              "Sep-23",
+              "Dec-23",
+              "Mar-24",
+              "Jun-24",
+              "Sep-24",
+              "Dec-24",
+              "Mar-25",
+              "Jun-25",
+              "Sep-25",
+              "Dec-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 3.0,
+              "max": 6.5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "实际GDP",
+            "unit": "%",
+            "values": [
+              4.4,
+              6.5,
+              5.0,
+              5.3,
+              5.3,
+              4.7,
+              4.6,
+              5.4,
+              5.4,
+              5.2,
+              4.4,
+              4.1
+            ]
+          },
+          {
+            "name": "名义GDP",
+            "unit": "%",
+            "values": [
+              5.4,
+              5.7,
+              4.1,
+              4.3,
+              4.3,
+              4.0,
+              4.1,
+              4.6,
+              4.6,
+              4.2,
+              3.4,
+              3.4
+            ]
+          }
+        ],
+        "figure_id": "c52b306ef7eb8923",
+        "provenance": {
+          "page": 23
+        }
+      },
+      {
+        "type": "line",
+        "title": "GDP平减指数 (同比%)",
+        "page": 23,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Dec-96",
+              "Dec-98",
+              "Dec-00",
+              "Dec-02",
+              "Dec-04",
+              "Dec-06",
+              "Dec-08",
+              "Dec-10",
+              "Dec-12",
+              "Dec-14",
+              "Dec-16",
+              "Dec-18",
+              "Dec-20",
+              "Dec-22",
+              "Dec-24",
+              "Dec-26"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -4,
+              "max": 12
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "GDP平减指数",
+            "unit": "%",
+            "values": [
+              5.5,
+              -1.5,
+              2.5,
+              0.5,
+              8,
+              4,
+              9.5,
+              -1.5,
+              9,
+              2.5,
+              0.5,
+              4.5,
+              2.5,
+              0.5,
+              5.5,
+              -1,
+              -0.5,
+              -0.5
+            ]
+          }
+        ],
+        "figure_id": "e8fdf7c7c9a83b6f",
+        "provenance": {
+          "page": 23
+        }
+      },
+      {
+        "type": "line",
+        "title": "中国季出口量, 十亿美元, 季调后",
+        "page": 24,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-16",
+              "Dec-16",
+              "Jun-17",
+              "Dec-17",
+              "Jun-18",
+              "Dec-18",
+              "Jun-19",
+              "Dec-19",
+              "Jun-20",
+              "Dec-20",
+              "Jun-21",
+              "Dec-21",
+              "Jun-22",
+              "Dec-22",
+              "Jun-23",
+              "Dec-23",
+              "Jun-24",
+              "Dec-24",
+              "Jun-25",
+              "Dec-25"
+            ]
+          },
+          "y": {
+            "unit": "十亿美元",
+            "range": {
+              "min": 500,
+              "max": 1000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "中国季出口量",
+            "unit": "十亿美元",
+            "values": [
+              510,
+              535,
+              545,
+              565,
+              610,
+              625,
+              615,
+              630,
+              505,
+              700,
+              790,
+              920,
+              880,
+              915,
+              860,
+              830,
+              870,
+              900,
+              940,
+              920,
+              870
+            ]
+          }
+        ],
+        "figure_id": "be1a1a700f275864",
+        "provenance": {
+          "page": 24
+        }
+      },
+      {
+        "type": "bar",
+        "title": "美国对除中国外其他主要经济体对等关税",
+        "page": 24,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "巴西",
+              "缅甸",
+              "老挝",
+              "加拿大",
+              "墨西哥",
+              "越南",
+              "印度尼西亚",
+              "柬埔寨",
+              "马来西亚",
+              "菲律宾",
+              "泰国",
+              "欧盟",
+              "日本",
+              "韩国"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 60
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "8月份之后",
+            "unit": "%",
+            "values": [
+              50,
+              39.5,
+              39.5,
+              34.5,
+              25,
+              20,
+              19,
+              19,
+              19,
+              19,
+              19,
+              14.5,
+              14.5,
+              14.5
+            ]
+          },
+          {
+            "name": "8月份之前",
+            "unit": "%",
+            "values": [
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10
+            ]
+          }
+        ],
+        "figure_id": "ee261d24e050d279",
+        "provenance": {
+          "page": 24
+        }
+      },
+      {
+        "type": "line",
+        "title": "中国广义财政赤字 (占GDP比重, 12个月移动平均)",
+        "page": 25,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Apr-18",
+              "Aug-18",
+              "Dec-18",
+              "Apr-19",
+              "Aug-19",
+              "Dec-19",
+              "Apr-20",
+              "Aug-20",
+              "Dec-20",
+              "Apr-21",
+              "Aug-21",
+              "Dec-21",
+              "Apr-22",
+              "Aug-22",
+              "Dec-22",
+              "Apr-23",
+              "Aug-23",
+              "Dec-23",
+              "Apr-24",
+              "Aug-24",
+              "Dec-24",
+              "Apr-25",
+              "Aug-25",
+              "Dec-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -20,
+              "max": -10
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "广义财政赤字",
+            "unit": "%",
+            "values": [
+              -12.5,
+              -12.0,
+              -12.5,
+              -13.0,
+              -13.5,
+              -14.0,
+              -15.0,
+              -17.0,
+              -20.0,
+              -16.0,
+              -12.0,
+              -12.0,
+              -15.0,
+              -17.0,
+              -15.0,
+              -13.0,
+              -12.0,
+              -11.5,
+              -10.5,
+              -10.3,
+              -11.5,
+              -12.5,
+              -13.1,
+              -13.0
+            ]
+          }
+        ],
+        "figure_id": "b03256695ae63dfc",
+        "provenance": {
+          "page": 25
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 25,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "上半年月平均值",
+              "7月",
+              "8月至今",
+              "9-12月预计平均值"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 1800
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2024",
+            "unit": null,
+            "values": [
+              540,
+              688,
+              1618,
+              821
+            ]
+          },
+          {
+            "name": "2025",
+            "unit": null,
+            "values": [
+              993,
+              1158,
+              1179,
+              766
+            ]
+          }
+        ],
+        "figure_id": "b9aa4b32b1d05b67",
+        "provenance": {
+          "page": 25
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 26,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-17",
+              "Jun-18",
+              "Jun-19",
+              "Jun-20",
+              "Jun-21",
+              "Jun-22",
+              "Jun-23",
+              "Jun-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -1,
+              "max": 13
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "名义GDP同比增速",
+            "unit": "%",
+            "values": [
+              11.2,
+              11.1,
+              10.8,
+              10.2,
+              9.8,
+              7.8,
+              7.7,
+              7.1,
+              7.0,
+              -0.5,
+              -1.0,
+              5.5,
+              6.8,
+              13.0,
+              12.8,
+              10.5,
+              8.0,
+              4.0,
+              5.8,
+              3.0,
+              5.5,
+              4.2,
+              4.5,
+              4.0,
+              4.5,
+              4.8,
+              4.0
+            ]
+          },
+          {
+            "name": "名义城镇居民可支配收入同比增速",
+            "unit": "%",
+            "values": [
+              8.3,
+              8.5,
+              8.2,
+              8.0,
+              7.9,
+              7.8,
+              7.9,
+              8.0,
+              7.9,
+              4.0,
+              2.0,
+              5.0,
+              6.0,
+              12.0,
+              10.0,
+              8.0,
+              4.5,
+              2.0,
+              5.0,
+              3.5,
+              7.0,
+              5.0,
+              5.2,
+              4.0,
+              4.5,
+              4.2,
+              4.0
+            ]
+          }
+        ],
+        "figure_id": "6f98c1788925d893",
+        "provenance": {
+          "page": 26
+        }
+      },
+      {
+        "type": "line",
+        "title": "同比增速,三个月移动平均",
+        "page": 26,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-21",
+              "Sep-21",
+              "Nov-21",
+              "Jan-22",
+              "Mar-22",
+              "May-22",
+              "Jul-22",
+              "Sep-22",
+              "Nov-22",
+              "Jan-23",
+              "Mar-23",
+              "May-23",
+              "Jul-23",
+              "Sep-23",
+              "Nov-23",
+              "Jan-24",
+              "Mar-24",
+              "May-24",
+              "Jul-24",
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "May-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -20,
+              "max": 40
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "商品零售(以旧换新产品除外)",
+            "unit": "%",
+            "values": [
+              12,
+              7,
+              6,
+              7,
+              6,
+              -2,
+              -2,
+              3,
+              0,
+              -1,
+              0,
+              12,
+              4,
+              3,
+              6,
+              4,
+              3,
+              3,
+              2,
+              2,
+              2,
+              3,
+              3,
+              2,
+              2
+            ]
+          },
+          {
+            "name": "住房相关消费",
+            "unit": "%",
+            "values": [
+              10,
+              5,
+              2,
+              -1,
+              -2,
+              -5,
+              -1,
+              12,
+              10,
+              -2,
+              -5,
+              -1,
+              -7,
+              -1,
+              -5,
+              -2,
+              -3,
+              -5,
+              -2,
+              -3,
+              -1,
+              15,
+              25,
+              32,
+              28
+            ]
+          },
+          {
+            "name": "汽车",
+            "unit": "%",
+            "values": [
+              5,
+              -10,
+              -12,
+              -10,
+              -15,
+              -18,
+              -10,
+              -5,
+              -1,
+              -5,
+              -10,
+              -2,
+              -5,
+              -10,
+              -12,
+              -10,
+              -8,
+              -5,
+              -2,
+              -5,
+              -8,
+              -5,
+              -2,
+              -1,
+              -2
+            ]
+          },
+          {
+            "name": "手机",
+            "unit": "%",
+            "values": [
+              12,
+              15,
+              10,
+              5,
+              1,
+              -5,
+              -8,
+              -1,
+              -10,
+              -12,
+              -8,
+              22,
+              10,
+              5,
+              15,
+              12,
+              10,
+              12,
+              5,
+              15,
+              5,
+              20,
+              28,
+              25,
+              20
+            ]
+          }
+        ],
+        "figure_id": "65a3156becbbf669",
+        "provenance": {
+          "page": 26
+        }
+      },
+      {
+        "type": "line",
+        "title": "房地产拐点前后各国房地产市场表现",
+        "page": 27,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "-28",
+              "-25",
+              "-22",
+              "-19",
+              "-16",
+              "-13",
+              "-10",
+              "-7",
+              "-4",
+              "-1",
+              "2",
+              "5",
+              "8",
+              "11",
+              "14",
+              "17",
+              "20",
+              "23",
+              "26",
+              "29",
+              "32"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 120
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "中国 (2020年四季度, 住宅)",
+            "unit": null,
+            "values": [
+              76,
+              62,
+              68,
+              56,
+              62,
+              52,
+              60,
+              70,
+              80,
+              98,
+              90,
+              70,
+              50,
+              38,
+              30,
+              28,
+              28,
+              32,
+              38,
+              42,
+              45
+            ]
+          },
+          {
+            "name": "日本 (1990年三季度, 商业)",
+            "unit": null,
+            "values": [
+              50,
+              45,
+              48,
+              50,
+              52,
+              55,
+              60,
+              68,
+              80,
+              98,
+              95,
+              85,
+              75,
+              65,
+              55,
+              50,
+              55,
+              60,
+              65,
+              62,
+              65
+            ]
+          },
+          {
+            "name": "丹麦 (1986年二季度, 住宅)",
+            "unit": null,
+            "values": [
+              92,
+              85,
+              78,
+              70,
+              62,
+              55,
+              50,
+              60,
+              70,
+              98,
+              90,
+              78,
+              65,
+              55,
+              48,
+              45,
+              40,
+              45,
+              50,
+              52,
+              55
+            ]
+          },
+          {
+            "name": "西班牙 (2006年四季度, 住宅)",
+            "unit": null,
+            "values": [
+              78,
+              75,
+              72,
+              68,
+              65,
+              62,
+              60,
+              65,
+              70,
+              98,
+              85,
+              60,
+              35,
+              20,
+              15,
+              10,
+              8,
+              5,
+              3,
+              2,
+              0
+            ]
+          },
+          {
+            "name": "美国 (2006年一季度, 住宅)",
+            "unit": null,
+            "values": [
+              75,
+              78,
+              75,
+              72,
+              70,
+              68,
+              70,
+              75,
+              80,
+              98,
+              90,
+              75,
+              55,
+              35,
+              28,
+              25,
+              28,
+              30,
+              35,
+              40,
+              42
+            ]
+          },
+          {
+            "name": "比利时 (1979年四季度, 住宅)",
+            "unit": null,
+            "values": [
+              80,
+              90,
+              105,
+              95,
+              85,
+              75,
+              80,
+              90,
+              100,
+              98,
+              95,
+              80,
+              65,
+              50,
+              40,
+              35,
+              30,
+              35,
+              40,
+              45,
+              48
+            ]
+          }
+        ],
+        "figure_id": "e142257e142714cf",
+        "provenance": {
+          "page": 27
+        }
+      },
+      {
+        "type": "other",
+        "title": "2025年底预期进度、政策措施与理想情况",
+        "page": 28,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "再通胀",
+              "再平衡",
+              "重组",
+              "改革",
+              "重振信心"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2025年底预期进度",
+            "unit": "%",
+            "values": [
+              {
+                "category": "再通胀",
+                "range": [
+                  20,
+                  25
+                ]
+              },
+              {
+                "category": "再平衡",
+                "range": [
+                  25,
+                  30
+                ]
+              },
+              {
+                "category": "重组",
+                "range": [
+                  60,
+                  80
+                ]
+              },
+              {
+                "category": "改革",
+                "value": 25
+              },
+              {
+                "category": "重振信心",
+                "range": [
+                  60,
+                  70
+                ]
+              }
+            ]
+          }
+        ],
+        "figure_id": "9a78dfe0d6223284",
+        "provenance": {
+          "page": 28
+        }
+      },
+      {
+        "type": "other",
+        "title": "近期促消费举措",
+        "page": 29,
+        "axes": null,
+        "series": [
+          {
+            "name": "全国性生育补贴",
+            "unit": "人民币",
+            "values": [
+              {
+                "description": "3周岁以下婴幼儿每人每年",
+                "value": 3600
+              },
+              {
+                "description": "每年总计",
+                "value": "1000亿左右"
+              }
+            ]
+          },
+          {
+            "name": "公办幼儿园学前一年免费",
+            "unit": "人民币",
+            "values": [
+              {
+                "description": "每年",
+                "value": "200-300亿"
+              }
+            ]
+          },
+          {
+            "name": "个人消费贷款贴息",
+            "unit": "人民币",
+            "values": [
+              {
+                "description": "预计贴息规模将达到",
+                "value": "500亿左右"
+              }
+            ]
+          }
+        ],
+        "figure_id": "9941c66033480e5b",
+        "provenance": {
+          "page": 29
+        }
+      },
+      {
+        "type": "line",
+        "title": "女性人口数量, 百万人",
+        "page": 29,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1960",
+              "1963",
+              "1966",
+              "1969",
+              "1972",
+              "1975",
+              "1978",
+              "1981",
+              "1984",
+              "1987",
+              "1990",
+              "1993",
+              "1996",
+              "1999",
+              "2002",
+              "2005",
+              "2008",
+              "2011",
+              "2014",
+              "2017",
+              "2020",
+              "2023",
+              "2026E",
+              "2029E",
+              "2032E",
+              "2035E",
+              "2038E",
+              "2041E",
+              "2044E",
+              "2047E",
+              "2050E"
+            ]
+          },
+          "y": {
+            "unit": "百万人",
+            "range": {
+              "min": 50,
+              "max": 400
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "15-49岁",
+            "unit": "百万人",
+            "values": [
+              145,
+              155,
+              170,
+              185,
+              205,
+              220,
+              245,
+              270,
+              295,
+              315,
+              330,
+              345,
+              360,
+              370,
+              375,
+              365,
+              350,
+              330,
+              315,
+              305,
+              295,
+              280,
+              265,
+              250,
+              235,
+              220,
+              210,
+              200,
+              190,
+              180,
+              170
+            ]
+          },
+          {
+            "name": "20-34岁",
+            "unit": "百万人",
+            "values": [
+              65,
+              70,
+              75,
+              85,
+              95,
+              105,
+              115,
+              125,
+              135,
+              145,
+              155,
+              165,
+              175,
+              170,
+              160,
+              150,
+              155,
+              160,
+              155,
+              145,
+              135,
+              125,
+              115,
+              118,
+              120,
+              120,
+              118,
+              110,
+              100,
+              90,
+              80
+            ]
+          }
+        ],
+        "figure_id": "2b802913a94ff73c",
+        "provenance": {
+          "page": 29
+        }
+      },
+      {
+        "type": "bar",
+        "title": "家庭储蓄率, %",
+        "page": 30,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "-5",
+              "0",
+              "5",
+              "10",
+              "15",
+              "20",
+              "25",
+              "30",
+              "35",
+              "40"
+            ]
+          },
+          "y": {
+            "unit": "国家",
+            "range": {
+              "min": null,
+              "max": null
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2019",
+            "unit": "%",
+            "values": [
+              34.8,
+              12.2,
+              9.1,
+              9.2,
+              10.9,
+              8.4,
+              8.1,
+              3.4,
+              2.0,
+              3.1,
+              -0.5,
+              2.4
+            ]
+          },
+          {
+            "name": "2022*",
+            "unit": "%",
+            "values": [
+              36.5,
+              13.0,
+              12.4,
+              11.2,
+              11.1,
+              11.1,
+              10.8,
+              7.8,
+              5.8,
+              3.6,
+              2.0,
+              1.8
+            ]
+          }
+        ],
+        "figure_id": "ce9152cc92525995",
+        "provenance": {
+          "page": 30
+        }
+      },
+      {
+        "type": "scatter",
+        "title": "2017年中国家庭储蓄率",
+        "page": 31,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "收入 (元)",
+            "range": {
+              "min": 0,
+              "max": 60000
+            }
+          },
+          "y": {
+            "unit": "%",
+            "labels": "储蓄率",
+            "range": {
+              "min": 0,
+              "max": 60
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "不同收入组别的城镇居民",
+            "unit": "%",
+            "values": [
+              {
+                "x": 8000,
+                "y": 11
+              },
+              {
+                "x": 10000,
+                "y": 7
+              },
+              {
+                "x": 16000,
+                "y": 27
+              },
+              {
+                "x": 23000,
+                "y": 30
+              },
+              {
+                "x": 29000,
+                "y": 34
+              },
+              {
+                "x": 51000,
+                "y": 50
+              }
+            ]
+          },
+          {
+            "name": "农村居民",
+            "unit": "%",
+            "values": [
+              {
+                "x": 8000,
+                "y": 20
+              }
+            ]
+          },
+          {
+            "name": "农民工",
+            "unit": "%",
+            "values": [
+              {
+                "x": 25000,
+                "y": 45
+              }
+            ]
+          }
+        ],
+        "figure_id": "d4286c94d6e8232d",
+        "provenance": {
+          "page": 31
+        }
+      },
+      {
+        "type": "line",
+        "title": "美国对华加权平均关税",
+        "page": 32,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr 2, 2025",
+              "Apr 10, 2025",
+              "Apr 11, 2025",
+              "May 12, 2025",
+              "Jun 3, 2025",
+              "Aug 1, 2025",
+              "2Q25E",
+              "3Q25E",
+              "4Q25E"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 140
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "5月12日之前的关税预期",
+            "unit": "%",
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              107,
+              null,
+              null,
+              null,
+              71,
+              61,
+              45
+            ]
+          },
+          {
+            "name": "最新预期下的关税路径",
+            "unit": "%",
+            "values": [
+              11,
+              22,
+              34,
+              59,
+              123,
+              null,
+              40,
+              42,
+              43,
+              null,
+              null,
+              43
+            ]
+          }
+        ],
+        "figure_id": "1ea032ea723a05ec",
+        "provenance": {
+          "page": 32
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 33,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "中国贸易差额 (2024年减去2019)"
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -120,
+              "max": 100
+            },
+            "labels": "美国贸易差额 (2024年减去2019)"
+          }
+        },
+        "series": [
+          {
+            "name": "矿物燃料",
+            "unit": null,
+            "values": [
+              {
+                "x": -150,
+                "y": 70
+              }
+            ]
+          },
+          {
+            "name": "谷物",
+            "unit": null,
+            "values": [
+              {
+                "x": -10,
+                "y": 10
+              }
+            ]
+          },
+          {
+            "name": "油籽",
+            "unit": null,
+            "values": [
+              {
+                "x": -20,
+                "y": 0
+              }
+            ]
+          },
+          {
+            "name": "宝石、贵金属",
+            "unit": null,
+            "values": [
+              {
+                "x": -50,
+                "y": -10
+              }
+            ]
+          },
+          {
+            "name": "药品",
+            "unit": null,
+            "values": [
+              {
+                "x": -40,
+                "y": -40
+              }
+            ]
+          },
+          {
+            "name": "未分类产品",
+            "unit": null,
+            "values": [
+              {
+                "x": 80,
+                "y": 20
+              }
+            ]
+          },
+          {
+            "name": "汽车",
+            "unit": null,
+            "values": [
+              {
+                "x": 170,
+                "y": -65
+              }
+            ]
+          },
+          {
+            "name": "电气机械和设备",
+            "unit": null,
+            "values": [
+              {
+                "x": 150,
+                "y": -90
+              }
+            ]
+          },
+          {
+            "name": "核反应堆, 机械",
+            "unit": null,
+            "values": [
+              {
+                "x": 100,
+                "y": -90
+              }
+            ]
+          }
+        ],
+        "figure_id": "b52e87345900a93d",
+        "provenance": {
+          "page": 33
+        }
+      },
+      {
+        "type": "bar",
+        "title": "各国在稀土产业链上的市场份额",
+        "page": 33,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "0%",
+              "20%",
+              "40%",
+              "60%",
+              "80%",
+              "100%"
+            ]
+          },
+          "y": {
+            "unit": "percentage",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "中国",
+            "unit": "%",
+            "values": [
+              48,
+              70,
+              88,
+              90
+            ]
+          },
+          {
+            "name": "美国",
+            "unit": "%",
+            "values": [
+              5,
+              10,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "其他",
+            "unit": "%",
+            "values": [
+              47,
+              20,
+              12,
+              10
+            ]
+          }
+        ],
+        "figure_id": "c962c3be493f95cb",
+        "provenance": {
+          "page": 33
+        }
+      },
+      {
+        "type": "combo",
+        "title": "美国对华进口依赖度",
+        "page": 34,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "0-10%",
+              "10-20%",
+              "20-30%",
+              "30-40%",
+              "40-50%",
+              "50-60%",
+              "60-70%",
+              "70-80%",
+              "80-90%",
+              "90-100%"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 18
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "占中国对美总出口比例",
+            "unit": "%",
+            "values": [
+              12,
+              14.5,
+              9.8,
+              9,
+              5.8,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "对中国进口高度依赖",
+            "unit": "%",
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              5,
+              15,
+              8.5,
+              16,
+              6
+            ],
+            "sub_categories": [
+              {
+                "x_label": "50-60%",
+                "items": [
+                  "光学、医疗仪器",
+                  "鞋类"
+                ]
+              },
+              {
+                "x_label": "60-70%",
+                "items": [
+                  "锂电池",
+                  "笔记本电脑"
+                ]
+              },
+              {
+                "x_label": "70-80%",
+                "items": [
+                  "电脑显示屏",
+                  "三轮自行车, 滑板车"
+                ]
+              },
+              {
+                "x_label": "80-90%",
+                "items": [
+                  "游戏主机",
+                  "手机"
+                ]
+              },
+              {
+                "x_label": "90-100%",
+                "items": [
+                  "保温瓶",
+                  "节日娱乐物品"
+                ]
+              }
+            ]
+          }
+        ],
+        "figure_id": "0a97cd746b35000b",
+        "provenance": {
+          "page": 34
+        }
+      },
+      {
+        "type": "scatter",
+        "title": "进口产品复杂度 vs. 出口产品复杂度",
+        "page": 34,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "进口产品复杂度",
+            "range": {
+              "min": -0.5,
+              "max": 1.0
+            }
+          },
+          "y": {
+            "type": "value",
+            "labels": "出口产品复杂度",
+            "range": {
+              "min": -2.0,
+              "max": 1.5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "国家/地区",
+            "unit": null,
+            "values": [
+              {
+                "name": "日本",
+                "x": 0.05,
+                "y": 1.25
+              },
+              {
+                "name": "中国",
+                "x": -0.35,
+                "y": 0.55
+              },
+              {
+                "name": "United Kingdom",
+                "x": -0.1,
+                "y": 0.6
+              },
+              {
+                "name": "Netherlands",
+                "x": -0.2,
+                "y": 0.05
+              },
+              {
+                "name": "Portugal",
+                "x": 0.0,
+                "y": 0.25
+              },
+              {
+                "name": "Belgium",
+                "x": 0.1,
+                "y": 0.5
+              },
+              {
+                "name": "Finland",
+                "x": 0.15,
+                "y": 0.45
+              },
+              {
+                "name": "Sweden",
+                "x": 0.2,
+                "y": 0.55
+              },
+              {
+                "name": "Italy",
+                "x": 0.25,
+                "y": 0.4
+              },
+              {
+                "name": "France",
+                "x": 0.3,
+                "y": 0.3
+              },
+              {
+                "name": "Spain",
+                "x": 0.2,
+                "y": 0.1
+              },
+              {
+                "name": "Ireland",
+                "x": 0.35,
+                "y": 0.9
+              },
+              {
+                "name": "Germany",
+                "x": 0.45,
+                "y": 0.75
+              },
+              {
+                "name": "Hungary",
+                "x": 0.55,
+                "y": 0.65
+              },
+              {
+                "name": "Poland",
+                "x": 0.4,
+                "y": 0.5
+              },
+              {
+                "name": "Romania",
+                "x": 0.5,
+                "y": 0.45
+              },
+              {
+                "name": "Slovakia",
+                "x": 0.65,
+                "y": 0.55
+              },
+              {
+                "name": "Slovenia",
+                "x": 0.7,
+                "y": 0.45
+              },
+              {
+                "name": "墨西哥",
+                "x": 0.45,
+                "y": 0.35
+              },
+              {
+                "name": "Malaysia",
+                "x": 0.4,
+                "y": 0.25
+              },
+              {
+                "name": "美国",
+                "x": 0.35,
+                "y": 0.05
+              },
+              {
+                "name": "India",
+                "x": 0.05,
+                "y": -0.2
+              },
+              {
+                "name": "Greece",
+                "x": 0.2,
+                "y": -0.3
+              },
+              {
+                "name": "Canada",
+                "x": 0.4,
+                "y": -0.5
+              },
+              {
+                "name": "South Africa",
+                "x": 0.45,
+                "y": -0.65
+              },
+              {
+                "name": "Argentina",
+                "x": 0.5,
+                "y": -0.8
+              },
+              {
+                "name": "Brazil",
+                "x": 0.5,
+                "y": -1.1
+              },
+              {
+                "name": "Australia",
+                "x": 0.55,
+                "y": -1.5
+              },
+              {
+                "name": "Norway",
+                "x": 0.3,
+                "y": -1.7
+              },
+              {
+                "name": "Egypt",
+                "x": 0.05,
+                "y": -1.0
+              },
+              {
+                "name": "Chile",
+                "x": 0.0,
+                "y": -1.4
+              }
+            ]
+          }
+        ],
+        "figure_id": "fd10443f211b338c",
+        "provenance": {
+          "page": 34
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 35,
+        "axes": {
+          "x": {
+            "type": "value",
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 50
+            }
+          },
+          "y": {
+            "type": "category",
+            "labels": [
+              "中国",
+              "美国",
+              "日本",
+              "德国",
+              "印度",
+              "韩国",
+              "意大利",
+              "俄罗斯",
+              "墨西哥",
+              "法国"
+            ]
+          }
+        },
+        "series": [
+          {
+            "name": "Percentage",
+            "unit": "%",
+            "values": [
+              41,
+              13,
+              4,
+              4,
+              4,
+              3,
+              2,
+              2,
+              2,
+              2
+            ]
+          }
+        ],
+        "figure_id": "e02a46746ce89b23",
+        "provenance": {
+          "page": 35
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 35,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "-5%",
+              "0%",
+              "5%",
+              "10%",
+              "15%",
+              "20%",
+              "25%",
+              "30%",
+              "35%"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": null,
+              "max": null
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "泰国",
+            "unit": "%",
+            "values": [
+              31
+            ]
+          },
+          {
+            "name": "印度尼西亚",
+            "unit": "%",
+            "values": [
+              15
+            ]
+          },
+          {
+            "name": "马来西亚",
+            "unit": "%",
+            "values": [
+              15
+            ]
+          },
+          {
+            "name": "越南",
+            "unit": "%",
+            "values": [
+              14
+            ]
+          },
+          {
+            "name": "新加坡",
+            "unit": "%",
+            "values": [
+              10
+            ]
+          },
+          {
+            "name": "韩国",
+            "unit": "%",
+            "values": [
+              3
+            ]
+          },
+          {
+            "name": "日本",
+            "unit": "%",
+            "values": [
+              2
+            ]
+          },
+          {
+            "name": "菲律宾",
+            "unit": "%",
+            "values": [
+              2
+            ]
+          },
+          {
+            "name": "澳大利亚",
+            "unit": "%",
+            "values": [
+              2
+            ]
+          },
+          {
+            "name": "印度",
+            "unit": "%",
+            "values": [
+              0
+            ]
+          },
+          {
+            "name": "中国台湾",
+            "unit": "%",
+            "values": [
+              -1
+            ]
+          }
+        ],
+        "figure_id": "502f33aab6dc062f",
+        "provenance": {
+          "page": 35
+        }
+      },
+      {
+        "type": "other",
+        "title": "美国投资优先政策",
+        "page": 36,
+        "axes": null,
+        "series": [
+          {
+            "name": "资金来源",
+            "unit": null,
+            "values": [
+              "养老基金",
+              "大学捐赠基金",
+              "以及其他有限合伙人投资者"
+            ]
+          },
+          {
+            "name": "投资类型",
+            "unit": null,
+            "values": [
+              "私募股权",
+              "风险投资",
+              "绿地投资",
+              "公司扩张",
+              "以及公开市场证券投资"
+            ]
+          },
+          {
+            "name": "受影响的行业",
+            "unit": null,
+            "values": [
+              "1. 中国军工复合体企业",
+              "2. 受“军民融合”战略影响的行业:",
+              "涵盖半导体、人工智能、量子计算、生物技术、高超音速技术、航空航天、先进制造、定向能等"
+            ]
+          },
+          {
+            "name": "美国将",
+            "unit": null,
+            "values": [
+              "审查是否暂停或终止1984年《中美所得税协定》",
+              "确保《外国公司问责法》涵盖的公司遵守足够的财务审计标准",
+              "审查外国对手公司用于在美国上市的VIE和子公司架构以及对这些公司欺诈行为的指控"
+            ]
+          },
+          {
+            "name": "战略领域",
+            "unit": null,
+            "values": [
+              "美国技术",
+              "关键基础设施",
+              "医疗",
+              "农业",
+              "能源",
+              "原材料等"
+            ]
+          }
+        ],
+        "figure_id": "0b5d0d042a43b07a",
+        "provenance": {
+          "page": 36
+        }
+      },
+      {
+        "type": "line",
+        "title": "Indexed 31 Dec 2014 = 100",
+        "page": 37,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Dec-16",
+              "Jun-17",
+              "Dec-17",
+              "Jun-18",
+              "Dec-18",
+              "Jun-19",
+              "Dec-19",
+              "Jun-20",
+              "Dec-20",
+              "Jun-21",
+              "Dec-21",
+              "Jun-22",
+              "Dec-22",
+              "Jun-23",
+              "Dec-23",
+              "Jun-24",
+              "Dec-24",
+              "Jun-25",
+              "Dec-25",
+              "Jun-26",
+              "Dec-26"
+            ]
+          },
+          "y": {
+            "unit": "index",
+            "range": {
+              "min": 77,
+              "max": 129
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "人民币兑美元",
+            "unit": "index",
+            "values": [
+              89.5,
+              87.5,
+              89.5,
+              92.5,
+              90.5,
+              88.5,
+              89.5,
+              85.5,
+              83.5,
+              89.5,
+              97.5,
+              99.5,
+              91.5,
+              85.5,
+              83.5,
+              85.5,
+              87.5,
+              85.5,
+              86.5,
+              86.5,
+              86.5
+            ]
+          },
+          {
+            "name": "官方CFETS人民币指数",
+            "unit": "index",
+            "values": [
+              94.5,
+              96.5,
+              98.5,
+              97.5,
+              95.5,
+              93.5,
+              94.5,
+              96.5,
+              98.5,
+              103.5,
+              105.5,
+              101.5,
+              99.5,
+              97.5,
+              99.5,
+              101.5,
+              103.5,
+              101.5,
+              99.5,
+              97.5,
+              95.5
+            ]
+          },
+          {
+            "name": "贸易加权后的美元指数-右轴",
+            "unit": "index",
+            "values": [
+              93.5,
+              87.5,
+              79.5,
+              83.5,
+              91.5,
+              95.5,
+              101.5,
+              93.5,
+              85.5,
+              87.5,
+              95.5,
+              101.5,
+              97.5,
+              93.5,
+              95.5,
+              99.5,
+              103.5,
+              101.5,
+              97.5,
+              95.5,
+              93.5
+            ]
+          }
+        ],
+        "figure_id": "cbb54112951ad618",
+        "provenance": {
+          "page": 37
+        }
+      },
+      {
+        "type": "line",
+        "title": "指数化, 2025年4月2日=100",
+        "page": 37,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "指数",
+            "range": {
+              "min": 90,
+              "max": 108
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "美元兑人民币",
+            "unit": "指数",
+            "values": [
+              103.5,
+              102.2,
+              101.5,
+              102.5,
+              100.0,
+              99.5,
+              100.0,
+              100.8,
+              101.2,
+              101.5
+            ]
+          },
+          {
+            "name": "欧元对人民币",
+            "unit": "指数",
+            "values": [
+              101.0,
+              102.0,
+              103.0,
+              104.5,
+              105.5,
+              103.0,
+              100.0,
+              96.0,
+              95.0,
+              93.5
+            ]
+          },
+          {
+            "name": "日元对人民币",
+            "unit": "指数",
+            "values": [
+              99.0,
+              103.5,
+              104.0,
+              104.0,
+              102.0,
+              100.0,
+              100.0,
+              97.0,
+              98.0,
+              97.5
+            ]
+          },
+          {
+            "name": "人民币兑一篮子货币",
+            "unit": "指数",
+            "values": [
+              100.0,
+              101.0,
+              101.5,
+              102.5,
+              103.0,
+              101.0,
+              100.0,
+              98.0,
+              97.0,
+              96.5
+            ]
+          }
+        ],
+        "figure_id": "e544cf097fb2ec69",
+        "provenance": {
+          "page": 37
+        }
+      },
+      {
+        "type": "line",
+        "title": "China",
+        "page": 38,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-05",
+              "Jun-06",
+              "Jun-07",
+              "Jun-08",
+              "Jun-09",
+              "Jun-10",
+              "Jun-11",
+              "Jun-12",
+              "Jun-13",
+              "Jun-14",
+              "Jun-15",
+              "Jun-16",
+              "Jun-17",
+              "Jun-18",
+              "Jun-19",
+              "Jun-20",
+              "Jun-21",
+              "Jun-22",
+              "Jun-23",
+              "Jun-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "left": {
+              "unit": null,
+              "range": {
+                "min": 6.0,
+                "max": 8.5
+              }
+            },
+            "right": {
+              "unit": "十亿美元",
+              "range": {
+                "min": 100,
+                "max": 450
+              }
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "美元对人民币汇率",
+            "unit": null,
+            "values": [
+              8.11,
+              7.98,
+              7.6,
+              6.85,
+              6.83,
+              6.8,
+              6.48,
+              6.3,
+              6.15,
+              6.18,
+              6.3,
+              6.6,
+              6.8,
+              6.7,
+              6.9,
+              7.05,
+              6.45,
+              6.7,
+              7.1,
+              7.2,
+              7.2
+            ]
+          },
+          {
+            "name": "中国对美贸易顺差 (十亿美元, 12个月移动加总, 右轴)",
+            "unit": "十亿美元",
+            "values": [
+              100,
+              150,
+              200,
+              250,
+              200,
+              220,
+              280,
+              300,
+              280,
+              300,
+              280,
+              250,
+              300,
+              350,
+              370,
+              300,
+              350,
+              440,
+              350,
+              360,
+              370
+            ]
+          }
+        ],
+        "figure_id": "f4b5229a9072f32e",
+        "provenance": {
+          "page": 38
+        }
+      },
+      {
+        "type": "line",
+        "title": "中国 (同比增速)",
+        "page": 38,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "May-17",
+              "Nov-17",
+              "May-18",
+              "Nov-18",
+              "May-19",
+              "Nov-19",
+              "May-20",
+              "Nov-20",
+              "May-21",
+              "Nov-21",
+              "May-22",
+              "Nov-22",
+              "May-23",
+              "Nov-23",
+              "May-24",
+              "Nov-24",
+              "May-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -10.0,
+              "max": 20.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "进口价格",
+            "unit": "%",
+            "values": [
+              12.8,
+              8.0,
+              -1.0,
+              8.0,
+              1.0,
+              -5.0,
+              -10.0,
+              -6.0,
+              17.5,
+              18.0,
+              10.0,
+              6.0,
+              -5.0,
+              2.0,
+              4.0,
+              -1.0,
+              1.0
+            ]
+          },
+          {
+            "name": "非大宗商品PPI(右轴)",
+            "unit": "%",
+            "values": [
+              3.0,
+              6.0,
+              8.0,
+              2.0,
+              0.0,
+              -2.0,
+              -1.0,
+              -0.5,
+              8.0,
+              9.0,
+              4.0,
+              -1.0,
+              -3.0,
+              -2.0,
+              -2.0,
+              -2.5,
+              -3.0
+            ]
+          }
+        ],
+        "figure_id": "fefe246a0fed72cc",
+        "provenance": {
+          "page": 38
+        }
+      },
+      {
+        "type": "waterfall",
+        "title": null,
+        "page": 39,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "2023年6月",
+              "2023年8月",
+              "2024年11月",
+              "2024年12月",
+              "2025年6月",
+              "2025年7月",
+              "2025年8月"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "事件",
+            "unit": null,
+            "values": [
+              "日本《支付服务法》修订案生效",
+              "新加坡金融管理局(MAS) 稳定币监管框架生效",
+              "巴西拟议稳定币监管草案",
+              "欧盟《加密资产市场监管法案》正式生效",
+              "韩国《数字资产基本法》提案",
+              "美国《GENIUS法案》生效",
+              "香港《稳定币条例》生效"
+            ]
+          }
+        ],
+        "figure_id": "cdf9a7cd159c7c54",
+        "provenance": {
+          "page": 39
+        }
+      },
+      {
+        "type": "other",
+        "title": "美国《GENIUS法案》的影响",
+        "page": 39,
+        "axes": null,
+        "series": [
+          {
+            "name": "美国推出《GENIUS法案》(7月18日生效)，旨在提升全球对美元稳定币的信任，并明确其监管框架。",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "扩大美元稳定币在加密货币、Web3，以及金融设施薄弱的新兴市场中使用",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "加大对美元储备资产（尤其是短期美债）的需求",
+            "unit": null,
+            "values": []
+          }
+        ],
+        "figure_id": "042a9f791bbb3ef6",
+        "provenance": {
+          "page": 39
+        }
+      },
+      {
+        "type": "other",
+        "title": "八大金融举措",
+        "page": 40,
+        "axes": null,
+        "series": [
+          {
+            "name": "加强金融基础设施",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "丰富上海自贸区金融产品和服务",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "提升上海的金融中心地位",
+            "unit": null,
+            "values": []
+          }
+        ],
+        "figure_id": "8f6fadca9318dd50",
+        "provenance": {
+          "page": 40
+        }
+      },
+      {
+        "type": "other",
+        "title": "金融科技生态系统示意图",
+        "page": 41,
+        "axes": {},
+        "series": [
+          {
+            "name": "渣打银行",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "银行基础设施",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "移动钱包经验",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "HKT",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "Web3 技术",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "Animoca Brands",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "图币科技 B2B 全球稳定币支付",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "跨境支付",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "智能合约",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "供应链金融",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "零售交易",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "京东 电商平台",
+            "unit": null,
+            "values": []
+          }
+        ],
+        "figure_id": "ff8afb64a45e571d",
+        "provenance": {
+          "page": 41
+        }
+      },
+      {
+        "type": "other",
+        "title": "稳定币生态系统参与者和应用场景",
+        "page": 42,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "率先获益者",
+              "后期获益者"
+            ]
+          },
+          "y": {
+            "type": "category",
+            "labels": [
+              "率先推广",
+              "后期推广"
+            ]
+          }
+        },
+        "series": [
+          {
+            "name": "稳定币类型",
+            "values": [
+              {
+                "category_y": "率先推广",
+                "category_x": "率先获益者",
+                "label": "美元稳定币"
+              },
+              {
+                "category_y": "率先推广",
+                "category_x": "后期获益者",
+                "label": "港币稳定币"
+              },
+              {
+                "category_y": "后期推广",
+                "category_x": "后期获益者",
+                "label": "离岸人民币稳定币"
+              }
+            ]
+          },
+          {
+            "name": "金融交易参与者",
+            "values": [
+              {
+                "category_x": "率先获益者",
+                "label": "稳定币发行人",
+                "details": [
+                  "交易费",
+                  "投资回报",
+                  "其他服务费用"
+                ]
+              },
+              {
+                "category_x": "率先获益者",
+                "label": "交易所",
+                "details": [
+                  "佣金",
+                  "提供其他复杂产品"
+                ]
+              },
+              {
+                "category_x": "率先获益者",
+                "label": "金融科技企业",
+                "details": [
+                  "尤其是那些拥有成熟区块链和去中心化金融(DeFi)技术的公司"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "真实世界场景",
+            "values": [
+              {
+                "category_x": "后期获益者",
+                "label": "跨境支付"
+              },
+              {
+                "category_x": "后期获益者",
+                "label": "零售交易"
+              },
+              {
+                "category_x": "后期获益者",
+                "label": "供应链金融"
+              }
+            ]
+          }
+        ],
+        "figure_id": "e842cc7aeefe67b7",
+        "provenance": {
+          "page": 42
+        }
+      },
+      {
+        "type": "other",
+        "title": "人民币符号",
+        "page": 43,
+        "axes": null,
+        "series": [],
+        "figure_id": "dc8d8ce6487b5fca",
+        "provenance": {
+          "page": 43
+        }
+      },
+      {
+        "type": "other",
+        "title": "Document with Yen Symbol",
+        "page": 43,
+        "axes": null,
+        "series": [],
+        "figure_id": "1d54e3d51e5441d7",
+        "provenance": {
+          "page": 43
+        }
+      },
+      {
+        "type": "other",
+        "title": "未知图表",
+        "page": 43,
+        "axes": {},
+        "series": [],
+        "figure_id": "1dc4909ffce7c81e",
+        "provenance": {
+          "page": 43
+        }
+      },
+      {
+        "type": "other",
+        "title": "Image of a briefcase with a star",
+        "page": 43,
+        "axes": null,
+        "series": [],
+        "figure_id": "2be6490685f546d4",
+        "provenance": {
+          "page": 43
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 44,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "4Q16",
+              "1Q17",
+              "2Q17",
+              "3Q17",
+              "4Q17",
+              "1Q18",
+              "2Q18",
+              "3Q18",
+              "4Q18",
+              "1Q19",
+              "2Q19",
+              "3Q19",
+              "4Q19",
+              "1Q20",
+              "2Q20",
+              "3Q20",
+              "4Q20",
+              "1Q21",
+              "2Q21",
+              "3Q21",
+              "4Q21",
+              "1Q22",
+              "2Q22",
+              "3Q22",
+              "4Q22",
+              "1Q23",
+              "2Q23",
+              "3Q23",
+              "4Q23",
+              "1Q24",
+              "2Q24",
+              "3Q24",
+              "4Q24",
+              "1Q25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 1.0,
+              "max": 3.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": null,
+            "unit": "%",
+            "values": [
+              1.08,
+              1.08,
+              1.08,
+              1.1,
+              1.2,
+              1.4,
+              1.82,
+              1.78,
+              1.88,
+              1.96,
+              1.96,
+              1.96,
+              1.96,
+              2.0,
+              2.08,
+              2.12,
+              2.2,
+              2.38,
+              2.5,
+              2.6,
+              2.7,
+              2.84,
+              2.7,
+              2.6,
+              2.5,
+              2.4,
+              2.3,
+              2.2,
+              2.15,
+              2.18,
+              2.18,
+              2.15,
+              2.12,
+              2.12
+            ]
+          }
+        ],
+        "figure_id": "2d12bf00056f1645",
+        "provenance": {
+          "page": 44
+        }
+      },
+      {
+        "type": "line",
+        "title": "中国国际收支：资本账户下资金流动（包括误差和遗漏项），十亿美元，四季度移动总和",
+        "page": 44,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-99",
+              "Jun-00",
+              "Jun-01",
+              "Jun-02",
+              "Jun-03",
+              "Jun-04",
+              "Jun-05",
+              "Jun-06",
+              "Jun-07",
+              "Jun-08",
+              "Jun-09",
+              "Jun-10",
+              "Jun-11",
+              "Jun-12",
+              "Jun-13",
+              "Jun-14",
+              "Jun-15",
+              "Jun-16",
+              "Jun-17",
+              "Jun-18",
+              "Jun-19",
+              "Jun-20",
+              "Jun-21",
+              "Jun-22",
+              "Jun-23",
+              "Jun-24",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": "十亿美元",
+            "range": {
+              "min": -800,
+              "max": 600
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "资本账户下资金流动",
+            "unit": "十亿美元",
+            "values": [
+              -20,
+              -10,
+              -5,
+              10,
+              30,
+              80,
+              120,
+              150,
+              100,
+              -20,
+              180,
+              280,
+              380,
+              200,
+              -100,
+              280,
+              -400,
+              -700,
+              -600,
+              50,
+              -100,
+              -250,
+              -150,
+              -350,
+              -200,
+              -400,
+              -750
+            ]
+          }
+        ],
+        "figure_id": "fe513a5fc49cec94",
+        "provenance": {
+          "page": 44
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "1c117ba81a6a9b28",
+        "value": 0.083,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "国家创业投资引导基金将带动地方资金、社会资本近1万亿元 3 进一步扩大科技创新和技术改造再贷款从目前的5千亿人民币扩大到8千至1万亿人民币 4 增加预算内科学技术支出达到1.2万亿人民币，同比上升8.3%（全国一般公共预算总支出同比增速为4.4%）<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "5da14c3f92a38973",
+        "value": 0.044000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "本近1万亿元 3 进一步扩大科技创新和技术改造再贷款从目前的5千亿人民币扩大到8千至1万亿人民币 4 增加预算内科学技术支出达到1.2万亿人民币，同比上升8.3%（全国一般公共预算总支出同比增速为4.4%）<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "eaf1a911074cc2dd",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/center> 资料来源：CEIC，政府网站，摩根士丹利研究部。注：大部分情况下企业所得税和印花税的央地分成比例为60:40。但中央政府对中央国有企业、银行和保险公司的企业所得税以及证券交易税享有100%的份额。“负值是由于出口退税。<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "num_id": "862f59d2c4ab4b83",
+        "value": 0.44,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>545</td></tr><tr><td>平均社保支出(人民币)</td><td>44,912</td><td>2,671</td></tr><tr><td>养老金替代率</td><td>44%(2020年)</td><td>12.5%(2018年)</td></tr><tr><td>养老保险结余(万亿人民币)</td><td>6.4</td><td>1.5</td></tr><tr>",
+        "provenance": {
+          "page": 30
+        }
+      },
+      {
+        "num_id": "2932f058ae414dea",
+        "value": 0.125,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>平均社保支出(人民币)</td><td>44,912</td><td>2,671</td></tr><tr><td>养老金替代率</td><td>44%(2020年)</td><td>12.5%(2018年)</td></tr><tr><td>养老保险结余(万亿人民币)</td><td>6.4</td><td>1.5</td></tr><tr><td colspan=\"3\">医疗保",
+        "provenance": {
+          "page": 30
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 71,
+      "tables_count": 0,
+      "numerical_data_count": 5,
+      "passages_count": 86,
+      "entities_count": 20
+    }
+  }
+}

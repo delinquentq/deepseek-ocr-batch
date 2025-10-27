@@ -1,0 +1,963 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "804035f03dae7b66224f3c5708ca4f90",
+    "title": "![Figure 0-0](images/0_0.jpg)",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/JPM/J.P. Morgan Asia Technology Tracker 29 Aug 25J.P. Morgan Asia Technology Tracker 29 Aug 25_2025-08-09",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:08:51.237966",
+      "extracted_at": "2025-10-26T12:08:51.237988"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 10,
+        "successful_pages": 10,
+        "date": "2025-08-09",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/JPM",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 0,
+          "removed_paragraphs": 3,
+          "reduction_ratio": 0.025317551338367994
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/JPM"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "d8d60ceb9fcb3341",
+      "text": "ASIA PACIFIC EQUITY RESEARCH",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d0fb5b35c1976c7f",
+      "text": "This material is neither intended to be distributed to Mainland China investors nor to provide securities investment consultancy services within the territory of Mainland China. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0e1821858b90c2a7",
+      "text": "Dicker Data (Overweight), Australia",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "af44b90f9f358319",
+      "text": "Al glue for opportunity - assume coverage at Overweight (Michael James)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c6062cea855f589c",
+      "text": "CY25 and CY26 growth will be supported by industry tailwinds like the Windows 10 refresh and AI infrastructure supply. Despite a projected slowdown in FY25 top- line momentum through 2H, profitability is expected to improve with a shift back to historical revenue composition. Our earnings revisions are minimal, reflecting slight top- line slowing but improved profitability. The company's valuation remains undemanding, with a price target increase to A\\(10.30, maintaining an Overweight position. Price target A\\)10.30. Overweight. With this note we transfer coverage of Dicker Data to Michael James.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f84f7fcd264f1330",
+      "text": "Huaqin Technology - A (Overweight), China",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "913ee387392a63ac",
+      "text": "Strong growth across segments in 1H25; optimistic on AI momentum and growth outlook; reiterate OW (Cherry Liu / Billy Feng)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "da3f19088693477c",
+      "text": "Key takeaways from Huaqin's earnings call include: 1) strong earnings growth of 46% yoy in 1H25 was driven by accelerating AI server delivery and strong momentum in smartphone/PC/wearable areas; 2) GPM dropped sequentially in 2Q25, due to product mix change, but is expected to recover with a better mix; 3) management expects >Rmb40bn datacenter revenue in 2025 and further growth ahead, given continuous demand from CSPs and Huaqin's full- stack portfolio with share- gain potential; and 4) an unchanged target of a ~17% revenue CAGR and stronger earnings growth with margin expansion in 2024- 30. We consider Huaqin's growth outlook to be intact, supported by strong momentum across its diversified layout; reiterate OW with a Jun- 26 PT of Rmb115.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "bbbb4f8055a7a7d5",
+      "text": "Luxshare - A (Overweight), China",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "50a41517bc7a3636",
+      "text": "Rising contribution from strong auto/communication; better- than- expected consolidation; reiterate OW (Billy Feng)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6291a7b6b8aaf11f",
+      "text": "During the earnings call, management addressed: 1) strong revenue growth in auto and communication segments in 1H25, attributable to positive portfolio expansion, which is expected to boost growth continuously; 2) sustainable and resilient growth outlook, even in a complex macro situation, backed by its diversified business, globalized capacity, high- quality delivery and its superior capability of intelligent manufacture; and, 3) better- than- expected consolidation of newly acquired business (including Leoni and ODM business, both settled in July). We expect a better revenue mix (rising contribution from high- margin auto and communication segments) and project a 26% earnings CAGR in 2024- 27. We reiterate OW on",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2c9e4156a3e9e44e",
+      "text": "Luxshare with an extended Jun- 26 PT of Rmb63.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "da7fb1f690170be2",
+      "text": "Nationgate Holdings Bhd (Overweight), Malaysia Committed to Nvidia server business; weaker 2H on EOL products, with B300/GB ramp in 2026 (Samuel Tan)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "eaea06b897f5b068",
+      "text": "A small batch of B200 deliveries is expected in 3Q25, with a likely air pocket in 4Q25 as the series approaches EOL, while B300/GB production may only commence in 1Q26. We model 2,000 B300 and 100 GB units in 2026 ( \\(\\sim 68MW\\) server power in total), a capacity that can be easily absorbed within Malaysia's expanding 6GW DC pipeline. Meanwhile, stronger general server demand in 2H25 (47K units for FY25 vs 30- 40K guided) and moderating R&D expenses should partially cushion near- term softness. The ramp- up of optical transceivers (200- 400G modules) from 4Q25 is on track and could provide a slight uplift in product mix. We moderate our forecasts and extend our PT timeframe to June- 26 with a lower price target of RM2.40, based on 23x 12M EPS. Maintain OW.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "edc5b9113e524d55",
+      "text": "Silergy Corp (Overweight), Taiwan",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "04df8fda21e30423",
+      "text": "Lower 2025 growth, but strong 2026 outlook with more meaningful automotive content growth; OW (William Yang)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ae4ffce661efdbff",
+      "text": "Silergy reported its 2Q25 earnings on 28 Aug with a miss. The company will host an earnings call on 29 Aug after market close. In this note, we revise down our 2025 YoY growth estimate to factor in demand slowdown given tariff- driven costs and geopolitical concerns. However, we believe the weaker 2025 growth is well- known to the market and demand should gradually pick up in 2H25. For 2026, we see stronger growth potential from its automotive business, driven by meaningful content value increases from new products (e.g. MCU). Also, its server business may have some breakthroughs with new chip customer's adoption. Thus, we keep OW as we think investors will start to focus more on Silergy's longer- term outlook.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "6088d88e1b805519",
+      "text": "Zhongji Innolight - A (Overweight), China",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b86700d5aff5c3da",
+      "text": "Zhongji Innolight - A (Overweight), ChinaUpside margin surprise from SiPho adoption could persist; maintain OW (Billy Feng)Innolight reported in- line 1H25 sales but higher- than- expected net profit with elevated GPM. Aside from better product mix with higher 800G volume, annual price cuts for clients in 1H25 could be largely offset by better cost structure, thanks to increasing adoption of Silicon Photonics (SiPho). By collaborating with foundry partners, we believe Innolight could offer better profitability ahead into 2026. We revise up our GPM forecast (from 31% to 41% in 2025) and now model a 58% earnings CAGR in 2025- 27E. CPO substitution is a major concern of investors, but we believe the impact will be beyond 2027 and that this uncertainty is addressed in the discounted valuation. Our revised Dec- 26 PT of Rmb366 is based on 20x 1- year forward PER. Maintain OW.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ea9943806bca19db",
+      "text": "Tightness and Tribulations: Ten Fresh Takes on Clean Energy Supply (Alan Hon / Hannah L Lee) The road to a clean energy future is long (and uncertain). While the energy transition remains an overarching theme, history has shown that renewable energy build- out at scale does not necessarily translate into returns at all points of the value chain. Industry cycles, technological advancement, and geopolitics all come into play. In this report, we give10 answers to questions relating to the transition on three main topics: 1) Which transition value chains are in supply tightness or emerging as important ones? 2) Where are geopolitical risks less well understood? 3) Which transition technologies will be the next game changers? JPM- covered stocks that emerge as our top picks include: Bannerman Energy (BMN), CATL- A, Hyundai Electric, Hyosung Heavy, ILU, LG Chem, LG Energy Solution, Orient Cables, Sieyuan and Tenaga.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "19b62d3063cd235e",
+      "text": "Asian TechNVDA 2QFY26 key takeaways (Gokul Hariharan / Albert Hung)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b25d22eb799084db",
+      "text": "Key takeaways from NVDA 2QFY26 results for Asian Tech are as below:",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "af560e21263ade21",
+      "text": "Key takeaways from NVDA 2QFY26 results for Asian Tech are as below:Neutral result and guidance: NVIDIA reported total revenue of \\(46.7 billion for the July quarter, exceeding its guidance, but largely in line with market expectations. Sequential growth was seen across all market platforms in 2QFY26. The company guided to sequential growth for 3QFY26. Data Center revenues were up 56% YoY and 5% QoQ, driven by the strength of the Blackwell platform (grew 17% QoQ), coupled with continued increase in H100 and H200 shipments. 3Q guidance suggests a neutral stance, with revenue guidance of\\)54 bn +/- 2\\%, implying 13- 18% QoQ growth, in line with JPME and Consensus. However, guidance for the October quarter does not include any H20 shipments to China, reflecting ongoing geopolitical uncertainties.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "ba2cff2385466834",
+      "text": "Pre- cursor to the India SEMICON event next week (Bhavik Mehta, CFA)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f53430418f786da6",
+      "text": "India will be organising its fourth SEMICON event next week from 2- 4 September in New Delhi. The event is organised by India Semiconductor Mission (ISM) which has outlayed Rs760bn to develop a semiconductor ecosystem in India across semiconductor fabs, display fabs, OSAT and design. The Indian government has already approved 10 semiconductor plants so far with cumulative investments of Rs1600bn of which one plant is of Kaynes where it will be investing Rs33bn. We will watch out for: 1) any potential announcement by the government around expanding the Rs760bn initial outlay given increased interest from companies in setting up semiconductor plants, and 2) any potential announcement by Kaynes on either offtake agreements or technology partnership on OSAT.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3a712430efe5e8ac",
+      "text": "Potentially taking a breather, but LT tightness remains intact (Jerry Tsai)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "ffb3f3ee27b86311",
+      "text": "Potentially taking a breather, but LT tightness remains intact (Jerry Tsai)Potentially taking a breather; our thoughts on what comes next after the recent rally... Both CCL and PCB sectors have seen very robust share price moves in the past weeks (MTD shares up 20- 25% for the major names; vs. 3% for Taiex), driven by increasing discussions of supply tightness, plus the concerns for rising raw material supplies tightness (copper foil, glass fiber, etc) in the coming year. Across the board, the shares are trading at practically all- time high multiples since early 2023 (the inception of Al boom). While we expect the tightness for PCB and CCL to continue in the coming year (and likely beyond) on robust spec migration, we do wish to highlight that a potential moderation in rerating could take place in the next 1- 3 months. Nevertheless, we suggest investors should still accumulate high quality names like EMC on pullbacks as the long term outlook remains compelling.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6ab47a79a7bbbbe6",
+      "text": "Key takeaways from J.P. Morgan's Asia Tech Tour (Gokul Hariharan)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "35e5cbc21ac32018",
+      "text": "We hosted Alchip at J.P. Morgan's Asia Tech Tour. Key takeaways are:",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0c835fb860182bcf",
+      "text": "\\$4- 6bn project lifetime contribution from 3nm Al accelerator project: A major focus for investors is still on the 3nm Al accelerator project. Management expects shipments to begin in late 1Q26 and extend into 2028, with total project revenue likely reaching US\\$4- 6bn, excluding HBM. Although there is a trend for end customers to bypass design service providers and place orders directly with foundries, we believe allocation discussions are ongoing, and Alchip could likely handle the vast majority of the orders. While there is ongoing debate between Alchip and its major US peer regarding this project, management's comments align with our supply chain checks, indicating Alchip as the final selected design service partner.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b4ae10aa18c76a78",
+      "text": "Key Takeaways from J.P. Morgan Asia Tech Tour (Gokul Hariharan)We hosted ASE at the J.P. Morgan Asia Tech Tour, key takeaways are:Heavy capex to align with customer requests for 2026 projects: Management shared that the incremental 2025 capex spending announced on the 2Q earnings call is to align with customer requests,",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e372704cf77325fe",
+      "text": "primarily for 2026 projects. Machinery capex is expected to reach \\(\\sim\\) 3bn (up from \\(\\) 2.6bn\\$ for both testing (including CP and FT) and packaging, while building and facility capex is anticipated to be around \\(\\) 2.2bn\\$ The total \\(\\) 5+bn\\(capex in 2025, up from \\)\\sim \\(\\) 2.7bn in 2024, reflects an optimistic outlook and confidence in future demand. Although no capex guidance for 2026 has been shared yet, management emphasized that no sharp decrease in machinery capex is expected. The company will continue spending on oS (on substrate), full- stack 2.5D advanced packaging, and testing in 2026, or even 2027, unless a macro downturn occurs.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "6117c95a3133b79d",
+      "text": "We hosted an NDR meeting with Daqo's management team on August 28 and came back with a positive view: (1) management expressed a positive 3Q operating outlook, with increase in production volume and polysilicon price, and decrease in production costs; (2) management is constructive on the \"anti- involution\" (excessive competition) initiative, as they already saw polysilicon prices recovering to above production costs, while more policy measures (i.e. polysilicon sales and production restriction, industry consolidation fund) may be announced going forward; (3) management is confident that Daqo may recover to its previous market share levels in the mid term, as they see room to lift utilization, assuming a stable price outlook; (4) Daqo announced Usd 100mn share repurchase program on August 26 2025, on the back of a promising outlook into 2H25. We believe there is a chance that Daqo Cayman may dispose some of its shares in Xinjiang Daqo and use the proceeds to buy back its own shares, which may narrow the valuation gap and enhance the controlling rights of Daqo Cayman's shareholders to Xinjiang Daqo. We maintain our OW rating on Daqo (DQ US).",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b4a0964cbb476dab",
+      "text": "Materialisation of the Windows 10 refresh opportunity and acceleration into early 2H25 should be taken positively by the market. 1H25 results were a beat vs JPMe/cons (gross revenue, gross profit, NPBT) with the PC refresh cycle and Al- driven deals accompanied by solid cost management. Weakness in the SMB market was offset by the shift to larger enterprise customers with the company's FY25 guidance in line with expectations.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "85c703eb6823f165",
+      "text": "Key Takeaways from the J.P. Morgan Asia Tech Tour (Gokul Hariharan)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e0f63895edf51539",
+      "text": "We hosted Hon Hai at our J.P. Morgan Asia Tech Tour. Key takeaways are:",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "25feb6dbb9643fea",
+      "text": "Market share expansion in Al servers with new clients for both GPU and ASIC: Hon Hai maintained its strong Al revenue guidance from the 2Q earnings call, expecting \\(170\\%\\) QoQ Al revenue growth in 3Q, with rack growth projected at \\(300\\%\\) QoQ. Overall, Al server revenue is expected to surpass the NT\\(1 trillion target in 2025 (JPME NT\\)1.8 Tn), capturing a \\(40\\%\\) market share. Management doesn't expect any major transition issues from GB200 and GB300 and indicated that GB300s should dominate shipments in 2H25. Hon Hai expects to gain market share continuously, going from 2 CSP customers in GB200 (we believe Microsoft and Oracle) to 3 CSPs in GB300 (we expect Meta) and adding one more in Vera Rubin (we expect Google). Hon Hai also expects to expand its customer base in ASIC from one customer currently to three customers in 2025.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "be292fbadf9b7857",
+      "text": "First Take: 4QFY25 was in line given seasonal weakness in RF (Samuel Tan)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3fab2eb65ca480b0",
+      "text": "Our First Take: 4QFY25 core PATMI came in at RM64mn (+11% Q/Q; +9% Y/Y), bringing FY25 core PATMI to RM261mn (- 15% Y/Y), in line with both JPMe/consensus estimates at 102%/101%. 4QFY25 revenue stood at RM306mn (- 0.4% Q/Q; - 9% Y/Y), reflecting flattish growth amid seasonal weakness in its bread",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "8d4aa7877a3b4f9b",
+      "text": "and- butter RF segment (- 9% Q/Q), offset by stronger performance from the fibre and optoelectronics segment (+16% Q/Q). Consequently, RF revenue contribution fell to 61% of total sales (vs. 66% in 3QFY25) as the iPhone 16 nears the end of its one- year cycle. Gross margins were encouraging, with a marginal Q/Q uptick despite softer contribution from the high- margin RF segment. Further details at the virtual briefing tomorrow (Friday, 28 Aug) at 10:30am HKT.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "9ef5f2956665e18c",
+      "text": "ChargePoint (Underweight), United States",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "dc5c8b49bbb4dcd0",
+      "text": "F2Q Preview: Headwinds Likely to Persist, Establishing a \\(\\) 9\\(PT Following Reverse Stock Split (Bill Peterson)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8843823559b3466c",
+      "text": "We model 2Q revenue of \\(\\) 97M\\(vs. consensus\\) \\ \\(96M\\) and guide \\(\\) 90- 100M\\(and EBITDA loss of\\) \\ \\(24M\\) (vs. consensus \\(\\) 21M\\$ ). Our revenue estimates contemplate 2Q hardware revenue remaining fairly flat with 1Q, despite it being a historically stronger quarter due to seasonality, taking into account the mixed impacts of potential pre- buying in the first half of this year ahead of anticipated tax credit phase- outs or tariffs, which could result in incremental deliveries landing in 2Q, or, customers doubling down on pausing new orders due to a worse EV sales and market penetration outlook in the years to come. While we expect to eventually see revenue uplift from ChargePoint's channel partnership with Eaton, this is set to be more impactful from F3Q onward once the partnership is operationalized and new offerings are announced in the coming weeks. We expect gross margins to improve slightly on a sequential basis, though largely still weighted to the 2H of the year as existing inventory is sold through before we see the benefit of ChargePoint's new, lower- cost hardware roll through. Although management has remained committed to turning EBITDA breakeven exiting this year, this will largely depend on meaningful H/H revenue and margin growth; based on our calculations, ChargePoint would need to reach \\(\\sim\\) 140M+ of revenue, \\(20\\% +\\) hardware gross margins, and maintain relatively flat opex to achieve this on a run- rate basis in F4Q, which still feels highly ambitious to us. We think investors would be disappointed, but not surprised, if profitability guidance were to be withdrawn or postponed. We tweak our out- year estimates and remain below the Street throughout the course of our modeling period as we think the hardware- software EV charging providers will continue to face competitive pressures from commoditization, which could be worse for revenue growth and margin trajectory. We remain Underweight rated CHPT and establish a \\(\\) 9\\(Dec 2026 price target after updating our estimates and accounting for the recent 1 - for - 20 reverse stock split.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a3c6a0b2e3f0dd75",
+      "text": "NVIDIA Corporation (Overweight), United States",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "e1238e640e1b12e7",
+      "text": "Blackwell/Blackwell Ultra Ramp and Networking Strength Drive Solid Results/Guidance; H20 Upside Still Likely in the Cards, in Our View; Reit OW (Harlan Sur)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "2b5f110efdba16ce",
+      "text": "NVIDIA reported solid Jul- Qtr revenue of \\(\\) 46.7B\\(above ours/consensus estimates of\\) \\ \\(45.0B /\\) \\ \\(46.2B\\) , a \\(\\sim 6\\%\\) Q/Q improvement aided in part by \\(\\sim\\) 650MM of H20 revenue to a non- China customer (with H20 having been stripped out of Jul- Qtr expectations) but primarily driven by 11- 12% Q/Q growth in Blackwell GPU compute revenue (B200/GB200 and B300/GB300) to \\(\\sim\\) 26B (JPM) and sharply higher networking revenue (+46% Q/Q) as the team benefits from higher networking content (scale- up) in their rack scale systems. For the Oct- Qtr, the team guided revenue to \\(\\) 54B\\(above consensus\\) \\ \\(53.4B\\) and towards the high end of our expectation of \\(\\) 53- 54B\\(. We see a sufficient ramp in the supply chain for Blackwell/Blackwell Ultra rack volumes (affirmed by NVDA's indication that it is now run- rating \\~12k racks/quarter) to comfortably support the incremental \\~\\) 5B of Compute revenue implied by NVDA's guide (based on our model). Overall, we believe NVIDIA's 12- month forward order book continues to outstrip supply. H20 potentially provides a \\(\\) 2- 5B\\(or more) upside revenue lever to FQ3, though this remains in question pending the resolution of \"geopolitical issues,\" despite certain Chinese customers having already been granted export licenses by the US government. Networking growth has certainly been a standout recently, with revenue up \\~140% in the span of just two quarters, driven by a combination of higher networking content per rack (primarily NVLink scale- up networking) for Blackwell relative to Hopper, and NVDA's expanding portfolio of networking solutions, which now includes \"scale across\" Spectrum- XGS ethernet (for which CoreWeave has been announced as an initial customer). All in, the playbook remains the same here for NVDA - a solid beat and raise with multiple levers at play to drive upside, against the backdrop of a multi- year runway of growth for AI infrastructure spending, with NVDA in our view continuing to capture a",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "230d78437e654af6",
+      "text": "significant majority of the incremental spend (as it has over the past ~3 years). We raise our forward estimates and establish our Dec- 26 PT of \\(215 (from our prior Dec- 25 PT of\\) 170), and reiterate our OW rating.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e898e7d297603192",
+      "text": "Key Rating, Price Target & EPS Changes for Asia tech companies",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "af9c0df8e355f001",
+      "text": "CompanyBB TickerRatingPrice targetEPS ChangesNewOldNewOld% changeNew FY1Old FY1% changeLuxshare - A002475 CHOWOW63.053.019%2.302.35-2%Zhongji Innolight - A300308 CHOWOW366.092.0298%9.477.1133%Sileray Corp6415 TTOWOW500.0500.00%7.5210.96-31%",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "2e7bcfb9b414c2b4",
+      "text": "Source: Company data, J.P. Morgan estimates.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0593b2e855b38ed5",
+      "text": "Note: Numbers and companies above may differ from the corresponding numbers or companies in the individual notes in the daily.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "ff19d17df2de4cfc",
+      "text": "Asia Pacific Technology Valuation",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c814457e8f6b02ae",
+      "text": "Price as of Aug 28, 2025PriceTarget PriceCMTEPS Y1 GrowthP/EP/BVROEDiv. YieldCumulativeCumulativeCumulativeCumulativeCumulativeCompany NameAsia PacificSK hyisOW000660.KS267,500360,00034.6138,73260.86.86.15.71.91.435.9Inpur- AOW000977.SZ68703.113,977-23.489.358.930.14.74.18.5Zhejiang Dahua Technology Co.N002281.SZ19.519.50.18,94243.94.415.414.71.71.511.1Goretek- AN002241.SZ34.926.5-24.117,05322.219.837.431.23.43.19.5Dongshan Precision- AN002384.SZ60.930.0-58.814,536155.027.637.529.44.94.313.8Hangzhou HiVision Digital TechN002415.SZ31.231.0-0.840,25518.922.026.216.63.33.017.0LukashenN002475.SZ46.163.036.746,74734.322.021.514.54.03.321.9Samsung ElectronicsN000590.KS69,90084,00020.2327,684-11.221.014.512.01.07.98.22.1Samsung SDIN006400.KS216,500200,000-7.610,682-25.587.536.219.30.70.72.00.5Samsung SDIN012860.KS147,300170,00015.48,1783.311.014.613.11.11.17.92.3LG DisplayN004220.KS11,95012,5004.63,068-8.06.26.00.80.80.80.00.0Lenovo IndustrialN005740.KG47,10060,00027.42,57621.216.126.222.55.04.320.51.3LG ElectronicsN006570.KS75,20080,0006.48,830285.414.45.44.70.50.58.91.5Lenovo Group Limited (0982)N00921.HK111314.920,19710.912.011.710.42.52.123.53.3AAC Technologies Holdings (20)N0018.HK44.065.04.76,83542.018.518.615.71.71.69.70.8UMCN2303.TW40.639.0-3.916,59624.321.014.211.81.41.49.81.0Delta Electronics, Inc.N2308.TW709680-4.160,20153.718.034.028.88.27.123.80.4Hon Hai PrecisionN2317.TW208.0240.016.593,35027.419.314.712.31.41.310.41.5TSMCN2330.TW1,160.01,275.09.9983,23828.211.419.917.85.74.831.72.0MacronixN2337.TW20.116.0-20.41,219-9.8-81.6nana0.90.90.00.0WintrendN2344.TW20217.12,883MNnana14.70.90.90.00.0ASUSTeK ComputerN2257.TW634.0650.02.515,39421.7-6.012.313.12.02.013.40.4Quanta Computer Inc.N2382.TW266.0370.038.133,58620.214.414.312.54.74.432.50.4AdvantechN2395.TW354.5370.04.49,9481.912.233.329.65.85.517.70.0Nanya TechnologyN2408.TW46.754.015.84,732-28.5MNna17.60.90.90.00.0MediaTek Inc.N2454.TW1,385.01,300.0-6.172,385-2.911.021.519.35.85.426.60.0Zhongli Industry- AN300308.SZ359.0366.01.955,780105.259.737.923.813.69.243.40.0Simtec- AN300383.SZ171914.04,18874.948.544.930.22.32.15.10.0Mascon Microelectronics- AN300782.SZ84.750.0-41.06,336MNna71.44.54.2MN0.20.0Largen Precision Co LtdN3008.TW2,395.03,100.029.410,449-25.520.616.413.61.71.610.60.0Pegatron CorpN4938.TW70.680.013.36,158-17.332.613.510.20.90.96.70.4JCET- AN600584.SZ40.243.07.010,05312.671.438.723.12.52.36.40.0Wingtech Tech- AN600745.SZ42.996.0123.77,467MN52.826.017.01.51.45.80.3Universal Scientific Industrial (9NN601231.SZ19.115.0-21.75,8269.716.423.219.92.22.09.80.0WISI Semiconductor- AN603051.SZ142.9163.014.124,31435.632.338.629.16.35.317.40.0Arhuk- AN603881.SZ33.023.5-28.93,31828.431.518.68.07.66.61.10.0Gigadevice Semiconductor- AN603896.SZ16478-52.615,311533.431.618.16.36.16.30.00.0Transsion Holdings- AN688036.SZ84.086.02.413,392-10.415.916.34.64.320.53.20.0Huaheng Tech & Control- AN688020.SZ180.0205.013.93,40944.943.850.435.06.45.613.10.0China Resources MicroelectronicsN688396.SZ54.040.0-25.910,01812.265.783.550.43.12.93.80.0Fronken CorpN6796.NL4.34.913.21,60520.516.641.635.68.57.321.50.0Inair Amentor BenhamNNAR.KL2.02.16.11,480-16.829.529.222.62.42.39.20.0UMICN0000.UK2.82.8-1.1735207.093.567.534.96.45.59.80.0AverageJapanNishio (3110)N3110.75,7106,30010.31,50311.424.514.511.71.5140.00.0Tory (342)N342.79991,15015.110,85023.522.416.213.30.80.86.00.0Asari (3407)N3407.71,2291,50022.711,561179.621.513.811.40.90.96.80.0SUMCO (3426)N3436.71,2451,2002.81,256-72.1MN24.5na0.80.83.10.0Sumitomo Chemical (4005)N4005.7436360-17.44,8937.564.417.210.40.80.74.50.0Shin-Etsu Chemical (4006)N4003.74,5035,50019.781,85311.89.415.514.12.01.912.90.0Kaneka (4118)N4118.74,3383,800-12.41,82027.620.18.57.00.60.86.60.0Mitsui Chemicals (4183)N4183.73,6664,20014.64,99587.515.211.49.90.80.77.00.0TOKYO OHKA KOYO (4186)N4186.74,6464,600-1.04,02810.112.612.319.82.62.412.10.0Mitsubishi Chemical Group (4198)N4198.7830-1.28,480255.5-38.27.411.90.60.60.55.00.0Nippon Paint Holdings (4612)N4671.21,0791,55043.717,35331.38.115.214.01.61.510.60.0FUJIFILM Holdings (4691)N4691.71,3655,00040.330,0843.811.815.914.21.21.27.10.0AGC (5217)N5217.14,6184,600-0.46,939MN30.814.711.30.70.74.50.0Nippon Sheet Glass (5202)N5202.7528-0.3420-20.557.719.016.315.00.50.44.40.0Nippon Electric Glass (5214)N5214.74,413-0.6-6.42,78554.126.719.115.10.70.73.60.0Sumitomo Osaka Cement (5232)N5232.73,9655,00028.0909-42.4129.415.16.60.70.74.50.0Nippon Electric Glass (5307)N5307.73,000-0.3-0.31,000-0.141.414.810.10.50.44.40.0Dico (5146)N5146.740,98038,000-4.89,9990.54.235.734.28.07.023.40.0Hitachi (6501)N6501.74,0424,80018.8123,70623.34.524.423.33.12.912.60.0Mitsubishi Electric (6503)N6503.73,6263,000-17.350,2603.45.222.421.31.81.78.20.0Nidec (6594)N6594.73,2283,90020.825,10411.918.619.716.62.01.810.50.0Fujitsu (6702)N6702.73,5924,20016.942,12882.9-27.615.921.93.22.921.40.0Seiko Epson (6724)N6724.71,8892,25019.14,105-1.824.012.19.80.80.76.20.0LIXIL (6728)N6728.76,01910,00068.12,01112.015.712.911.11.41.310.10.0Panasonic Holdings (6752)N6752.71,5371,6004.124,336-24.953.813.08.50.80.75.80.0Sharp (6753)N6753.7871720-17.33,835MN20.823.619.53.63.115.50.0Sony Group (6758)N6758.74,0974,80017.2167,486-14.58.425.323.32.92.711.50.0Advantech (6857)N6857.711,36511,000-3.559,22834.89.038.535.313.411.438.40.0LaserDisc (6859)N6859.715,94526,50067.29,69426.59.718.77.96.24.52.511.7CASIO COMPUTER (6852)N6852.71,2151,200-1.21,87012.417.215.313.70.60.67.90.0Murata Manufacturing (6861)N6861.72,4272,200-9.430,865-19.927.324.119.01.71.67.20.0Nikon (7731)N7731.71,7471,300-25.64,350-42.347.332.221.90.90.92.80.0SCREEN Holdings (7735)N7735.711,27015,50037.57,3121.38.810.910.02.42.022.10.0HOYA (7741)N7741.719,21020,5006.749,71111.517.829.625.26.45.921.70.0Canon (7751)N7751.74,3524,4001.126,618106.15.712.511.81.21.19.40.0Citizen Watch (7762)N7762.71,002800-20.21,658-28.42.314.314.00.90.96.60.0Yamaha (7761)N7961.79961,20020.53,060-82.5128.832.514.20.90.92.80.0Tokyo Electric (8035)N8035.720,33531,00052.421,4542.16.816.815.74.94.228.10.0Average",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "b91d7857df4f0310",
+      "text": "Source: Bloomberg Finance L.P., J.P. Morgan estimates.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "42a195dc18a66bce",
+      "text": "William Yang | Billy Feng | Jay Kwon | Junya Ayada | Jerry Tsai | Albert Hung | Ye Liu | Mio Shikanai | Shunsuke Yamamoto",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "0f52949d54925956",
+      "text": "Visit J.P. Morgan Markets for more market- leading research and financial solutions across the full trade and investment lifecycle.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d6ce80aa9eb532d3",
+      "text": "Click here to send your feedback.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "1ecb26f22d429cbe",
+      "text": "You received this e- mail because the content matches one of your saved preferences.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d48f2a283cadc6d9",
+      "text": "If you no longer wish to receive these e- mails then click here and unsubscribe from the Publication 'Asia Technology Tracker'.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "627434f8618b7a61",
+      "text": "Should you need any further assistance, write to us.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "7d6ad010c9c7ac3e",
+      "text": "This material is neither intended to be distributed to Mainland China investors nor to provide securities investment consultancy services within the territory of Mainland China. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "0aa75f5c56a1828c",
+      "text": "For analyst certifications and important disclosures, please refer to the disclosure section at the end of the individual linked notes.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "37dfaa6cb57f9dd2",
+      "text": "Research excerpts: This material may include excerpts from previously published reports. For access to the full reports, including analyst certification and important disclosures, please contact your sales representative or the covering analyst's team, or visit https://www.jpmorganmarkets.com.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "946a61e01fc4a4a4",
+      "text": "J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "bb94ccffd83b5aa6",
+      "text": "Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "33cd9351a641f6e1",
+      "text": "This email communication is for informational purposes only. It is not intended as an offer or solicitation for the purchase or sale of any financial instrument or as an official confirmation of any transaction. Opinions, estimates and assumptions expressed herein are made as of the date of this communication and are subject to change without notice. This email communication has been prepared based upon information, including market prices, data and other information, believed to be reliable; however, J.P. Morgan does not warrant its completeness or accuracy. Past performance is not indicative of future results. Before making an investment decision regarding any security or company referred in this email communication, you should refer to the most recent published research for the views and analysis of the analyst, including the investment thesis and valuation and risk, regarding such security or company. Additional information is available upon request.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "fe495230e4117060",
+      "text": "All research reports made available to clients are simultaneously available on our client website, J.P. Morgan Markets. Not all research content is redistributed, e- mailed or made available to third- party aggregators. For all research reports available on a particular stock, please contact your sales representative.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "abf5398526cba255",
+      "text": "Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "b8eadb444f7cbc3d",
+      "text": "J.P. Morgan's full disclaimer: https://markets.jpmorgan.com/research/disclosures",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "8be56522b7c16a36",
+      "text": "Copyright 2025 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third- party (\"J.P. Morgan Data\") in any third- party artificial intelligence (\"AI\") systems or models when such J.P. Morgan Data is accessible by a third- party. It is permissible to use J.P. Morgan Data for internal business purposes only in an AI system or model that protects the confidentiality of J.P. Morgan Data so as to prevent any and all access to or use of such J.P. Morgan Data by any third- party.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "97df7d2ba7c60009",
+      "text": "Completed 29 Aug 2025 07:23 AM HKT",
+      "page": 9,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "00b4468260159c20",
+      "name": "AAC Technologies",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ce442311f399afe3",
+      "name": "APAC Energy",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fa988103f5b0c125",
+      "name": "ASE Technology",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "959bbf5f36a4aca1",
+      "name": "ASE Technology Holding Co Ltd",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6c8c93167127243c",
+      "name": "ASUSTeK Computer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "39cae04227df0190",
+      "name": "Alan Hon",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a2f0a3031c406423",
+      "name": "Albert Hung",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c64fb66febfab95a",
+      "name": "Alchip Technologies",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4b9152bd15b27785",
+      "name": "Asia Tech",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0af41afd12f9a7d5",
+      "name": "Asia Technology",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "62b5cf852b9dace2",
+      "name": "Asian Tech",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "af934ef7a7c1e418",
+      "name": "Asian TechNVDA",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6b6a1e1d984e8da4",
+      "name": "Australia\n\nAl",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1ff9891c4789456d",
+      "name": "BB Ticker",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "956737cfa24ba40b",
+      "name": "Bannerman Energy",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "66ad5924b2555ca6",
+      "name": "Bhavik Mehta",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "73643033235b13fc",
+      "name": "Bill Peterson",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1c378daeb792b557",
+      "name": "Billy Feng",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e427b4291e55103d",
+      "name": "Blackwell GPU",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "d0603d824d0c6f75",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 3,
+        "axes": null,
+        "series": [],
+        "figure_id": "c5f1424346c8f7d2",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "949b13f9afedaca7",
+        "value": 0.46,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Liu / Billy Feng) Key takeaways from Huaqin's earnings call include: 1) strong earnings growth of 46% yoy in 1H25 was driven by accelerating AI server delivery and strong momentum in smartphone/PC/wea",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c7192463a7eed8cd",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "SPs and Huaqin's full- stack portfolio with share- gain potential; and 4) an unchanged target of a ~17% revenue CAGR and stronger earnings growth with margin expansion in 2024- 30. We consider Huaqin'",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "8364e6b2a8f5c7db",
+        "value": 0.26,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r revenue mix (rising contribution from high- margin auto and communication segments) and project a 26% earnings CAGR in 2024- 27. We reiterate OW on<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "40c9e711ad14d55c",
+        "value": 0.31,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "eve Innolight could offer better profitability ahead into 2026. We revise up our GPM forecast (from 31% to 41% in 2025) and now model a 58% earnings CAGR in 2025- 27E. CPO substitution is a major conc",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "42281631ba268444",
+        "value": 0.41,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "olight could offer better profitability ahead into 2026. We revise up our GPM forecast (from 31% to 41% in 2025) and now model a 58% earnings CAGR in 2025- 27E. CPO substitution is a major concern of ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "027e27b1067996f8",
+        "value": 0.58,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "fitability ahead into 2026. We revise up our GPM forecast (from 31% to 41% in 2025) and now model a 58% earnings CAGR in 2025- 27E. CPO substitution is a major concern of investors, but we believe the",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e9bf46ddbaf44933",
+        "value": 0.56,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "atforms in 2QFY26. The company guided to sequential growth for 3QFY26. Data Center revenues were up 56% YoY and 5% QoQ, driven by the strength of the Blackwell platform (grew 17% QoQ), coupled with co",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "713867c98c8f17db",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "QFY26. The company guided to sequential growth for 3QFY26. Data Center revenues were up 56% YoY and 5% QoQ, driven by the strength of the Blackwell platform (grew 17% QoQ), coupled with continued incr",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "bc676d3c31b3ae98",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Center revenues were up 56% YoY and 5% QoQ, driven by the strength of the Blackwell platform (grew 17% QoQ), coupled with continued increase in H100 and H200 shipments. 3Q guidance suggests a neutral ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "8bda1ca975f5a9bc",
+        "value": 0.18,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ments. 3Q guidance suggests a neutral stance, with revenue guidance of\\)54 bn +/- 2\\%, implying 13- 18% QoQ growth, in line with JPME and Consensus. However, guidance for the October quarter does not ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "bd4de80c61dbbe6a",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "th CCL and PCB sectors have seen very robust share price moves in the past weeks (MTD shares up 20- 25% for the major names; vs. 3% for Taiex), driven by increasing discussions of supply tightness, pl",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ce2f67d93aac9067",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "een very robust share price moves in the past weeks (MTD shares up 20- 25% for the major names; vs. 3% for Taiex), driven by increasing discussions of supply tightness, plus the concerns for rising ra",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "8658cbafde750361",
+        "value": 4.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Tech Tour (Gokul Hariharan) We hosted Alchip at J.P. Morgan's Asia Tech Tour. Key takeaways are: \\$4- 6bn project lifetime contribution from 3nm Al accelerator project: A major focus for investors is",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "76cb09e19839357b",
+        "value": 4.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "shipments to begin in late 1Q26 and extend into 2028, with total project revenue likely reaching US\\$4- 6bn, excluding HBM. Although there is a trend for end customers to bypass design service provide",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "55528f208d625dab",
+        "value": 0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ne given seasonal weakness in RF (Samuel Tan) Our First Take: 4QFY25 core PATMI came in at RM64mn (+11% Q/Q; +9% Y/Y), bringing FY25 core PATMI to RM261mn (- 15% Y/Y), in line with both JPMe/consensus",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a7de34fe305d935f",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "easonal weakness in RF (Samuel Tan) Our First Take: 4QFY25 core PATMI came in at RM64mn (+11% Q/Q; +9% Y/Y), bringing FY25 core PATMI to RM261mn (- 15% Y/Y), in line with both JPMe/consensus estimates",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "3905660e51ecd68d",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ke: 4QFY25 core PATMI came in at RM64mn (+11% Q/Q; +9% Y/Y), bringing FY25 core PATMI to RM261mn (- 15% Y/Y), in line with both JPMe/consensus estimates at 102%/101%. 4QFY25 revenue stood at RM306mn (",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "1f08660c99db1f21",
+        "value": 1.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/Y), bringing FY25 core PATMI to RM261mn (- 15% Y/Y), in line with both JPMe/consensus estimates at 102%/101%. 4QFY25 revenue stood at RM306mn (- 0.4% Q/Q; - 9% Y/Y), reflecting flattish growth amid s",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "6676f3ce2366d076",
+        "value": 1.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "bringing FY25 core PATMI to RM261mn (- 15% Y/Y), in line with both JPMe/consensus estimates at 102%/101%. 4QFY25 revenue stood at RM306mn (- 0.4% Q/Q; - 9% Y/Y), reflecting flattish growth amid season",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "946bdf6c846e0fc2",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "% Y/Y), in line with both JPMe/consensus estimates at 102%/101%. 4QFY25 revenue stood at RM306mn (- 0.4% Q/Q; - 9% Y/Y), reflecting flattish growth amid seasonal weakness in its bread<｜end▁of▁sentence",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "73a29b797bbf6686",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ine with both JPMe/consensus estimates at 102%/101%. 4QFY25 revenue stood at RM306mn (- 0.4% Q/Q; - 9% Y/Y), reflecting flattish growth amid seasonal weakness in its bread<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "6e63d1934f3ac22d",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "and- butter RF segment (- 9% Q/Q), offset by stronger performance from the fibre and optoelectronics segment (+16% Q/Q). Consequ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f41a8303cf48ef5d",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r RF segment (- 9% Q/Q), offset by stronger performance from the fibre and optoelectronics segment (+16% Q/Q). Consequently, RF revenue contribution fell to 61% of total sales (vs. 66% in 3QFY25) as t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4d6be6226c2f9048",
+        "value": 0.61,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rom the fibre and optoelectronics segment (+16% Q/Q). Consequently, RF revenue contribution fell to 61% of total sales (vs. 66% in 3QFY25) as the iPhone 16 nears the end of its one- year cycle. Gross ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d632b2b3e7669c4c",
+        "value": 0.66,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ectronics segment (+16% Q/Q). Consequently, RF revenue contribution fell to 61% of total sales (vs. 66% in 3QFY25) as the iPhone 16 nears the end of its one- year cycle. Gross margins were encouraging",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "35a764595cf5adbe",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "a customer (with H20 having been stripped out of Jul- Qtr expectations) but primarily driven by 11- 12% Q/Q growth in Blackwell GPU compute revenue (B200/GB200 and B300/GB300) to \\(\\sim\\) 26B (JPM) an",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "7e63140480eff88c",
+        "value": 0.46,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "te revenue (B200/GB200 and B300/GB300) to \\(\\sim\\) 26B (JPM) and sharply higher networking revenue (+46% Q/Q) as the team benefits from higher networking content (scale- up) in their rack scale system",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "1383161c42152822",
+        "value": 1.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s by the US government. Networking growth has certainly been a standout recently, with revenue up \\~140% in the span of just two quarters, driven by a combination of higher networking content per rack",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "ca213b46e1cf2fc5",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>Luxshare - A</td><td>002475 CH</td><td>OW</td><td>OW</td><td>63.0</td><td>53.0</td><td>19%</td><td>2.30</td><td>2.35</td><td>-2%</td></tr><tr><td>Zhongji Innolight - A</td><td>300308 CH</",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "04a4af0f7b40a7ba",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "75 CH</td><td>OW</td><td>OW</td><td>63.0</td><td>53.0</td><td>19%</td><td>2.30</td><td>2.35</td><td>-2%</td></tr><tr><td>Zhongji Innolight - A</td><td>300308 CH</td><td>OW</td><td>OW</td><td>366.0</td",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "e6de155640445d13",
+        "value": 2.98,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Zhongji Innolight - A</td><td>300308 CH</td><td>OW</td><td>OW</td><td>366.0</td><td>92.0</td><td>298%</td><td>9.47</td><td>7.11</td><td>33%</td></tr><tr><td>Sileray Corp</td><td>6415 TT</td><td>OW<",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "00256e6f1af9d06c",
+        "value": 0.33,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "CH</td><td>OW</td><td>OW</td><td>366.0</td><td>92.0</td><td>298%</td><td>9.47</td><td>7.11</td><td>33%</td></tr><tr><td>Sileray Corp</td><td>6415 TT</td><td>OW</td><td>OW</td><td>500.0</td><td>500.0</",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "ee9918e8aed81feb",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>Sileray Corp</td><td>6415 TT</td><td>OW</td><td>OW</td><td>500.0</td><td>500.0</td><td>0%</td><td>7.52</td><td>10.96</td><td>-31%</td></tr></table> Source: Company data, J.P. Morgan estim",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "7ce2b2ebce22b034",
+        "value": -0.31,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "TT</td><td>OW</td><td>OW</td><td>500.0</td><td>500.0</td><td>0%</td><td>7.52</td><td>10.96</td><td>-31%</td></tr></table> Source: Company data, J.P. Morgan estimates. Note: Numbers and companies above",
+        "provenance": {
+          "page": 6
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 2,
+      "tables_count": 0,
+      "numerical_data_count": 34,
+      "passages_count": 71,
+      "entities_count": 20
+    }
+  }
+}

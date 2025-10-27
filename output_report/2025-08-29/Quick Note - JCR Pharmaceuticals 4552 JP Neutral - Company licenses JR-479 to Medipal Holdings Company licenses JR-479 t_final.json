@@ -1,0 +1,778 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "77c0598b828170ea088e37ba81896a87",
+    "title": "NOAURA",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Nomura/Quick Note - JCR Pharmaceuticals 4552 JP Neutral - Company licenses JR-479 to Medipal Holdings Company licenses JR-479 t_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:34:04.124305",
+      "extracted_at": "2025-10-26T12:34:04.124320"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 8,
+        "successful_pages": 8,
+        "date": "2025-08-29",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Nomura",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 6,
+          "removed_paragraphs": 3,
+          "reduction_ratio": 0.2280199126282637
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Nomura"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "6fc1a89f1acfee57",
+      "text": "4552.T 4552 JP / EQUITY: JAPAN PHARMACEUTICALS",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "97f3c5310c4f6cf4",
+      "text": "Company signs agreements with Medipal Holdings for overseas licensing and commercialization and joint development and commercialization in Japan of rare disease treatment candidate JR- 479",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d4b7674fe70328e6",
+      "text": "On 29 August, JCR Pharmaceuticals announced that it has entered into a licensing agreement with Medipal Holdings [7459] (Neutral) for overseas commercialization of non- clinical pipeline product JR- 479 (planned indication is GM2 gangliosidosis, which affects one in around 60,000- 80,000 people in Japan) and an agreement on the joint development and commercialization of JR- 479 in Japan. The licensing agreement could result in JCR Pharmaceuticals receiving an upfront payment and post- launch royalties from Medipal Holdings. The impact of these agreements on earnings has already been factored into 26/3 guidance at both JCR Pharmaceuticals and Medipal Holdings.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "dd94eedd3a9f28b6",
+      "text": "Our view: In line, we see limited impact on JCR Pharmaceuticals' corporate value The signing of these agreements had been factored into initial guidance for 25/3, but was pushed back to 26/3 because the signing was delayed. We attribute the delay in signing to scrutiny of materials and difficulty reaching agreement about economic conditions, but the company did not provide a clear explanation about specific reasons. As these economic conditions do not include R&D or sales milestone payments, we think Medipal Holdings may have aimed to reduce the volatility of its operating profits. We see little impact on corporate value at JCR Pharmaceuticals in view of the following: (1) It will take several years for the drug to be launched, given that it is a non- clinical pipeline product; (2) there will be no cash inflows until launch (aside from the upfront payment); and (3) the royalty revenues, as estimated from the scale of sales and general royalty rates, are likely to be limited.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "90819cddbd8071d5",
+      "text": "RatingNeutralTarget priceJPY 660Closing price 29 August 2025JPY 621",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ea3608eb5edadac0",
+      "text": "(Note: Quick Note reports are not a vehicle for changes to ratings, target prices, or earnings forecasts)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2914a18c65f96876",
+      "text": "Japan pharmaceuticals & healthcare",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d86da1c5ec9ae171",
+      "text": "Japan small cap - pharmaceuticals & healthcare",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "565d00dd8485e180",
+      "text": "This report has been produced by Nomura Securities Co., Ltd. (NSC), Japan. See Disclaimers for Nomura Group entity details.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d8c7fb1eba423c65",
+      "text": "The terms \"Nomura\" and \"Nomura Group\" used herein refer to Nomura Holdings, Inc. and its affiliates and subsidiaries, including Nomura Securities International, Inc. (NSI) and Instinet, LLC (ILLC), U. S. registered broker dealers and members of SIPC.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b5df68415f061294",
+      "text": "Materially mentioned issuers",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e2f4c45991bc4f2e",
+      "text": "IssuerTickerPricePrice dateStock ratingSector ratingDisclosuresJCR Pharmaceuticals4552 JPJPY 62129-Aug-2025NeutralN/AA6,A11Medipal Holdings7459 JPJPY 2,614.029-Aug-2025NeutralN/AA4,A5,A6,A11",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b6949ebf8fb1cdb2",
+      "text": "A4 The Nomura Group has had an investment banking services client relationship with the subject company during the past 12 months. A5 The Nomura Group has received compensation for investment banking services from the subject company in the past 12 months. A6 The Nomura Group expects to receive or intends to seek compensation for investment banking services from the subject company in the next three months. A11 The Nomura Group beneficially owns \\(1\\%\\) or more of a class of common equity securities of the subject company.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "cd522895f706713c",
+      "text": "Rating and target price chart (three year history)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9cce0751d229a4a6",
+      "text": "For explanation of ratings refer to the stock rating keys located after chart(s)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a20b7f4d73da0f68",
+      "text": "JPY 621 (29-Aug-2025) Neutral (Sector rating: N/A)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "56cb457d7cd11797",
+      "text": "DateRatingTarget priceClosing price30-Jul-2566071611-Jun-2552058530-Oct-2467065322-May-24Neutral58622-May-2460058626-Jan-241,8001,10526-Jul-232,2001,31730-Mar-232,8001,53231-Jan-232,9001,59526-Oct-222,9902,047",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "83d37d0f8a51bb98",
+      "text": "Source: LSEG, Nomura",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b2c09fd73f71f7d0",
+      "text": "Valuation Methodology We base our target price of ¥660 on a DCF model using a WACC of \\(5.0\\%\\) (assuming beta of 0.9, a risk- free rate of \\(1.5\\%\\) , and a risk premium of \\(6\\%\\) ), terminal growth of \\(0\\%\\) , and our earnings forecasts for the 10 fiscal years through 35/3.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ce7c6fef50e453fa",
+      "text": "Risks that may impede the achievement of the target price Downside risks include delays to the uptake of biosimilars, the dissolution of contracts with partners, and failures in drug development. Upside risks include new partnership agreements and major manufacturing contracts.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5b52e728994b3594",
+      "text": "Rating and target price chart (three year history)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "a3858825767280d7",
+      "text": "For explanation of ratings refer to the stock rating keys located after chart(s)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "11138f061b256a58",
+      "text": "Valuation Methodology Our target price is \\(\\yen 2,740\\) . For pharmaceutical wholesalers, we use the Russell/Nomura Large Cap Index (ex financials) as the benchmark in view of substantial differences in the pharmaceutical value chain and earnings structure compared with drugmakers and medical equipment manufacturers. We multiply our 26/3 EPS forecast of \\(\\yen 176.6\\) by a P/E of 15.5x, below the benchmark average of around 19x, as our EPS CAGR forecast for the two years from end- 26/3 of around \\(8\\%\\) is lower than the benchmark average of around \\(10\\%\\)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "57d7cc4e7534ad51",
+      "text": "Risks that may impede the achievement of the target price Risk factors that could result in substantial downside versus our target price include margin deterioration resulting from intensifying sales price competition for drugs. After NHI reimbursement price revisions, pharmaceutical wholesalers tend to negotiate prices with medical institutions. Some companies cut prices in order to gain market share, causing price competition to intensify. Prices are stable at present, but pharmaceutical wholesalers could step up marketing in order to increase their market shares, and medical institutions and dispensing pharmacies could also become more vociferous in their demands for lower prices from pharmaceutical wholesalers. Risk factors that could result in substantial upside versus our target price include a sharp improvement in profitability due to successful initiatives that focus on margins and new businesses getting off the ground rapidly.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b0e79907f983ca56",
+      "text": "The analysts responsible for preparing this report have received compensation based upon various factors including the firm's total revenues, a portion of which is generated by Investment Banking activities. Unless otherwise noted, the non- US analysts listed at the front of this report are not registered/qualified as research analysts under FINRA rules, may not be associated persons of NSI, and may not be subject to FINRA Rule 2241 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "158035d607070f41",
+      "text": "Nomura Global Financial Products Inc. (NGFP) Nomura Derivative Products Inc. (NDP) and Nomura International plc. (Nlplc) are registered with the Commodities Futures Trading Commission and the National Futures Association (NFA) as swap dealers. NGFP, NDPI, and Nlplc are generally engaged in the trading of swaps and other derivative products, any of which may be the subject of this report.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "69bd7e6496326d38",
+      "text": "EEA) with this rating were supplied material services by the Nomura Group \\(3\\%\\) have been assigned a Reduce rating which, for purposes of mandatory disclosures, are classified as a Sell rating; \\(0\\%\\) of companies with this rating are investment banking clients of the Nomura Group\\\\*. \\(0\\%\\) of companies (which are admitted to trading on a regulated market in the EEA) with this rating were supplied material services by the Nomura Group. As at 30 June 2025.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "34071288bfd93e64",
+      "text": "\\\\*The Nomura Group as defined in the Disclaimer section at the end of this report. \\\\*\\\\* As defined by the EU Market Abuse Regulation",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3afaf138b26a11a8",
+      "text": "A rating of 'Buy', indicates that the analyst expects the stock to outperform the Benchmark over the next 12 months. A rating of 'Neutral', indicates that the analyst expects the stock to perform in line with the Benchmark over the next 12 months. A rating of 'Reduce', indicates that the analyst expects the stock to underperform the Benchmark over the next 12 months. A rating of 'Suspended', indicates that the rating, target price and estimates have been suspended temporarily to comply with applicable regulations and/or firm policies. Securities and/or companies that are labelled as 'Not rated' or shown as 'No rating' are not in regular research coverage. Investors should not expect continuing or additional information from Nomura relating to such securities and/or companies. Benchmarks are as follows: United States/Europe/Asia exJapan: please see valuation methodologies for explanations of relevant benchmarks for stocks, which can be accessed at: http://go.nomuranow.com/research/m/Disclosures; Global Emerging Markets (ex- Asia): MSCI Emerging Markets ex- Asia, unless otherwise stated in the valuation methodology; Japan: Russell/Nomura Large Cap.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "cdf5210adae1ef17",
+      "text": "A 'Bullish' stance, indicates that the analyst expects the sector to outperform the Benchmark during the next 12 months. A 'Neutral' stance, indicates that the analyst expects the sector to perform in line with the Benchmark during the next 12 months. A 'Bearish' stance, indicates that the analyst expects the sector to underperform the Benchmark during the next 12 months. Sectors that are labelled as 'Not rated' or shown as 'N/A' are not assigned ratings. Benchmarks are as follows: United States: S&P 500; Europe: Dow Jones STOXX 600; Global Emerging Markets (ex- Asia): MSCI Emerging Markets ex- Asia. Japan/Asia ex- Japan: Sector ratings are not assigned.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "619aa9bf537e32c6",
+      "text": "A Target Price, if discussed, indicates the analyst's forecast for the share price with a 12- month time horizon, reflecting in part the analyst's estimates for the company's earnings. The achievement of any target price may be impeded by general market and macroeconomic trends, and by other risks related to the company or the market, and may not occur if the company's earnings differ from estimates.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b0d06e25e585f871",
+      "text": "majority owned joint venture amongst Nomura Group, Orient International (Holding) Co., Ltd, and Shanghai Huangpu Investment Holding (Group) Co., Ltd. In accordance with the laws of the People's Republic of China (\"PRC\", excluding Hong Kong, Macau and Taiwan, for the purpose of this document), NOI is licensed in the PRC to provide securities research and investment recommendations and it operates independently from the other members of the Nomura Group; in particular, NOI's interests in PRC securities are not disclosed to, or aggregated with the holdings of, any other Nomura Group entities and the interests in PRC securities of other Nomura Group entities are not disclosed to, or aggregated with the holdings of, NOI. An individual name printed next to NOI on the front page of a research report indicates that individual is employed by NOI to provide research assistance to NIHK under a research partnership agreement. 'NSFSPL' next to an employee's name on the front page of a research report indicates that the individual is employed by Nomura Structured Finance Services Private Limited to provide assistance to certain Nomura entities under inter- company agreements. 'Verdhana' next to an individual's name on the front page of a research report indicates that the individual is employed by PT Verdhana Sekuritas Indonesia ('Verdhana') to provide research assistance to NIHK under a research partnership agreement and neither Verdhana nor such individual is licensed outside of Indonesia.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "67e3fe3257cee30b",
+      "text": "THIS MATERIAL IS: (I) FOR YOUR PRIVATE INFORMATION, AND WE ARE NOT SOLICITING ANY ACTION BASED UPON IT; (II) NOT TO BE CONSTRUED AS AN OFFER TO SELL OR A SOLICITATION OF AN OFFER TO BUY ANY SECURITIES IN ANY JURISDICTION WHERE SUCH OFFER OR SOLICITATION WOULD BE ILLEGAL; AND (III) OTHER THAN DISCLOSURES RELATING TO THE NOMURA GROUP, BASED UPON INFORMATION FROM SOURCES THAT WE CONSIDER RELIABLE, BUT HAS NOT BEEN INDEPENDENTLY VERIFIED BY NOMURA GROUP.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5b4e618b6f0ced87",
+      "text": "Other than disclosures relating to the Nomura Group, the Nomura Group does not warrant, represent or undertake, express or implied, that the document is fair, accurate, complete, correct, reliable or fit for any particular purpose or merchantable, and to the maximum extent permissible by law and/or regulation, does not accept liability (in negligence or otherwise, and in whole or in part) for any act (or decision not to act) resulting from use of this document and related data. To the maximum extent permissible by law and/or regulation, all warranties and other assurances by the Nomura Group are hereby excluded and the Nomura Group shall have no liability (in negligence or otherwise, and in whole or in part) for any loss howsoever arising from the use, misuse, or distribution of this material or the information contained in this material or otherwise arising in connection therewith.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2e8cc56e2d827852",
+      "text": "Opinions or estimates expressed are current opinions as of the original publication date appearing on this material and the information, including the opinions and estimates contained herein, are subject to change without notice. The Nomura Group, however, expressly disclaims any obligation, and therefore is under no duty, to update or revise this document. Any comments or statements made herein are those of the author(s) and may differ from views held by other parties within Nomura Group. Clients should consider whether any advice or recommendation in this report is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The Nomura Group does not provide tax advice.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "995a26633d9e72dc",
+      "text": "The Nomura Group, and/or its officers, directors, employees and affiliates, may, to the extent permitted by applicable law and/or regulation, deal as principal, agent, or otherwise, or have long or short positions in, or buy or sell, the securities, commodities or instruments, or options or other derivative instruments based thereon, of issuers or securities mentioned herein. The Nomura Group companies may also act as market maker or liquidity provider (within the meaning of applicable regulations in the UK) in the financial instruments of the issuer. Where the activity of market maker is carried out in accordance with the definition given to it by specific laws and regulations of the US or other jurisdictions, this will be separately disclosed within the specific issuer disclosures.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "edc0420da63508e4",
+      "text": "This document may contain information obtained from third parties, including, but not limited to, ratings from credit ratings agencies such as Standard & Poor's. The Nomura Group hereby expressly disclaims all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of the information obtained from third parties contained in this material or otherwise arising in connection therewith, and shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of any of the information obtained from third parties contained in this material or otherwise arising in connection therewith. Reproduction and distribution of third- party content in any form is prohibited except with the prior written permission of the related third- party. Third- party content providers do not, express or implied, guarantee the fairness, accuracy, completeness, correctness, timeliness or availability of any information, including ratings, and are not in any way responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use or misuse of such content. Third- party content providers give no express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Third- party content providers shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Any MSCI sourced information in this document is the exclusive property of MSCI Inc. ('MSCI'). Without prior written permission of MSCI, this information and any other MSCI intellectual property may not be duplicated, reproduced, re- disseminated, redistributed or used, in whole or in part, for any purpose whatsoever, including creating any financial products and any indices. This information is provided on an \"as is\" basis. The user assumes the entire risk of any use made of this information. MSCI, its affiliates and any third party involved in, or related to, computing or compiling the information hereby expressly disclaim all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of this material or the information contained in this material or otherwise arising in connection therewith. Without limiting any of the foregoing, in no event shall MSCI, any of its affiliates or any third party involved in, or related to, computing or compiling the information have any liability (in negligence or otherwise, and in whole or in part) for any damages of any kind. MSCI and the MSCI indexes are services marks of MSCI and its affiliates.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "558b0ef6f3f48b9b",
+      "text": "The intellectual property rights and any other rights, in Russell/Nomura Japan Equity Index belong to Nomura Fiduciary Research & Consulting Co., Ltd. (\"NFRC\") and FTSE Russell (\"Russell\"). NFRC and Russell do not guarantee fairness, accuracy, completeness, correctness, reliability, usefulness, marketability, merchantability or fitness of the Index, and do not account for business activities or services that any index user and/or its affiliates undertakes with the use of the Index.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "75d930a4c0bb2c0f",
+      "text": "Investors should consider this document as only a single factor in making their investment decision and, as such, the report should not be viewed as identifying or suggesting all risks, direct or indirect, that may be associated with any investment decision. Nomura Group produces a number of different types of research product including, among others, fundamental analysis and quantitative analysis; recommendations contained in one type of research product may differ from recommendations contained in other types of research product, whether as a result of differing time horizons, methodologies or otherwise. The Nomura Group publishes research product in a number of different ways including the posting of product on the Nomura Group portals and/or distribution directly to clients. Different groups of clients may receive different products and services from the research department depending on their individual requirements.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "e08de34355d82241",
+      "text": "Figures presented herein may refer to past performance or simulations based on past performance which are not reliable indicators of future or likely performance. Where the information contains an expectation, projection or indication of future performance and business prospects, such forecasts may not be a reliable indicator of future or likely performance. Moreover, simulations are based on models and simplifying assumptions which may oversimplify and not reflect the future distribution of returns. Any figure, strategy or index created and published for illustrative purposes within this document is not intended for \"use\" as a \"benchmark\" as defined by the European Benchmark Regulation. Certain securities are subject to fluctuations in exchange rates that could have an adverse effect on the value or price of, or income derived from, the investment.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "6c6eb9d5ab36a25c",
+      "text": "With respect to Fixed Income Research: Recommendations fall into two categories: tactical, which typically last up to three months; or strategic, which typically last from 6- 12 months. However, trade recommendations may be reviewed at any time as circumstances change. 'Stop loss' levels for trades are also provided; which, if hit, closes the trade recommendation automatically. Prices and yields shown in recommendations are taken at the time of submission for publication and are based on either indicative Bloomberg, LSEG or Nomura prices and yields at that time. The prices and yields shown are not necessarily those at which the trade recommendation can be implemented.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "82a7f321f1918081",
+      "text": "The securities described herein may not have been registered under the US Securities Act of 1933 (the '1933 Act'), and, in such case, may not be offered or sold in the US or to US persons unless they have been registered under the 1933 Act, or except in compliance with an exemption from the registration requirements of the 1933 Act. Unless governing law permits otherwise, any transaction should be executed via a Nomura entity in your home jurisdiction.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8ce282b8da74dd5f",
+      "text": "This document has been approved for distribution in the UK as investment research by NIplc. NIplc is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. NIplc is a member of the London Stock Exchange. This document does not constitute a personal recommendation within the meaning of applicable regulations in the UK, or take into account the particular investment objectives, financial situations, or needs of individual investors. This document is intended only for investors who are 'eligible counterparties' or 'professional clients' for the purposes of applicable regulations in the UK, and may not, therefore, be redistributed to persons who are 'retail clients' for such purposes.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "dc4276088d9d9204",
+      "text": "This document has been approved for distribution in the European Economic Area as investment research by Nomura Financial Products Europe GmbH (\"NFPE\"). NFPE is a company organized as a limited liability company under German law registered in the Commercial Register of the Court of Frankfurt/Main under HRB 110223. NFPE is authorized and regulated by the German Federal Financial Supervisory Authority (BaFin).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "915b91ea1956cbd4",
+      "text": "This document has been approved by NIHK, which is regulated by the Hong Kong Securities and Futures Commission, for distribution in Hong Kong by NIHK. This document is intended only for investors who are 'professional investors' for the purposes of applicable regulations in Hong Kong and may not, therefore, be redistributed to persons who are not 'professional investors' for such purposes.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "ddd3275caaa943af",
+      "text": "This document has been approved for distribution in Australia by NAL, which is authorized and regulated in Australia by the ASIC. This document has also been approved for distribution in Malaysia by NSM.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "94ee105bbe9852d3",
+      "text": "In Singapore, this document has been distributed by NSL, an exempt financial adviser as defined under the Financial Advisers Act (Chapter 110), among other things, and regulated by the Monetary Authority of Singapore. NSL may distribute this document produced by its foreign affiliates pursuant to an arrangement under Regulation 32C of the Financial Advisers Regulations. Where the recipient of this document is not an accredited, expert or institutional investor as defined by the Securities and Futures Act (Chapter 289), NSL accepts legal responsibility for the contents of this document in respect of such recipient only to the extent required by law. Recipients of this document in Singapore should contact NSL in respect of matters arising from, or in connection with, this document. THIS DOCUMENT IS INTENDED FOR GENERAL CIRCULATION. IT DOES NOT TAKE INTO ACCOUNT THE SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS OF ANY PARTICULAR PERSON. RECIPIENTS SHOULD TAKE INTO ACCOUNT THEIR SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS BEFORE MAKING A COMMITMENT TO PURCHASE ANY SECURITIES, INCLUDING SEEKING ADVICE FROM AN INDEPENDENT FINANCIAL ADVISER REGARDING THE SUITABILITY OF THE INVESTMENT, UNDER A SEPARATE ENGAGEMENT, AS THE RECIPIENT DEEMS FIT.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "512569d71906d751",
+      "text": "Unless prohibited by the provisions of Regulation S of the 1933 Act, this material is distributed in the US, by NSI, a US- registered broker- dealer, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6, under the US Securities Exchange Act of 1934. The entity that prepared this document permits its separately operated affiliates within the Nomura Group to make copies of such documents available to their clients.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "db56f79d684a8e0f",
+      "text": "This document has not been approved for distribution to persons other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' (as defined by the Capital Markets Authority) in the Kingdom of Saudi Arabia ('Saudi Arabia') or a 'Market Counterparty' or a 'Professional Client' (as defined by the Dubai Financial Services Authority) in the United Arab Emirates ('UAE') or a 'Market Counterparty' or a 'Business Customer' (as defined by the Qatar Financial Centre Regulatory Authority) in the State of Qatar ('Qatar') by Nomura Saudi Arabia, NIplc or any other member of the Nomura Group, as the case may be. Neither this document nor any copy thereof may be taken or transmitted or distributed, directly or indirectly, by any person other than those authorised to do so into Saudi Arabia or in the UAE or in Qatar or to any person other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' located in Saudi Arabia or a 'Market Counterparty' or a 'Professional Client' in the UAE or a 'Market Counterparty' or a 'Business Customer' in Qatar. Any failure to comply with these restrictions may constitute a violation of the laws of the UAE or Saudi Arabia or Qatar.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8e4a171abd065d66",
+      "text": "For report with reference of TAIWAN public companies or authored by Taiwan based research analyst: THIS DOCUMENT IS SOLELY FOR REFERENCE ONLY. You should independently evaluate the investment risks and are solely responsible",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "69a155721a1b53b1",
+      "text": "for your investment decisions. NO PORTION OF THE REPORT MAY BE REPRODUCED OR QUOTED BY THE PRESS OR ANY OTHER PERSON WITHOUT WRITTEN AUTHORIZATION FROM NOMURA GROUP. Pursuant to Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers and/or other applicable laws or regulations in Taiwan, you are prohibited to provide the reports to others (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities in connection with the reports which may involve conflicts of interests. INFORMATION ON SECURITIES / INSTRUMENTS NOT EXECUTABLE BY NOMURA INTERNATIONAL (HONG KONG) LTD., TAIPEI BRANCH IS FOR INFORMATIONAL PURPOSES ONLY AND IS NOT BE CONSTRUED AS A RECOMMENDATION OR A SOLICITATION TO TRADE IN SUCH SECURITIES / INSTRUMENTS.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "08ad503a52047384",
+      "text": "This material may not be distributed in Indonesia or passed on within the territory of the Republic of Indonesia or to persons who are Indonesian citizens (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the laws of the Republic of Indonesia. The securities mentioned in this document may not be offered or sold in Indonesia or to persons who are citizens of Indonesia (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the laws of the Republic of Indonesia.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c88218e6d0169308",
+      "text": "An individual name printed next to NOI on the front page of a research report indicates that this document is a translation of a research report issued by NOI in the PRC. In all other cases, this document is prepared by Nomura Group or its subsidiary or affiliate (collectively, \"Offshore Issuers\") that is not licensed in the PRC to provide securities research. This research report is not approved or intended to be circulated in the PRC. The A- share related analysis (if any) is not produced for any persons located or incorporated in the PRC. The recipients should not rely on any information contained in this research report in making investment decisions and Offshore Issuers take no responsibility in this regard. NO PART OF THIS MATERIAL MAY BE (I) COPIED, PHOTOCOPIED, REPRODUCED OR DUPLICATED IN ANY FORM, BY ANY MEANS; OR (II) REDISSEMINATED, REPUBLISHED OR REDISTRIBUTED WITHOUT THE PRIOR WRITTEN CONSENT OF A MEMBER OF THE NOMURA GROUP. If this document has been distributed by electronic transmission, such as e- mail, then such transmission cannot be guaranteed to be secure or error- free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. The sender therefore does not accept liability (in negligence or otherwise, and in whole or in part) for any errors or omissions in the contents of this document, which may arise as a result of electronic transmission. If verification is required, please request a hard- copy version.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c9cc675487d461e2",
+      "text": "When bonds are purchased via public offerings, secondary distributions, or other OTC transactions with Nomura Securities, only the purchase price shall be paid, with no sales commission charged. Bonds carry the risk of losses, as prices fluctuate in line with changes in market interest rates. Bond prices may also fall below the invested principal as a result of such factors as changes in the management and financial circumstances of the issuer, or changes in third- party valuations of the bond in question. In addition, foreign currency- denominated bonds also carry the risk of losses owing to factors such as foreign exchange rate fluctuations.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "3614a087cfcc430b",
+      "text": "When Japanese government bonds (JGBs) for individual investors are purchased via public offerings, only the purchase price shall be paid, with no sales commission charged. As a rule, JGBs for individual investors may not be sold in the first 12 months after issuance. When JGBs for individual investors are sold before maturity, an amount calculated via the following formula will be subtracted from the par value of the bond plus accrued interest: (1) for 10- year variable rate bonds, an amount equal to the two preceding coupon payments (before tax) x 0.79685 will be used, (2) for 5- year and 3- year fixed rate bonds, an amount equal to the two preceding coupon payments (before tax) x 0.79685 will be used. When inflation- indexed JGBs are purchased via public offerings, secondary distributions (uridashi deals), or other OTC transactions with Nomura Securities, only the purchase price shall be paid, with no sales commission charged. Inflation- indexed JGBs carry the risk of losses, as prices fluctuate in line with changes in market interest rates and fluctuations in the nationwide consumer price index. The notional principal of inflation- indexed JGBs changes in line with the rate of change in nationwide CPI inflation from the time of its issuance. The amount of the coupon payment is calculated by multiplying the coupon rate by the notional principal at the time of payment. The maturity value is the amount of the notional principal when the issue becomes due. For J117 and subsequent issues, the maturity value shall not undercut the face amount. Purchases of investment trusts (and sales of some investment trusts) are subject to a purchase or sales fee of up to 5.5% (tax included) of the transaction amount. Also, a direct cost that may be incurred when selling investment trusts is a fee of up to 2.0% of the unit price at the time of redemption. Indirect costs that may be incurred during the course of holding investment trusts include, for domestic investment trusts, an asset management fee (trust fee) of up to 5.5% (tax included/annualized basis) of the net assets in trust, as well as fees based on investment performance. Other indirect costs may also be incurred. For foreign investment trusts, indirect fees may be incurred during the course of holding such as investment company compensation.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "b38e9543fb7179c7",
+      "text": "Investment trusts invest mainly in securities such as Japanese and foreign equities and bonds, whose prices fluctuate. Investment trust unit prices fluctuate owing to price fluctuations in the underlying assets and to foreign exchange rate fluctuations. As such, investment trusts carry the risk of losses. Fees and risks vary by investment trust. Maximum applicable fees are subject to change; please thoroughly read the written materials provided, such as prospectuses or documents delivered before making a contract.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "151cdf42b67ab4a9",
+      "text": "In interest rate swap transactions and USD/JPY basis swap transactions (\"interest rate swap transactions, etc.\"), only the agreed transaction payments shall be made on the settlement dates. Some interest rate swap transactions, etc. may require pledging of margin collateral. In some of these cases, transaction payments may exceed the amount of collateral. There shall be no advance notification of required collateral value or collateral ratios as they vary depending on the transaction. Interest rate swap transactions, etc. carry the risk of losses owing to fluctuations in market prices in the interest rate, currency and other markets, as well as reference indices. Losses incurred as such may exceed the value of margin collateral, in which case margin calls may be triggered. In the event that both parties agree to enter a replacement (or termination) transaction, the interest rates received (paid) under the new arrangement may differ from those in the original arrangement, even if terms other than the interest rates are identical to those in the original transaction. Risks vary by transaction. Please thoroughly read the written materials provided, such as documents delivered before making a contract and disclosure statements.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ccfb2d9beb9d4adc",
+      "text": "In OTC transactions of credit default swaps (CDS), no sales commission will be charged. When entering into CDS transactions, the protection buyer will be required to pledge or entrust an agreed amount of margin collateral. In some of these cases, the transaction payments may exceed the amount of margin collateral. There shall be no advance notification of required collateral value or collateral ratios as they vary depending on the financial position of the protection buyer. CDS transactions carry the risk of losses owing to changes in the credit position of some or all of the referenced entities, and/or fluctuations of the interest rate market. The amount the protection buyer receives in the event that the CDS is triggered by a credit event may undercut the total amount of premiums that he/she has paid in the course of the transaction. Similarly, the amount the protection seller pays in the event of a credit event may exceed the total amount of premiums that he/she has received in the transaction. All other conditions being equal, the amount of premiums that the protection buyer pays and that received by the protection seller shall differ. In principle, CDS transactions will be limited to financial instruments business operators and qualified institutional investors. Transfers of equities to another securities company via the Japan Securities Depository Center are subject to a transfer fee of up to ¥11,000 (tax included) per issue transferred depending on volume. No account fee will be charged for marketable securities or monies deposited.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "f9e47b6ee9b2908a",
+      "text": "Financial instruments firm registered with the Kanto Local Finance Bureau (registration No. 142)",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "6086782c95d61d25",
+      "text": "Member associations: Japan Securities Dealers Association; Japan Investment Advisers Association; The Financial Futures Association of Japan; and Type II Financial Instruments Firms Association.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "f4fffd073db37961",
+      "text": "The Nomura Group manages conflicts with respect to the production of research through its compliance policies and procedures (including, but not limited to, Conflicts of Interest, Chinese Wall and Confidentiality policies) as well as through the maintenance of Chinese Walls and employee training.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8a700bb4d61ae2ac",
+      "text": "Additional information regarding the methodologies or models used in the production of any investment recommendations contained within this document is available upon request by contacting the Research Analysts of Nomura listed on the front page. Disclosures information is available upon request and disclosure information is available at the Nomura Disclosure web page:",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "22c5e4d52d7b394b",
+      "text": "http://go.nomuranow.com/research/m/Disclosures Copyright © 2025 Nomura Securities Co., Ltd., Japan. All rights reserved.",
+      "page": 7,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "4815636ab0138928",
+      "name": "Abuse Regulation",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8d5de1d331ef43dd",
+      "name": "After NHI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3062e21d617ad05f",
+      "name": "Any MSCI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03ec5d54e225b9d0",
+      "name": "Authorised Persons",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8c1abdd3ddd39022",
+      "name": "Business Customer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1757e156343acf82",
+      "name": "Cap Index",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4f7793d11c185d65",
+      "name": "Chinese Wall",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "30f11a4354af2089",
+      "name": "Chinese Walls",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "aebbecf5515fe8dd",
+      "name": "Commercial Register",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b289f889abc2748a",
+      "name": "Commodities Futures",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fbd258dbd6877fcf",
+      "name": "Consulting Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6ba4b0a762d135f4",
+      "name": "Dealers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "874f9120200b4051",
+      "name": "Depository Center",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c5c926d0de6c0582",
+      "name": "Disclosures Copyright",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "25ef7f96e7172005",
+      "name": "Dow Jones",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8ed3fafbb18d7293",
+      "name": "Dubai Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "937eab012544a9f8",
+      "name": "EU Market",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "df103deacf28b4b9",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": "JCR Pharmaceuticals",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Oct-22",
+              "Jan-23",
+              "Apr-23",
+              "Jul-23",
+              "Oct-23",
+              "Jan-24",
+              "Apr-24",
+              "Jul-24",
+              "Oct-24",
+              "Jan-25",
+              "Apr-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "JPY",
+            "range": {
+              "min": 0,
+              "max": 3000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Closing Price",
+            "unit": "JPY",
+            "values": [
+              2200,
+              1800,
+              1500,
+              2200,
+              1400,
+              1200,
+              1000,
+              550,
+              700,
+              500,
+              550,
+              650
+            ]
+          },
+          {
+            "name": "Recommendation Changes",
+            "unit": "JPY",
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              550,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "Target Price Change",
+            "unit": "JPY",
+            "values": [
+              3000,
+              2900,
+              2800,
+              2200,
+              null,
+              1800,
+              null,
+              null,
+              700,
+              null,
+              600,
+              650
+            ]
+          }
+        ],
+        "figure_id": "37c05e094b9d8750",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "Medipal Holdings",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Oct-22",
+              "Jan-23",
+              "Apr-23",
+              "Jul-23",
+              "Oct-23",
+              "Jan-24",
+              "Apr-24",
+              "Jul-24",
+              "Oct-24",
+              "Jan-25",
+              "Apr-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "JPY",
+            "range": {
+              "min": 0,
+              "max": 2750
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Closing Price",
+            "unit": "JPY",
+            "values": [
+              1875,
+              1700,
+              1750,
+              2200,
+              2500,
+              2200,
+              1900,
+              2600,
+              2400,
+              2200,
+              2500,
+              2650
+            ]
+          },
+          {
+            "name": "Target Price Change",
+            "unit": "JPY",
+            "values": [
+              2100,
+              2000,
+              null,
+              2300,
+              2500,
+              2750,
+              null,
+              2600,
+              null,
+              null,
+              2500,
+              2750
+            ]
+          }
+        ],
+        "figure_id": "606c1cf2d8dbdebf",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "325f1e8965f40a1f",
+        "value": 660.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "/td><td></td></tr></table> Source: LSEG, Nomura Valuation Methodology We base our target price of ¥660 on a DCF model using a WACC of \\(5.0\\%\\) (assuming beta of 0.9, a risk- free rate of \\(1.5\\%\\) , ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1b8f2446bca4366e",
+        "value": 0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "stment trusts (and sales of some investment trusts) are subject to a purchase or sales fee of up to 5.5% (tax included) of the transaction amount. Also, a direct cost that may be incurred when selling",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "c4ee8b17f025abc7",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "n amount. Also, a direct cost that may be incurred when selling investment trusts is a fee of up to 2.0% of the unit price at the time of redemption. Indirect costs that may be incurred during the cou",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "ac51d8411359f50f",
+        "value": 0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "stment trusts include, for domestic investment trusts, an asset management fee (trust fee) of up to 5.5% (tax included/annualized basis) of the net assets in trust, as well as fees based on investment",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "327ca3f23c954283",
+        "value": 11000.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "ecurities company via the Japan Securities Depository Center are subject to a transfer fee of up to ¥11,000 (tax included) per issue transferred depending on volume. No account fee will be charged for",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 3,
+      "tables_count": 0,
+      "numerical_data_count": 5,
+      "passages_count": 63,
+      "entities_count": 20
+    }
+  }
+}

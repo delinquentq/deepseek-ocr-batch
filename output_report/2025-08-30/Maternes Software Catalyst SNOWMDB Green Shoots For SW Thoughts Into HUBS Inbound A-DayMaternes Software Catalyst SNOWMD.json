@@ -1,0 +1,2784 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "45b657414fda6d3383d82432bd93d458",
+    "title": "EVERCORE ISI",
+    "source_uri": "2025-08-30/Maternes Software Catalyst SNOWMDB Green Shoots For SW Thoughts Into HUBS Inbound A-DayMaternes Software Catalyst SNOWMD_2025-08-30",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:14:55.603511",
+      "extracted_at": "2025-10-27T00:14:55.603523"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 14,
+        "successful_pages": 14,
+        "date": "2025-08-30",
+        "publication": "2025-08-30",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 0,
+          "reduction_ratio": 0.058225320917754564
+        },
+        "input_relative_path": "2025-08-30"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "25c2b94154db4f95",
+      "text": "Technology | Software",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "26bc0091afae7fb5",
+      "text": "HubSpot, Inc HUBs| \\(476.34\\) In Line | Target Price/Base Case: \\(\\) 650\\(00 Commentary",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "7a6c75d3a3b4ec2e",
+      "text": "Company StatisticsMarket Capitalization (M)$28,704Shares Outstanding (M)53.0Float (M)50.7Average 10-Day Volume (M)813Enterprise Value (M)$26,94752-Week Range$108.39 - $881.13Fiscal Year EndDec",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "8207ed36dcfb36df",
+      "text": "Revenue (M)Q120242025E2026EQ1$617$714A$830Q2$637$740$860Q3$670$774$898Q4$703$813$943FY$2,628$3,041$3,532EPSQ1$1.68$1.78A$2.09Q2$1.94$2.11$2.54Q3$2.18$2.54$3.16Q4$2.32$2.90$3.57FY$8.12$9.32$11.36",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ad84a3aa38d48801",
+      "text": "1 Year Price History",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "129d747a2462149a",
+      "text": "Happy Labor Day weekend! So just a few thoughts on software as we close up the summer, and we also provide a few thoughts into HUBS' analyst day next week. While it was a rough August in software, the reaction to strong results from SNOW and MDB (not covered) provides a bit of a tailwind for the software bull case as we head into the fall. While the 'AI eats software' narrative is an effective short thesis when there is no 'beat/raise' momentum in the space or estimates are not going up, what SNOW and MDB illustrated is that reacceleration stories in software can drag investors off the sidelines. This aligns with other YTD winners like MSFT or ORCL where acceleration in Azure and OCI has helped drive shares higher. Essentially, software is a huge space so applying a blanket short narrative for the entire sector does not make a ton of sense and the infra names are clearly seeing more benefits from AI vs. apps at this point. Along those lines, CRM earnings on Weds night will be an interesting litmus test for the apps names as expectations are low and the valuation is arguably washed out. However, with Dreamforce on the horizon and the potential for revenue to reaccelerate in 2H (more likely F4Q), if CRM shares can hang in at these levels following 'slight beat/keep' F2Q results, that could signal the start of a move back into select apps names or at least the start of a more tradable bottom. It's worth noting WDAY is up relative to where it was on T+1 post F2Q EPS.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6c0119a1832f5122",
+      "text": "Bottom line: We would caution in terms of over extrapolating SNOW/MDB's results relative to the rest of software, but their T+1 moves speak to: 1) investors will reward clean beat/raise results; 2) revenue reacceleration = multiple expansion and this is still a possibility of 2H reacceleration for CRM, HUBS, and WDAY; and 3) the apathy towards software can shift quickly and if money flow returns to the space, there could be some material upside for select names in C4Q. Enjoy the long weekend!",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1d49ec91bfa77846",
+      "text": "For our weekly catalyst note this week, we wanted to share some thoughts ahead of HubSpot's Inbound user conference & Analyst Day next Wednesday in SF. We also thought HUBS' co- founder and CTO Dharmesh Shah's blog on the 'AI eats software' discussion was notable and a very reasonable take on the interplay between apps and AI when thinking out a few years. Please see inside for more details.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c833c2a69b92d621",
+      "text": "Please see the analyst certification and important disclosures on page 11 of this report. Evercore ISI and affiliates do and seek to do business with companies covered in its research reports. Investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. © 2025. Evercore Group L.L.C. All rights reserved.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "79990f9a377222e3",
+      "text": "We believe HUBS' analyst day will largely revolve around the Gen Al innovation that the company has been bringing to market over the last year, including Breeze Intelligence as well as some of the early agents (Customer, Prospecting, and Content). While the 'up to \\(5\\%\\) price hike is expected to start impacting the financials in a more meaningful way in F4Q (as a larger portion of customers that have been migrated will be up for renewal), we expect the more interesting topic as it relates to potential revenue acceleration will involve any color in terms of consumption revenue contribution from these Agents as well as data enrichment via Breeze Intelligence as customers look to unify their data more holistically in the Gen Al world. Worth noting also that we expect that the company will address 'head on' the recent bear thesis of 'SaaS is dead' that has weighed on horizontal application software YTD - interesting post on the topic from Founder and CTO Dharmesh Shah a couple weeks ago.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "df9ae92b72ba8a43",
+      "text": "From a financial perspective, will be interested to see if any update to the current medium/longer term margin guides (FY26 18- 20%, FY27 20- 22%, LT 25%) given the progress towards these targets over the last 3 years (current FY25 guide of \\(\\sim 18\\%\\) implies \\(+300\\) bps expansion over the last 2 years) as well as the fact that the company is leaning into Gen Al fairly heavily. Aside from that, expect the standard discussions around TAM updates, multi- hub adoption, \\(\\%\\) of customers moving upmarket with larger deals, etc.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "6686c979c5967905",
+      "text": "Bottom line: While we are expecting an upbeat discussion around Gen Al/Breeze and any bump to the margin guides would be a notable positive, we continue to believe that the bigger potential 're- rate' is likely going to be on the F3Q call as investors have insight into whether the combination of the 'up to \\(5\\%\\) price hikes + any early consumption revenue contribution can lead to a reacceleration in revenue growth. We continue to believe that this is a distinct possibility given the 1H constant currency outperformance ( \\(\\sim 300\\) bps in 1Q, \\(\\sim 200\\) bps in 2Q) coupled with the fact that compares continue to ease in the 2H, despite the fact that the current guidance of \\(\\sim 17\\%\\) implies a couple points of 2H deceleration.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8b3f0d74e0fff7c8",
+      "text": "Below, we simply offer some of the standard metrics that we would expect to see. Tougher to know if management will be willing to offer up any metrics in terms of Agentic contribution, though any positive indicators on the front would likely be well- received from investors that are looking to dimensionalize the likelihood of seeing revenue reacceleration into the 2H and potentially into FY26 - as the 26% growth mark remains a key 'optical differentiator' for investors evaluating a large software landscape.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b8a38704a75ba224",
+      "text": "Figure 1: Expect that management will offer an update on the TAM opportunity, likely reflective of Agents becoming a larger part of the software business model.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8fb403ec4aad188d",
+      "text": "Source: Company Data, Evercore ISI Research",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "dd5a1a90bf5fe244",
+      "text": "Figure 2: We would expect an update in terms of growth on an individual Hub level, with Sales having come up in some of our recent partner surveys as showing some momentum. Given some of the recent concerns around SEO, seeing continued durability in Marketing Hub growth would also be helpful - Marketing Hub momentum also took a nice q/q step up in our most recent survey.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "203b6766822babbb",
+      "text": "Source: Company Data, Evercore ISI Research",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4756e449853d9df8",
+      "text": "Figure 3: As HubSpot continues to look to move higher up in the market, multi-hub adoption and deal sizes getting larger remains a key focus point. We would expect an update on the progress that the company is making on that front.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4b6693c2728be7ca",
+      "text": "Source: Company Data, Evercore ISI Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2a213e0e8f041856",
+      "text": "Figure 4: Multi-hub adoption/moving upmarket is a key driver of platform 'stickiness' and as such we will be interested to see that gross retention metric continue to evolve over time. While the SMB exposure will likely limit gross retention from ever reaching ServiceNow-esque levels of 98-99%, expect that shifting north of 90% would be a nice milestone. Additionally, with a larger portion of customers now 'right-sized' in terms of 'core seats', seeing NRR start to shift higher into CY26 will be key for unlocking a 're-rating' in the shares.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "dd42bc132e0f79ee",
+      "text": "Source: Company Data, Evercore ISI Research",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4f8a74ed5aa7ee8c",
+      "text": "Figure 5: While we believe any firm targets regarding top-line/Agentic contribution are unlikely, expect that given the continued progress towards the medium and longer term op. margin targets, seeing an update (perhaps \\(25\\%\\) by FY28 with a \\(-30\\%\\) LT guide?) would be viewed as a key positive indicator for investors.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f853699de6583609",
+      "text": "Source: Company Data, Evercore ISI Research",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "09b85ea56de54b8b",
+      "text": "Software: Quick Takeaways From Monthly CIO 'Pulse Check' Webinar  SNOW: Summer Blizzard: F2Q 'Beat/Raise' Driven By Solid Core Consumption & Building Momentum In Emerging Solutions  VEEV: Solid F2Q As R&D and Crossix Power Upside; PT to \\(\\) 295\\$  CRWD: Well- Executed Quarter But Not a Blowout, 2H Guide Was Light But ARR Commentary Offers Support  BILL: Solid Print, Prudent FY26 Guide, But Macro Uncertainty Remains An Overhang  OKTA: Okta Delivers Strong F2Q: Macro/Fed Risks Abate, 2H Upside, PAM Acquisition Adds AI Security Depth  CRM: Survive & Advance: Expect 'Slight Beat/Keep' F2Q Results & Focus To Shift To Dreamforce  Software: Materne's Software Catalyst: 'Top 10' Takeaways/Themes After Two Weeks On The Road  INTU: Strong F4Q & FY26 Guide Likely Leaves Room For Upside; Would Be Adding On Weakness  WDAY: Steady F2Q Results, But No Beat/Raise, No Re- Rate; Focus Shifts To A- Day  ZM: Strong F2Q Results: CCaaS Gaining Share, AI Momentum Builds, Macro Scrutiny Abates  INTU: First Look: Strong Finish To FY25; FY26 Guide In Line Ex MC & Likely Leaves Room For Upside  WDAY: First Look: Solid F2Q Results & Slight Bump To FY26 Revenue Guide; Op. Margin Upside Helps But Results Unlikely To Shift Sentiment  Software: EVR- ISI Software Pulse Checks (WDAY, DDOG, SNOW, INTU & ZS)  PANW: PANW Delivered A Solid F4Q - The Initial FY26 Outlook Exceeded Our Expectations  SNOW: Thoughts Into F2Q & Quarterly Partner Survey Takeaways  CRWD: Channel Checks Suggest The Bull Case May Be Running Ahead Of Reality: Adding To Tactical Underperform  Software: Materne's Software Catalyst: Top 5 Topics Of Discussion Post SW Meltdown & C2Q Beat/Raise Metrics  WDAY: Quick Thoughts Into F2Q & Partner Commentary  PANW: Thoughts Into F4Q EPS: Partner Survey Data Mixed With A More Cautious Tone - Subdued Expectations Into the Print  Software: Materne's Software Catalyst: Tough Sledding - Thoughts On Software Pullback & Multiples  AVPT: Flywheel Continues To Spin: Strong F2Q Results; PT to \\(\\) 22\\$  DDOG: Strong F2Q 'Beat/Raise' Driven By Robust AI- Native Contribution; PT To \\(\\) 170\\$  EVCM: Steady F2Q Results As TPV Remains A Tailwind  DDOG: First Look: Mgmt. Delivers Strong 'Beat/Raise' In F2Q  RAMP: Ramping Growth Into The 2H  HUBS: Solid F2Q Results: Reacceleration Optionality & A- Day On Deck For 2H  FTNT: FTNT Just Closed The Book On The Bull Case: Growth Path Beyond CY26 Unclear  EGHT: EGHT Delivers In- Line Results; Growth Returns But Profitability Pressured by Usage Mix Shift",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "39b1ac94a17beb32",
+      "text": "Figure 1: EVR-ISI Software Comp Sheet",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8e934e34709ec371",
+      "text": "Evercore ISI Enterprise Software Comp SheetLarge Cap Software Market Info Top Line MetricsCompanyTickerRatingPriceTargeYTD2025 ChangeMarketCapEnterpriseValueCY RevenueYTD Revenue GrowthOp. Marginmargin expansionEPS GrowthEV/RevenueEV/FCFCY P/EMicrosoftMSFTOP$625$509.6420.9%3,788,2393,765,942346,432397,51314.6%14.7%15.9%18.0%10.9x9.5x44.2x33.1x30.1x25.5xOracleORCLOP$270$240.3244.2%675,019791,46774,50890,23313.1%18.4%21.1%41.9%41.7%-61bps-238bps17.0%22.8%10.6x8.8xPalantirPLTRNRNA$158.12109.1%375,115401,8895,5967,55944.6%35.1%35.1%46.2%45.6%-13bps-598ps30.2%34.9%71.8x53.2xSAPSAPIL€275€275.4011.9%334,867295,95348,55454,92422.2%11.5%13.1%29.2%30.2%140bps107bps18.4%19.6%6.1x5.4x25.7x22.1xSalesforceCRMOP$360$254.53(23.9%)243,331242,34744,62449,1568.7%9.1%10.2%34.9%36.0%106bps103bps11.7%15.1%5.4x4.9x15.9x13.6x20.3xIntuitINTUOP$875$668.206.3%186,392193,64222,26125,14114.0%12.4%12.9%41.3%41.6%78bps268ps14.7%14.5%8.7x7.7x26.5x23.8x27.2xServiceNowNOWOP$1,125$928.60(12.4%)193,149193,97715,64718,60720.0%18.7%18.9%31.5%32.4%93bps949ps18.6%20.6%12.4x10.4x38.0x34.0x46.3x38.4xAdobeADBEOP$475$353.96(20.4%)150,150153,82425,99028,3329.6%9.4%9.0%46.2%46.4%12bps268ps12.4%10.9%5.9x5.4x14.8x13.5x15.1x13.6xPalo Alto NetworksPANWOP$220$191.025.0%127,501135,88211,09912,49314.3%13.7%12.6%29.6%30.2%610ps52bps13.5%13.1%12.2x10.9x31.8x27.8x47.6x42.1xCrowdStrikeCRWDIL$405$442.0029.2%110,922111,2705,7366,99221.6%21.7%21.9%23.9%26.9%261bps301bps26.5%28.2%19.4x15.9x-49.2xSnowflakeSNOWOP$280$241.0056.1%80,41291,4795,6006,92627.0%23.9%23.7%10.8%13.7%178bps284bps38.2%41.6%16.3x13.2x-48.3xFortinetFNTIL$78$79.29(16.1%)60,75758,0987,5278,30513.3%11.5%10.3%33.1%33.4%13bps107ps10.3%10.4%7.7x7.0x23.7x21.1x28.6x25.9xWorkdayWDAYOP$275$228.50(11.4%)61,01059,78810,67712,05912.9%13.3%12.9%30.0%31.5%133bps149bps15.5%14.6%5.6x5.0x19.2x16.3x22.6x19.7xAtlassianTEAMNRNA$176.78(27.4%)46,37547,3736,7598,05618.8%16.2%24.6%25.8%28bps123bps19.8%25.3%7.0x5.9x24.3x19.7x37.1x29.6xZscalerZSOP$290$280.4255.4%43,66045,6963,4784,17521.5%20.6%20.0%22.9%23.9%102bps96bps17.8%27.1%13.1x10.9x46.8x38.2x-Veeva SystemsVEEVIL$295$272.3329.5%44,50240,0183,4783,93414.3%12.1%13.1%44.0%44.6%-10bps67bps9.1%15.3%11.5x10.2x29.5x27.1x32.4x28.1xDatalogDOOGOP$170$140.96(1.4%)49,19949,0253,9744,81523.9%19.5%21.2%22.4%24.3%162bps188bps17.6%24.0%12.3x10.2x47.2x36.3x-HubspotHUBSIL$650$476.34(31.6%)25,10024,2263,5874,17417.5%16.2%16.4%19.6%21.3%117bps167bps20.2%22.4%6.8x5.8x34.6x28.5x41.6x34.0xGen DigitalGENNRNA$30.2110.3%18,60527,0635,0335,30518.1%8.9%5.4%53.1%55.0%-54bps190bps13.1%14.6%5.4x5.1x18.5x15.6x10.9x9.5xTyler TechnologiesTYLIL$595$556.28(3.5%)24,06624,4442,5662,8388.9%9.3%10.6%27.1%29.0%80bps191ps10.7%14.2%9.5x8.6x34.2x30.1x44.2x38.7xToastTOSTNRNA$44.9523.3%26,20626,2277,3008,58222.4%20.3%17.6%10.1%11.0%89bps87bps29.5%28.6%3.6x3.1x35.4x24.8x37.5x29.1xSamsaraIOTIL$45$36.45(16.6%)20,75221,1301,8642,25524.9%22.0%21.0%14.1%15.8%142bps169bps26.9%27.2%11.3x9.4x---Check Point SoftwareCHKPIL$208$191.262.4%20,72719,5912,8673,0335.9%5.5%5.8%41.6%41.1%-13bps-570ps8.2%10.6%6.8x6.5x16.6x15.5x17.9x16.1xTwilioTWLONRNA$106.39(1.6%)16,32416,2055,3485,79010.9%8.2%8.3%18.8%21.0%130bps217bps14.3%17.8%3.0x2.8x15.8x13.3x20.5x17.4xZoom VideoZMOP$115$80.83(1.0%)24,19218,1494,9815,1563.5%3.4%3.5%39.4%39.8%-15bps35bps1.8%4.9%3.6x3.5x9.8x9.4x13.6x13.0xDocuzignDOCUIL$90$75.51(16.0%)15,25816,2343,3473,6466.2%5.6%8.9%29.2%30.5%617ps136bps8.0%15.5%4.9x4.5x16.1x13.9x19.6x16.9xMongoDBMDBNRNA$318.1036.6%25,88025,4282,7163,20917.3%17.0%18.1%14.8%16.6%98bps181bps15.3%24.7%9.4x7.9x----meanSAP 500SPSO$6,501.8610.5%Software IndexIGV$109.099.0%",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8f77f91b1619f1dd",
+      "text": "Figure 2: Recent M&A and Funding Announcements.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c01cfbb58200e84a",
+      "text": "TargetAcquirer TypeDate AnnouncedDeal TermsDollar Price PaidGrowthValuation MetricsEV (SM)Offer PricePremium Paid Over Prior Day&#x27;s AnnouncementPremium To 30- Day Trading AveragePremium To 90- Day Trading AverageForward Year growth rateNTM EV SalesCurrent EV SalesForward EV SalesP/S/G MultipleAlteryxPrivate Equity12/18/23$4,400$48.2558.8%15.5%29.4%11.4%4.1x4.6x4.1x0.36xNew RelicPrivate Equity7/31/23$5,700$87.0017.5%22.3%21.2%3.9%6.2x6.4x6.2x1.59xQualtricsPrivate Equity3/12/23$10,560$18.156.0%16.7%48.5%17.2%6.2x7.2x6.2x0.36xSumo LogicPrivate Equity2/9/23$1,195$12.05-1.1%20.1%40.3%17.1%3.4x4.0x3.4x0.20xMagnet ForensicsPrivate Equity1/20/23$1,090$32.8015.0%11.3%41.5%28.5%8.5x11.0x8.5x0.30xCoupaPrivate Equity12/12/22$7,450$81.0073.2%61.0%34.1%18.2%7.7x9.1x7.7x0.42xUserTestingPrivate Equity10/27/22$950$7.5094.3%94.8%71.2%20.2%4.3x5.1x4.3x0.21xKnowBe4Private Equity10/12/22$4,600$24.9013.5%22.1%34.6%19.5%11.5x13.8x11.5x0.59xForgeRockPrivate Equity10/11/22$2,300$23.2553.4%44.4%21.6%18.6%9.0x10.7x9.0x0.49xAvalaraPrivate Equity8/8/22$8,200$93.50-2.1%18.5%9.6%10.4%8.5x9.4x8.5x0.82xPing IdentityPrivate Equity8/3/22$2,550$28.5063.1%54.5%31.9%20.1%6.9x8.3x6.9x0.34xZendeskPrivate Equity6/24/22$9,800$77.5033.7%-5.6%-27.0%32.8%5.2x6.9x5.2x0.16xSailPointPrivate Equity4/11/22$6,200$65.2531.6%36.4%45.2%18.4%11.3x13.4x11.3x0.62xCDK GlobalPrivate Equity4/7/22$8,050$54.8712.0%14.8%21.7%6.2%4.3x4.6x4.3x0.70xAnapianPrivate Equity3/20/22$9,340$63.7526.0%37.5%33.5%29.7%12.2x15.8x12.2x0.41xCitrix SystemsPrivate Equity1/31/22$16,200$104.00-1.5%19.3%29.9%3.5%4.9x5.0x4.9x1.38xMedalliaPrivate Equity7/26/21$5,560$34.001.9%5.0%15.9%25.6%8.9x11.2x8.9x0.35xProofpointPrivate Equity4/26/21$10,400$176.0033.6%33.6%34.5%15.0%8.3x9.6x8.3x0.56xTalendPrivate Equity3/10/21$2,180$66.0028.8%29.7%52.0%18.0%6.4x7.6x6.4x0.36xRealpagePrivate Equity12/21/20$9,500$88.7530.8%33.7%43.5%7.6%7.6x8.2x7.6x1.00xPluralsightPrivate Equity12/13/20$3,500$22.5018.5%34.7%25.6%17.9%7.9x9.3x7.9x0.44xInstructrePrivate Equity12/4/19$1,800$49.00-7.5%0.7%13.7%22.3%6.0x7.3x6.0x0.27xAverage28.1%29.8%32.0%17.1%7.2x8.5x7.2x0.54x",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "61c151afac893107",
+      "text": "Source: Company Data, Evercore ISI Research, FactSet",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "6a89ee27c6915da4",
+      "text": "Our PT is based on an EV/Sales multiple.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "5de4e5b6e206a4b9",
+      "text": "RISKSHubspot faces competition from a number of players in a fragmented market; Pick up in churn could create top line volatility; Macro environment could cause problems to Hubspot.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "fbe87e4370b0de8b",
+      "text": "SymbolCompanyRatingPrice (2025-29-08)Evercore ISI TargetADBEAdobe Systems Inc.Outperform$353.96$475.00AVPTAvePoint, IncOutperform$16.10$22.00BLKBBlackbaud Inc.In Line$66.16$80.00CCCSCCC Intelligent Solutions Holdings In Outperform$10.03$12.00CRMsalesforce.com Inc.Outperform$254.53$360.00DDOGDatadog IncOutperform$140.96$170.00DOCUDocuSign, IncIn Line$75.51$90.00EVCMEverCommerce IncOutperform$11.40$11.00HUBSHubSpot, IncIn Line$476.34$650.00INTUIntuit Inc.Outperform$668.20$875.00IOTSamsara IncIn Line$36.45$45.00MSFTMicrosoft CorporationOutperform$509.64$625.00NOWServiceNow, Inc.Outperform$928.60$1125.00ORCLOracle CorporationOutperform$240.32$270.00PATHUiPath, IncIn Line$11.26$15.00RAMPLiveRamp Holdings, IncOutperform$27.62$37.00SAP-ETRSAP SEIn Line€236.35€275.00SNOWSnowflake, Inc.Outperform$241.00$280.00TYLTyler Technologies, Inc.In Line$556.28$595.00VEEVVeeva Systems Inc.In Line$272.33$295.00WDAYWorkday, Inc.Outperform$228.50$275.00",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "799613ab825fe920",
+      "text": "(Article 3(1)e and Article 7 of MAR)",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "5af2289c0987a9fd",
+      "text": "Time of dissemination: August 30 2025 11:00 AM ET",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "5d2dec5ff36fdb22",
+      "text": "Evercore ISI's recommendations are based on a stock's total forecasted return over the next 12 months. Total forecasted return is equal to the expected percentage price return plus gross dividend yield. We divide our stocks under coverage into three primary ratings categories, with the following return guidelines:",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "233803191a2335a0",
+      "text": "Outperform- the total forecasted return is expected to be greater than the expected total return of the analyst's coverage sector. In Line- the total forecasted return is expected to be in line with the expected total return of the analyst's coverage sector. Underperform- the total forecasted return is expected to be less than the expected total return of the analyst's coverage sector. Coverage Suspended- the rating and target price have been removed pursuant to Evercore ISI policy when Evercore is acting in an advisory capacity in a merger or strategic transaction involving this company and in certain other circumstances. Rating Suspended- Evercore ISI has suspended the rating and target price for this stock because there is not sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, a rating or target price. The previous rating and target price, if any, are no longer in effect for this company and should not be relied upon.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "dfb0691eadc3e707",
+      "text": "Prior to October 10, 2015, the \"Coverage Suspended\" and \"Rating Suspended\" categories were included in the category \"Suspended.\"",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "ab6740ae90612eaa",
+      "text": "FINRA requires that members who use a ratings system with terms other than \"Buy,\" \"Hold/Neutral\" and \"Sell\" to equate their own ratings to these categories. For this purpose, and in the Evercore ISI ratings distribution below, our Outperform, In Line, and Underperform ratings can be equated to Buy, Hold and Sell, respectively.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "22963092ec66731b",
+      "text": "Coverage UniverseInvestment Banking Services | Past 12 MonthsRatingsCountPct.RatingsCountPct.Buy44559Buy5111Hold27036Hold145Sell132Sell00Coverage Suspended182Coverage Suspended633Rating Suspended61Rating Suspended467",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "4ef7df175a6b8ca6",
+      "text": "Issuer-Specific Disclosures (as of August 29, 2025)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "1bf44e9730e035be",
+      "text": "HubSpot, Inc Rating History as of 08/29/2025",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "89234a2911f2d7b4",
+      "text": "Ratings KeyBBuyOPOutperformLLongHHoldILIn LineNPNo PositionSSellUPUnderperformSShort",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "cf8182a8f2c8f944",
+      "text": "This report is approved and/or distributed by Evercore Group L.L.C. (\"Evercore Group\"), a U.S. licensed broker-dealer regulated by the Financial Industry Regulatory Authority (\"FINRA\") and by International Strategy & Investment Group (UK) Limited (\"ISI UK\"), which is authorized and regulated in the United Kingdom by the Financial Conduct Authority. The institutional sales, trading and research businesses of Evercore Group and ISI UK collectively operate under the global marketing brand name Evercore ISI (\"Evercore ISI\"). Both Evercore Group and ISI UK are subsidiaries of Evercore Inc. (\"Evercore\"). The trademarks, logos and service marks shown on this report are registered trademarks of Evercore Inc.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "0ab744fe804332fa",
+      "text": "This report is provided for informational purposes only and subject to additional restrictions contained in this disclosure. It is not to be construed as an offer to buy or sell or a solicitation of an offer to buy or sell any financial instruments or to participate in any particular trading strategy in any jurisdiction. The information and opinions in this report were prepared by employees of affiliates of Evercore. The information herein is believed by Evercore ISI to be reliable and has been obtained from public sources believed to be reliable, but Evercore ISI makes no representation as to the accuracy or completeness of such information.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "cd5fb7d6ece5eb1f",
+      "text": "Opinions, estimates and projections in this report constitute the current judgment of the author as of the date of this report. They do not necessarily reflect the opinions of Evercore or its affiliates and are subject to change without notice. In addition, opinions, estimates and projections in this report may differ from or be contrary to those expressed by other business areas or groups of Evercore and its affiliates.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "4e6d84ee4436a25f",
+      "text": "Evercore ISI has no obligation to update, modify or amend this report or to otherwise notify a reader thereof in the event that any matter stated herein, or any opinion, projection, forecast or estimate set forth herein, changes or subsequently becomes inaccurate. Facts and views in Evercore ISI research reports and notes have not been reviewed by, and may not reflect information known to, professionals in other Evercore affiliates or business areas, including investment banking personnel. Evercore ISI salespeople, traders and other professionals may provide oral or written market commentary or trading strategies to our clients that reflect opinions that are contrary to the opinions expressed in this research.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "b72a7c8d6170dd64",
+      "text": "Our asset management affiliates and investing businesses may make investment decisions that are inconsistent with the recommendatons or views expressed in this research.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "106c958a965e4daa",
+      "text": "Evercore ISI does not provide individually tailored investment advice in research reports. The financial instruments discussed in this report are not suitable for all investors and investors must make their own investment decisions using their own independent advisors as they believe necessary and based upon their specific financial situations and investment objectives. This report has been prepared without regard to the particular investment strategies or financial, tax or other personal circumstances of the recipient. Nothing in this report constitutes investment, legal, accounting or tax advice, or a representation that any investment or strategy is suitable or appropriate to the recipient's individual circumstances, or otherwise constitutes a personal recommendation to the recipient. None of Evercore Group or its affiliates will treat any recipient of this report as its customer by virtue of the recipient having received this report.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "a56bb5d8bcf15538",
+      "text": "Securities and other financial instruments discussed in this report, or recommended or offered by Evercore ISI, are not insured by the Federal Deposit Insurance Corporation and are not deposits of or other obligations of any insured depository institution. If a financial instrument is denominated in a currency other than an investor's currency, a change in exchange rates may adversely affect the price or value of, or the income derived from the financial instrument, and such investor effectively assumes such currency risk. In addition, income from an investment may fluctuate and the price or value of financial instruments described in this report, either directly or indirectly, may rise or fall. Estimates of future performance are based on assumptions that may not be realized. Furthermore, past performance is not necessarily indicative of future performance.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "42dbaa11aaab7ff4",
+      "text": "Please note that this report was prepared for and distributed by Evercore ISI to its institutional investor and market profesional customers.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "4c0e1d6f359ccfbd",
+      "text": "Recipients who are not institutional investor or market professional customers of Evercore ISI should seek the advice of their independent financial advisor before considering information in this report in connection with any investment decision, or for a necessary explanation of its contents.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "693dc1469bbb0d37",
+      "text": "Electronic research is simultaneously distributed to all clients. This report is provided to Evercore ISI clients only and may not be, in whole or in part, or in any form or manner (i) copied, forwarded, distributed, shared, or made available to third parties, including as input to, or in connection with, any artificial intelligence or machine learning model; (ii) modified or otherwise used to create derivative works; or (iv) used to train or otherwise develop a generative artificial intelligence or machine learning model, without the express written consent of Evercore ISI. Receipt and review of this research report constitutes your agreement with the aforementioned limitations in use.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "a2932df69f830e80",
+      "text": "This report is not intended for distribution to or use by any person or entity in any locality, state, country or other juris direction where such distribution, publication, availability or use would be contrary to law or regulation or which would subject Evercore Group or its affiliates to any registration or licensing requirement within such jurisdiction. If this report is being distributed by a financial institution or other than Evercore ISI or its affiliates, that financial institution is solely responsible for such distribution and for compliance with the laws, rules and regulations of any jurisdiction where this report is distributed. Clients of that financial institution should contact that institution to effect any transaction in the securities mentioned in this report or if such clients require further information. This report does not constitute investment advice by Evercore ISI to the clients of the distributing financial institution, and neither Evercore ISI nor its affiliates, nor their respective officers, directors or employees, accept any liability whatsoever for any direct or consequential loss arising from their use of this report or its content.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "d637ca702e89f1c0",
+      "text": "Evercore is not authorized to act as a financial entity, securities intermediary, investment advisor or as any other regulated entity under Mexican law, and no actions, applications or filings have been undertaken in Mexico, whether before the National Banking and Securities Commission (Comisión Nacional Bancaria y de Valores \"CNBV\") or any other authority, in order for Evercore to carry out activities or render services that would otherwise require a license, registration or any other authorization for such purposes; neither is it regulated by the CNBV or any other Mexican authority. This document, nor its content, constitutes an offer, invitation or request to purchase or subscribe for securities or other instruments or to make or cancel investments, nor may it serve as the basis for any contract, commitment or decision of any kind.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "cb32e83175dc7d07",
+      "text": "For persons in the UK: In making this report available, Evercore makes no recommendation to buy, sell or otherwise deal in any securities or investments whatsoever and you should neither rely or act upon, directly or indirectly, any of the information contained in this report in respect of any such investment activity. This report is being directed at or distributed to, (a) persons who fall within the definition of Investment Professionals (set out in Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (the \"Order\"); (b) persons falling within the definition of high net worth companies, unincorporated associations, etc. (set out in Article 49(2) of the Order); (c) other persons to whom it may otherwise lawfully be communicated (all such persons together being referred to as \"relevant persons\"). This report must not be acted on or relied on by persons who are not relevant persons.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "0e153881c955690f",
+      "text": "For persons in Switzerland: The distribution of these materials to persons or entities in Switzerland is not intended to, and does not, constitute a financial service under the Swiss Financial Services Act (FinSA). In particular, the distribution of these materials does not constitute the provision of personal recommendations on transactions with financial instruments (investment advice) within the meaning of Article 3(c)(4) of FinSA.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "ef951b407f27c9ca",
+      "text": "For persons in Australia: Evercore does not have an Australian Financial Services License (\"AFSL\"). This report is only to be distributed to persons who fall within the definition of \"wholesale\" investors under section 761G of the Corporations Act 2001 (Cth). This report must not be acted on or relied on by persons who are not wholesale investors. Evercore relies on the relief provided under ASIC Corporations (Foreign Financial Services Providers—Limited Connection) Instrument 2017/182 to provide this report to wholesale investors in Australia without an AFSL.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "bac26398d283baf6",
+      "text": "For persons in New Zealand: This material has been prepared by Evercore Group L.L.C. for distribution in New Zealand to financial advisors and wholesale clients only and has not been prepared for use by retail clients (as those terms are defined in the Financial Markets Conduct Act 2013 (\"FMCA\")). Evercore Group L.L.C. is not, and is not required to be, registered or licensed under the FMCA, and unless otherwise stated any financial products referred to in this material are generally only available in New Zealand for issue to those satisfying the wholesale investor criteria in the FMCA.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "76108401191ba229",
+      "text": "Applicable current disclosures regarding the subject companies covered in this report are available at the offices of Evercore ISI: 55 East 52nd Street, New York, NY 10055, and at the following site: https://evercoreisi.mediastiering.com/disclosure.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "62df581558ec1c71",
+      "text": "In compliance with the European Securities and Markets Authority's Market Abuse Regulation, a list of all Evercore ISI recommendatios disseminated in the preceding 12 months for the subject companies herein, may be found at the following site: https://evercoreisi.mediastiering.com/disclosure.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "9d66b34a50516749",
+      "text": "© 2025. Evercore Group L.L.C. All rights reserved.",
+      "page": 12,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "6c8f46b924ddd0a3",
+      "name": "AI Momentum",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3b1b668b185fa511",
+      "name": "ARR Commentary",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6bfdb485e64d207a",
+      "name": "ASIC Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8e206c95cbceb330",
+      "name": "Abates  INTU",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "74e530d98cbc4a8f",
+      "name": "Acquirer Type",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c79d7e954f95faab",
+      "name": "Adding On",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e28f9fa92a662134",
+      "name": "Adding To",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d6cd8e735776614e",
+      "name": "Adds AI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5200d5bf8c1a1da3",
+      "name": "Adobe Systems",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1ec7ec4ef8f4c99b",
+      "name": "Adobe Systems Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3e1af3d6356062c3",
+      "name": "An Overhang",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6d295f3d6be4a2bc",
+      "name": "Analyst Day",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "48b50e7c56aa79ed",
+      "name": "As HubSpot",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c948b097867d16e8",
+      "name": "Australian Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "091ea27f0512d847",
+      "name": "Base Case",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "80571b40f10493b7",
+      "name": "Blackbaud Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7aa30870081c009d",
+      "name": "Book On",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fe0fe46365786da9",
+      "name": "Both Evercore",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3d6159b2a696a17b",
+      "name": "Breeze Intelligence",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2bfde0b5e15f559d",
+      "name": "Building Momentum",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": "Early in large and expanding TAM opportunity",
+        "page": 3,
+        "axes": {},
+        "series": [
+          {
+            "name": "Total Addressable Market (TAM)",
+            "unit": "Billion USD",
+            "values": [
+              {
+                "year": 2024,
+                "value": 76
+              },
+              {
+                "year": 2029,
+                "value": 128
+              }
+            ]
+          },
+          {
+            "name": "Penetration across all products",
+            "unit": "%",
+            "values": [
+              {
+                "value": "<10"
+              }
+            ]
+          }
+        ],
+        "figure_id": "b5d68471089ad8c5",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "other",
+        "title": "Confident in our ability to deliver more leverage over time",
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2027 Margin Target",
+              "Long-Term Margin Target"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": null,
+              "max": null
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Margin Target",
+            "unit": "%",
+            "values": [
+              "20-22",
+              25
+            ]
+          }
+        ],
+        "figure_id": "4d881254d068fb6b",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "combo",
+        "title": "Retention: Platform driving improving C$R",
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2019",
+              "1H'24"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Customer Dollar Retention (C$R)",
+            "unit": "%",
+            "values": [
+              84,
+              88
+            ]
+          },
+          {
+            "name": "Share Gain (2019-1H'24)",
+            "unit": "%",
+            "values": {
+              "3+ Hubs": "+32%",
+              "Enterprise": "+9%",
+              "5+ Integrations": "+26%"
+            }
+          },
+          {
+            "name": "C$R (1H'24)",
+            "unit": "%",
+            "values": {
+              "3+ Hubs": 90,
+              "Enterprise": 93,
+              "5+ Integrations": 93
+            }
+          }
+        ],
+        "sub_chart": {
+          "type": "waterfall",
+          "title": "Retention: Net revenue retention supported by platform value",
+          "axes": {
+            "x": {
+              "type": "category",
+              "labels": [
+                "FY'23",
+                "Cancellations",
+                "Downgrades",
+                "Seat Upgrades",
+                "Upgrades excl. Seats",
+                "1H'24"
+              ]
+            },
+            "y": {
+              "unit": "%",
+              "range": {
+                "min": 0,
+                "max": 105
+              }
+            }
+          },
+          "series": [
+            {
+              "name": "Net Revenue Retention",
+              "unit": "%",
+              "values": [
+                104,
+                null,
+                null,
+                null,
+                null,
+                102
+              ]
+            }
+          ]
+        },
+        "figure_id": "35d677f3b5c06622",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": null,
+            "labels": []
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": null,
+              "max": null
+            }
+          }
+        },
+        "series": [],
+        "figure_id": "cd4c63ce845e72e3",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "08/22",
+              "11/22",
+              "02/23",
+              "05/23",
+              "08/23",
+              "11/23",
+              "02/24",
+              "05/24",
+              "08/24",
+              "11/24",
+              "02/25",
+              "05/25",
+              "08/25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 1000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Close Price (p)",
+            "unit": "p",
+            "values": [
+              320,
+              260,
+              300,
+              400,
+              550,
+              400,
+              550,
+              620,
+              450,
+              600,
+              780,
+              600,
+              450
+            ]
+          },
+          {
+            "name": "Target Price (p)",
+            "unit": "p",
+            "values": [
+              380,
+              340,
+              340,
+              450,
+              530,
+              530,
+              650,
+              650,
+              520,
+              700,
+              800,
+              700,
+              650
+            ]
+          }
+        ],
+        "figure_id": "ce130bc1acb10ee8",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "line",
+        "title": "HubSpot, Inc",
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "08/24",
+              "11/24",
+              "02/25",
+              "05/25",
+              "08/25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 1000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "S&P 500",
+            "unit": null,
+            "values": [
+              480,
+              510,
+              520,
+              500,
+              550,
+              560
+            ]
+          },
+          {
+            "name": "HUBS",
+            "unit": null,
+            "values": [
+              460,
+              550,
+              700,
+              800,
+              600,
+              450
+            ]
+          }
+        ],
+        "figure_id": "e95d23eccd31fae4",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": "World-class engagement hubs",
+        "page": 3,
+        "axes": {},
+        "series": [
+          {
+            "name": "Marketing Hub",
+            "unit": "%",
+            "values": [
+              13
+            ]
+          },
+          {
+            "name": "Sales Hub",
+            "unit": "%",
+            "values": [
+              24
+            ]
+          },
+          {
+            "name": "Service Hub",
+            "unit": "%",
+            "values": [
+              28
+            ]
+          },
+          {
+            "name": "Content Hub",
+            "unit": "%",
+            "values": [
+              30
+            ]
+          },
+          {
+            "name": "Operations Hub",
+            "unit": "%",
+            "values": [
+              57
+            ]
+          }
+        ],
+        "figure_id": "b3b75006bf010d4c",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "03a2464819a8950d",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": "HubSpot is a platform company",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Q1'19",
+              "Q2'24"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2+ Hubs",
+            "unit": "%",
+            "values": [
+              43,
+              71
+            ]
+          },
+          {
+            "name": "3+ Hubs",
+            "unit": "%",
+            "values": [
+              10,
+              50
+            ]
+          },
+          {
+            "name": "5+ Hubs",
+            "unit": "%",
+            "values": [
+              3,
+              36
+            ]
+          }
+        ],
+        "figure_id": "6a1d01c967d5276f",
+        "provenance": {
+          "page": 4
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "c013be89cd7467d2",
+        "value": 28704.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ") <table><tr><td colspan=\"3\">Company Statistics</td></tr><tr><td>Market Capitalization (M)</td><td>$28,704</td><td></td></tr><tr><td>Shares Outstanding (M)</td><td>53.0</td><td></td></tr><tr><td>Float",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "94931e50d8cd0fdc",
+        "value": 26947.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "tr><td>Average 10-Day Volume (M)</td><td>813</td><td></td></tr><tr><td>Enterprise Value (M)</td><td>$26,947</td><td></td></tr><tr><td>52-Week Range</td><td>$108.39 - $881.13</td><td></td></tr><tr><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "4db2277b5b6d73c2",
+        "value": 108.39,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d></tr><tr><td>Enterprise Value (M)</td><td>$26,947</td><td></td></tr><tr><td>52-Week Range</td><td>$108.39 - $881.13</td><td></td></tr><tr><td>Fiscal Year End</td><td>Dec</td><td></td></tr></table> E",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d3b867fdea064d5e",
+        "value": 881.13,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>Enterprise Value (M)</td><td>$26,947</td><td></td></tr><tr><td>52-Week Range</td><td>$108.39 - $881.13</td><td></td></tr><tr><td>Fiscal Year End</td><td>Dec</td><td></td></tr></table> Earnings Su",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "bcd07341c821e60c",
+        "value": 617.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "evenue (M)</td><td>Q1</td><td>2024</td><td>2025E</td><td>2026E</td></tr><tr><td></td><td>Q1</td><td>$617</td><td>$714A</td><td>$830</td></tr><tr><td></td><td>Q2</td><td>$637</td><td>$740</td><td>$860<",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a85a66928f97641b",
+        "value": 714.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>Q1</td><td>2024</td><td>2025E</td><td>2026E</td></tr><tr><td></td><td>Q1</td><td>$617</td><td>$714A</td><td>$830</td></tr><tr><td></td><td>Q2</td><td>$637</td><td>$740</td><td>$860</td></tr><tr>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "3708fcb1a84869f3",
+        "value": 830.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>2024</td><td>2025E</td><td>2026E</td></tr><tr><td></td><td>Q1</td><td>$617</td><td>$714A</td><td>$830</td></tr><tr><td></td><td>Q2</td><td>$637</td><td>$740</td><td>$860</td></tr><tr><td></td><td>Q",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "49e2fd351fdb42a2",
+        "value": 637.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "tr><tr><td></td><td>Q1</td><td>$617</td><td>$714A</td><td>$830</td></tr><tr><td></td><td>Q2</td><td>$637</td><td>$740</td><td>$860</td></tr><tr><td></td><td>Q3</td><td>$670</td><td>$774</td><td>$898</",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d2d1476907595358",
+        "value": 740.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>Q1</td><td>$617</td><td>$714A</td><td>$830</td></tr><tr><td></td><td>Q2</td><td>$637</td><td>$740</td><td>$860</td></tr><tr><td></td><td>Q3</td><td>$670</td><td>$774</td><td>$898</td></tr><tr><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "0438d651cb82880f",
+        "value": 860.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>$617</td><td>$714A</td><td>$830</td></tr><tr><td></td><td>Q2</td><td>$637</td><td>$740</td><td>$860</td></tr><tr><td></td><td>Q3</td><td>$670</td><td>$774</td><td>$898</td></tr><tr><td></td><td>Q",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "b45d4e479b23fe23",
+        "value": 670.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/tr><tr><td></td><td>Q2</td><td>$637</td><td>$740</td><td>$860</td></tr><tr><td></td><td>Q3</td><td>$670</td><td>$774</td><td>$898</td></tr><tr><td></td><td>Q4</td><td>$703</td><td>$813</td><td>$943</",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e12f1c561cd01d73",
+        "value": 774.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>Q2</td><td>$637</td><td>$740</td><td>$860</td></tr><tr><td></td><td>Q3</td><td>$670</td><td>$774</td><td>$898</td></tr><tr><td></td><td>Q4</td><td>$703</td><td>$813</td><td>$943</td></tr><tr><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "bae888eb9eda5c40",
+        "value": 898.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>$637</td><td>$740</td><td>$860</td></tr><tr><td></td><td>Q3</td><td>$670</td><td>$774</td><td>$898</td></tr><tr><td></td><td>Q4</td><td>$703</td><td>$813</td><td>$943</td></tr><tr><td></td><td>F",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "2214416777f98366",
+        "value": 703.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/tr><tr><td></td><td>Q3</td><td>$670</td><td>$774</td><td>$898</td></tr><tr><td></td><td>Q4</td><td>$703</td><td>$813</td><td>$943</td></tr><tr><td></td><td>FY</td><td>$2,628</td><td>$3,041</td><td>$3",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ff9ddc5bbb28958c",
+        "value": 813.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>Q3</td><td>$670</td><td>$774</td><td>$898</td></tr><tr><td></td><td>Q4</td><td>$703</td><td>$813</td><td>$943</td></tr><tr><td></td><td>FY</td><td>$2,628</td><td>$3,041</td><td>$3,532</td></tr",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "8a6685a891311bfd",
+        "value": 943.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>$670</td><td>$774</td><td>$898</td></tr><tr><td></td><td>Q4</td><td>$703</td><td>$813</td><td>$943</td></tr><tr><td></td><td>FY</td><td>$2,628</td><td>$3,041</td><td>$3,532</td></tr><tr><td>EPS<",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5c11b6ca23fdb71b",
+        "value": 2628.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/tr><tr><td></td><td>Q4</td><td>$703</td><td>$813</td><td>$943</td></tr><tr><td></td><td>FY</td><td>$2,628</td><td>$3,041</td><td>$3,532</td></tr><tr><td>EPS</td><td>Q1</td><td>$1.68</td><td>$1.78A</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "b5e115e333a13b45",
+        "value": 3041.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>Q4</td><td>$703</td><td>$813</td><td>$943</td></tr><tr><td></td><td>FY</td><td>$2,628</td><td>$3,041</td><td>$3,532</td></tr><tr><td>EPS</td><td>Q1</td><td>$1.68</td><td>$1.78A</td><td>$2.09</td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "0ef37dfaeb250188",
+        "value": 3532.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>$703</td><td>$813</td><td>$943</td></tr><tr><td></td><td>FY</td><td>$2,628</td><td>$3,041</td><td>$3,532</td></tr><tr><td>EPS</td><td>Q1</td><td>$1.68</td><td>$1.78A</td><td>$2.09</td></tr><tr><td><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "1d5182fe16233a4b",
+        "value": 1.68,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td></td><td>FY</td><td>$2,628</td><td>$3,041</td><td>$3,532</td></tr><tr><td>EPS</td><td>Q1</td><td>$1.68</td><td>$1.78A</td><td>$2.09</td></tr><tr><td></td><td>Q2</td><td>$1.94</td><td>$2.11</td><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "f33ca3db3dea8139",
+        "value": 1.78,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$2,628</td><td>$3,041</td><td>$3,532</td></tr><tr><td>EPS</td><td>Q1</td><td>$1.68</td><td>$1.78A</td><td>$2.09</td></tr><tr><td></td><td>Q2</td><td>$1.94</td><td>$2.11</td><td>$2.54</td></tr",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ba8f76ce03e3f45a",
+        "value": 2.09,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$3,041</td><td>$3,532</td></tr><tr><td>EPS</td><td>Q1</td><td>$1.68</td><td>$1.78A</td><td>$2.09</td></tr><tr><td></td><td>Q2</td><td>$1.94</td><td>$2.11</td><td>$2.54</td></tr><tr><td></td><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5a6b49f75811908f",
+        "value": 1.94,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>EPS</td><td>Q1</td><td>$1.68</td><td>$1.78A</td><td>$2.09</td></tr><tr><td></td><td>Q2</td><td>$1.94</td><td>$2.11</td><td>$2.54</td></tr><tr><td></td><td>Q3</td><td>$2.18</td><td>$2.54</td><td>$",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "9df78fc597d42902",
+        "value": 2.11,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>Q1</td><td>$1.68</td><td>$1.78A</td><td>$2.09</td></tr><tr><td></td><td>Q2</td><td>$1.94</td><td>$2.11</td><td>$2.54</td></tr><tr><td></td><td>Q3</td><td>$2.18</td><td>$2.54</td><td>$3.16</td></tr>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "258ba49519feb69b",
+        "value": 2.54,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "$1.68</td><td>$1.78A</td><td>$2.09</td></tr><tr><td></td><td>Q2</td><td>$1.94</td><td>$2.11</td><td>$2.54</td></tr><tr><td></td><td>Q3</td><td>$2.18</td><td>$2.54</td><td>$3.16</td></tr><tr><td></td><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e6a1f95af3cc3138",
+        "value": 2.18,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><tr><td></td><td>Q2</td><td>$1.94</td><td>$2.11</td><td>$2.54</td></tr><tr><td></td><td>Q3</td><td>$2.18</td><td>$2.54</td><td>$3.16</td></tr><tr><td></td><td>Q4</td><td>$2.32</td><td>$2.90</td><td>$",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "f062cbc5d380b9fd",
+        "value": 2.54,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>Q2</td><td>$1.94</td><td>$2.11</td><td>$2.54</td></tr><tr><td></td><td>Q3</td><td>$2.18</td><td>$2.54</td><td>$3.16</td></tr><tr><td></td><td>Q4</td><td>$2.32</td><td>$2.90</td><td>$3.57</td></tr>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "18aad1068efd322d",
+        "value": 3.16,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">$1.94</td><td>$2.11</td><td>$2.54</td></tr><tr><td></td><td>Q3</td><td>$2.18</td><td>$2.54</td><td>$3.16</td></tr><tr><td></td><td>Q4</td><td>$2.32</td><td>$2.90</td><td>$3.57</td></tr><tr><td></td><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d693475a93450e8c",
+        "value": 2.32,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><tr><td></td><td>Q3</td><td>$2.18</td><td>$2.54</td><td>$3.16</td></tr><tr><td></td><td>Q4</td><td>$2.32</td><td>$2.90</td><td>$3.57</td></tr><tr><td></td><td>FY</td><td>$8.12</td><td>$9.32</td><td>$",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "4b111ebd2434adb3",
+        "value": 2.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>Q3</td><td>$2.18</td><td>$2.54</td><td>$3.16</td></tr><tr><td></td><td>Q4</td><td>$2.32</td><td>$2.90</td><td>$3.57</td></tr><tr><td></td><td>FY</td><td>$8.12</td><td>$9.32</td><td>$11.36</td></tr",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "4a659b24b43cc75e",
+        "value": 3.57,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">$2.18</td><td>$2.54</td><td>$3.16</td></tr><tr><td></td><td>Q4</td><td>$2.32</td><td>$2.90</td><td>$3.57</td></tr><tr><td></td><td>FY</td><td>$8.12</td><td>$9.32</td><td>$11.36</td></tr></table> ![Fi",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "69a5d06356376179",
+        "value": 8.12,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><tr><td></td><td>Q4</td><td>$2.32</td><td>$2.90</td><td>$3.57</td></tr><tr><td></td><td>FY</td><td>$8.12</td><td>$9.32</td><td>$11.36</td></tr></table> ![Figure 0-1](images/0_1.jpg) <center>1 Year Pr",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "486acdbf38f538f6",
+        "value": 9.32,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>Q4</td><td>$2.32</td><td>$2.90</td><td>$3.57</td></tr><tr><td></td><td>FY</td><td>$8.12</td><td>$9.32</td><td>$11.36</td></tr></table> ![Figure 0-1](images/0_1.jpg) <center>1 Year Price History </",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "f0aec82a29462811",
+        "value": 11.36,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">$2.32</td><td>$2.90</td><td>$3.57</td></tr><tr><td></td><td>FY</td><td>$8.12</td><td>$9.32</td><td>$11.36</td></tr></table> ![Figure 0-1](images/0_1.jpg) <center>1 Year Price History </center> ![Figu",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a09ca46b4c0b6da9",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ", will be interested to see if any update to the current medium/longer term margin guides (FY26 18- 20%, FY27 20- 22%, LT 25%) given the progress towards these targets over the last 3 years (current F",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4d3a04959b4525f3",
+        "value": 0.22,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rested to see if any update to the current medium/longer term margin guides (FY26 18- 20%, FY27 20- 22%, LT 25%) given the progress towards these targets over the last 3 years (current FY25 guide of \\",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2a16c904a8020194",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "o see if any update to the current medium/longer term margin guides (FY26 18- 20%, FY27 20- 22%, LT 25%) given the progress towards these targets over the last 3 years (current FY25 guide of \\(\\sim 18",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9dfcb0dc4e54d4ce",
+        "value": 0.26,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "lize the likelihood of seeing revenue reacceleration into the 2H and potentially into FY26 - as the 26% growth mark remains a key 'optical differentiator' for investors evaluating a large software lan",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "12f4b59c2bc5f391",
+        "value": -0.99,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "the SMB exposure will likely limit gross retention from ever reaching ServiceNow-esque levels of 98-99%, expect that shifting north of 90% would be a nice milestone. Additionally, with a larger portio",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c88337c029bb9c1c",
+        "value": 0.9,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "gross retention from ever reaching ServiceNow-esque levels of 98-99%, expect that shifting north of 90% would be a nice milestone. Additionally, with a larger portion of customers now 'right-sized' in",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b44148caf33e26d4",
+        "value": 0.209,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>CY P/E</td></tr><tr><td>Microsoft</td><td>MSFT</td><td>OP</td><td>$625</td><td>$509.64</td><td>20.9%</td><td>3,788,239</td><td>3,765,942</td><td>346,432</td><td>397,513</td><td>14.6%</td><td>14.7",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "af85febe203cfdd8",
+        "value": 0.146,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>$509.64</td><td>20.9%</td><td>3,788,239</td><td>3,765,942</td><td>346,432</td><td>397,513</td><td>14.6%</td><td>14.7%</td><td>15.9%</td><td>18.0%</td><td>10.9x</td><td>9.5x</td><td>44.2x</td><td>33.",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "d342e20cb6b8ca35",
+        "value": 0.147,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>20.9%</td><td>3,788,239</td><td>3,765,942</td><td>346,432</td><td>397,513</td><td>14.6%</td><td>14.7%</td><td>15.9%</td><td>18.0%</td><td>10.9x</td><td>9.5x</td><td>44.2x</td><td>33.1x</td><td>30.",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "6fc518886ed69f67",
+        "value": 0.159,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>3,788,239</td><td>3,765,942</td><td>346,432</td><td>397,513</td><td>14.6%</td><td>14.7%</td><td>15.9%</td><td>18.0%</td><td>10.9x</td><td>9.5x</td><td>44.2x</td><td>33.1x</td><td>30.1x</td><td>25.",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "3c2eee141c577530",
+        "value": 0.18,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>3,765,942</td><td>346,432</td><td>397,513</td><td>14.6%</td><td>14.7%</td><td>15.9%</td><td>18.0%</td><td>10.9x</td><td>9.5x</td><td>44.2x</td><td>33.1x</td><td>30.1x</td><td>25.5x</td></tr><t",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "35c86a563c5a0eaf",
+        "value": 0.442,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>25.5x</td></tr><tr><td>Oracle</td><td>ORCL</td><td>OP</td><td>$270</td><td>$240.32</td><td>44.2%</td><td>675,019</td><td>791,467</td><td>74,508</td><td>90,233</td><td>13.1%</td><td>18.4%</td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "93a051d90526d269",
+        "value": 0.131,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>$240.32</td><td>44.2%</td><td>675,019</td><td>791,467</td><td>74,508</td><td>90,233</td><td>13.1%</td><td>18.4%</td><td>21.1%</td><td>41.9%</td><td>41.7%</td><td>-61bps</td><td>-238bps</td><td",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "676eaeb0b792aa9d",
+        "value": 0.184,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2</td><td>44.2%</td><td>675,019</td><td>791,467</td><td>74,508</td><td>90,233</td><td>13.1%</td><td>18.4%</td><td>21.1%</td><td>41.9%</td><td>41.7%</td><td>-61bps</td><td>-238bps</td><td>17.0%</td><td",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "009401f115919d64",
+        "value": 0.21100000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>675,019</td><td>791,467</td><td>74,508</td><td>90,233</td><td>13.1%</td><td>18.4%</td><td>21.1%</td><td>41.9%</td><td>41.7%</td><td>-61bps</td><td>-238bps</td><td>17.0%</td><td>22.8%</td><td",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "7cf4777aeae5e195",
+        "value": 0.419,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "019</td><td>791,467</td><td>74,508</td><td>90,233</td><td>13.1%</td><td>18.4%</td><td>21.1%</td><td>41.9%</td><td>41.7%</td><td>-61bps</td><td>-238bps</td><td>17.0%</td><td>22.8%</td><td>10.6x</td><td",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "32e62341bf33d22c",
+        "value": 0.41700000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1,467</td><td>74,508</td><td>90,233</td><td>13.1%</td><td>18.4%</td><td>21.1%</td><td>41.9%</td><td>41.7%</td><td>-61bps</td><td>-238bps</td><td>17.0%</td><td>22.8%</td><td>10.6x</td><td>8.8x</td></tr",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "de32a6392fa4b7f8",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "3.1%</td><td>18.4%</td><td>21.1%</td><td>41.9%</td><td>41.7%</td><td>-61bps</td><td>-238bps</td><td>17.0%</td><td>22.8%</td><td>10.6x</td><td>8.8x</td></tr><tr><td>Palantir</td><td>PLTR</td><td>NR</td",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "4743fffc6675c8d7",
+        "value": 0.228,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8.4%</td><td>21.1%</td><td>41.9%</td><td>41.7%</td><td>-61bps</td><td>-238bps</td><td>17.0%</td><td>22.8%</td><td>10.6x</td><td>8.8x</td></tr><tr><td>Palantir</td><td>PLTR</td><td>NR</td><td>NA</td><t",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "6d5e2765b1bcc323",
+        "value": 1.091,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "x</td><td>8.8x</td></tr><tr><td>Palantir</td><td>PLTR</td><td>NR</td><td>NA</td><td>$158.12</td><td>109.1%</td><td>375,115</td><td>401,889</td><td>5,596</td><td>7,559</td><td>44.6%</td><td>35.1%</td><",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "f879a0c1d99fd0d1",
+        "value": 0.446,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>$158.12</td><td>109.1%</td><td>375,115</td><td>401,889</td><td>5,596</td><td>7,559</td><td>44.6%</td><td>35.1%</td><td>35.1%</td><td>46.2%</td><td>45.6%</td><td>-13bps</td><td>-598ps</td><td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "f3eb771f6103d33f",
+        "value": 0.35100000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "12</td><td>109.1%</td><td>375,115</td><td>401,889</td><td>5,596</td><td>7,559</td><td>44.6%</td><td>35.1%</td><td>35.1%</td><td>46.2%</td><td>45.6%</td><td>-13bps</td><td>-598ps</td><td>30.2%</td><td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "bcd835fa4b4bcfec",
+        "value": 0.35100000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".1%</td><td>375,115</td><td>401,889</td><td>5,596</td><td>7,559</td><td>44.6%</td><td>35.1%</td><td>35.1%</td><td>46.2%</td><td>45.6%</td><td>-13bps</td><td>-598ps</td><td>30.2%</td><td>34.9%</td><td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "bed4e551d0ba846d",
+        "value": 0.462,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5,115</td><td>401,889</td><td>5,596</td><td>7,559</td><td>44.6%</td><td>35.1%</td><td>35.1%</td><td>46.2%</td><td>45.6%</td><td>-13bps</td><td>-598ps</td><td>30.2%</td><td>34.9%</td><td>71.8x</td><td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "51854282e59020cf",
+        "value": 0.456,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "401,889</td><td>5,596</td><td>7,559</td><td>44.6%</td><td>35.1%</td><td>35.1%</td><td>46.2%</td><td>45.6%</td><td>-13bps</td><td>-598ps</td><td>30.2%</td><td>34.9%</td><td>71.8x</td><td>53.2x</td></tr",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "a7615a873fec33ee",
+        "value": 0.302,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "44.6%</td><td>35.1%</td><td>35.1%</td><td>46.2%</td><td>45.6%</td><td>-13bps</td><td>-598ps</td><td>30.2%</td><td>34.9%</td><td>71.8x</td><td>53.2x</td></tr><tr><td>SAP</td><td>SAP</td><td>IL</td><td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "75f6f9a1bf638e84",
+        "value": 0.349,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "35.1%</td><td>35.1%</td><td>46.2%</td><td>45.6%</td><td>-13bps</td><td>-598ps</td><td>30.2%</td><td>34.9%</td><td>71.8x</td><td>53.2x</td></tr><tr><td>SAP</td><td>SAP</td><td>IL</td><td>€275</td><td>€",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "ab68405f692df6b2",
+        "value": 0.11900000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1.8x</td><td>53.2x</td></tr><tr><td>SAP</td><td>SAP</td><td>IL</td><td>€275</td><td>€275.40</td><td>11.9%</td><td>334,867</td><td>295,953</td><td>48,554</td><td>54,924</td><td>22.2%</td><td>11.5%</td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "a530a8df4d088a49",
+        "value": 0.222,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>€275.40</td><td>11.9%</td><td>334,867</td><td>295,953</td><td>48,554</td><td>54,924</td><td>22.2%</td><td>11.5%</td><td>13.1%</td><td>29.2%</td><td>30.2%</td><td>140bps</td><td>107bps</td><td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "7d71288aa1376993",
+        "value": 0.115,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0</td><td>11.9%</td><td>334,867</td><td>295,953</td><td>48,554</td><td>54,924</td><td>22.2%</td><td>11.5%</td><td>13.1%</td><td>29.2%</td><td>30.2%</td><td>140bps</td><td>107bps</td><td>18.4%</td><td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "2e580626c8abe1f5",
+        "value": 0.131,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>334,867</td><td>295,953</td><td>48,554</td><td>54,924</td><td>22.2%</td><td>11.5%</td><td>13.1%</td><td>29.2%</td><td>30.2%</td><td>140bps</td><td>107bps</td><td>18.4%</td><td>19.6%</td><td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "23761786878f629e",
+        "value": 0.292,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "867</td><td>295,953</td><td>48,554</td><td>54,924</td><td>22.2%</td><td>11.5%</td><td>13.1%</td><td>29.2%</td><td>30.2%</td><td>140bps</td><td>107bps</td><td>18.4%</td><td>19.6%</td><td>6.1x</td><td>5",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "c6e4352252921eac",
+        "value": 0.302,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5,953</td><td>48,554</td><td>54,924</td><td>22.2%</td><td>11.5%</td><td>13.1%</td><td>29.2%</td><td>30.2%</td><td>140bps</td><td>107bps</td><td>18.4%</td><td>19.6%</td><td>6.1x</td><td>5.4x</td><td>25",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "da9855e35a7ed1b3",
+        "value": 0.184,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "22.2%</td><td>11.5%</td><td>13.1%</td><td>29.2%</td><td>30.2%</td><td>140bps</td><td>107bps</td><td>18.4%</td><td>19.6%</td><td>6.1x</td><td>5.4x</td><td>25.7x</td><td>22.1x</td></tr><tr><td>Salesforc",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "967cabbfb92cf63e",
+        "value": 0.196,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "11.5%</td><td>13.1%</td><td>29.2%</td><td>30.2%</td><td>140bps</td><td>107bps</td><td>18.4%</td><td>19.6%</td><td>6.1x</td><td>5.4x</td><td>25.7x</td><td>22.1x</td></tr><tr><td>Salesforce</td><td>CRM<",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "e1202f4e079398a5",
+        "value": 0.239,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>22.1x</td></tr><tr><td>Salesforce</td><td>CRM</td><td>OP</td><td>$360</td><td>$254.53</td><td>(23.9%)</td><td>243,331</td><td>242,347</td><td>44,624</td><td>49,156</td><td>8.7%</td><td>9.1%</td><",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "5ab6a3bd9a8442b8",
+        "value": 0.087,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>$254.53</td><td>(23.9%)</td><td>243,331</td><td>242,347</td><td>44,624</td><td>49,156</td><td>8.7%</td><td>9.1%</td><td>10.2%</td><td>34.9%</td><td>36.0%</td><td>106bps</td><td>103bps</td><td>11",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "2a0b5d56f658ad0c",
+        "value": 0.091,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>(23.9%)</td><td>243,331</td><td>242,347</td><td>44,624</td><td>49,156</td><td>8.7%</td><td>9.1%</td><td>10.2%</td><td>34.9%</td><td>36.0%</td><td>106bps</td><td>103bps</td><td>11.7%</td><td>1",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "8ea75f3d1e7a1a6b",
+        "value": 0.102,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "9%)</td><td>243,331</td><td>242,347</td><td>44,624</td><td>49,156</td><td>8.7%</td><td>9.1%</td><td>10.2%</td><td>34.9%</td><td>36.0%</td><td>106bps</td><td>103bps</td><td>11.7%</td><td>15.1%</td><td>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "77f31fd813ea58fa",
+        "value": 0.349,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "3,331</td><td>242,347</td><td>44,624</td><td>49,156</td><td>8.7%</td><td>9.1%</td><td>10.2%</td><td>34.9%</td><td>36.0%</td><td>106bps</td><td>103bps</td><td>11.7%</td><td>15.1%</td><td>5.4x</td><td>4",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "d62e4a42ffb02bc2",
+        "value": 0.36,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "242,347</td><td>44,624</td><td>49,156</td><td>8.7%</td><td>9.1%</td><td>10.2%</td><td>34.9%</td><td>36.0%</td><td>106bps</td><td>103bps</td><td>11.7%</td><td>15.1%</td><td>5.4x</td><td>4.9x</td><td>15",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "46fff777881e77b1",
+        "value": 0.11699999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>8.7%</td><td>9.1%</td><td>10.2%</td><td>34.9%</td><td>36.0%</td><td>106bps</td><td>103bps</td><td>11.7%</td><td>15.1%</td><td>5.4x</td><td>4.9x</td><td>15.9x</td><td>13.6x</td><td>20.3x</td></tr><tr",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "b03c493dd4fb4cfc",
+        "value": 0.151,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">9.1%</td><td>10.2%</td><td>34.9%</td><td>36.0%</td><td>106bps</td><td>103bps</td><td>11.7%</td><td>15.1%</td><td>5.4x</td><td>4.9x</td><td>15.9x</td><td>13.6x</td><td>20.3x</td></tr><tr><td>Intuit</t",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "4d1467536b3b603f",
+        "value": 0.063,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>20.3x</td></tr><tr><td>Intuit</td><td>INTU</td><td>OP</td><td>$875</td><td>$668.20</td><td>6.3%</td><td>186,392</td><td>193,642</td><td>22,261</td><td>25,141</td><td>14.0%</td><td>12.4%</td><",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "7c16f913422bbb56",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>$668.20</td><td>6.3%</td><td>186,392</td><td>193,642</td><td>22,261</td><td>25,141</td><td>14.0%</td><td>12.4%</td><td>12.9%</td><td>41.3%</td><td>41.6%</td><td>78bps</td><td>268ps</td><td>14",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "8fad874098407a14",
+        "value": 0.124,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "20</td><td>6.3%</td><td>186,392</td><td>193,642</td><td>22,261</td><td>25,141</td><td>14.0%</td><td>12.4%</td><td>12.9%</td><td>41.3%</td><td>41.6%</td><td>78bps</td><td>268ps</td><td>14.7%</td><td>14",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "88f7dc8644615e93",
+        "value": 0.129,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>186,392</td><td>193,642</td><td>22,261</td><td>25,141</td><td>14.0%</td><td>12.4%</td><td>12.9%</td><td>41.3%</td><td>41.6%</td><td>78bps</td><td>268ps</td><td>14.7%</td><td>14.5%</td><td>8.",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "0509b5dcc6fc4b4c",
+        "value": 0.413,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "392</td><td>193,642</td><td>22,261</td><td>25,141</td><td>14.0%</td><td>12.4%</td><td>12.9%</td><td>41.3%</td><td>41.6%</td><td>78bps</td><td>268ps</td><td>14.7%</td><td>14.5%</td><td>8.7x</td><td>7.7",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "0c5912401a2c84d1",
+        "value": 0.41600000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "3,642</td><td>22,261</td><td>25,141</td><td>14.0%</td><td>12.4%</td><td>12.9%</td><td>41.3%</td><td>41.6%</td><td>78bps</td><td>268ps</td><td>14.7%</td><td>14.5%</td><td>8.7x</td><td>7.7x</td><td>26.5",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "143ed74b43c23ace",
+        "value": 0.147,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>14.0%</td><td>12.4%</td><td>12.9%</td><td>41.3%</td><td>41.6%</td><td>78bps</td><td>268ps</td><td>14.7%</td><td>14.5%</td><td>8.7x</td><td>7.7x</td><td>26.5x</td><td>23.8x</td><td>27.2x</td></tr><tr",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "099d349b0de3e2c9",
+        "value": 0.145,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>12.4%</td><td>12.9%</td><td>41.3%</td><td>41.6%</td><td>78bps</td><td>268ps</td><td>14.7%</td><td>14.5%</td><td>8.7x</td><td>7.7x</td><td>26.5x</td><td>23.8x</td><td>27.2x</td></tr><tr><td>ServiceNo",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "5b883aa82d6d3229",
+        "value": 0.124,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>27.2x</td></tr><tr><td>ServiceNow</td><td>NOW</td><td>OP</td><td>$1,125</td><td>$928.60</td><td>(12.4%)</td><td>193,149</td><td>193,977</td><td>15,647</td><td>18,607</td><td>20.0%</td><td>18.7%</td",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "4f9c9b02ae92bf3b",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>$928.60</td><td>(12.4%)</td><td>193,149</td><td>193,977</td><td>15,647</td><td>18,607</td><td>20.0%</td><td>18.7%</td><td>18.9%</td><td>31.5%</td><td>32.4%</td><td>93bps</td><td>949ps</td><td>18",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "3e474d9e81dc6f3d",
+        "value": 0.187,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>(12.4%)</td><td>193,149</td><td>193,977</td><td>15,647</td><td>18,607</td><td>20.0%</td><td>18.7%</td><td>18.9%</td><td>31.5%</td><td>32.4%</td><td>93bps</td><td>949ps</td><td>18.6%</td><td>20",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "5b286cea0b5eed08",
+        "value": 0.18899999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ")</td><td>193,149</td><td>193,977</td><td>15,647</td><td>18,607</td><td>20.0%</td><td>18.7%</td><td>18.9%</td><td>31.5%</td><td>32.4%</td><td>93bps</td><td>949ps</td><td>18.6%</td><td>20.6%</td><td>12",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "b4c88303fbfe835f",
+        "value": 0.315,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "149</td><td>193,977</td><td>15,647</td><td>18,607</td><td>20.0%</td><td>18.7%</td><td>18.9%</td><td>31.5%</td><td>32.4%</td><td>93bps</td><td>949ps</td><td>18.6%</td><td>20.6%</td><td>12.4x</td><td>10",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "094d7efaa84aeded",
+        "value": 0.588,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>Alteryx</td><td>Private Equity</td><td>12/18/23</td><td>$4,400</td><td>$48.25</td><td>58.8%</td><td>15.5%</td><td>29.4%</td><td>11.4%</td><td>4.1x</td><td>4.6x</td><td>4.1x</td><td>0.36x",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "3ffd4397130bdc16",
+        "value": 0.155,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Alteryx</td><td>Private Equity</td><td>12/18/23</td><td>$4,400</td><td>$48.25</td><td>58.8%</td><td>15.5%</td><td>29.4%</td><td>11.4%</td><td>4.1x</td><td>4.6x</td><td>4.1x</td><td>0.36x</td></tr><tr>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "709a7413af8c2eaf",
+        "value": 0.294,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Private Equity</td><td>12/18/23</td><td>$4,400</td><td>$48.25</td><td>58.8%</td><td>15.5%</td><td>29.4%</td><td>11.4%</td><td>4.1x</td><td>4.6x</td><td>4.1x</td><td>0.36x</td></tr><tr><td>New Relic<",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "c21d3934eee869aa",
+        "value": 0.114,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ty</td><td>12/18/23</td><td>$4,400</td><td>$48.25</td><td>58.8%</td><td>15.5%</td><td>29.4%</td><td>11.4%</td><td>4.1x</td><td>4.6x</td><td>4.1x</td><td>0.36x</td></tr><tr><td>New Relic</td><td>Privat",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "1ff1fea37de8444f",
+        "value": 0.175,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>New Relic</td><td>Private Equity</td><td>7/31/23</td><td>$5,700</td><td>$87.00</td><td>17.5%</td><td>22.3%</td><td>21.2%</td><td>3.9%</td><td>6.2x</td><td>6.4x</td><td>6.2x</td><td>1.59x<",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "48760bc7aa865295",
+        "value": 0.223,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ew Relic</td><td>Private Equity</td><td>7/31/23</td><td>$5,700</td><td>$87.00</td><td>17.5%</td><td>22.3%</td><td>21.2%</td><td>3.9%</td><td>6.2x</td><td>6.4x</td><td>6.2x</td><td>1.59x</td></tr><tr><",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "45ab7a1087dfb854",
+        "value": 0.212,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Private Equity</td><td>7/31/23</td><td>$5,700</td><td>$87.00</td><td>17.5%</td><td>22.3%</td><td>21.2%</td><td>3.9%</td><td>6.2x</td><td>6.4x</td><td>6.2x</td><td>1.59x</td></tr><tr><td>Qualtrics</",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "371fb866da6f1050",
+        "value": 0.039,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ity</td><td>7/31/23</td><td>$5,700</td><td>$87.00</td><td>17.5%</td><td>22.3%</td><td>21.2%</td><td>3.9%</td><td>6.2x</td><td>6.4x</td><td>6.2x</td><td>1.59x</td></tr><tr><td>Qualtrics</td><td>Private",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "03813361031b84e9",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>Qualtrics</td><td>Private Equity</td><td>3/12/23</td><td>$10,560</td><td>$18.15</td><td>6.0%</td><td>16.7%</td><td>48.5%</td><td>17.2%</td><td>6.2x</td><td>7.2x</td><td>6.2x</td><td>0.36x<",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "08dcc13192279f9d",
+        "value": 0.16699999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ualtrics</td><td>Private Equity</td><td>3/12/23</td><td>$10,560</td><td>$18.15</td><td>6.0%</td><td>16.7%</td><td>48.5%</td><td>17.2%</td><td>6.2x</td><td>7.2x</td><td>6.2x</td><td>0.36x</td></tr><tr>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "de5e98bc1e895fc2",
+        "value": 0.485,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Private Equity</td><td>3/12/23</td><td>$10,560</td><td>$18.15</td><td>6.0%</td><td>16.7%</td><td>48.5%</td><td>17.2%</td><td>6.2x</td><td>7.2x</td><td>6.2x</td><td>0.36x</td></tr><tr><td>Sumo Logic",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "8c2f01fee00fcb23",
+        "value": 0.172,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ity</td><td>3/12/23</td><td>$10,560</td><td>$18.15</td><td>6.0%</td><td>16.7%</td><td>48.5%</td><td>17.2%</td><td>6.2x</td><td>7.2x</td><td>6.2x</td><td>0.36x</td></tr><tr><td>Sumo Logic</td><td>Priva",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "99ddb4ec7416547f",
+        "value": -0.011000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>Sumo Logic</td><td>Private Equity</td><td>2/9/23</td><td>$1,195</td><td>$12.05</td><td>-1.1%</td><td>20.1%</td><td>40.3%</td><td>17.1%</td><td>3.4x</td><td>4.0x</td><td>3.4x</td><td>0.20x",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "925e21b42178a1cf",
+        "value": 0.201,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "umo Logic</td><td>Private Equity</td><td>2/9/23</td><td>$1,195</td><td>$12.05</td><td>-1.1%</td><td>20.1%</td><td>40.3%</td><td>17.1%</td><td>3.4x</td><td>4.0x</td><td>3.4x</td><td>0.20x</td></tr><tr>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "eb1e443942e32c45",
+        "value": 0.40299999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Private Equity</td><td>2/9/23</td><td>$1,195</td><td>$12.05</td><td>-1.1%</td><td>20.1%</td><td>40.3%</td><td>17.1%</td><td>3.4x</td><td>4.0x</td><td>3.4x</td><td>0.20x</td></tr><tr><td>Magnet For",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "97d7c7afbd354b24",
+        "value": 0.171,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "uity</td><td>2/9/23</td><td>$1,195</td><td>$12.05</td><td>-1.1%</td><td>20.1%</td><td>40.3%</td><td>17.1%</td><td>3.4x</td><td>4.0x</td><td>3.4x</td><td>0.20x</td></tr><tr><td>Magnet Forensics</td><td",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "ec9b6b878da36f80",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><td>Magnet Forensics</td><td>Private Equity</td><td>1/20/23</td><td>$1,090</td><td>$32.80</td><td>15.0%</td><td>11.3%</td><td>41.5%</td><td>28.5%</td><td>8.5x</td><td>11.0x</td><td>8.5x</td><td>0.30",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "9c66583e116d7692",
+        "value": 0.113,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "orensics</td><td>Private Equity</td><td>1/20/23</td><td>$1,090</td><td>$32.80</td><td>15.0%</td><td>11.3%</td><td>41.5%</td><td>28.5%</td><td>8.5x</td><td>11.0x</td><td>8.5x</td><td>0.30x</td></tr><tr",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "3cce6b980f04ae94",
+        "value": 0.415,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Private Equity</td><td>1/20/23</td><td>$1,090</td><td>$32.80</td><td>15.0%</td><td>11.3%</td><td>41.5%</td><td>28.5%</td><td>8.5x</td><td>11.0x</td><td>8.5x</td><td>0.30x</td></tr><tr><td>Coupa</td",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "c924e87140a9c682",
+        "value": 0.285,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ity</td><td>1/20/23</td><td>$1,090</td><td>$32.80</td><td>15.0%</td><td>11.3%</td><td>41.5%</td><td>28.5%</td><td>8.5x</td><td>11.0x</td><td>8.5x</td><td>0.30x</td></tr><tr><td>Coupa</td><td>Private E",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "677b10d87b16de47",
+        "value": 0.732,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>Coupa</td><td>Private Equity</td><td>12/12/22</td><td>$7,450</td><td>$81.00</td><td>73.2%</td><td>61.0%</td><td>34.1%</td><td>18.2%</td><td>7.7x</td><td>9.1x</td><td>7.7x</td><td>0.42x",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "f62b4ed5dc237db0",
+        "value": 0.61,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Coupa</td><td>Private Equity</td><td>12/12/22</td><td>$7,450</td><td>$81.00</td><td>73.2%</td><td>61.0%</td><td>34.1%</td><td>18.2%</td><td>7.7x</td><td>9.1x</td><td>7.7x</td><td>0.42x</td></tr><tr>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "fc1d1c753c78349f",
+        "value": 0.341,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Private Equity</td><td>12/12/22</td><td>$7,450</td><td>$81.00</td><td>73.2%</td><td>61.0%</td><td>34.1%</td><td>18.2%</td><td>7.7x</td><td>9.1x</td><td>7.7x</td><td>0.42x</td></tr><tr><td>UserTestin",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "416280652bdb6779",
+        "value": 0.182,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ty</td><td>12/12/22</td><td>$7,450</td><td>$81.00</td><td>73.2%</td><td>61.0%</td><td>34.1%</td><td>18.2%</td><td>7.7x</td><td>9.1x</td><td>7.7x</td><td>0.42x</td></tr><tr><td>UserTesting</td><td>Priv",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "95819955305455f9",
+        "value": 0.943,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>UserTesting</td><td>Private Equity</td><td>10/27/22</td><td>$950</td><td>$7.50</td><td>94.3%</td><td>94.8%</td><td>71.2%</td><td>20.2%</td><td>4.3x</td><td>5.1x</td><td>4.3x</td><td>0.21x",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "7026f26ce9532825",
+        "value": 0.948,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "serTesting</td><td>Private Equity</td><td>10/27/22</td><td>$950</td><td>$7.50</td><td>94.3%</td><td>94.8%</td><td>71.2%</td><td>20.2%</td><td>4.3x</td><td>5.1x</td><td>4.3x</td><td>0.21x</td></tr><tr>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "ef5f235711d80d7d",
+        "value": 0.7120000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Private Equity</td><td>10/27/22</td><td>$950</td><td>$7.50</td><td>94.3%</td><td>94.8%</td><td>71.2%</td><td>20.2%</td><td>4.3x</td><td>5.1x</td><td>4.3x</td><td>0.21x</td></tr><tr><td>KnowBe4</t",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "224efa1ff34dc41e",
+        "value": 0.20199999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "quity</td><td>10/27/22</td><td>$950</td><td>$7.50</td><td>94.3%</td><td>94.8%</td><td>71.2%</td><td>20.2%</td><td>4.3x</td><td>5.1x</td><td>4.3x</td><td>0.21x</td></tr><tr><td>KnowBe4</td><td>Private ",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "ba3ee55c0428b1c5",
+        "value": 0.135,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>KnowBe4</td><td>Private Equity</td><td>10/12/22</td><td>$4,600</td><td>$24.90</td><td>13.5%</td><td>22.1%</td><td>34.6%</td><td>19.5%</td><td>11.5x</td><td>13.8x</td><td>11.5x</td><td>0.",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "9944b40330a712f5",
+        "value": 0.221,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "KnowBe4</td><td>Private Equity</td><td>10/12/22</td><td>$4,600</td><td>$24.90</td><td>13.5%</td><td>22.1%</td><td>34.6%</td><td>19.5%</td><td>11.5x</td><td>13.8x</td><td>11.5x</td><td>0.59x</td></tr><",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "51e0cd3ac41e0863",
+        "value": 0.34600000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Private Equity</td><td>10/12/22</td><td>$4,600</td><td>$24.90</td><td>13.5%</td><td>22.1%</td><td>34.6%</td><td>19.5%</td><td>11.5x</td><td>13.8x</td><td>11.5x</td><td>0.59x</td></tr><tr><td>ForgeRo",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "76d03ebc7919e8b5",
+        "value": 0.195,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ty</td><td>10/12/22</td><td>$4,600</td><td>$24.90</td><td>13.5%</td><td>22.1%</td><td>34.6%</td><td>19.5%</td><td>11.5x</td><td>13.8x</td><td>11.5x</td><td>0.59x</td></tr><tr><td>ForgeRock</td><td>Pri",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "43f621082f63dcb8",
+        "value": 0.534,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>ForgeRock</td><td>Private Equity</td><td>10/11/22</td><td>$2,300</td><td>$23.25</td><td>53.4%</td><td>44.4%</td><td>21.6%</td><td>18.6%</td><td>9.0x</td><td>10.7x</td><td>9.0x</td><td>0.49",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "c8d6927a4af1becf",
+        "value": 0.444,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rgeRock</td><td>Private Equity</td><td>10/11/22</td><td>$2,300</td><td>$23.25</td><td>53.4%</td><td>44.4%</td><td>21.6%</td><td>18.6%</td><td>9.0x</td><td>10.7x</td><td>9.0x</td><td>0.49x</td></tr><tr",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "7b04565fc71769d1",
+        "value": 0.21600000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Private Equity</td><td>10/11/22</td><td>$2,300</td><td>$23.25</td><td>53.4%</td><td>44.4%</td><td>21.6%</td><td>18.6%</td><td>9.0x</td><td>10.7x</td><td>9.0x</td><td>0.49x</td></tr><tr><td>Avalara</",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "07800a42b9f968f0",
+        "value": 0.18600000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ty</td><td>10/11/22</td><td>$2,300</td><td>$23.25</td><td>53.4%</td><td>44.4%</td><td>21.6%</td><td>18.6%</td><td>9.0x</td><td>10.7x</td><td>9.0x</td><td>0.49x</td></tr><tr><td>Avalara</td><td>Private",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "1f7505dd96924b10",
+        "value": -0.021,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>Avalara</td><td>Private Equity</td><td>8/8/22</td><td>$8,200</td><td>$93.50</td><td>-2.1%</td><td>18.5%</td><td>9.6%</td><td>10.4%</td><td>8.5x</td><td>9.4x</td><td>8.5x</td><td>0.82x<",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "8a968d3a944faa10",
+        "value": 0.185,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Avalara</td><td>Private Equity</td><td>8/8/22</td><td>$8,200</td><td>$93.50</td><td>-2.1%</td><td>18.5%</td><td>9.6%</td><td>10.4%</td><td>8.5x</td><td>9.4x</td><td>8.5x</td><td>0.82x</td></tr><tr><",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "a2182881d4f6f752",
+        "value": 0.096,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Private Equity</td><td>8/8/22</td><td>$8,200</td><td>$93.50</td><td>-2.1%</td><td>18.5%</td><td>9.6%</td><td>10.4%</td><td>8.5x</td><td>9.4x</td><td>8.5x</td><td>0.82x</td></tr><tr><td>Ping Identi",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "103695797a5ad7a1",
+        "value": 0.10400000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "quity</td><td>8/8/22</td><td>$8,200</td><td>$93.50</td><td>-2.1%</td><td>18.5%</td><td>9.6%</td><td>10.4%</td><td>8.5x</td><td>9.4x</td><td>8.5x</td><td>0.82x</td></tr><tr><td>Ping Identity</td><td>Pr",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "3155a3bc1c2081bd",
+        "value": 0.631,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><tr><td>Ping Identity</td><td>Private Equity</td><td>8/3/22</td><td>$2,550</td><td>$28.50</td><td>63.1%</td><td>54.5%</td><td>31.9%</td><td>20.1%</td><td>6.9x</td><td>8.3x</td><td>6.9x</td><td>0.34x",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "4fa7be2a6fa9873d",
+        "value": 0.545,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Identity</td><td>Private Equity</td><td>8/3/22</td><td>$2,550</td><td>$28.50</td><td>63.1%</td><td>54.5%</td><td>31.9%</td><td>20.1%</td><td>6.9x</td><td>8.3x</td><td>6.9x</td><td>0.34x</td></tr><tr><",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "b393bc099c3ab5ce",
+        "value": 0.319,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Private Equity</td><td>8/3/22</td><td>$2,550</td><td>$28.50</td><td>63.1%</td><td>54.5%</td><td>31.9%</td><td>20.1%</td><td>6.9x</td><td>8.3x</td><td>6.9x</td><td>0.34x</td></tr><tr><td>Zendesk</t",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "bd636f9aecc08f08",
+        "value": 0.201,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "uity</td><td>8/3/22</td><td>$2,550</td><td>$28.50</td><td>63.1%</td><td>54.5%</td><td>31.9%</td><td>20.1%</td><td>6.9x</td><td>8.3x</td><td>6.9x</td><td>0.34x</td></tr><tr><td>Zendesk</td><td>Private ",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "0983992eaa5cffde",
+        "value": 0.337,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>Zendesk</td><td>Private Equity</td><td>6/24/22</td><td>$9,800</td><td>$77.50</td><td>33.7%</td><td>-5.6%</td><td>-27.0%</td><td>32.8%</td><td>5.2x</td><td>6.9x</td><td>5.2x</td><td>0.16",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "21c4ee2e72c363de",
+        "value": -0.055999999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Zendesk</td><td>Private Equity</td><td>6/24/22</td><td>$9,800</td><td>$77.50</td><td>33.7%</td><td>-5.6%</td><td>-27.0%</td><td>32.8%</td><td>5.2x</td><td>6.9x</td><td>5.2x</td><td>0.16x</td></tr><tr",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "aeb0ea7964e97e22",
+        "value": -0.27,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Private Equity</td><td>6/24/22</td><td>$9,800</td><td>$77.50</td><td>33.7%</td><td>-5.6%</td><td>-27.0%</td><td>32.8%</td><td>5.2x</td><td>6.9x</td><td>5.2x</td><td>0.16x</td></tr><tr><td>SailPoint",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "f879529a10e329c8",
+        "value": 0.32799999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ty</td><td>6/24/22</td><td>$9,800</td><td>$77.50</td><td>33.7%</td><td>-5.6%</td><td>-27.0%</td><td>32.8%</td><td>5.2x</td><td>6.9x</td><td>5.2x</td><td>0.16x</td></tr><tr><td>SailPoint</td><td>Privat",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "bdb4a7c98dc4d08d",
+        "value": 0.316,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>SailPoint</td><td>Private Equity</td><td>4/11/22</td><td>$6,200</td><td>$65.25</td><td>31.6%</td><td>36.4%</td><td>45.2%</td><td>18.4%</td><td>11.3x</td><td>13.4x</td><td>11.3x</td><td>0.",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "0981ac13e3e74abf",
+        "value": 0.364,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ailPoint</td><td>Private Equity</td><td>4/11/22</td><td>$6,200</td><td>$65.25</td><td>31.6%</td><td>36.4%</td><td>45.2%</td><td>18.4%</td><td>11.3x</td><td>13.4x</td><td>11.3x</td><td>0.62x</td></tr><",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "e1f286ece2f43a88",
+        "value": 353.96,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>Evercore ISI Target</td></tr><tr><td>ADBE</td><td>Adobe Systems Inc.</td><td>Outperform</td><td>$353.96</td><td>$475.00</td></tr><tr><td>AVPT</td><td>AvePoint, Inc</td><td>Outperform</td><td>$16.1",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "d9992d9c3e64935d",
+        "value": 475.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Target</td></tr><tr><td>ADBE</td><td>Adobe Systems Inc.</td><td>Outperform</td><td>$353.96</td><td>$475.00</td></tr><tr><td>AVPT</td><td>AvePoint, Inc</td><td>Outperform</td><td>$16.10</td><td>$22.00<",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "e8f346ed48985a27",
+        "value": 16.1,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>$353.96</td><td>$475.00</td></tr><tr><td>AVPT</td><td>AvePoint, Inc</td><td>Outperform</td><td>$16.10</td><td>$22.00</td></tr><tr><td>BLKB</td><td>Blackbaud Inc.</td><td>In Line</td><td>$66.16</t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "a56fea5ee35d4b52",
+        "value": 22.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>$475.00</td></tr><tr><td>AVPT</td><td>AvePoint, Inc</td><td>Outperform</td><td>$16.10</td><td>$22.00</td></tr><tr><td>BLKB</td><td>Blackbaud Inc.</td><td>In Line</td><td>$66.16</td><td>$80.00</t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "173aea791163a369",
+        "value": 66.16,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$16.10</td><td>$22.00</td></tr><tr><td>BLKB</td><td>Blackbaud Inc.</td><td>In Line</td><td>$66.16</td><td>$80.00</td></tr><tr><td>CCCS</td><td>CCC Intelligent Solutions Holdings In Outperform",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "585eb019aede8367",
+        "value": 80.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$22.00</td></tr><tr><td>BLKB</td><td>Blackbaud Inc.</td><td>In Line</td><td>$66.16</td><td>$80.00</td></tr><tr><td>CCCS</td><td>CCC Intelligent Solutions Holdings In Outperform</td><td></td><",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "c9421780a3f6b7ad",
+        "value": 10.03,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ".00</td></tr><tr><td>CCCS</td><td>CCC Intelligent Solutions Holdings In Outperform</td><td></td><td>$10.03</td><td>$12.00</td></tr><tr><td>CRM</td><td>salesforce.com Inc.</td><td>Outperform</td><td>$2",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "710df8aba88df781",
+        "value": 12.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "r><td>CCCS</td><td>CCC Intelligent Solutions Holdings In Outperform</td><td></td><td>$10.03</td><td>$12.00</td></tr><tr><td>CRM</td><td>salesforce.com Inc.</td><td>Outperform</td><td>$254.53</td><td>$",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "02520ac8ecaaedf6",
+        "value": 254.53,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>$10.03</td><td>$12.00</td></tr><tr><td>CRM</td><td>salesforce.com Inc.</td><td>Outperform</td><td>$254.53</td><td>$360.00</td></tr><tr><td>DDOG</td><td>Datadog Inc</td><td>Outperform</td><td>$140.96",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "cde939fe62be1158",
+        "value": 360.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">$12.00</td></tr><tr><td>CRM</td><td>salesforce.com Inc.</td><td>Outperform</td><td>$254.53</td><td>$360.00</td></tr><tr><td>DDOG</td><td>Datadog Inc</td><td>Outperform</td><td>$140.96</td><td>$170.00",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "faf9fddc08da1e08",
+        "value": 140.96,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>$254.53</td><td>$360.00</td></tr><tr><td>DDOG</td><td>Datadog Inc</td><td>Outperform</td><td>$140.96</td><td>$170.00</td></tr><tr><td>DOCU</td><td>DocuSign, Inc</td><td>In Line</td><td>$75.51</",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "7e4059202b7fcd70",
+        "value": 170.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>$360.00</td></tr><tr><td>DDOG</td><td>Datadog Inc</td><td>Outperform</td><td>$140.96</td><td>$170.00</td></tr><tr><td>DOCU</td><td>DocuSign, Inc</td><td>In Line</td><td>$75.51</td><td>$90.00</t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "3d2a7fae57168080",
+        "value": 75.51,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>$140.96</td><td>$170.00</td></tr><tr><td>DOCU</td><td>DocuSign, Inc</td><td>In Line</td><td>$75.51</td><td>$90.00</td></tr><tr><td>EVCM</td><td>EverCommerce Inc</td><td>Outperform</td><td>$11.",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "e7409a8994b0f481",
+        "value": 90.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$170.00</td></tr><tr><td>DOCU</td><td>DocuSign, Inc</td><td>In Line</td><td>$75.51</td><td>$90.00</td></tr><tr><td>EVCM</td><td>EverCommerce Inc</td><td>Outperform</td><td>$11.40</td><td>$11.",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "d7da4eecaa349413",
+        "value": 11.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$75.51</td><td>$90.00</td></tr><tr><td>EVCM</td><td>EverCommerce Inc</td><td>Outperform</td><td>$11.40</td><td>$11.00</td></tr><tr><td>HUBS</td><td>HubSpot, Inc</td><td>In Line</td><td>$476.34</td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "51a4001efb63f5c0",
+        "value": 11.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$90.00</td></tr><tr><td>EVCM</td><td>EverCommerce Inc</td><td>Outperform</td><td>$11.40</td><td>$11.00</td></tr><tr><td>HUBS</td><td>HubSpot, Inc</td><td>In Line</td><td>$476.34</td><td>$650.00</t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "307b64f4c1bd51f9",
+        "value": 476.34,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "rm</td><td>$11.40</td><td>$11.00</td></tr><tr><td>HUBS</td><td>HubSpot, Inc</td><td>In Line</td><td>$476.34</td><td>$650.00</td></tr><tr><td>INTU</td><td>Intuit Inc.</td><td>Outperform</td><td>$668.20",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "2b2fdaacd8f0bfb5",
+        "value": 650.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "0</td><td>$11.00</td></tr><tr><td>HUBS</td><td>HubSpot, Inc</td><td>In Line</td><td>$476.34</td><td>$650.00</td></tr><tr><td>INTU</td><td>Intuit Inc.</td><td>Outperform</td><td>$668.20</td><td>$875.00",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "3ee1f9b66bb506f5",
+        "value": 668.2,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>$476.34</td><td>$650.00</td></tr><tr><td>INTU</td><td>Intuit Inc.</td><td>Outperform</td><td>$668.20</td><td>$875.00</td></tr><tr><td>IOT</td><td>Samsara Inc</td><td>In Line</td><td>$36.45</td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "3a6c35dc0375f1f5",
+        "value": 875.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>$650.00</td></tr><tr><td>INTU</td><td>Intuit Inc.</td><td>Outperform</td><td>$668.20</td><td>$875.00</td></tr><tr><td>IOT</td><td>Samsara Inc</td><td>In Line</td><td>$36.45</td><td>$45.00</td><",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "ea909adc56ac74b6",
+        "value": 36.45,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "rm</td><td>$668.20</td><td>$875.00</td></tr><tr><td>IOT</td><td>Samsara Inc</td><td>In Line</td><td>$36.45</td><td>$45.00</td></tr><tr><td>MSFT</td><td>Microsoft Corporation</td><td>Outperform</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "a87c0ee1907ca3be",
+        "value": 45.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ".20</td><td>$875.00</td></tr><tr><td>IOT</td><td>Samsara Inc</td><td>In Line</td><td>$36.45</td><td>$45.00</td></tr><tr><td>MSFT</td><td>Microsoft Corporation</td><td>Outperform</td><td>$509.64</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "b7bfd0403ba11078",
+        "value": 509.64,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "36.45</td><td>$45.00</td></tr><tr><td>MSFT</td><td>Microsoft Corporation</td><td>Outperform</td><td>$509.64</td><td>$625.00</td></tr><tr><td>NOW</td><td>ServiceNow, Inc.</td><td>Outperform</td><td>$92",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "e7cff90a03f3bf16",
+        "value": 625.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "5.00</td></tr><tr><td>MSFT</td><td>Microsoft Corporation</td><td>Outperform</td><td>$509.64</td><td>$625.00</td></tr><tr><td>NOW</td><td>ServiceNow, Inc.</td><td>Outperform</td><td>$928.60</td><td>$11",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "ecbc2f02170f6619",
+        "value": 928.6,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$509.64</td><td>$625.00</td></tr><tr><td>NOW</td><td>ServiceNow, Inc.</td><td>Outperform</td><td>$928.60</td><td>$1125.00</td></tr><tr><td>ORCL</td><td>Oracle Corporation</td><td>Outperform</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "a31f3b1a204bc06d",
+        "value": 1125.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$625.00</td></tr><tr><td>NOW</td><td>ServiceNow, Inc.</td><td>Outperform</td><td>$928.60</td><td>$1125.00</td></tr><tr><td>ORCL</td><td>Oracle Corporation</td><td>Outperform</td><td>$240.32</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "d1440bcbe9891e46",
+        "value": 240.32,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "928.60</td><td>$1125.00</td></tr><tr><td>ORCL</td><td>Oracle Corporation</td><td>Outperform</td><td>$240.32</td><td>$270.00</td></tr><tr><td>PATH</td><td>UiPath, Inc</td><td>In Line</td><td>$11.26</td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "87a5649fa2763020",
+        "value": 270.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "1125.00</td></tr><tr><td>ORCL</td><td>Oracle Corporation</td><td>Outperform</td><td>$240.32</td><td>$270.00</td></tr><tr><td>PATH</td><td>UiPath, Inc</td><td>In Line</td><td>$11.26</td><td>$15.00</td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "3926f50b868fbf4a",
+        "value": 11.26,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "m</td><td>$240.32</td><td>$270.00</td></tr><tr><td>PATH</td><td>UiPath, Inc</td><td>In Line</td><td>$11.26</td><td>$15.00</td></tr><tr><td>RAMP</td><td>LiveRamp Holdings, Inc</td><td>Outperform</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "9c7c30ed87626a4b",
+        "value": 15.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "32</td><td>$270.00</td></tr><tr><td>PATH</td><td>UiPath, Inc</td><td>In Line</td><td>$11.26</td><td>$15.00</td></tr><tr><td>RAMP</td><td>LiveRamp Holdings, Inc</td><td>Outperform</td><td>$27.62</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "6c389c5c91b18186",
+        "value": 27.62,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "1.26</td><td>$15.00</td></tr><tr><td>RAMP</td><td>LiveRamp Holdings, Inc</td><td>Outperform</td><td>$27.62</td><td>$37.00</td></tr><tr><td>SAP-ETR</td><td>SAP SE</td><td>In Line</td><td>€236.35</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "0fe955a864efcb51",
+        "value": 37.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "5.00</td></tr><tr><td>RAMP</td><td>LiveRamp Holdings, Inc</td><td>Outperform</td><td>$27.62</td><td>$37.00</td></tr><tr><td>SAP-ETR</td><td>SAP SE</td><td>In Line</td><td>€236.35</td><td>€275.00</td><",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "fc7a1e58a3398041",
+        "value": 236.35,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "rform</td><td>$27.62</td><td>$37.00</td></tr><tr><td>SAP-ETR</td><td>SAP SE</td><td>In Line</td><td>€236.35</td><td>€275.00</td></tr><tr><td>SNOW</td><td>Snowflake, Inc.</td><td>Outperform</td><td>$24",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "93107385e521e500",
+        "value": 275.0,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "7.62</td><td>$37.00</td></tr><tr><td>SAP-ETR</td><td>SAP SE</td><td>In Line</td><td>€236.35</td><td>€275.00</td></tr><tr><td>SNOW</td><td>Snowflake, Inc.</td><td>Outperform</td><td>$241.00</td><td>$28",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "b54f978941053f80",
+        "value": 241.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>€236.35</td><td>€275.00</td></tr><tr><td>SNOW</td><td>Snowflake, Inc.</td><td>Outperform</td><td>$241.00</td><td>$280.00</td></tr><tr><td>TYL</td><td>Tyler Technologies, Inc.</td><td>In Line</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "244c6f18161fe118",
+        "value": 280.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>€275.00</td></tr><tr><td>SNOW</td><td>Snowflake, Inc.</td><td>Outperform</td><td>$241.00</td><td>$280.00</td></tr><tr><td>TYL</td><td>Tyler Technologies, Inc.</td><td>In Line</td><td>$556.28</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "82ce780203e06644",
+        "value": 556.28,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "41.00</td><td>$280.00</td></tr><tr><td>TYL</td><td>Tyler Technologies, Inc.</td><td>In Line</td><td>$556.28</td><td>$595.00</td></tr><tr><td>VEEV</td><td>Veeva Systems Inc.</td><td>In Line</td><td>$27",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "1d78caa32685c35d",
+        "value": 595.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "80.00</td></tr><tr><td>TYL</td><td>Tyler Technologies, Inc.</td><td>In Line</td><td>$556.28</td><td>$595.00</td></tr><tr><td>VEEV</td><td>Veeva Systems Inc.</td><td>In Line</td><td>$272.33</td><td>$29",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "8f4f59ab611bd210",
+        "value": 272.33,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$556.28</td><td>$595.00</td></tr><tr><td>VEEV</td><td>Veeva Systems Inc.</td><td>In Line</td><td>$272.33</td><td>$295.00</td></tr><tr><td>WDAY</td><td>Workday, Inc.</td><td>Outperform</td><td>$228.",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "9269c651b2deb078",
+        "value": 295.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$595.00</td></tr><tr><td>VEEV</td><td>Veeva Systems Inc.</td><td>In Line</td><td>$272.33</td><td>$295.00</td></tr><tr><td>WDAY</td><td>Workday, Inc.</td><td>Outperform</td><td>$228.50</td><td>$275.",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "df46cbb7e0039804",
+        "value": 228.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>$272.33</td><td>$295.00</td></tr><tr><td>WDAY</td><td>Workday, Inc.</td><td>Outperform</td><td>$228.50</td><td>$275.00</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "212613f2e53cd0c5",
+        "value": 275.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>$295.00</td></tr><tr><td>WDAY</td><td>Workday, Inc.</td><td>Outperform</td><td>$228.50</td><td>$275.00</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 9
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 9,
+      "tables_count": 0,
+      "numerical_data_count": 182,
+      "passages_count": 61,
+      "entities_count": 20
+    }
+  }
+}

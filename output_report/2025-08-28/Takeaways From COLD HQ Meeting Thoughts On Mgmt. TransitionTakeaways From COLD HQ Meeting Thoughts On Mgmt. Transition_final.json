@@ -1,0 +1,542 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "3e8f3bdbffcaa088e3185c5f39653c4a",
+    "title": "EVERCORE ISI",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Evercore/Takeaways From COLD HQ Meeting Thoughts On Mgmt. TransitionTakeaways From COLD HQ Meeting Thoughts On Mgmt. Transition_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:45:32.402094",
+      "extracted_at": "2025-10-26T11:45:32.402109"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 6,
+        "successful_pages": 6,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Evercore",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 2,
+          "reduction_ratio": 0.1799165120593692
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Evercore"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "d10eac25d3d2939a",
+      "text": "Amercild Realty Trust COLD| \\(14.90\\) Outperform|Target Price/Base Case: \\(\\) 2000$ Commentary",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "062caa5fde5469e5",
+      "text": "We had the opportunity to visit Americold's headquarters in Atlanta this week and sit down with recently appointed CEO Rob Chambers who is taking over for outgoing CEO George Chappelle (LINK). Discussion topics included the leadership transition, operations, supply dynamics and Mr. Chambers' perspectives as he steps into the CEO role. Below we highlight important takeaways:",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4a6c3b87c0ece5eb",
+      "text": "1. Mr. Chapelle's decision to retire was personal and not prompted by the board nor related to any performance issues. As a reminder, Mr. Chappelle stepped into the role in 2021 as interim CEO before being appointed permanent CEO in February 2022. Previously, Mr. Chappelle had served as Chairman of Agro Merchants Group which was acquired by COLD in 2020 and had extensive executive experience in the food manufacturing industry.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "7c2279eb8a57afcc",
+      "text": "2. Although abrupt management changes are never easy, Mr. Chambers is well-known to the investment community and provides both continuity within the organization as well as a chance to offer a fresh perspective as the new CEO. Mr. Chambers has held various executive leadership positions at COLD since rejoining in 2020 after a stint as CFO of Saia, a trucking transportation and logistics provider. With a background in operations, logistics, and supply chain management, Mr. Chambers has led key initiatives at COLD such as the rollout and implementation of the Orion enterprise resource planning system.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "7d98fcbd740f4a89",
+      "text": "3. The structural and cyclical headwinds that COLD faces will not be resolved in the short-term and Mr. Chambers will likely take some time to formulate his long-term strategic vision for the company. That said, he highlighted a few areas where COLD can continue to improve upon. These include expanding its presence in food service and retail distribution centers, working to optimize and refine revenue streams (both fixed commits and variable contracts) and value-add services, and growing its international operations, particularly in APAC where they have seen stronger customer demand relative to the US.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "728b32b67c18d91e",
+      "text": "4. The seasonal uptick in the recent USDA data was positively received by the market, though COLD remains conservative with their 2H25 expectations and cautioned that while last Friday's release was better than anticipated, one data point does not make a trend.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "577a33d8a458c621",
+      "text": "5. COLD continues to take a selective approach to external growth, avoiding to do deals purely for scale. Strategic partnerships with CPKC and DP World on projects such as the import-export hub in Dubai and the rail-attached facility in Kansas City offer COLD's customers additional value-add services and provides more certainty vs. traditional greenfield developments.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1675b23e350597bf",
+      "text": "Our price target is based on a weighting between our fwd NAV, our DCF estimate, and a targeted AFFO multiple applied to our forward AFFO estimate.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "3094edc1785c00bf",
+      "text": "Food manufacturers producing at less than full capacity.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "24aab960221af780",
+      "text": "Higher costs from wages and power.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "bbcdf64f67290fbd",
+      "text": "Pay as you go use and short term contracts.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e26a4679ff797abc",
+      "text": "Consumers cutting back on food purchases due to higher inflation or GLP- 1 usage which hurts throughput margins and potentially occupancy",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5674c3f1827471c1",
+      "text": "(Article 3(1)e and Article 7 of MAR)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6f059c1614f6df5c",
+      "text": "Time of dissemination: August 28 2025 1:26 PM ET",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e2d67499a234fa40",
+      "text": "Evercore ISI's recommendations are based on a stock's total forecasted return over the next 12 months. Total forecasted return is equal to the expected percentage price return plus gross dividend yield. We divide our stocks under coverage into three primary ratings categories, with the following return guidelines:",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b5f5f0440bbb7fa0",
+      "text": "Outperform- the total forecasted return is expected to be greater than the expected total return of the analyst's coverage sector.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "55a7b62ac8b11f3b",
+      "text": "In- Line- the total forecasted return is expected to be in line with the expected total return of the analyst's coverage sector.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e6ce457ac07c540f",
+      "text": "Underperform- the total forecasted return is expected to be less than the expected total return of the analyst's coverage sector.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "814e0cf4c7db42c5",
+      "text": "Coverage Suspended- the rating and target price have been removed pursuant to Evercore ISI policy when Evercore is acting in an advisory capacity in a merger or strategic transaction involving this company and in certain other circumstances.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "acce060ed5a96e79",
+      "text": "Rating Suspended- Evercore ISI has suspended the rating and target price for this stock because there is not sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, a rating or target price. The previous rating and target price, if any, are no longer in effect for this company and should not be relied upon.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "da4e01ec8bbd0580",
+      "text": "Prior to October 10, 2015, the \"Coverage Suspended\" and \"Rating Suspended\" categories were included in the category \"Suspended.\"",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1d72c8a8287949f0",
+      "text": "FINRA requires that members who use a ratings system with terms other than \"Buy,\" \"Hold/Neutral\" and \"Sell\" to equate their own ratings to these categories. For this purpose, and in the Evercore ISI ratings distribution below, our Outperform, in Line, and Underperform ratings can be equated to Buy, Hold and Sell, respectively.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8f7286564394ac0e",
+      "text": "Evercore ISI rating (as of 28 August 2025)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f0830641cbbcfd3b",
+      "text": "Coverage UniverseInvestment Banking Services I Past 12 MonthsRatingsCountPct.RatingsCountPct.Buy44559Buy5212Hold27036Hold156Sell132Sell00Coverage Suspended182Coverage Suspended633Rating Suspended61Rating Suspended467",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4efffac8a9e50728",
+      "text": "Issuer-Specific Disclosures 28 August 2025",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "69992fab84c379f1",
+      "text": "Ratings KeyBBuyOPOutperformLLongCSCoverage SuspendedHHoldILIn LineNPNo PositionRSRating SuspendedSSellUPUnderperformSShort",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "7f93c9267bd89b93",
+      "text": "This report is approved and/or distributed by Evercore Group L.L.C. (\"Evercore Group\"), a U.S. licensed broker-dealer regulated by the Financial Industry Regulatory Authority (\"FINRA\") and by International Strategy & Investment Group (UK) Limited (\"ISI UK\"), which is authorized and regulated in the United Kingdom by the Financial Conduct Authority. The institutional sales, trading and research businesses of Evercore Group and ISI UK collectively operate under the global marketing brand name Evercore ISI (\"Evercore ISI\"). Both Evercore Group and ISI UK are subsidiaries of Evercore Inc. (\"Evercore\"). The trademarks, logos and service marks shown on this report are registered trademarks of Evercore Inc.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b568ed1d7e637c82",
+      "text": "This report is provided for informational purposes only and subject to additional restrictions contained in this disclosure. It is not to be construed as an offer to buy or sell or a solicitation of an offer to buy or sell any financial instruments or to participate in any particular trading strategy in any jurisdiction. The information and opinions in this report were prepared by employees of affiliates of Evercore. The information herein is believed by Evercore ISI to be reliable and has been obtained from public sources believed to be reliable, but Evercore ISI makes no representation as to the accuracy or completeness of such information.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e2df50beef519242",
+      "text": "Opinions, estimates and projections in this report constitute the current judgment of the author as of the date of this report. They do not necessarily reflect the opinions of Evercore or its affiliates and are subject to change without notice. In addition, opinions, estimates and projections in this report may differ from or be contrary to those expressed by other business areas or groups of Evercore and its affiliates.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "c577322702ef7d12",
+      "text": "Evercore ISI has no obligation to update, modify or amend this report or to otherwise notify a reader thereof in the event that any matter stated herein, or any opinion, projection, forecast or estimate set forth herein, changes or subsequently becomes inaccurate. Facts and views in Evercore ISI research reports and notes have not been reviewed by, and may not reflect information known to, professionals in other Evercore affiliates or business areas, including investment banking personnel. Evercore ISI salespeople, traders and other professionals may provide oral or written market commentary or trading strategies to our clients that reflect opinions that are contrary to the opinions expressed in this research.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5ee53f1137788070",
+      "text": "Our asset management affiliates and investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6dbda564040005bf",
+      "text": "Evercore ISI does not provide individually tailored investment advice in research reports. The financial instruments discussed in this report are not suitable for all investors and investors must make their own investment decisions using their own independent advisors as they believe necessary and based upon their specific financial situations and investment objectives. This report has been prepared without regard to the particular investment strategies or financial, tax or other personal circumstances of the recipient. Nothing in this report constitutes investment, legal, accounting or tax advice, or a representation that any investment or strategy is suitable or appropriate to the recipient's individual circumstances, or otherwise constitutes a personal recommendation to the recipient. None of Evercore Group or its affiliates will treat any recipient of this report as its customer by virtue of the recipient having received this report.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "0e0cb9a6576686fe",
+      "text": "Securities and other financial instruments discussed in this report, or recommended or offered by Evercore ISI, are not insured by the Federal Deposit Insurance Corporation and are not deposits of or other obligations of any insured depository institution. If a financial instrument is denominated in a currency other than an investor's currency, a change in exchange rates may adversely affect the price or value of, or the income derived from the financial instrument, and such investor effectively assumes such currency risk. In addition, income from an investment may fluctuate and the price or value of financial instruments described in this report, either directly or indirectly, may rise or fall. Estimates of future performance are based on assumptions that may not be realized. Furthermore, past performance is not necessarily indicative of future performance.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "bbde101dbd373dea",
+      "text": "Please note that this report was prepared for and distributed by Evercore ISI to its institutional investor and market professional customers.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6ccdb9a7d728b3bb",
+      "text": "Recipients who are not institutional investor or market professional customers of Evercore ISI should seek the advice of their independent financial advisor before considering information in this report in connection with any investment decision, or for a necessary explanation of its contents.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "bc2da502b73cdfcc",
+      "text": "Electronic research is simultaneously distributed to all clients. This report is provided to Evercore ISI clients only and may not be, in whole or in part, or in any form or manner (i) copied, forwarded, distributed, shared, or made available to third parties, including as input to, or in connection with, any artificial intelligence or machine learning model; (ii) modified or otherwise used to create derivative works; or (iv) used to train or otherwise develop a generative artificial intelligence or machine learning model, without the express written consent of Evercore ISI. Receipt and review of this research report constitutes your agreement with the aforementioned limitations in use.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "45e609cf045f4694",
+      "text": "This report is not intended for distribution to or use by any person or entity in any locality, state, country or other jurisdiction where such distribution, publication, availability or use would be contrary to law or regulation or which would subject Evercore Group or its affiliates to any registration or licensing requirement within such jurisdiction. If this report is being distributed by a financial institution other than Evercore ISI or its affiliates, that financial institution is solely responsible for such distribution and for compliance with the laws, rules and regulations of any jurisdiction where this report is distributed. Clients of that financial institution should contact that institution to effect any transaction in the securities mentioned in this report or if such clients require further information. This report does not constitute investment advice by Evercore ISI to the clients of the distributing financial institution, and neither Evercore ISI nor its affiliates, nor their respective officers, directors or employees, accept any liability whatsoever for any direct or consequential loss arising from their use of this report or its content.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2af0b2ed593e3405",
+      "text": "Evercore is not authorized to act as a financial entity, securities intermediary, investment advisor or as any other regulated entity under Mexican law, and no actions, applications or filings have been undertaken in Mexico, whether before the National Banking and Securities Commission (Comisión Nacional Bancaria y de Valores \"CNBV\") or any other authority, in order for Evercore to carry out activities or render services that would otherwise require a license, registration or any other authorization for such purposes; neither is it regulated by the CNBV or any other Mexican authority. This document, nor its content, constitutes an offer, invitation or request to purchase or subscribe for securities or other instruments or to make or cancel investments, nor may it serve as the basis for any contract, commitment or decision of any kind.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7dc27b63f46504ef",
+      "text": "For persons in the UK: In making this report available, Evercore makes no recommendation to buy, sell or otherwise deal in any securities or investments whatsoever and you should neither rely or act upon, directly or indirectly, any of the information contained in this report in respect of any such investment activity. This report is being directed at or distributed to, (a) persons who fall within the definition of Investment Professionals (set out in Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (the \"Order\")); (b) persons falling within the definition of high net worth companies, unincorporated associations, etc. (set out in Article 49(2) of the Order); (c) other persons to whom it may otherwise lawfully be communicated (all such persons together being referred to as \"relevant persons\"). This report must not be acted on or relied on by persons who are not relevant persons.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "844d72ce4295d119",
+      "text": "For persons in Switzerland: The distribution of these materials to persons or entities in Switzerland is not intended to, and does not, constitute a financial service under the Swiss Financial Services Act (FinSA). In particular, the distribution of these materials does not constitute the provision of personal recommendations on transactions with financial instruments (investment advice) within the meaning of Article 3(c)(4) of FinSA.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "bb8b7f6e0da81225",
+      "text": "For persons in Australia: Evercore does not have an Australian Financial Services License (\"AFSL\"). This report is only to be distributed to persons who fall within the definition of \"wholesale\" investors under section 761G of the Corporations Act 2001 (Cth). This report must not be acted on or relied on by persons who are not wholesale investors. Evercore relies on the relief provided under ASIC Corporations (Foreign Financial Services Providers—Limited Connection) Instrument 2017/182 to provide this report to wholesale investors in Australia without an AFSL.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "88c6240d9dc49d1d",
+      "text": "For persons in New Zealand: This material has been prepared by Evercore Group L.L.C. for distribution in New Zealand to financial advisors and wholesale clients only and has not been prepared for use by retail clients (as those terms are defined in the Financial Markets Conduct Act 2013 (\"FMCA\")). Evercore Group L.L.C. is not, and is not required to be, registered or licensed under the FMCA, and unless otherwise stated any financial products referred to in this material are generally only available in New Zealand for issue to those satisfying the wholesale investor criteria in the FMCA.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "32a80e5aaf6a4a65",
+      "text": "Applicable current disclosures regarding the subject companies covered in this report are available at the offices of Evercore ISI: 55 East 52nd Street, New York, NY 10055, and at the following site: https://evercoreisi.mediastierling.com/disclosure.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "996b244b846edd21",
+      "text": "In compliance with the European Securities and Markets Authority's Market Abuse Regulation, a list of all Evercore ISI recommendations disseminated in the preceding 12 months for the subject companies herein, may be found at the following site: https://evercoreisi.mediastierling.com/disclosure.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3fece48ad5777521",
+      "text": "© 2025. Evercore Group L.L.C. All rights reserved.",
+      "page": 5,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "6bfdb485e64d207a",
+      "name": "ASIC Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "06dcfa7645b03481",
+      "name": "Agro Merchants",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3e8f1e94781ebff8",
+      "name": "Amercild Realty",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c948b097867d16e8",
+      "name": "Australian Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "091ea27f0512d847",
+      "name": "Base Case",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fe0fe46365786da9",
+      "name": "Both Evercore",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3c9688bdc23d51f6",
+      "name": "CEO George",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27cb8f867f426c6a",
+      "name": "CEO Rob",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "88f494f365f0299b",
+      "name": "Conduct Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cf7454fe4270253d",
+      "name": "Corporations Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4b9be408e155a05b",
+      "name": "Coverage Suspended",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "870edbe8e02ee39e",
+      "name": "Coverage Universe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "be55d60ac0680a91",
+      "name": "Current Ratings",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2a809174489bbcd6",
+      "name": "DP World",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3fee3d79dff8420b",
+      "name": "Definition\n\nEvercore",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ca0107fa6b691120",
+      "name": "European Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8e848b5fbb19cbd5",
+      "name": "Evercore Group",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "26b9e6ee13a92b04",
+      "name": "Evercore ISI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c08552db02772ddf",
+      "name": "Evercore Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9b36790d3c1d5ad4",
+      "name": "Federal Deposit",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "afabdcbe355fc785",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "5b7c76ec9428fbcf",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": "Americold Realty Trust Rating History as of 08/28/2025",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "08/22",
+              "11/22",
+              "02/23",
+              "05/23",
+              "08/23",
+              "11/23",
+              "02/24",
+              "05/24",
+              "08/24",
+              "11/24",
+              "02/25",
+              "05/25",
+              "08/25"
+            ]
+          },
+          "y": {
+            "unit": "p",
+            "range": {
+              "min": 0,
+              "max": 40
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Close Price",
+            "unit": "p",
+            "values": [
+              29.5,
+              24.5,
+              29,
+              28.5,
+              32.5,
+              29.5,
+              30.5,
+              22,
+              30,
+              28,
+              22,
+              17,
+              14.5
+            ]
+          },
+          {
+            "name": "Target Price",
+            "unit": "p",
+            "values": [
+              32.5,
+              32.5,
+              32.5,
+              35,
+              35,
+              34,
+              32,
+              32,
+              34,
+              30,
+              29,
+              28,
+              22
+            ]
+          }
+        ],
+        "figure_id": "d1a60d9920e3ba12",
+        "provenance": {
+          "page": 4
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 3,
+      "tables_count": 0,
+      "numerical_data_count": 0,
+      "passages_count": 45,
+      "entities_count": 20
+    }
+  }
+}

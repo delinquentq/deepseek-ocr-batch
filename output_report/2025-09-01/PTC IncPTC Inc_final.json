@@ -1,0 +1,1635 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "17ceddf4d87f6e99a12deed1b3ba4a2a",
+    "title": "Deep Dive",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/JPM/PTC IncPTC Inc_2025-09-01",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:11:36.861114",
+      "extracted_at": "2025-10-26T12:11:36.861124"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 24,
+        "successful_pages": 24,
+        "date": "2025-09-01",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/JPM",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 3,
+          "removed_paragraphs": 7,
+          "reduction_ratio": 0.10327618275906525
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/JPM"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "0996f70a9b5d4ec3",
+      "text": "See the end pages of this presentation for analyst certification and important disclosures, including non- US analyst disclosures. J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3ab541cbd3c491ad",
+      "text": "PTC is a global SaaS vendor that enables industrial and manufacturing companies to digitally transform how they engineer, manufacture, and service physical products throughout their lifecycle.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b0c66c657a925b7d",
+      "text": "Key Segments are across Computer- Aided Design (CAD), Product Lifecycle Management (PLM), Application Lifecycle Management (ALM), and Service Lifecycle Management (SLM).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8f7d2773b3a0e818",
+      "text": "PTC primarily sells on- prem software (currently only \\(\\sim 25\\%\\) of PTC's ARR is SaaS) through a subscription license model.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "daf56f9e38b60f0f",
+      "text": "PTC management team predominantly focuses on ARR and Free Cash Flow because ASC606 revenue recognition rules make PTC's P&L noisy.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "da7b90dfae1105d5",
+      "text": "Key FactsIPO: Dec 1989$2.3B in revenue in FY24&amp;gt;7,500 employeesHeadquartered in Boston, MA$26B Market Cap~$210M in daily trading volume",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "af57203d82db82de",
+      "text": "Source: Company reports and Bloomberg Finance L.P.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9e6321925bb14aae",
+      "text": "- PTC discloses revenue split between its CAD and PLM segments, with CAD comprising \\(\\sim 38\\%\\) of revenue, and PLM the remaining \\(62\\%\\) .",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "dda71b9c29afcdd0",
+      "text": "- As the company expects PLM segments to grow faster (ALM and SLM are included in PLM), PLM could become a larger part of the overall business.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3be03a0f5c8d9787",
+      "text": "This lifecycle begins with design engineering, and PTC provides CAD solutions for design of physical products (such as planes, trains, automobiles, blood dialysis machines, elevators, and other industrial products).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "925e976e88eaeec4",
+      "text": "PTC's CAD products include both Creo and Onshape.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "93817c1ac6c496a6",
+      "text": "Creo is 3D Computer Aided Design (CAD) technology that allows companies to digitally design, test, and modify product models. Creo is PTC's flagship CAD product (Creo is the on- prem version and Creo+ is the SaaS version).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "202cf6d28a82d1ed",
+      "text": "Onshape is a SaaS product development platform that connects CAD with collaboration tools and analytics; allows teams to give design reviews, comments, and edits in real time and compare design versions side by side.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5e36d0917874872f",
+      "text": "Onshape was acquired more than five years ago and is PTC's cloud- native product to serve the eventual further industry appetite for cloud.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ddc35ffdb65cd697",
+      "text": "- PTC, Autodesk, Dassault (covered by JPM analyst Toby Ogg), and Siemens (covered by JPM analyst Akash Gupta) all have a presence in the CAD and PLM (product lifecycle management) space, with Dassault and Siemens traditionally viewed as leaders.- In manufacturing, Dassault and Siemens are leaders with their software offerings.- Hexagon is more so a leader among industrial and energy facilities and food and beverage (40-50% share).- In the industrial space, Hexagon (covered by JPM Analyst Joseph George) runs up against AVEVA from Schneider Electric (covered by JPM Analyst Akash Gupta) and Bentley, specifically on asset management, like Bentley's offering with IBM Maximo.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "003b063ecdc1a16d",
+      "text": "PTC also offers product lifecycle management (PLM) solutions across a wide breadth of customer verticals.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "ad4d00e53279bc7a",
+      "text": "PTC's flagship PLM solution is its Windchill offering (Windchill is the on- prem version, whereas Windchill+ is the SaaS offering). Arena, acquired in PTC's FY21, is PTC's cloud- native PLM product.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0f1043c462a549af",
+      "text": "Windchill and Arena manage all aspects of the product lifecycle from concept and development to servicing and end of life; Arena is frequently chosen by customers that outsource manufacturing",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9514a6a7ec305809",
+      "text": "Windchill and Arena are systems of record for product data, enabling product data collaboration internally as well as externally. The PLM system itself provides out- of- the- box functionality and allows for customizability for specific use cases.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "efe58b145ed52bf5",
+      "text": "Windchill is a more mature product compared to Arena.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "f3720ce7e8ec4c14",
+      "text": "PTC frames Windchill and Arena as helping customers \"get their product data house in order\"",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "18fa6d89d2d9a0db",
+      "text": "Main KPIs Customers Aim to Improve through PLM",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "7fdb640ecb4d7c9f",
+      "text": "Source: Company reports.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "05061e02f83f2e01",
+      "text": "- PTC's Windchill PLM application suite manages product ideation through end of life, connecting stakeholders and bringing real time data to users.- PTC management sees the potential for PLM to grow as an area of customer interest.- PTC also has an industrial IoT solution called ThingWorx, which can power predictive maintenance solutions.- Siemens' PLM has a series of manufacturing software solutions, some of which utilize IoT (internet of things) to provide actionable insights for \"Smart manufacturing.\"- One of Siemens solutions – Tecnomati - digitizes manufacturing and assembly processes to form a digital twin, increasing flexibility in terms of simulating advanced manufacturing techniques, and driving faster innovation.- Siemens's Teamcenter is a comprehensive PLM platform that unites design with managing production.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e6e029178049f371",
+      "text": "- ALM and SLM fall under PLM in PTC reporting.- Application Lifecycle Management (ALM) is used for managing requirements in software development- Service Lifecycle Management (SLM) is applied for reducing downtime and ensuring better servicing of high-value, long-lifecycle products once they leave the manufacturing floor.- Codebeamer and Pure Variants are ALM solutions that help companies accelerate the development of products that contain software.- These tools are relevant for industries like auto and med-tech where software faces strict regulatory scrutiny.- Requirements management software acts as a single source of truth, so all developers have access to the same information. This application also enhances risk management and streamlines workflows for development teams.- ServiceMax is PTC's main SLM solution that helps companies improve the amount of time a piece of equipment is functioning and available for use.- ServiceMax ensures technicians have access to the proper data when out in the field- SLM business also includes software for spare parts optimization, technical documentation; as well as IoT and Augmented Reality.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "24bf9790a3ba498b",
+      "text": "In the industrial and manufacturing space, application lifecycle management is an attractive growth area, because more software is being embedded into products and more products are becoming software- defined. These solutions enable traceability and compliance with industry regulations, which is particularly important given the highly regulated nature of their verticals served (like med- tech and automotive). PTC's Codebeamer application lifecycle management solution is a requirements management offering for software development. IBM's Rational DOORS Next Generation tool is a visible competitor but supposedly not as highly regarded among software engineers as PTC's Codebeamer solution. Jama Connect (of Jama Software) is often praised for its intuitive ease of use but is a less robust comprehensive offering when compared to Codebeamer. Siemens's Polarion solution also offers change and configuration solutions as well as test and quality management.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "ba55a368834f0122",
+      "text": "PTC has been relatively acquisitive, having completed over 20 acquisitions since its founding (such as Windchill for PLM, ServiceMax for SLM, and Codebeamer for ALM).",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "045a4fa21485dd42",
+      "text": "Today the company is more focused on organic growth",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "1bbd8e76a98e25c3",
+      "text": "Earlier this year, Bloomberg reported that a large US- based competitor called ADSK was exploring purchasing PTC, but has since announced it is not actively considering the asset.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "427afc93223ed24f",
+      "text": "DateTargetPurchase Price ($M)Rationale / DescriptionApr-25IncQuery GroupunknownAccelerates ALM and PLM portfolio integrationsJan-23ServiceMax$1.46BAcquired FSM software provider to strengthen its PLM offeringsMay-22CodeBeamer$280MExpanded its ALM portfolioOct-19Onshape$470MAcquired a SaaS-based product development platform that combines CAD with data management and collaboration toolsJan-16Kepware$100MExpanded its IoT portfolio and gained access to industrial automation dataNov-15Vuforia$65MExpanded PTC&#x27;s capabilities in AR technologyMay-15Coldlight$105MExtended PTC&#x27;s position as a leader in the IoT marketAug-14Axeda Corporation$170MAcquired a leader in the M2M / IoT spaceJul-14Atego$50MAcquired a developer of model-based systems and software engineering applicationsDec-13ThingWorx$112MEnabled PTC to gain a significant presence in the IoT marketSep-13NetIDEASunknownStrengthened its product development and PLM capabilitiesJul-13Enigma$10MBolstered its existing portfolio of SLM solutionsAug-12Servigistics$220MStrengthened its SLM capabilitiesSep-114CS Software Solutions Inc.unknownAcquired a developer of warranty management and SLM softwareMay-11MKS Software$305MAcquired a change-management platform for recording, monitoring, and tracking embedded systems and softwareJan-10Planet MetricsunknownBolstered PTC&#x27;s product analytics capabilitiesJun-09Relex Software$25MBolstered its capabilities in reliability engineeringDec-07CoCreate$250MIntegrated CoCreate&#x27;s direct modeling technology with Pro/ENGINEER&#x27;s parametric functionalityNov-07NetRegulus$2MAcquired an Enterprise Study and Quality management software for Medical DevicesMay-07NC Graphics$7MEnhances PTC&#x27;s ability to help customers optimize their manufacturing processesOct-06ITEDO (GMBH software)$17MAcquired developer of technical illustration softwareApr-06Mathsoft$63MAcquired developer of MathcadNov-05DENC and Cadtrain Inc.$10MEnabled PTC to integrate its PTC applications with ERP software and provided online training modules for PTC softwareJul-05Arbortext$190MAcquired a leader in the Dynamic Enterprise Publishing MarketJun-05Aptavis Technology Corp$7MAcquired windchill-based technology for retail, footwear, and apparelJun-05Polyplan TechnologiesunknownEnabled PTC to expand to Manufacturing Process ManagementDec-98ComputervisionunknownAllowed PTC to expand further into PLMMay-95Rasna Corp.$180MAcquired developers of MECHANICA design optimization and simulation software",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "f96baad80457e9e3",
+      "text": "Source: Company reports.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "c772d0d52765ad91",
+      "text": "Source. J.P. Morgan estimates.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "e9ef60ed14718465",
+      "text": "Source. J.P. Morgan estimates.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "09f2cd195736eedd",
+      "text": "Source. J.P. Morgan estimates.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "996af9c18fe2f0f2",
+      "text": "Source. J.P. Morgan estimates.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "3ff6801f136f9b43",
+      "text": "PTC Net Debt/EBITDA versus Key Peers",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "fec8372bb9cc233d",
+      "text": "Source. J.P. Morgan estimates.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "5a5d2ed0ef9a8069",
+      "text": "- We model 9% forward 2YR Revenue CAGR and 1pp of EBITDA margin decline (CY2025E-27E)",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "cd20fcfaa7014e35",
+      "text": "- Theme #1: Need to accelerate development process",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "fc9ea6d4db69a226",
+      "text": "- PLM connects stakeholders across a product's lifecycle and quickly incorporates feedback into product development- Solid underlying customer demand",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "b797b840d9273e60",
+      "text": "- Theme #2: More embedded software",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "e8c51600653de839",
+      "text": "- PTC's Codebeamer aids in requirements management for software embedded in hardware- Increasingly important in highly regulated industries such as autos and med tech",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "1e71429503927d01",
+      "text": "- Theme #3: Sluggish spending environment among customers reflected in a downgrade of ARR outlook",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "d56ff860367bf3ac",
+      "text": "Companies Discussed in This Report (all prices in this report as of market close on 28 August 2025, unless otherwise indicated) PTC Inc(PTC/\\$215.03/N)",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "1659cf1c2aabb372",
+      "text": "PTC Inc (PTC, PTC US) Price Chart",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "4bf017b500aeb60d",
+      "text": "Source: Bloomberg Finance L.P. and J.P. Morgan; price data adjusted for stock splits and dividends. Initiated coverage Jul 03, 2007. All share prices are as of market close on the previous business day.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "039a3162024be91a",
+      "text": "DateRatingPrice ($)Price Target ($)16-Sep-22N114.9912802-Feb-23N138.1113004-Jan-24OW166.4620002-Dec-24OW200.0621009-Apr-25N136.7416030-Jul-25N204.19205",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "282e3f056abe347b",
+      "text": "Analyst Crtio: The Rch Ayst) dted by an \\(^{**}\\mathrm{AC}^{**}\\) on the cover of this report certies (or, where multiple Research Analysts are primarily responsible for this report, the Rch Ayst dted by an \\(^{**}\\mathrm{AC}^{**}\\) on the cover or within the document indvidually certies, with respect to each security or issuer that the Rch Analyst covers in this research) that: (1) all of the views expressed in this report accurately reflect the Rch Analyst's personal views about any and all of the subject securities or issuers; and (2) no part of any of the Rch Analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the Rch Analyst(s) in this report. For all Korea- based Rch Analysts listed on the front cover, if applicable, they also certify, as per KOFIA requirements, that the Rch Analyst's analysis was made in good faith and that the views reflect the Rch Analyst's own opinion, without undue influence or intervention.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "f2a1e374f8003d0f",
+      "text": "All authors named within this report are Rch Analysts who produce independent research unless otherwise specified. In Europe, Sector Specialists (Sales and Trading) may be shown on this report as contacts but are not authors of the report or part of the Rsearch Department.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "29d9dcf3ab228200",
+      "text": "J.P. Morgan uses the following rating system: Overweight (over the duration of the price target indicated in this report, we expect this stock will outperform the average total return of the stocks in the Rsearch Analyst's, or the Rsearch Analyst's team's, coverage universe); Neutral (over the duration of the price target indicated in this report, we expect this stock will perform in line with the average total return of the stocks in the Rsearch Analyst's, or the Rsearch Analyst's team's, coverage universe); and Underweight (over the duration of the price target indicated in this report, we expect this stock will underperform the average total return of the stocks in the Rsearch Analyst's, or the Rsearch Analyst's team's, coverage universe. NR is Not Rated. In this case, J.P. Morgan has removed the rating and, if applicable, the price target, for this stock because of either a lack of a sufficient fundamental basis or for legal, regulatory or policy reasons. The previous rating and, if applicable, the price target, no longer should be relied upon. An NR designation is not a recommendation or a rating. In our Asia (ex- Australia and ex- India) and U.K. small- and mid- cap Equity Research, each stock's expected total return is compared to the expected total return of a benchmark country market index, not to those Research Analysts' coverage universe. If it does not appear in the Important Disclosures section of this report, the certifying Research Analyst's coverage universe can be found on J.P. Morgan's Research website, https://www.jpmorganmarkets.com.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "80fc15c570dd7618",
+      "text": "J.P. Morgan Equity Research Ratings Distribution, as of July 05, 2025",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "973943cb0d1c011f",
+      "text": "Overweight (buy)Neutral (hold)Underweight (sell)J.P. Morgan Global Equity Research Coverage*50%37%13%IB clients**51%48%35%JPMS Equity Research Coverage*47%41%12%IB clients**72%69%51%",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "ecd5f37d455cba91",
+      "text": "\\\\*Please note that the percentages may not add to \\(100\\%\\) because of rounding.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "22ab2d54e3ef12de",
+      "text": "\\\\*\\\\*Percentage of subject companies within each of the \"buy,\" \"hold\" and \"sell\" categories for which J.P. Morgan has provided investment banking services within the previous 12 months. For purposes of FINRA ratings distribution rules only, our Overweight rating falls into a buy rating category; our Neutral rating falls into a hold rating category; and our Underweight rating falls into a sell rating category. Please note that stocks with an NR designation are not included in the table above. This information is current as of the end of the most recent calendar quarter.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "be583d78b2cc4a6a",
+      "text": "A history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & Commentary page of http://www.jpmorganmarkets.com where you can also search by analyst name, sector or financial instrument.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "3137adb89f99de2c",
+      "text": "Analysts' Compensation: The research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "8b3aab92ebef5fc0",
+      "text": "J.P. Morgan is a marketing name for investment banking businesses of JPMorgan Chase & Co. and its subsidiaries and affiliates worldwide.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "aa628cd944d7ff95",
+      "text": "UK MIFID FICC research unbundling exemption: UK clients should refer to UK MIFID Research Unbundling exemption for details of J.P. Morgan's implementation of the FICC research exemption and guidance on relevant FICC research categorisation.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "43a0b148e56dabff",
+      "text": "All research material made available to clients are simultaneously available on our client website, J.P. Morgan Markets, unless specifically permitted by relevant laws. Not all research content is redistributed, e- mailed or made available to third- party aggregators. For all research material available on a particular stock, please contact your sales representative.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "6299d7add9fc225d",
+      "text": "Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "6c686e09d2ab651f",
+      "text": "J.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or administered by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this report is intended to be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such Sanctioned Securities. Clients should be aware of their own legal and compliance obligations when making investment decisions",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "18404f12ecc7245e",
+      "text": "Any digital or crypto assets discussed in this research report are subject to a rapidly changing regulatory landscape. For relevant regulatory advisories on crypto assets, including bitcoin and ether, please see https://www.jpmorgan.com/disclosures/cryptoasset- disclosure.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "bb99e4c6b3b72d4c",
+      "text": "The author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold themselves out as being able to do so.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "08957600c0400516",
+      "text": "Exchange- Traded Funds (ETFs): J.P. Morgan Securities LLC (\"JPMS\") acts as authorized participant for substantially all U.S.- listed ETFs. To the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction- based compensation in connection with the distribution of those ETF shares and may earn fees for performing other trade- related services, such as securities lending to short sellers of the ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or dealer to the ETFs. In addition, affiliates of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, index calculation and/or maintenance and other services.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "641d9eecaab0008c",
+      "text": "Options and Futures related research: If the information contained herein regards options- or futures- related research, such information is available only to persons who have received the proper options or futures risk disclosure documents. Please contact your J.P. Morgan Representative or visit https://www.theocc.com/components/docs/riskstoc.pdf for a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options or https://www.finra.org/sites/default/files/2020- 08/Security_Futures_Risk_Disclosure_Statement_2020. pdf for a copy of the Security Futures Risk Disclosure Statement.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "4f3aae92081e5842",
+      "text": "Changes to Interbank Offered Rates (IBORs) and other benchmark rates: Certain interest rate benchmarks are, or may in the future become, subject to ongoing international, national and other regulatory guidance, reform and proposals for reform. For more information, please consult: https://www.jpmorgan.com/global/disclosures/interbank_offered_rates",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "35323cc4347cb4d1",
+      "text": "Private Bank Clients: Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its subsidiaries (\"J.P. Morgan Private Bank\"), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, including, but not limited to, the J.P. Morgan Corporate and Investment Bank and its Global Research division.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "9280f62d87fa69b3",
+      "text": "Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of this research. Where more than one legal entity is listed under an analyst's name, the first legal entity is responsible for the production unless stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated below in the legal entity disclosures, this material has been distributed by the legal entity responsible for production, or where more than one legal entity is listed under the analyst's name, the first legal entity will be responsible for distribution. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "2a64961300609fcd",
+      "text": "Legal Entities Disclosures and Country-/Region- Specific Disclosures:",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "3f1067d0c6ea45f5",
+      "text": "Argentina: JPMorgan Chase Bank N.A Sucursal Buenos Aires is regulated by Banco Central de la Republica Argentina (\"BCRA\"- Central Bank of Argentina) and Comision Nacional de Valores (\"CNV\"- Argentinian Securities Commission - ALYC y AN Integral N°51). Australia: J.P. Morgan Securities Australia Limited (\"JPMSAL\") (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the Australian Securities and Investments Commission and is a Market Participant of ASX Limited, a Clearing and Settlement Participant of ASX Clear Pty Limited and a Clearing Participant of ASX Clear (Futures) Pty Limited. This material is issued and distributed in Australia by or on behalf of JPMSAL only to \"wholesale clients\" (as defined in section 761G of the Corporations Act 2001). A list of all financial products covered can be found by visiting https://www.jpm.com/research/disclosures. J.P. Morgan seeks to cover companies of relevance to the domestic and international investor base across all Global Industry Classification Standard (GICS) sectors, as well as across a range of market capitalisation sizes. If applicable, in the course of conducting public side due diligence on the subject company(ies), the Research Analyst team may at times perform such diligence through corporate engagements such as site visits, discussions with company representatives, management presentations, etc. Research issued by JPMSAL has been prepared in accordance with J.P. Morgan Australia's Research Independence Policy which can be found at the following link: J.P. Morgan Australia - Research Independence Policy.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "c018d446e1734b56",
+      "text": "Canada: J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Canadian Investment Regulatory Organization and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed in Canada by or on behalf of J.P. Morgan Securities Canada Inc.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "e3798c69e5e19eb8",
+      "text": "Chile: Inversiones J.P. Morgan Limitada is an unregulated entity incorporated in Chile.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "8ff6a501fbcb88ed",
+      "text": "China: J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy business.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "8debe32fb87c1aea",
+      "text": "Colombia: Banco J.P. Morgan Colombia S.A. is supervised by the Superintendencia Financiera de Colombia (SFC).",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "c6ff75466675cf63",
+      "text": "Dubai International Financial Centre (DIFC): JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO Box 506551, Dubai, UAE. This material has been distributed by JP Morgan Chase Bank, N.A., Dubai Branch to persons regarded as professional clients or market counterparties as defined under the DFSA rules.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "9b33ba3704b2416e",
+      "text": "European Economic Area (EEA): Unless specified to the contrary, research is distributed in the EEA by J.P. Morgan SE (\"JPM SE\"), which is authorised as a credit institution by the Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and jointly supervised by the BaFin, the German Central Bank (Deutsche Bundesbank) and the European Central Bank (ECB). JPM SE is a company headquartered in Frankfurt with registered address at TaunusTurm, Taunustor 1, Frankfurt am Main, 60310, Germany. The material has been distributed in the EEA to persons regarded as professional investors (or equivalent) pursuant to Art. 4 para. 1 no. 10 and Annex II of MiFID II and its respective implementation in their home jurisdictions (\"EEA professional investors\"). This material must not be acted on or relied on by persons who are not EEA professional investors. Any investment or investment activity to which this material relates is only available to EEA relevant persons and will be engaged in only with EEA relevant persons.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "e6f8f64a381e93d1",
+      "text": "Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is regulated by the Securities and Futures Commission in Hong Kong. J.P. Morgan Chase Bank, N.A., Hong Kong Branch (CE Number AAL996) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission, is organized under the laws of the United States with limited liability. Where the distribution of this material is a regulated activity in Hong Kong, the material is distributed in Hong Kong by or through J.P. Morgan Securities (Asia Pacific) Limited and/or J.P. Morgan Broking (Hong Kong) Limited.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "03609480d9818361",
+      "text": "Korea: J.P. Morgan Securities (Far East) Limited, Seoul Branch, is a member of the Korea Exchange (KRX). JPMorgan Chase Bank, N.A., Seoul Branch, is licensed as a branch office of foreign bank (JPMorgan Chase Bank, N.A.) in Korea. Both entities are regulated by the Financial Services Commission (FSC) and the Financial Supervisory Service (FSS). For non- macro research material, the material is distributed in Korea by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "79813178fccc4241",
+      "text": "Japan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services Agency in Japan.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "a467abc5b12e08be",
+      "text": "Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146- X), which is a Participating Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission in Malaysia.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "77285db7cabd7642",
+      "text": "Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V. and J.P. Morgan Grupo Financiero are members of the Mexican Stock Exchange and are authorized to act as a broker dealer by the National Banking and Securities Exchange Commission. New",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "0cf2983916aaa5c6",
+      "text": "Zealand: This material is issued and distributed by JPMSAI in New Zealand only to \"wholesale clients\" (as defined in the Financial Markets Conduct Act 2013). JPMSAI is registered as a Financial Service Provider under the Financial Service providers (Registration and Dispute Resolution) Act of 2008.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "9ce6ba488341f5e7",
+      "text": "Philippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the Securities Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and Exchange Commission.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "59e45f9ea4e88e19",
+      "text": "Singapore: This material is issued and distributed in Singapore by or through J.P. Morgan Securities Singapore Private Limited (JPMSS) [MDDI (P) 068/08/2024 and Co. Reg. No.: 199405335R], which is a member of the Singapore Exchange Securities Trading Limited, and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore), both of which are regulated by the Monetary Authority of Singapore. This material is issued and distributed in Singapore only to accredited investors, expert investors and institutional investors, as defined in Section 4A of the Securities and Futures Act, Cap. 289 (SFA). This material is not intended to be issued or distributed to any retail investors or any other investors that do not fall into the classes of \"accredited investors,\" \"expert investors\" or \"institutional investors,\" as defined under Section 4A of the SFA. Recipients of this material in Singapore are to contact JPMSS or JPMCB Singapore in respect of any matters arising from, or in connection with, the material.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "bb8fbb9f747028ce",
+      "text": "South Africa: J.P. Morgan Equities South Africa Proprietary Limited and JPMorgan Chase Bank, N.A., Johannesburg Branch are members of the Johannesburg Securities Exchange and are regulated by the Financial Services Conduct Authority (FSCA).",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "09e23ed23c11b153",
+      "text": "Taiwan: J.P. Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company- type) and regulated by the Taiwan Securities and Futures Bureau. Material relating to equity securities is issued and distributed in Taiwan by J.P. Morgan Securities (Taiwan) Limited, subject to the license scope and the applicable laws and the regulations in Taiwan. To the extent that J.P. Morgan Securities (Taiwan) Limited produces research materials on securities not listed on the Taiwan Stock Exchange or Taipei Exchange (\"Non- Taiwan Listed Securities\"), these materials shall not constitute securities recommendations for the purpose of applicable Taiwan regulations, and, for the avoidance of doubt, J.P. Morgan Securities (Taiwan) Limited does not act as broker for Non- Taiwan Listed Securities. According to Paragraph 2, Article 7- 1 of Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers (as amended or supplemented) and/or other applicable laws or regulations, please note that the recipient of this material is not permitted to engage in any activities in connection with the material that may give rise to conflicts of interests, unless otherwise disclosed in the \"Important Disclosures\" in this material. Thailand: This material is issued and distributed in Thailand by JPMorgan Securities (Thailand) Ltd., which is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission, and its registered address is 3rd Floor, 20 North Sathorn Road, Silom, Bangrak, Bangkok 10500.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "f2b37c8ced3abeee",
+      "text": "UK: Research is produced in the UK by J.P. Morgan Securities plc (\"JPMS plc\") which is a member of the London Stock Exchange and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority or J.P. Morgan Markets Limited (\"JPMML Ltd\") which is authorised and regulated by the Financial Conduct Authority. Unless specified to the contrary, this material is distributed in the UK by JPMS plc and is directed in the UK only to: (a) persons having professional experience in matters relating to investments falling within article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) (Order) 2005 (\"the FPO\"); (b) persons outlined in article 49 of the FPO (high net worth companies, unincorporated associations or partnerships, the trustees of high value trusts, etc.); or (c) any persons to whom this communication may otherwise lawfully be made; all such persons being referred to as \"UK relevant persons\". This material must not be acted on or relied on by persons who are not UK relevant persons. Any investment or investment activity to which this material relates is only available to UK relevant persons and will be engaged in only with UK relevant persons. A description of J.P. Morgan EMEA's policy for prevention and avoidance of conflicts of interest related to the production of Research can be found at the following link: J.P. Morgan EMEA - Research Independence Policy.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "f13422485a0f488c",
+      "text": "U.S.: J.P. Morgan Securities LLC (\"JPMS\") is a member of the NYSE, FINRA, SIPC, and the NFA. JPMorgan Chase Bank, N.A. is a member of the FDIC. Material published by non- U.S. affiliates is distributed in the U.S. by JPMS who accepts responsibility for its content.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "aa98750f3483bb93",
+      "text": "General: Additional information is available upon request. The information in this material has been obtained from sources believed to be reliable. While all reasonable care has been taken to ensure that the facts stated in this material are accurate and that the forecasts, opinions and expectations contained herein are fair and reasonable, JPMorgan Chase & Co. or its affiliates and/or subsidiaries (collectively J.P. Morgan) make no representations or warranties whatsoever to the completeness or accuracy of the material provided, except with respect to any disclosures relative to J.P. Morgan and the Research Analyst's involvement with the issuer that is the subject of the material. Accordingly, no reliance should be placed on the accuracy, fairness or completeness of the information contained in this material. There may be certain discrepancies with data and/or limited content in this material as a result of calculations, adjustments, translations to different languages, and/or local regulatory restrictions, as applicable. These discrepancies should not impact the overall investment analysis, views and/or recommendations of the subject company(ies) that may be discussed in the material. Artificial intelligence tools may have been used in the preparation of this material, including assisting in data analysis, pattern recognition, and content drafting for research material. J.P. Morgan accepts no liability whatsoever for any loss arising from any use of this material or its contents, and neither J.P. Morgan nor any of its respective directors, officers or employees, shall be in any way responsible for the contents hereof, apart from the liabilities and responsibilities that may be imposed on them by the relevant regulatory authority in the jurisdiction in question, or the regulatory regime thereunder. Opinions, forecasts or",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "6e8edc75a80c8720",
+      "text": "projctio  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t",
+      "page": 24,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "39648bedcf2f4a19",
+      "name": "AFS Licence",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0e89cfc2054df5ce",
+      "name": "AN Integral",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0ef0c39c126f6fa4",
+      "name": "ASX Clear",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cc3137194d646091",
+      "name": "ASX Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2bdd9030d7470640",
+      "name": "Accelerates ALM",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "51f521fa385b6182",
+      "name": "Acquired FSM",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "22eb0075307524b7",
+      "name": "Adj EBITDA",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "905f9b4189531428",
+      "name": "Aided Design",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dce144e6044eb9a3",
+      "name": "Akash Gupta",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "94817e928ec9f4b9",
+      "name": "Allowed PTC",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "783f70a024710eb5",
+      "name": "An NR",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21cd74fee7a13752",
+      "name": "Annex II",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5c5db7170a3c39b4",
+      "name": "Application Lifecycle",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f6e7c427162b8b3d",
+      "name": "Aptavis Technology",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bacca4cc7412e2b0",
+      "name": "Aptavis Technology Corp",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f4758147dc564ecb",
+      "name": "Argentinian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b0c32fcb24c20ca5",
+      "name": "Augmented Reality",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "babb54828c5096a2",
+      "name": "Australia Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bc98bb53ad7f2a24",
+      "name": "Australian Securities",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 3,
+        "axes": null,
+        "series": [],
+        "figure_id": "12bde996bc0d02b5",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "pie",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": null,
+          "y": null
+        },
+        "series": [
+          {
+            "name": "Product Lifecycle Management (PLM)",
+            "unit": "%",
+            "values": [
+              62
+            ]
+          },
+          {
+            "name": "Computer-aided design (CAD)",
+            "unit": "%",
+            "values": [
+              38
+            ]
+          }
+        ],
+        "figure_id": "f8b571d81cc9cf3e",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Higher yield and throughput",
+              "Faster NPI",
+              "Number of customer complaints",
+              "Response time to adverse events",
+              "Products in compliance",
+              "Production line failures",
+              "Number of non-conformances",
+              "Warranty claims/costs",
+              "Other"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 25
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Percentage",
+            "unit": "%",
+            "values": [
+              18,
+              16,
+              15,
+              13,
+              12,
+              9,
+              9,
+              5,
+              3
+            ]
+          }
+        ],
+        "figure_id": "2288fdeedc2a4654",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2023",
+              "2024",
+              "2025E",
+              "2026E",
+              "2027E"
+            ]
+          },
+          "y": {
+            "left": {
+              "unit": "M",
+              "range": {
+                "min": 0,
+                "max": 3500
+              }
+            },
+            "right": {
+              "unit": "%",
+              "range": {
+                "min": 0,
+                "max": 14
+              }
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "PTC Revenue",
+            "unit": "M",
+            "values": [
+              2181,
+              2314,
+              2588,
+              2802,
+              3161
+            ]
+          },
+          {
+            "name": "PTC YoY Growth",
+            "unit": "%",
+            "values": [
+              12,
+              6,
+              12,
+              8,
+              13
+            ]
+          }
+        ],
+        "figure_id": "2ad8137fbaecd0f9",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 13,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2023",
+              "2024",
+              "2025",
+              "2026",
+              "2027E"
+            ]
+          },
+          "y": {
+            "unit": "USD",
+            "range": {
+              "min": 0,
+              "max": 1600000000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "PTC Adjusted EBITDA",
+            "unit": "USD",
+            "values": [
+              821000000,
+              912000000,
+              1198000000,
+              1281000000,
+              1393000000
+            ]
+          },
+          {
+            "name": "EBITDA Margin",
+            "unit": "%",
+            "values": [
+              38,
+              39,
+              45,
+              45,
+              44
+            ]
+          }
+        ],
+        "figure_id": "5bb087a4b9b2c30c",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 14,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2023",
+              "2024",
+              "2025E",
+              "2026E",
+              "2027E"
+            ]
+          },
+          "y": {
+            "unit": "$M",
+            "range": {
+              "min": 0,
+              "max": 1400
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "PTC FCF",
+            "unit": "$M",
+            "values": [
+              614,
+              806,
+              824,
+              1183,
+              1299
+            ]
+          },
+          {
+            "name": "FCF Margin",
+            "unit": "%",
+            "values": [
+              28,
+              35,
+              32,
+              41,
+              41
+            ]
+          }
+        ],
+        "figure_id": "b90fca898fd45120",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 15,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025E",
+              "2026E",
+              "2027E"
+            ]
+          },
+          "y": {
+            "unit": "M",
+            "range": {
+              "min": -300,
+              "max": 400
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "M",
+            "values": [
+              30,
+              120,
+              0,
+              0,
+              300,
+              -220,
+              -250
+            ]
+          }
+        ],
+        "figure_id": "4ca6be922d5a9677",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 16,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "ADSK",
+              "PTC",
+              "BSY",
+              "PCOR"
+            ]
+          },
+          "y": {
+            "unit": "X",
+            "range": {
+              "min": -3,
+              "max": 4
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Net Leverage",
+            "unit": "X",
+            "values": [
+              0.2,
+              3.6,
+              2.4,
+              -2.8
+            ]
+          }
+        ],
+        "figure_id": "52788b7a57bcc3f7",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 19,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "Sep 22",
+              "Jan 23",
+              "May 23",
+              "Sep 23",
+              "Jan 24",
+              "May 24",
+              "Sep 24",
+              "Jan 25",
+              "May 25"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": 75,
+              "max": 300
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Price",
+            "unit": "$",
+            "values": [
+              {
+                "date": "Sep 22",
+                "value": 115
+              },
+              {
+                "date": "Oct 22",
+                "value": 105
+              },
+              {
+                "date": "Nov 22",
+                "value": 120
+              },
+              {
+                "date": "Dec 22",
+                "value": 125
+              },
+              {
+                "date": "Jan 23",
+                "value": 130
+              },
+              {
+                "date": "Feb 23",
+                "value": 120
+              },
+              {
+                "date": "Mar 23",
+                "value": 135
+              },
+              {
+                "date": "Apr 23",
+                "value": 140
+              },
+              {
+                "date": "May 23",
+                "value": 130
+              },
+              {
+                "date": "Jun 23",
+                "value": 145
+              },
+              {
+                "date": "Jul 23",
+                "value": 150
+              },
+              {
+                "date": "Aug 23",
+                "value": 140
+              },
+              {
+                "date": "Sep 23",
+                "value": 145
+              },
+              {
+                "date": "Oct 23",
+                "value": 160
+              },
+              {
+                "date": "Nov 23",
+                "value": 170
+              },
+              {
+                "date": "Dec 23",
+                "value": 180
+              },
+              {
+                "date": "Jan 24",
+                "value": 185
+              },
+              {
+                "date": "Feb 24",
+                "value": 190
+              },
+              {
+                "date": "Mar 24",
+                "value": 180
+              },
+              {
+                "date": "Apr 24",
+                "value": 195
+              },
+              {
+                "date": "May 24",
+                "value": 180
+              },
+              {
+                "date": "Jun 24",
+                "value": 170
+              },
+              {
+                "date": "Jul 24",
+                "value": 150
+              },
+              {
+                "date": "Aug 24",
+                "value": 140
+              },
+              {
+                "date": "Sep 24",
+                "value": 160
+              },
+              {
+                "date": "Oct 24",
+                "value": 170
+              },
+              {
+                "date": "Nov 24",
+                "value": 180
+              },
+              {
+                "date": "Dec 24",
+                "value": 190
+              },
+              {
+                "date": "Jan 25",
+                "value": 200
+              },
+              {
+                "date": "Feb 25",
+                "value": 210
+              },
+              {
+                "date": "Mar 25",
+                "value": 215
+              },
+              {
+                "date": "Apr 25",
+                "value": 220
+              },
+              {
+                "date": "May 25",
+                "value": 215
+              }
+            ]
+          }
+        ],
+        "figure_id": "9316ae42269ae360",
+        "provenance": {
+          "page": 19
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "4256deb253619e1f",
+        "value": 2300000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "e 2-0](images/2_0.jpg) <table><tr><td colspan=\"3\">Key Facts</td></tr><tr><td>IPO: Dec 1989</td><td>$2.3B in revenue in FY24</td><td>&amp;gt;7,500 employees</td></tr><tr><td>Headquartered in Boston, MA",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7b9b8faff3bdca25",
+        "value": 26000000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "evenue in FY24</td><td>&amp;gt;7,500 employees</td></tr><tr><td>Headquartered in Boston, MA</td><td>$26B Market Cap</td><td>~$210M in daily trading volume</td></tr></table> Source: Company reports and",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "57d7000bb62d5bd9",
+        "value": 210000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "mp;gt;7,500 employees</td></tr><tr><td>Headquartered in Boston, MA</td><td>$26B Market Cap</td><td>~$210M in daily trading volume</td></tr></table> Source: Company reports and Bloomberg Finance L.P.<｜",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "fe21e92b838d9243",
+        "value": -0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rings.- Hexagon is more so a leader among industrial and energy facilities and food and beverage (40-50% share).- In the industrial space, Hexagon (covered by JPM Analyst Joseph George) runs up agains",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "6a47d29fb826f527",
+        "value": 1460000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>Accelerates ALM and PLM portfolio integrations</td></tr><tr><td>Jan-23</td><td>ServiceMax</td><td>$1.46B</td><td>Acquired FSM software provider to strengthen its PLM offerings</td></tr><tr><td>May-2",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "e742df8d6baeadef",
+        "value": 280000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "oftware provider to strengthen its PLM offerings</td></tr><tr><td>May-22</td><td>CodeBeamer</td><td>$280M</td><td>Expanded its ALM portfolio</td></tr><tr><td>Oct-19</td><td>Onshape</td><td>$470M</td><",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "1a255e5b13ee745e",
+        "value": 470000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "er</td><td>$280M</td><td>Expanded its ALM portfolio</td></tr><tr><td>Oct-19</td><td>Onshape</td><td>$470M</td><td>Acquired a SaaS-based product development platform that combines CAD with data managem",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "6202d168367777ce",
+        "value": 100000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "es CAD with data management and collaboration tools</td></tr><tr><td>Jan-16</td><td>Kepware</td><td>$100M</td><td>Expanded its IoT portfolio and gained access to industrial automation data</td></tr><t",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "4b9686726933acaf",
+        "value": 65000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "lio and gained access to industrial automation data</td></tr><tr><td>Nov-15</td><td>Vuforia</td><td>$65M</td><td>Expanded PTC&#x27;s capabilities in AR technology</td></tr><tr><td>May-15</td><td>Coldl",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "1a081d22a43d9bba",
+        "value": 105000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Expanded PTC&#x27;s capabilities in AR technology</td></tr><tr><td>May-15</td><td>Coldlight</td><td>$105M</td><td>Extended PTC&#x27;s position as a leader in the IoT market</td></tr><tr><td>Aug-14</td",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "0987eb5f66cfef6c",
+        "value": 170000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ";s position as a leader in the IoT market</td></tr><tr><td>Aug-14</td><td>Axeda Corporation</td><td>$170M</td><td>Acquired a leader in the M2M / IoT space</td></tr><tr><td>Jul-14</td><td>Atego</td><td",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "d55187e87cabd6e4",
+        "value": 50000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "170M</td><td>Acquired a leader in the M2M / IoT space</td></tr><tr><td>Jul-14</td><td>Atego</td><td>$50M</td><td>Acquired a developer of model-based systems and software engineering applications</td><",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "cbbd0a5e783bc241",
+        "value": 112000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "sed systems and software engineering applications</td></tr><tr><td>Dec-13</td><td>ThingWorx</td><td>$112M</td><td>Enabled PTC to gain a significant presence in the IoT market</td></tr><tr><td>Sep-13</",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "fa1c27b9ff8fd3ea",
+        "value": 10000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "gthened its product development and PLM capabilities</td></tr><tr><td>Jul-13</td><td>Enigma</td><td>$10M</td><td>Bolstered its existing portfolio of SLM solutions</td></tr><tr><td>Aug-12</td><td>Servi",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "f5328f0eca4ed5c4",
+        "value": 220000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "stered its existing portfolio of SLM solutions</td></tr><tr><td>Aug-12</td><td>Servigistics</td><td>$220M</td><td>Strengthened its SLM capabilities</td></tr><tr><td>Sep-11</td><td>4CS Software Solutio",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "281a51f3a32473f1",
+        "value": 305000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "eloper of warranty management and SLM software</td></tr><tr><td>May-11</td><td>MKS Software</td><td>$305M</td><td>Acquired a change-management platform for recording, monitoring, and tracking embedded",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "1569524fc69f15b2",
+        "value": 25000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ed PTC&#x27;s product analytics capabilities</td></tr><tr><td>Jun-09</td><td>Relex Software</td><td>$25M</td><td>Bolstered its capabilities in reliability engineering</td></tr><tr><td>Dec-07</td><td>C",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "9b4e358e01fed4c4",
+        "value": 250000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "stered its capabilities in reliability engineering</td></tr><tr><td>Dec-07</td><td>CoCreate</td><td>$250M</td><td>Integrated CoCreate&#x27;s direct modeling technology with Pro/ENGINEER&#x27;s paramet",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "4bae3771444448b8",
+        "value": 2000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ith Pro/ENGINEER&#x27;s parametric functionality</td></tr><tr><td>Nov-07</td><td>NetRegulus</td><td>$2M</td><td>Acquired an Enterprise Study and Quality management software for Medical Devices</td></t",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "5de01751e288486d",
+        "value": 7000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Quality management software for Medical Devices</td></tr><tr><td>May-07</td><td>NC Graphics</td><td>$7M</td><td>Enhances PTC&#x27;s ability to help customers optimize their manufacturing processes</td",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "e7a77329fd71205a",
+        "value": 17000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ptimize their manufacturing processes</td></tr><tr><td>Oct-06</td><td>ITEDO (GMBH software)</td><td>$17M</td><td>Acquired developer of technical illustration software</td></tr><tr><td>Apr-06</td><td>M",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "83e79b6dd36850c0",
+        "value": 63000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "uired developer of technical illustration software</td></tr><tr><td>Apr-06</td><td>Mathsoft</td><td>$63M</td><td>Acquired developer of Mathcad</td></tr><tr><td>Nov-05</td><td>DENC and Cadtrain Inc.</t",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "c5c6418c66628a77",
+        "value": 10000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>Acquired developer of Mathcad</td></tr><tr><td>Nov-05</td><td>DENC and Cadtrain Inc.</td><td>$10M</td><td>Enabled PTC to integrate its PTC applications with ERP software and provided online tra",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "ee3f218ba44004e6",
+        "value": 190000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "provided online training modules for PTC software</td></tr><tr><td>Jul-05</td><td>Arbortext</td><td>$190M</td><td>Acquired a leader in the Dynamic Enterprise Publishing Market</td></tr><tr><td>Jun-05<",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "78ce06be40111740",
+        "value": 7000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ynamic Enterprise Publishing Market</td></tr><tr><td>Jun-05</td><td>Aptavis Technology Corp</td><td>$7M</td><td>Acquired windchill-based technology for retail, footwear, and apparel</td></tr><tr><td>J",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "e8c4add014e73c26",
+        "value": 180000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>Allowed PTC to expand further into PLM</td></tr><tr><td>May-95</td><td>Rasna Corp.</td><td>$180M</td><td>Acquired developers of MECHANICA design optimization and simulation software</td></tr>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "7f24daff40ccb76f",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "## PTC Inc (PTC, N, Dec-26 PT \\$205/sh) - We model 9% forward 2YR Revenue CAGR and 1pp of EBITDA margin decline (CY2025E-27E) - Theme #1: Need to accele",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "4715f7968234628e",
+        "value": 205.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "## PTC Inc (PTC, N, Dec-26 PT \\$205/sh) - We model 9% forward 2YR Revenue CAGR and 1pp of EBITDA margin decline (CY2025E-27E) - Theme",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "5c4db25b7838abab",
+        "value": 215.03,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "rices in this report as of market close on 28 August 2025, unless otherwise indicated) PTC Inc(PTC/\\$215.03/N)",
+        "provenance": {
+          "page": 17
+        }
+      },
+      {
+        "num_id": "84abeb7dc254535a",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d)</td><td>Underweight (sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>51%</td><td>48%</td><td>35%</td></",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "6c23340b49fd84ff",
+        "value": 0.37,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nderweight (sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>51%</td><td>48%</td><td>35%</td></tr><tr><td>J",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "3a7dc1f621c08fe9",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "sell)</td></tr><tr><td>J.P. Morgan Global Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>51%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity R",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "12966a7f82311089",
+        "value": 0.51,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Equity Research Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>51%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%<",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "fef997e1bab3d87e",
+        "value": 0.48,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rch Coverage*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>51%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%<",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "6bffc9a679ed22c2",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "*</td><td>50%</td><td>37%</td><td>13%</td></tr><tr><td>IB clients**</td><td>51%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "f7269cc2b6529218",
+        "value": 0.47,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ients**</td><td>51%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "eaddba26dacb36b2",
+        "value": 0.41,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>51%</td><td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> ",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "854400b5f32dde8f",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>48%</td><td>35%</td></tr><tr><td>JPMS Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\\\*Please no",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "adbc30e0a8fc1d7f",
+        "value": 0.72,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Equity Research Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\\\*Please note that the percentages may not add to \\(1",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "90f3966a31a82aed",
+        "value": 0.69,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rch Coverage*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\\\*Please note that the percentages may not add to \\(100\\%\\) becau",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "08129ff2b1e39a6e",
+        "value": 0.51,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "*</td><td>47%</td><td>41%</td><td>12%</td></tr><tr><td>IB clients**</td><td>72%</td><td>69%</td><td>51%</td></tr></table> \\\\*Please note that the percentages may not add to \\(100\\%\\) because of roundi",
+        "provenance": {
+          "page": 20
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 9,
+      "tables_count": 0,
+      "numerical_data_count": 41,
+      "passages_count": 90,
+      "entities_count": 20
+    }
+  }
+}

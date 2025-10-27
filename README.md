@@ -1,3 +1,30 @@
+• 批量运行步骤
+
+  - 准备环境：conda activate deepseek-ocr（若终端刚打开）；确认 OPENROUTER_API_KEY 仍在环境变量里。
+  - 构造清单：把两天内的 PDF 目录列出来，例如 2025-09-28、2025-09-29；可先 find "input_pdfs" -maxdepth 2 -type d -name "2025-09-
+
+  # 激活环境后
+  python run_batch_processor.py -y \
+    --input "/home/qxx/DeepSeek-OCR/DeepSeek-OCR-master/deepseek-ocr-batch/input_pdfs/25.9月 普通个人版/9.1 普通个人版" \
+    > logs/run_9_1_$(date +%F_%H%M).log 2>&1
+
+  python run_batch_processor.py -y \
+    --input "/home/qxx/DeepSeek-OCR/DeepSeek-OCR-master/deepseek-ocr-batch/input_pdfs/25.9月 普通个人版/9.3 普通个人版" \
+    > logs/run_9_2_$(date +%F_%H%M).log 2>&1
+    若目录层级不同，只要指向包含那两天 PDF 的根即可；-d 可重复多次。
+  - 监控进度：tail -f logs/batch_processor.log | grep -E "保存JSON|阶段B|失败"；后台作业 PID 可用 cat batch.pid 查看，需终止时 kill
+    <pid> 并等待阶段B消费者退出。
+  - 结果校验：运行中、跑完后都可用
+
+    find output_report -maxdepth 2 -type f -mtime -2 -name "*.json" | wc -l
+    检查最近 48h 生成的 JSON 数量；必要时 spot-check 一两个文件确认结构。
+
+  提醒
+
+  - 现阶段模型只识别图像，Markdown→JSON 全靠本地规则，遇到失败日志多为图表 API 超时，重试即可。
+  - 若需进一步扩容并发，可调整 config_batch.processing.MAX_CONCURRENT_PDFS / MAX_CONCURRENT_API_CALLS，但注意 OpenRouter 的速率上
+    限，建议逐步调高、观察 httpx 超时比例再决定。
+  - 如需暂停后重跑，同一目录重复执行即可：阶段A 会跳过已有 Markdown，阶段B 只会处理缺失 JSON 的 PDF。
 # 🚀 DeepSeek OCR 批量处理系统
 
 基于DeepSeek OCR的智能文档批量处理系统，支持PDF文档的OCR识别、双模型数据提取和结构化JSON输出。
@@ -135,7 +162,7 @@ watch -n 5 nvidia-smi
 output_results/
 └── filename/
     ├── filename.md              # Markdown文本
-    ├── filename_final.json      # 结构化JSON数据
+    ├── filename.json            # 结构化JSON数据
     ├── images/                  # 提取的图表
     │   ├── 0_0.jpg             # 页面_图表序号
     │   └── 0_1.jpg

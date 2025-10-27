@@ -1,0 +1,4906 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "fcd2ba5eaa6f9be715ead5e78ae4b5cc",
+    "title": "Europe Derivatives",
+    "source_uri": "2025-08-29/European DerivativesEuropean Derivatives_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:28:40.763583",
+      "extracted_at": "2025-10-27T00:28:40.763592"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 22,
+        "successful_pages": 22,
+        "date": "2025-08-29",
+        "publication": "2025-08-29",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 3,
+          "reduction_ratio": 0.03601746825591279
+        },
+        "input_relative_path": "2025-08-29"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "f3a2897f838da225",
+      "text": "ing tactics after summer",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "22708bce80fb1f0d",
+      "text": "- A September ECB rate cut is not on the cards, but we expect markets to reflect greater optionality for an October cut than is currently priced in (around 3bp); tactically receive Oct25 ECB &STR which offers asymmetric upside- Stay received 1Yx1Y &STR on medium term, but reduced, downside risks considerations; keep longs in 98.125/98.3125 Dec25 Euribor call spread versus selling 98.0625 Dec25 Euribor put- Enter Z5/Z6 conditional bull steepener via Dec25 front and 1Y midcurve calls- Keep 2s/10s conditional bear steepener- 10s/30s curve appears only marginally too steep versus fundamental drivers. Keep medium-term steepening bias- 1Yx1Y/15Yx15Y is too flat versus 2Yx2Y/10Yx10Y and beta-weighted box trade is attractive on RV considerations- Hold Dec25 SOFR put spread (96/96.1825) versus selling OTM Euribor put- Front-end swap spreads are expected to stay in a narrow range; Keep tactical Sep25 Schatz &STR swap spread widener, which also historically has been a good hedge against sharp widening of OAT/Bund spreads even though the current relationship is weak- Favour Dec25 conditional Bund bull widener as an attractive risk-off hedge- Stay tactically neutral on Bund spreads with spreads being driven by risk-off and supply considerations- Enter Bund/Buxl swap spread curve steepener on supportive valuations and RV considerations- Stay in 3Mx(1Yx1Y) unhedged straddles- Enter equi-notional 6Mx5Y/1Yx5Y expiry curve steepener",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c7894c78db1628b1",
+      "text": "The &STR 1Y forward yields see- sawed over the last two weeks on shifting risk sentiment, but are overall lower across the curve with a decent outperformance of the belly (Figure 1). A relatively dovish Fed rhetoric at Jackson Hole, where Chair Powell further opened the door for a September cut, and French political noise were the primary drivers of the rally. Anecdotal evidence suggests that flows were mixed with some real money receiving at the ultra- long end, which was broadly counterbalanced by hedge funds' interest in long- end steepeners.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b99fff179e5ad827",
+      "text": "Figure 1: ESTR 1Y forward yields declined over the week with a decent outperformance of the belly of the curve",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5b8895b404f70973",
+      "text": "Source: J.P. Morgan.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "98f3ffdfd45e8ae2",
+      "text": "Figure 2: The ESTR curve is pricing 0bp and 3bp of cumulative easing by September and October meetings",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "38cb2120f457e51d",
+      "text": "Source: J.P. Morgan.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "724789c11cf3b149",
+      "text": "The ESTR curve is currently pricing 0bp, 3bp, and 9bp of cumulative easing by September, October, and December meetings, respectively (Figure 2). Recently, ECB rhetoric has shifted in a hawkish direction, with the central bank being in a \"good position\" with respect to policy rates even though its easing bias remains (Figure 3). We agree that a September cut is not on the cards but we believe that a cut in October is a possibility even though market pricing of such a move is minimal. Our baseline is for ECB to deliver one final cut in October, although the bar for an ease is high. Recent media articles have mentioned that ECB sources see rates remaining on hold in September given growth has surprised to the upside, the EU- US trade deal is not causing \"major economic concerns\", and inflation data are in line with the June forecast (Figure 4).",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d6f2ef16a8918511",
+      "text": "Figure 3: ECB rhetoric has shifted in the hawkish direction over the past few weeks",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5cf0fd613c54e8da",
+      "text": "Source: J.P. Morgan.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "82b371585f723d73",
+      "text": "Figure 4: A September cut is unlikely but we believe that October meeting should price more optionality of a cut",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "fc37a6b7812b8a1e",
+      "text": "Selected excerpts from recent ECB commentary;",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "01a8ae90a78d74e6",
+      "text": "Source: J.P. Morgan.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "359919c2633fd28b",
+      "text": "However, our economists' call for an October cut is driven by several factors (see here). First, the ECB core inflation forecast is currently undershooting the \\(2\\%\\) target for both 2026 & 2027 and is at target only for headline in 2027. Indeed, market pricing for HICP inflation",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9b2e21157b9e5c86",
+      "text": "Figure 5: Inflation market continues to price a target undershoot over the next 2-3 years",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4f1456d1383ee4bd",
+      "text": "Rolling 1Yx1Y, 2Yx1Y, and 3Yx1Y HICP swaps; since 1 Jan 2025; %",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "eaadfd70651b85eb",
+      "text": "Source: J.P. Morgan.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e533f9156997a69e",
+      "text": "We continue to receive 1Yx1Y ESTR that we have been recommending for the past few weeks, which has moved in a narrow 7bp range since the ECB's July meeting (Figure 6). We acknowledge that the bar for a large rally in 1Yx1Y ESTR is high and we expect this rate to continue to range trade. While the upside to receiving is limited, we believe that this offers asymmetric upside from current levels, as the ESTR curve is only pricing a cumulative easing of around 20bp by mid- 2026. With the ECB still maintaining an easing bias, we believe that the market will continue to price some easing which is likely to increase if output were to start to weaken or inflation prints over the coming months are more benign than ECB's forecast. Thus, we see limited risk of a sharp sell- off in 1Yx1Y ESTR.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "18b318a9e5de71be",
+      "text": "Along similar lines, we keep 98.125/98.3125 Dec25 Euribor call spread versus selling 98.0625 Dec25 Euribor put, which is also expected to benefit from the expected asymmetry in front- end yields.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "51ef0ba8188c4321",
+      "text": "The Euribor curve has flattened sharply over the past few days with Dec25/Dec26 flattening around 5bp since our last publication two weeks ago (Figure 7). We had turned tactically neutral on this curve two weeks ago. With the curve now inverted, we have a bias towards some steepening of the curve. We believe that if increased ECB easing expectations are priced into the curve it will likely be front loaded into 4Q25 or 1Q26. The Dec25/Dec26 curve exhibits a strong negative directionality versus yields and is currently too flat on a 3M",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4b10d8eb8aee862f",
+      "text": "regression basis (Figure 8). We recommend Dec25/Dec26 conditional bull steepeners via Dec25 Euribor calls (front and 1Y midcurve calls) (see Trade Recommendations). Dec25 options on Dec25 futures (front options) are trading relatively cheap in implied volatility terms versus those on Dec26 futures (1Y midcurve options) which allows us to enter the trade at around 3bp better than forwards, after adjusting for net credit using ATM calls.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "067efb0c2caa0f44",
+      "text": "Figure 7: The Dec25/Dec26 Euribor curve has flattened sharply over the past few days...",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3e6d71504d62ba1b",
+      "text": "Source: J.P. Morgan.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4e3a435aa67d891f",
+      "text": "Figure 8: ...and now appears too flat versus yields; enter Dec25/Dec26 conditional bull steepeners via Dec25 front and 1Y midcurve calls Dec25/Dec26 Euribor curve regressed against Dec25 Euribor yield; past 3M; bp",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "0beb2b70c74ecf82",
+      "text": "Source: J.P. Morgan.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a192a5ec6c334b59",
+      "text": "The 2s/10s swap curve overall flattened around 4bp with 10Y swap yields declining around 7bp. Overall, the 2s/10s curve continues to exhibit positive directionality versus yields on a regression basis, a dynamic we expect to continue. We continue to hold 2s/10s conditional bear- steepener via 3M payers.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "9805139587293918",
+      "text": "Further out the curve, the 10s/30s swap curve has continued the gradual steepening seen over 2025 and is now close to the steepest level seen since the ECB started its tightening cycle in early 2022 (Figure 9). The steepening over the last few months has been driven by a combination of structural and technical factors. For instance, increased correlation to US curve, positioning ahead of the Dutch pension fund transition from DB to DC schemes, which will require lesser and potentially shorter- dated hedges, have steepened the curve.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e0736e0173b4044e",
+      "text": "Figure 9: The 10s/30s swap curve has steepened broadly in a monotonic fashion over the past few months 10s/30s swap curve; since 1 Jan 2025; bp",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "abab1a48dab37fb6",
+      "text": "Source: J.P. Morgan.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e0ffcbcd9fb9c0b3",
+      "text": "Figure 10: The 10s/30s swap curve appears only marginally too steep in our long-term fair value model 10s/30s swap curve regressed against 1) 3Yx1Y swap rate \\((X_{1}\\) , quadratic fit), 2) VIX \\((X_{2})\\) 3) 10s/30s USD swap curve \\((X_{3})\\) , 4) ECB balance sheet as a \\(\\%\\) of GDP \\((X_{4})\\) , 5) ECB Jan22 meeting dummy and Fed's Dec23 meeting dummy \\((X_{5}\\) & \\(X_{6})\\) ; since 1 Jan 2017; bp",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "991896ce26fef638",
+      "text": "Source: J.P. Morgan.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6d2ac548f7eaf201",
+      "text": "Interestingly, despite the recent steepening, the 10s/30s swap curve now appears only around 5bp too steep versus its fundamental drivers in our long- term fair value model versus appearing around 12- 15bp too steep a few weeks ago (Figure 10). This correction in the residual can be largely explained by the fact that the EUR swap curve has lagged the recent steepening of the USD curve, which has itself been driven by concerns around fiscal term premium and Fed independence (see here) (Figure 11).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1bf808cdc613bbdf",
+      "text": "Looking ahead, we have a steepening bias on the 10s/30s curve but refrain from outright positioning. Our medium term steepening bias is primarily supported by the fact that Dutch pension fund based flows will likely begin over the coming months as we get closer to the transition date of \\(1^{\\text{st}}\\) Jan 2026 for a large majority of funds. We do caution that these funds are likely to be opportunistic in unwinding or reducing structural hedges and additionally have a 12M period to adjust their hedges post transition which would eliminate the need for immediate transition flows. Nevertheless, we note market participants will continue to anticipate these flows and potentially add to steepeners on any material flattening of the curve. Additionally, our steepening bias on the USD curve is supportive of Euro curve steepening even though the beta has declined.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "119ed2e997a67713",
+      "text": "Figure 11: The Euro swap curve has lagged the recent steepening of the USD curve, which has been driven by concerns around Fed independence 10s/30s EUR swap curve regressed against 10s/30s USD swap curve; past 3M; bp",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "26c9246a2bfbdb4f",
+      "text": "Source: J.P. Morgan.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f08a90d9ab703f70",
+      "text": "Figure 12: We keep a medium term steepening bias but refrain from outright positioning on unsupportive seasonals in September",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "2f3d0eeb85652eab",
+      "text": "Source: J.P. Morgan.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f38c5dcbe9dfaf16",
+      "text": "On the other hand, some near- term flattening of the curve cannot be fully ruled out. For instance, Dutch pension funds typically announce indexation of pension payouts based on the September inflation print. With Dutch inflation still above \\(2\\%\\) , we expect these funds to announce further increase in payouts this year. Historically, these funds then typically receive in long- end swaps (a 10s/30s flattener) to lock coverage ratios. A repeat of this dynamic could exert some flattening pressure on the curve. Of course, there exists a nontrivial chance that, due to already high policy funding ratios and high interest rate hedge exposures, indexation- based receiving could be smaller than seen previously. Nevertheless, this remains a risk to medium- term steepeners. Empirically, the 10s/30s curve tends to flatten a few bps over the month of September (Figure 12).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "38d3c0bb810081d7",
+      "text": "A few weeks ago, we had favoured 2Yx2Y/10Yx10Y swap curve steepener versus 10s/30s flattener on a beta- adjusted basis on RV considerations. The 2Yx2Y/10Yx10Y swap curve now appears 3bp too steep versus 10s/30s and we turn neutral on this relative steepening bias (Figure 13). Instead, we now find 1Yx1Y/15Yx15Y swap curve too flat versus 2Yx2Y/10Yx10Y and favour 1Yx1Y/15Yx15Y swap curve steepeners versus a beta- weighted amount of 2Yx2Y/10Yx10Y steepeners on RV considerations (Figure 14).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "71ba0cb350c00fe6",
+      "text": "Figure 13: Turn neutral on the relative steepening bias of 2Yx2Y/10Yx10Y swap curve versus 10s/30s",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "60482d9dbea05de8",
+      "text": "Source: J.P. Morgan.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "b216df4cea0902eb",
+      "text": "Figure 14: 1Yx1Y/15Yx15Y is too flat versus 2Yx2Y/10Yx10Y and beta-weighted box trade is attractive on RV considerations",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0fd6b256f8c32dec",
+      "text": "Source: J.P. Morgan.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "562f5d3341c3ec1b",
+      "text": "German swap spreads were overall mixed over the past two weeks, with a decent outperformance of Bobl & Bund spreads relative to wings (Figure 15). The Bobl/Buxl €STR swap spread curve flattened around 4bp since our last publication two weeks ago. Anecdotal evidence suggests some profit taking in tactical intermediate spread narrowers which were initiated going into the start of the issuance season. Swap spread volatility has increased marginally but still remains at overall low levels (Figure 16).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "592a0126c3bf2ba9",
+      "text": "Figure 15: German swap spreads were mixed over the past two weeks with a decent outperformance of intermediate spreads relative to wings",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "bf2236c2e6e094cf",
+      "text": "Source: J.P. Morgan.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c1a1b0712eee20a8",
+      "text": "Figure 16: Swap spread volatility has increased modestly over the past few days but still remains at overall low levels",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "bcbafa5890c28959",
+      "text": "Source: J.P. Morgan.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "bd2f2098e0abe896",
+      "text": "German swap spreads have exhibited limited volatility in the latest OAT/Bund spread widening episode, which was driven by PM Bayrou's call for a confidence vote. Specifically, current volatility of swap spreads pales significantly in comparison to the sharp increase seen during the surprise election announcement in June 2024. As we have discussed here.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e7375924f7cb2dc5",
+      "text": "we find the recent repricing of political uncertainty risk premia in French spreads to be broadly fair. More importantly, we expect the 10Y OAT/Bund spread to stay in a 75- 85bp range until there is further clarity on the direction of political developments. In our view, the limited volatility of German swap spreads potentially embeds this expectation of limited volatility in French spreads. Nevertheless, in the event of a large widening of French spreads, we would expect German swap spreads to widen as well, despite limited correlation currently. In Figure 17, we show the betas of various German swap spreads versus 10Y OAT/Bund spreads during past episodes of sharp widening in French spreads. While the relationship is currently broadly non-existent, historically, German swap spreads tend to exhibit a decent beta (and R-squared) to French spreads during these two episodes. For instance, Schatz spreads moved with a beta of around 50% to French spreads during the sharp widening seen in June 2024 when Macron surprisingly announced the parliamentary elections. Admittedly, the reaction of German swap spreads this time around has been rather muted but we believe that Schatz swap spread widener still offers a good hedge against a tail risk of significant widening in French spreads.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "eb75f72061f763dd",
+      "text": "Figure 17: Historically, Schatz swap spreads tend to exhibit decent beta to OAT/Bund widening episodes - a dynamic we expect to repeat this time around if French spreads widen significantly from here 1M regression statistics from regressing various German swap spreads versus 10Y OAT/Bund spread during past French spread widening episodes; %",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c1de8e83ece04037",
+      "text": "EventSchatzBollBundNameStart DateBeta (%)R-sq (%)Beta (%)Trump wins 2016 US Presidential ElectionNov-165853402017 French Presidential ElectionMar-174689312018 Italian General ElectionMay-18997478COVID-19 Risk-offFeb-20617929Expectations of faster Fed normalizationJan-22234881992024 French electionsJan-24478242*Liberation Day* Risk-offApr-25958769French PM Bayou calls for confidence voteAug-25-23-1",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "1cc6370d56584f88",
+      "text": "Source: J.P. Morgan.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "6f350417f51b6dc8",
+      "text": "Schatz &STR swap spreads at around - 10bp is now close to the lower end of our expected trading range but appears broadly fair in our long- term fair value model (Figure 18). As we have discussed previously, we believe that there is limited downside risk to wideners from current levels and we hold on to our Schatz &STR spread wideners that we have been recommending over the past few weeks.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7d24da64fbc11c48",
+      "text": "Figure 18: Schatz swap spreads are hovering around the lows of our expected trading range and are broadly fair in our long-term model. We keep Schatz €STR swap spread widener as a good hedge against any tail risk of French spread widening with limited downside given current valuations",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "60ad6fc4a08f4908",
+      "text": "Source: J.P. Morgan.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "dd727274405e8428",
+      "text": "Schatz swap spread regressed against 1) German RFR richness to €STR \\((X_{s})\\) , 2) 1Yx1Y swap rate \\((X_{s})\\) , 3) 10Y BTP/Bund spread \\((X_{s})\\) , 4) rolling front Schatz implied volatility \\((X_{s})\\) , 5) Dummy for ECB Oct23 and TLTRO-III Sep24 repayment \\((X_{s}\\) and \\(X_{s}\\) ); since 1 Jan 2015; bp",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "8108f30996c91633",
+      "text": "Source: J.P. Morgan.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "eada528972b40c3a",
+      "text": "Additionally, conditional Bund bull wideners also offer attractive risk- off hedges against any escalation in risk- off sentiment. Bund spreads continue to exhibit a strong negative directionality versus yields, which will likely exacerbate if yields decline rapidly on any risk- off move. The options market is not pricing recent directionality (implied directionality of around \\(17\\%\\) versus delivered directionality of around \\(35\\%\\) ) (Figure 19). We favour tactical Dec25 Bund bull widener as a risk- off hedge.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2e991cacd4d7864f",
+      "text": "Figure 19: Favour Dec25 Bund bull widener as a risk-off hedge Bund swap spread regressed against Bund invoice yield; past 3M; bp",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d3dcdce26c274a7a",
+      "text": "Source: J.P. Morgan.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "56128bdb96ad20e9",
+      "text": "Figure 20: Swapped issuance activity this time around is playing to script and we expect a continued increase over the coming weeks",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "b4c4015aba5cab10",
+      "text": "Source: J.P. Morgan.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "066144ca65a8f653",
+      "text": "Historical daily averages of swapped issuance activity versus 2025 split per month; Ebn/ day",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "c980c1bf2f95d6e2",
+      "text": "2025Past 5YPast 10YJanuary5.15.14.7February3.43.02.8March2.52.52.5April1.92.42.5May3.92.72.5June3.42.62.2July0.81.31.5August*1.01.51.2September2.92.6October2.32.2November2.22.1December0.20.3",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "e71ff7ddced3bc85",
+      "text": "\\\\*Current August data is as of \\(27^{\\mathrm{th}}\\) August 2025. Source: Dealogic and J.P.Morgan.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "c67ff2c26c44a8cc",
+      "text": "In addition to the volatility of French spreads, the evolution of issuance will also be a short- term driver of intermediate spreads. As seen in Figure 20, swapped issuance activity tends to pick up pace towards the end of August and continues on over the next few weeks. Issuance activity this time around is broadly following historical patterns and we expect this to continue increasing over the coming weeks; we also show the typical monthly averages of these swapped issuance activity across the calendar year versus that seen in 2025. All else equal, this increase in swapped issuance activity over the coming weeks should exert a narrowing pressure on intermediate swap spreads. However, as we have discussed at length before, pre- positioning in anticipation of these flows tends to lead to narrower spreads already before issuance picks up. Bund spreads typically exhibit some volatility around end- August/September while maintaining the overall broad narrowing trend (Figure 21). While this is supportive of a modest narrowing bias, we refrain from outright positioning given lingering risks around French politics and also going into US payroll data next week (see above).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "229568e7c7fa948c",
+      "text": "Figure 21: Bund spreads tend to exhibit some volatility around end-August/September while maintaining the overall narrowing trend; we stay tactically neutral on Bund spreadsCurrent versus average Bund spreads (vs 6s) around end-August; past 10Y; bp",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "edd408552996423b",
+      "text": "Source: J.P. Morgan.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "b4578b7058488ea4",
+      "text": "Figure 22: Enter Dec25 Bund/Buxl swap spread curve steepener which is trading too flat versus fundamental drivers on a short-term model",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "c6d8b09a43c90527",
+      "text": "Source: J.P. Morgan.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "2de8542689270c28",
+      "text": "Instead, we recommend Bund/Buxl swap spread curve steepener as an alternative. The Bund/Buxl swap spread curve has flattened around 4- 5bp over the month of August. On a short- term basis, the swap spread curve appears too flat versus 10s/30s swap curve, after adjusting for Bund spreads and the US tariff announcement in early April (Figure 22). Our medium- term swap spread steepening bias is supportive of swap spread curve steepening positions as well. Overall, we recommend Dec25 Bund/Buxl swap spread curve steepener (see Trade Recommendations).",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "e7dcc1303215b8bf",
+      "text": "Implied volatility declined marginally across the curve with a small flattening of the volatility curve across tails over the past two weeks (Figure 23). Anecdotal evidence suggests that flows were light with bias towards short volatility positions. 1M delivered volatility also declined around 0.3- 0.5bp/day across the curve which essentially reflects the large move post July ECB moving out of the sample. 1M delivered volatility is still around 0.6- 0.8bp/day below current implies across the curve (Figure 24).",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "7279da80818e964b",
+      "text": "Figure 23: Implied volatility curve flattened marginally over the past two weeks 2W change in implied volatility (3M expiry) versus current and 2W ago level of vol curve; bp/day",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "da6034165edaf95d",
+      "text": "Source: J.P. Morgan.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "2e446b955aa72518",
+      "text": "Figure 24: 1M delivered volatility is still well below current implieds Current 3M expiry implied volatility versus 1M delivered volatility; bp/day",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "d5577501b1ad7f10",
+      "text": "Source: J.P. Morgan.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "bc4b96c578c44bd8",
+      "text": "Figure 25: Since the jump on US tariff announcements, implieds have declined broadly in a monotonic fashion with a decent steepening of the volatility curve across tails 3Mx2Y and 3Mx10Y implied volatility; since 1 Jan 2025; bp/day",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "22c96b2579a01f4a",
+      "text": "Source: J.P. Morgan.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3f370f910a4c8242",
+      "text": "Implieds are now at their YTD lows; they have declined broadly in a monotonic fashion since the spike around Trump's tariff announcement in early April with a decent steepening of the curve across tails (Figure 25). Implieds are optically cheap on valuations but we expect implieds to remain sticky around current levels. However, we continue to stay short volatility, especially via structures that exploit mean reversion in front- end yields (Figure 26). Admittedly, we have a bullish duration bias (see above) but we highlight that we do not expect front- end yields to decline materially from current levels and range trading remains a strong conviction theme. The bar for ECB to cut policy rates further is high and it will require proof of data which is likely to be gradual over the coming weeks, as is reflected in our baseline scenario of a final cut coming only in October. In other words, even though implied volatility is likely to remain sticky, we do expect delivered volatility to stay muted over the coming weeks. To this effect, we highlight the following attractive strategies.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "0ae322f67822ab24",
+      "text": "Figure 26: Mean reversion is strong in Euro area yields; we prefer range trading short volatility strategies...",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "b4b3c65b8aab60c3",
+      "text": "Source: J.P. Morgan.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "bcc123324dbe7d17",
+      "text": "Figure 27: ...and we stay short 3Mx(1Yx1Y) unhedged straddles Current implied vol (bp/day), straddle premium (bp of notional), breakeven moves (bp), and upper/lower breakeven levels (\\%);",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "659f643f275166d0",
+      "text": "Data as of \\(28^{\\mathrm{th}}\\) August 2025. Source: J.P. Morgan.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "b9a5ad9a59ab5953",
+      "text": "First, we hold short in 3Mx(1Yx1Y) unhedged straddles - a theme that we have been following over the past few months and re- struck into new 3M options in our last publication (see here). As we had highlighted, the breakeven ranges are wide and will require material shift in ECB policy rate path expectations for yields to breach these levels (Figure 27).",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "66d826cb0ebffad2",
+      "text": "Second, we also like expiry curve steepers on front/intermediate tails (2- 10Y). For instance, buying ATMF 1Yx5Y straddles versus selling an equi- notional amount of ATMF 6Mx5Y straddles are long vega/short gamma at inception by construction. The weighted implied volatility spread (weighted by vega to obtain equi- notional exposure) exhibits a strong positive correlation to implieds but with a small beta (Figure 28). The weighted vol spread is close to the low end of its recent range and appears marginally too cheap versus implies. On the curve, we prefer these structures in the 5Y sector where we expect delivered volatility to be relatively muted as ECB is expected to remain on the sidelines over the next few weeks. The main risk to this trade would come from a jump in risk- off sentiment which could lead to some flattening of the expiry curve and/or large yield moves. Overall, we recommend buying 1Yx5Y ATMF straddles versus selling an equi- notional amount of 6Mx5Y ATMF straddles (see Trade Recommendations).",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "d79b5a6304d7ea1d",
+      "text": "Figure 28: Enter equi-notional 6Mx5Y/1Yx5Y expiry curve steepeners to benefit from expected low delivered volatility and potential pick-up in implieds",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "80ed3e687a1813b7",
+      "text": "Figure 29: We favour selling forward volatility agreements via synthetic replicates",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "d94389bb63153551",
+      "text": "Third, we favour short synthetic forward volatility structures constructed using a triangle of swaptions. As we have discussed previously, these synthetic replicates have residual gamma and vega exposures even though standard forward volatility agreements (FVA) have zero gamma exposure. In Figure 29, we present a list of attractive synthetic volatility constructs that are overall short gamma/long vega at inception. We also highlight that short FVAs are short correlation by construction. Correlation between the front and intermediate yields (say 1Yx1Y vs 5Yx5Y) is around \\(60\\%\\) when measured on daily changes over the past 3M. However, with front- end yields expected to remain sticky, we believe that risk bias for the correlation to stay low or decline even further. Amongst the structures presented, we favour shorts in 6Mx1Yx5Y which can be constructed via selling 6Mx1Y and 18Mx5Y straddles versus buying 6Mx6Y straddles, which appears attractive.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "d820960e1f5b10a6",
+      "text": "- Receive Oct25 ECB &STR Receive Oct25 ECB &STR at 1.897%;- Enter Z5/Z6 conditional bull steepener via Dec25 front/1Y midcurve calls Buy 1000 98.065 Dec25 Euribor calls (Dec25 Euribor futures at 98.04) versus selling 1000 98.0625 Dec25 1Y midcurve calls (Dec26 Euribor futures at 98.075) at 0bp versus current level of -3.5bp at a net credit of 6cents;- Keep Dec25 Euribor call spread versus OTM puts Keep long 1000 98.125/98.3125 Dec25 Euribor call spread versus short 1000 98.0625 put; Dec25 Euribor futures at 98.04 versus entry level of 98.06; P&L since inception (15th August 2025): - 2cents;- Keep Dec25 SOFR put spread versus short Euribor puts Keep 1000 96.1875/96 Dec25 SOFR put spread (Dec25 SOFR futures at 96.25) versus short 862 98.125 Dec25 Euribor (Dec25 Euribor at 98.06) put to remain in a cross market widener at 182.5bp versus entry level of 185.5bp; P&L since inception (15th August",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "355fbf6aeffc375f",
+      "text": "- Keep receiving 1Yx1Y ESTRStay received €100mn 1Yx1Y ESTR swap (swap start date 13 May 2026, swap maturity 13 May 2027) at 1.79% versus entry level of 1.70%; P&L since inception (9th May 2025): -9.0bp of yield;",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "e372a3934cbbe37d",
+      "text": "- Hold 1Yx(10s/30s) A/A+20/A+40 YCSO curve cap flyStay long €100mn 1Yx(30s10s) A/A+20/A+40 curve cap fly (maturity date 27 Apr 2026) (forward CMS curve at 18.0bp versus entry level of -9.7bp) at 5.9cents; P&L since inception (25th Apr 2025): +1.9bp of yield;",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "e765f5c1763a9d29",
+      "text": "- Stay in 2s/10s conditional bear steepener via 3M OTM payersHold longs in €100mn 2.804% 3Mx10Y payer (ATMF strike 2.694%, notification date 20 Oct 2025, maturity date 22nd Oct 2025) versus short €453.3mn 2.07% 3Mx2Y payer (ATMF strike 2.02%, notification date 20 Oct 2025, maturity date 22nd Oct 2027) to remain in a conditional bear steepener at 73.4bp versus spot and forward curve at 58.6bp and 59.5bp, respectively; P&L since inception (18th July 2025): -24.5bp of notional;",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "c4647c1e40b6733e",
+      "text": "- Enter Dec25 Bund/Buxl swap spread curve steepenerSell 1000 Dec25 Bund futures versus receiving €127.2mn CTD matched maturity swap (swap start date 8 Dec 2025, swap end date 15 Aug 2034 vs 6s Euribor) (Bund spread narrower) versus buying 442 Dec25 Buxl futures versus paying €48.6mn CTD matched maturity swap (swap start date 8 Dec 2025, swap end date 15th Aug 2056 vs 6s Euribor) (Buxl spread widener) to enter into a Bund/Buxl swap spread curve steepener at -37.5bp;",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "50afb63e5e8c5e16",
+      "text": "- Hold Sep25 Schatz ESTR swap spread widenerStay long 1000 Sep25 Schatz futures versus paying €105.4m CTD maturity matched ESTR swaps (swap start date 8 Sep 2025, swap maturity date 10 Jun 2027) to remain in a swap spread widener at -10.1bp versus entry level of -9.0bp; P&L since inception (11th July 2025): -1.1bp of yield",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "c28ac1a378e36153",
+      "text": "Buy €100mn 2.47% 1Yx5Y straddles (100% risk weight, notification date 1st Sep 2026, maturity date 3 Sep 2031) versus selling €100mn 2.38% 6Mx5Y straddles (72% risk weight, notification date 2nd March 2026, maturity date 4 March 2031) to enter into a weighted expiry curve steepener at a weighted implied spread of 1.3bp/day. This trade requires active delta hedging and is long vega/short gamma at inception;",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "a91b8445b25aefd0",
+      "text": "- Hold shorts in 3Mx(1Yx1Y) unhedged straddleStay short €100mn 2% straddle (notification date 17 Nov 2025, midcurve start date 19 Nov 2026, midcurve end date 19 Nov 2027) at 23.5bp of notional versus current level of 20.4bp of notional; P&L since inception (15th August 2025): +3.1bp of notional;",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "f4b6e69ea260077c",
+      "text": "Trades closed over the past 12 months",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "81c2fedce574aaf0",
+      "text": "TRADEENTRYEXITP&amp;LDURATION1Yx1Y A/A-50 receiver spread vs A+40 payer16-Aug-2406-Sep-2410.0Dec24 1Y Euribor midcurve call ladder01-Aug-2406-Sep-242.03Mx(1Yx1Y) 1x2 payer spread02-Aug-2412-Sep-242.01Yx1Y A/A-50 receiver spread vs A+40 payer06-Sep-2427-Sep-2413.53Mx(1Yx1Y) 1x2 payer spread12-Sep-2408-Nov-243.0Receive 1Yx1Y €STR04-Oct-2412-Dec-2419.01Yx1Y A/A-50 receiver spread vs A+40 payer27-Sep-2412-Dec-245.03Mx(1Yx1Y) A/A+21 1x2 payer spread08-Nov-2410-Jan-254.5Receive 1Yx1Y €STR yield07-Jan-2506-Feb-258.5Receive 1Yx1Y €STR yield21-Feb-2528-Feb-2511.0May25 Bobl call fly06-Mar-2521-Mar-251.8May25 Bobl call fly21-Mar-2503-Apr-251.56Mx1Y A-12.5/A-50 rec spread vs A+30 payer12-Dec-2411-Apr-252.5Jun25 Schatz call fly03-Apr-2517-Apr-250.0Jun25 Schatz call fly17-Apr-2523-May-25-1.2Receive Jul25 ECB €STR30-May-2511-Jul-25-6.0Receive Sep25 ECB €STR11-Jul-2524-Jul-25-3.06Mx2Y A-12.5/A-50 rec spread vs A+32 payer11-Apr-2515-Aug-250.5",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "81feeceef5069e80",
+      "text": "2Yx2Y/15Yx15Y swap curve steepener02-Aug-2412-Sep-249.03Mx(10s/30s) flattener hedged with long reds20-Sep-2404-Oct-242.51Yx1Y/5Yx5Y USD steepener vs EUR20-Sep-2404-Oct-24-14.7",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "8fae4566ae711eb7",
+      "text": "2Yx2Y/10Yx10Y steepener08-Nov-2521-Feb-2512.0Pay belly of Mar25/Apr25/Jun25 ECB €STR fly07-Feb-2506-Mar-252.0",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "45be1777d62dae22",
+      "text": "Receive body of 1Yx1Y/2Yx1Y/3Yx1Y €STR fly06-Mar-2503-Apr-253.6",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "a6258313272e7c45",
+      "text": "CONDITIONAL CURVE AND FILES",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "2aa495050929a24a",
+      "text": "1Yx1Y/5Yx5Y bear flattener via 3M midcurves21-Jun-2420-Sep-242.42s/5s conditional bullet steepener12-Sep-2427-Sep-241.5",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "f12843fe1e7ff49e",
+      "text": "2s/5s/10s conditional bull belly cheapener02-Aug-2427-Sep-241.9Mar25/Mar26 conditional bull steepener16-Aug-2425-Oct-247.0",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "7c767282d47edea7",
+      "text": "Jun25/Jun27 conditional bull steepener04-Oct-2425-Oct-246.010s/30s conditional bull steepener04-Oct-2403-Jan-250.0",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "05d26187ca25d43e",
+      "text": "10s/30s conditional bull steepener10-Jan-2531-Jan-252.82s/10s conditional bull flattener24-Jan-2507-Feb-250.0",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "4efa19fe510817a8",
+      "text": "3s/20s conditional bear steepener21-Feb-2528-Feb-251.110s/30s conditional bull steepener31-Jan-2528-Feb-252.2",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "7d91b4ebe0a48cb0",
+      "text": "Jun25/Jun27 Euribor conditional bull flattener25-Oct-2407-Mar-25-4.0",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "71e7914cb9be81e3",
+      "text": "10s/30s conditional bull steepener28-Feb-2514-Mar-250.6",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "a409bb27fc278ac7",
+      "text": "TRADEENTRYEXITP&amp;L3s/20s conditional bear steepener14-Mar-2528-Mar-250.9Sep25/Sep27 conditional bull flattener07-Mar-2503-Apr-253.03s/20s conditional bull flattener14-Mar-2516-Apr-25-10.05s/10s/30s conditional bull belly richer28-Feb-2516-May-250.03s/20s conditional bull steepener30-May-2527-Jun-252.3Reds/blues conditional bull steepener via 3M receivers11-Apr-2511-Jul-250.0",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "8fe58bd2d97a3de6",
+      "text": "SWAP SPREADSSep24 Schatz/Bund swap spread curve flattener02-Aug-2430-Aug-24-1.0Dec24 Schatz swap spread widener30-Aug-2418-Oct-24-12.3Dec24 Schatz/Bund swap spread curve flattener27-Sep-2418-Oct-240.2Dec24 Schatz/Bund swap spread curve flattener01-Nov-2407-Nov-243.0Bund/Buxl swap spread curve steepener13-Dec-2421-Feb-251.8Mar25 Bund bull widener24-Jan-2521-Feb-25-2.0Mar25 Schatz/Bund swap spread curve steepener07-Feb-2505-Mar-25-7.3May25 Bund bull widener07-Mar-2504-Apr-256.0May25 Bund bear narrower14-Mar-2511-Apr-250.6Jun25 Bund bull widener21-Feb-2516-May-250.0Jun25 Bund/Buxl swap spread curve steepener25-Apr-2530-May-253.5Jul25 Bund bull widener16-May-2513-Jun-251.1Sep25 Bund narrower06-Jun-2527-Jun-250.4",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "eb6efc5a63b089f7",
+      "text": "OPTIONS (OUTRIGHT)Sell 6Mx10Y unhedged straddle30-Aug-2404-Oct-2435.0Sell 3Mx30Y gamma - infrequent hedging27-Sep-2425-Oct-2450.0Sell 3Mx10Y GBP unhedged straddle06-Sep-2401-Nov-24-147.0Sell 3Mx30Y with infrequent delta hedging06-Nov-2424-Jan-25180.0Sell 1Yx1Y unhedged straddles10-Jan-2506-Feb-253.0Sell 3Mx2Y gamma24-Jan-2521-Feb-252.0Long 1Yx10Y gamma21-Feb-2506-Mar-25105.0Short 5Yx2Y vega07-Mar-2504-Apr-25-5.0Short 2Yx5Yx5Y synthetic forward vol14-Mar-2504-Apr-25-20.0Long 6Mx5Y gamma25-Apr-2509-May-25-5.0Sell 1Yx2Y unhedged straddle28-Feb-2516-May-2515.0Sell 3Mx10Y unhedged straddle09-May-2530-May-2540.0Sell 3Mx30Y unhedged straddle30-May-2506-Jun-2530.0Sell 3Mx30Y gamma06-Jun-2511-Jul-2590.0Sell 3Mx(1Yx1Y) unhedged straddle06-Jun-2515-Aug-2512.5Sell 3Mx2Y gamma18-Jul-2515-Aug-251.0",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "9aa6a1bb449da1cc",
+      "text": "OPTIONS (RELATIVE)3Mx2Y/3Mx10Y vol curve steepener21-Jun-2430-Aug-24-2.03Mx10Y/3Mx30Y vol curve flattener17-May-2430-Aug-24-2.0Buy Jun25 Bobl gamma vs swaption28-Mar-2511-Apr-2525.0",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "0a5c25bdcd3f1435",
+      "text": "OPTIONS (MONEY MARKET)",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "29750567f350b7fb",
+      "text": "Source: J.P. Morgan.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "3248413d820f21d1",
+      "text": "Trades closed over the past 12 months",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "36ef59a6f1269721",
+      "text": "ENTRYEXITP&LMISCELLANEOUSBuy 3Mx(5Yx5Y) OTM EUR receiver vs USD17-Oct-2401-Nov-244.9Buy 1Yx10Y OTM GBP receiver vs USD17-Oct-2401-Nov-24-3.5Sell ITM Jun25 SONIA puts versus Euribor10-Jan-2524-Jan-2515.0Buy Dec25 Euribor call vs SOFR30-Jan-2506-Feb-259.5Buy 3Mx(1Yx1Y) SOFR payer vs Euribor28-Feb-2514-Mar-25-15.0Buy Sep25 SOFR put versus Euribor27-Jun-2511-Jul-251.0",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "5245f53c10084a53",
+      "text": "Source: J.P. Morgan.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "b428d77c9159fcce",
+      "text": "Analyst Certification: The Research Analyst(s) denoted by an \"AC\" on the cover of this report certifies (or, where multiple Research Analysts are primarily responsible for this report, the Research Analyst denoted by an \"AC\" on the cover or within the document individually certifies, with respect to each security or issuer that the Research Analyst covers in this research) that: (1) all of the views expressed in this report accurately reflect the Research Analyst's personal views about any and all of the subject securities or issuers; and (2) no part of any of the Research Analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the Research Analyst(s) in this report. For all Korea- based Research Analysts listed on the front cover, if applicable, they also certify, as per KOFIA requirements, that the Research Analyst's analysis was made in good faith and that the views reflect the Research Analyst's own opinion, without undue influence or intervention.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "907695f2dd0949ae",
+      "text": "All authors named within this report are Research Analysts who produce independent research unless otherwise specified. In Europe, Sector Specialists (Sales and Trading) may be shown on this report as contacts but are not authors of the report or part of the Research Department.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "06c6eb4b3dcf0296",
+      "text": "A history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & Commentary page of http://www.jpmorganmarkets.com where you can also search by analyst name, sector or financial instrument.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "defea4c0f22f78b2",
+      "text": "Analysts' Compensation: The research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "82246d72891b1e48",
+      "text": "J.P. Morgan is a marketing name for investment banking businesses of JPMorgan Chase & Co. and its subsidiaries and affiliates worldwide.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "4e3c9ac6ebd0412c",
+      "text": "UK MIFID FICC research unbundling exemption: UK clients should refer to UK MIFID Research Unbundling exemption for details of J.P. Morgan's implementation of the FICC research exemption and guidance on relevant FICC research categorisation.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "5da2f84276d892fe",
+      "text": "Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "985d9027a77f24cc",
+      "text": "J.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or administered by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this report is intended to be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such Sanctioned Securities. Clients should be aware of their own legal and compliance obligations when making investment decisions.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "862304a31c66a729",
+      "text": "Any digital or crypto assets discussed in this research report are subject to a rapidly changing regulatory landscape. For relevant regulatory advisories on crypto assets, including bitcoin and ether, please see https://www.jpmorgan.com/disclosures/cryptoasset- disclosure.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "4e8ee3b43345c096",
+      "text": "The author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold themselves out as being able to do so.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "c911a18e810d1fbf",
+      "text": "Exchange- Traded Funds (ETFs): J.P. Morgan Securities LLC (\"JPMS\") acts as authorized participant for substantially all U.S.- listed ETFs. To the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction- based compensation in connection with the distribution of those ETF shares and may earn fees for performing other trade- related services, such as securities lending to short sellers of the ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or dealer to the ETFs. In addition, affiliates of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, index calculation and/or maintenance and other services.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "2c9d8949f8dc84ce",
+      "text": "Options and Futures related research: If the information contained herein regards options- or futures- related research, such information is available only to persons who have received the proper options or futures risk disclosure documents. Please contact your J.P. Morgan Representative or visit https://www.theocc.com/ components/docs/riskstoc.pdf for a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options or https://www.finra.org/sites/default/files/2020- 08/Security_Futures_Risk_Disclosure_Statement_2020. pdf for a copy of the Security Futures Risk Disclosure Statement.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "18f32d29160f4ed7",
+      "text": "Changes to Interbank Offered Rates (IBORs) and other benchmark rates: Certain interest rate benchmarks are, or may in the future become, subject to ongoing international, national and other regulatory guidance, reform and proposals for reform. For more information, please consult: https://www.jpmorgan.com/global/disclosures/interbank_offered_rates",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "7fc110e22c7554e0",
+      "text": "Private Bank Clients: Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its subsidiaries (\"J.P. Morgan Private Bank\"), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, including, but not limited to, the J.P. Morgan Corporate and Investment Bank and its Global Research division.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "e1ce52015a14b326",
+      "text": "Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of this research. Where more than one legal entity is listed under an analyst's name, the first legal entity is responsible for the production unless stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated below in the legal entity disclosures, this material has been distributed by the legal entity responsible for production, or where more than one legal entity is listed under the analyst's name, the first legal entity will be responsible for distribution. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "f864f4406ca586dd",
+      "text": "Legal Entities Disclosures and Country- /Region- Specific Disclosures:",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "2542af0120465fac",
+      "text": "Argentina: JPMorgan Chase Bank N.A Sucursal Buenos Aires is regulated by Banco Central de la Republica Argentina (\"BCRA\" Central Bank of Argentina) and Comision Nacional de Valores (\"CNV\"- Argentinian Securities Commission - ALYC y AN Integral N°51).",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "2893a979a623ea0d",
+      "text": "Australia: J.P. Morgan Securities Australia Limited (\"JPMSAL\") (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the Australian Securities and Investments Commission and is a Market Participant of ASX Limited, a Clearing and Settlement Participant of ASX Clear Pty Limited and a Clearing Participant of ASX Clear (Futures) Pty Limited. This material is issued and distributed in Australia by or on behalf of JPMSAL only to \"wholesale clients\" (as defined in section 761G of the Corporations Act 2001). A list of all financial products covered can be found by visiting https://www.jpmm.com/research/disclosures. J.P. Morgan seeks to cover companies of the domestic and international investor base across all Global Industry Classification Standard (GICS) sectors, as well as across a range of market capitalisation sizes. If applicable, in the course of conducting public side due diligence on the subject company(ies), the Research Analyst team may at times perform such diligence through corporate engagements such as site visits, discussions with company representatives, management presentations, etc. Research issued by JPMSAL has been prepared in accordance with J.P. Morgan Australia's Research Independence Policy which can be found at the following link: J.P. Morgan Australia - Research Independence Policy.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "650c6a995ae7e02b",
+      "text": "Canada: J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Canadian Investment Regulatory Organization and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed in Canada by or on behalf of J.P. Morgan Securities Canada Inc.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "37a63106079f40fb",
+      "text": "Chile: Inversiones J.P. Morgan Limitada is an unregulated entity incorporated in Chile.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "3402698c81a222c0",
+      "text": "China: J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy business.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "f41dc3115bd0733b",
+      "text": "Colombia: Banco J.P. Morgan Colombia S.A. is supervised by the Superintendencia Financiera de Colombia (SFC).",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "426a962a8e8c3d7e",
+      "text": "Dubai International Financial Centre (DIFC): JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO Box 506551, Dubai, UAE. This material has been distributed by J.P. Morgan Chase Bank, N.A., Dubai Branch to persons regarded as professional clients or market counterparties as defined under the DFSA rules.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "fdd2bba52d3dbbaa",
+      "text": "European Economic Area (EEA): Unless specified to the contrary, research is distributed in the EEA by J.P. Morgan SE (\"JPM SE\"), which is authorised as a credit institution by the Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and jointly supervised by the BaFin, the German Central Bank (Deutsche Bundesbank) and the European Central Bank (ECB). JPM SE is a company headquartered in Frankfurt with registered address at TaunusTurm, Taunustor 1, Frankfurt am Main, 60310, Germany. The material has been distributed in the EEA to persons regarded as professional investors (or equivalent) pursuant to Art. 4 para. 1 no. 10 and Annex II of MiFID II and its respective implementation in their home jurisdictions (\"EEA professional investors\"). This material must not be acted on or relied on by persons who are not EEA professional investors. Any investment or investment activity to which this material relates is only available to EEA relevant persons and will be engaged in only with EEA relevant persons.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "a5800eedaddc69b5",
+      "text": "Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is regulated by the Securities and Futures Commission in Hong Kong. J.P. Morgan Chase Bank, N.A., Hong Kong Branch (CE Number AAL996) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission, is organized under the laws of the United States with limited liability. Where the distribution of this material is a regulated activity in Hong Kong, the material is distributed in Hong Kong by or through J.P. Morgan Securities (Asia Pacific) Limited and/or J.P. Morgan Broking (Hong Kong) Limited.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "741653ddee6983dd",
+      "text": "India: J.P. Morgan India Private Limited (Corporate Identity Number - U67120MH1992FTC068724), having its registered office at J.P. Morgan Tower, Off. C.S.T. Road, Kalina, Santacruz - East, Mumbai - 400098, is registered with the Securities and Exchange Board of India (SEBI) as a 'Research Analyst' having registration number INH000001873. J.P. Morgan India Private Limited is also registered with SEBI as a member of",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "a51999d683529b2c",
+      "text": "Indonesia: PT J.P. Morgan Sekuritas Indonesia is a member of the Indonesia Stock Exchange and is registered and supervised by the Otoritas Jasa Keuangan (OJK).",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "8626b8f49c1c4b9a",
+      "text": "Korea: J.P. Morgan Securities (Far East) Limited, Seoul Branch, is a member of the Korea Exchange (KRX). JPMorgan Chase Bank, N.A., Seoul Branch, is licensed as a branch office of foreign bank (JPMorgan Chase Bank, N.A.) in Korea. Both entities are regulated by the Financial Services Commission (FSC) and the Financial Supervisory Service (FSS). For non- macro research material, the material is distributed in Korea by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "f40a3ff67341b4cf",
+      "text": "Japan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services Agency in Japan.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "21f06e89f6e56a74",
+      "text": "Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146- X), which is a Participating Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission in Malaysia.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "1ffaa5241f56c171",
+      "text": "Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V. and J.P. Morgan Grupo Financiero are members of the Mexican Stock Exchange and are authorized to act as a broker dealer by the National Banking and Securities Exchange Commission.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "c9ffb62687ae545b",
+      "text": "New Zealand: This material is issued and distributed by JPMSAI in New Zealand only to \"wholesale clients\" (as defined in the Financial Markets Conduct Act 2013). JPMSAI is registered as a Financial Service Provider under the Financial Service providers (Registration and Dispute Resolution) Act of 2008.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "81e36dbacb1e1b78",
+      "text": "Philippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the Securities Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and Exchange Commission.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "ef3fcbcaf28e02da",
+      "text": "Singapore: This material is issued and distributed in Singapore by or through J.P. Morgan Securities Singapore Private Limited (JPMSS) [MDDI (P) 057/08/2025 and Co. Reg. No.: 199405335R], which is a member of the Singapore Exchange Securities Trading Limited, and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore), both of which are regulated by the Monetary Authority of Singapore. This material is issued and distributed in Singapore only to accredited investors, expert investors and institutional investors, as defined in Section 4A of the Securities and Futures Act, Cap. 289 (SFA). This material is not intended to be issued or distributed to any retail investors or any other investors that do not fall into the classes of \"accredited investors,\" \"expert investors\" or \"institutional investors,\" as defined under Section 4A of the SFA. Recipients of this material in Singapore are to contact JPMSS or JPMCB Singapore in respect of any matters arising from, or in connection with, the material.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "912576ab2bf3358c",
+      "text": "South Africa: J.P. Morgan Equities South Africa Proprietary Limited and JPMorgan Chase Bank, N.A., Johannesburg Branch are members of the Johannesburg Securities Exchange and are regulated by the Financial Services Conduct Authority (FSCA).",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "974620068eea5e4e",
+      "text": "Taiwan: J.P. Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company- type) and regulated by the Taiwan Securities and Futures Bureau. Material relating to equity securities is issued and distributed in Taiwan by J.P. Morgan Securities (Taiwan) Limited, subject to the license scope and the applicable laws and the regulations in Taiwan. To the extent that J.P. Morgan Securities (Taiwan) Limited produces research materials on securities not listed on the Taiwan Stock Exchange or Taipei Exchange (\"Non- Taiwan Listed Securities\"), these materials shall not constitute securities recommendations for the purpose of applicable Taiwan regulations, and, for the avoidance of doubt, J.P. Morgan Securities (Taiwan) Limited does not act as broker for Non- Taiwan Listed Securities. According to Paragraph 2, Article 7- 1 of Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers (as amended or supplemented) and/or other applicable laws or regulations, please note that the recipient of this material is not permitted to engage in any activities in connection with the material that may give rise to conflicts of interests, unless otherwise disclosed in the \"Important Disclosures\" in this material.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "9bfa9e11a951e037",
+      "text": "Thailand: This material is issued and distributed in Thailand by JPMorgan Securities (Thailand) Ltd., which is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission, and its registered address is 3rd Floor, 20 North Sathorn Road, Silom, Bangrak, Bangkok 10500.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "4d72f5241e70e871",
+      "text": "UK: Research is produced in the UK by J.P. Morgan Securities plc (\"JPMs plc\") which is a member of the London Stock Exchange and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority or J.P. Morgan Markets Limited (\"JPMML Ltd\") which is authorised and regulated by the Financial Conduct Authority. Unless specified to the contrary, this material is distributed in the UK by JPMs plc and is directed in the UK only to: (a) persons having professional experience in matters relating to investments falling within article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) (Order) 2005",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "99febd30f423549e",
+      "text": "(\"the FPO\"); (b) persons outlined in article 49 of the FPO (high net worth companies, unincorporated associations or partnerships, the trustees of high value trusts, etc.); or (c) any persons to whom this communication may otherwise lawfully be made; all such persons being referred to as \"UK relevant persons\". This material must not be acted on or relied on by persons who are not UK relevant persons. Any investment or investment activity to which this material relates is only available to UK relevant persons and will be engaged in only with UK relevant persons. A description of J.P. Morgan EMEA's policy for prevention and avoidance of conflicts of interest related to the production of Research can be found at the following link: J.P. Morgan EMEA - Research Independence Policy.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "1bccf51520cb247c",
+      "text": "U.S.: J.P. Morgan Securities LLC (\"JPMS\") is a member of the NYSE, FINRA, SIPC, and the NFA. JPMorgan Chase Bank, N.A. is a member of the FDIC. Material published by non- U.S. affiliates is distributed in the U.S. by JPMS who accepts responsibility for its content.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "b28a6194095356c5",
+      "text": "General: Additional information is available upon request. The information in this material has been obtained from sources believed to be reliable. While all reasonable care has been taken to ensure that the facts stated in this material are accurate and that the forecasts, opinions and expectations contained herein are fair and reasonable, JPMorgan Chase & Co. or its affiliates and/or subsidiaries (collectively J.P. Morgan) make no representations or warranties whatsoever to the completeness or accuracy of the material provided, except with respect to any disclosures relative to J.P. Morgan and the Research Analyst's involvement with the issuer that is the subject of the material. Accordingly, no reliance should be placed on the accuracy, fairness or completeness of the information contained in this material. There may be certain discrepancies with data and/or limited content in this material as a result of calculations, adjustments, translations to different languages, and/or local regulatory restrictions, as applicable. These discrepancies should not impact the overall investment analysis, views and/or recommendations of the subject company(ies) that may be discussed in the material. Artificial intelligence tools may have been used in the preparation of this material, including assisting in data analysis, pattern recognition, and content drafting for research material. J.P. Morgan accepts no liability whatsoever for any loss arising from any use of this material or its contents, and neither J.P. Morgan nor any of its respective directors, officers or employees, shall be in any way responsible for the contents hereof, apart from the liabilities and responsibilities that may be imposed on them by the relevant regulatory authority in the jurisdiction in question, or the regulatory regime thereunder. Opinions, forecasts or projections contained in this material represent J.P. Morgan's current opinions or judgment as of the date of the material only and are therefore subject to change without notice. Periodic updates may be provided on companies/industries based on company- specific developments or announcements, market conditions or any other publicly available information. There can be no assurance that future results or events will be consistent with any such opinions, forecasts or projections, which represent only one possible outcome. Furthermore, such opinions, forecasts or projections are subject to certain risks, uncertainties and assumptions that have not been verified, and future actual results or events could differ materially. The value of, or income from, any investments referred to in this material may fluctuate and/or be affected by changes in exchange rates. All pricing is indicative as of the close of market for the securities discussed, unless otherwise stated. Past performance is not indicative of future results. Accordingly, investors may receive back less than originally invested. This material is not intended as an offer or solicitation for the purchase or sale of any financial instrument. The opinions and recommendations herein do not take into account individual client circumstances, objectives, or needs and are not intended as recommendations of particular securities, financial instruments or strategies to particular clients. This material may include views on structured securities, options, futures and other derivatives. These are complex instruments, may involve a high degree of risk and may be appropriate investments only for sophisticated investors who are capable of understanding and assuming the risks involved. The recipients of this material must make their own independent decisions regarding any securities or financial instruments mentioned herein and should seek advice from such independent financial, legal, tax or other adviser as they deem necessary. J.P. Morgan may trade as a principal on the basis of the Research Analysts' views and research, and it may also engage in transactions for its own account or for its clients' accounts in a manner inconsistent with the views taken in this material, and J.P. Morgan is under no obligation to ensure that such other communication is brought to the attention of any recipient of this material. Others within J.P. Morgan, including Strategists, Sales staff and other Research Analysts, may take views that are inconsistent with those taken in this material. Employees of J.P. Morgan not involved in the preparation of this material may have investments in the securities (or derivatives of such securities) mentioned in this material and may trade them in ways different from those discussed in this material. This material is not an advertisement for or marketing of any issuer, its products or services, or its securities in any jurisdiction.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "b21fed0192a262d8",
+      "text": "Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "c5333de7135c9ea7",
+      "text": "MSCI: Certain information herein (\"Information\") is reproduced by permission of MSCI Inc., its affiliates and information providers (\"MSCI\") ©2025. No reproduction or dissemination of the Information is permitted without an appropriate license. MSCI MAKES NO EXPRESS OR IMPLIED WARRANTIES (INCLUDING MERCHANTABILITY OR FITNESS) AS TO THE INFORMATION AND DISCLAIMS ALL LIABILITY TO THE EXTENT PERMITTED BY LAW. No Information constitutes investment advice, except for any applicable Information from MSCI ESG Research. Subject also to mscicom/disclaimer",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "cc047f196710be68",
+      "text": "Sustainalytics: Certain information, data, analyses and opinions contained herein are reproduced by permission of Sustainalytics and: (1) includes the proprietary information of Sustainalytics; (2) may not be copied or redistributed except as specifically authorized; (3) do not constitute investment advice nor an endorsement of any product or project; (4) are provided solely for informational purposes; and (5) are not warranted to be complete, accurate or timely. Sustainalytics is not responsible for any trading decisions, damages or other losses related to it or",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "9084d4bf2876bacf",
+      "text": "its use. The use of the data is subject to conditions available at https://www.sustainabilitys.com/legal- disclaimers. ©2025 Sustainalytics. All Rights Reserved.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "e8005e33dabfa99b",
+      "text": "\"Other Disclosures\" last revised August 02, 2025.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "cae4a79080918f0d",
+      "text": "Copyright 2025 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third- party (\"J.P. Morgan Data\") in any third- party artificial intelligence (\"AI\") systems or models when such J.P. Morgan Data is accessible by a third- party. It is permissible to use J.P. Morgan Data for internal business purposes only in an AI system or model that protects the confidentiality of J.P. Morgan Data so as to prevent any and all access to or use of such J.P. Morgan Data by any third- party.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "580fea6622d95021",
+      "text": "Completed 29 Aug 2025 04:46 PM BST",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "c4c2f6c8e6ac0438",
+      "text": "Disseminated 29 Aug 2025 05:15 PM BST",
+      "page": 21,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "39648bedcf2f4a19",
+      "name": "AFS Licence",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0e89cfc2054df5ce",
+      "name": "AN Integral",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0ef0c39c126f6fa4",
+      "name": "ASX Clear",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cc3137194d646091",
+      "name": "ASX Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a416231886f0fa52",
+      "name": "All Rights",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "517917b86efb07cf",
+      "name": "Analyst Certification",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21cd74fee7a13752",
+      "name": "Annex II",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f4758147dc564ecb",
+      "name": "Argentinian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "babb54828c5096a2",
+      "name": "Australia Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bc98bb53ad7f2a24",
+      "name": "Australian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "34925fcaabe8def5",
+      "name": "Banco Central",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "81119df9d2108575",
+      "name": "Bursa Malaysia",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03898be786b38f70",
+      "name": "CE Number",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "13eec11f9f77d58d",
+      "name": "Canada Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7860a2554c61a53f",
+      "name": "Canadian Investment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "246559ad6397328f",
+      "name": "Central Bank",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "366b70279caa0df3",
+      "name": "Chair Powell",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9ec9ae4069b4748d",
+      "name": "Classification Standard",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 3,
+        "axes": null,
+        "series": [],
+        "figure_id": "195a1fe8d2c5f371",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "1M MA of German RFR specialness*; bp",
+            "range": {
+              "min": -10,
+              "max": 40
+            }
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -20,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Data Points",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "Trend Line",
+            "unit": null,
+            "values": []
+          }
+        ],
+        "figure_id": "cdbf3250a1d60863",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "# business days around end-August"
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -8,
+              "max": 2
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Current",
+            "unit": null,
+            "values": [
+              {
+                "x": -20,
+                "y": 0
+              },
+              {
+                "x": -19,
+                "y": 0.2
+              },
+              {
+                "x": -18,
+                "y": 0.5
+              },
+              {
+                "x": -17,
+                "y": 0.8
+              },
+              {
+                "x": -16,
+                "y": 0.2
+              },
+              {
+                "x": -15,
+                "y": 0
+              },
+              {
+                "x": -14,
+                "y": -0.5
+              },
+              {
+                "x": -13,
+                "y": -1.5
+              },
+              {
+                "x": -12,
+                "y": -2.8
+              },
+              {
+                "x": -11,
+                "y": -2
+              },
+              {
+                "x": -10,
+                "y": -3.5
+              },
+              {
+                "x": -9,
+                "y": -4.5
+              },
+              {
+                "x": -8,
+                "y": -4.5
+              },
+              {
+                "x": -7,
+                "y": -3.8
+              },
+              {
+                "x": -6,
+                "y": -3.5
+              },
+              {
+                "x": -5,
+                "y": -4
+              },
+              {
+                "x": -4,
+                "y": -2.2
+              },
+              {
+                "x": -3,
+                "y": -2
+              },
+              {
+                "x": -2,
+                "y": -2.5
+              },
+              {
+                "x": -1,
+                "y": -3.5
+              },
+              {
+                "x": 0,
+                "y": -5.8
+              },
+              {
+                "x": 1,
+                "y": -5
+              },
+              {
+                "x": 2,
+                "y": -4.5
+              },
+              {
+                "x": 3,
+                "y": -4
+              },
+              {
+                "x": 4,
+                "y": -4.5
+              },
+              {
+                "x": 5,
+                "y": -4
+              },
+              {
+                "x": 6,
+                "y": -4.2
+              },
+              {
+                "x": 7,
+                "y": -2.5
+              },
+              {
+                "x": 8,
+                "y": -2.2
+              },
+              {
+                "x": 9,
+                "y": -3.5
+              },
+              {
+                "x": 10,
+                "y": -4
+              },
+              {
+                "x": 11,
+                "y": -3.5
+              },
+              {
+                "x": 12,
+                "y": -4
+              },
+              {
+                "x": 13,
+                "y": -7.5
+              },
+              {
+                "x": 14,
+                "y": -3.8
+              },
+              {
+                "x": 15,
+                "y": -4.5
+              },
+              {
+                "x": 16,
+                "y": -4
+              },
+              {
+                "x": 17,
+                "y": -3.8
+              },
+              {
+                "x": 18,
+                "y": -4.5
+              },
+              {
+                "x": 19,
+                "y": -5.2
+              },
+              {
+                "x": 20,
+                "y": -6
+              }
+            ]
+          },
+          {
+            "name": "2015-2020",
+            "unit": null,
+            "values": [
+              {
+                "x": -20,
+                "y": 0
+              },
+              {
+                "x": -19,
+                "y": 0
+              },
+              {
+                "x": -18,
+                "y": 0.5
+              },
+              {
+                "x": -17,
+                "y": 1
+              },
+              {
+                "x": -16,
+                "y": 0.8
+              },
+              {
+                "x": -15,
+                "y": 0.5
+              },
+              {
+                "x": -14,
+                "y": 0
+              },
+              {
+                "x": -13,
+                "y": -0.8
+              },
+              {
+                "x": -12,
+                "y": -1.5
+              },
+              {
+                "x": -11,
+                "y": -1
+              },
+              {
+                "x": -10,
+                "y": -0.5
+              },
+              {
+                "x": -9,
+                "y": -0.8
+              },
+              {
+                "x": -8,
+                "y": -1.2
+              },
+              {
+                "x": -7,
+                "y": -0.8
+              },
+              {
+                "x": -6,
+                "y": -0.2
+              },
+              {
+                "x": -5,
+                "y": 0
+              },
+              {
+                "x": -4,
+                "y": -0.5
+              },
+              {
+                "x": -3,
+                "y": -1
+              },
+              {
+                "x": -2,
+                "y": -1.2
+              },
+              {
+                "x": -1,
+                "y": -1
+              },
+              {
+                "x": 0,
+                "y": -0.8
+              }
+            ]
+          }
+        ],
+        "figure_id": "e4bea352b76de898",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "10s/30s USD swap curve; bp",
+            "range": {
+              "min": 10,
+              "max": 40
+            }
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 5,
+              "max": 25
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Data Points",
+            "unit": null,
+            "values": [
+              {
+                "x": 12,
+                "y": 7
+              },
+              {
+                "x": 13,
+                "y": 9
+              },
+              {
+                "x": 14,
+                "y": 9.5
+              },
+              {
+                "x": 14.5,
+                "y": 8
+              },
+              {
+                "x": 15,
+                "y": 10
+              },
+              {
+                "x": 16,
+                "y": 9.5
+              },
+              {
+                "x": 16.5,
+                "y": 11
+              },
+              {
+                "x": 17,
+                "y": 10
+              },
+              {
+                "x": 17.5,
+                "y": 12
+              },
+              {
+                "x": 18,
+                "y": 10.5
+              },
+              {
+                "x": 18.5,
+                "y": 11.5
+              },
+              {
+                "x": 19,
+                "y": 13
+              },
+              {
+                "x": 19.5,
+                "y": 12.5
+              },
+              {
+                "x": 20,
+                "y": 14
+              },
+              {
+                "x": 20.5,
+                "y": 15.5
+              },
+              {
+                "x": 21,
+                "y": 14.5
+              },
+              {
+                "x": 21.5,
+                "y": 16
+              },
+              {
+                "x": 22,
+                "y": 15
+              },
+              {
+                "x": 22.5,
+                "y": 17
+              },
+              {
+                "x": 23,
+                "y": 16.5
+              },
+              {
+                "x": 23.5,
+                "y": 18
+              },
+              {
+                "x": 24,
+                "y": 17.5
+              },
+              {
+                "x": 24.5,
+                "y": 19
+              },
+              {
+                "x": 25,
+                "y": 18.5
+              },
+              {
+                "x": 25.5,
+                "y": 20
+              },
+              {
+                "x": 26,
+                "y": 19.5
+              },
+              {
+                "x": 26.5,
+                "y": 20.5
+              },
+              {
+                "x": 27,
+                "y": 21
+              },
+              {
+                "x": 27.5,
+                "y": 20
+              },
+              {
+                "x": 28,
+                "y": 21.5
+              },
+              {
+                "x": 28.5,
+                "y": 22.5
+              },
+              {
+                "x": 29,
+                "y": 23
+              },
+              {
+                "x": 29.5,
+                "y": 22
+              },
+              {
+                "x": 30,
+                "y": 23.5
+              },
+              {
+                "x": 30.5,
+                "y": 24
+              },
+              {
+                "x": 31,
+                "y": 23
+              },
+              {
+                "x": 31.5,
+                "y": 24.5
+              },
+              {
+                "x": 32,
+                "y": 24
+              },
+              {
+                "x": 32.5,
+                "y": 24.5
+              },
+              {
+                "x": 33,
+                "y": 23.5
+              },
+              {
+                "x": 33.5,
+                "y": 24.5
+              },
+              {
+                "x": 34,
+                "y": 25
+              },
+              {
+                "x": 36,
+                "y": 24.5,
+                "color": "black"
+              },
+              {
+                "x": 37,
+                "y": 25,
+                "color": "black"
+              }
+            ]
+          },
+          {
+            "name": "Regression Line",
+            "unit": null,
+            "values": [
+              {
+                "x": 10,
+                "y": 5.29
+              },
+              {
+                "x": 40,
+                "y": 30.49
+              }
+            ]
+          }
+        ],
+        "figure_id": "2e39ac51aef103ad",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "linear",
+            "labels": "# days around August end"
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0.0,
+              "max": 3.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Current",
+            "unit": null,
+            "values": [
+              {
+                "x": -20,
+                "y": 0.8
+              },
+              {
+                "x": -19,
+                "y": 0.7
+              },
+              {
+                "x": -18,
+                "y": 0.5
+              },
+              {
+                "x": -17,
+                "y": 0.4
+              },
+              {
+                "x": -16,
+                "y": 0.35
+              },
+              {
+                "x": -15,
+                "y": 0.3
+              },
+              {
+                "x": -14,
+                "y": 0.3
+              },
+              {
+                "x": -13,
+                "y": 0.3
+              },
+              {
+                "x": -12,
+                "y": 0.25
+              },
+              {
+                "x": -11,
+                "y": 0.25
+              },
+              {
+                "x": -10,
+                "y": 0.2
+              },
+              {
+                "x": -9,
+                "y": 0.25
+              },
+              {
+                "x": -8,
+                "y": 0.3
+              },
+              {
+                "x": -7,
+                "y": 0.4
+              },
+              {
+                "x": -6,
+                "y": 0.7
+              },
+              {
+                "x": -5,
+                "y": 0.75
+              },
+              {
+                "x": -4,
+                "y": 0.8
+              },
+              {
+                "x": -3,
+                "y": 0.85
+              }
+            ]
+          },
+          {
+            "name": "Average",
+            "unit": null,
+            "values": [
+              {
+                "x": -20,
+                "y": 1.2
+              },
+              {
+                "x": -19,
+                "y": 1.1
+              },
+              {
+                "x": -18,
+                "y": 1.0
+              },
+              {
+                "x": -17,
+                "y": 0.9
+              },
+              {
+                "x": -16,
+                "y": 0.85
+              },
+              {
+                "x": -15,
+                "y": 0.8
+              },
+              {
+                "x": -14,
+                "y": 0.75
+              },
+              {
+                "x": -13,
+                "y": 0.7
+              },
+              {
+                "x": -12,
+                "y": 0.65
+              },
+              {
+                "x": -11,
+                "y": 0.6
+              },
+              {
+                "x": -10,
+                "y": 0.6
+              },
+              {
+                "x": -9,
+                "y": 0.65
+              },
+              {
+                "x": -8,
+                "y": 0.7
+              },
+              {
+                "x": -7,
+                "y": 0.8
+              },
+              {
+                "x": -6,
+                "y": 0.9
+              },
+              {
+                "x": -5,
+                "y": 1.0
+              },
+              {
+                "x": -4,
+                "y": 1.1
+              },
+              {
+                "x": -3,
+                "y": 1.2
+              },
+              {
+                "x": -2,
+                "y": 1.3
+              },
+              {
+                "x": -1,
+                "y": 1.4
+              },
+              {
+                "x": 0,
+                "y": 1.5
+              },
+              {
+                "x": 1,
+                "y": 1.6
+              },
+              {
+                "x": 2,
+                "y": 1.7
+              },
+              {
+                "x": 3,
+                "y": 1.8
+              },
+              {
+                "x": 4,
+                "y": 1.9
+              },
+              {
+                "x": 5,
+                "y": 2.0
+              },
+              {
+                "x": 6,
+                "y": 2.1
+              },
+              {
+                "x": 7,
+                "y": 2.2
+              },
+              {
+                "x": 8,
+                "y": 2.3
+              },
+              {
+                "x": 9,
+                "y": 2.4
+              },
+              {
+                "x": 10,
+                "y": 2.5
+              },
+              {
+                "x": 11,
+                "y": 2.6
+              },
+              {
+                "x": 12,
+                "y": 2.65
+              },
+              {
+                "x": 13,
+                "y": 2.65
+              },
+              {
+                "x": 14,
+                "y": 2.6
+              },
+              {
+                "x": 15,
+                "y": 2.7
+              },
+              {
+                "x": 16,
+                "y": 2.6
+              },
+              {
+                "x": 17,
+                "y": 2.55
+              },
+              {
+                "x": 18,
+                "y": 2.5
+              },
+              {
+                "x": 19,
+                "y": 2.48
+              },
+              {
+                "x": 20,
+                "y": 2.45
+              }
+            ]
+          }
+        ],
+        "figure_id": "2afc1034bbb474b2",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan 25",
+              "Mar 25",
+              "May 25",
+              "Jul 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 2.5,
+              "max": 6.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "3Mx2Y",
+            "unit": null,
+            "values": [
+              4.95,
+              4.7,
+              4.85,
+              4.6,
+              4.7,
+              4.5,
+              4.3,
+              4.2,
+              4.1,
+              4.2,
+              4.3,
+              4.1,
+              4.0,
+              4.1,
+              4.2,
+              4.3,
+              4.4,
+              4.5,
+              4.6,
+              4.7,
+              4.8,
+              4.9,
+              5.0,
+              5.1,
+              5.2,
+              5.3,
+              5.4,
+              5.5,
+              5.4,
+              5.3,
+              5.2,
+              5.1,
+              5.0,
+              4.9,
+              4.8,
+              4.7,
+              4.6,
+              4.5,
+              4.4,
+              4.3,
+              4.2,
+              4.1,
+              4.0,
+              3.9,
+              3.8,
+              3.7,
+              3.6,
+              3.5,
+              3.4,
+              3.3,
+              3.2,
+              3.1,
+              3.0,
+              2.9,
+              2.8,
+              2.7,
+              2.8,
+              2.9
+            ]
+          },
+          {
+            "name": "3Mx10Y",
+            "unit": null,
+            "values": [
+              4.3,
+              4.2,
+              4.4,
+              4.5,
+              4.3,
+              4.2,
+              4.1,
+              4.0,
+              4.1,
+              4.2,
+              4.3,
+              4.4,
+              4.5,
+              4.6,
+              4.7,
+              4.8,
+              4.9,
+              5.0,
+              5.1,
+              5.2,
+              5.3,
+              5.4,
+              5.5,
+              5.6,
+              5.7,
+              5.6,
+              5.5,
+              5.4,
+              5.3,
+              5.2,
+              5.1,
+              5.0,
+              4.9,
+              4.8,
+              4.7,
+              4.6,
+              4.5,
+              4.4,
+              4.3,
+              4.2,
+              4.1,
+              4.0,
+              3.9,
+              3.8,
+              3.7,
+              3.6,
+              3.5,
+              3.4,
+              3.3,
+              3.2,
+              3.1,
+              3.0,
+              2.9,
+              2.8,
+              2.7,
+              2.6,
+              2.7,
+              2.8
+            ]
+          }
+        ],
+        "figure_id": "03df3990af5b406b",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan 25",
+              "Mar 25",
+              "May 25",
+              "Jul 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -30,
+              "max": 30
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              -19.5,
+              -22.5,
+              -19.5,
+              -20.5,
+              -22.5,
+              -20.5,
+              -19.5,
+              -18.5,
+              -17.5,
+              -16.5,
+              -15.5,
+              -14.5,
+              -13.5,
+              -12.5,
+              -11.5,
+              -10.5,
+              -9.5,
+              -8.5,
+              -7.5,
+              -6.5,
+              -5.5,
+              -4.5,
+              -3.5,
+              -2.5,
+              -1.5,
+              -0.5,
+              0.5,
+              -1.5,
+              -10.5,
+              -11.5,
+              -10.5,
+              -9.5,
+              -8.5,
+              -7.5,
+              -6.5,
+              -5.5,
+              -4.5,
+              -3.5,
+              -2.5,
+              -1.5,
+              -0.5,
+              0.5,
+              1.5,
+              2.5,
+              3.5,
+              4.5,
+              5.5,
+              6.5,
+              7.5,
+              8.5,
+              9.5,
+              10.5,
+              11.5,
+              12.5,
+              13.5,
+              14.5,
+              15.5,
+              16.5,
+              17.5,
+              18.5,
+              19.5,
+              20.5,
+              21.5,
+              22.5,
+              23.5
+            ]
+          }
+        ],
+        "figure_id": "82d2639c57ed46b7",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan 25",
+              "Mar 25",
+              "May 25",
+              "Jul 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -8,
+              "max": 4
+            }
+          }
+        },
+        "series": [
+          {
+            "name": null,
+            "unit": null,
+            "values": [
+              1.0,
+              1.2,
+              0.8,
+              1.4,
+              0.8,
+              0.2,
+              -0.2,
+              -0.8,
+              -1.8,
+              -2.2,
+              -3.8,
+              -4.2,
+              -3.8,
+              -4.0,
+              -4.8,
+              -5.2,
+              -5.8,
+              -6.2,
+              -7.0,
+              -7.2,
+              -6.8,
+              -6.0,
+              -5.2,
+              -4.8,
+              -4.0,
+              -3.2,
+              -2.8,
+              -2.0,
+              -1.2,
+              -0.8,
+              -0.2,
+              0.2,
+              0.8,
+              1.2,
+              1.8,
+              2.2,
+              2.8,
+              3.2,
+              2.8,
+              2.2,
+              1.8,
+              1.4
+            ]
+          }
+        ],
+        "figure_id": "7d0e23a11b40d024",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "combo",
+        "title": "Change since 8th August",
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1Y",
+              "2Y",
+              "3Y",
+              "4Y",
+              "5Y",
+              "6Y",
+              "7Y",
+              "8Y",
+              "9Y",
+              "10Y",
+              "12Y",
+              "15Y",
+              "20Y",
+              "25Y",
+              "30Y"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 2.5,
+              "max": 4.5
+            }
+          },
+          "y2": {
+            "unit": null,
+            "range": {
+              "min": -0.3,
+              "max": 0.3
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "29-Aug-25",
+            "unit": null,
+            "values": [
+              2.5,
+              2.85,
+              3.1,
+              3.25,
+              3.4,
+              3.5,
+              3.6,
+              3.65,
+              3.75,
+              3.8,
+              3.85,
+              3.9,
+              4.0,
+              4.1,
+              4.2
+            ]
+          },
+          {
+            "name": "15-Aug-25",
+            "unit": null,
+            "values": [
+              2.5,
+              3.0,
+              3.25,
+              3.45,
+              3.6,
+              3.7,
+              3.8,
+              3.85,
+              3.95,
+              4.0,
+              4.05,
+              4.1,
+              4.2,
+              4.3,
+              4.4
+            ]
+          },
+          {
+            "name": "Change since 8th August",
+            "unit": null,
+            "values": [
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.05,
+              -0.05
+            ],
+            "type": "bar"
+          }
+        ],
+        "figure_id": "cab75d77af6b980f",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2Y",
+              "5Y",
+              "10Y",
+              "30Y"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 1.5,
+              "max": 4.5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Implied vol",
+            "unit": null,
+            "values": [
+              2.9,
+              3.4,
+              3.7,
+              4.1
+            ]
+          },
+          {
+            "name": "1M delivered vol",
+            "unit": null,
+            "values": [
+              2.1,
+              2.8,
+              3.1,
+              3.5
+            ]
+          }
+        ],
+        "figure_id": "35586603d1bd25c6",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "table",
+        "title": null,
+        "page": 13,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "3Mx1Y",
+              "3Mx2Y",
+              "3Mx5Y",
+              "3Mx10Y",
+              "3Mx30Y",
+              "6Mx1Y",
+              "6Mx2Y",
+              "6Mx5Y",
+              "6Mx10Y",
+              "6Mx30Y",
+              "3Mx(1Yx1Y)",
+              "3Mx(2Yx1Y)",
+              "3Mx(3Yx1Y)"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "Imp vol (bp/day)",
+            "unit": "bp/day",
+            "values": [
+              2.3,
+              2.9,
+              3.4,
+              3.7,
+              4.1,
+              2.7,
+              3.1,
+              3.6,
+              4.0,
+              4.5,
+              3.5,
+              3.6,
+              3.8
+            ]
+          },
+          {
+            "name": "Straddle premium (bp of notional)",
+            "unit": "bp of notional",
+            "values": [
+              15,
+              36,
+              102,
+              212,
+              533,
+              23,
+              55,
+              152,
+              316,
+              803,
+              22,
+              22,
+              23
+            ]
+          },
+          {
+            "name": "Breakeven change (bp of yield)",
+            "unit": "bp of yield",
+            "values": [
+              15,
+              19,
+              22,
+              24,
+              26,
+              24,
+              28,
+              33,
+              36,
+              40,
+              23,
+              24,
+              25
+            ]
+          },
+          {
+            "name": "ATMF strike (%)",
+            "unit": "%",
+            "values": [
+              2.03,
+              2.08,
+              2.34,
+              2.68,
+              2.9,
+              2.02,
+              2.1,
+              2.37,
+              2.71,
+              2.91,
+              2.13,
+              2.37,
+              2.53
+            ]
+          },
+          {
+            "name": "Spot yield (%)",
+            "unit": "%",
+            "values": [
+              2.06,
+              2.07,
+              2.31,
+              2.65,
+              2.89,
+              2.06,
+              2.07,
+              2.31,
+              2.65,
+              2.89,
+              2.06,
+              2.06,
+              2.06
+            ]
+          },
+          {
+            "name": "Lower BE (%)",
+            "unit": "%",
+            "values": [
+              1.88,
+              1.89,
+              2.12,
+              2.44,
+              2.63,
+              1.78,
+              1.82,
+              2.05,
+              2.35,
+              2.51,
+              1.9,
+              2.13,
+              2.28
+            ]
+          },
+          {
+            "name": "Upper BE (%)",
+            "unit": "%",
+            "values": [
+              2.18,
+              2.26,
+              2.56,
+              2.92,
+              3.16,
+              2.26,
+              2.39,
+              2.7,
+              3.07,
+              3.31,
+              2.35,
+              2.6,
+              2.78
+            ]
+          }
+        ],
+        "figure_id": "f9b1b30236ee1da4",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 13,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1D",
+              "1W",
+              "2W",
+              "1M"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 1.0,
+              "max": 3.5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "1Yx1Y",
+            "unit": null,
+            "values": [
+              3.3,
+              2.3,
+              1.6,
+              1.4
+            ]
+          },
+          {
+            "name": "2Y",
+            "unit": null,
+            "values": [
+              2.2,
+              1.8,
+              1.2,
+              1.1
+            ]
+          },
+          {
+            "name": "10Y",
+            "unit": null,
+            "values": [
+              3.0,
+              2.2,
+              1.4,
+              1.3
+            ]
+          }
+        ],
+        "figure_id": "c136dfb4d264bca9",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Schatz",
+              "Bobl",
+              "Bund",
+              "Buxl"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -4,
+              "max": 2
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "€STR",
+            "unit": null,
+            "values": [
+              -0.4,
+              1.5,
+              0.7,
+              -2.6
+            ]
+          },
+          {
+            "name": "6s",
+            "unit": null,
+            "values": [
+              -0.2,
+              1.5,
+              0.8,
+              -3.3
+            ]
+          }
+        ],
+        "figure_id": "18de17012c442a18",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "table",
+        "title": null,
+        "page": 14,
+        "axes": null,
+        "series": [
+          {
+            "name": "Fwdvol",
+            "unit": null,
+            "values": [
+              "6Mx1Yx1Y",
+              "6Mx1Yx2Y",
+              "6Mx1Yx5Y",
+              "6Mx1Yx10Y",
+              "6Mx2Yx2Y",
+              "6Mx2Yx5Y",
+              "6Mx2Yx10Y",
+              "1Yx2Yx5Y"
+            ]
+          },
+          {
+            "name": "Current",
+            "unit": null,
+            "values": [
+              3.6,
+              3.8,
+              4.1,
+              4.3,
+              4.1,
+              4.2,
+              4.3,
+              4.3
+            ]
+          },
+          {
+            "name": "Zscore",
+            "unit": null,
+            "values": [
+              -1.8,
+              -1.8,
+              -1.5,
+              -1.1,
+              -1.9,
+              -1.7,
+              -1.2,
+              -1.9
+            ]
+          },
+          {
+            "name": "R2; %",
+            "unit": "%",
+            "values": [
+              81,
+              84,
+              86,
+              85,
+              83,
+              84,
+              83,
+              79
+            ]
+          },
+          {
+            "name": "Residual",
+            "unit": null,
+            "values": [
+              -0.36,
+              -0.34,
+              -0.16,
+              0.0,
+              -0.29,
+              -0.17,
+              -0.03,
+              -0.2
+            ]
+          },
+          {
+            "name": "Gamma",
+            "unit": null,
+            "values": [
+              -77,
+              -170,
+              -342,
+              -590,
+              -196,
+              -413,
+              -726,
+              -218
+            ]
+          },
+          {
+            "name": "Bpvega",
+            "unit": null,
+            "values": [
+              0.6,
+              1.2,
+              3.0,
+              5.6,
+              2.0,
+              4.9,
+              9.1,
+              4.1
+            ]
+          }
+        ],
+        "figure_id": "122662139f1f0aee",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "numeric",
+            "labels": "3Yx1Y swap rate; %",
+            "range": {
+              "min": -1.0,
+              "max": 3.5
+            }
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 40,
+              "max": 120
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Data Points",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "Trend Line",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "15 July 2025",
+            "unit": null,
+            "values": [
+              {
+                "x": 2.4,
+                "y": 92
+              }
+            ]
+          },
+          {
+            "name": "29 Aug 2025",
+            "unit": null,
+            "values": [
+              {
+                "x": 2.5,
+                "y": 87
+              }
+            ]
+          }
+        ],
+        "figure_id": "9aecde2456548eeb",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "10s/30s EUR swap curve; bp"
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -55,
+              "max": -30
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Data Points",
+            "unit": null,
+            "values": [
+              [
+                -23.5,
+                -52
+              ],
+              [
+                -22.5,
+                -51.5
+              ],
+              [
+                -21.5,
+                -51
+              ],
+              [
+                -20.5,
+                -50.5
+              ],
+              [
+                -19.5,
+                -50
+              ],
+              [
+                -18.5,
+                -49.5
+              ],
+              [
+                -17.5,
+                -49
+              ],
+              [
+                -16.5,
+                -48.5
+              ],
+              [
+                -15.5,
+                -48
+              ],
+              [
+                -14.5,
+                -47.5
+              ],
+              [
+                -13.5,
+                -47
+              ],
+              [
+                -12.5,
+                -46.5
+              ],
+              [
+                -11.5,
+                -46
+              ],
+              [
+                -10.5,
+                -45.5
+              ],
+              [
+                -9.5,
+                -45
+              ],
+              [
+                -8.5,
+                -44.5
+              ],
+              [
+                -7.5,
+                -44
+              ],
+              [
+                -6.5,
+                -43.5
+              ],
+              [
+                -5.5,
+                -43
+              ],
+              [
+                -4.5,
+                -42.5
+              ],
+              [
+                -3.5,
+                -42
+              ],
+              [
+                -2.5,
+                -41.5
+              ],
+              [
+                -1.5,
+                -41
+              ],
+              [
+                -0.5,
+                -40.5
+              ],
+              [
+                0.5,
+                -40
+              ],
+              [
+                1.5,
+                -39.5
+              ],
+              [
+                2.5,
+                -39
+              ],
+              [
+                3.5,
+                -38.5
+              ],
+              [
+                4.5,
+                -38
+              ],
+              [
+                5.5,
+                -37.5
+              ],
+              [
+                6.5,
+                -37
+              ],
+              [
+                7.5,
+                -36.5
+              ],
+              [
+                8.5,
+                -36
+              ],
+              [
+                9.5,
+                -35.5
+              ],
+              [
+                10.5,
+                -35
+              ],
+              [
+                11.5,
+                -34.5
+              ],
+              [
+                12.5,
+                -34
+              ],
+              [
+                13.5,
+                -33.5
+              ],
+              [
+                14.5,
+                -33
+              ],
+              [
+                15.5,
+                -32.5
+              ],
+              [
+                16.5,
+                -32
+              ],
+              [
+                17.5,
+                -31.5
+              ],
+              [
+                18.5,
+                -31
+              ],
+              [
+                19.5,
+                -30.5
+              ],
+              [
+                20.5,
+                -30
+              ],
+              [
+                21.5,
+                -29.5
+              ],
+              [
+                22.5,
+                -29
+              ],
+              [
+                23.5,
+                -28.5
+              ],
+              [
+                24.5,
+                -28
+              ],
+              [
+                25.5,
+                -27.5
+              ],
+              [
+                26.5,
+                -27
+              ],
+              [
+                27.5,
+                -26.5
+              ],
+              [
+                28.5,
+                -26
+              ],
+              [
+                29.5,
+                -25.5
+              ],
+              [
+                24.5,
+                -36
+              ]
+            ]
+          }
+        ],
+        "figure_id": "1df1b495248ee8d3",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Fronts",
+              "Reds",
+              "Greens",
+              "Blues",
+              "Golds",
+              "Purples",
+              "Orange",
+              "Pink",
+              "Silver",
+              "Copper"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -14,
+              "max": 0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Change (lhs)",
+            "unit": null,
+            "values": [
+              -1,
+              -5,
+              -8,
+              -10,
+              -12,
+              -11,
+              -9,
+              -7,
+              -6,
+              -6
+            ]
+          },
+          {
+            "name": "28-Aug-25",
+            "unit": null,
+            "values": [
+              1.9,
+              1.9,
+              2.2,
+              2.5,
+              2.7,
+              2.85,
+              2.95,
+              3.05,
+              3.15,
+              3.2
+            ]
+          }
+        ],
+        "figure_id": "72e439a626c8f2ea",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "29-Apr",
+              "14-May",
+              "29-May",
+              "13-Jun",
+              "28-Jun",
+              "13-Jul",
+              "28-Jul",
+              "12-Aug",
+              "27-Aug"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -4,
+              "max": 6
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              3.5,
+              2.0,
+              3.0,
+              1.0,
+              -3.0,
+              -2.0,
+              -0.5,
+              1.8,
+              0.5,
+              1.0,
+              0.0,
+              -1.0,
+              -2.0,
+              -1.5,
+              -0.5,
+              0.0,
+              -1.0,
+              -2.0,
+              -1.0,
+              0.0,
+              1.0,
+              2.0,
+              1.0,
+              0.0,
+              -1.0,
+              -2.0,
+              -3.0,
+              -2.0,
+              -1.0,
+              0.0,
+              1.0,
+              2.0,
+              3.0,
+              2.5,
+              1.0,
+              0.0,
+              -1.0,
+              -2.0,
+              -3.0,
+              -4.0,
+              -3.0,
+              -2.0,
+              -1.0,
+              0.0,
+              0.5,
+              1.0,
+              2.0,
+              3.0,
+              4.0
+            ]
+          }
+        ],
+        "figure_id": "42147819671091b8",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "Dec25 Euribor yield; %",
+            "range": {
+              "min": 1.7,
+              "max": 2.0
+            }
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -5,
+              "max": 15
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Data Points",
+            "unit": null,
+            "values": [
+              {
+                "x": 1.71,
+                "y": 11.5
+              },
+              {
+                "x": 1.71,
+                "y": 9.0
+              },
+              {
+                "x": 1.72,
+                "y": 10.0
+              },
+              {
+                "x": 1.73,
+                "y": 10.5
+              },
+              {
+                "x": 1.73,
+                "y": 9.5
+              },
+              {
+                "x": 1.74,
+                "y": 10.0
+              },
+              {
+                "x": 1.74,
+                "y": 8.5
+              },
+              {
+                "x": 1.75,
+                "y": 10.0
+              },
+              {
+                "x": 1.75,
+                "y": 9.0
+              },
+              {
+                "x": 1.76,
+                "y": 9.0
+              },
+              {
+                "x": 1.76,
+                "y": 8.0
+              },
+              {
+                "x": 1.77,
+                "y": 9.0
+              },
+              {
+                "x": 1.77,
+                "y": 5.0
+              },
+              {
+                "x": 1.78,
+                "y": 10.0
+              },
+              {
+                "x": 1.78,
+                "y": 9.0
+              },
+              {
+                "x": 1.78,
+                "y": 6.0
+              },
+              {
+                "x": 1.79,
+                "y": 11.0
+              },
+              {
+                "x": 1.79,
+                "y": 10.0
+              },
+              {
+                "x": 1.79,
+                "y": 8.0
+              },
+              {
+                "x": 1.79,
+                "y": 5.5
+              },
+              {
+                "x": 1.8,
+                "y": 12.0
+              },
+              {
+                "x": 1.8,
+                "y": 11.0
+              },
+              {
+                "x": 1.8,
+                "y": 10.0
+              },
+              {
+                "x": 1.8,
+                "y": 7.0
+              },
+              {
+                "x": 1.81,
+                "y": 12.0
+              },
+              {
+                "x": 1.81,
+                "y": 11.0
+              },
+              {
+                "x": 1.81,
+                "y": 10.0
+              },
+              {
+                "x": 1.81,
+                "y": 6.0
+              },
+              {
+                "x": 1.82,
+                "y": 10.0
+              },
+              {
+                "x": 1.82,
+                "y": 9.0
+              },
+              {
+                "x": 1.82,
+                "y": 7.0
+              },
+              {
+                "x": 1.83,
+                "y": 10.0
+              },
+              {
+                "x": 1.83,
+                "y": 9.0
+              },
+              {
+                "x": 1.84,
+                "y": 10.5
+              },
+              {
+                "x": 1.84,
+                "y": 8.0
+              },
+              {
+                "x": 1.85,
+                "y": 10.5
+              },
+              {
+                "x": 1.86,
+                "y": 7.5
+              },
+              {
+                "x": 1.86,
+                "y": 6.5
+              },
+              {
+                "x": 1.87,
+                "y": 8.0
+              },
+              {
+                "x": 1.87,
+                "y": 7.0
+              },
+              {
+                "x": 1.87,
+                "y": 5.0
+              },
+              {
+                "x": 1.88,
+                "y": 8.0
+              },
+              {
+                "x": 1.88,
+                "y": 7.0
+              },
+              {
+                "x": 1.88,
+                "y": 6.0
+              },
+              {
+                "x": 1.89,
+                "y": 8.0
+              },
+              {
+                "x": 1.89,
+                "y": 7.0
+              },
+              {
+                "x": 1.9,
+                "y": 8.0
+              },
+              {
+                "x": 1.9,
+                "y": 6.0
+              },
+              {
+                "x": 1.91,
+                "y": 7.0
+              },
+              {
+                "x": 1.91,
+                "y": 5.0
+              },
+              {
+                "x": 1.92,
+                "y": 6.0
+              },
+              {
+                "x": 1.92,
+                "y": 4.0
+              },
+              {
+                "x": 1.93,
+                "y": 5.0
+              },
+              {
+                "x": 1.93,
+                "y": 3.0
+              },
+              {
+                "x": 1.94,
+                "y": 4.0
+              },
+              {
+                "x": 1.94,
+                "y": 2.0
+              },
+              {
+                "x": 1.95,
+                "y": 3.0
+              },
+              {
+                "x": 1.95,
+                "y": -4.0
+              },
+              {
+                "x": 1.96,
+                "y": -3.0,
+                "color": "black"
+              }
+            ]
+          },
+          {
+            "name": "Trend Line",
+            "unit": null,
+            "values": [
+              {
+                "x": 1.7,
+                "y": 13.06
+              },
+              {
+                "x": 1.75,
+                "y": 10.92
+              },
+              {
+                "x": 1.8,
+                "y": 8.78
+              },
+              {
+                "x": 1.85,
+                "y": 6.64
+              },
+              {
+                "x": 1.9,
+                "y": 4.5
+              },
+              {
+                "x": 1.95,
+                "y": 2.36
+              },
+              {
+                "x": 2.0,
+                "y": 0.22
+              }
+            ]
+          }
+        ],
+        "figure_id": "62561365aa3afbba",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 25",
+              "Dec 25",
+              "Mar 26",
+              "Jun 26",
+              "Sep 26",
+              "Dec 26"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 1.4,
+              "max": 2.0
+            }
+          },
+          "y2": {
+            "unit": null,
+            "range": {
+              "min": -25,
+              "max": 5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Step",
+            "unit": null,
+            "values": [
+              -1,
+              -4,
+              -2,
+              0,
+              2,
+              3,
+              3
+            ]
+          },
+          {
+            "name": "15-Aug-25",
+            "unit": null,
+            "values": [
+              1.9,
+              1.85,
+              1.8,
+              1.75,
+              1.75,
+              1.78,
+              1.82
+            ]
+          },
+          {
+            "name": "01-Aug-25",
+            "unit": null,
+            "values": [
+              1.89,
+              1.77,
+              1.71,
+              1.72,
+              1.74,
+              1.78,
+              1.81
+            ]
+          }
+        ],
+        "figure_id": "b8bfa412f3973408",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan 25",
+              "Mar 25",
+              "May 25",
+              "Jul 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -5,
+              "max": 25
+            }
+          }
+        },
+        "series": [
+          {
+            "name": null,
+            "unit": null,
+            "values": [
+              13.5,
+              15.0,
+              17.5,
+              16.0,
+              14.0,
+              12.0,
+              13.0,
+              11.0,
+              12.0,
+              10.0,
+              11.0,
+              10.0,
+              8.0,
+              5.0,
+              4.0,
+              18.0,
+              20.0,
+              21.0,
+              19.0,
+              17.0,
+              15.0,
+              16.0,
+              14.0,
+              10.0,
+              12.0,
+              14.0,
+              16.0,
+              17.0,
+              16.0,
+              15.0,
+              16.0,
+              17.0,
+              16.0,
+              15.0,
+              14.0,
+              13.0,
+              12.0,
+              11.0,
+              10.0,
+              9.0,
+              8.0,
+              7.0,
+              6.0,
+              5.0,
+              4.0,
+              3.0,
+              2.0,
+              1.0,
+              0.0,
+              -1.0,
+              -2.0,
+              -3.0,
+              -4.0
+            ]
+          }
+        ],
+        "figure_id": "d408353b61a657a7",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "2Yx2Y/10Yx10Y swap curve; bp",
+            "range": {
+              "min": 20,
+              "max": 100
+            }
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Data Points",
+            "unit": null,
+            "values": [
+              {
+                "x": 28,
+                "y": 7
+              },
+              {
+                "x": 29,
+                "y": 8
+              },
+              {
+                "x": 30,
+                "y": 10
+              },
+              {
+                "x": 31,
+                "y": 12
+              },
+              {
+                "x": 32,
+                "y": 14
+              },
+              {
+                "x": 33,
+                "y": 15
+              },
+              {
+                "x": 34,
+                "y": 17
+              },
+              {
+                "x": 35,
+                "y": 18
+              },
+              {
+                "x": 36,
+                "y": 20
+              },
+              {
+                "x": 37,
+                "y": 22
+              },
+              {
+                "x": 38,
+                "y": 23
+              },
+              {
+                "x": 39,
+                "y": 25
+              },
+              {
+                "x": 40,
+                "y": 26
+              },
+              {
+                "x": 41,
+                "y": 28
+              },
+              {
+                "x": 42,
+                "y": 30
+              },
+              {
+                "x": 43,
+                "y": 31
+              },
+              {
+                "x": 44,
+                "y": 33
+              },
+              {
+                "x": 45,
+                "y": 34
+              },
+              {
+                "x": 46,
+                "y": 36
+              },
+              {
+                "x": 47,
+                "y": 38
+              },
+              {
+                "x": 48,
+                "y": 39
+              },
+              {
+                "x": 49,
+                "y": 41
+              },
+              {
+                "x": 50,
+                "y": 42
+              },
+              {
+                "x": 51,
+                "y": 44
+              },
+              {
+                "x": 52,
+                "y": 46
+              },
+              {
+                "x": 53,
+                "y": 47
+              },
+              {
+                "x": 54,
+                "y": 49
+              },
+              {
+                "x": 55,
+                "y": 50
+              },
+              {
+                "x": 56,
+                "y": 52
+              },
+              {
+                "x": 57,
+                "y": 54
+              },
+              {
+                "x": 58,
+                "y": 55
+              },
+              {
+                "x": 59,
+                "y": 57
+              },
+              {
+                "x": 60,
+                "y": 58
+              },
+              {
+                "x": 61,
+                "y": 60
+              },
+              {
+                "x": 62,
+                "y": 62
+              },
+              {
+                "x": 63,
+                "y": 63
+              },
+              {
+                "x": 64,
+                "y": 65
+              },
+              {
+                "x": 65,
+                "y": 66
+              },
+              {
+                "x": 66,
+                "y": 68
+              },
+              {
+                "x": 67,
+                "y": 70
+              },
+              {
+                "x": 68,
+                "y": 71
+              },
+              {
+                "x": 69,
+                "y": 73
+              },
+              {
+                "x": 70,
+                "y": 74
+              },
+              {
+                "x": 71,
+                "y": 76
+              },
+              {
+                "x": 72,
+                "y": 78
+              },
+              {
+                "x": 73,
+                "y": 79
+              },
+              {
+                "x": 74,
+                "y": 81
+              },
+              {
+                "x": 75,
+                "y": 82
+              },
+              {
+                "x": 76,
+                "y": 84
+              },
+              {
+                "x": 77,
+                "y": 86
+              },
+              {
+                "x": 78,
+                "y": 87
+              },
+              {
+                "x": 79,
+                "y": 89
+              },
+              {
+                "x": 80,
+                "y": 90
+              },
+              {
+                "x": 81,
+                "y": 92
+              },
+              {
+                "x": 82,
+                "y": 94
+              },
+              {
+                "x": 83,
+                "y": 95
+              },
+              {
+                "x": 84,
+                "y": 97
+              },
+              {
+                "x": 85,
+                "y": 98
+              },
+              {
+                "x": 86,
+                "y": 99
+              },
+              {
+                "x": 87,
+                "y": 100
+              },
+              {
+                "x": 88,
+                "y": 90
+              }
+            ]
+          }
+        ],
+        "figure_id": "cff60ba72d7a4d37",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "linear",
+            "labels": "# business days around end-August"
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -10,
+              "max": 2
+            }
+          }
+        },
+        "series": [
+          {
+            "name": null,
+            "unit": null,
+            "values": [
+              {
+                "x": 0,
+                "y": 0.5
+              },
+              {
+                "x": 1,
+                "y": 1.5
+              },
+              {
+                "x": 2,
+                "y": 0.5
+              },
+              {
+                "x": 3,
+                "y": 1
+              },
+              {
+                "x": 4,
+                "y": -0.5
+              },
+              {
+                "x": 5,
+                "y": -1.5
+              },
+              {
+                "x": 6,
+                "y": -0.5
+              },
+              {
+                "x": 7,
+                "y": 0.5
+              },
+              {
+                "x": 8,
+                "y": -0.5
+              },
+              {
+                "x": 9,
+                "y": -1
+              },
+              {
+                "x": 10,
+                "y": -1.5
+              },
+              {
+                "x": 11,
+                "y": -2
+              },
+              {
+                "x": 12,
+                "y": -3
+              },
+              {
+                "x": 13,
+                "y": -4
+              },
+              {
+                "x": 14,
+                "y": -5
+              },
+              {
+                "x": 15,
+                "y": -6
+              },
+              {
+                "x": 16,
+                "y": -6.5
+              },
+              {
+                "x": 17,
+                "y": -6
+              },
+              {
+                "x": 18,
+                "y": -5.5
+              },
+              {
+                "x": 19,
+                "y": -6
+              },
+              {
+                "x": 20,
+                "y": -6.5
+              },
+              {
+                "x": 21,
+                "y": -5
+              },
+              {
+                "x": 22,
+                "y": -3
+              },
+              {
+                "x": 23,
+                "y": -4
+              },
+              {
+                "x": 24,
+                "y": -5
+              },
+              {
+                "x": 25,
+                "y": -4.5
+              },
+              {
+                "x": 26,
+                "y": -4
+              },
+              {
+                "x": 27,
+                "y": -5
+              },
+              {
+                "x": 28,
+                "y": -5.5
+              },
+              {
+                "x": 29,
+                "y": -5
+              },
+              {
+                "x": 30,
+                "y": -4.5
+              },
+              {
+                "x": 31,
+                "y": -5
+              },
+              {
+                "x": 32,
+                "y": -6
+              },
+              {
+                "x": 33,
+                "y": -7
+              },
+              {
+                "x": 34,
+                "y": -6.5
+              },
+              {
+                "x": 35,
+                "y": -6
+              },
+              {
+                "x": 36,
+                "y": -5
+              },
+              {
+                "x": 37,
+                "y": -4
+              },
+              {
+                "x": 38,
+                "y": -5
+              },
+              {
+                "x": 39,
+                "y": -6
+              },
+              {
+                "x": 40,
+                "y": -7
+              },
+              {
+                "x": 41,
+                "y": -8.5
+              },
+              {
+                "x": 42,
+                "y": -9
+              },
+              {
+                "x": 43,
+                "y": -8
+              },
+              {
+                "x": 44,
+                "y": -7.5
+              },
+              {
+                "x": 45,
+                "y": -6.5
+              },
+              {
+                "x": 46,
+                "y": -7
+              },
+              {
+                "x": 47,
+                "y": -6
+              },
+              {
+                "x": 48,
+                "y": -5
+              },
+              {
+                "x": 49,
+                "y": -6
+              },
+              {
+                "x": 50,
+                "y": -7
+              },
+              {
+                "x": 51,
+                "y": -6.5
+              },
+              {
+                "x": 52,
+                "y": -5.5
+              },
+              {
+                "x": 53,
+                "y": -5
+              },
+              {
+                "x": 54,
+                "y": -6
+              },
+              {
+                "x": 55,
+                "y": -6.5
+              },
+              {
+                "x": 56,
+                "y": -6.5
+              },
+              {
+                "x": 57,
+                "y": -6.5
+              },
+              {
+                "x": 58,
+                "y": -6.5
+              },
+              {
+                "x": 59,
+                "y": -6.5
+              },
+              {
+                "x": 60,
+                "y": -6.5
+              }
+            ]
+          }
+        ],
+        "figure_id": "9b3e059e80f7d840",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "table",
+        "title": null,
+        "page": 2,
+        "axes": {},
+        "series": [
+          {
+            "name": "ECB Comments",
+            "unit": null,
+            "values": [
+              {
+                "Source": "Bloomberg",
+                "Date": "22-Aug",
+                "Comment": "European Central Bank officials are increasingly convinced they can keep interest rates unchanged in September, according to people familiar with the matter who don't see the trade deal between Brussels and Washington causing major economic concerns."
+              },
+              {
+                "Source": "Nagel",
+                "Date": "22-Aug",
+                "Comment": "I think the bar is high. So it needs a lot to convince me to change monetary policy."
+              },
+              {
+                "Source": "Rehn",
+                "Date": "23-Aug",
+                "Comment": "Inflation is for now in a good place. Any insurance cut just for its own sake wouldn't be necessary [though] the ECB must of course be mindful of the risks."
+              },
+              {
+                "Source": "Kazaks",
+                "Date": "24-Aug",
+                "Comment": "We've seen good news, we've seen bad news, but not sufficiently big news to lead to a rethink of what we would need to do. I think we are still in a good place."
+              },
+              {
+                "Source": "Lagarde",
+                "Date": "25-Aug",
+                "Comment": "[Higher levies will only have] a small impact [on GDP]. The economy is increasingly back to potential. Growth is relatively modest, but resilient and on its way up with the fundamentals such as consumption and investment looking good at the moment. The ECB expects only a very minor impact on inflation [from the trade deal]."
+              },
+              {
+                "Source": "Rehn",
+                "Date": "28-Aug",
+                "Comment": "Uncertainty about the effects of geopolitics and the trade war nevertheless clouds the economic outlook. [Inflation is in the short term slowing below the 2% target as a result of cheaper energy, a stronger euro, and the slowdown in services inflation]."
+              }
+            ]
+          }
+        ],
+        "figure_id": "46e4b41a27bc5a87",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "Bund invoice yield",
+            "unit": "%",
+            "range": {
+              "min": 2.4,
+              "max": 2.75
+            }
+          },
+          "y": {
+            "type": "value",
+            "unit": null,
+            "range": {
+              "min": -24,
+              "max": -12
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Data Points",
+            "unit": null,
+            "values": [
+              {
+                "x": 2.42,
+                "y": -16.0
+              },
+              {
+                "x": 2.47,
+                "y": -14.0
+              },
+              {
+                "x": 2.48,
+                "y": -15.0
+              },
+              {
+                "x": 2.49,
+                "y": -13.0
+              },
+              {
+                "x": 2.49,
+                "y": -17.0
+              },
+              {
+                "x": 2.5,
+                "y": -16.0
+              },
+              {
+                "x": 2.51,
+                "y": -16.5
+              },
+              {
+                "x": 2.52,
+                "y": -17.0
+              },
+              {
+                "x": 2.53,
+                "y": -16.0
+              },
+              {
+                "x": 2.53,
+                "y": -18.0
+              },
+              {
+                "x": 2.54,
+                "y": -17.0
+              },
+              {
+                "x": 2.54,
+                "y": -16.0
+              },
+              {
+                "x": 2.55,
+                "y": -17.0
+              },
+              {
+                "x": 2.55,
+                "y": -19.0
+              },
+              {
+                "x": 2.56,
+                "y": -18.0
+              },
+              {
+                "x": 2.57,
+                "y": -18.5
+              },
+              {
+                "x": 2.58,
+                "y": -18.0
+              },
+              {
+                "x": 2.58,
+                "y": -19.0
+              },
+              {
+                "x": 2.59,
+                "y": -18.0
+              },
+              {
+                "x": 2.59,
+                "y": -19.0
+              },
+              {
+                "x": 2.6,
+                "y": -18.0
+              },
+              {
+                "x": 2.6,
+                "y": -19.0
+              },
+              {
+                "x": 2.61,
+                "y": -19.0
+              },
+              {
+                "x": 2.61,
+                "y": -20.0
+              },
+              {
+                "x": 2.62,
+                "y": -21.0
+              },
+              {
+                "x": 2.62,
+                "y": -20.0
+              },
+              {
+                "x": 2.63,
+                "y": -21.5
+              },
+              {
+                "x": 2.63,
+                "y": -22.5
+              },
+              {
+                "x": 2.63,
+                "y": -21.0
+              },
+              {
+                "x": 2.64,
+                "y": -21.0
+              },
+              {
+                "x": 2.64,
+                "y": -22.0
+              },
+              {
+                "x": 2.65,
+                "y": -20.0
+              },
+              {
+                "x": 2.66,
+                "y": -21.0
+              },
+              {
+                "x": 2.67,
+                "y": -22.0
+              },
+              {
+                "x": 2.68,
+                "y": -23.0
+              },
+              {
+                "x": 2.68,
+                "y": -22.0
+              },
+              {
+                "x": 2.69,
+                "y": -23.0
+              },
+              {
+                "x": 2.7,
+                "y": -22.0
+              }
+            ]
+          },
+          {
+            "name": "Highlighted Point",
+            "unit": null,
+            "values": [
+              {
+                "x": 2.63,
+                "y": -21.5
+              }
+            ]
+          },
+          {
+            "name": "Trend Line",
+            "unit": null,
+            "values": [
+              {
+                "x": 2.42,
+                "y": -13.2
+              },
+              {
+                "x": 2.45,
+                "y": -14.1
+              },
+              {
+                "x": 2.48,
+                "y": -15.0
+              },
+              {
+                "x": 2.51,
+                "y": -15.9
+              },
+              {
+                "x": 2.54,
+                "y": -16.8
+              },
+              {
+                "x": 2.57,
+                "y": -17.7
+              },
+              {
+                "x": 2.6,
+                "y": -18.6
+              },
+              {
+                "x": 2.63,
+                "y": -19.5
+              },
+              {
+                "x": 2.66,
+                "y": -20.4
+              },
+              {
+                "x": 2.69,
+                "y": -21.3
+              },
+              {
+                "x": 2.72,
+                "y": -22.2
+              }
+            ]
+          }
+        ],
+        "figure_id": "f57f7f698a936153",
+        "provenance": {
+          "page": 9
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "b99b54d12ad136f4",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "French spreads during these two episodes. For instance, Schatz spreads moved with a beta of around 50% to French spreads during the sharp widening seen in June 2024 when Macron surprisingly announced ",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "6aa50d7ecc209377",
+        "value": 0.01897,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ctive. ## Trade Recommendations ## Swap curve - Receive Oct25 ECB &STR Receive Oct25 ECB &STR at 1.897%;- Enter Z5/Z6 conditional bull steepener via Dec25 front/1Y midcurve calls Buy 1000 98.065 Dec25",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "f5cb7f13fea4ddf6",
+        "value": 0.0179,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "STRStay received €100mn 1Yx1Y ESTR swap (swap start date 13 May 2026, swap maturity 13 May 2027) at 1.79% versus entry level of 1.70%; P&L since inception (9th May 2025): -9.0bp of yield; ## Hold 1Yx(",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "c147dd0924c088e6",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Y ESTR swap (swap start date 13 May 2026, swap maturity 13 May 2027) at 1.79% versus entry level of 1.70%; P&L since inception (9th May 2025): -9.0bp of yield; ## Hold 1Yx(10s/30s) A/A+20/A+40 YCSO cu",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "41f0ef16c87dcde9",
+        "value": 0.02804,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ia 3M OTM payers - Stay in 2s/10s conditional bear steepener via 3M OTM payersHold longs in €100mn 2.804% 3Mx10Y payer (ATMF strike 2.694%, notification date 20 Oct 2025, maturity date 22nd Oct 2025) ",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "64e93b70dac67019",
+        "value": 0.02694,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s conditional bear steepener via 3M OTM payersHold longs in €100mn 2.804% 3Mx10Y payer (ATMF strike 2.694%, notification date 20 Oct 2025, maturity date 22nd Oct 2025) versus short €453.3mn 2.07% 3Mx2",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "84c01b9f22280011",
+        "value": 0.0207,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "MF strike 2.694%, notification date 20 Oct 2025, maturity date 22nd Oct 2025) versus short €453.3mn 2.07% 3Mx2Y payer (ATMF strike 2.02%, notification date 20 Oct 2025, maturity date 22nd Oct 2027) to",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "5cf549e01c5ec681",
+        "value": 0.0202,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "date 20 Oct 2025, maturity date 22nd Oct 2025) versus short €453.3mn 2.07% 3Mx2Y payer (ATMF strike 2.02%, notification date 20 Oct 2025, maturity date 22nd Oct 2027) to remain in a conditional bear s",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "8c1185fc0cf8a7c7",
+        "value": 0.024700000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".1bp of yield ## Volatility ## Enter equi-notional 6Mx5Y/1Yx5Y expiry curve steepener Buy €100mn 2.47% 1Yx5Y straddles (100% risk weight, notification date 1st Sep 2026, maturity date 3 Sep 2031) vers",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "ea9d854322310679",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ility ## Enter equi-notional 6Mx5Y/1Yx5Y expiry curve steepener Buy €100mn 2.47% 1Yx5Y straddles (100% risk weight, notification date 1st Sep 2026, maturity date 3 Sep 2031) versus selling €100mn 2.38",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "2720b57f5c09c0c3",
+        "value": 0.023799999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "(100% risk weight, notification date 1st Sep 2026, maturity date 3 Sep 2031) versus selling €100mn 2.38% 6Mx5Y straddles (72% risk weight, notification date 2nd March 2026, maturity date 4 March 2031)",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "8ebd76aa231f9b41",
+        "value": 0.72,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ification date 1st Sep 2026, maturity date 3 Sep 2031) versus selling €100mn 2.38% 6Mx5Y straddles (72% risk weight, notification date 2nd March 2026, maturity date 4 March 2031) to enter into a weigh",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "6b6ecebc484ae0c4",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rts in 3Mx(1Yx1Y) unhedged straddle - Hold shorts in 3Mx(1Yx1Y) unhedged straddleStay short €100mn 2% straddle (notification date 17 Nov 2025, midcurve start date 19 Nov 2026, midcurve end date 19 Nov",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "a6cd653a54c2c8be",
+        "value": 100.0,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "2025):-2cents; ## Keep receiving 1Yx1Y ESTR - Keep receiving 1Yx1Y ESTRStay received €100mn 1Yx1Y ESTR swap (swap start date 13 May 2026, swap maturity 13 May 2027) at 1.79% versus entry le",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "7142ec389467c61e",
+        "value": 100.0,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "0s/30s) A/A+20/A+40 YCSO curve cap fly - Hold 1Yx(10s/30s) A/A+20/A+40 YCSO curve cap flyStay long €100mn 1Yx(30s10s) A/A+20/A+40 curve cap fly (maturity date 27 Apr 2026) (forward CMS curve at 18.0bp",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "18fa15304797bfb8",
+        "value": 100.0,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "pener via 3M OTM payers - Stay in 2s/10s conditional bear steepener via 3M OTM payersHold longs in €100mn 2.804% 3Mx10Y payer (ATMF strike 2.694%, notification date 20 Oct 2025, maturity date 22nd Oct",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "ecbe96ad692fcb6a",
+        "value": 453.3,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "payer (ATMF strike 2.694%, notification date 20 Oct 2025, maturity date 22nd Oct 2025) versus short €453.3mn 2.07% 3Mx2Y payer (ATMF strike 2.02%, notification date 20 Oct 2025, maturity date 22nd Oct",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "7f81e6f2fdc4d80d",
+        "value": 127.2,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "r - Enter Dec25 Bund/Buxl swap spread curve steepenerSell 1000 Dec25 Bund futures versus receiving €127.2mn CTD matched maturity swap (swap start date 8 Dec 2025, swap end date 15 Aug 2034 vs 6s Eurib",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "a413c390a92f10f9",
+        "value": 48.6,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "5 Aug 2034 vs 6s Euribor) (Bund spread narrower) versus buying 442 Dec25 Buxl futures versus paying €48.6mn CTD matched maturity swap (swap start date 8 Dec 2025, swap end date 15th Aug 2056 vs 6s Eur",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "609361201b2d48c0",
+        "value": 105.4,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "ener - Hold Sep25 Schatz ESTR swap spread widenerStay long 1000 Sep25 Schatz futures versus paying €105.4m CTD maturity matched ESTR swaps (swap start date 8 Sep 2025, swap maturity date 10 Jun 2027) ",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "e2bcde51885ac3a0",
+        "value": 100.0,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "25): -1.1bp of yield ## Volatility ## Enter equi-notional 6Mx5Y/1Yx5Y expiry curve steepener Buy €100mn 2.47% 1Yx5Y straddles (100% risk weight, notification date 1st Sep 2026, maturity date 3 Sep 203",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "139ba95288043ad8",
+        "value": 100.0,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "raddles (100% risk weight, notification date 1st Sep 2026, maturity date 3 Sep 2031) versus selling €100mn 2.38% 6Mx5Y straddles (72% risk weight, notification date 2nd March 2026, maturity date 4 Mar",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "ba29e18840f75627",
+        "value": 100.0,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "old shorts in 3Mx(1Yx1Y) unhedged straddle - Hold shorts in 3Mx(1Yx1Y) unhedged straddleStay short €100mn 2% straddle (notification date 17 Nov 2025, midcurve start date 19 Nov 2026, midcurve end date",
+        "provenance": {
+          "page": 14
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 25,
+      "tables_count": 0,
+      "numerical_data_count": 23,
+      "passages_count": 168,
+      "entities_count": 20
+    }
+  }
+}

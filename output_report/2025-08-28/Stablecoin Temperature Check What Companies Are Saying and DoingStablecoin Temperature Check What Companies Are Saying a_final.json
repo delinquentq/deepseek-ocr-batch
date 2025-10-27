@@ -1,0 +1,1290 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "b328f0bd96e076740b6f6fe356afc734",
+    "title": "Jefferies",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Jefferies/Stablecoin Temperature Check What Companies Are Saying and DoingStablecoin Temperature Check What Companies Are Saying a_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:21:37.788726",
+      "extracted_at": "2025-10-26T12:21:37.788737"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 24,
+        "successful_pages": 24,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Jefferies",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 8,
+          "reduction_ratio": 0.112931389231813
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Jefferies"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "527323cc5f91e228",
+      "text": "USA | Payments, Processors & IT Services",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f81ca57d6f3db68f",
+      "text": "Stablecoin Temperature Check: What Companies Are Saying and Doing",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "52ed5f3da270f0f9",
+      "text": "We revisit the discussion on stablecoins, compiling notable commentary from 2Q earnings calls (and announced partnerships) across the payments ecosystem, banks, and other FinTechs. Consistent with our view, management teams largely view cross- border (in select geographies) as the primary use- case for stablecoins. Improvements to internal treasury management was also a common thread. Most remain skeptical/dismissive of the potential role in domestic commerce.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b8e737221e286aa6",
+      "text": "Domestic Payments: there continues to be little belief in the ecosystem that stablecoins are likely to address consumer payments.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "18778417fc33165d",
+      "text": "- MA: \"We kind of feel that the consumer value proposition for regular P2M payments is lacking and stablecoins doesn't actually do anything in this equation.\"- AXP: \"And the reason I don't believe [stablecoins] are going to replace what we have today is because today is not broken. It provides lots of other benefits such as rewards. It provides contingent liability in terms of lending, and it also provides lots of dispute resolution and things like that, and tremendous acceptance.\"- PNC: \"I think despite a lot of the hype, there isn't really a cost advantage or a driving need to use stablecoin at least in domestic commerce.\"- FITB: \"the reason that people accept credit cards is because consumers want to use credit cards and the reason consumers want to use credit cards is because they either need the liquidity that the credit line provides or because they want the rewards. And the stablecoin rails today don't offer either of those features. And if they get added, they're going to have to increase the cost of acceptance in order to offset the cost of providing the liquidity or the cash back rewards or otherwise.\"",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "37b6dd74990fae8c",
+      "text": "Cross- Border B2B & Remittances: stablecoins offer time / cost- savings in certain corridors, but existing systems offer competitive speed / cost with superior scale; need remains for FX conversion.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "64bae919cf64eb68",
+      "text": "- CPAY: \"I think the biggest edge that the new payment train has here is the 24/7. You can move money after the banks are closed every day and then selectively, we'll probably use it in some geographies, some kind of exotic geography.\"- DLO: \"When you think about how stablecoins are increasingly being adopted, there is still enormous need for the on-ramps and the off-ramps and really on-ramps and off-ramps from fiat to stable and from stable to fiat.\"- Do think ... that there is real product-market fit for stablecoins in remittances for certain corridors.\"- MA: \"Mastercard Move already offers near real-time transfers to over 10 billion endpoints across the globe, across 150 currencies in approximately 200 countries and territories, with access to over 95% of the world's banked population\"",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c254c78228f31df3",
+      "text": "- PAYO on integrating C's Token Services: 'what that gives us is an ability to move funds 24/7. So, we're not sort of beholden to cut off times and so on to get automation of those movements, to get programmability of those movements, and overall to really enable better capabilities internally'- RELY: 'For internal efficiencies, we've integrated tokenized USD dollar stablecoins like USDC into internal Treasury operations, to bundle liquidity across global markets. This allows near instant settlement across time zones and weekends, which will enable quicker transaction processing, greater reliability and lower costs when customers spend money with us'",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "697ed034149c0cde",
+      "text": "There's been a flurry of stablecoin partnership announcements across the payments ecosystem",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e512d2a65003e9f7",
+      "text": "PartnershipAnnouncedDescriptionPAYO x Citi8/12/2025PAYO to leverage C&#x27;s Token Services to move money across PAYO-owned accts, enabling instant global liquidity and improved treasury efficiencyCPAY x CRCL8/6/2025CPAY will integrate Circle Mint; USDC wallets built into CPay-branded digital wallets; CPay to enable comm&#x27;l cards to draw USDC balancesRELY x CRCL8/4/2025RELY introducing Remitly Wallet (Sept. &#x27;25), a multi-currency wallet allowing users to hold fiat and stablecoins (in partnership with Circle)RELY x Bridge8/4/2025In partnership with Bridge (owned by Stripe), RELY will enable customers in select markets to receive stablecoin disbursementsFIS x CRCL7/28/2025FIS will enable financial institution customers to make domestic &amp;amp; cross-border USDC paymentsMA x FI6/24/2025MA partners with FI to integrate FIUSD into on/off-ramping, merchant settlement, stablecoin-powered card issuanceFI x CRCL6/23/2025FI plans to launch its own stablecoin FIUSD and digital asset platform in partnership with CRCL, Paxos, and SolanaPYPL x FI6/23/2025PYPL and FI partner to build interoperability between FIUSD / PYUSD; plan to integrate stablecoins into XB txns, payouts, merchant solutionsSHOP x COIN6/12/2025SHOP enabling merchants to accept USDC payments via COIN&#x27;s Base networkV x Bridge4/30/2025V has partnered with Bridge to introduce a stablecoin-linked Visa card",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "cbe7805b75810011",
+      "text": "Source: Company materials, Jefferies",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "cec4dd6fabd65ad6",
+      "text": "\"I think the biggest edge that the new payment train has here is the 24/7. You can move money after the banks are closed every day\" \"It's creating a new set of players, right? The Mint, the stablecoins and a variety of different blockchain providers and stuff. And so, they need help getting their new kind of ecosystem to talk to the traditional one. And so, given the fact that we have a big position in the traditional and we're all into the new one, we can play a bit of a role helping money move across between caravan A and B\"",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0f154aa8c1b41261",
+      "text": "\"We are also enabling cross- border money movement capabilities for P2P and B2B in certain emerging markets. And we are piloting and partnering with stablecoin payments companies who specialize in these markets, as we build out our stablecoin treasury stack for settlement and money movement flows.\" \"We've been testing a series of corridors and putting stablecoins to work directly versus the fiat currency money movement options that we're able to deliver to our clients and their users today. And at this point, we've got a pretty good sense on which corridors we can provide faster money movement, cheaper money movement, which ultimately is value, I think, that will accrue both to end users and to our clients.\"",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "dab979f39fbeb694",
+      "text": "\"We're exploring allowing our customers who already rely on us for business- grade accounts to send and receive stablecoin along with our full suite of AP and AR products. We're looking at using our world- class last- mile infrastructure to help businesses off- ramp stablecoin globally into the local currency that they need for their operations\"",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1062711fe60c2f6c",
+      "text": "\"When you think about how stablecoins are increasingly being adopted, there is still enormous need for the on- ramps and the off- ramps and really on- ramps and off- ramps from fiat to stable and from stable to fiat, we are uniquely positioned to offer that service. They are about local liquidity and attractive FX rates, both of which are strengths of dLocal because of our pay- ins and pay- outs businesses across multiple, multiple emerging markets.\" \"And so unless you're an absolute maximalist and you believe that fiat will altogether go away or local currencies will altogether go away, and all of global trade all of a sudden happens in US denominated stablecoins, which we certainly do not believe is the case, then that generates all sorts of merchant needs around their stablecoin infrastructure that DLocal and its partners are really that's what we do. That's what we're all about. So we currently see stablecoin as an opportunity, much more than a threat.\" \"We also already offer our merchants the ability to settle to us or from us in stablecoin, so as to accelerate settlement times of cross- border flow\"",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "2af1b671dcb3f5ec",
+      "text": "\"Stablecoin is a potential driver of more adoption of cross- border real- time payments, and our solutions can already support those payments\"",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9e1ad7404fabf679",
+      "text": "On WU's role providing an on- ramp/off- ramp between fiat and stablecoins in emerging markets: \"We've been pleasantly surprised at how much the phone has been ringing since Circle went public and lots of enthusiasm came into this space, and are actively participating with a couple of parties now doing pilots both in South America and in Africa.\"",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1e25348448cd192d",
+      "text": "On revenue model for stablecoin transactions: \"I expect the revenue model to be similar. I think that what we are fundamentally good at and what will remain is the fact that we are good at getting one currency to another. And that could be fiat, stablecoin; stablecoin, fiat; it could be via cash pickup. It could be via a lot of the options that I mentioned. But doing that requires an enormous amount of infrastructure, an enormous amount of regulatory expertise, an enormous amount of risk systems that do it quickly and also at a low cost. And so, I would say that the model will remain similar, and we feel really well- positioned in terms of our ability to drive stablecoin adoption, given that we have always been and will continue to be in the business of currency conversion and we're very well positioned to do that with stablecoin, as we've been with fiat.\"",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3654ee5c4ca06193",
+      "text": "Customers will be able to receive cross- border payments in stablecoin- compatible wallets, seamlessly rooted from our established fiat infrastructure\"",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "523a7c82173417fb",
+      "text": "Customers will have the option to store and manage stablecoin balances along with traditional fiat in their Remitly Wallet\"",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "61da05efe435ce20",
+      "text": "\"I do think... that there is real product- market fit for stablecoins in remittances for certain corridors.\"",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ac05566a0081faec",
+      "text": "\"Starting with disbursements and remittances. Today, Mastercard Move already offers near real- time transfers to over 10 billion endpoints across the globe, across 150 currencies in approximately 200 countries and territories, with access to over \\(95\\%\\) of the world's banked population. We offer consumers and businesses ample choice on - and what currency to use to send or receive money with transparency, real time execution and a great user experience, all at a very competitive cost. And now we're expanding those options, now enabling financial institutions and wallets with the ability to also send and receive stablecoins seamlessly, further expanding and strengthening Mastercard Move.\"",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a247a3b6d55f78cc",
+      "text": "We kind of feel that the consumer value proposition for regular P2M payments is lacking and stablecoins doesn't actually do anything in this equation. We think of that as a - almost like a prepaid card, like you have a stored balance sitting in a wallet, and then you need to use it at certain merchants. More important than the cost for merchants are things like conversion. And a merchant really wants to make that sale when a consumer comes at that merchant site. And if the consumer doesn't have a wallet, doesn't maybe have that coin, doesn't need to think about whether that merchant has the acceptance, that all impacts conversion dramatically. And that's why we believe that that specific use case, P2M in domestic payments, really is quite limited. Now, we'll obviously look into that and we'll contemplate, but we always believe you need the right tool for the job and the stablecoin intrinsic attributes are not that value added for a normal P2M",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d8992e92cade86a4",
+      "text": "Once you have that stored value in stablecoins or cryptocurrencies, we work with platforms to allow consumers to use it to buy goods and services at more than 150 million Mastercard acceptance locations worldwide ... Think of these essentially as co- brand partnerships, where Mastercard brings the payment vehicle like credit, debit, or prepaid cards, along with all the protections and benefits consumers know and love. Things like zero liability, fraud protection, chargeback rights, and rewards.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "63e82466edb7d367",
+      "text": "We have deployed stablecoin- linked cards in many markets around the world with partners such as Bridge, Rain and Baanx.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2a8e12844043daa1",
+      "text": "This quarter we introduced a new USDC stablecoin option, giving merchants and buyers more choice and security, especially for national payments.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1ccca4a9e23e1b01",
+      "text": "And the reason I don't believe [stablecoins] are going to replace what we have today is because today is not broken. It provides lots of other benefits such as rewards. It provides contingent liability in terms of lending, and it also provides lots of dispute resolution and things like that, and tremendous acceptance. And it's just easy to use.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d5f4682d0795b769",
+      "text": "I think despite a lot of the hype, there isn't really a cost advantage or a driving need to use stablecoin at least in domestic commerce",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "3bd1e65c2e0a57d4",
+      "text": "I think, the thing that's gotten a lot of the attention that I just don't believe in is, the risk that stablecoins pose or don't pose to point- of- sale payments and to domestic payments in general. And I think, the reason that media has been wrong on this one is that, there's been such a focus on the cost of a credit card acceptance, when cash, checks, ACH, and debit are all already price competitive and all already basically universally accepted. So, the reason that people accept credit cards is because consumers want to use credit cards and the reason consumers want to use credit cards is because they either need the liquidity that the credit line provides or because they want the rewards. And the stablecoin rails today don't offer either of those features. And if they get added, they're going to have to increase the cost of acceptance in order to offset the cost of providing the liquidity or the cash back rewards or otherwise.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "9ca2571744b32d55",
+      "text": "We are actively testing programs that leverage on chain settlement rails for back end Treasury applications. The goal is to reduce dependency on legacy correspondent banking systems, shorten settlement windows and improve capital efficiency all without compromising compliance, transparency or customer experience.\"",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a1febd8c7df4a343",
+      "text": "What we've done is already to integrate by one of our banking partners, Citi, their capabilities to move tokenized funds through their global network, to integrate those capabilities into our own treasury management capabilities. And what that gives us is an ability to move funds 24/7. So, we're not sort of beholden to cut off times and so on to get automation of those movements, to get programmability of those movements, and overall to really enable better capabilities internally and therefore enable better capabilities within our ecosystem for our customers. That's what we're doing sort of with the broader context. So, this is an exciting real world use case for us and we're continuing to expand and it adds real value to how we manage our ecosystem from a liquidity perspective, from a risk perspective, from an FX perspective.\"",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "0345fee5431868a3",
+      "text": "For internal efficiencies, we've integrated tokenized US dollar stablecoins like USDC into internal Treasury operations, to bundle liquidity across global markets. This allows near instant settlement across time zones and weekends, which will enable quicker transaction processing, greater reliability and lower costs when customers spend money with us\"",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "94e6f0b2b6cbcf40",
+      "text": "This is where Citi Token Services is so exciting, because it enables the client to move from physical fiat to the digital and back again without incurring that transaction cost. So, a client can move cash across their regional and global hubs, let's say, from New York to Hong Kong and the UK and back again on us instantaneously, 24/7, cross- border. And we also absorb all of the complexities that you have to do if you're working with stablecoin and moving back to fiat, such as the accounting, the AML, et cetera, et cetera.\"",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "78dbd04bacfadd4a",
+      "text": "There Has Been a Flurry of Recent Stablecoin Partnership Announcements",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "2aecd159cf424ed5",
+      "text": "Exhibit 1 - There's been a flurry of stablecoin partnership announcements across the payments ecosystem",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "78bc78ae5f823c76",
+      "text": "PartnershipAnnouncedDescriptionPAYO x Citi8/12/2025PAYO to leverage C&#x27;s Token Services to move money across PAYO-owned accounts, enabling instant global liquidity and improved treasury efficiencyCPAY x CRCL8/6/2025CPAY will integrate Circle Mint, enabling clients to access and manage USDC on CPAY&#x27;s platform; USDC wallets built into CPAY-branded digital wallets; CPAY working to enable comm&#x27;l card portfolio to draw from USDC balancesRELY x CRCL8/4/2025RELY introducing Remitly Wallet (launching in Sept. &#x27;25), a multi-currency wallet allowing users to hold both fiat and stablecoins (in partnership with Circle)RELY x Bridge8/4/2025In partnership with Bridge (owned by Stripe), RELY will enable customers in select markets to receive stablecoin disbursementsFIS x CRCL7/28/2025FIS will enable financial institution customer to make domestic &amp;amp; cross-border USDC paymentsMA x FI6/24/2025MA partners with FI to integrate FIUSD into on/off-ramping, merchant settlement, stablecoin-powered card issuanceFI x CRCL6/23/2025FI plans to launch its own stablecoin FIUSD and digital asset platform in partnership with CRCL, Paxos, and Solana, enabling clients to use FIUSD or launch their own stablecoinsPYPL x FI6/23/2025PYPL and FI partner to build future interoperability between FIUSD and PYUSD and plan to integrate stablecoins into cross-border transactions, payouts, and merchant solutionsSHOP x COIN6/12/2025SHOP enabling merchants to accept USDC payments via COIN&#x27;s Base networkV x Bridge4/30/2025V has partnered with Bridge to introduce a stablecoin-linked Visa card",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "df4c878a332b7caa",
+      "text": "Source: Company materials, Jefferies.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "67d10ca6ee589910",
+      "text": "Below, we highlight notable stablecoin- related commentary from C2Q25 earnings calls across several players in the payments, banking, and fintech industries.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "9817b6e35261fdef",
+      "text": "We have deployed stablecoin- linked cards in many markets around the world with partners such as Bridge, Rain and Baanx.\" Stablecoin- linked Visa cards are an extension of what we have been doing in the crypto space for years. Since 2020, we have enabled crypto users to spend more than \\(\\) 25\\(billion in Bitcoin, Ethereum and an array of other cryptocurrencies, and now stablecoins.\" We are also enabling cross- border money movement capabilities for P2P and B2B in certain emerging markets. And we are piloting and partnering with stablecoin payments companies who specialize in these markets, as we build out our stablecoin treasury stack for settlement and money movement flows. A recent example is with Yellow Card in Sub- Saharan Africa. Together, we are working to streamline treasury operations, improve liquidity management, and enable quick and more cost- efficient cross- border transactions. Additionally, we are also helping banks issue their own stablecoins and realize the benefits of programmable money through our Visa Tokenized Asset Platform. And we offer multi- chain and multi- coin, stablecoin settlement on the Visa network.\" But sometimes, for example, sending money from a Visa card to a bank account in an emerging market, we're reliant on local banking infrastructure. So, in these types of use cases, stablecoins could enable us to have faster cross- border transactions ... and we've been testing that out ... We've been testing a series of corridors and putting stablecoins to work directly versus the fiat currency money movement options that we're able to deliver to our clients and their users today. And at this point, we've got a pretty good sense on which corridors we can provide faster money movement, cheaper money movement, which ultimately is value, I think, that will accrue both to end users and to our clients. So we're working through all of those things.\"",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0730312379388957",
+      "text": "I do think ... that there is real product- market fit for stablecoins in remittances for certain corridors.\"",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "701fb35e4a9df6bb",
+      "text": "And so to the extent that stablecoins get adopted in a broad- based way by both consumers and businesses, and assuming that we are able to continue to have success with our playbook of making Visa cards the preferred way for people who have stablecoins in those markets to pay for things, I think that could accelerate our progress digitizing consumer payments and business, small business and commercial payments in those markets. The second product - area of product market fit that I mentioned was cross- border. And as you know well, the cross- border TAM in terms of whether it's remittances or B2B money movement, those are enormous TAMs that we're still relatively low in terms of our penetration of those as well. And so I think to the extent that we can do the types of things I was mentioning ... that's going to be an opportunity for us to continue to expand and accelerate our growth in remittances.\"",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "73df263f2648ef32",
+      "text": "And as to stablecoins, we see this as another currency. We also see it additive to the network with opportunities for us to provide the on and off- ramps from fiat to stablecoin to partner with wallets to bring interoperability, bring relevant services, bring global reach and trust to the specific use cases.\" (2Q25 EPS Call) We kind of feel that the consumer value proposition for regular P2M payments is lacking and stablecoins doesn't actually do anything in this equation. We think of that as a - almost like a prepaid card, like you have a stored balance sitting in a wallet, and then you need to use it at certain",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "bb003c9db5342b80",
+      "text": "merchants. More important than the cost for merchants are things like conversion. And a merchant really wants to make that sale when a consumer comes at that merchant site. And if the consumer doesn't have a wallet, doesn't maybe have that coin, doesn't need to think about whether that merchant has the acceptance, that all impacts conversion dramatically. And that's why we believe that that specific use case, P2M in domestic payments, really is quite limited. Now, we'll obviously look into that and we'll contemplate, but we always believe you need the right tool for the job and the stablecoin intrinsic attributes are not that value added for a normal P2M\" (July Stablecoin & Agentic Commerce Call)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "5bff7a45321b2689",
+      "text": "\"Approximately \\(90\\%\\) of the current stablecoin volumes are crypto trading related. It's people moving in and out of Bitcoin and the like. It is not currently used as a general purpose payment tool. There are reasons for this. While the technology powering stablecoins hold tremendous promise, high speed, 24/7 availability, low costs, programmability, immutability, et cetera, those attributes alone do not suffice to turn stablecoins into a payment tool. Just as important, or even more so, are other attributes, like a seamless and predictable user experience, reach and wide distribution to consumers, global acceptance at merchants based on robust standards, high conversion rates, multilayered security against fraud and scams, compliance with local laws and regulation, reliability, consumer protections, all of these things have made Mastercard card payments trusted and preferred by billions in over 150 currencies and across 220 countries and territories.\" (July Stablecoin & Agentic Commerce Call)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "36b842222d24e9fe",
+      "text": "\"Once you have that stored value in stablecoins or cryptocurrencies, we work with platforms to allow consumers to use it to buy goods and services at more than 150 million Mastercard acceptance locations worldwide ... We do this through card issuing partners, like Kraken, Gemini, Bybit, Bleap, OKX, MetaMask, and Crypto.com, and we now have over 100 live crypto and stablecoin programs available today. Think of these essentially as co- brand partnerships, where Mastercard brings the payment vehicle like credit, debit, or prepaid cards, along with all the protections and benefits consumers know and love. Things like zero liability, fraud protection, chargeback rights, and rewards.\" (July Stablecoin & Agentic Commerce Call)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c548392daaddac94",
+      "text": "\"Our financial institutions want a simple strategic entry point to distribute and issue stablecoins. That's where our partnerships with Paxos, Fiserv, and Circle come in. To be clear, we're not issuing stablecoins ourselves. Rather, in many ways, we're the bridge that make it easy, secure, and scalable for our partners to mint, distribute, and redeem stablecoins through trusted issuers seamlessly through our platform\" (July Stablecoin & Agentic Commerce Call)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "0fc6fcfa350aa65c",
+      "text": "\"Starting with disbursements and remittances. Today, Mastercard Move already offers near real- time transfers to over 10 billion endpoints across the globe, across 150 currencies in approximately 200 countries and territories, with access to over \\(95\\%\\) of the world's banked population. We offer consumers and businesses ample choice on - and what currency to use to send or receive money with transparency, real time execution and a great user experience, all at a very competitive cost. And now we're expanding those options, now enabling financial institutions and wallets with the ability to also send and receive stablecoins seamlessly, further expanding and strengthening Mastercard Move.\" (July Stablecoin & Agentic Commerce Call)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "ead0917cd72d2c21",
+      "text": "\"Mastercard Move also enables the last mile conversion back to fiat currencies, for example, when a consumer moves money from a crypto wallet to cards or accounts. And we deliver a very simple user experience. If you have ever tried to send or receive crypto, you would know the complexities that add challenges and the lack of transparency to the whole process. Move today already offered alias based remittances where all a sender needs is the e- mail address or phone number of the recipient instead of an account number or a IBAN.\" (July Stablecoin & Agentic Commerce Call)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "ff2edcddab4792ef",
+      "text": "\"We're beginning to serve digital asset and stablecoin providers like Circle and Ripple with our On- Ramp/Off- Ramp services\"",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "374aa592f35fd647",
+      "text": "\"Stablecoins, to me, it's just - it's kind of a bit of a new payment ecosystem, whether it's crypto or stablecoins and blockchain and digital wallets, it's a different currency and pipe, right, to move money. And so, I kind of think about the things related, right? You got fiat currency going, over SWIFT through a traditional bank account. You've got US stablecoins go on a blockchain to a digital wallet. And so, the way we think about it is we are and will incorporate that incremental or new or modern rail and we will use it. We are using it. And so there will be use cases with our clients.\"",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "31fe216a43ca95a1",
+      "text": "\"I think the biggest edge that the new - the payment train has here is the 24/7. You can move money after the banks are closed every day and then selectively we'll probably use it in some geographies, some kind of exotic geography. So, the first thing I'd say is, we just view it as another tool, another way to move money for our clients that has certain application. In certain situations, it's better than kind of the traditional rails.\"",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "8afe273ea1170f84",
+      "text": "\"It's creating a new set of players, right? The Mint, the stablecoins and a variety of different blockchain providers and stuff. And so, they need help getting their new kind of ecosystem to talk to the traditional one. And so, given the fact that we have a big position in the traditional and we're all into the new one, we can play a bit of a role helping money move across between caravan A and B. So, some of that comes down in stablecoins, needs to go over to fiat or vice versa. So, that's where we think there's real upside is someone has to play that role. We have the compliance to be able to do. A lots of banks are uncomfortable with the stablecoin bridge across given who's in it. And so, that's our view that this thing is something we're going to use. We'll figure out what the best use cases are. There's an upside from this new set of digital asset providers. And so, we're generally pretty excited about it because we think ultimately it'll be better for clients.\"",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "a51e357ce772911a",
+      "text": "\"Payoneer has unique assets that can help position us as a critical part of the infrastructure for this rapidly developing technology. We have distribution, deep customer relationships, and connectivity to last- mile bank infrastructure around the globe.\"",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "913a39e04e63ecb8",
+      "text": "\"We're actively exploring enablement of stablecoin functionality for our customers. For example, we're exploring allowing our customers who already rely on us for business- grade accounts to send and receive stablecoin along with our full suite of AP and AR products. We're looking at using our world- class last- mile infrastructure to help businesses off- ramp stablecoin globally into the local currency that they need for their operations\"",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "30158e6f1560404e",
+      "text": "\"One of the unique assets that we think positions us really well to - to drive adoption of stablecoin, to integrate the important capabilities of stablecoin into our ecosystem, is really a last- mile infrastructure, right. In a very real world, we solve for the last- mile challenge the adoption in certain use cases around stablecoins, right? Ultimately users need to be able to yes receive stablecoin within their ecosystem, but ultimately to off- ramp it to other use cases within their local jurisdictions or otherwise. So, we have - as we've talked in the past, in other context, an extensive bank and PSP network that allows us to solve for that challenge. So, what we've already done and one of the well- known use cases ... from a stablecoin adoption perspective is internal treasury management capabilities.\"",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "24129e5ac1701b22",
+      "text": "\"What we've done is already to integrate by one of our banking partners, Citi, their capabilities to move tokenized funds through their global network, to integrate those capabilities into our own treasury management capabilities. And what that gives us is an ability to move funds 24/7. So, we're not sort of beholden to cut off times and so on to get automation of those movements, to get programmability of those movements, and overall to really enable better capabilities internally and therefore enable better capabilities within our ecosystem for our customers. That's what we're doing",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "b75a43056563587a",
+      "text": "sort of with the broader context. So, this is an exciting real world use case for us and we're continuing to expand and it adds real value to how we manage our ecosystem from a liquidity perspective, from a risk perspective, from an FX perspective.\"",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "b74cd0a578174dcc",
+      "text": "- \"There's also been a lot of talk about stablecoins. Our philosophy at Square has always been to accept every form of payment that comes across the counter. And we're certainly going to enable our sellers to accept every form of payment, including Bitcoin or Tether or Circle, anything that people are actually using to pay for goods and services, we're going to enable our sellers to accept because it means they always make the sale.\"- \"Right now, stablecoins are predominantly used in a remittance use case. If they do become more payments-oriented, we'll be there. I don't think right now that it makes sense for us to offer our own because I just don't think there's a huge differentiator above and beyond what exists and, in my view, above and beyond what Bitcoin provides.\"",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "85873a532b6f19b9",
+      "text": "- \"...our announcement of FIUSD in June is a great example of our capability. FIUSD is a white label stablecoin integrated into our banking and payments infrastructure to enable real-time 24/7 settlement in digital asset capabilities. To effect this, we combined assets across our businesses, including Finxact, Payfare and Commerce Hub and began working with industry-leading partners like PayPal, Mastercard, Circle and Paxos. The move reflects our broader strategy to support all payment types while helping financial institutions and merchants meet evolving customer needs and technology developments. Early client interest has been very encouraging, and we expect to launch a pilot with several clients by the end of 2025.\"",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "4f226b931b6102e2",
+      "text": "- In response to answering a question whether any notable shifts in client-decision making / spending behavior: \"I think it's definitely – we view it as an opportunity. Our clients are very interested in it. I think everybody's looking in terms of the use cases, but certainly every single financial institution is looking at how they serve their clients and make it available. So I would say demand is much higher. TBD in terms of which use cases take effect, but for us, as we think about FIS, our job is to provide the capabilities out to our clients. And that's why, for us in terms of whether it's a digital currency or ACH or wire, or real-time payments, all of that is good for us because we enable all of that. I do see a lot of interest, and there's a focus in terms of making sure that financial institutions don't fall behind in terms of offerings, large and small. TBD in terms of how much ultimate demand from the end businesses and consumers. But no bank wants to be left behind in terms of not having a capability.\"",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "55de7c5fba481a67",
+      "text": "- \"Turning to Crypto, I want to highlight our stablecoin, PYUSD, which is a pivotal part of our mission to advance global commerce by directly addressing pain points our customers face today – namely, the burdens of high fees and the slow speed of cross-border money transfers.\"- \"Traditional payment methods can be prohibitively expensive and time-consuming, creating friction that stifles growth and opportunity in global trade. PYUSD delivers a stable, reliable, and cost-effective alternative to conventional systems.\"- \"We can enable businesses, and individuals to transact with greater confidence and agility, fueling economic activity on a global scale. We are laser-focused on solving real-world problems for our customers and sequencing our efforts, starting with cross-border transactions.\"",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "577e9499f86a5b66",
+      "text": "- \"With the strength of PayPal's commerce network, PYUSD is well-positioned for mainstream consumer and merchant use cases. This quarter, we added the ability to earn rewards for our stablecoin on PayPal and Venmo, and announced the expanded availability of PYUSD on Stellar and Arbitrum blockchains.\"",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3e5b79c1e7f024cf",
+      "text": "- \"We are collaborating across the ecosystem to expand PYUSD's prominence as a commerce-first stablecoin, with a network of exchanges, custodians, and other payments partners including Coinbase, Fiserv, and Mastercard. As I mentioned earlier, PYUSD will also be a major enabler of the PayPal World platform.\"",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "548cb2efad8c5d53",
+      "text": "- \"We announced Pay with Crypto, powered by PayPal, which will enable instant crypto-to-stablecoin or fiat conversion. It will support transactions across more than 100 cryptocurrencies, and wallets such as Coinbase, MetaMask, and tap into a global base of more than 650 million crypto users.\"",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "25c66ee60023f4eb",
+      "text": "- \"Stablecoin is a potential driver of more adoption of cross-border real-time payments, and our solutions can already support those payments. If I broaden the lens beyond cross-border, from my perspective, the most important news to share with you today about stablecoin is that ACI is well positioned to benefit from stablecoin adoption in general. Our solutions have long accommodated many different digital currencies. One of ACI sales differentiators is that our software handles more alternative payment networks and methods than any other competitor. Quite simply, increasing payment complexity drives customers to our solutions. It's part of our core competencies. We're actively working with players in the stablecoin space as partners enabling additional payment types for our solutions and even as customers. Our software is a great way to switch stablecoin transactions.\"",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "0ba66116497423c6",
+      "text": "- \"As soon as there is significant demand for stablecoin payments, we're ready to facilitate it. And I mentioned specifically the real-time payments because, over the last few years we've talked a lot about real-time payments. And I think I've been ... very consistent about it. I get really excited about real-time payments when we start to talk about cross-border. And I've always said that the challenge there isn't technology because we're totally ready for that. The challenge is the regulatory environment. And stablecoin is the - very exciting thing about stablecoin is it should allow those cross-border real-time payments to be more straightforward and to get support quicker.\"",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "41865649328b6965",
+      "text": "- \"If I look at it today and we saw a cross-border stablecoin transaction on a real-time platform, that would be multiple of what we would charge or what a customer would pay for a debit transaction today. As adoption happens, obviously, they would move up the pricing curve. And so, if the volumes were the same between debit and a real-time cross-border transaction and the prices would approach each other, they would be similar. But in the - as that ramps up, the economics are better for us.\"",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "a7c004736928e54b",
+      "text": "- \"Stablecoin-enabled solutions have the potential to reduce friction and flow, enabling faster, more efficient movement of value between our global network and local payout partners. We are actively testing programs that leverage on chain settlement rails for back end Treasury applications. The goal is to reduce dependency on legacy correspondent banking systems, shorten settlement windows and improve capital efficiency all without compromising compliance, transparency or customer experience. These innovations align closely with our broader strategy to modernize the movement of money. And we believe they could ultimately improve our ability to manage our global liquidity.\"",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "d87c1fa30f5c23c7",
+      "text": "- \"In addition to treasury operations, we continue to explore opportunities to leverage Western Union's technology and capabilities to, first, make our payments network available as an on-ramp and off-",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3fdffa3f7b1719b7",
+      "text": "ramp to connect the fiat world with the digital crypto world; two, leverage stablecoins to enable global payments across digital channels; and three, provide buy, sell, hold capabilities to our customers to access cryptocurrencies in our digital wallets.\"",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "f3b8481069a07bd7",
+      "text": "\"The moving of stablecoins from one digital wallet to another digital wallet is pretty straightforward. The translation of that stablecoin back into a local fiat currency that someone can use to buy groceries or pay a bill is much more difficult. Our infrastructure around the world has been enabling that basically from central bank digital currency to local fiat currency for couple of decades now. So, transitioning to be a provider of that kind of platform, and in many places in the world, that conversion is not the easiest thing in the world. So, thinking lots of places in Asia, Central America, South America, Africa, where we've got great capabilities and great platforms. So, we've been pleasantly surprised at how much the phone has been ringing since Circle went public and lots of enthusiasm came into this space, and are actively participating with a couple of parties now doing pilots both in South America and in Africa. So, we'll come back to it, but we see it as a natural evolution for us, given what our capabilities are around the world and the value we can provide as the payments world digitizes towards blockchain- based platforms.\"",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "b059b8f715cb6c8f",
+      "text": "\"The two parts are, one, the reach- outs that we're getting from what I would call platform or infrastructure providers who are assembling ways in which people can therefore then issue a stablecoin or use a stablecoin- based process through a series of platforms that kind of connect all this stuff. So, that's in your category of build it and hope they come. And so, we have lots of reach- outs from people who would like the ability to do particularly off- ramps, I guess maybe on ramps as well, but particularly off- ramps in many of these countries around the world that either have currency controls or have difficulty with kind of local currency translation.\"",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "2c23e7d194147c6d",
+      "text": "\"The second, and this is where we're investing a lot of our time and energy, is people who are building, in essence, B2B solutions and platforms, allowing people like us to move money around the world in a much more efficient way than the correspondent banking system. And so, the more productive conversations that are translating into economic value for us is how do we enable a stablecoin infrastructure for our core business, which is retail consumers either digitally or in the retail channel, wanting to send money to family and friends, and then how do we make that seamless in real time for the customer, regardless of the fact that we're using a stablecoin versus a traditional swift banking infrastructure platform that is probably progressing much faster.\"",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "4cbd558d798ecc7b",
+      "text": "\"This quarter we introduced a new USDC stablecoin option, giving merchants and buyers more choice and security, especially for national payments. We partnered with Coinbase to bring the core features of commerce like authorized capture, void and refunds to crypto payments. So in plain terms, these are the steps that make card payments safe and flexible. Now with smart contracts and blockchain, stablecoin payments can work the same way. And, with a built- in off- ramp to local currency, merchants can accept USDC without dealing with new crypto friction. Payment preferences are changing fast, and Shopify is making sure our merchants are ready for what is next.\"",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "5d3fc8b9e96b5353",
+      "text": "\"Stablecoins, we believe, will be used for lots of cross- border transactions, small businesses, things like that. But, remember, with stablecoins, you are trapping that liquidity and you do need off- ramps. And I think the partnership that we have with Coinbase does two things. Number one, it does provide that off- ramp. But, number two, what they've decided to do from a rewards perspective is allow you to earn digital currency. And obviously, they're one of the largest keepers of digital currencies. And so I think that's a really interesting thing. As we think about stablecoins a little bit into the future here, you could see this as a way for SMBs, large corporations to do cross- border transactions, especially when",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "b840745fafd9f964",
+      "text": "you are doing lots of cross- border transactions with the same group of people. You just - you avoid all the currency conversion - makes it a lot easier to do business, I think, potentially cross- border.\"",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "183bace5a8504506",
+      "text": "\"But I think what you will see is companies like American Express, Visa and Mastercard being off- ramps for digital currencies. And I think that's an important part that we play. Will they replace the existing payment rails? No, they are not going to replace existing payment rails. Are they a good proxy and a good change and a good alternative to ACH and SWIFT payments and wires and things like that? I think so.\"",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "33398bdc00569ef9",
+      "text": "\"And the reason I don't believe [stablecoins] are going to replace what we have today is because today is not broken. It provides lots of other benefits such as rewards. It provides contingent liability in terms of lending, and it also provides lots of dispute resolution and things like that, and tremendous acceptance. And it's just easy to use.\"",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "768175dc0be505f4",
+      "text": "\"Remitly Wallet will serve as a secure multi- currency store value for both fiat and stablecoins designed to meet the needs of our customers\"",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "d74faf2bec16f1aa",
+      "text": "\"The toughest challenge for stablecoin users is ensuring secure on and off ramps to fiat currency. Our global money movement network, regulatory licenses and deep compliance expertise uniquely position us to integrate stablecoin capabilities at scale. Our stablecoin initiatives position us to lead the next wave of monetization in cross- border financial infrastructure\"",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "be09cb6ccbb33d74",
+      "text": "\"Customers will have the option to store and manage stablecoin balances along with traditional fiat in their Remitly Wallet. This will especially be beneficial for customers in inflationary economies with high currency fluctuations. We are in beta testing, and plan to launch this in September, working with Circle, a financial technology company that is accelerating stablecoin adoption.\"",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "92ec867423fb4810",
+      "text": "\"customers will be able to receive cross- border payments in stablecoin- compatible wallets, seamlessly rooted from our established fiat infrastructure. One of Remitly's core differentiators is our highly skilled fiat network, which enables instant cross- border transfers across 170 countries. We are excited to extend this network by integrating blockchain rails, starting with stablecoin disbursement. This innovation enhances both our payout flexibility and global reach. The rollout is also in beta, and plan to launch in September in partnership with Bridge, a Stripe company.\"",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "1326fea96eeadc77",
+      "text": "\"For internal efficiencies, we've integrated tokenized US dollar stablecoins like USDC into internal Treasury operations, to bundle liquidity across global markets. This allows near instant settlement across time zones and weekends, which will enable quicker transaction processing, greater reliability and lower costs when customers spend money with us.\"",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "0fbb1f9382e5268a",
+      "text": "\"There is a demand in a lot of countries for customers to hold a less volatile currency, and I think stablecoins are a potential solution for that. The solution that we're offering when it comes to how to leverage stablecoins is, one, the ability to hold stablecoins as part of their Remitly Wallet. And then the second is we are incredibly good at getting funds to customers the way that they want to receive them. And we can do that via 4 billion bank accounts and mobile wallets, we can do that via over 400,000 cash pickup locations. We can even do door- to- door delivery in some markets where it's popular\"",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "be5d2315b908a2a8",
+      "text": "\"What we're excited about today is announcing that we'll be giving our customers the ability to send money to stablecoin wallets across the globe to give them another option of a way to send money back home to their families, and we'll be doing that in partnership with Bridge, which is obviously a Stripe company.\"",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "8e72146892c853b9",
+      "text": "\"I expect the revenue model to be similar. I think that what we are fundamentally good at and what will remain is the fact that we are good at getting one currency to another. And that could be fiat, stablecoin; stablecoin, fiat; it could be via cash pickup. It could be via a lot of the options that I mentioned. But doing that requires an enormous amount of infrastructure, an enormous amount of regulatory expertise, an enormous amount of risk systems that do it quickly and also at a low cost. And so, I would say that the model will remain similar, and we feel really well- positioned in terms",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "4349eee794e2d411",
+      "text": "of our ability to drive stablecoin adoption, given that we have always been and will continue to be in the business of currency conversion and we're very well positioned to do that with stablecoin, as we've been with fiat.\"",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "6ba81328a785c5cc",
+      "text": "- \"With our broad EM presence, highly developed payout and pay in infrastructure, local FX liquidities and capabilities and years of experience with stablecoins, we are a perfect on-ramp and off-ramp provider for stablecoin players and merchants looking to leverage the advantages of this emerging technology. Our partnerships with Circle and BVNK are some examples of the advances we are making in this space.\"",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "48ee19a057a614cd",
+      "text": "- \"We actually think that we're uniquely positioned to take advantage of stablecoin adoption as it begins to grow. A couple of reasons for that. I think, first of all, we have been involved in the space for a few years now. I think in the past that was a bit of a no-no, but that that knowledge and that experience I think is an advantage now. When you think about how stablecoins are increasingly being adopted, there is still enormous need for the on-ramps and the off-ramps and really on-ramps and off-ramps from fiat to stable and from stable to fiat, we are uniquely positioned to offer that service. They are about local liquidity and attractive FX rates, both of which are strengths of DLocal because of our pay-ins and pay-outs businesses across multiple, multiple emerging markets.\"",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "99d5426a6c6aa728",
+      "text": "- \"We also already offer our merchants the ability to settle to us or from us in stablecoin, so as to accelerate settlement times of cross-border flows. And so if you think about it that way, our belief is that some of the harder parts to build within the stablecoin value chain, which is the shift from fiat to stable, and then back from stable to fiat and also where a lot of the margin in stablecoin lies because of FX is exactly where DLocal plays and participates. So very specifically, we have a vertical sales force and a vertical product team focusing on this, and we actually think that there's an opportunity for us to capture.\"",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "5e4a4d9fe496199f",
+      "text": "- \"More conceptually, if you think about what we do, we essentially solve merchants' needs for different ways to pay and to settle money cross-border. And so unless you're an absolute maximalist and you believe that fiat will altogether go away or local currencies will altogether go away, and all of global trade all of a sudden happens in US denominated stablecoins, which we certainly do not believe is the case, then that generates all sorts of merchant needs around their stablecoin infrastructure that DLocal and its partners are really that's what we do. That's what we're all about. So we currently see stablecoin as an opportunity, much more than a threat.\"",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "91fbc1e19b7fd2a5",
+      "text": "- \"Crypto is a key area of focus for our management team and we have brought on board significant expertise, including substantial engineering talent, to advance these new initiatives. The cost, speed, and security of paying, buying, and spending are worse today than they will ever be in the future. Faster, safer, and cheaper options will only get better and better every year. Over time, we see opportunities across our entire platform, including offering stablecoins, providing members the ability to borrow against their crypto assets, expanding payment options, and introducing new staking features as well as blockchain and digital asset infrastructure capabilities for other companies offered by our technology platform. Blockchain and crypto have the potential to be a game changer for SoFi and our members.\"",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "72a15d450f50a920",
+      "text": "- \"In addition to that, we're hiring significantly in crypto to really launch, buy, sell, and hold by the end of the year. We'd like to also introduce a stablecoin. We're really happy that the Genius Act was passed into a bill. It's going to take about 12 months to 18 months for all the different regulatory bodies to come out with rulemaking as it relates to the Genius Act. So, all those potential competitors in stablecoin,",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "f1c05fe84af4ee02",
+      "text": "they won't be able to really apply and get a license approved by the OCC until the back end of that time period.\"",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "a6c2606b4ea84df0",
+      "text": "\"Because we're already a bank and because the OCC put out an interpretive letter that allows and it's permissible for stablecoins at banks to be launched, we could launch sooner than other people. We want to be very thoughtful about how we launch that product and how it's differentiated in the marketplace. So, we're not going to rush to get there, but we definitely have a head start because we already have the bank license.\"",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "de5644c2b3fd844b",
+      "text": "\"I think, the thing that's gotten a lot of the attention that I just don't believe in is, the risk that stablecoins pose or don't pose to point- of- sale payments and to domestic payments in general. And I think, the reason that media has been wrong on this one is that, there's been such a focus on the cost of a credit card acceptance, when cash, checks, ACH, and debit are all already price competitive and all already basically universally accepted.\"",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "19c23786c4fc75a0",
+      "text": "\"So, the reason that people accept credit cards is because consumers want to use credit cards and the reason consumers want to use credit cards is because they either need the liquidity that the credit line provides or because they want the rewards. And the stablecoin rails today don't offer either of those features. And if they get added, they're going to have to increase the cost of acceptance in order to offset the cost of providing the liquidity or the cash back rewards or otherwise.\"",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "6e627a7efd0a40af",
+      "text": "\"So, stablecoins in markets with unstable central banks are not a broad- based banking system, absolutely an interesting application internationally, stablecoins for cross border payment or for collateral on different exchanges, interesting use case. Domestic payments, I think, there's probably more smoke than fire on that one right now.\"",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "bb511b6c093e21a7",
+      "text": "\"In order to buy a stablecoin, you have to on- ramp currency from fiat, and we're in that business. And in order to convert a stablecoin back into a dollar post- transaction, you have to off- ramp it, and we're in that business. And you got to be able to hold the value and the reserve account somewhere and manage intraday liquidity, so the minting and burning of coins throughout the day. And we're a good provider of instant payments rails that they essentially can develop directly into their existing code basis. You don't have a recon process that has to get done the way that you would if you were using some other infrastructure. So, I think, that is encouraging.\"",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "5da0b05d0e55d457",
+      "text": "\"The wild card would be if you saw people move money out of banks and into stablecoins in the US for domestic payments or domestic cash management that feels highly unlikely to me. We have digital money that provides it a yield which stablecoins don't in the form of all of these online banks and money market funds that already exist. And we have low- cost ubiquitous. And it's already embedded instant or near- instant payment schemes that there's a sort of a good enough test that you have to run on this stuff.\"",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "79e2b7da9e87b7c8",
+      "text": "\"When I look at the stablecoin side, so four main areas that we're exploring, reserve management for stablecoins, the on and off- ramps from cash and coin backwards and forwards. We are looking at the issuance of a Citi stablecoin. But probably most importantly is the tokenized deposit space, where we're very active, and then also providing custodial solutions for crypto asset.\" \"Right now stablecoin, about 88% of all stablecoin transactions are used to settle crypto trades. It's only 6% which is payments. And in a traditional offering, if you are moving from cash to stablecoin and back to cash, right now you're incurring as much as a 7% transaction cost. I mean, that's just - that's prohibitive.\"",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "6ee4a68089868d2d",
+      "text": "- \"This is where Citi Token Services is so exciting, because it enables the client to move from physical fiat to the digital and back again without incurring that transaction cost. So, a client can move cash across their regional and global hubs, let's say, from New York to Hong Kong and the UK and back again on us instantaneously, 24/7, cross-border. And we also absorb all of the complexities that you have to do if you're working with stablecoin and moving back to fiat, such as the accounting, the AML, et cetera, et cetera.\"",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "c10be6063b045b98",
+      "text": "- \"So, focusing on stablecoins as a transactional device, if it's a new payment rail and we have trillions of dollars we move for our clients every day, we believe that if they want to use stablecoins to move part of that money, they'll move. So, consider them having an account and they can send up money in US dollars. They can also initiate transaction, have it go into euros, and it could have it go into stablecoins, and then transact in that system ...\"",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "4606207e3746da5e",
+      "text": "- \"In the end of the day, the debate will be how big an item this will be and how much more an effective payment stream it is. And there's places like small balance transfers across border that you can see the case. You can see it with sort of smart contracts and money movement. You can see it in digital native apps, in-app payments and stuff. But we'll be there just like we were there when we moved from checks to Zelle. And you can see that when the industry puts its mind to it, if you were talking to me 6 or 7, maybe 10 years, you'd say this thing called Venmo is coming on and you guys can be left behind and here we are. Our Zelle payments exceed the most total volumes today and the industries are multiples. It's just because we can move money efficiently, and we have to be aware of the attack on the payment system and we'll be there to defend it.\"",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "a350eaf5aace3940",
+      "text": "- \"Now, what does all that necessarily mean in terms of payments and stablecoin and does it massively change the ecosystem today. I think despite a lot of the hype, there isn't really a cost advantage or a driving need to use stablecoin at least in domestic commerce. There's use cases in terms of external transfers out of the country. There's use cases of just storing dollars out of the country, some of which will be stopped by the stablecoin bill simply because they know your customer rules. Whether it takes off in cross-border commerce, I'm probably less bullish than some. But if it does, we will have it enabled inside of our PINACLE platform such that if somebody gives us a payment file and our job is to optimize the cost of executing those payments, we'll be fully capable of using stablecoin in that payment stream. The same way we use wire or we use ACH or we use FICO.\"",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "a96d2906ca4b63fe",
+      "text": "- \"While there is a lot of external hype around stablecoins, there are still significant industry hurdles to mainstream adoption, including regulations that must be developed over the next 6 to 12 months to implement the stablecoin legislation that passed in July known as the GENIUS Act. Our plan is to take a strategic, phased approach supporting stablecoin solutions through our bank and credit union clients and not around them. This allows us to ensure we do the things the right way, while regulations are being written.\"",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "a937912bc39f9788",
+      "text": "- \"Unlike many of our competitors, we already have the public cloud-native platform and infrastructure needed for a successful stablecoin implementation. Today, our clients can securely integrate with a number of third-party stablecoin providers using our open APIs. We are currently working on enabling stablecoins as a payments rail via our JHA PayCenter. We are also in discussions with regulated stablecoin issuers, digital asset infrastructure providers and key players to explore additional strategic partnerships. We will keep you informed as we have more updates.\"",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "8c114ee8269b8491",
+      "text": "So, from a stablecoin perspective, I'll just say more broadly across is that we're seeing a lot of cooperation across our customers and partners to make sure that they can all participate in stablecoin. And as they think about how they're going to - banks are going to serve as issuers or custodians or gateways or all three, when you couple that with the need for that kind of regulatory clarity that you were mentioning and kind of infrastructure maturity, consumers and businesses kind of catching up to the use cases for what they're going to do, some of that's pretty early, but we do see opportunity there for us and for our bank customers more than a thread.\"",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "afa1d6f829223085",
+      "text": "For Important Disclosure information on companies recommended in this report, please visit our website at https://javatar.bluematrix.com/sellside/Disclosures.action or call 212.284.2300.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "24e6cf1d4c71a7c7",
+      "text": "(Article 3(1)e and Article 7 of MAR)",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "bdb789fd813cc039",
+      "text": "Recommendation Published Recommendation Distributed",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "204a889f660d8d78",
+      "text": "August 28, 2025 1:25 A.M. August 28, 2025 1:25 A.M.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "af8dcfa95266bb99",
+      "text": "Steven DeSanctis owns shares of Bank of America common shares. Spencer James Edward has an equity position in Fiserv. Steven DeSanctis owns shares of Visa Inc. common shares.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "8c5eb760e88d74b1",
+      "text": "Steven DeSanctis owns shares of Visa Inc. common shares.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "c89a69165f614609",
+      "text": "Within the past twelve months, Jefferies Financial Group Inc. and/or its affiliates received compensation for products and services other than investment banking services from non- investment banking, securities related compensation for client services it provided to American Express Co.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "e977064c044f2ed0",
+      "text": "Within the past twelve months, QTWO has been a client of Jefferies Financial Group Inc., its affiliates or subsidiaries and investment banking services are being or have been provided.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "c28c3567b8e6f513",
+      "text": "Jefferies Financial Group Inc., its affiliates or subsidiaries expect to receive or intend to seek compensation for investment banking services from QTWO within the next three months.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "5f9645658c780649",
+      "text": "For Important Disclosure information on companies recommended in this report, please visit our website at https://javatar.bluematrix.com/sellside/Disclosures.action or call 212.284.2300.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "9e479a1d6ecab108",
+      "text": "Buy - Describes securities that we expect to provide a total return (price appreciation plus yield) of \\(15\\%\\) or more within a 12- month period. Hold - Describes securities that we expect to provide a total return (price appreciation plus yield) of plus \\(15\\%\\) or minus \\(10\\%\\) within a 12- month period. Underperform - Describes securities that we expect to provide a total return (price appreciation plus yield) of minus \\(10\\%\\) or less within a 12- month period. The expected total return (price appreciation plus yield) for Buy rated securities with an average security price consistently below \\(10\\) is \\(20\\%\\) or more within a 12- month period as these companies are typically more volatile than the overall stock market. For Hold rated securities with an average security price consistently below \\(10\\) , the expected total return (price appreciation plus yield) is plus or minus \\(20\\%\\) within a 12- month period. For Underperform rated securities with an average security price consistently below \\(10\\) , the expected total return (price appreciation plus yield) is minus \\(20\\%\\) or less within a 12- month period. NR - The investment rating and price target have been temporarily suspended. Such suspensions are in compliance with applicable regulations and/or Jefferies policies.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "5f2648caebdbf441",
+      "text": "CS - Coverage Suspended. Jefferies has suspended coverage of this company.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "8d4518c8e75189a9",
+      "text": "NC - Not covered. Jefferies does not cover this company.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "9c8fba82dc377355",
+      "text": "Restricted - Describes issuers where, in conjunction with Jefferies engagement in certain transactions, company policy or applicable securities regulations prohibit certain types of communications, including investment recommendations.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "8fc1fa05177facd3",
+      "text": "Monitor - Describes securities whose company fundamentals and financials are being monitored, and for which no financial projections or opinions on the investment merits of the company are provided.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "ffbe33bfd07d1205",
+      "text": "Jefferies' methodology for assigning ratings may include the following: market capitalization, maturity, growth/value, volatility and expected total return over the next 12 months. The price targets are based on several methodologies, which may include, but are not restricted to, analyses of market risk, growth rate, revenue stream, discounted cash flow (DCF), EBITDA, EPS, cash flow (CF), free cash flow (FCF), EV/EBITDA, P/E, PE/rowth, P/CF, P/FCF, premium (discount)/average group EV/EBITDA, premium (discount)/average group P/E, sum of the parts, net asset value, dividend returns, and return on equity (ROE) over the next 12 months.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "4c69cef8b625913e",
+      "text": "Jefferies Franchise Picks include stock selections from among the best stock ideas from our equity analysts over a 12 month period. Stock selection is based on fundamental analysis and may take into account other factors such as analyst conviction, differentiated analysis, a favorable risk/reward ratio and investment themes that Jefferies analysts are recommending. Jefferies Franchise Picks will include only Buy rated stocks and the number can vary depending on analyst recommendations for inclusion. Stocks will be added as new opportunities arise and removed when the reason for inclusion changes, the stock has met its desired return, if it is no longer rated Buy and/or if it triggers a stop loss. Stocks having 120 day volatility in the bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent a recommended portfolio of stocks and is not sector based, but we may note where we believe a Pick falls within an investment style such as growth or value.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "56cfb6406e3e9e58",
+      "text": "·ACI Worldwide, Inc. (ACIW: &#36;48.49, BUY)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "e0a755af9288dbea",
+      "text": "·American Express Co. (AXP: &#36;322.46, HOLD)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "84087e090572cb7a",
+      "text": "·Block, Inc. (XYZ: &#36;79.39, BUY)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "86db20aea5dadaea",
+      "text": "·Corpay, Inc. (CPAY: &#36;325.24, BUY)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "74f5fb2507d20634",
+      "text": "·Fidelity National Information Services, Inc. (FIS: &#36;69.75, HOLD)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "26eb15caff31ba42",
+      "text": "·Fifth Third Bancorp (FITB: &#36;45.51, BUY)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "8e373bdabeb19414",
+      "text": "·Fiserv, Inc. (FI: &#36;137.98, HOLD)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "0b9f36e98f5fb649",
+      "text": "·Mastercard, Inc. (MA: &#36;590.66, BUY)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "fa2fdec99a6ed1b4",
+      "text": "·PayPal Holdings Inc. (PYPL: &#36;69.65, HOLD)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "4353e2b599cd5539",
+      "text": "·Payoneer Global Inc. (PAYO: &#36;6.79, BUY)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "a2750787d7528e28",
+      "text": "·Shopify, Inc. (SHOP: &#36;139.89, HOLD)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "505299582daaab99",
+      "text": "·SoFi Technologies, Inc. (SOFI: &#36;24.96, BUY)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "43e92b3595da9db4",
+      "text": "·Visa, Inc. (V: &#36;350.35, BUY)",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "dca938d754e28e95",
+      "text": "Distribution of Ratings",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "3c585a817bbe3b70",
+      "text": "CountPercentCountPercentCountPercentBUY211260.69%36717.38%1175.54%HOLD121134.80%1058.67%221.82%UNDERPERFORM1574.51%31.91%31.91%",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "88bd1de5feef23dc",
+      "text": "Please see important disclosure information on pages 19-24 of this report.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "00b0df5ed14e257e",
+      "text": "This report is intended for Jefferies clients only. Unauthorized distribution is prohibited.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "37768d739427a845",
+      "text": "Jefferies does busines and seeks to do busines with companies covered in its research reports, and expects to receive or intends to seek compensation for investment banking services among other activities from such companies. As a result, investors should be aware that Jefferies may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "33a7a2dabd010f6e",
+      "text": "Jefferies Equity Research refers to research reports produced by analysts employed by one of the following Jefferies Financial Group Inc. (Jefferies) companies:",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "44a47632ca9e1d73",
+      "text": "United States: Jefferies LLC which is an SEC registered broker- dealer and a member of FINRA (and distributed by Jefferies Research Services, LLC, an SEC registered Investment Adviser, to clients paying separately for such research).",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "16059eae4269fc03",
+      "text": "Canada: Jefferies Securities Inc., which is an investment dealer registered in each of the thirteen Canadian jurisdictions and a dealer member of the Canadian Investment Regulatory Organization, including research reports produced jointly by Jefferies Securities Inc. and another Jefferies entity (and distributed by Jefferies Securities Inc.).",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "df63350623e02ae6",
+      "text": "Where Jefferies Securities Inc. distributes research reports produced by Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch or Jefferies India Private Limited, you are advised that each of Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch and Jefferies India Private Limited operates as a dealer in your jurisdiction under an exemption from the dealer registration requirements contained in National Instrument 31- 103 Registration Requirements, Exemptions and Ongoing Registrant Obligations and, as such, each of Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch and Jefferies India Private Limited is not required to be and is not a registered dealer or adviser in your jurisdiction. You are advised that where Jefferies LLC or Jefferies International Limited prepared this research report, it was not prepared in accordance with Canadian disclosure requirements relating to research reports in Canada.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "6ba1dffee41211b3",
+      "text": "United Kingdom: Jefferies International Limited, which is authorized and regulated by the Financial Conduct Authority, registered in England and Wales No. 1978621; registered office: 100 Bishopsgate, London EC2N 4JL; telephone +44 (0)20 7029 8000; facsimile +44 (0)20 7029 8010.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "b2d56ba7e7860703",
+      "text": "Japan: Jefferies (Japan) Limited, Tokyo Branch, which is a securities company registered by the Financial Services Agency of Japan and is a member of the Japan Securities Dealers Association; located at Tokyo Midtown Hibiya 30F Hibiya Mitsui Tower, 1- 1- 2 Yurakucho, Chiyoda- ku, Tokyo 100- 0006; telephone +813 5251 6100; facsimile +813 5251 6101.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "8803d77731c94156",
+      "text": "Australia: Jefferies (Australia) Pty Limited (ACN 623 059 898), which holds an Australian financial services license (AFSL 504712) and is located at Level 20, 60 Martin Place, Sydney NSW 2000; telephone +61 2 9364 2800.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "ab939c43411849d5",
+      "text": "Dubai: Jefferies International Limited, Dubai branch, which is licensed by the Dubai Financial Services Authority (DFSA Reference Number F007325); registered office Unit L31- 06, L31- 07, Level 31, ICD Brookfield Pace, DIFC, PO Box 121208, Dubai, UAE.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "7dca68d10e8780ff",
+      "text": "This report was prepared by personnel who are associated with Jefferies (Jefferies Securities Inc., Jefferies International Limited, Jefferies GmbH, Jefferies Hong Kong Limited, Jefferies Singapore Limited, Jefferies (Japan) Limited, Tokyo Branch, Jefferies India Private Limited), and Jefferies (Australia) Pty Ltd; or by personnel who are associated with both Jefferies LLC and Jefferies Research Services LLC (\"JRS\"). Jefferies LLC is a US registered broker- dealer and is affiliated with JRS, which is a US registered investment adviser. JRS does not create tailored or personalized research and all research provided by JRS is impersonal. If you are paying separately for this research, it is being provided to you by JRS. Otherwise, it is being provided by Jefferies LLC. Jefferies LLC, JRS, and their affiliates are collectively referred to below as \"Jefferies\". Jefferies may seek to do business with companies covered in this research report. As a result, investors should be aware that Jefferies may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only one of many factors in making their investment decisions. Specific conflict of interest and other disclosures that are required by FINRA, the Canadian Investment Regulatory Organization and other rules are set forth in this disclosure section.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "9242dcd4d03e5edd",
+      "text": "If you are receiving this report from a non- US Jefferies entity, please note the following: Unless prohibited by the provisions of Regulation S of the U.S. Securities Act of 1933, as amended, this material is distributed in the United States by Jefferies LLC, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6 under the US Securities Exchange Act of 1934, as amended. Transactions by or on behalf of any US person may only be effected through Jefferies LLC. In the United Kingdom and European Economic Area this report is issued and/or approved for distribution by Jefferies International Limited (\"JIL\") and/or Jefferies GmbH and is intended for use only by persons who have, or have been assessed as having, suitable professional experience and expertise, or by persons to whom it can be otherwise lawfully distributed. Jefferies LLC, JIL, Jefferies GmbH and their affiliates, may make a market or provide liquidity in the financial instruments referred to in this report; and where they do make a market, such activity is disclosed specifically in this report under \"company specific disclosures\".",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "a44cd260d48f046b",
+      "text": "For Canadian investors, this material is intended for use only by professional or institutional investors. None of the investments or investment services mentioned or described herein is available to other persons or to anyone in Canada who is not a \"permitted client\" as defined by National Instrument 31- 103 Registration Requirements, Exemptions and Ongoing Registrant Obligations, as applicable. This research report is a general discussion of the merits and risks of a security or securities only, and is not in any way meant to be tailored to the needs and circumstances of any recipient. The information contained herein is not, and under no circumstances is to be construed as, an offer to sell securities described herein, or solicitation of an offer to buy securities described herein, in Canada or any province or territory thereof. Any offer or sale of the securities described herein in Canada will be made only under an exemption from the requirements to file a prospectus with the relevant Canadian securities regulators, if applicable, and only by a dealer properly registered under applicable securities laws or, alternatively, pursuant to an exemption from the dealer registration requirement in the relevant province or territory of Canada in which such offer or sale is made. The information contained herein is under no circumstances to be construed as investment advice in any province or territory of Canada and is not tailored to the needs of the recipient. To the extent that the information contained herein references securities of an issuer incorporated, formed or created under the laws of Canada or a province or territory of Canada, any trades in such securities must be conducted through a dealer registered in Canada. No securities commission or similar regulatory authority in Canada has reviewed or in any way passed judgment upon this research report, the information contained herein or the merits of the securities described herein, and any representation to the contrary is an offence.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "3cb76a6429da6c3c",
+      "text": "By providing this report, neither JRS nor any other Jefferies entity accepts any authority, discretion, or control over the management of the recipient's assets. Any action taken by the recipient of this report, based on the information in the report, is at the recipient's sole judgment and risk. The recipient must perform his or her own independent review of any prospective investment. If the recipient uses the services of Jefferies LLC (or other affiliated broker-dealers), in connection with a purchase or sale of a security that is a subject of these materials, such broker- dealer may act as principal for its own accounts or as agent for another person. Only JRS is registered with the SEC as an investment adviser, and therefore neither Jefferies LLC nor any other Jefferies affiliate has any fiduciary duty in connection with distribution of these reports.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "4c50c711d57c760e",
+      "text": "The price and value of the investments referred to herein and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "31f26e019f6add0c",
+      "text": "This report may contain forward looking statements that may be affected by inaccurate assumptions or by known or unknown risks, uncertainties, and other important factors. As a result, the actual results, events, performance or achievements of the financial product may be materially different from those expressed or implied in such statements.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "2d21cd86e91ed660",
+      "text": "This report has been prepared independently of any issuer of securities mentioned herein and not as agent of any issuer of securities. No Equity Research personnel have authority whatsoever to make any representations or warranty on behalf of the issuer(s). Any comments or statements made herein are those of the Jefferies entity producing this report and may differ from the views of other Jefferies entities.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "548f8ddac535fc18",
+      "text": "This report may contain information obtained from third parties, including ratings from credit ratings agencies such as Standard & Poor's, and information derived from third-party or proprietary generative artificial intelligence (Gen AI) models. Jefferies does not guarantee the accuracy, completeness, timeliness or availability of this information, and is not responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use of such content. Neither Jefferies nor any third-party content providers, including providers of Gen AI models, give any express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Neither Jefferies nor any third-party content provider shall be liable for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase, hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Reproduction and distribution of third party content in any form is prohibited except with the prior written permission of the related third party.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "dda8e46acae8dc70",
+      "text": "Jefferies research reports are disseminated and available electronically, and, in some cases, also in printed form. Electronic research is simultaneously made available to all clients. This report or any portion hereof may not be copied, reprinted, sold, or redistributed or disclosed by the recipient or any third party, by content scraping or extraction, automated processing, or any other form or means, without the prior written consent of Jefferies. Any unauthorized use is prohibited. Neither Jefferies nor any of its respective directors, officers or employees, is responsible for guaranteeing the financial success of any investment, or accepts any liability whatsoever for any direct, indirect or consequential damages or losses arising from any use of this report or its contents. Nothing herein shall be construed to waive any liability. Jefferies has under applicable U.S. federal or state securities laws.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "72e07b726f21f42b",
+      "text": "For Important Disclosure information relating to JRS, please see https://adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx? BRCHR_VRSN_ID=483878 and https://adviserinfo.sec.gov/Firm/292142 or visit our website at https://javatar.bluematrix.com/sellside/Disclosures.action, or www.jefferies.com, or call 1.888.JEFFERIES.",
+      "page": 23,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "59094e8d1a80086a",
+      "name": "ACI Worldwide",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f413405e75c42c9d",
+      "name": "AXP\n\nAnd",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "730d2c5fe6882563",
+      "name": "Address Consumer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "45f559fd3a36e431",
+      "name": "Agentic Commerce",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b993f20c6e3b7394",
+      "name": "American Express",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "956c6ce7d5f0672b",
+      "name": "American Express Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b4b135d91d9828ac",
+      "name": "Are Saying",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2c05388e0e3f9bcf",
+      "name": "Asset Platform",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d4917b4a7fb93ead",
+      "name": "Being Leveraged",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0f1f54266d720ce6",
+      "name": "Border Payments",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "60e5f94986781a5f",
+      "name": "But Do",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "884e306a7bc22549",
+      "name": "But Need",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7860a2554c61a53f",
+      "name": "Canadian Investment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ec70c3bdf0d9840a",
+      "name": "Central America",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7a84918e4ea7f02c",
+      "name": "Certain Corridors",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ef6f01b5e65230af",
+      "name": "Circle Mint",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bb9df188da4ee564",
+      "name": "Citi Token",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2313a775734fab7b",
+      "name": "Commerce Hub",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0c759b57d9ad2ce6",
+      "name": "Company Specific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8bb7d9a681cb9e40",
+      "name": "Company Valuation",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "82dbd4b59bfb0221",
+        "value": 0.95,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "he globe, across 150 currencies in approximately 200 countries and territories, with access to over 95% of the world's banked population\"",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "871c0c3a65626f9f",
+        "value": 0.88,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "active, and then also providing custodial solutions for crypto asset.\" \"Right now stablecoin, about 88% of all stablecoin transactions are used to settle crypto trades. It's only 6% which is payments.",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "92147531c8798b55",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ow stablecoin, about 88% of all stablecoin transactions are used to settle crypto trades. It's only 6% which is payments. And in a traditional offering, if you are moving from cash to stablecoin and b",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "f71f14da22bdc3f4",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "if you are moving from cash to stablecoin and back to cash, right now you're incurring as much as a 7% transaction cost. I mean, that's just - that's prohibitive.\"<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "2365a2dad6d38cd7",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "loss. Stocks having 120 day volatility in the bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "num_id": "e4273f8029d94c0b",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent a recommended portfolio of stocks and is not ",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "num_id": "fcb3e83d290789bd",
+        "value": 0.6069,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>Count</td><td>Percent</td><td>Count</td><td>Percent</td></tr><tr><td>BUY</td><td>2112</td><td>60.69%</td><td>367</td><td>17.38%</td><td>117</td><td>5.54%</td></tr><tr><td>HOLD</td><td>1211</td><",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "num_id": "3a1bf45a588709f7",
+        "value": 0.17379999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Count</td><td>Percent</td></tr><tr><td>BUY</td><td>2112</td><td>60.69%</td><td>367</td><td>17.38%</td><td>117</td><td>5.54%</td></tr><tr><td>HOLD</td><td>1211</td><td>34.80%</td><td>105</td><",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "num_id": "a57bfab94a740245",
+        "value": 0.0554,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ent</td></tr><tr><td>BUY</td><td>2112</td><td>60.69%</td><td>367</td><td>17.38%</td><td>117</td><td>5.54%</td></tr><tr><td>HOLD</td><td>1211</td><td>34.80%</td><td>105</td><td>8.67%</td><td>22</td><td",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "num_id": "7c8b6f448c754a68",
+        "value": 0.348,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "69%</td><td>367</td><td>17.38%</td><td>117</td><td>5.54%</td></tr><tr><td>HOLD</td><td>1211</td><td>34.80%</td><td>105</td><td>8.67%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>157<",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "num_id": "5e16708bf1984c21",
+        "value": 0.0867,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "38%</td><td>117</td><td>5.54%</td></tr><tr><td>HOLD</td><td>1211</td><td>34.80%</td><td>105</td><td>8.67%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>157</td><td>4.51%</td><td>3</td",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "num_id": "82185216edcfdbf5",
+        "value": 0.0182,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".54%</td></tr><tr><td>HOLD</td><td>1211</td><td>34.80%</td><td>105</td><td>8.67%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>157</td><td>4.51%</td><td>3</td><td>1.91%</td><td>3</td>",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "num_id": "2539c5d7f3331ac0",
+        "value": 0.0451,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>105</td><td>8.67%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>157</td><td>4.51%</td><td>3</td><td>1.91%</td><td>3</td><td>1.91%</td></tr></table> Please see important disclos",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "num_id": "22c68387d82858d1",
+        "value": 0.0191,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>157</td><td>4.51%</td><td>3</td><td>1.91%</td><td>3</td><td>1.91%</td></tr></table> Please see important disclosure information on pages",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "num_id": "f1cc67cece12c08e",
+        "value": 0.0191,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>UNDERPERFORM</td><td>157</td><td>4.51%</td><td>3</td><td>1.91%</td><td>3</td><td>1.91%</td></tr></table> Please see important disclosure information on pages 19-24 of this report. T",
+        "provenance": {
+          "page": 19
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 0,
+      "tables_count": 0,
+      "numerical_data_count": 15,
+      "passages_count": 161,
+      "entities_count": 20
+    }
+  }
+}

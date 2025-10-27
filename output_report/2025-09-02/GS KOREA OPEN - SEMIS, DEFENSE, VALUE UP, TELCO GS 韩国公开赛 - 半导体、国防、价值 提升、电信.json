@@ -1,0 +1,971 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "5a36413a4e0b2e3d3ae29b81046a3273",
+    "title": "GS KOREA OPEN - SEMIS,",
+    "source_uri": "2025-09-02/GS KOREA OPEN - SEMIS, DEFENSE, VALUE UP, TELCO GS 韩国公开赛 - 半导体、国防、价值 提升、电信_2025-09-02",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:21:27.511127",
+      "extracted_at": "2025-10-27T00:21:27.511138"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 7,
+        "successful_pages": 7,
+        "date": "2025-09-02",
+        "publication": "2025-09-02",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 0,
+          "removed_paragraphs": 3,
+          "reduction_ratio": 0.026627218934911268
+        },
+        "input_relative_path": "2025-09-02"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "248b3531322c9222",
+      "text": "Market Insights | Markets | Equities 市场洞察 | 市场 | 股票",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3804b0b8175e673f",
+      "text": "US markets were closed due to labor day holidays, while Nasdaq & S&P futures are seen marginally higher. Eyes if KOSPI may stage a rebound today with sectors including defense, following European peers rally overnight.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4d53603aac8302e2",
+      "text": "由于劳动节假期，美国市场休市，而纳斯达克和标普期货小幅走高。市场关注KOSPI今日是否会出现反弹，尤其是包括防务在内的板块，因隔夜欧洲股市普遍上涨。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "495a2f375f09e00e",
+      "text": "- SEMIS | AUG EXPORTS & DRAM SENTIMENT: According to MOTIE and TRASS, exports value for memory (+44% yoy) and MLCC (+17% yoy) saw positive yoy growth - while display (-9% yoy) and Li-ion batteries (-41% yoy) exports declined yoy. - Separately, DRAM sentiment is pointing in a slightly positive direction with consensus expectation for Hynix 2026 HBM pricing still more positive than our view. https://tinyurl.com/4npmu6yp, https://tinyurl.com/44pczduc",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6e9426af6d6ab751",
+      "text": "半导体 | 8 月出口与 DRAM 情绪：据韩国产业通商资源部 (MOTIE) 和 TRASS 数据显示，存储器出口额同比增长 44%，MLCC 同比增长 17%，而显示器出口同比下降 9%，锂离子电池出口同比下降 41%。此外，DRAM 市场情绪略微积极，市场普遍预期 2026 年 Hynix 的 HBM 价格走势仍比我们预期更为乐观。https://tinyurl.com/4npmu6yp, https://tinyurl.com/44pczduc",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d7a0756f577297f7",
+      "text": "FABS: Although both SEC and Hynix have turned conservative on adding capacity in their respective China fabs since 2022, given that the U.S. govt mentioned it does not intend to grant license to upgrade technology at the fabs in China, VEU removal could limit line upgrades, which in turn could tighten supply of advanced memory and increase difficulties in competing against peers using China capacity. https://tinyurl.com/nwbk7bu4",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8e5c59f4a2d724ee",
+      "text": "半导体 | GIR 观点——美国撤销对中国晶圆厂 WFE 出口许可：尽管 SEC 和 Hynix 自 2022 年以来在各自中国晶圆厂扩产方面已趋于保守，但鉴于美国政府表示无意批准在中国晶圆厂进行技术升级的许可，VEU 的移除可能限制产线升级，从而收紧先进存储器的供应，并增加与使用中国产能的竞争对手竞争的难度。https://tinyurl.com/nwbk7bu4",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8cc55c96e713abe0",
+      "text": "DEFENSE (+): European defense stocks rallied overnight with Rheinmetall +3.5% after reports that the EU are working for potential military deployments to Ukraine as part of post- conflict security guarantees. (NSN T1WGH5GOT0JT ) Separately, Korea is said to agree with the US in ramping up its defense budget to 3.5% of GDP (current 2026 budget at 2.4%), while discussing the purchase of US arms worth W34tn (c. \\(\\) 25bn\\$). https://is.gd/EiNwXI",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4b51ce5a7182cbf1",
+      "text": "国防（+）：受报道称欧盟正致力于在冲突后安全保障框架下，可能向乌克兰进行军事部署的消息影响，欧洲防务类股隔夜上涨，Rheinmetall上涨3.5%。(NSN T1WGH5GOT0JT )另外，据称韩国同意与美国将国防预算提高至占GDP的3.5%（当前2026年预算为2.4%），同时讨论购买价值34万亿韩元（约250亿美元）的美国武器。https://is.gd/EiNwXI",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9615b140130e8934",
+      "text": "VALUE UP: According to local reports, the PPP are seeking to propose a bill to ease the CGT threshold to W10bn (from current W5bn, and against MJP- proposed W1bn) in order to revitalize the Korean equity markets. https://is.gd/1jB7X2",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "6d7d1db6e1dbea8d",
+      "text": "价值上调：据当地报道，PPP正寻求提议一项法案，将资本利得税门槛从当前的50亿韩元放宽至100亿韩元（而MJP提议为10亿韩元），以振兴韩国股市。https://is.gd/1jB7X2",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "66898b679329a602",
+      "text": "TELCO (TKT(030200) and LGU(032640) are also said to have experienced data breaches on what is suspected to be a hacking incident, similar to that of SKT(017670). However, the two telecom carriers are said to be denying the occurrence of any hacking incidents. https://is.gd/nHa2ZN",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "c25313a6c27e43ed",
+      "text": "电信（- ）：据称KT(030200)和LGU(032640)也遭遇了疑似与SKT(017670)类似的黑客事件导致的数据泄露。然而，据称这两家电信运营商否认发生过任何黑客事件。https://is.gd/nHa2ZN",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "0589cf7e87ead9e7",
+      "text": "RETAIL INVESTORS LOOK ABROAD: In August, South Korea's average daily stock trading volume decreased by approximately 18.05% compared to July. Concurrently, overseas stock settlement amounts increased, driven by South Korean retail investors who continued to shift their focus to foreign markets. This trend saw retail investors diversifying their overseas portfolios, notably pivoting from US big tech stocks",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b7f9ea82ed167b39",
+      "text": "towards crypto- related assets. Domestic brokerages anticipate that the sluggish trend in the domestic market will persist into September due to seasonal factors and downward revisions of KOSPI's estimated net profits. https://tinyurl.com/3hhhrj67",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "a0766af6e2e082bb",
+      "text": "散户投资者目光转向海外：8月，韩国日均股票交易量较7月下降约 \\(18.05\\%\\) 。与此同时，海外股票结算金额上升，主要受韩国散户投资者推动，他们持续将关注转向海外市场。这一趋势显示，散户投资者在海外投资组合中进行多元化配置，显著地从美国大型科技股转向与加密货币相关的资产。国内券商预计，由于季节性因素以及对KOSPI预估净利润的下调，国内市场的低迷趋势将延续至7月。https://tinyurl.com/3hhhrj67",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "dc1d61356e25f715",
+      "text": "- AUTOS | AUG GLOBAL WHOLESALE: HMC and KIA released global wholesale numbers for August where HMC delivered 336,395 units (+0.3% mom) and Kia 253,950 units (-3.4% mom). We believe August monthly numbers are in line with HMC & Kia business targets, with YTD numbers for domestic, overseas, and global all running near 67% of annual guidance (considering 3Q weak seasonality). https://tinyurl.com/4emppvra",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "7ec4eb961a5714f3",
+      "text": "汽车 | 8月全球批发：HMC和KIA公布了8月全球批发数据，HMC交付336,395辆（环比 \\(+0.3\\%\\) ），Kia交付253,950辆（环比- 3.4%）。我们认为8月的月度数据符合HMC和Kia的业务目标，年初至今的国内、海外及全球数据均接近全年指引的67%（考虑到三季度的淡季因素）。https://tinyurl.com/4emppvra",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "7e0bb7506968d388",
+      "text": "- POSCO INTL(047050): Secures a W600bn (\\$430mn) order for drive motor cores from a North American EV manufacturer. https://tinyurl.com/yc2wktke",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c000ca88c600ef14",
+      "text": "POSCO INTL (047050)：获得来自一家北美电动车制造商的价值6,000亿韩元（4.3亿美元）的驱动电机铁芯订单。https://tinyurl.com/yc2wktke",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "d4ff80561489a323",
+      "text": "- SAMSUNG LIFE(032830): The FSS Governor announced a provisional direction to fundamentally resolve Samsung Life Insurance's accounting controversy, aiming to normalize practices in line with IFRS. The core issue revolves around whether the accounting treatment of its affiliate stakes should continue as an exception under 'policyholder equity adjustment,' despite IFRS 17 requiring such dividend resources to be treated as insurance liabilities. This decision follows intensified debate, notably from the Korea Accounting Standards Board, concerning Samsung Life's accounting for its Samsung Fire & Marine Insurance stake. https://tinyurl.com/ybjzw58t",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f40ffe74395ae58d",
+      "text": "三星生命（032830）：金融监督院院长宣布了一项临时方向，旨在从根本上解决三星生命保险的会计争议，使其实务与IFRS保持一致。核心问题在于，尽管IFRS 17要求将此类分红资源视为保险负债，但其关联公司股权的会计处理是否应继续作为“保单持有人权益调整”的例外。此决定是在围绕三星生命对其所持三星火灾海上保险股份的会计处理，尤其是来自韩国会计准则委员会的激烈争论之后作出的。https://tinyurl.com/ybjzw58t",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e0e60e67b97e0654",
+      "text": "- MACRO | AUG EXPORTS: Korea's headline exports fell 1.2% mom sa in August, contracting after two months of increases. Tech exports contracted 1.1%, weighed",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "695502c86ac32219",
+      "text": "down by pull- back in semiconductor exports. https://tinyurl.com/292d7vcv",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1919abf66c72f303",
+      "text": "宏观 | 8 月出口：韩国 8 月经季调环比出口下降 \\(1.2\\%\\) ，在连续两个月增长后出现收缩。科技出口下降 \\(1.1\\%\\) ，主要受半导体出口回落拖累。https://tinyurl.com/292d7vcv",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1d7ed4831478d651",
+      "text": "\\* South Korea Technology: Semiconductors - Memory: U.S. revokes license- free status of Hynix and SEC on WFE exports to their China fabs [https://tinyurl.com/nwbk7bu4]",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ec8bf98dd8aa59b5",
+      "text": "\\* 韩国科技：半导体 - 存储器：美国撤销了对海力士和三星电子向其中国工厂出口晶圆制造设备 (WFE) 的免许可待遇 [https://tinyurl.com/nwbk7bu4]",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "c7109d769a4f40ef",
+      "text": "\\* South Korea Tech: August 2025 export tracker: memory exports show acceleration in yoy growth [https://tinyurl.com/4npmu6yp]",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3dc42521af246072",
+      "text": "\\* 韩国科技：2025 年 8 月出口追踪：存储器出口同比增速加快 [https://tinyurl.com/4npmu6yp]",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "73d29b45efb6cf38",
+      "text": "\\* South Korea Technology: August 2025 GS DRAM sentiment indicator: HBM pricing expectation coming down but still more positive than GSe [https://tinyurl.com/44pczdcu]",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "45ba471511ff7fac",
+      "text": "\\* 韩国科技：2025 年 8 月 GS DRAM 情绪指标：HBM 价格预期有所下降，但仍比 GSe 更为乐观 [https://tinyurl.com/44pczdcu]",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "01a99be1c70c7e4d",
+      "text": "\\* South Korea Automobiles: Hyundai Motor/Kia August global wholesale \\(+0.4\\% / + 0.8\\%\\) YoY [https://tinyurl.com/4emppvra]",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1d4cf131fc4cb58d",
+      "text": "\\* 韩国汽车：现代汽车/起亚 8 月全球批发量同比 \\(+0.4\\% / + 0.8\\%\\) [https://tinyurl.com/4emppvra]",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1cbace4712130319",
+      "text": "\\* South Korea: Pull- back in August Exports on Weaker US Demand in Late August [https://tinyurl.com/292d7vcv]",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "74c26b689f3fa860",
+      "text": "\\* 韩国：8 月出口回落，因 8 月下旬美国需求走弱 [https://tinyurl.com/292d7vcv]",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "dc7ee6d6e8e96a8c",
+      "text": "(1) Foreign(2) Local Instos(3) RetailBUYBUYBUY042660Hanwha Ocean042660Hanwha Ocean005930SamsungElec012450HANWHA AEROSPACE196170Alteogen000660SK hynix083650BHI009540HDKSOE034020Doosan Enerbility012330Mobis012450HANWHA AEROSPACE347850D&amp;amp;D Pharmatech035720Kakao089030Techwing082740Hanwha EngineSELLSELLSELL005930SamsungElec005930SamsungElec042660Hanwha Ocean000660SK hynix034020Doosan Enerbility012450HANWHA AEROSPACE009540HDKSOE439260DAEHAN SHIPBUILDING196170Alteogen347850D&amp;amp;D Pharmatech329180HD HYUNDAI HEAVY INDUSTRIES089030Techwing082740Hanwha Engine042700HANMISemi012330Mobis",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "9d19ae4f0b3bf51b",
+      "text": "When this document is disseminated in Australia by Goldman Sachs & Co. LLC (\"GSCO\"), Goldman Sachs International (\"GSI\"), Goldman Sachs (Asia) L.L.C. (\"GSALLC\") or Goldman Sachs (Singapore) Pte (\"GSSP\") (collectively the \"GS entities\"), this document, and any access to it, is intended only for a person that has first satisfied the GS entities that:",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b4e0948547464a58",
+      "text": "当本文件由高盛有限责任公司（Goldman Sachs & Co. LLC，简称\"GSCO\"）、高盛国际公司（Goldman Sachs International，简称\"GSI\"）、高盛（亚洲）有限责任公司（Goldman Sachs (Asia) L.L.C.，简称\"GSALLC\"）或高盛（新加坡）私人有限公司（Goldman Sachs (Singapore) Pte，简称\"GSSP\"）（统称为\"高盛实体\"）在澳大利亚发布时，本文件及对其的任何访问仅适用于已首先令高盛实体确信其符合以下条件的人士：",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "799fd7e6697e5a80",
+      "text": "the person is a Sophisticated or Professional Investor for the purposes of section 708 of the Corporations Act of Australia; and该人士是《澳大利亚公司法》第708条所指的成熟或专业投资者；并且the person is a wholesale client for the purpose of section 761G of the Corporations Act of Australia.该人士是《澳大利亚公司法》第761G条所指的批发客户。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "05be39c32863436a",
+      "text": "To the extent that the GS entities are providing a financial service in Australia, the GS entities are each exempt from the requirement to hold an Australian financial services licence for the financial services they provide in Australia. Each of the GS entities are regulated by a foreign regulator under foreign laws which differ from Australian laws, specifically:",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f99b38c3d8104396",
+      "text": "在高盛实体在澳大利亚提供金融服务的范围内，每一家高盛实体均可豁免持有澳大利亚金融服务牌照的要求，以提供其在澳大利亚的金融服务。每一家高盛实体均受外国监管机构依据外国法律的监管，而这些法律与澳大利亚法律有所不同，具体如下：",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "0a736606c5301619",
+      "text": "GSCO is regulated by the US Securities and Exchange Commission under US laws; GSCO 受美国证券交易委员会依据美国法律的监管；GSI is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority, under UK laws; GSI 获得审慎监管局的授权，并受金融行为监管局和审慎监管局依据英国法律的监管；GSALLC is regulated by the Hong Kong Securities and Futures Commission under Hong Kong laws; andGSALLC 受香港证券及期货事务监察委员会依据香港法律的监管；GSSP is regulated by the Monetary Authority of Singapore under Singapore laws. GSSP 受新加坡金融管理局依据新加坡法律监管。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "889aa6ea564dea69",
+      "text": "Marquee is not meant for the general public in Brazil. The services or products provided by or through Marquee may not be offered or sold to the general public in Brazil. You have received a pass word granting access to Marquee exclusively due to your existing relationship with a GS business located in Brazil. The selection and engagement with any of the offered services or products through Marquee will be carried out directly by you. Before acting to implement any chosen service or products, provided by or through Marquee you should consider, at your sole discretion, whether it is suitable for your particular circumstances and, if necessary, seek professional advice. Any steps necessary in order to implement the chosen service or product, including but not limited to remittance of funds, shall be carried out at your discretion. Accordingly, such services and products have not been and will not be publicly issued, placed, distributed, offered or negotiated in the Brazilian capital markets and, as a result, they have not been and will not be registered with the Brazilian Securities Commission (Comissao de Valores Mobiliarios), nor have they been submitted to the foregoing agency for approval. Documents relating to such services or products, as well as the information contained therein, may not be supplied to the general public in Brazil, as the offering of such services or products is not a public offering in Brazil, nor used in connection with any offer for subscription or sale of securities to the general public in Brazil.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5f1ca99936b9d09b",
+      "text": "The offer of any securities mentioned in this message may not be made to the general public in Brazil. Accordingly, any such securities have not been nor will they be registered with the Brazilian Securities Commission (Comissao de Valores Mobiliarios) nor has any offer been submitted to the foregoing agency for approval. Documents relating to the offer, as well as the information contained therein, may not be supplied to the public in Brazil, as the offer is not a public offering of securities in Brazil.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7f2e96ccc0030249",
+      "text": "Horário de funcionamento: segunda-feira à sexta-feira (exceto feriados), das 9hs às 18hs.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c2cbfd89805244ef",
+      "text": "Available Weekdays (except holidays), from 9 am to 6 pm.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "41a57d4660ac0105",
+      "text": "Standard & Poor's ® and S&P® are registered trademarks of The McGraw-Hill Companies, Inc. and S&P GSCI™ is a trademark of The McGraw-Hill Companies, Inc. and have been licensed for use by the Issuer. This Product (the \"Product\") is not sponsored, endorsed, sold or promoted by S&P and S&P makes no representation, warranty or condition regarding the advisability of investing in the Product.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a7f02760a8f82d10",
+      "text": "Notice to Investors in the European Economic Area",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4f4359a874f91499",
+      "text": "Marquee is made available in the European Economic Area by Goldman Sachs International.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3bf8a5e91f3c21a0",
+      "text": "Notice to Investors in Korea",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "d7b8d920f73a35b8",
+      "text": "Marquee is made available in Korea by Goldman Sachs(Asia) L.L.C. Seoul Branch.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "b975f60f47729eb8",
+      "text": "Notice to Investors in Japan",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f9abe4bcca54779a",
+      "text": "Marquee is made available in Japan by Goldman Sachs Japan Co., Ltd.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "88b174604777f8ff",
+      "text": "本書は情報の提供を目的としております。また、売却・購入が違法となるような法域での有価証券その他の売却若しくは購入を勧めるものでもありません。ゴールドマン・サックスは本書内の取引又はストラクチャーの勧誘を行うものではございません。これらの取引又はストラクチャーは、社内及び法規制等の承認等次第で実際にはご提供できない場合がございます。",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4105f818db372db9",
+      "text": "本資料は、適格機関投資家のお客さまのみを対象に作成されたものです。本資料における金融商品は適格機関投資家のお客さまのみがお取引可能であり、適格機関投資家以外のお客さまからのご注文等はお受けできませんので、ご注意ください。商号等/ゴールドマン・サックス証券株式会社 金融商品取引業者 関東財務局長（金商）第６９号加入協会/ 日本証券業協会、一般社団法人金融先物取引業協会、一般社団法人第二種金融商品取引業協会",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "aa5f0260471f7483",
+      "text": "ゴールドマン・サックス証券株式会社が適格機関投資家のみを相手方として取得申込みの勧誘（取得勧誘）又は売付けの申込み若しくは買付けの申込みの勧誘(売付け勧誘等)を行う本有価証券には、適格機関投資家に譲渡する場合以外の譲渡が禁止される旨の制限が付されています。本有価証券は金融商品取引法第４条に基づく財務局に対する届出が行われておりません。なお、本告知はお客様によるご同意のもとに、電磁的に交付させていただいております。",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "75d6067c24e43e78",
+      "text": "本書又はその添付資料に信用格付が記載されている場合、日本格付研究所（JCR）及び格付投資情報センター（R&I）による格付は、登録信用格付業者による格付（登録格付）です。その他の格付は登録格付である旨の記載がない場合は、無登録格付です。無登録格付を投資判断に利用する前に、「無登録格付に関する説明書」（http://www.goldmansachs.com/disclaimer/ratings.html）を十分にお読みください。",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4e1070eaa8c87d4b",
+      "text": "If any credit ratings are contained in this material or any attachments, those that have been issued by Japan Credit Rating Agency, Ltd. (JCR) or Rating and Investment Information, Inc. (R&I) are credit ratings that have been issued by a credit rating agency registered in Japan (registered credit ratings). Other credit ratings are unregistered unless denoted as being registered. Before using unregistered credit ratings to make investment decisions, please carefully read \"Explanation Regarding Unregistered Credit Ratings\" (http://www.goldmansachs.com/disclaimer/ratings.html).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "18eb1b0fe8dc735d",
+      "text": "Notice to Investors in New Zealand",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "0aa48397bf9d0f35",
+      "text": "When this document is disseminated in New Zealand by Goldman Sachs & Co. LLC (\"GSCO\"), Goldman Sachs International (\"GSI\"), Goldman Sachs (Asia) L.L.C. (\"GSALLC\") or Goldman Sachs (Singapore) Pte (\"GSSP\") (collectively the \"GS entities\"), this document, and any access to it, is intended only for a person that has first satisfied the GS entities that the person is someone:",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "afd5720a3d9b478f",
+      "text": "(i) who is an investment business with the meaning of clause 37 of Schedule 1 of the Financial Markets Conduct Act 2013 (New Zealand) (the \"FMCAct\");",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "efc855d07376282a",
+      "text": "(ii) who meets the investment activity criteria specified in clause 38 of Schedule 1 of the FMCAct;",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a0e35e826d847ede",
+      "text": "(iii) who is large within the meaning of clause 39 of Schedule 1 of the FMCAct; or",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "447084abe6fa1575",
+      "text": "(iv) is a government agency within the meaning of clause 40 of Schedule 1 of the FMCAct.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "1927f2d94463032d",
+      "text": "No offer to acquire the interests is being made to you in this document. Any offer will only be made in circumstances where disclosure is not required under the Financial Markets Conducts Act 2013 or the Financial Markets Conduct Regulations 2014.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "ddbea04707d2fb76",
+      "text": "Notice to Investors in Switzeland",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "027929bd099e89d7",
+      "text": "Marquee is made available in Switzeland by Goldman Sachs International.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "7042f4a0ca20552e",
+      "text": "\\(①\\) Copyright 2002- 2025 Goldman Sachs All rights reserved.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e5b095502aafce3b",
+      "text": "Contact us if you have any feedback / comments.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "15fa85d8de3900ac",
+      "text": "Use of this site is subject to the Terms and Conditions of Use updated as of 12 August 2024.  Marquee Regulatory Disclosures  Important Disclosure Information About Goldman Sachs Research  Please review our Interest Rate Benchmark Transition Notice, Privacy & Cookies Policy, Security, Market Data Attribution, Security Guidance and GS&Co.'s Statement of Financial Condition",
+      "page": 6,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "d36f1109e714a3c4",
+      "name": "About Goldman",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3d04125be9722532",
+      "name": "Additional Disclaimers",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c481df660b904e25",
+      "name": "Area\n\nMarquee",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "10ec80d149561abd",
+      "name": "August Exports",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2377ece5230c67de",
+      "name": "Australian Investors",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9e0b33074ec75b0f",
+      "name": "Available Weekdays",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3066e95bb83f47d9",
+      "name": "Benchmark Transition",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "916ec28be5b2bd09",
+      "name": "Brazilian Investors",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cc653b573dcf08db",
+      "name": "Brazilian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "88f494f365f0299b",
+      "name": "Conduct Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "900eef27df0b5958",
+      "name": "Conduct Regulations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5678d1059276a82b",
+      "name": "Conducts Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d0363ae7300e90fb",
+      "name": "Cookies Policy",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cf7454fe4270253d",
+      "name": "Corporations Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f544bf8c2fcbb21c",
+      "name": "Disclosure Information",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "90cda73279caf33c",
+      "name": "Disclosures  Important",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "50db751cd54dcab0",
+      "name": "Doosan Enerbility",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "97133543ee275b1a",
+      "name": "EiNwXI\n\nVALUE",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21bc9aa97d2d9364",
+      "name": "European Economic",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "50b0b21f560c50eb",
+      "name": "Exchange Commission",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "bar",
+        "title": "Top 5 most shorted names across KOSPI & KOSDAQ",
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "0",
+              "10",
+              "20",
+              "30",
+              "40",
+              "50",
+              "60",
+              "70"
+            ]
+          },
+          "y": {
+            "unit": "category",
+            "range": {
+              "min": null,
+              "max": null
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Short Percentage",
+            "unit": "%",
+            "values": [
+              {
+                "category": "HANMISemi",
+                "value": 35
+              },
+              {
+                "category": "HD HYUNDAI HEAVY INDUSTRIES",
+                "value": 18
+              },
+              {
+                "category": "HANWHA AEROSPACE",
+                "value": 8
+              },
+              {
+                "category": "HDKSOE",
+                "value": 8
+              },
+              {
+                "category": "SK hynix",
+                "value": 6
+              }
+            ]
+          },
+          {
+            "name": "Short Value",
+            "unit": "USD million",
+            "values": [
+              {
+                "category": "HANMISemi",
+                "value": 16
+              },
+              {
+                "category": "HD HYUNDAI HEAVY INDUSTRIES",
+                "value": 15
+              },
+              {
+                "category": "HANWHA AEROSPACE",
+                "value": 10
+              },
+              {
+                "category": "HDKSOE",
+                "value": 12
+              },
+              {
+                "category": "SK hynix",
+                "value": 22
+              }
+            ]
+          }
+        ],
+        "figure_id": "4d4b7a79b77c9356",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Foreign Top 5 net BUY and SELL",
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Hanwha Ocean\n042660",
+              "HANWHA AEROSPACE\n012450",
+              "BHI\n083650",
+              "Mobis\n012330",
+              "Kakao\n035720",
+              "Samsung Elec\n005930",
+              "SK hynix\n000660",
+              "HDKSOE\n009540"
+            ]
+          },
+          "y": {
+            "unit": "U$m",
+            "range": {
+              "min": -150,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "net BUY",
+            "unit": "U$m",
+            "values": [
+              47,
+              41,
+              21,
+              18,
+              13,
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "net SELL",
+            "unit": "U$m",
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              -132,
+              -73,
+              -26
+            ]
+          }
+        ],
+        "figure_id": "6add5e6f9f6384d5",
+        "provenance": {
+          "page": 1
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "7638a6c068c0290f",
+        "value": 0.44,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "头条 - SEMIS | AUG EXPORTS & DRAM SENTIMENT: According to MOTIE and TRASS, exports value for memory (+44% yoy) and MLCC (+17% yoy) saw positive yoy growth - while display (-9% yoy) and Li-ion batteries ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "9143c3b568b3484b",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "PORTS & DRAM SENTIMENT: According to MOTIE and TRASS, exports value for memory (+44% yoy) and MLCC (+17% yoy) saw positive yoy growth - while display (-9% yoy) and Li-ion batteries (-41% yoy) exports ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d102fda2853c65eb",
+        "value": -0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "S, exports value for memory (+44% yoy) and MLCC (+17% yoy) saw positive yoy growth - while display (-9% yoy) and Li-ion batteries (-41% yoy) exports declined yoy. - Separately, DRAM sentiment is point",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5691ff8867ab0588",
+        "value": -0.41,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4% yoy) and MLCC (+17% yoy) saw positive yoy growth - while display (-9% yoy) and Li-ion batteries (-41% yoy) exports declined yoy. - Separately, DRAM sentiment is pointing in a slightly positive dire",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "0a0931e1aaf6440d",
+        "value": 0.44,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "u6yp, https://tinyurl.com/44pczduc 半导体 | 8 月出口与 DRAM 情绪：据韩国产业通商资源部 (MOTIE) 和 TRASS 数据显示，存储器出口额同比增长 44%，MLCC 同比增长 17%，而显示器出口同比下降 9%，锂离子电池出口同比下降 41%。此外，DRAM 市场情绪略微积极，市场普遍预期 2026 年 Hynix 的 HBM 价格走势仍比我们预期",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ee836d3c4e1f93a3",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tinyurl.com/44pczduc 半导体 | 8 月出口与 DRAM 情绪：据韩国产业通商资源部 (MOTIE) 和 TRASS 数据显示，存储器出口额同比增长 44%，MLCC 同比增长 17%，而显示器出口同比下降 9%，锂离子电池出口同比下降 41%。此外，DRAM 市场情绪略微积极，市场普遍预期 2026 年 Hynix 的 HBM 价格走势仍比我们预期更为乐观。https://t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "8eb10f2331e5018a",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "czduc 半导体 | 8 月出口与 DRAM 情绪：据韩国产业通商资源部 (MOTIE) 和 TRASS 数据显示，存储器出口额同比增长 44%，MLCC 同比增长 17%，而显示器出口同比下降 9%，锂离子电池出口同比下降 41%。此外，DRAM 市场情绪略微积极，市场普遍预期 2026 年 Hynix 的 HBM 价格走势仍比我们预期更为乐观。https://tinyurl.com/4npm",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "27e4f62545525622",
+        "value": 0.41,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "月出口与 DRAM 情绪：据韩国产业通商资源部 (MOTIE) 和 TRASS 数据显示，存储器出口额同比增长 44%，MLCC 同比增长 17%，而显示器出口同比下降 9%，锂离子电池出口同比下降 41%。此外，DRAM 市场情绪略微积极，市场普遍预期 2026 年 Hynix 的 HBM 价格走势仍比我们预期更为乐观。https://tinyurl.com/4npmu6yp, https://",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "b477347f4b0bfb53",
+        "value": 0.035,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tps://tinyurl.com/nwbk7bu4 DEFENSE (+): European defense stocks rallied overnight with Rheinmetall +3.5% after reports that the EU are working for potential military deployments to Ukraine as part of ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "303b7d9112d0cbdd",
+        "value": 0.035,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "WGH5GOT0JT <GO>) Separately, Korea is said to agree with the US in ramping up its defense budget to 3.5% of GDP (current 2026 budget at 2.4%), while discussing the purchase of US arms worth W34tn (c. ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1b31d724a2ccd100",
+        "value": 0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s said to agree with the US in ramping up its defense budget to 3.5% of GDP (current 2026 budget at 2.4%), while discussing the purchase of US arms worth W34tn (c. \\(\\) 25bn\\$). https://is.gd/EiNwXI 国",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f6fc0b0c6b2293b8",
+        "value": 0.035,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5bn\\$). https://is.gd/EiNwXI 国防（+）：受报道称欧盟正致力于在冲突后安全保障框架下，可能向乌克兰进行军事部署的消息影响，欧洲防务类股隔夜上涨，Rheinmetall上涨3.5%。(NSN T1WGH5GOT0JT <GO>)另外，据称韩国同意与美国将国防预算提高至占GDP的3.5%（当前2026年预算为2.4%），同时讨论购买价值34万亿韩元（约250亿美元）的美国武",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d18164743b452c99",
+        "value": 0.035,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "障框架下，可能向乌克兰进行军事部署的消息影响，欧洲防务类股隔夜上涨，Rheinmetall上涨3.5%。(NSN T1WGH5GOT0JT <GO>)另外，据称韩国同意与美国将国防预算提高至占GDP的3.5%（当前2026年预算为2.4%），同时讨论购买价值34万亿韩元（约250亿美元）的美国武器。https://is.gd/EiNwXI VALUE UP: According to local ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b2ed17d359354992",
+        "value": 0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "部署的消息影响，欧洲防务类股隔夜上涨，Rheinmetall上涨3.5%。(NSN T1WGH5GOT0JT <GO>)另外，据称韩国同意与美国将国防预算提高至占GDP的3.5%（当前2026年预算为2.4%），同时讨论购买价值34万亿韩元（约250亿美元）的美国武器。https://is.gd/EiNwXI VALUE UP: According to local reports, the PP",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "48516310f548fa49",
+        "value": 0.1805,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "LOOK ABROAD: In August, South Korea's average daily stock trading volume decreased by approximately 18.05% compared to July. Concurrently, overseas stock settlement amounts increased, driven by South ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "51e1cfc18dbb440c",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "LESALE: HMC and KIA released global wholesale numbers for August where HMC delivered 336,395 units (+0.3% mom) and Kia 253,950 units (-3.4% mom). We believe August monthly numbers are in line with HMC",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "5515ba1c350eb892",
+        "value": -0.034,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "l wholesale numbers for August where HMC delivered 336,395 units (+0.3% mom) and Kia 253,950 units (-3.4% mom). We believe August monthly numbers are in line with HMC & Kia business targets, with YTD ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "b571e78a53527fb7",
+        "value": 0.67,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "th HMC & Kia business targets, with YTD numbers for domestic, overseas, and global all running near 67% of annual guidance (considering 3Q weak seasonality). https://tinyurl.com/4emppvra 汽车 | 8月全球批发：H",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7263fe8b48c24b4d",
+        "value": 0.034,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "inyurl.com/4emppvra 汽车 | 8月全球批发：HMC和KIA公布了8月全球批发数据，HMC交付336,395辆（环比 \\(+0.3\\%\\) ），Kia交付253,950辆（环比- 3.4%）。我们认为8月的月度数据符合HMC和Kia的业务目标，年初至今的国内、海外及全球数据均接近全年指引的67%（考虑到三季度的淡季因素）。https://tinyurl.com/4emppvra ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "19ec2e1cdf87f3af",
+        "value": 0.67,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "交付336,395辆（环比 \\(+0.3\\%\\) ），Kia交付253,950辆（环比- 3.4%）。我们认为8月的月度数据符合HMC和Kia的业务目标，年初至今的国内、海外及全球数据均接近全年指引的67%（考虑到三季度的淡季因素）。https://tinyurl.com/4emppvra - POSCO INTL(047050): Secures a W600bn (\\$430mn) order",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a7fdd2f0b98e2cb0",
+        "value": 0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "计准则委员会的激烈争论之后作出的。https://tinyurl.com/ybjzw58t - MACRO | AUG EXPORTS: Korea's headline exports fell 1.2% mom sa in August, contracting after two months of increases. Tech exports contracted 1.1%, weigh",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "e40a99f7c3e839a9",
+        "value": 0.011000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "orts fell 1.2% mom sa in August, contracting after two months of increases. Tech exports contracted 1.1%, weighed<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2709f2f783e48396",
+        "value": 430.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "全球数据均接近全年指引的67%（考虑到三季度的淡季因素）。https://tinyurl.com/4emppvra - POSCO INTL(047050): Secures a W600bn (\\$430mn) order for drive motor cores from a North American EV manufacturer. https://tinyurl.com/yc2wkt",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 2,
+      "tables_count": 0,
+      "numerical_data_count": 23,
+      "passages_count": 70,
+      "entities_count": 20
+    }
+  }
+}

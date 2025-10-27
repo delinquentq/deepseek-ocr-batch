@@ -1,0 +1,4658 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "0faf9d06ab79866f48a6bc018fb45604",
+    "title": "EVERCORE ISI",
+    "source_uri": "2025-08-29/Pay Dirt A Look at Mgmt. Comp Across Our CoveragePay Dirt A Look at Mgmt. Comp Across Our Coverage_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:15:02.834468",
+      "extracted_at": "2025-10-27T00:15:02.834478"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 20,
+        "successful_pages": 20,
+        "date": "2025-08-29",
+        "publication": "2025-08-29",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 4,
+          "reduction_ratio": 0.08901989058060134
+        },
+        "input_relative_path": "2025-08-29"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "35bd2e363565eb4a",
+      "text": "With proxies and executive pay in the headlines, we are updating our annual note on executive pay across our coverage universe. This report focuses on management compensation design, short- term and long- term drivers, executive pay mix, and their compensation target/performance history. Here are some of the highlights of our key findings:",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "8e56d1a2405d9ff4",
+      "text": "CVS: discloses forward- looking EPS targets, with LT incentives ( \\(\\sim 76\\%\\) of CEO comp, \\(50 - 80\\%\\) of NEO comp) heavily EPS- driven, and recent PSU awards showing payouts above threshold in 2022/23 but below in 2024, and 2025 target above expectations given they were set in FY'23 IQV is also a rarity in that it discloses forward- looking EPS targets for its management team payouts o For 2025: the threshold is \\(11.82\\) (vs. St at \\(11.87\\) ) and 2026 set at \\(12.55\\) (vs. St at \\(12.88\\) ) Short- term bonus drivers have a wider variety of performance metrics (most popular operating income/EBITDA, though some variation by subsector) vs. long- term compensation o E.g. Dental and clinical more focused on revenue growth Drug distributor and CRO executives receive the majority of their compensation from long- term, heavily EPS- driven incentives, while dental executive pay plans show more variation but commonly include revenue, EPS, and TSR metrics, and over \\(68\\%\\) of drug store executive compensation is long- term and EPS- focused. WAY, LH, IQV, and ALGN paid their CEOs more in long- term incentives vs other forms of comp DOCS, IQV, CVS, and CRL paid their NEOs more in long- term incentives vs other forms of comp In addition, there is sometimes a mix between individual and firm performance, with for example, ICLR's ST incentive comp \\(100\\%\\) dependent on individual performance, and HSIC placing a \\(40\\%\\) weight",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4f9c3ea3e560c222",
+      "text": "Continue inside for more details on each company",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "214283dff5747f4a",
+      "text": "Please see the analyst certification and important disclosures on page 18 of this report. Evercore ISI and affiliates do and seek to do business with companies covered in its research reports. Investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. © 2025. Evercore Group L.L.C. All rights reserved.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "028481da39249bb9",
+      "text": "Short- term goals tend to focus on profitability while long- term goals include growth, relative TSR, and cultural goals",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "58fb8370a876a35a",
+      "text": "To get a better sense of what drives executive compensation across our coverage and determine how aligned mgmt. teams are with shareholders, we are updating our annual mgmt. comp analysis",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "532a231644ef5aa1",
+      "text": "Senior executive compensation is typically composed of three major elements: base salary (cash), short- term incentives (bonuses), and long- term incentives (equity- based awards)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "896dedc584c8e972",
+      "text": "While short- term goals are typically centered on profitability metrics, such as AOI, adjusted EPS, and adjusted EBITDA, long- term goals more often encompass growth indicators, relative TSR, efficiency targets, and cultural objectives",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b935109f45f7c464",
+      "text": "WAY, LH, IQV, and ALGN paid their CEOs more in long- term incentives vs other forms of comp according to their respective most recent DEF 14A",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d6dfcf8ffa9c42e1",
+      "text": "DOCS, IQV, CVS, and CRL paid their NEOs more in long- term incentives vs other forms of comp",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "45535345f44eae61",
+      "text": "Highest % of PSUs/MSUs",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "0db9d7ca642b62d4",
+      "text": "HSIC: \\(\\sim 66\\%\\) of CEO compensation & DOCS: \\(\\sim 70\\%\\) of NEO compensation",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d6c7ee52906a94a0",
+      "text": "In addition, there is sometimes a mix between individual and firm performance",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "3c52b6aef089d48e",
+      "text": "For example, ICLR's ST incentive is \\(100\\%\\) dependent on individual performance, and HSIC placing a \\(40\\%\\) weight",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "47b79dcf96b03cf4",
+      "text": "Short-Term Bonus Drivers - Biggest Weight to Op Income/Rev. across Coverage",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2e21218beb00fe96",
+      "text": "Revenue, Adj. EPS, and Operating Income were the biggest drivers of annual bonuses for NEOs last fiscal yearDrug StoresCompanyRevenueAdj. EPSAdj. EBITDAOperating IncomeFCFIndividual PerformanceHealth EquityNPSCVSWBA———80%60%———10%20%Drug DistributorsCompanyRevenueAdj. EPSAdj. EBITDAOperating IncomeFCFIndividual PerformanceCulture GoalsCost SavingsCOR—25%—40%25%—10%—CAH———65%15%—10%—10%MCK—50%—25%25%————LabsCompanyRevenueAdj. EPSAcquiredRevenueOperatingIncomeFCFIndividual PerformanceMedical quality/customer experience/employee engagement/ESG goalsCOVID-19 responsesDGX40%40%————20%—LH30%——70%————CROsCompanyRevenueOperatingIncomeRevenue/ProfitFCFBalanceSheet/LiquidityIndividual PerformanceLeadership/ESGOperational/StrategicAdj. EBITDACRL52%48%———————ICLR—————100%———IQV——54%17%——13%16%—FTRE50%———————50%DentalCompanyRevenueOperatingIncomeAdj. EPSAdj. EBITDA(%)FCF RatioBusinessFinancial/IndividualGoalsStrategic Scorecard GoalsFCFALGN60%40%——————NVST50%——40%10%———XRAY50%——50%————HSIC——30%——40%30%—HITCompanyRevenueAdj. EBITDATotal GrossBookingsAdj. EPSOperatingIncomeLeadershipRevenue/Adj.EBITDA/Total GrossBookingsCorporate Value GoalWAY—————25%75%5%",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "cd28bdccb7d8c15b",
+      "text": "Source: Company Filings",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "6eca1926b8adeef1",
+      "text": "2022 PSUs vest \\(200\\%\\) w/ EPS exceeding maximum \\((\\) 8.84 vs. \\(\\) 8.75)\\(- PSUs to be certified in 2025 following 3YR performance period2023 PSUs vest \\(100\\%\\) w/ EPS at target \\((\\) 8.99 vs. \\(\\) 8.98- \\(\\) 9.09)\\(- PSUs to be certified in 2025 following 3YR performance period2024 PSU Adjusted EPS of\\) \\ \\(5.48\\) which was below the threshold level required to achieve a payout \\((\\) 8.85)FY25 management targets are above current consensus EPS estimates given that they were set in 2023",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1e2fa4493f515606",
+      "text": "Management is targeting \\(10\\%\\) annual EPS growth from FY24 to FY26 (threshold minimum of \\(6.2\\%\\) )Implies 2025E target EPS of \\(\\) 12.24\\(vs. street estimates of\\) \\ \\(11.87\\)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4267242f4bebade0",
+      "text": "Most names under our coverage do not disclose PSU targets for outyears, mainly for competitive reasons",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "18e3ab4530a07738",
+      "text": "2025E2026ECompanyMetricThresholdTargetMaximumSt. EstimatesEVRISleThresholdTargetMaximumSt. EstimatesEVRISLECVSAdj. EPS$9.00$9.90-$10.10$11.00$6.34$6.38$8.85$9.73-9.93$10.81$7.16$7.80% Growth64.2%82.5%100.7%15.7%16.4%(1.7%)(1.7%)(1.7%)12.9%22.3%IQVAdj. EPS$11.82$12.24$12.64$11.87$11.89$12.55$13.47$14.36$12.88$12.96% Growth6.2%10.0%13.6%6.6%16.6%6.2%10.0%13.6%8.5%9.0%",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "718a3d2b5903fbda",
+      "text": "All PSUs Follow 3-Year Cliff Vesting",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "3855b83326453c73",
+      "text": "Source: Company Filings",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "c46d9f310de65758",
+      "text": "Overall, while operating income is the main driver of ST bonus payments, EPS is a much bigger driver for LT comp. CVS also maintains turnaround operating metrics from each segment which started in 2024 Executive compensation is highly weighted towards LT incentives, which make up \\(\\sim 76\\%\\) of CEO comp and \\(\\sim 50 - 80\\%\\) of NEO comp",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "e963655b0f1e931b",
+      "text": "LT metrics are less meaningful given pending Sycamore acquisition",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "259fdd8fd0ed1a79",
+      "text": "Drug StoresGrant YearCompanyPerformance Metric2019202020212022202320242025CVSYR3 Adj. EPS100%100%100%100%100%70%70%Percentage of Medicare members in 4+ Star-rated plans—————10%10%Percentage of Commercial members on CVS Cost/Vantage—————10%10%Percentage of unique customers with 2+ CVS Health offerings—————10%10%",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "69db2cc5e908aac7",
+      "text": "Source: Company Filings",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "480966608c124948",
+      "text": "All PSUs Follow 3-Year Cliff Vesting",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "7c62f16b05739f40",
+      "text": "Source: Company Filings",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "3d6fdcb58d21adf5",
+      "text": "DGX's ST goals are heavily weighted toward Revenue \\((40\\%)\\) and Adj. EPS \\((40\\%)\\) , while 2024 LT incentives are led by 3YR Revenue CAGR \\((50\\%)\\) , with ROIC \\((30\\%)\\) and TSR \\((20\\%)\\)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "57caae77b0e14a72",
+      "text": "LH's ST plan is evenly split between Revenue and Adj Operating Income (plus modifiers for ESG and individual performance) while LT incentives remain heavily focused on EPS \\((70\\%)\\) , with Revenue \\((30\\%)\\) also included",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c008cc192818b8dc",
+      "text": "Executive pay is primarily LT- driven, comprising \\(\\sim 78 - 80\\%\\) of CEO comp and \\(\\sim 63 - 65\\%\\) of NEO comp, consistent with strong weighting toward long- term financial metrics.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "5672a77f40a8a790",
+      "text": "LabsGrant YearCompanyPerformance Metric2019202020212022202320242025DGX3YR Revenue CAGR50%50%35%35%50%50%—3YR Average ROIC50%50%30%30%30%30%—3YR Relative TSR——20%20%20%20%—3YR Cumulative COVID Revenue——15%15%———Revenues——————35%Adjusted Diluted EPS——————45%LH3YR EPS70%70%70%70%70%7070%3YR Revenue30%30%30%30%30%3030%",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "a4e700234d85e06b",
+      "text": "Source: Company Filings",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2f336fcd01be4056",
+      "text": "All PSUs Follow 3-Year Cliff Vesting",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "09ca1a09431e8c3f",
+      "text": "CRL Balances revenue/op income ST targets with longer-term 100% comp focused on EPS growth & TSR ICLR Compensation mix for performance metrics were not disclosed entirely, ST is largely focused on individual 75% performance ratings LT comp has a years of service component IQV ST incentives target Revenue/Profit \\((52\\%)\\) , FCF \\((11\\%)\\) and multiple categories including Leadership/ESG and Operational/Strategic metrics \\((10 - 15\\%\\) each), while LT incentives focus on 3YR EPS Growth and Relative TSR FTRE ST plan is split between Net New Business and Adj. EBITDA Margin, while LT incentives focus on Revenue Growth and EBITDA CRO executive pay is heavily LT-weighted, comprising \\(\\sim 79 - 80\\%\\) of CEO compensation and \\(\\sim 65 - 77\\%\\) of NEO pay (ex. FTRE), with most plans anchored in EPS, TSR, and rev/profitability growth",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "6bf87802d12ec6f0",
+      "text": "CROsGrant YearCompanyPerformance Metric2019202020212022202320242025CRLYR1 Adj. EPS*100%100%100%100%100%100100%3YR Relative TSR*100%100%100%100%100%100100%ICLR3YR Adj. EPS———————Service——————IQV3YR Adj. EPS Growth75%75%75%75%75%7575%3YR Relative TSR25%25%25%25%25%2525%FTRE3YR Adjusted EBITDA Margin—————40%40%3YR Revenue Growth—————60%60%",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "428749760cbb476a",
+      "text": "Factor, not a weight Source: Company Filings",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "96e7682b8a0f47eb",
+      "text": "Long- term incentives make up \\(90\\% +\\) of senior executive compensation package (no LT target breakdown published)",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "ed76efa1893cf3f4",
+      "text": "Similar to WAY, long term incentives account for \\(>70\\%\\) of NEO comp mix In FY'25, CEO received a grant of RSUs that the compensation committee determined was appropriately valued for his role. The NEOs, other than CEO and CFO, participated in an annual equity refresh program that is generally available to all eligible employees. The determination to not to include the CEO and CFO in the equity refresh program was based on the compensation committee's determination that each of their existing equity holdings and other new equity grants were sufficient to align their interests with stockholders' interests for fiscal year 2025.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "4e3d90b05a595e98",
+      "text": "HCITGrant YearCompanyPerformance Metric2019202020212022202320242025DOCSTotal Revenue—————50.0%50.0%Adj. EBITDA—————50.0%50.0%",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "35fab6c19e42186c",
+      "text": "Which of Our Companies Pay Executives the Most in Stock?",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "fe47cef489ab85e2",
+      "text": "DOCS, IQV, CVS, and CRL paid their NEOs more in stock vs other forms of comp",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "5a0940f90013aaaf",
+      "text": "Source: Company Filings",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3fa17fa06d83b8c6",
+      "text": "In corporate performance- based compensation- especially in incentive plans for executives or employees- some companies define specific targets or performance goals that must be met to trigger a bonus payout (though they are less useful with significant executive and/or strategy changes).",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "4be11b43a64fa922",
+      "text": "The payout threshold is the minimum performance level that must be achieved for any payout to occur under the plan. If a company's performance falls below this threshold, no bonus is awarded.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "1f9e5647eade9549",
+      "text": "Target: the expected or planned performance level (often a \\(100\\%\\) payout)",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "3e0e021b9c65aa8b",
+      "text": "Starting with the labs:",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "17374ea05ddb0e9f",
+      "text": "Lab executive comp increased in 2024 due to strong performance in 2024 with DGX hitting all metrics and LH almost all",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "65756e5b91cd0680",
+      "text": "CompanyPerformance Metric2018A-2020A2019A-2021A2020A-2022A2021A-2023ATargetActualTargetActualTargetActualTargetActualDGXRevenue CAGR 3YR Avg. ROIC3.0% 9.2%2.9% 8.8%3.6% 11.3%8.4% 11.9%3.0% 10.4%12.7% 14.4%&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%10.4% 13.2%$24.929.2%$28.313.8%$25.4 (10.0%)",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "0ae367e567c63e40",
+      "text": "CompanyPerformance Metric2022A-2024ATargetActualLH3YR EPS$48.93$48.693YR Rev$40.7 bn$41.3 bnRelative TSRBetween the 26th and 75th Percentile47th Percentile",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "c9956304bdd5db9a",
+      "text": "Company2023A2024AExec. CompY/Y ChangeExec. CompY/Y Change$30.76-$37.9323.3%",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "605033e0148d418f",
+      "text": "CompanyExec. Comp2021A2022A2023AY/Y ChangeExec. CompY/Y ChangeExec. CompY/Y ChangeExec. Comp$24.929.2%$28.313.8%$25.4 (10.0%)",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "ff8e2ffcb5101640",
+      "text": "Rx Supply Chain LT Performance vs LT Targets Improved in 2024 for Most",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "46eff594c53f766f",
+      "text": "CompanyPerformance MetricPerformance Period2021A-2023A2022A-2024A2023A-2025ATargetActualTargetActualTargetActualCVSYR3 RONA——————YR3 Aetna Synergies——————YR3 Adj. EBITDA——————YR3 Adj. EPS$8.98-$9.09$8.99$9.73-$9.93$5.48———WBAAdj. EPS Growth6.7%(19.1%)7.2%(29.3%)———Adj. Revenue Growth2.4%(0.2%)4.9%1.6%———3YR Cumulative Adj. EPS$15.77$16.83—————COR3YR Adj. EPS CAGR3.3%14.9%8.0%14.1%———3YR Avg. Annual Adj. ROIC20.5%18.7%15.6%19.7%———CAHAdj. EPS Growth + Div. Yield———————YR1 Adj. EPS$5.60$5.57$5.84$5.07———YR2 Adj. EPS$5.84$5.06$5.40$5.85———YR3 Adj. EPS$5.40$5.79$6.65$7.53———MCKCost Savings——$400 MM$561 MM———3YR Adj. EPS$48.44$66.66$60.27$79.17$77.97$86.353YR rTSR55th %100th %55th %100th %55th %93rd %3YR Avg. ROIC11.2%16.6%12.9%17.5%26.0%24.0%",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "d8a43eac02997c09",
+      "text": "Source: Company Filings",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "4d6169942a677f12",
+      "text": "Year of Compensation (All Execs)",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "9b9bdb3d9650ca73",
+      "text": "Year of Compensation (All Execs)2022A2023A2024A2025AExec. CompY/Y ChangeExec. CompY/Y ChangeExec. CompY/Y Change$69.9(16.3%)$68.0(2.7%)$80.418.1%$46.6(35.2%)$46.3(0.7%)$43.3(6.5%)$34.54.0%$37.99.6%$49.731.3%$29.99.4%$47.257.9%$49.65.0%$36.213.4%$39.810.0%$50.226.1%",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "1d41e7d32a375297",
+      "text": "All PSUs Follow 3-Year Cliff Vesting Some Targets Subject to PSU Adjustments as Defined in Proxy Statement CVS added additional executives in 2024 while including previous exec comp",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "cd85312e43dd896b",
+      "text": "Avg. exec. compensation declined across most dental names; yoy comparisons are impacted by leadership transitions",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "3a0bf529685a60bf",
+      "text": "CompanyPerformance MetricPerformance Period2019A-2021A2021A-2023A2022A-2024AALGN3YR TSR vs. NASDAQ135.8%213.8%16.6%(20.0%)XRAYYR1 Adj. EPS Growth————YR1 Adj. Operating Margin————YR2 Adj. EPS Growth————YR2 Adj, Operating Margin————YR3 Adj. EPS Growth————YR3 Adj, Operating Margin————3YR Adj. EPS$8.28$7.11$8.07$6.74HSIC3YR Organic Sales——$12,654$12,4493YR rTSR50th41st50th7th3YR Adj. EPSUnknown$11.00——",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "ca782b646d50738f",
+      "text": "Source: Company Filings",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "31d80aa183c8c204",
+      "text": "Performance Period2022A2023A2024AExec. CompY/Y ChangeExec. CompY/Y Change$32.2(17.3%)$46.544.3%$46.5$51.8175.7%$23.5(54.7%)$20.1$23.0(12.3%)$21.2(7.6%)$24.4",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "532aab9a606c23c9",
+      "text": "All MSUs/PSUs Follow 3- Year Cliff Vesting Some Targets Subject to PSU Adjustments as Defined in Proxy Statement (1) Denotes actual payout as a percentage of target performance- based award, as stated by the company NVST added additional executives in 2024 while including previous exec. comp",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "67bc50df5ee0f12b",
+      "text": "Executive Comp Declined in 2024 - CRL & ICLR down while IQV remained largely in line with 2023 level",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "665c4e83dc727420",
+      "text": "CompanyPerformance MetricPerformance Period2019A-2021A2021A-2023A2022A-2024AICLR3YR Adj. EPSUnknown$23.06Unknown$34.19IQV3YR Adj. EPS Growth10.0%17.6%10.0%14.8%YR TSR vs. S&amp;amp;P 500 (percentile)50th %83rd %50th %55.0%",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "d684c6ff5925cce5",
+      "text": "Performance Period2022A2023A2024AExec. CompY/Y ChangeExec. CompY/Y Change$12.70.8%$9.3(26.6%)$4.9$50.217.7%$51.83.2%$53.0",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "677508f89584400d",
+      "text": "CompanyPerformance Metric2021A-20232022A-20242023A-2025TargetActualTargetActualTargetActualTargetActualCRLYR1 Adj. EPS$9.50$10.32$10.40$10.67$11.40$10.32",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "6e8f499e9cb77680",
+      "text": "2022A2023A2024AExec. CompY/Y ChangeExec. CompY/Y Change$29.9(4.3%)$28.9(3.6%)$27.5",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "6efa9846ea8e44e9",
+      "text": "Source: Company Filings (1) Denotes actual payout as a percentage of target performance- based award, as stated by the company",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "987550106e6ca3e3",
+      "text": "All PSUs Follow 3- Year Cliff Vesting Some Targets Subject to PSU Adjustments as Defined in Proxy Statement",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "ed5f3bf05fb319dc",
+      "text": "(Article 3(1)e and Article 7 of MAR)",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "72c715f40c944917",
+      "text": "Time of dissemination: August 29 2025 10:36 AM ET",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "03bf3dacc29d81f2",
+      "text": "Evercore ISI's recommendations are based on a stock's total forecasted return over the next 12 months. Total forecasted return is equal to the expected percentage price return plus gross dividend yield. We divide our stocks under coverage into three primary ratings categories, with the following return guidelines:",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "2a26088039901123",
+      "text": "Outperform- the total forecasted return is expected to be greater than the expected total return of the analyst's coverage sector.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "9a1a891364ca03b8",
+      "text": "In Line- the total forecasted return is expected to be in line with the expected total return of the analyst's coverage sector.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "cd0546c732bde665",
+      "text": "Underperform- the total forecasted return is expected to be less than the expected total return of the analyst's coverage sector.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "9d43078e04f8a9e5",
+      "text": "Coverage Suspended- the rating and target price have been removed pursuant to Evercore ISI policy when Evercore is acting in an advisory capacity in a merger or strategic transaction involving this company and in certain other circumstances.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "1b53d8654dd5fc02",
+      "text": "Rating Suspended- Evercore ISI has suspended the rating and target price for this stock because there is not sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, a rating or target price. The previous rating and target price, if any, are no longer in effect for this company and should not be relied upon.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "6d1326ff4cb21e70",
+      "text": "\\*Prior to October 10, 2015, the \"Coverage Suspended\" and \"Rating Suspended\" categories were included in the category \"Suspended.\"",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "1672338771144d1f",
+      "text": "FINRA requires that members who use a ratings system with terms other than \"Buy,\" \"Hold/Neutral\" and \"Sell\" to equate their own ratings to these categories. For this purpose, and in the Evercore ISI ratings distribution below, our Outperform, In Line, and Underperform ratings can be equated to Buy, Hold and Sell, respectively.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "e6b24f41585496f4",
+      "text": "Evercore ISI rating (as of 08/29/2025)",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "e7800c18693ec269",
+      "text": "Coverage UniverseInvestment Banking Services I Past 12 MonthsRatingsCountPct.RatingsCountPct.Buy44559Buy5111Hold27036Hold145Sell132Sell00Coverage Suspended182Coverage Suspended633Rating Suspended61Rating Suspended467",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "8c2f3efb42dc50c5",
+      "text": "Issuer-Specific Disclosures (as of August 29, 2025)",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "24d6bd8f6fa4e624",
+      "text": "This report is approved and/or distributed by Evercore Group L.L.C. (\"Evercore Group\"), a U.S. licensed broker-dealer regulated by the Financial Industry Regulatory Authority (\"FINRA\") and by International Strategy & Investment Group (UK) Limited (\"ISI UK\"), which is authorized and regulated in the United Kingdom by the Financial Conduct Authority. The institutional sales, trading and research businesses of Evercore Group and ISI UK collectively operate under the global marketing brand name Evercore ISI (\"Evercore ISI\"). Both Evercore Group and ISI UK are subsidiaries of Evercore Inc. (\"Evercore\"). The trademarks, logos and service marks shown on this report are registered trademarks of Evercore Inc.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "e4601de2c682b025",
+      "text": "This report is provided for informational purposes only and subject to additional restrictions contained in this disclosure. It is not to be construed as an offer to buy or sell or a solicitation of an offer to buy or sell any financial instruments or to participate in any particular trading strategy in any jurisdiction. The information and opinions in this report were prepared by employees of affiliates of Evercore. The information herein is believed by Evercore ISI to be reliable and has been obtained from public sources believed to be reliable, but Evercore ISI makes no representation as to the accuracy or completeness of such information.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "42876b5b2c8e8742",
+      "text": "Opinions, estimates and projections in this report constitute the current judgment of the author as of the date of this report. They do not necessarily reflect the opinions of Evercore or its affiliates and are subject to change without notice. In addition, opinions, estimates and projections in this report may differ from or be contrary to those expressed by other business areas or groups of Evercore and its affiliates.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "405f6fc5e58f5116",
+      "text": "Evercore ISI has no obligation to update, modify or amend this report or to otherwise notify a reader thereof in the event that any matter stated herein, or any opinion, projection, forecast or estimate set forth herein, changes or subsequently becomes inaccurate. Facts and views in Evercore ISI research reports and notes have not been reviewed by, and may not reflect information known to, professionals in other Evercore affiliates or business areas, including investment banking personnel. Evercore ISI salespeople, traders and other professionals may provide oral or written market commentary or trading strategies to our clients that reflect opinions that are contrary to the opinions expressed in this research.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "55b1ab6be0748360",
+      "text": "Our asset management affiliates and investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "ccc07ed9f725dad4",
+      "text": "Evercore ISI does not provide individually tailored investment advice in research reports. The financial instruments discussed in this report are not suitable for all investors and investors must make their own investment decisions using their own independent advisors as they believe necessary and based upon their specific financial situations and investment objectives. This report has been prepared without regard to the particular investment strategies or financial, tax or other personal circumstances of the recipient. Nothing in this report constitutes investment, legal, accounting or tax advice, or a representation that any investment or strategy is suitable or appropriate to the recipient's individual circumstances, or otherwise constitutes a personal recommendation to the recipient. None of Evercore Group or its affiliates will treat any recipient of this report as its customer by virtue of the recipient having received this report.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "994480d5355ba53e",
+      "text": "Securities and other financial instruments discussed in this report, or recommended or offered by Evercore ISI, are not insured by the Federal Deposit Insurance Corporation and are not deposits of or other obligations of any insured depository institution. If a financial instrument is denominated in a currency other than an investor's currency, a change in exchange rates may adversely affect the price or value of, or the income derived from the financial instrument, and such investor effectively assumes such currency risk. In addition, income from an investment may fluctuate and the price or value of financial instruments described in this report, either directly or indirectly, may rise or fall. Estimates of future performance are based on assumptions that may not be realized. Furthermore, past performance is not necessarily indicative of future performance.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "1c55b6a5d039af35",
+      "text": "Please note that this report was prepared for and distributed by Evercore ISI to its institutional investor and market professional customers.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "52695d8b9658219c",
+      "text": "Recipients who are not institutional investor or market professional customers of Evercore ISI should seek the advice of their independent financial advisor before considering information in this report in connection with any investment decision, or for a necessary explanation of its contents.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "5440c0d4cdd8fcfd",
+      "text": "Electronic research is simultaneously distributed to all clients. This report is provided to Evercore ISI clients only and may not be, in whole or in part, or in any form or manner (i) copied, forwarded, distributed, shared, or made available to third parties, including as input to, or in connection with, any artificial intelligence or machine learning model; (ii) modified or otherwise used to create derivative works; or (iv) used to train or otherwise develop a generative artificial intelligence or machine learning model, without the express written consent of Evercore ISI. Receipt and review of this research report constitutes your agreement with the aforementioned limitations in use.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "8bad4679167337db",
+      "text": "This report is not intended for distribution to or use by any person or entity in any locality, state, country or other juris dition where such distribution, publication, availability or use would be contrary to law or regulation or which would subject Evercore Group or its affiliates to any registration or licensing requirement within such jurisdiction. If this report is being distributed by a financial institution other than Evercore ISI or its affiliates, that financial institution is solely responsible for such distribution and for compliance with the laws, rules and regulations of any jurisdiction where this report is distributed. Clients of that financial institution should contact that institution to effect any transaction in the securities mentioned in this report or if such clients require further information. This report does not constitute investment advice by Evercore ISI to the clients of the distributing financial institution, and neither Evercore ISI nor its affiliates, nor their respective officers, directors or employees, accept any liability whatsoever for any direct or consequential loss arising from their use of this report or its content.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "feeb868503aaa45b",
+      "text": "Evercore is not authorized to act as a financial entity, securities intermediary, investment advisor or as any other regulated entity under Mexican law, and no actions, applications or filings have been undertaken in Mexico, whether before the National Banking and Securities Commission (Comisión Nacional Bancaria y de Valores \"CNBV\") or any other authority, in order for Evercore to carry out activities or render services that would otherwise require a license, registration or any other authorization for such purposes; neither is it regulated by the CNBV or any other Mexican authority. This document, nor its content, constitutes an offer, invitation or request to purchase or subscribe for securities or other instruments or to make or cancel investments, nor may it serve as the basis for any contract, commitment or decision of any kind.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "ce2da8e3d948b787",
+      "text": "For persons in the UK: In making this report available, Evercore makes no recommendation to buy, sell or otherwise deal in any securities or investments whatsoever and you should neither rely or act upon, directly or indirectly, any of the information contained in this report in respect of any such investment activity. This report is being directed at or distributed to, (a) persons who fall within the definition of Investment Professionals (set out in Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (the \"Order\"); (b) persons falling within the definition of high net worth companies, unincorporated associations, etc. (set out in Article 49(2) of the Order); (c) other persons to whom it may otherwise lawfully be communicated (all such persons together being referred to as \"relevant persons\"). This report must not be acted on or relied on by persons who are not relevant persons.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "5db062cd16c7832c",
+      "text": "For persons in Switzerland: The distribution of these materials to persons or entities in Switzerland is not intended to, and does not, constitute a financial service under the Swiss Financial Services Act (FinSA). In particular, the distribution of these materials does not constitute the provision of personal recommendations on transactions with financial instruments (investment advice) within the meaning of Article 3(c)(4) of FinSA.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "2c894f0c32028088",
+      "text": "For persons in Australia: Evercore does not have an Australian Financial Services License (\"AFSL\"). This report is only to be distributed to persons who fall within the definition of \"wholesale\" investors under section 761G of the Corporations Act 2001 (Cth). This report must not be acted on or relied on by persons who are not wholesale investors. Evercore relies on the relief provided under ASIC Corporations (Foreign Financial Services Providers—Limited Connection) Instrument 2017/182 to provide this report to wholesale investors in Australia without an AFSL.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "75c9f18ccb8e666b",
+      "text": "For persons in New Zealand: This material has been prepared by Evercore Group L.L.C. for distribution in New Zealand to financial advisors and wholesale clients only and has not been prepared for use by retail clients (as those terms are defined in the Financial Markets Conduct Act 2013 (\"FMCA\")). Evercore Group L.L.C. is not, and is not required to be, registered or licensed under the FMCA, and unless otherwise stated any financial products referred to in this material are generally only available in New Zealand for issue to those satisfying the wholesale investor criteria in the FMCA.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "26c009b7a024b72c",
+      "text": "Applicable current disclosures regarding the subject companies covered in this report are available at the offices of Evercore ISI: 55 East 52nd Street, New York, NY 10055, and at the following site: https://evercoreisi.mediastierling.com/disclosure.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "a8bd7a9c3e9a0327",
+      "text": "In compliance with the European Securities and Markets Authority's Market Abuse Regulation, a list of all Evercore ISI recommendations disseminated in the preceding 12 months for the subject companies herein, may be found at the following site: https://evercoreisi.mediastierling.com/disclosure.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "2fe50dfb55aa6241",
+      "text": "© 2025. Evercore Group L.L.C. All rights reserved.",
+      "page": 19,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "6bfdb485e64d207a",
+      "name": "ASIC Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "59d283bac72137d5",
+      "name": "Adj Operating",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5270219b2d989bd0",
+      "name": "Adjusted Diluted",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "95ef9ff3618b2fac",
+      "name": "Adjusted EBITDA",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b9ff3f61671b10cc",
+      "name": "Aetna Synergies",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7effe03db0d816ce",
+      "name": "All Execs",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "da4146a47e187b89",
+      "name": "All MSUs",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2a0506d633e6b3ec",
+      "name": "All PSUs",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b1e3681fbf37fb5b",
+      "name": "Annual Adj",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c948b097867d16e8",
+      "name": "Australian Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4fa692c1c5553859",
+      "name": "Average ROIC",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c650a49a701b2466",
+      "name": "Biggest Weight",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fe0fe46365786da9",
+      "name": "Both Evercore",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "daecabb41be8263e",
+      "name": "But Saw",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "513b3bdae938a9dc",
+      "name": "CEO Pay",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5ebb600a82c89fc3",
+      "name": "CRL Balances",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6724eb7d243d67b8",
+      "name": "CRO Compensation",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4eb824d6cfe73b23",
+      "name": "CROs Beat",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27cd80a6bd7d6b09",
+      "name": "CVS\n\nOverall",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7c7afcecbfd5f2c0",
+      "name": "CVS Cost",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "bar",
+        "title": "CEO Comp. Mix vs NEO Comp. Mix",
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "WAY",
+              "DOCS",
+              "WAY",
+              "DOCS"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "CEO Comp. Mix - Base Salary",
+            "unit": "%",
+            "values": [
+              3,
+              3
+            ]
+          },
+          {
+            "name": "CEO Comp. Mix - Cash",
+            "unit": "%",
+            "values": [
+              3,
+              3
+            ]
+          },
+          {
+            "name": "CEO Comp. Mix - Total LTI",
+            "unit": "%",
+            "values": [
+              94,
+              90
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Base Salary",
+            "unit": "%",
+            "values": [
+              4,
+              26
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Cash",
+            "unit": "%",
+            "values": [
+              6,
+              0
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Total LTI",
+            "unit": "%",
+            "values": [
+              90,
+              74
+            ]
+          }
+        ],
+        "figure_id": "76ac018eef0ea245",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "combo",
+        "title": "ALGN has heaviest weight of LT comp",
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "ALGN",
+              "NVST",
+              "XRAY",
+              "HSIC"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "CEO Comp. Mix - Base Salary",
+            "unit": "%",
+            "values": [
+              8,
+              12,
+              12,
+              15
+            ]
+          },
+          {
+            "name": "CEO Comp. Mix - Cash",
+            "unit": "%",
+            "values": [
+              12,
+              18,
+              14,
+              16
+            ]
+          },
+          {
+            "name": "CEO Comp. Mix - Total LTI",
+            "unit": "%",
+            "values": [
+              80,
+              70,
+              74,
+              70
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Base Salary",
+            "unit": "%",
+            "values": [
+              18,
+              29,
+              21,
+              23
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Cash",
+            "unit": "%",
+            "values": [
+              14,
+              20,
+              16,
+              21
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Total LTI",
+            "unit": "%",
+            "values": [
+              68,
+              51,
+              63,
+              55
+            ]
+          }
+        ],
+        "figure_id": "312de6a292a0db57",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "bar",
+        "title": "CEO Comp. Mix vs NEO Comp. Mix",
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "CVS",
+              "WBA",
+              "CVS",
+              "WBA"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "CEO Comp. Mix - Base Salary",
+            "unit": "%",
+            "values": [
+              8,
+              9
+            ]
+          },
+          {
+            "name": "CEO Comp. Mix - Cash",
+            "unit": "%",
+            "values": [
+              16,
+              18
+            ]
+          },
+          {
+            "name": "CEO Comp. Mix - Total LTI",
+            "unit": "%",
+            "values": [
+              76,
+              73
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Base Salary",
+            "unit": "%",
+            "values": [
+              9,
+              14
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Cash",
+            "unit": "%",
+            "values": [
+              16,
+              18
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Total LTI",
+            "unit": "%",
+            "values": [
+              75,
+              68
+            ]
+          }
+        ],
+        "figure_id": "1ea44a30a6d857a9",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Compensation Mix",
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "CRL",
+              "ICLR",
+              "IQV",
+              "FTRE"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "CEO Comp. Mix - Base Salary",
+            "unit": "%",
+            "values": [
+              11,
+              27,
+              7,
+              65
+            ]
+          },
+          {
+            "name": "CEO Comp. Mix - Cash",
+            "unit": "%",
+            "values": [
+              11,
+              0,
+              14,
+              0
+            ]
+          },
+          {
+            "name": "CEO Comp. Mix - Total LTI",
+            "unit": "%",
+            "values": [
+              79,
+              73,
+              80,
+              35
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Base Salary",
+            "unit": "%",
+            "values": [
+              17,
+              50,
+              11,
+              38
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Cash",
+            "unit": "%",
+            "values": [
+              13,
+              0,
+              13,
+              0
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Total LTI",
+            "unit": "%",
+            "values": [
+              70,
+              50,
+              77,
+              62
+            ]
+          }
+        ],
+        "figure_id": "7ff8c0001bb11078",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "bar",
+        "title": "WAY, LH, IQV, and ALGN paid their CEOs more in stock vs other forms of comp",
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "DOCS",
+              "FTRE",
+              "HSIC",
+              "NVST",
+              "ICLR",
+              "WBA",
+              "XRAY",
+              "CAH",
+              "CVS",
+              "COR",
+              "MCK",
+              "DGX",
+              "CRL",
+              "ALGN",
+              "IQV",
+              "LH",
+              "WAY"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Cash",
+            "unit": "%",
+            "values": [
+              0,
+              0,
+              15,
+              18,
+              0,
+              18,
+              15,
+              15,
+              15,
+              15,
+              13,
+              10,
+              10,
+              10,
+              10,
+              10,
+              2
+            ]
+          },
+          {
+            "name": "Base Salary",
+            "unit": "%",
+            "values": [
+              98,
+              65,
+              15,
+              10,
+              28,
+              8,
+              8,
+              8,
+              8,
+              8,
+              8,
+              10,
+              10,
+              8,
+              8,
+              8,
+              2
+            ]
+          },
+          {
+            "name": "LTI Mix",
+            "unit": "%",
+            "values": [
+              2,
+              35,
+              70,
+              72,
+              72,
+              74,
+              77,
+              77,
+              77,
+              77,
+              79,
+              80,
+              80,
+              82,
+              82,
+              82,
+              96
+            ]
+          }
+        ],
+        "figure_id": "9d3a6ed6d284ee37",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "ICLR",
+              "NVST",
+              "HSIC",
+              "FTRE",
+              "XRAY",
+              "LH",
+              "MCK",
+              "DGX",
+              "COR",
+              "HCAT",
+              "ALGN",
+              "CAH",
+              "WBA",
+              "CRL",
+              "CVS",
+              "IQV",
+              "DOCS"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Cash",
+            "unit": "%",
+            "values": [
+              0,
+              20,
+              20,
+              0,
+              15,
+              18,
+              19,
+              15,
+              16,
+              11,
+              15,
+              16,
+              17,
+              12,
+              16,
+              13,
+              7
+            ]
+          },
+          {
+            "name": "Base Salary",
+            "unit": "%",
+            "values": [
+              50,
+              30,
+              25,
+              38,
+              22,
+              20,
+              17,
+              20,
+              18,
+              20,
+              18,
+              17,
+              15,
+              18,
+              15,
+              10,
+              12
+            ]
+          },
+          {
+            "name": "LTI Mix",
+            "unit": "%",
+            "values": [
+              50,
+              50,
+              55,
+              62,
+              63,
+              62,
+              64,
+              65,
+              66,
+              69,
+              67,
+              67,
+              68,
+              70,
+              69,
+              77,
+              81
+            ]
+          }
+        ],
+        "figure_id": "c53b4ee6cd6f45ce",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Compensation Mix",
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "DGX",
+              "LH"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "CEO Comp. Mix - Base Salary",
+            "unit": "%",
+            "values": [
+              9,
+              8
+            ]
+          },
+          {
+            "name": "CEO Comp. Mix - Cash",
+            "unit": "%",
+            "values": [
+              13,
+              12
+            ]
+          },
+          {
+            "name": "CEO Comp. Mix - Total LTI",
+            "unit": "%",
+            "values": [
+              78,
+              80
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Base Salary",
+            "unit": "%",
+            "values": [
+              20,
+              19
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Cash",
+            "unit": "%",
+            "values": [
+              15,
+              18
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Total LTI",
+            "unit": "%",
+            "values": [
+              65,
+              63
+            ]
+          }
+        ],
+        "figure_id": "10350ba5bc3f5b1c",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "combo",
+        "title": "Adjusted EPS accounts for most of LT compensation drivers, ST heavily weighed on AOI",
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "COR",
+              "CAH",
+              "MCK"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "CEO Comp. Mix - Base Salary",
+            "unit": "%",
+            "values": [
+              9,
+              9,
+              9
+            ]
+          },
+          {
+            "name": "CEO Comp. Mix - Cash",
+            "unit": "%",
+            "values": [
+              15,
+              16,
+              16
+            ]
+          },
+          {
+            "name": "CEO Comp. Mix - Total LTI",
+            "unit": "%",
+            "values": [
+              76,
+              75,
+              75
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Base Salary",
+            "unit": "%",
+            "values": [
+              16,
+              16,
+              17
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Cash",
+            "unit": "%",
+            "values": [
+              17,
+              16,
+              18
+            ]
+          },
+          {
+            "name": "NEO Comp. Mix - Total LTI",
+            "unit": "%",
+            "values": [
+              67,
+              68,
+              65
+            ]
+          },
+          {
+            "name": "COR - 3YR Adj. EPS CAGR",
+            "unit": "%",
+            "values": [
+              75,
+              75,
+              75,
+              75,
+              75,
+              75,
+              75
+            ]
+          },
+          {
+            "name": "COR - 3YR Avg. Annual Adj. ROIC",
+            "unit": "%",
+            "values": [
+              25,
+              25,
+              25,
+              25,
+              25,
+              25,
+              25
+            ]
+          },
+          {
+            "name": "CAH - 3YR Adj. EPS",
+            "unit": "%",
+            "values": [
+              100,
+              70,
+              70,
+              70,
+              70,
+              70,
+              70
+            ]
+          },
+          {
+            "name": "CAH - Cost Savings/OCF starting in 2025",
+            "unit": "%",
+            "values": [
+              null,
+              20,
+              20,
+              20,
+              20,
+              20,
+              20
+            ]
+          },
+          {
+            "name": "CAH - Culture Goals",
+            "unit": "%",
+            "values": [
+              null,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10
+            ]
+          },
+          {
+            "name": "MCK - 3YR Adj. EPS",
+            "unit": "%",
+            "values": [
+              75,
+              50,
+              50,
+              50,
+              50,
+              50,
+              50
+            ]
+          },
+          {
+            "name": "MCK - 3YR Avg. ROIC",
+            "unit": "%",
+            "values": [
+              null,
+              25,
+              25,
+              25,
+              25,
+              25,
+              25
+            ]
+          },
+          {
+            "name": "MCK - 3YR Relative TSR",
+            "unit": "%",
+            "values": [
+              25,
+              25,
+              25,
+              25,
+              25,
+              25,
+              25
+            ]
+          }
+        ],
+        "figure_id": "0b58b1afd84275cb",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "aff1c724a685836d",
+        "value": 0.8,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ity</td><td>NPS</td><td></td><td></td></tr><tr><td>CVS<br>WBA</td><td>—</td><td>—</td><td>—</td><td>80%<br>60%</td><td>—</td><td>—</td><td>—</td><td>10%</td><td>20%</td><td></td></tr><tr><td colspan=\"",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d52be2c234582a4a",
+        "value": 0.6,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>NPS</td><td></td><td></td></tr><tr><td>CVS<br>WBA</td><td>—</td><td>—</td><td>—</td><td>80%<br>60%</td><td>—</td><td>—</td><td>—</td><td>10%</td><td>20%</td><td></td></tr><tr><td colspan=\"10\">Dru",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "4e9ef853d6963e51",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>CVS<br>WBA</td><td>—</td><td>—</td><td>—</td><td>80%<br>60%</td><td>—</td><td>—</td><td>—</td><td>10%</td><td>20%</td><td></td></tr><tr><td colspan=\"10\">Drug Distributors</td></tr><tr><td>Company</t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "fd21a9abdba15349",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>—</td><td>—</td><td>—</td><td>80%<br>60%</td><td>—</td><td>—</td><td>—</td><td>10%</td><td>20%</td><td></td></tr><tr><td colspan=\"10\">Drug Distributors</td></tr><tr><td>Company</td><td>Revenu",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "463adcde6c282a54",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Culture Goals</td><td>Cost Savings</td><td></td><td></td></tr><tr><td>COR</td><td>—</td><td>25%</td><td>—</td><td>40%</td><td>25%</td><td>—</td><td>10%</td><td>—</td><td></td><td></td></tr><tr",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a90427938ba4bbfd",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Cost Savings</td><td></td><td></td></tr><tr><td>COR</td><td>—</td><td>25%</td><td>—</td><td>40%</td><td>25%</td><td>—</td><td>10%</td><td>—</td><td></td><td></td></tr><tr><td>CAH</td><td>—</td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "5793419df4a04cb2",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Savings</td><td></td><td></td></tr><tr><td>COR</td><td>—</td><td>25%</td><td>—</td><td>40%</td><td>25%</td><td>—</td><td>10%</td><td>—</td><td></td><td></td></tr><tr><td>CAH</td><td>—</td><td>—</td><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "800fa45a54a7a943",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td></td></tr><tr><td>COR</td><td>—</td><td>25%</td><td>—</td><td>40%</td><td>25%</td><td>—</td><td>10%</td><td>—</td><td></td><td></td></tr><tr><td>CAH</td><td>—</td><td>—</td><td>—</td><td>65%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "5cefd8ba408144ab",
+        "value": 0.65,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>10%</td><td>—</td><td></td><td></td></tr><tr><td>CAH</td><td>—</td><td>—</td><td>—</td><td>65%</td><td>15%</td><td>—</td><td>10%</td><td>—</td><td>10%</td><td></td></tr><tr><td>MCK</td><td>—<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "623ea3e76fba3a5d",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>—</td><td></td><td></td></tr><tr><td>CAH</td><td>—</td><td>—</td><td>—</td><td>65%</td><td>15%</td><td>—</td><td>10%</td><td>—</td><td>10%</td><td></td></tr><tr><td>MCK</td><td>—</td><td>50%<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "181d5256338e44ad",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td></tr><tr><td>CAH</td><td>—</td><td>—</td><td>—</td><td>65%</td><td>15%</td><td>—</td><td>10%</td><td>—</td><td>10%</td><td></td></tr><tr><td>MCK</td><td>—</td><td>50%</td><td>—</td><td>25%<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c7cc25161d8f6e2e",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>CAH</td><td>—</td><td>—</td><td>—</td><td>65%</td><td>15%</td><td>—</td><td>10%</td><td>—</td><td>10%</td><td></td></tr><tr><td>MCK</td><td>—</td><td>50%</td><td>—</td><td>25%</td><td>25%</td><td>—<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "10107c6e3dc2c41b",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>15%</td><td>—</td><td>10%</td><td>—</td><td>10%</td><td></td></tr><tr><td>MCK</td><td>—</td><td>50%</td><td>—</td><td>25%</td><td>25%</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "3cb1e48d6dded1d2",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>10%</td><td>—</td><td>10%</td><td></td></tr><tr><td>MCK</td><td>—</td><td>50%</td><td>—</td><td>25%</td><td>25%</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td colspan=\"10\">Labs<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "60be9d87bbdfce84",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>—</td><td>10%</td><td></td></tr><tr><td>MCK</td><td>—</td><td>50%</td><td>—</td><td>25%</td><td>25%</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td colspan=\"10\">Labs</td></tr><tr",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "2a03728a94863e0c",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "oyee engagement/ESG goals</td><td>COVID-19 responses</td><td></td><td></td></tr><tr><td>DGX</td><td>40%</td><td>40%</td><td>—</td><td>—</td><td>—</td><td>—</td><td>20%</td><td>—</td><td></td><td></td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "45d585faaedf33a3",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ent/ESG goals</td><td>COVID-19 responses</td><td></td><td></td></tr><tr><td>DGX</td><td>40%</td><td>40%</td><td>—</td><td>—</td><td>—</td><td>—</td><td>20%</td><td>—</td><td></td><td></td></tr><tr><td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7db4f2fafdc65b75",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td></tr><tr><td>DGX</td><td>40%</td><td>40%</td><td>—</td><td>—</td><td>—</td><td>—</td><td>20%</td><td>—</td><td></td><td></td></tr><tr><td>LH</td><td>30%</td><td>—</td><td>—</td><td>70%</td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "0dce0cd71d37d6ad",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "—</td><td>—</td><td>—</td><td>—</td><td>20%</td><td>—</td><td></td><td></td></tr><tr><td>LH</td><td>30%</td><td>—</td><td>—</td><td>70%</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td><td></td></",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c4cf724a4c099158",
+        "value": 0.7,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>20%</td><td>—</td><td></td><td></td></tr><tr><td>LH</td><td>30%</td><td>—</td><td>—</td><td>70%</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td><td></td></tr><tr><td colspan=\"10\">CROs</td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "299c34f12190424c",
+        "value": 0.52,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "dership/ESG</td><td>Operational/Strategic</td><td>Adj. EBITDA</td><td></td></tr><tr><td>CRL</td><td>52%</td><td>48%</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "51973e9c6f2d3666",
+        "value": 0.48,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Operational/Strategic</td><td>Adj. EBITDA</td><td></td></tr><tr><td>CRL</td><td>52%</td><td>48%</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "3cc016fba928b9b1",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>—</td><td></td></tr><tr><td>ICLR</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>100%</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>IQV</td><td>—</td><td>—</td><td>54%</td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "3c1a62e75b28e077",
+        "value": 0.54,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>100%</td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>IQV</td><td>—</td><td>—</td><td>54%</td><td>17%</td><td>—</td><td>—</td><td>13%</td><td>16%</td><td>—</td><td></td></tr><tr><td>FTRE",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "094bab5118a501d2",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>—</td><td>—</td><td>—</td><td></td></tr><tr><td>IQV</td><td>—</td><td>—</td><td>54%</td><td>17%</td><td>—</td><td>—</td><td>13%</td><td>16%</td><td>—</td><td></td></tr><tr><td>FTRE</td><td>50%",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "b1b49519df1dbac6",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td></tr><tr><td>IQV</td><td>—</td><td>—</td><td>54%</td><td>17%</td><td>—</td><td>—</td><td>13%</td><td>16%</td><td>—</td><td></td></tr><tr><td>FTRE</td><td>50%</td><td>—</td><td>—</td><td>—</",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "5e6b57f038bb719a",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>IQV</td><td>—</td><td>—</td><td>54%</td><td>17%</td><td>—</td><td>—</td><td>13%</td><td>16%</td><td>—</td><td></td></tr><tr><td>FTRE</td><td>50%</td><td>—</td><td>—</td><td>—</td><td>—</td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d8240452fb06b08a",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>17%</td><td>—</td><td>—</td><td>13%</td><td>16%</td><td>—</td><td></td></tr><tr><td>FTRE</td><td>50%</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>50%</td><td></td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "429824753834e9cd",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>FTRE</td><td>50%</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>50%</td><td></td></tr><tr><td colspan=\"10\">Dental</td></tr><tr><td>Company</td><td>Revenue</td><td>O",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "49d9fffe7fca8589",
+        "value": 0.6,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Goals</td><td>Strategic Scorecard Goals</td><td>FCF</td><td></td><td></td></tr><tr><td>ALGN</td><td>60%</td><td>40%</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td><td></td></",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e50955e41c3528d8",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Strategic Scorecard Goals</td><td>FCF</td><td></td><td></td></tr><tr><td>ALGN</td><td>60%</td><td>40%</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td><td></td></tr><tr><td>N",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7715db37f7d72d60",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td><td></td></tr><tr><td>NVST</td><td>50%</td><td>—</td><td>—</td><td>40%</td><td>10%</td><td>—</td><td>—</td><td>—</td><td></td><td></td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "947916ef50e48ad2",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>—</td><td>—</td><td></td><td></td></tr><tr><td>NVST</td><td>50%</td><td>—</td><td>—</td><td>40%</td><td>10%</td><td>—</td><td>—</td><td>—</td><td></td><td></td></tr><tr><td>XRAY</td><td>50%</t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "0233da7c5906da16",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>—</td><td></td><td></td></tr><tr><td>NVST</td><td>50%</td><td>—</td><td>—</td><td>40%</td><td>10%</td><td>—</td><td>—</td><td>—</td><td></td><td></td></tr><tr><td>XRAY</td><td>50%</td><td>—</td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ab0617ad166725f4",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>40%</td><td>10%</td><td>—</td><td>—</td><td>—</td><td></td><td></td></tr><tr><td>XRAY</td><td>50%</td><td>—</td><td>—</td><td>50%</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td><td></td></",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a94d84f1d7e51ed3",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>—</td><td>—</td><td></td><td></td></tr><tr><td>XRAY</td><td>50%</td><td>—</td><td>—</td><td>50%</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td><td></td></tr><tr><td>HSIC</td><td>—</td><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "0dce0cd71d37d6ad",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "—</td><td>—</td><td>—</td><td>—</td><td></td><td></td></tr><tr><td>HSIC</td><td>—</td><td>—</td><td>30%</td><td>—</td><td>—</td><td>40%</td><td>30%</td><td>—</td><td></td><td></td></tr><tr><td colspan",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c33e33b19102314f",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td><td></td></tr><tr><td>HSIC</td><td>—</td><td>—</td><td>30%</td><td>—</td><td>—</td><td>40%</td><td>30%</td><td>—</td><td></td><td></td></tr><tr><td colspan=\"10\">HIT</td></tr><tr><td>Compa",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e3320ac1406d567c",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td></tr><tr><td>HSIC</td><td>—</td><td>—</td><td>30%</td><td>—</td><td>—</td><td>40%</td><td>30%</td><td>—</td><td></td><td></td></tr><tr><td colspan=\"10\">HIT</td></tr><tr><td>Company</td><td>R",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "094c852285567935",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "al</td><td></td><td></td></tr><tr><td>WAY</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>25%</td><td>75%</td><td>5%</td><td></td><td></td></tr></table> Source: Company Filings EVERCORE ISI<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "fc92b2a68bc50fc7",
+        "value": 0.75,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td></tr><tr><td>WAY</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>25%</td><td>75%</td><td>5%</td><td></td><td></td></tr></table> Source: Company Filings EVERCORE ISI<｜end▁of▁sent",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "66c5c61405808959",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>WAY</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>25%</td><td>75%</td><td>5%</td><td></td><td></td></tr></table> Source: Company Filings EVERCORE ISI<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "335f2372a6c14207",
+        "value": 0.642,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".85</td><td>$9.73-9.93</td><td>$10.81</td><td>$7.16</td><td>$7.80</td></tr><tr><td>% Growth</td><td>64.2%</td><td>82.5%</td><td>100.7%</td><td>15.7%</td><td>16.4%</td><td>(1.7%)</td><td>(1.7%)</td><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "83c3790685ccb0cb",
+        "value": 0.825,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".73-9.93</td><td>$10.81</td><td>$7.16</td><td>$7.80</td></tr><tr><td>% Growth</td><td>64.2%</td><td>82.5%</td><td>100.7%</td><td>15.7%</td><td>16.4%</td><td>(1.7%)</td><td>(1.7%)</td><td>(1.7%)</td><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d00f747f35053652",
+        "value": 1.0070000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>$10.81</td><td>$7.16</td><td>$7.80</td></tr><tr><td>% Growth</td><td>64.2%</td><td>82.5%</td><td>100.7%</td><td>15.7%</td><td>16.4%</td><td>(1.7%)</td><td>(1.7%)</td><td>(1.7%)</td><td>12.9%</td><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "85d04667fb199f66",
+        "value": 0.157,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>$7.16</td><td>$7.80</td></tr><tr><td>% Growth</td><td>64.2%</td><td>82.5%</td><td>100.7%</td><td>15.7%</td><td>16.4%</td><td>(1.7%)</td><td>(1.7%)</td><td>(1.7%)</td><td>12.9%</td><td>22.3%</td></t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "315030c33f1de194",
+        "value": 0.16399999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>$7.80</td></tr><tr><td>% Growth</td><td>64.2%</td><td>82.5%</td><td>100.7%</td><td>15.7%</td><td>16.4%</td><td>(1.7%)</td><td>(1.7%)</td><td>(1.7%)</td><td>12.9%</td><td>22.3%</td></tr><tr><td rows",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c4bdda461800ce38",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>% Growth</td><td>64.2%</td><td>82.5%</td><td>100.7%</td><td>15.7%</td><td>16.4%</td><td>(1.7%)</td><td>(1.7%)</td><td>(1.7%)</td><td>12.9%</td><td>22.3%</td></tr><tr><td rowspan=\"2\">IQV</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6cb2aed98e6543f9",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "owth</td><td>64.2%</td><td>82.5%</td><td>100.7%</td><td>15.7%</td><td>16.4%</td><td>(1.7%)</td><td>(1.7%)</td><td>(1.7%)</td><td>12.9%</td><td>22.3%</td></tr><tr><td rowspan=\"2\">IQV</td><td>Adj. EPS</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "7767a1634c517ae5",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".2%</td><td>82.5%</td><td>100.7%</td><td>15.7%</td><td>16.4%</td><td>(1.7%)</td><td>(1.7%)</td><td>(1.7%)</td><td>12.9%</td><td>22.3%</td></tr><tr><td rowspan=\"2\">IQV</td><td>Adj. EPS</td><td>$11.82</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e51a3c7ddaa0a7ac",
+        "value": 0.129,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".5%</td><td>100.7%</td><td>15.7%</td><td>16.4%</td><td>(1.7%)</td><td>(1.7%)</td><td>(1.7%)</td><td>12.9%</td><td>22.3%</td></tr><tr><td rowspan=\"2\">IQV</td><td>Adj. EPS</td><td>$11.82</td><td>$12.24<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d9224a138ff19ae3",
+        "value": 0.223,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0.7%</td><td>15.7%</td><td>16.4%</td><td>(1.7%)</td><td>(1.7%)</td><td>(1.7%)</td><td>12.9%</td><td>22.3%</td></tr><tr><td rowspan=\"2\">IQV</td><td>Adj. EPS</td><td>$11.82</td><td>$12.24</td><td>$12.64",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "1589e3d46020249b",
+        "value": 0.062,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "12.55</td><td>$13.47</td><td>$14.36</td><td>$12.88</td><td>$12.96</td></tr><tr><td>% Growth</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>6.6%</td><td>16.6%</td><td>6.2%</td><td>10.0%</td><td>13.6%",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b12560b82efdc4a8",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">$13.47</td><td>$14.36</td><td>$12.88</td><td>$12.96</td></tr><tr><td>% Growth</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>6.6%</td><td>16.6%</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>8.5%",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "0b8e065360ab713e",
+        "value": 0.136,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>$14.36</td><td>$12.88</td><td>$12.96</td></tr><tr><td>% Growth</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>6.6%</td><td>16.6%</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>8.5%</td><td>9.0%<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "398434b011b5f4a1",
+        "value": 0.066,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>$12.88</td><td>$12.96</td></tr><tr><td>% Growth</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>6.6%</td><td>16.6%</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>8.5%</td><td>9.0%</td></tr></tab",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4c917d52729c7466",
+        "value": 0.166,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>$12.96</td></tr><tr><td>% Growth</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>6.6%</td><td>16.6%</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>8.5%</td><td>9.0%</td></tr></table> All PSUs ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b4cccb98b71317be",
+        "value": 0.062,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>% Growth</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>6.6%</td><td>16.6%</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>8.5%</td><td>9.0%</td></tr></table> All PSUs Follow 3-Year ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "48c8d8ea34213ce7",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>% Growth</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>6.6%</td><td>16.6%</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>8.5%</td><td>9.0%</td></tr></table> All PSUs Follow 3-Year Cliff Vesting",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "915f979bb2d83e9f",
+        "value": 0.136,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>6.6%</td><td>16.6%</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>8.5%</td><td>9.0%</td></tr></table> All PSUs Follow 3-Year Cliff Vesting Source: Compa",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3ce2e7c59b37e35b",
+        "value": 0.085,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>10.0%</td><td>13.6%</td><td>6.6%</td><td>16.6%</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>8.5%</td><td>9.0%</td></tr></table> All PSUs Follow 3-Year Cliff Vesting Source: Company Filings<｜en",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4b879f1c98f913b4",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>13.6%</td><td>6.6%</td><td>16.6%</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>8.5%</td><td>9.0%</td></tr></table> All PSUs Follow 3-Year Cliff Vesting Source: Company Filings<｜end▁of▁sentence",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ee4e8fab9d2d48d0",
+        "value": 9.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "mum</td><td>St. Estimates</td><td>EVRISLE</td></tr><tr><td rowspan=\"2\">CVS</td><td>Adj. EPS</td><td>$9.00</td><td>$9.90-$10.10</td><td>$11.00</td><td>$6.34</td><td>$6.38</td><td>$8.85</td><td>$9.73-9.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5057df693e82d5e8",
+        "value": 9.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ". Estimates</td><td>EVRISLE</td></tr><tr><td rowspan=\"2\">CVS</td><td>Adj. EPS</td><td>$9.00</td><td>$9.90-$10.10</td><td>$11.00</td><td>$6.34</td><td>$6.38</td><td>$8.85</td><td>$9.73-9.93</td><td>$10",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ee7e77e78922c405",
+        "value": 10.1,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "mates</td><td>EVRISLE</td></tr><tr><td rowspan=\"2\">CVS</td><td>Adj. EPS</td><td>$9.00</td><td>$9.90-$10.10</td><td>$11.00</td><td>$6.34</td><td>$6.38</td><td>$8.85</td><td>$9.73-9.93</td><td>$10.81</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "114d8d7ec43f7258",
+        "value": 11.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "VRISLE</td></tr><tr><td rowspan=\"2\">CVS</td><td>Adj. EPS</td><td>$9.00</td><td>$9.90-$10.10</td><td>$11.00</td><td>$6.34</td><td>$6.38</td><td>$8.85</td><td>$9.73-9.93</td><td>$10.81</td><td>$7.16</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5ce499b9110f1d6e",
+        "value": 6.34,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><tr><td rowspan=\"2\">CVS</td><td>Adj. EPS</td><td>$9.00</td><td>$9.90-$10.10</td><td>$11.00</td><td>$6.34</td><td>$6.38</td><td>$8.85</td><td>$9.73-9.93</td><td>$10.81</td><td>$7.16</td><td>$7.80</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "515b100fdad35f67",
+        "value": 6.38,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "an=\"2\">CVS</td><td>Adj. EPS</td><td>$9.00</td><td>$9.90-$10.10</td><td>$11.00</td><td>$6.34</td><td>$6.38</td><td>$8.85</td><td>$9.73-9.93</td><td>$10.81</td><td>$7.16</td><td>$7.80</td></tr><tr><td>%",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3ec57b827ff7cf99",
+        "value": 8.85,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>Adj. EPS</td><td>$9.00</td><td>$9.90-$10.10</td><td>$11.00</td><td>$6.34</td><td>$6.38</td><td>$8.85</td><td>$9.73-9.93</td><td>$10.81</td><td>$7.16</td><td>$7.80</td></tr><tr><td>% Growth</td><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f7e97019f4ff69d2",
+        "value": 9.73,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>$9.00</td><td>$9.90-$10.10</td><td>$11.00</td><td>$6.34</td><td>$6.38</td><td>$8.85</td><td>$9.73-9.93</td><td>$10.81</td><td>$7.16</td><td>$7.80</td></tr><tr><td>% Growth</td><td>64.2%</td><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "9aac0347f0dbfdb7",
+        "value": 10.81,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$9.90-$10.10</td><td>$11.00</td><td>$6.34</td><td>$6.38</td><td>$8.85</td><td>$9.73-9.93</td><td>$10.81</td><td>$7.16</td><td>$7.80</td></tr><tr><td>% Growth</td><td>64.2%</td><td>82.5%</td><td>100",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c9c65f16f6b751c8",
+        "value": 7.16,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$11.00</td><td>$6.34</td><td>$6.38</td><td>$8.85</td><td>$9.73-9.93</td><td>$10.81</td><td>$7.16</td><td>$7.80</td></tr><tr><td>% Growth</td><td>64.2%</td><td>82.5%</td><td>100.7%</td><td>15.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "09147a972bbe9e29",
+        "value": 7.8,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "0</td><td>$6.34</td><td>$6.38</td><td>$8.85</td><td>$9.73-9.93</td><td>$10.81</td><td>$7.16</td><td>$7.80</td></tr><tr><td>% Growth</td><td>64.2%</td><td>82.5%</td><td>100.7%</td><td>15.7%</td><td>16.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d38629ca85cfe306",
+        "value": 11.82,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>(1.7%)</td><td>12.9%</td><td>22.3%</td></tr><tr><td rowspan=\"2\">IQV</td><td>Adj. EPS</td><td>$11.82</td><td>$12.24</td><td>$12.64</td><td>$11.87</td><td>$11.89</td><td>$12.55</td><td>$13.47</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f3bf65b89eb60321",
+        "value": 12.24,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>12.9%</td><td>22.3%</td></tr><tr><td rowspan=\"2\">IQV</td><td>Adj. EPS</td><td>$11.82</td><td>$12.24</td><td>$12.64</td><td>$11.87</td><td>$11.89</td><td>$12.55</td><td>$13.47</td><td>$14.36</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "7302929f8a073227",
+        "value": 12.64,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>22.3%</td></tr><tr><td rowspan=\"2\">IQV</td><td>Adj. EPS</td><td>$11.82</td><td>$12.24</td><td>$12.64</td><td>$11.87</td><td>$11.89</td><td>$12.55</td><td>$13.47</td><td>$14.36</td><td>$12.88</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3ee6e11f9d1f95ac",
+        "value": 11.87,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "></tr><tr><td rowspan=\"2\">IQV</td><td>Adj. EPS</td><td>$11.82</td><td>$12.24</td><td>$12.64</td><td>$11.87</td><td>$11.89</td><td>$12.55</td><td>$13.47</td><td>$14.36</td><td>$12.88</td><td>$12.96</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "04787bfa1616e4b4",
+        "value": 11.89,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "owspan=\"2\">IQV</td><td>Adj. EPS</td><td>$11.82</td><td>$12.24</td><td>$12.64</td><td>$11.87</td><td>$11.89</td><td>$12.55</td><td>$13.47</td><td>$14.36</td><td>$12.88</td><td>$12.96</td></tr><tr><td>%",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "66ef34b13ef8c012",
+        "value": 12.55,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>Adj. EPS</td><td>$11.82</td><td>$12.24</td><td>$12.64</td><td>$11.87</td><td>$11.89</td><td>$12.55</td><td>$13.47</td><td>$14.36</td><td>$12.88</td><td>$12.96</td></tr><tr><td>% Growth</td><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2367a8f4239f48c9",
+        "value": 13.47,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "S</td><td>$11.82</td><td>$12.24</td><td>$12.64</td><td>$11.87</td><td>$11.89</td><td>$12.55</td><td>$13.47</td><td>$14.36</td><td>$12.88</td><td>$12.96</td></tr><tr><td>% Growth</td><td>6.2%</td><td>1",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5a637ffb26456b7a",
+        "value": 14.36,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "2</td><td>$12.24</td><td>$12.64</td><td>$11.87</td><td>$11.89</td><td>$12.55</td><td>$13.47</td><td>$14.36</td><td>$12.88</td><td>$12.96</td></tr><tr><td>% Growth</td><td>6.2%</td><td>10.0%</td><td>13",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "661379f0506bff67",
+        "value": 12.88,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "4</td><td>$12.64</td><td>$11.87</td><td>$11.89</td><td>$12.55</td><td>$13.47</td><td>$14.36</td><td>$12.88</td><td>$12.96</td></tr><tr><td>% Growth</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>6.6",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "957aee874baa3f6f",
+        "value": 12.96,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "4</td><td>$11.87</td><td>$11.89</td><td>$12.55</td><td>$13.47</td><td>$14.36</td><td>$12.88</td><td>$12.96</td></tr><tr><td>% Growth</td><td>6.2%</td><td>10.0%</td><td>13.6%</td><td>6.6%</td><td>16.6%",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b390da5de0afd7c0",
+        "value": 0.75,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "## Long-Term Comp Is >75% of CVS Executive Compensation and Is EPS-Driven # LT incentives are primarily driven by EPS and in",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "38e317d929c6c934",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "23</td><td>2024</td><td>2025</td><td></td></tr><tr><td rowspan=\"5\">CVS</td><td>YR3 Adj. EPS</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>70%</td><td>70%</td><td></td></tr><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "1c5d8847c7ce51dc",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "24</td><td>2025</td><td></td></tr><tr><td rowspan=\"5\">CVS</td><td>YR3 Adj. EPS</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>70%</td><td>70%</td><td></td></tr><tr><td>Percen",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "55c7d519df967bba",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "25</td><td></td></tr><tr><td rowspan=\"5\">CVS</td><td>YR3 Adj. EPS</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>70%</td><td>70%</td><td></td></tr><tr><td>Percentage of Medic",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "d5f263eb9e4234f1",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td rowspan=\"5\">CVS</td><td>YR3 Adj. EPS</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>70%</td><td>70%</td><td></td></tr><tr><td>Percentage of Medicare members i",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "962f4f19ca27591f",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td rowspan=\"5\">CVS</td><td>YR3 Adj. EPS</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>70%</td><td>70%</td><td></td></tr><tr><td>Percentage of Medicare members in 4+ Star-rat",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "de1cb956df6b68a9",
+        "value": 0.7,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "\">CVS</td><td>YR3 Adj. EPS</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>70%</td><td>70%</td><td></td></tr><tr><td>Percentage of Medicare members in 4+ Star-rated plans</td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "30d7fa734790dc0b",
+        "value": 0.7,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>YR3 Adj. EPS</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>70%</td><td>70%</td><td></td></tr><tr><td>Percentage of Medicare members in 4+ Star-rated plans</td><td>—</td><t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "faa657e5c1a788d4",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "f Medicare members in 4+ Star-rated plans</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>10%</td><td>10%</td><td></td></tr><tr><td>Percentage of Commercial members on CVS Cost/Vantage</td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "522c1ba99f2336da",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "embers in 4+ Star-rated plans</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>10%</td><td>10%</td><td></td></tr><tr><td>Percentage of Commercial members on CVS Cost/Vantage</td><td>—</td><td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "e3f24ffb1b8657ad",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "of Commercial members on CVS Cost/Vantage</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>10%</td><td>10%</td><td></td></tr><tr><td>Percentage of unique customers with 2+ CVS Health offering",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "7f636e1919bed793",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "l members on CVS Cost/Vantage</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>10%</td><td>10%</td><td></td></tr><tr><td>Percentage of unique customers with 2+ CVS Health offerings</td><td>—<",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "3d8dbd2723dd5929",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ue customers with 2+ CVS Health offerings</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>10%</td><td>10%</td><td></td></tr></table> Source: Company Filings All PSUs Follow 3-Year Cliff Vest",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f4c596fa2de20a68",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "with 2+ CVS Health offerings</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>10%</td><td>10%</td><td></td></tr></table> Source: Company Filings All PSUs Follow 3-Year Cliff Vesting<｜end▁of▁s",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f885c173f119441c",
+        "value": -0.8,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "# 60-80% of Labs Execs' Compensation Is Based on Long-Term Incentives # LT targets weighed towards revenue",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "b6735d46e0f36307",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>2023</td><td>2024</td><td>2025</td></tr><tr><td rowspan=\"6\">DGX</td><td>3YR Revenue CAGR</td><td>50%</td><td>50%</td><td>35%</td><td>35%</td><td>50%</td><td>50%</td><td>—</td></tr><tr><td>3YR Avera",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "f51736f9d516924a",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>2024</td><td>2025</td></tr><tr><td rowspan=\"6\">DGX</td><td>3YR Revenue CAGR</td><td>50%</td><td>50%</td><td>35%</td><td>35%</td><td>50%</td><td>50%</td><td>—</td></tr><tr><td>3YR Average ROIC</td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "03c32a4c6ee19206",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>2025</td></tr><tr><td rowspan=\"6\">DGX</td><td>3YR Revenue CAGR</td><td>50%</td><td>50%</td><td>35%</td><td>35%</td><td>50%</td><td>50%</td><td>—</td></tr><tr><td>3YR Average ROIC</td><td>50%</td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "4beb50d12a36db10",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td rowspan=\"6\">DGX</td><td>3YR Revenue CAGR</td><td>50%</td><td>50%</td><td>35%</td><td>35%</td><td>50%</td><td>50%</td><td>—</td></tr><tr><td>3YR Average ROIC</td><td>50%</td><td>50%</td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "425bf1eaa2f18f27",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td rowspan=\"6\">DGX</td><td>3YR Revenue CAGR</td><td>50%</td><td>50%</td><td>35%</td><td>35%</td><td>50%</td><td>50%</td><td>—</td></tr><tr><td>3YR Average ROIC</td><td>50%</td><td>50%</td><td>30%</td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "1d9df106dfb7b0cd",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6\">DGX</td><td>3YR Revenue CAGR</td><td>50%</td><td>50%</td><td>35%</td><td>35%</td><td>50%</td><td>50%</td><td>—</td></tr><tr><td>3YR Average ROIC</td><td>50%</td><td>50%</td><td>30%</td><td>30%</td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "62f37d3dc43fe347",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>35%</td><td>35%</td><td>50%</td><td>50%</td><td>—</td></tr><tr><td>3YR Average ROIC</td><td>50%</td><td>50%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>—</td></tr><tr><td>3YR Relat",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "4a9af6d66a251637",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>35%</td><td>50%</td><td>50%</td><td>—</td></tr><tr><td>3YR Average ROIC</td><td>50%</td><td>50%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>—</td></tr><tr><td>3YR Relative TSR</td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "739c3ece101fa7c0",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>50%</td><td>50%</td><td>—</td></tr><tr><td>3YR Average ROIC</td><td>50%</td><td>50%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>—</td></tr><tr><td>3YR Relative TSR</td><td>—</td><t",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "a368891b16efeb0c",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>50%</td><td>—</td></tr><tr><td>3YR Average ROIC</td><td>50%</td><td>50%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>—</td></tr><tr><td>3YR Relative TSR</td><td>—</td><td>—</td><td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "d6ae3183e7e97310",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>—</td></tr><tr><td>3YR Average ROIC</td><td>50%</td><td>50%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>—</td></tr><tr><td>3YR Relative TSR</td><td>—</td><td>—</td><td>20%</td><td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "458a92bd80ccfe56",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>3YR Average ROIC</td><td>50%</td><td>50%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>—</td></tr><tr><td>3YR Relative TSR</td><td>—</td><td>—</td><td>20%</td><td>20%</td><td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "5cfe6f3aa845e5af",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "30%</td><td>30%</td><td>30%</td><td>—</td></tr><tr><td>3YR Relative TSR</td><td>—</td><td>—</td><td>20%</td><td>20%</td><td>20%</td><td>20%</td><td>—</td></tr><tr><td>3YR Cumulative COVID Revenue</td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "3958465753d60cd9",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "30%</td><td>30%</td><td>—</td></tr><tr><td>3YR Relative TSR</td><td>—</td><td>—</td><td>20%</td><td>20%</td><td>20%</td><td>20%</td><td>—</td></tr><tr><td>3YR Cumulative COVID Revenue</td><td>—</td><t",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "bb096f8f28917f86",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "30%</td><td>—</td></tr><tr><td>3YR Relative TSR</td><td>—</td><td>—</td><td>20%</td><td>20%</td><td>20%</td><td>20%</td><td>—</td></tr><tr><td>3YR Cumulative COVID Revenue</td><td>—</td><td>—</td><td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "5eaa42dac9a08e3f",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "—</td></tr><tr><td>3YR Relative TSR</td><td>—</td><td>—</td><td>20%</td><td>20%</td><td>20%</td><td>20%</td><td>—</td></tr><tr><td>3YR Cumulative COVID Revenue</td><td>—</td><td>—</td><td>15%</td><td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "789c95c09c546ab2",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "20%</td><td>20%</td><td>—</td></tr><tr><td>3YR Cumulative COVID Revenue</td><td>—</td><td>—</td><td>15%</td><td>15%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Revenues</td><td>—</td><td>—</td><td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "f831506d7fd76ce1",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "20%</td><td>—</td></tr><tr><td>3YR Cumulative COVID Revenue</td><td>—</td><td>—</td><td>15%</td><td>15%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Revenues</td><td>—</td><td>—</td><td>—</td><td>—<",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "7ee9771fa65fce98",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>—</td></tr><tr><td>Revenues</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>35%</td></tr><tr><td>Adjusted Diluted EPS</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "71b645ba03254853",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>Adjusted Diluted EPS</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>45%</td></tr><tr><td rowspan=\"2\">LH</td><td>3YR EPS</td><td>70%</td><td>70%</td><td>70%</td><td>70%<",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "a8dc50c5e1ed710f",
+        "value": 0.7,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "—</td><td>—</td><td>—</td><td>—</td><td>45%</td></tr><tr><td rowspan=\"2\">LH</td><td>3YR EPS</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70</td><td>70%</td></tr><tr><td>3YR Reve",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "5689a56e3b92a19f",
+        "value": 0.7,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>—</td><td>—</td><td>45%</td></tr><tr><td rowspan=\"2\">LH</td><td>3YR EPS</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70</td><td>70%</td></tr><tr><td>3YR Revenue</td><td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "5cd4e47b1d70e10c",
+        "value": 0.7,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>—</td><td>45%</td></tr><tr><td rowspan=\"2\">LH</td><td>3YR EPS</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70</td><td>70%</td></tr><tr><td>3YR Revenue</td><td>30%</td><td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "0f4efd88643cab11",
+        "value": 0.7,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>45%</td></tr><tr><td rowspan=\"2\">LH</td><td>3YR EPS</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70</td><td>70%</td></tr><tr><td>3YR Revenue</td><td>30%</td><td>30%</td><td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "03bbdeddfbf840a6",
+        "value": 0.7,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td rowspan=\"2\">LH</td><td>3YR EPS</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70</td><td>70%</td></tr><tr><td>3YR Revenue</td><td>30%</td><td>30%</td><td>30%</td><td>",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "b2cd6d77e0d7683a",
+        "value": 0.7,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "\">LH</td><td>3YR EPS</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70</td><td>70%</td></tr><tr><td>3YR Revenue</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "2da2e43bcb4e6191",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "70%</td><td>70%</td><td>70%</td><td>70%</td><td>70</td><td>70%</td></tr><tr><td>3YR Revenue</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30</td><td>30%</td></tr></table> Source:",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "2da2e43bcb4e6191",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "70%</td><td>70%</td><td>70%</td><td>70</td><td>70%</td></tr><tr><td>3YR Revenue</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30</td><td>30%</td></tr></table> Source: Company Fil",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "2bc18a4022e74f64",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "70%</td><td>70%</td><td>70</td><td>70%</td></tr><tr><td>3YR Revenue</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30</td><td>30%</td></tr></table> Source: Company Filings All PSU",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "e3370ad566daa71e",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "70%</td><td>70</td><td>70%</td></tr><tr><td>3YR Revenue</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30</td><td>30%</td></tr></table> Source: Company Filings All PSUs Follow 3-Y",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "9f88f4954db1bc60",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "70</td><td>70%</td></tr><tr><td>3YR Revenue</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30</td><td>30%</td></tr></table> Source: Company Filings All PSUs Follow 3-Year Cliff Ve",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "70c59f1922c282df",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>3YR Revenue</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30%</td><td>30</td><td>30%</td></tr></table> Source: Company Filings All PSUs Follow 3-Year Cliff Vesting<｜end▁of▁sentence｜",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "86d5659026046134",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ver of long-term executive compensation CRL Balances revenue/op income ST targets with longer-term 100% comp focused on EPS growth & TSR ICLR Compensation mix for performance metrics were not disclose",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "54c65840023a3556",
+        "value": 0.75,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "sation mix for performance metrics were not disclosed entirely, ST is largely focused on individual 75% performance ratings LT comp has a years of service component IQV ST incentives target Revenue/Pr",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "2f56d4e95bfb0b6d",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "3</td><td>2024</td><td>2025</td><td></td></tr><tr><td rowspan=\"2\">CRL</td><td>YR1 Adj. EPS*</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "49f85918449dca28",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4</td><td>2025</td><td></td></tr><tr><td rowspan=\"2\">CRL</td><td>YR1 Adj. EPS*</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr><tr><td>3YR R",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "6c3da3836572750f",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5</td><td></td></tr><tr><td rowspan=\"2\">CRL</td><td>YR1 Adj. EPS*</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr><tr><td>3YR Relative TSR*<",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "f8913a9eaa6f66fb",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td rowspan=\"2\">CRL</td><td>YR1 Adj. EPS*</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr><tr><td>3YR Relative TSR*</td><td>100%<",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "e8d8a6b388c686d4",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d rowspan=\"2\">CRL</td><td>YR1 Adj. EPS*</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr><tr><td>3YR Relative TSR*</td><td>100%</td><td>100%<",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "94f578ec5c2c57f5",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">YR1 Adj. EPS*</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr><tr><td>3YR Relative TSR*</td><td>100%</td><td>100%</td><td>100%</td><td>100%",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "765a682a9bc6d48a",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr><tr><td>3YR Relative TSR*</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "759908cb24c78e06",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>100%</td><td>100</td><td>100%</td><td></td></tr><tr><td>3YR Relative TSR*</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr><tr><td rowsp",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "80a399331893650b",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>100</td><td>100%</td><td></td></tr><tr><td>3YR Relative TSR*</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr><tr><td rowspan=\"2\">ICLR</",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "4229c428e8798f68",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>100%</td><td></td></tr><tr><td>3YR Relative TSR*</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr><tr><td rowspan=\"2\">ICLR</td><td>3YR Ad",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "4d0838ee63f45f35",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td></td></tr><tr><td>3YR Relative TSR*</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr><tr><td rowspan=\"2\">ICLR</td><td>3YR Adj. EPS</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "94cdb5039188ea59",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Relative TSR*</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>100</td><td>100%</td><td></td></tr><tr><td rowspan=\"2\">ICLR</td><td>3YR Adj. EPS</td><td>—</td><td>—</td><td>—</t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "4f89dfda6de6e98a",
+        "value": 0.75,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">—</td><td>—</td><td></td><td></td></tr><tr><td rowspan=\"2\">IQV</td><td>3YR Adj. EPS Growth</td><td>75%</td><td>75%</td><td>75%</td><td>75%</td><td>75%</td><td>75</td><td>75%</td><td></td></tr><tr><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "1bc7eadb77ce3e30",
+        "value": 0.75,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td><td></td></tr><tr><td rowspan=\"2\">IQV</td><td>3YR Adj. EPS Growth</td><td>75%</td><td>75%</td><td>75%</td><td>75%</td><td>75%</td><td>75</td><td>75%</td><td></td></tr><tr><td>3YR Relativ",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "f4eda5d7d338a1d9",
+        "value": 0.75,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td></tr><tr><td rowspan=\"2\">IQV</td><td>3YR Adj. EPS Growth</td><td>75%</td><td>75%</td><td>75%</td><td>75%</td><td>75%</td><td>75</td><td>75%</td><td></td></tr><tr><td>3YR Relative TSR</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "e7536007ab184248",
+        "value": 0.75,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td rowspan=\"2\">IQV</td><td>3YR Adj. EPS Growth</td><td>75%</td><td>75%</td><td>75%</td><td>75%</td><td>75%</td><td>75</td><td>75%</td><td></td></tr><tr><td>3YR Relative TSR</td><td>25%</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "3b0f5b6f640db8e9",
+        "value": 0.75,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rowspan=\"2\">IQV</td><td>3YR Adj. EPS Growth</td><td>75%</td><td>75%</td><td>75%</td><td>75%</td><td>75%</td><td>75</td><td>75%</td><td></td></tr><tr><td>3YR Relative TSR</td><td>25%</td><td>25%</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "5669efc10a8ca747",
+        "value": 0.75,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">3YR Adj. EPS Growth</td><td>75%</td><td>75%</td><td>75%</td><td>75%</td><td>75%</td><td>75</td><td>75%</td><td></td></tr><tr><td>3YR Relative TSR</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "cf7677b7151842bb",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>75%</td><td>75%</td><td>75</td><td>75%</td><td></td></tr><tr><td>3YR Relative TSR</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><td>25</td><td>25%</td><td></td></tr><tr><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "198cd53cf8bc2d14",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>75%</td><td>75</td><td>75%</td><td></td></tr><tr><td>3YR Relative TSR</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><td>25</td><td>25%</td><td></td></tr><tr><td rowspan=\"2\"",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "3c0cb7f569f54fd2",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>75</td><td>75%</td><td></td></tr><tr><td>3YR Relative TSR</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><td>25</td><td>25%</td><td></td></tr><tr><td rowspan=\"2\">FTRE</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "cdeff01ff086b173",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>75%</td><td></td></tr><tr><td>3YR Relative TSR</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><td>25</td><td>25%</td><td></td></tr><tr><td rowspan=\"2\">FTRE</td><td>3YR Adjust",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "a5edab9c0e26104a",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td></tr><tr><td>3YR Relative TSR</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><td>25</td><td>25%</td><td></td></tr><tr><td rowspan=\"2\">FTRE</td><td>3YR Adjusted EBITDA Ma",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "a77c7629e527999a",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>3YR Relative TSR</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><td>25%</td><td>25</td><td>25%</td><td></td></tr><tr><td rowspan=\"2\">FTRE</td><td>3YR Adjusted EBITDA Margin</td><td>—</td><td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "84e949429511d3c6",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "\">FTRE</td><td>3YR Adjusted EBITDA Margin</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>40%</td><td>40%</td><td></td></tr><tr><td>3YR Revenue Growth</td><td>—</td><td>—</td><td>—</td><td>—",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "b710b82ef44b4698",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>3YR Adjusted EBITDA Margin</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>40%</td><td>40%</td><td></td></tr><tr><td>3YR Revenue Growth</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "b8147b11ec612ebe",
+        "value": 0.6,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td></tr><tr><td>3YR Revenue Growth</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>60%</td><td>60%</td><td></td></tr></table> Factor, not a weight Source: Company Filings EVERCORE ISI",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "d9e33b8430f46857",
+        "value": 0.6,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>3YR Revenue Growth</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>60%</td><td>60%</td><td></td></tr></table> Factor, not a weight Source: Company Filings EVERCORE ISI<｜end▁of▁sen",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "fe23e81e1d82b627",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td rowspan=\"2\">DOCS</td><td>Total Revenue</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>50.0%</td><td>50.0%</td></tr><tr><td>Adj. EBITDA</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "5574b7f5f2af176f",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">DOCS</td><td>Total Revenue</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>50.0%</td><td>50.0%</td></tr><tr><td>Adj. EBITDA</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>50.0%</",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "61438319f67a53ab",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>50.0%</td></tr><tr><td>Adj. EBITDA</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>50.0%</td><td>50.0%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "66a8e84ff926c3bc",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>Adj. EBITDA</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>50.0%</td><td>50.0%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "3469363909a81337",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td><td></td><td></td><td></td></tr><tr><td>DGX</td><td>Revenue CAGR 3YR Avg. ROIC</td><td>3.0% 9.2%</td><td>2.9% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 1",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "b9c1c05e9b2a23ca",
+        "value": 0.092,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></td><td></td><td></td><td></td></tr><tr><td>DGX</td><td>Revenue CAGR 3YR Avg. ROIC</td><td>3.0% 9.2%</td><td>2.9% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%<",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "d800ae9a8021c03c",
+        "value": 0.028999999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td><td></td></tr><tr><td>DGX</td><td>Revenue CAGR 3YR Avg. ROIC</td><td>3.0% 9.2%</td><td>2.9% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "078c79aff1aec5af",
+        "value": 0.08800000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></td><td></td></tr><tr><td>DGX</td><td>Revenue CAGR 3YR Avg. ROIC</td><td>3.0% 9.2%</td><td>2.9% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6%",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "c0e72603cbe71210",
+        "value": 0.036000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>DGX</td><td>Revenue CAGR 3YR Avg. ROIC</td><td>3.0% 9.2%</td><td>2.9% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "697753263da7eeef",
+        "value": 0.113,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>DGX</td><td>Revenue CAGR 3YR Avg. ROIC</td><td>3.0% 9.2%</td><td>2.9% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "8406204ec878c8f3",
+        "value": 0.084,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "X</td><td>Revenue CAGR 3YR Avg. ROIC</td><td>3.0% 9.2%</td><td>2.9% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "9918236a8785a4c1",
+        "value": 0.11900000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Revenue CAGR 3YR Avg. ROIC</td><td>3.0% 9.2%</td><td>2.9% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "13659380abbc9c33",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "AGR 3YR Avg. ROIC</td><td>3.0% 9.2%</td><td>2.9% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>1",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "af51d6de07e4243d",
+        "value": 0.10400000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "YR Avg. ROIC</td><td>3.0% 9.2%</td><td>2.9% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>10.4% ",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "c37b4fedb953a782",
+        "value": 0.127,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>3.0% 9.2%</td><td>2.9% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>10.4% 13.2%</td><td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "172145d96e1c20c6",
+        "value": 0.14400000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">3.0% 9.2%</td><td>2.9% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>10.4% 13.2%</td><td>$24.9<",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "8fc29ad78fe54e66",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "% 8.8%</td><td>3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>10.4% 13.2%</td><td>$24.9</td><td>29.2%</td><td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "a9f7a0076e1fcdcb",
+        "value": 0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "3.6% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>10.4% 13.2%</td><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>1",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "62ca526537192390",
+        "value": 0.10400000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "% 11.3%</td><td>8.4% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>10.4% 13.2%</td><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "bc8c0061b292d112",
+        "value": 0.11199999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "% 11.9%</td><td>3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>10.4% 13.2%</td><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "f6d3b9ef7d711089",
+        "value": 0.10400000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">3.0% 10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>10.4% 13.2%</td><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td></tr><",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "aac913879d095a15",
+        "value": 0.132,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "10.4%</td><td>12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>10.4% 13.2%</td><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td></tr></table",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "4464a937264aa66d",
+        "value": 0.292,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>10.4% 13.2%</td><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td></tr></table> <table><tr><td rowspan=\"2\"",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "e3d164c3504da1cd",
+        "value": 0.138,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ";8% 10.40% and &amp;lt;11.20%</td><td>10.4% 13.2%</td><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td></tr></table> <table><tr><td rowspan=\"2\">Company</td><td rowspan=\"2\"",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "a1fd99e93f997c6d",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "t;11.20%</td><td>10.4% 13.2%</td><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td></tr></table> <table><tr><td rowspan=\"2\">Company</td><td rowspan=\"2\">Performance Metric</",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "14c7dd80875c29ab",
+        "value": 0.233,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Y/Y Change</td><td></td><td></td></tr><tr><td></td><td>$30.76</td><td>-</td><td>$37.93</td><td>23.3%</td><td></td><td></td></tr></table> <table><tr><td rowspan=\"2\">Company</td><td rowspan=\"2\">Exe",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "b3f6f5fae53555ac",
+        "value": 0.292,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "omp</td><td>Y/Y Change</td><td>Exec. Comp</td><td></td><td></td><td></td></tr><tr><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td><td></td><td></td><td></td><td></td><td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "091abda609638ee0",
+        "value": 0.138,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Exec. Comp</td><td></td><td></td><td></td></tr><tr><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table><",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "d9651e68cc009e15",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td><td></td></tr><tr><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "f144ac49b2b7fadb",
+        "value": 24.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "12.7% 14.4%</td><td>&amp;gt;6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>10.4% 13.2%</td><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td></tr></table> <table><tr><",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "719de4263e5d57e7",
+        "value": 28.3,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "6% and &amp;lt;8% 10.40% and &amp;lt;11.20%</td><td>10.4% 13.2%</td><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td></tr></table> <table><tr><td rowspan=\"2\">Company</td><",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "86d22be82c19621b",
+        "value": 25.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "&amp;lt;11.20%</td><td>10.4% 13.2%</td><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td></tr></table> <table><tr><td rowspan=\"2\">Company</td><td rowspan=\"2\">Performance Me",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "9773fa9766f6469f",
+        "value": 48.93,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "024A</td></tr><tr><td>Target</td><td>Actual</td></tr><tr><td rowspan=\"2\">LH</td><td>3YR EPS</td><td>$48.93</td><td>$48.69</td></tr><tr><td>3YR Rev</td><td>$40.7 bn</td><td>$41.3 bn</td></tr><tr><td></",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "e0a1255a2be5d9c2",
+        "value": 48.69,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "tr><td>Target</td><td>Actual</td></tr><tr><td rowspan=\"2\">LH</td><td>3YR EPS</td><td>$48.93</td><td>$48.69</td></tr><tr><td>3YR Rev</td><td>$40.7 bn</td><td>$41.3 bn</td></tr><tr><td></td><td>Relative",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "21c9081ec6580c44",
+        "value": 40.7,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "r><td rowspan=\"2\">LH</td><td>3YR EPS</td><td>$48.93</td><td>$48.69</td></tr><tr><td>3YR Rev</td><td>$40.7 bn</td><td>$41.3 bn</td></tr><tr><td></td><td>Relative TSR</td><td>Between the 26th and 75th P",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "77b22fe08b1f97b8",
+        "value": 41.3,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">LH</td><td>3YR EPS</td><td>$48.93</td><td>$48.69</td></tr><tr><td>3YR Rev</td><td>$40.7 bn</td><td>$41.3 bn</td></tr><tr><td></td><td>Relative TSR</td><td>Between the 26th and 75th Percentile</td><td",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "c076d85bcb68fa43",
+        "value": 30.76,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>Y/Y Change</td><td>Exec. Comp</td><td>Y/Y Change</td><td></td><td></td></tr><tr><td></td><td>$30.76</td><td>-</td><td>$37.93</td><td>23.3%</td><td></td><td></td></tr></table> <table><tr><td row",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "9ab6a642e249e621",
+        "value": 37.93,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">Exec. Comp</td><td>Y/Y Change</td><td></td><td></td></tr><tr><td></td><td>$30.76</td><td>-</td><td>$37.93</td><td>23.3%</td><td></td><td></td></tr></table> <table><tr><td rowspan=\"2\">Company</td><td ",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "186de63ea736e12f",
+        "value": 24.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>Exec. Comp</td><td>Y/Y Change</td><td>Exec. Comp</td><td></td><td></td><td></td></tr><tr><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td><td></td><td></td><td></td",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "c377cb2f95297754",
+        "value": 28.3,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Y Change</td><td>Exec. Comp</td><td></td><td></td><td></td></tr><tr><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td><td></td><td></td><td></td><td></td><td></td><td></td>",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "57129cc1937d6144",
+        "value": 25.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td></td><td></td><td></td></tr><tr><td>$24.9</td><td>29.2%</td><td>$28.3</td><td>13.8%</td><td>$25.4 (10.0%)</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table><｜end▁of▁senten",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "num_id": "a8422a91eab86560",
+        "value": 0.067,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5.48</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowspan=\"3\">WBA</td><td>Adj. EPS Growth</td><td>6.7%</td><td>(19.1%)</td><td>7.2%</td><td>(29.3%)</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Adj",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "bfafef1f6d2b0e24",
+        "value": 0.191,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>—</td><td>—</td></tr><tr><td rowspan=\"3\">WBA</td><td>Adj. EPS Growth</td><td>6.7%</td><td>(19.1%)</td><td>7.2%</td><td>(29.3%)</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Adj. Revenue Grow",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "2dcbde8e048dafe7",
+        "value": 0.07200000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>—</td></tr><tr><td rowspan=\"3\">WBA</td><td>Adj. EPS Growth</td><td>6.7%</td><td>(19.1%)</td><td>7.2%</td><td>(29.3%)</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Adj. Revenue Growth</td><td>2.4%",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "d99fa32c1108bd59",
+        "value": 0.293,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td rowspan=\"3\">WBA</td><td>Adj. EPS Growth</td><td>6.7%</td><td>(19.1%)</td><td>7.2%</td><td>(29.3%)</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Adj. Revenue Growth</td><td>2.4%</td><td>(0.2%",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "e29edd6d761d91ce",
+        "value": 0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>7.2%</td><td>(29.3%)</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Adj. Revenue Growth</td><td>2.4%</td><td>(0.2%)</td><td>4.9%</td><td>1.6%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Cum",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "ea06444413b4fd3d",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>(29.3%)</td><td>—</td><td>—</td><td>—</td></tr><tr><td>Adj. Revenue Growth</td><td>2.4%</td><td>(0.2%)</td><td>4.9%</td><td>1.6%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Cumulative Adj. E",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "71ce046e5e72b9e7",
+        "value": 0.049,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>—</td><td>—</td><td>—</td></tr><tr><td>Adj. Revenue Growth</td><td>2.4%</td><td>(0.2%)</td><td>4.9%</td><td>1.6%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Cumulative Adj. EPS</td><td>$15",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "5f4a56d5c829e80b",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>—</td><td>—</td></tr><tr><td>Adj. Revenue Growth</td><td>2.4%</td><td>(0.2%)</td><td>4.9%</td><td>1.6%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Cumulative Adj. EPS</td><td>$15.77</td><td>$",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "2416181ae51ed746",
+        "value": 0.033,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">—</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowspan=\"2\">COR</td><td>3YR Adj. EPS CAGR</td><td>3.3%</td><td>14.9%</td><td>8.0%</td><td>14.1%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Avg",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "e3284bb887cfc552",
+        "value": 0.149,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>—</td><td>—</td></tr><tr><td rowspan=\"2\">COR</td><td>3YR Adj. EPS CAGR</td><td>3.3%</td><td>14.9%</td><td>8.0%</td><td>14.1%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Avg. Annual Adj.",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "e12aafc5b8577ada",
+        "value": 0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>—</td></tr><tr><td rowspan=\"2\">COR</td><td>3YR Adj. EPS CAGR</td><td>3.3%</td><td>14.9%</td><td>8.0%</td><td>14.1%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Avg. Annual Adj. ROIC</td><td>",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "f4e62f98ff20318f",
+        "value": 0.141,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><tr><td rowspan=\"2\">COR</td><td>3YR Adj. EPS CAGR</td><td>3.3%</td><td>14.9%</td><td>8.0%</td><td>14.1%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Avg. Annual Adj. ROIC</td><td>20.5%</td><td",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "1f2cd12e689f296c",
+        "value": 0.205,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8.0%</td><td>14.1%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Avg. Annual Adj. ROIC</td><td>20.5%</td><td>18.7%</td><td>15.6%</td><td>19.7%</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowsp",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "2e2138ede22974a2",
+        "value": 0.187,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4.1%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Avg. Annual Adj. ROIC</td><td>20.5%</td><td>18.7%</td><td>15.6%</td><td>19.7%</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowspan=\"4\">CAH</td",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "bb10609c6fa80d36",
+        "value": 0.156,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>—</td><td>—</td></tr><tr><td>3YR Avg. Annual Adj. ROIC</td><td>20.5%</td><td>18.7%</td><td>15.6%</td><td>19.7%</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowspan=\"4\">CAH</td><td>Adj. EPS ",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "dc578304921985fa",
+        "value": 0.19699999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>—</td></tr><tr><td>3YR Avg. Annual Adj. ROIC</td><td>20.5%</td><td>18.7%</td><td>15.6%</td><td>19.7%</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowspan=\"4\">CAH</td><td>Adj. EPS Growth + Div. ",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "8d26ce2808b5c3b9",
+        "value": 0.11199999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5th %</td><td>100th %</td><td>55th %</td><td>93rd %</td><td></td></tr><tr><td>3YR Avg. ROIC</td><td>11.2%</td><td>16.6%</td><td>12.9%</td><td>17.5%</td><td>26.0%</td><td>24.0%</td><td></td></tr></tabl",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "64a549f40a490939",
+        "value": 0.166,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "100th %</td><td>55th %</td><td>93rd %</td><td></td></tr><tr><td>3YR Avg. ROIC</td><td>11.2%</td><td>16.6%</td><td>12.9%</td><td>17.5%</td><td>26.0%</td><td>24.0%</td><td></td></tr></table> Source: Com",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "0f803209ab23b4db",
+        "value": 0.129,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>55th %</td><td>93rd %</td><td></td></tr><tr><td>3YR Avg. ROIC</td><td>11.2%</td><td>16.6%</td><td>12.9%</td><td>17.5%</td><td>26.0%</td><td>24.0%</td><td></td></tr></table> Source: Company Filings Y",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "62de0338ab774718",
+        "value": 0.175,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>93rd %</td><td></td></tr><tr><td>3YR Avg. ROIC</td><td>11.2%</td><td>16.6%</td><td>12.9%</td><td>17.5%</td><td>26.0%</td><td>24.0%</td><td></td></tr></table> Source: Company Filings Year of Compens",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "db22066592ef2228",
+        "value": 0.26,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td></td></tr><tr><td>3YR Avg. ROIC</td><td>11.2%</td><td>16.6%</td><td>12.9%</td><td>17.5%</td><td>26.0%</td><td>24.0%</td><td></td></tr></table> Source: Company Filings Year of Compensation (All Exe",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "c0e18806638a7215",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>3YR Avg. ROIC</td><td>11.2%</td><td>16.6%</td><td>12.9%</td><td>17.5%</td><td>26.0%</td><td>24.0%</td><td></td></tr></table> Source: Company Filings Year of Compensation (All Execs) <table><tr",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "c64683e804bcba51",
+        "value": 0.163,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Exec. Comp</td><td>Y/Y Change</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$69.9</td><td>(16.3%)</td><td>$68.0</td><td>(2.7%)</td><td>$80.4</td><td>18.1%</td></tr><tr><td></td><td></td><td><",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "9fe0cbf96e397d25",
+        "value": 0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$69.9</td><td>(16.3%)</td><td>$68.0</td><td>(2.7%)</td><td>$80.4</td><td>18.1%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "f1a30d78a78a9454",
+        "value": 0.18100000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/Y Change</td></tr><tr><td>$69.9</td><td>(16.3%)</td><td>$68.0</td><td>(2.7%)</td><td>$80.4</td><td>18.1%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$46.6</td><td>",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "647b042e5ca37470",
+        "value": 0.35200000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8.1%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$46.6</td><td>(35.2%)</td><td>$46.3</td><td>(0.7%)</td><td>$43.3</td><td>(6.5%)</td></tr><tr><td></td><td></td><td>",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "832b7759630c9ac2",
+        "value": 0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td><td></td><td></td><td></td></tr><tr><td>$46.6</td><td>(35.2%)</td><td>$46.3</td><td>(0.7%)</td><td>$43.3</td><td>(6.5%)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></t",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "2892052ab977a370",
+        "value": 0.065,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td></tr><tr><td>$46.6</td><td>(35.2%)</td><td>$46.3</td><td>(0.7%)</td><td>$43.3</td><td>(6.5%)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$34.5</td><td>",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "1e841a113aebb0d4",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6.5%)</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$34.5</td><td>4.0%</td><td>$37.9</td><td>9.6%</td><td>$49.7</td><td>31.3%</td></tr><tr><td></td><td></td><td></td>",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "3ddc98770eee3979",
+        "value": 0.096,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$34.5</td><td>4.0%</td><td>$37.9</td><td>9.6%</td><td>$49.7</td><td>31.3%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "4eefbac9863a7087",
+        "value": 0.313,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td><td></td></tr><tr><td>$34.5</td><td>4.0%</td><td>$37.9</td><td>9.6%</td><td>$49.7</td><td>31.3%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$29.9</td><td>",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "702afc5d54cb66b0",
+        "value": 0.094,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "31.3%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$29.9</td><td>9.4%</td><td>$47.2</td><td>57.9%</td><td>$49.6</td><td>5.0%</td></tr><tr><td></td><td></td><td></td>",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "93409267502eea15",
+        "value": 0.579,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$29.9</td><td>9.4%</td><td>$47.2</td><td>57.9%</td><td>$49.6</td><td>5.0%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td>",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "30480d8a3efd49d3",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td></td><td></td></tr><tr><td>$29.9</td><td>9.4%</td><td>$47.2</td><td>57.9%</td><td>$49.6</td><td>5.0%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$36.2</td><td>1",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "2105c1ed54c4502e",
+        "value": 0.134,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">5.0%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$36.2</td><td>13.4%</td><td>$39.8</td><td>10.0%</td><td>$50.2</td><td>26.1%</td></tr><tr><td></td><td></td><td></t",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "15b1aa6130e7be6c",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td></td><td></td><td></td><td></td><td></td></tr><tr><td>$36.2</td><td>13.4%</td><td>$39.8</td><td>10.0%</td><td>$50.2</td><td>26.1%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "ce8dc3b7bd4e7d44",
+        "value": 0.261,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></td><td></td></tr><tr><td>$36.2</td><td>13.4%</td><td>$39.8</td><td>10.0%</td><td>$50.2</td><td>26.1%</td></tr><tr><td></td><td></td><td></td><td></td><td></td><td></td></tr></table> All PSUs Foll",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "caf8c5ccdc7d3a69",
+        "value": 8.98,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td></td><td></td></tr><tr><td>YR3 Adj. EPS</td><td>$8.98-$9.09</td><td>$8.99</td><td>$9.73-$9.93</td><td>$5.48</td><td>—</td><td>—</td><td>—</td></tr><",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "120041f0543eafab",
+        "value": 9.09,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>—</td><td>—</td><td>—</td><td>—</td><td></td><td></td></tr><tr><td>YR3 Adj. EPS</td><td>$8.98-$9.09</td><td>$8.99</td><td>$9.73-$9.93</td><td>$5.48</td><td>—</td><td>—</td><td>—</td></tr><tr><td",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "c4160499007dc8a2",
+        "value": 8.99,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>—</td><td>—</td><td>—</td><td></td><td></td></tr><tr><td>YR3 Adj. EPS</td><td>$8.98-$9.09</td><td>$8.99</td><td>$9.73-$9.93</td><td>$5.48</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowspan=\"3\">W",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "f597207f7b7d82d2",
+        "value": 9.73,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>—</td><td></td><td></td></tr><tr><td>YR3 Adj. EPS</td><td>$8.98-$9.09</td><td>$8.99</td><td>$9.73-$9.93</td><td>$5.48</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowspan=\"3\">WBA</td><td>Adj",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "12b098727988c601",
+        "value": 9.93,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>—</td><td></td><td></td></tr><tr><td>YR3 Adj. EPS</td><td>$8.98-$9.09</td><td>$8.99</td><td>$9.73-$9.93</td><td>$5.48</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowspan=\"3\">WBA</td><td>Adj. EPS ",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "1a87615cee0f3f89",
+        "value": 5.48,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td></td></tr><tr><td>YR3 Adj. EPS</td><td>$8.98-$9.09</td><td>$8.99</td><td>$9.73-$9.93</td><td>$5.48</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowspan=\"3\">WBA</td><td>Adj. EPS Growth</td><td",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "e037355d90d3f190",
+        "value": 15.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>4.9%</td><td>1.6%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Cumulative Adj. EPS</td><td>$15.77</td><td>$16.83</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowspan=\"2\"",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "c7f664e332e84462",
+        "value": 16.83,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">1.6%</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Cumulative Adj. EPS</td><td>$15.77</td><td>$16.83</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td rowspan=\"2\">COR</td><td>3Y",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "071deee083276f66",
+        "value": 5.6,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>YR1 Adj. EPS</td><td>$5.60</td><td>$5.57</td><td>$5.84</td><td>$5.07</td><td>—</td><td>—</td><td>—</td></tr><tr><td>YR2 A",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "ce2a2c73a681cbcc",
+        "value": 5.57,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>YR1 Adj. EPS</td><td>$5.60</td><td>$5.57</td><td>$5.84</td><td>$5.07</td><td>—</td><td>—</td><td>—</td></tr><tr><td>YR2 Adj. EPS</td><t",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "36c373c0cd9ac745",
+        "value": 5.84,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>YR1 Adj. EPS</td><td>$5.60</td><td>$5.57</td><td>$5.84</td><td>$5.07</td><td>—</td><td>—</td><td>—</td></tr><tr><td>YR2 Adj. EPS</td><td>$5.84</td><t",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "dd0b9234c9791eb7",
+        "value": 5.07,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>—</td><td>—</td></tr><tr><td>YR1 Adj. EPS</td><td>$5.60</td><td>$5.57</td><td>$5.84</td><td>$5.07</td><td>—</td><td>—</td><td>—</td></tr><tr><td>YR2 Adj. EPS</td><td>$5.84</td><td>$5.06</td><t",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "047e82aae0e26809",
+        "value": 5.84,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ".57</td><td>$5.84</td><td>$5.07</td><td>—</td><td>—</td><td>—</td></tr><tr><td>YR2 Adj. EPS</td><td>$5.84</td><td>$5.06</td><td>$5.40</td><td>$5.85</td><td>—</td><td>—</td><td>—</td></tr><tr><td>YR3 A",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "b17bfa005c36ffdd",
+        "value": 1.358,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "olspan=\"2\">2021A-2023A</td><td>2022A-2024A</td></tr><tr><td>ALGN</td><td>3YR TSR vs. NASDAQ</td><td>135.8%</td><td>213.8%</td><td>16.6%</td><td>(20.0%)</td></tr><tr><td rowspan=\"7\">XRAY</td><td>YR1 Ad",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "713fc1dde6db9635",
+        "value": 2.138,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "A-2023A</td><td>2022A-2024A</td></tr><tr><td>ALGN</td><td>3YR TSR vs. NASDAQ</td><td>135.8%</td><td>213.8%</td><td>16.6%</td><td>(20.0%)</td></tr><tr><td rowspan=\"7\">XRAY</td><td>YR1 Adj. EPS Growth</",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "f2e51dcd39d791d5",
+        "value": 0.166,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">2022A-2024A</td></tr><tr><td>ALGN</td><td>3YR TSR vs. NASDAQ</td><td>135.8%</td><td>213.8%</td><td>16.6%</td><td>(20.0%)</td></tr><tr><td rowspan=\"7\">XRAY</td><td>YR1 Adj. EPS Growth</td><td>—</td><t",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "75eae890589f35f2",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>ALGN</td><td>3YR TSR vs. NASDAQ</td><td>135.8%</td><td>213.8%</td><td>16.6%</td><td>(20.0%)</td></tr><tr><td rowspan=\"7\">XRAY</td><td>YR1 Adj. EPS Growth</td><td>—</td><td>—</td><td>—</",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "83a0e389d6f68b10",
+        "value": 0.17300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Exec. Comp</td><td>Y/Y Change</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$32.2</td><td>(17.3%)</td><td>$46.5</td><td>44.3%</td><td>$46.5</td></tr><tr><td></td><td></td><td></td><td></td><t",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "a79a3e05540e2ed4",
+        "value": 0.44299999999999995,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$32.2</td><td>(17.3%)</td><td>$46.5</td><td>44.3%</td><td>$46.5</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$51.8</td",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "50513ec47283d978",
+        "value": 1.757,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>$46.5</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$51.8</td><td>175.7%</td><td>$23.5</td><td>(54.7%)</td><td>$20.1</td></tr><tr><td></td><td></td><td></td><td></td>",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "5ea8ea311b6c0ab7",
+        "value": 0.547,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td><td></td><td></td><td></td><td></td></tr><tr><td>$51.8</td><td>175.7%</td><td>$23.5</td><td>(54.7%)</td><td>$20.1</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$23.0</t",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "654a5e1cdfe89b2e",
+        "value": 0.12300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>$20.1</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$23.0</td><td>(12.3%)</td><td>$21.2</td><td>(7.6%)</td><td>$24.4</td></tr></table> All MSUs/PSUs Follow 3- Year Cli",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "634e45a90f65d425",
+        "value": 0.076,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td><td></td><td></td><td></td></tr><tr><td>$23.0</td><td>(12.3%)</td><td>$21.2</td><td>(7.6%)</td><td>$24.4</td></tr></table> All MSUs/PSUs Follow 3- Year Cliff Vesting Some Targets Subjec",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "ca5db2daea325ff5",
+        "value": 8.28,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Adj, Operating Margin</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Adj. EPS</td><td>$8.28</td><td>$7.11</td><td>$8.07</td><td>$6.74</td></tr><tr><td rowspan=\"3\">HSIC</td><td>3YR Organi",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "ded8bbf9384ce3b1",
+        "value": 7.11,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Margin</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Adj. EPS</td><td>$8.28</td><td>$7.11</td><td>$8.07</td><td>$6.74</td></tr><tr><td rowspan=\"3\">HSIC</td><td>3YR Organic Sales</td><td",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "2b9dc945539f4a1c",
+        "value": 8.07,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>3YR Adj. EPS</td><td>$8.28</td><td>$7.11</td><td>$8.07</td><td>$6.74</td></tr><tr><td rowspan=\"3\">HSIC</td><td>3YR Organic Sales</td><td>—</td><td>—<",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "6e6d183a623a4194",
+        "value": 6.74,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>—</td><td>—</td></tr><tr><td>3YR Adj. EPS</td><td>$8.28</td><td>$7.11</td><td>$8.07</td><td>$6.74</td></tr><tr><td rowspan=\"3\">HSIC</td><td>3YR Organic Sales</td><td>—</td><td>—</td><td>$12,65",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "9d74e169f45f9de8",
+        "value": 12654.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>$6.74</td></tr><tr><td rowspan=\"3\">HSIC</td><td>3YR Organic Sales</td><td>—</td><td>—</td><td>$12,654</td><td>$12,449</td></tr><tr><td>3YR rTSR</td><td>50th</td><td>41st</td><td>50th</td><td>7th",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "ec175c70a3c2859c",
+        "value": 12449.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</tr><tr><td rowspan=\"3\">HSIC</td><td>3YR Organic Sales</td><td>—</td><td>—</td><td>$12,654</td><td>$12,449</td></tr><tr><td>3YR rTSR</td><td>50th</td><td>41st</td><td>50th</td><td>7th</td></tr><tr><t",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "fdab7eadb59251e4",
+        "value": 11.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>50th</td><td>41st</td><td>50th</td><td>7th</td></tr><tr><td>3YR Adj. EPS</td><td>Unknown</td><td>$11.00</td><td>—</td><td>—</td></tr></table> Source: Company Filings <table><tr><td colspan=\"4\">Perf",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "9a17683da92ae6b0",
+        "value": 32.2,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d></tr><tr><td>Exec. Comp</td><td>Y/Y Change</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$32.2</td><td>(17.3%)</td><td>$46.5</td><td>44.3%</td><td>$46.5</td></tr><tr><td></td><td></td><td><",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "17c4533dcccfc5b4",
+        "value": 46.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>Y/Y Change</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$32.2</td><td>(17.3%)</td><td>$46.5</td><td>44.3%</td><td>$46.5</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "e748c55a2d30bc61",
+        "value": 46.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Comp</td><td>Y/Y Change</td></tr><tr><td>$32.2</td><td>(17.3%)</td><td>$46.5</td><td>44.3%</td><td>$46.5</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$51.8</td><td>175.7%</td",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "a1e11474a8e03629",
+        "value": 51.8,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>44.3%</td><td>$46.5</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$51.8</td><td>175.7%</td><td>$23.5</td><td>(54.7%)</td><td>$20.1</td></tr><tr><td></td><td></td><td>",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "cf6de551a5b71dca",
+        "value": 23.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$51.8</td><td>175.7%</td><td>$23.5</td><td>(54.7%)</td><td>$20.1</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "0cf24ac8b0326b97",
+        "value": 20.1,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td></td><td></td><td></td></tr><tr><td>$51.8</td><td>175.7%</td><td>$23.5</td><td>(54.7%)</td><td>$20.1</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$23.0</td><td>(12.3%)</",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "8c720a91b11dc36e",
+        "value": 23.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>(54.7%)</td><td>$20.1</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$23.0</td><td>(12.3%)</td><td>$21.2</td><td>(7.6%)</td><td>$24.4</td></tr></table> All MSUs/PSUs Fol",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "9160780ed6334673",
+        "value": 21.2,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr><tr><td>$23.0</td><td>(12.3%)</td><td>$21.2</td><td>(7.6%)</td><td>$24.4</td></tr></table> All MSUs/PSUs Follow 3- Year Cliff Vesting Some",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "897eed1b161468ed",
+        "value": 24.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td></td><td></td><td></td></tr><tr><td>$23.0</td><td>(12.3%)</td><td>$21.2</td><td>(7.6%)</td><td>$24.4</td></tr></table> All MSUs/PSUs Follow 3- Year Cliff Vesting Some Targets Subject to PSU Adjus",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "num_id": "da7adbffdcfa988e",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Unknown</td><td>$34.19</td></tr><tr><td rowspan=\"2\">IQV</td><td>3YR Adj. EPS Growth</td><td>10.0%</td><td>17.6%</td><td>10.0%</td><td>14.8%</td></tr><tr><td>YR TSR vs. S&amp;amp;P 500 (percent",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "5140757269544a5e",
+        "value": 0.17600000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "n</td><td>$34.19</td></tr><tr><td rowspan=\"2\">IQV</td><td>3YR Adj. EPS Growth</td><td>10.0%</td><td>17.6%</td><td>10.0%</td><td>14.8%</td></tr><tr><td>YR TSR vs. S&amp;amp;P 500 (percentile)</td><td>5",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "500daffecb101c37",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "19</td></tr><tr><td rowspan=\"2\">IQV</td><td>3YR Adj. EPS Growth</td><td>10.0%</td><td>17.6%</td><td>10.0%</td><td>14.8%</td></tr><tr><td>YR TSR vs. S&amp;amp;P 500 (percentile)</td><td>50th %</td><td>",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "c7ea403d3e4c615b",
+        "value": 0.14800000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><td rowspan=\"2\">IQV</td><td>3YR Adj. EPS Growth</td><td>10.0%</td><td>17.6%</td><td>10.0%</td><td>14.8%</td></tr><tr><td>YR TSR vs. S&amp;amp;P 500 (percentile)</td><td>50th %</td><td>83rd %</td><td",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "13926029412010a3",
+        "value": 0.55,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>YR TSR vs. S&amp;amp;P 500 (percentile)</td><td>50th %</td><td>83rd %</td><td>50th %</td><td>55.0%</td></tr></table> <table><tr><td colspan=\"4\">Performance Period</td></tr><tr><td rowspan=\"2\">2",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "86c1d2a386c20664",
+        "value": 0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Exec. Comp</td><td>Y/Y Change</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$12.7</td><td>0.8%</td><td>$9.3</td><td>(26.6%)</td><td>$4.9</td></tr><tr><td>$50.2</td><td>17.7%</td><td>$51.8</t",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "491222b31af044d7",
+        "value": 0.266,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nge</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$12.7</td><td>0.8%</td><td>$9.3</td><td>(26.6%)</td><td>$4.9</td></tr><tr><td>$50.2</td><td>17.7%</td><td>$51.8</td><td>3.2%</td><td>$53.0</t",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "5b4d35106e738ad9",
+        "value": 0.177,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>$12.7</td><td>0.8%</td><td>$9.3</td><td>(26.6%)</td><td>$4.9</td></tr><tr><td>$50.2</td><td>17.7%</td><td>$51.8</td><td>3.2%</td><td>$53.0</td></tr></table> <table><tr><td rowspan=\"2\">Company<",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "ec0039dead262e64",
+        "value": 0.032,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>$9.3</td><td>(26.6%)</td><td>$4.9</td></tr><tr><td>$50.2</td><td>17.7%</td><td>$51.8</td><td>3.2%</td><td>$53.0</td></tr></table> <table><tr><td rowspan=\"2\">Company</td><td rowspan=\"2\">Performa",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "8e5ce967833007fe",
+        "value": 0.043,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Exec. Comp</td><td>Y/Y Change</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$29.9</td><td>(4.3%)</td><td>$28.9</td><td>(3.6%)</td><td>$27.5</td></tr></table> Source: Company Filings (1) Denot",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "3e65781d03e03f1e",
+        "value": 0.036000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$29.9</td><td>(4.3%)</td><td>$28.9</td><td>(3.6%)</td><td>$27.5</td></tr></table> Source: Company Filings (1) Denotes actual payout as a percent",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "ffd17a87f9913efd",
+        "value": 23.06,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "23A</td><td>2022A-2024A</td><td></td></tr><tr><td>ICLR</td><td>3YR Adj. EPS</td><td>Unknown</td><td>$23.06</td><td>Unknown</td><td>$34.19</td></tr><tr><td rowspan=\"2\">IQV</td><td>3YR Adj. EPS Growth</",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "a5db3c88336ce9f4",
+        "value": 34.19,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "></td></tr><tr><td>ICLR</td><td>3YR Adj. EPS</td><td>Unknown</td><td>$23.06</td><td>Unknown</td><td>$34.19</td></tr><tr><td rowspan=\"2\">IQV</td><td>3YR Adj. EPS Growth</td><td>10.0%</td><td>17.6%</td>",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "38d251eb8b3d4f95",
+        "value": 12.7,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d></tr><tr><td>Exec. Comp</td><td>Y/Y Change</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$12.7</td><td>0.8%</td><td>$9.3</td><td>(26.6%)</td><td>$4.9</td></tr><tr><td>$50.2</td><td>17.7%</t",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "959be0647da35c45",
+        "value": 9.3,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>Y/Y Change</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$12.7</td><td>0.8%</td><td>$9.3</td><td>(26.6%)</td><td>$4.9</td></tr><tr><td>$50.2</td><td>17.7%</td><td>$51.8</td><td>3.2%</t",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "69c8dbcf7f63179d",
+        "value": 4.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "c. Comp</td><td>Y/Y Change</td></tr><tr><td>$12.7</td><td>0.8%</td><td>$9.3</td><td>(26.6%)</td><td>$4.9</td></tr><tr><td>$50.2</td><td>17.7%</td><td>$51.8</td><td>3.2%</td><td>$53.0</td></tr></table>",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "b93edc988afd94f7",
+        "value": 50.2,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ange</td></tr><tr><td>$12.7</td><td>0.8%</td><td>$9.3</td><td>(26.6%)</td><td>$4.9</td></tr><tr><td>$50.2</td><td>17.7%</td><td>$51.8</td><td>3.2%</td><td>$53.0</td></tr></table> <table><tr><td rowspa",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "e7143c86b15b2c3b",
+        "value": 51.8,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>0.8%</td><td>$9.3</td><td>(26.6%)</td><td>$4.9</td></tr><tr><td>$50.2</td><td>17.7%</td><td>$51.8</td><td>3.2%</td><td>$53.0</td></tr></table> <table><tr><td rowspan=\"2\">Company</td><td rowspa",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "b5a83e1b453c0168",
+        "value": 53.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>(26.6%)</td><td>$4.9</td></tr><tr><td>$50.2</td><td>17.7%</td><td>$51.8</td><td>3.2%</td><td>$53.0</td></tr></table> <table><tr><td rowspan=\"2\">Company</td><td rowspan=\"2\">Performance Metric</t",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "541a4bf981f26913",
+        "value": 9.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">Target</td><td>Actual</td><td></td><td></td><td></td></tr><tr><td>CRL</td><td>YR1 Adj. EPS</td><td>$9.50</td><td>$10.32</td><td>$10.40</td><td>$10.67</td><td>$11.40</td><td>$10.32</td><td></td><td></",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "84c1cc7e409a47e8",
+        "value": 10.32,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>Actual</td><td></td><td></td><td></td></tr><tr><td>CRL</td><td>YR1 Adj. EPS</td><td>$9.50</td><td>$10.32</td><td>$10.40</td><td>$10.67</td><td>$11.40</td><td>$10.32</td><td></td><td></td><td></td><t",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "b3e524113d7e89ab",
+        "value": 10.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d></td><td></td><td></td></tr><tr><td>CRL</td><td>YR1 Adj. EPS</td><td>$9.50</td><td>$10.32</td><td>$10.40</td><td>$10.67</td><td>$11.40</td><td>$10.32</td><td></td><td></td><td></td><td></td><td></td",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "f237fb0e9c936d18",
+        "value": 10.67,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td></td></tr><tr><td>CRL</td><td>YR1 Adj. EPS</td><td>$9.50</td><td>$10.32</td><td>$10.40</td><td>$10.67</td><td>$11.40</td><td>$10.32</td><td></td><td></td><td></td><td></td><td></td></tr></table> ",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "4aa41be4c1e9da50",
+        "value": 11.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<tr><td>CRL</td><td>YR1 Adj. EPS</td><td>$9.50</td><td>$10.32</td><td>$10.40</td><td>$10.67</td><td>$11.40</td><td>$10.32</td><td></td><td></td><td></td><td></td><td></td></tr></table> <table><tr><td ",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "9de6729d1f807e1a",
+        "value": 10.32,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>YR1 Adj. EPS</td><td>$9.50</td><td>$10.32</td><td>$10.40</td><td>$10.67</td><td>$11.40</td><td>$10.32</td><td></td><td></td><td></td><td></td><td></td></tr></table> <table><tr><td rowspan=\"2\">202",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "86d2b3116df09d8d",
+        "value": 29.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d></tr><tr><td>Exec. Comp</td><td>Y/Y Change</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$29.9</td><td>(4.3%)</td><td>$28.9</td><td>(3.6%)</td><td>$27.5</td></tr></table> Source: Company Fi",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "09e5dcec9a8718af",
+        "value": 28.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>Y/Y Change</td><td>Exec. Comp</td><td>Y/Y Change</td></tr><tr><td>$29.9</td><td>(4.3%)</td><td>$28.9</td><td>(3.6%)</td><td>$27.5</td></tr></table> Source: Company Filings (1) Denotes actual payo",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "num_id": "94fe7c561dbaf6ad",
+        "value": 27.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Comp</td><td>Y/Y Change</td></tr><tr><td>$29.9</td><td>(4.3%)</td><td>$28.9</td><td>(3.6%)</td><td>$27.5</td></tr></table> Source: Company Filings (1) Denotes actual payout as a percentage of target p",
+        "provenance": {
+          "page": 16
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 8,
+      "tables_count": 0,
+      "numerical_data_count": 305,
+      "passages_count": 103,
+      "entities_count": 20
+    }
+  }
+}

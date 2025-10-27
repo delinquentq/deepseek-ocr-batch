@@ -1,0 +1,2705 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "d0bc6f28e32d05313771c5cd476b1bd1",
+    "title": "Latin America Telecom Services",
+    "source_uri": "2025-09-02/Brazil Market Data for July_ AMX Fiber Accelerates_2025-09-02",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:18:57.909943",
+      "extracted_at": "2025-10-27T00:18:57.909950"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 11,
+        "successful_pages": 11,
+        "date": "2025-09-02",
+        "publication": "2025-09-02",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 3,
+          "reduction_ratio": 0.07613015399900647
+        },
+        "input_relative_path": "2025-09-02"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "708eea05ea1659b8",
+      "text": "In this note we analyze Brazil telecom- market data for July (as recently released by regulator Anatel) where we highlight mainly: 1) stronger postpaid volumes by VIV and TIMB (compared to June), 2) AMX accelerating the increase in fiber- broadband subscribers (which reached \\(\\sim 22\\%\\) of its fixed- broadband base, with faster fiber growth accompanied by higher cable disconnections, potentially reflecting technology upgrades).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b362a259b2d63374",
+      "text": "Key volume figures by segment for July:",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "211b978e699e7e99",
+      "text": "Mobile: Non- M2M postpaid net adds reaccelerated m/m led by VIV (+352k vs. +244 in June and +260k LTM average) and TIMB (+159k vs. +85k in June and +128k LTM average), as well as smaller operators (+120k vs. +91k in June and +101k LTM average); while AMX decelerated (+170k vs. +190k in June and +196k LTM average). On the prepaid side, net losses (- 457k) were fewer than in June for all three major operators. AMX having outpaced competitors in terms of mobile service revenue growth (and prepaid revenue specifically) in 2Q25 and prior quarters has been a major topic of discussions with investors (and in a recent meeting with AMX management in Brazil); while per prior quarters the revenue- growth differential seems largely ARPU- driven, we do believe the continued debate on revenue- growth differences warrants a close watch on volumes (particularly postpaid) as investors begin to consider 3Q results prospects.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "508090725e9c73b8",
+      "text": "Fixed broadband: VIV accelerated its net additions to \\(+71k\\) (vs. \\(+62k\\) in June and \\(+58k\\) LTM average) mainly driven by fiber; AMX reported improved to \\(+28k\\) (vs. \\(+26k\\) in June and \\(+25k\\) LTM average), but with significantly- higher fiber additions (+148k vs. \\(+28k\\) in June, also much higher than prior months). The fiber acceleration was mostly offset by a simultaneous sharp reduction in cable subscribers (- 119k net disconnections vs. - 3k in June), which may suggest acceleration in cable- to- fiber upgrades (a common tool for operators to defend their subscriber bases in higher- competition neighborhoods/cities).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e06e10657b5ec18f",
+      "text": "Pay- TV: Cord- cutting continues (total subscribers - 20.6% y/y in July), with the rate of subscriber- base decline being slightly slower than in previous months",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c8b052cf50fb2499",
+      "text": "(- 21.3% in Nov and - 22.0% in Oct). Since June, the regulator re- included data for Mileto Tecnologia (former Oi's pay- TV acquired business) which has reported lower subscriber losses in recent months when compared to 2024 and 1Q25.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9556c078468ad6b4",
+      "text": "Exhibit 1: Mobile volumes grew more significantly in July following muted growth in June... Total mobile lines, postpaid vs. prepaid (mn)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "90f9ef61b195be07",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "0bd93a3874853546",
+      "text": "Exhibit 2: ...supported by better trends in all segments Total prepaid and postpaid MoM net additions (disconnections), th",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "2b8c59abc6fe0bdb",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "86149c47ceca22b4",
+      "text": "Exhibit 3: AMX and TIMB reaccelerated their M2M net adds M2M connections, MoM net additions (disconnections), th",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1f331f53df0b0fef",
+      "text": "Exhibit 4: Prepaid net losses decelerated sequentially... Prepaid user MoM net additions (disconnections), th",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "447664c5592cf1ed",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "92eb6454c3271b0b",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "de77120b4b0be1e7",
+      "text": "Exhibit 5: ...due to fewer disconnections by all three major operators Prepaid user MoM net additions (disconnections) between Jan-25 and Jul-25, th",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3e9d0c653484b340",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "d5711591f729fc49",
+      "text": "Exhibit 6: Non-M2M postpaid volumes rose \\(+7.4\\%\\) y/y, consistent with June's growth rate Non-M2M postpaid subscribers (mn)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "7c5dbe7f43231f26",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6c113d033d27a61f",
+      "text": "Exhibit 7: VIV and TIMB greatly accelerated their postpaid net adds on a sequential basis, while AMX decelerated slightly Non-M2M postpaid MoM net additions (th)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "8f8b8456dd322c16",
+      "text": "Source:Brazil National Telecommunications Agency (Anatel),Goldman Sachs Global Investment Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e676270f3bd0ff7c",
+      "text": "Non- M2M postpaid MoM net additions, by operator, over the total net additions in each month",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d076ab53484308b5",
+      "text": "Source:Brazil National Telecommunications Agency (Anatel),Goldman Sachs Global Investment Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "00f1f302c5692500",
+      "text": "Non- M2M postpaid MoM net additions by smaller operators",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "45758adc058ff453",
+      "text": "Source:Brazil National Telecommunications Agency (Anatel),Goldman Sachs Global Investment Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "8112a16d6ba05e34",
+      "text": "We note that OIBR's residential-fiber operation was sold to V.tal in March, and is now transitioning its branding from Oi to Nio. Anatel's data still maintains the Oi label, which we also maintain in this note at this point.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d94e7c078d801045",
+      "text": "Exhibit 10: Total fixed-broadband subscribers declined slightly in July, per current data (\\*) Fixed broadband subscribers per operator (nm)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "04a35110b73b6a83",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f6d7b82502a94ecc",
+      "text": "Exhibit 11: VIV accelerated its net adds vs. previous quarters, while AMX improved more moderately... Fixed broadband MoM net additions of VIV, AMX, TIMB and OIBR (th)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "62715eaf81472c75",
+      "text": "Exhibit 12: ...with both companies increasing their market shares m/m, per current data (\\*) Fixed-broadband market share by operator",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "0ed491466ab01986",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f0964b477d1a2eec",
+      "text": "Exhibit 12: ...with both companies increasing their market shares m/m, per current data (\\*) Fixed-broadband market share by operator",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "928b9458756697ff",
+      "text": "(\\*) Anatel usually restates fixed-broadband data upwards, some time after release, due to initial data not yet including some smaller providers, given the large amount of active ISPs in Brazil.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b0103434812e0d02",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "a2af450572437084",
+      "text": "Fiber MoM net additions by Vivo (th)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f4ec1e1626d559f4",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "eaef7a1ffb672cae",
+      "text": "AMX - fiber as \\(\\%\\) of the broadband base; other operators omitted, due generally being full-fiber",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "b3f14d0fd4562a51",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "0718a9230c9301c5",
+      "text": "Fiber MoM net additions by Claro (th)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "05a7ce26cb776b14",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "823c5ff7497a04c6",
+      "text": "Exhibit 16: Consistent with the cord-cutting trend, the pay-TV subscriber base continues to decline (-21% y/y)...",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "abb2a7445f6d44eb",
+      "text": "(*) represents former OIBR subscribers, which were acquired by Mileto in Jan 2025. Anatel's database includes these subscribers under Oi until March 2025 and since April 2025 under Mileto. The available data repeats the March subscriber count for Mileto in April and May.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "fc2a4a94ebbaceaa",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c2bd3d3922e6ca60",
+      "text": "(*) represents former OIBR subscribers, which were acquired by Mileto in Jan 2025. Anatel's database includes these subscribers under Oi until March 2025 and since April 2025 under Mileto.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "6aabca8990c230b5",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "6b9962722c1d4147",
+      "text": "Pay-TV net additions per operator (MoM, th)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "956b14f9e2382996",
+      "text": "(*) represents former OIBR subscribers, which were acquired by Mileto in Jan 2025. Anatel's database includes these subscribers under Oi until March 2025 and since April 2025 under Mileto. The available data repeats the March subscriber count for Mileto in April and May.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "7bded0638b580033",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "80cdb112b86c6aab",
+      "text": "Source: Brazil National Telecommunications Agency (Anatel), Goldman Sachs Global Investment Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "6b7c1305745b7edb",
+      "text": "We, Vitor Tomita, CFA and Milenna Okamura, hereby certify that all of the views expressed in this report accurately reflect our personal views about the subject company or companies and its or their securities. We also certify that no part of our compensation was, is or will be, directly or indirectly, related to the specific recommendations or views expressed in this report.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "f3a12276f6ea9a29",
+      "text": "Unless otherwise stated, the individuals listed on the cover page of this report are analysts in Goldman Sachs' Global Investment Research division.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "00797deccff397ad",
+      "text": "The Goldman Sachs Factor Profile provides investment context for a stock by comparing key attributes to the market (i.e. our universe of rated stocks) and its sector peers. The four key attributes depicted are: Growth, Financial Returns, Multiple (e.g. valuation) and Integrated (a composite of Growth, Financial Returns and Multiple). Growth, Financial Returns and Multiple are calculated by using normalized ranks for specific metrics for each stock. The normalized ranks for the metrics are then averaged and converted into percentiles for the relevant attribute. The precise calculation of each metric may vary depending on the fiscal year, industry and region, but the standard approach is as follows:",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "019b8fdeca72829f",
+      "text": "Growth is based on a stock's forward- looking sales growth, EBITDA growth and EPS growth (for financial stocks, only EPS and sales growth), with a higher percentile indicating a higher growth company. Financial Returns is based on a stock's forward- looking ROE, ROCE and CROCI (for financial stocks, only ROE), with a higher percentile indicating a company with higher financial returns. Multiple is based on a stock's forward- looking P/E, P/B, price/dividend (P/D), EV/EBITDA, EV/FCF and EV/Debt Adjusted Cash Flow (DACF) (for financial stocks, only P/E, P/B and P/D), with a higher percentile indicating a stock trading at a higher multiple. The Integrated percentile is calculated as the average of the Growth percentile, Financial Returns percentile and (100% - Multiple percentile).",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "bc53ce16627281d3",
+      "text": "Financial Returns and Multiple use the Goldman Sachs analyst forecasts at the fiscal year- end at least three quarters in the future. Growth uses inputs for the fiscal year at least seven quarters in the future compared with the year at least three quarters in the future (on a per- share basis for all metrics).",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "2b04445f6b8aafb6",
+      "text": "For a more detailed description of how we calculate the GS Factor Profile, please contact your GS representative.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "dca8ca89eb6e5b66",
+      "text": "Across our global cover, we examine stocks using an M&A framework, considering both qualitative factors and quantitative factors (which may vary across sectors and regions) to incorporate the potential that certain companies could be acquired. We then assign a M&A rank as a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines we incorporate an M&A component into our target price. M&A rank of 3 is considered immaterial and therefore does not factor into our price target, and may or may not be discussed in research.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "df1a680e35c0d1a7",
+      "text": "Quantum is Goldman Sachs' proprietary database providing access to detailed financial statement histories, forecasts and ratios. It can be used for in- depth analysis of a single company, or to make comparisons between companies in different sectors and markets.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "eee2dff49b8f8a75",
+      "text": "See company- specific regulatory disclosures above for any of the following disclosures required as to companies referred to in this report: manager or co- manager in a pending transaction; 1% or other ownership; compensation for certain services; types of client relationships; managed/co- managed public offerings in prior periods; directorships; for equity securities, market making and/or specialist role. Goldman Sachs trades or may trade as a principal in debt securities (or in related derivatives) of issuers discussed in this report.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "814d5713f4ca5306",
+      "text": "The following are additional required disclosures: Ownership and material conflicts of interest: Goldman Sachs policy prohibits its analysts, professionals reporting to analysts and members of their households from owning securities of any company in the analyst's area of coverage. Analyst compensation: Analysts are paid in part based on the profitability of Goldman Sachs, which includes investment banking revenues. Analyst as officer or director: Goldman Sachs policy generally prohibits its analysts, persons reporting to analysts or members of their households from serving as an officer, director or advisor of any company in the analyst's area of coverage. Non- U.S. Analysts: Non- U.S. analysts may not be associated persons of Goldman Sachs & Co. LLC and therefore may not be subject to FINRA Rule 2241 or FINRA Rule 2242 restrictions on communications with subject company, public appearances and trading securities held by the analysts.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "2aeab0ad3ec6c17e",
+      "text": "Distribution of ratings: See the distribution of ratings disclosure above. Price chart: See the price chart, with changes of ratings and price targets in prior periods, above, or, if electronic format or if with respect to multiple companies which are the subject of this report, on the Goldman Sachs website at https://www.gs.com/research/hedge.html.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "264a42da93a822c3",
+      "text": "The following disclosures are those required by the jurisdiction indicated, except to the extent already made above pursuant to United States laws and regulations. Australia: Goldman Sachs Australia Pty Ltd and its affiliates are not authorised deposit- taking institutions (as that term is defined in the Banking Act 1959 (Cth) in Australia and do not provide banking services, nor carry on a banking business, in Australia. This research, and any access to it, is intended only for \"wholesale clients\" within the meaning of the Australian Corporations Act, unless otherwise agreed by Goldman Sachs. In producing research reports, members of Global Investment Research of Goldman Sachs Australia may attend site visits and other meetings hosted by the companies and other entities which are the subject of its research reports. In some instances the costs of such site visits or meetings may be met in part or in whole by the issuers concerned if Goldman Sachs Australia considers it is appropriate and reasonable in the specific circumstances relating to the site visit or meeting. To the extent that the contents of this document contains any financial product advice, it is general advice only and has been prepared by Goldman Sachs without taking into account a client's objective, financial situation or needs. A client should, before acting on any such advice, consider the appropriateness of the advice having regard to the client's own objectives, financial situation and needs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests and a copy of Goldman Sachs' Australian Sell- Side Research Independence Policy Statement are available at: https://www.goldmansachs.com/disclosures/australia- new- zealand/index.html. Brazil: Disclosure information in relation to CVM Resolution n. 20 is available at https://www.gs.com/worldwide/brazil/area/gr/index.html. Where applicable, the Brazil- registered analyst primarily responsible for the content of this research report, as defined in Article 20 of CVM Resolution n. 20, is the first author named at the beginning of this report, unless indicated otherwise at the end of the text. Canada: This information is being provided to you for information purposes only and is not, and under no circumstances should be construed as, an advertisement, offering or solicitation by Goldman Sachs & Co. LLC for purchasers of securities in Canada to trade in any Canadian security. Goldman Sachs & Co. LLC is not registered as a dealer in any jurisdiction in Canada under applicable Canadian securities laws and generally is not permitted to trade in Canadian securities and may be prohibited from selling certain securities and products in certain jurisdictions in Canada. If you wish to trade in any Canadian securities or other products in Canada please contact Goldman Sachs Canada Inc., an affiliate of The Goldman Sachs Group Inc., or another registered Canadian dealer. Hong Kong: Further information on the securities of covered companies referred to in this research may be obtained on request from Goldman Sachs (Asia) L.L.C. India: Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (India) Securities Private Limited, Research Analyst - SEBI Registration Number INH000001493, 951- A, Rational House, Appasheeb Marathe Marg, Prabhadevi, Mumbai 400 025, India, Corporate Identity Number U74140MH2006FTC160634, Phone +91 22 6616 9000, Fax +91 22 6616 9001. Goldman Sachs may beneficially own \\(1\\%\\) or more of the securities (as such term is defined in clause 2 (h) the Indian Securities Contracts (Regulation) Act, 1956) of the subject company or companies referred to in this research report. Investment in securities market are subject to market risks. Read all the related documents carefully before investing. Registration granted by SEBI and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Goldman Sachs (India) Securities Private Limited compliance officer and investor grievance contact details can be found at this link: https://publishing.gs.com/disclosures/hedge.html - /general/equity. Japan: See below. Korea: This research, and any access to it, is intended only for \"professional investors\" within the meaning of the Financial Services and Capital Markets Act, unless otherwise agreed by Goldman Sachs. Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (Asia) L.L.C., Seoul Branch. New Zealand: Goldman Sachs New Zealand Limited and its affiliates are neither \"registered banks\" nor \"deposit takers\" (as defined in the Reserve Bank of New Zealand Act 1989) in New Zealand. This research, and any access to it, is intended for \"wholesale clients\" (as defined in the Financial Advisers Act 2008) unless otherwise agreed by Goldman Sachs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests is available at: https://www.goldmansachs.com/disclosures/australia- new- zealand/index.html. Russia: Research reports distributed in the Russian Federation are not advertising as defined in the Russian legislation, but are information and analysis not having product promotion as their main purpose and do not provide appraisal within the meaning of the Russian legislation on appraisal activity. Research reports do not constitute a personalized investment recommendation as defined in Russian laws and regulations, are not addressed to a specific client, and are prepared without analyzing the financial circumstances, investment profiles or risk profiles of clients. Goldman Sachs assumes no responsibility for any investment decisions that may be taken by a client or any other person based on this research report. Singapore: Goldman Sachs (Singapore) Pte. (Company Number: 198602165W), which is regulated by the Monetary Authority of Singapore, accepts legal responsibility for this research, and should be contacted with respect to any matters arising from, or in connection with, this research. Taiwan: This material is for reference only and must not be reprinted without permission. Investors should carefully consider their own investment risk. Investment results are the responsibility of the individual investor. United Kingdom: Persons who would be categorized as retail clients in the United Kingdom, as such term is defined in the rules of the Financial Conduct Authority, should read this research in conjunction with prior Goldman Sachs research on the covered companies referred to herein and should refer to the risk warnings that have been sent to them by Goldman Sachs International. A copy of these risks warnings, and a glossary of certain financial terms used in this report, are available from Goldman Sachs International on request.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "4265ffa80a0d0d04",
+      "text": "European Union and United Kingdom: Disclosure information in relation to Article 6 (2) of the European Commission Delegated Regulation (EU) (2016/958) supplementing Regulation (EU) No 596/2014 of the European Parliament and of the Council (including as that Delegated Regulation is implemented into United Kingdom domestic law and regulation following the United Kingdom's departure from the European Union and the European Economic Area) with regard to regulatory technical standards for the technical arrangements for objective presentation of investment recommendations or other information recommending or suggesting an investment strategy and for disclosure of particular interests or indications of conflicts of interest is available at https://www.gs.com/disclosures/europeanpolicy.html which states the European Policy for Managing Conflicts of Interest in Connection with Investment Research.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "ced9ae66f7f4108b",
+      "text": "Japan: Goldman Sachs Japan Co., Ltd. is a Financial Instrument Dealer registered with the Kanto Financial Bureau under registration number Kinsho 69, and a member of Japan Securities Dealers Association, Financial Futures Association of Japan Type II Financial Instruments Firms Association, The Investment Trusts Association, Japan, and Japan Investment Advisers Association. Sales and purchase of equities are subject to commission pre- determined with clients plus consumption tax. See company- specific disclosures as to any applicable disclosures required by Japanese stock exchanges, the Japanese Securities Dealers Association or the Japanese Securities Finance Company.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "cdfaeef4aacfca82",
+      "text": "Buy (B), Neutral (N), Sell (S) Analysts recommend stocks as Buys or Sells for inclusion on various regional Investment Lists. Being assigned a Buy or Sell on an Investment List is determined by a stock's total return potential relative to its coverage universe. Any stock not assigned as a Buy or a Sell on an Investment List with an active rating (i.e., a stock that is not Rating Suspended, Not Rated, Early- Stage Biotech, Coverage Suspended or Not Covered), is deemed Neutral. Each region manages Regional Conviction Lists, which are selected from Buy rated stocks on the respective region's Investment Lists and represent investment recommendations focused on the size of the total return potential and/or the likelihood of the realization of the return across their respective areas of coverage. The addition or removal of stocks from such Conviction Lists are managed by the Investment Review Committee or other designated committee in each respective region and do not represent a change in the analysts' investment rating for such stocks.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "67d690292c1eb48c",
+      "text": "Total return potential represents the upside or downside differential between the current share price and the price target, including all paid or anticipated dividends, expected during the time horizon associated with the price target. Price targets are required for all covered stocks. The total return potential, price target and associated time horizon are stated in each report adding or reiterating an Investment List membership.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "93fe4e3ebbb5b6d4",
+      "text": "Coverage Universe: A list of all stocks in each coverage universe is available by primary analyst, stock and coverage universe at https://www.gs.com/research/hedge.html.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "efe112fc0228f470",
+      "text": "Not Rated (NR). The investment rating, target price and earnings estimates (where relevant) are removed pursuant to Goldman Sachs policy when",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "b101d10bca590ba4",
+      "text": "Goldman Sachs is acting in an advisory capacity in a merger or in a strategic transaction involving this company, when there are legal, regulatory or policy constraints due to Goldman Sachs' involvement in a transaction, and in certain other circumstances. Early- Stage Biotech (ES). An investment rating and a target price are not assigned pursuant to Goldman Sachs policy which this company neither has a drug, treatment or medical device that has passed a Phase II clinical trial nor a license to distribute a post- Phase II drug, treatment or medical device. Rating Suspended (RS). Goldman Sachs Research has suspended the investment rating and price target for this stock, because there is not a sufficient fundamental basis for determining an investment rating or target price. The previous investment rating and target price, if any, are no longer in effect for this stock and should not be relied upon. Coverage Suspended (CS). Goldman Sachs has suspended coverage of this company. Not Covered (NC). Goldman Sachs does not cover this company.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "0dd8a94d8d040455",
+      "text": "Goldman Sachs International (\"GSI\"), authorised by the Prudential Regulation Authority (\"PRA\") and regulated by the Financial Conduct Authority (\"FCA\") and the PRA, has approved this research in connection with its distribution in the United Kingdom.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "3567e185dbfa9b93",
+      "text": "European Economic Area: GSI, authorised by the PRA and regulated by the FCA and the PRA, disseminates research in the following jurisdictions within the European Economic Area: the Grand Duchy of Luxembourg, Italy, the Kingdom of Belgium, the Kingdom of Denmark, the Kingdom of Norway, the Republic of Finland and the Republic of Ireland; GSI - Succursale de Paris (Paris branch) which is authorised by the French Autorite de controle prudentiel et de resolution (\"ACPR\") and regulated by the Autorite de controle prudentiel et de resolution and the Autorite des marches financiers (\"AMF\") disseminates research in France; GSI - Succursal en Espana (Madrid branch) authorized in Spain by the Comision Nacional del Mercado de Valores disseminates research in the Kingdom of Spain; GSI - Sweden Banklial (Stockholm branch) is authorized by the SFSA as a \"third country branch\" in accordance with Chapter 4, Section 4 of the Swedish Securities and Market Act (Sw. lag (2007:528) om vardepappersmarknaden) disseminates research in the Kingdom of Sweden; Goldman Sachs Bank Europe SE (\"GSBE\") is a credit institution incorporated in Germany and, within the Single Supervisory Mechanism, subject to direct prudential supervision by the European Central Bank and in other respects supervised by German Federal Financial Supervisory Authority (Bundesanstalt fur Finanzdienstleistungsaufsicht, BaFin) and Deutsche Bundesbank and disseminates research in the Federal Republic of Germany and those jurisdictions within the European Economic Area where GSI is not authorised to disseminate research and additionally, GSBE, Copenhagen Branch lial af GSBE, Tyskland, supervised by the Danish Financial Authority disseminates research in the Kingdom of Denmark; GSBE - Succursal en Espana (Madrid branch) subject to a limited extent) to local supervision by the Bank of Spain disseminates research in the Kingdom of Spain; GSBE - Succursale Italia (Milan branch) to the relevant applicable extent, subject to local supervision by the Bank of Italy (Banca d'Italia) and the Italian Companies and Exchange Commission (Commissione Nazionale per le Societa e la Borsa \"Consob\") disseminates research in Italy; GSBE - Succursale de Paris (Paris branch), supervised by the AMF and by the ACPR disseminates research in France; and GSBE - Sweden Banklial (Stockholm branch), to a limited extent, subject to local supervision by the Swedish Financial Supervisory Authority (Finansinspektionen) disseminates research in the Kingdom of Sweden.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "10b5366bbff43eb7",
+      "text": "This research is for our clients only. Other than disclosures relating to Goldman Sachs, this research is based on current public information that we consider reliable, but we do not represent it as accurate or complete, and it should not be relied on as such. The information, opinions, estimates and forecasts contained herein are as of the date hereof and are subject to change without prior notification. We seek to update our research as appropriate, but various regulations may prevent us from doing so. Other than certain industry reports published on a periodic basis, the large majority of reports are published at irregular intervals as appropriate in the analyst's judgment.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "9614edf5620fe2c6",
+      "text": "Goldman Sachs conducts a global full- service, integrated investment banking, investment management, and brokerage business. We have investment banking and other business relationships with a substantial percentage of the companies covered by Global Investment Research. Goldman Sachs & Co. LLC, the United States broker dealer, is a member of SIPC (https://www.sipc.org).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "eb46a606a8922dd6",
+      "text": "Our salespeople, traders, and other professionals may provide oral or written market commentary or trading strategies to our clients and principal trading desks that reflect opinions that are contrary to the opinions expressed in this research. Our asset management area, principal trading desks and investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "6c076d5bab1f22ac",
+      "text": "The analysts named in this report may have from time to time discussed with our clients, including Goldman Sachs salespersons and traders, or may discuss in this report, trading strategies that reference catalysts or events that may have a near- term impact on the market price of the equity securities discussed in this report, which impact may be directionally counter to the analyst's published price target expectations for such stocks. Any such trading strategies are distinct from and do not affect the analyst's fundamental equity rating for such stocks, which rating reflects a stock's return potential relative to its coverage universe as described herein.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "956ee1dd884bd94c",
+      "text": "We and our affiliates, officers, directors, and employees will from time to time have long or short positions in, act as principal in, and buy or sell, the securities or derivatives, if any, referred to in this research, unless otherwise prohibited by regulation or Goldman Sachs policy.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "17ca26a23b5aed47",
+      "text": "The views attributed to third party presenters at Goldman Sachs arranged conferences, including individuals from other parts of Goldman Sachs, do not necessarily reflect those of Global Investment Research and are not an official view of Goldman Sachs.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "44ae8a9841809ea6",
+      "text": "Any third party referenced herein, including any salespeople, traders and other professionals or members of their household, may have positions in the products mentioned that are inconsistent with the views expressed by analysts named in this report.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "08bb41aac15380f4",
+      "text": "This research is not an offer to sell or the solicitation of an offer to buy any security in any jurisdiction where such an offer or solicitation would be illegal. It does not constitute a personal recommendation or take into account the particular investment objectives, financial situations, or needs of individual clients. Clients should consider whether any advice or recommendation in this research is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The price and value of investments referred to in this research and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "5efd25777a232888",
+      "text": "Certain transactions, including those involving futures, options, and other derivatives, give rise to substantial risk and are not suitable for all investors.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "86377a30dfe3c255",
+      "text": "Investors should review current options and futures disclosure documents which are available from Goldman Sachs sales representatives or at https://www.theocc.com/about/publications/character-risks.jsp and https://www.goldmansachs.com/disclosures/cftc from disclosures. Transaction costs may be significant in option strategies calling for multiple purchase and sales of options such as spreads. Supporting documentation will be supplied upon request.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "7414571b4ff41a7f",
+      "text": "Differing Levels of Service provided by Global Investment Research: The level and types of services provided to you by Goldman Sachs Global Investment Research may vary as compared to that provided to internal and other external clients of GS, depending on various factors including your individual preferences as to the frequency and manner of receiving communication, your risk profile and investment focus and perspective (e.g., marketwide, sector specific, long term, short term), the size and scope of your overall client relationship with GS, and legal and regulatory constraints. As an example, certain clients may request to receive notifications when research on specific securities is published, and certain clients may request that specific data underlying analysts' fundamental analysis available on our internal client websites be delivered to them electronically through data feeds or otherwise. No change to an analyst's fundamental research views (e.g., ratings, price targets, or material changes to earnings estimates for equity securities), will be communicated to any client prior to inclusion of such information in a research report broadly disseminated through electronic publication to our internal client websites or through other means, as necessary, to all clients who are entitled to receive such reports.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "e7e5b9c583421ad7",
+      "text": "All research reports are disseminated and available to all clients simultaneously through electronic publication to our internal client websites. Not all research content is redistributed to our clients or available to third- party aggregators, nor is Goldman Sachs responsible for the redistribution of our research by third party aggregators. For research, models or other data related to one or more securities, markets or asset classes (including related services) that may be available to you, please contact your GS representative or go to https://research.gs.com.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "2dbde345ec4b8d9a",
+      "text": "Disclosure information is also available at https://www.gs.com/research/hedge.html or from Research Compliance, 200 West Street, New York, NY 10282.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "7aea8ee37c01772e",
+      "text": "You may not resell or reverse engineer this information to calculate or develop any index for disclosure and/or marketing or create any other derivative works or commercial product(s), data or offering(s) without the express written consent of Goldman Sachs. You are not permitted to publish, transmit, or otherwise reproduce this information, in whole or in part, in any format to any third party without the express written consent of Goldman Sachs. This foregoing restriction includes, without limitation, using, extracting, downloading or retrieving this information, in whole or in part, to train or finetune a machine learning or artificial intelligence system, or to provide or reproduce this information, in whole or in part, as a prompt or input to any such system.",
+      "page": 10,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "2bce5ca674e78280",
+      "name": "AMX Fiber",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c82a98af96415da0",
+      "name": "Accelerates\n\nIn",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "908ae6a41224bd8b",
+      "name": "Appasheeb Marathe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6d4488d766412406",
+      "name": "Australia Pty",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facedae141187a9f",
+      "name": "Australian Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "37943b86af92d90f",
+      "name": "Australian Sell",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "10c4b9fb39db2245",
+      "name": "Bank Europe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "665d58562cca56d1",
+      "name": "Banking Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a265d683627d7d50",
+      "name": "Brazil Market",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "34720bd1ba742938",
+      "name": "Brazil National",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7cf340f0ce82f127",
+      "name": "CVM Resolution",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "13eec11f9f77d58d",
+      "name": "Canada Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dc62425edd02dcb2",
+      "name": "Cash Flow",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "957e6dc08022ce1d",
+      "name": "Comision Nacional",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "958d1b456afc4433",
+      "name": "Commissione Nazionale",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6a2d7663b76398ba",
+      "name": "Company Number",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2d0c8ee124958c0e",
+      "name": "Conviction Lists",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6a07d2a3574e0148",
+      "name": "Copenhagen Branch",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "bar",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 150
+            }
+          }
+        },
+        "series": [
+          {
+            "name": null,
+            "unit": null,
+            "values": [
+              50,
+              50,
+              44,
+              56,
+              53,
+              57,
+              64,
+              52,
+              37,
+              40,
+              37,
+              28,
+              148
+            ]
+          }
+        ],
+        "figure_id": "86b6f8ba965b371e",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -200,
+              "max": 800
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "VIV",
+            "unit": null,
+            "values": [
+              0,
+              182,
+              162,
+              168,
+              73,
+              120,
+              96
+            ]
+          },
+          {
+            "name": "AMX",
+            "unit": null,
+            "values": [
+              79,
+              142,
+              82,
+              360,
+              449,
+              0,
+              246
+            ]
+          },
+          {
+            "name": "TIMB",
+            "unit": null,
+            "values": [
+              0,
+              122,
+              92,
+              105,
+              142,
+              0,
+              125
+            ]
+          },
+          {
+            "name": "Others",
+            "unit": null,
+            "values": [
+              -173,
+              0,
+              -106,
+              437,
+              267,
+              165,
+              213
+            ]
+          }
+        ],
+        "figure_id": "b3ed7ac9d74a9cfb",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 90
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              67,
+              65,
+              60,
+              80,
+              71,
+              69,
+              75,
+              69,
+              68,
+              58,
+              73,
+              70,
+              81
+            ]
+          }
+        ],
+        "figure_id": "2442cbb8ab5f81eb",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 55
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "VIV",
+            "unit": null,
+            "values": [
+              7.0,
+              7.1,
+              7.1,
+              7.2,
+              7.3,
+              7.3,
+              7.4,
+              7.4,
+              7.5,
+              7.5,
+              7.6,
+              7.7,
+              7.7
+            ]
+          },
+          {
+            "name": "AMX",
+            "unit": null,
+            "values": [
+              10.1,
+              10.2,
+              10.2,
+              10.2,
+              10.2,
+              10.2,
+              10.3,
+              10.3,
+              10.4,
+              10.4,
+              10.4,
+              10.4,
+              10.4
+            ]
+          },
+          {
+            "name": "TIMB",
+            "unit": null,
+            "values": [
+              4.6,
+              4.6,
+              4.6,
+              4.5,
+              4.5,
+              4.4,
+              4.3,
+              4.3,
+              4.3,
+              4.2,
+              4.2,
+              4.1,
+              4.1
+            ]
+          },
+          {
+            "name": "Oi",
+            "unit": null,
+            "values": [
+              28.2,
+              28.4,
+              29.5,
+              30.9,
+              29.4,
+              29.7,
+              30.0,
+              30.0,
+              30.1,
+              30.3,
+              29.7,
+              29.9,
+              29.7
+            ]
+          },
+          {
+            "name": "Others",
+            "unit": null,
+            "values": [
+              0.9,
+              0.8,
+              0.7,
+              0.8,
+              0.8,
+              0.9,
+              0.9,
+              0.9,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.9
+            ]
+          },
+          {
+            "name": "Total",
+            "unit": null,
+            "values": [
+              50.8,
+              51.1,
+              52.1,
+              53.6,
+              52.2,
+              52.5,
+              52.9,
+              52.9,
+              53.1,
+              53.2,
+              52.7,
+              52.9,
+              52.8
+            ]
+          }
+        ],
+        "figure_id": "be19a09ef4853848",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2Q24",
+              "Jul-24",
+              "3Q24",
+              "4Q24",
+              "1Q25",
+              "2Q25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "VIV",
+            "unit": "%",
+            "values": [
+              13.8,
+              13.8,
+              13.7,
+              14.0,
+              14.1,
+              14.5,
+              14.7
+            ]
+          },
+          {
+            "name": "AMX",
+            "unit": "%",
+            "values": [
+              20.0,
+              20.0,
+              19.5,
+              19.5,
+              19.5,
+              19.7,
+              19.8
+            ]
+          },
+          {
+            "name": "TIMB",
+            "unit": "%",
+            "values": [
+              9.3,
+              9.1,
+              8.7,
+              8.4,
+              8.0,
+              7.8,
+              7.7
+            ]
+          },
+          {
+            "name": "Oi",
+            "unit": "%",
+            "values": [],
+            "comment": "Data for Oi is not explicitly labeled in the bars, it's likely a very small segment or combined with others."
+          },
+          {
+            "name": "Others",
+            "unit": "%",
+            "values": [
+              55.2,
+              55.5,
+              56.5,
+              56.6,
+              56.8,
+              56.5,
+              56.3
+            ]
+          }
+        ],
+        "figure_id": "c35ce804b7cd4fc9",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-24",
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 12
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Fiber",
+            "unit": null,
+            "values": [
+              1.25,
+              1.21,
+              1.2,
+              1.2,
+              1.14,
+              1.16,
+              1.15,
+              1.12,
+              1.09,
+              1.06,
+              1.05,
+              1.04,
+              1.04,
+              1.04
+            ]
+          },
+          {
+            "name": "Cable",
+            "unit": null,
+            "values": [
+              3.76,
+              3.71,
+              3.63,
+              3.6,
+              3.53,
+              3.51,
+              3.47,
+              3.42,
+              3.37,
+              3.33,
+              3.28,
+              3.22,
+              3.18,
+              3.13
+            ]
+          },
+          {
+            "name": "Satellite",
+            "unit": null,
+            "values": [
+              5.44,
+              5.3,
+              5.16,
+              5.02,
+              4.88,
+              4.77,
+              4.63,
+              4.46,
+              4.37,
+              4.24,
+              4.17,
+              4.1,
+              4.0,
+              3.93
+            ]
+          },
+          {
+            "name": "Others",
+            "unit": null,
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "figure_id": "51bdd92cf9ffeebf",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 120
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "VIV",
+            "unit": null,
+            "values": [
+              47.8,
+              48.0,
+              48.2,
+              48.6,
+              48.8,
+              49.1,
+              49.3,
+              49.5,
+              49.7,
+              49.9,
+              50.2,
+              50.4,
+              50.8
+            ]
+          },
+          {
+            "name": "AMX",
+            "unit": null,
+            "values": [
+              37.9,
+              38.1,
+              38.2,
+              38.4,
+              38.7,
+              38.9,
+              39.2,
+              39.4,
+              39.6,
+              39.8,
+              40.0,
+              40.2,
+              40.4
+            ]
+          },
+          {
+            "name": "TIMB",
+            "unit": null,
+            "values": [
+              23.6,
+              23.8,
+              23.9,
+              24.0,
+              24.1,
+              24.2,
+              24.3,
+              24.4,
+              24.5,
+              24.7,
+              24.9,
+              25.0,
+              25.1
+            ]
+          },
+          {
+            "name": "Others",
+            "unit": null,
+            "values": [
+              1.2,
+              1.2,
+              1.3,
+              1.5,
+              1.6,
+              1.7,
+              1.8,
+              1.9,
+              2.0,
+              2.1,
+              2.2,
+              2.3,
+              2.4
+            ]
+          },
+          {
+            "name": "Total",
+            "unit": null,
+            "values": [
+              110.5,
+              111.1,
+              111.6,
+              112.5,
+              113.2,
+              113.9,
+              114.6,
+              115.2,
+              115.8,
+              116.5,
+              117.3,
+              117.9,
+              118.7
+            ]
+          }
+        ],
+        "figure_id": "155f7dd7c2520824",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -268,
+              "max": 74
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "VIV",
+            "unit": null,
+            "values": [
+              -39,
+              -17,
+              null,
+              -70,
+              -112,
+              -186,
+              -61,
+              -170,
+              -211,
+              -120,
+              -136,
+              -134,
+              -118
+            ]
+          },
+          {
+            "name": "AMX",
+            "unit": null,
+            "values": [
+              -57,
+              -74,
+              -73,
+              -66,
+              -52,
+              -31,
+              -55,
+              null,
+              -68,
+              null,
+              null,
+              -57,
+              -43
+            ]
+          },
+          {
+            "name": "Mileto (*)",
+            "unit": null,
+            "values": [
+              -70,
+              -65,
+              -70,
+              -75,
+              -85,
+              -104,
+              -77,
+              -64,
+              -95,
+              -63,
+              -69,
+              -38,
+              -15
+            ]
+          },
+          {
+            "name": "Sky Brasil",
+            "unit": null,
+            "values": [
+              -60,
+              -61,
+              -55,
+              -55,
+              -44,
+              -48,
+              -53,
+              -27,
+              -53,
+              -51,
+              -55,
+              -50,
+              -56
+            ]
+          },
+          {
+            "name": "Others",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              24,
+              null,
+              74,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          }
+        ],
+        "figure_id": "adff15ec8a230c62",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "VIV",
+            "unit": null,
+            "values": [
+              53,
+              51,
+              48,
+              67,
+              60,
+              58,
+              64,
+              59,
+              57,
+              43,
+              60,
+              62,
+              71
+            ]
+          },
+          {
+            "name": "AMX",
+            "unit": null,
+            "values": [
+              26,
+              20,
+              14,
+              19,
+              31,
+              22,
+              41,
+              40,
+              21,
+              19,
+              22,
+              26,
+              28
+            ]
+          },
+          {
+            "name": "TIMB",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "Oi",
+            "unit": null,
+            "values": [
+              -53,
+              -48,
+              -38,
+              -47,
+              -46,
+              -66,
+              -44,
+              -50,
+              -40,
+              -42,
+              -43,
+              -43,
+              -41
+            ]
+          }
+        ],
+        "figure_id": "6c89f016eba981e3",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-24",
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -1600,
+              "max": 0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              -600,
+              -410,
+              -303,
+              -516,
+              -481,
+              -1005,
+              -1550,
+              -612,
+              -800,
+              -478,
+              -820,
+              -508,
+              -791,
+              -457
+            ]
+          }
+        ],
+        "figure_id": "b82227c0e52f6eb1",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 270
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Postpaid",
+            "unit": null,
+            "values": [
+              155.5,
+              156.7,
+              157.0,
+              158.7,
+              160.1,
+              161.2,
+              161.7,
+              162.8,
+              163.6,
+              165.4,
+              167.1,
+              168.0,
+              169.5
+            ]
+          },
+          {
+            "name": "Prepaid",
+            "unit": null,
+            "values": [
+              106.1,
+              105.8,
+              105.3,
+              104.8,
+              103.8,
+              102.2,
+              101.6,
+              100.8,
+              100.3,
+              99.5,
+              99.0,
+              98.2,
+              97.8
+            ]
+          }
+        ],
+        "figure_id": "054db2e19a78a394",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-24",
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 11
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "VIV",
+            "unit": null,
+            "values": [
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.8,
+              0.7
+            ]
+          },
+          {
+            "name": "AMX",
+            "unit": null,
+            "values": [
+              5.0,
+              5.0,
+              4.9,
+              4.9,
+              4.8,
+              4.8,
+              4.7,
+              4.7,
+              4.6,
+              4.6,
+              4.5,
+              4.5,
+              4.4,
+              4.4
+            ]
+          },
+          {
+            "name": "Mileto (*)",
+            "unit": null,
+            "values": [
+              1.1,
+              1.0,
+              1.0,
+              0.9,
+              0.8,
+              0.8,
+              0.6,
+              0.6,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "name": "Sky Brasil",
+            "unit": null,
+            "values": [
+              3.0,
+              3.0,
+              2.9,
+              2.8,
+              2.8,
+              2.7,
+              2.7,
+              2.6,
+              2.5,
+              2.5,
+              2.4,
+              2.3,
+              2.3,
+              2.2
+            ]
+          },
+          {
+            "name": "Others",
+            "unit": null,
+            "values": [
+              0.6,
+              0.4,
+              0.4,
+              0.4,
+              0.4,
+              0.3,
+              0.5,
+              0.3,
+              0.4,
+              0.2,
+              0.3,
+              0.3,
+              0.2,
+              0.3
+            ]
+          }
+        ],
+        "figure_id": "199592e2dd199731",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "VIV",
+            "unit": "%",
+            "values": [
+              43,
+              34,
+              39,
+              36,
+              34,
+              34,
+              29,
+              32,
+              40,
+              44
+            ]
+          },
+          {
+            "name": "AMX",
+            "unit": "%",
+            "values": [
+              20,
+              41,
+              34,
+              38,
+              37,
+              37,
+              28,
+              26,
+              31,
+              21
+            ]
+          },
+          {
+            "name": "TIMB",
+            "unit": "%",
+            "values": [
+              15,
+              15,
+              17,
+              11,
+              17,
+              15,
+              24,
+              26,
+              14,
+              20
+            ]
+          },
+          {
+            "name": "Others",
+            "unit": "%",
+            "values": [
+              22,
+              10,
+              10,
+              15,
+              13,
+              15,
+              19,
+              16,
+              15,
+              15
+            ]
+          }
+        ],
+        "figure_id": "1a3dc1a050a99fa8",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -1550,
+              "max": 1414
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Postpaid non-M2M",
+            "unit": null,
+            "values": [
+              726,
+              584,
+              499,
+              881,
+              780,
+              630,
+              688,
+              611,
+              649,
+              691,
+              771,
+              610,
+              801
+            ]
+          },
+          {
+            "name": "M2M",
+            "unit": null,
+            "values": [
+              1098,
+              608,
+              153,
+              796,
+              610,
+              484,
+              149,
+              415,
+              230,
+              1070,
+              904,
+              335,
+              681
+            ]
+          },
+          {
+            "name": "Prepaid",
+            "unit": null,
+            "values": [
+              -410,
+              -303,
+              -516,
+              -481,
+              -1005,
+              -1550,
+              -612,
+              -800,
+              -478,
+              -820,
+              -508,
+              -791,
+              -457
+            ]
+          },
+          {
+            "name": "Total",
+            "unit": null,
+            "values": [
+              1414,
+              889,
+              -169,
+              1195,
+              385,
+              -436,
+              -73,
+              226,
+              400,
+              941,
+              1168,
+              154,
+              1025
+            ]
+          }
+        ],
+        "figure_id": "eaf471287a12204e",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 900
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "VIV",
+            "unit": null,
+            "values": [
+              363,
+              188,
+              222,
+              383,
+              263,
+              248,
+              249,
+              205,
+              218,
+              197,
+              248,
+              244,
+              352
+            ]
+          },
+          {
+            "name": "AMX",
+            "unit": null,
+            "values": [
+              105,
+              192,
+              73,
+              172,
+              322,
+              213,
+              259,
+              224,
+              240,
+              194,
+              200,
+              190,
+              170
+            ]
+          },
+          {
+            "name": "TIMB",
+            "unit": null,
+            "values": [
+              182,
+              125,
+              121,
+              130,
+              120,
+              108,
+              75,
+              103,
+              97,
+              167,
+              198,
+              85,
+              159
+            ]
+          },
+          {
+            "name": "Others",
+            "unit": null,
+            "values": [
+              76,
+              79,
+              83,
+              196,
+              75,
+              61,
+              106,
+              79,
+              94,
+              132,
+              125,
+              91,
+              120
+            ]
+          }
+        ],
+        "figure_id": "f6bae74795565a39",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2Q24",
+              "Jul-24",
+              "3Q24",
+              "4Q24",
+              "1Q25",
+              "2Q25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "VIV",
+            "unit": "%",
+            "values": [
+              7.8,
+              7.9,
+              8.1,
+              8.5,
+              8.9,
+              9.2,
+              9.2
+            ]
+          },
+          {
+            "name": "AMX",
+            "unit": "%",
+            "values": [
+              48.3,
+              48.8,
+              49.6,
+              51.1,
+              53.0,
+              53.6,
+              53.7
+            ]
+          },
+          {
+            "name": "Mileto (*)",
+            "unit": "%",
+            "values": [
+              10.7,
+              10.3,
+              9.3,
+              7.0,
+              5.2,
+              5.0,
+              4.9
+            ]
+          },
+          {
+            "name": "Sky Brasil",
+            "unit": "%",
+            "values": [
+              28.9,
+              29.0,
+              28.7,
+              28.8,
+              28.8,
+              27.8,
+              27.7
+            ]
+          },
+          {
+            "name": "Others",
+            "unit": "%",
+            "values": [
+              4.3,
+              4.0,
+              4.3,
+              4.6,
+              4.1,
+              4.4,
+              4.4
+            ]
+          }
+        ],
+        "figure_id": "a0757925ffe5f51e",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2Q24",
+              "Jul-24",
+              "3Q24",
+              "4Q24",
+              "1Q25",
+              "2Q25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": null,
+            "unit": "%",
+            "values": [
+              15.3,
+              15.8,
+              16.7,
+              18.2,
+              19.5,
+              20.3,
+              21.7
+            ]
+          }
+        ],
+        "figure_id": "0be3e38aac42b637",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 140
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "BRIT",
+            "unit": null,
+            "values": [
+              38.0,
+              41.6,
+              34.4,
+              43.4,
+              35.2,
+              31.6,
+              43.5
+            ]
+          },
+          {
+            "name": "Surf Telecom",
+            "unit": null,
+            "values": [
+              53.7,
+              26.7,
+              36.8,
+              64.1,
+              35.7,
+              27.1,
+              41.1
+            ]
+          },
+          {
+            "name": "FIQE",
+            "unit": null,
+            "values": [
+              10.6,
+              10.1,
+              13.7,
+              8.5,
+              12.5,
+              14.8,
+              13.8
+            ]
+          },
+          {
+            "name": "Vero Americanet",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              12.0,
+              15.0
+            ]
+          },
+          {
+            "name": "Algar",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              7.4,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "Others",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              null,
+              12.5,
+              35.9,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "Total",
+            "unit": null,
+            "values": [
+              105.7,
+              79.0,
+              94.5,
+              132.3,
+              125.0,
+              91.0,
+              120.3
+            ]
+          }
+        ],
+        "figure_id": "6725d9f88bc16b48",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": null,
+              "max": null
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "VIV",
+            "unit": null,
+            "values": [
+              -222,
+              -315,
+              -305,
+              -376,
+              -265,
+              -350,
+              -245
+            ]
+          },
+          {
+            "name": "AMX",
+            "unit": null,
+            "values": [
+              -195,
+              -174,
+              -176,
+              -144,
+              -168,
+              -259,
+              -131
+            ]
+          },
+          {
+            "name": "TIMB",
+            "unit": null,
+            "values": [
+              -202,
+              -347,
+              -478,
+              -314,
+              -82,
+              -194,
+              -96
+            ]
+          },
+          {
+            "name": "Others",
+            "unit": null,
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "Total",
+            "unit": null,
+            "values": [
+              -612,
+              -800,
+              -959,
+              -834,
+              -515,
+              -803,
+              -472
+            ]
+          }
+        ],
+        "figure_id": "72333a570db110de",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "86ec69db048a6c83",
+        "value": 0.20600000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "n higher- competition neighborhoods/cities). Pay- TV: Cord- cutting continues (total subscribers - 20.6% y/y in July), with the rate of subscriber- base decline being slightly slower than in previous ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ec46340a627f25b1",
+        "value": 0.213,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "(- 21.3% in Nov and - 22.0% in Oct). Since June, the regulator re- included data for Mileto Tecnologia (form",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "47408636c35c5a79",
+        "value": 0.22,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "(- 21.3% in Nov and - 22.0% in Oct). Since June, the regulator re- included data for Mileto Tecnologia (former Oi's pay- TV acq",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "800629d1869a32c6",
+        "value": 0.44,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Global Investment Research </center> ## Exhibit 8: VIV leads in terms of postpaid share-of-adds (\\~44% of total-market net adds)... Non- M2M postpaid MoM net additions, by operator, over the total net",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "43f402487c733080",
+        "value": -0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "xhibit 16: Consistent with the cord-cutting trend, the pay-TV subscriber base continues to decline (-21% y/y)... Pay-TV subscribers per operator (mn) ![Figure 6-0](images/6_0.jpg) <center>Exhibit 16: ",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "43f402487c733080",
+        "value": -0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "xhibit 16: Consistent with the cord-cutting trend, the pay-TV subscriber base continues to decline (-21% y/y)... </center> (*) represents former OIBR subscribers, which were acquired by Mileto in Jan ",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "2e8af521d1c7c95d",
+        "value": -0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "oldman Sachs Global Investment Research ## Exhibit 19: Cable technology accelerated its decline to -1.6% m/m, driven by reductions in satellite and cable Pay-TV subscribers by access technology (mn) !",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "ba35576de5dce8a7",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "percentile is calculated as the average of the Growth percentile, Financial Returns percentile and (100% - Multiple percentile). Financial Returns and Multiple use the Goldman Sachs analyst forecasts ",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "34154709a1fd3af3",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ank as a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "f534185f980b27af",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) pro",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "018fcb6cffcc2c5b",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "g high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in ",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "e9fe225386054630",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "h (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line ",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "662a784b5be7fc38",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ecoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "1f8cb357e831f4c8",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ing an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines we ",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "30cc0e1bac1119ca",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "quired as to companies referred to in this report: manager or co- manager in a pending transaction; 1% or other ownership; compensation for certain services; types of client relationships; managed/co-",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 19,
+      "tables_count": 0,
+      "numerical_data_count": 15,
+      "passages_count": 83,
+      "entities_count": 20
+    }
+  }
+}

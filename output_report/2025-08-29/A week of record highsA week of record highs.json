@@ -1,0 +1,4631 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "d6dd315404ba2c135479dfc6c53a6946",
+    "title": "Latam Equity Quant",
+    "source_uri": "2025-08-29/A week of record highsA week of record highs_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T23:53:05.227222",
+      "extracted_at": "2025-10-26T23:53:05.227228"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 17,
+        "successful_pages": 17,
+        "date": "2025-08-29",
+        "publication": "2025-08-29",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 4,
+          "reduction_ratio": 0.048092721136088645
+        },
+        "input_relative_path": "2025-08-29"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "77491387fffd7787",
+      "text": "Key takeaways- LatAm markets reached record highs this week. Ibovespa outperformed LatAm and global markets.- We continue to see outflows from Brazil equity funds, but it is slowing down. Last week we saw R\\\\(0.8bn in outflows.- B3 announced its last Ibov preview. As expected, C&A and Curry will be included, while Sao Martinho and Petz were removed.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1b0cdfc8ebf8f368",
+      "text": "Performance of the week (USD total returns): Ibovespa \\(+2.6\\%\\) vs Mexico \\(- 0.4\\%\\) SPX \\(+0.5\\%\\) EM- \\(0.4\\%\\) . Many LatAm markets reached record highs this week. Yesterday, Ibovespa reached 142k (intraday) and IPSA (Chile) reached 8.9k. BLV (Peru) reached 34.6k on \\(26^{\\mathrm{th}}\\) , IPSA (Chile). Last week on Aug \\(22^{\\mathrm{nd}}\\) , Colcap (Colombia) reached new time highs at 1.9k and Mexico touched 59k. The S&P500 also reached new highs on Aug \\(28^{\\mathrm{th}}\\) .",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3368a7eec4fcc466",
+      "text": "LatAm markets rallied YTD \\((+32\\%)\\) , USD total return) as well as many emergent markets mainly given depressed valuations and currencies last year (see our thematic: LatAm thrives in EM comeback). In fact, MSCI EM reached its highest point since Feb- 21 (and if we consider total returns, it would also be at all- time highs this week).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1090e77890a62175",
+      "text": "Valuation update in LatAm after 2025 rally: Brazil (ex- commodities) trading at only \\(7\\%\\) discount vs historicals (12m fwd P/E), Chile trading at an \\(11\\%\\) discount, Mexico trading at a \\(15\\%\\) discount, Peru trading at a \\(21\\%\\) discount and Colombia trading at a \\(34\\%\\) discount (see our valuation table in Exhibit 7).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2621c90ee906e167",
+      "text": "US\\\\$0.9bn outflows from EM (ex- China and Taiwan) funds this week. YTD, these funds had US\\\\$19bn inflows, which compares to US\\\\$23bn outflows in 2024 (Exhibit 15).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "295d523469b683db",
+      "text": "Outflows from local equity funds in Brazil slowing down. R\\\\(0.8bn outflows from Brazil local equity funds. In the first half of 2025, we saw R\\)1.3bn outflows from BZ equity funds on average. See Exhibit 9. Almost all inflows that BZ equity funds received from 2018 to 2021 (close to R\\)23.0bn inflows), were drained since Sep- 2021 (close to - R\\\\$220bn, see Exhibit 8).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2b40059ea9e2b628",
+      "text": "Ibovespa preview: Yesterday, B3 announced its final official preview for the Ibovespa index. Changes will be effective Monday, Sep 1st. B3 announced that C&A Modas (CEAB3) will be included, and Petz (PETZ3) will be removed. Curry (CURY3) will also be included, and Sao Martinho (SMTO3) will be removed, as was previously announced in the 2nd preview.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "494301db9cb536bf",
+      "text": "Trading ideas and investment strategies discussed herein may give rise to significant risk and are not suitable for all investors. Investors should have experience in relevant markets and the financial resources to absorb any losses arising from applying these ideas or strategies.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d7f27cf5e360574e",
+      "text": "Refer to \"Other Important Disclosures\" for information on certain BofA Securities entities that take responsibility for the information herein in particular jurisdictions.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c9d110fffa42984b",
+      "text": "BofA Securities does and seeks to do business with issuers covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. Refer to important disclosures on page 15 to 17.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "cf899e73c92dec06",
+      "text": "Investment Strategy Latin America",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "29d1fb85de9b6e05",
+      "text": "Earnings Revision Ratio = #Up Revisions / #Down Revisions. LatAm 3-month ERR at 0.9 Sector details in Exhibit 25.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f9ddd7d6876bed69",
+      "text": "LatAm countriesJun-25Jul-25Argentina1.01.1Brazil0.90.9Chile1.21.3Colombia1.01.4Mexico0.80.8Peru1.01.8LatAm0.90.9",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "05b793250359236b",
+      "text": "Source: BofA Global Research, Factset, Bloomberg BofA GLOBAL RESEARCH",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "10acd5b5948ea5db",
+      "text": "B3 = Brazil Local Exchange FMS = Fund Manager Survey FIN = Financials MX = Mexico BZ = Brazil UTI = Utilities",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0f64dab301e7fe73",
+      "text": "**Exhibit 2: Ibovespa is trading at 1 std. Dev discount vs historicals**\nIbovespa P/E ratio (12m fwd) since 2016.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "023f081baa25afc6",
+      "text": "*Historical data since 2010\nSource: BofA Global Research, Bloomberg",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "bbf3351593f4f59b",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ea95c204ded85893",
+      "text": "**Exhibit 4: Mexbol Trading at 1 std. Dev discount vs historicals**\nMexbol P/E ratio (12m fwd) since 2016.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8d8934c78c7be71c",
+      "text": "*Historical data since 2010\nSource: BofA Global Research, Bloomberg",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8199ddd1c968dbef",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d6ebfad15ddc916b",
+      "text": "**Exhibit 6: Colombia Trading at 1 std. Dev discount vs historicals**\ndespite strong performance YTD\nColap P/E ratio (12m fwd) since 2016*",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a82599ad2b8f3005",
+      "text": "*Historical data since 2010.\nSource: BofA Global Research, Bloomberg",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b88916a54dd8361d",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "29c1c5b831133c4a",
+      "text": "**Exhibit 3: Ibovespa ex- commodities trading at 7% discount vs historicals**",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "2004ee99d602ad99",
+      "text": "Ibovespa P/E ratio (12m fwd, sector adjusted ex. commodities) since 2016.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "cf6a13cde00ce540",
+      "text": "Note: Sector weights were adjusted and kept constant through time. Historical data since 2010.\nSource: BofA Global Research, Bloomberg",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ed3e40d2552d785c",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e016bd6d7b6066f3",
+      "text": "**Exhibit 5: Chile is trading at more than 10% discount vs hist, despite strong performance YTD**\nIPSA P/E ratio (12m fwd) since 2016",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a03194bad6fe56b5",
+      "text": "*Historical data since 2010\nSource: BofA Global Research, Bloomberg",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "c3931c2e89efeca1",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "1a12c1faa9b7d756",
+      "text": "**Exhibit 7: All LatAm markets trade at a discount to hist. Largest discount found in Colombia (>30% discount to hist.)**\nLatAm valuation summary (P/E ratio 12m fwd)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "cdb8b1e6f938fa05",
+      "text": "CountryIndexCurrentAverageStd. DevPrem. to HistPrem. to EM*BrazilIbov8.410.62.1-21%-34%BZ Ex-commod.10.311.11.3-7%-21%MexicoMexbol12.114.21.1-15%-8%ChileIpsa11.613.11.3-11%-11%PeruSPBLPGPT10.313.16.4-21%-7%ColombiaColcap7.711.72.2-34%-52%ArgentinaMerval7.210.44.4-31%-44%EMMXEF13.211.51.015%-",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "fcee84a48c65f2c3",
+      "text": "*Historical data since 2010",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "2c695b230ec8dbcb",
+      "text": "Source: BofA Global Research, Bloomberg",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "cab7c8d98c30d724",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9f4240fa10d24a6d",
+      "text": "Exhibit 8: We continue to see outflows from equity and mult market funds in Brazil (outflows YTD already surpassed 2024 levels) Flows into Brazil local fixed income, equity funds and local mult market (hedge) funds (Accumulated data since Jan/2018)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1d8432abda474d7c",
+      "text": "Source:BofAGlobal Research,Economatica",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "61b2cba2098bf2a5",
+      "text": "Exhibit 9: We continue to see outflows from equity and multimarket funds in Brazil (outflows YTD already surpassed 2024 levels) Equity and Multmarket funds weekly flows (R\\$mn) (Brazil local funds)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0650310b20339f75",
+      "text": "Fund type (R$ mn)27-1-15-22-29-AUMJun4-Jul11-Jul18-Jul25-JulAug8-AugAugAugAugAug*202520242023Free Portfolio241,432-585-1,421-302-130-338-605-46-120-436-384-24,942-13,758-35,568Closed-end Funds106,63990340520258-12-280-4533,098373Index Enhanced25,215-584-343-37-59-15-103-575-140-111-2-7,265-7,120-11,081Value / Growth9,847-29-155-20-366-404-11-9-120-2-2,721-4,429-4,634FMP - FGTS11,326-17-21-18-20-18-15-16-29-22-5-700-1,339-1,269Dividends10,8177-12173-294-678-591177-1,660-748-2,658Sector16,545-11-10-11-21-10-11-21-11-10-72-771-878420Indexed9,863-13-2213-128013-68-44-107-1,225-654-2,045Small Caps4,326-19-74-15-7-45-8-11-6-150-14-1,037-957-453Single Stocks7,634-58-24-29-32-34-49-4-35-23-17-811-1,035-967Sustainability / Governance105000-3000000110Foreign Investments238,84984174-180-42-158-52-1-123-2990-2,61017,80021,794Equity Funds (Total)682,596-1,136-2,014-487-921-1,101-765-670-547-847-506-44,194-10,019-36,088Equity Funds (Total ex. Foreign Invest.)325,783-1,292-2,170-329-911-925-699-711-382-768-591-40,430-29,578-56,986Free Portfolio794,819-2,3704,335-2,032-931-31544-824299-2,344-175-41,847-99,978-36,493Foreign Investments742,5402,6751,2313,795-5,0591,0973,486-115-6664,755-124-5,865-185,163-69,450Macro124,839638-691-575-292-548-130-397-2-554-278-36,331-74,226-61,875Dynamic29,569-7-106-168-87-11-100-75-539-164-9-4,617-8,330-7,210Specific Strategy78,365-13270-106-1,010-80-1703-1186827-1,00212,5992,110Long/Short Directional3,720-12-26209-16-5-1-6-4-31-1,570-2,490-2,555Balanced / Mixed8,208-180-3-8-4-68-3-2-12-6-3,741-462-1,065Trading3,282-123-412-5110-101-34-331-625Long/Short Neutral1,953-113317-111-77135-290-520-381Protected Capital54200-42-28-9-15-834115-151-20673Multimarket Funds (Total)1,787,8368815,028887-7,3781093,056-1,500-1,0221,759-584-95,447-359,106-177,471Multimarket Funds (Total ex. Foreign Invest.)1,045,297-1,7943,797-2,908-2,318-988-431-1,385-355-2,997-461-89,582-173,943-108,022",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9eba588218d3e13b",
+      "text": "Source: Economatica \\\\*Preliminary data, up to Wednesday",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "07b6d75d0efbb986",
+      "text": "Exhibit 10:We saw about R\\\\$5124 in inflows into Brazil fixed income funds Fxed Income funds weekly flows (R\\\\$bn) (Brazil local funds)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e846ce48328f0ad9",
+      "text": "Fund typeAUM1-Aug8-Aug15-Aug22-Aug29-Aug*YTDShort Duration Inv. Grade1,3170.9-0.72.33.6-4.43.7Short Duration Sovereign1,078-25.49.9-2.7-35.54.186.5All Duration Credit7786.06.83.53.32.066.5All Duration Inv. Grade8831.8-3.05.22.5-2.5-23.1All Duration Sovereign263-2.4-0.84.0-1.01.12.5Simple414-15.13.813.3-6.50.8-11.7Other646-1.51.81.00.10.06.4Fixed Income (Total)5,350-361926-341124Ex. Foreign Invest.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1dc69fe7a9e8b216",
+      "text": "Source:Economatica \\\\*Preliminary data, up to Tuesday",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4f6ddc74ec2d1eb9",
+      "text": "Exhibit 11: We saw roughly R\\\\$2bn avg/month foreign inflows into B3 YTD, mostly into cash equities. No IPO activity in the last 12m. Foreign flows into Brazil local exchange in last 12m (R\\\\$bn)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "fb13632f9629af91",
+      "text": "Source:Neway, BofA Global Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "9b915d5307fa7566",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e40d15a63470e789",
+      "text": "Exhibit 12: We saw roughly R\\\\$2bn avg/month foreign inflows into B3 YTD, mostly into cash equities. No IPO activity in the last 12m. Foreign flows into Brazil local exchange in last 12m (R\\\\$bn)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "31fb9fe9491c99a8",
+      "text": "MonthCashFuturesIPO/follow-onTOTALAug-241012023Sep-24-2-40-6Oct-24-3200Nov-24-3401Dec-241-30-2Jan-2575011Feb-251-110-10Mar-253609Apr-250303May-25110011Jun-255-500Jul-25-6-80-142025 YTD21-911112m253128",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "04d86e5a6f121354",
+      "text": "Source:Neway, BofA Global Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a8aa0c67219cb767",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ab4cd7607e3d5547",
+      "text": "Exhibit 13: We saw roughly R52bn avg/month foreign inflows into B3 YTD, mostly into cash equities. No IPO activity YTDForeign flows into Brazil local exchange YTD (R5bn, YTD accumulated).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "daabe2653c9f2081",
+      "text": "Source: Neoway, BofA Global Research",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "05ed3cd22ed11850",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f62de0ce680fdbe9",
+      "text": "Exhibit 14: Global funds dedicated to LatAm have US\\\\$2bn inflows YTD. Brazil had close to US\\\\$0.6bn inflows YTD while Mexico had close to US\\\\$0.4bn inflows YTDFlows to global funds dedicated to LatAm (Accumulated inflows, US\\\\$bn, since Jan- 18)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "fce8d06e435e0f05",
+      "text": "Global funds dedicated to LatAm have US\\\\$2bn inflows YTD.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5c75b2ae75a28fb5",
+      "text": "Region% Current% CurrentWeekAssetsWeeksAssetsLatAm360.3%20.0%Brazil(19)-0.1%(172)-1.2%Mexico(9)-0.1%(106)-1.2%Andean290.7%541.3%LatAmTotal300.1%(273)-0.7%China3,9360.2%3,0880.1%EM Ex-China(906)0.0%(4,327)-0.2%EM Total3,0300.1%(1,239)-0.1%",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3f08505a4f0070ce",
+      "text": "Cumulative flows into EM equity funds (US\\\\$bn), 2018- 2025",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "09abdb6babf42ffe",
+      "text": "Exhibit 17: Cash levels in our LatAm Fund Manager Survey declined to \\(6.2\\%\\) in Aug- 25 FMS average cash position",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "cda7b0bfff349db7",
+      "text": "Source: LatAm Fund Manager Survey",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5c317c7bdb530a0b",
+      "text": "Exhibit 18: Participants in our LatAm Fund Manager Survey are more overweight financials, utilities, consumer staples and industrials than they are underweight.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "43b6391c7ca970e1",
+      "text": "FMS: Which sectors among equities are you most underweight?",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "757ef1039b597062",
+      "text": "Source: LatAm Fund Manager Survey",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "14825db9ae57c749",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c2faadb89520fd30",
+      "text": "Exhibit 19: NI 2025 expectations are trending downwards, now expected at \\(- 4\\%\\) YoY Brazil domestic industries (ex- banks). Revenues 2025 expectations increased from \\(10\\%\\) in Jan- 24 to roughly \\(15\\%\\) today. Revenues vs NI consensus estimates (2025E YoY growth) for Brazil domestic industries ex- banks",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "01b16a848e0f851e",
+      "text": "Consensus estimates. Source: Bloomberg, BofA Global Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "15afd55cf1baa535",
+      "text": "Exhibit 20: Brazil Banks: downward revisions YTD. NI 2025 expected at - \\(4\\%\\) YoY while revenues expected at \\(8\\%\\) YoY. BZ large banks revenues vs NI consensus estimates (2025 YoY growth).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e276e7abc64e5291",
+      "text": "Consensus estimates. Source: Bloomberg, BofA Global Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "08eeaf06d0f3a426",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "d3415d806fd52779",
+      "text": "The Earnings Revision Ratio measures the number of revisions for which the consensus EPS estimate has risen versus the number for which it has fallen.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7df405091ade77ba",
+      "text": "An ERR above 1 means more upwards revisions than downwards revisions. However, historically analysts tend to start overly optimistic and do more downwards revisions down the line. As a result, the overall historical average of the 3- month ERR is close to 0.8",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "a32deec4e421693d",
+      "text": "Exhibit 22: LatAm 3-month ERR below 1.0 YTD. LatAm Earnings Revision Ratio",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "743ad7ce05eb462e",
+      "text": "Source:BofA Global Research,Factset, Bloomberg",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8c13c5beb60c9dcb",
+      "text": "Exhibit 24: Brazil Earnings Revision Ratio Brazil 3-month ERR at 0.9 in Jul-25",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8aaf90d0381bf81a",
+      "text": "Source:BofA Global Research,Factset, Bloomberg",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0541c5f108166c61",
+      "text": "LatAm countries12m AvgMay-25Jun-25Jul-251M Chg in 3M ERRArgentina1.21.11.01.10.09Brazil0.80.90.90.90.03Chile1.11.01.21.30.04Colombia0.90.81.01.40.38Mexico1.00.70.80.80.07Peru1.21.01.01.80.79LatAm0.90.80.90.90.07",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "185ae534daad5f13",
+      "text": "Source:BofA Global Research,Factset, Bloomberg",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "2526fb60716afeda",
+      "text": "Source:BofA Global Research,Factset, Bloomberg",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "a637ed865e84190f",
+      "text": "LatAm sectors12m AvgMay-25Jun-25Jul-251M Chg in 3M ERRC.Discretionary1.00.91.11.10.01C.Staples0.80.60.60.5-0.13Energy0.70.60.61.00.40Financials1.61.61.61.3-0.27Health Care0.60.50.71.00.35Industrials0.90.60.70.80.12IT1.01.00.91.30.43Materials0.80.91.01.00.02Real Estate1.61.91.51.4-0.04Communication0.70.60.80.90.06Utilities0.90.60.70.90.26LatAm0.90.80.90.90.07",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "444181a2cc7265b3",
+      "text": "Source:BofA Global Research,Factset, Bloomberg",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7e9fdfb65a3b2287",
+      "text": "Brazil 3- month ERR - sector details",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "712fa8aeff2edc12",
+      "text": "Source:BofA Global Research,Factset, Bloomberg",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c35475b06b58e934",
+      "text": "Brazil sectors12m AvgMay-25Jun-25Jul-251M Chg in 3M ERRC.Discretionary1.01.11.31.1-0.18C.Staples0.80.70.80.6-0.12Energy0.70.70.61.10.45Financials1.41.51.41.3-0.08Health Care0.60.50.71.10.43Industrials0.70.60.50.60.04IT0.90.70.50.4-0.08Materials0.71.00.90.9-0.03Real Estate2.51.72.72.6-0.14Communication1.00.71.10.9-0.19Utilities0.80.60.60.70.11Brazil0.80.90.90.90.03",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "fc2a316e3fb244be",
+      "text": "Source:BofA Global Research,Factset, Bloomberg",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c54a481fe3b859ee",
+      "text": "Exhibit 26: Mexico 3-month close to ERR at 0.8 in Jul-25 Mexico Earnings Revision Ratio",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "942b5e2cdb1ddb1e",
+      "text": "Source: BofA Global Research, Factset, Bloomberg",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "ea283c39c1f5d417",
+      "text": "The Earnings Revision Ratio (ERR) is calculated as follows: ERR = #Up Revisions / #Down Revisions, where:",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "21c0fee8c5bd426c",
+      "text": "We look at 1- Month and 3- Month ERRs; the former may anticipate market turns, while the latter is less volatile. Each company may contribute more than once as the total number of analyst revisions are considered. A company covered by several analysts will have a higher weight in the ratio.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "dcd619f8f6df8ea9",
+      "text": "The considered universe is composed of all companies within our current LatAm Coverage countries (Argentina, Brazil, Chile, Colombia, Mexico and Peru). A company will be included in the sample if at least one of the following variables is listed as one of said countries: country of risk, country of incorporation, country of registration, country of Headquarters, and country of top revenue. Panama's Copa Holdings is the only exception to the rule and was also added to the sample.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "eabfdc85b0e487a3",
+      "text": "Exhibit 27: Financials has the highest ERR in Mexico (1.0). Mexico 3-month ERR - sector details",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "1198bd2f038ba63e",
+      "text": "Mexico sectors12m AvgMay-25Jun-25Jul-251M Chg in 3M ERRC Discretionary0.60.40.40.90.53C Staples0.70.40.30.3-0.06EnergyNANANANANAFinancials1.91.71.81.0-0.76Health CareNANANANANAIndustrials1.00.60.70.90.21ITNANANANANAMaterials1.01.01.00.9-0.13Real Estate1.41.00.60.60.10Communication0.60.70.70.90.21UtilitiesNANANANANAMexico1.00.70.80.80.07",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "48743cfb423f65ae",
+      "text": "Source: BofA Global Research, Factset, Bloomberg",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "88d927bd621ab867",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "25ac6d9e8afdb60e",
+      "text": "**Exhibit 28: Value screen** Many commodities and utilities names in this screen",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "2ac70579ec779f9c",
+      "text": "CompanyCountryIndustryBofAP/ENet30D Performance (local cncy)YTD Performance (local cncy)B6G TickerTicker2025E2026EDebt/EBITDAPampa energiaARElectric UtilitiesPAM USPAM8.41.41.4-12%-26%Petrobras PNBZOilsPETR4 BZPTRBF3.43.91.3-2%-9%Metalurgica GerdauBZSteelsGOAUL BZMZGPF7.54.51.22%-5%CyrelaBZHomebuildersCYRE3 BZXCBMF6.15.30.715%78%LOMAARBuilding MaterialsLOMA USLOMA9.05.51.5-22%-24%Liverpool PuertoMXRetailing-Broadline/Department StoresLIVEPOLIC MMELPQF5.95.51.4-2%-6%Central PuertoARElectric UtilitiesCEPU USCEPU6.75.70.5-13%-29%Vale ONBZNon-Ferrous-MiningVALE3 BZVALEF5.95.70.96%11%CopaCOAirlinesCPA USCPA7.36.61.07%43%Vista EnergyAROil &amp; Gas ProducersVIST USVIST7.76.61.8-14%-29%GerdauBZSteelsGGBR4 BZGGBUF8.77.21.21%-4%DirecionalBZHomebuildersDIRR3 BZDRCHF8.37.4-0.219%92%AzzasBZFootwearAZZA3 BZXARZF8.87.71.8-2%20%AfyaBZEducation &amp; Training ServicesAFYA USAFYA9.47.91.97%-1%TerniumMXSteelsTX USTX10.78.0-0.64%19%SaneparBZWater UtilitiesSAPR11 BZXJALF6.98.11.71%35%CemigBZElectric UtilitiesCMIG4 BZCEMCF8.08.41.47%11%VivaraBZRetailing-SpecialtyVIVA3 BZXUVZF10.89.41.117%60%Grupo Cementos ChihuahuaMXBuilding MaterialsGCC* MMGCWOF10.49.6-0.4-2%-6%Lojas RennerBZRetailing-Broadline/Department StoresLREN3 BZLORPF10.99.70.4-1%38%Median2%5%",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "df090396111b3a9b",
+      "text": "**Source:** BofA Global Research, Bloomberg",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "4544324e92f27318",
+      "text": "Stocks are selected from our LatAm universe of coverage regardless of the rating. Stocks must have at least 5y of trading. Screen criteria: Mkt Cap>US$1bn. 2025E and 2026E fwd P/E ratio below MSCI LatAm median P/E. Net Debt/EBITDA CompanyCountryIndustryBofAP/EDiv. Yield30D Performance (localYTD Performance (localB6G TickerTicker2025E2025Ecncy)cncy)Auren EnergiaBZElectric UtilitiesAURE3 BZXZMF233.02%16%25%Mercado LibreBZInternet/e-CommerceMELI USMELI37.20%4%41%TOTVSBZServer &amp; Enterprise SoftwareTOTS3 BZXBEGF24.31%0%64%WEGBZIndustrials/Multi-IndustryWEGE3 BZWGSEF21.52%3%-27%EmbraerBZAerospaceERJ USERJ20.01%14%49%Raia DragosilBZDrug Store ChainsRADL3 BZRIAIF19.82%36%-12%EnevaBZElectric UtilitiesENEV3 BZXZUMF18.81%13%59%FalabellaCLRetailing-Broadline/Department StoresFALAB CIXDYFF17.31%19%62%BimboMXBakersBIMBOA MMGRBMF16.42%3%7%ChedrauiMXSupermarkets/Food RetailersCHDRAUIB MMGCHEF15.21%1%22%AlseaMXRestaurantsALSEA* MMALSSF14.71%-1%21%PARAUCOCLReal Estate/PropertyPARAUCO CIXNNJF13.92%11%41%SQMCLFertilizersSQM USSQM13.92%18%27%EnergisaBZUtilities-OtherENGI11 BZXLXGF13.83%10%46%MotivaBZToll Road OperatorsMOTV3 BZCDCRF12.52%19%46%SABESPBZElectric UtilitiesSBSP3 BZCSBJF12.42%13%42%COPECCLPaper ProductsCOPEC CIPZDCF12.33%15%24%EquatorialBZElectric UtilitiesEQTL3 BZXKERF12.32%9%41%CencosudCLRetailing-Broadline/General MerchandisersCENCOSUD CIXCSCF12.22%5%39%CuervoMXSpirits, Wines &amp; CidersCUERVO* MMBCCLF12.12%-10%-6%Median11%40%",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "32a66e0436e3fe1c",
+      "text": "**Source:** BofA Global Research, Bloomberg",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "ec13c761eafa5d19",
+      "text": "Stocks are selected from our LatAm universe of coverage regardless of the rating. Stocks must have at least 5y of trading. Screen criteria: Mkt Cap>US$1bn. 2025E and 2026E fwd P/E ratio above MSCI LatAm median P/E. Dividend yield (2025E) below MSCI LatAm dividend yield. If results exceed 20 companies, those with the highest 2026E P/E ratio are selected. Fundamental ratings are not part of the screening criteria. This screen is not a recommended list either individually or as a group of stocks. Investors should consider the fundamentals of the companies and their own individual circumstances/objectives before making any investment decision.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "ac798fc9ce7794cb",
+      "text": "Many commodities and banks names in this screen.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "fbfe3c0fee36b94c",
+      "text": "CompanyCountryIndustryBBG TickerBoFATickerDiv. Yield2025E30D Performance(local cnrc)YTD Performance(local cnrc)Grupo Cementos ChihuahuaMXBuilding MaterialsGCC* MMGCWOF20.3-2%-6%MarrfigBZFood ProcessorsMRFG3 BZMRRTF15.03%38%Petrobras PNBZOilsPETR4 BZPTRBF12.9-2%-9%BradesparBZNon-Ferrous-MiningBRAP4 BZBRDQF12.62%6%AsurMXAirportsASURB MMASRMF12.58%24%BB SeguridadeBZInsurance - Multi-lineBBSE3 BZXBDPF12.33%1%DirecionalBZHomebuildersDIRR3 BZDRCHF10.319%92%BajioMXBanks-RetailBBAJIOO MMBBAJF10.1-1%10%EcopetrolCOOil & Gas ProducersECOPETL CBXESSF9.93%15%Central PuertoARElectric UtilitiesCEPU USCEPU9.6-13%-29%CemexMXBuilding MaterialsCX USCX9.15%60%Fibra UnoMXREITsFUNO11 MMFBASF8.6-1%33%Grupo CibestCOBanks-Multinational/UniversalCIBEST CBXGCUF8.413%73%Isa CteepBZElectric UtilitiesISAE4 BZXHBYF8.43%11%TerniumMXSteelsTX USTX8.44%19%OdontoprevBZHealthcare Technology & DistributionODPV3 BZODPVF8.012%31%Fibra MTYMXREITsFMTY14 MMFMTYF7.90%28%BradescoBZBanks-RetailBBDC4 BZBRDPF7.910%55%TAESABZElectric UtilitiesTAEE11 BZXTAEF7.87%13%JBSBZFood ProcessorsJBS USXJBSF7.621%18%Median3%19%",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "ef2718f4d9998503",
+      "text": "Source: BoFA Global Research, Bloomberg",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "095d91e3f763bcbd",
+      "text": "Stocks are selected from our LatAm universe of coverage regardless of the rating. Stocks must have at least 5y of trading. Screen criteria: Mkt Cap>US$1bn. Dividend yield (2025E) above MSCI LatAm dividend yield. If results exceed 20 companies, those with the highest dividend yield are selected. Fundamental ratings are not part of the screening criteria. This screen is not a recommended list either individually or as a group of stocks. Investors should consider the fundamentals of the companies and their own individual circumstances/objectives before making any investment decision.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "f04e810a82ac6601",
+      "text": "BoFA GLOBAL RESEARCH",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "c8a3797ac304644a",
+      "text": "Many staples and communication names in this screen.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "517598aea4db32f8",
+      "text": "CompanyCountryIndustryBBG TickerBoFATickerBeta Net Debt/EBITDA30D Performance(local cnrc)YTD Performance(local cnrc)VivoBZTelecom Equipment-Wireless/CellularVIVT3 BZXCPTF0.30.512% 52%SorianaMXSupermarkets/Food RetailersSORIANAB MMONZBF0.31.8-2% -16%GrumaMXFood ProducersGRUMAB MMGPAGF0.41.3-2% 0%LOMAARBuilding MaterialsLOMA USLOMA0.51.5-22% -24%GMexico TransportesMXRail Transport/RailroadsGMXT* MMGMXTF0.51.40% 5%ArcaMXSoft DrinksAC* MMEMBVF0.50.7-1% 15%OdontoprevBZHealthcare Technology & DistributionODPV3 BZODPVF0.5-1.112% 31%Raia DrogasilBZDrug Store ChainsRADL3 BZRAAIF0.51.836% -12%TIMBZTelecom Services-Wireless/CellularTIMS3 BZXZUAF0.60.818% 73%CuervoMXSpirits, Wines & CidersCUERVO* MMBCLCF0.61.7-10% -6%CCUCLBrewersCCU CIXLUDF0.61.84% 5%MegacableMXTelecom Services-Wireless/CellularMEGACPO MMMHSDF0.61.50% 63%Kimberly ClarkMXCosmetics/Personal CareKIMBERA MMKCDMF0.61.01% 23%BB SeguridadeBZInsurance - Multi-lineBBSE3 BZXBDPF0.6NA3% 1%Coca-Cola FEMSAMXSoft DrinksKOFUBL MMCOCSF0.60.94% 3%Grupo BMVMXOther FinancialsBOLSAA MMBOMXF0.6NA-6% 20%Pampa energiaARElectric UtilitiesPAM USPAM0.61.4-12% -26%Coca-Cola AndinaCLSoft DrinksANDINAB CIAKOBF0.71.67% 33%Porto SeguroBZInsurance - Multi-linePSSA3 BZPSGUF0.7NA3% 50%AmBevBZBrewersABEV3 BZAVBPF0.7-0.5-6% 9%Median1%5%",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "5f1a06f6857b4ea1",
+      "text": "Source: BoFA Global Research, Bloomberg",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "5d5687159837d749",
+      "text": "Stocks are selected from our LatAm universe of coverage regardless of the rating. Stocks must have at least 5y of trading. Screen criteria: Mkt Cap>US$1bn. Net Debt/EBITDA",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "16fea5aa44f658ff",
+      "text": "Exhibit 32:High Beta screen Many banks in this screen.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "8485917d6591c33b",
+      "text": "CompanyCountryIndustryBBG TickerBofA TickerBetaNet Debt/EBITDA30D Performance (local cnny)YTD Performance (local cnny)CemexMXBuilding MaterialsCX USCX1.92.15%60%StoneBZOther FinancialsSTNE USSTNE1.9NA26%104%Banco interBZBanks-RetailINTR USINTR1.8NA29%112%PagSeguroBZComputer ServicesPAGS USPAGS1.7NA13%44%CognaBZEducation &amp;amp; Training ServicesCOGN3 BZKROTF1.72.312%182%Petro-RioBZOil &amp;amp; Gas ProducersPRIO3 BZHRTPF1.72.3-8%-5%BTG PactualBZBanks-RetailBPAC11 BZXNXCF1.6NA17%68%Banco PanBZBanks-RetailBPAN4 BZXQSF1.6NA0%26%TelevisaMXCable TVTLEVCPO MMGRPFF1.53.29%50%CSNBZSteelsCSNA3 BZSIDHF1.54.1-3%-8%Magazine LuizaBZRetailing-HardlinesMGLU3 BZMGZZF1.52.713%26%Grupo CibestCOBanks-Multinational/UniversalCIBEST CBXGUF1.4NA13%73%EcorodoviasBZToll Road OperatorsECOR3 BZXVEDF1.44.124%96%BanorteMXBanks-RetailGFNORTEO MMGBOOF1.4NA4%33%RegionalMXBanks-RetailRA MMRGNL1.3NA-2%29%BR DistribuidoraBZOil &amp;amp; Gas ProducersVBBR3 BZXUBRF1.32.414%42%CredicorpPEBanks-RetailBAP USBAP1.3NA7%47%AlseaMXRestaurantsALSEA* MMALSSF1.32.7-1%21%LocalizaBZCar RentalRENT3 BZLZRF1.32.80%13%AllosBZReal Estate/PropertyALOS3 BZXADSF1.33.014%38%Median10%43%",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "0f2a493cc8e0dc05",
+      "text": "Source: BofA Global Research, Bloomberg Stocks are selected from our LatAm universe of coverage regardless of the rating. Stocks must have at least 5y of trading. Screen criteria: Mkt Cap-USS1bn. Net Debt/EBITDA \\(= 2\\) (this condition is ignored for Financials). Beta relative to the local index \\(>1.1\\) . If results exceed 20 companies, those with the highest beta are selected. Fundamental ratings are not part of the screening criteria. This screen is not a recommended list either individually or as a group of stocks. Investors should consider the fundamentals of the companies and their own individual circumstances/objectives before making any investment decision. Fundamental ratings are shown only for information and are not part of the screening criteria",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "ce51f61014d8a247",
+      "text": "CompanyCountryIndustryBBG TickerBofA TickerDiscount to hist.Current ValuationAvg.Net Debt/EBITDA30D Performance (local cnny)YTD Performance (local cnny)Petro-RioBZOil &amp;amp; Gas ProducersPRIO3 BZHRTPF-96%3.992.62.3-8%-5%CognaBZEducation &amp;amp; Training ServicesCOGN3 BZKROTF-94%8.5133.72.312%182%TelevisaMXCable TVTLEVCPO MMGRPFF-74%2.28.63.29%50%PagSeguroBZComputer ServicesPAGS USPAGS-71%5.920.5NA13%44%Magazine LuizaBZRetailing-HardlinesMGLU3 BZMGZZF-69%0.31.12.713%26%StoneBZOther FinancialsSTNE USSTNE-68%9.228.8NA26%104%HapvidaBZManaged Health CareHAPV3 BZXDUFF-60%12.430.82.427%26%XP Inc.CIFinancial Services-Consumer/CommercialXP USXP-60%2.45.9NA13%57%LocalizaBZCar RentalRENT3 BZLZRF-52%9.620.12.80%13%CemexMXBuilding MaterialsCX USCX-48%5.911.32.15%60%MultiplanBZReal Estate/PropertyMULT3 BZXMULF-42%13.022.52.611%39%BB SeguridadeBZInsurance - Multi-lineBBSE3 BZXBDIF-42%7.212.4NA3%1%Arcos DoradosBZRestaurantsARCO USARCO-41%4.37.33.81%-4%EcorodoviasBZToll Road OperatorsECOR3 BZXVEDF-37%8.613.74.124%96%BradescoBZBanks-RetailBBDC4 BZBRDFF-37%1.01.6NA10%55%GfInbursaMXBanks-RetailGFINBUR0 MMGPFOF-37%8.112.8NA0%15%Ero Copper CorpBZNon-Ferrous-MiningERO USERO-35%4.06.22.35%4%RegionalMXBanks-RetailRA MMRGNL-33%1.42.1NA-2%29%EnevaBZElectric UtilitiesENEV3 BZXZUMF-33%8.712.93.913%59%Hypera PharmaBZPharmaceuticalsHYPE3 BZXHPYF-31%8.111.86.0-6%40%Median9%39%",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "b50053b55b9b3993",
+      "text": "Source: BofA Global Research, Bloomberg Stocks are selected from our LatAm universe of coverage regardless of the rating. Stocks must have at least 5y of trading. Screen criteria: Mkt Cap-USS1bn. Net Debt/EBITDA \\(= 2\\) (this condition is ignored for Financials). Valuation ratio \\(",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "71fa86246e208f50",
+      "text": "Stock screens methodologyOur monthly screens are a quantitative approach for monitoring performance across several investment strategies. The screens are generated through a quantitative process, using consensus projections and historical data. There are two main steps to the selection process: filtering and ranking. For each screening process, filter criteria is applied first, then resulting assets are ranked according to the core variable for each strategy. Each month, we select and rank the 20 stocks that best fit the screen criteria. The stocks are selected from our universe of coverage in LatAm regardless of the rating but must have a market cap above US\\$1bn.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "d2e5924d0ad9b1e0",
+      "text": "There are 5 different screens: Growth, Value, Dividends, Defensive and High Beta. Our Growth screen looks for companies with high projected growth that reinvests free cash flow. Our Value screen looks for companies with low or moderate leverage that are trading at a discounted valuation. The Dividends screen looks for companies with high dividend yields, supported by low moderate leverage. Defensive screen looks for assets with solid performance and lowest volatility while High beta screen looks for market- dependent assets with high leverage and volatility. We also provide a list of stocks within our coverage that are most discounted to historicals.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "802173bb7f5d38d7",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "f8435ebcbb2036c6",
+      "text": "Prices are indicatd and for infomation purposes only. xcept as otherwise stated in the report, for any recommendation in relation to an equity security, the price referenced is the publicly traded price of the security as of close of business on the day prior to the date of the report or, if the report is published during intraday trading, the price referenced is indicative of the traded price as of the date and time of the report and in relation to a debt security (including equity preferred and CDS), prices are indicative as of the date and time of the report and are from various sources including BofA Securities trading desks.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "10801767c775c7d2",
+      "text": "The date and time of completion of the production of any recommendation in this report shall be the date and time of dissemination of this report as recorded in the report timestamp.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "4b5853b1b8bd9dbc",
+      "text": "This report may refer to fixed income securities or other financial instruments that may not be offered or sold in one or more states or jurisdictions, or to certain categories of investors, including retail investors. Readers of this report are advised that any discussion, recommendation or other mention of such instruments is not a solicitation or offer to transact in such instruments. Investors should contact their BofA Securities representative or Merrill Global Wealth Management financial advisor for information relating to such instruments. Recipients who are not institutional investors or market professionals should seek the advice of their independent financial advisor before considering information in this report in connection with any investment decision, or for a necessary explanation of its contents.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "a226a7808e552b97",
+      "text": "Offices of BofAS or one or more of its affiliates (other than research analysts) may have a financial interest in securities of the issuer(s) or in related investments.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "59f5813303a8c77d",
+      "text": "Refer to BofA Global Research policies relating to conflicts of interest.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "b6b360529376677a",
+      "text": "BofA Securities includes BofA Securities, Inc. (BofAS) and its affiliates. Investors should contact their BofA Securities representative or Merrill Global Wealth Management financial advisor if they have questions concerning this report or concerning the appropriateness of any investment idea described herein for such investor. BofA Securities is a global brand for BofA Global Research.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "15a5988c08a3e642",
+      "text": "Information relating to Non- US affiliates of BofA Securities and Distribution of Affiliate Research Reports:",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "632e851dc0a7b0af",
+      "text": "BofAS and/or Merrill Lynch, Pierce, Fenner & Smith Incorporated (MLPF&S) may in the future distribute, information of the following non- US affiliates in the US (short name: legal name, regulator): Merrill Lynch (South Africa); Merrill Lynch South Africa (Pty) Ltd., regulated by the Financial Sector Conduct Authority; MLI (UK): Merrill Lynch International, regulated by the Financial Conduct Authority (FCA) and the Prudential Regulation Authority (PRA); BofAS (France): BofAS Securities Europe SA is authorized by the Autorité de Contrôle Prudentiel et de Résolution (ACPR) and regulated by the ACPR and the Autorité des Marchés Financiers (AMF). BofAS Securities Europe SA (\"BofAS\") with registered address at 51, rue La Boétie, 75008 Paris is registered under no 842 602 690 RCS Paris. In accordance with the provisions of French Code Monétaire et Financier (Monetary and Financial Code), BofAS is an establishment de crédit et d'investissement (credit and investment institution) that is authorised and supervised by the European Central Bank and the Autorité de Contrôle Prudentiel et de Résolution (ACPR) and regulated by the ACPR and the Autorité des Marchés Financiers. BofAS's share capital can be found at www.bofam.com/BofASDisclamer: BofA Europe (Milan): Bank of America Europe Designated Activity Company, Milan Branch, regulated by the Bank of Italy, the European Central Bank (ECB) and the Central Bank of Ireland (CBI); BofA Europe (Frankfurt): Bank of America Europe Designated Activity Company, Frankfurt Branch regulated by Bafin, the ECB and the CBI; BofA Europe (Madrid): Bank of America Europe Designated Activity Company, Sucursal en España, regulated by the Bank of Spain, the ECB and the CBI; Merrill Lynch (Australia): Merrill Lynch Equities (Australia) Limited, regulated by the Australian Securities and Investments Commission; Merrill Lynch (Hong Kong): Merrill Lynch (Asia Pacific) Limited, regulated by the Hong Kong Securities and Futures Commission (HKSFC); Merrill Lynch (Singapore): Merrill Lynch (Singapore) Pte Ltd, regulated by the Monetary Authority of Singapore (MAS); Merrill Lynch (Canada): Merrill Lynch Canada Inc, regulated by the Canadian Investment Regulatory Organization; Merrill Lynch (Mexico): Merrill Lynch Mexico, SA de CV, Casa de Bolsa, regulated by the Comisión Nacional Bancaria y de Valores; BofAS Japan: BofAS Securities Japan Co., Ltd., regulated by the Financial Services Agency; Merrill Lynch (Seoul): Merrill Lynch International, LLC Seoul Branch, regulated by the Financial Supervisory Service; Merrill Lynch (Taiwan): Merrill Lynch Securities (Taiwan) Ltd., regulated by the Securities and Futures Bureau; BofAS India: BofAS Securities India Limited, regulated by the Securities and Exchange Board of India (SEBI); Merrill Lynch (Israel): Merrill Lynch Israel Limited, regulated by Israel Securities Authority; Merrill Lynch (DIFC): Merrill Lynch International (DIFC Branch), regulated by the Dubai Financial Services Authority (DFSA); Merrill Lynch (Brazil): Merrill Lynch S.A. Corretora de Títulos e Valores Mobiliários, regulated by Comissão de Valores Mobiliários; Merrill Lynch KSA Company: Merrill Lynch Kingdom of Saudi Arabia Company, regulated by the Capital Market Authority. This information has been approved for publication and is distributed in the United Kingdom (UK) to professional clients and eligible counterparties (as each is defined in the rules of the FCA and the PRA) by MLI (UK), which is authorized by the PRA and regulated by the FCA and the PRA - details about the extent of our regulation by the FCA and PRA are available from us on request; has been approved for publication and is distributed in the European Economic Area (EEA) by BofAS (France), which is authorized by the ACPR and regulated by the ACPR and the AMF; has been considered and distributed in Japan by BofAS Japan, a registered securities dealer under the Financial Instruments and Exchange Act in Japan, or its permitted affiliates; is issued and distributed in Hong Kong by Merrill Lynch (Hong Kong) which is regulated by HKSFC; is issued and distributed in Taiwan by Merrill Lynch (Taiwan); is issued and distributed in India by BofAS India; and is issued and distributed in Singapore to institutional investors and/or accredited investors (each as defined under the Financial Advisers Regulations) by Merrill Lynch (Singapore) (Company Registration No 198602883D); Merrill Lynch (Singapore) is regulated by MAS. Merrill Lynch Equities (Australia) Limited (ABN 65 006 276 795), AFS License 235132 (MLEA) distributes this information in Australia only to 'Wholesale' clients as defined by s.761G of the Corporations Act 2001. With the exception of Bank of America N.A., Australia Branch, neither MLEA nor any of",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "f704086702555949",
+      "text": "its affliat i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  i  i  t  t  t  t  t  t  t  t",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "3cf109c48521cc57",
+      "text": "t t t t t t t t t t t t t t t t t t t t t to them. BofA Securities is not responsible for such terms and privacy policies and expressly disclaims any liability for them.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "57d88578b3a83a2d",
+      "text": "t t t t t t t t t t t t t t t t t t t t t to an issuer prior to making an investment decision.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "6bff665d34f9a5f6",
+      "text": "t t t t t t t t t t t t t t t t t t t t t to an issuer prior to making an investment decision.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "a45fe409b5d6e48e",
+      "text": "t t t t t t t t t t t t t t t t t t t t t information.",
+      "page": 16,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "e1e651d2efa1d5cc",
+      "name": "AFS License",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e195d3a47b7917a1",
+      "name": "Affiliate Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "589f5ac0b755bb20",
+      "name": "All Duration",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "47c54d08da73880b",
+      "name": "All LatAm",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b0c2f9a72e612607",
+      "name": "America Europe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "996e2627a783a54c",
+      "name": "An ERR",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "265cc7453ffc372d",
+      "name": "Arcos Dorados",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a8bd8cf9759d8084",
+      "name": "Auren Energia",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98e6ff96d07c787b",
+      "name": "Australia Branch",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bc98bb53ad7f2a24",
+      "name": "Australian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3ce0393cff6c6222",
+      "name": "BB Seguridade",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "845c80d8ece922c8",
+      "name": "BBG Ticker",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "00444b3c658bd7ba",
+      "name": "BR Distribuidora",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "52c1591463259985",
+      "name": "BTG Pactual",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1ee76e206ed47542",
+      "name": "BZ Ex",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2a2242d574e48909",
+      "name": "Banco Pan",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "413ea9cab3797562",
+      "name": "Beta Net",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7e7c4928caf0e3a7",
+      "name": "Bloomberg\n\nBofA",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dddb36477f0b30fb",
+      "name": "Bloomberg\n\nStocks",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "bar",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "0%",
+              "10%",
+              "20%",
+              "30%",
+              "40%"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null,
+            "labels": [
+              "Financials",
+              "Utilities",
+              "Consumer Discretionary",
+              "Consumer Staples",
+              "Communication Services",
+              "Industrials",
+              "Materials",
+              "Energy"
+            ]
+          }
+        },
+        "series": [
+          {
+            "name": "Overweight",
+            "unit": "%",
+            "values": [
+              32.5,
+              29,
+              15,
+              13,
+              13,
+              10,
+              10,
+              5
+            ]
+          },
+          {
+            "name": "Underweight",
+            "unit": "%",
+            "values": [
+              12.5,
+              6,
+              22,
+              4,
+              0,
+              4,
+              38,
+              13
+            ]
+          }
+        ],
+        "figure_id": "9f484909f295dd70",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-18",
+              "Jan-19",
+              "Jan-20",
+              "Jan-21",
+              "Jan-22",
+              "Jan-23",
+              "Jan-24",
+              "Jan-25"
+            ]
+          },
+          "y": {
+            "unit": "R$bn",
+            "range": {
+              "min": -400,
+              "max": 600
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Equity Funds",
+            "unit": "R$bn",
+            "values": [
+              0,
+              20,
+              190,
+              220,
+              180,
+              80,
+              60,
+              -10
+            ]
+          },
+          {
+            "name": "Multimarket Funds",
+            "unit": "R$bn",
+            "values": [
+              0,
+              70,
+              200,
+              280,
+              180,
+              0,
+              -150,
+              -280
+            ]
+          },
+          {
+            "name": "Fixed Income Funds",
+            "unit": "R$bn",
+            "values": [
+              0,
+              -20,
+              -380,
+              -100,
+              400,
+              100,
+              500,
+              450
+            ]
+          }
+        ],
+        "figure_id": "a4f31e037d319c73",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-18",
+              "Jan-19",
+              "Jan-20",
+              "Jan-21",
+              "Jan-22",
+              "Jan-23",
+              "Jan-24",
+              "Jan-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -50,
+              "max": 500
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Series 1",
+            "unit": null,
+            "values": [
+              0,
+              50,
+              30,
+              70,
+              40,
+              20,
+              -10,
+              -20,
+              -10,
+              20,
+              100,
+              110,
+              150,
+              200,
+              210,
+              250,
+              300,
+              310,
+              360,
+              370,
+              450,
+              470,
+              430,
+              440,
+              460,
+              470
+            ]
+          }
+        ],
+        "figure_id": "53e48245dd03dbaa",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "area",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan/25",
+              "Feb/25",
+              "Mar/25",
+              "Apr/25",
+              "May/25",
+              "Jun/25",
+              "Jul/25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -15,
+              "max": 35
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Cash",
+            "unit": null,
+            "values": [
+              -5,
+              2,
+              10,
+              12,
+              4,
+              20,
+              26,
+              20
+            ]
+          },
+          {
+            "name": "Futures",
+            "unit": null,
+            "values": [
+              1,
+              3,
+              -8,
+              -2,
+              1,
+              0,
+              -4,
+              -10
+            ]
+          },
+          {
+            "name": "IPO/follow-on",
+            "unit": null,
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0.5,
+              1,
+              1,
+              1
+            ]
+          }
+        ],
+        "figure_id": "c5434bafd4e4c5c7",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": "Colombia",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-16",
+              "Aug-18",
+              "Aug-20",
+              "Aug-22",
+              "Aug-24"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 4.5,
+              "max": 16.5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Index",
+            "unit": null,
+            "values": [
+              13.5,
+              12.0,
+              12.5,
+              6.0,
+              8.0
+            ]
+          },
+          {
+            "name": "Average",
+            "unit": null,
+            "values": [
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5
+            ]
+          },
+          {
+            "name": "+1 Std. Dev",
+            "unit": null,
+            "values": [
+              15.5,
+              15.5,
+              15.5,
+              15.5,
+              15.5
+            ]
+          },
+          {
+            "name": "-1 Std. Dev",
+            "unit": null,
+            "values": [
+              8.0,
+              8.0,
+              8.0,
+              8.0,
+              8.0
+            ]
+          }
+        ],
+        "figure_id": "7e4b991b47a21d24",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "Chile",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-16",
+              "Aug-18",
+              "Aug-20",
+              "Aug-22",
+              "Aug-24"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 4,
+              "max": 20
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Index",
+            "unit": null,
+            "values": [
+              15.0,
+              15.5,
+              16.0,
+              16.5,
+              17.0,
+              16.5,
+              16.0,
+              15.5,
+              15.0,
+              14.5,
+              14.0,
+              13.5,
+              13.0,
+              12.5,
+              12.0,
+              11.5,
+              11.0,
+              10.5,
+              10.0,
+              9.5,
+              9.0,
+              8.5,
+              8.0,
+              7.5,
+              7.0,
+              6.5,
+              6.0,
+              5.5,
+              5.0,
+              5.5,
+              6.0,
+              6.5,
+              7.0,
+              7.5,
+              8.0,
+              8.5,
+              9.0,
+              9.5,
+              10.0,
+              10.5,
+              11.0,
+              11.5,
+              12.0
+            ]
+          },
+          {
+            "name": "Average",
+            "unit": null,
+            "values": [
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0
+            ]
+          },
+          {
+            "name": "+1 Std. Dev",
+            "unit": null,
+            "values": [
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5,
+              16.5
+            ]
+          },
+          {
+            "name": "-1 Std. Dev",
+            "unit": null,
+            "values": [
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5,
+              9.5
+            ]
+          }
+        ],
+        "figure_id": "e65791d2a8e87d3d",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jul-15",
+              "Jul-17",
+              "Jul-19",
+              "Jul-21",
+              "Jul-23"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0.2,
+              "max": 2.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "1-month",
+            "unit": null,
+            "values": [
+              0.98,
+              0.7,
+              0.8,
+              0.9,
+              0.95,
+              1.0,
+              1.1,
+              1.2,
+              1.4,
+              1.3,
+              1.0,
+              0.8,
+              0.6,
+              0.7,
+              0.8,
+              0.9,
+              1.0,
+              1.1,
+              1.0,
+              0.9,
+              0.8,
+              0.7,
+              0.6,
+              0.5,
+              0.4,
+              0.5,
+              0.6,
+              0.7,
+              0.8,
+              0.9,
+              1.0,
+              1.1,
+              1.2,
+              1.3,
+              1.4,
+              1.5,
+              1.6,
+              1.7,
+              1.8,
+              1.9,
+              1.8,
+              1.7,
+              1.6,
+              1.5,
+              1.4,
+              1.3,
+              1.2,
+              1.1,
+              1.0,
+              0.9,
+              0.8,
+              0.7,
+              0.6,
+              0.7,
+              0.8,
+              0.9,
+              1.0,
+              1.1,
+              1.2,
+              1.3,
+              1.4,
+              1.3,
+              1.2,
+              1.1,
+              1.0,
+              0.9,
+              0.8,
+              0.7,
+              0.6,
+              0.5,
+              0.4,
+              0.5,
+              0.6,
+              0.7,
+              0.8,
+              0.9,
+              1.0,
+              1.1,
+              1.2,
+              1.1,
+              1.0,
+              0.9,
+              0.8,
+              0.7,
+              0.6,
+              0.5,
+              0.4,
+              0.3,
+              0.4,
+              0.5,
+              0.6,
+              0.7,
+              0.8
+            ]
+          },
+          {
+            "name": "3-months",
+            "unit": null,
+            "values": [
+              0.6,
+              0.7,
+              0.8,
+              0.85,
+              0.9,
+              0.95,
+              1.0,
+              1.1,
+              1.2,
+              1.3,
+              1.35,
+              1.25,
+              1.1,
+              0.9,
+              0.7,
+              0.6,
+              0.65,
+              0.75,
+              0.8,
+              0.9,
+              1.0,
+              1.05,
+              1.0,
+              0.9,
+              0.8,
+              0.7,
+              0.65,
+              0.6,
+              0.55,
+              0.5,
+              0.55,
+              0.6,
+              0.7,
+              0.8,
+              0.9,
+              1.0,
+              1.1,
+              1.2,
+              1.25,
+              1.2,
+              1.1,
+              1.0,
+              0.9,
+              0.8,
+              0.7,
+              0.6,
+              0.5,
+              0.4,
+              0.45,
+              0.55,
+              0.65,
+              0.75,
+              0.85,
+              0.95,
+              1.05,
+              1.15,
+              1.25,
+              1.35,
+              1.45,
+              1.55,
+              1.65,
+              1.7,
+              1.6,
+              1.5,
+              1.4,
+              1.3,
+              1.2,
+              1.1,
+              1.0,
+              0.95,
+              0.9,
+              0.85,
+              0.8,
+              0.75,
+              0.7,
+              0.65,
+              0.6,
+              0.55,
+              0.5,
+              0.45,
+              0.4,
+              0.35,
+              0.3,
+              0.25,
+              0.2,
+              0.15,
+              0.1,
+              0.05,
+              0.0,
+              -0.05,
+              -0.1,
+              -0.15,
+              -0.2,
+              -0.25,
+              -0.3,
+              -0.35,
+              -0.4,
+              -0.45,
+              -0.5,
+              -0.55,
+              -0.6,
+              -0.65,
+              -0.7,
+              -0.75,
+              -0.8,
+              -0.85,
+              -0.9,
+              -0.95,
+              -1.0,
+              -1.05,
+              -1.1,
+              -1.15,
+              -1.2,
+              -1.25,
+              -1.3,
+              -1.35,
+              -1.4,
+              -1.45,
+              -1.5,
+              -1.55,
+              -1.6,
+              -1.65,
+              -1.7,
+              -1.75,
+              -1.8,
+              -1.85,
+              -1.9,
+              -1.95,
+              -2.0
+            ]
+          }
+        ],
+        "figure_id": "acaa322eb52f9cf8",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-18",
+              "Jan-19",
+              "Jan-20",
+              "Jan-21",
+              "Jan-22",
+              "Jan-23",
+              "Jan-24",
+              "Jan-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -8,
+              "max": 6
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Brazil",
+            "unit": null,
+            "values": [
+              0.0,
+              -0.5,
+              1.5,
+              4.8,
+              2.0,
+              2.8,
+              2.0,
+              3.0,
+              0.0,
+              -1.5,
+              -0.8,
+              0.5
+            ]
+          },
+          {
+            "name": "Mexico",
+            "unit": null,
+            "values": [
+              0.0,
+              1.5,
+              1.0,
+              2.0,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              3.5,
+              3.0,
+              3.2
+            ]
+          },
+          {
+            "name": "LatAm regional",
+            "unit": null,
+            "values": [
+              0.0,
+              2.0,
+              0.5,
+              -0.5,
+              -2.0,
+              -3.0,
+              -4.0,
+              -3.5,
+              -4.0,
+              -5.0,
+              -6.0,
+              -5.0
+            ]
+          }
+        ],
+        "figure_id": "38d43041cc007340",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": "Brazil",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-16",
+              "Aug-18",
+              "Aug-20",
+              "Aug-22",
+              "Aug-24"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 5,
+              "max": 20
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Index",
+            "unit": null,
+            "values": [
+              13.5,
+              11.5,
+              13.8,
+              10.5,
+              12.5,
+              10.5,
+              11.5,
+              10.0,
+              12.0,
+              10.5,
+              11.0,
+              10.0,
+              10.5,
+              11.5,
+              12.0,
+              13.0,
+              14.0,
+              12.5,
+              13.5,
+              14.0,
+              15.0,
+              16.0,
+              18.0,
+              15.0,
+              13.0,
+              11.0,
+              10.0,
+              9.0,
+              8.0,
+              7.0,
+              6.0,
+              5.5,
+              6.0,
+              6.5,
+              7.0,
+              7.5,
+              8.0,
+              7.5,
+              7.0,
+              6.5,
+              6.0,
+              6.5,
+              7.0,
+              7.5,
+              8.0
+            ]
+          },
+          {
+            "name": "Average",
+            "unit": null,
+            "values": [
+              10.5,
+              10.5,
+              10.5,
+              10.5,
+              10.5
+            ]
+          },
+          {
+            "name": "+1 Std. Dev",
+            "unit": null,
+            "values": [
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0
+            ]
+          },
+          {
+            "name": "-1 Std. Dev",
+            "unit": null,
+            "values": [
+              7.8,
+              7.8,
+              7.8,
+              7.8,
+              7.8
+            ]
+          }
+        ],
+        "figure_id": "2998a7370ba6fb35",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "BZ domestic industries ex-banks",
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-24",
+              "Apr-24",
+              "Jul-24",
+              "Oct-24",
+              "Jan-25",
+              "Apr-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -10,
+              "max": 30
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "'25YE YoY Revenues",
+            "unit": "%",
+            "values": [
+              10.0,
+              10.5,
+              11.5,
+              12.5,
+              14.0,
+              15.0,
+              15.0
+            ]
+          },
+          {
+            "name": "'25E YoY NI",
+            "unit": "%",
+            "values": [
+              25.0,
+              23.0,
+              21.0,
+              19.0,
+              15.0,
+              10.0,
+              -5.0
+            ]
+          }
+        ],
+        "figure_id": "84bb125bb411d9cb",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": "Mexico",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-16",
+              "Aug-18",
+              "Aug-20",
+              "Aug-22",
+              "Aug-24"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 9,
+              "max": 18
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "MEXBOL",
+            "unit": null,
+            "values": [
+              16.5,
+              14.5,
+              15.5,
+              13.5,
+              11.5
+            ]
+          },
+          {
+            "name": "Avg",
+            "unit": null,
+            "values": [
+              13.8,
+              13.8,
+              13.8,
+              13.8,
+              13.8
+            ]
+          },
+          {
+            "name": "+1 std dev",
+            "unit": null,
+            "values": [
+              16.2,
+              16.2,
+              16.2,
+              16.2,
+              16.2
+            ]
+          },
+          {
+            "name": "-1 std dev",
+            "unit": null,
+            "values": [
+              11.4,
+              11.4,
+              11.4,
+              11.4,
+              11.4
+            ]
+          }
+        ],
+        "figure_id": "2397aa6e58640da7",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -20,
+              "max": 30
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Cash",
+            "unit": null,
+            "values": [
+              10,
+              -2,
+              -2,
+              -2,
+              -2,
+              7,
+              0,
+              3,
+              0,
+              10,
+              5,
+              -5
+            ]
+          },
+          {
+            "name": "Futures",
+            "unit": null,
+            "values": [
+              12,
+              -4,
+              2,
+              4,
+              -3,
+              4,
+              -10,
+              6,
+              3,
+              0,
+              -4,
+              -8
+            ]
+          },
+          {
+            "name": "IPO/follow-on",
+            "unit": null,
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0.5,
+              0,
+              0,
+              0,
+              0.5,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "TOTAL",
+            "unit": null,
+            "values": [
+              22,
+              -6,
+              0,
+              2,
+              -5,
+              11.5,
+              -10,
+              9,
+              3,
+              10.5,
+              1,
+              -13
+            ]
+          }
+        ],
+        "figure_id": "2e05ec0bcdc1f9ba",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": "BZ Large banks",
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "Jan-24",
+              "Apr-24",
+              "Jul-24",
+              "Oct-24",
+              "Jan-25",
+              "Apr-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 18
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "'25E YoY Revenues",
+            "unit": "%",
+            "values": [
+              6.5,
+              6.2,
+              6.0,
+              6.5,
+              7.5,
+              8.0,
+              8.0,
+              7.8,
+              7.5,
+              7.0,
+              7.2,
+              7.0,
+              7.5,
+              8.0,
+              7.8,
+              7.0,
+              6.8,
+              6.5,
+              6.8,
+              7.0
+            ]
+          },
+          {
+            "name": "25E YoY NI",
+            "unit": "%",
+            "values": [
+              14.5,
+              14.0,
+              12.0,
+              12.5,
+              12.0,
+              12.5,
+              13.0,
+              12.5,
+              13.0,
+              12.5,
+              12.0,
+              11.5,
+              11.0,
+              10.5,
+              11.5,
+              10.0,
+              9.0,
+              8.0,
+              7.0,
+              5.0
+            ]
+          }
+        ],
+        "figure_id": "afece0902cd8d31f",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 2,
+              "max": 10
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Cash balance",
+            "unit": "%",
+            "values": [
+              5.5,
+              4.5,
+              3.5,
+              2.8,
+              2.5,
+              3.0,
+              4.0,
+              5.0,
+              4.5,
+              3.5,
+              3.0,
+              4.0,
+              5.0,
+              5.8,
+              6.0,
+              7.0,
+              7.5,
+              6.5,
+              6.0,
+              7.0,
+              7.8,
+              8.0,
+              8.5,
+              7.5,
+              6.5,
+              6.0,
+              5.5,
+              6.0,
+              7.0,
+              7.8,
+              7.0,
+              6.0,
+              5.0,
+              4.5,
+              4.0,
+              4.5,
+              5.0,
+              5.5,
+              6.0,
+              6.5,
+              7.0,
+              7.8,
+              6.2
+            ]
+          },
+          {
+            "name": "Average",
+            "unit": "%",
+            "values": [
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4,
+              5.4
+            ]
+          }
+        ],
+        "figure_id": "2de9655955dcbfbd",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": "Ibov. Ex-commodities. sector adi.",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-16",
+              "Aug-18",
+              "Aug-20",
+              "Aug-22",
+              "Aug-24"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 8,
+              "max": 16
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "12m fwd P/E",
+            "unit": null,
+            "values": [
+              12.5,
+              11.8,
+              12.8,
+              12.0,
+              13.5,
+              14.5,
+              13.0,
+              14.0,
+              12.0,
+              10.0,
+              11.0,
+              12.0,
+              14.0,
+              15.0,
+              13.0,
+              14.0,
+              12.0,
+              9.0,
+              10.0,
+              12.0,
+              14.0,
+              13.0,
+              12.0,
+              11.0,
+              10.0,
+              11.0,
+              12.0,
+              11.0,
+              10.0,
+              9.0,
+              10.0,
+              11.0,
+              10.0,
+              9.0,
+              8.5,
+              10.0,
+              11.0
+            ]
+          },
+          {
+            "name": "Avg",
+            "unit": null,
+            "values": [
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5,
+              11.5
+            ]
+          },
+          {
+            "name": "-1 Std Dev",
+            "unit": null,
+            "values": [
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0,
+              10.0
+            ]
+          },
+          {
+            "name": "+1 Std Dev",
+            "unit": null,
+            "values": [
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0,
+              13.0
+            ]
+          }
+        ],
+        "figure_id": "c3cb9d596b445aaa",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "9372a11fdc2a8b47",
+        "value": 0.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ") discount and Colombia trading at a \\(34\\%\\) discount (see our valuation table in Exhibit 7). US\\\\$0.9bn outflows from EM (ex- China and Taiwan) funds this week. YTD, these funds had US\\\\$19bn inflow",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "4e5a7b380b2c4867",
+        "value": 19.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "t 7). US\\\\$0.9bn outflows from EM (ex- China and Taiwan) funds this week. YTD, these funds had US\\\\$19bn inflows, which compares to US\\\\$23bn outflows in 2024 (Exhibit 15). Outflows from local equity ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e40184661f250a60",
+        "value": 23.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "x- China and Taiwan) funds this week. YTD, these funds had US\\\\$19bn inflows, which compares to US\\\\$23bn outflows in 2024 (Exhibit 15). Outflows from local equity funds in Brazil slowing down. R\\\\(0.",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c34d5a5faeee7163",
+        "value": 220.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "eceived from 2018 to 2021 (close to R\\)23.0bn inflows), were drained since Sep- 2021 (close to - R\\\\$220bn, see Exhibit 8). Ibovespa preview: Yesterday, B3 announced its final official preview for the",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "dee67f7b8c3b4aa9",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Global Research, Bloomberg BofA GLOBAL RESEARCH **Exhibit 3: Ibovespa ex- commodities trading at 7% discount vs historicals** Ibovespa P/E ratio (12m fwd, sector adjusted ex. commodities) since 2016",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "bd084e8e7339869a",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ": BofA Global Research, Bloomberg BofA GLOBAL RESEARCH **Exhibit 5: Chile is trading at more than 10% discount vs hist, despite strong performance YTD** IPSA P/E ratio (12m fwd) since 2016 ![Figure 1-",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7a711f388e602b87",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "H **Exhibit 7: All LatAm markets trade at a discount to hist. Largest discount found in Colombia (>30% discount to hist.)** LatAm valuation summary (P/E ratio 12m fwd) <table><tr><td>Country</td><td>I",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c26fafb3f373b86e",
+        "value": -0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Prem. to EM*</td></tr><tr><td>Brazil</td><td>Ibov</td><td>8.4</td><td>10.6</td><td>2.1</td><td>-21%</td><td>-34%</td></tr><tr><td>BZ Ex-commod.</td><td></td><td>10.3</td><td>11.1</td><td>1.3</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b29f068b08fa0ecb",
+        "value": -0.34,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "EM*</td></tr><tr><td>Brazil</td><td>Ibov</td><td>8.4</td><td>10.6</td><td>2.1</td><td>-21%</td><td>-34%</td></tr><tr><td>BZ Ex-commod.</td><td></td><td>10.3</td><td>11.1</td><td>1.3</td><td>-7%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9d8b08a5292f91ab",
+        "value": -0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>-34%</td></tr><tr><td>BZ Ex-commod.</td><td></td><td>10.3</td><td>11.1</td><td>1.3</td><td>-7%</td><td>-21%</td></tr><tr><td>Mexico</td><td>Mexbol</td><td>12.1</td><td>14.2</td><td>1.1</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6b9acd57b01d16bc",
+        "value": -0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>BZ Ex-commod.</td><td></td><td>10.3</td><td>11.1</td><td>1.3</td><td>-7%</td><td>-21%</td></tr><tr><td>Mexico</td><td>Mexbol</td><td>12.1</td><td>14.2</td><td>1.1</td><td>-15%</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "25ae5b710b9e0823",
+        "value": -0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>-21%</td></tr><tr><td>Mexico</td><td>Mexbol</td><td>12.1</td><td>14.2</td><td>1.1</td><td>-15%</td><td>-8%</td></tr><tr><td>Chile</td><td>Ipsa</td><td>11.6</td><td>13.1</td><td>1.3</td><td>-",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b24eccef11316481",
+        "value": -0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>Mexico</td><td>Mexbol</td><td>12.1</td><td>14.2</td><td>1.1</td><td>-15%</td><td>-8%</td></tr><tr><td>Chile</td><td>Ipsa</td><td>11.6</td><td>13.1</td><td>1.3</td><td>-11%</td><td>-",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "19dfeafb99af6dc5",
+        "value": -0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">-15%</td><td>-8%</td></tr><tr><td>Chile</td><td>Ipsa</td><td>11.6</td><td>13.1</td><td>1.3</td><td>-11%</td><td>-11%</td></tr><tr><td>Peru</td><td>SPBLPGPT</td><td>10.3</td><td>13.1</td><td>6.4</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f40948e423e83a90",
+        "value": -0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">-8%</td></tr><tr><td>Chile</td><td>Ipsa</td><td>11.6</td><td>13.1</td><td>1.3</td><td>-11%</td><td>-11%</td></tr><tr><td>Peru</td><td>SPBLPGPT</td><td>10.3</td><td>13.1</td><td>6.4</td><td>-21%</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "804c261c4be9a829",
+        "value": -0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>-11%</td></tr><tr><td>Peru</td><td>SPBLPGPT</td><td>10.3</td><td>13.1</td><td>6.4</td><td>-21%</td><td>-7%</td></tr><tr><td>Colombia</td><td>Colcap</td><td>7.7</td><td>11.7</td><td>2.2</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8324a2ad630dd841",
+        "value": -0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>Peru</td><td>SPBLPGPT</td><td>10.3</td><td>13.1</td><td>6.4</td><td>-21%</td><td>-7%</td></tr><tr><td>Colombia</td><td>Colcap</td><td>7.7</td><td>11.7</td><td>2.2</td><td>-34%</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a8f94791f5cd6adb",
+        "value": -0.34,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>-7%</td></tr><tr><td>Colombia</td><td>Colcap</td><td>7.7</td><td>11.7</td><td>2.2</td><td>-34%</td><td>-52%</td></tr><tr><td>Argentina</td><td>Merval</td><td>7.2</td><td>10.4</td><td>4.4</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ce0a05ff546ff1b5",
+        "value": -0.52,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>Colombia</td><td>Colcap</td><td>7.7</td><td>11.7</td><td>2.2</td><td>-34%</td><td>-52%</td></tr><tr><td>Argentina</td><td>Merval</td><td>7.2</td><td>10.4</td><td>4.4</td><td>-31%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "93ad6aaab0195406",
+        "value": -0.31,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>-52%</td></tr><tr><td>Argentina</td><td>Merval</td><td>7.2</td><td>10.4</td><td>4.4</td><td>-31%</td><td>-44%</td></tr><tr><td>EM</td><td>MXEF</td><td>13.2</td><td>11.5</td><td>1.0</td><td>15%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e07ed5d119f145ed",
+        "value": -0.44,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>Argentina</td><td>Merval</td><td>7.2</td><td>10.4</td><td>4.4</td><td>-31%</td><td>-44%</td></tr><tr><td>EM</td><td>MXEF</td><td>13.2</td><td>11.5</td><td>1.0</td><td>15%</td><td>-</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ca4a513a0dd5029b",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>-31%</td><td>-44%</td></tr><tr><td>EM</td><td>MXEF</td><td>13.2</td><td>11.5</td><td>1.0</td><td>15%</td><td>-</td></tr></table> *Historical data since 2010 Source: BofA Global Research, Bloomberg",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "cd7da51d2d144f33",
+        "value": 5124.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Exhibit 10:We saw about R\\\\$5124 in inflows into Brazil fixed income funds Fxed Income funds weekly flows (R\\\\$bn) (Brazil local fund",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d4eaef4bdb9bed02",
+        "value": 2.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "onomatica \\\\*Preliminary data, up to Tuesday ## Foreign flows to B3 Exhibit 11: We saw roughly R\\\\$2bn avg/month foreign inflows into B3 YTD, mostly into cash equities. No IPO activity in the last 12m",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c15f0be5ded6df6d",
+        "value": 2.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "r>Source:Neway, BofA Global Research </center> BofA GLOBAL RESEARCH Exhibit 12: We saw roughly R\\\\$2bn avg/month foreign inflows into B3 YTD, mostly into cash equities. No IPO activity in the last 12m",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "90167364f0660ccc",
+        "value": 2.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "enter> BofA GLOBAL RESEARCH ## Global flows Exhibit 14: Global funds dedicated to LatAm have US\\\\$2bn inflows YTD. Brazil had close to US\\\\$0.6bn inflows YTD while Mexico had close to US\\\\$0.4bn infl",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "947eff6e9ea43151",
+        "value": 0.6,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ows Exhibit 14: Global funds dedicated to LatAm have US\\\\$2bn inflows YTD. Brazil had close to US\\\\$0.6bn inflows YTD while Mexico had close to US\\\\$0.4bn inflows YTDFlows to global funds dedicated to",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "7fd78f70611d397e",
+        "value": 0.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "have US\\\\$2bn inflows YTD. Brazil had close to US\\\\$0.6bn inflows YTD while Mexico had close to US\\\\$0.4bn inflows YTDFlows to global funds dedicated to LatAm (Accumulated inflows, US\\\\$bn, since Jan-",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e39fcf70199e1edc",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>Week</td><td>Assets</td><td>Weeks</td><td>Assets</td></tr><tr><td>LatAm</td><td>36</td><td>0.3%</td><td>2</td><td>0.0%</td></tr><tr><td>Brazil</td><td>(19)</td><td>-0.1%</td><td>(172)</td><td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "511b0036190e2351",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ssets</td><td>Weeks</td><td>Assets</td></tr><tr><td>LatAm</td><td>36</td><td>0.3%</td><td>2</td><td>0.0%</td></tr><tr><td>Brazil</td><td>(19)</td><td>-0.1%</td><td>(172)</td><td>-1.2%</td></tr><tr><td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "4654e737c80f8d74",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>LatAm</td><td>36</td><td>0.3%</td><td>2</td><td>0.0%</td></tr><tr><td>Brazil</td><td>(19)</td><td>-0.1%</td><td>(172)</td><td>-1.2%</td></tr><tr><td>Mexico</td><td>(9)</td><td>-0.1%</td><td>(106)</t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "fc27de6b375c546f",
+        "value": -0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".3%</td><td>2</td><td>0.0%</td></tr><tr><td>Brazil</td><td>(19)</td><td>-0.1%</td><td>(172)</td><td>-1.2%</td></tr><tr><td>Mexico</td><td>(9)</td><td>-0.1%</td><td>(106)</td><td>-1.2%</td></tr><tr><td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "26a738dc4ad05e87",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>(19)</td><td>-0.1%</td><td>(172)</td><td>-1.2%</td></tr><tr><td>Mexico</td><td>(9)</td><td>-0.1%</td><td>(106)</td><td>-1.2%</td></tr><tr><td>Andean</td><td>29</td><td>0.7%</td><td>54</td><td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "03b5ce1303c8f753",
+        "value": -0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>(172)</td><td>-1.2%</td></tr><tr><td>Mexico</td><td>(9)</td><td>-0.1%</td><td>(106)</td><td>-1.2%</td></tr><tr><td>Andean</td><td>29</td><td>0.7%</td><td>54</td><td>1.3%</td></tr><tr><td>LatAm",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "512d237d6e3b2ebc",
+        "value": 0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "co</td><td>(9)</td><td>-0.1%</td><td>(106)</td><td>-1.2%</td></tr><tr><td>Andean</td><td>29</td><td>0.7%</td><td>54</td><td>1.3%</td></tr><tr><td>LatAmTotal</td><td>30</td><td>0.1%</td><td>(273)</td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "286194ce7a64f915",
+        "value": 0.013000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0.1%</td><td>(106)</td><td>-1.2%</td></tr><tr><td>Andean</td><td>29</td><td>0.7%</td><td>54</td><td>1.3%</td></tr><tr><td>LatAmTotal</td><td>30</td><td>0.1%</td><td>(273)</td><td>-0.7%</td></tr><tr><t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f7d91ee7086e4396",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "dean</td><td>29</td><td>0.7%</td><td>54</td><td>1.3%</td></tr><tr><td>LatAmTotal</td><td>30</td><td>0.1%</td><td>(273)</td><td>-0.7%</td></tr><tr><td>China</td><td>3,936</td><td>0.2%</td><td>3,088</td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "80632cac2a3de3f1",
+        "value": -0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>54</td><td>1.3%</td></tr><tr><td>LatAmTotal</td><td>30</td><td>0.1%</td><td>(273)</td><td>-0.7%</td></tr><tr><td>China</td><td>3,936</td><td>0.2%</td><td>3,088</td><td>0.1%</td></tr><tr><td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "833d310fe623db2f",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "al</td><td>30</td><td>0.1%</td><td>(273)</td><td>-0.7%</td></tr><tr><td>China</td><td>3,936</td><td>0.2%</td><td>3,088</td><td>0.1%</td></tr><tr><td>EM Ex-China</td><td>(906)</td><td>0.0%</td><td>(4,3",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "9b0eda7c98118c04",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>(273)</td><td>-0.7%</td></tr><tr><td>China</td><td>3,936</td><td>0.2%</td><td>3,088</td><td>0.1%</td></tr><tr><td>EM Ex-China</td><td>(906)</td><td>0.0%</td><td>(4,327)</td><td>-0.2%</td></tr>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "1d143a4150cfdb81",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>3,936</td><td>0.2%</td><td>3,088</td><td>0.1%</td></tr><tr><td>EM Ex-China</td><td>(906)</td><td>0.0%</td><td>(4,327)</td><td>-0.2%</td></tr><tr><td>EM Total</td><td>3,030</td><td>0.1%</td><td>(1,2",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "8bf9be472d2696a9",
+        "value": -0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">3,088</td><td>0.1%</td></tr><tr><td>EM Ex-China</td><td>(906)</td><td>0.0%</td><td>(4,327)</td><td>-0.2%</td></tr><tr><td>EM Total</td><td>3,030</td><td>0.1%</td><td>(1,239)</td><td>-0.1%</td></tr></",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "d2053462478eb836",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>(906)</td><td>0.0%</td><td>(4,327)</td><td>-0.2%</td></tr><tr><td>EM Total</td><td>3,030</td><td>0.1%</td><td>(1,239)</td><td>-0.1%</td></tr></table> Source:EPFR ## Exhibit 16: Global equity funds ",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "6f05e5f58e35c626",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">(4,327)</td><td>-0.2%</td></tr><tr><td>EM Total</td><td>3,030</td><td>0.1%</td><td>(1,239)</td><td>-0.1%</td></tr></table> Source:EPFR ## Exhibit 16: Global equity funds dedicated to EM have US\\\\$12b",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "0d1844c063168106",
+        "value": 2.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "## Exhibit 15: Global funds dedicated to LatAm have US\\\\$2bn inflows YTD. Global funds dedicated to LatAm have US\\\\$2bn inflows YTD. <table><tr><td rowspan=",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "fa8fbf4926816bf0",
+        "value": 2.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "lobal funds dedicated to LatAm have US\\\\$2bn inflows YTD. Global funds dedicated to LatAm have US\\\\$2bn inflows YTD. <table><tr><td rowspan=\"2\">Region</td><td colspan=\"2\">% Current</td><td colspan=\"2\"",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "92159a4f6af88268",
+        "value": 12.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>-0.1%</td></tr></table> Source:EPFR ## Exhibit 16: Global equity funds dedicated to EM have US\\\\$12bn inflows YTD Cumulative flows into EM equity funds (US\\\\$bn), 2018- 2025 ![Figure 5-0](images/5_",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c19bf1de227f5e9f",
+        "value": -0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Electric Utilities</td><td>PAM US</td><td>PAM</td><td>8.4</td><td>1.4</td><td>1.4</td><td></td><td>-12%</td><td>-26%</td></tr><tr><td>Petrobras PN</td><td>BZ</td><td>Oils</td><td>PETR4 BZ</td><td>PTR",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "9ed5ed962ff3dca8",
+        "value": -0.26,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "lities</td><td>PAM US</td><td>PAM</td><td>8.4</td><td>1.4</td><td>1.4</td><td></td><td>-12%</td><td>-26%</td></tr><tr><td>Petrobras PN</td><td>BZ</td><td>Oils</td><td>PETR4 BZ</td><td>PTRBF</td><td>3.",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "d4ced2cebc5d4761",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "BZ</td><td>Oils</td><td>PETR4 BZ</td><td>PTRBF</td><td>3.4</td><td>3.9</td><td>1.3</td><td></td><td>-2%</td><td>-9%</td></tr><tr><td>Metalurgica Gerdau</td><td>BZ</td><td>Steels</td><td>GOAUL BZ</td><",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "9a71971a334fe0e9",
+        "value": -0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ils</td><td>PETR4 BZ</td><td>PTRBF</td><td>3.4</td><td>3.9</td><td>1.3</td><td></td><td>-2%</td><td>-9%</td></tr><tr><td>Metalurgica Gerdau</td><td>BZ</td><td>Steels</td><td>GOAUL BZ</td><td>MZGPF</td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "1476009152ecf178",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Steels</td><td>GOAUL BZ</td><td>MZGPF</td><td>7.5</td><td>4.5</td><td>1.2</td><td></td><td>2%</td><td>-5%</td></tr><tr><td>Cyrela</td><td>BZ</td><td>Homebuilders</td><td>CYRE3 BZ</td><td>XCBM",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "4a72152af158170c",
+        "value": -0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "eels</td><td>GOAUL BZ</td><td>MZGPF</td><td>7.5</td><td>4.5</td><td>1.2</td><td></td><td>2%</td><td>-5%</td></tr><tr><td>Cyrela</td><td>BZ</td><td>Homebuilders</td><td>CYRE3 BZ</td><td>XCBMF</td><td>6",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "77c083a0bb4eb1bf",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Homebuilders</td><td>CYRE3 BZ</td><td>XCBMF</td><td>6.1</td><td>5.3</td><td>0.7</td><td></td><td>15%</td><td>78%</td></tr><tr><td>LOMA</td><td>AR</td><td>Building Materials</td><td>LOMA US</td><td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "84ac1588f0968a64",
+        "value": 0.78,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ers</td><td>CYRE3 BZ</td><td>XCBMF</td><td>6.1</td><td>5.3</td><td>0.7</td><td></td><td>15%</td><td>78%</td></tr><tr><td>LOMA</td><td>AR</td><td>Building Materials</td><td>LOMA US</td><td>LOMA</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "b52a52f8d2ebdb12",
+        "value": -0.22,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "uilding Materials</td><td>LOMA US</td><td>LOMA</td><td>9.0</td><td>5.5</td><td>1.5</td><td></td><td>-22%</td><td>-24%</td></tr><tr><td>Liverpool Puerto</td><td>MX</td><td>Retailing-Broadline/Departmen",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "409cdb29165bd606",
+        "value": -0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ials</td><td>LOMA US</td><td>LOMA</td><td>9.0</td><td>5.5</td><td>1.5</td><td></td><td>-22%</td><td>-24%</td></tr><tr><td>Liverpool Puerto</td><td>MX</td><td>Retailing-Broadline/Department Stores</td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "3dc050d7fadae473",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ment Stores</td><td>LIVEPOLIC MM</td><td>ELPQF</td><td>5.9</td><td>5.5</td><td>1.4</td><td></td><td>-2%</td><td>-6%</td></tr><tr><td>Central Puerto</td><td>AR</td><td>Electric Utilities</td><td>CEPU U",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "58eb44b5692fb9f1",
+        "value": -0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>LIVEPOLIC MM</td><td>ELPQF</td><td>5.9</td><td>5.5</td><td>1.4</td><td></td><td>-2%</td><td>-6%</td></tr><tr><td>Central Puerto</td><td>AR</td><td>Electric Utilities</td><td>CEPU US</td><td>CE",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "6102ceb3e28ace26",
+        "value": -0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "lectric Utilities</td><td>CEPU US</td><td>CEPU</td><td>6.7</td><td>5.7</td><td>0.5</td><td></td><td>-13%</td><td>-29%</td></tr><tr><td>Vale ON</td><td>BZ</td><td>Non-Ferrous-Mining</td><td>VALE3 BZ</t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "dd90e0bb662e26eb",
+        "value": -0.29,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ties</td><td>CEPU US</td><td>CEPU</td><td>6.7</td><td>5.7</td><td>0.5</td><td></td><td>-13%</td><td>-29%</td></tr><tr><td>Vale ON</td><td>BZ</td><td>Non-Ferrous-Mining</td><td>VALE3 BZ</td><td>VALEF</",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "01bfdca7e202e8b4",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-Ferrous-Mining</td><td>VALE3 BZ</td><td>VALEF</td><td>5.9</td><td>5.7</td><td>0.9</td><td></td><td>6%</td><td>11%</td></tr><tr><td>Copa</td><td>CO</td><td>Airlines</td><td>CPA US</td><td>CPA</td><td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "75124247423ca028",
+        "value": 0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ning</td><td>VALE3 BZ</td><td>VALEF</td><td>5.9</td><td>5.7</td><td>0.9</td><td></td><td>6%</td><td>11%</td></tr><tr><td>Copa</td><td>CO</td><td>Airlines</td><td>CPA US</td><td>CPA</td><td>7.3</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "e7b42ecc9db95899",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "CO</td><td>Airlines</td><td>CPA US</td><td>CPA</td><td>7.3</td><td>6.6</td><td>1.0</td><td></td><td>7%</td><td>43%</td></tr><tr><td>Vista Energy</td><td>AR</td><td>Oil &amp; Gas Producers</td><td>VIST",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "68170e62b6034299",
+        "value": 0.43,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Airlines</td><td>CPA US</td><td>CPA</td><td>7.3</td><td>6.6</td><td>1.0</td><td></td><td>7%</td><td>43%</td></tr><tr><td>Vista Energy</td><td>AR</td><td>Oil &amp; Gas Producers</td><td>VIST US</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "3ef98f75e8c132c5",
+        "value": -0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "mp; Gas Producers</td><td>VIST US</td><td>VIST</td><td>7.7</td><td>6.6</td><td>1.8</td><td></td><td>-14%</td><td>-29%</td></tr><tr><td>Gerdau</td><td>BZ</td><td>Steels</td><td>GGBR4 BZ</td><td>GGBUF</",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "013f12f08e77a2f9",
+        "value": -0.29,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "cers</td><td>VIST US</td><td>VIST</td><td>7.7</td><td>6.6</td><td>1.8</td><td></td><td>-14%</td><td>-29%</td></tr><tr><td>Gerdau</td><td>BZ</td><td>Steels</td><td>GGBR4 BZ</td><td>GGBUF</td><td>8.7</t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "10e46a1cb7be9a66",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Steels</td><td>GGBR4 BZ</td><td>GGBUF</td><td>8.7</td><td>7.2</td><td>1.2</td><td></td><td>1%</td><td>-4%</td></tr><tr><td>Direcional</td><td>BZ</td><td>Homebuilders</td><td>DIRR3 BZ</td><td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "f05ab7ba5d9e1f6f",
+        "value": -0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "eels</td><td>GGBR4 BZ</td><td>GGBUF</td><td>8.7</td><td>7.2</td><td>1.2</td><td></td><td>1%</td><td>-4%</td></tr><tr><td>Direcional</td><td>BZ</td><td>Homebuilders</td><td>DIRR3 BZ</td><td>DRCHF</td><",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "2cf6a3efe75813df",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Homebuilders</td><td>DIRR3 BZ</td><td>DRCHF</td><td>8.3</td><td>7.4</td><td>-0.2</td><td></td><td>19%</td><td>92%</td></tr><tr><td>Azzas</td><td>BZ</td><td>Footwear</td><td>AZZA3 BZ</td><td>XARZF</t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "fcfacea75c1228da",
+        "value": 0.92,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rs</td><td>DIRR3 BZ</td><td>DRCHF</td><td>8.3</td><td>7.4</td><td>-0.2</td><td></td><td>19%</td><td>92%</td></tr><tr><td>Azzas</td><td>BZ</td><td>Footwear</td><td>AZZA3 BZ</td><td>XARZF</td><td>8.8</t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "dc0a8d3c866988c9",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>Footwear</td><td>AZZA3 BZ</td><td>XARZF</td><td>8.8</td><td>7.7</td><td>1.8</td><td></td><td>-2%</td><td>20%</td></tr><tr><td>Afya</td><td>BZ</td><td>Education &amp; Training Services</td><td>A",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "058450795254e30b",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ear</td><td>AZZA3 BZ</td><td>XARZF</td><td>8.8</td><td>7.7</td><td>1.8</td><td></td><td>-2%</td><td>20%</td></tr><tr><td>Afya</td><td>BZ</td><td>Education &amp; Training Services</td><td>AFYA US</td><",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "9550e61deff07971",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Training Services</td><td>AFYA US</td><td>AFYA</td><td>9.4</td><td>7.9</td><td>1.9</td><td></td><td>7%</td><td>-1%</td></tr><tr><td>Ternium</td><td>MX</td><td>Steels</td><td>TX US</td><td>TX</td><td>1",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "8e2abc9554dbee34",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rvices</td><td>AFYA US</td><td>AFYA</td><td>9.4</td><td>7.9</td><td>1.9</td><td></td><td>7%</td><td>-1%</td></tr><tr><td>Ternium</td><td>MX</td><td>Steels</td><td>TX US</td><td>TX</td><td>10.7</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "565701835a5fbbc8",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>MX</td><td>Steels</td><td>TX US</td><td>TX</td><td>10.7</td><td>8.0</td><td>-0.6</td><td></td><td>4%</td><td>19%</td></tr><tr><td>Sanepar</td><td>BZ</td><td>Water Utilities</td><td>SAPR11 BZ</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "9f2ac30bef0a3828",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Steels</td><td>TX US</td><td>TX</td><td>10.7</td><td>8.0</td><td>-0.6</td><td></td><td>4%</td><td>19%</td></tr><tr><td>Sanepar</td><td>BZ</td><td>Water Utilities</td><td>SAPR11 BZ</td><td>XJALF</td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "f4460b191fff1264",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ater Utilities</td><td>SAPR11 BZ</td><td>XJALF</td><td>6.9</td><td>8.1</td><td>1.7</td><td></td><td>1%</td><td>35%</td></tr><tr><td>Cemig</td><td>BZ</td><td>Electric Utilities</td><td>CMIG4 BZ</td><td",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "8168ad4602324e2e",
+        "value": 0.35,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ies</td><td>SAPR11 BZ</td><td>XJALF</td><td>6.9</td><td>8.1</td><td>1.7</td><td></td><td>1%</td><td>35%</td></tr><tr><td>Cemig</td><td>BZ</td><td>Electric Utilities</td><td>CMIG4 BZ</td><td>CEMCF</td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "716826252bc46325",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ctric Utilities</td><td>CMIG4 BZ</td><td>CEMCF</td><td>8.0</td><td>8.4</td><td>1.4</td><td></td><td>7%</td><td>11%</td></tr><tr><td>Vivara</td><td>BZ</td><td>Retailing-Specialty</td><td>VIVA3 BZ</td><",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "02ffa544e076c012",
+        "value": 0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ties</td><td>CMIG4 BZ</td><td>CEMCF</td><td>8.0</td><td>8.4</td><td>1.4</td><td></td><td>7%</td><td>11%</td></tr><tr><td>Vivara</td><td>BZ</td><td>Retailing-Specialty</td><td>VIVA3 BZ</td><td>XUVZF</t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "6b354d70149983e9",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ling-Specialty</td><td>VIVA3 BZ</td><td>XUVZF</td><td>10.8</td><td>9.4</td><td>1.1</td><td></td><td>17%</td><td>60%</td></tr><tr><td>Grupo Cementos Chihuahua</td><td>MX</td><td>Building Materials</td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "9051dde4ca85094b",
+        "value": 0.6,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ty</td><td>VIVA3 BZ</td><td>XUVZF</td><td>10.8</td><td>9.4</td><td>1.1</td><td></td><td>17%</td><td>60%</td></tr><tr><td>Grupo Cementos Chihuahua</td><td>MX</td><td>Building Materials</td><td>GCC* MM<",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "387e6dc56961f887",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ding Materials</td><td>GCC* MM</td><td>GCWOF</td><td>10.4</td><td>9.6</td><td>-0.4</td><td></td><td>-2%</td><td>-6%</td></tr><tr><td>Lojas Renner</td><td>BZ</td><td>Retailing-Broadline/Department Stor",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "63a0cb2c7e747d74",
+        "value": -0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ls</td><td>GCC* MM</td><td>GCWOF</td><td>10.4</td><td>9.6</td><td>-0.4</td><td></td><td>-2%</td><td>-6%</td></tr><tr><td>Lojas Renner</td><td>BZ</td><td>Retailing-Broadline/Department Stores</td><td>L",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "d786c5a931feb5da",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "artment Stores</td><td>LREN3 BZ</td><td>LORPF</td><td>10.9</td><td>9.7</td><td>0.4</td><td></td><td>-1%</td><td>38%</td></tr><tr><td>Median</td><td></td><td></td><td></td><td></td><td></td><td></td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "afc68540f8a64acf",
+        "value": 0.38,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "es</td><td>LREN3 BZ</td><td>LORPF</td><td>10.9</td><td>9.7</td><td>0.4</td><td></td><td>-1%</td><td>38%</td></tr><tr><td>Median</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>2",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "d9377d471e7942d6",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">38%</td></tr><tr><td>Median</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>2%</td><td>5%</td><td></td></tr></table> **Source:** BofA Global Research, Bloomberg Stocks are sele",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "0ebbe67f3168752c",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>Median</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>2%</td><td>5%</td><td></td></tr></table> **Source:** BofA Global Research, Bloomberg Stocks are selected from o",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "bbaccdebbfd4bc42",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "n Energia</td><td>BZ</td><td>Electric Utilities</td><td>AURE3 BZ</td><td>XZMF</td><td>233.0</td><td>2%</td><td></td><td>16%</td><td></td><td></td><td>25%</td><td></td></tr><tr><td>Mercado Libre</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "b8e3223fababdcb3",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Electric Utilities</td><td>AURE3 BZ</td><td>XZMF</td><td>233.0</td><td>2%</td><td></td><td>16%</td><td></td><td></td><td>25%</td><td></td></tr><tr><td>Mercado Libre</td><td>BZ</td><td>Interne",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "252b9c992af8dd2e",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>AURE3 BZ</td><td>XZMF</td><td>233.0</td><td>2%</td><td></td><td>16%</td><td></td><td></td><td>25%</td><td></td></tr><tr><td>Mercado Libre</td><td>BZ</td><td>Internet/e-Commerce</td><td>MELI US</",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "9e8a91e281f1a0f4",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "cado Libre</td><td>BZ</td><td>Internet/e-Commerce</td><td>MELI US</td><td>MELI</td><td>37.2</td><td>0%</td><td></td><td>4%</td><td></td><td></td><td>41%</td><td></td></tr><tr><td>TOTVS</td><td>BZ</td>",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "5eb5f2c798c26006",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Z</td><td>Internet/e-Commerce</td><td>MELI US</td><td>MELI</td><td>37.2</td><td>0%</td><td></td><td>4%</td><td></td><td></td><td>41%</td><td></td></tr><tr><td>TOTVS</td><td>BZ</td><td>Server &amp; Ent",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "79687890abdf1e19",
+        "value": 0.41,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>MELI US</td><td>MELI</td><td>37.2</td><td>0%</td><td></td><td>4%</td><td></td><td></td><td>41%</td><td></td></tr><tr><td>TOTVS</td><td>BZ</td><td>Server &amp; Enterprise Software</td><td>TOTS",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "9f87bf1e2bffb21a",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>BZ</td><td>Server &amp; Enterprise Software</td><td>TOTS3 BZ</td><td>XBEGF</td><td>24.3</td><td>1%</td><td></td><td>0%</td><td></td><td></td><td>64%</td><td></td></tr><tr><td>WEG</td><td>BZ</td><t",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "0359087de9df23de",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r &amp; Enterprise Software</td><td>TOTS3 BZ</td><td>XBEGF</td><td>24.3</td><td>1%</td><td></td><td>0%</td><td></td><td></td><td>64%</td><td></td></tr><tr><td>WEG</td><td>BZ</td><td>Industrials/Multi-",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "1a92f166ea428202",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Chihuahua</td><td>MX</td><td>Building Materials</td><td>GCC* MM</td><td>GCWOF</td><td>20.3</td><td>-2%</td><td>-6%</td></tr><tr><td>Marrfig</td><td>BZ</td><td>Food Processors</td><td>MRFG3 BZ</td><td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "264c8a88de42e701",
+        "value": -0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>MX</td><td>Building Materials</td><td>GCC* MM</td><td>GCWOF</td><td>20.3</td><td>-2%</td><td>-6%</td></tr><tr><td>Marrfig</td><td>BZ</td><td>Food Processors</td><td>MRFG3 BZ</td><td>MRRTF</td><",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "f0d20695af1cfaf6",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Marrfig</td><td>BZ</td><td>Food Processors</td><td>MRFG3 BZ</td><td>MRRTF</td><td>15.0</td><td>3%</td><td>38%</td></tr><tr><td>Petrobras PN</td><td>BZ</td><td>Oils</td><td>PETR4 BZ</td><td>PTRBF<",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "6ee86962a3c82f95",
+        "value": 0.38,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "g</td><td>BZ</td><td>Food Processors</td><td>MRFG3 BZ</td><td>MRRTF</td><td>15.0</td><td>3%</td><td>38%</td></tr><tr><td>Petrobras PN</td><td>BZ</td><td>Oils</td><td>PETR4 BZ</td><td>PTRBF</td><td>12.",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "f2adfb8ee42d1504",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>Petrobras PN</td><td>BZ</td><td>Oils</td><td>PETR4 BZ</td><td>PTRBF</td><td>12.9</td><td>-2%</td><td>-9%</td></tr><tr><td>Bradespar</td><td>BZ</td><td>Non-Ferrous-Mining</td><td>BRAP4 BZ</t",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "422cf6e4fcb83bab",
+        "value": -0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "etrobras PN</td><td>BZ</td><td>Oils</td><td>PETR4 BZ</td><td>PTRBF</td><td>12.9</td><td>-2%</td><td>-9%</td></tr><tr><td>Bradespar</td><td>BZ</td><td>Non-Ferrous-Mining</td><td>BRAP4 BZ</td><td>BRDQF<",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "620709d207d85fbc",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Bradespar</td><td>BZ</td><td>Non-Ferrous-Mining</td><td>BRAP4 BZ</td><td>BRDQF</td><td>12.6</td><td>2%</td><td>6%</td></tr><tr><td>Asur</td><td>MX</td><td>Airports</td><td>ASURB MM</td><td>ASRMF</td><",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "a665db5b0497c895",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>BZ</td><td>Non-Ferrous-Mining</td><td>BRAP4 BZ</td><td>BRDQF</td><td>12.6</td><td>2%</td><td>6%</td></tr><tr><td>Asur</td><td>MX</td><td>Airports</td><td>ASURB MM</td><td>ASRMF</td><td>12.5</td",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "8ddcf5291f812a90",
+        "value": 0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>Asur</td><td>MX</td><td>Airports</td><td>ASURB MM</td><td>ASRMF</td><td>12.5</td><td>8%</td><td>24%</td></tr><tr><td>BB Seguridade</td><td>BZ</td><td>Insurance - Multi-line</td><td>BBSE",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "c5e42d637978ee4c",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Asur</td><td>MX</td><td>Airports</td><td>ASURB MM</td><td>ASRMF</td><td>12.5</td><td>8%</td><td>24%</td></tr><tr><td>BB Seguridade</td><td>BZ</td><td>Insurance - Multi-line</td><td>BBSE3 BZ</td><t",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "9a5b7ec670375e3b",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "idade</td><td>BZ</td><td>Insurance - Multi-line</td><td>BBSE3 BZ</td><td>XBDPF</td><td>12.3</td><td>3%</td><td>1%</td></tr><tr><td>Direcional</td><td>BZ</td><td>Homebuilders</td><td>DIRR3 BZ</td><td>D",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "7b1df0f45e350fd6",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>BZ</td><td>Insurance - Multi-line</td><td>BBSE3 BZ</td><td>XBDPF</td><td>12.3</td><td>3%</td><td>1%</td></tr><tr><td>Direcional</td><td>BZ</td><td>Homebuilders</td><td>DIRR3 BZ</td><td>DRCHF</td><t",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "e4c233646e9ea06b",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Direcional</td><td>BZ</td><td>Homebuilders</td><td>DIRR3 BZ</td><td>DRCHF</td><td>10.3</td><td>19%</td><td>92%</td></tr><tr><td>Bajio</td><td>MX</td><td>Banks-Retail</td><td>BBAJIOO MM</td><td>BB",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "8988d610a31d8687",
+        "value": 0.92,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nal</td><td>BZ</td><td>Homebuilders</td><td>DIRR3 BZ</td><td>DRCHF</td><td>10.3</td><td>19%</td><td>92%</td></tr><tr><td>Bajio</td><td>MX</td><td>Banks-Retail</td><td>BBAJIOO MM</td><td>BBAJF</td><td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "f4a2b42bb3daf963",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>Bajio</td><td>MX</td><td>Banks-Retail</td><td>BBAJIOO MM</td><td>BBAJF</td><td>10.1</td><td>-1%</td><td>10%</td></tr><tr><td>Ecopetrol</td><td>CO</td><td>Oil & Gas Producers</td><td>ECOPETL CB",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "759576364e8cc0ee",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "o</td><td>MX</td><td>Banks-Retail</td><td>BBAJIOO MM</td><td>BBAJF</td><td>10.1</td><td>-1%</td><td>10%</td></tr><tr><td>Ecopetrol</td><td>CO</td><td>Oil & Gas Producers</td><td>ECOPETL CB</td><td>XES",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "9e80bd506066bcf4",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "opetrol</td><td>CO</td><td>Oil & Gas Producers</td><td>ECOPETL CB</td><td>XESSF</td><td>9.9</td><td>3%</td><td>15%</td></tr><tr><td>Central Puerto</td><td>AR</td><td>Electric Utilities</td><td>CEPU US",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "80ff80daa861b68e",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>CO</td><td>Oil & Gas Producers</td><td>ECOPETL CB</td><td>XESSF</td><td>9.9</td><td>3%</td><td>15%</td></tr><tr><td>Central Puerto</td><td>AR</td><td>Electric Utilities</td><td>CEPU US</td><td>CE",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "99cf4757b8e82b59",
+        "value": -0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ntral Puerto</td><td>AR</td><td>Electric Utilities</td><td>CEPU US</td><td>CEPU</td><td>9.6</td><td>-13%</td><td>-29%</td></tr><tr><td>Cemex</td><td>MX</td><td>Building Materials</td><td>CX US</td><td",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "a9ea490b884b8380",
+        "value": -0.29,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>AR</td><td>Electric Utilities</td><td>CEPU US</td><td>CEPU</td><td>9.6</td><td>-13%</td><td>-29%</td></tr><tr><td>Cemex</td><td>MX</td><td>Building Materials</td><td>CX US</td><td>CX</td><td>9",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "916d84ca94a8b5d0",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>Cemex</td><td>MX</td><td>Building Materials</td><td>CX US</td><td>CX</td><td>9.1</td><td>5%</td><td>60%</td></tr><tr><td>Fibra Uno</td><td>MX</td><td>REITs</td><td>FUNO11 MM</td><td>FBASF</",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "92eb169f30e7c9a2",
+        "value": 0.6,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Cemex</td><td>MX</td><td>Building Materials</td><td>CX US</td><td>CX</td><td>9.1</td><td>5%</td><td>60%</td></tr><tr><td>Fibra Uno</td><td>MX</td><td>REITs</td><td>FUNO11 MM</td><td>FBASF</td><td>8.6<",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "eb065fe47100ac9d",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>Fibra Uno</td><td>MX</td><td>REITs</td><td>FUNO11 MM</td><td>FBASF</td><td>8.6</td><td>-1%</td><td>33%</td></tr><tr><td>Grupo Cibest</td><td>CO</td><td>Banks-Multinational/Universal</td><",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "6dc5a75aa519a76f",
+        "value": 0.33,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Fibra Uno</td><td>MX</td><td>REITs</td><td>FUNO11 MM</td><td>FBASF</td><td>8.6</td><td>-1%</td><td>33%</td></tr><tr><td>Grupo Cibest</td><td>CO</td><td>Banks-Multinational/Universal</td><td>CIBEST CB",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "ae1a33406e4cfda7",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>CO</td><td>Banks-Multinational/Universal</td><td>CIBEST CB</td><td>XGCUF</td><td>8.4</td><td>13%</td><td>73%</td></tr><tr><td>Isa Cteep</td><td>BZ</td><td>Electric Utilities</td><td>ISAE4 BZ</t",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "8cb6e103f8e6c893",
+        "value": 0.73,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>Banks-Multinational/Universal</td><td>CIBEST CB</td><td>XGCUF</td><td>8.4</td><td>13%</td><td>73%</td></tr><tr><td>Isa Cteep</td><td>BZ</td><td>Electric Utilities</td><td>ISAE4 BZ</td><td>XHBYF<",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "b61c286f4163fdbd",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Isa Cteep</td><td>BZ</td><td>Electric Utilities</td><td>ISAE4 BZ</td><td>XHBYF</td><td>8.4</td><td>3%</td><td>11%</td></tr><tr><td>Ternium</td><td>MX</td><td>Steels</td><td>TX US</td><td>TX</td><td>8",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "7e9d3398b48371ce",
+        "value": 0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>BZ</td><td>Electric Utilities</td><td>ISAE4 BZ</td><td>XHBYF</td><td>8.4</td><td>3%</td><td>11%</td></tr><tr><td>Ternium</td><td>MX</td><td>Steels</td><td>TX US</td><td>TX</td><td>8.4</td><td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "03bab5341ce850fd",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "11%</td></tr><tr><td>Ternium</td><td>MX</td><td>Steels</td><td>TX US</td><td>TX</td><td>8.4</td><td>4%</td><td>19%</td></tr><tr><td>Odontoprev</td><td>BZ</td><td>Healthcare Technology & Distribution</",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "27f7a2b871db7299",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><tr><td>Ternium</td><td>MX</td><td>Steels</td><td>TX US</td><td>TX</td><td>8.4</td><td>4%</td><td>19%</td></tr><tr><td>Odontoprev</td><td>BZ</td><td>Healthcare Technology & Distribution</td><td>ODPV",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "bf8f8c3c1c50648a",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">BZ</td><td>Healthcare Technology & Distribution</td><td>ODPV3 BZ</td><td>ODPVF</td><td>8.0</td><td>12%</td><td>31%</td></tr><tr><td>Fibra MTY</td><td>MX</td><td>REITs</td><td>FMTY14 MM</td><td>FMTYF<",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "c012e7078d569ae3",
+        "value": 0.31,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Healthcare Technology & Distribution</td><td>ODPV3 BZ</td><td>ODPVF</td><td>8.0</td><td>12%</td><td>31%</td></tr><tr><td>Fibra MTY</td><td>MX</td><td>REITs</td><td>FMTY14 MM</td><td>FMTYF</td><td>7.9<",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "45c5ccd59ce39e84",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>Fibra MTY</td><td>MX</td><td>REITs</td><td>FMTY14 MM</td><td>FMTYF</td><td>7.9</td><td>0%</td><td>28%</td></tr><tr><td>Bradesco</td><td>BZ</td><td>Banks-Retail</td><td>BBDC4 BZ</td><td>BR",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "98d16d42604ddd4c",
+        "value": 0.28,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Fibra MTY</td><td>MX</td><td>REITs</td><td>FMTY14 MM</td><td>FMTYF</td><td>7.9</td><td>0%</td><td>28%</td></tr><tr><td>Bradesco</td><td>BZ</td><td>Banks-Retail</td><td>BBDC4 BZ</td><td>BRDPF</td><td",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "6bb7ff0b29ddc0df",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>Bradesco</td><td>BZ</td><td>Banks-Retail</td><td>BBDC4 BZ</td><td>BRDPF</td><td>7.9</td><td>10%</td><td>55%</td></tr><tr><td>TAESA</td><td>BZ</td><td>Electric Utilities</td><td>TAEE11 BZ</td><",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "5556163ae44280c3",
+        "value": 0.55,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "esco</td><td>BZ</td><td>Banks-Retail</td><td>BBDC4 BZ</td><td>BRDPF</td><td>7.9</td><td>10%</td><td>55%</td></tr><tr><td>TAESA</td><td>BZ</td><td>Electric Utilities</td><td>TAEE11 BZ</td><td>XTAEF</td",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "70d3f8dc84c65655",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>TAESA</td><td>BZ</td><td>Electric Utilities</td><td>TAEE11 BZ</td><td>XTAEF</td><td>7.8</td><td>7%</td><td>13%</td></tr><tr><td>JBS</td><td>BZ</td><td>Food Processors</td><td>JBS US</td><td>XJBSF<",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "d03c463ea1e2ad4f",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>BZ</td><td>Electric Utilities</td><td>TAEE11 BZ</td><td>XTAEF</td><td>7.8</td><td>7%</td><td>13%</td></tr><tr><td>JBS</td><td>BZ</td><td>Food Processors</td><td>JBS US</td><td>XJBSF</td><td>7.6",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "561027c36a7f259e",
+        "value": 0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>JBS</td><td>BZ</td><td>Food Processors</td><td>JBS US</td><td>XJBSF</td><td>7.6</td><td>21%</td><td>18%</td></tr><tr><td>Median</td><td></td><td></td><td></td><td></td><td>3%</td><td>19%</",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "4e3fee5499710ac5",
+        "value": 0.18,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "JBS</td><td>BZ</td><td>Food Processors</td><td>JBS US</td><td>XJBSF</td><td>7.6</td><td>21%</td><td>18%</td></tr><tr><td>Median</td><td></td><td></td><td></td><td></td><td>3%</td><td>19%</td><td></td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "9102f29065826157",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>7.6</td><td>21%</td><td>18%</td></tr><tr><td>Median</td><td></td><td></td><td></td><td></td><td>3%</td><td>19%</td><td></td></tr></table> Source: BoFA Global Research, Bloomberg Stocks are selecte",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "ecfb28a7679b7af1",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>21%</td><td>18%</td></tr><tr><td>Median</td><td></td><td></td><td></td><td></td><td>3%</td><td>19%</td><td></td></tr></table> Source: BoFA Global Research, Bloomberg Stocks are selected from our ",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "8515f245b62f7cdd",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Telecom Equipment-Wireless/Cellular</td><td>VIVT3 BZ</td><td>XCPTF</td><td>0.3</td><td>0.5</td><td>12% 52%</td></tr><tr><td>Soriana</td><td>MX</td><td>Supermarkets/Food Retailers</td><td>SORIANAB MM<",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "16be56c6b08f2e27",
+        "value": 0.52,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ecom Equipment-Wireless/Cellular</td><td>VIVT3 BZ</td><td>XCPTF</td><td>0.3</td><td>0.5</td><td>12% 52%</td></tr><tr><td>Soriana</td><td>MX</td><td>Supermarkets/Food Retailers</td><td>SORIANAB MM</td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "d824fb88a85d4fec",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>Supermarkets/Food Retailers</td><td>SORIANAB MM</td><td>ONZBF</td><td>0.3</td><td>1.8</td><td>-2% -16%</td></tr><tr><td>Gruma</td><td>MX</td><td>Food Producers</td><td>GRUMAB MM</td><td>GPAGF</t",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "41c3937a452b9270",
+        "value": -0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Supermarkets/Food Retailers</td><td>SORIANAB MM</td><td>ONZBF</td><td>0.3</td><td>1.8</td><td>-2% -16%</td></tr><tr><td>Gruma</td><td>MX</td><td>Food Producers</td><td>GRUMAB MM</td><td>GPAGF</td><t",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "2e0303e421b8012a",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "a</td><td>MX</td><td>Food Producers</td><td>GRUMAB MM</td><td>GPAGF</td><td>0.4</td><td>1.3</td><td>-2% 0%</td></tr><tr><td>LOMA</td><td>AR</td><td>Building Materials</td><td>LOMA US</td><td>LOMA</td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "e7a6e5b2d34d37f0",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>MX</td><td>Food Producers</td><td>GRUMAB MM</td><td>GPAGF</td><td>0.4</td><td>1.3</td><td>-2% 0%</td></tr><tr><td>LOMA</td><td>AR</td><td>Building Materials</td><td>LOMA US</td><td>LOMA</td><td>",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "6dfc569ac8eb9438",
+        "value": -0.22,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>AR</td><td>Building Materials</td><td>LOMA US</td><td>LOMA</td><td>0.5</td><td>1.5</td><td>-22% -24%</td></tr><tr><td>GMexico Transportes</td><td>MX</td><td>Rail Transport/Railroads</td><td>G",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "3f9ff0baf190c0c5",
+        "value": -0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>AR</td><td>Building Materials</td><td>LOMA US</td><td>LOMA</td><td>0.5</td><td>1.5</td><td>-22% -24%</td></tr><tr><td>GMexico Transportes</td><td>MX</td><td>Rail Transport/Railroads</td><td>GMXT* ",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "num_id": "6e017ffa383810ec",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "emex</td><td>MX</td><td>Building Materials</td><td>CX US</td><td>CX</td><td>1.9</td><td>2.1</td><td>5%</td><td>60%</td></tr><tr><td>Stone</td><td>BZ</td><td>Other Financials</td><td>STNE US</td><td>ST",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "adaa1ad4f7538674",
+        "value": 0.6,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>MX</td><td>Building Materials</td><td>CX US</td><td>CX</td><td>1.9</td><td>2.1</td><td>5%</td><td>60%</td></tr><tr><td>Stone</td><td>BZ</td><td>Other Financials</td><td>STNE US</td><td>STNE</td><td>",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "60b11e8ecb151257",
+        "value": 0.26,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "one</td><td>BZ</td><td>Other Financials</td><td>STNE US</td><td>STNE</td><td>1.9</td><td>NA</td><td>26%</td><td>104%</td></tr><tr><td>Banco inter</td><td>BZ</td><td>Banks-Retail</td><td>INTR US</td><t",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "c444d6127734c04c",
+        "value": 1.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "BZ</td><td>Other Financials</td><td>STNE US</td><td>STNE</td><td>1.9</td><td>NA</td><td>26%</td><td>104%</td></tr><tr><td>Banco inter</td><td>BZ</td><td>Banks-Retail</td><td>INTR US</td><td>INTR</td><",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "d06cd6fd77e628c8",
+        "value": 0.29,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "o inter</td><td>BZ</td><td>Banks-Retail</td><td>INTR US</td><td>INTR</td><td>1.8</td><td>NA</td><td>29%</td><td>112%</td></tr><tr><td>PagSeguro</td><td>BZ</td><td>Computer Services</td><td>PAGS US</td",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "90266221d38162c7",
+        "value": 1.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>BZ</td><td>Banks-Retail</td><td>INTR US</td><td>INTR</td><td>1.8</td><td>NA</td><td>29%</td><td>112%</td></tr><tr><td>PagSeguro</td><td>BZ</td><td>Computer Services</td><td>PAGS US</td><td>PAGS</t",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "6fd4cf14d27e8527",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ro</td><td>BZ</td><td>Computer Services</td><td>PAGS US</td><td>PAGS</td><td>1.7</td><td>NA</td><td>13%</td><td>44%</td></tr><tr><td>Cogna</td><td>BZ</td><td>Education &amp;amp; Training Services</td>",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "a8181ef81b4a7886",
+        "value": 0.44,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Z</td><td>Computer Services</td><td>PAGS US</td><td>PAGS</td><td>1.7</td><td>NA</td><td>13%</td><td>44%</td></tr><tr><td>Cogna</td><td>BZ</td><td>Education &amp;amp; Training Services</td><td>COGN3 BZ",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "112cf8d7e39c5d6b",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ducation &amp;amp; Training Services</td><td>COGN3 BZ</td><td>KROTF</td><td>1.7</td><td>2.3</td><td>12%</td><td>182%</td></tr><tr><td>Petro-Rio</td><td>BZ</td><td>Oil &amp;amp; Gas Producers</td><td>P",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "862604f2a220d60c",
+        "value": 1.82,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "p;amp; Training Services</td><td>COGN3 BZ</td><td>KROTF</td><td>1.7</td><td>2.3</td><td>12%</td><td>182%</td></tr><tr><td>Petro-Rio</td><td>BZ</td><td>Oil &amp;amp; Gas Producers</td><td>PRIO3 BZ</td>",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "02ffbc7f36f92e51",
+        "value": -0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Oil &amp;amp; Gas Producers</td><td>PRIO3 BZ</td><td>HRTPF</td><td>1.7</td><td>2.3</td><td>-8%</td><td>-5%</td></tr><tr><td>BTG Pactual</td><td>BZ</td><td>Banks-Retail</td><td>BPAC11 BZ</td><",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "5c5e6086cb6b6d4b",
+        "value": -0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "&amp;amp; Gas Producers</td><td>PRIO3 BZ</td><td>HRTPF</td><td>1.7</td><td>2.3</td><td>-8%</td><td>-5%</td></tr><tr><td>BTG Pactual</td><td>BZ</td><td>Banks-Retail</td><td>BPAC11 BZ</td><td>XNXCF</td>",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "8dee5a0e01c1b84f",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tual</td><td>BZ</td><td>Banks-Retail</td><td>BPAC11 BZ</td><td>XNXCF</td><td>1.6</td><td>NA</td><td>17%</td><td>68%</td></tr><tr><td>Banco Pan</td><td>BZ</td><td>Banks-Retail</td><td>BPAN4 BZ</td><td>",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "e1699ca86931c04f",
+        "value": 0.68,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">BZ</td><td>Banks-Retail</td><td>BPAC11 BZ</td><td>XNXCF</td><td>1.6</td><td>NA</td><td>17%</td><td>68%</td></tr><tr><td>Banco Pan</td><td>BZ</td><td>Banks-Retail</td><td>BPAN4 BZ</td><td>XQSF</td><td",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "662f9d948597d82a",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "co Pan</td><td>BZ</td><td>Banks-Retail</td><td>BPAN4 BZ</td><td>XQSF</td><td>1.6</td><td>NA</td><td>0%</td><td>26%</td></tr><tr><td>Televisa</td><td>MX</td><td>Cable TV</td><td>TLEVCPO MM</td><td>GRPF",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "b936b84f22c4f5d5",
+        "value": 0.26,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>BZ</td><td>Banks-Retail</td><td>BPAN4 BZ</td><td>XQSF</td><td>1.6</td><td>NA</td><td>0%</td><td>26%</td></tr><tr><td>Televisa</td><td>MX</td><td>Cable TV</td><td>TLEVCPO MM</td><td>GRPFF</td><td>1",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "71cd5da102d63214",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "levisa</td><td>MX</td><td>Cable TV</td><td>TLEVCPO MM</td><td>GRPFF</td><td>1.5</td><td>3.2</td><td>9%</td><td>50%</td></tr><tr><td>CSN</td><td>BZ</td><td>Steels</td><td>CSNA3 BZ</td><td>SIDHF</td><td",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "aaba26d4dec78ba2",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>MX</td><td>Cable TV</td><td>TLEVCPO MM</td><td>GRPFF</td><td>1.5</td><td>3.2</td><td>9%</td><td>50%</td></tr><tr><td>CSN</td><td>BZ</td><td>Steels</td><td>CSNA3 BZ</td><td>SIDHF</td><td>1.5</td><t",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "a3f4be493464ea48",
+        "value": -0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>CSN</td><td>BZ</td><td>Steels</td><td>CSNA3 BZ</td><td>SIDHF</td><td>1.5</td><td>4.1</td><td>-3%</td><td>-8%</td></tr><tr><td>Magazine Luiza</td><td>BZ</td><td>Retailing-Hardlines</td><td>MGLU3",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "a9cc3a2ed70902d0",
+        "value": -0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>BZ</td><td>Steels</td><td>CSNA3 BZ</td><td>SIDHF</td><td>1.5</td><td>4.1</td><td>-3%</td><td>-8%</td></tr><tr><td>Magazine Luiza</td><td>BZ</td><td>Retailing-Hardlines</td><td>MGLU3 BZ</td><td>",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "811ca899a3d44758",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>BZ</td><td>Retailing-Hardlines</td><td>MGLU3 BZ</td><td>MGZZF</td><td>1.5</td><td>2.7</td><td>13%</td><td>26%</td></tr><tr><td>Grupo Cibest</td><td>CO</td><td>Banks-Multinational/Universal</td><",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "b9ba86e408182a89",
+        "value": 0.26,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Retailing-Hardlines</td><td>MGLU3 BZ</td><td>MGZZF</td><td>1.5</td><td>2.7</td><td>13%</td><td>26%</td></tr><tr><td>Grupo Cibest</td><td>CO</td><td>Banks-Multinational/Universal</td><td>CIBEST CB",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "b261d24b4f59f6dc",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Banks-Multinational/Universal</td><td>CIBEST CB</td><td>XGUF</td><td>1.4</td><td>NA</td><td>13%</td><td>73%</td></tr><tr><td>Ecorodovias</td><td>BZ</td><td>Toll Road Operators</td><td>ECOR3 BZ",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "c522bcc8c547ad34",
+        "value": 0.73,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s-Multinational/Universal</td><td>CIBEST CB</td><td>XGUF</td><td>1.4</td><td>NA</td><td>13%</td><td>73%</td></tr><tr><td>Ecorodovias</td><td>BZ</td><td>Toll Road Operators</td><td>ECOR3 BZ</td><td>XVE",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "e950e7759320a953",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>BZ</td><td>Toll Road Operators</td><td>ECOR3 BZ</td><td>XVEDF</td><td>1.4</td><td>4.1</td><td>24%</td><td>96%</td></tr><tr><td>Banorte</td><td>MX</td><td>Banks-Retail</td><td>GFNORTEO MM</td><td",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "30d66ee80f25ca6f",
+        "value": 0.96,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Toll Road Operators</td><td>ECOR3 BZ</td><td>XVEDF</td><td>1.4</td><td>4.1</td><td>24%</td><td>96%</td></tr><tr><td>Banorte</td><td>MX</td><td>Banks-Retail</td><td>GFNORTEO MM</td><td>GBOOF</td><",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "4c3d28fbafd6d256",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "te</td><td>MX</td><td>Banks-Retail</td><td>GFNORTEO MM</td><td>GBOOF</td><td>1.4</td><td>NA</td><td>4%</td><td>33%</td></tr><tr><td>Regional</td><td>MX</td><td>Banks-Retail</td><td>RA MM</td><td>RGNL<",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "bff696a11ef68b8d",
+        "value": 0.33,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "MX</td><td>Banks-Retail</td><td>GFNORTEO MM</td><td>GBOOF</td><td>1.4</td><td>NA</td><td>4%</td><td>33%</td></tr><tr><td>Regional</td><td>MX</td><td>Banks-Retail</td><td>RA MM</td><td>RGNL</td><td>1.3",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "d0b5313e3f371f8e",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Regional</td><td>MX</td><td>Banks-Retail</td><td>RA MM</td><td>RGNL</td><td>1.3</td><td>NA</td><td>-2%</td><td>29%</td></tr><tr><td>BR Distribuidora</td><td>BZ</td><td>Oil &amp;amp; Gas Producers</td",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "50324b3b5b1e82af",
+        "value": 0.29,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>MX</td><td>Banks-Retail</td><td>RA MM</td><td>RGNL</td><td>1.3</td><td>NA</td><td>-2%</td><td>29%</td></tr><tr><td>BR Distribuidora</td><td>BZ</td><td>Oil &amp;amp; Gas Producers</td><td>VBBR3 B",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "9de9e114c4b7ab9d",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Oil &amp;amp; Gas Producers</td><td>VBBR3 BZ</td><td>XUBRF</td><td>1.3</td><td>2.4</td><td>14%</td><td>42%</td></tr><tr><td>Credicorp</td><td>PE</td><td>Banks-Retail</td><td>BAP US</td><td>BA",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "8c42eaae99dbd930",
+        "value": 0.42,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "&amp;amp; Gas Producers</td><td>VBBR3 BZ</td><td>XUBRF</td><td>1.3</td><td>2.4</td><td>14%</td><td>42%</td></tr><tr><td>Credicorp</td><td>PE</td><td>Banks-Retail</td><td>BAP US</td><td>BAP</td><td>1.3",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "8dabff79680941d3",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Credicorp</td><td>PE</td><td>Banks-Retail</td><td>BAP US</td><td>BAP</td><td>1.3</td><td>NA</td><td>7%</td><td>47%</td></tr><tr><td>Alsea</td><td>MX</td><td>Restaurants</td><td>ALSEA* MM</td><td>ALSSF",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "388a195b8a255bbc",
+        "value": 0.47,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>PE</td><td>Banks-Retail</td><td>BAP US</td><td>BAP</td><td>1.3</td><td>NA</td><td>7%</td><td>47%</td></tr><tr><td>Alsea</td><td>MX</td><td>Restaurants</td><td>ALSEA* MM</td><td>ALSSF</td><td>1.",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "af3d623cdaeac6ae",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "lsea</td><td>MX</td><td>Restaurants</td><td>ALSEA* MM</td><td>ALSSF</td><td>1.3</td><td>2.7</td><td>-1%</td><td>21%</td></tr><tr><td>Localiza</td><td>BZ</td><td>Car Rental</td><td>RENT3 BZ</td><td>LZR",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "0b2bad535f7d20c2",
+        "value": 0.21,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">MX</td><td>Restaurants</td><td>ALSEA* MM</td><td>ALSSF</td><td>1.3</td><td>2.7</td><td>-1%</td><td>21%</td></tr><tr><td>Localiza</td><td>BZ</td><td>Car Rental</td><td>RENT3 BZ</td><td>LZRF</td><td>1.",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "258e1a737054b600",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ocaliza</td><td>BZ</td><td>Car Rental</td><td>RENT3 BZ</td><td>LZRF</td><td>1.3</td><td>2.8</td><td>0%</td><td>13%</td></tr><tr><td>Allos</td><td>BZ</td><td>Real Estate/Property</td><td>ALOS3 BZ</td><",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "2ecc0e9c3187a24c",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>BZ</td><td>Car Rental</td><td>RENT3 BZ</td><td>LZRF</td><td>1.3</td><td>2.8</td><td>0%</td><td>13%</td></tr><tr><td>Allos</td><td>BZ</td><td>Real Estate/Property</td><td>ALOS3 BZ</td><td>XADSF</t",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "14337a8307bcbb53",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>BZ</td><td>Real Estate/Property</td><td>ALOS3 BZ</td><td>XADSF</td><td>1.3</td><td>3.0</td><td>14%</td><td>38%</td></tr><tr><td>Median</td><td></td><td></td><td></td><td></td><td></td><td></td><t",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "4c084461f54a53d0",
+        "value": 0.38,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Real Estate/Property</td><td>ALOS3 BZ</td><td>XADSF</td><td>1.3</td><td>3.0</td><td>14%</td><td>38%</td></tr><tr><td>Median</td><td></td><td></td><td></td><td></td><td></td><td></td><td>10%</td><t",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "fad05b1d3bf5d79e",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>38%</td></tr><tr><td>Median</td><td></td><td></td><td></td><td></td><td></td><td></td><td>10%</td><td>43%</td></tr></table> Source: BofA Global Research, Bloomberg Stocks are selected from o",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "d9c7109d3508c448",
+        "value": 0.43,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>Median</td><td></td><td></td><td></td><td></td><td></td><td></td><td>10%</td><td>43%</td></tr></table> Source: BofA Global Research, Bloomberg Stocks are selected from our LatAm uni",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "bc26916626f22c7a",
+        "value": -0.96,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Petro-Rio</td><td>BZ</td><td>Oil &amp;amp; Gas Producers</td><td>PRIO3 BZ</td><td>HRTPF</td><td>-96%</td><td>3.9</td><td>92.6</td><td>2.3</td><td>-8%</td><td>-5%</td></tr><tr><td>Cogna</td><td>BZ<",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "38d0891b49f04e26",
+        "value": -0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Producers</td><td>PRIO3 BZ</td><td>HRTPF</td><td>-96%</td><td>3.9</td><td>92.6</td><td>2.3</td><td>-8%</td><td>-5%</td></tr><tr><td>Cogna</td><td>BZ</td><td>Education &amp;amp; Training Services</td><",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "afbb0f47ed801cdd",
+        "value": -0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>PRIO3 BZ</td><td>HRTPF</td><td>-96%</td><td>3.9</td><td>92.6</td><td>2.3</td><td>-8%</td><td>-5%</td></tr><tr><td>Cogna</td><td>BZ</td><td>Education &amp;amp; Training Services</td><td>COGN3 BZ",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "da99b7f18bfe8fde",
+        "value": -0.94,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "gna</td><td>BZ</td><td>Education &amp;amp; Training Services</td><td>COGN3 BZ</td><td>KROTF</td><td>-94%</td><td>8.5</td><td>133.7</td><td>2.3</td><td>12%</td><td>182%</td></tr><tr><td>Televisa</td><t",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "409275d8121fb06d",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Services</td><td>COGN3 BZ</td><td>KROTF</td><td>-94%</td><td>8.5</td><td>133.7</td><td>2.3</td><td>12%</td><td>182%</td></tr><tr><td>Televisa</td><td>MX</td><td>Cable TV</td><td>TLEVCPO MM</td><td>GRP",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "4011898480831c6d",
+        "value": 1.82,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>COGN3 BZ</td><td>KROTF</td><td>-94%</td><td>8.5</td><td>133.7</td><td>2.3</td><td>12%</td><td>182%</td></tr><tr><td>Televisa</td><td>MX</td><td>Cable TV</td><td>TLEVCPO MM</td><td>GRPFF</td><td>",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "d128d6717aee6907",
+        "value": -0.74,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "182%</td></tr><tr><td>Televisa</td><td>MX</td><td>Cable TV</td><td>TLEVCPO MM</td><td>GRPFF</td><td>-74%</td><td>2.2</td><td>8.6</td><td>3.2</td><td>9%</td><td>50%</td></tr><tr><td>PagSeguro</td><td>B",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "af10c0780e3e70b2",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Cable TV</td><td>TLEVCPO MM</td><td>GRPFF</td><td>-74%</td><td>2.2</td><td>8.6</td><td>3.2</td><td>9%</td><td>50%</td></tr><tr><td>PagSeguro</td><td>BZ</td><td>Computer Services</td><td>PAGS US</td><",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "num_id": "0a36a45de8deb2d8",
+        "value": 1.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "from our universe of coverage in LatAm regardless of the rating but must have a market cap above US\\$1bn. There are 5 different screens: Growth, Value, Dividends, Defensive and High Beta. Our Growth s",
+        "provenance": {
+          "page": 12
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 15,
+      "tables_count": 0,
+      "numerical_data_count": 198,
+      "passages_count": 129,
+      "entities_count": 20
+    }
+  }
+}

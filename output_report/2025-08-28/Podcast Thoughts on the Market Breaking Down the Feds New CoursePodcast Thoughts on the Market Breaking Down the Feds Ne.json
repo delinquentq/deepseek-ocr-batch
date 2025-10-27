@@ -1,0 +1,540 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "d964b4063f7a25cab6bd6d3a2737c630",
+    "title": "Morgan Stanley | RESEARCH",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/MS/Podcast Thoughts on the Market Breaking Down the Feds New CoursePodcast Thoughts on the Market Breaking Down the Feds Ne_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:29:56.064230",
+      "extracted_at": "2025-10-26T12:29:56.064244"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 5,
+        "successful_pages": 5,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/MS",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.053144248674974914
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/MS"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "1df1d49a4d49793f",
+      "text": "August 28, 2025 10:25 PM GMT",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1ac0f9dca52ff977",
+      "text": "In the first of a two- part episode, our Chief U.S. Economist Michael Gapen and Global Head of Macro Strategy Matthew Hornbach discuss the outcome of the Jackson Hole meeting, and the outlook for the U.S. economy and the Fed rate path during the rest of the year.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "435168f6ee115794",
+      "text": "Morgan Stanley does and seeks to do business with companies covered in Morgan Stanley Research. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of Morgan Stanley Research. Investors should consider Morgan Stanley Research as only a single factor in making their investment decision.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "77b430df8b3b062f",
+      "text": "For analyst certification and other important disclosures, refer to the Disclosure Section, located at the end of this report.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0a8261d5360354a8",
+      "text": "The information and opinions in Morgan Stanley Research were prepared by Morgan Stanley & Co. LLC, and/or Morgan Stanley C.T.V.M. S.A., and/or Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V., and/or Morgan Stanley Canada Limited. As used in this disclosure section, Morgan Stanley includes Morgan Stanley & Co. LLC, Morgan Stanley C.T.V.M. S.A., Morgan Stanley Mexico, Casa de Bolsa, S.A. de C.V., Morgan Stanley Canada Limited and their affiliates as necessary.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "26d691292338421c",
+      "text": "For important disclosures, stock price charts and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website at www.morganstanley.com/researchdisclosures, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY, 10036 USA.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "590f553fe0e86186",
+      "text": "For valuation methodology and risks associated with any recommendation, rating or price target referenced in this research report, please contact the Client Support Team as follows: US/Canada +1 800 303- 2495; Hong Kong +852 2848- 5999; Latin America +1 718 754- 5444 (U.S.); London +44 (0)20- 7425- 8169; Singapore +65 6834- 6860; Sydney +61 (0)2- 9770- 1505; Tokyo +81 (0)3- 6836- 9000. Alternatively you may contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e8c8fa79a48e62cb",
+      "text": "Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflictpolicies. A Portuguese version of the policy can be found at www.morganstanley.com.br",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a106fabb8bbbb564",
+      "text": "The equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues. Equity Research analysts or strategists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "733884502d6a0767",
+      "text": "Morgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity, fund management, commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Morgan Stanley trades or may trade as principal in the debt securities (or in related derivatives) that are the subject of the debt research report.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "7e153f0383aed788",
+      "text": "Certain disclosures listed above are also for compliance with applicable regulations in non- US jurisdictions.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5488c6c3e76a7d13",
+      "text": "Morgan Stanley uses a relative rating system using terms such as Overweight, Equal- weight, Not- Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal- weight, Not- Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e3ce62570b0bcf72",
+      "text": "(as of July 31, 2025)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "00c446aa989a08e8",
+      "text": "The Stock Ratings described below apply to Morgan Stanley's Fundamental Equity Research and do not apply to Debt Research produced by the Firm. For disclosure purposes only (in accordance with FINRA requirements), we include the category headings of Buy, Hold, and Sell alongside our ratings of Overweight, Equal- weight, Not- Rated and Underweight. Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal- weight, Not- Rated and Underweight are not the equivalent of buy, hold, and sell but represent recommended relative weightings (see definitions below). To satisfy regulatory requirements, we correspond Overweight, our most positive stock rating, with a buy recommendation; we correspond Equal- weight and Not- Rated to hold and Underweight to sell recommendations, respectively.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4d69dedc749fc360",
+      "text": "Data include common stock and ADRs currently assigned ratings. Investment Banking Clients are companies from whom Morgan Stanley received investment banking compensation in the last 12 months. Due to rounding off of decimals, the percentages provided in the % of total' column may not add up to exactly 100 percent.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "eedd3f4f96dc3905",
+      "text": "Overweight (O). The stock's total return is expected to exceed the average total return of the analyst's industry (or industry team's) coverage universe, on a risk- adjusted basis, over the next 12- 18 months. Equal- weight (E). The stock's total return is expected to be in line with the average total return of the analyst's industry (or industry team's) coverage universe, on a risk- adjusted basis, over",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "fd00efc39d0f77f0",
+      "text": "the next 12- 18 months.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "40d5ca5416277fdb",
+      "text": "Not- Rated (NR). Currently the analyst does not have adequate conviction about the total return relative to the average total return of the analyst's industry (or industry team's) coverage universe, on a risk- adjusted basis, over the next 12- 18 months.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4f2ce24228766638",
+      "text": "Underweight (U). The stock's total return is expected to be below the average total return of the analyst's industry (or industry team's) coverage universe, on a risk- adjusted basis, over the next 12- 18 months.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6804c6c58811a268",
+      "text": "Unless otherwise specified, the time frame for price targets included in Morgan Stanley Research is 12 to 18 months.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "bac829c9317d119f",
+      "text": "Attractive (A). The analyst expects the performance of his or her industry coverage universe over the next 12- 18 months to be attractive vs. the relevant broad market benchmark, as indicated below.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "5e5d029fe5c6ffbb",
+      "text": "In- Line (I): The analyst expects the performance of his or her industry coverage universe over the next 12- 18 months to be in line with the relevant broad market benchmark, as indicated below. Cautious (C): The analyst views the performance of his or her industry coverage universe over the next 12- 18 months with caution vs. the relevant broad market benchmark, as indicated below. Benchmarks for each region are as follows: North America - S&P 500; Latin America - relevant MSCI country index or MSCI Latin America Index; Europe - MSCI Europe; Japan - TOPIX; Asia - relevant MSCI country index or MSCI sub- regional index or MSCI AC Asia Pacific ex Japan Index.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "fc0f1ddd0c2ef99c",
+      "text": "Morgan Stanley Research policy is to update research reports as and when the Research Analyst and Research Management deem appropriate, based on developments with the issuer, the sector, or the market that may have a material impact on the research views or opinions stated therein. In addition, certain Research publications are intended to be updated on a regular periodic basis (weekly/monthly/quarterly/annual) and will ordinarily be updated with that frequency, unless the Research Analyst and Research Management determine that a different publication schedule is appropriate based on current conditions.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "afe8afd6c6110221",
+      "text": "Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd- Frank Wall Street Reform and Consumer Protection Act.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6f23efed5a172396",
+      "text": "Morgan Stanley produces an equity research product called a \"Tactical Idea.\" Views contained in a \"Tactical Idea\" on a particular stock may be contrary to the recommendations or views expressed in research on the same stock. This may be the result of differing time horizons, methodologies, market events, or other factors. For all research available on a particular stock, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "88af52bb72f2a072",
+      "text": "Morgan Stanley Research is provided to our clients through our proprietary research portal on Matrix and also distributed electronically by Morgan Stanley to clients. Certain, but not all, Morgan Stanley Research products are also made available to clients through third- party vendors or redistributed to clients through alternate electronic means as a convenience. For access to all available Morgan Stanley Research, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "ad2a1bd98e059f32",
+      "text": "Any access and/or use of Morgan Stanley Research is subject to Morgan Stanley's Terms of Use (http://www.morganstanley.com/terms.html). By accessing and/or using Morgan Stanley Research, you are indicating that you have read and agree to be bound by our Terms of Use (http://www.morganstanley.com/terms.html). In addition you consent to Morgan Stanley processing your personal data and using cookies in accordance with our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html), including for the purposes of setting your preferences and to collect readership data so that we can deliver better and more personalized service and products to you. To find out more information about how Morgan Stanley processes personal data, how we use cookies and how to reject cookies see our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c8674df475aed80e",
+      "text": "If you do not agree to our Terms of Use and/or if you do not wish to provide your consent to Morgan Stanley processing your personal data or using cookies please do not access our research. Morgan Stanley Research does not provide individually tailored investment advice. Morgan Stanley Research has been prepared without regard to the circumstances and objectives of those who receive it. Morgan Stanley recommends that investors independently evaluate particular investments and strategies, and encourages investors to seek the advice of a financial adviser. The appropriateness of an investment or strategy will depend on an investor's circumstances and objectives. The securities, instruments, or strategies discussed in Morgan Stanley Research may not be suitable for all investors, and certain investors may not be eligible to purchase or participate in some or all of them. Morgan Stanley Research is not an offer to buy or sell or the solicitation of an offer to buy or sell any security/instrument or to participate in any particular trading strategy. The value of and income from your investments may vary because of changes in interest rates, foreign exchange rates, default rates, prepayment rates, securities/instruments prices, market indexes, operational or financial conditions of companies or other factors. There may be time limitations on the exercise of options or other rights in securities/instruments transactions. Past performance is not necessarily a guide to future performance. Estimates of future performance are based on assumptions that may not be realized. If provided, and unless otherwise stated, the closing price on the cover page is that of the primary exchange for the subject company's securities/instruments.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "188935a63cff7c07",
+      "text": "The fixed income research analysts, strategists or economists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality, accuracy and value of research, firm profitability or revenues (which include fixed income trading and capital markets profitability or revenues), client feedback and competitive factors. Fixed Income Research analysts, strategists or economists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c9fbca62245d6574",
+      "text": "The \"Important Regulatory Disclosures on Subject Companies\" section in Morgan Stanley Research lists all companies mentioned where Morgan Stanley owns 1% or more of a class of common equity securities of the companies. For all other companies mentioned in Morgan Stanley Research, Morgan Stanley may have an investment of less than 1% in securities/instruments or derivatives of securities/instruments of companies and may trade them in ways different from those discussed in Morgan Stanley Research. Employees of Morgan Stanley not involved in the preparation of Morgan Stanley Research may have investments in securities/instruments or derivatives of securities/instruments of companies mentioned and may trade them in ways different from those discussed in Morgan Stanley Research. Derivatives may be issued by Morgan Stanley or associated persons.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4e06cf7a12530148",
+      "text": "With the exception of information regarding Morgan Stanley, Morgan Stanley Research is based on public information. Morgan Stanley makes every effort to use reliable, comprehensive information, but we make no representation that it is accurate or complete. We have no obligation to tell you when opinions or information in Morgan Stanley Research change apart from when we intend to discontinue equity research coverage of a subject company. Facts and views presented in Morgan Stanley Research have not been reviewed by, and may not reflect information",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0ef7747f2d011cdf",
+      "text": "known to, professionals in other Morgan Stanley business areas, including investment banking personnel.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d0a103065242b1de",
+      "text": "Morga Stl  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "0cf2ed07fe48a769",
+      "text": "of the intermediary or provide any assurance of returns to investors. Investment in securities market are subject to market risks. Read all the related documents carefully before investing.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "df09e167e0b47749",
+      "text": "The following authors are Fixed Income Research Analysts/Strategists and are not opining on or expressing recommendations on equity securities: Matthew Hornbach. The following authors are neither Equity Research Analysts/Strategists nor Fixed Income Research Analysts/Strategists and are not opining on or expressing recommendations on equity or fixed income securities: Michael T. Gapen.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b23caff17f08728e",
+      "text": "© 2025 Morgan Stanley",
+      "page": 4,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "a9935cd77e910646",
+      "name": "America Index",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e8600890357193e9",
+      "name": "Analyst Industry",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "264f4569dd91d68d",
+      "name": "Analyst Stock",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c86b548dbea166c3",
+      "name": "Breaking Down",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bf97c7f0a3524745",
+      "name": "Canada Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c184cb2eaab39cb8",
+      "name": "Client Support",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c8c0d67137b1b25c",
+      "name": "Conflict Management",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c4d57fb1d13e1cae",
+      "name": "Consumer Protection",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e4f3f61d98605f9e",
+      "name": "Debt Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a61f722f0dae303e",
+      "name": "Disclosure Section",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bd0c457d0672e5da",
+      "name": "Disclosures\n\nMorgan",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cac1f3caac3e59a8",
+      "name": "Economist Michael",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "43413635bc31cb1b",
+      "name": "Equity Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d46778ed2efa2209",
+      "name": "Fixed Income",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "941fd3f7ed917d68",
+      "name": "Frank Wall",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5267e5683b4a5d99",
+      "name": "Fundamental Equity",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3c22ad428d57fba5",
+      "name": "Global Cookies",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b64faff6cb427faf",
+      "name": "Global Head",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1593896ebb352445",
+      "name": "Global Research",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": "Thoughts on the Market",
+        "page": 1,
+        "axes": {
+          "x": null,
+          "y": null
+        },
+        "series": [],
+        "figure_id": "04da2f782bf72b7f",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": "Podcast Series & Today's Webcasts",
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "63a4390c0db36ff4",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "table",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Overweight/Buy",
+              "Equal-weight/Hold",
+              "Not-Rated/Hold",
+              "Underweight/Sell",
+              "Total"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "Coverage Universe - Count",
+            "unit": "count",
+            "values": [
+              1495,
+              1607,
+              5,
+              588,
+              3695
+            ]
+          },
+          {
+            "name": "Coverage Universe - % of Total",
+            "unit": "%",
+            "values": [
+              40,
+              43,
+              0,
+              16,
+              null
+            ]
+          },
+          {
+            "name": "Investment Banking Clients (IBC) - Count",
+            "unit": "count",
+            "values": [
+              378,
+              374,
+              0,
+              83,
+              835
+            ]
+          },
+          {
+            "name": "Investment Banking Clients (IBC) - % of Total IBC",
+            "unit": "%",
+            "values": [
+              45,
+              45,
+              0,
+              10,
+              null
+            ]
+          },
+          {
+            "name": "Investment Banking Clients (IBC) - % of Rating Category",
+            "unit": "%",
+            "values": [
+              25,
+              23,
+              0,
+              14,
+              null
+            ]
+          },
+          {
+            "name": "Other Material Investment Services Clients (MISC) - Count",
+            "unit": "count",
+            "values": [
+              701,
+              766,
+              2,
+              236,
+              1705
+            ]
+          },
+          {
+            "name": "Other Material Investment Services Clients (MISC) - % of Total Other MISC",
+            "unit": "%",
+            "values": [
+              41,
+              45,
+              0,
+              14,
+              null
+            ]
+          }
+        ],
+        "figure_id": "4414ed17b1c8efb5",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "d091f8beae4ff9bb",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "mpanies\" section in Morgan Stanley Research lists all companies mentioned where Morgan Stanley owns 1% or more of a class of common equity securities of the companies. For all other companies mentione",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "50ba62b6ac242323",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "companies mentioned in Morgan Stanley Research, Morgan Stanley may have an investment of less than 1% in securities/instruments or derivatives of securities/instruments of companies and may trade them",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 3,
+      "tables_count": 0,
+      "numerical_data_count": 2,
+      "passages_count": 36,
+      "entities_count": 20
+    }
+  }
+}

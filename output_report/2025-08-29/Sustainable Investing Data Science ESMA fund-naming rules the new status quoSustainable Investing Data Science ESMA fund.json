@@ -1,0 +1,1419 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "bb34efb6816e4e88fb7091cda76af3c4",
+    "title": "ESMA fund-naming rules: the new status quo",
+    "source_uri": "2025-08-29/Sustainable Investing Data Science ESMA fund-naming rules the new status quoSustainable Investing Data Science ESMA fund_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T23:49:48.100675",
+      "extracted_at": "2025-10-26T23:49:48.100684"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 12,
+        "successful_pages": 12,
+        "date": "2025-08-29",
+        "publication": "2025-08-29",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 6,
+          "removed_paragraphs": 23,
+          "reduction_ratio": 0.49465796382730454
+        },
+        "input_relative_path": "2025-08-29"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "9ffb4bf9000e5f98",
+      "text": "Three months after ESMA's rules took effect, we analyse fund name changes and holdings to understand the regulation's effect. Of funds with ESG- related terms in their names, \\(39\\%\\) by AUM have removed the terms and the remaining funds have been selling affected energy and utility names.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "881140067392c45f",
+      "text": "Three months after ESMA's ESG fund naming rules took effect for existing funds on 21 May 2025, we review how funds captured by the regulation have reacted to the new rules. This includes tracking funds that chose to change their name (either by removing all ESG- or sustainability- related terms or moving to alternative governance- , social- and transition- related terms) and tracking the holdings of funds that did not make name changes and were therefore subject to ESMA's mandatory exclusion list.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "db6a180bd35a314c",
+      "text": "- \\(37\\%\\) of funds by count and \\(39\\%\\) by AUM removed ESG-related terms from their name prior to the regulation coming into force, and so do not need to apply ESMA's mandatory exclusion criteria.- A further \\(4\\%\\) by AUM changed the ESG-related term in their name to a transition-related term, and so are subject to a more limited exclusion list, tied to the Climate Transition Benchmark.- A slightly larger proportion of equity funds than fixed income funds removed ESG-related terms from their name. By region, funds with a European focus were least likely to change their name, and funds with an EM or US focus were most likely to drop ESG-related terms entirely, judging by the fund name changes.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "073ede059c6f18a8",
+      "text": "This research report has been prepared in whole or in part by equity research analysts based outside the US who are not registered/qualified as research analysts with FINRA.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4bc4817a78f79f7a",
+      "text": "This is a Special Report that is not an equity or a debt research report under U.S. FINRA Rules 2241- 2242.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ce4632e45a1b6c4d",
+      "text": "This author is a debt research analyst in the Fixed Income, Currencies and Commodities Research department and is neither an equity research analyst nor subject to all of the independence and disclosure standards applicable to analysts who produce debt research reports under U.S. FINRA Rule 2242.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "265aa13d661ce5c5",
+      "text": "This author is a member of the EMEA Equity Research department who may publish equity and debt research",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "87e970f68f4cb04c",
+      "text": "FOR ANALYST CERTIFICATION(S) PLEASE SEE PAGE 9. FOR IMPORTANT EQUITY RESEARCH DISCLOSURES, PLEASE SEE PAGE 9. FOR IMPORTANT FIXED INCOME RESEARCH DISCLOSURES, PLEASE SEE PAGE 10. Completed: 29- Aug- 25, 13:21 GMT Released: 29- Aug- 25, 13:25 GMT Restricted - External",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "8ec3d346fdf32030",
+      "text": "- In our universe of funds, from May 2024 to May 2025, fund exposure to companies that are captured by ESMA's exclusion rules (as per MSCI's business involvement and controversy data) declined by \\(\\) 2.3bn\\$",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9f2bf01aae4ec577",
+      "text": "- By asset class, exposure reduced by \\(\\) 1.8bn\\(for equity funds and\\) \\ \\(500m\\) for fixed income funds.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b7fe743d91f01a80",
+      "text": "- Within equity funds, this reduction was primarily driven by the energy sector. Within fixed income funds, it was more evenly distributed between energy and utility names.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "fd730fb46ee93dc6",
+      "text": "For extensive information on our methodology, see the methodology and background section of the note.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9637a0c3b161d885",
+      "text": "FIGURE 1. Fund name alterations between July 2024 and July 2025",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ea0ce98704413674",
+      "text": "Includes fixed income and equity UCITS funds captured by the regulation that had ESG- related terms in their name when the ESMA fund- naming regulation was published. Source: Barclays Research, Morningstar, LSEG Data & Analytics, Bloomberg",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9452a1d859159f70",
+      "text": "In our universe of over 2,000 equity and fixed income UCITS funds that had ESG- related terms in their name when the regulation was published, we find \\(37\\%\\) by count and \\(39\\%\\) by AUM1 removed these terms from their name prior to the regulation coming into force (Figure 2 and Figure 3). This name change will have prevented them from being subject to ESMA's mandatory exclusion list, among other requirements of the regulation. As a result, they avoided having to sell holdings within the exclusion criteria (Figure 13).",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "96a3ab7cb4149251",
+      "text": "A few funds (1% by count, \\(4\\%\\) by AUM) changed the ESG- related term in their name to a transition- related term, meaning they are subject to a more limited exclusion list, tied to the Climate Transition Benchmark. Some funds (1% by count and \\(3\\%\\) by AUM) adjusted their name away from transition- related terms to an ESG- related term, meaning they are subject to the lengthier exclusion list; 12 of the 15 funds moved away from the term \"net zero\" to \"climate\".",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "576c432121c6314b",
+      "text": "Within our \"no change\" bucket of funds, some did change their name, but moved from one ESG- related term to another (eg, from the \"ESG\" to \"SRI\", or from \"impact\" to \"sustainable\"), and so did not trigger a change in the exclusion list that they are subject to. We did not detect a trend in which names were most likely to be removed/added.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "caabf4a02d178777",
+      "text": "FIGURE 2. Fund name alterations between July 2024 and July 2025 by count",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "af55fa446e8bb516",
+      "text": "FIGURE 3. Fund name alterations between July 2024 and July 2025, by AUM",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c3039048d7051b50",
+      "text": "Includes fixed income and equity UCITS funds captured by the regulation that had ESG- related terms in their name when the ESMA fund- naming regulation was published.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f278c5cbcb93f53d",
+      "text": "Source: Barclays Research, Morningstar, LSEG Data & Analytics, Bloomberg",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b9a410f280ea38ac",
+      "text": "Includes fixed income and equity UCITS funds captured by the regulation that had ESG- related terms in their name when the ESMA fund- naming regulation was published.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f649cae01d75be3d",
+      "text": "Source: Barclays Research, Morningstar, LSEG Data & Analytics, Bloomberg",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9d9a39430a14d0ea",
+      "text": "Figure 4 shows the percentage of funds that removed ESG- related terms from their names between July 2024 and July 2025, split by the type of ESG term that was used in their name originally. Funds with the word \"ESG\" in their name were most likely to remove the term \"ESG\" entirely, with over \\(50\\%\\) of those funds by count and AUM removing terms.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "2daf982cdb37f194",
+      "text": "FIGURE 4. Funds that have removed ESG-related terms from their name between June 2024 and June 2025, by ESG term",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6df3b49e0c37fd9f",
+      "text": "Excludes terms used by less than 10 funds at the start of the period. Includes fixed income and equity UCITS funds captured by the regulation that had ESG- related terms in their name when the ESMA fund- naming regulation was published. Source: Barclays Research, Morningstar, LSEG Data & Analytics, Bloomberg",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "091d0a107d88673b",
+      "text": "A slightly larger percentage of equity funds removed ESG- related terms from their name than fixed income funds, at \\(38\\%\\) versus \\(31\\%\\) (Figure 5). Equity funds were also responsible for the majority of funds moving away from ESG- related terms towards transition- related terms.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "370bb23d37d88c68",
+      "text": "Fund name changes by region suggest that funds with a European focus were least likely to make alterations to their fund names, and those with an EM or US focus were most likely to remove ESG- related terms (Figure 6). The majority of funds moving away from ESG- related terms towards transition- related terms had a US or EM focus.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9e26cc2c89826767",
+      "text": "FIGURE 5. Fund name alterations between July 2024 and July 2025, by fund asset class",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "9bbfe089aa655fa0",
+      "text": "Includes fixed income and equity UCITS funds captured by the regulation that had ESG- related terms in their name when the ESMA fund- naming regulation was published.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "772cef9518ff0e67",
+      "text": "Source: Barclays Research, Morningstar, LSEG Data & Analytics, Bloomberg",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "46328bf11f453a48",
+      "text": "FIGURE 6. Fund name alterations between July 2024 and July 2025, by region of focus",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "75ccaf7024c20b6a",
+      "text": "Includes fixed income and equity UCITS funds captured by the regulation that had ESG- related terms in their name when the ESMA fund- naming regulation was published.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ae29944140dc133c",
+      "text": "Source: Barclays Research, Morningstar, LSEG Data & Analytics, Bloomberg",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "7cfb1ba267d379b7",
+      "text": "We do not see much difference in trends between different sized funds (Figure 7). Unsurprisingly, very few Article 9 funds removed ESG- terms from their name, and most of those that did so were Article 8 funds (Figure 8).",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "8764701e8f8f4738",
+      "text": "FIGURE 7. Fund name alterations between July 2024 and July 2025, by size of fund",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "37e2b7fba2098b7d",
+      "text": "FIGURE 8. Fund name alterations between July 2024 and July 2025, by SFDR classification",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4f337f402d17c0aa",
+      "text": "By AUM at end of period (July 2025). Includes fixed income and equity UCITS funds captured by the regulation that had ESG- related terms in their name when the ESMA fund- naming regulation was published.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "bb9ad3f6ae33caf9",
+      "text": "Source: Barclays Research, Morningstar, LSEG Data & Analytics, Bloomberg",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "247ad319cc327a86",
+      "text": "Includes fixed income and equity UCITS funds captured by the regulation that had ESG- related terms in their name when the ESMA fund- naming regulation was published.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2697a85d8e71b69e",
+      "text": "Source: Barclays Research, Morningstar, LSEG Data & Analytics, Bloomberg",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a35e05ede7693199",
+      "text": "In our universe of funds, between May 2024 and May 2025, exposure to companies that are captured by ESMA's exclusion rules, as per MSCI business involvement and controversy data, declined by \\(\\) 2.3bn\\(. Exposure reduced by\\) \\ \\(1.8bn\\) for equity funds and \\(\\) 500mn\\(for fixed income funds.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "8c545e120cf9d77e",
+      "text": "Our analysis focuses specifically on funds captured by the regulation that did not remove ESGterms from their name and that are therefore subject to the exclusion list derived from the Paris- Aligned Benchmarks (PAB) under the EU benchmarks regulation (Figure 13). For more details, see the methodology section.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d042d689ce35b3ea",
+      "text": "Within equity funds, selling of names captured by ESMA's exclusion rules was very much focused in energy companies (Figure 9). As shown in Figure 11, of the energy companies, Neste, Baker Hughes and Eni saw the largest reduction in market value over the period. Away from energy, Canadian National Railway and Canadian Pacific Kansas City have also seen a significant reduction in exposure from equity funds.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b7d977ff8a498b12",
+      "text": "Within fixed income funds, reductions in the market value of names captured by ESMA's exclusion rules was more evenly distributed between the utility and energy sectors (Figure 10). Reductions in utility exposure was to a large extent driven by Snam, which experienced the largest reduction in market value by a considerable margin (Figure 12).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6faccd3a7b1cdec2",
+      "text": "FIGURE 9. Excluded names that saw the largest reduction in market value in equity funds between May 2024 and May 2025, by sector",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "fdd0b683fd343492",
+      "text": "FIGURE 10. Excluded names that saw the largest reduction in market value in fixed income funds between May 2024 and May 2025, by sector",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ba045ff10d611f50",
+      "text": "Includes fixed income and equity UCITS funds that did not choose to remove ESG- related terms from their name. Source: Barclays Research, Morningstar, LSEG Data & Analytics, Bloomberg",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "bd13da7882f3c6dd",
+      "text": "Includes fixed income and equity UCITS funds that did not choose to remove ESG- related terms from their name. Source: Barclays Research, Morningstar, LSEG Data & Analytics, Bloomberg",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "31a6db2bc5f91298",
+      "text": "FIGURE 11. Excluded names that saw the largest reduction in market value in equity funds between May 2024 and May 2025",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3ccec7f0b204c733",
+      "text": "Includes fixed income and equity UCITS funds that did not choose to remove ESG- related terms from their name. Source: Barclays Research, Morningstar, LSEG Data & Analytics, Bloomberg",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "ff61b60a0666ee34",
+      "text": "FIGURE 12. Excluded names that saw the largest reduction in market value in fixed income funds between May 2024 and May 2025",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "dace9b05e8c0f9b7",
+      "text": "Includes fixed income and equity UCITS funds that did not choose to remove ESG- related terms from their name. Source: Barclays Research, Morningstar, LSEG Data & Analytics, Bloomberg",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "503c793526bb0770",
+      "text": "Our analysis shows that while funds in our universe have sold a significant percentage of their exposure to companies that fall within ESMA's exclusion rules per data from MSCI, a small amount of exposure to these companies remains in some funds. We see this as being driven by three factors:",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "e0d71c7683f60714",
+      "text": "- Lack of clarity around regulatory definitions: for example, some of the largest remaining holdings of companies that MSCI views as being captured by ESMA's exclusion rules are Canadian Pacific Kansas City, Union Pacific and CSX. These companies all derive revenue from transporting coal by rail. For example, CSX derived c.15% of revenue from coal in FY24. While the exclusion criteria refers to companies that distribute coal, the regulation does not specific whether transportation would be included within the definition of distribution.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "078add8373b3e957",
+      "text": "- Varying assumptions/approaches of different data providers: most of the remaining holdings of companies that MSCI views as being captured by ESMA's exclusion rules within fixed income funds are utilities. This may be driven by the exclusion criteria related to \"revenues from electricity generation with a GHG intensity of more than 100 g CO2 e/kWh\". As",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "743213e22f754ee9",
+      "text": "companies do not report this number themselves, data providers will need to make their own assumptions to calculate this and this estimation may vary by provider.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "6cde84d9e4d4cefc",
+      "text": "- Different views around how companies in the process of structurally changing their operations captured by the exclusion rules should be treated: for example, Anglo American continues to be held by a small number of equity funds. While it has more than \\(1\\%\\) of revenues derived from thermal coal today, it is in the process of exiting those operations².",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9a085249f5e31c43",
+      "text": "Any funds using ESG-, environmental- and/or other sustainability- related terms in their names are required to implement an exclusion list derived from the Paris- Aligned Benchmarks (PAB) under the EU benchmarks regulation (Figure 13). The exception to this rule is for funds using only social-, governance- or transition- related terms in their name. For these funds, a lighter exclusion list tied to the Climate Transition Benchmark (CTB) applies, with exclusions tied only to controversial weapons, tobacco and global- norms violations (see the first three line items in Figure 13).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "2e0cd333f340b9e8",
+      "text": "FIGURE 13. Exclusion list from the Paris-Aligned Benchmark regulation",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "368d8a4dae958c8e",
+      "text": "Excluded companies1. Companies involved in any activities related to controversial weapons2. Companies involved in the cultivation and production of tobacco3. Companies that benchmark administrators find in violation of the United Nations Global Compact (UNGC) principles or the Organisation for Economic Cooperation and Development (OECD) Guidelines for Multinational Enterprises4. Companies that derive 1 % or more of their revenues from exploration, mining, extraction, distribution or refining of hard coal and lignite5. Companies that derive 10 % or more of their revenues from the exploration, extraction, distribution or refining of oil fuels6. Companies that derive 50 % or more of their revenues from the exploration, extraction, manufacturing or distribution of gaseous fuels7. Companies that derive 50 % or more of their revenues from electricity generation with a GHG intensity of more than 100 g CO2 e/kWh",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "d5b4ac9621f731b2",
+      "text": "For the purposes of point #1, controversial weapons shall mean controversial weapons as referred to in international treaties and conventions, United Nations principles and, where applicable, national legislation. Source: EU OJEU, Barclays Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "3492c7f4468d4b85",
+      "text": "Our fund universeOur universe of funds consists of equity and fixed income (corporate and aggregate only²) UCITS funds that had an ESG- related term in their name when the regulation was published in May 2024. The ESMA fund- guidelines regulation provides a large number of terms that it would consider to be ESG-, sustainability- or transition- related. However, its list is not exhaustive. There are some terms for which there is some level of subjectivity in terms of whether they are ESG- related, such as \"next generation energy\" or \"smart cities\". We take a conservative approach and exclude any funds for which we see uncertainty from our universe.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "ca424153016ca33e",
+      "text": "We exclude any UK- domiciled funds from our sample because while the EU National Competent Authorities may expect alignment with ESMA's guidelines for funds marketed in the EU, the guidelines may not be completely binding on funds domiciled outside of the EU. We note that UK- domiciled funds with ESG- related terms in their name are more likely to hold sizable positions in companies that MSCI views as being captured by ESMA's mandatory exclusion list.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8ef4e8a9fe1c65ac",
+      "text": "We also ensure that our sample includes only funds that are active at both the start and end of the period we analyse and have not been liquidated, merged or suspended.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "5a654a70a6d6e4d2",
+      "text": "In total, our universe consists of 2,053 funds.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "62afa2971dd6dec5",
+      "text": "We compare fund names in July 2024 and July 2025 for each of the funds in our universe, looking for any funds that have made adjustments to their name, in particular removing ESG- related terms or moving from one ESG- related term to another.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "fdb7bfdc27d4bd04",
+      "text": "We find that not all data providers appear to update fund names in real- time and therefore checked three data sources as part of our analysis: Morningstar, LSEG Data & Analytics and Bloomberg. If any of these data providers show a name without an ESG- term in it in July 2025, we assume that the fund has removed ESG terms from its name.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c2f3c80c65e6b7fc",
+      "text": "In our data, \"no change\" implies that the fund has not made a change to its name that has triggered an adjustment in the exclusion list that it is subject to. Within this bucket, there may be a number of funds that have changed the ESG- related term used in their name, for example, moving from \"sustainable\" to \"responsible\".",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "55bfa7835cd33e67",
+      "text": "For this analysis, we take our universe of funds and restrict it to only funds subject to the PAB exclusions (ie, those with ESG- related terms in their name but not social-, governance-, or transition- related terms) and that have not removed ESG- terms from the name since the regulation was announced. We include only funds that have reported holdings as at both end- May 2024 (when the regulation was announced) and end- April or end- May 2025 (the regulation came into force on 21 May 2025). We assume that selling in the final 21 days before the regulation came into effect was unlikely, but by including funds with end- April holdings data we are able to significantly increase our fund universe. In total, we analysed 696 funds, of which 447 are equity funds and 249 fixed income funds.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ac2038bf4e5df139",
+      "text": "We pull holdings data from LSEG Data & Analytics and review these against data from MSCI which shows, per its business involvement and controversy methodologies, which companies are captured by ESMA's exclusion rules.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "4b49563ad228bae9",
+      "text": "We, Maggie O'Neal, Charlotte Edwards, CFA, Vincenzo Pota and Dipika Mirchandani, hereby certify (1) that the views expressed in this research report accurately reflect our personal views about any or all of the subject securities or issuers referred to in this research report and (2) no part of our compensation was, is or will be directly or indirectly related to the specific recommendations or views expressed in this research report.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2c63fd592d635962",
+      "text": "Bloomberg is a trademark and service mark of Bloomberg Finance L.P. and its affiliates (collectively \"Bloomberg\") and the Bloomberg Indices are trademarks of Bloomberg. Bloomberg or Bloomberg's licensors own all proprietary rights in the Bloomberg Indices. Bloomberg does not approve or endorse this material, or guarantee the accuracy or completeness of any information herein, or make any warranty, express or implied, as to the results to be obtained therefrom and, to the maximum extent allowed by law, Bloomberg shall have no liability or responsibility for injury or damages arising in connection therewith.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "bdb6258d9b253bfa",
+      "text": "In addition to any ratings assigned under Barclays' formal rating systems, this publication may contain investment recommendations in the form of trade ideas, thematic screens, scorecards or portfolio recommendations that have been produced by analysts within Equity Research. Any such investment recommendations shall remain open until they are subsequently amended, rebalanced or closed in a future research report.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "aba79f2d042a0baa",
+      "text": "Barclays may also re- distribute equity research reports produced by third- party research providers that contain recommendations that differ from and/or conflict with those published by Barclays' Equity Research Department.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "b8864239d56853bb",
+      "text": "Barclays Equity Research may have published other investment recommendations in respect of the same securities/instruments recommended in this research report during the preceding 12 months. To view all investment recommendations published by Barclays Equity Research in the preceding 12 months please refer to https://live.barcap.com/go/research/Recommendations.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "832ca180e7651594",
+      "text": "All authors contributing to this research report are Research Analysts unless otherwise indicated. The publication date at the top of the report reflects the local time where the report was produced and may differ from the release date provided in GMT.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "b7e7611b4fd6905b",
+      "text": "In addition to any ratings assigned under Barclays' formal rating systems, this publication may contain investment recommendations in the form of trade ideas, thematic screens, scorecards or portfolio recommendations that have been produced by analysts in FICC Research. Any such investment recommendations produced by non- Credit Research teams shall remain open until they are subsequently amended, rebalanced or closed in a future research report. Any such investment recommendations produced by the Credit Research teams are valid at current market conditions and may not be otherwise relied upon.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "40435ddf7a29cbc8",
+      "text": "Barclays FICC Research may have published other investment recommendations in respect of the same securities/instruments recommended in this research report during the preceding 12 months. To view all investment recommendations published by Barclays FICC Research in the preceding 12 months please refer to https://live.barcap.com/go/research/Recommendations.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "709debfc790eb0f0",
+      "text": "prudential. Authorised User means each individual associated with the Client who is notified by the Client to Barclays and authorised to use the Research Services. The Restricted EEA Countries will be amended if required.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "271e82ca3183ef7a",
+      "text": "This material is distributed in Canada by Barclays Capital Canada Inc., a registered investment dealer, a Dealer Member of Canadian Investment Regulatory Organization (www.circa.ca), and a Member of the Canadian Investor Protection Fund (CIPF).",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "10b70dee7ba81a80",
+      "text": "This communication is directed at persons who are a \"Wholesale Client\" as defined by the Australian Corporations Act 2001.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "ebc9fabd4a1571f3",
+      "text": "Middle East: Nothing herein should be considered investment advice as defined in the Israeli Regulation of Investment Advisory, Investment Marketing and Portfolio Management Law, 1995 (\"Advisory Law\"). This document is being made to eligible clients (as defined under the Advisory Law) only. Barclays Israeli branch previously held an investment marketing license with the Israel Securities Authority but it cancelled such license on 30/11/2014 as it solely provides its services to eligible clients pursuant to available exemptions under the Advisory Law, therefore a license with the Israel Securities Authority is not required. Accordingly, Barclays does not maintain an insurance coverage pursuant to the Advisory Law.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "c1f7e073d43c984f",
+      "text": "Russia: This material is not intended for investors who are not Qualified Investors according to the laws of the Russian Federation as it might contain information about or description of the features of financial instruments not admitted for public offering and/or circulation in the Russian Federation and thus not eligible for non- Qualified Investors. If you are not a Qualified Investor according to the laws of the Russian Federation, please dispose of any copy of this material in your possession.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "0f699302a2691816",
+      "text": "Sustainable Investing Related Research: There is currently no globally accepted framework or definition (legal, regulatory or otherwise) of, nor market consensus as to what constitutes a 'sustainable', 'ESG', 'green', 'climate- friendly' or an equivalent company, investment, strategy or consideration or what precise attributes are required to be eligible to be categorised by such terms. This means there are different ways to evaluate a company or an investment and so different values may be placed on certain sustainability credentials as well as adverse ESG- related impacts of companies and ESG controversies. The evolving nature of sustainable investing considerations, models and methodologies means it can be challenging to definitively and universally classify a company or investment under a sustainable investing label and there may be areas where such companies and investments could improve or where adverse ESG- related impacts or ESG controversies exist. The evolving nature of sustainable finance related regulations and the development of jurisdiction- specific regulatory criteria also means that there is likely to be a degree of divergence as to the interpretation of such terms in the market. We expect industry guidance, market practice, and regulations in this field to continue to evolve.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "1d5b611a3475fbdb",
+      "text": "Any information, data, image, or other content including from a third party source contained, referred to herein or used for whatsoever purpose by Barclays or a third party (\"Information\"), in relation to any actual or potential 'ESG', 'sustainable' or equivalent objective, issue, factor or consideration is not intended to be relied upon for ESG or sustainability classification, regulatory regime or industry initiative purposes (\"ESG Regimes\"), unless otherwise stated. Nothing in these materials, including any images included therein, is intended to convey, suggest or indicate that Barclays considers or represents any product, service, person or body mentioned in these materials as meeting or qualifying for any ESG or sustainability classification, label or similar standards that may exist under ESG Regimes. Barclays has not conducted any assessment of compliance with ESG Regimes. Parties are reminded to make their own assessments for these purposes.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "497b1f38a0763873",
+      "text": "IRS Circular 230 Prepared Materials Disclaimer: Barclays does not provide tax advice and nothing contained herein should be construed to be tax advice. Please be advised that any discussion of U.S. tax matters contained herein (including any attachments) (i) is not intended or written to be used, and cannot be used, by you for the purpose of avoiding U.S. tax- related penalties; and (ii) was written to support the promotion or marketing of the transactions or other matters addressed herein. Accordingly, you should seek advice based on your particular circumstances from an independent tax advisor.",
+      "page": 12,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "d1cf412485ca8530",
+      "name": "Advisory Law",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8823b236827b8731",
+      "name": "Aligned Benchmark",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c59f500d995c2756",
+      "name": "Aligned Benchmarks",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c5dad6b9cb7845fa",
+      "name": "Anglo American",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facedae141187a9f",
+      "name": "Australian Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e32bb7d65a913703",
+      "name": "Authorised User",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c9ffbecd66908f77",
+      "name": "Baker Hughes",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "46a2e39eafb9f3ae",
+      "name": "Barclays Capital",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4d2d57430a6b5e51",
+      "name": "Barclays Equity",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0b4eca9b275ab9cb",
+      "name": "Barclays FICC",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d1d3bfaf58595d0a",
+      "name": "Barclays Israeli",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ccf133d649c357ba",
+      "name": "Barclays Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cf01e52995393097",
+      "name": "Bloomberg\n\nFigure",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d4653c3644a31b8e",
+      "name": "Bloomberg\n\nIncludes",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a52123b8b3fa34fc",
+      "name": "Bloomberg\n\nOur",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b4f6cfe724233fa2",
+      "name": "Bloomberg\n\nWe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6f7f625bd90b9fa5",
+      "name": "Bloomberg Finance",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "496a91cc113540d2",
+      "name": "Bloomberg Indices",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ffaf002a745a4d25",
+      "name": "By AUM",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "13eec11f9f77d58d",
+      "name": "Canada Inc",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "bar",
+        "title": "Count of funds",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "No change",
+              "Removal of ESG terms",
+              "PAB to CTB",
+              "CTB to PAB"
+            ]
+          },
+          "y": {
+            "unit": "Count",
+            "range": {
+              "min": 0,
+              "max": 1400
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Count of funds",
+            "unit": "Count",
+            "values": [
+              1240,
+              760,
+              20,
+              10
+            ],
+            "percentages": [
+              "61%",
+              "37%",
+              "1%",
+              "1%"
+            ]
+          }
+        ],
+        "figure_id": "6bba0ab5bcb386b2",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "bar",
+        "title": "1y reduction in market value, $mn",
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Neste Oyj ORD",
+              "Canadian National Railway",
+              "Canadian Pacific Kansas City",
+              "Baker Hughes Co ORD",
+              "Eni SpA ORD",
+              "Cheniere Energy Inc ORD",
+              "Galp Energia SGPS SA ORD",
+              "Equinor ASA ORD",
+              "Phillips 66 ORD",
+              "ONEOK Inc ORD",
+              "Pembina Pipeline Corp ORD",
+              "Atmos Energy Corp ORD",
+              "Repsol SA ORD",
+              "ENN Natural Gas Co Ltd ORD",
+              "CSX Corp ORD"
+            ]
+          },
+          "y": {
+            "unit": "$mn",
+            "range": {
+              "min": 0,
+              "max": 300
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "1y reduction in market value",
+            "unit": "$mn",
+            "values": [
+              255,
+              135,
+              98,
+              95,
+              95,
+              80,
+              65,
+              60,
+              55,
+              45,
+              40,
+              40,
+              40,
+              40,
+              40
+            ]
+          }
+        ],
+        "figure_id": "86735e0492adba5f",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "bar",
+        "title": "1y reduction in market value, $mn",
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Energy",
+              "Industrials",
+              "Utilities",
+              "Comm. Serv."
+            ]
+          },
+          "y": {
+            "unit": "$mn",
+            "range": {
+              "min": 0,
+              "max": 1400
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "1y reduction in market value",
+            "unit": "$mn",
+            "values": [
+              1260,
+              320,
+              160,
+              0
+            ]
+          }
+        ],
+        "figure_id": "f97665c2f601a053",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "bar",
+        "title": "1y reduction in market value, $mn",
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Utilities",
+              "Energy",
+              "Materials",
+              "Industrials",
+              "Cons. Staples",
+              "Cons. Disc."
+            ]
+          },
+          "y": {
+            "unit": "$mn",
+            "range": {
+              "min": 0,
+              "max": 250
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "1y reduction in market value",
+            "unit": "$mn",
+            "values": [
+              218,
+              192,
+              52,
+              18,
+              5,
+              0
+            ]
+          }
+        ],
+        "figure_id": "f2f8662aea59a79b",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "bar",
+        "title": "AUM of funds, $bn",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "No change",
+              "Removal of ESG terms",
+              "PAB to CTB",
+              "CTB to PAB"
+            ]
+          },
+          "y": {
+            "unit": "$bn",
+            "range": {
+              "min": 0,
+              "max": 350
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "AUM of funds",
+            "unit": "$bn",
+            "values": [
+              280,
+              205,
+              20,
+              15
+            ],
+            "percentages": [
+              "54%",
+              "39%",
+              "4%",
+              "3%"
+            ]
+          }
+        ],
+        "figure_id": "70e5086067f3216b",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "No change",
+              "Removal of ESG terms",
+              "PAB to CTB",
+              "CTB to PAB"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 70
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Percentage of funds (LHA)",
+            "unit": "%",
+            "values": [
+              60,
+              36,
+              0.5,
+              0.2
+            ]
+          },
+          {
+            "name": "Percentage of AUM (RHA)",
+            "unit": "%",
+            "values": [
+              62,
+              45,
+              4.5,
+              2
+            ]
+          }
+        ],
+        "figure_id": "793f37ae52ca5a3b",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Percentage of funds, by AUM",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "No change",
+              "Removal of ESG terms",
+              "PAB to CTB",
+              "CTB to PAB"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Article 8",
+            "unit": "%",
+            "values": [
+              50,
+              42,
+              4,
+              2
+            ]
+          },
+          {
+            "name": "Article 9",
+            "unit": "%",
+            "values": [
+              92,
+              6,
+              0,
+              0
+            ]
+          }
+        ],
+        "figure_id": "34be3149b6f06dfa",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Percentage of funds, by AUM",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "No change",
+              "Removal of ESG terms",
+              "PAB to CTB",
+              "CTB to PAB"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 70
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Europe",
+            "unit": "%",
+            "values": [
+              65,
+              30,
+              3,
+              1
+            ]
+          },
+          {
+            "name": "Global",
+            "unit": "%",
+            "values": [
+              55,
+              40,
+              0,
+              3
+            ]
+          },
+          {
+            "name": "USA",
+            "unit": "%",
+            "values": [
+              36,
+              49,
+              10,
+              4
+            ]
+          },
+          {
+            "name": "EM",
+            "unit": "%",
+            "values": [
+              43,
+              44,
+              12,
+              0
+            ]
+          }
+        ],
+        "figure_id": "4b55eb4783921340",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Percentage of funds, by AUM",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "No change",
+              "Removal of ESG terms",
+              "PAB to CTB",
+              "CTB to PAB"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 70
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Equity",
+            "unit": "%",
+            "values": [
+              49.5,
+              40.5,
+              5.5,
+              2.5
+            ]
+          },
+          {
+            "name": "Fixed income",
+            "unit": "%",
+            "values": [
+              65.5,
+              32.5,
+              0.5,
+              0.5
+            ]
+          }
+        ],
+        "figure_id": "c4437383b5dd8945",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "bar",
+        "title": "1y reduction in market value",
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "SRGIM",
+              "AALLN",
+              "APAAU",
+              "TTEFP",
+              "BPLN",
+              "IGIM",
+              "KMI",
+              "ENIIM",
+              "RAIZBZ",
+              "FLOEPT",
+              "NTGYSM",
+              "OMVAV",
+              "WMB",
+              "NEGANV",
+              "EPD"
+            ]
+          },
+          "y": {
+            "unit": "$mn",
+            "range": {
+              "min": 0,
+              "max": 140
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "1y reduction in market value",
+            "unit": "$mn",
+            "values": [
+              118,
+              50,
+              26,
+              21,
+              20,
+              20,
+              13,
+              12,
+              11,
+              10,
+              9,
+              8,
+              8,
+              7,
+              6
+            ]
+          }
+        ],
+        "figure_id": "5cca5f33d8ba96fd",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Percentage of funds, by count",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "No change",
+              "Removal of ESG terms",
+              "PAB to CTB",
+              "CTB to PAB"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 70
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "<$100mn",
+            "unit": "%",
+            "values": [
+              62,
+              35,
+              0.5,
+              0.5
+            ]
+          },
+          {
+            "name": "$100-500mn",
+            "unit": "%",
+            "values": [
+              56,
+              42,
+              1,
+              1
+            ]
+          },
+          {
+            "name": "$500mn - $1bn",
+            "unit": "%",
+            "values": [
+              64,
+              31,
+              2,
+              1
+            ]
+          },
+          {
+            "name": ">$1bn",
+            "unit": "%",
+            "values": [
+              51,
+              40,
+              3,
+              4
+            ]
+          }
+        ],
+        "figure_id": "e32bb5140c02872c",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "ESG",
+              "SRI",
+              "Sustainable",
+              "Responsible",
+              "Other environmental",
+              "SDG",
+              "Social",
+              "Transition / improvers",
+              "Climate-related",
+              "Ethical",
+              "Impact",
+              "Net zero"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 70
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Percentage of funds, by count (LHA)",
+            "unit": "%",
+            "values": [
+              57,
+              35,
+              32,
+              29,
+              25,
+              25,
+              13,
+              12,
+              12,
+              8,
+              1,
+              0
+            ]
+          },
+          {
+            "name": "Percentage of funds, by AUM (RHA)",
+            "unit": "%",
+            "values": [
+              64,
+              25,
+              42,
+              8,
+              1,
+              10,
+              55,
+              12,
+              10,
+              1,
+              0,
+              0
+            ]
+          }
+        ],
+        "figure_id": "a7d72932c0edf425",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "8d3fb5bc5d54e0f5",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "sult, they avoided having to sell holdings within the exclusion criteria (Figure 13). A few funds (1% by count, \\(4\\%\\) by AUM) changed the ESG- related term in their name to a transition- related ter",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "88cdfcc3cff25d6b",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "are subject to a more limited exclusion list, tied to the Climate Transition Benchmark. Some funds (1% by count and \\(3\\%\\) by AUM) adjusted their name away from transition- related terms to an ESG- r",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "89e31f79bcd53c90",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "CSX. These companies all derive revenue from transporting coal by rail. For example, CSX derived c.15% of revenue from coal in FY24. While the exclusion criteria refers to companies that distribute co",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "b8a72261bf18ce4c",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "velopment (OECD) Guidelines for Multinational Enterprises</td></tr><tr><td>4. Companies that derive 1 % or more of their revenues from exploration, mining, extraction, distribution or refining of hard",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "d4cf006ba56b421b",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "action, distribution or refining of hard coal and lignite</td></tr><tr><td>5. Companies that derive 10 % or more of their revenues from the exploration, extraction, distribution or refining of oil fue",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "4643afb6f111cba8",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ration, extraction, distribution or refining of oil fuels</td></tr><tr><td>6. Companies that derive 50 % or more of their revenues from the exploration, extraction, manufacturing or distribution of ga",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "num_id": "9dc6c8b28adfda4e",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "xtraction, manufacturing or distribution of gaseous fuels</td></tr><tr><td>7. Companies that derive 50 % or more of their revenues from electricity generation with a GHG intensity of more than 100 g C",
+        "provenance": {
+          "page": 6
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 12,
+      "tables_count": 0,
+      "numerical_data_count": 7,
+      "passages_count": 87,
+      "entities_count": 20
+    }
+  }
+}

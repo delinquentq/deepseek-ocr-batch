@@ -1,0 +1,932 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "3185905b1a232740514c575ee71cb5f8",
+    "title": "Communacopia + Technology 2025: Conference Preview",
+    "source_uri": "2025-08-29/Americas Technology Internet Communacopia Technology 2025 Conference PreviewAmericas Technology Internet Communacopia Te_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:17:08.732260",
+      "extracted_at": "2025-10-27T00:17:08.732268"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 13,
+        "successful_pages": 13,
+        "date": "2025-08-29",
+        "publication": "2025-08-29",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 8,
+          "reduction_ratio": 0.05243915024104018
+        },
+        "input_relative_path": "2025-08-29"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "ae8be7af69130d42",
+      "text": "September 8 - 11, 2025 | San Francisco",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "022a74c5e3597d8f",
+      "text": "Next week, we will host 42 public/private companies from both within and outside our coverage universe at the Goldman Sachs Communacopia + Technology conference in San Francisco (September 8- 11th) for a mixture of fireside chats and investor 1x1 meetings. In this note, we summarize the key investor debates and questions that are most top of mind. Broadly, we expect investors to be focused on the following themes into and out of the conference:",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3babd9b986024f11",
+      "text": "1) the state of the global digital consumer – on the back of administrative announcements made during April 2025 and the implementation of reciprocal tariffs, forward commentary surrounding the level of visibility and linearity in consumer commerce trends heading into the holiday period remains in focus; 2) the digital advertising landscape – given continued momentum in the digital advertising environment from June through August, focus remains surrounding the level of sustained growth/improvement in the industry, along with elements of how companies are positioned for AI led advertising shifts, relative geographic, advertiser & ad outcomes (brand vs direct response) in the coming months; 3) company investments in AI – dynamics surrounding capital deployed, gaps between demand and capacity, scaling of AI efforts across consumer and enterprise computing & how companies are utilizing AI internally for productivity gains; & 4) the autonomous vehicle market - how the scaling of autonomous vehicles over the next 3-10 years might alter the mobility, transportation and delivery landscapes.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a358081cfa6e92f3",
+      "text": "On the back of recent industry conversations, channel checks and data, we would highlight the following trends within the broader environment: 1) the consumer landscape – overall trends have remained relatively stable over the last few months, albeit with differences remaining around consumer behavior across income levels and form of spending (discretionary vs non-discretionary), along with shifts in behavior by geography (notably in online travel); & 2) the digital advertising landscape – our most recent industry work points to a broadly solid/strong array of industry",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f93d1415157bdd2a",
+      "text": "Goldman Sachs does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. For Reg AC certification and other important disclosures, see the Disclosure Appendix, or go to www.gs.com/research/hedge.html. Analysts employed by non- US affiliates are not registered/qualified as research analysts with FINRA in the U.S.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "fff9e5fe100e7122",
+      "text": "checks, especially among platforms levered to direct response advertising budget allocation and/or AI driven technology improvements.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d1457c7f373ebe3d",
+      "text": "We do not see anything in our recent industry work that would cause any material shifts in company narratives/broader key messaging at the conference from key themes/trends highlighted during the Q2'25 earnings season. That said, nuances remain around the messaging of the four key themes, which could drive changes in investor sentiment coming out of the event. Heading into 2H25 and FY26, we still find that many investors continue to be positioned more bullish with respect to the sector today. Within the broader internet landscape and based on investor conversations, we continue to see a high degree of ownership concentration around some of the largest cap names in our coverage, along with some of the higher growth names within our SMID cap coverage universe.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "22a63f01a1c6a97c",
+      "text": "In terms of the \"wall of worry\" debates that remain in the sector (outside of the state of the consumer spend), we would highlight: 1) the potential for AI disintermediation – any shifts in consumer behavior impacting search (albeit with less focus surrounding Google's search business in recent weeks given recent operating strength), the publisher landscape, and well- established consumer funnels (across commerce, travel, etc.); 2) the relative positioning of AWS against the broader AI theme and shifts in hyperscaler computing landscape to match the AI trajectory; & 3) the potential impact that AVs might have on capital intensity, supply growth, price deflation and overall competitive intensity for the mobile landscape in the coming years.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "54c907b37df944f5",
+      "text": "Exhibit 1: Communacopia + Technology Conference - Fireside Schedule US Internet",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "23d75d54a19bc7e5",
+      "text": "Date &amp;amp; Start Time (PST)Monday, September 8th, 20258:50 am8:50 am9:30 am10:10 am10:50 am11:30 am1:05 pm1:45 pm3:05 pm3:45 pmTuesday, September 9th, 20257:30 am8:10 am8:50 am9:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 10th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 11th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 12th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 13th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 14th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 15th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 16th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 17th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 18th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 19th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 20th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 21st, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 22nd, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 23rd, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 24th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 25th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 26th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 27th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 28th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 29th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 30th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 31st, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 32nd, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 33rd, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 34th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 35th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pmWednesday, September 36th, 20259:30 am10:10 am10:50 am11:30 am12:25 pm1:45 pm3:05 pm3:45 pm",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "76e9e638bca90354",
+      "text": "*CarGurus, Epic Games, Anthropic, OpenAI and eDreams not covered by cash Rangan. Companies hosting 1x1s only: EA, TTWO, RDDT, DKNG, DUOL, SRAD, BMBL",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e0d5084a13f51fed",
+      "text": "Meta Platforms (META) - CFO Susan Li.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "8dc89ddeb4784a0d",
+      "text": "AppLovin (APP) - CEO Adam Foroughi, CFO Matt Stumpf.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "8ba084a8081b661a",
+      "text": "Pinterest (PINS) - CEO Bill Ready.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "29c6e2630be5f387",
+      "text": "DoubleVerify (DV) - CFO Nicola Allais.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d5cf242ba1317d40",
+      "text": "Yelp (YELP) - CEO Jeremy Stoppelman, CFO David Schwarzbach.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "855d3827c787b742",
+      "text": "Opera (OPRA) - CFO Frode Jacobsen.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "01657b6845d71cf5",
+      "text": "Ibotta (IBTA) - CRO Chris Riedy.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "6a4647afc4f0eb29",
+      "text": "Nextdoor Holdings (NXDR) - CEO Nirav Tolia.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b054582ed892af68",
+      "text": "Reddit (RDDT) - 1x1s only.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "098a43e58691c37b",
+      "text": "We expect to hear on several key debates & topics facing the digital ad industry: a) the evolving macro environment & resulting impact on advertising spend (incl. details on specific industry verticals & channels that are currently out/underperforming) both in 2H and any visibility into 2026 ad budget planning; b) commentary on user growth & engagement trends (for relevant platforms); & c) the competitive environment for ad dollars (informed short- term by increasing competition within the streaming video/OTT space). Looking longer- term, we also expect commentary on the AI opportunity (& increasing levels of capital intensity) across the advertising landscape.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b2becd5d626340bb",
+      "text": "Links to our Q2 earnings review notes: META, APP, PINS, DV, YELP, OPRA, IBTA, NXDR, RDDT",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2749c3de951c9c0c",
+      "text": "eBay (EBAY) - CEO Jamie Iannone, CFO Peggy Alford.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3172eb84df03780c",
+      "text": "Etsy (ETSY) - CEO Josh Silverman, CFO Lanny Baker.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ff3c102a3561edab",
+      "text": "Cricut (CRCT) - CEO Ashish Arora, CFO Kimball Shill.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "47f2311a53fe1f6d",
+      "text": "eCommerce trends largely outperformed in Q2, as the sector demonstrated resilient consumer demand despite tariff uncertainties and evolving consumer behavior patterns. Overall eCommerce sales continued to grow at a healthy rate with the largest platforms producing solid results and gaining share. While companies continued to point to a more discerning consumer, strategic initiatives including AI- driven personalization and mobile app experiences are driving GMV outperformance and sustained momentum. We expect a key debate to be the sustainability of the resilience to macro pressures going forward, as the extent of pull forward, the benefit from forward positioned inventory, and the end state of consumer health remain unclear.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "835880f27543933e",
+      "text": "Against this backdrop, we expect companies to frame execution priorities around the volatile behavior of global advertising auction participants—including Amazon's strategic adjustments in Google Search auction participation—and increased focus on AI- sourced referral capabilities to stimulate growth. Management teams are likely to address how efficiency initiatives can support operating margin resilience in 2H'25, while capital returns remain a rising topic as active share repurchase programs continue across the sector (w/ the notable exception of AMZN).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "c21c356763a7a65f",
+      "text": "Links to our Q2 earnings review notes: EBAY, ETSY, CRCT",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "39ea4940dde8e403",
+      "text": "Alphabet (GOOGL) - CEO of Google Cloud Thomas Kurian.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "c781ef26c43af9c3",
+      "text": "OpenAI - CFO Sarah Friar.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4e23543c8b825b7c",
+      "text": "Anthropic - CFO Krishna Rao.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5a81cdd715d7cd06",
+      "text": "The Cloud Computing environment continued to experience capacity constraints limiting the ability to serve strong AI- related demand and impacting near- term growth (with constraints to likely ease in 2H25). Investors remain focused on the ability for cloud segments to sustain stable to accelerating topline (incl. health of backlog commitments as a read- thru on future growth prospects) & list of factors impacting operating margins as we look to 2026 & beyond (e.g. investments in headcount, flowthrough of D&A from elevated CapEx, scale, mix of workloads, etc.).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "73feeec51e67c3c6",
+      "text": "We expect companies to frame how they see the broader hyperscaler competitive environment and platform positioning from both a product & partnership perspective in a world of increasing AI- related workloads. Additionally, we see discussions likely to focus on capital allocation priorities (product, infrastructure CapEx, etc.), how management thinks about the ROI of CapEx, custom silicon efforts & cybersecurity, among other topics.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b739f1e3e50f5671",
+      "text": "Link to our Q2 earnings review note: GOOGL",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "c7a5ebb17e3066af",
+      "text": "Booking Holdings (BKNG) - Executive Vice President & CFO Ewout Steenbergen.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "cab62722be5086ce",
+      "text": "Airbnb (ABNB) - CEO Brian Chesky.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "8e1087f1e2b07ebf",
+      "text": "Tripadvisor (TRIP) - CEO Matt Goldberg.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "74ee188c447a7aa2",
+      "text": "eDreams ODIGEO (EDR- ES) - CEO Dana Dunne, CFO David Elizaga.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "65c881aafac19f7e",
+      "text": "The Online Travel sector continued to demonstrate a trajectory of post- pandemic recovery normalization in Q2, with management commentary highlighting a solid/stable travel environment in Q2, healthy July trends but more difficult comps in Aug/Sept and",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f010b624a0969d77",
+      "text": "into Q4, different travel behaviors across cross- border travel and different booking habits by budget, Al adoption (incl. licensing deals), & companies continuing to reiterate commitments to returning capital to shareholders given strong FCF performance.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "d2e3c5566e136440",
+      "text": "Against this backdrop, we expect companies to frame how they think about structural growth for online travel in a normalized demand environment, initiatives to drive more direct traffic/demand (& levels of marketing intensity is required in a decelerating growth environment), opportunities for growth outside of core markets (either geographically or product), levels of non- marketing investments that will drive leverage/deleverage as companies lean into longer dated return investments, & how a continued commitment to shareholder returns could potentially result in better GAAP EPS or FCF/share growth in periods to come.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "d88fe8678ae69130",
+      "text": "Links to our Q2 earnings review notes: BKNG, ABNB, TRIP",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "870d8cb951914390",
+      "text": "Uber Technologies (UBER) - CEO Dara Khosrowshahi.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "0e015b097fee6425",
+      "text": "Instacart (CART) - CBO & Incoming CEO Chris Rogers.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "9b4d137084f8ab18",
+      "text": "Lyft (LYFT) - CEO David Risher.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "385c4468408867f6",
+      "text": "Q2 results outperformed relative to investor concerns about the state of the consumer and macro pressures, with management teams highlighting healthy consumer fundamentals through strong member and frequency growth, increased adoption of multiple products, and robust membership expansion. Specific to Mobility, the quarter marked a significant acceleration in autonomous vehicle partnership announcements and deployment timelines, including Uber's expanded Waymo collaborations in Austin and Atlanta, alongside strategic partnerships with Baidu, Lucid, and Nuro. Lyft further advanced its autonomous strategy through additional US partnerships and the recent announcement of 2026 deployment with Baidu in Europe. We find that these developments position AVs as complementary growth drivers rather than disruptive threats.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "d0f315c73ffd2f49",
+      "text": "Looking ahead, we expect key debates to center on consumer spending resilience, the rising competitiveness of local commerce (with AMZN Prime Same Day expansion to Grocery), the impacts from AVs over the coming the years, the trajectory of advertising revenue scaling across Mobility and Delivery platforms as retail media networks mature, levers for unit economics enhancement, growth in investment areas like grocery & retail, and the pace of capital returns as improving cash flow profiles enable more aggressive shareholder return strategies, exemplified by Uber's incremental \\(20 billion repurchase authorization and continued buyback execution across the sector.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c5195987346342eb",
+      "text": "Links to our Q2 earnings review notes: UBER, CART, LYFT",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "2b4b6b6050e0e29b",
+      "text": "Netflix (NFLX) - co- CEO Greg Peters.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "7c82cd07b68ba228",
+      "text": "Webtoon Entertainment (WBTN) - CFO David Lee.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "7239e44c88fee5c3",
+      "text": "After posting a solid Q2 earnings report and given recent investor debates, we expect to hear on a number of key debates & topics for Netflix including: a) a framing of current user engagement trends and areas of focus to drive increased engagement/growth in an increasingly competitive environment; b) company views surrounding the scaling of advertising revenues; c) commentary surrounding investment priorities (content, live events and gaming) over the next 12- 18 months.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9b5d3b57d9f60570",
+      "text": "For Webtoon, we expect mgmt. to touch on the following: a) a framing of the competitive landscape and areas of opportunity to grow users; b) commentary around how recently announced partnerships (Disney, Dark Horse Comics) could drive user momentum in RoW; c) the advertising opportunity in each of the markets and how the company is aligning investments to drive growth in this segment; & d) how the company is balancing growth and margins (gross margin dynamics and investments in marketing to grow users in the near- term vs. investments against longer- term initiatives).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "806ed19c9f149eea",
+      "text": "Links to our Q2 earnings review notes: NFLX, WBTN",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "46139a92ef5d3e18",
+      "text": "Epic Games - Randy Gelber, CFO.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1669b88569544ae7",
+      "text": "Corsair Gaming (CRSR) - CEO Thi La, CFO Michael Potter.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1c5f97b21c89388a",
+      "text": "Electronic Arts (EA) - 1x1s only.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "7eb2193cc50cafa7",
+      "text": "Take- Two Interactive (TTWO) - 1x1s only.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "7930d85585a16187",
+      "text": "With AAA publishers remaining focused on the launch of established IP titles after a multi- year development period (Battlefield 6 & GTA VI), we expect companies to remain focused on: a) a framing of the addressable market opportunity & competitive positioning relative to other publishers; b) current consumer/user trends (surrounding engagement, monetization, etc.); c) commentary surrounding the current state of consumer demand trends; & d) forward product refresh cycle opportunity on the back of a robust AAA gaming slate over the next 12- 18 months.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "f0334eb4f590af7d",
+      "text": "Links to our Q2 earnings review notes: CRSR, EA, TTWO",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "68e0dc21dcd2a48b",
+      "text": "Match Group (MTCH) - CEO Spencer Rascoff.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0d08d79c1bd9cedf",
+      "text": "Grindr (GRND) - CEO George Arison.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "297230e127793871",
+      "text": "Bumble (BMBL) - 1x1s only.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "149a372ddb83a258",
+      "text": "While trends remain mixed at online dating companies, we expect to hear on several key debates & topics within the broader industry: a) company framings around the addressable online dating market opportunity; b) forward product roadmap and feature rollouts; c) current user engagement trends; & d) capital allocation priorities & the balance between growth investments and margins. Looking longer- term, we expect commentary on how various apps are implementing AI both internally and on consumer facing applications.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8b9da0d9cc49095f",
+      "text": "Links to our Q2 earnings review notes: MTCH, GRND, BMBL",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "1102df748d679ef4",
+      "text": "Genius Sports (GENI) - Co- Founder & CEO Mark Locke.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "efd74ec3745f987f",
+      "text": "DraftKings (DKNG) - 1x1s only.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "9bd97ff1e03b4ffa",
+      "text": "Sportradar Group (SRAD) - 1x1s only.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "2c2181f9dbbc71d5",
+      "text": "We see key debates shaping the online gambling sector as: a) Pace of U.S. market maturation and state- by- state legalization (Missouri expected to launch in Dec'25) vs. persistent regulatory headwinds (Illinois, Louisiana, and New Jersey tax increases); b) NFL initiatives, with operators racing to improve product offerings, core value drivers and competitive positioning ahead of the upcoming season; c) Competitive uncertainty around the emerging impact of prediction markets; d) Customer acquisition dynamics for operators as they balance growth initiatives with promotional efficiency in an increasingly mature market; & e) Capital allocation priorities (across market expansion, technology, capital returns) as industry players build improving cash positions.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "6a70b16c2cc0c762",
+      "text": "Links to our Q2 earnings review notes: GENI, DKNG, SRAD",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "934c4efc3b92a15c",
+      "text": "CarGurus (CARG) - CEO Jason Trevisan.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "f18b5e2bfcdea5ac",
+      "text": "IAC (IAC) - CFO Chris Halpin.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "adc7602c8893ef39",
+      "text": "Xometry (XMTR) - CEO Randy Altschuler, CFO James Miln.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8aac84f0bae9826f",
+      "text": "Upwork (UPWK) - CFO Erica Gessert.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "b8353e6b4bde1d1e",
+      "text": "Fiverr (FVRR) - Founder & CEO Micha Kaufman.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "adc53556b8637abd",
+      "text": "ZipRecruiter (ZIP) - CEO Ian Siegel, CFO Tim Yarbrough.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "988a0d85c4b71e39",
+      "text": "Key debates for online B2B/B2C marketplaces include: 1) the expectations for further",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ee6a69e69aff6efd",
+      "text": "digitization across various end markets & the narrative around Generative AI efforts/impacts (with a focus on how AI may compliment digitization trends); 2) any divergence in demand and demographic trends (enterprise vs. SMB, North America vs. Europe/ROW, new vs. existing customers, etc.); 3) capital priorities for the dynamic macro environment & the building blocks to near- term profitability (as well as scale needed to achieve longer- term sustained profitability & FCF generation) & 4) the product development pipeline and platform innovation efforts to drive adoption and differentiation (and related retention & share of wallet growth). We see a dominant and rising investor focus across this group on how the companies are able to navigate emerging AI opportunities on both sides of the growth and operational efficiency equation.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "ee2a8cbe30cf24bc",
+      "text": "Links to our Q2 earnings review notes: IAC, XMTR, UPWK, FVRR, ZIP",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "8b75f61f8af9acc1",
+      "text": "We, ric Sheridan, Ben Miller, Alex Vegliante, CFA, Julia Fein- Ashley, Rath Raja, Aarshiva Sachdeva and Achal Gupta, hereby certify that all of the views expressed in this report accurately reflect our personal views about the subject company or companies and its or their securities. We also certify that no part of our compensation was, is or will be, directly or indirectly, related to the specific recommendations or views expressed in this report.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "f8f24b19429f7ea3",
+      "text": "Unless otherwise stated, the individuals listed on the cover page of this report are analysts in Goldman Sachs' Global Investment Research division.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "e729acc171384ee4",
+      "text": "The Goldman Sachs Factor Profile provides investment context for a stock by comparing key attributes to the market (i.e. our universe of rated stocks) and its sector peers. The four key attributes depicted are: Growth, Financial Returns, Multiple (e.g. valuation) and Integrated (a composite of Growth, Financial Returns and Multiple). Growth, Financial Returns and Multiple are calculated by using normalized ranks for specific metrics for each stock. The normalized ranks for the metrics are then averaged and converted into percentiles for the relevant attribute. The precise calculation of each metric may vary depending on the fiscal year, industry and region, but the standard approach is as follows:",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "4c2e0a4c30564006",
+      "text": "Growth is based on a stock's forward- looking sales growth, EBITDA growth and EPS growth (for financial stocks, only EPS and sales growth), with a higher percentile indicating a higher growth company. Financial Returns is based on a stock's forward- looking ROE, ROCE and CROCI (for financial stocks, only ROE), with a higher percentile indicating a company with higher financial returns. Multiple is based on a stock's forward- looking P/E, P/B, price/dividend (P/D), EV/EBITDA, EV/FCF and EV/Debt Adjusted Cash Flow (DACF) (for financial stocks, only P/E, P/B and P/D), with a higher percentile indicating a stock trading at a higher multiple. The Integrated percentile is calculated as the average of the Growth percentile, Financial Returns percentile and (100% - Multiple percentile).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "e6bead8f6ad3b038",
+      "text": "Financial Returns and Multiple use the Goldman Sachs analyst forecasts at the fiscal year- end at least three quarters in the future. Growth uses inputs for the fiscal year at least seven quarters in the future compared with the year at least three quarters in the future (on a per- share basis for all metrics).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "936667039957550f",
+      "text": "For a more detailed description of how we calculate the GS Factor Profile, please contact your GS representative.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "064dff4ea56b7052",
+      "text": "Across our global coverage, we examine stocks using an M&A framework, considering both qualitative factors and quantitative factors (which may vary across sectors and regions) to incorporate the potential that certain companies could be acquired. We then assign a M&A rank as a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines we incorporate an M&A component into our target price. M&A rank of 3 is considered immaterial and therefore does not factor into our price target, and may or may not be discussed in research.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "03b07af2ae1d0bd6",
+      "text": "Quantum is Goldman Sachs' proprietary database providing access to detailed financial statement histories, forecasts and ratios. It can be used for in- depth analysis of a single company, or to make comparisons between companies in different sectors and markets.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "8d54fe6f9c74a78a",
+      "text": "See company- specific regulatory disclosures above for any of the following disclosures required as to companies referred to in this report: manager or co- manager in a pending transaction; 1% or other ownership; compensation for certain services; types of client relationships; managed/co- managed public offerings in prior periods; directorships; for equity securities, market making and/or specialist role. Goldman Sachs trades or may trade as a principal in debt securities (or in related derivatives) of issuers discussed in this report.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "1635b597f0203926",
+      "text": "The following are additional required disclosures: Ownership and material conflicts of interest: Goldman Sachs policy prohibits its analysts, professionals reporting to analysts and members of their households from owning securities of any company in the analyst's area of coverage. Analyst compensation: Analysts are paid in part based on the profitability of Goldman Sachs, which includes investment banking revenues. Analyst as officer or director: Goldman Sachs policy generally prohibits its analysts, persons reporting to analysts or members of their households from serving as an officer, director or advisor of any company in the analyst's area of coverage. Non- U.S. Analysts: Non- U.S. analysts may not be associated persons of Goldman Sachs & Co. LLC and therefore may not be subject to FINRA Rule 2241 or FINRA Rule 2242 restrictions on communications with subject company, public appearances and trading securities held by the analysts.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "9208807795289668",
+      "text": "Distribution of ratings: See the distribution of ratings disclosure above. Price chart: See the price chart, with changes of ratings and price targets in prior periods, above, or, if electronic format or if with respect to multiple companies which are the subject of this report, on the Goldman Sachs website at https://www.gs.com/research/hedge.html.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "9c34dc57e2fe7cbe",
+      "text": "The following disclosures are those required by the jurisdiction indicated, except to the extent already made above pursuant to United States laws and regulations. Australia: Goldman Sachs Australia Pty Ltd and its affiliates are not authorised deposit- taking institutions (as that term is defined in the Banking Act 1959 (Cth) in Australia and do not provide banking services, nor carry on a banking business, in Australia. This research, and any access to it, is intended only for \"wholesale clients\" within the meaning of the Australian Corporations Act, unless otherwise agreed by Goldman Sachs. In producing research reports, members of Global Investment Research of Goldman Sachs Australia may attend site visits and other meetings hosted by the companies and other entities which are the subject of its research reports. In some instances the costs of such site visits or meetings may be met in part or in whole by the issuers concerned if Goldman Sachs Australia considers it is appropriate and reasonable in the specific circumstances relating to the site visit or meeting. To the extent that the contents of this document contains any financial product advice, it is general advice only and has been prepared by Goldman Sachs without taking into account a client's objective, financial situation or needs. A client should, before acting on any such advice, consider the appropriateness of the advice having regard to the client's own objectives, financial situation and needs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests and a copy of Goldman Sachs' Australian Sell- Side Research Independence Policy Statement are available at: https://www.goldmansachs.com/disclosures/australia- new- zealand/index.html. Brazil: Disclosure information in relation to CVM Resolution n. 20 is available at https://www.gs.com/worldwide/brazil/area/gr/index.html. Where applicable, the Brazil- registered analyst primarily responsible for the content of this research report, as defined in Article 20 of CVM Resolution n. 20, is the first author named at the beginning of this report, unless indicated otherwise at the end of the text. Canada: This information is being provided to you for information purposes only and is not, and under no circumstances should be construed as, an advertisement, offering or solicitation by Goldman Sachs & Co. LLC for purchasers of securities in Canada to trade in any Canadian security. Goldman Sachs & Co. LLC is not registered as a dealer in any jurisdiction in Canada under applicable Canadian securities laws and generally is not permitted to trade in Canadian securities and may be prohibited from selling certain securities and products in certain jurisdictions in Canada. If you wish to trade in any Canadian securities or other products in Canada please contact Goldman Sachs Canada Inc., an affiliate of The Goldman Sachs Group Inc., or another registered Canadian dealer. Hong Kong: Further information on the securities of covered companies referred to in this research may be obtained on request from Goldman Sachs (Asia) L.L.C. India: Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (India) Securities Private Limited, Research Analyst - SEBI Registration Number INH000001493, 951- A, Rational House, Appasabhe Marathag, Prabhadevi, Mumbai 400 025, India, Corporate Identity Number U74140MH2006FTC160634, Phone +91 22 6616 9000, Fax +91 22 6616 9001. Goldman Sachs may beneficially own \\(1\\%\\) or more of the securities (as such term is defined in clause 2 (h) the Indian Securities Contracts (Regulation) Act, 1956) of the subject company or companies referred to in this research report. Investment in securities market are subject to market risks. Read all the related documents carefully before investing. Registration granted by SEBI and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Goldman Sachs (India) Securities Private Limited compliance officer and investor grievance contact details can be found at this link: https://publishing.gs.com/disclosures/hedge.html - /general/equity. Japan: See below. Korea: This research, and any access to it, is intended only for \"professional investors\" within the meaning of the Financial Services and Capital Markets Act, unless otherwise agreed by Goldman Sachs. Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (Asia) L.L.C., Seoul Branch. New Zealand: Goldman Sachs New Zealand Limited and its affiliates are neither \"registered banks\" nor \"deposit takers\" (as defined in the Reserve Bank of New Zealand Act 1989) in New Zealand. This research, and any access to it, is intended for \"wholesale clients\" (as defined in the Financial Advisers Act 2008) unless otherwise agreed by Goldman Sachs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests is available at: https://www.goldmansachs.com/disclosures/australia- new- zealand/index.html. Russia: Research reports distributed in the Russian Federation are not advertising as defined in the Russian legislation, but are information and analysis not having product promotion as their main purpose and do not provide appraisal within the meaning of the Russian legislation on appraisal activity. Research reports do not constitute a personalized investment recommendation as defined in Russian laws and regulations, are not addressed to a specific client, and are prepared without analyzing the financial circumstances, investment profiles or risk profiles of clients. Goldman Sachs assumes no responsibility for any investment decisions that may be taken by a client or any other person based on this research report. Singapore: Goldman Sachs (Singapore) Pte. (Company Number: 198602165W), which is regulated by the Monetary Authority of Singapore, accepts legal responsibility for this research, and should be contacted with respect to any matters arising from, or in connection with, this research. Taiwan: This material is for reference only and must not be reprinted without permission. Investors should carefully consider their own investment risk. Investment results are the responsibility of the individual investor. United Kingdom: Persons who would be categorized as retail clients in the United Kingdom, as such term is defined in the rules of the Financial Conduct Authority, should read this research in conjunction with prior Goldman Sachs research on the covered companies referred to herein and should refer to the risk warnings that have been sent to them by Goldman Sachs International. A copy of these risks warnings, and a glossary of certain financial terms used in this report, are available from Goldman Sachs International on request.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "7216b66f1eaed4c1",
+      "text": "European Union and United Kingdom: Disclosure information in relation to Article 6 (2) of the European Commission Delegated Regulation (EU) (2016/958) supplementing Regulation (EU) No 596/2014 of the European Parliament and of the Council (including as that Delegated Regulation is implemented into United Kingdom domestic law and regulation following the United Kingdom's departure from the European Union and the European Economic Area) with regard to regulatory technical standards for the technical arrangements for objective presentation of investment recommendations or other information recommending or suggesting an investment strategy and for disclosure of particular interests or indications of conflicts of interest is available at https://www.gs.com/disclosures/europeanpolicy.html which states the European Policy for Managing Conflicts of Interest in Connection with Investment Research.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "6cfb62e1b41ae86a",
+      "text": "Japan: Goldman Sachs Japan Co., Ltd. is a Financial Instrument Dealer registered with the Kanto Financial Bureau under registration number Kinsho 69, and a member of Japan Securities Dealers Association, Financial Futures Association of Japan Type II Financial Instruments Firms Association, The Investment Trusts Association, Japan, and Japan Investment Advisers Association. Sales and purchase of equities are subject to commission pre- determined with clients plus consumption tax. See company- specific disclosures as to any applicable disclosures required by Japanese stock exchanges, the Japanese Securities Dealers Association or the Japanese Securities Finance Company.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "47d467733f955946",
+      "text": "Buy (B), Neutral (N), Sell (S) Analysts recommend stocks as Buys or Sells for inclusion on various regional Investment Lists. Being assigned a Buy or Sell on an Investment List is determined by a stock's total return potential relative to its coverage universe. Any stock not assigned as a Buy or a Sell on an Investment List with an active rating (i.e., a stock that is not Rating Suspended, Not Rated, Early- Stage Biotech, Coverage Suspended or Not Covered), is deemed Neutral. Each region manages Regional Conviction Lists, which are selected from Buy rated stocks on the respective region's Investment Lists and represent investment recommendations focused on the size of the total return potential and/or the likelihood of the realization of the return across their respective areas of coverage. The addition or removal of stocks from such Conviction Lists are managed by the Investment Review Committee or other designated committee in each respective region and do not represent a change in the analysts' investment rating for such stocks.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "08341daa63955bfd",
+      "text": "Total return potential represents the upside or downside differential between the current share price and the price target, including all paid or anticipated dividends, expected during the time horizon associated with the price target. Price targets are required for all covered stocks. The total return potential, price target and associated time horizon are stated in each report adding or reiterating an Investment List membership.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "1e41117932fc824a",
+      "text": "Coverage Universe: A list of all stocks in each coverage universe is available by primary analyst, stock and coverage universe at https://www.gs.com/research/hedge.html.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "5f999e5dba69ec14",
+      "text": "Not Rated (NR). The investment rating, target price and earnings estimates (where relevant) are removed pursuant to Goldman Sachs policy when",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "a3a7bd12c81306ce",
+      "text": "Goldman Sachs is acting in an advisory capacity in a merger or in a strategic transaction involving this company, when there are legal, regulatory or policy constraints due to Goldman Sachs' involvement in a transaction, and in certain other circumstances. Early- Stage Biotech (ES). An investment rating and a target price are not assigned pursuant to Goldman Sachs policy when this company neither has a drug, treatment or medical device that has passed a Phase II clinical trial nor a license to distribute a post- Phase II drug, treatment or medical device. Rating Suspended (RS). Goldman Sachs Research has suspended the investment rating and price target for this stock, because there is not a sufficient fundamental basis for determining an investment rating or target price. The previous investment rating and target price, if any, are no longer in effect for this stock and should not be relied upon. Coverage Suspended (CS). Goldman Sachs has suspended coverage of this company. Not Covered (NC). Goldman Sachs does not cover this company.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "a821d5a94477cfc0",
+      "text": "Goldman Sachs International (\"GSI\"), authorised by the Prudential Regulation Authority (\"PRA\") and regulated by the Financial Conduct Authority (\"FCA\") and the PRA, has approved this research in connection with its distribution in the United Kingdom.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "994843d879ae4a84",
+      "text": "European Economic Area: GSI, authorised by the PRA and regulated by the FCA and the PRA, disseminates research in the following jurisdictions within the European Economic Area: the Grand Duchy of Luxembourg, Italy, the Kingdom of Belgium, the Kingdom of Denmark, the Kingdom of Norway, the Republic of Finland and the Republic of Ireland; GSI - Succursale de Paris (Paris branch) which is authorised by the French Autorite de controle prudentiel et de resolution (\"ACPR\") and regulated by the Autorite de controle prudentiel et de resolution and the Autorite des marches financiers (\"AMF\") disseminates research in France; GSI - Succursal en Espana (Madrid branch) authorized in Spain by the Comision Nacional del Mercado de Valores disseminates research in the Kingdom of Spain; GSI - Sweden Bankfilial (Stockholm branch) is authorized by the SFSA as a \"third country branch\" in accordance with Chapter 4, Section 4 of the Swedish Securities and Market Act (Sw. lag (2007:528) om vardepappersmarknaden) disseminates research in the Kingdom of Sweden; Goldman Sachs Bank Europe SE (\"GSBE\") is a credit institution incorporated in Germany and, within the Single Supervisory Mechanism, subject to direct prudential supervision by the European Central Bank and in other respects supervised by German Federal Financial Supervisory Authority (Bundesanstalt fur Finanzdienstleistungsaufsicht, BaFin) and Deutsche Bundesbank and disseminates research in the Federal Republic of Germany and those jurisdictions within the European Economic Area where GSI is not authorised to disseminate research and additionally, GSBE, Copenhagen Branch filial af GSBE, Tyskland, supervised by the Danish Financial Authority disseminates research in the Kingdom of Denmark; GSBE - Succursal en Espana (Madrid branch) subject to a limited extent to local supervision by the Bank of Spain disseminates research in the Kingdom of Spain; GSBE - Succursale Italia (Milan branch) to the relevant applicable extent, subject to local supervision by the Bank of Italy (Banca d'Italia) and the Italian Companies and Exchange Commission (Commissione Nazionale per le Societa e la Borsa \"Consob\") disseminates research in Italy; GSBE - Succursale de Paris (Paris branch), supervised by the AMF and by the ACPR disseminates research in France; and GSBE - Sweden Bankfilial (Stockholm branch), to a limited extent, subject to local supervision by the Swedish Financial Supervisory Authority (Finansinspektionen) disseminates research in the Kingdom of Sweden.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "f8a591a813a5fe9e",
+      "text": "This research is for our clients only. Other than disclosures relating to Goldman Sachs, this research is based on current public information that we consider reliable, but we do not represent it as accurate or complete, and it should not be relied on as such. The information, opinions, estimates and forecasts contained herein are as of the date hereof and are subject to change without prior notification. We seek to update our research as appropriate, but various regulations may prevent us from doing so. Other than certain industry reports published on a periodic basis, the large majority of reports are published at irregular intervals as appropriate in the analyst's judgment.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "b83090d778145e81",
+      "text": "Goldman Sachs conducts a global full- service, integrated investment banking, investment management, and brokerage business. We have investment banking and other business relationships with a substantial percentage of the companies covered by Global Investment Research. Goldman Sachs & Co. LLC, the United States broker dealer, is a member of SIPC (https://www.sipc.org).",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "593d35fdf09b848c",
+      "text": "Our salespeople, traders, and other professionals may provide oral or written market commentary or trading strategies to our clients and principal trading desks that reflect opinions that are contrary to the opinions expressed in this research. Our asset management area, principal trading desks and investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "81831b213128574d",
+      "text": "The analysts named in this report may have from time to time discussed with our clients, including Goldman Sachs salespersons and traders, or may discuss in this report, trading strategies that reference catalysts or events that may have a near- term impact on the market price of the equity securities discussed in this report, which impact may be directionally counter to the analyst's published price target expectations for such stocks. Any such trading strategies are distinct from and do not affect the analyst's fundamental equity rating for such stocks, which rating reflects a stock's return potential relative to its coverage universe as described herein.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "c3b0bc77f3ee21af",
+      "text": "We and our affiliates, officers, directors, and employees will from time to time have long or short positions in, act as principal in, and buy or sell, the securities or derivatives, if any, referred to in this research, unless otherwise prohibited by regulation or Goldman Sachs policy.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "9aa43a07370c6d39",
+      "text": "The views attributed to third party presenters at Goldman Sachs arranged conferences, including individuals from other parts of Goldman Sachs, do not necessarily reflect those of Global Investment Research and are not an official view of Goldman Sachs.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "6d203f8b3a38817f",
+      "text": "Any third party referenced herein, including any salespeople, traders and other professionals or members of their household, may have positions in the products mentioned that are inconsistent with the views expressed by analysts named in this report.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "c1d9446b0dd55ce1",
+      "text": "This research is not an offer to sell or the solicitation of an offer to buy any security in any jurisdiction where such an offer or solicitation would be illegal. It does not constitute a personal recommendation or take into account the particular investment objectives, financial situations, or needs of individual clients. Clients should consider whether any advice or recommendation in this research is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The price and value of investments referred to in this research and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "e62212a6674e2b8f",
+      "text": "Certain transactions, including those involving futures, options, and other derivatives, give rise to substantial risk and are not suitable for all investors.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "8210a45cdedcd943",
+      "text": "Investors should review current options and futures disclosure documents which are available from Goldman Sachs sales representatives or at https://www.theocc.com/about/publications/character- risks.jsp and https://www.goldmansachs.com/disclosures/cftc from disclosures. Transaction costs may be significant in option strategies calling for multiple purchase and sales of options such as spreads. Supporting documentation will be supplied upon request.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "45d82e73770a57e0",
+      "text": "Differing Levels of Service provided by Global Investment Research: The level and types of services provided to you by Goldman Sachs Global Investment Research may vary as compared to that provided to internal and other external clients of GS, depending on various factors including your individual preferences as to the frequency and manner of receiving communication, your risk profile and investment focus and perspective (e.g., marketwide, sector specific, long term, short term), the size and scope of your overall client relationship with GS, and legal and regulatory constraints. As an example, certain clients may request to receive notifications when research on specific securities is published, and certain clients may request that specific data underlying analysts' fundamental analysis available on our internal client websites be delivered to them electronically through data feeds or otherwise. No change to an analyst's fundamental research views (e.g., ratings, price targets, or material changes to earnings estimates for equity securities), will be communicated to any client prior to inclusion of such information in a research report broadly disseminated through electronic publication to our internal client websites or through other means, as necessary, to all clients who are entitled to receive such reports.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "d74b0e58e0b74fde",
+      "text": "All research reports are disseminated and available to all clients simultaneously through electronic publication to our internal client websites. Not all research content is redistributed to our clients or available to third- party aggregators, nor is Goldman Sachs responsible for the redistribution of our research by third party aggregators. For research, models or other data related to one or more securities, markets or asset classes (including related services) that may be available to you, please contact your GS representative or go to https://research.gs.com.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "14fc11fa392058b5",
+      "text": "Disclosure information is also available at https://www.gs.com/research/hedge.html or from Research Compliance, 200 West Street, New York, NY 10282.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "c874e2655315d13b",
+      "text": "You may not resell or reverse engineer this information to calculate or develop any index for disclosure and/or marketing or create any other derivative works or commercial product(s), data or offering(s) without the express written consent of Goldman Sachs. You are not permitted to publish, transmit, or otherwise reproduce this information, in whole or in part, in any format to any third party without the express written consent of Goldman Sachs. This foregoing restriction includes, without limitation, using, extracting, downloading or retrieving this information, in whole or in part, to train or finetune a machine learning or artificial intelligence system, or to provide or reproduce this information, in whole or in part, as a prompt or input to any such system.",
+      "page": 12,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "e2b52c35b12526b4",
+      "name": "AMZN Prime",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ff1c6e9540b9c4c2",
+      "name": "Aarshiva Sachdeva",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "67a3d7192db6ceac",
+      "name": "Achal Gupta",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "547d19db86515e04",
+      "name": "Alex Vegliante",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5e6d75c14b008aaa",
+      "name": "Appasabhe Marathag",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5cd2adc9e2a5254e",
+      "name": "Artificial Intelligence",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6d4488d766412406",
+      "name": "Australia Pty",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facedae141187a9f",
+      "name": "Australian Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "37943b86af92d90f",
+      "name": "Australian Sell",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "10c4b9fb39db2245",
+      "name": "Bank Europe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "665d58562cca56d1",
+      "name": "Banking Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7f486d260e1e8c6f",
+      "name": "Ben Miller",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9916595ea3fe71b2",
+      "name": "Booking Holdings",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "630f9944ea4cbba9",
+      "name": "CEO Adam",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cef42e466e8dc811",
+      "name": "CEO Ashish",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "08e9258aa5149ebb",
+      "name": "CEO Bill",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3a3c507218335231",
+      "name": "CEO Brian",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7d4685b282ca03b6",
+      "name": "CEO Dana",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "93ce3203d629b823",
+      "name": "CEO Dara",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "bf6f5bf427641d2a",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "percentile is calculated as the average of the Growth percentile, Financial Returns percentile and (100% - Multiple percentile). Financial Returns and Multiple use the Goldman Sachs analyst forecasts ",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "1435a9dbd410a5ba",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ank as a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "060ec48fe079f819",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) pro",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "7cb21fc6abdf1109",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "g high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in ",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "d5d68f0e76e75b3e",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "h (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line ",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "6850783d48711964",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ecoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "8ae33ad89cf7ea4f",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ing an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines we ",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "955d757ff61cd1d2",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "quired as to companies referred to in this report: manager or co- manager in a pending transaction; 1% or other ownership; compensation for certain services; types of client relationships; managed/co-",
+        "provenance": {
+          "page": 9
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 0,
+      "tables_count": 0,
+      "numerical_data_count": 8,
+      "passages_count": 113,
+      "entities_count": 20
+    }
+  }
+}

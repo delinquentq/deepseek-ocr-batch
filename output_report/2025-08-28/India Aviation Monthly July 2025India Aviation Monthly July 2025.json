@@ -1,0 +1,1102 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "6d4d43172d036a9fb9d9fe954322f6be",
+    "title": "Jefferies",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Jefferies/India Aviation Monthly July 2025India Aviation Monthly July 2025_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:20:12.964709",
+      "extracted_at": "2025-10-26T12:20:12.964719"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 8,
+        "successful_pages": 8,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Jefferies",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 7,
+          "reduction_ratio": 0.29357287301075585
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Jefferies"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "5edee4ce1ab19f74",
+      "text": "India's domestic air traffic fell \\(3\\%\\) YoY in Jul- 25 \\((+3\\%\\) in June- 25; \\(1Q: + 4\\%\\) YoY), largely on account of scale back of capacity due to safety reviews/ maintenance, with more adverse cuts for Air India. IndiGo's domestic growth stood at \\(+2\\%\\) YoY in July \\((+9\\%\\) in June); for Air India, domestic pax fell \\(12\\%\\) YoY (vs \\(- 4\\%\\) in May/June). IndiGo mkt shr matched previous record high at \\(65.2\\%\\) , while Air India was lower 90bps MoM at \\(26.2\\%\\) . Akasa's share inched up to \\(5.5\\%\\) .",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "39b473dc5b7be29c",
+      "text": "Occupancies: In July, IndiGo Occ was lower at \\(84.1\\%\\) vs \\(85.4\\%\\) MoM (84.6% YoY). For Air India (AI), Occ fell to \\(78.6\\%\\) vs \\(81.5\\%\\) MoM. Occ in July, especially for AI remained affected by near- term weakened consumer travel sentiment around crash incident in June. We note, Occ have seen some recovery in month of Aug.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0a399963e212844f",
+      "text": "IndiGo: (1) IndiGo will be included in Nifty- 50 from 30- Sep. (2) InterGlobe Enterprises (promoter of IndiGo) and Canadian flight simulation firm CAE are establishing a pilot training center in Mumbai. (3) An IndiGo Airbus A321 experienced a tail strike upon landing in Mumbai amidst heavy rainfall (seventh tail strike in 2 years).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "91aae22835e23e93",
+      "text": "Air India: AI's long- haul fleet refurbishment (impacting the Boeing 787/777 fleets) is now expected to conclude by the end of 2028, a year later than initially planned due to persistent supply chain disruptions and seat manufacturer delays. AI has begun the phased restoration of Int'l ops from 1- Aug and has targeted full resumption for 1- Oct. In other news, AI and IOCL have partnered to promote sustainable aviation fuel (SAF).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d95d2046221bd20a",
+      "text": "SpiceJet: Co has finalised a lease agreement for 5 new Boeing 737 aircraft (to join fleet by Oct- 25), targeting to strengthen its fleet ahead of the upcoming winter schedule. Last month, Co announced induction of 5 Boeing 737s on damp lease from another operator, taking the total new fleet adds to 10.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "72a28c4b666768f7",
+      "text": "Akasa Air: Co has finalized strategic investment deals (announced in Feb- 26) welcoming Premji Invest, 360 ONE Asset, and Dr. Ranjan Pai's investment office as new investors, with the Jhunjhunwala family further adding to its investment in the Co, per ET report.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2bb6b4717c8622f0",
+      "text": "Airports: (1) The central Govt has given the go- ahead for a new airport (2mn pax capacity) in Kota- Bundi, (Rajasthan) an Industrial and Educational Hub. (2) GMR Airports will develop a cargo city spanning 50.5 acres at Delhi Airport. GMR Airports secured the project through a revenue sharing model with DIAL, with an initial term up to 2036, extendable by 30 years, and a minimum Monthly guarantee of Rs4.2bn.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3b9cdf2e5f7c8f7c",
+      "text": "Other News flow: (1) Indian govt has said India and China will resume direct flights again. AI earlier flew Delhi - Shanghai non- stop before 2020; IndiGo too had flights to Guangzhou and Chengdu from Kolkata/Delhi. (2) Per ET, a parliamentary panel will conduct an extensive review of aviation PSUs, including the AAI. The examination will encompass financial stability, governance, skills, manpower, and technical readiness. (3) India has urged the International Civil Aviation Organization (ICAO) to revise global slot allocation rules, citing discriminatory practices at congested European airports that hinder developing countries' airlines from fair access.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4740c50a81ec239e",
+      "text": "Aircraft Deliveries: In July, Indigo received 3 aircraft from Airbus (vs 1 MoM), cumulating to 19 in CY25TD (lagging 1 aircraft/week, this rate picked up in the 2HCY last year and was slow in 1H). AI received 0 aircraft from Airbus and 1 from Boeing (same as June), cumulating to 14 in CY25TD. Akasa received 0 in July (2 in June) and has received 4 till date CY25.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "db94f3ca2880879b",
+      "text": "Exhibit 1 - Airlines pax traffic (monthly)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f9f28cd3d62f1ef2",
+      "text": "Exhibit 2 - Monthly (Domestic) Market share",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "125ffed28d1d3148",
+      "text": "%IndiGoAI GroupSpiceJetAkasaOthersJul-2462.028.83.14.71.4Aug-2462.429.42.34.51.4Sep-2463.029.32.04.41.3Oct-2463.328.52.54.51.3Nov-2463.627.33.14.71.2Dec-2464.426.43.34.61.3Jan-2565.225.73.24.71.2Feb-2563.727.33.24.71.1Mar-2564.026.73.35.01.1Apr-2564.127.22.65.01.1May-2564.626.52.45.31.2Jun-2564.527.11.95.31.1Jul-2565.226.22.05.51.1",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "54898fb3f422f2a5",
+      "text": "Exhibit 3 - Occupancy for IndiGo",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "025f4b033091a96b",
+      "text": "Exhibit 4 - Deliveries (#) to Indian carriers",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "95623614c8a6396a",
+      "text": "Indigo (Airbus)Air India (Airbus)Akasa (Boeing)TotalJul-246230Aug-247040Sep-249021Oct-244001Nov-247007Dec-2490110CY245814274Jan-253011Feb-252040Mar-253010Apr-256041May-251020Jun-251012Jul-253010",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "54a6995c564c6b8f",
+      "text": "Source: Company Data | Narrow-body Fleet",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4b2ae6ecb1a73114",
+      "text": "Exhibit 5 - ATF px in India higher QoQ in 2QTD",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "522186441fecb56c",
+      "text": "ATF Prices: Avg ATF prices are higher \\(3\\%\\) MoM at Rs92k/KL for Aug- 25, following \\(8\\%\\) QoQ dip seen in 1Q. 2QTD pricing is higher \\(7\\%\\) QoQ. Our FY26/FY27 ests currently factor in Rs89k/ KL of ATF prices.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "75b2fcd0b9090f83",
+      "text": "We rate IndiGo a Buy with a price target of Rs6,925 (based on 11x Jun- 27 EV/EBITDA). Key risks include (1) rise in crude/ATF price; (2) INR depreciation; (3) normalisation of supply chain for Boeing (supplier for key competitor); (4) decrease in Railway Passenger Fares.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "d60fadf5aead8641",
+      "text": "(Article 3(1)e and Article 7 of MAR) Recommendation Published Recommendation Distributed",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "371c2e2bbb27cb6c",
+      "text": "August 28, 2025 2:25 A.M. August 28, 2025 2:25 A.M.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0093430c74dbe99f",
+      "text": "Within the past 12 months, Jefferies Financial Group Inc., its affiliates or subsidiaries has received compensation from investment banking services from Indian Oil Corporation Limited.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "50d0c14bd0d70426",
+      "text": "Within the past twelve months, Indian Oil Corporation Limited has been a client of Jefferies Financial Group Inc., its affiliates or subsidiaries and investment banking services are being or have been provided.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c443b8b84b0ccb31",
+      "text": "Buy - Describes securities that we expect to provide a total return (price appreciation plus yield) of \\(15\\%\\) or more within a 12- month period. Hold - Describes securities that we expect to provide a total return (price appreciation plus yield) of plus \\(15\\%\\) or minus \\(10\\%\\) within a 12- month period. Underperform - Describes securities that we expect to provide a total return (price appreciation plus yield) of minus \\(10\\%\\) or less within a 12- month period. The expected total return (price appreciation plus yield) for Buy rated securities with an average security price consistently below \\(10\\) is \\(20\\%\\) or more within a 12- month period as these companies are typically more volatile than the overall stock market. For Hold rated securities with an average security price consistently below \\(10\\) , the expected total return (price appreciation plus yield) is plus or minus \\(20\\%\\) within a 12- month period. For Underperform rated securities with an average security price consistently below \\(10\\) , the expected total return (price appreciation plus yield) is minus \\(20\\%\\) or less within a 12- month period.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0fe0ba9c74214774",
+      "text": "NR - The investment rating and price target have been temporarily suspended. Such suspensions are in compliance with applicable regulations and/or Jefferies policies.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "572e7c93a3bf8829",
+      "text": "CS - Coverage Suspended. Jefferies has suspended coverage of this company.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9ebdfbf39d5d1830",
+      "text": "NC - Not covered. Jefferies does not cover this company.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "84229a2764b12324",
+      "text": "Restricted - Describes issuers where, in conjunction with Jefferies engagement in certain transactions, company policy or applicable securities regulations prohibit certain types of communications, including investment recommendations.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8486d91f76b3fd15",
+      "text": "Monitor - Describes securities whose company fundamentals and financials are being monitored, and for which no financial projections or opinions on the investment merits of the company are provided.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1f7a9c475ece63f3",
+      "text": "Jefferies methodology for assigning ratings may include the following: market capitalization, maturity, growth/value, volatility and expected total return over the next 12 months. The price targets are based on several methodologies, which may include, but are not restricted to, analyses of market risk, growth rate, revenue stream, discounted cash flow (DCF), EBITDA, EPS, cash flow (CF), free cash flow (FCF), EV/EBITDA, P/E, PE/growth, P/CF, P/FCF, premium (discount)/average group EV/EBITDA, premium (discount)/average group P/E, sum of the parts, net asset value, dividend returns, and return on equity (ROE) over the next 12 months.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "7a18c41ca2d15ba5",
+      "text": "Jefferies Franchise PicksJefferies Franchise Picks include stock selections from among the best stock ideas from our equity analysts over a 12 month period. Stock selection is based on fundamental analysis and may take into account other factors such as analyst conviction, differentiated analysis, a favorable risk/reward ratio and investment themes that Jefferies analysts are recommending. Jefferies Franchise Picks will include only Buy rated stocks and the number can vary depending on analyst recommendations for inclusion. Stocks will be added as new opportunities arise and removed when the reason for inclusion changes, the stock has met its desired return, if it is no longer rated Buy and/or if it triggers a stop loss. Stocks having 120 day volatility in the bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent a recommended portfolio of stocks and is not sector based, but we may note where we believe a Pick falls within an investment style such as growth or value.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4dc78636eabc77b9",
+      "text": "- Indian Oil Corporation Limited (IOCL IN: INR139.00, BUY)- InterGlobe Aviation Limited (INDIGO IN: INR6,044.75, BUY)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "53f124bad58aad69",
+      "text": "Rating and Price Target History for: Indian Oil Corporation Limited (IOCL IN) as of 08-26-2025",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "8c76eb4b14e9f15e",
+      "text": "Notes: Each box in the Rating and Price Target History chart above represents actions over the past three years in which an analyst initiated on a company, made a change to a rating or price target of a company or discontinued coverage of a company. Legend:",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f96e21941920cb86",
+      "text": "I: Initiating Coverage \nD: Dropped Coverage \nB: Buy \nH: Hold \nUP: Underperform",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "0d428f3ccd445385",
+      "text": "Distribution of Ratings",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7fb5fae63a6c6dc0",
+      "text": "CountPercentCountPercentCountPercentBUY211260.69%36717.38%1175.54%HOLD121134.80%1058.67%221.82%UNDERPERFORM1574.51%31.91%31.91%",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b34e9678dadfa803",
+      "text": "Jefries does busines and seeks to do busines with companies covered in its research reports, and expects to receive or intends to seek compensation for investment banking services among other activities from such companies. As a result, investors should be aware that Jefferies may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. Jefferies Equity Research refers to research reports produced by analysts employed by one of the following Jefferies Financial Group Inc. (Jefferies) companies:",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5796f60fb6e2d60d",
+      "text": "United States: Jefferies LLC which is an SEC registered broker- dealer and a member of FINRA (and distributed by Jefferies Research Services, LLC, an SEC registered Investment Adviser, to clients paying separately for such research).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8e84e209e6726dd2",
+      "text": "Canada: Jefferies Securities Inc., which is an investment dealer registered in each of the thirteen Canadian jurisdictions and a dealer member of the Canadian Investment Regulatory Organization, including research reports produced jointly by Jefferies Securities Inc. and another Jefferies entity (and distributed by Jefferies Securities Inc.).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "883303f344384416",
+      "text": "Where Jefferies Securities Inc. distributes research reports produced by Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch or Jefferies India Private Limited, you are advised that each of Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch and Jefferies India Private Limited operates as a dealer in your jurisdiction under an exemption from the dealer registration requirements contained in National Instrument 31- 103 Registration Requirements, Exemptions and Ongoing Registrant Obligations and, as such, each of Jefferies LLC, Jefferies International Limited, Jefferies (Japan) Limited, Tokyo Branch and Jefferies India Private Limited is not required to be and is not a registered dealer or adviser in your jurisdiction. You are advised that where Jefferies LLC or Jefferies International Limited prepared this research report, it was not prepared in accordance with Canadian disclosure requirements relating to research reports in Canada.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "90218a75f45f92de",
+      "text": "United Kingdom: Jefferies International Limited, which is authorized and regulated by the Financial Conduct Authority; registered in England and Wales No. 1978621; registered office: 100 Bishopsgate, London EC2N 4JL; telephone +44 (0)20 7029 8000; facsimile +44 (0)20 7029 8010.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4062a2ffa453ffad",
+      "text": "Japan: Jefferies (Japan) Limited, Tokyo Branch, which is a securities company registered by the Financial Services Agency of Japan and is a member of the Japan Securities Dealers Association; located at Tokyo Midtown Hibiya 30F Hibiya Mitsui Tower, 1- 1- 2 Yurakucho, Chiyoda- ku, Tokyo 100- 0006; telephone +813 5251 6100; facsimile +813 5251 6101.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4f39357d9811544a",
+      "text": "Australia: Jefferies (Australia) Pty Limited (ACN 623 059 898), which holds an Australian financial services license (AFSL 504712) and is located at Level 20, 60 Martin Place, Sydney NSW 2000; telephone +61 2 9364 2800.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "849657c01147d42c",
+      "text": "Dubai: Jefferies International Limited, Dubai branch, which is licensed by the Dubai Financial Services Authority (DFSA Reference Number F007325); registered office Unit L31- 06, L31- 07, Level 31, ICD Brookfield Pace, DIFC, PO Box 121208, Dubai, UAE.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f21450c28b308c37",
+      "text": "This report was prepared by personnel who are associated with Jefferies (Jefferies Securities Inc., Jefferies International Limited, Jefferies GmbH, Jefferies Hong Kong Limited, Jefferies Singapore Limited, Jefferies (Japan) Limited, Tokyo Branch, Jefferies India Private Limited), and Jefferies (Australia) Pty Ltd; or by personnel who are associated with both Jefferies LLC and Jefferies Research Services LLC (\"JRS\"). Jefferies LLC is a US registered broker- dealer and is affiliated with JRS, which is a US registered investment adviser. JRS does not create tailored or personalized research and all research provided by JRS is impersonal. If you are paying separately for this research, it is being provided to you by JRS. Otherwise, it is being provided by Jefferies LLC. Jefferies LLC, JRS, and their affiliates are collectively referred to below as \"Jefferies\". Jefferies may seek to do business with companies covered in this research report. As a result, investors should be aware that Jefferies may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only one of many factors in making their investment decisions. Specific conflict of interest and other disclosures that are required by FINRA, the Canadian Investment Regulatory Organization and other rules are set forth in this disclosure section.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5b937986669e3b89",
+      "text": "If you are receiving this report from a non- US Jefferies entity, please note the following: Unless prohibited by the provisions of Regulation S of the U.S. Securities Act of 1933, as amended, this material is distributed in the United States by Jefferies LLC, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6 under the US Securities Exchange Act of 1934, as amended. Transactions by or on behalf of any US person may only be effected through Jefferies LLC. In the United Kingdom and European Economic Area this report is issued and/or approved for distribution by Jefferies International Limited (\"JIL\") and/or Jefferies GmbH and is intended for use only by persons who have, or have been assessed as having, suitable professional experience and expertise, or by persons to whom it can be otherwise lawfully distributed. Jefferies LLC, JIL, Jefferies GmbH and their affiliates, may make a market or provide liquidity in the financial instruments referred to in this report; and where they do make a market, such activity is disclosed specifically in this report under \"company specific disclosures\".",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "987410fe652df343",
+      "text": "For Canadian investors, this material is intended for use only by professional or institutional investors. None of the investments or investment services mentioned or described herein is available to other persons or to anyone in Canada who is not a \"permitted client\" as defined by National Instrument 31- 103 Registration Requirements, Exemptions and Ongoing Registrant Obligations, as applicable. This research report is a general discussion of the merits and",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "50cdc624f2b1c4b1",
+      "text": "whether an investment decision made by the recipient based on this report is consistent with a recipient's investment objectives, portfolio holdings, strategy, financial situation, or needs.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "81a8df2024c48fc0",
+      "text": "By providing this report, neither JRS nor any other Jefferies entity accepts any authority, discretion, or control over the management of the recipient's assets. Any action taken by the recipient of this report, based on the information in the report, is at the recipient's sole judgment and risk. The recipient must perform his or her own independent review of any prospective investment. If the recipient uses the services of Jefferies LLC (or other affiliated broker- dealers), in connection with a purchase or sale of a security that is a subject of these materials, such broker- dealer may act as principal for its own accounts or as agent for another person. Only JRS is registered with the SEC as an investment adviser; and therefore neither Jefferies LLC nor any other Jefferies affiliate has any fiduciary duty in connection with distribution of these reports.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1adbead7418a2d32",
+      "text": "The price and value of the investments referred to herein and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9b8512756ed14216",
+      "text": "This report may contain forward looking statements that may be affected by inaccurate assumptions or by known or unknown risks, uncertainties, and other important factors. As a result, the actual results, events, performance or achievements of the financial product may be materially different from those expressed or implied in such statements.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "67a16e67775bdb08",
+      "text": "This report has been prepared independently of any issuer of securities mentioned herein and not as agent of any issuer of securities. No Equity Research personnel have authority whatsoever to make any representations or warranty on behalf of the issuer(s). Any comments or statements made herein are those of the Jefferies entity producing this report and may differ from the views of other Jefferies entities.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c76eff8f2f9bf092",
+      "text": "This report may contain information obtained from third parties, including ratings from credit ratings agencies such as Standard & Poor's, and information derived from third- party or proprietary generative artificial intelligence (Gen AI) models. Jefferies does not guarantee the accuracy, completeness, timeliness or availability of this information, and is not responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use of such content. Neither Jefferies nor any third- party content providers, including providers of Gen AI models, give any express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Neither Jefferies nor any third- party content provider shall be liable for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs,",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9357451d7b72cc36",
+      "text": "expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase, hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Reproduction and distribution of third party content in any form is prohibited except with the prior written permission of the related third party.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "2a82b3a4bdf104a4",
+      "text": "Jefferies research reports are disseminated and available electronically, and, in some cases, also in printed form. Electronic research is simultaneously made available to all clients. This report or any portion hereof may not be copied, reprinted, sold, or redistributed or disclosed by the recipient or any third party, by content scraping or extraction, automated processing, or any other form or means, without the prior written consent of Jefferies. Any unauthorized use is prohibited. Neither Jefferies nor any of its respective directors, officers or employees, is responsible for guaranteeing the financial success of any investment, or accepts any liability whatsoever for any direct, indirect or consequential damages or losses arising from any use of this report or its contents. Nothing herein shall be construed to waive any liability Jefferies has under applicable U.S. federal or state securities laws.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0818a1d889935d94",
+      "text": "For Important Disclosure information relating to JRS, please see https://adviserinfo.sec.gov/IAPD/Content/Common/crd_iapd_Brochure.aspx? BRCHR_VRSN_ID=483878 and https://adviserinfo.sec.gov/Firm/292142 or visit our website at https://javatar.bluematrix.com/sellside/Disclosures.action, or www.jefferies.com, or call 1.888. JEFFERIES.",
+      "page": 7,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "fe806f0bab1eea04",
+      "name": "AI Group",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1d96baf00ff45751",
+      "name": "Air India",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e6fed743b1a7cb0f",
+      "name": "Aircraft Deliveries",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ead029a2ed080e42",
+      "name": "Akasa Air",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7041a09f410895d7",
+      "name": "An IndiGo",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "57c597bafabf5474",
+      "name": "Avg ATF",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0e806e2648863094",
+      "name": "Aviation Organization",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7860a2554c61a53f",
+      "name": "Canadian Investment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "12ec3f1733cfeaa5",
+      "name": "Company Data",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0c759b57d9ad2ce6",
+      "name": "Company Specific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bfcb86e7916f36d3",
+      "name": "Corporation Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4b9be408e155a05b",
+      "name": "Coverage Suspended",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e9cd18ef1469e32c",
+      "name": "DFSA Reference",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6ba4b0a762d135f4",
+      "name": "Dealers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "062e3351cba4003b",
+      "name": "Delhi Airport",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e736f0c0f1f7561e",
+      "name": "Disclosures\n\nJefries",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8a16a5df061f6437",
+      "name": "Disclosures\n\nWithin",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a87247c304f6889b",
+      "name": "Dropped Coverage",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8ed3fafbb18d7293",
+      "name": "Dubai Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dfbd4f886707fc4e",
+      "name": "Educational Hub",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "f9cf2f0acd4aef1d",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": "Airlines pax traffic (monthly)",
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "June",
+              "July",
+              "Aug",
+              "Sept",
+              "Oct",
+              "Nov",
+              "Dec"
+            ]
+          },
+          "y": {
+            "unit": "mn",
+            "range": {
+              "min": 4.0,
+              "max": 16.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2019",
+            "unit": "mn",
+            "values": [
+              12.5,
+              12.3,
+              12.8,
+              12.5,
+              12.0,
+              11.8,
+              11.5,
+              11.8,
+              11.6,
+              12.0,
+              12.5,
+              12.8
+            ]
+          },
+          {
+            "name": "2022",
+            "unit": "mn",
+            "values": [
+              6.5,
+              7.8,
+              10.5,
+              10.8,
+              11.5,
+              10.5,
+              9.8,
+              10.2,
+              10.5,
+              11.0,
+              11.8,
+              12.5
+            ]
+          },
+          {
+            "name": "2023",
+            "unit": "mn",
+            "values": [
+              12.8,
+              12.5,
+              13.2,
+              13.0,
+              13.5,
+              13.0,
+              12.5,
+              12.8,
+              13.0,
+              13.5,
+              13.8,
+              14.0
+            ]
+          },
+          {
+            "name": "2024",
+            "unit": "mn",
+            "values": [
+              13.2,
+              12.8,
+              13.5,
+              13.3,
+              13.8,
+              13.5,
+              13.0,
+              13.0,
+              13.0,
+              13.5,
+              14.0,
+              14.8
+            ]
+          },
+          {
+            "name": "2025",
+            "unit": "mn",
+            "values": [
+              14.6,
+              14.0,
+              14.5,
+              14.3,
+              14.1,
+              13.6,
+              12.6,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          }
+        ],
+        "figure_id": "fade3c5107777790",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan",
+              "Feb",
+              "Mar",
+              "Apr",
+              "May",
+              "Jun",
+              "Jul",
+              "Aug",
+              "Sep",
+              "Oct",
+              "Nov",
+              "Dec"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 76,
+              "max": 94
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2018",
+            "unit": null,
+            "values": [
+              89,
+              92,
+              89,
+              92,
+              91,
+              88,
+              88,
+              84,
+              83,
+              83,
+              85,
+              89
+            ]
+          },
+          {
+            "name": "2019",
+            "unit": null,
+            "values": [
+              86,
+              88,
+              86,
+              88,
+              90,
+              90,
+              86,
+              83,
+              86,
+              85,
+              91,
+              90
+            ]
+          },
+          {
+            "name": "2024",
+            "unit": null,
+            "values": [
+              88,
+              88,
+              85,
+              87,
+              89,
+              87,
+              84,
+              82,
+              82,
+              82,
+              90,
+              90
+            ]
+          },
+          {
+            "name": "2025",
+            "unit": null,
+            "values": [
+              90,
+              92,
+              85,
+              87,
+              85,
+              85,
+              85,
+              84,
+              83,
+              82,
+              84,
+              86
+            ]
+          }
+        ],
+        "figure_id": "b3074df645fc7f04",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2QFY21",
+              "3QFY21",
+              "4QFY21",
+              "1QFY22",
+              "2QFY22",
+              "3QFY22",
+              "4QFY22",
+              "1QFY23",
+              "2QFY23",
+              "3QFY23",
+              "4QFY23",
+              "1QFY24",
+              "2QFY24",
+              "3QFY24",
+              "4QFY24",
+              "1QFY25",
+              "2QFY25",
+              "3QFY25",
+              "4QFY25",
+              "1QFY26",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 120
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              44,
+              45,
+              55,
+              62,
+              69,
+              79,
+              90,
+              118,
+              128,
+              119,
+              112,
+              96,
+              102,
+              113,
+              103,
+              98,
+              95,
+              87,
+              84,
+              96,
+              98,
+              94,
+              88,
+              91,
+              92,
+              90,
+              95,
+              95,
+              89,
+              86,
+              83,
+              90,
+              92
+            ]
+          }
+        ],
+        "figure_id": "1e220e192a43abaf",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": "Company Valuation/Risks",
+        "page": 3,
+        "axes": {},
+        "series": [],
+        "figure_id": "83e5d30005b8bdf6",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": "Rating and Price Target History for: InterGlobe Aviation Limited (INDIGO IN) as of 08-26-2025",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Oct 22",
+              "Jan 23",
+              "Apr 23",
+              "Jul 23",
+              "Oct 23",
+              "Jan 24",
+              "Apr 24",
+              "Jul 24",
+              "Oct 24",
+              "Jan 25",
+              "Apr 25",
+              "Jul 25"
+            ]
+          },
+          "y": {
+            "unit": "",
+            "range": {
+              "min": 1000,
+              "max": 7000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Price",
+            "unit": "INR",
+            "values": [
+              2000,
+              2000,
+              2200,
+              2300,
+              2500,
+              2800,
+              3500,
+              4500,
+              4800,
+              5500,
+              5800,
+              6000
+            ]
+          }
+        ],
+        "figure_id": "5d9178e805234eef",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": "Rating and Price Target History for: Indian Oil Corporation Limited (IOCL IN) as of 08-26-2025",
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Oct 22",
+              "Jan 23",
+              "Apr 23",
+              "Jul 23",
+              "Oct 23",
+              "Jan 24",
+              "Apr 24",
+              "Jul 24",
+              "Oct 24",
+              "Jan 25",
+              "Apr 25",
+              "Jul 25"
+            ]
+          },
+          "y": {
+            "unit": "INR",
+            "range": {
+              "min": 60,
+              "max": 200
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Price",
+            "unit": "INR",
+            "values": [
+              70,
+              75,
+              85,
+              95,
+              105,
+              130,
+              180,
+              160,
+              140,
+              120,
+              140,
+              150
+            ]
+          }
+        ],
+        "figure_id": "543ffd0415aabbf1",
+        "provenance": {
+          "page": 5
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "abedec8941282912",
+        "value": 0.846,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ched up to \\(5.5\\%\\) . Occupancies: In July, IndiGo Occ was lower at \\(84.1\\%\\) vs \\(85.4\\%\\) MoM (84.6% YoY). For Air India (AI), Occ fell to \\(78.6\\%\\) vs \\(81.5\\%\\) MoM. Occ in July, especially for",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "6ed83cd188309a43",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "loss. Stocks having 120 day volatility in the bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "1bfd2870fd627565",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "bottom quartile of S&P stocks will continue to have a 15% stop loss, and the remainder will have a 20% stop. Franchise Picks are not intended to represent a recommended portfolio of stocks and is not ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a8c2d8473f572061",
+        "value": 0.6069,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>Count</td><td>Percent</td><td>Count</td><td>Percent</td></tr><tr><td>BUY</td><td>2112</td><td>60.69%</td><td>367</td><td>17.38%</td><td>117</td><td>5.54%</td></tr><tr><td>HOLD</td><td>1211</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5596e194d8de62ef",
+        "value": 0.17379999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Count</td><td>Percent</td></tr><tr><td>BUY</td><td>2112</td><td>60.69%</td><td>367</td><td>17.38%</td><td>117</td><td>5.54%</td></tr><tr><td>HOLD</td><td>1211</td><td>34.80%</td><td>105</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e08d981c31de73d2",
+        "value": 0.0554,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ent</td></tr><tr><td>BUY</td><td>2112</td><td>60.69%</td><td>367</td><td>17.38%</td><td>117</td><td>5.54%</td></tr><tr><td>HOLD</td><td>1211</td><td>34.80%</td><td>105</td><td>8.67%</td><td>22</td><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5424d0689da6528c",
+        "value": 0.348,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "69%</td><td>367</td><td>17.38%</td><td>117</td><td>5.54%</td></tr><tr><td>HOLD</td><td>1211</td><td>34.80%</td><td>105</td><td>8.67%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>157<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3691b3cc86b797b7",
+        "value": 0.0867,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "38%</td><td>117</td><td>5.54%</td></tr><tr><td>HOLD</td><td>1211</td><td>34.80%</td><td>105</td><td>8.67%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>157</td><td>4.51%</td><td>3</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "fe83713f3f20a50c",
+        "value": 0.0182,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".54%</td></tr><tr><td>HOLD</td><td>1211</td><td>34.80%</td><td>105</td><td>8.67%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>157</td><td>4.51%</td><td>3</td><td>1.91%</td><td>3</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "cb122146849fde29",
+        "value": 0.0451,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>105</td><td>8.67%</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>157</td><td>4.51%</td><td>3</td><td>1.91%</td><td>3</td><td>1.91%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ca950724fcb274ab",
+        "value": 0.0191,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>22</td><td>1.82%</td></tr><tr><td>UNDERPERFORM</td><td>157</td><td>4.51%</td><td>3</td><td>1.91%</td><td>3</td><td>1.91%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5ee8dfa5c2f93ed8",
+        "value": 0.0191,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>UNDERPERFORM</td><td>157</td><td>4.51%</td><td>3</td><td>1.91%</td><td>3</td><td>1.91%</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 7,
+      "tables_count": 0,
+      "numerical_data_count": 12,
+      "passages_count": 57,
+      "entities_count": 20
+    }
+  }
+}

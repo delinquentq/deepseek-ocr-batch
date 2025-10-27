@@ -1,0 +1,890 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "913548f97b5ef8fe9cb9243b95f1e0d2",
+    "title": "J.P.Morgan",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/JPM/European Client Survey - Reduced OW periphery exposureEuropean Client Survey - Reduced OW periphery exposure_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:05:56.475451",
+      "extracted_at": "2025-10-26T12:05:56.475462"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 8,
+        "successful_pages": 8,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/JPM",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 3,
+          "reduction_ratio": 0.06736804351724546
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/JPM"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "a07f47268bfe83db",
+      "text": "We present the results of our survey conducted on 27 Aug among European real money investors.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b9fe4fceacca6250",
+      "text": "- Highlight: Single and multi-currency investors decreased their long duration exposure in EGBs since our last survey. Investors: a) decreased their OW exposure in periphery, b) increased their long duration exposure in gilts, and c) increased their long duration exposure in USD (European multi-currency investors).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4e3ce76ada8e23f1",
+      "text": "- Multi-currency European real money investors decreased their long duration exposure in EGBs since our last survey (from+0.20 to +0.16 years). This level remains broadly in line with the average observed since the beginning of 2024 (+0.18 years since 10 Jan 2024); Figure 1.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "323c86a13354c0d8",
+      "text": "- Single-currency European real money investors also decreased their long duration exposure in EGBs since our last survey (from+0.31 to +0.28 years). This level is in line with the average observed since early 2025 (+0.29 years since 08 Jan 2025).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9f4f6e0550b15446",
+      "text": "- Investors decreased their OW exposure in periphery since our last survey (from 25% to 18% net long; Figure 2). This level is broadly in line with the average observed since the beginning of 2024 (average of 19% net long since 10 Jan 2024).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d9d0ab081af21403",
+      "text": "- European multi-currency investors increased their exposure in USD unchanged (from+0.05 to +0.08 years). US domestic investors also increased their long duration exposure over the past two weeks (from 17% to 19% net long, see US Treasury Client Survey, 25 Aug).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6b8b49f33756bb9f",
+      "text": "Figure 1: Single and multi-currency investors decreased their long duration exposure in EGBs since our last survey",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "21d842e7812c2875",
+      "text": "Figure 2: European real money investors decreased their OW periphery exposure since our last survey (from 25% to 18% net long)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "bc3c8311b99e787e",
+      "text": "Figure 3: UK single-currency investors in GBP increased their long duration exposure since our last",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "5e6dd9e0313f3d4f",
+      "text": "Duration deviation from the benchmark in years",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "aac7fd2de7a92e5d",
+      "text": "Figure 4: European duration survey results",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "653325f615cea743",
+      "text": "% long, short and neutral. Current readings in bold; changes since last survey in italics",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8b4d6de79ccd0168",
+      "text": "Signif. longSmall longNeutralSmall shortSignif. shortWtd mean (years)Multi-currency investorsEurope6051(7)300137000.16(0.04)US0033860(8)70000.080.03Japan007061032000-0.07-Global aggregate00570531000000.28-Single-currency investorsEuro area0056(6)44600000.28(0.03)UK0060030010100(10)0.250.08Peripherals vs. coreNet Long (%)Average0(1)25(4)682740(1)18(7)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e41a4f8c325a8c7d",
+      "text": "\"Multi-currency\" refers to investors with multi-currency portfolios;",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "bb676c3190b47fa7",
+      "text": "\"Single-currency\" to single-currency funds.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "eaa5e1cb3a1677ef",
+      "text": "For multi-currency: small = 0 to 0.5 year and significant = 0.5 to 1 year deviation from benchmark.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "eb57a44362ebd915",
+      "text": "For single currency: small = 0 to 0.75 year and significant = 0.75 to 1.5 year deviation from benchmark.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9c6c2f70e7a3f548",
+      "text": "For this survey, responses for about 71% of our survey pool of 55 collected.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "36f07d9d4af144ab",
+      "text": "Analyst Certification: The Research Analyst(s) denoted by an \"AC\" on the cover of this report certifies (or, where multiple Research Analysts are primarily responsible for this report, the Research Analyst denoted by an \"AC\" on the cover or within the document individually certifies, with respect to each security or issuer that the Research Analyst covers in this research) that: (1) all of the views expressed in this report accurately reflect the Research Analyst's personal views about any and all of the subject securities or issuers; and (2) no part of any of the Research Analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the Research Analyst(s) in this report. For all Korea-based Research Analysts listed on the front cover, if applicable, they also certify, as per KOFIA requirements, that the Research Analyst's analysis was made in good faith and that the views reflect the Research Analyst's own opinion, without undue influence or intervention.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "19607f7e2c468dda",
+      "text": "All authors named within this report are Research Analysts who produce independent research unless otherwise specified. In Europe, Sector Specialists (Sales and Trading) may be shown on this report as contacts but are not authors of the report or part of the Research Department.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3c7d2ef3c9bfcfd6",
+      "text": "A history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & Commentary page of http://www.jpmorganmarkets.com where you can also search by analyst name, sector or financial instrument.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2739e329bdf3cedb",
+      "text": "Analysts' Compensation: The research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "6dcc3d3194d884e2",
+      "text": "J.P. Morgan is a marketing name for investment banking businesses of JPMorgan Chase & Co. and its subsidiaries and affiliates worldwide.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1fd2f1556c078abe",
+      "text": "UK MIFID FICC research unbundling exemption: UK clients should refer to UK MIFID Research Unbundling exemption for details of J.P. Morgan's implementation of the FICC research exemption and guidance on relevant FICC research categorisation.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "9cf197255641f268",
+      "text": "Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2e93907037832494",
+      "text": "J.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or administered by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this report is intended to be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such Sanctioned Securities. Clients should be aware of their own legal and compliance obligations when making investment decisions.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "13f44bb90ae6213f",
+      "text": "Any digital or crypto assets discussed in this research report are subject to a rapidly changing regulatory landscape. For relevant regulatory advisories on crypto assets, including bitcoin and ether, please see https://www.jpmorgan.com/disclosures/cryptoasset- disclosure.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3a3394d14441ce8a",
+      "text": "The author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold themselves out as being able to do so.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5af7c028dec0ae32",
+      "text": "Exchange- Traded Funds (ETFs): J.P. Morgan Securities LLC (\"JPMS\") acts as authorized participant for substantially all U.S.- listed ETFs. To the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction- based compensation in connection with the distribution of those ETF shares and may earn fees for performing other trade- related services, such as securities lending to short sellers of the ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or dealer to the ETFs. In addition, affiliates of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, index calculation and/or maintenance and other services.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "7fd5628ca948d8ef",
+      "text": "Options and Futures related research: If the information contained herein regards options- or futures- related research, such information is available only to persons who have received the proper options or futures risk disclosure documents. Please contact your J.P. Morgan Representative or visit https://www.theocc.com/components/docs/riskstoc.pdf for a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options or https://www.finra.org/sites/default/files/2020- 08/Security_Futures_Risk_Disclosure_Statement_2020.pdf for a copy of the Security Futures Risk Disclosure Statement.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e68a8482bc3d9a6a",
+      "text": "Changes to Interbank Offered Rates (IBORs) and other benchmark rates: Certain interest rate benchmarks are, or may in the future become, subject to ongoing international, national and other regulatory guidance, reform and proposals for reform. For more information, please consult: https://www.jpmorgan.com/global/disclosures/interbank_offered_rates",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "fea62f54518edcd1",
+      "text": "Private Bank Clients: Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its subsidiaries (\"J.P. Morgan Private Bank\"), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, including, but not limited to, the J.P. Morgan Corporate and Investment Bank and its Global Research division.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "8dab4aa1c338b3f5",
+      "text": "Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of this research. Where more than one legal entity is listed under an analyst's name, the first legal entity is responsible for the production unless stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated below in the legal entity disclosures, this material has been distributed by the legal entity responsible for production, or where more than one legal entity is listed under the analyst's name, the first legal entity will be responsible for distribution. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1a29828124f130a4",
+      "text": "Legal Entities Disclosures and Country- /Region- Specific Disclosures:",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e67635bdc0d1d568",
+      "text": "Argentina: JPMorgan Chase Bank N.A Sucursal Buenos Aires is regulated by Banco Central de la Republica Argentina (\"BCRA\"- Central Bank of Argentina) and Comision Nacional de Valores (\"CNV\"- Argentinian Securities Commission - ALYC y AN Integral N°51).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4bb9a4b8c948047b",
+      "text": "Australia: J.P. Morgan Securities Australia Limited (\"JPMsAL\") (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the Australian Securities and Investments Commission and is a Market Participant of ASX Limited, a Clearing and Settlement Participant of ASX Clear Pty Limited and a Clearing Participant of ASX Clear (Futures) Pty Limited. This material is issued and distributed in Australia by or on behalf of JPMsAL only to \"wholesale clients\" (as defined in section 761G of the Corporations Act 2001). A list of all financial products covered can be found by visiting https://www.jpmn.com/research/disclosures. J.P. Morgan seeks to cover companies of relevance to the domestic and international investor base across all Global Industry Classification Standard (GICS) sectors, as well as across a range of market capitalisation sizes. If applicable, in the course of conducting public side due diligence on the subject company(ies), the Research Analyst team may at times perform such diligence through corporate engagements such as site visits, discussions with company representatives, management presentations, etc. Research issued by JPMsAL has been prepared in accordance with J.P. Morgan Australia's Research Independence Policy which can be found at the following link: J.P. Morgan Australia - Research Independence Policy.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "51c991cdba2d0b5f",
+      "text": "Canada: J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Canadian Investment Regulatory Organization and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed in Canada by or on behalf of J.P. Morgan Securities Canada Inc.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e01d3f76a7fb1136",
+      "text": "Chile: Inversiones J.P. Morgan Limitada is an unregulated entity incorporated in Chile.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "567da1b7480b93d3",
+      "text": "China: J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy business.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "41d43418d6083452",
+      "text": "Colombia: Banco J.P. Morgan Colombia S.A. is supervised by the Superintendencia Financiera de Colombia (SFC).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "78f2ea247eb9a653",
+      "text": "Dubai International Financial Centre (DIFC): JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO Box 506551, Dubai, UAE. This material has been distributed by J.P. Morgan Chase Bank, N.A., Dubai Branch to persons regarded as professional clients or market counterparties as defined under the DFSA rules.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "96ebd0937df1d507",
+      "text": "European Economic Area (EEA): Unless specified to the contrary, research is distributed in the EEA by J.P. Morgan SE (\"JPM SE\"), which is authorised as a credit institution by the Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and jointly supervised by the BaFin, the German Central Bank (Deutsche Bundesbank) and the European Central Bank (ECB). JPM SE is a company headquartered in Frankfurt with registered address at TaunusTurm, Taunustor 1, Frankfurt am Main, 60310, Germany. The material has been distributed in the EEA to persons regarded as professional investors (or equivalent) pursuant to Art. 4 para. 1 no. 10 and Annex II of MiFID II and its respective implementation in their home jurisdictions (\"EEA professional investors\"). This material must not be acted on or relied on by persons who are not EEA professional investors. Any investment or investment activity to which this material relates is only available to EEA relevant persons and will be engaged in only with EEA relevant persons.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "9623afa41a766e9f",
+      "text": "Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is regulated by the Securities and Futures Commission in Hong Kong. J.P. Morgan Chase Bank, N.A., Hong Kong Branch (CE Number AAL996) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission, is organized under the laws of the United States with limited liability. Where the distribution of this material is a regulated activity in Hong Kong, the material is distributed in Hong Kong by or through J.P. Morgan Securities (Asia Pacific) Limited and/or J.P. Morgan Broking (Hong Kong) Limited.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e439021c2891710f",
+      "text": "India: J.P. Morgan India Private Limited (Corporate Identity Number - U67120MH1992FTC068724), having its registered office at J.P. Morgan Tower, Off. C.S.T. Road, Kalina, Santacruz - East, Mumbai - 400098, is registered with the Securities and Exchange Board of India (SEBI) as a 'Research Analyst' having registration number INH000001873. J.P. Morgan India Private Limited is also registered with SEBI as a member of",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "62341b26c269dc46",
+      "text": "Indonesia: PT J.P. Morgan Sekuritas Indonesia is a member of the Indonesia Stock Exchange and is registered and supervised by the Otoritas Jasa Keuangan (OJK).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "472b5a34461d41b0",
+      "text": "Korea: J.P. Morgan Securities (Far East) Limited, Seoul Branch, is a member of the Korea Exchange (KRX). JPMorgan Chase Bank, N.A., Seoul Branch, is licensed as a branch office of foreign bank (JPMorgan Chase Bank, N.A.) in Korea. Both entities are regulated by the Financial Services Commission (FSC) and the Financial Supervisory Service (FSS). For non- macro research material, the material is distributed in Korea by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "257c4e85ad14ee5b",
+      "text": "Japan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services Agency in Japan.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "94101984c006423a",
+      "text": "Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146- X), which is a Participating Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission in Malaysia.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3ca21ebd022b1cfa",
+      "text": "Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V. and J.P. Morgan Grupo Financiero are members of the Mexican Stock Exchange and are authorized to act as a broker dealer by the National Banking and Securities Exchange Commission.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "181bfc59fa1da98f",
+      "text": "New Zealand: This material is issued and distributed by JPMSAI in New Zealand only to \"wholesale clients\" (as defined in the Financial Markets Conduct Act 2013). JPMSAI is registered as a Financial Service Provider under the Financial Service providers (Registration and Dispute Resolution) Act of 2008.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "040ac700a186b0a0",
+      "text": "Philippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the Securities Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and Exchange Commission.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "b4cd06a25d95c957",
+      "text": "Singapore: This material is issued and distributed in Singapore by or through J.P. Morgan Securities Singapore Private Limited (JPMSS) [MDDI (P) 057/08/2025 and Co. Reg. No.: 199405335R], which is a member of the Singapore Exchange Securities Trading Limited, and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore), both of which are regulated by the Monetary Authority of Singapore. This material is issued and distributed in Singapore only to accredited investors, expert investors and institutional investors, as defined in Section 4A of the Securities and Futures Act, Cap. 289 (SFA). This material is not intended to be issued or distributed to any retail investors or any other investors that do not fall into the classes of \"accredited investors,\" \"expert investors\" or \"institutional investors,\" as defined under Section 4A of the SFA. Recipients of this material in Singapore are to contact JPMSS or JPMCB Singapore in respect of any matters arising from, or in connection with, the material.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "6153c1b78b3e4cdd",
+      "text": "South Africa: J.P. Morgan Equities South Africa Proprietary Limited and JPMorgan Chase Bank, N.A., Johannesburg Branch are members of the Johannesburg Securities Exchange and are regulated by the Financial Services Conduct Authority (FSCA).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "2ec6ee9be8c662c2",
+      "text": "Taiwan: J.P. Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company- type) and regulated by the Taiwan Securities and Futures Bureau. Material relating to equity securities is issued and distributed in Taiwan by J.P. Morgan Securities (Taiwan) Limited, subject to the license scope and the applicable laws and the regulations in Taiwan. To the extent that J.P. Morgan Securities (Taiwan) Limited produces research materials on securities not listed on the Taiwan Stock Exchange or Taipei Exchange (\"Non- Taiwan Listed Securities\"), these materials shall not constitute securities recommendations for the purpose of applicable Taiwan regulations, and, for the avoidance of doubt, J.P. Morgan Securities (Taiwan) Limited does not act as broker for Non- Taiwan Listed Securities. According to Paragraph 2, Article 7- 1 of Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers (as amended or supplemented) and/or other applicable laws or regulations, please note that the recipient of this material is not permitted to engage in any activities in connection with the material that may give rise to conflicts of interests, unless otherwise disclosed in the \"Important Disclosures\" in this material.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "29f84c0c4ea89f0c",
+      "text": "Thailand: This material is issued and distributed in Thailand by JPMorgan Securities (Thailand) Ltd., which is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission, and its registered address is 3rd Floor, 20 North Sathorn Road, Silom, Bangrak, Bangkok 10500.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "b6272f8593d985c4",
+      "text": "UK: Research is produced in the UK by J.P. Morgan Securities plc (\"JPMs plc\") which is a member of the London Stock Exchange and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority or J.P. Morgan Markets Limited (\"JPMML Ltd\") which is authorised and regulated by the Financial Conduct Authority. Unless specified to the contrary, this material is distributed in the UK by JPMs plc and is directed in the UK only to: (a) persons having professional experience in matters relating to investments falling within article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) (Order) 2005",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "e2d8b69a49a79927",
+      "text": "(\"the FPO\"); (b) persons outlined in article 49 of the FPO (high net worth companies, unincorporated associations or partnerships, the trustees of high value trusts, etc.); or (c) any persons to whom this communication may otherwise lawfully be made; all such persons being referred to as \"UK relevant persons\". This material must not be acted on or relied on by persons who are not UK relevant persons. Any investment or investment activity to which this material relates is only available to UK relevant persons and will be engaged in only with UK relevant persons. A description of J.P. Morgan EMEA's policy for prevention and avoidance of conflicts of interest related to the production of Research can be found at the following link: J.P. Morgan EMEA - Research Independence Policy.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1b3a90d405be63b6",
+      "text": "U.S.: J.P. Morgan Securities LLC (\"JPMS\") is a member of the NYSE, FINRA, SIPC, and the NFA. JPMorgan Chase Bank, N.A. is a member of the FDIC. Material published by non- U.S. affiliates is distributed in the U.S. by JPMS who accepts responsibility for its content.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "be44b0f59c41dbd7",
+      "text": "General: Additional information is available upon request. The information in this material has been obtained from sources believed to be reliable. While all reasonable care has been taken to ensure that the facts stated in this material are accurate and that the forecasts, opinions and expectations contained herein are fair and reasonable, JPMorgan Chase & Co. or its affiliates and/or subsidiaries (collectively J.P. Morgan) make no representations or warranties whatsoever to the completeness or accuracy of the material provided, except with respect to any disclosures relative to J.P. Morgan and the Research Analyst's involvement with the issuer that is the subject of the material. Accordingly, no reliance should be placed on the accuracy, fairness or completeness of the information contained in this material. There may be certain discrepancies with data and/or limited content in this material as a result of calculations, adjustments, translations to different languages, and/or local regulatory restrictions, as applicable. These discrepancies should not impact the overall investment analysis, views and/or recommendations of the subject company(ies) that may be discussed in the material. Artificial intelligence tools may have been used in the preparation of this material, including assisting in data analysis, pattern recognition, and content drafting for research material. J.P. Morgan accepts no liability whatsoever for any loss arising from any use of this material or its contents, and neither J.P. Morgan nor any of its respective directors, officers or employees, shall be in any way responsible for the contents hereof, apart from the liabilities and responsibilities that may be imposed on them by the relevant regulatory authority in the jurisdiction in question, or the regulatory regime thereunder. Opinions, forecasts or projections contained in this material represent J.P. Morgan's current opinions or judgment as of the date of the material only and are therefore subject to change without notice. Periodic updates may be provided on companies/industries based on company- specific developments or announcements, market conditions or any other publicly available information. There can be no assurance that future results or events will be consistent with any such opinions, forecasts or projections, which represent only one possible outcome. Furthermore, such opinions, forecasts or projections are subject to certain risks, uncertainties and assumptions that have not been verified, and future actual results or events could differ materially. The value of, or income from, any investments referred to in this material may fluctuate and/or be affected by changes in exchange rates. All pricing is indicative as of the close of market for the securities discussed, unless otherwise stated. Past performance is not indicative of future results. Accordingly, investors may receive back less than originally invested. This material is not intended as an offer or solicitation for the purchase or sale of any financial instrument. The opinions and recommendations herein do not take into account individual client circumstances, objectives, or needs and are not intended as recommendations of particular securities, financial instruments or strategies to particular clients. This material may include views on structured securities, options, futures and other derivatives. These are complex instruments, may involve a high degree of risk and may be appropriate investments only for sophisticated investors who are capable of understanding and assuming the risks involved. The recipients of this material must make their own independent decisions regarding any securities or financial instruments mentioned herein and should seek advice from such independent financial, legal, tax or other adviser as they deem necessary. J.P. Morgan may trade as a principal on the basis of the Research Analysts' views and research, and it may also engage in transactions for its own account or for its clients' accounts in a manner inconsistent with the views taken in this material, and J.P. Morgan is under no obligation to ensure that such other communication is brought to the attention of any recipient of this material. Others within J.P. Morgan, including Strategists, Sales staff and other Research Analysts, may take views that are inconsistent with those taken in this material. Employees of J.P. Morgan not involved in the preparation of this material may have investments in the securities (or derivatives of such securities) mentioned in this material and may trade them in ways different from those discussed in this material. This material is not an advertisement for or marketing of any issuer, its products or services, or its securities in any jurisdiction.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e78b63db33fe2ffb",
+      "text": "Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e7e298542a33d0df",
+      "text": "MSCI: Certain information herein (\"Information\") is reproduced by permission of MSCI Inc., its affiliates and information providers (\"MSCI\") ©2025. No reproduction or dissemination of the Information is permitted without an appropriate license. MSCI MAKES NO EXPRESS OR IMPLIED WARRANTIES (INCLUDING MERCHANTABILITY OR FITNESS) AS TO THE INFORMATION AND DISCLAIMS ALL LIABILITY TO THE EXTENT PERMITTED BY LAW. No Information constitutes investment advice, except for any applicable Information from MSCI ESG Research. Subject also to msc.com/disclaimer",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "6e522c7c2fadd8f4",
+      "text": "Sustainalytics: Certain information, data, analyses and opinions contained herein are reproduced by permission of Sustainalytics and: (1) includes the proprietary information of Sustainalytics; (2) may not be copied or redistributed except as specifically authorized; (3) do not constitute investment advice nor an endorsement of any product or project; (4) are provided solely for informational purposes; and (5) are not warranted to be complete, accurate or timely. Sustainalytics is not responsible for any trading decisions, damages or other losses related to it or",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "48f1cc5bfbb43838",
+      "text": "its use. The use of the data is subject to conditions available at https://www.sustainability.com/legal- disclaimers. ©2025 Sustainability. All Rights Reserved.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "92625242f679bc61",
+      "text": "\"Other Disclosures\" last revised August 02, 2025.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e273fffb746eecf6",
+      "text": "Copyright 2025 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third- party (\"J.P. Morgan Data\") in any third- party artificial intelligence (\"AI\") systems or models when such J.P. Morgan Data is accessible by a third- party. It is permissible to use J.P. Morgan Data for internal business purposes only in an AI system or model that protects the confidentiality of J.P. Morgan Data so as to prevent any and all access to or use of such J.P. Morgan Data by any third- party.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "bf41a5ac9696b7d3",
+      "text": "Completed 28 Aug 2025 08:08 AM BST",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "bb7621738fc2f300",
+      "text": "Disseminated 28 Aug 2025 08:08 AM BST",
+      "page": 7,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "39648bedcf2f4a19",
+      "name": "AFS Licence",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0e89cfc2054df5ce",
+      "name": "AN Integral",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0ef0c39c126f6fa4",
+      "name": "ASX Clear",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cc3137194d646091",
+      "name": "ASX Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a416231886f0fa52",
+      "name": "All Rights",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "517917b86efb07cf",
+      "name": "Analyst Certification",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21cd74fee7a13752",
+      "name": "Annex II",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f4758147dc564ecb",
+      "name": "Argentinian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "babb54828c5096a2",
+      "name": "Australia Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bc98bb53ad7f2a24",
+      "name": "Australian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "34925fcaabe8def5",
+      "name": "Banco Central",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "81119df9d2108575",
+      "name": "Bursa Malaysia",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03898be786b38f70",
+      "name": "CE Number",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "13eec11f9f77d58d",
+      "name": "Canada Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7860a2554c61a53f",
+      "name": "Canadian Investment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "246559ad6397328f",
+      "name": "Central Bank",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9ec9ae4069b4748d",
+      "name": "Classification Standard",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d24db3396c8bf4a0",
+      "name": "Clearing Participant",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2007",
+              "2009",
+              "2011",
+              "2013",
+              "2015",
+              "2017",
+              "2019",
+              "2021",
+              "2023",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -0.6,
+              "max": 0.8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Euro area single-currency",
+            "unit": null,
+            "values": [
+              0.0,
+              0.6,
+              -0.1,
+              0.0,
+              0.2,
+              0.5,
+              0.3,
+              0.5,
+              0.4,
+              0.2
+            ]
+          },
+          {
+            "name": "Euro area multi-currency",
+            "unit": null,
+            "values": [
+              -0.2,
+              0.4,
+              -0.2,
+              0.0,
+              0.2,
+              0.1,
+              0.2,
+              0.1,
+              -0.1,
+              0.2
+            ]
+          }
+        ],
+        "figure_id": "f346069c8d29d9c0",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2010",
+              "2012",
+              "2014",
+              "2016",
+              "2018",
+              "2020",
+              "2022",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -60,
+              "max": 80
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "%",
+            "values": [
+              {
+                "x": "2010",
+                "y": 38
+              },
+              {
+                "x": "2010.5",
+                "y": -25
+              },
+              {
+                "x": "2011",
+                "y": -50
+              },
+              {
+                "x": "2011.5",
+                "y": -10
+              },
+              {
+                "x": "2012",
+                "y": -25
+              },
+              {
+                "x": "2012.5",
+                "y": 15
+              },
+              {
+                "x": "2013",
+                "y": 30
+              },
+              {
+                "x": "2013.5",
+                "y": 50
+              },
+              {
+                "x": "2014",
+                "y": 70
+              },
+              {
+                "x": "2014.5",
+                "y": 80
+              },
+              {
+                "x": "2015",
+                "y": 60
+              },
+              {
+                "x": "2015.5",
+                "y": 40
+              },
+              {
+                "x": "2016",
+                "y": 60
+              },
+              {
+                "x": "2016.5",
+                "y": 40
+              },
+              {
+                "x": "2017",
+                "y": 10
+              },
+              {
+                "x": "2017.5",
+                "y": 40
+              },
+              {
+                "x": "2018",
+                "y": 20
+              },
+              {
+                "x": "2018.5",
+                "y": -10
+              },
+              {
+                "x": "2019",
+                "y": 20
+              },
+              {
+                "x": "2019.5",
+                "y": 40
+              },
+              {
+                "x": "2020",
+                "y": 60
+              },
+              {
+                "x": "2020.5",
+                "y": 40
+              },
+              {
+                "x": "2021",
+                "y": 60
+              },
+              {
+                "x": "2021.5",
+                "y": 40
+              },
+              {
+                "x": "2022",
+                "y": 0
+              },
+              {
+                "x": "2022.5",
+                "y": -30
+              },
+              {
+                "x": "2023",
+                "y": -10
+              },
+              {
+                "x": "2023.5",
+                "y": 20
+              },
+              {
+                "x": "2024",
+                "y": 25
+              }
+            ]
+          }
+        ],
+        "figure_id": "4daccb1065d65323",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 3,
+        "axes": null,
+        "series": [],
+        "figure_id": "bd8afc645d69f1a0",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "9d502ebaf7c1305f",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nce 08 Jan 2025). - Investors decreased their OW exposure in periphery since our last survey (from 25% to 18% net long; Figure 2). This level is broadly in line with the average observed since the beg",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "1f25c8071404b377",
+        "value": 0.18,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Jan 2025). - Investors decreased their OW exposure in periphery since our last survey (from 25% to 18% net long; Figure 2). This level is broadly in line with the average observed since the beginning ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "6b146f9b0cd5c6c1",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2). This level is broadly in line with the average observed since the beginning of 2024 (average of 19% net long since 10 Jan 2024). - European multi-currency investors increased their exposure in USD",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "915aa5677f6d1459",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s). US domestic investors also increased their long duration exposure over the past two weeks (from 17% to 19% net long, see US Treasury Client Survey, 25 Aug).",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "0e3d2953441ed7bf",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "domestic investors also increased their long duration exposure over the past two weeks (from 17% to 19% net long, see US Treasury Client Survey, 25 Aug).",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "4f0b99e5088b6b21",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2: European real money investors decreased their OW periphery exposure since our last survey (from 25% to 18% net long) </center> <center>Source: J.P. Morgan </center><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "72265f0d18de62a1",
+        "value": 0.18,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "opean real money investors decreased their OW periphery exposure since our last survey (from 25% to 18% net long) </center> <center>Source: J.P. Morgan </center><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4aa7eeb3df14cf1c",
+        "value": 0.71,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "and significant = 0.75 to 1.5 year deviation from benchmark. For this survey, responses for about 71% of our survey pool of 55 collected. Rounded to 0dp<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 3,
+      "tables_count": 0,
+      "numerical_data_count": 8,
+      "passages_count": 67,
+      "entities_count": 20
+    }
+  }
+}

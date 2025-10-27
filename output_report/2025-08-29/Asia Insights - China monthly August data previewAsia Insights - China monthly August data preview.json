@@ -1,0 +1,796 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "57f983e155d6ea5b49cb37050842afce",
+    "title": "NOAURA",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Nomura/Asia Insights - China monthly August data previewAsia Insights - China monthly August data preview_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:31:26.593291",
+      "extracted_at": "2025-10-26T12:31:26.593307"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 11,
+        "successful_pages": 11,
+        "date": "2025-08-29",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Nomura",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 3,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.10455006664942401
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Nomura"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "9c56571f0650da4d",
+      "text": "Economics - Asia ex-Japan",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "127b4da2d22ebab0",
+      "text": "Activity data broadly slowed in July and disappointed markets. Weak growth momentum is likely to be sustained in August, despite the onshore stock market rally. We expect the PMIs to remain low, export and IP growth to moderate, and retail sales growth to remain subdued. Daily average stock trading volume soared to a record high of RMB2.3trn in August, but its positive spillovers to the real economy might be quite limited. Chinese households' assets are still concentrated in property, while the salaries of financial practitioners remain largely capped. The rising growth headwinds call for more policy support, but deploying pro- growth measures might risk causing a stock market bubble. In our view, Beijing's best strategy is to draw lessons from the past, resist the temptation to fuel the stock markets through high- profile monetary measures in the near term, remain vigilant by avoiding contractionary policies, clean up the property mess, and address some deep- rooted problems such as the unequal social security system.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "40e6761f251f73d2",
+      "text": "In view of slowing exports, the ongoing anti- involution campaign, the payback effect from the consumer trade- in program, and the subdued EPMI print, we expect the official manufacturing PMI to remain muted at 49.3 in August, unchanged from July. The RatingDog manufacturing PMI (formerly Caixin manufacturing PMI), which surveys more SMEs and exporters, is likely to remain subdued at 49.8 in August from 49.5 in July. We expect the official non- manufacturing PMI to edge down to 50.0 in August from 50.1 in July, weighed on by the ongoing austerity rules and falling seasonal summer holiday demand, though the stock market boom could provide some support.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c27a23deefdf8635",
+      "text": "On major activity data, we expect export growth to moderate to \\(5.5\\%\\) y- o- y in August from \\(7.2\\%\\) in July, owing to a high base. We forecast IP, retail sales and FAI growth of \\(5.3\\%\\) \\(3.8\\%\\) and \\(0.2\\%\\) y- o- y, respectively, in August, compared with \\(5.8\\%\\) \\(3.7\\%\\) and \\(- 5.2\\%\\) in July.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a390f5a627a08cd4",
+      "text": "We expect negative CPI inflation, less negative PPI inflation and lower credit growth Due to a significant drag from food prices, we expect CPI inflation to turn negative in August, falling to \\(- 0.2\\%\\) y- o- y from \\(0.0\\%\\) in July, while excluding food and energy, core CPI inflation is likely to rise further on a low base.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3f4e586265cc17fd",
+      "text": "We expect PPI deflation to ease to \\(- 2.8\\%\\) y- o- y in August from \\(- 3.6\\%\\) in July, as major commodity prices have risen amid the anti- involution campaign. On a sequential basis, we forecast PPI inflation to turn positive at \\(0.1\\%\\) m- o- m in August, recovering from July's - \\(0.2\\%\\) and above the \\(- 0.7\\%\\) m- o- m recorded in August 2024.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6d82a5a743a3f3c8",
+      "text": "We expect credit growth - measured as year- on- year growth in outstanding aggregate financing(AF) - to slow to \\(8.8\\%\\) y- o- y in August from \\(9.0\\%\\) in July, due mainly to a notably high base in government bond issuance. Growth in outstanding RMB loans is likely to remain unchanged at \\(6.9\\%\\) y- o- y in August.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6826ee14e7c5708a",
+      "text": "Official manufacturing PMI in August: 49.3 (July: 49.3)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "1c768d88803e59f9",
+      "text": "Official non- manufacturing PMI in August: 50.0 (July: 50.1)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "458d27a49cd45164",
+      "text": "RatingDog manufacturing PMI in August: 49.8 (July: 49.5)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "cf27a5067481fa83",
+      "text": "In view of the slowing momentum of export, the ongoing anti- involution campaign, the payback effect from the consumer trade- in program, and subdued EPMI print, we expect the official manufacturing PMI to remain muted at 49.3 in August, unchanged from July. China's EPMI, a non- seasonally adjusted leading indicator of the official PMI, increased by 1.0pp to 46.8 in August from 47.9 in July, smaller than the historical July- to- August average increase of 1.4pp.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "fdee71809b3d399e",
+      "text": "We expect the official non- manufacturing PMI to drop to 50.0 in August from 50.1 in July, weighed on by the ongoing austerity rules and falling seasonal summer holiday demand, though the stock market boom could provide some support. Meanwhile, the PMI for the construction sector is likely to drop based on high- frequency data.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "efb940bcb053063c",
+      "text": "We expect the RatingDog manufacturing PMI (formerly Caixin manufacturing PMI), which surveys more SMEs and exporters in the eastern coastal region of China, to remain subdued at 49.8 in August from 49.5 in July. Growth in Korea's exports to China improved to \\(2.7\\%\\) y- o- y in 1- 20 August from \\(- 3.0\\%\\) in July, while its imports from China edged down to \\(3.8\\%\\) y- o- y in 1- 20 August from \\(4.0\\%\\) in July.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b7c9abcfaf81677c",
+      "text": "We expect industrial production (IP) growth to soften to \\(5.3\\%\\) y- o- y in August from \\(5.7\\%\\) in July, mainly weighed on by weaker exports. High- frequency activity indicators point to mixed industrial activity, as detailed below:",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "87e03b30a7c20d5c",
+      "text": "The weekly operating rate of cement factories improved to 4.1pp below its year- ago level in month- to- date August from 8.2pp below its July average. The weekly cement shipment- to- output ratio increased to 4.3pp above its year- ago level in month- to- date August from 3.1pp above its July average. Growth in weekly steel rebar output at major steel mills surged to \\(29.8\\%\\) y- o- y in month- to- date August from \\(- 3.3\\%\\) in July, driven by a low base from last year. The operating rate of asphalt factories edged down to 4.7pp above its year- ago level in month- to- date August from 5.9pp above its year- ago level in July. Growth in the daily average volume of coal burned at power plants in eight provinces in South China fell to \\(0.9\\%\\) y- o- y in month- to- date August from \\(3.4\\%\\) in July.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4cf90d8621157185",
+      "text": "We expect CPI inflation to turn negative at \\(- 0.2\\%\\) y- o- y in August, following July's \\(0.0\\%\\) reading. The decline is primarily attributable to weaker- than- seasonal food price patterns. In sequential terms, we project CPI to increase by \\(0.3\\%\\) m- o- m in August, up from \\(- 0.2\\%\\) in July but still below the \\(0.4\\%\\) m- o- m gain recorded in August 2024.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ab7fa56b69789e18",
+      "text": "We project food prices to decline by \\(- 4.6\\%\\) y- o- y in August, a steeper drop from July's - \\(1.6\\%\\) . The decline partly reflects the lunar calendar mismatch, as this year has an intercalary sixth month, which affects the timing of seasonal supply and demand. This forecast is also supported by the MARA agricultural product wholesale price index, which fell sharply to \\(- 10.4\\%\\) y- o- y in August from \\(- 3.1\\%\\) in July, mainly dragged down by vegetable prices. In the meat category, wholesale prices of pork remained largely steady at RMB20.2/kg in August versus RMB20.6/kg in July. On a year- over- year basis though pork prices dropped to \\(- 24.9\\%\\) y- o- y in August from \\(- 16.9\\%\\) in July.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "569e73e813e3710a",
+      "text": "For the non- food components, we expect the y- o- y increase in core prices to rise to \\(1.2\\%\\) in August from \\(0.8\\%\\) in July, driven by a lower base from last year, as well as elevated gold prices. The energy component in the non- food category could also offer some support. The NDRC implemented a RMB180 per tonne decrease in petrol prices in August. While this contrasts with July's RMB105 hike, it represents an uplift from the RMB305 reduction in August 2024, which should positively impact the energy component of the CPI basket in y- o- y terms.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4d86f3467340dc08",
+      "text": "We expect PPI deflation to ease to \\(- 2.8\\%\\) y- o- y in August from \\(- 3.6\\%\\) in July, as major commodity prices have risen amid the anti- involution campaign. On a sequential basis, we forecast PPI inflation to turn positive at \\(0.1\\%\\) m- o- m in August, recovering from July's - \\(0.2\\%\\) and above the \\(- 0.7\\%\\) m- o- m recorded in August 2024. This improvement reflects widespread increases across key raw material prices. The panhua price index for industrial products increased to \\(- 3.2\\%\\) y- o- y in August from \\(- 9.2\\%\\) in July. The NBS's 50 raw material price survey - which we view as a more reliable PPI leading indicator - shows prices rose to \\(- 7.2\\%\\) y- o- y in August from \\(- 10.0\\%\\) in July.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "87403cf5fd271370",
+      "text": "We expect retail sales growth to remain tepid at \\(3.8\\%\\) y- o- y in August from \\(3.7\\%\\) in July, weighed on by the payback effect from the trade- in program and the ongoing austerity rule. However, a lower base from last year, the fiscal subsidy for childbirth and school fee exemptions, and the deployment of a third batch of trade- in subsidy, could provide some support. By components, we expect retail sales growth in auto, catering and merchandise excluding autos of \\(- 2.0\\%\\) y- o- y, \\(1.0\\%\\) and \\(4.9\\%\\) , respectively, in August (July: \\(- 1.5\\%\\) y- o- y, \\(1.1\\%\\) , and \\(4.7\\%\\) ).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "42b1948bf8129941",
+      "text": "On auto sales, according to early estimates from the CPCA, volume growth in passenger car retail sales is likely to drop to \\(1.7\\%\\) y- o- y in August from \\(7.3\\%\\) in July. Considering the continued price competition among key automakers, we expect auto sales in value terms, as reported by the NBS, to turn more negative in August.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "03216f55bc2bcf97",
+      "text": "The catering sector might remain muted by the new austerity rules, which restrict dining out by government officials and SOE managers (Asia Special Report - The trade- in program and the new austerity rule, 24 June 2025).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "bb621795b5c925d9",
+      "text": "For merchandise sales excluding autos, we expect continued weakness mainly due to the trade- in program's payback effects. Two sets of subsidies are being deployed in August. According to the NDRC, the third batch of the trade- in program subsidy (RMB81bn) was deployed in August, with scope expanded to include the subsidized group including education- related electronic products. According to the State Council, the childbirth subsidy for this year will be distributed from late August. However, in our view, the payback effect could more than offset by the renewed deployment of the trade- in subsidy, and household with children may choose to smooth out the childbirth subsidy overtime.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9873ad086e7c1ba4",
+      "text": "We expect export growth to moderate to \\(5.5\\%\\) y- o- y in August from \\(7.2\\%\\) in July, due to a high base and a sharp slowdown in export- delivered value in July. Higher frequency data point to a mixed bag, with faster container throughput but weaker freight rates and cross- border cargo flights.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "de73c98f312feb6d",
+      "text": "Export growth improved in July, defying an expected slowdown by markets and ourselves. We correctly forecast a sharper contraction in exports to the US, as suggested by high frequency data on container bookings and freight rates, while shipments to non- US markets accelerated unexpectedly. In hindsight, weekly container throughput data at major ports proved to be a more effective leading indicator, as its growth increased to \\(3.9\\%\\) y- o- y in July from \\(3.6\\%\\) in June, aligned with improved headline exports. In August, container throughput has improved further, with its y- o- y growth rising markedly to \\(7.9\\%\\) in 1- 24 August. Meanwhile, growth in the number of total cross- border cargo flights moderated to \\(10.6\\%\\) y- o- y in 1- 24 August from \\(12.0\\%\\) in July, due to a higher base.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "42144b3e6422c871",
+      "text": "Moreover, Korea's exports have been resilient in August. Growth in Korea's overall exports picked up to \\(7.6\\%\\) y- o- y in 1- 20 August from \\(5.9\\%\\) in July, excluding working- day adjustments. On Korea's trade with China, export growth rose to \\(2.7\\%\\) y- o- y in 1- 20 August from \\(- 3.0\\%\\) in July, while import growth softened to \\(3.8\\%\\) from \\(4.0\\%\\) .",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "79f4a88fa07867a9",
+      "text": "On US- bound exports, growth in container bookings dipped further to \\(- 26.3\\) y- o- y in the week of 4 August from \\(- 20.9\\%\\) in July and \\(- 14.3\\%\\) in June, according to Vizion, a US supply chain intelligence firm. According to GeekYum, a widely used global shipping rates search- engine based in Shanghai, forward freight rates from China to US West Coast fell",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4184c1792f5653e7",
+      "text": "to a daily average of \\~USD3,000/FEU in August- September from \\~USD3,300/FEU in July. Falling container bookings and freight rates indicate reduced demand for shipments to the US.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "6e21e8d9e4d57576",
+      "text": "On overall freight rates, the China Containerized Freight Index (CCFI), which measures the average shipping price of containers from China's 10 major ports to other parts of the world, dropped by \\(6.9\\%\\) over the past month (from end- July to end- August). Geographically, the CCFI fell by \\(1.7\\%\\) to Europe and by \\(9.3\\%\\) to the US East Coast over the same period.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d5b307f30013471b",
+      "text": "We expect import growth to increase slightly to \\(4.4\\%\\) y- o- y in August from \\(4.1\\%\\) in July, thanks to a low base. The year- over- year change in the China Import Dry Bulk Freight Index (CDFI), which reflects freight rates of dry bulk cargo (including iron ore, coal, grain and nickel ore) imported to China, increased markedly to \\(- 6.8\\%\\) y- o- y in month- to- date August from \\(- 15.2\\%\\) in July. Growth in Brent oil prices increased to \\(- 15.4\\%\\) in August- to- date from \\(- 18.1\\%\\) in July.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "0c336b05ed14b0a7",
+      "text": "Combining our forecasts of exports and imports, the trade surplus is likely to increase marginally to USD99bn in August from USD98bn in July.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d3525e0a1c2aae21",
+      "text": "We expect FAI growth to rebound to \\(0.2\\%\\) y- o- y in August from \\(- 5.2\\%\\) in July, which implies year- to- date growth will decline further to \\(1.4\\%\\) y- o- y from \\(1.6\\%\\) . This rebound in FAI growth is largely a reversal of some of the falls caused by adverse weather conditions in July, which the NBS said was the key reason for the undershoot of FAI growth last month. The rebound is likely primarily supported by infrastructure, while the manufacturing sector remains an unknown given the ongoing \"anti- involution\" campaign. Moreover, the property sector is likely to remain a severe drag, as we forecast another hefty contraction (see section below).",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "640982ffbde15909",
+      "text": "We expect property investment growth to drop further to \\(- 17.8\\%\\) in August from \\(- 17.1\\%\\) in July. Year- to- date growth in property investment is also likely to decline to \\(- 12.7\\%\\) y- o- y in August, from \\(- 12.0\\%\\) in July.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "7bf550005a579a19",
+      "text": "Based on a sample of 20 major cities covered by Wind, growth in new home sales volumes increased again but remained in negative territory of \\(- 10.5\\%\\) y- o- y in month- to- date August, from \\(- 18.6\\%\\) in July. Compared with 2019 levels, growth in new home sales improved to \\(- 56.0\\%\\) in month- to- date August from \\(- 60.9\\%\\) in July. Contract sales volumes of the top 100 developers improved slightly to \\(- 18.6\\%\\) y- o- y in July from \\(- 25.5\\%\\) in April, according to the CRIC.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "f85455b2bbf90bc9",
+      "text": "We believe the property sector will continue to contract, with investment growth still at a negative, high single- digit pace decline through August. The policy pivot in late September 2024 might be unable to rescue the sector, especially as the economy faces a double whammy from the property and export sectors. The ongoing price decline in 2025 lends further support to our long- held view that the property meltdown in China has yet to end, and more measures are needed (see our thematic report, The second wave of shocks, 5 September 2024).",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a1c081735b8b1f96",
+      "text": "New RMB loans in August: RMB781bn (July: - RMB50bn)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3470e96d595adc59",
+      "text": "Outstanding AF growth in August: \\(8.8\\%\\) y- o- y (July: \\(9.0\\%\\) )",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "61a2fcc1ef0f4079",
+      "text": "Outstanding RMB loan growth in August: \\(6.9\\%\\) y- o- y (July: \\(6.9\\%\\) )",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a7fd81537a1bc2ea",
+      "text": "We expect credit growth - measured as year- on- year growth in outstanding aggregate financing (AF) to drop to \\(8.8\\%\\) y- o- y in August from \\(9.0\\%\\) in July, due mainly to a high base from government bond issuance. Growth in outstanding RMB loans is likely to stay at a historical low of \\(6.9\\%\\) y- o- y in August, unchanged from July.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3e862dc9a5b57a32",
+      "text": "In level terms, we forecast new AF and RMB loans of RMB2,418bn and RMB781bn, respectively, in August, versus year- ago levels of RMB3,032bn and RMB900bn.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ce7db917a1de8716",
+      "text": "On bond issuance, according to Wind's estimates using deal- level bond data, net government bond financing - for both central and local governments - has been RMB1,329bn in August as of 28 August, below its year- ago level of RMB1,841bn.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b80b7ee2a74d427a",
+      "text": "Looking at a breakdown, net financing of central government bonds (CGBs) decreased to RMB849bn from RMB1,022bn a year earlier, while that of local government bonds (LGBs) also dropped to RMB480bn from RMB819bn. On LGBs, local government special refinancing bonds (LGSRBs) contributed RMB54bn. LGSRBs are used exclusively for replacing local government hidden debt.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4f24df57a775fa30",
+      "text": "For other major bonds, net corporate bond financing was RMB73bn in August as of 28 August, below its year- ago level of RMB110bn.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5c42c273057895c3",
+      "text": "Net bond financing for LGFVs was - RMB18bn, above its year- ago level of - RMB85bn. For property developers, their net bond financing was RMB11.9bn, above its year- ago level of RMB0.3bn.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b95d183296662735",
+      "text": "Short- term liquidity conditions have still been stable in August. The average of DR007 fell to 1.479% in August from 1.516% in July but is still well above the PBoC's 7- day OMO reserve repo rate of 1.40%, while the monthly average of 10yr CGB yields edged up slightly to 1.746% from 1.678%.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "92ee56ad216f3a5f",
+      "text": "Fig. 1: Forecast for August economic indicators",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "cbb625a5ba6ca34c",
+      "text": "IndicatorsUnitForecastJul 25Jun 25Q2 25Q1 252024ReleasedateAug 25Economic surveyOfficial mfg PMIIndex49.349.349.749.449.949.831-AugOfficial non-mfg PMIIndex50.050.150.550.450.550.931-AugRating dog mfg PMIIndex49.849.550.449.750.750.81-SepActivityIndustrial production (IP)% y-o-y5.35.76.86.26.55.815-SepRetail sales% y-o-y3.83.74.85.44.63.515-SepFixed asset investment (FAI) ytd% y-o-y1.41.62.82.84.23.215-SepFAI% y-o-y0.2-5.20.52.14.23.215-SepInflationCPI% y-o-y-0.20.00.10.0-0.10.210-SepPPI% y-o-y-2.8-3.6-3.6-3.2-2.3-2.210-SepTradeExports (USD)% y-o-y5.57.25.86.25.65.88-SepImports (USD)% y-o-y4.44.11.1-0.9-6.91.08-SepTrade balance% y-o-y99981153142729938-SepMoney and creditOutstanding aggregate financing% y-o-y8.89.08.98.98.48.09-15 SepOutstanding RMB loan% y-o-y6.96.97.17.17.47.69-15 SepM2% y-o-y9.18.88.38.37.07.39-15 SepNew aggregate financingRMB bn2,4181,1324,1997,64615,18432,2569-15 SepNew RMB loanRMB bn781-502,2403,1409,78018,0909-15 SepProperty marketProperty investment ytd% y-o-y-12.7-12.0-11.2-11.2-9.9-10.615-SepProperty investment% y-o-y-17.8-17.1-12.9-12.1-9.9-10.615-SepProperty sales (value)% y-o-y-14.3-10.7-8.2-2.1-17.115-SepFloor space sold% y-o-y-8.0-5.4-3.9-3.0-12.915-SepFloor space started% y-o-y-15.4-9.5-16.3-24.4-23.015-SepFunds for property development% y-o-y-15.9-9.7-8.5-3.7-17.015-SepNew home completion% y-o-y-29.2-1.9-15.5-14.3-27.715-SepHomes under construction% y-o-y-9.2-9.1-9.1-9.5-12.715-Sep",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "927864f54e121931",
+      "text": "Source: Wind, Nomura Global Economics.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "ad195ae6acf9e779",
+      "text": "DateEvents31 Aug - 1 SepShanghai Cooperation Organisation3 SepMilitary parade to mark the 80th WWII anniversaryEnd SepPBoc Monetary Policy Committee Q3 meetingEnd SepPolitburo meetingMid-to-end OctThe fourth plenary session of 20th central committee31 Oct - 1 NovAPEC Economic Leaders&#x27; Meeting10 NovEnding of US-China tariff truceMid NovPBoc Monetary Policy Report for Q3Early DecPolitburo meetingMid DecCentral Economic Working Conference",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "757c088b01e7acd2",
+      "text": "China: Will the real economy benefit from the stock market boom?, 27 August 2025China: Policymaking amid a stock market rally and growth slowdown, 21 August 2025China: Will the anti- involution campaign reflate the economy?, 14 August 2025China: The Politburo turned more sanguine on its growth outlook, 30 July 2025",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "14284ff1d8ae375e",
+      "text": "China: July activity data broadly missed market consensus, 15 August 2025China: Credit growth picked up in July while new RMB loans recorded negative growth, 13 August 2025China: PPI deflation remained subdued in July, 9 August 2025China: Trade growth increased in July, 7 August 2025China: New home sales remained at a historical low in July, 1 August 2025Hong Kong: GDP growth rose further in Q2 as local consumption improved, 1 August 2025China: The deterioration in the July PMIs shows there is no room for complacency, 31 July 2025",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "05178fe319763bd7",
+      "text": "The weekly China chart book: Shanghai unveils property easing measures amid stock market rally, 25 August 2025",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "489e05f0d83d7e6d",
+      "text": "The weekly China chart book: The decoupling between the economy and markets, 18 August 2025",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e8db56c689068f3b",
+      "text": "The weekly China chart book: The mid- year as a possible turning point, 4 August 2025",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0bd19a703e1f2132",
+      "text": "Appendix A- 1This report has been produced by Nomura International (Hong Kong) Ltd. (NIHK), Hong Kong. See Disclaimers for Nomura Group entity details.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "bb63a95ba7984f25",
+      "text": "The analysts responsible for preparing this report have received compensation based upon various factors including the firm's total revenues, a portion of which is generated by Investment Banking activities. Unless otherwise noted, the non- US analysts listed at the front of this report are not registered/qualified as research analysts under FINRA rules, may not be associated persons of NSI, and may not be subject to FINRA Rule 2241 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "6263d598c3e3ace0",
+      "text": "Nomura Global Financial Products Inc. (NGFP) Nomura Derivative Products Inc. (NDP) and Nomura International plc. (Nlplc) are registered with the Commodities Futures Trading Commission and the National Futures Association (NFA) as swap dealers. NGFP, NDPI, and Nlplc are generally engaged in the trading of swaps and other derivative products, any of which may be the subject of this report.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "622dc2fadb54dd24",
+      "text": "report indicates that the individual is employed by PT Verdhana Sekuritas Indonesia (Verdhana) to provide research assistance to NIHK under a research partnership agreement and neither Verdhana nor such individual is licensed outside of Indonesia. THIS MATERIAL IS: (I) FOR YOUR PRIVATE INFORMATION, AND WE ARE NOT SOLICITING ANY ACTION BASED UPON IT; (II) NOT TO BE CONSTRUED AS AN OFFER TO SELL OR A SOLICITATION OF AN OFFER TO BUY ANY SECURITIES IN ANY JURISDICTION WHERE SUCH OFFER OR SOLICITATION WOULD BE ILLEGAL; AND (III) OTHER THAN DISCLOSURES RELATING TO THE NOMURA GROUP, BASED UPON INFORMATION FROM SOURCES THAT WE CONSIDER RELIABLE, BUT HAS NOT BEEN INDEPENDENTLY VERIFIED BY NOMURA GROUP.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "21e73dacc5d0cc04",
+      "text": "Other than disclosures relating to the Nomura Group, the Nomura Group does not warrant, represent or undertake, express or implied, that the document is fair, accurate, complete, correct, reliable or fit for any particular purpose or merchantable, and to the maximum extent permissible by law and/or regulation, does not accept liability (in negligence or otherwise, and in whole or in part) for any act (or decision not to act) resulting from use of this document and related data. To the maximum extent permissible by law and/or regulation, all warranties and other assurances by the Nomura Group are hereby excluded and the Nomura Group shall have no liability (in negligence or otherwise, and in whole or in part) for any loss howsoever arising from the use, misuse, or distribution of this material or the information contained in this material or otherwise arising in connection therewith.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "34cea3a0fbd788d7",
+      "text": "Opinions or estimates expressed are current opinions as of the original publication date appearing on this material and the information, including the opinions and estimates contained herein, are subject to change without notice. The Nomura Group, however, expressly disclaims any obligation, and therefore is under no duty, to update or revise this document. Any comments or statements made herein are those of the author(s) and may differ from views held by other parties within Nomura Group. Clients should consider whether any advice or recommendation in this report is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The Nomura Group does not provide tax advice.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "aaa4860f39b11894",
+      "text": "The Nomura Group, and/or its officers, directors, employees and affiliates, may, to the extent permitted by applicable law and/or regulation, deal as principal, agent, or otherwise, or have long or short positions in, or buy or sell, the securities, commodities or instruments, or options or other derivative instruments based thereon, of issuers or securities mentioned herein. The Nomura Group companies may also act as market maker or liquidity provider (within the meaning of applicable regulations in the UK) in the financial instruments of the issuer. Where the activity of market maker is carried out in accordance with the definition given to it by specific laws and regulations of the US or other jurisdictions, this will be separately disclosed within the specific issuer disclosures.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "5c9954f0749bf03b",
+      "text": "This document may contain information obtained from third parties, including, but not limited to, ratings from credit ratings agencies such as Standard & Poor's. The Nomura Group hereby expressly disclaims all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of the information obtained from third parties contained in this material or otherwise arising in connection therewith, and shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of any of the information obtained from third parties contained in this material or otherwise arising in connection therewith. Reproduction and distribution of third- party content in any form is prohibited except with the prior written permission of the related third- party. Third- party content providers do not, express or implied, guarantee the fairness, accuracy, completeness, correctness, timeliness or availability of any information, including ratings, and are not in any way responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use or misuse of such content. Third- party content providers give no express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Third- party content providers shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Any MSCI sourced information in this document is the exclusive property of MSCI Inc. ('MSCI'). Without prior written permission of MSCI, this information and any other MSCI intellectual property may not be duplicated, reproduced, re- disseminated, redistributed or used, in whole or in part, for any purpose whatsoever, including creating any financial products and any indices. This information is provided on an \"as is\" basis. The user assumes the entire risk of any use made of this information. MSCI, its affiliates and any third party involved in, or related to, computing or compiling the information hereby expressly disclaim all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of this material or the information contained in this material or otherwise arising in connection therewith. Without limiting any of the foregoing, in no event shall MSCI, any of its affiliates or any third party involved in, or related to, computing or compiling the information have any liability (in negligence or otherwise, and in whole or in part) for any damages of any kind. MSCI and the MSCI indexes are services marks of MSCI and its affiliates.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "14cb9abd2cc338b5",
+      "text": "The intellectual property rights and any other rights, in Russell/Nomura Japan Equity Index belong to Nomura Fiduciary Research & Consulting Co., Ltd. (\"NFRC\") and FTSE Russell (\"Russell\"). NFRC and Russell do not guarantee fairness, accuracy, completeness, correctness, reliability, usefulness, marketability, merchantability or fitness of the Index, and do not account for business activities or services that any index user and/or its affiliates undertakes with the use of the Index.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "20bab9dcf3f7374b",
+      "text": "Investors should consider this document as only a single factor in making their investment decision and, as such, the report should not be viewed as identifying or suggesting all risks, direct or indirect, that may be associated with any investment decision. Nomura Group produces a number of different types of research product including, among others, fundamental analysis and quantitative analysis; recommendations contained in one type of research product may differ from recommendations contained in other types of research product, whether as a result of differing time horizons, methodologies or otherwise. The Nomura Group publishes research product in a number of different ways including the posting of product on the Nomura Group portals and/or distribution directly to clients. Different groups of clients may receive different products and services from the research department depending on their individual requirements.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "4483469964461913",
+      "text": "Figures presented herein may refer to past performance or simulations based on past performance which are not reliable indicators of future or likely performance. Where the information contains an expectation, projection or indication of future performance and business prospects, such",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c4c6ec536e1c9e23",
+      "text": "forecasts may not be a reliable indicator of future or likely performance. Moreover, simulations are based on models and simplifying assumptions which may oversimplify and not reflect the future distribution of returns. Any figure, strategy or index created and published for illustrative purposes within this document is not intended for \"use\" as a \"benchmark\" as defined by the European Benchmark Regulation. Certain securities are subject to fluctuations in exchange rates that could have an adverse effect on the value or price of, or income derived from, the investment.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "edc5275719c65b07",
+      "text": "With respect to Fixed Income Research: Recommendations fall into two categories: tactical, which typically last up to three months; or strategic, which typically last from 6- 12 months. However, trade recommendations may be reviewed at any time as circumstances change. 'Stop loss' levels for trades are also provided; which, if hit, closes the trade recommendation automatically. Prices and yields shown in recommendations are taken at the time of submission for publication and are based on either indicative Bloomberg, LSEG or Nomura prices and yields at that time. The prices and yields shown are not necessarily those at which the trade recommendation can be implemented.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "ead6009f9013e295",
+      "text": "The securities described herein may not have been registered under the US Securities Act of 1933 (the '1933 Act'), and, in such case, may not be offered or sold in the US or to US persons unless they have been registered under the 1933 Act, or except in compliance with an exemption from the registration requirements of the 1933 Act. Unless governing law permits otherwise, any transaction should be executed via a Nomura entity in your home jurisdiction.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "dad03c319bc6a085",
+      "text": "This document has been approved for distribution in the UK as investment research by NIplc. NIplc is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. NIplc is a member of the London Stock Exchange. This document does not constitute a personal recommendation within the meaning of applicable regulations in the UK, or take into account the particular investment objectives, financial situations, or needs of individual investors. This document is intended only for investors who are 'eligible counterparties' or 'professional clients' for the purposes of applicable regulations in the UK, and may not, therefore, be redistributed to persons who are 'retail clients' for such purposes.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "6d9a20c220b39eb4",
+      "text": "This document has been approved for distribution in the European Economic Area as investment research by Nomura Financial Products Europe GmbH (\"NFPE\"). NFPE is a company organized as a limited liability company under German law registered in the Commercial Register of the Court of Frankfurt/Main under HRB 110223. NFPE is authorized and regulated by the German Federal Financial Supervisory Authority (BaFin).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "82e60730eed063bb",
+      "text": "This document has been approved by NIHK, which is regulated by the Hong Kong Securities and Futures Commission, for distribution in Hong Kong by NIHK. This document is intended only for investors who are 'professional investors' for the purposes of applicable regulations in Hong Kong and may not, therefore, be redistributed to persons who are not 'professional investors' for such purposes.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "87f9e8ba44e1330e",
+      "text": "This document has been approved for distribution in Australia by NAL, which is authorized and regulated in Australia by the ASIC.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "3ea8d62ac0ea03f9",
+      "text": "This document has also been approved for distribution in Malaysia by NSM.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "2eaf2a639c269176",
+      "text": "In Singapore, this document has been distributed by NSL, an exempt financial adviser as defined under the Financial Advisers Act (Chapter 110), among other things, and regulated by the Monetary Authority of Singapore. NSL may distribute this document produced by its foreign affiliates pursuant to an arrangement under Regulation 32C of the Financial Advisers Regulations. Where the recipient of this document is not an accredited, expert or institutional investor as defined by the Securities and Futures Act (Chapter 289), NSL accepts legal responsibility for the contents of this document in respect of such recipient only to the extent required by law. Recipients of this document in Singapore should contact NSL in respect of matters arising from, or in connection with, this document. THIS DOCUMENT IS INTENDED FOR GENERAL CIRCULATION. IT DOES NOT TAKE INTO ACCOUNT THE SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS OF ANY PARTICULAR PERSON. RECIPIENTS SHOULD TAKE INTO ACCOUNT THEIR SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS BEFORE MAKING A COMMITMENT TO PURCHASE ANY SECURITIES, INCLUDING SEEKING ADVICE FROM AN INDEPENDENT FINANCIAL ADVISER REGARDING THE SUITABILITY OF THE INVESTMENT, UNDER A SEPARATE ENGAGEMENT, AS THE RECIPIENT DEEMS FIT.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "1688663e494ff24f",
+      "text": "Unless prohibited by the provisions of Regulation S of the 1933 Act, this material is distributed in the US, by NSI, a US- registered broker- dealer, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6, under the US Securities Exchange Act of 1934. The entity that prepared this document permits its separately operated affiliates within the Nomura Group to make copies of such documents available to their clients.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "02c447149db3f0f5",
+      "text": "This document has not been approved for distribution to persons other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' (as defined by the Capital Markets Authority) in the Kingdom of Saudi Arabia ('Saudi Arabia') or a 'Market Counterparty' or a 'Professional Client' (as defined by the Dubai Financial Services Authority) in the United Arab Emirates ('UAE') or a 'Market Counterparty' or a 'Business Customer' (as defined by the Qatar Financial Centre Regulatory Authority) in the State of Qatar ('Qatar') by Nomura Saudi Arabia, NIplc or any other member of the Nomura Group, as the case may be. Neither this document nor any copy thereof may be taken or transmitted or distributed, directly or indirectly, by any person other than those authorised to do so into Saudi Arabia or in the UAE or in Qatar or to any person other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' located in Saudi Arabia or a 'Market Counterparty' or a 'Professional Client' in the UAE or a 'Market Counterparty' or a 'Business Customer' in Qatar. Any failure to comply with these restrictions may constitute a violation of the laws of the UAE or Saudi Arabia or Qatar.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "be08daef449d09c8",
+      "text": "For report with reference of TAIWAN public companies or authored by Taiwan based research analyst:",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "2b6059f9759a1142",
+      "text": "THIS DOCUMENT IS SOLELY FOR REFERENCE ONLY. You should independently evaluate the investment risks and are solely responsible for your investment decisions. NO PORTION OF THE REPORT MAY BE REPRODUCED OR QUOTED BY THE PRESS OR ANY OTHER PERSON WITHOUT WRITTEN AUTHORIZATION FROM NOMURA GROUP. Pursuant to Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers and/or other applicable laws or regulations in Taiwan, you are prohibited to provide the reports to others (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities in connection with the reports which may involve conflicts of interests. INFORMATION ON SECURITIES / INSTRUMENTS NOT EXECUTABLE BY NOMURA INTERNATIONAL (HONG KONG) LTD., TAIPEI BRANCH IS FOR INFORMATIONAL PURPOSES ONLY AND IS NOT BE CONSTRUED AS A RECOMMENDATION OR A SOLICITATION TO TRADE IN SUCH SECURITIES / INSTRUMENTS.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "825dcbea21bec6ed",
+      "text": "This material may not be distributed in Indonesia or passed on within the territory of the Republic of Indonesia or to persons who are Indonesian citizens (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "0c5a208b552d7be4",
+      "text": "laws of the Republic of Indonesia. The securities mentioned in this document may not be offered or sold in Indonesia or to persons who are citizens of Indonesia (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the laws of the Republic of Indonesia.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "8639333e7199fdc9",
+      "text": "An individual name printed next to NOI on the front page of a research report indicates that this document is a translation of a research report issued by NOI in the PRC. In all other cases, this document is prepared by Nomura Group or its subsidiary or affiliate (collectively, \"Offshore Issuers\") that is not licensed in the PRC to provide securities research. This research report is not approved or intended to be circulated in the PRC. The A- share related analysis (if any) is not produced for any persons located or incorporated in the PRC. The recipients should not rely on any information contained in this research report in making investment decisions and Offshore Issuers take no responsibility in this regard. NO PART OF THIS MATERIAL MAY BE (I) COPIED, PHOTOCOPIED, REPRODUCED OR DUPLICATED IN ANY FORM, BY ANY MEANS; OR (II) REDISSEMINATED, REPUBLISHED OR REDISTRIBUTED WITHOUT THE PRIOR WRITTEN CONSENT OF A MEMBER OF THE NOMURA GROUP. If this document has been distributed by electronic transmission, such as e- mail, then such transmission cannot be guaranteed to be secure or error- free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. The sender therefore does not accept liability (in negligence or otherwise, and in whole or in part) for any errors or omissions in the contents of this document, which may arise as a result of electronic transmission. If verification is required, please request a hard- copy version.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "675c5e9b42605b4d",
+      "text": "Financial instruments firm registered with the Kanto Local Finance Bureau (registration No. 142)",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "73f13055adcfb9aa",
+      "text": "Member associations: Japan Securities Dealers Association; Japan Investment Advisers Association; The Financial Futures Association of Japan; and Type II Financial Instruments Firms Association.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "3b8f0388cb39a4a0",
+      "text": "The Nomura Group manages conflicts with respect to the production of research through its compliance policies and procedures (including, but not limited to, Conflicts of Interest, Chinese Wall and Confidentiality policies) as well as through the maintenance of Chinese Walls and employee training.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "443e71adf64ce7c0",
+      "text": "Additional information regarding the methodologies or models used in the production of any investment recommendations contained within this document is available upon request by contacting the Research Analysts of Nomura listed on the front page. Disclosures information is available upon request and disclosure information is available at the Nomura Disclosure web page:",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "e7ac8ea47688a89b",
+      "text": "http://go.nomuranow.com/research/m/Disclosures",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "5ea7086fb0799ebb",
+      "text": "Copyright © 2025 Nomura International (Hong Kong) Ltd., Hong Kong. All rights reserved.",
+      "page": 10,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "992c52e0e5b045e2",
+      "name": "APEC Economic",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3062e21d617ad05f",
+      "name": "Any MSCI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "54f03e07767bd622",
+      "name": "Asia Insights",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e389653d29f749c8",
+      "name": "Asia Special",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03ec5d54e225b9d0",
+      "name": "Authorised Persons",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8c1abdd3ddd39022",
+      "name": "Business Customer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b66160f658a1d276",
+      "name": "Central Economic",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6532daacf01431b1",
+      "name": "China Containerized",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "927bb52c01b80650",
+      "name": "China Import",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4f7793d11c185d65",
+      "name": "Chinese Wall",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "30f11a4354af2089",
+      "name": "Chinese Walls",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "aebbecf5515fe8dd",
+      "name": "Commercial Register",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b289f889abc2748a",
+      "name": "Commodities Futures",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fbd258dbd6877fcf",
+      "name": "Consulting Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6ba4b0a762d135f4",
+      "name": "Dealers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ce2fcce8553a59da",
+      "name": "Disclosures\n\nCopyright",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "80ad41049d6929b3",
+      "name": "Dry Bulk",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "01cbc8a6577cf115",
+        "value": 0.052000000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nally to USD99bn in August from USD98bn in July. ## FAI growth in August: \\(0.2\\%\\) y-o-y (July: - 5.2%) ## FAI growth in August: year-to-date: \\(1.4\\%\\) y-o-y (July: \\(1.6\\%\\) We expect FAI growth to",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "0145fb3ba334d06c",
+        "value": -0.17800000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "her hefty contraction (see section below). ## Property investment growth in August (single month): -17.8% y-o-y (July: -17.1%) ## Property investment growth in August (year-to-date): -12.7% y-o-y (Jul",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "8f0b6759de56cb03",
+        "value": -0.171,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "n (see section below). ## Property investment growth in August (single month): -17.8% y-o-y (July: -17.1%) ## Property investment growth in August (year-to-date): -12.7% y-o-y (July: -12.0%) We expect",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "79f0707649650d72",
+        "value": -0.127,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "single month): -17.8% y-o-y (July: -17.1%) ## Property investment growth in August (year-to-date): -12.7% y-o-y (July: -12.0%) We expect property investment growth to drop further to \\(- 17.8\\%\\) in A",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e05a6e7e7d14f0f4",
+        "value": -0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "% y-o-y (July: -17.1%) ## Property investment growth in August (year-to-date): -12.7% y-o-y (July: -12.0%) We expect property investment growth to drop further to \\(- 17.8\\%\\) in August from \\(- 17.1\\",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "bcc8c04914e7c7d7",
+        "value": 0.014790000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "n. Short- term liquidity conditions have still been stable in August. The average of DR007 fell to 1.479% in August from 1.516% in July but is still well above the PBoC's 7- day OMO reserve repo rate ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e8d0a8465bd6f990",
+        "value": 0.01516,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ity conditions have still been stable in August. The average of DR007 fell to 1.479% in August from 1.516% in July but is still well above the PBoC's 7- day OMO reserve repo rate of 1.40%, while the m",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "53259cfa2e71c893",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "9% in August from 1.516% in July but is still well above the PBoC's 7- day OMO reserve repo rate of 1.40%, while the monthly average of 10yr CGB yields edged up slightly to 1.746% from 1.678%.<｜end▁of",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "740c55f15ed1524a",
+        "value": 0.01746,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "y OMO reserve repo rate of 1.40%, while the monthly average of 10yr CGB yields edged up slightly to 1.746% from 1.678%.<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "548c8f32f4efbf58",
+        "value": 0.01678,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e repo rate of 1.40%, while the monthly average of 10yr CGB yields edged up slightly to 1.746% from 1.678%.<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 0,
+      "tables_count": 0,
+      "numerical_data_count": 10,
+      "passages_count": 87,
+      "entities_count": 20
+    }
+  }
+}

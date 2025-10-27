@@ -1,0 +1,3946 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "23fd30bf03d9276a32e6c28baa38c41e",
+    "title": "Forecasts",
+    "source_uri": "2025-08-29/Global Rates Trader Let the Data Do the WorkGlobal Rates Trader Let the Data Do the Work_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:21:45.446265",
+      "extracted_at": "2025-10-27T00:21:45.446272"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 19,
+        "successful_pages": 19,
+        "date": "2025-08-29",
+        "publication": "2025-08-29",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 0,
+          "removed_paragraphs": 6,
+          "reduction_ratio": 0.036451450506576055
+        },
+        "input_relative_path": "2025-08-29"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "3d604bb2825aa458",
+      "text": "Despite relative stability at the very front- end of the US curve, cut pricing in 2026 has continued to build alongside a rise in risk premium at the long- end. This has resulted in a steeper curve than the fundamental picture would typically justify and has sustained the outperformance of belly breakevens. While risks surrounding the future composition of the Fed will likely persist, the busy upcoming data calendar should see the market return its focus to 2025 pricing where the market remains on the hawkish side of our economists' Fed baseline. As a result we continue to favor short expiry receivers on the front- end as a means to navigate event risk, and hold SFRZ5 longs cross market versus ERZ5. OAT- Bund spreads have widened in advance of a confidence vote scheduled for 8 September. We think the market is already pricing in enough premium for deficit deterioration, and that spreads will ultimately tighten unless the risks of fresh elections rise. We also see limited room for spillovers to other sovereign spread markets, or to Bunds - although we do think the risk- reward in Bund swap spread tightening is currently poor. Upcoming inflation data will be key for UK rates, we recommend 2s5s Gilt steepeners given our baseline for deeper cuts, but also for a scenario of data resilience resulting in a combination of shallow cuts and higher terminal rates.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "408884628bc32076",
+      "text": "Own front- end convexity into next week's heavy data calendar. The combination of an in- line core PCE print and slight upward revisions to Q2 GDP kept 2025 Fed pricing on fairly steady footing this week. A bit further out, however, President Trump's efforts to remove Governor Cook have been a source of additional downward pressure on terminal rate pricing, in turn boosting traded inflation and taking the broader curve to levels that are now meaningfully steeper than warranted by spot macro conditions (especially in 5s30s, which now trades \\(\\sim 60bp\\) steepen than our fair value model conditioned on spot data). We think this risk premia will be hard to dislodge quickly, but headline risks are somewhat two- sided and the bar to further near- term steepening is somewhat higher absent materially weaker macro data. We instead see better risk/reward skewed towards front- end longs heading into next week's heavy data calendar with around 55bp of cuts priced through year- end, and prefer to keep to our recent approach of owning convexity over the key releases. We close our existing recommendation for 1m2y ATMF receiver longs paired with 1m2y A+10 payer",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "edaf3e39867eaa1d",
+      "text": "shorts for a potential profit of 4bp, and roll into a new 1m2y ATMF receiver (entry: 10bp; target: 18bp; stop: 5bp).",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "3bf964bfe6074ee2",
+      "text": "Exhibit 1: While near-term Fed pricing has been little changed, Fed independence concerns have taken curves to levels meaningfully steeper than warranted by spot macro conditions",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8d103fc02afb9b7d",
+      "text": "Source:Goldman Sachs Global Investment Research",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d3e8f1fcd0d8c273",
+      "text": "Exhibit 2: Belly inflation has taken the lead on pricing Fed risks",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "f768e40a8adb762f",
+      "text": "Source:Goldman Sachs Global Investment Research, Goldman Sachs FICC and Equities",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "2e4a8f9938a8de1f",
+      "text": "Fed uncertainty leaves clearer footprint on belly inflation pricing. While the response to Fed headlines of front- end and belly nominal rates has been somewhat mixed this week, the outperformance of belly breakevens has been a more consistent expression for concerns around Fed independence. On a beta- weighted basis to nominal rates, 5y inflation swaps continue to reprice towards new post- pandemic highs, and while some of this is attributable to the very front- end fixings, belly forwards (e.g. 2y1y) have also participated. The repricing has taken 5y inflation pricing somewhat \\(\\sim 15bp\\) rich relative to our fair value model, although historically this degree of richness is far from unusual. In contrast, forwards further out the curve have not followed, and in fact 5y5y inflation pricing (on a beta- weighted basis) has remained under pressure in recent weeks (Exhibit 2). This suggests that at least so far, the market is embedding some risk of higher inflation over the next few years but is hesitant to reprice longer- term inflation risk premium higher, driving the real curve sharply steeper. For this inflation risk premium to be priced further out the curve may require evidence of more persistent underlying spot inflation, or evidence that the Fed becomes structurally more tolerant of inflation upside. But for now, we continue to view belly inflation longs as a more reliable hedge for Fed uncertainty.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4bdeca9033a608b4",
+      "text": "Front- loaded TGA rebuild lessens liquidity pressure in September, but endpoint still intact. August's \\(\\) 373bn\\(net bill supply was somewhat larger than what we had anticipated heading into the month, pulling forward some of the TGA rebuild. While the reduction in RRP balances (\\)78bn as of Friday and just \\(\\) 32bn\\(as of Thursday prior to month - end dynamics) has absorbed a meaningful chunk of the month's liquidity draining, reserves have nonetheless declined about\\) \\ \\(80bn\\) since the end of July to slightly above \\(\\) 3.2tn\\(as of this past Wednesday. The front - loaded bill supply paves the way for less supply and slightly smaller liquidity swings in September; we estimate that just\\) \\ \\(50bn\\) of net bill supply will be needed to maintain a quarter- end TGA target of \\(\\) 850bn\\$ , which may attenuate some of the more acute funding risks.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "fcaa7f3f21d62f7b",
+      "text": "But the endpoint for aggregateliquidity has not changed, and we still expect the TGA swing over the month during reserves below \\(\\) 3\\mathrm{tn}\\$ by quarter- end. Dallas Fed President Logan's remarks on balance sheet runoff and near- term risks around funding were modestly hawkish in our view, echoing points from the latest FOMC minutes. While the Fed seemingly to tolerate a bit more episodic funding volatility and SRusage, we nonetheless think that intra- month volatility through September may still offer some clue about the structural element of underlying funding costs (which we expect to drift higher over time) as well the speed of post quarter- end normalization, helping to inform the need for an end to runoff (which we continue to expect at the end of October).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e73fbd8f665f9a7f",
+      "text": "- OATs risks re-emerge. OAT-Bund spreads widened this week following the announcement by PM Bayrou of a confidence vote to be held on 8 September. Major opposition parties have stated their intention to vote against the PM, making it likely that Bayrou will need to step down following the vote. The willingness and ability of any future government to carry out budget consolidation will be the key input for the path taken by OATs, in our view. We see reasons to expect contained volatility, however. In particular, deficit expectations — close to 5.5% for 2026 — already aim well off the current government objective of 4.6%, suggesting the market is already pricing substantial slippage vs target. Valuations are also less stretched vs macro and fiscal factors — OATs now screen as fair against peers based on debt levels (Exhibit 3). We have maintained our year-end target for the 10y OAT-Bund spread at 70bp, but see risks tilted towards wider spreads, especially if fresh parliamentary elections become a more central case to the market.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "3a20a7ef5696cd78",
+      "text": "- Limited benefit to Bunds from OAT weakness. Although French assets have been under pressure, spillovers to the rest of Europe — and to EGBs in particular — have been contained. Ongoing declines in rates volatility help to contain risks to other sovereign spread markets. And there has been limited richening in Bunds vs swaps compared with during last year's snap elections (Exhibit 4). We see two explanations. First, as above, political uncertainty in France has not reached the same level as last year, with parliamentary elections likely not yet widely expected and less speculation about President Macron resigning. In the same vein, markets may be drawing some comfort from having witnessed the relatively smooth transition from the Barnier to the Bayrou government last November. Second, with the ECB cutting cycle now over, German fiscal easing underway, and a more challenging duration backdrop globally, the prospect of substantial Bund outperformance is dimmer. We continue to expect Bunds to cheapen, both in outright terms and against swaps. That said, to the extent that we expect the cheapening in Bunds vs swaps to be gradual, the increased tail risk in France and lack of reaction in swap spreads so far diminish the risk reward for tighteners, in our view.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b48e305df9dd4abf",
+      "text": "Exhibit 3: OATs trade much more in line with fundamentals",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b12933744d4da514",
+      "text": "Source: Haver Analytics, ECB, Goldman Sachs Global Investment Research, Goldman Sachs FICC and Equities",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b85d79b24563dcef",
+      "text": "Exhibit 4: Modest Schatz spreads reaction to the resumption of political risk in France",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ec19673f84249cec",
+      "text": "Source: Goldman Sachs Global Investment Research, Goldman Sachs FICC and Equities",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5814967e75b85e00",
+      "text": "Gilt 2s5s to steepen further. Gilts have underperformed other major bond markets in August, following upside surprises to inflation and activity data (Exhibit 5). BoE Governor Bailey repeated the risk of inflation persistence, and the concern that low productivity growth and labour supply weakness necessitates restrictive policy. At the same time, ongoing weakening on the demand side of the labour market is a reminder of the downside skew of risks to the policy rate. We believe that disinflation in 2H25 will ultimately allow for deeper BoE cuts, but the onus is for the upcoming inflation data to give signs that inflation persistence is fading (the next inflation release comes on September 17). Given our base case for deeper cuts, as well as the possibility that terminal rate expectations may be revised higher if data remains resilient, we see the risks skewed towards further curve steepening. In particular, we recommend Gilt 2s5s steepeners, which scan as flat vs macro factors (Exhibit 6) (more so than swaps in our models), either for a scenario of deeper cuts or upward revision of belly (terminal) rates amid shallower cuts (Entry: 16bp, Target: 40bp, Stop: 2bp).",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b75b0be049e587fd",
+      "text": "Exhibit 5: Markets reduced the probability of deeper BoE cuts Probability Density, 1m SONIA, YE 2026",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "108072969e8b50df",
+      "text": "Source: Goldman Sachs Global Investment Research, Goldman Sachs FICC and Equities",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2dff3e0ac8650c9a",
+      "text": "Exhibit 6: 5y trades rich on the curve and against macro fundamentals",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ab19270d052085ee",
+      "text": "Source: Goldman Sachs Global Investment Research, Goldman Sachs FICC and Equities",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "9b4a9e2841b52274",
+      "text": "Limited readacross to traded inflation from potential Ukraine ceasefire. A potential",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "764fe470360b7e0b",
+      "text": "Ukraine ceasefire or peace deal has fueled discussions about a possible increase in Russian oil and gas supply. While for now our oil strategists do not expect incremental Russian energy exports, falling oil prices due to a general supply glut will likely continue to be a headwind to European traded inflation. We estimate that a \\(10\\%\\) negative oil price shock lowers traded inflation by 10- 25bp across tenors and USD, EUR and GBP breakeven markets. However, distinguishing between oil price shocks caused by demand vs supply drivers shows that the effect of oil supply shocks, for example due to geopolitical risk, is only half as large, and only significantly affects shorter tenors. While lower energy prices might in the near term drag traded inflation lower, we continue to expect the improved growth outlook in Europe to boost belly inflation over time.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "57adf1d3163a462d",
+      "text": "Global Rates Notes: US Rates—Less Cheap, but Still Not Rich — 5 August 2025  Global Rates Notes: 3Q25 Treasury Refunding Recap — 30 July 2025  Rates Vol Monitor: Testing the Limits to Vol Compression — 30 July 2025  Global Markets Analyst: The Financial System Implications of Payment Stablecoins — 25 July 2025  Global Rates Notes: 3Q25 Treasury Refunding Preview — 21 July 2025",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6e18b3d6bd5d2185",
+      "text": "Oil Prices And Traded Inflation — Demand vs Supply — 29 August 2025",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "09477fd93b891607",
+      "text": "OATs on Probation — 26 August 2025",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "bfbf0dd63239cf20",
+      "text": "Growth Holds the Key to G10 Front-End Rates Divergence — 13 August 2025",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "653193c9f5578f7a",
+      "text": "US- EU Front- End Divergence — 23 July 2025",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "29332f1382b3ba3b",
+      "text": "Issuance, Liquidity, and the Implications for US Swap Spreads — 11 July 2025",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6fdbd586ad573567",
+      "text": "The authors would like to thank Loic Mathys for his contribution to this report. Loic is an intern in the Markets team.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "100102c4094f3478",
+      "text": "Core ViewsRecommendationEntry DateDurationWith growth pricing remaining firm, inflation pricing to the hawkish side of our economists baseline, and the market-implied policy path resetting to our economists&#x27; baseline but with balance of risks remaining to the downside, we see a more constructive backdrop for US duration. We think near-term risks are asymmetric to downside surprises in activity data.Long 1m2y USD Receivers29-Aug-25We expect European duration to trade weaker over time with our updated end-25 10y Bund yield forecast sitting at 3.0% (and 3.25% at end-2026). This is because we believe the front-loaded fiscal boost out of Germany will push yields higher on improving growth expectations, and compensation for increasing bond supply.Long SFRZ5 vs ERZ58-Aug-25The improved macro outlook should over time compress risk premium throughout the Gulf curve, and see 10y Gilts rally towards our YEE forecast of 4.25%. US spillovers and lower global duration demand present upside risks to yields, but accelerated BoE cuts on the back of inflation normalisation counterbalance them.----CurveWe expect the BOJ normalization cycle to be prolonged, with a medium-term neutral rate of 1.25-1.5%. This should lift yields across the curve, although in the near-term rising US recession risk presents a headwind to this view. Reduction in BOJ&#x27;s JGB holdings should put most upward pressure on belly yields.----BoC cut pricing has converged towards our economists forecasts, but potential for earlier cuts and spillovers from the US leave some (albeit more limited) room for pricing to build from here.Receive Sept 2025 BoC Meeting OIS22-Aug-25Reemerging tariff - and thus, growth - concerns bias yields lower in the near term, as Riksbank is likely to ease further to contain labour market risks. Higher defence spending and hence, issuance, however biases duration higher further out and points to continuing steepening in the SEK curve.----CurveThe path to substantially lower yields by and large rests on hard data deterioration but yields could settle into a modestly richer range if inflation data provide additional evidence of mild pushthrough from tariffs, which would likely support a friendlier demand backdrop. We think it makes sense to navigate the data calendar tactically, recognizing that hard data can open the left tail towards faster/larger cuts, which we think would sustain sharper front-end outperformance. 20s appear to still be embedding elevated term premium and risk, with room for relaxation on both fronts.Long 20s on 10/20/30s weighted SOFR fly (weights 0.6x : 2x : 1.4x)1-Aug-25As the ECB suggests a more benign reading of tariff risks from here, pouring cold water on the prospects of cuts in 2025, markets can look beyond the valley of near term growth weakness. Beyond, as above, we expect the fiscal boost from Germany to support a steeper curve from here, especially when combined with ECB QT. This is also true for SZ27 where our economists&#x27; forecasts for growth and inflation are consistent with additional hike risk premium.Long 3m2y A-25 receiver vs sell 3m5y A-25 receiver8-Aug-25Downside risks to the market-implied path for Bank Rate, which remains above our economists&#x27; baseline, implies steepening risks in 2s10s. However, the improved macro outlook should over time allow investors to price out excessive risk premium at the long end, and we expect the 10s30s Gulf curve to flatten.Gilt 2s5s Steepeners29-Aug-25SpreadsWe see less room for the SEK front-end to outperform in the near-term, as much easing is already priced. As long as the Norges Bank is holding onto their hawkish guidance the NOK curve has no room to steepen much, so we would await the eventual pivot towards growth before engaging again.----The recent global bond selloff has seen 30y JGBs clearly underperforming both its beta to USTs as well as on a relative basis to other curve points. We think there is room for 10s30s JPY curve to unwind some of the recent steepening as liquidity conditions normalize, while any discussion of continued BOJ QT could put further pressure on the belly of the JGB curve.----The upcoming TGA rebuild post debt limit poses upside risk to funding spreads, but swap spreads appear to embed sufficient risk premium against this.----VolWe continue to be positive on sovereign credit going into the summer, given the resilience of the asset class in recent months and the possibility of portfolio flows into EGBs, but tight valuations and a smaller carry cushion make further sovereign spread compression more difficult. In light of the relative political calm and improved debt dynamics in Italy, we have upgraded our view on BTPs. In contrast, we think France remains the idiosyncratic story to watch, though we believe widening risk will be clearer in the fall when budget negotiations are in full swing.----We expect continued Bund spreads tightening as ECB QT increases the Bund free-float and repo costs drift higher. Though constrained German issuance is a risk, we think it is manageable and unlikely to derail the tightening trend, especially as France and the EU continue to issue heavily.----Though Gulf spread tightening has run some way, we think the trend can extend as the BoE remains intent on shrinking its balance sheet, and fiscal policy remains accommodative.----VolA relatively benign macro environment should be conducive for implied risk to reset lower, but trade uncertainty and tariff risks may act as an impediment to how far this reset can go, with increases in trade policy uncertainty generally corresponding to higher vol levels. Implied vols on 10y tails have lagged the rest of the tail curve in the April vol spike, driven by push-pull factors from deeper Fed cuts vs term premium reset.----Curtailed tail-risks have narrowed the range of outcomes for the EUR front end, and gamma has fallen substantially. Given the ongoing risks of tariff related growth scares, and the recent repricing, we view the outlook for gamma as more balanced. News about the German fiscal expansion, which we expect over summer, create near term event risks.----We expect elevated coupon issuance to be absorbed in large part by levered investors, with the resulting leverage demand likely to pressure financing spreads wider. We expect repo rates to continue drifting higher relative to OIS and bill yields.----MarketWhile high frequency measures still point to relatively abundant liquidity, we see the upward trend in overnight repo spreads to IOR as indicative of the system moving from abundant to ample. We expect the Fed to end QT in September; the debt limit presents a source of volatility through this process.----Inflation forwards have compressed by more than justified by growth and policy reassessments. Relaxation about growth concerns could see belly forwards reprice higher, from already low valuation levels.----InflationWith pricing in Europe already below the ECB&#x27;s target out to the belly of the HICP curve, we see limited scope for a sell-off in inflation swap, although the recent stabilisation in energy prices may pose some modest pressure on breakaways. Instead, we think nominal rates will be pushed lower by the real component of rates, as markets price more ECB support to the economy through rate cuts.----",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "d88f6280224c312a",
+      "text": "Source: Goldman Sachs Global Investment Research",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "d3288a73f4355846",
+      "text": "G10 10y yield forecast",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "73261cb73adb17ef",
+      "text": "G10 10-Year Yield ForecastsUSDDEMGBPJPYCADCHFSEKNOKAUDNZDSpot4.222.714.721.603.430.312.613.974.274.353Q254.252.854.301.553.300.502.753.754.154.404Q254.203.004.251.703.300.502.803.754.204.401Q264.203.004.251.753.350.502.903.754.204.402Q264.203.104.251.803.400.553.153.754.204.403Q264.203.154.251.853.450.703.203.754.254.454Q264.203.254.251.903.500.753.253.754.254.451Q274.253.204.251.953.550.803.253.754.304.50",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "b5f45ea05acf9f9a",
+      "text": "Deviation from Forwards",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "42b815b38bbd0851",
+      "text": "Deviation from ForwardsUSDDEMGBPJPYCADCHFSEKNOKAUDNZD3Q250.020.12-0.45-0.08-0.140.240.18-0.22-0.140.014Q25-0.080.22-0.58-0.01-0.190.190.23-0.20-0.13-0.091Q26-0.120.17-0.63-0.02-0.180.160.29-0.21-0.18-0.172Q26-0.170.23-0.69-0.03-0.170.180.50-0.22-0.22-0.253Q26-0.230.23-0.75-0.04-0.160.300.52-0.24-0.23-0.27",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9646607eed55d4a8",
+      "text": "Source: Goldman Sachs Global Investment Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "a4748038e7fce23e",
+      "text": "Source: Bloomberg, Goldman Sachs Global Investment Research",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "00b0a475ecddc66d",
+      "text": "Cumulative amount of hikes/cuts priced from today",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "246880dab3bd3a68",
+      "text": "Source: Goldman Sachs Global Investment Research",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "9248c8622fa18321",
+      "text": "Expected hikes by year, GS vs. Market",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "bafd6773e836e84d",
+      "text": "Source: Goldman Sachs Global Investment Research",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "acdf9e7ac36c20e6",
+      "text": "Central bank ownership of sovereign bonds, current vs. 1y ago",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "a7ab0af4c227e8be",
+      "text": "Source: Haver Analytics",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "32ebac852b5c26fc",
+      "text": "Central bank assets as a share of GDP",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "abd333bc46a28fec",
+      "text": "Source: Haver Analytics",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "cfaca9af63feae25",
+      "text": "Option implied position indicator",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "0c3810c5fdefb6a6",
+      "text": "Source: Goldman Sachs Global Investment Research",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "0a57b460145276a4",
+      "text": "GS Fund Positioning Indicator",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d805b2e6f380dd3b",
+      "text": "Source: Goldman Sachs Global Investment Research",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "773100892bcfc438",
+      "text": "US Data Response Indicator (DRI)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "a575774f42506af8",
+      "text": "Source: Goldman Sachs Global Investment Research",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "baaf3b25514de8f6",
+      "text": "CFTC Commitment of Traders and Traders in Financial Futures Duration-weighted net position by investor type",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "56818d721a2aac0b",
+      "text": "Duration-Weighted Positioning, by ContractSFMTUFVTYTNUSSpec Current-22.9-44.6-103.6-61.4-29.1-6.7Spec 1w Change-0.72.12.1-2.91.80.7LF Current-34.2-70.4-138.6-158.8-32.5-49.1LF 1w Change-1.62.81.1-8.32.50.2AM + Other Current19.079.9158.5167.152.471.5AM + Other 1w Change0.7-0.80.910.0-3.11.5Dealer Current14.9-13.6-27.9-16.3-16.0-38.0Dealer 1w Change1.2-1.9-1.30.00.9-2.0",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "17fc23e17a2bfff2",
+      "text": "Source:CFTC,Goldman Sachs Global Investment Research",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e1345f622c99a507",
+      "text": "Net positions in Eurodollars",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "411b38ace18c1096",
+      "text": "Note: Duration- weighted net position (long - short) as a % of duration- weighted gross exposure (long + short + spreading)",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "525a4d85cb109f64",
+      "text": "Source: CFTC, Goldman Sachs Global Investment Research",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "cac1b35004f7d17f",
+      "text": "Primary dealer transactions Net dealer position in US Treasuries",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "9e8338c4663608a9",
+      "text": "Source: Federal Reserve Bank of New York, Goldman Sachs Global Investment Research",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "3b2c6081ca7c3d3e",
+      "text": "NY Fed Custody Holdings Marketable US Treasuries",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "89050ae334f5a548",
+      "text": "Source: Federal Reserve Bank of New York",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "4306a39883c3c0c2",
+      "text": "Net positions in UST futures",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "fb8ba0b27dd4814c",
+      "text": "Note: Duration- weighted net position (long - short) as a % of duration- weighted gross exposure (long + short + spreading)",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "9a36ff825ad955ed",
+      "text": "Source: CFTC, Goldman Sachs Global Investment Research",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "e1a5f8411f6e02f2",
+      "text": "US Commercial Banks' Holdings of Treasury and Agency Securities Total domestic and foreign holdings, all commercial banks",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "bfcda35229c1239f",
+      "text": "Source: Federal Reserve Board",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "aec36723c558d54a",
+      "text": "US TIC Treasury Flows 12m change in valuation-adjusted holdings of USTs, by holder of debt",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "403131b1c69db15b",
+      "text": "Source: US Treasury, Goldman Sachs Global Investment Research",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "f50821747188f613",
+      "text": "Net monthly purchases of short and long term US Treasuries by Japanese investors",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "011dc938068b2736",
+      "text": "Source:Bank of Japan,Haver Analytics",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "f15be8d2b008b962",
+      "text": "Flow of Funds annual net purchases of US Treasuries, by sector",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "170b54917ce1772e",
+      "text": "Source:Federal Reserve Board, Goldman Sachs Global Investment Research",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "efb18dc38dead56d",
+      "text": "Bar chart shows top two carry points by currency, with solid reflecting carry to a long position and striped carry to a short position. Scatter illustrates top 25 carry/vol points by currency, with top point by currency noted",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "069b15ddbb24e7a5",
+      "text": "Source: Goldman Sachs Global Investment Research",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "629177597a10746d",
+      "text": "Bar chart shows top two carry curves by currency, with solid reflecting carry to a steepening position and striped carry to a flattening position. Scatter illustrates top 5 carry/vol curves by currency, with top curve by currency noted",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "82fb71a4293e19f6",
+      "text": "Source:Goldman Sachs Global Investment Research",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "cbd439bda8a560a8",
+      "text": "Bar chart shows top two carry flies by currency, with solid reflecting carry to a belly- richening fly and striped carry to a belly- cheapening fly. Scatter illustrates top 5 carry/vol flies by currency, with top fly by currency noted.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "a1563bc37539d9c2",
+      "text": "Source:Goldman Sachs Global Investment Research",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "4408da4fe76c6e10",
+      "text": "Gross Treasury auction size estimates by year end, with GS projections",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "baf2ce78b97f5ce0",
+      "text": "Monthly Auction Amounts at End of Calendar Year ($ billions)2y FRNs2y3y5y7y10y20y30y5y TIPS10y TIPS30y TIPSYE-21 (CY)26 / 24 (r)5654575639 / 36 (r)23 / 20 (r)25 / 22 (r)19 / 17 (r)16 / 14 (r)9 / 8 (r)YE-22 (CY)24 / 22 (r)4240433535 / 32 (r)15 / 12 (r)21 / 18 (r)21 / 19 (r)17 / 15 (r)9 / 8 (r)YE-23 (CY)28 / 26 (r)5750584040 / 37 (r)16 / 13 (r)24 / 21 (r)22 / 20 (r)17 / 15 (r)9 / 8 (r)YE-24 (CY)30 / 28 (r)6958704442 / 39 (r)16 / 13 (r)25 / 22 (r)24 / 22 (r)19 / 17 (r)9 / 8 (r)YE-25 (CY, GS)30 / 28 (r)6958704442 / 39 (r)16 / 13 (r)25 / 22 (r)26 / 24 (r)21 / 19 (r)9 / 8 (r)YE-26 (CY, GS)32 / 30 (r)7463754944 / 41 (r)18 / 15 (r)27 / 24 (r)27 / 25 (r)23 / 21 (r)10 / 9 (r)",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "8125081fae7dd66d",
+      "text": "\\\\* Original Issue / Reopening listed for FRNs, 10s, 20s, 30s, and TIPS.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "3ca7588d4cdfcc5b",
+      "text": "US Treasury Net Issuance by Calendar Year (\\$ billions)",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "ebf380347dfa0aee",
+      "text": "Net CouponsFedNet of FedNet BillsFedNet of FedCY 2023391-64810391978-742053CY 20241346-4751821511-23534CY 2025, GS1619-7916972668258CY 2026, GS13241981126729292437",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "f53d88c78696be18",
+      "text": "Source: Goldman Sachs Global Investment Research, US Department of the Treasury",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "8036f32dbf1406c8",
+      "text": "Duration supply (\\$bn 10y equiv)",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "31556792e7705d43",
+      "text": "Gross supplyFedNet of Fed228402284276502765280149275229142082707",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "3dcfeba1fde1a6d9",
+      "text": "Net issuance per quarter",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "57dd87b143f15577",
+      "text": "Source: Goldman Sachs Global Investment Research, US Department of the Treasury",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "19f23062f4a9bda4",
+      "text": "Average monthly UST issuance, gross and net of Fed purchases; \\$bn 10y equivalents",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "2c0f70c8c06af8c7",
+      "text": "Source: Goldman Sachs Global Investment Research, US Department of the Treasury",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "0119e10ecc34d77d",
+      "text": "Free float (Treasuries outstanding less Fed and foreign official holdings) as \\(\\%\\) of GDP",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "10551e74d84868e8",
+      "text": "Source:Haver Analytics,US Treasury,Goldman Sachs Global Investment Research",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "c7286a4027ddd81d",
+      "text": "Bills as a share of Treasuries outstanding and GS forecast Gray shading denotes TBAC recommended 15-20% range",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "1efb11fb9c3ddca9",
+      "text": "Source:US Treasury,Goldman Sachs Global Investment Research",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "da3f7d48ae35e4a2",
+      "text": "1y Range of G10 10y Yields, by Term Premium and Expectations Components",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "5b00858323b355e2",
+      "text": "Term Structure of Fitted Yields, by Component",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "0a72d34116371b8d",
+      "text": "Source:Goldman Sachs Global Investment Research",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "e9463e4c8707d95d",
+      "text": "GS Rates TradesActiveEntry DateOpenedLatestStopTargetPerformance1. Long 20s on 10s20s30s weighted SOFR fly (weights 0.6x : 2x : 1.4x)1-Aug-250.240.230.270.18+1 bps2. Long SFRZ5 vs ERZ58-Aug-251.841.831.951.54+1 bps3. Long 3m2y A-25bp receiver vs short 3m5y A-25bp receiver (return in bp running)8-Aug-250.010.01-0.050.15+0 bps4. Receive Sept 2025 BoC meeting OIS22-Aug-252.672.652.722.55+2 bps5. Gilt 2s5s Steepeners29-Aug-250.160.020.406. Long 1m2y USD receiver (return in bp running)29-Aug-250.100.050.18ClosedEntry DateClosedPerformance1. Own 3y USTs vs SOFR18-Nov-242-Jan-25+5 bps2. Buy JPY 6m5y payer on 6m 2s5s10s payer fly9-Aug-248-Jan-25+7 bps3. Sell USD 3m 2s10s curve cap3-Jan-2510-Jan-25-6 bps4. Own 2y3y USTs vs SOFR2-Jan-2524-Jan-25+4 bps5. Own CORUS17-Jan-2531-Jan-25+13 bps6. Long 2y SEK IRS17-Jan-2531-Jan-25+9 bps7. Receive 5y5y AUD IRS vs pay CAD 5y5y18-Nov-2431-Jan-25+1 bp8. ERM5/ZS flatteners17-Jan-257-Feb-25+5 bps9. Buy USD 3m2y A-5/A-35bp receiver spreads (return in bp running)19-Dec-2413-Feb-25-5 bps10. Pay 10s on weighted JPY 5s10s30s swap fly (weights 1.1x : 2c: 0.9x)10-Jan-2513-Feb-25+10 bps11. SFRZ5/ZS flatteners17-Jan-2513-Feb-25+7 bps12. Receive June 2025 ECB OIS7-Feb-2518-Feb-25-7 bps13. 2s5s CORRA steepeners vs 2s5s SOFR flatteners31-Jan-2528-Feb-25+5 bps14. Receive 2y1y on 1y1y/2y1y/5y5y SOFR fly21-Feb-255-Mar-25+7 bps15. Long USD 5y5y ZC inflation swap and long 0.2x USD 5y5y OIS6-Dec-246-Mar-25-10 bps16. 10s30s TIPS breakeven steepeners28-Feb-257-Mar-25+2 bps17. UST-SOFR 3s5s30s belly cheapening flies7-Mar-2521-Mar-25+2 bps18. Buy USD 6m5y A/A+30/A+60 payer fly20-Sep-2425-Mar-25-5 bps19. Buy USD 6m5y straddle on 6m 2s5s10s straddle fly8-Nov-2428-Mar-250 bps20. 10s30s Gilt flatteners31-Jan-2528-Mar-25-5 bps21. Long JPY 3m10y A/A+25bp payer spread (return in bp running)14-Feb-251-Apr-25+1 bps22. Pay 20s on 10s20s30s SOFR fly18-Nov-244-Apr-25+6 bps23. CORZ5/ZS steepeners7-Mar-254-Apr-25+0 bps24. Buy 5y TIPS on a beta weighted basis versus nominals (1:0.75x)21-Mar-254-Apr-25+4 bps25. JPY 1y1y/2y1y swap steepener21-Feb-254-Apr-25-6 bps26. JGB 10s30s flattener25-Apr-252-May-25-14 bps27. Receive 5y AUD IRS vs pay 5y NZD21-Feb-252-May-25+1 bp28. Pay 2y2y CORRA vs receive 2y2y SOFR4-Apr-259-May-25+8 bps29. Sell 1x2 A/A+17 3m 2s10s curve cap spread21-Mar-2513-May-25+2 bps30. Receive July BoC meeting OIS23-Mar-256-Jun-25-5 bps31. Long 30y TIPS vs short 0.75x 30y nominal UST17-Apr-256-Jun-25+4 bps32. Long 10y10y Gilt US USTs16-May-2520-Jun-25+23 bps33. Buy SFRZ5 96.25 put vs sell 0QZ5 96.25 put (in net premium)7-Mar-2527-Jun-25+16 bps34. Long 3y SOFR-UST swap spreads2-May-252-Jul-25+1 bps35. Receive December 2025 BoE meeting OIS30-May-2518-Jul-25+11 bps36. Long 5y TIPS vs short 0.7x 5y nominal UST6-Jun-2518-Jul-25+29 bps37. 2s5s SOFR curve steepeners27-Jun-2530-Jul-25-5 bps38. Long 5y SOFR-UST swap spreads11-Jul-251-Aug-25+4 bps39. Long 3m10y USD payer on 3m 5s10s30s payer fly (return in bp running)2-May-255-Aug-25+0 bps40. Long 1m2y USD receiver (return in bp running)25-Jul-258-Aug-25+8 bps41. Long SFRZ5 vs ERZ518-Jul-2519-Aug-25+0 bps42. Receive December 2025 BoC meeting OIS18-Jul-2519-Aug-25+5 bps42. Long 1m2y USD receiver vs sell A+10 payer (payer added 15 Aug; return in bp running)8-Aug-2529-Aug-25+4 bps",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "ec8b755d01cb81d8",
+      "text": "Note: Potential profit/loss estimates are given as per unit of duration risk, through yesterday's close.",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "6a225efa5178c6db",
+      "text": "We, George Cole, William Marshall, Bill Zu, Simon Freycnet and Friedrich Schaper, hereby certify that all of the views expressed in this report accurately reflect our personal views, which have not been influenced by considerations of the firm's business or client relationships.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "f590c7a3e9d591e0",
+      "text": "Unless otherwise stated, the individuals listed on the cover page of this report are analysts in Goldman Sachs' Global Investment Research division.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "f68eee3837d62ec1",
+      "text": "See company- specific regulatory disclosures above for any of the following disclosures required as to companies referred to in this report: manager or co- manager in a pending transaction; \\(1\\%\\) or other ownership; compensation for certain services; types of client relationships; managed/co- managed public offerings in prior periods; directorships; for equity securities, market making and/or specialist role. Goldman Sachs trades or may trade as a principal in debt securities (or in related derivatives) of issuers discussed in this report.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "973e0f0a3e95230c",
+      "text": "The following are additional required disclosures: Ownership and material conflicts of interest: Goldman Sachs policy prohibits its analysts, professionals reporting to analysts and members of their households from owning securities of any company in the analyst's area of coverage. Analyst compensation: Analysts are paid in part based on the profitability of Goldman Sachs, which includes investment banking revenues. Analyst as officer or director: Goldman Sachs policy generally prohibits its analysts, persons reporting to analysts or members of their households from serving as an officer, director or advisor of any company in the analyst's area of coverage. Non- U.S. Analysts: Non- U.S. analysts may not be associated persons of Goldman Sachs & Co. LLC and therefore may not be subject to FINRA Rule 2241 or FINRA Rule 2242 restrictions on communications with subject company, public appearances and trading securities held by the analysts.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "9a7c6f3e9067cf63",
+      "text": "The following disclosures are those required by the jurisdiction indicated, except to the extent already made above pursuant to United States laws and regulations. Australia: Goldman Sachs Australia Pty Ltd and its affiliates are not authorised deposit- taking institutions (as that term is defined in the Banking Act 1959 (Cth)) in Australia and do not provide banking services, nor carry on a banking business, in Australia. This research, and any access to it, is intended only for \"wholesale clients\" within the meaning of the Australian Corporations Act, unless otherwise agreed by Goldman Sachs. In producing research reports, members of Global Investment Research of Goldman Sachs Australia may attend site visits and other meetings hosted by the companies and other entities which are the subject of its research reports. In some instances the costs of such site visits or meetings may be met in part or in whole by the issuers concerned if Goldman Sachs Australia considers it is appropriate and reasonable in the specific circumstances relating to the site visit or meeting. To the extent that the contents of this document contains any financial product advice, it is general advice only and has been prepared by Goldman Sachs without taking into account a client's objectives, financial situation or needs. A client should, before acting on any such advice, consider the appropriateness of the advice having regard to the client's own objectives, financial situation and needs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests and a copy of Goldman Sachs' Australian Sell- Side Research Independence Policy Statement are available at: https://www.goldmansachs.com/disclosures/australia- new- zealand/index.html. Brazil: Disclosure information in relation to CVM Resolution n. 20 is available at https://www.gs.com/worldwide/brazil/area/gir/index.html. Where applicable, the Brazil- registered analyst primarily responsible for the content of this research report, as defined in Article 20 of CVM Resolution n. 20, is the first author named at the beginning of this report, unless indicated otherwise at the end of the text. Canada: This information is being provided to you for information purposes only and is not, and under no circumstances should be construed as, an advertisement, offering or solicitation by Goldman Sachs & Co. LLC for purchasers of securities in Canada to trade in any Canadian security. Goldman Sachs & Co. LLC is not registered as a dealer in any jurisdiction in Canada under applicable Canadian securities laws and generally is not permitted to trade in Canadian securities and may be prohibited from selling certain securities and products in certain jurisdictions in Canada. If you wish to trade in any Canadian securities or other products in Canada please contact Goldman Sachs Canada Inc., an affiliate of The Goldman Sachs Group Inc., or another registered Canadian dealer. Hong Kong: Further information on the securities of covered companies referred to in this research may be obtained on request from Goldman Sachs (Asia) L.L.C. India: Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (India) Securities Private Limited, Research Analyst - SEBI Registration Number INH000001493, 951- A, Rational House, Appasahbe Marathe Marg, Prabhadevi, Mumbai 400 025, India, Corporate Identity Number U74140MH2006FTC160634, Phone +91 22 6616 9000, Fax +91 22 6616 9001. Goldman Sachs may beneficially own \\(1\\%\\) or more of the securities (as such term is defined in clause 2 (h) the Indian Securities Contracts (Regulation) Act, 1956) of the subject company or companies referred to in this research report. Investment in securities market are subject to market risks. Read all the related documents carefully before investing. Registration granted by SEBI and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Goldman Sachs (India) Securities Private Limited compliance officer and investor grievance contact details can be found at this link: https://publishing.gs.com/disclosures/hdeq.html - /general/equity. Japan: See below. Korea: This research, and any access to it, is intended only for \"professional investors\" within the meaning of the Financial Services and Capital Markets Act, unless otherwise agreed by Goldman Sachs. Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (Asia) L.L.C., Seoul Branch. New Zealand: Goldman Sachs New Zealand Limited and its affiliates are neither \"registered banks\" nor \"deposit takers\" (as defined in the Reserve Bank of New Zealand Act 1989) in New Zealand. This research, and any access to it, is intended for \"wholesale clients\" (as defined in the Financial Advisers Act 2008) unless otherwise agreed by Goldman Sachs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests is available at: https://www.goldmansachs.com/disclosures/australia- new- zealand/index.html. Russia: Research reports distributed in the Russian Federation are not advertising as defined in the Russian legislation, but are information and analysis not having product promotion as their main purpose and do not provide appraisal within the meaning of the Russian legislation on appraisal activity. Research reports do not constitute a personalized investment recommendation as defined in Russian laws and regulations, are not addressed to a specific client, and are prepared without analyzing the financial circumstances, investment profiles or risk profiles of clients. Goldman Sachs assumes no responsibility for any investment decisions that may be taken by a client or any other person based on this research report. Singapore: Goldman Sachs (Singapore) Pte. (Company Number: 198602165W), which is regulated by the Monetary Authority of Singapore, accepts legal responsibility for this research, and should be contacted with respect to any matters arising from, or in connection with, this research. Taiwan: This material is for reference only and must not be reprinted without permission. Investors should carefully consider their own investment risk. Investment results are the responsibility of the individual investor. United Kingdom: Persons who would be categorized as retail clients in the United Kingdom, as such term is defined in the rules of the Financial Conduct Authority, should read this research in conjunction with prior Goldman Sachs research on the covered companies referred to herein and should refer to the risk warnings that have been sent to them by Goldman Sachs International. A copy of these risks warnings, and a glossary of certain financial terms used in this report, are available from Goldman Sachs International on request.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "886dbfb94d1eb6ca",
+      "text": "European Union and United Kingdom: Disclosure information in relation to Article 6 (2) of the European Commission Delegated Regulation (EU) (2016/958) supplementing Regulation (EU) No 596/2014 of the European Parliament and of the Council (including as that Delegated Regulation is",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "04569319185c8533",
+      "text": "implemented into United Kingdom domestic law and regulation following the United Kingdom's departure from the European Union and the European Economic Area) with regard to regulatory technical standards for the technical arrangements for objective presentation of investment recommendations or other information recommending or suggesting an investment strategy and for disclosure of particular interests or indications of conflicts of interest is available at https://www.gs.com/disclosures/europeanpolicy.html which states the European Policy for Managing Conflicts of Interest in Connection with Investment Research.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "132cfd11bbc83bcd",
+      "text": "Japan: Goldman Sachs Japan Co., Ltd. is a Financial Instrument Dealer registered with the Kanto Financial Bureau under registration number Kinsho 69, and a member of Japan Securities Dealers Association, Financial Futures Association of Japan Type II Financial Instruments Firms Association, The Investment Trusts Association, Japan, and Japan Investment Advisers Association. Sales and purchase of equities are subject to commission pre- determined with clients plus consumption tax. See company- specific disclosures as to any applicable disclosures required by Japanese stock exchanges, the Japanese Securities Dealers Association or the Japanese Securities Finance Company.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "93359d67c1f67e50",
+      "text": "Goldman Sachs International (\"GSI\"), authorised by the Prudential Regulation Authority (\"PRA\") and regulated by the Financial Conduct Authority (\"FCA\") and the PRA, has approved this research in connection with its distribution in the United Kingdom.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "8f95bcc08f9946f5",
+      "text": "European Economic Area: GSI, authorised by the PRA and regulated by the FCA and the PRA, disseminates research in the following jurisdictions within the European Economic Area: the Grand Duchy of Luxembourg, Italy, the Kingdom of Belgium, the Kingdom of Denmark, the Kingdom of Norway, the Republic of Finland and the Republic of Ireland; GSI - Succursale de Paris (Paris branch) which is authorised by the French Autorite de controle prudentiel et de resolution (\"ACPR\") and regulated by the Autorite de controle prudentiel et de resolution and the Autorite des marches financiers (\"AMF\") disseminates research in France; GSI - Sucursal en Espana (Madrid branch) authorized in Spain by the Comision Nacional del Mercado de Valores disseminates research in the Kingdom of Spain; GSI - Sweden Bankfall (Stockholm branch) is authorized by the SFSA as a \"third country branch\" in accordance with Chapter 4, Section 4 of the Swedish Securities and Market Act (Sw. lag (2007:528) on vardepappersmarknaden) disseminates research in the Kingdom of Sweden; Goldman Sachs Bank Europe SE (\"GSBE\") is a credit institution incorporated in Germany and, within the Single Supervisory Mechanism, subject to direct prudential supervision by the European Central Bank and in other respects supervised by German Federal Financial Supervisory Authority (Bundesanstalt fur Finanzdienstleistungsaufsicht, BaFin) and Deutsche Bundesbank and disseminates research in the Federal Republic of Germany and those jurisdictions within the European Economic Area where GSI is not authorised to disseminate research and additionally, GSBE, Copenhagen Branch filial of GSBE, Tyskland, supervised by the Danish Financial Authority disseminates research in the Kingdom of Denmark; GSBE - Sucursal en Espana (Madrid branch) subject to a limited extent) to local supervision by the Bank of Spain disseminates research in the Kingdom of Spain; GSBE - Sucursale Italia (Milan branch) to the relevant applicable extent, subject to local supervision by the Bank of Italy (Banca d'Italia) and the Italian Companies and Exchange Commission (Commissione Nazionale per le Societa e la Borsa \"Consob\") disseminates research in Italy; GSBE - Sucursale de Paris (Paris branch), supervised by the AMF and by the ACPR disseminates research in France; and GSBE - Sweden Bankfall (Stockholm branch), to a limited extent, subject to local supervision by the Swedish Financial Supervisory Authority (Finansinspektionen) disseminates research in the Kingdom of Sweden.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "d4487338d6d10192",
+      "text": "This research is for our clients only. Other than disclosures relating to Goldman Sachs, this research is based on current public information that we consider reliable, but we do not represent it is accurate or complete, and it should not be relied on as such. The information, opinions, estimates and forecasts contained herein are as of the date hereof and are subject to change without prior notification. We seek to update our research as appropriate, but various regulations may prevent us from doing so. Other than certain industry reports published on a periodic basis, the large majority of reports are published at irregular intervals as appropriate in the analyst's judgment.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "6b7717948345b0f4",
+      "text": "Goldman Sachs conducts a global full- service, integrated investment banking, investment management, and brokerage business. We have investment banking and other business relationships with a substantial percentage of the companies covered by Global Investment Research. Goldman Sachs & Co. LLC, the United States broker dealer, is a member of SIPC (https://www.sipc.org).",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "5deb42e8ad84af0c",
+      "text": "Our salespeople, traders, and other professionals may provide oral or written market commentary or trading strategies to our clients and principal trading desks that reflect opinions that are contrary to the opinions expressed in this research. Our asset management area, principal trading desks and investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "6b8bd696f499e1d0",
+      "text": "We and our affiliates, officers, directors, and employees will from time to time have long or short positions in, act as principal in, and buy or sell, the securities or derivatives, if any, referred to in this research, unless otherwise prohibited by regulation or Goldman Sachs policy.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "bb297e94d59bda16",
+      "text": "The views attributed to third party presenters at Goldman Sachs arranged conferences, including individuals from other parts of Goldman Sachs, do not necessarily reflect those of Global Investment Research and are not an official view of Goldman Sachs.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "2af881993bd0fe4e",
+      "text": "Any third party referenced herein, including any salespeople, traders and other professionals or members of their household, may have positions in the products mentioned that are inconsistent with the views expressed by analysts named in this report.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "dc608267e30ca365",
+      "text": "This research is focused on investment themes across markets, industries and sectors. It does not attempt to distinguish between the prospects or performance of, or provide analysis of, individual companies within any industry or sector we describe.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "8f05159f3176a8e6",
+      "text": "Any trading recommendation in this research relating to an equity or credit security or securities within an industry or sector is reflective of the investment theme being discussed and is not a recommendation of any such security in isolation.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "48eab2e67d050b1f",
+      "text": "This research is not an offer to sell or the solicitation of an offer to buy any security in any jurisdiction where such an offer or solicitation would be illegal. It does not constitute a personal recommendation or take into account the particular investment objectives, financial situations, or needs of individual clients. Clients should consider whether any advice or recommendation in this research is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The price and value of investments referred to in this research and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "e049192206dab511",
+      "text": "Certain transactions, including those involving futures, options, and other derivatives, give rise to substantial risk and are not suitable for all investors. Investors should review current options and futures disclosure documents which are available from Goldman Sachs sales representatives or at https://www.theocc.com/about/publications/character-risks.jsp and https://www.goldmansachs.com/disclosures/cftc_fcm disclosures. Transaction costs may be significant in option strategies calling for multiple purchase and sales of options such as spreads. Supporting documentation will be supplied upon request.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "5dd6d727e5e39a11",
+      "text": "Differing Levels of Service provided by Global Investment Research: The level and types of services provided to you by Goldman Sachs Global Investment Research may vary as compared to that provided to internal and other external clients of GS, depending on various factors including your individual preferences as to the frequency and manner of receiving communication, your risk profile and investment focus and perspective (e.g., marketwide, sector specific, long term, short term), the size and scope of your overall client relationship with GS, and legal and regulatory constraints. As an example, certain clients may request to receive notifications when research on specific securities is published, and certain clients may request that specific data underlying analysts' fundamental analysis available on our internal client websites be delivered to them electronically through data feeds or otherwise. No change to an analyst's fundamental research views (e.g., ratings, price targets, or material changes to earnings estimates for equity securities), will be communicated to any client prior to inclusion of such information in a research report broadly disseminated through electronic publication to our internal client websites or through other means, as necessary, to all clients who are entitled to receive such reports.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "3285166ab6b5559e",
+      "text": "All research reports are disseminated and available to all clients simultaneously through electronic publication to our internal client websites. Not all research content is redistributed to our clients or available to third- party aggregators, nor is Goldman Sachs responsible for the redistribution of our research by third party aggregators. For research, models or other data related to one or more securities, markets or asset classes (including related services) that may be available to you, please contact your GS representative or go to https://research.gs.com.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "7c27116c1ad16bd3",
+      "text": "Disclosure information is also available at https://www.gs.com/research/hedge.html or from Research Compliance, 200 West Street, New York, NY 10282.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "16fae73d6fea78a4",
+      "text": "You are permitted to store, display, analyze, modify, reformat, and print the information made available to you via this service only for your own use. You may not resell or reverse engineer this information to calculate or develop any index for disclosure and/or marketing or create any other derivative works or commercial products), data or offerings) without the express written consent of Goldman Sachs. You are not permitted to publish, transmit, or otherwise reproduce this information, in whole or in part, in any format to any third party without the express written consent of Goldman Sachs. This foregoing restriction includes, without limitation, using, extracting, downloading or retrieving this information, in whole or in part, to train or finetune a machine learning or artificial intelligence system, or to provide or reproduce this information, in whole or in part, as a prompt or input to any such system.",
+      "page": 18,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fac9f443a3f4c9cb",
+      "name": "Agency Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c3df8514b12c5ac7",
+      "name": "Although French",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e4903db97ad73a95",
+      "name": "And Traded",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0b7770fe3c1b61c9",
+      "name": "Appasahbe Marathe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6d4488d766412406",
+      "name": "Australia Pty",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facedae141187a9f",
+      "name": "Australian Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "37943b86af92d90f",
+      "name": "Australian Sell",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "10c4b9fb39db2245",
+      "name": "Bank Europe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ee5502da1389405f",
+      "name": "Bank Rate",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "665d58562cca56d1",
+      "name": "Banking Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5fb230b4a15aa4b8",
+      "name": "Bill Zu",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b65f73e4936a2d97",
+      "name": "BoC Meeting",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "686c015c00bf83fd",
+      "name": "BoE Governor",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6ef6ecfb0309c312",
+      "name": "Buy JPY",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d6fc8f836d7876c8",
+      "name": "Buy USD",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7cf340f0ce82f127",
+      "name": "CVM Resolution",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9af1db6b69995fd4",
+      "name": "Calendar Year",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9d6335405966e518",
+      "name": "Canada\n\nOwn",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "13eec11f9f77d58d",
+      "name": "Canada Inc",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "bar",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "USD",
+              "DEM",
+              "FRA",
+              "ITA",
+              "ESP",
+              "BoE",
+              "BoJ",
+              "CAD",
+              "AUD",
+              "NZD",
+              "SEK"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 60
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "1y ago",
+            "unit": "%",
+            "values": [
+              19.5,
+              25.5,
+              17.5,
+              15.5,
+              21.5,
+              26.5,
+              52.5,
+              21.5,
+              28.5,
+              15.5,
+              26.0
+            ]
+          },
+          {
+            "name": "Latest estimate",
+            "unit": "%",
+            "values": [
+              17.0,
+              39.0,
+              26.0,
+              24.0,
+              30.5,
+              21.5,
+              49.5,
+              16.5,
+              23.5,
+              8.5,
+              11.5
+            ]
+          }
+        ],
+        "figure_id": "7d338394fce872a6",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Japan BoP: Net Investment in Treasuries",
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Oct-20",
+              "Apr-21",
+              "Oct-21",
+              "Apr-22",
+              "Oct-22",
+              "Apr-23",
+              "Oct-23",
+              "Apr-24",
+              "Oct-24",
+              "Apr-25"
+            ]
+          },
+          "y": {
+            "unit": "¥tn.",
+            "range": {
+              "min": -6,
+              "max": 8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Net Investment in Treasuries",
+            "unit": "¥tn.",
+            "values": [
+              0.3,
+              3.8,
+              1.2,
+              0.2,
+              1.7,
+              1.8,
+              -0.5,
+              1.6,
+              3.8,
+              -0.8,
+              -1.5,
+              -0.2,
+              -2.5,
+              -3.2,
+              -2.6,
+              -3.5,
+              -4.0,
+              0.7,
+              -0.5,
+              -2.2,
+              -1.5,
+              0.8,
+              4.7,
+              4.4,
+              0.3,
+              3.2,
+              1.8,
+              0.5,
+              1.0,
+              1.8,
+              3.1,
+              1.0,
+              1.2,
+              1.5,
+              0.8,
+              1.2,
+              1.5,
+              3.0,
+              1.0,
+              0.2,
+              5.5,
+              1.5,
+              -2.8,
+              -1.8,
+              -0.5,
+              -0.8,
+              -0.5,
+              3.2,
+              -0.8
+            ]
+          }
+        ],
+        "figure_id": "deb70c0a28980bbd",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "line",
+        "title": "Today vs. 3m Ago",
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "linear",
+            "labels": [
+              "0",
+              "12",
+              "24",
+              "36",
+              "48",
+              "60",
+              "72",
+              "84",
+              "96"
+            ],
+            "title": "Months from today"
+          },
+          "y": {
+            "unit": "bp",
+            "range": {
+              "min": -250,
+              "max": 250
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "USD current",
+            "unit": "bp",
+            "values": [
+              0,
+              -70,
+              -135,
+              -120,
+              -80,
+              -40,
+              -10,
+              -5,
+              0
+            ]
+          },
+          {
+            "name": "USD 3m ago",
+            "unit": "bp",
+            "values": [
+              0,
+              -100,
+              -150,
+              -125,
+              -90,
+              -50,
+              -20,
+              -10,
+              -5
+            ]
+          },
+          {
+            "name": "EUR",
+            "unit": "bp",
+            "values": [
+              0,
+              -20,
+              -10,
+              10,
+              30,
+              50,
+              70,
+              90,
+              110
+            ]
+          },
+          {
+            "name": "EUR 3m ago",
+            "unit": "bp",
+            "values": [
+              0,
+              -30,
+              -20,
+              0,
+              20,
+              40,
+              60,
+              80,
+              100
+            ]
+          },
+          {
+            "name": "GBP",
+            "unit": "bp",
+            "values": [
+              0,
+              -30,
+              -20,
+              0,
+              20,
+              40,
+              55,
+              65,
+              75
+            ]
+          },
+          {
+            "name": "GBP 3m ago",
+            "unit": "bp",
+            "values": [
+              0,
+              -40,
+              -30,
+              -10,
+              10,
+              30,
+              45,
+              55,
+              65
+            ]
+          },
+          {
+            "name": "JPY",
+            "unit": "bp",
+            "values": [
+              0,
+              40,
+              60,
+              80,
+              100,
+              120,
+              135,
+              145,
+              150
+            ]
+          },
+          {
+            "name": "JPY 3m ago",
+            "unit": "bp",
+            "values": [
+              0,
+              20,
+              40,
+              60,
+              80,
+              95,
+              105,
+              110,
+              115
+            ]
+          }
+        ],
+        "figure_id": "461b9bf972a64323",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "line",
+        "title": "SFR Positions",
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-20",
+              "Apr-21",
+              "Nov-21",
+              "Jun-22",
+              "Jan-23",
+              "Aug-23",
+              "Mar-24",
+              "Oct-24",
+              "May-25"
+            ]
+          },
+          "y": {
+            "unit": "% of OI",
+            "range": {
+              "min": -4,
+              "max": 3
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Spec SFR",
+            "unit": "% of OI",
+            "values": [
+              0.0,
+              -0.1,
+              -0.8,
+              -2.5,
+              -0.5,
+              1.0,
+              0.5,
+              -2.0,
+              -1.5
+            ]
+          },
+          {
+            "name": "LF SFR",
+            "unit": "% of OI",
+            "values": [
+              0.5,
+              0.0,
+              -0.5,
+              -1.0,
+              1.0,
+              1.5,
+              2.0,
+              0.0,
+              -2.0
+            ]
+          },
+          {
+            "name": "AM + Other SFR",
+            "unit": "% of OI",
+            "values": [
+              0.0,
+              0.0,
+              0.0,
+              -0.5,
+              1.0,
+              0.5,
+              -1.0,
+              1.0,
+              0.5
+            ]
+          }
+        ],
+        "figure_id": "b656e22f822551da",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "line",
+        "title": "United States",
+        "page": 14,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ],
+            "label_name": "Years"
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -1.0,
+              "max": 5.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Expectations",
+            "unit": "%",
+            "values": [
+              3.4,
+              3.1,
+              3.0,
+              2.9,
+              2.9,
+              2.9,
+              2.8,
+              2.8,
+              2.8,
+              2.8
+            ]
+          },
+          {
+            "name": "Expectations, 1y ago",
+            "unit": "%",
+            "values": [
+              4.1,
+              3.7,
+              3.4,
+              3.3,
+              3.2,
+              3.1,
+              3.1,
+              3.1,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "name": "Term Premium",
+            "unit": "%",
+            "values": [
+              0.2,
+              0.5,
+              0.7,
+              0.8,
+              0.9,
+              1.1,
+              1.2,
+              1.3,
+              1.4,
+              1.5
+            ]
+          },
+          {
+            "name": "Term Premium, 1y ago",
+            "unit": "%",
+            "values": [
+              0.0,
+              0.2,
+              0.4,
+              0.5,
+              0.6,
+              0.7,
+              0.8,
+              0.9,
+              1.0,
+              0.8
+            ]
+          }
+        ],
+        "figure_id": "76b506b0afaad35b",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 2,
+        "axes": null,
+        "series": [],
+        "figure_id": "78eb3ecfc2d326f7",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Rest of Europe",
+              "Euro Area",
+              "Rest of World",
+              "Africa",
+              "Middle East",
+              "Lat-Am",
+              "Japan",
+              "China"
+            ]
+          },
+          "y": {
+            "unit": "$bn.",
+            "range": {
+              "min": -150,
+              "max": 250
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$bn.",
+            "values": [
+              125,
+              110,
+              10,
+              3,
+              -25,
+              -30,
+              -45,
+              -110
+            ]
+          }
+        ],
+        "figure_id": "1c3a5ab5278cee93",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "line",
+        "title": "Japan",
+        "page": 15,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ],
+            "label_name": "Years"
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0.0,
+              "max": 1.4
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Expectations",
+            "unit": "%",
+            "values": [
+              {
+                "x": 1,
+                "y": 0.51
+              },
+              {
+                "x": 2,
+                "y": 0.46
+              },
+              {
+                "x": 3,
+                "y": 0.42
+              },
+              {
+                "x": 4,
+                "y": 0.39
+              },
+              {
+                "x": 5,
+                "y": 0.36
+              },
+              {
+                "x": 6,
+                "y": 0.35
+              },
+              {
+                "x": 7,
+                "y": 0.34
+              },
+              {
+                "x": 8,
+                "y": 0.33
+              },
+              {
+                "x": 9,
+                "y": 0.32
+              },
+              {
+                "x": 10,
+                "y": 0.31
+              }
+            ]
+          },
+          {
+            "name": "Expectations, 1y ago",
+            "unit": "%",
+            "values": [
+              {
+                "x": 1,
+                "y": 0.18
+              },
+              {
+                "x": 2,
+                "y": 0.21
+              },
+              {
+                "x": 3,
+                "y": 0.21
+              },
+              {
+                "x": 4,
+                "y": 0.22
+              },
+              {
+                "x": 5,
+                "y": 0.22
+              },
+              {
+                "x": 6,
+                "y": 0.22
+              },
+              {
+                "x": 7,
+                "y": 0.22
+              },
+              {
+                "x": 8,
+                "y": 0.22
+              },
+              {
+                "x": 9,
+                "y": 0.22
+              },
+              {
+                "x": 10,
+                "y": 0.22
+              }
+            ]
+          },
+          {
+            "name": "Term Premium",
+            "unit": "%",
+            "values": [
+              {
+                "x": 1,
+                "y": 0.18
+              },
+              {
+                "x": 2,
+                "y": 0.33
+              },
+              {
+                "x": 3,
+                "y": 0.5
+              },
+              {
+                "x": 4,
+                "y": 0.66
+              },
+              {
+                "x": 5,
+                "y": 0.82
+              },
+              {
+                "x": 6,
+                "y": 0.95
+              },
+              {
+                "x": 7,
+                "y": 1.05
+              },
+              {
+                "x": 8,
+                "y": 1.12
+              },
+              {
+                "x": 9,
+                "y": 1.2
+              },
+              {
+                "x": 10,
+                "y": 1.28
+              }
+            ]
+          },
+          {
+            "name": "Term Premium, 1y ago",
+            "unit": "%",
+            "values": [
+              {
+                "x": 1,
+                "y": 0.04
+              },
+              {
+                "x": 2,
+                "y": 0.09
+              },
+              {
+                "x": 3,
+                "y": 0.17
+              },
+              {
+                "x": 4,
+                "y": 0.25
+              },
+              {
+                "x": 5,
+                "y": 0.33
+              },
+              {
+                "x": 6,
+                "y": 0.44
+              },
+              {
+                "x": 7,
+                "y": 0.53
+              },
+              {
+                "x": 8,
+                "y": 0.6
+              },
+              {
+                "x": 9,
+                "y": 0.65
+              },
+              {
+                "x": 10,
+                "y": 0.69
+              }
+            ]
+          }
+        ],
+        "figure_id": "68a7c62218e3a9ae",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "USD",
+              "EUR",
+              "GBP",
+              "JPY",
+              "CAD",
+              "AUD",
+              "NZD"
+            ]
+          },
+          "y": {
+            "unit": "bp",
+            "range": {
+              "min": 0,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "USD 1s15s (carry to steepener)",
+            "unit": "bp",
+            "values": [
+              27
+            ]
+          },
+          {
+            "name": "USD 1s10s (carry to flattener)",
+            "unit": "bp",
+            "values": [
+              27
+            ]
+          },
+          {
+            "name": "EUR 1s7s (carry to steepener)",
+            "unit": "bp",
+            "values": [
+              6
+            ]
+          },
+          {
+            "name": "EUR 1s5s (carry to flattener)",
+            "unit": "bp",
+            "values": [
+              6
+            ]
+          },
+          {
+            "name": "GBP 1s10s (carry to steepener)",
+            "unit": "bp",
+            "values": [
+              12
+            ]
+          },
+          {
+            "name": "GBP 1s15s (carry to flattener)",
+            "unit": "bp",
+            "values": [
+              12
+            ]
+          },
+          {
+            "name": "JPY 1s30s (carry to steepener)",
+            "unit": "bp",
+            "values": [
+              7
+            ]
+          },
+          {
+            "name": "JPY 1s20s (carry to flattener)",
+            "unit": "bp",
+            "values": [
+              6
+            ]
+          },
+          {
+            "name": "CAD 2s7s (carry to steepener)",
+            "unit": "bp",
+            "values": [
+              2
+            ]
+          },
+          {
+            "name": "CAD 2s10s (carry to flattener)",
+            "unit": "bp",
+            "values": [
+              2
+            ]
+          },
+          {
+            "name": "AUD 1s7s (carry to steepener)",
+            "unit": "bp",
+            "values": [
+              13
+            ]
+          },
+          {
+            "name": "AUD 1s10s (carry to flattener)",
+            "unit": "bp",
+            "values": [
+              13
+            ]
+          },
+          {
+            "name": "NZD 1s7s (carry to steepener)",
+            "unit": "bp",
+            "values": [
+              11
+            ]
+          },
+          {
+            "name": "NZD 1s5s (carry to flattener)",
+            "unit": "bp",
+            "values": [
+              11
+            ]
+          }
+        ],
+        "figure_id": "7ca8459358018e5d",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1s15s30s\n1s15s20s\nUSD",
+              "1s7s30s\n1s15s30s\nEUR",
+              "1s10s30s\n1s15s30s\nGBP",
+              "1s7s15s\n1s7s10s\nJPY",
+              "2s7s30s\n2s10s30s\nCAD",
+              "1s7s30s\n1s10s30s\nAUD",
+              "1s7s30s\n1s5s30s\nNZD",
+              "Delivered Vol (3m)"
+            ]
+          },
+          "y": {
+            "unit": "bp",
+            "range": {
+              "min": -10,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Solid represents carry to belly richening fly",
+            "unit": "bp",
+            "values": [
+              {
+                "x_label": "1s15s30s\n1s15s20s\nUSD",
+                "value": 28
+              },
+              {
+                "x_label": "1s7s30s\n1s15s30s\nEUR",
+                "value": 8
+              },
+              {
+                "x_label": "1s10s30s\n1s15s30s\nGBP",
+                "value": 13
+              },
+              {
+                "x_label": "1s7s15s\n1s7s10s\nJPY",
+                "value": 5
+              },
+              {
+                "x_label": "2s7s30s\n2s10s30s\nCAD",
+                "value": 6
+              },
+              {
+                "x_label": "1s7s30s\n1s10s30s\nAUD",
+                "value": 16
+              },
+              {
+                "x_label": "1s7s30s\n1s5s30s\nNZD",
+                "value": 14
+              }
+            ]
+          },
+          {
+            "name": "Striped represents carry to belly cheapening fly",
+            "unit": "bp",
+            "values": [
+              {
+                "x_label": "1s15s30s\n1s15s20s\nUSD",
+                "value": 28
+              },
+              {
+                "x_label": "1s7s30s\n1s15s30s\nEUR",
+                "value": 8
+              },
+              {
+                "x_label": "1s10s30s\n1s15s30s\nGBP",
+                "value": 13
+              },
+              {
+                "x_label": "1s7s15s\n1s7s10s\nJPY",
+                "value": 5
+              },
+              {
+                "x_label": "2s7s30s\n2s10s30s\nCAD",
+                "value": 6
+              },
+              {
+                "x_label": "1s7s30s\n1s10s30s\nAUD",
+                "value": 16
+              },
+              {
+                "x_label": "1s7s30s\n1s5s30s\nNZD",
+                "value": 14
+              }
+            ]
+          },
+          {
+            "name": "USD: 2s3s4s",
+            "unit": "Outright Carry (3m)",
+            "values": [
+              {
+                "x": 1.5,
+                "y": 1
+              },
+              {
+                "x": 2.5,
+                "y": 2.5
+              },
+              {
+                "x": 3.5,
+                "y": 4
+              }
+            ]
+          },
+          {
+            "name": "EUR: 1s2s3s",
+            "unit": "Outright Carry (3m)",
+            "values": [
+              {
+                "x": 0.5,
+                "y": 0.5
+              },
+              {
+                "x": 1.5,
+                "y": 1.5
+              },
+              {
+                "x": 2.5,
+                "y": 2.5
+              }
+            ]
+          },
+          {
+            "name": "GBP: 10s15s30s",
+            "unit": "Outright Carry (3m)",
+            "values": [
+              {
+                "x": 11,
+                "y": 11
+              },
+              {
+                "x": 12,
+                "y": 12
+              },
+              {
+                "x": 18,
+                "y": 15
+              }
+            ]
+          },
+          {
+            "name": "JPY: 1s4s7s",
+            "unit": "Outright Carry (3m)",
+            "values": [
+              {
+                "x": 2,
+                "y": -2
+              },
+              {
+                "x": 4,
+                "y": -4
+              },
+              {
+                "x": 6,
+                "y": -5
+              }
+            ]
+          },
+          {
+            "name": "CAD: 5s7s10s",
+            "unit": "Outright Carry (3m)",
+            "values": [
+              {
+                "x": 5,
+                "y": 6
+              },
+              {
+                "x": 6,
+                "y": 7
+              },
+              {
+                "x": 7,
+                "y": 8
+              }
+            ]
+          },
+          {
+            "name": "AUD",
+            "unit": "Outright Carry (3m)",
+            "values": [
+              {
+                "x": 8,
+                "y": 12
+              },
+              {
+                "x": 9,
+                "y": 13
+              },
+              {
+                "x": 10,
+                "y": 14
+              },
+              {
+                "x": 11,
+                "y": 15
+              }
+            ]
+          },
+          {
+            "name": "NZD: 1s5s30s",
+            "unit": "Outright Carry (3m)",
+            "values": [
+              {
+                "x": 17,
+                "y": 18
+              }
+            ]
+          }
+        ],
+        "figure_id": "83a2937716715696",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 13,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Q4-21",
+              "Q2-22",
+              "Q4-22",
+              "Q2-23",
+              "Q4-23",
+              "Q2-24",
+              "Q4-24",
+              "Q2-25",
+              "Q4-25"
+            ]
+          },
+          "y": {
+            "unit": "$bn",
+            "range": {
+              "min": -100,
+              "max": 300
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Gross Issuance",
+            "unit": "$bn",
+            "values": [
+              250,
+              225,
+              180,
+              180,
+              200,
+              225,
+              230,
+              230,
+              225
+            ]
+          },
+          {
+            "name": "Fed Purchases",
+            "unit": "$bn",
+            "values": [
+              -50,
+              -25,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -5,
+              -10
+            ]
+          },
+          {
+            "name": "Issuance net of Fed purchases",
+            "unit": "$bn",
+            "values": [
+              200,
+              200,
+              175,
+              175,
+              195,
+              220,
+              225,
+              225,
+              215
+            ]
+          }
+        ],
+        "figure_id": "7fac00f6beaf2e45",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "type": "line",
+        "title": "United Kingdom",
+        "page": 15,
+        "axes": {
+          "x": {
+            "type": "linear",
+            "labels": [
+              "0",
+              "1",
+              "2",
+              "3",
+              "4",
+              "5",
+              "6",
+              "7",
+              "8",
+              "9",
+              "10"
+            ],
+            "name": "Years"
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -1.0,
+              "max": 6.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Expectations",
+            "unit": "%",
+            "values": [
+              null,
+              3.5,
+              3.3,
+              3.1,
+              3.0,
+              2.9,
+              2.9,
+              2.8,
+              2.8,
+              2.8,
+              2.8
+            ]
+          },
+          {
+            "name": "Expectations, 1y ago",
+            "unit": "%",
+            "values": [
+              null,
+              4.2,
+              4.1,
+              4.0,
+              3.9,
+              3.9,
+              3.8,
+              3.8,
+              3.7,
+              3.7,
+              3.7
+            ]
+          },
+          {
+            "name": "Term Premium",
+            "unit": "%",
+            "values": [
+              null,
+              0.2,
+              0.5,
+              0.7,
+              1.0,
+              1.2,
+              1.4,
+              1.6,
+              1.7,
+              1.8,
+              1.8
+            ]
+          },
+          {
+            "name": "Term Premium, 1y ago",
+            "unit": "%",
+            "values": [
+              null,
+              0.0,
+              -0.2,
+              -0.2,
+              -0.1,
+              0.0,
+              0.0,
+              0.1,
+              0.1,
+              0.2,
+              0.2
+            ]
+          }
+        ],
+        "figure_id": "45f7a177ff593835",
+        "provenance": {
+          "page": 15
+        }
+      },
+      {
+        "type": "other",
+        "title": "G10 10-Year Term Premium\n1y Range of Estimates",
+        "page": 14,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "US",
+              "AU",
+              "NZ",
+              "CA",
+              "NO",
+              "GB",
+              "EA",
+              "SE",
+              "JP",
+              "CH"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -1.5,
+              "max": 2.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Low",
+            "unit": "%",
+            "values": [
+              0.7,
+              0.55,
+              0.2,
+              0.35,
+              0.2,
+              0.15,
+              0.35,
+              0.35,
+              0.6,
+              -0.1
+            ]
+          },
+          {
+            "name": "High",
+            "unit": "%",
+            "values": [
+              1.6,
+              1.0,
+              1.05,
+              1.05,
+              0.8,
+              1.9,
+              1.35,
+              0.85,
+              1.3,
+              0.35
+            ]
+          },
+          {
+            "name": "Last",
+            "unit": "%",
+            "values": [
+              1.4,
+              0.85,
+              0.85,
+              1.0,
+              0.7,
+              1.25,
+              0.95,
+              0.8,
+              0.95,
+              0.05
+            ]
+          },
+          {
+            "name": "Average",
+            "unit": "%",
+            "values": [
+              1.2,
+              0.8,
+              0.7,
+              0.7,
+              0.55,
+              1.2,
+              0.95,
+              0.7,
+              0.95,
+              0.05
+            ]
+          }
+        ],
+        "figure_id": "b0628af53c615c7d",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "combo",
+        "title": "Total Net Supply",
+        "page": 13,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Q1 2023",
+              "Q2 2023",
+              "Q3 2023",
+              "Q4 2023",
+              "Q1 2024",
+              "Q2 2024",
+              "Q3 2024",
+              "Q4 2024",
+              "Q1 2025",
+              "Q2 2025",
+              "Q3 2025",
+              "Q4 2025"
+            ]
+          },
+          "y": {
+            "unit": "$bn",
+            "range": {
+              "min": -400,
+              "max": 1200
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Net coupons",
+            "unit": "$bn",
+            "values": [
+              250,
+              250,
+              200,
+              350,
+              350,
+              500,
+              500,
+              450,
+              400,
+              100,
+              450,
+              400
+            ]
+          },
+          {
+            "name": "Net bills",
+            "unit": "$bn",
+            "values": [
+              380,
+              380,
+              800,
+              450,
+              400,
+              -750,
+              280,
+              180,
+              -50,
+              -500,
+              500,
+              150
+            ]
+          },
+          {
+            "name": "Total net supply",
+            "unit": "$bn",
+            "values": [
+              630,
+              630,
+              1000,
+              800,
+              750,
+              -250,
+              780,
+              630,
+              350,
+              -400,
+              950,
+              550
+            ]
+          }
+        ],
+        "figure_id": "2e0af7d23d3a66f7",
+        "provenance": {
+          "page": 13
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 14,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025",
+              "2026",
+              "2027",
+              "2028"
+            ]
+          },
+          "y": {
+            "unit": "% of outstanding",
+            "range": {
+              "min": 10,
+              "max": 30
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Actual",
+            "unit": "% of outstanding",
+            "values": [
+              13.5,
+              15.5,
+              14.5,
+              25.5,
+              16.5,
+              15.5,
+              22.5,
+              21.5,
+              20.5,
+              21.5,
+              22
+            ]
+          },
+          {
+            "name": "GS Forecast",
+            "unit": "% of outstanding",
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              21.5,
+              21,
+              22,
+              21.5
+            ]
+          }
+        ],
+        "figure_id": "06ef54396a8ef307",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "other",
+        "title": "G10 10-Year Expectations 1y Range",
+        "page": 14,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "US",
+              "AU",
+              "NZ",
+              "CA",
+              "NO",
+              "GB",
+              "EA",
+              "SE",
+              "JP",
+              "CH"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0.0,
+              "max": 5.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Low",
+            "unit": "%",
+            "values": [
+              2.8,
+              3.25,
+              3.6,
+              2.4,
+              2.8,
+              2.5,
+              1.2,
+              1.3,
+              0.2,
+              0.3
+            ]
+          },
+          {
+            "name": "High",
+            "unit": "%",
+            "values": [
+              3.4,
+              3.7,
+              4.1,
+              2.7,
+              3.4,
+              3.3,
+              1.7,
+              1.7,
+              0.3,
+              0.5
+            ]
+          },
+          {
+            "name": "Last",
+            "unit": "%",
+            "values": [
+              2.85,
+              3.4,
+              3.6,
+              2.6,
+              3.15,
+              2.5,
+              1.4,
+              1.5,
+              0.25,
+              0.4
+            ]
+          },
+          {
+            "name": "Average",
+            "unit": "%",
+            "values": [
+              3.1,
+              3.5,
+              3.8,
+              2.5,
+              3.1,
+              2.9,
+              1.5,
+              1.5,
+              0.25,
+              0.4
+            ]
+          }
+        ],
+        "figure_id": "9c814c8b16af78aa",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "line",
+        "title": "FRBNY Custody Holdings of USTs",
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "May-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "$bn.",
+            "range": {
+              "min": 2800,
+              "max": 3000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "FRBNY Custody Holdings of USTs",
+            "unit": "$bn.",
+            "values": [
+              2938,
+              2940,
+              2930,
+              2920,
+              2905,
+              2918,
+              2848,
+              2870,
+              2900,
+              2925,
+              2915,
+              2930,
+              2945,
+              2930,
+              2940,
+              2920,
+              2935,
+              2920,
+              2910,
+              2900,
+              2880,
+              2875,
+              2885,
+              2900,
+              2875,
+              2850,
+              2835
+            ]
+          }
+        ],
+        "figure_id": "5d7826184f298e37",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Fed",
+              "Foreign Official holds",
+              "House",
+              "Pensions",
+              "Asset Managers",
+              "MMMFs",
+              "Foreign Private",
+              "Banks",
+              "Brokers/ Dealers",
+              "Other Sectors"
+            ]
+          },
+          "y": {
+            "unit": "$bn",
+            "range": {
+              "min": -1000,
+              "max": 1500
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2023",
+            "unit": "$bn",
+            "values": [
+              -750,
+              50,
+              900,
+              150,
+              150,
+              1200,
+              550,
+              -50,
+              100,
+              150
+            ]
+          },
+          {
+            "name": "2024",
+            "unit": "$bn",
+            "values": [
+              -550,
+              100,
+              100,
+              350,
+              200,
+              700,
+              550,
+              200,
+              150,
+              250
+            ]
+          },
+          {
+            "name": "2025 Estimated",
+            "unit": "$bn",
+            "values": [
+              100,
+              100,
+              350,
+              200,
+              50,
+              150,
+              550,
+              200,
+              50,
+              150
+            ]
+          }
+        ],
+        "figure_id": "b56ec911800395d2",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan/24",
+              "Apr/24",
+              "Jul/24",
+              "Oct/24",
+              "Jan/25",
+              "Apr/25",
+              "Jul/25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -0.6,
+              "max": 0.8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2s5s",
+            "unit": "%",
+            "values": [
+              -0.42,
+              -0.38,
+              -0.48,
+              -0.2,
+              0.18,
+              0.08,
+              0.06
+            ]
+          },
+          {
+            "name": "5s10s",
+            "unit": "%",
+            "values": [
+              0.1,
+              0.02,
+              -0.02,
+              0.1,
+              0.3,
+              0.42,
+              0.52
+            ]
+          },
+          {
+            "name": "10s30s",
+            "unit": "%",
+            "values": [
+              0.22,
+              0.18,
+              0.1,
+              0.3,
+              0.48,
+              0.58,
+              0.68
+            ]
+          }
+        ],
+        "figure_id": "678843f91cb8b6c0",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "USD",
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "Tenors"
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 3.0,
+              "max": 5.2
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Current",
+            "unit": "%",
+            "values": [
+              {
+                "x": 2,
+                "y": 3.5
+              },
+              {
+                "x": 5,
+                "y": 3.7
+              },
+              {
+                "x": 10,
+                "y": 4.2
+              },
+              {
+                "x": 30,
+                "y": 4.7
+              }
+            ]
+          },
+          {
+            "name": "YE 2025, GS",
+            "unit": "%",
+            "values": [
+              {
+                "x": 2,
+                "y": 3.6
+              },
+              {
+                "x": 5,
+                "y": 3.9
+              },
+              {
+                "x": 10,
+                "y": 4.4
+              },
+              {
+                "x": 30,
+                "y": 4.9
+              }
+            ]
+          },
+          {
+            "name": "YE 2025, Forwards",
+            "unit": "%",
+            "values": [
+              {
+                "x": 2,
+                "y": 3.4
+              },
+              {
+                "x": 5,
+                "y": 3.8
+              },
+              {
+                "x": 10,
+                "y": 4.3
+              },
+              {
+                "x": 30,
+                "y": 4.8
+              }
+            ]
+          }
+        ],
+        "figure_id": "13ac2843fe00cf2b",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "Jan-24",
+              "Apr-24",
+              "Jul-24",
+              "Oct-24",
+              "Jan-25",
+              "Apr-25",
+              "Jul-25",
+              "Oct-25"
+            ]
+          },
+          "y": {
+            "unit": "bp",
+            "range": {
+              "min": -10,
+              "max": 40
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Schatz spreads",
+            "unit": "bp",
+            "values": [
+              0,
+              2,
+              5,
+              8,
+              6,
+              4,
+              2,
+              0,
+              -2,
+              0,
+              2,
+              5,
+              8,
+              10,
+              8,
+              6,
+              4,
+              2,
+              0,
+              -2,
+              -5,
+              -8,
+              -5,
+              -2,
+              0,
+              2,
+              5,
+              8,
+              10,
+              12,
+              15,
+              18,
+              20,
+              22,
+              25,
+              28,
+              30,
+              28,
+              25,
+              22,
+              20,
+              18,
+              20,
+              22,
+              25,
+              28,
+              30,
+              28,
+              25,
+              22,
+              20,
+              18,
+              15,
+              12,
+              10,
+              8,
+              10,
+              12,
+              15,
+              18,
+              20,
+              22,
+              25,
+              28,
+              30
+            ]
+          },
+          {
+            "name": "10y OAT-Bund",
+            "unit": "bp",
+            "values": [
+              -2,
+              0,
+              2,
+              5,
+              8,
+              10,
+              8,
+              6,
+              4,
+              2,
+              0,
+              -2,
+              -5,
+              -8,
+              -5,
+              -2,
+              0,
+              2,
+              5,
+              8,
+              10,
+              12,
+              15,
+              18,
+              20,
+              22,
+              25,
+              28,
+              30,
+              32,
+              35,
+              32,
+              30,
+              28,
+              25,
+              22,
+              20,
+              18,
+              15,
+              12,
+              10,
+              8,
+              6,
+              4,
+              2,
+              0,
+              -2,
+              0,
+              2,
+              5,
+              8,
+              10,
+              12,
+              15,
+              18,
+              20,
+              22,
+              25,
+              28,
+              30,
+              32
+            ]
+          }
+        ],
+        "figure_id": "a5971c8a4c09fae7",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug-20",
+              "Apr-21",
+              "Dec-21",
+              "Aug-22",
+              "Apr-23",
+              "Dec-23",
+              "Aug-24",
+              "Apr-25"
+            ]
+          },
+          "y": {
+            "left": {
+              "unit": "$bn.",
+              "range": {
+                "min": 0,
+                "max": 500
+              }
+            },
+            "right": {
+              "unit": "mm/bp",
+              "range": {
+                "min": 0,
+                "max": 250
+              }
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Total notional",
+            "unit": "$bn.",
+            "values": [
+              245,
+              220,
+              125,
+              100,
+              170,
+              280,
+              350,
+              260,
+              390,
+              450,
+              340,
+              400,
+              370
+            ]
+          },
+          {
+            "name": "Duration weighted (RHS)",
+            "unit": "mm/bp",
+            "values": [
+              160,
+              150,
+              100,
+              80,
+              110,
+              140,
+              170,
+              150,
+              200,
+              220,
+              180,
+              200,
+              230
+            ]
+          }
+        ],
+        "figure_id": "1c2ccb05b469056a",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "line",
+        "title": "Europe",
+        "page": 14,
+        "axes": {
+          "x": {
+            "type": "linear",
+            "labels": "Years"
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -0.5,
+              "max": 3.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Expectations",
+            "unit": "%",
+            "values": [
+              {
+                "x": 1,
+                "y": 1.8
+              },
+              {
+                "x": 2,
+                "y": 1.75
+              },
+              {
+                "x": 3,
+                "y": 1.68
+              },
+              {
+                "x": 4,
+                "y": 1.6
+              },
+              {
+                "x": 5,
+                "y": 1.55
+              },
+              {
+                "x": 6,
+                "y": 1.5
+              },
+              {
+                "x": 7,
+                "y": 1.5
+              },
+              {
+                "x": 8,
+                "y": 1.5
+              },
+              {
+                "x": 9,
+                "y": 1.5
+              },
+              {
+                "x": 10,
+                "y": 1.5
+              }
+            ]
+          },
+          {
+            "name": "Expectations, 1y ago",
+            "unit": "%",
+            "values": [
+              {
+                "x": 1,
+                "y": 2.75
+              },
+              {
+                "x": 2,
+                "y": 2.55
+              },
+              {
+                "x": 3,
+                "y": 2.38
+              },
+              {
+                "x": 4,
+                "y": 2.25
+              },
+              {
+                "x": 5,
+                "y": 2.15
+              },
+              {
+                "x": 6,
+                "y": 2.08
+              },
+              {
+                "x": 7,
+                "y": 2.05
+              },
+              {
+                "x": 8,
+                "y": 2.0
+              },
+              {
+                "x": 9,
+                "y": 1.95
+              },
+              {
+                "x": 10,
+                "y": 1.9
+              }
+            ]
+          },
+          {
+            "name": "Term Premium",
+            "unit": "%",
+            "values": [
+              {
+                "x": 1,
+                "y": 0.05
+              },
+              {
+                "x": 2,
+                "y": 0.2
+              },
+              {
+                "x": 3,
+                "y": 0.4
+              },
+              {
+                "x": 4,
+                "y": 0.55
+              },
+              {
+                "x": 5,
+                "y": 0.7
+              },
+              {
+                "x": 6,
+                "y": 0.85
+              },
+              {
+                "x": 7,
+                "y": 1.0
+              },
+              {
+                "x": 8,
+                "y": 1.1
+              },
+              {
+                "x": 9,
+                "y": 1.2
+              },
+              {
+                "x": 10,
+                "y": 1.3
+              }
+            ]
+          },
+          {
+            "name": "Term Premium, 1y ago",
+            "unit": "%",
+            "values": [
+              {
+                "x": 1,
+                "y": -0.2
+              },
+              {
+                "x": 2,
+                "y": -0.15
+              },
+              {
+                "x": 3,
+                "y": -0.1
+              },
+              {
+                "x": 4,
+                "y": -0.05
+              },
+              {
+                "x": 5,
+                "y": 0.0
+              },
+              {
+                "x": 6,
+                "y": 0.05
+              },
+              {
+                "x": 7,
+                "y": 0.1
+              },
+              {
+                "x": 8,
+                "y": 0.2
+              },
+              {
+                "x": 9,
+                "y": 0.3
+              },
+              {
+                "x": 10,
+                "y": 0.4
+              }
+            ]
+          }
+        ],
+        "figure_id": "86d7d9bd061b2e72",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "line",
+        "title": "Central Bank Assets, as a Share of Country/Region GDP",
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2000",
+              "2004",
+              "2008",
+              "2012",
+              "2016",
+              "2020",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": "Percent of GDP",
+            "range": {
+              "min": 0,
+              "max": 140
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Fed",
+            "unit": "Percent of GDP",
+            "values": [
+              5,
+              5,
+              10,
+              15,
+              20,
+              35,
+              25
+            ]
+          },
+          {
+            "name": "ECB",
+            "unit": "Percent of GDP",
+            "values": [
+              10,
+              10,
+              15,
+              25,
+              40,
+              65,
+              40
+            ]
+          },
+          {
+            "name": "BOE",
+            "unit": "Percent of GDP",
+            "values": [
+              5,
+              5,
+              15,
+              25,
+              25,
+              35,
+              25
+            ]
+          },
+          {
+            "name": "BoJ",
+            "unit": "Percent of GDP",
+            "values": [
+              20,
+              25,
+              20,
+              40,
+              90,
+              130,
+              120
+            ]
+          }
+        ],
+        "figure_id": "a6a3118d3a562654",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-23",
+              "May-23",
+              "Sep-23",
+              "Jan-24",
+              "May-24",
+              "Sep-24",
+              "Jan-25",
+              "May-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 1.0,
+              "max": 2.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "5y CPI Swap (Beta-Weighted to Nominals)",
+            "unit": "%",
+            "values": [
+              1.3,
+              1.62,
+              1.25,
+              1.3,
+              1.2,
+              1.48,
+              1.4,
+              1.75
+            ]
+          },
+          {
+            "name": "5y5y CPI Swap (Beta-Weighted)",
+            "unit": "%",
+            "values": [
+              1.75,
+              1.85,
+              1.6,
+              1.7,
+              1.6,
+              1.4,
+              1.45,
+              1.45
+            ]
+          }
+        ],
+        "figure_id": "e4ff4393b5f4f61c",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 14,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-17",
+              "Feb-18",
+              "Mar-19",
+              "Apr-20",
+              "May-21",
+              "Jun-22",
+              "Jul-23",
+              "Aug-24"
+            ]
+          },
+          "y": {
+            "unit": "% of GDP",
+            "range": {
+              "min": 28,
+              "max": 52
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Coupon free float",
+            "unit": "% of GDP",
+            "values": [
+              31.5,
+              30.5,
+              34.5,
+              37.5,
+              33.0,
+              35.5,
+              41.0,
+              44.0,
+              47.0,
+              49.0,
+              50.5
+            ]
+          },
+          {
+            "name": "Bill free float",
+            "unit": "% of GDP",
+            "values": [
+              8.0,
+              7.5,
+              9.0,
+              10.5,
+              19.5,
+              17.0,
+              14.0,
+              12.5,
+              15.0,
+              18.0,
+              17.0
+            ]
+          }
+        ],
+        "figure_id": "455fe63c1f42b4d0",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Solid represents carry to being long, Striped represents carry to being short",
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "3m1y USD",
+              "6m1y USD",
+              "2y1y EUR",
+              "2y2y EUR",
+              "3m1y GBP",
+              "6m1y GBP",
+              "3m1y JPY",
+              "6m1y JPY",
+              "5y1y CAD",
+              "5y2y CAD",
+              "3m1y AUD",
+              "4y1y AUD",
+              "2y1y NZD",
+              "2y2y NZD"
+            ]
+          },
+          "y": {
+            "unit": "bp",
+            "range": {
+              "min": 0,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Solid (carry to being long)",
+            "unit": "bp",
+            "values": [
+              27,
+              null,
+              6,
+              null,
+              null,
+              null,
+              10,
+              null,
+              5,
+              null,
+              null,
+              7,
+              9,
+              null
+            ]
+          },
+          {
+            "name": "Striped (carry to being short)",
+            "unit": "bp",
+            "values": [
+              null,
+              22,
+              null,
+              5,
+              9,
+              7,
+              null,
+              8,
+              null,
+              5,
+              10,
+              null,
+              null,
+              9
+            ]
+          }
+        ],
+        "figure_id": "39165ee36dcd512f",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "scatter",
+        "title": "Cumulative hikes expected per year (in pp)",
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "GS Forecast",
+            "range": {
+              "min": -1.75,
+              "max": 0.25
+            }
+          },
+          "y": {
+            "unit": "pp",
+            "labels": "Market",
+            "range": {
+              "min": -1.75,
+              "max": 0.65
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2025",
+            "unit": "pp",
+            "values": [
+              {
+                "label": "NZ",
+                "x": -1.75,
+                "y": -1.75
+              },
+              {
+                "label": "SE",
+                "x": -0.95,
+                "y": -1.35
+              },
+              {
+                "label": "EU",
+                "x": -1.05,
+                "y": -1.15
+              },
+              {
+                "label": "AU",
+                "x": -1.15,
+                "y": -0.85
+              },
+              {
+                "label": "GB",
+                "x": -1.05,
+                "y": -0.55
+              },
+              {
+                "label": "CH",
+                "x": -0.85,
+                "y": -0.55
+              },
+              {
+                "label": "US",
+                "x": -0.95,
+                "y": -0.35
+              },
+              {
+                "label": "NO",
+                "x": -0.75,
+                "y": -0.45
+              },
+              {
+                "label": "CA",
+                "x": -0.75,
+                "y": -0.75
+              },
+              {
+                "label": "JP",
+                "x": 0.15,
+                "y": 0.65
+              }
+            ]
+          },
+          {
+            "name": "2026",
+            "unit": "pp",
+            "values": [
+              {
+                "label": "US",
+                "x": -0.45,
+                "y": -1.05
+              },
+              {
+                "label": "SE",
+                "x": 0.05,
+                "y": -0.55
+              },
+              {
+                "label": "EU",
+                "x": 0.05,
+                "y": -0.05
+              },
+              {
+                "label": "AU",
+                "x": -0.25,
+                "y": -0.25
+              },
+              {
+                "label": "CA",
+                "x": -0.05,
+                "y": 0.05
+              },
+              {
+                "label": "NZ",
+                "x": -0.05,
+                "y": 0.05
+              },
+              {
+                "label": "CH",
+                "x": 0.05,
+                "y": 0.05
+              },
+              {
+                "label": "NO",
+                "x": -0.65,
+                "y": -0.05
+              },
+              {
+                "label": "GB",
+                "x": -0.75,
+                "y": 0.25
+              },
+              {
+                "label": "JP",
+                "x": 0.25,
+                "y": 0.25
+              }
+            ]
+          }
+        ],
+        "figure_id": "bdc0dac38021d072",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "bar",
+        "title": "Probability of 1m Sonia, YE-26, %",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "<3.0%",
+              "3.0-3.75%",
+              ">3.75%"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "01/05/2025",
+            "unit": "%",
+            "values": [
+              33,
+              31,
+              36
+            ]
+          },
+          {
+            "name": "Currently",
+            "unit": "%",
+            "values": [
+              13,
+              47,
+              40
+            ]
+          }
+        ],
+        "figure_id": "69330dd180a13874",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "area",
+        "title": "Treasury and Agency Debentures",
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep-24",
+              "Nov-24",
+              "Jan-25",
+              "Mar-25",
+              "May-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "$bn.",
+            "range": {
+              "min": 1480,
+              "max": 1980
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Treasury and Agency Debentures",
+            "unit": "$bn.",
+            "values": [
+              1720,
+              1740,
+              1760,
+              1770,
+              1870,
+              1950
+            ]
+          }
+        ],
+        "figure_id": "ba66195a1585ceba",
+        "provenance": {
+          "page": 10
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "8119af714f3cfc63",
+        "value": 0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "see reasons to expect contained volatility, however. In particular, deficit expectations — close to 5.5% for 2026 — already aim well off the current government objective of 4.6%, suggesting the market",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f621fed366b4057d",
+        "value": 0.046,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "it expectations — close to 5.5% for 2026 — already aim well off the current government objective of 4.6%, suggesting the market is already pricing substantial slippage vs target. Valuations are also l",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "383ae18f69ddcc19",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "opean duration to trade weaker over time with our updated end-25 10y Bund yield forecast sitting at 3.0% (and 3.25% at end-2026). This is because we believe the front-loaded fiscal boost out of German",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f25635207cba4b64",
+        "value": 0.0325,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tion to trade weaker over time with our updated end-25 10y Bund yield forecast sitting at 3.0% (and 3.25% at end-2026). This is because we believe the front-loaded fiscal boost out of Germany will pus",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "4bdfe5b7ed4e31ec",
+        "value": 0.0425,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ompress risk premium throughout the Gulf curve, and see 10y Gilts rally towards our YEE forecast of 4.25%. US spillovers and lower global duration demand present upside risks to yields, but accelerate",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "704626fb77fdbbcc",
+        "value": -0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>We expect the BOJ normalization cycle to be prolonged, with a medium-term neutral rate of 1.25-1.5%. This should lift yields across the curve, although in the near-term rising US recession risk ",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "1ddeef142cbb480f",
+        "value": -0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Bills as a share of Treasuries outstanding and GS forecast Gray shading denotes TBAC recommended 15-20% range </center> <center>Source:US Treasury,Goldman Sachs Global Investment Research </center> #",
+        "provenance": {
+          "page": 13
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 30,
+      "tables_count": 0,
+      "numerical_data_count": 7,
+      "passages_count": 124,
+      "entities_count": 20
+    }
+  }
+}

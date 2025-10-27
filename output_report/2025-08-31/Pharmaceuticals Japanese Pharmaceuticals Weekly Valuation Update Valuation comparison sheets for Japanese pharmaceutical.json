@@ -1,0 +1,1667 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "c3d65d77d662c5161cc233e4ed8d8025",
+    "title": "Analyst Stock Ratings",
+    "source_uri": "25.9月 普通个人版/9.2 普通个人版/MS/Pharmaceuticals Japanese Pharmaceuticals Weekly Valuation Update Valuation comparison sheets for Japanese pharmaceutical_2025-08-31",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:55:31.900235",
+      "extracted_at": "2025-10-27T00:55:31.900243"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 8,
+        "successful_pages": 8,
+        "date": "2025-08-31",
+        "publication": "25.9月 普通个人版/9.2 普通个人版/MS",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 4,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.2886546894893196
+        },
+        "input_relative_path": "25.9月 普通个人版/9.2 普通个人版/MS"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "a0934afd093d4ef2",
+      "text": "August 31, 2025 07:48 PM GMT",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1f3d22d138bf5e71",
+      "text": "Pharmaceuticals | Japan",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1b9af00a2a9123f6",
+      "text": "Exhibit 3: Valuation (1): P/E",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "03e289f980eb7e96",
+      "text": "CompanyRatingPTPShare PriceB/29/2025YTD(%)Last4 wksMatt Cap(bn)EPS (Adj)P/E*PEG20242025e2026e2027e2028e2029e20242025e2026e2027eTakedaOW¥5,600¥4,4215.7%3.1%¥7,034491.2519.9533.0563.3646.9701.69.0x8.5x8.3x7.8x6.8x6.3x7%1.1AstellasEW¥1,650¥1,6205.6%8.1%¥2,932165.2197.2238.3182.6148.2140.99.8x8.2x6.8x8.9x10.9x11.5x-3%(2.2)D-SankyoOW¥4,850¥3,529-18.9%-3.1%¥6,685147.6167.2204.2214.1285.7317.323.9x21.1x17.3x16.5x12.4x11.1x17%1.0EisaiEW¥4,400¥4,5384.8%6.8%¥1,324163.8182.9230.0318.7388.8414.027.7x24.8x19.7x14.2x11.7x11.0x20%1.0OtsukaEW¥8,500¥7,766-9.7%7.5%¥4,217633.8573.2514.7576.0652.4617.012.3x13.5x15.1x13.5x11.9x12.6x-1%(28.2)ChugaiOW¥8,950¥6,509-7.0%-11.7%¥10,929241.3269.5305.7335.5368.9405.627.0x24.2x21.3x19.4x17.6x16.0x11%1.9Kyowa KirinEW¥2,450¥2,5457.1%-1.5%¥1,338121.4120.9152.8183.0233.0288.421.0x21.1x16.7x13.9x10.9x8.8x19%0.9Sumitomo PharmaEW¥1,350¥1,525170.9%34.1%¥60759.4155.1171.2129.1287.7176.925.7x9.8x8.9x11.8x5.3x8.6x24%0.4ShionogiEW¥2,750¥2,55014.9%1.6%¥2,269203.5221.1250.1462.9462.9462.912.5x11.5x10.2x5.5x5.5x5.5x18%0.6N-ShinyakuUW¥2,600¥3,127-21.5%-2.6%¥220483.4365.5399.2231.541.649.06.5x8.6x7.8x13.5x75.2x63.8x-37%(0.2)KakenOW¥5,500¥3,805-15.7%-3.9%¥168365.492.160.6231.541.649.06.5x8.6x7.8x13.5x75.2x63.8x-37%(0.2)OnoUW¥1,400¥1,6571.4%-0.2%¥620192.4198.4195.6231.5165.4168.48.6x8.4x8.5x10.6x10.0x9.8x-3%(3.3)SantosEW¥1,750¥1,563-3.5%-6.0%¥534129.3124.3135.4139.4151.4155.012.1x11.5x11.5x11.2x10.3x10.1x4%(3.1)TsumuraEW¥3,600¥3,541-24.8%-2.9%¥272427.1367.5395.2390.1386.0408.38.3x9.6x9.6x9.2x8.3x9.2x-1%(10.0)JCREW¥540¥6212.3%-12.7%¥81(38.4)25.827.512.110.517.0-16.2x24.0x22.6x51.3x59.2x36.6x--SanBioEW¥2,100¥2,317208.5%0.5%¥167(41.5)(33.3)5.4(12.3)(20.4)46.3--425.3x--50.0x--",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4d18bc308d9752be",
+      "text": "Pharma Avg. (Weighted)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "df3c485f4745dca2",
+      "text": "Pharma Avg. (Weighted, excl. Sumitomo Pharma & SanBio)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "6f13e9cf4dd50d9a",
+      "text": "Exhibit 4: Valuation (2): EV/EBITDA, Net Debt/EBITDA, Debt/Net",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c3c40bb67505ac84",
+      "text": "CompanyRatingP1P2P3P4P5P6P7P8P9P10P11P12P13P14P15P16P17P18P19P20P21P22P23P24P25P26P27P28P29P30P31P32P33P34P35P36P37P38P39P40P41P42P43P44P45P46P47P48P49P50P51P52P53P54P55P56P57P58P59P60P61P62P63P64P65P66P67P68P69P70P71P72P73P74P75P76P77P78P79P80P81P82P83P84P85P86P87P88P89P90P91P92P93P94P95P96P97P98P99P100P101P102P103P104P105P106P107P108P109P110P111P112P113P114P115P116P117P118P119P120P121P122P123P124P125P126P127P128P129P130P131P132P133P134P135P136P137P138P139P140P141P142P143P144P145P146P147P148P149P150P151P152P153P154P155P156P157P158P159P160P161P162P163P164P165P166P167P168P169P170P171P172P173P174P175P176P177P178P179P180P181P182P183P184P185P186P187P188P189P190P191P192P193P194P195P196P197P198P199P200P201P202P203P204P205P206P207P208P209P210P211P212P213P214P215P216P217P218P219P220P221P222P223P224P225P226P227P228P229P230P231P232P233P234P235P236P237P238P239P240P241P242P243P244P245P246P247P248P249P250P251P252P253P254P255P256P257P258P259P260P261P262P263P264P265P266P267P268P269P270P271P272P273P274P275P276P277P278P279P280P281P282P283P284P285P286P287P288P289P290P291P292P293P294P295P296P297P298P299P300P301P302P303P304P305P306P307P308P309P310P311P312P313P314P315P316P317P318P319P320P321P322P323P324P325P326P327P328P329P330P331P332P333P334P335P336P337P338P339P340P341P342P343P344P345P346P347P348P349P350P351P352P353P354P355P356P357P358P359P360P361P362P363P364P365P366P367P368P369P370P371P372P373P374P375P376P377P378P379P380P381P382P383P384P385P386P387P388P389P390P391P392P393P394P395P396P397P398P399P400P401P402P403P404P405P406P407P408P409P410P411P412P413P414P415P416P417P418P419P420P421P422P423P424P425P426P427P428P429P430P431P432P433P434P435P436P437P438P439P440P441P442P443P444P445P446P447P448P449P450P451P452P453P454P455P456P457P458P459P460P461P462P463P464P465P466P467P468P469P470P471P472P473P474P475P476P477P478P479P480P481P482P483P484P485P486P487P488P489P490P491P492P493P494P495P496P497P498P499P500P501P502P503P504P505P506P507P508P509P510P511P512P513P514P515P516P517P518P519P520P521P522P523P524P525P526P527P528P529P530P531P532P533P534P535P536P537P538P539P540P541P542P543P544P545P546P547P548P549P550P551P552P553P554P555P556P557P558P559P560P561P562P563P564P565P566P567P568P569P570P571P572P573P574P575P576P577P578P579P580P581P582P583P584P585P586P587P588P589P590P591P592P593P594P595P596P597P598P599P600P601P602P603P604P605P606P607P608P609P610P611P612P613P614P615P616P617P618P619P620P621P622P623P624P625P626P627P628P629P630P631P632P633P634P635P636P637P638P639P640P641P642P643P644P645P646P647P648P649P650P651P652P653P654P655P656P657P658P659P660P661P662P663P664P665P666P667P668P669P670P671P672P673P674P675P676P677P678P679P680P681P682P683P684P685P686P687P688P689P690P691P692P693P694P695P696P697P698P699P700P701P702P703P704P705P706P707P708P709P710P711P712P713P714P715P716P717P718P719P720P721P722P723P724P725P726P727P728P729P730P731P732P733P734P735P736P737P738P739P740P741P742P743P744P745P746P747P748P749P750P751P752P753P754P755P756P757P758P759P760P761P762P763P764P765P766P767P768P769P770P771P772P773P774P775P776P777P778P779P780P781P782P783P784P785P786P787P788P789P790P791P792P793P794P795P796P797P798P799P800P801P802P803P804P805P806P807P808P809P810P811P812P813P814P815P816P817P818P819P820P821P822P823P824P825P826P827P828P829P830P831P832P833P834P835P836P837P838P839P840P841P842P843P844P845P846P847P848P849P850P851P852P853P854P855P856P857P858P859P860P861P862P863P864P865P866P867P868P869P870P871P872P873P874P875P876P877P878P879P880P881P882P883P884P885P886P887P888P889P890P891P892P893P894P895P896P897P898P899P900P901P902P903P904P905P906P907P908P909P910P911P912P913P914P915P916P917P918P919P920P921P922P923P924P925P926P927P928P929P930P931P932P933P934P935P936P937P938P939P940P941P942P943P944P945P946P947P948P949P950P951P952P953P954P955P956P957P958P959P960P961P962P963P964P965P966P967P968P969P970P971P972P973P974P975P976P977P978P979P980P981P982P983P984P985P986P987P988P989P990P991P992P993P994P995P996P997P998P999P1000P1001P1002P1003P1004P1005P1006P1007P1008P1009P1010P1011P1012P1013P1014P1015P1016P1017P1018P1019P1020P1021P1022P1023P1024P1025P1026P1027P1028P1029P1030P1031P1032P1033P1034P1035P1036P1037P1038P1039P1040P1041P1042P1043P1044P1045P1046P1047P1048P1049P1050P1051P1052P1053P1054P1055P1056P1057P1058P1059P1060P1061P1062P1063P1064P1065P1066P1067P1068P1069P1070P1071P1072P1073P1074P1075P1076P1077P1078P1079P1080P1081P1082P1083P1084P1085P1086P1087P1088P1089P1090P1091P1092P1093P1094P1095P1096P1097P1098P1099P1100P1101P1102P1103P1104P1105P1106P1107P1108P1109P1110P1111P1112P1113P1114P1115P1116P1117P1118P1119P1120P1121P1122P1123P1124P1125P1126P1127P1128P1129P1130P1131P1132P1133P1134P1135P1136P1137P1138P1139P1140P1141P1142P1143P1144P1145P1146P1147P1148P1149P1150P1151P1152P1153P1154P1155P1156P1157P1158P1159P1160P1161P1162P1163P1164P1165P1166P1167P1168P1169P1170P1171P1172P1173P1174P1175P1176P1177P1178P1179P1180P1181P1182P1183P1184P1185P1186P1187P1188P1189P1190P1191P1192P1193P1194P1195P1196P1197P1198P1199P1200P1201P1202P1203P1204P1205P1206P1207P1208P1209P1210P1211P1212P1213P1214P1215P1216P1217P1218P1219P1220P1221P1222P1223P1224P1225P1226P1227P1228P1229P1230P1231P1232P1233P1234P1235P1236P1237P1238P1239P1240P1241P1242P1243P1244P1245P1246P1247P1248P1249P1250P1251P1252P1253P1254P1255P1256P1257P1258P1259P1260P1261P1262P1263P1264P1265P1266P1267P1268P1269P1270P1271P1272P1273P1274P1275P1276P1277P1278P1279P1280P1281P1282P1283P1284P1285P1286P1287P1288P1289P1290P1291P1292P1293P1294P1295P1296P1297P1298P1299P1300P1301P1302P1303P1304P1305P1306P1307P1308P1309P1310P1311P1312P1313P1314P1315P1316P1317P1318P1319P1320P1321P1322P1323P1324P1325P1326P1327P1328P1329P1330P1331P1332P1333P1334P1335P1336P1337P1338P1339P1340P1341P1342P1343P1344P1345P1346P1347P1348P1349P1350P1351P1352P1353P1354P1355P1356P1357P1358P1359P1360P1361P1362P1363P1364P1365P1366P1367P1368P1369P1370P1371P1372P1373P1374P1375P1376P1377P1378P1379P1380P1381P1382P1383P1384P1385P1386P1387P1388P1389P1390P1391P1392P1393P1394P1395P1396P1397P1398P1399P1400P1401P1402P1403P1404P1405P1406P1407P1408P1409P1410P1411P1412P1413P1414P1415P1416P1417P1418P1419P1420P1421P1422P1423P1424P1425P1426P1427P1428P1429P1430P1431P1432P1433P1434P1435P1436P1437P1438P1439P1440P1441P1442P1443P1444P1445P1446P1447P1448P1449P1450P1451P1452P1453P1454P1455P1456P1457P1458P1459P1460P1461P1462P1463P1464P1465P1466P1467P1468P1469P1470P1471P1472P1473P1474P1475P1476P1477P1478P1479P1480P1481P1482P1483P1484P1485P1486P1487P1488P1489P1490P1491P1492P1493P1494P1495P1496P1497P1498P1499P1500P1501P1502P1503P1504P1505P1506P1507P1508P1509P1510P1511P1512P1513P1514P1515P1516P1517P1518P1519P1520P1521P1522P1523P1524P1525P1526P1527P1528P1529P1530P1531P1532P1533P1534P1535P1536P1537P1538P1539P1540P1541P1542P1543P1544P1545P1546P1547P1548P1549P1550P1551P1552P1553P1554P1555P1556P1557P1558P1559P1560P1561P1562P1563P1564P1565P1566P1567P1568P1569P1570P1571P1572P1573P1574P1575P1576P1577P1578P1579P1580P1581P1582P1583P1584P1585P1586P1587P1588P1589P1590P1591P1592P1593P1594P1595P1596P1597P1598P1599P1600P1601P1602P1603P1604P1605P1606P1607P1608P1609P1610P1611P1612P1613P1614P1615P1616P1617P1618P1619P1620P1621P1622P1623P1624P1625P1626P1627P1628P1629P1630P1631P1632P1633P1634P1635P1636P1637",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "08f53dbc0e78f5e2",
+      "text": "Coverage UniverseInvestment Banking Clients (IBC)Other Material Investment Services Clients (MISC)Count% of TotalCount% of Total IBC% of Rating CategoryCountStock Rating Category% of Total Other MISCOverweight/Buy149540%37845%25%701Equal-weight/Hold160743%37445%23%766Not-Rated/Hold50%00%0%2Underweight/Sell58816%8310%14%236Total3,6958351705",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "218fda5beed00bfe",
+      "text": "Data include common stock and ADRs currently assigned ratings. Investment Banking Clients are companies from whom Morgan Stanley received investment banking compensation in the last 12 months. Due to rounding off of decimals, the percentages provided in the % of total' column may not add up to exactly 100 percent.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e086c6c4b4f4bb05",
+      "text": "Overweight (O). The stock's total return is expected to exceed the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5523b006fdeee4a2",
+      "text": "Equal-weight (E). The stock's total return is expected to be in line with the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "501898334d30f6fa",
+      "text": "Not-Rated (NR). Currently the analyst does not have adequate conviction about the stock's total return relative to the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "f18582917c9ca106",
+      "text": "Underweight (U). The stock's total return is expected to be below the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "35a020446819e079",
+      "text": "Unless otherwise specified, the time frame for price targets included in Morgan Stanley Research is 12 to 18 months.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a5d37e7972e322ae",
+      "text": "Attractive (A): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be attractive vs. the relevant broad market benchmark, as indicated below.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4d21577111d9e49c",
+      "text": "In-Line (I): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be in line with the relevant broad market benchmark, as indicated below.Cautious (C): The analyst views the performance of his or her industry coverage universe over the next 12-18 months with caution vs. the relevant broad market benchmark, as indicated below.Benchmarks for each region are as follows: North America - S&P 500; Latin America - relevant MSCI country index or MSCI Latin America Index; Europe - MSCI Europe; Japan - TOPIX; Asia -relevant MSCI country index or MSCI sub-regional index or MSCI AC Asia Pacific ex Japan Index.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "628cd29e68dff6f2",
+      "text": "Morgan Stanley Research policy is to update research reports as and when the Research Analyst and Research Management deem appropriate, based on developments with the issuer, the sector, or the market that may have a material impact on the research views or opinions stated therein. In addition, certain Research publications are intended to be updated on a regular periodic basis (weekly/monthly/quarterly/annual) and will ordinarily be updated with that frequency, unless the Research Analyst and Research Management determine that a different publication schedule is appropriate based on current conditions.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "806a1105a618cf0a",
+      "text": "Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protection Act.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "58b97038f959b0c4",
+      "text": "Morgan Stanley produces an equity research product called a \"Tactical Idea.\" Views contained in a \"Tactical Idea\" on a particular stock may be contrary to the recommendations or views expressed in research on the same stock. This may be the result of differing time horizons, methodologies, market events, or other factors. For all research available on a particular stock, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e50e0faf0f8485d3",
+      "text": "Morgan Stanley Research is provided to our clients through our proprietary research portal on Matrix and also distributed electronically by Morgan Stanley to clients. Certain, but not all, Morgan Stanley Research products are also made available to clients through third-party vendors or redistributed to clients through alternate electronic means as a convenience. For access to all available Morgan Stanley Research, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "803a2ec55c9088de",
+      "text": "Any access and/or use of Morgan Stanley Research is subject to Morgan Stanley's Terms of Use (http://www.morganstanley.com/terms.html). By accessing and/or using Morgan Stanley Research, you are indicating that you have read and agree to be bound by our Terms of Use (http://www.morganstanley.com/terms.html). In addition you consent to Morgan Stanley processing your personal data and using cookies in accordance with our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html), including for the purposes of setting your preferences and to collect readership data so that we can deliver better and more personalized service and products to you. To find out more information about how Morgan Stanley processes personal data, how we use cookies and how to reject cookies see our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html).",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "7dd355ea11614fcd",
+      "text": "If you do not agree to our Terms of Use and/or if you do not wish to provide your consent to Morgan Stanley processing your personal data or using cookies please do not access our research.Morgan Stanley Research does not provide individually tailored investment advice. Morgan Stanley Research has been prepared without regard to the circumstances and objectives of those who receive it. Morgan Stanley recommends that investors independently evaluate particular investments and strategies, and encourages investors to seek the advice of a financial adviser.The appropriateness of an investment or strategy will depend on an investor's circumstances and objectives. The securities, instruments, or strategies discussed in Morgan Stanley Research",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "9bdc74c3c98bbf22",
+      "text": "The information and opinions in Morgan Stanley Research were prepared by Morgan Stanley MUFG Securities Co., Ltd. and its affiliates (collectively, Morgan Stanley). For important disclosures, stock price charts and equity rating histories regarding companies that are the subject of this report, please see the Morgan Stanley Research Disclosure Website at www.morganstanley.com/researchdisclosures, or contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY, 10036 USA.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "0f4cfca6619d2a79",
+      "text": "For valuation methodology and risks associated with any recommendation, rating or price target referenced in this research report, please contact the Client Support Team as follows: US/Canada +1 800 303- 2495; Hong Kong +852 2848- 5999; Latin America +1 718 754- 5444 (U.S.); London +44 (0)20- 7425- 8169; Singapore +65 6834- 6860; Sydney +61 (0)2- 9770- 1505; Tokyo +81 (0)3- 6836- 9000. Alternatively you may contact your investment representative or Morgan Stanley Research at 1585 Broadway, (Attention: Research Management), New York, NY 10036 USA.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6c280208e6cdf30a",
+      "text": "Morgan Stanley Research has been published in accordance with our conflict management policy, which is available at www.morganstanley.com/institutional/research/conflict policies. A Portuguese version of the policy can be found at www.morganstanley.com.br",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "31f56bf380c7a404",
+      "text": "As of July 31, 2025, Morgan Stanley beneficially owned 1% or more of a class of common equity securities of the following companies covered in Morgan Stanley Research: Nippon Shinyaku, Ono Pharmaceutical, SanBio.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "06030e9c72599b1b",
+      "text": "Within the last 12 months, Morgan Stanley managed or co- managed a public offering (or 144A offering) of securities of Otsuka Holdings, Takeda Pharmaceutical, Tsumura. Within the last 12 months, Morgan Stanley has received compensation for investment banking services from Otsuka Holdings, Santen Pharmaceutical, Takeda Pharmaceutical, Tsumura. In the next 3 months, Morgan Stanley expects to receive or intends to seek compensation for investment banking services from Astellas Pharma, Chugai Pharmaceutical, Daiichi Sankyo, Eisai, JCR Pharmaceuticals, Kaken Pharmaceutical, Kyowa Kirin, Nippon Shinyaku, Ono Pharmaceutical, Otsuka Holdings, SanBio, Santen Pharmaceutical, Shionogi, Sumitomo Pharma, Takeda Pharmaceutical, Tsumura.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "23dbc3b09865f137",
+      "text": "Within the last 12 months, Morgan Stanley has received compensation for products and services other than investment banking services from Takeda Pharmaceutical.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2678eedf32eb465a",
+      "text": "Within the last 12 months, Morgan Stanley has provided or is providing investment banking services to, or has an investment banking client relationship with, the following company: Astellas Pharma, Chugai Pharmaceutical, Daiichi Sankyo, Eisai, Kaken Pharmaceutical, Kyowa Kirin, Ono Pharmaceutical, Otsuka Holdings, Santen Pharmaceutical, Shionogi, Sumitomo Pharma, Takeda Pharmaceutical.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "accb15f9cebc23b0",
+      "text": "Within the last 12 months, Morgan Stanley has either provided or is providing non- investment banking, securities- related services to and/or in the past has entered into an agreement to provide services or has a client relationship with the following company: Otsuka Holdings, Shionogi, Takeda Pharmaceutical.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5d969a155d082e6e",
+      "text": "The equity research analysts or strategists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality of research, investor client feedback, stock picking, competitive factors, firm revenues and overall investment banking revenues. Equity Research analysts' or strategists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "274098478e8eaa73",
+      "text": "Morgan Stanley and its affiliates do business that relates to companies/instruments covered in Morgan Stanley Research, including market making, providing liquidity, fund management, commercial banking, extension of credit, investment services and investment banking. Morgan Stanley sells to and buys from customers the securities/instruments of companies covered in Morgan Stanley Research on a principal basis. Morgan Stanley may have a position in the debt of the Company or instruments discussed in this report. Morgan Stanley trades or may trade as principal in the debt securities (or in related derivatives) that are the subject of the debt research report.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f7f677badccf6578",
+      "text": "Certain disclosures listed above are also for compliance with applicable regulations in non- US jurisdictions.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2bbf24862aef9123",
+      "text": "Morgan Stanley uses a relative rating system using terms such as Overweight, Equal- weight, Not- Rated or Underweight (see definitions below). Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal- weight, Not- Rated and Underweight are not the equivalent of buy, hold and sell. Investors should carefully read the definitions of all ratings used in Morgan Stanley Research. In addition, since Morgan Stanley Research contains more complete information concerning the analyst's views, investors should carefully read Morgan Stanley Research, in its entirety, and not infer the contents from the rating alone. In any case, ratings (or research) should not be used or relied upon as investment advice. An investor's decision to buy or sell a stock should depend on individual circumstances (such as the investor's existing holdings) and other considerations.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "dbee2ee25dd9b979",
+      "text": "(as of July 31, 2025)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "0bc8565290d1981c",
+      "text": "The Stock Ratings described below apply to Morgan Stanley's Fundamental Equity Research and do not apply to Debt Research produced by the Firm. For disclosure purposes only (in accordance with FINRA requirements), we include the category headings of Buy, Hold, and Sell alongside our ratings of Overweight, Equal- weight, Not- Rated and Underweight. Morgan Stanley does not assign ratings of Buy, Hold or Sell to the stocks we cover. Overweight, Equal- weight, Not- Rated and Underweight are not the equivalent of buy, hold, and sell but represent recommended relative weightings (see definitions below). To satisfy regulatory requirements, we correspond Overweight, our most positive stock rating, with a buy recommendation; we correspond Equal- weight and Not- Rated to hold and Underweight to sell recommendations, respectively.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "abf2ed87704bc936",
+      "text": "Coverage UniverseInvestment Banking Clients (IBC)Other Material Investment Services Clients (MISC)Count% of TotalCount% of Total IBC% of Rating CategoryCountStock Rating Category% of Total Other MISCOverweight/Buy149540%37845%25%701Equal-weight/Hold160743%37445%23%766Not-Rated/Hold50%00%0%2Underweight/Sell58816%8310%14%236Total3,6958351705",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "81cbf3b138964af6",
+      "text": "Data include common stock and ADRs currently assigned ratings. Investment Banking Clients are companies from whom Morgan Stanley received investment banking compensation in the last 12 months. Due to rounding off of decimals, the percentages provided in the % of total' column may not add up to exactly 100 percent.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "19b7e8ac996d02d6",
+      "text": "Overweight (O). The stock's total return is expected to exceed the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "dc654b6ca58b3693",
+      "text": "Equal-weight (E). The stock's total return is expected to be in line with the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "0405cd9cdba5c3ec",
+      "text": "Not-Rated (NR). Currently the analyst does not have adequate conviction about the stock's total return relative to the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a8ce2f3df92a8166",
+      "text": "Underweight (U). The stock's total return is expected to be below the average total return of the analyst's industry (or industry team's) coverage universe, on a risk-adjusted basis, over the next 12-18 months.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "1218be934f6b675e",
+      "text": "Unless otherwise specified, the time frame for price targets included in Morgan Stanley Research is 12 to 18 months.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "2a365d2dc9e7ac4c",
+      "text": "Attractive (A): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be attractive vs. the relevant broad market benchmark, as indicated below.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5ab4242e20fc207f",
+      "text": "In-Line (I): The analyst expects the performance of his or her industry coverage universe over the next 12-18 months to be in line with the relevant broad market benchmark, as indicated below.Cautious (C): The analyst views the performance of his or her industry coverage universe over the next 12-18 months with caution vs. the relevant broad market benchmark, as indicated below.Benchmarks for each region are as follows: North America - S&P 500; Latin America - relevant MSCI country index or MSCI Latin America Index; Europe - MSCI Europe; Japan - TOPIX; Asia -relevant MSCI country index or MSCI sub-regional index or MSCI AC Asia Pacific ex Japan Index.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "ba601a68b13334ea",
+      "text": "Morgan Stanley Research policy is to update research reports as and when the Research Analyst and Research Management deem appropriate, based on developments with the issuer, the sector, or the market that may have a material impact on the research views or opinions stated therein. In addition, certain Research publications are intended to be updated on a regular periodic basis (weekly/monthly/quarterly/annual) and will ordinarily be updated with that frequency, unless the Research Analyst and Research Management determine that a different publication schedule is appropriate based on current conditions.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "62c9e2ad6e34e4b6",
+      "text": "Morgan Stanley is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice within the meaning of Section 975 of the Dodd-Frank Wall Street Reform and Consumer Protection Act.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "97b46b27756f17bc",
+      "text": "Morgan Stanley produces an equity research product called a \"Tactical Idea.\" Views contained in a \"Tactical Idea\" on a particular stock may be contrary to the recommendations or views expressed in research on the same stock. This may be the result of differing time horizons, methodologies, market events, or other factors. For all research available on a particular stock, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8d9d81ac2e455610",
+      "text": "Morgan Stanley Research is provided to our clients through our proprietary research portal on Matrix and also distributed electronically by Morgan Stanley to clients. Certain, but not all, Morgan Stanley Research products are also made available to clients through third-party vendors or redistributed to clients through alternate electronic means as a convenience. For access to all available Morgan Stanley Research, please contact your sales representative or go to Matrix at http://www.morganstanley.com/matrix.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "eb7041a9a6dfc890",
+      "text": "Any access and/or use of Morgan Stanley Research is subject to Morgan Stanley's Terms of Use (http://www.morganstanley.com/terms.html). By accessing and/or using Morgan Stanley Research, you are indicating that you have read and agree to be bound by our Terms of Use (http://www.morganstanley.com/terms.html). In addition you consent to Morgan Stanley processing your personal data and using cookies in accordance with our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html), including for the purposes of setting your preferences and to collect readership data so that we can deliver better and more personalized service and products to you. To find out more information about how Morgan Stanley processes personal data, how we use cookies and how to reject cookies see our Privacy Policy and our Global Cookies Policy (http://www.morganstanley.com/privacy_pledge.html).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "42b240d9bd475617",
+      "text": "If you do not agree to our Terms of Use and/or if you do not wish to provide your consent to Morgan Stanley processing your personal data or using cookies please do not access our research.Morgan Stanley Research does not provide individually tailored investment advice. Morgan Stanley Research has been prepared without regard to the circumstances and objectives of those who receive it. Morgan Stanley recommends that investors independently evaluate particular investments and strategies, and encourages investors to seek the advice of a financial adviser.The appropriateness of an investment or strategy will depend on an investor's circumstances and objectives. The securities, instruments, or strategies discussed in Morgan Stanley Research",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "7eb696a138f8a8c5",
+      "text": "may not be suitable for all investors, and certain investors may not be eligible to purchase or participate in some or all of them. Morgan Stanley Research is not an offer to buy or sell or the solicitation of an offer to buy or sell any security/instrument or to participate in any particular trading strategy. The value of and income from your investments may vary because of changes in interest rates, foreign exchange rates, default rates, prepayment rates, securities/instruments prices, market indexes, operational or financial conditions of companies or other factors. There may be time limitations on the exercise of options or other rights in securities/instruments transactions. Past performance is not necessarily a guide to future performance. Estimates of future performance are based on assumptions that may not be realized. If provided, and unless otherwise stated, the closing price on the cover page is that of the primary exchange for the subject company's securities/instruments.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "611a239b2aed7897",
+      "text": "The fixed income research analysts, strategists or economists principally responsible for the preparation of Morgan Stanley Research have received compensation based upon various factors, including quality, accuracy and value of research, firm profitability or revenues (which include fixed income trading and capital markets profitability or revenues), client feedback and competitive factors. Fixed Income Research analysts, strategists or economists' compensation is not linked to investment banking or capital markets transactions performed by Morgan Stanley or the profitability or revenues of particular trading desks.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "62c74f077f01b12c",
+      "text": "The \"Important Regulatory Disclosures on Subject Companies\" section in Morgan Stanley Research lists all companies mentioned where Morgan Stanley owns \\(1\\%\\) or more of a class of common equity securities of the companies. For all other companies mentioned in Morgan Stanley Research, Morgan Stanley may have an investment of less than \\(1\\%\\) in securities/instruments or derivatives of securities/instruments of companies and may trade them in ways different from those discussed in Morgan Stanley Research. Employees of Morgan Stanley not involved in the preparation of Morgan Stanley Research may have investments in securities/instruments or derivatives of securities/instruments of companies mentioned and may trade them in ways different from those discussed in Morgan Stanley Research. Derivatives may be issued by Morgan Stanley or associated persons.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "ad5fe4a1786b4946",
+      "text": "With the exception of information regarding Morgan Stanley, Morgan Stanley Research is based on public information. Morgan Stanley makes every effort to use reliable, comprehensive information, but we make no representation that it is accurate or complete. We have no obligation to tell you when opinions or information in Morgan Stanley Research change apart from when we intend to discontinue equity research coverage of a subject company. Facts and views presented in Morgan Stanley Research have not been reviewed by, and may not reflect information known to, professionals in other Morgan Stanley business areas, including investment banking personnel.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0f9603e82f1c9ee6",
+      "text": "Morgan Stanley Research personnel may participate in company events such as site visits and are generally prohibited from accepting payment by the company of associated expenses unless pre- approved by authorized members of Research management.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "39b85c37d1466538",
+      "text": "Morgan Stanley may make investment decisions that are inconsistent with the recommendations or views in this report.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0c20a685c2efd0bd",
+      "text": "To our readers based in Taiwan or trading in Taiwan securities/instruments: Information on securities/instruments that trade in Taiwan is distributed by Morgan Stanley Taiwan Limited (\"MSTL\"). Such information is for your reference only. The reader should independently evaluate the investment risks and is solely responsible for their investment decisions. Morgan Stanley Research may not be distributed to the public media or quoted or used by the public media without the express written consent of Morgan Stanley. Any non- customer reader within the scope of Article 7- 1 of the Taiwan Stock Exchange Recommendation Regulations accessing and/or receiving Morgan Stanley Research is not permitted to provide Morgan Stanley Research to any third party (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities regarding Morgan Stanley Research which may create or give the appearance of creating a conflict of interest. Information on securities/instruments that do not trade in Taiwan is for informational purposes only and is not to be construed as a recommendation or a solicitation to trade in such securities/instruments. MSTL may not execute transactions for clients in these securities/instruments.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "524bf3326660ca2b",
+      "text": "Morgan Stanley is not incorporated under PRC law and the research in relation to this report is conducted outside the PRC. Morgan Stanley Research does not constitute an offer to sell or the solicitation of an offer to buy any securities in the PRC. PRC investors shall have the relevant qualifications to invest in such securities and shall be responsible for obtaining all relevant approvals, licenses, verifications and/or registrations from the relevant governmental authorities themselves. Neither this report nor any part of it is intended as, or shall constitute, provision of any consultancy or advisory service of securities investment as defined under PRC law. Such information is provided for your reference only.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "a1ba7ed86f87e4f9",
+      "text": "the regulatory criteria of a Professional Client. A distribution of the different MS Research ratings or recommendations, in percentage terms for Investments in each sector covered, is available upon request from your sales representative.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0b981ddf8b9babfb",
+      "text": "The information in Morgan Stanley Research is being communicated by Morgan Stanley & Co. International plc (QFC Branch), regulated by the Qatar Financial Centre Regulatory Authority (the QFCRA), and is directed at business customers and market counterparties only and is not intended for Retail Customers as defined by the QFCRA.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "3ed15de9ebed0765",
+      "text": "As required by the Capital Markets Board of Turkey, investment information, comments and recommendations stated here, are not within the scope of investment advisory activity. Investment advisory service is provided exclusively to persons based on their risk and income preferences by the authorized firms. Comments and recommendations stated here are general in nature. These opinions may not fit to your financial status, risk and return preferences. For this reason, to make an investment decision by relying solely to this information stated here may not bring about outcomes that fit your expectations.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7e1444ebe540a23c",
+      "text": "The trademarks and service marks contained in Morgan Stanley Research are the property of their respective owners. Third-party data providers make no warranties or representations relating to the accuracy, completeness, or timeliness of the data they provide and shall not have liability for any damages relating to such data. The Global Industry Classification Standard (GICS) was developed by and is the exclusive property of MSCI and S&P.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "a8143a46df89ab10",
+      "text": "Morgan Stanley Research, or any portion thereof may not be reprinted, sold or redistributed without the written consent of Morgan Stanley. Indicators and trackers referenced in Morgan Stanley Research may not be used as, or treated as, a benchmark under Regulation EU 2016/1011, or any other similar framework. The issuers and/or fixed income products recommended or discussed in certain fixed income research reports may not be continuously followed. Accordingly, investors should regard those fixed income research reports as providing stand-alone analysis and should not expect continuing analysis or additional reports relating to such issuers and/or individual fixed income products. Morgan Stanley may hold, from time to time, material financial and commercial interests regarding the company subject to the Research report.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e6a39ac73fd5d85d",
+      "text": "Registration granted by SEBI and certification from the National Institute of Securities Markets (NISM) in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Investment in securities market are subject to market risks. Read all the related documents carefully before investing.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7d6e95249c0f6126",
+      "text": "COMPANY (TICKER)RATING (AS OF)PRICE* (08/29/2025)Jaeheon LeeKaken Pharmaceutical (4521.T)O (11/18/2024)¥3,805Nippon Shinyaku (4516.T)U (08/27/2025)¥3,127Tsumura (4540.T)E (06/25/2025)¥3,541Shinichiro MuraokaAstellas Pharma (4503.T)E (03/06/2024)¥1,620Chugai Pharmaceutical (4519.T)O (04/24/2023)¥6,509Daiichi Sankyo (4568.T)O (03/30/2019)¥3,529Eisai (4523.T)E (09/28/2022)¥4,538JCR Pharmaceuticals (4552.T)E (06/06/2024)¥621Kyowa Kirin (4151.T)E (04/11/2022)¥2,545Ono Pharmaceutical (4528.T)U (02/22/2023)¥1,657Otsuka Holdings (4578.T)E (11/27/2019)¥7,766SanBio (4592.T)E (03/28/2024)¥2,317Santen Pharmaceutical (4536.T)E (04/11/2022)¥1,563Shionogi (4507.T)E (03/03/2016)¥2,550Sumitomo Pharma (4506.T)E (08/22/2025)¥1,525Takeda Pharmaceutical (4502.T)O (04/02/2025)¥4,421",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "2c822e9ca315a295",
+      "text": "Stock Ratings are subject to change. Please see latest research for each company. \\\\* Historical prices are not split adjusted.",
+      "page": 7,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "a9935cd77e910646",
+      "name": "America Index",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e8600890357193e9",
+      "name": "Analyst Industry",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "264f4569dd91d68d",
+      "name": "Analyst Stock",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "88e7c22574311b3f",
+      "name": "Astellas Pharma",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e2dc1e0b3bd31495",
+      "name": "Chugai Pharmaceutical",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c184cb2eaab39cb8",
+      "name": "Client Support",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c8c0d67137b1b25c",
+      "name": "Conflict Management",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c4d57fb1d13e1cae",
+      "name": "Consumer Protection",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "870edbe8e02ee39e",
+      "name": "Coverage Universe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f50a206ddd1b0778",
+      "name": "Daiichi Sankyo",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e4f3f61d98605f9e",
+      "name": "Debt Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a61f722f0dae303e",
+      "name": "Disclosure Section",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bd0c457d0672e5da",
+      "name": "Disclosures\n\nMorgan",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "43413635bc31cb1b",
+      "name": "Equity Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6c1577e1d538f2d2",
+      "name": "Exchange Recommendation",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d46778ed2efa2209",
+      "name": "Fixed Income",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "941fd3f7ed917d68",
+      "name": "Frank Wall",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "combo",
+        "title": null,
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Daiichi Sankyo",
+              "Chugai",
+              "Takeda",
+              "Astellas",
+              "Kyowa Kirin",
+              "Otsuka HD",
+              "Shionogi",
+              "Eisai",
+              "Ono"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -100,
+              "max": 200
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "BULL",
+            "unit": "%",
+            "values": [
+              115,
+              90,
+              105,
+              45,
+              140,
+              35,
+              30,
+              65,
+              20
+            ]
+          },
+          {
+            "name": "BEAR",
+            "unit": "%",
+            "values": [
+              -5,
+              -5,
+              -5,
+              -5,
+              -55,
+              -5,
+              -5,
+              -35,
+              -5
+            ]
+          },
+          {
+            "name": "BASE",
+            "unit": "%",
+            "values": [
+              37.4,
+              37.5,
+              26.7,
+              1.9,
+              -3.7,
+              9.5,
+              7.8,
+              -3.0,
+              -15.5
+            ]
+          }
+        ],
+        "figure_id": "447e1cb8bdb644d0",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Kaken",
+              "JCR",
+              "Santen",
+              "Tsumura",
+              "Sanbio",
+              "Sumitomo Pharma",
+              "Nippon Shinyaku"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -150,
+              "max": 250
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "BULL",
+            "unit": "%",
+            "values": [
+              170,
+              20,
+              60,
+              70,
+              20,
+              -10,
+              130
+            ]
+          },
+          {
+            "name": "BEAR",
+            "unit": "%",
+            "values": [
+              -30,
+              -30,
+              -10,
+              -20,
+              -80,
+              -20,
+              -20
+            ]
+          },
+          {
+            "name": "PT",
+            "unit": "%",
+            "values": [
+              44.5,
+              -13.0,
+              12.0,
+              1.7,
+              -9.4,
+              -11.5,
+              -16.9
+            ]
+          },
+          {
+            "name": "current price",
+            "unit": "%",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "figure_id": "1092adef2f623b4c",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "e9ddf6407332790c",
+        "provenance": {
+          "page": 1
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "f7dae269330cf330",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "26e</td><td>2027e</td><td></td></tr><tr><td>Takeda</td><td>OW</td><td>¥5,600</td><td>¥4,421</td><td>5.7%</td><td>3.1%</td><td>¥7,034</td><td>491.2</td><td>519.9</td><td>533.0</td><td>563.3</td><td>646",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a26e085a9e020e66",
+        "value": 0.031,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "027e</td><td></td></tr><tr><td>Takeda</td><td>OW</td><td>¥5,600</td><td>¥4,421</td><td>5.7%</td><td>3.1%</td><td>¥7,034</td><td>491.2</td><td>519.9</td><td>533.0</td><td>563.3</td><td>646.9</td><td>70",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c21c3aaad7ca4b18",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>701.6</td><td>9.0x</td><td>8.5x</td><td>8.3x</td><td>7.8x</td><td>6.8x</td><td>6.3x</td><td>7%</td><td>1.1</td></tr><tr><td>Astellas</td><td>EW</td><td>¥1,650</td><td>¥1,620</td><td>5.6%</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ae111a48dd407a42",
+        "value": 0.055999999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "x</td><td>7%</td><td>1.1</td></tr><tr><td>Astellas</td><td>EW</td><td>¥1,650</td><td>¥1,620</td><td>5.6%</td><td>8.1%</td><td>¥2,932</td><td>165.2</td><td>197.2</td><td>238.3</td><td>182.6</td><td>148",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f6e3fcbca933cd1f",
+        "value": 0.081,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>1.1</td></tr><tr><td>Astellas</td><td>EW</td><td>¥1,650</td><td>¥1,620</td><td>5.6%</td><td>8.1%</td><td>¥2,932</td><td>165.2</td><td>197.2</td><td>238.3</td><td>182.6</td><td>148.2</td><td>14",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9a53fd0b90ec9fa6",
+        "value": -0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>140.9</td><td>9.8x</td><td>8.2x</td><td>6.8x</td><td>8.9x</td><td>10.9x</td><td>11.5x</td><td>-3%</td><td>(2.2)</td></tr><tr><td>D-Sankyo</td><td>OW</td><td>¥4,850</td><td>¥3,529</td><td>-18.9%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "aa4f9bfbff7a6dff",
+        "value": -0.18899999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>-3%</td><td>(2.2)</td></tr><tr><td>D-Sankyo</td><td>OW</td><td>¥4,850</td><td>¥3,529</td><td>-18.9%</td><td>-3.1%</td><td>¥6,685</td><td>147.6</td><td>167.2</td><td>204.2</td><td>214.1</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "06698d4cd7338c1f",
+        "value": -0.031,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>(2.2)</td></tr><tr><td>D-Sankyo</td><td>OW</td><td>¥4,850</td><td>¥3,529</td><td>-18.9%</td><td>-3.1%</td><td>¥6,685</td><td>147.6</td><td>167.2</td><td>204.2</td><td>214.1</td><td>285.7</td><td>3",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "239f21ba420c0386",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>317.3</td><td>23.9x</td><td>21.1x</td><td>17.3x</td><td>16.5x</td><td>12.4x</td><td>11.1x</td><td>17%</td><td>1.0</td></tr><tr><td>Eisai</td><td>EW</td><td>¥4,400</td><td>¥4,538</td><td>4.8%</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ba5e35fbffeec4f0",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".1x</td><td>17%</td><td>1.0</td></tr><tr><td>Eisai</td><td>EW</td><td>¥4,400</td><td>¥4,538</td><td>4.8%</td><td>6.8%</td><td>¥1,324</td><td>163.8</td><td>182.9</td><td>230.0</td><td>318.7</td><td>388",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "39ddc615176dfa09",
+        "value": 0.068,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "7%</td><td>1.0</td></tr><tr><td>Eisai</td><td>EW</td><td>¥4,400</td><td>¥4,538</td><td>4.8%</td><td>6.8%</td><td>¥1,324</td><td>163.8</td><td>182.9</td><td>230.0</td><td>318.7</td><td>388.8</td><td>41",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5c07fa84e486f1ca",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>414.0</td><td>27.7x</td><td>24.8x</td><td>19.7x</td><td>14.2x</td><td>11.7x</td><td>11.0x</td><td>20%</td><td>1.0</td></tr><tr><td>Otsuka</td><td>EW</td><td>¥8,500</td><td>¥7,766</td><td>-9.7%</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3f223baacdf74f30",
+        "value": -0.09699999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0x</td><td>20%</td><td>1.0</td></tr><tr><td>Otsuka</td><td>EW</td><td>¥8,500</td><td>¥7,766</td><td>-9.7%</td><td>7.5%</td><td>¥4,217</td><td>633.8</td><td>573.2</td><td>514.7</td><td>576.0</td><td>65",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5ac463dad70ea3d3",
+        "value": 0.075,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>1.0</td></tr><tr><td>Otsuka</td><td>EW</td><td>¥8,500</td><td>¥7,766</td><td>-9.7%</td><td>7.5%</td><td>¥4,217</td><td>633.8</td><td>573.2</td><td>514.7</td><td>576.0</td><td>652.4</td><td>61",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e5c8eb033b541e10",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>617.0</td><td>12.3x</td><td>13.5x</td><td>15.1x</td><td>13.5x</td><td>11.9x</td><td>12.6x</td><td>-1%</td><td>(28.2)</td></tr><tr><td>Chugai</td><td>OW</td><td>¥8,950</td><td>¥6,509</td><td>-7.0%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8bd2a6116e7aa429",
+        "value": -0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>-1%</td><td>(28.2)</td></tr><tr><td>Chugai</td><td>OW</td><td>¥8,950</td><td>¥6,509</td><td>-7.0%</td><td>-11.7%</td><td>¥10,929</td><td>241.3</td><td>269.5</td><td>305.7</td><td>335.5</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "48ccf41bd68ba191",
+        "value": -0.11699999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>(28.2)</td></tr><tr><td>Chugai</td><td>OW</td><td>¥8,950</td><td>¥6,509</td><td>-7.0%</td><td>-11.7%</td><td>¥10,929</td><td>241.3</td><td>269.5</td><td>305.7</td><td>335.5</td><td>368.9</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c0f6c1650d55b864",
+        "value": 0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>405.6</td><td>27.0x</td><td>24.2x</td><td>21.3x</td><td>19.4x</td><td>17.6x</td><td>16.0x</td><td>11%</td><td>1.9</td></tr><tr><td>Kyowa Kirin</td><td>EW</td><td>¥2,450</td><td>¥2,545</td><td>7.1%</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2c400a2911384c82",
+        "value": 0.071,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>11%</td><td>1.9</td></tr><tr><td>Kyowa Kirin</td><td>EW</td><td>¥2,450</td><td>¥2,545</td><td>7.1%</td><td>-1.5%</td><td>¥1,338</td><td>121.4</td><td>120.9</td><td>152.8</td><td>183.0</td><td>23",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "fe6546bcc868ba71",
+        "value": -0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>1.9</td></tr><tr><td>Kyowa Kirin</td><td>EW</td><td>¥2,450</td><td>¥2,545</td><td>7.1%</td><td>-1.5%</td><td>¥1,338</td><td>121.4</td><td>120.9</td><td>152.8</td><td>183.0</td><td>233.0</td><td>2",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1d1f2e852768ef55",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>288.4</td><td>21.0x</td><td>21.1x</td><td>16.7x</td><td>13.9x</td><td>10.9x</td><td>8.8x</td><td>19%</td><td>0.9</td></tr><tr><td>Sumitomo Pharma</td><td>EW</td><td>¥1,350</td><td>¥1,525</td><td>17",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d5312865850e1b85",
+        "value": 1.709,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>19%</td><td>0.9</td></tr><tr><td>Sumitomo Pharma</td><td>EW</td><td>¥1,350</td><td>¥1,525</td><td>170.9%</td><td>34.1%</td><td>¥607</td><td>59.4</td><td>155.1</td><td>171.2</td><td>129.1</td><td>287",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d5a7a9eae925283c",
+        "value": 0.341,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".9</td></tr><tr><td>Sumitomo Pharma</td><td>EW</td><td>¥1,350</td><td>¥1,525</td><td>170.9%</td><td>34.1%</td><td>¥607</td><td>59.4</td><td>155.1</td><td>171.2</td><td>129.1</td><td>287.7</td><td>176.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "cb6bde2ce3bd12fe",
+        "value": 0.24,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>176.9</td><td>25.7x</td><td>9.8x</td><td>8.9x</td><td>11.8x</td><td>5.3x</td><td>8.6x</td><td>24%</td><td>0.4</td></tr><tr><td>Shionogi</td><td>EW</td><td>¥2,750</td><td>¥2,550</td><td>14.9%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "803b035e8966d282",
+        "value": 0.149,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>24%</td><td>0.4</td></tr><tr><td>Shionogi</td><td>EW</td><td>¥2,750</td><td>¥2,550</td><td>14.9%</td><td>1.6%</td><td>¥2,269</td><td>203.5</td><td>221.1</td><td>250.1</td><td>462.9</td><td>46",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5e3fc2aa8130d8a1",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>0.4</td></tr><tr><td>Shionogi</td><td>EW</td><td>¥2,750</td><td>¥2,550</td><td>14.9%</td><td>1.6%</td><td>¥2,269</td><td>203.5</td><td>221.1</td><td>250.1</td><td>462.9</td><td>462.9</td><td>46",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c06180a6bcc24c67",
+        "value": 0.18,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>462.9</td><td>12.5x</td><td>11.5x</td><td>10.2x</td><td>5.5x</td><td>5.5x</td><td>5.5x</td><td>18%</td><td>0.6</td></tr><tr><td>N-Shinyaku</td><td>UW</td><td>¥2,600</td><td>¥3,127</td><td>-21.5%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d59023433c79caca",
+        "value": -0.215,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>18%</td><td>0.6</td></tr><tr><td>N-Shinyaku</td><td>UW</td><td>¥2,600</td><td>¥3,127</td><td>-21.5%</td><td>-2.6%</td><td>¥220</td><td>483.4</td><td>365.5</td><td>399.2</td><td>231.5</td><td>41",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "91cc130988a6f824",
+        "value": -0.026000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>0.6</td></tr><tr><td>N-Shinyaku</td><td>UW</td><td>¥2,600</td><td>¥3,127</td><td>-21.5%</td><td>-2.6%</td><td>¥220</td><td>483.4</td><td>365.5</td><td>399.2</td><td>231.5</td><td>41.6</td><td>49.0",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a4ca9171f4af3f61",
+        "value": -0.37,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>49.0</td><td>6.5x</td><td>8.6x</td><td>7.8x</td><td>13.5x</td><td>75.2x</td><td>63.8x</td><td>-37%</td><td>(0.2)</td></tr><tr><td>Kaken</td><td>OW</td><td>¥5,500</td><td>¥3,805</td><td>-15.7%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "560dacd0c6e10031",
+        "value": -0.157,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>-37%</td><td>(0.2)</td></tr><tr><td>Kaken</td><td>OW</td><td>¥5,500</td><td>¥3,805</td><td>-15.7%</td><td>-3.9%</td><td>¥168</td><td>365.4</td><td>92.1</td><td>60.6</td><td>231.5</td><td>41.6",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "57af76fc9cd0b026",
+        "value": -0.039,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>(0.2)</td></tr><tr><td>Kaken</td><td>OW</td><td>¥5,500</td><td>¥3,805</td><td>-15.7%</td><td>-3.9%</td><td>¥168</td><td>365.4</td><td>92.1</td><td>60.6</td><td>231.5</td><td>41.6</td><td>49.0</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a4ca9171f4af3f61",
+        "value": -0.37,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>49.0</td><td>6.5x</td><td>8.6x</td><td>7.8x</td><td>13.5x</td><td>75.2x</td><td>63.8x</td><td>-37%</td><td>(0.2)</td></tr><tr><td>Ono</td><td>UW</td><td>¥1,400</td><td>¥1,657</td><td>1.4%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "609a95c10755a12a",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8x</td><td>-37%</td><td>(0.2)</td></tr><tr><td>Ono</td><td>UW</td><td>¥1,400</td><td>¥1,657</td><td>1.4%</td><td>-0.2%</td><td>¥620</td><td>192.4</td><td>198.4</td><td>195.6</td><td>231.5</td><td>165.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "40d6eada5e61713c",
+        "value": -0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "7%</td><td>(0.2)</td></tr><tr><td>Ono</td><td>UW</td><td>¥1,400</td><td>¥1,657</td><td>1.4%</td><td>-0.2%</td><td>¥620</td><td>192.4</td><td>198.4</td><td>195.6</td><td>231.5</td><td>165.4</td><td>168",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "987265c4f762c418",
+        "value": -0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>168.4</td><td>8.6x</td><td>8.4x</td><td>8.5x</td><td>10.6x</td><td>10.0x</td><td>9.8x</td><td>-3%</td><td>(3.3)</td></tr><tr><td>Santos</td><td>EW</td><td>¥1,750</td><td>¥1,563</td><td>-3.5%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "69ebd376b61cbb42",
+        "value": -0.035,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>-3%</td><td>(3.3)</td></tr><tr><td>Santos</td><td>EW</td><td>¥1,750</td><td>¥1,563</td><td>-3.5%</td><td>-6.0%</td><td>¥534</td><td>129.3</td><td>124.3</td><td>135.4</td><td>139.4</td><td>151",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "696598fda23fc289",
+        "value": -0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>(3.3)</td></tr><tr><td>Santos</td><td>EW</td><td>¥1,750</td><td>¥1,563</td><td>-3.5%</td><td>-6.0%</td><td>¥534</td><td>129.3</td><td>124.3</td><td>135.4</td><td>139.4</td><td>151.4</td><td>155",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "35e842b4a66f8197",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>155.0</td><td>12.1x</td><td>11.5x</td><td>11.5x</td><td>11.2x</td><td>10.3x</td><td>10.1x</td><td>4%</td><td>(3.1)</td></tr><tr><td>Tsumura</td><td>EW</td><td>¥3,600</td><td>¥3,541</td><td>-24.8%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "61a4dbcb3fde139d",
+        "value": -0.248,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>4%</td><td>(3.1)</td></tr><tr><td>Tsumura</td><td>EW</td><td>¥3,600</td><td>¥3,541</td><td>-24.8%</td><td>-2.9%</td><td>¥272</td><td>427.1</td><td>367.5</td><td>395.2</td><td>390.1</td><td>38",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "dfeb13d2c1172bfa",
+        "value": -0.028999999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>(3.1)</td></tr><tr><td>Tsumura</td><td>EW</td><td>¥3,600</td><td>¥3,541</td><td>-24.8%</td><td>-2.9%</td><td>¥272</td><td>427.1</td><td>367.5</td><td>395.2</td><td>390.1</td><td>386.0</td><td>408",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "045d0988d9b66092",
+        "value": -0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>408.3</td><td>8.3x</td><td>9.6x</td><td>9.6x</td><td>9.2x</td><td>8.3x</td><td>9.2x</td><td>-1%</td><td>(10.0)</td></tr><tr><td>JCR</td><td>EW</td><td>¥540</td><td>¥621</td><td>2.3%</td><td>-1",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "eed69947e7ed2db3",
+        "value": 0.023,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>9.2x</td><td>-1%</td><td>(10.0)</td></tr><tr><td>JCR</td><td>EW</td><td>¥540</td><td>¥621</td><td>2.3%</td><td>-12.7%</td><td>¥81</td><td>(38.4)</td><td>25.8</td><td>27.5</td><td>12.1</td><td>10.5</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6ac50a8c5436d136",
+        "value": -0.127,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-1%</td><td>(10.0)</td></tr><tr><td>JCR</td><td>EW</td><td>¥540</td><td>¥621</td><td>2.3%</td><td>-12.7%</td><td>¥81</td><td>(38.4)</td><td>25.8</td><td>27.5</td><td>12.1</td><td>10.5</td><td>17.0</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "89a94cd7d5201732",
+        "value": 2.085,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">36.6x</td><td>-</td><td>-</td></tr><tr><td>SanBio</td><td>EW</td><td>¥2,100</td><td>¥2,317</td><td>208.5%</td><td>0.5%</td><td>¥167</td><td>(41.5)</td><td>(33.3)</td><td>5.4</td><td>(12.3)</td><td>(2",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "52a1deebf1c4472f",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-</td><td>-</td></tr><tr><td>SanBio</td><td>EW</td><td>¥2,100</td><td>¥2,317</td><td>208.5%</td><td>0.5%</td><td>¥167</td><td>(41.5)</td><td>(33.3)</td><td>5.4</td><td>(12.3)</td><td>(20.4)</td><td>46",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "30d41959b64ddc05",
+        "value": 5600.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": ">2024</td><td>2025e</td><td>2026e</td><td>2027e</td><td></td></tr><tr><td>Takeda</td><td>OW</td><td>¥5,600</td><td>¥4,421</td><td>5.7%</td><td>3.1%</td><td>¥7,034</td><td>491.2</td><td>519.9</td><td>5",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "67a2eddfa6cd64aa",
+        "value": 4421.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "025e</td><td>2026e</td><td>2027e</td><td></td></tr><tr><td>Takeda</td><td>OW</td><td>¥5,600</td><td>¥4,421</td><td>5.7%</td><td>3.1%</td><td>¥7,034</td><td>491.2</td><td>519.9</td><td>533.0</td><td>56",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "35601cb24bbe15d1",
+        "value": 7034.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "</td></tr><tr><td>Takeda</td><td>OW</td><td>¥5,600</td><td>¥4,421</td><td>5.7%</td><td>3.1%</td><td>¥7,034</td><td>491.2</td><td>519.9</td><td>533.0</td><td>563.3</td><td>646.9</td><td>701.6</td><td>9",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ff106b28a4a23177",
+        "value": 1650.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": ">7.8x</td><td>6.8x</td><td>6.3x</td><td>7%</td><td>1.1</td></tr><tr><td>Astellas</td><td>EW</td><td>¥1,650</td><td>¥1,620</td><td>5.6%</td><td>8.1%</td><td>¥2,932</td><td>165.2</td><td>197.2</td><td>2",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7e03a321b90a7406",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td><td></td><td>% of Total Other MISC</td></tr><tr><td>Overweight/Buy</td><td>1495</td><td>40%</td><td>378</td><td>45%</td><td>25%</td><td>701</td></tr><tr><td>Equal-weight/Hold</td><td>1607<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "53bd7d2cf5dc11c9",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">% of Total Other MISC</td></tr><tr><td>Overweight/Buy</td><td>1495</td><td>40%</td><td>378</td><td>45%</td><td>25%</td><td>701</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "028f96a1b65b6a82",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Other MISC</td></tr><tr><td>Overweight/Buy</td><td>1495</td><td>40%</td><td>378</td><td>45%</td><td>25%</td><td>701</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%<",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "5fd5bb0f0868097e",
+        "value": 0.43,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>378</td><td>45%</td><td>25%</td><td>701</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%</td><td>23%</td><td>766</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c3aa8e9018a48e22",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>25%</td><td>701</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%</td><td>23%</td><td>766</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7979843729f01d82",
+        "value": 0.23,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>701</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%</td><td>23%</td><td>766</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "875ac85052f8afde",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>374</td><td>45%</td><td>23%</td><td>766</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%</td><td>2</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>1",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7880260d3765b7f3",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">45%</td><td>23%</td><td>766</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%</td><td>2</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "5befb90935ba2abf",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>23%</td><td>766</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%</td><td>2</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "232bb3c84fe2ff4a",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0%</td><td>0</td><td>0%</td><td>0%</td><td>2</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><td>14%</td><td>236</td></tr><tr><td>Total</td><td>3,695</td><td></td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "f2b9e5c9a12af93e",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>0%</td><td>2</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><td>14%</td><td>236</td></tr><tr><td>Total</td><td>3,695</td><td></td><td>835</td><td></td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a730e54f9a6ee0c3",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>2</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><td>14%</td><td>236</td></tr><tr><td>Total</td><td>3,695</td><td></td><td>835</td><td></td><td></td><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "0629c51a612be021",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Regulatory Disclosures on Subject Companies As of July 31, 2025, Morgan Stanley beneficially owned 1% or more of a class of common equity securities of the following companies covered in Morgan Stanle",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a895e8a4aed7d0fb",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td><td></td><td>% of Total Other MISC</td></tr><tr><td>Overweight/Buy</td><td>1495</td><td>40%</td><td>378</td><td>45%</td><td>25%</td><td>701</td></tr><tr><td>Equal-weight/Hold</td><td>1607<",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "fe56f15a0cb06549",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">% of Total Other MISC</td></tr><tr><td>Overweight/Buy</td><td>1495</td><td>40%</td><td>378</td><td>45%</td><td>25%</td><td>701</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374<",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "4a84da5476ee95d2",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Other MISC</td></tr><tr><td>Overweight/Buy</td><td>1495</td><td>40%</td><td>378</td><td>45%</td><td>25%</td><td>701</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%<",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "80e2c9e8d2ac49cc",
+        "value": 0.43,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>378</td><td>45%</td><td>25%</td><td>701</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%</td><td>23%</td><td>766</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "3daa1b2c502ba70a",
+        "value": 0.45,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>25%</td><td>701</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%</td><td>23%</td><td>766</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "2bdd2cb37699f001",
+        "value": 0.23,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>701</td></tr><tr><td>Equal-weight/Hold</td><td>1607</td><td>43%</td><td>374</td><td>45%</td><td>23%</td><td>766</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "4bf072ead5144aeb",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>374</td><td>45%</td><td>23%</td><td>766</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%</td><td>2</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>1",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "3e45dd4743d520bb",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">45%</td><td>23%</td><td>766</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%</td><td>2</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "ba3cf0cfeb0394db",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>23%</td><td>766</td></tr><tr><td>Not-Rated/Hold</td><td>5</td><td>0%</td><td>0</td><td>0%</td><td>0%</td><td>2</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "42799451021e7c52",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0%</td><td>0</td><td>0%</td><td>0%</td><td>2</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><td>14%</td><td>236</td></tr><tr><td>Total</td><td>3,695</td><td></td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "6f61bc6b0f6f4e0d",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>0%</td><td>2</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><td>14%</td><td>236</td></tr><tr><td>Total</td><td>3,695</td><td></td><td>835</td><td></td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "bf128ff591e9b6f4",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>2</td></tr><tr><td>Underweight/Sell</td><td>588</td><td>16%</td><td>83</td><td>10%</td><td>14%</td><td>236</td></tr><tr><td>Total</td><td>3,695</td><td></td><td>835</td><td></td><td></td><td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "6a3ba8538b5bdf0d",
+        "value": 3805.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "Lee</td><td></td><td></td></tr><tr><td>Kaken Pharmaceutical (4521.T)</td><td>O (11/18/2024)</td><td>¥3,805</td></tr><tr><td>Nippon Shinyaku (4516.T)</td><td>U (08/27/2025)</td><td>¥3,127</td></tr><tr>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "3c54309a66b12db4",
+        "value": 3127.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "11/18/2024)</td><td>¥3,805</td></tr><tr><td>Nippon Shinyaku (4516.T)</td><td>U (08/27/2025)</td><td>¥3,127</td></tr><tr><td>Tsumura (4540.T)</td><td>E (06/25/2025)</td><td>¥3,541</td></tr><tr><td>Shin",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "bf4b9e2b10897f54",
+        "value": 3541.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "><td>U (08/27/2025)</td><td>¥3,127</td></tr><tr><td>Tsumura (4540.T)</td><td>E (06/25/2025)</td><td>¥3,541</td></tr><tr><td>Shinichiro Muraoka</td><td></td><td></td></tr><tr><td>Astellas Pharma (4503.",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "1381d7a578ba9034",
+        "value": 1620.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "Muraoka</td><td></td><td></td></tr><tr><td>Astellas Pharma (4503.T)</td><td>E (03/06/2024)</td><td>¥1,620</td></tr><tr><td>Chugai Pharmaceutical (4519.T)</td><td>O (04/24/2023)</td><td>¥6,509</td></tr",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "34dfcf25313bda5b",
+        "value": 6509.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "2024)</td><td>¥1,620</td></tr><tr><td>Chugai Pharmaceutical (4519.T)</td><td>O (04/24/2023)</td><td>¥6,509</td></tr><tr><td>Daiichi Sankyo (4568.T)</td><td>O (03/30/2019)</td><td>¥3,529</td></tr><tr><",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "1a8007f04a9cf110",
+        "value": 3529.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "(04/24/2023)</td><td>¥6,509</td></tr><tr><td>Daiichi Sankyo (4568.T)</td><td>O (03/30/2019)</td><td>¥3,529</td></tr><tr><td>Eisai (4523.T)</td><td>E (09/28/2022)</td><td>¥4,538</td></tr><tr><td>JCR Ph",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "c51294cd2a67e26d",
+        "value": 4538.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "td><td>O (03/30/2019)</td><td>¥3,529</td></tr><tr><td>Eisai (4523.T)</td><td>E (09/28/2022)</td><td>¥4,538</td></tr><tr><td>JCR Pharmaceuticals (4552.T)</td><td>E (06/06/2024)</td><td>¥621</td></tr><t",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "7516aabae64775ea",
+        "value": 621.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "8/2022)</td><td>¥4,538</td></tr><tr><td>JCR Pharmaceuticals (4552.T)</td><td>E (06/06/2024)</td><td>¥621</td></tr><tr><td>Kyowa Kirin (4151.T)</td><td>E (04/11/2022)</td><td>¥2,545</td></tr><tr><td>On",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "cd9f55e0a92a01e9",
+        "value": 2545.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "td>E (06/06/2024)</td><td>¥621</td></tr><tr><td>Kyowa Kirin (4151.T)</td><td>E (04/11/2022)</td><td>¥2,545</td></tr><tr><td>Ono Pharmaceutical (4528.T)</td><td>U (02/22/2023)</td><td>¥1,657</td></tr><",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "a15d6bd9dc81c83e",
+        "value": 1657.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "11/2022)</td><td>¥2,545</td></tr><tr><td>Ono Pharmaceutical (4528.T)</td><td>U (02/22/2023)</td><td>¥1,657</td></tr><tr><td>Otsuka Holdings (4578.T)</td><td>E (11/27/2019)</td><td>¥7,766</td></tr><tr>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "00d01cebe341a561",
+        "value": 7766.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "02/22/2023)</td><td>¥1,657</td></tr><tr><td>Otsuka Holdings (4578.T)</td><td>E (11/27/2019)</td><td>¥7,766</td></tr><tr><td>SanBio (4592.T)</td><td>E (03/28/2024)</td><td>¥2,317</td></tr><tr><td>Sante",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "43865857976973d2",
+        "value": 2317.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "d><td>E (11/27/2019)</td><td>¥7,766</td></tr><tr><td>SanBio (4592.T)</td><td>E (03/28/2024)</td><td>¥2,317</td></tr><tr><td>Santen Pharmaceutical (4536.T)</td><td>E (04/11/2022)</td><td>¥1,563</td></t",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "4561521de5000595",
+        "value": 1563.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "2024)</td><td>¥2,317</td></tr><tr><td>Santen Pharmaceutical (4536.T)</td><td>E (04/11/2022)</td><td>¥1,563</td></tr><tr><td>Shionogi (4507.T)</td><td>E (03/03/2016)</td><td>¥2,550</td></tr><tr><td>Sum",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "3d365b6ab3991d18",
+        "value": 2550.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "<td>E (04/11/2022)</td><td>¥1,563</td></tr><tr><td>Shionogi (4507.T)</td><td>E (03/03/2016)</td><td>¥2,550</td></tr><tr><td>Sumitomo Pharma (4506.T)</td><td>E (08/22/2025)</td><td>¥1,525</td></tr><tr>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "7ba279bcf327c684",
+        "value": 1525.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "03/03/2016)</td><td>¥2,550</td></tr><tr><td>Sumitomo Pharma (4506.T)</td><td>E (08/22/2025)</td><td>¥1,525</td></tr><tr><td>Takeda Pharmaceutical (4502.T)</td><td>O (04/02/2025)</td><td>¥4,421</td></t",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "d9f6266bf5e77521",
+        "value": 4421.0,
+        "unit": "¥",
+        "metric_type": "currency",
+        "context": "2025)</td><td>¥1,525</td></tr><tr><td>Takeda Pharmaceutical (4502.T)</td><td>O (04/02/2025)</td><td>¥4,421</td></tr></table> Stock Ratings are subject to change. Please see latest research for each co",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 3,
+      "tables_count": 0,
+      "numerical_data_count": 91,
+      "passages_count": 68,
+      "entities_count": 20
+    }
+  }
+}

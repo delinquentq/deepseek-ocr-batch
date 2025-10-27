@@ -1,0 +1,2355 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "11da92ef2568506bd0a0d2b0b0fcd12a",
+    "title": "Assets and Liabilities of US Commercial Banks Key Highlights",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/GS/Assets and Liabilities of US Commercial Banks_2025-09-01",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:46:36.441002",
+      "extracted_at": "2025-10-26T11:46:36.441011"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 12,
+        "successful_pages": 12,
+        "date": "2025-09-01",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/GS",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 0,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.03138159610021252
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/GS"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "0831829c49b4b2d6",
+      "text": "Rates Sales & Trading Strats",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "aa17c009accf2a19",
+      "text": "Prepared by a Goldman Sachs sales and trading desk, which may have a position in the products mentioned that is inconsistent with the views expressed in this material. In evaluating this material, you should know that it could have been previously provided to other clients and/or internal Goldman Sachs personnel, who could have already acted on it. The views or ideas expressed here are those of the desk and/or author only and are not an \"official view\" of Goldman Sachs; others at Goldman Sachs may have opinions or may express views that are contrary to those herein. This material is not independent advice and is not a product of Global Investment Research. This material is a solicitation of derivatives business generally, only for the purposes of, and to the extent it would otherwise be subject to, CFTC Regulations 1.71 and 23.605.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b7f2f6edfb42789c",
+      "text": "All Banks (Data as of 20Aug25)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "035939c9b804a262",
+      "text": "Levels of Selected Assets and Liabilities, SBN (NSA)Change% -ile of Selected Assets and Liabilities, SBN (NSA)Current1 Week1 Month3 MonthsYTDAll Securities5,612(10)4689245MBS,UST & Agency4,622(6)4987207Agency MBS2,684(9)15752UST & Agency1,93733479155Other Securities991(4)(3)338MBS90(0)(0)(0)(3)Loans & Leases12,994-(16)38167268Cash Assets3,292(39)(86)3876Tot FF & RRPs688-8(11)(1)17Other Incl. Trading2,032(58)9(6)66Total Assets24,427(114)(5)286671Deposits18,277(92)1619522310y UST4.300.06(0.13)(0.18)(0.23)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d9a2a426494a47f4",
+      "text": "Levels of Selected Assets and Liabilities, % of Total Assets (NSA)Change% -ile of Selected Assets and Liabilities, % of Total Assets (NSA)Current1 Week1 Month3 MonthsYTDAll Securities23.00.10.20.10.4MBS,UST & Agency18.90.10.20.10.3Agency MBS11.00.00.1(0.1)(0.1)UST & Agency7.90.00.10.20.4Other Securities4.10.0(0.0)(0.0)0.0MBS0.40.0(0.0)(0.0)(0.0)Loans & Leases53.20.20.20.1(0.4)Cash Assets13.5(0.1)(0.3)(0.0)(0.1)Deposits74.8(0.0)0.1(0.1)(1.2)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "dc6820a45940978a",
+      "text": "% -ile of Selected Assets and Liabilities, SBN (NSA)1 Year HistoryCurrentRangeMinMax% -ileAll Securities5,3125,3325,62296.1%MBS,UST & Agency4,3254,3354,62896.1%Agency MBS2,6172,6132,69386.3%UST & Agency1,7121,9371,93798.0%Other Securities9501,00368.6%MBS899613.7%Loans & Leases12,47013,01690.2%Cash Assets2,9613,44251.0%Tot FF & RRPs60074072.5%Other Incl. Trading1,8462,09086.3%Total Assets23,32424,53588.2%Deposits17,66518,36990.2%10y UST3.624.8043.4%Min/Max25th/75th % -ileCurrent",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "363ea159cda79423",
+      "text": "% -ile of Selected Assets and Liabilities, % of Total Assets (NSA)1 Year HistoryCurrentRangeMinMax% -ileAll Securities23.022.523.290.2%MBS,UST & Agency18.918.419.094.1%Agency MBS11.010.911.313.7%UST & Agency7.97.37.998.0%Other Securities4.14.04.321.6%MBS0.40.40.45.9%Loans & Leases53.252.654.251.0%Cash Assets13.512.714.411.8%Deposits74.874.476.719.6%Min/Max25th/75th % -ileCurrent",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "f23a3c68b8b5ed62",
+      "text": "MBS,UST & Agency Securities BNS (Large Banks, NSA)2,0302,0202,0102,0001,9901,9801,970Sep24Oct24Nov24Dec25Jan25Feb25Mar25Apr25May25Jun25Jul25Aug25MBS",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4df8efef73198282",
+      "text": "Securities vs Loans, BNS (Large Banks, NSA)1,5504,1004,0504,0003,9503,9003,8503,800Sep24Oct24Nov24Dec25Jan25Feb25Mar25Apr25May25Jun25Jul25Aug25Securities",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0ff0b8dd8b4afd40",
+      "text": "Securities vs Cash, BNS (Large Banks, NSA)3,6003,5503,5003,4503,4003,3503,300Sep24Oct24Nov24Dec25Jan25Feb25Mar25Apr25May25Jun25Jul25Aug25MBS,UST &Agy Securities3,6003,5503,5003,4503,4003,3503,3003,2503,2003,1503,1003,0503,0002,9502,9002,8502,8002,7502,7002,6502,6002,5502,5002,4502,4002,3502,3002,2502,2002,1502,1002,0502,0001,9501,9001,8501,8001,7501,7001,6501,6001,5501,5001,4501,4001,3501,3001,2501,2001,1501,1001,0501,0000,9500,9000,8500,8000,7500,7000,6500,6000,5500,5000,4500,4000,3500,3000,2500,2000,1500,1000,0500,000",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0427d8127791a04d",
+      "text": "Levels of Selected Assets and Liabilities, $BN (NSA)Change% -ile Selected Assets and Liabilities, $BN (NSA)Current1 Week1 Month3 MonthsYTDAll Securities276682033MBS, UST & Agency191581831Agency MBS5127712UST & Agency140311119Other Securities850022MBS1(0)(0)00Loans & Leases1,209(5)(4)2727Cash Assets1,43210(16)(20)309Tot FF & RRPs3826(10)(9)11Other Incl. Trading153(35)3(57)(2)Total Assets3,457(19)(6)(34)390Deposits1,431(20)201010210y UST4.300.06(0.13)(0.18)(0.23)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "668f74bb95edae1d",
+      "text": "Levels of Selected Assets and Liabilities, % of Total AssetsChange% -ile Selected Assets and Liabilities, % of Total AssetsCurrent1 Week1 Month3 MonthsYTDAll Securities8.00.20.20.60.1MBS, UST & Agency5.50.20.20.60.3Agency MBS1.50.10.20.20.2UST & Agency4.00.10.00.30.1Other Securities2.50.00.00.1(0.2)MBS0.00.0(0.0)0.0(0.0)Loans & Leases35.00.1(0.0)1.1(3.6)Cash Assets41.40.5(0.4)(0.2)4.8Deposits41.4(0.3)0.70.7(1.9)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "81dea224237bb123",
+      "text": "% -ile Selected Assets and Liabilities, $BN (NSA)Change1 Year HistoryCurrentRangeMinMax% -ileAll Securities27623427698.0%MBS, UST & Agency19115319198.0%Agency MBS51345198.0%UST & Agency14011414290.2%Other Securities85828790.2%MBS11168.6%Loans & Leases1,2091,1001,23184.3%Cash Assets1,4329321,53368.6%Tot FF & RRPs38232343260.8%Other Incl. Trading15312321033.3%Total Assets3,4572,8463,54772.5%Deposits1,4311,2561,45194.1%10y UST4.303.624.8043.4%Min/Max25th/75th % -ileCurrent",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ff98b67bc4fa31be",
+      "text": "% -ile Selected Assets and Liabilities, % of Total AssetsChange1 Year HistoryCurrentRangeMinMax% -ileAll Securities8.07.38.482.4%MBS, UST & Agency5.54.85.696.1%Agency MBS1.51.11.598.0%UST & Agency4.03.64.476.5%Other Securities2.52.42.933.3%MBS0.00.00.039.2%Loans & Leases35.033.541.141.2%Cash Assets41.432.843.360.8%Deposits41.439.744.133.3%Min/Max25th/75th % -ileCurrent",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "09f1161303f82cea",
+      "text": "Levels of Selected Assets and Liabilities, $BN (NSA)Change1 Year HistoryCurrent1 Week1 Month3 MonthsYTDAll Securities1,2460(11)(4)10MBS,UST & Agency8841(6)(1)12Agency MBS630(1)(5)(1)19UST & Agency2541(1)(0)(7)Other Securities362(0)(5)(4)(2)MBS33000(3)Loans & Leases4,585(1)44297Cash Assets493(9)42(11)Tot FF & RRPs382564Other Incl. Trading434(1)(1)(1)(1)Total Assets6,732(10)(4)4197Deposits5,540(9)14689210y UST4.300.06(0.13)(0.18)(0.23)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d4559341b75477ea",
+      "text": "Levels of Selected Assets and Liabilities, % of Total AssetsChange%-ile Selected Assets and Liabilities, % of Total AssetsCurrent1 Week1 Month3 MonthsYTDAll Securities18.50.0(0.2)(0.2)(0.1)MBS,UST & Agency13.10.0(0.1)(0.1)(0.0)Agency MBS9.40.0(0.1)(0.1)0.1UST & Agency3.80.0(0.0)(0.0)(0.2)Other Securities5.40.0(0.1)(0.1)(0.1)MBS0.50.00.00.0(0.0)Loans & Leases68.10.10.10.20.5Cash Assets7.3(0.1)0.1(0.0)(0.3)Deposits82.3(0.0)0.30.50.2",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "3e59c93d6b80fe1a",
+      "text": "ChangeCurrent1 Week1 Month3 MonthsYTDAll Securities18.50.0(0.2)(0.2)(0.1)MBS,UST & Agency13.10.0(0.1)(0.1)(0.0)Agency MBS9.40.0(0.1)(0.1)0.1UST & Agency3.80.0(0.0)(0.0)(0.2)Other Securities5.40.0(0.1)(0.1)(0.1)MBS0.50.00.00.0(0.0)Loans & Leases68.10.10.10.20.5Cash Assets7.3(0.1)0.1(0.0)(0.3)Deposits82.3(0.0)0.30.50.2",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "226d003a72537411",
+      "text": "%-ile Selected Assets and Liabilities, SBN (NSA)1 Year HistoryCurrentRangeMinMax%-ileAll Securities1,2461,2301,25758.8%MBS,UST & Agency88486089080.4%Agency MBS63060463578.4%UST & Agency25425126819.6%Other Securities3623623730.0%MBS33333749.0%Loans & Leases4,5854,4464,59192.2%Cash Assets49347554633.3%Tot FF & RRPs38303894.1%Other Incl. Trading43442744047.1%Total Assets6,7326,5736,74288.2%Deposits5,5405,3415,54994.1%10y UST4.303.624.8043.4%Min/Max25th/75th %-ileCurrent",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "92bfa62d0db9f85c",
+      "text": "%-ile Selected Assets and Liabilities, % of Total Assets1 Year HistoryCurrentRangeMinMax%-ileAll Securities18.518.519.03.9%MBS,UST & Agency13.113.013.327.5%Agency MBS9.49.19.470.6%UST & Agency3.83.74.013.7%Other Securities5.45.45.72.0%MBS0.50.50.637.3%Loans & Leases68.167.268.194.1%Cash Assets7.37.18.123.5%Deposits82.381.282.394.1%Min/Max25th/75th %-ileCurrent",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "431d3a2cdfce7d58",
+      "text": "All Banks - Loans and Leases",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "99c2fa717f74534c",
+      "text": "Securities vs Loans, BNS (All Banks, NSA)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "67557517e74c38d5",
+      "text": "Loans and Leases (Cont'd), BNS (All Banks, NSA)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "6f63a89f654e4885",
+      "text": "Levels of Selected Loans, BNS (All Banks, NSA)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "6952b91df0985a6b",
+      "text": "Loans and Leases, BNS (All Banks, NSA)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "1c9555a4fb1e0761",
+      "text": "Real Estate Loans, BNS (All Banks, NSA)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3247a63dccf27e27",
+      "text": "%ile of Selected Loans, BNS (All Banks, NSA)All LoansCommercial and IndustrialReal EstateRevolving home equityClosed end residentialCommercial real estateConsumerCredit CardOther Consumer",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "b26ac0603fcc16ea",
+      "text": "Source: Fed H.8 Report, Goldman Sachs FICC and Equities. As of 29Aug2025. Past performance is not indicative of future results.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "176f829f2c14c859",
+      "text": "Securities vs Cash, BNS (Foreign-Related Institutions, NSA)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "67b2b3cbe22bcee5",
+      "text": "Cash Balance at Various Types of Banks, BNS (NSA)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "181218645202cebc",
+      "text": "Securities vs Cash, BNS (All Minus Foreign-Related, NSA)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "ee3531907d9e2935",
+      "text": "Securities vs Cash as % of Assets (All Minus Foreign-Related, NSA)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9d573075c096bb23",
+      "text": "Cash vs Deposits, BNS (Large Banks, NSA)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "7180c775b2620cdd",
+      "text": "Loans vs Deposits, BNS (Large Banks, NSA)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "2ce546590815bcbc",
+      "text": "h    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "bfa1eee1ed46c49c",
+      "text": "This message has been prepared by personnel in the Goldman Sachs FICC and Equities business units of one or more affiliates of The Goldman Sachs Group, Inc. (\"Goldman Sachs\") and is not the product of Global Investment Research. It is not a research report and is not intended as such.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "626fccbdf99517f7",
+      "text": "Non- Reliance and Risk Disclosure: This material is for the general information of our clients and is a solicitation of derivatives business generally, only for the purposes of, and to the extent it would otherwise be subject to, CFTC Regulations 1.71 and 23.605. This material should not be construed as an offer to sell or the solicitation of an offer to buy any security in any jurisdiction where such an offer or solicitation would be illegal. We are not soliciting any specific action based on this material. It does not constitute a recommendation or take into account the particular investment objectives, financial conditions, or needs of individual clients. Before acting on this material, you should consider whether it is suitable for your particular circumstances and, if necessary, seek professional advice. The price and value of the investments referred to in this material and the income from them may go down as well as up, and investors may realize losses on any investments. Past performance is not a guide to future performance. Future returns are not guaranteed, and a loss of original capital may occur. We do not provide tax, accounting, or legal advice to our clients, and all investors are advised to consult with their tax, accounting, or legal advisers regarding any potential investment. The material is based on information that we consider reliable, but we do not represent that it is accurate, complete and/or up to date, and it should not be relied on as such. Opinions expressed are our current opinions as of the date appearing on this material only and only represent the views of the author and not those of Goldman Sachs, unless otherwise expressly noted.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "6cb1b278c1e14609",
+      "text": "Risk Disclosure Regarding futures, options, equity swaps, and other derivatives as well as non- investment- grade securities and ADRs: Please ensure that you have read and understood the current options disclosure document before entering into any such transactions. Current United States listed options, futures and security futures disclosure documents are available from our sales representatives or at http://www.theocc.com/component/docs/riskstoc.pdf, http://www.goldmansachs.com/disclosures/risk- disclosure- for- futures.pdf and http://www.nfa.futures.org/NFA- compliance/publication- library/security- futures- disclosure.pdf, respectively. Certain transactions - including those involving futures, options, equity swaps, and other derivatives as well as non- investment- grade securities - give rise to substantial risk and are not available to nor suitable for all investors. If you have any questions about whether you are eligible to enter into these transactions with Goldman Sachs, please contact your sales representative. Foreign- currency- denominated securities are subject to fluctuations in exchange rates that could have an adverse effect on the value or price of, or income derived from, the investment. In addition, investors in securities such as ADRs, the values of which are influenced by foreign currencies, effectively assume currency risk.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "65bd26c694c4e818",
+      "text": "Conflict of Interest Disclosure: We are a full- service, integrated investment banking, investment management, and brokerage firm. The professionals who prepared this material are paid in part based on the profitability of The Goldman Sachs Group, Inc., which includes earnings from the firm's trading, capital markets, investment banking and other business. They, along with other salespeople, traders, and other professionals may provide oral or written market commentary or trading strategies to our clients that reflect opinions that are contrary to the opinions expressed herein or the opinions expressed in research reports issued by our Research Departments, and our market making, investing and lending businesses may make investment decisions that are inconsistent with the views expressed herein. In addition, the professionals who prepared this material may also produce material for, and from time to time, may advise or otherwise be part of our trading desks that trade as principal in the securities mentioned in this material. This material is therefore not independent from our interests, which may conflict with your interests. We and our affiliates, officers, directors, and employees, including persons involved in the preparation or issuance of this material, may from time to time have \"long\" or \"short\" positions in, act as principal in, and buy or sell the securities or derivatives (including options) thereof in, and act as market maker or specialist in, and serve as a director of, companies mentioned in this material. In addition, we may have served as manager or co manager of a public offering of securities by any such company within the past three years.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "122492ab779171d6",
+      "text": "Not a Fiduciary: To the extent this material is provided to an employee benefit plan or account subject to the Employee Retirement Income Security Act of 1974, as amended (\"ERISA\") or Section 4975 of the Internal Revenue Code of 1986, as amended (the \"Code\") (each, a \"Benefit Plan Investor\"), by accepting this material such Benefit Plan Investor will be deemed to have represented, warranted and acknowledged that (1) the Benefit Plan Investor is represented by a fiduciary that is independent of Goldman Sachs and its affiliates (the \"Independent Fiduciary\"), (2) the Independent Fiduciary is a bank (as defined in section 202 of the Investment Advisers Act of 1940 (the \"Advisers Act\")) or a similar institution that is regulated and supervised and subject to periodic examination by a State or Federal agency; an insurance carrier which is qualified under the laws of more than one State to perform the services of managing, acquiring or disposing of assets of a plan; an investment adviser registered under the Advisers Act or, if not registered as an investment adviser under the Advisers Act by reason of paragraph (1) of section 203A, is registered as an investment adviser under the laws of the State in which it maintains its principal office and place of business; a broker- dealer registered under the Securities Exchange Act of 1934; or an Independent Fiduciary that holds or has under management control total assets of at least 50 Million; (3) the Independent Fiduciary is capable of evaluating investment risks independently, both in general and with regard to the information contained in this material; (4) the Independent Fiduciary is a fiduciary under ERISA and/or the Code with respect to, and is responsible for exercising independent judgment in evaluating, the information contained in this material; (5) neither Goldman Sachs nor its affiliates are undertaking to provide impartial investment advice, or to give advice in a fiduciary capacity, in connection with the information contained in this material or with respect to any Benefit Plan Investor's subsequent investment decisions; and (6) any financial interest of Goldman Sachs and its affiliates is or has been disclosed. To the extent this material is provided to any other recipient, this material is provided solely on the basis that the recipient has the capability to independently evaluate investment risk and is exercising independent judgment in evaluating investment decisions in that its investment decisions will be based on its own independent assessment of the opportunities and risks presented by a potential investment, market factors and other investment considerations.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "39105fe03f42f471",
+      "text": "Not a Municipal Adviser: Except in circumstances where Goldman Sachs expressly agrees otherwise in writing, Goldman Sachs is not acting as a municipal advisor and the opinions or views contained herein are not intended to be, and do not constitute, advice, including with the meaning of Section 15B of the Securities Exchange Act of 1934.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "f9853d6b8b32d931",
+      "text": "Phone recording: Telephone conversations with Goldman Sachs employees may be recorded and retained.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "86929c9ea2539621",
+      "text": "Reproduction and Re- Distribution: No part of this material may be (i) copied, photocopied or duplicated in any form by any means or (ii) redistributed without our prior written consent. Notwithstanding anything herein to the contrary, and except as required to enable compliance with applicable securities law, you (and each of your employees, representatives and other agents) may disclose to any and all persons the U.S. federal income and state tax treatment and tax structure of the transaction and all materials of any kind (including tax opinions and other tax analyses) that are provided to you relating to such tax treatment and tax structure, without Goldman Sachs imposing any limitation of any kind.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "624c9722fb17900b",
+      "text": "Information Not for Further Dissemination: To the extent this communication contains Goldman Sachs pricing information, such pricing information is proprietary and/or confidential and is provided solely for the internal use of the intended recipient(s). You are notified that any unauthorized use, dissemination, distribution or copying of this communication or its contents, including pricing information, in whole or in part, is strictly prohibited. Further, unless prohibited by local law, any use, review or acceptance of this information is subject to and manifests your agreement with Goldman Sachs to use such information only in accordance with the terms set forth above. Goldman Sachs has caused its proprietary information to be delivered to you in reliance upon such agreement.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "dcc9f65096890ce4",
+      "text": "e    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i    t    t    t    t    t    t    t    t    t    e    t    t    t    t    t    t    t    t    t    t    i",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "b41915007759d6ca",
+      "text": "When this document is disseminated in Australia by Goldman Sachs & Co. LLC (\"GSCo\"), Goldman Sachs International (\"GSI\"), Goldman Sachs Bank Europe SE (\"GSBE\"), Goldman Sachs (Asia) L.L.C. (\"GSALLC\"), or Goldman Sachs (Singapore) Pte (\"GSSP\") (collectively the \"GS entities\"), this document, and any access to it, is intended only for a person that has first satisfied the GS entities that",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "821b33b718ae0755",
+      "text": "the person is a Sophisticated or Professional Investor for the purposes of section 708 of the Corporations Act of Australia; and the person is a wholesale client for the purpose of section 761G of the Corporations Act of Australia.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "8ee1f356865f5f69",
+      "text": "To the extent that GSCo is providing a financial service in Australia, GSCo is exempt from the requirement to hold an Australian financial services licence for the financial services it provides in Australia. GSCo is authorized and regulated by the U.S Securities and Exchange Commission under US laws, which differ from Australian laws, specifically:",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "fd5a3a022c1a692d",
+      "text": "GSCo is regulated by the US Securities and Exchange Commission under US laws; GSI is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority, under UK laws; GSBE is subject to direct prudential supervision by the European Central Bank and in other respects is supervised by the German Federal Financial Supervisory Authority (Bundesanstalt f Finanzdienstleistungsaufsicht, BaFin) and Deutsche Bundesbank; GSALLC is regulated by the Hong Kong Securities and Futures Commission under Hong Kong laws; and GSSP is regulated by the Monetary Authority of Singapore under Singapore laws.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "337cd0fb17d0f205",
+      "text": "When this document is disseminated in New Zealand by Goldman Sachs & Co. LLC. (\"GSCo\"), Goldman Sachs International (\"GSI\"), Goldman Sachs Bank Europe SE (\"GSBE\"), Goldman Sachs (Asia) L.L.C. (\"GSALLC\") or Goldman Sachs (Singapore) Pte (\"GSSP\") (collectively the \"GS entities\"), this document, and any access to it, is intended only for a person that has first satisfied Goldman Sachs that the person is someone that:",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "c2a3739110e30cae",
+      "text": "who is an investment business within the meaning of clause 37 of Schedule 1 of the Financial Markets Conduct Act 2013 (New Zealand) (the \"FMCAct\"); who meets the investment activity criteria specified in clause 38 of Schedule 1 of the FMC Act; who is large within the meaning of clause 39 of Schedule 1 of the FMC Act; or is a government agency within the meaning of clause 40 of Schedule 1 of the FMC Act.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "f33614dd14afac36",
+      "text": "No offer to acquire the interests is being made to you in this document. Any offer will only be made in circumstances where disclosure is not required under the Financial Markets Conduct Act 2013 or the Financial Markets Conduct Regulations 2014.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "21cfd3a411c0a0e4",
+      "text": "GS is not licensed to provide investment advice of investment management services under Israeli law.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "1379ba78637dd1d5",
+      "text": "本资料，特定投资家对客之对象作此或本。本资料对金融商品特定投资家对客之对取可可能，特定投资家以外对客之。",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "4ee7162d91ee39ed",
+      "text": "加入金/日本证券业会、一般社团法人金融先物取引业会、一般社团法人第二金融商品取引业会本普主之证券会、一般社团法人金融先物取引业会、一般社团法人第二金融商品或引业会本普主之证券会、一般社团法人金融先物取引业、一般社团法人第二金融商品或引业会本普主之证券会、一般社团法人第二金融商品或引业会本普主之证券会、一般社团法人金融商品或引业会本普主之证券会、一般社团法人第二金融商品或引业会本普主之证券会、一般社团法人第二金融产品或引业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导业会本普主之证券会、一般社团法人第二金融产品或导业业会本普主之证券会、一般社团法人第二金融产品或导",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "4098ddb9c6dccd62",
+      "text": "Goldman Sachs is not a licensed entity in Egypt and the relevant services will be carried out abroad.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "2b2c7d1204819398",
+      "text": "Seguos. t  t  t  t  t  t  t  t  t  t  t t  t  t  t  t  t  t  t  t  t",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "591802103fc022dc",
+      "text": "t  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t",
+      "page": 11,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "1b850d9a16ac0d61",
+      "name": "Advisers Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d4f0af777863e67a",
+      "name": "Agency MBS",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fac9f443a3f4c9cb",
+      "name": "Agency Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7fbf544b0d060901",
+      "name": "Agy Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "09622dfad61eb759",
+      "name": "All Banks",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "01e20e4f9734f0dc",
+      "name": "All Loans",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8e3a2beb7a24da9e",
+      "name": "All Minus",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9764e8fbc0090159",
+      "name": "All Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2377ece5230c67de",
+      "name": "Australian Investors",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "10c4b9fb39db2245",
+      "name": "Bank Europe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2a77253b810c9ded",
+      "name": "Banks Key",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "57757b15b147e161",
+      "name": "Benefit Plan",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "12d066623b2b079c",
+      "name": "CFTC Regulations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "af624abb19203455",
+      "name": "Cash Assets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ae8b11bb96a83a94",
+      "name": "Cash Balance",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "85848cf0ab6dc81d",
+      "name": "Commercial Bank",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "88f494f365f0299b",
+      "name": "Conduct Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "900eef27df0b5958",
+      "name": "Conduct Regulations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7d77397cc9d1b9f1",
+      "name": "Confidential\n\nPrepared",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cf7454fe4270253d",
+      "name": "Corporations Act",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Oct 24",
+              "Nov 24",
+              "Dec 24",
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 2500,
+              "max": 5000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "MBS, UST & Agy Securities",
+            "unit": null,
+            "values": [
+              4300,
+              4350,
+              4380,
+              4400,
+              4380,
+              4390,
+              4450,
+              4500,
+              4550,
+              4580,
+              4600,
+              4650
+            ]
+          },
+          {
+            "name": "Cash",
+            "unit": null,
+            "values": [
+              3250,
+              3100,
+              3250,
+              3200,
+              2950,
+              3350,
+              3250,
+              3350,
+              3400,
+              3300,
+              3100,
+              3250,
+              3400,
+              3300,
+              3200,
+              3350,
+              3250
+            ]
+          }
+        ],
+        "figure_id": "f262eb044a568ae0",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 3,
+        "axes": null,
+        "series": [],
+        "figure_id": "b2b1decbd4f1fa7a",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 4,
+        "axes": null,
+        "series": [],
+        "figure_id": "0fd8c7977ba49b5b",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": "Securities vs Loans, BN$ (Foreign Banks, NSA)",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Oct 24",
+              "Nov 24",
+              "Dec 24",
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": "BN$",
+            "range": {
+              "min": 230,
+              "max": 280
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Securities",
+            "unit": "BN$",
+            "values": [
+              243,
+              245,
+              250,
+              242,
+              232,
+              248,
+              249,
+              256,
+              260,
+              268,
+              269,
+              275
+            ]
+          },
+          {
+            "name": "Loans & Leases (Right)",
+            "unit": "BN$",
+            "values": [
+              1105,
+              1120,
+              1135,
+              1210,
+              1150,
+              1155,
+              1170,
+              1190,
+              1200,
+              1215,
+              1190,
+              1210
+            ]
+          }
+        ],
+        "figure_id": "c5cf919f6d3dc136",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Oct 24",
+              "Nov 24",
+              "Dec 24",
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 150,
+              "max": 200
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "MBS, UST & Agy Securities",
+            "unit": null,
+            "values": [
+              161,
+              164,
+              162,
+              154,
+              160,
+              166,
+              172,
+              170,
+              176,
+              183,
+              183,
+              188
+            ]
+          },
+          {
+            "name": "Cash (Right)",
+            "unit": null,
+            "values": [
+              177,
+              168,
+              176,
+              152,
+              184,
+              182,
+              190,
+              165,
+              192,
+              188,
+              178,
+              192
+            ]
+          }
+        ],
+        "figure_id": "f9c4efbc08e9d3af",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Oct 24",
+              "Nov 24",
+              "Dec 24",
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 5300,
+              "max": 5650
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Securities",
+            "unit": null,
+            "values": [
+              5330,
+              5335,
+              5380,
+              5375,
+              5400,
+              5380,
+              5360,
+              5370,
+              5390,
+              5375,
+              5390,
+              5420,
+              5430,
+              5460,
+              5480,
+              5520,
+              5540,
+              5520,
+              5550,
+              5570,
+              5600,
+              5620
+            ]
+          },
+          {
+            "name": "Loans and Leases (Right)",
+            "unit": null,
+            "values": [
+              5330,
+              5330,
+              5350,
+              5370,
+              5400,
+              5410,
+              5460,
+              5420,
+              5410,
+              5420,
+              5410,
+              5430,
+              5450,
+              5480,
+              5500,
+              5530,
+              5540,
+              5560,
+              5580,
+              5600,
+              5610,
+              5630
+            ]
+          }
+        ],
+        "figure_id": "5a658e8e97fb9db3",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Oct 24",
+              "Nov 24",
+              "Dec 24",
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 1910,
+              "max": 1980
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Consumer",
+            "unit": null,
+            "values": [
+              1931,
+              1923,
+              1930,
+              1924,
+              1934,
+              1921,
+              1923,
+              1960,
+              1978,
+              1946,
+              1954,
+              1935,
+              1920,
+              1914,
+              1926,
+              1932,
+              1942,
+              1940,
+              1955,
+              1954,
+              1965,
+              1959,
+              1975,
+              1970
+            ]
+          }
+        ],
+        "figure_id": "f74eb8c50e0b0e03",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "table",
+        "title": "Levels of Selected Loans, BN$ (All Banks, NSA)",
+        "page": 6,
+        "axes": {},
+        "series": [
+          {
+            "name": "All Loans",
+            "unit": "BN$",
+            "values": {
+              "Current": 12993.9,
+              "1 Week": -16.2,
+              "1 Month": 38.3,
+              "3 Months": 166.6,
+              "YTD": 268.0
+            }
+          },
+          {
+            "name": "Commercial and Industrial",
+            "unit": "BN$",
+            "values": {
+              "Current": 2861.4,
+              "1 Week": -2.3,
+              "1 Month": 2.1,
+              "3 Months": 24.9,
+              "YTD": 54.9
+            }
+          },
+          {
+            "name": "Real Estate",
+            "unit": "BN$",
+            "values": {
+              "Current": 5684.5,
+              "1 Week": -5.5,
+              "1 Month": 6.0,
+              "3 Months": 29.9,
+              "YTD": 54.5
+            }
+          },
+          {
+            "name": "Revolving home equity",
+            "unit": "BN$",
+            "values": {
+              "Current": 271.3,
+              "1 Week": 0.2,
+              "1 Month": 0.5,
+              "3 Months": 3.2,
+              "YTD": 8.4
+            }
+          },
+          {
+            "name": "Closed end residential",
+            "unit": "BN$",
+            "values": {
+              "Current": 2385.0,
+              "1 Week": 0.7,
+              "1 Month": 4.1,
+              "3 Months": 13.1,
+              "YTD": 23.2
+            }
+          },
+          {
+            "name": "Commercial real estate",
+            "unit": "BN$",
+            "values": {
+              "Current": 3028.1,
+              "1 Week": -6.4,
+              "1 Month": 1.4,
+              "3 Months": 13.6,
+              "YTD": 22.9
+            }
+          },
+          {
+            "name": "Consumer",
+            "unit": "BN$",
+            "values": {
+              "Current": 1969.8,
+              "1 Week": -2.2,
+              "1 Month": 10.8,
+              "3 Months": 27.9,
+              "YTD": -9.3
+            }
+          },
+          {
+            "name": "Credit Card",
+            "unit": "BN$",
+            "values": {
+              "Current": 1098.3,
+              "1 Week": -3.6,
+              "1 Month": 6.0,
+              "3 Months": 16.7,
+              "YTD": -29.2
+            }
+          },
+          {
+            "name": "Other Consumer",
+            "unit": "BN$",
+            "values": {
+              "Current": 871.4,
+              "1 Week": 1.4,
+              "1 Month": 4.8,
+              "3 Months": 11.2,
+              "YTD": 20.0
+            }
+          }
+        ],
+        "figure_id": "4f116841c7e159aa",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Oct 24",
+              "Nov 24",
+              "Dec 24",
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 2340,
+              "max": 3040
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Closed end residential",
+            "unit": null,
+            "values": [
+              2352,
+              2350,
+              2365,
+              2355,
+              2360,
+              2350,
+              2355,
+              2365,
+              2375,
+              2385,
+              2390,
+              2385
+            ]
+          },
+          {
+            "name": "Commercial real estate (Right)",
+            "unit": null,
+            "values": [
+              2995,
+              3005,
+              3010,
+              2990,
+              3000,
+              3015,
+              3005,
+              3010,
+              3020,
+              3025,
+              3035,
+              3025
+            ]
+          }
+        ],
+        "figure_id": "c2019c1e1b0f9091",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": "Securities vs Cash, DFI (Foreign Related Institutions, NDF)",
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Oct 24",
+              "Nov 24",
+              "Dec 24",
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 150,
+              "max": 200
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "MBS, UST & Agy Securities",
+            "unit": null,
+            "values": [
+              161,
+              163,
+              162,
+              165,
+              159,
+              160,
+              163,
+              162,
+              158,
+              160,
+              162,
+              164,
+              162,
+              166,
+              160,
+              163,
+              167,
+              162,
+              159,
+              160,
+              162,
+              166,
+              168,
+              172,
+              168,
+              165,
+              160,
+              153,
+              163,
+              166,
+              160,
+              164,
+              166,
+              172,
+              170,
+              172,
+              176,
+              178,
+              183,
+              183,
+              184,
+              180,
+              183,
+              184,
+              180,
+              181,
+              186,
+              188
+            ]
+          },
+          {
+            "name": "Cash (Right)",
+            "unit": null,
+            "values": [
+              170,
+              178,
+              172,
+              170,
+              168,
+              162,
+              160,
+              162,
+              168,
+              176,
+              170,
+              168,
+              170,
+              176,
+              172,
+              168,
+              162,
+              152,
+              160,
+              168,
+              170,
+              176,
+              184,
+              188,
+              186,
+              188,
+              190,
+              188,
+              184,
+              180,
+              170,
+              160,
+              170,
+              180,
+              188,
+              190,
+              188,
+              192,
+              190,
+              188,
+              184,
+              180,
+              170,
+              160,
+              170,
+              180,
+              188,
+              190
+            ]
+          }
+        ],
+        "figure_id": "43fcc6969a54352d",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Oct 24",
+              "Nov 24",
+              "Dec 24",
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 900,
+              "max": 1600
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Large Banks",
+            "unit": null,
+            "values": [
+              1580,
+              1500,
+              1520,
+              1580,
+              1500,
+              1500,
+              1450,
+              1300,
+              1380,
+              1450,
+              1350,
+              1380
+            ]
+          },
+          {
+            "name": "Foreign-Related",
+            "unit": null,
+            "values": [
+              1180,
+              1280,
+              1200,
+              1180,
+              950,
+              1350,
+              1450,
+              1380,
+              1200,
+              1250,
+              1150,
+              1200
+            ]
+          },
+          {
+            "name": "All Banks (Right)",
+            "unit": null,
+            "values": [
+              3450,
+              3200,
+              3300,
+              3350,
+              3000,
+              3300,
+              3400,
+              3100,
+              3350,
+              3450,
+              3300,
+              3300
+            ]
+          }
+        ],
+        "figure_id": "788233e9e78287eb",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Oct 24",
+              "Nov 24",
+              "Dec 24",
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 4150,
+              "max": 4450
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "MBS, UST & Agy Securities",
+            "unit": null,
+            "values": [
+              4175,
+              4178,
+              4215,
+              4230,
+              4250,
+              4265,
+              4250,
+              4220,
+              4230,
+              4270,
+              4285,
+              4300,
+              4320,
+              4355,
+              4385,
+              4385,
+              4395,
+              4405,
+              4415,
+              4425,
+              4440,
+              4450
+            ]
+          },
+          {
+            "name": "Cash (Right)",
+            "unit": null,
+            "values": [
+              4385,
+              4350,
+              4300,
+              4350,
+              4385,
+              4350,
+              4300,
+              4250,
+              4220,
+              4250,
+              4300,
+              4320,
+              4300,
+              4320,
+              4360,
+              4385,
+              4350,
+              4300,
+              4200,
+              4180,
+              4200,
+              4250,
+              4300,
+              4220,
+              4280,
+              4250
+            ]
+          }
+        ],
+        "figure_id": "340b947b1ccc4578",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Oct 24",
+              "Nov 24",
+              "Dec 24",
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0.204,
+              "max": 0.214
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "MBS, UST & Agy Securities",
+            "unit": null,
+            "values": [
+              0.2045,
+              0.2065,
+              0.207,
+              0.206,
+              0.2065,
+              0.2085,
+              0.2075,
+              0.213,
+              0.211,
+              0.209,
+              0.21,
+              0.211
+            ]
+          },
+          {
+            "name": "Cash (Right)",
+            "unit": null,
+            "values": [
+              0.103,
+              0.099,
+              0.101,
+              0.102,
+              0.101,
+              0.098,
+              0.1,
+              0.095,
+              0.087,
+              0.09,
+              0.091,
+              0.1
+            ]
+          }
+        ],
+        "figure_id": "f45cae6725b1c1cf",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Oct 24",
+              "Nov 24",
+              "Dec 24",
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 1200,
+              "max": 1600
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Cash",
+            "unit": null,
+            "values": [
+              1575,
+              1475,
+              1525,
+              1575,
+              1500,
+              1375,
+              1450,
+              1525,
+              1275,
+              1325,
+              1425,
+              1375
+            ]
+          },
+          {
+            "name": "Deposits (Right)",
+            "unit": null,
+            "values": [
+              1325,
+              1250,
+              1325,
+              1450,
+              1375,
+              1325,
+              1400,
+              1500,
+              1375,
+              1450,
+              1525,
+              1475
+            ]
+          }
+        ],
+        "figure_id": "f96571b4327f25cc",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Oct 24",
+              "Nov 24",
+              "Dec 24",
+              "Jan 25",
+              "Feb 25",
+              "Mar 25",
+              "Apr 25",
+              "May 25",
+              "Jun 25",
+              "Jul 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 6900,
+              "max": 11500
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Loans & Leases",
+            "unit": null,
+            "values": [
+              6920,
+              6900,
+              6930,
+              6920,
+              6960,
+              6920,
+              6940,
+              6920,
+              6960,
+              7050,
+              7000,
+              6980,
+              6960,
+              6980,
+              7000,
+              7020,
+              7050,
+              7080,
+              7050,
+              7120,
+              7080,
+              7130,
+              7150,
+              7180,
+              7200,
+              7210,
+              7180,
+              7200,
+              7220,
+              7210
+            ]
+          },
+          {
+            "name": "Deposits (Right)",
+            "unit": null,
+            "values": [
+              11000,
+              10950,
+              11050,
+              11000,
+              11100,
+              11050,
+              11200,
+              11100,
+              11000,
+              10950,
+              11000,
+              11050,
+              11100,
+              11150,
+              11200,
+              11250,
+              11300,
+              11350,
+              11400,
+              11350,
+              11450,
+              11400,
+              11300,
+              11200,
+              11300,
+              11350,
+              11400,
+              11350,
+              11300,
+              11250
+            ]
+          }
+        ],
+        "figure_id": "e344daa185ae1946",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "3c189e8b33840d76",
+        "value": 0.961,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td></tr><tr><td>All Securities</td><td>5,312</td><td></td><td>5,332</td><td>5,622</td><td>96.1%</td><td></td></tr><tr><td>MBS,UST & Agency</td><td>4,325</td><td></td><td>4,335</td><td>4,628<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "99a9073d127e0e65",
+        "value": 0.961,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td></tr><tr><td>MBS,UST & Agency</td><td>4,325</td><td></td><td>4,335</td><td>4,628</td><td>96.1%</td><td></td></tr><tr><td>Agency MBS</td><td>2,617</td><td></td><td>2,613</td><td>2,693</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a26af7738051ad05",
+        "value": 0.863,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".1%</td><td></td></tr><tr><td>Agency MBS</td><td>2,617</td><td></td><td>2,613</td><td>2,693</td><td>86.3%</td><td></td></tr><tr><td>UST & Agency</td><td>1,712</td><td></td><td>1,937</td><td>1,937</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d74054fb4fd3e0d3",
+        "value": 0.98,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td></td></tr><tr><td>UST & Agency</td><td>1,712</td><td></td><td>1,937</td><td>1,937</td><td>98.0%</td><td></td></tr><tr><td>Other Securities</td><td>950</td><td></td><td>1,003</td><td>68.6%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4b9f94eda15e5c44",
+        "value": 0.6859999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>98.0%</td><td></td></tr><tr><td>Other Securities</td><td>950</td><td></td><td>1,003</td><td>68.6%</td><td></td><td></td></tr><tr><td>MBS</td><td>89</td><td></td><td>96</td><td>13.7%</td><td></",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2d855fcb634dbc53",
+        "value": 0.13699999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>1,003</td><td>68.6%</td><td></td><td></td></tr><tr><td>MBS</td><td>89</td><td></td><td>96</td><td>13.7%</td><td></td><td></td></tr><tr><td>Loans & Leases</td><td>12,470</td><td></td><td>13,016</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3a929aa1e0095486",
+        "value": 0.902,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "7%</td><td></td><td></td></tr><tr><td>Loans & Leases</td><td>12,470</td><td></td><td>13,016</td><td>90.2%</td><td></td><td></td></tr><tr><td>Cash Assets</td><td>2,961</td><td></td><td>3,442</td><td>51",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4b9b3b15431d5e87",
+        "value": 0.51,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>90.2%</td><td></td><td></td></tr><tr><td>Cash Assets</td><td>2,961</td><td></td><td>3,442</td><td>51.0%</td><td></td><td></td></tr><tr><td>Tot FF & RRPs</td><td>600</td><td></td><td>740</td><td>72.5",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a35ffdc2c6122528",
+        "value": 0.725,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>51.0%</td><td></td><td></td></tr><tr><td>Tot FF & RRPs</td><td>600</td><td></td><td>740</td><td>72.5%</td><td></td><td></td></tr><tr><td>Other Incl. Trading</td><td>1,846</td><td></td><td>2,090</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a877b30108a5912b",
+        "value": 0.863,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td><td></td></tr><tr><td>Other Incl. Trading</td><td>1,846</td><td></td><td>2,090</td><td>86.3%</td><td></td><td></td></tr><tr><td>Total Assets</td><td>23,324</td><td></td><td>24,535</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "72b38290bc0f36b1",
+        "value": 0.882,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6.3%</td><td></td><td></td></tr><tr><td>Total Assets</td><td>23,324</td><td></td><td>24,535</td><td>88.2%</td><td></td><td></td></tr><tr><td>Deposits</td><td>17,665</td><td></td><td>18,369</td><td>90.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "edec622bfdb101e7",
+        "value": 0.902,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>88.2%</td><td></td><td></td></tr><tr><td>Deposits</td><td>17,665</td><td></td><td>18,369</td><td>90.2%</td><td></td><td></td></tr><tr><td>10y UST</td><td>3.62</td><td></td><td>4.80</td><td>43.4%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3d91d2240ebad9e4",
+        "value": 0.434,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>90.2%</td><td></td><td></td></tr><tr><td>10y UST</td><td>3.62</td><td></td><td>4.80</td><td>43.4%</td><td></td><td></td></tr><tr><td>Min/Max</td><td colspan=\"2\">25th/75th % -ile</td><td colspa",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "992b2696b922e448",
+        "value": 0.902,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "le</td><td></td></tr><tr><td>All Securities</td><td>23.0</td><td></td><td>22.5</td><td>23.2</td><td>90.2%</td><td></td></tr><tr><td>MBS,UST & Agency</td><td>18.9</td><td></td><td>18.4</td><td>19.0</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9bd642f95664fa8a",
+        "value": 0.941,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td></tr><tr><td>MBS,UST & Agency</td><td>18.9</td><td></td><td>18.4</td><td>19.0</td><td>94.1%</td><td></td></tr><tr><td>Agency MBS</td><td>11.0</td><td></td><td>10.9</td><td>11.3</td><td>1",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f85a260498c4b42b",
+        "value": 0.13699999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">94.1%</td><td></td></tr><tr><td>Agency MBS</td><td>11.0</td><td></td><td>10.9</td><td>11.3</td><td>13.7%</td><td></td></tr><tr><td>UST & Agency</td><td>7.9</td><td></td><td>7.3</td><td>7.9</td><td>98",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "efa019d3debf2db2",
+        "value": 0.98,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>13.7%</td><td></td></tr><tr><td>UST & Agency</td><td>7.9</td><td></td><td>7.3</td><td>7.9</td><td>98.0%</td><td></td></tr><tr><td>Other Securities</td><td>4.1</td><td></td><td>4.0</td><td>4.3</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6994a54c255cd799",
+        "value": 0.21600000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".0%</td><td></td></tr><tr><td>Other Securities</td><td>4.1</td><td></td><td>4.0</td><td>4.3</td><td>21.6%</td><td></td></tr><tr><td>MBS</td><td>0.4</td><td></td><td>0.4</td><td>0.4</td><td>5.9%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e94b18680b8c8b76",
+        "value": 0.059000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".3</td><td>21.6%</td><td></td></tr><tr><td>MBS</td><td>0.4</td><td></td><td>0.4</td><td>0.4</td><td>5.9%</td><td></td></tr><tr><td>Loans & Leases</td><td>53.2</td><td></td><td>52.6</td><td>54.2</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1eaa9580a73bea3a",
+        "value": 0.51,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "9%</td><td></td></tr><tr><td>Loans & Leases</td><td>53.2</td><td></td><td>52.6</td><td>54.2</td><td>51.0%</td><td></td></tr><tr><td>Cash Assets</td><td>13.5</td><td></td><td>12.7</td><td>14.4</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ec231500e3105cf1",
+        "value": 0.11800000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "51.0%</td><td></td></tr><tr><td>Cash Assets</td><td>13.5</td><td></td><td>12.7</td><td>14.4</td><td>11.8%</td><td></td></tr><tr><td>Deposits</td><td>74.8</td><td></td><td>74.4</td><td>76.7</td><td>19.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "44ceb84abaefe55e",
+        "value": 0.196,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>11.8%</td><td></td></tr><tr><td>Deposits</td><td>74.8</td><td></td><td>74.4</td><td>76.7</td><td>19.6%</td><td></td></tr><tr><td>Min/Max</td><td colspan=\"2\">25th/75th % -ile</td><td colspan=\"2\">Cur",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b6f1fa60eb7f7cc7",
+        "value": 0.98,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-ile</td><td></td></tr><tr><td>All Securities</td><td>276</td><td></td><td>234</td><td>276</td><td>98.0%</td><td></td></tr><tr><td>MBS, UST & Agency</td><td>191</td><td></td><td>153</td><td>191</td><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e9e21cc0d72c1377",
+        "value": 0.98,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0%</td><td></td></tr><tr><td>MBS, UST & Agency</td><td>191</td><td></td><td>153</td><td>191</td><td>98.0%</td><td></td></tr><tr><td>Agency MBS</td><td>51</td><td></td><td>34</td><td>51</td><td>98.0%</",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "55c8b94790da5fa7",
+        "value": 0.98,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>98.0%</td><td></td></tr><tr><td>Agency MBS</td><td>51</td><td></td><td>34</td><td>51</td><td>98.0%</td><td></td></tr><tr><td>UST & Agency</td><td>140</td><td></td><td>114</td><td>142</td><td>90",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "0e5b7a35fe058266",
+        "value": 0.902,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>98.0%</td><td></td></tr><tr><td>UST & Agency</td><td>140</td><td></td><td>114</td><td>142</td><td>90.2%</td><td></td></tr><tr><td>Other Securities</td><td>85</td><td></td><td>82</td><td>87</td><td>9",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "339541cab5a10861",
+        "value": 0.902,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">90.2%</td><td></td></tr><tr><td>Other Securities</td><td>85</td><td></td><td>82</td><td>87</td><td>90.2%</td><td></td></tr><tr><td>MBS</td><td>1</td><td></td><td>1</td><td>1</td><td>68.6%</td><td></t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "84ec864dcd7adcce",
+        "value": 0.6859999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>87</td><td>90.2%</td><td></td></tr><tr><td>MBS</td><td>1</td><td></td><td>1</td><td>1</td><td>68.6%</td><td></td></tr><tr><td>Loans & Leases</td><td>1,209</td><td></td><td>1,100</td><td>1,231</t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "639fd9d8fbc0ea58",
+        "value": 0.843,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td></tr><tr><td>Loans & Leases</td><td>1,209</td><td></td><td>1,100</td><td>1,231</td><td>84.3%</td><td></td></tr><tr><td>Cash Assets</td><td>1,432</td><td></td><td>932</td><td>1,533</td><td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ca5b73b7232c431a",
+        "value": 0.6859999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4.3%</td><td></td></tr><tr><td>Cash Assets</td><td>1,432</td><td></td><td>932</td><td>1,533</td><td>68.6%</td><td></td></tr><tr><td>Tot FF & RRPs</td><td>382</td><td></td><td>323</td><td>432</td><td>6",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "c1d66997dba042d5",
+        "value": 0.608,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">68.6%</td><td></td></tr><tr><td>Tot FF & RRPs</td><td>382</td><td></td><td>323</td><td>432</td><td>60.8%</td><td></td></tr><tr><td>Other Incl. Trading</td><td>153</td><td></td><td>123</td><td>210</td",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "51749ef0fec76bd2",
+        "value": 0.33299999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td></tr><tr><td>Other Incl. Trading</td><td>153</td><td></td><td>123</td><td>210</td><td>33.3%</td><td></td></tr><tr><td>Total Assets</td><td>3,457</td><td></td><td>2,846</td><td>3,547</td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "a8e7b4fcffc557bc",
+        "value": 0.725,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td></td></tr><tr><td>Total Assets</td><td>3,457</td><td></td><td>2,846</td><td>3,547</td><td>72.5%</td><td></td></tr><tr><td>Deposits</td><td>1,431</td><td></td><td>1,256</td><td>1,451</td><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "47ba8f5cf2cae9f1",
+        "value": 0.941,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "72.5%</td><td></td></tr><tr><td>Deposits</td><td>1,431</td><td></td><td>1,256</td><td>1,451</td><td>94.1%</td><td></td></tr><tr><td>10y UST</td><td>4.30</td><td></td><td>3.62</td><td>4.80</td><td>43.4",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "17bbdcca5bc45078",
+        "value": 0.434,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>94.1%</td><td></td></tr><tr><td>10y UST</td><td>4.30</td><td></td><td>3.62</td><td>4.80</td><td>43.4%</td><td></td></tr><tr><td>Min/Max</td><td colspan=\"3\">25th/75th % -ile</td><td colspan=\"3\">Cur",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "3a164584b9c9adfe",
+        "value": 0.8240000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-ile</td><td></td></tr><tr><td>All Securities</td><td>8.0</td><td></td><td>7.3</td><td>8.4</td><td>82.4%</td><td></td></tr><tr><td>MBS, UST & Agency</td><td>5.5</td><td></td><td>4.8</td><td>5.6</td><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "2bfd291b6501f6b2",
+        "value": 0.961,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4%</td><td></td></tr><tr><td>MBS, UST & Agency</td><td>5.5</td><td></td><td>4.8</td><td>5.6</td><td>96.1%</td><td></td></tr><tr><td>Agency MBS</td><td>1.5</td><td></td><td>1.1</td><td>1.5</td><td>98.0",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "cfdf1c008390f4a0",
+        "value": 0.98,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>96.1%</td><td></td></tr><tr><td>Agency MBS</td><td>1.5</td><td></td><td>1.1</td><td>1.5</td><td>98.0%</td><td></td></tr><tr><td>UST & Agency</td><td>4.0</td><td></td><td>3.6</td><td>4.4</td><td>76",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7aebd2e2afd90365",
+        "value": 0.765,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>98.0%</td><td></td></tr><tr><td>UST & Agency</td><td>4.0</td><td></td><td>3.6</td><td>4.4</td><td>76.5%</td><td></td></tr><tr><td>Other Securities</td><td>2.5</td><td></td><td>2.4</td><td>2.9</td><t",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d1a29412e356ce82",
+        "value": 0.33299999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".5%</td><td></td></tr><tr><td>Other Securities</td><td>2.5</td><td></td><td>2.4</td><td>2.9</td><td>33.3%</td><td></td></tr><tr><td>MBS</td><td>0.0</td><td></td><td>0.0</td><td>0.0</td><td>39.2%</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "943c114d639b10ee",
+        "value": 0.392,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".9</td><td>33.3%</td><td></td></tr><tr><td>MBS</td><td>0.0</td><td></td><td>0.0</td><td>0.0</td><td>39.2%</td><td></td></tr><tr><td>Loans & Leases</td><td>35.0</td><td></td><td>33.5</td><td>41.1</td><",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "045c19e3c60630e4",
+        "value": 0.41200000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2%</td><td></td></tr><tr><td>Loans & Leases</td><td>35.0</td><td></td><td>33.5</td><td>41.1</td><td>41.2%</td><td></td></tr><tr><td>Cash Assets</td><td>41.4</td><td></td><td>32.8</td><td>43.3</td><td>",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "7f8c8f645e5efbf2",
+        "value": 0.608,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "41.2%</td><td></td></tr><tr><td>Cash Assets</td><td>41.4</td><td></td><td>32.8</td><td>43.3</td><td>60.8%</td><td></td></tr><tr><td>Deposits</td><td>41.4</td><td></td><td>39.7</td><td>44.1</td><td>33.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "6b6ba9fdc96e0d11",
+        "value": 0.33299999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>60.8%</td><td></td></tr><tr><td>Deposits</td><td>41.4</td><td></td><td>39.7</td><td>44.1</td><td>33.3%</td><td></td></tr><tr><td>Min/Max</td><td colspan=\"3\">25th/75th % -ile</td><td colspan=\"3\">Cur",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e2141d6983df9aff",
+        "value": 0.588,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td></tr><tr><td>All Securities</td><td>1,246</td><td></td><td>1,230</td><td>1,257</td><td>58.8%</td><td></td></tr><tr><td>MBS,UST & Agency</td><td>884</td><td></td><td>860</td><td>890</td><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "8d56b03900939b22",
+        "value": 0.804,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".8%</td><td></td></tr><tr><td>MBS,UST & Agency</td><td>884</td><td></td><td>860</td><td>890</td><td>80.4%</td><td></td></tr><tr><td>Agency MBS</td><td>630</td><td></td><td>604</td><td>635</td><td>78.4",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b4ffc3ca9b7409c7",
+        "value": 0.784,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>80.4%</td><td></td></tr><tr><td>Agency MBS</td><td>630</td><td></td><td>604</td><td>635</td><td>78.4%</td><td></td></tr><tr><td>UST & Agency</td><td>254</td><td></td><td>251</td><td>268</td><td>19",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "bda9b2e38978e1c3",
+        "value": 0.196,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>78.4%</td><td></td></tr><tr><td>UST & Agency</td><td>254</td><td></td><td>251</td><td>268</td><td>19.6%</td><td></td></tr><tr><td>Other Securities</td><td>362</td><td></td><td>362</td><td>373</td><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2ea74b67316fa27a",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".6%</td><td></td></tr><tr><td>Other Securities</td><td>362</td><td></td><td>362</td><td>373</td><td>0.0%</td><td></td></tr><tr><td>MBS</td><td>33</td><td></td><td>33</td><td>37</td><td>49.0%</td><td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "177b1fae6571a0ca",
+        "value": 0.49,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>373</td><td>0.0%</td><td></td></tr><tr><td>MBS</td><td>33</td><td></td><td>33</td><td>37</td><td>49.0%</td><td></td></tr><tr><td>Loans & Leases</td><td>4,585</td><td></td><td>4,446</td><td>4,591</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "610f3167d6160480",
+        "value": 0.922,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td></tr><tr><td>Loans & Leases</td><td>4,585</td><td></td><td>4,446</td><td>4,591</td><td>92.2%</td><td></td></tr><tr><td>Cash Assets</td><td>493</td><td></td><td>475</td><td>546</td><td>33.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ef34aed388f24b5d",
+        "value": 0.33299999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>92.2%</td><td></td></tr><tr><td>Cash Assets</td><td>493</td><td></td><td>475</td><td>546</td><td>33.3%</td><td></td></tr><tr><td>Tot FF & RRPs</td><td>38</td><td></td><td>30</td><td>38</td><td>94.1",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d4152e6c569338bc",
+        "value": 0.941,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>33.3%</td><td></td></tr><tr><td>Tot FF & RRPs</td><td>38</td><td></td><td>30</td><td>38</td><td>94.1%</td><td></td></tr><tr><td>Other Incl. Trading</td><td>434</td><td></td><td>427</td><td>440</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "bd800158b587e81b",
+        "value": 0.47100000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td></tr><tr><td>Other Incl. Trading</td><td>434</td><td></td><td>427</td><td>440</td><td>47.1%</td><td></td></tr><tr><td>Total Assets</td><td>6,732</td><td></td><td>6,573</td><td>6,742</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "aa78a05827d62a28",
+        "value": 0.882,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td></td></tr><tr><td>Total Assets</td><td>6,732</td><td></td><td>6,573</td><td>6,742</td><td>88.2%</td><td></td></tr><tr><td>Deposits</td><td>5,540</td><td></td><td>5,341</td><td>5,549</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e91ce4ebbbbf44e6",
+        "value": 0.941,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "88.2%</td><td></td></tr><tr><td>Deposits</td><td>5,540</td><td></td><td>5,341</td><td>5,549</td><td>94.1%</td><td></td></tr><tr><td>10y UST</td><td>4.30</td><td></td><td>3.62</td><td>4.80</td><td>43.4",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c10731dd62456bb7",
+        "value": 0.434,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>94.1%</td><td></td></tr><tr><td>10y UST</td><td>4.30</td><td></td><td>3.62</td><td>4.80</td><td>43.4%</td><td></td></tr><tr><td></td><td>Min/Max</td><td></td><td>25th/75th %-ile</td><td>Current</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ea2e425fedc6ba0e",
+        "value": 0.039,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "le</td><td></td></tr><tr><td>All Securities</td><td>18.5</td><td></td><td>18.5</td><td>19.0</td><td>3.9%</td><td></td></tr><tr><td>MBS,UST & Agency</td><td>13.1</td><td></td><td>13.0</td><td>13.3</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "008e4086dd3ca3c1",
+        "value": 0.275,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td></tr><tr><td>MBS,UST & Agency</td><td>13.1</td><td></td><td>13.0</td><td>13.3</td><td>27.5%</td><td></td></tr><tr><td>Agency MBS</td><td>9.4</td><td></td><td>9.1</td><td>9.4</td><td>70.6",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "7a441bd77e054167",
+        "value": 0.706,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>27.5%</td><td></td></tr><tr><td>Agency MBS</td><td>9.4</td><td></td><td>9.1</td><td>9.4</td><td>70.6%</td><td></td></tr><tr><td>UST & Agency</td><td>3.8</td><td></td><td>3.7</td><td>4.0</td><td>13",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b434e43dff15da9f",
+        "value": 0.13699999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>70.6%</td><td></td></tr><tr><td>UST & Agency</td><td>3.8</td><td></td><td>3.7</td><td>4.0</td><td>13.7%</td><td></td></tr><tr><td>Other Securities</td><td>5.4</td><td></td><td>5.4</td><td>5.7</td><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "7f6815dc44cf0945",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".7%</td><td></td></tr><tr><td>Other Securities</td><td>5.4</td><td></td><td>5.4</td><td>5.7</td><td>2.0%</td><td></td></tr><tr><td>MBS</td><td>0.5</td><td></td><td>0.5</td><td>0.6</td><td>37.3%</td><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "39e0c2ce79452ab3",
+        "value": 0.373,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5.7</td><td>2.0%</td><td></td></tr><tr><td>MBS</td><td>0.5</td><td></td><td>0.5</td><td>0.6</td><td>37.3%</td><td></td></tr><tr><td>Loans & Leases</td><td>68.1</td><td></td><td>67.2</td><td>68.1</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c09cf2c401c9ecb4",
+        "value": 0.941,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "3%</td><td></td></tr><tr><td>Loans & Leases</td><td>68.1</td><td></td><td>67.2</td><td>68.1</td><td>94.1%</td><td></td></tr><tr><td>Cash Assets</td><td>7.3</td><td></td><td>7.1</td><td>8.1</td><td>23.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5512e720dcd5b389",
+        "value": 0.235,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>94.1%</td><td></td></tr><tr><td>Cash Assets</td><td>7.3</td><td></td><td>7.1</td><td>8.1</td><td>23.5%</td><td></td></tr><tr><td>Deposits</td><td>82.3</td><td></td><td>81.2</td><td>82.3</td><td>94.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "9da213d388dd8117",
+        "value": 0.941,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>23.5%</td><td></td></tr><tr><td>Deposits</td><td>82.3</td><td></td><td>81.2</td><td>82.3</td><td>94.1%</td><td></td></tr><tr><td></td><td>Min/Max</td><td></td><td>25th/75th %-ile</td><td>Current</t",
+        "provenance": {
+          "page": 4
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 15,
+      "tables_count": 0,
+      "numerical_data_count": 66,
+      "passages_count": 57,
+      "entities_count": 20
+    }
+  }
+}

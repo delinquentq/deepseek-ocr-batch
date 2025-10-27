@@ -4,428 +4,267 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 项目概述
 
-DeepSeek OCR 批量处理系统 - 基于 DeepSeek-OCR + OpenRouter 的智能文档批量处理系统，**针对 RTX 4090 48G 显存极速优化**。
+DeepSeek OCR 批量处理系统 - PDF文档的OCR识别与结构化数据提取系统。
 
-**核心功能：** PDF文档 → OCR识别 → Markdown提取 → 结构化JSON输出（符合金融报告提取Schema v1.3.1）
+**处理流程：** PDF → DeepSeek OCR (vLLM) → Markdown+图像 → 规则引擎+LLM (Gemini 2.5 Flash) → JSON Schema v1.3.1
 
 **技术栈：**
-- **OCR引擎：** vLLM 0.8.5 + DeepSeek-OCR 模型
-- **后处理：** OpenRouter API (Gemini 2.5 Flash)
-- **验证：** JSON Schema v1.3.1 严格验证
-- **深度学习：** PyTorch 2.6.0 + CUDA 11.8
-
-**性能：** 相比 RTX 3090 配置提升 **3-4倍** 处理速度
+- OCR引擎: vLLM 0.8.5 + DeepSeek-OCR (本地GPU)
+- 后处理: 规则引擎 + OpenRouter API (Gemini 2.5 Flash)
+- 深度学习: PyTorch 2.6.0 + CUDA 11.8
+- 目标硬件: RTX 4090 24G (可配置不同硬件)
 
 ## 常用命令
 
-### 环境设置
+### 快速开始
 
 ```bash
-# 创建conda环境
+# 1. 环境配置（首次运行）
 conda create -n deepseek-ocr python=3.10 -y
 conda activate deepseek-ocr
-
-# 安装PyTorch (CUDA 11.8)
 pip install torch==2.6.0 torchvision==0.21.0 --index-url https://download.pytorch.org/whl/cu118
-
-# 安装项目依赖
 pip install -r requirements_batch.txt
 
-# 配置环境变量（必需）
+# 2. 设置API密钥（必需）
 export OPENROUTER_API_KEY=your_api_key_here
-export DEEPSEEK_OCR_MODEL_PATH=deepseek-ai/DeepSeek-OCR
-export CUDA_VISIBLE_DEVICES=0
-export VLLM_USE_V1=0
+
+# 3. 运行处理
+python run_batch_processor.py              # 处理 input_pdfs/ 下所有PDF
+python run_batch_processor.py -y           # 跳过确认
+python run_batch_processor.py --input /path/to/pdfs  # 指定输入目录
 ```
 
-### 系统测试
+### 批量处理（推荐用法）
 
 ```bash
-# 运行完整系统测试（推荐首次运行）
+# 后台处理多个目录（生产环境）
+python run_batch_processor.py -y \
+  --input "/path/to/batch1" \
+  > logs/batch1_$(date +%F_%H%M).log 2>&1 &
+
+# 监控处理进度
+tail -f logs/batch_processor.log | grep -E "保存JSON|阶段B|失败"
+
+# GPU监控
+watch -n 5 nvidia-smi
+```
+
+### 测试和调试
+
+```bash
+# 系统完整性测试
 python test_batch_system.py
 
-# 检查环境配置
-python run_batch_processor.py --setup
-```
+# API连接测试
+python test_api_connection.py
 
-### 批量处理
-
-```bash
-# 处理 input_pdfs/ 目录下的所有PDF
-python run_batch_processor.py
-
-# 处理指定文件
-python run_batch_processor.py -f report1.pdf -f report2.pdf
-
-# 跳过确认提示
-python run_batch_processor.py -y
-
-# 后台运行
-nohup python run_batch_processor.py > processing.log 2>&1 &
-
-# 使用screen保持会话
-screen -S deepseek-ocr
-python run_batch_processor.py
-# Ctrl+A, D 分离会话
-```
-
-### 监控和调试
-
-```bash
-# 实时查看处理日志
-tail -f logs/batch_processor.log
-
-# 监控GPU状态
-watch -n 5 nvidia-smi
-
-# 查看系统资源
-htop
-
-# 检查存储空间
-df -h
-```
-
-### 维护命令
-
-```bash
-# 清理临时文件
-rm -rf temp_processing/*
-
-# 清理日志
-rm -rf logs/*.log
-
-# 备份处理结果
-tar -czf backup_$(date +%Y%m%d).tar.gz output_results/
+# 单个模块测试
+python test_figure_extraction.py
 ```
 
 ## 核心架构
 
-### 处理流程
+### 两阶段处理流程
+
+系统采用**异步两阶段流水线**架构，最大化GPU和API利用率：
 
 ```
-PDF输入 (input_pdfs/)
-    ↓
-DeepSeekOCRBatchProcessor (deepseek_ocr.py + batch_pdf_processor.py)
-    ├─ vLLM推理引擎加载模型
-    ├─ PDF页面批量处理 (BATCH_SIZE=4)
-    ├─ 动态图像裁剪 (CROP_MODE=True)
-    └─ Markdown + 图像提取
-    ↓
-OpenRouterProcessor (batch_pdf_processor.py:400+)
-    ├─ AsyncOpenAI客户端
-    ├─ Gemini 2.5 Flash API调用
-    ├─ 结构化数据提取
-    └─ 指数退避重试机制
-    ↓
-JSONSchemaValidator (batch_pdf_processor.py:500+)
-    ├─ Schema v1.3.1 严格验证
-    ├─ 自动修复常见错误
-    └─ 数据完整性检查
-    ↓
-输出 (output_results/)
-    ├─ {filename}.md - Markdown文本
-    ├─ {filename}_final.json - 结构化JSON
-    ├─ images/ - 提取的图表
-    └─ processing_log.txt - 处理日志
+阶段A（生产者）: PDF → OCR → Markdown+图像
+  ├─ DeepSeekOCRBatchProcessor (GPU密集)
+  ├─ vLLM 推理引擎 (本地GPU)
+  ├─ 批量处理: BATCH_SIZE=10, 并发=15
+  └─ 输出: output_results/{pdf_name}/{pdf_name}.md + images/
+        ↓ (队列传递)
+阶段B（消费者）: Markdown → JSON结构化数据
+  ├─ MarkdownToJsonEngine (规则引擎，无API调用)
+  ├─ BatchFigureProcessor (图表提取，Gemini API)
+  ├─ JsonMerger (合并结果)
+  └─ 输出: output_report/{pdf_name}/{pdf_name}.json
 ```
 
-### 关键模块
+**关键特性：**
+- 阶段A和B并行运行，充分利用GPU和网络资源
+- 规则引擎处理文本和表格（无成本）
+- LLM仅用于图表数据提取（降低80%+ API开销）
+- 断点续传：阶段A跳过已有MD，阶段B跳过已有JSON
 
-**1. 配置管理 (config_batch.py)**
-- `HardwareConfig`: GPU显存优化参数 (RTX 3090 24G)
-- `OCRConfig`: DeepSeek OCR模型配置
-- `APIConfig`: OpenRouter API配置
-- `PathConfig`: 文件路径管理
-- `ProcessingConfig`: 处理流程控制
-- `ValidationConfig`: 数据验证规则
+### 核心文件说明
 
-**2. OCR处理器 (deepseek_ocr.py)**
-- `DeepseekOCRForCausalLM`: vLLM模型实现
-- `DeepseekOCRProcessor`: 图像预处理器 (process/image_process.py)
-- `NoRepeatNGramLogitsProcessor`: N-gram重复检测 (process/ngram_norepeat.py)
-- 视觉编码器: SAM-ViT-B + CLIP-L (deepencoder/)
+**主处理器：**
+- `batch_pdf_processor.py` - 两阶段协调器（1200+行）
+  - `BatchPDFProcessor`: 主控类，管理阶段A和B
+  - `DeepSeekOCRBatchProcessor`: OCR批量处理（阶段A）
+  - 异步队列管理和错误处理
 
-**3. 批量处理器 (batch_pdf_processor.py)**
-- `BatchPDFProcessor`: 主处理器协调类
-- `DeepSeekOCRBatchProcessor`: OCR批量处理
-- `OpenRouterProcessor`: API调用和数据提取
-- `JSONSchemaValidator`: Schema验证器
+**后处理引擎（阶段B）：**
+- `md_to_json_engine.py` - 规则引擎（提取文本、表格、数值）
+- `batch_figure_processor.py` - 图表处理器（Gemini API）
+- `json_merger.py` - 结果合并器
+- `md_cleaner.py` - Markdown清理器
+- `figure_filter.py` - 图表过滤器（跳过股价图等）
 
-**4. 启动脚本 (run_batch_processor.py)**
-- 命令行参数解析
-- 环境检查和验证
-- 用户交互界面
-- 批量任务调度
+**配置和工具：**
+- `config_batch.py` - 统一配置管理（硬件、API、路径）
+- `deepseek_ocr.py` - vLLM模型集成
+- `run_batch_processor.py` - 启动脚本
+- `json schema.json` - 输出数据规范 v1.3.1
 
-### 配置参数调优
+### 配置调优 (config_batch.py)
 
-**RTX 4090 48G 极速配置 (config_batch.py:14-30):**
+**当前配置 (RTX 4090 24G 优化):**
 ```python
-GPU_MEMORY_UTILIZATION = 0.90  # 充分利用90%显存（43.2GB）
-MAX_CONCURRENCY = 16           # 大幅提升并发数
-BATCH_SIZE = 12                # 每批处理12页（3倍提升）
-NUM_WORKERS = 24               # 预处理线程数（3倍提升）
-MAX_CONCURRENT_PDFS = 6        # 并发处理6个PDF
-MAX_CONCURRENT_API_CALLS = 12  # 并发12个API调用
+# 硬件配置
+GPU_MEMORY_UTILIZATION = 0.85  # 85%显存 (~20GB)
+BATCH_SIZE = 10                # 每批10页
+MAX_CONCURRENCY = 15           # 最大并发15
+NUM_WORKERS = 32               # 32个预处理线程
+
+# 处理配置
+MAX_CONCURRENT_PDFS = 6        # 阶段A并发6个PDF
+MAX_CONCURRENT_API_CALLS = 15  # 阶段B并发15个API调用（图表提取）
 ```
 
-**显存不足时调整 (降低显存使用):**
+**针对不同硬件调整：**
+
+| GPU型号 | GPU_MEM_UTIL | BATCH_SIZE | MAX_CONCURRENCY | 预期速度 |
+|---------|--------------|------------|-----------------|----------|
+| RTX 3090 24G | 0.75 | 6 | 10 | 基准 |
+| RTX 4090 24G | 0.85 | 10 | 15 | 2-3x |
+| RTX 4090 48G | 0.90 | 12 | 16 | 3-4x |
+| A100 40G | 0.85 | 12 | 16 | 3-4x |
+
+**API限流时降低并发：**
 ```python
-config.hardware.BATCH_SIZE = 8
-config.hardware.MAX_CONCURRENCY = 12
-config.hardware.GPU_MEMORY_UTILIZATION = 0.85
-config.processing.MAX_CONCURRENT_PDFS = 4
+config.processing.MAX_CONCURRENT_API_CALLS = 8  # 从15降到8
 ```
 
-**追求极致速度 (激进配置，风险较高):**
-```python
-config.hardware.GPU_MEMORY_UTILIZATION = 0.95
-config.hardware.MAX_CONCURRENCY = 20
-config.hardware.BATCH_SIZE = 16
-config.processing.MAX_CONCURRENT_PDFS = 8
-config.processing.MAX_CONCURRENT_API_CALLS = 16
+### 输出目录结构
+
 ```
-
-**API限流时调整:**
-```python
-config.processing.MAX_CONCURRENT_API_CALLS = 8
-config.api.RETRY_DELAY_BASE = 2
-config.api.REQUEST_TIMEOUT = 900  # 15分钟
-```
-
-### JSON Schema 结构
-
-输出JSON严格遵循 `json schema.json` (v1.3.1)，主要字段：
-
-```json
-{
-  "schema_version": "1.3.1",
-  "doc": {
-    "doc_id": "文档hash ID",
-    "title": "文档标题",
-    "timestamps": { "ingested_at": "...", "extracted_at": "..." },
-    "extraction_run": {
-      "vision_model": "deepseek-ai/DeepSeek-OCR",
-      "synthesis_model": "google/gemini-2.5-flash",
-      "pipeline_steps": ["ocr", "extraction", "validation"]
-    }
-  },
-  "passages": [...],  // 文本段落
-  "entities": {...},  // 实体识别
-  "data": {
-    "figures": [...],      // 图表数据（可重建）
-    "tables": [...],       // 表格数据
-    "numerical_data": [...], // 数值数据
-    "companies": [...],    // 公司信息
-    "key_metrics": [...]   // 关键指标
-  }
-}
+项目根目录/
+├── input_pdfs/              # PDF输入
+├── output_results/          # 阶段A输出（OCR结果）
+│   └── {date}/
+│       └── {pdf_name}/
+│           ├── {pdf_name}.md         # Markdown文本
+│           └── images/               # 提取的图像
+│               ├── 0_0.jpg
+│               └── 0_1.jpg
+├── output_report/           # 阶段B输出（JSON报告）
+│   └── {date}/
+│       └── {pdf_name}/
+│           ├── {pdf_name}.json       # 最终JSON
+│           └── {pdf_name}_template.json  # 中间结果
+└── temp_processing/         # 临时文件
 ```
 
 ## 开发指南
 
+### 修改阶段B处理逻辑
+
+阶段B由多个引擎组成，各自独立：
+
+1. **修改规则引擎** (md_to_json_engine.py)
+   - 调整文本段落提取规则
+   - 修改表格解析逻辑
+   - 自定义数值提取模式
+
+2. **调整图表处理** (batch_figure_processor.py)
+   - 修改图表过滤规则 (figure_filter.py)
+   - 调整Gemini提示词
+   - 优化API并发策略
+
+3. **自定义合并逻辑** (json_merger.py)
+   - 修改字段优先级
+   - 添加数据后处理
+   - 实现自定义验证
+
+### 调整性能参数
+
+```python
+# config_batch.py 中的关键参数
+
+# OCR速度（阶段A）
+BATCH_SIZE = 10              # 增大提速但需更多显存
+MAX_CONCURRENCY = 15         # GPU并发数
+
+# API速度（阶段B）
+MAX_CONCURRENT_API_CALLS = 15  # API并发数（受限于配额）
+REQUEST_TIMEOUT = 600        # 单次请求超时
+LLM_MAX_TOKENS_IMAGE = 1536  # 图表提取token限制（降低可提速）
+```
+
 ### 添加新的LLM模型
 
-在 `config_batch.py:66-68` 添加模型配置：
+在 `config_batch.py` 添加：
 ```python
 MODELS = {
     "gemini": "google/gemini-2.5-flash",
-    "new_model": "provider/model-name"  # 新增
+    "gpt4": "openai/gpt-4-turbo"  # 新增模型
 }
 ```
 
-在 `batch_pdf_processor.py` 的 `OpenRouterProcessor.__init__()` 中使用：
-```python
-self.model = config.api.MODELS["new_model"]
-```
-
-### 自定义验证规则
-
-扩展 `JSONSchemaValidator` 类 (batch_pdf_processor.py:500+)：
-```python
-def custom_validation(self, data: Dict) -> Tuple[bool, List[str]]:
-    """自定义验证逻辑"""
-    errors = []
-    # 添加自定义检查
-    if not data.get("data", {}).get("figures"):
-        errors.append("缺少图表数据")
-    return len(errors) == 0, errors
-```
-
-### 修改OCR提示词
-
-编辑 `config.py:PROMPT` 或 `config_batch.py:37`：
-```python
-PROMPT = '<image>\n<|grounding|>Your custom prompt here.'
-```
-
-### 调试技巧
-
-**1. 启用详细日志 (config_batch.py:133):**
-```python
-LOG_LEVEL = "DEBUG"
-```
-
-**2. 保存中间结果 (config_batch.py:118):**
-```python
-SAVE_INTERMEDIATE_RESULTS = True
-SAVE_RAW_RESPONSES = True
-```
-
-**3. 单文件测试:**
-```python
-# 在 batch_pdf_processor.py 中直接运行
-if __name__ == "__main__":
-    processor = BatchPDFProcessor()
-    asyncio.run(processor.process_single_pdf("test.pdf"))
-```
-
-**4. 跳过Schema验证（仅调试）:**
-```python
-config.validation.STRICT_SCHEMA_VALIDATION = False
-```
+在 `batch_figure_processor.py` 中切换模型（约180行）。
 
 ## 故障排除
 
 ### 常见问题
 
-| 问题 | 原因 | 解决方案 |
-|------|------|----------|
-| `CUDA out of memory` | 显存不足 | 降低 `BATCH_SIZE` 和 `MAX_CONCURRENCY` |
-| `API rate limit exceeded` | OpenRouter限流 | 增加 `RETRY_DELAY_BASE`，降低 `MAX_CONCURRENT_API_CALLS` |
-| `JSON validation failed` | Schema不匹配 | 检查 `json schema.json`，启用 `AUTO_FIX_SCHEMA_ERRORS` |
-| `Model loading timeout` | 模型下载慢 | 预先下载模型到本地，设置 `DEEPSEEK_OCR_MODEL_PATH` |
-| `ImportError: vllm` | 依赖未安装 | `pip install --force-reinstall -r requirements_batch.txt` |
+| 症状 | 可能原因 | 解决方案 |
+|------|----------|----------|
+| **CUDA out of memory** | 显存不足 | 降低 `BATCH_SIZE` (10→6) 或 `GPU_MEMORY_UTILIZATION` (0.85→0.75) |
+| **API rate limit** | OpenRouter限流 | 降低 `MAX_CONCURRENT_API_CALLS` (15→8) |
+| **阶段B卡住不动** | 图表API超时 | 检查网络，查看 `logs/batch_processor.log` |
+| **JSON缺少字段** | Schema验证失败 | 检查 `{pdf_name}_template.json` 中间结果 |
+| **ImportError: vllm** | 依赖未安装 | `pip install --force-reinstall -r requirements_batch.txt` |
+| **阶段A跳过所有PDF** | 已有MD文件 | 删除 `output_results/` 中对应目录 |
 
 ### 性能基准
 
-| GPU型号 | 处理速度 | 显存使用 | 推荐配置 | 备注 |
-|---------|----------|----------|----------|------|
-| **RTX 4090 48G** | **40-90秒/PDF** | **38-43GB** | **BATCH_SIZE=12, MAX_CONCURRENCY=16** | **当前优化目标** |
-| RTX 3090 24G | 2-5分钟/PDF | 18-22GB | BATCH_SIZE=4, MAX_CONCURRENCY=6 | 原配置 |
-| RTX 4090 24G | 1-3分钟/PDF | 16-20GB | BATCH_SIZE=6, MAX_CONCURRENCY=8 | - |
-| A100 40G | 1-2分钟/PDF | 15-18GB | BATCH_SIZE=8, MAX_CONCURRENCY=12 | - |
-| A100 80G | 30-60秒/PDF | 30-40GB | BATCH_SIZE=16, MAX_CONCURRENCY=20 | 最强配置 |
+| 文档大小 | RTX 3090 24G | RTX 4090 24G | 备注 |
+|---------|--------------|--------------|------|
+| 小文档 (10页) | 2-3分钟 | 1-2分钟 | 阶段A+B总时间 |
+| 中文档 (30页) | 5-8分钟 | 3-5分钟 | 图表多时B阶段占主导 |
+| 大文档 (100页) | 20-30分钟 | 12-18分钟 | 并行处理优势明显 |
 
-**性能提升对比（RTX 4090 48G vs RTX 3090 24G）：**
-- 小文档 (5-10页): **3-4倍** 提升
-- 中文档 (20-30页): **3-4倍** 提升
-- 大文档 (50+页): **3-4倍** 提升
-- 批量处理: **3-4倍** 提升
+**提速关键：** 两阶段并行 + 规则引擎 + 图表过滤
 
-### 日志分析
+### 日志查看
 
-**关键日志位置：**
-- `logs/batch_processor.log` - 主处理日志
-- `logs/errors.log` - 错误日志
-- `output_results/{filename}/processing_log.txt` - 单文件处理日志
-
-**常见错误模式：**
 ```bash
-# 查找API错误
+# 监控整体进度
+tail -f logs/batch_processor.log | grep -E "阶段A|阶段B|完成|失败"
+
+# 查看API错误
 grep "API调用失败" logs/batch_processor.log
 
-# 查找显存错误
-grep "CUDA out of memory" logs/errors.log
-
-# 查找验证错误
-grep "Schema验证失败" logs/batch_processor.log
+# 查找特定PDF
+grep "report.pdf" logs/batch_processor.log
 ```
 
 ## 环境变量
 
-必需的环境变量（可在 `.env` 文件中配置）：
-
 ```bash
-# OpenRouter API密钥（必需）
-OPENROUTER_API_KEY=sk-or-v1-xxxxx
+# 必需
+export OPENROUTER_API_KEY=sk-or-v1-xxxxx
 
-# DeepSeek OCR模型路径（可选，默认从HuggingFace下载）
-DEEPSEEK_OCR_MODEL_PATH=deepseek-ai/DeepSeek-OCR
-
-# CUDA设备选择（可选，默认0）
-CUDA_VISIBLE_DEVICES=0
-
-# vLLM版本控制（可选，默认0）
-VLLM_USE_V1=0
-
-# CUDA 11.8特定配置（可选）
-TRITON_PTXAS_PATH=/usr/local/cuda-11.8/bin/ptxas
+# 可选
+export DEEPSEEK_OCR_MODEL_PATH=deepseek-ai/DeepSeek-OCR  # 默认自动下载
+export CUDA_VISIBLE_DEVICES=0                             # 指定GPU
+export VLLM_USE_V1=0                                      # vLLM版本控制
 ```
 
-## 代码风格
+## 重要提醒
 
-- **Python版本：** 3.10+
-- **类型注解：** 使用 `typing` 模块的类型提示
-- **异步编程：** OpenRouter API调用使用 `asyncio` + `AsyncOpenAI`
-- **错误处理：** 使用 `try-except` 并记录详细日志
-- **配置管理：** 使用 `dataclass` 和配置类
-- **路径处理：** 统一使用 `pathlib.Path`
+1. **首次运行会下载模型**：约10GB，需要HuggingFace访问权限和稳定网络
+2. **API配额管理**：当前15并发API调用（仅图表提取），确保OpenRouter配额充足
+3. **断点续传**：重新运行会跳过已有MD和JSON，删除输出目录可强制重新处理
+4. **监控显存**：使用 `nvidia-smi` 或 `watch -n 1 nvidia-smi` 实时监控
+5. **两阶段独立**：阶段A失败不影响阶段B处理其他PDF，反之亦然
+6. **日志重要性**：遇到问题先查看 `logs/batch_processor.log`，包含详细错误信息
 
-## 测试
+## 扩展阅读
 
-运行完整测试套件：
-```bash
-python test_batch_system.py
-```
-
-测试覆盖：
-- 环境配置验证
-- GPU显存检查
-- 模型加载测试
-- JSON Schema验证
-- 图像处理测试
-- API连接测试
-
-## 项目文件说明
-
-**核心文件：**
-- `batch_pdf_processor.py` - 主处理器（RTX 4090优化版）
-- `config_batch.py` - 配置管理（RTX 4090极速配置）
-- `deepseek_ocr.py` - OCR模型实现（vLLM集成）
-- `run_batch_processor.py` - 启动脚本
-- `test_batch_system.py` - 系统测试
-
-**配置文件：**
-- `config.py` - 基础OCR配置
-- `json schema.json` - 输出数据Schema v1.3.1
-- `requirements_batch.txt` - Python依赖
-
-**文档：**
-- `CLAUDE.md` - 本文件（开发指南）
-- `RTX4090_OPTIMIZATION.md` - RTX 4090优化详细说明
-- `README.md` - 项目说明
-
-**辅助模块：**
-- `process/image_process.py` - 图像预处理
-- `process/ngram_norepeat.py` - 重复检测
-- `deepencoder/` - 视觉编码器（SAM + CLIP）
-
-**目录结构（优化后）：**
-- `input_pdfs/` - PDF输入目录
-- `output_results/` - OCR结果输出（仅MD和图像）
-- `output_report/` - JSON报告输出（新增，专门存放JSON）
-- `temp_processing/` - 临时文件
-- `logs/` - 日志文件
-
-## 注意事项
-
-1. **显存管理：** RTX 4090 48G 显存充足，可同时运行多个处理任务，但建议监控显存使用
-2. **API配额：** OpenRouter API有速率限制，当前配置12并发，确保API配额充足
-3. **Schema验证：** 输出JSON必须严格符合v1.3.1 Schema，已启用严格验证模式
-4. **路径问题：** 已修复路径识别问题，支持符号链接和复杂目录结构
-5. **环境变量：** 确保 `OPENROUTER_API_KEY` 已正确设置
-6. **模型下载：** 首次运行会从HuggingFace下载模型（约10GB），需要稳定网络
-7. **CUDA版本：** 项目针对CUDA 11.8优化，其他版本可能需要调整PyTorch安装命令
-8. **输出目录：** 注意新的目录结构，OCR结果在 `output_results/`，JSON在 `output_report/`
-9. **并发控制：** 高并发可能导致API限流，根据实际情况调整配置
-10. **网络稳定性：** 12并发API调用需要稳定的网络连接
-
-## RTX 4090 优化详情
-
-详细的优化说明请参考 `RTX4090_OPTIMIZATION.md` 文档，包括：
-- 完整的配置对比
-- 性能测试结果
-- 调优建议
-- 监控方法
-- 故障排除
+- `RTX4090_OPTIMIZATION.md` - 硬件优化详细说明
+- `README.md` - 项目部署和使用指南
+- `json schema.json` - 输出JSON格式规范

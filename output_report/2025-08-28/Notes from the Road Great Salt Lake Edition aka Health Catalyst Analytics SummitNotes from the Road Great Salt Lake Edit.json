@@ -1,0 +1,1613 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "9b909b52377100c8632bef20dbde7b62",
+    "title": "EVERCORE ISI",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Evercore/Notes from the Road Great Salt Lake Edition aka Health Catalyst Analytics SummitNotes from the Road Great Salt Lake Edit_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:45:14.418228",
+      "extracted_at": "2025-10-26T11:45:14.418239"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 10,
+        "successful_pages": 10,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Evercore",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 2,
+          "reduction_ratio": 0.1318999645949338
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Evercore"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "bc99db36418b6635",
+      "text": "Health Care | Healthcare Technology & Distribution",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "01a45e7075c070c1",
+      "text": "Health Catalyst, Inc HCAT | \\(\\) 3.50\\$ In Line | Target Price/Base Case: \\(\\) 30.00\\$ Commentary",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "11c7741c05d4dad0",
+      "text": "Market Capitalization (M) Enterprise Value (M) Shares Outstanding (M) 52- Week Range Average Daily Volume (M) Dividend Yield Free cash flow yield Fiscal Year End",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "61161bd599d8b014",
+      "text": "2025E2026E2027EFwd EV/Revenue0.970.880.77Revenue (M)$311$318$327EBITDA (M)$40.1$60.0$70.7EPS$0.24$0.55$0.75",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9bc2ca0f2f243e49",
+      "text": "1 Year Price History",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "881e31bb8a5705a9",
+      "text": "This week we had the pleasure of meeting with HCAT's management team at the Health Catalyst Analytics Summit in Salt Lake City. Our key takeaway from the event was that there is a lot going on under the surface as the company continues to roll out Ignite, evolve its portfolio of offerings to better meet clients' needs in the current environment, and right- size the cost structure. While our revenue estimates remain unchanged vs. 2Q earnings (- 1.6% org in '25, 1.7% in '26, and 3.0% in '27), we are raising our EBITDA estimates as HCAT's current cost cutting program materializes, which should result in \\(\\sim\\) 60 MM of EBITDA in 2026. Given this improved margin profile, we are raising our price target to \\$4 (6x '26 EBITDA), but retain our In- Line rating on shares given the still- challenging demand environment.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6bd3fdc93f0b4e68",
+      "text": "The 3Q pipeline has seen some improvements so far vs. the base case laid out on the 2Q earnings call, but it is still early and overall demand has been impacted by some customers pausing/delaying projects either due to macro concerns and/or a current focus on Ignite implementations 4Q implied EBITDA guide of \\(\\sim\\) 15 MM is the right way to think about the jump off point for 2026, but the company should see some additional benefits flow through in 1H'26 Ignite transitions on track to be largely complete in 1H'26 and are typically 3- 5 year contracts with \\(\\sim\\) 3- 5% price escalators Lots more details on Ignite platform benefits, etc in our full notes below.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "096e2b6b8af295fc",
+      "text": "Please see the analyst certification and important disclosures on page 7 of this report. Evercore ISI and affiliates do and seek to do business with companies covered in its research reports. Investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. © 2025. Evercore Group L.L.C. All rights reserved.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "cb172813deaed0e4",
+      "text": "- Multi-year journey    \n- 2025: \\(\\sim 160\\) platform clients, \\(>1100\\) app clients    \n- 2024: 130 platform clients, \\(>1K\\) app clients    \n- 2023: 109, \\(>630\\) - Lower headcount this year with less services revs- Platform business is shrinking slightly, but ignite and apps are growing significantly- Al acceleration of apps layer",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "455b82d23fb71ad3",
+      "text": "Ignite, CTO - Dave Ross",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b757325a99b018a8",
+      "text": "- Ignite - bring disparate data sources together into one analytics system- Core technologies need more healthcare-specific solutions",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "22fb9e1deb5ac61a",
+      "text": "- DevOps    \n- Cloud data    \n- Infrastructure    \n- Cloud computing    \n- Data security    \n- Access management",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "43cc1e39b222d390",
+      "text": "- Land and secure data source    \n- Unified patient/provider view    \n- Standardized medical terminology    \n- Data quality/validation    \n- Healthcare compliance    \n- Interoperability    \n- Healthcare-specific content    \n- Self-service tools",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "51591c15471896ca",
+      "text": "- Databricks and Microsoft partnerships    \n- Reduced risk    \n- Best of both worlds    \n- Accelerate time to value    \n- Moving beyond analytics",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8da5c0ef2725d575",
+      "text": "Lifepoint Health Case Study",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "76a7f654b4576728",
+      "text": "- Got HCAT to reduce unwanted care variation- Installation involved a lot of internal change management- Had a single point of contact with HCAT to improve communication- 10 types of EHRs (Allscripts, Cerner, Epic, Medhost, Meditech, Paragon)- Some EHR vendors allow direct connections and others involve a \\(3^{\\text{rd}}\\) party work around- Lacked performance metrics to drive and maintain change",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "2ea99b67d2ac2d9a",
+      "text": "E.g. sepsis dashboard Can monitor process and outcomes Metrics Also, congestive heart failure, optimizing blood transfusions, reducing repetitive lab tests, optimizing surgical recovery, improving the accuracy and specificity of clinical documentation integrity",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c07675b08208a6f5",
+      "text": "- Partnered with HGAT in June 2022, April 2025 program live at 18 facilities and 6 active use cases, program kicked off in 2023- 700 lives saved from this work, 1.2K fewer transfusions, 24K additional patient days at home, met/exceeded financial goals",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "87193efda607f579",
+      "text": "- Migrations largely complete by mid-2026- Benefits of modern infrastructure    \n- Faster data refreshes    \n- Elastic compute reduced billion-row reloads by 71%    \n- 80% drop in load failures    \n- Accelerated data loading    \n- 73% faster sources loaded, improvements driven by scaling through scripting and automation    \n- Streamlined data integration    \n- Shift from flat files to API connections    \n- Elastic scalability    \n- More concurrent data sources supported without infrastructure upgrades",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b2d6beaa35e47c1b",
+      "text": "- Tooling and automation driving speed",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9e36d8f0abf628b8",
+      "text": "- Code conversion tool (99% coverage)    \n- Smart verification to reduce false positives    \n- Proven migration playbooks    \n- Dedicated technical oversight    \n- Scalable delivery model",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "cd5e2bc34b780088",
+      "text": "- Have to upscale clients – so have a technical training program to have client data engineers and analysts ready to work in the new environment",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9ede32957b480ba4",
+      "text": "Ignite: Foundation for Enabling Impactful AI in Healthcare",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c08d812ca4a00308",
+      "text": "- A lot of AI is not bringing the expected value    \n- 77% cite immature AI as a barrier    \n- Scribes save",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b0df9a4db0a44641",
+      "text": "- Realizing cost efficiencies",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "61bfd3e0a8970f52",
+      "text": "- PowerCosting- Through a more structured process can find additional cost variations- Need to do it at greater scale to better help customers- Takes 9-12 months, but AI can help improve this timeline",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "360bbb08f84d20cd",
+      "text": "- Can charge a little more at agentic AI apps level",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "0e3e32905b00537e",
+      "text": "- More than give up in services",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "8f6d295eaf6551d3",
+      "text": "- Also working on speeding up development cycle, particularly in middle layer to no longer be annual (now 90 days)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e16454f983f47ee8",
+      "text": "- Lifepoint \n- HCAT focused on not just data quality, but also change management",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "7bf62d3947144c92",
+      "text": "- Internal IT team that works in lockstep",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "586dbd4432e5c4be",
+      "text": "- Still using a ton of internal HCAT resources for data mapping, etc",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4a0fcef1ce7f1e2b",
+      "text": "- HCAT is one of 2 scaled partners (have another smaller one)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1f2cce1a61a1b02d",
+      "text": "- Competition by use case",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "df1653df1b997e3e",
+      "text": "- HCAT's clinical expertise in the context of data analytics gives them an advantage for clinical applications vs. others for operations",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2c73bc5f377ed98c",
+      "text": "- Delays in pipeline in 2Q informed how mgmt. thought about projects for the rest of the year- Moved a number of things out of the base case into the upside case- 3Q started a bit stronger than expected and HAS is helpful, but not assuming everything bounces back to normal",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d23a1b563a1e4438",
+      "text": "- Headcount reduction",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "8fa5da2fdbef8422",
+      "text": "- Ambulatory TEMS pilots going away (ended 6/30)- Recent restructuring- Going forward, looking to control costs- \\(\\) 15\\(MM 4Q exiting run rate implies\\) \\ \\(60\\) MM for 2026 plus doesn't include all of the run rate benefits- \\(\\) 10.5\\(MM in 3Q guide includes\\) \\ \\(4\\) MM of restructuring benefits- 4Q implied guide of \\(\\) 15\\(MM is\\) \\ \\(9\\) MM- At least a million per Q in addition- Another 10% or so that phases in in 1H'26- At \\(\\) 75\\(MM revenue level",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "dd6e1833dc463749",
+      "text": "- Board is doing fiduciary responsibility",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "9e008bd07db5c6ae",
+      "text": "- Share repo- Debt repayment- And maybe more transformative options- Question of right timing vis-à-vis ignite",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "34030525de829afd",
+      "text": "- Internal and external candidates being considered- Someone with deep healthcare and technology experience- Leadership experience- Bonus if have previously been a public company CEO- Mindful of company culture",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "88161511599e93e3",
+      "text": "- Look forward to new ideas",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "65e2327fd7ef7ae5",
+      "text": "- Also moving from Medicity to Ignite (KPI Ninja), that has impacted revenue",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1575cf8c0a7574a1",
+      "text": "- Disrupting self with new technology- Tracking to this year though have been a tad slower because of scope creep",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "9e8e5c33fc2a075b",
+      "text": "- It's early to talk about buying changes given macro challenges- During transition, customers interested in pocketing savings- Can talk more about adding applications after migration is over- Has delayed certain expansion opportunities- See more expansion levers with Ignite vs. DOS",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ecd5217a3c9ab8fa",
+      "text": "Very easy to add apps E.g. intelligence layer",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "11b7dd1cbb32be48",
+      "text": "- As they add new sources, there is additional sources, or pulling in more data there are upsides to pricing",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2135d42e4f2ecc2b",
+      "text": "- Typically 3-5 year contracts",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1464c3ff80c2d609",
+      "text": "- 3-5% price escalators- DOS was 1 year contracts with 90-day outs with all you can eat and large escalators which sometimes led to frustrating conversations and discounts",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7a814ceb7018ba27",
+      "text": "- Seeing the most traction in operational and cost management applications and Vitalware",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6b5193d933d41b7d",
+      "text": "- Given macro pressures",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4eb2ef6ee87382f3",
+      "text": "- Those are apps that can be deployed relatively quickly and ROI in months vs years E.g. activity-based costing",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d3ab74d0e4fe6f20",
+      "text": "VALUATION METHODOLOGYOur valuation methodology is based on a mix of discounted cash flow analysis and relative valuation (multiples).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "fc6b5b09b3e6c969",
+      "text": "RISKS1. The company operates in a new, fast-changing, highly competitive industry and the inability to effectively compete will hinder results of operations2. Failure to successfully execute on growth initiatives, business strategies, or operating plans3. Lack of innovation and services that are useful to customers and users4. Changes and developments in regulation that hinders demand for IT products5. Modified or lost relationships with clients and third party providers6. Pace of adoption lagging despite continued investments could impact growth",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "62234c679cd8ceda",
+      "text": "SymbolCompanyRatingPrice (2025-27-08)Evercore ISI TargetAGLagilon health inc.In Line$1.23$1.00ALGNAlign Technology, IncOutperform$141.78$170.00CAHCardinal HealthOutperform$147.49$190.00CORCencora, Inc.Outperform$289.70$340.00CRLCharles RiverOutperform$163.71$190.00CVSCVS Health Corp.Outperform$71.55$85.00DGXQuest Diagnostics Inc.In Line$180.36$185.00DOCSDoximity, Inc.Outperform$67.08$75.00FTREFortrea Holdings Inc.In Line$8.98$7.00HCATHealth Catalyst, IncIn Line$3.50$4.00HNGEHinge Health, Inc.Outperform$55.14$60.00HSICHenry ScheinOutperform$69.06$83.00ICLRICONOutperform$171.76$240.00IQVIQVIA Holdings IncOutperform$187.76$220.00LHLabcorp Holdings, Inc.Outperform$278.45$300.00MCKMcKessonOutperform$680.52$800.00NVSTEnvista Holdings CorpOutperform$21.14$25.00OMDAOmada Health, Inc.Outperform$21.64$27.00PRVAPrivia Health Group, Inc.Outperform$21.39$28.00TDOCTeladoc Health, IncIn Line$7.81$8.00WAYWaystar Holding CorpOutperform$37.16$45.00WBAWalgreens Boots AllianceIn Line$11.92$11.45XRAYDENTSPLY SIRONA Inc.In Line$14.34$17.00",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5e307883560f3924",
+      "text": "(Article 3(1)e and Article 7 of MAR)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1e7a759a4418bee3",
+      "text": "Time of dissemination: August 28 2025 5:30 AM ET",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "009f6923e7b0af03",
+      "text": "Evercore ISI's recommendations are based on a stock's total forecasted return over the next 12 months. Total forecasted return is equal to the expected percentage price return plus gross dividend yield. We divide our stocks under coverage into three primary ratings categories, with the following return guidelines:",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "16bacf1bff11cd24",
+      "text": "Outperform- the total forecasted return is expected to be greater than the expected total return of the analyst's coverage sector. In Line- the total forecasted return is expected to be in line with the expected total return of the analyst's coverage sector. Underperform- the total forecasted return is expected to be less than the expected total return of the analyst's coverage sector. Coverage Suspended- the rating and target price have been removed pursuant to Evercore ISI policy when Evercore is acting in an advisory capacity in a merger or strategic transaction involving this company and in certain other circumstances. Rating Suspended- Evercore ISI has suspended the rating and target price for this stock because there is not sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, a rating or target price. The previous rating and target price, if any, are no longer in effect for this company and should not be relied upon.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "69cbb638d3431935",
+      "text": "Prior to October 10, 2015, the \"Coverage Suspended\" and \"Rating Suspended\" categories were included in the category \"Suspended.\"",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "b83e9252a2aec341",
+      "text": "FINRA requires that members who use a ratings system with terms other than \"Buy,\" \"Hold/Neutral\" and \"Sell\" to equate their own ratings to these categories. For this purpose, and in the Evercore ISI ratings distribution below, our Outperform, In Line, and Underperform ratings can be equated to Buy, Hold and Sell, respectively.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9d11d10c8acfa434",
+      "text": "Evercore ISI rating (as of 08/27/2025)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "811cc4af10db5f1e",
+      "text": "Coverage UniverseInvestment Banking Services I Past 12 MonthsRatingsCountPct.RatingsCountPct.Buy44559Buy5212Hold27236Hold156Sell132Sell00Coverage Suspended182Coverage Suspended633Rating Suspended61Rating Suspended467",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c7fb816442e0d3dc",
+      "text": "Issuer-Specific Disclosures (as of August 27, 2025)",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "20548aaa8696ea33",
+      "text": "Ratings KeyBBuyOPOutperformLLongCSCoverage SuspendedHHoldILIn LineNPNo PositionRSRating SuspendedSSellUPUnderperformSShort",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "cb6210f83c218e35",
+      "text": "This report is approved and/or distributed by Evercore Group L.L.C. (\"Evercore Group\"), a U.S. licensed broker-dealer regulated by the Financial Industry Regulatory Authority (\"FINRA\") and by International Strategy & Investment Group (UK) Limited (\"ISI UK\"), which is authorized and regulated in the United Kingdom by the Financial Conduct Authority. The institutional sales, trading and research businesses of Evercore Group and ISI UK collectively operate under the global marketing brand name Evercore ISI (\"Evercore ISI\"). Both Evercore Group and ISI UK are subsidiaries of Evercore Inc. (\"Evercore\"). The trademarks, logos and service marks shown on this report are registered trademarksof Evercore Inc.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "2314a7b80777206a",
+      "text": "This report is provided for informational purposes only and subject to additional restrictions contained in this disclosure. It is not to be construed as an offer to buy or sell or a solicitation of an offer to buy or sell any financial instruments or to participate in any particular trading strategy in any jurisdiction. The information and opinions in this report were prepared by employees of affiliates of Evercore. The information herein is believed by Evercore ISI to be reliable and has been obtained from public sources believed to be reliable, but Evercore ISI makes no representation as to the accuracy or completeness of such information.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c6362816dbc9fc52",
+      "text": "Opinions, estimates and projections in this report constitute the current judgment of the author as of the date of this report. They do not necessarily reflect the opinions of Evercore or its affiliates and are subject to change without notice. In addition, opinions, estimates and projections in this report may differ from or be contrary to those expressed by other business areas or groups of Evercore and its affiliates.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "eac02f9ec862db28",
+      "text": "Evercore ISI has no obligation to update, modify or amend this report or to otherwise notify a reader thereof in the event that any matter stated herein, or any opinion, projection, forecast or estimate set forth herein, changes or subsequently becomes inaccurate. Facts and views in Evercore ISI research reports and notes have not been reviewed by, and may not reflect information known to, professionals in other Evercore affiliates or business areas, including investment banking personnel. Evercore ISI salespeople, traders and other professionals may provide oral or written market commentary or trading strategies to our clients that reflect opinions that are contrary to the opinions expressed in this research.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "1109f362cdca1b1a",
+      "text": "Our asset management affiliates and investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7e835820925dfae8",
+      "text": "Evercore ISI does not provide individually tailored investment advice in research reports. The financial instruments discussed in this report are not suitable for all investors and investors must make their own investment decisions using their own independent advisors as they believe necessary and based upon their specific financial situations and investment objectives. This report has been prepared without regard to the particular investment strategies or financial, tax or other personal circumstances of the recipient. Nothing in this report constitutes investment, legal, accounting or tax advice, or a representation that any investment or strategy is suitable or appropriate to the recipient's individual circumstances, or otherwise constitutes a personal recommendation to the recipient. None of Evercore Group or its affiliates will treat any recipient of this report as its customer by virtue of the recipient having received this report.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "81de16148b7f5a13",
+      "text": "Securities and other financial instruments discussed in this report, or recommended or offered by Evercore ISI, are not insured by the Federal Deposit Insurance Corporation and are not deposits of or other obligations of any insured depository institution. If a financial instrument is denominated in a currency other than an investor's currency, a change in exchange rates may adversely affect the price or value of, or the income derived from the financial instrument, and such investor effectively assumes such currency risk. In addition, income from an investment may fluctuate and the price or value of financial instruments described in this report, either directly or indirectly, may rise or fall. Estimates of future performance are based on assumptions that may not be realized. Furthermore, past performance is not necessarily indicative of future performance.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "1c37742804aac35b",
+      "text": "Please note that this report was prepared for and distributed by Evercore ISI to its institutional investor and market professional customers.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "a0f51ffa1776b9f5",
+      "text": "Recipients who are not institutional investor or market professional customers of Evercore ISI should seek the advice of their independent financial advisor before considering information in this report in connection with any investment decision, or for a necessary explanation of its contents.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "9eb9b530c689a921",
+      "text": "Electronic research is simultaneously distributed to all clients. This report is provided to Evercore ISI clients only and may not be, in whole or in part, or in any form or manner (i) copied, forwarded, distributed, shared, or made available to third parties, including as input to, or in connection with, any artificial intelligence or machine learning model; (ii) modified or otherwise used to create derivative works; or (iv) used to train or otherwise develop a generative artificial intelligence or machine learning model, without the express written consent of Evercore ISI. Receipt and review of this research report constitutes your agreement with the aforementioned limitations in use.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "6c0caba8b80b6fe4",
+      "text": "This report is not intended for distribution to or use by any person or entity in any locality, state, country or other jurisdiction where such distribution, publication, availability or use would be contrary to law or regulation or which would subject Evercore Group or its affiliates to any registration or licensing requirement within such jurisdiction. If this report is being distributed by a financial institution other than Evercore ISI or its affiliates, that financial institution is solely responsible for such distribution and for compliance with the laws, rules and regulations of any jurisdiction where this report is distributed. Clients of that financial institution should contact that institution to effect any transaction in the securities mentioned in this report or if such clients require further information. This report does not constitute investment advice by Evercore ISI to the clients of the distributing financial institution, and neither Evercore ISI nor its affiliates, nor their respective officers, directors or employees, accept any liability whatsoever for any direct or consequential loss arising from their use of this report or its content.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "8330f277054aac2f",
+      "text": "Evercore is not authorized to act as a financial entity, securities intermediary, investment advisor or as any other regulated entity under Mexican law, and no actions, applications or filings have been undertaken in Mexico, whether before the National Banking and Securities Commission (Comisión Nacional Bancaria y de Valores \"CNBV\") or any other authority, in order for Evercore to carry out activities or render services that would otherwise require a license, registration or any other authorization for such purposes; neither is it regulated by the CNBV or any other Mexican authority. This document, nor its content, constitutes an offer, invitation or request to purchase or subscribe for securities or other instruments or to make or cancel investments, nor may it serve as the basis for any contract, commitment or decision of any kind.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "1004d49692ed06a7",
+      "text": "For persons in the UK: In making this report available, Evercore makes no recommendation to buy, sell or otherwise deal in any securities or investments whatsoever and you should neither rely or act upon, directly or indirectly, any of the information contained in this report in respect of any such investment activity. This report is being directed at or distributed to, (a) persons who fall within the definition of Investment Professionals (set out in Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (the \"Order\"); (b) persons falling within the definition of high net worth companies, unincorporated associations, etc. (set out in Article 49(2) of the Order); (c) other persons to whom it may otherwise lawfully be communicated (all such persons together being referred to as \"relevant persons\"). This report must not be acted on or relied on by persons who are not relevant persons.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "671bf4212da86176",
+      "text": "For persons in Switzerland: The distribution of these materials to persons or entities in Switzerland is not intended to, and does not, constitute a financial service under the Swiss Financial Services Act (FinSA). In particular, the distribution of these materials does not constitute the provision of personal recommendations on transactions with financial instruments (investment advice) within the meaning of Article 3(c)(4) of FinSA.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "9db0b265998ecf5a",
+      "text": "For persons in Australia: Evercore does not have an Australian Financial Services License (\"AFSL\"). This report is only to be distributed to persons who fall within the definition of \"wholesale\" investors under section 761G of the Corporations Act 2001 (Cth). This report must not be acted on or relied on by persons who are not wholesale investors. Evercore relies on the relief provided under ASIC Corporations (Foreign Financial Services Providers—Limited Connection) Instrument 2017/182 to provide this report to wholesale investors in Australia without an AFSL.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "ae3f473d2a0bb9d3",
+      "text": "For persons in New Zealand: This material has been prepared by Evercore Group L.L.C. for distribution in New Zealand to financial advisors and wholesale clients only and has not been prepared for use by retail clients (as those terms are defined in the Financial Markets Conduct Act 2013 (\"FMCA\")). Evercore Group L.L.C. is not, and is not required to be, registered or licensed under the FMCA, and unless otherwise stated any financial products referred to in this material are generally only available in New Zealand for issue to those satisfying the wholesale investor criteria in the FMCA.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2e62bfe5c31b0357",
+      "text": "Applicable current disclosures regarding the subject companies covered in this report are available at the offices of Evercore ISI: 55 East 52nd Street, New York, NY 10055, and at the following site: https://evercoreisi.mediastierling.com/disclosure.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "35d182e5b895fc1f",
+      "text": "In compliance with the European Securities and Markets Authority's Market Abuse Regulation, a list of all Evercore ISI recommendations disseminated in the preceding 12 months for the subject companies herein, may be found at the following site: https://evercoreisi.mediastierling.com/disclosure.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "767fe01bcbad779b",
+      "text": "© 2025. Evercore Group L.L.C. All rights reserved.",
+      "page": 8,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "6bfdb485e64d207a",
+      "name": "ASIC Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c9cd0464c4095a20",
+      "name": "Align Technology",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f6626eec098b6369",
+      "name": "Ambulatory TEMS",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "907efe7e55c13a24",
+      "name": "Analytics Summit",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c948b097867d16e8",
+      "name": "Australian Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c509a51f8c52c423",
+      "name": "Average Daily",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "091ea27f0512d847",
+      "name": "Base Case",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fe0fe46365786da9",
+      "name": "Both Evercore",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4839614d974c1526",
+      "name": "CVS Health",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "07ccc74a99e865ce",
+      "name": "CVS Health Corp",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8a7d4af18b64df6b",
+      "name": "Cardinal Health",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5579f4787eefd1d1",
+      "name": "Case Study",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ea665dd75efb68b2",
+      "name": "Charles River",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ff5eacad279c8942",
+      "name": "Company Statistics",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "88f494f365f0299b",
+      "name": "Conduct Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cf7454fe4270253d",
+      "name": "Corporations Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4b9be408e155a05b",
+      "name": "Coverage Suspended",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "870edbe8e02ee39e",
+      "name": "Coverage Universe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "be55d60ac0680a91",
+      "name": "Current Ratings",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "72a005ed0ea1ce52",
+      "name": "DENTSPLY SIRONA Inc",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": null,
+            "labels": []
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": null,
+              "max": null
+            }
+          }
+        },
+        "series": [],
+        "figure_id": "4499b4c3046eabd4",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": "Health Catalyst, Inc",
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "08/24",
+              "11/24",
+              "02/25",
+              "05/25",
+              "08/25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 10
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "S&P 500",
+            "unit": null,
+            "values": [
+              6.5,
+              6.8,
+              7.0,
+              7.2,
+              7.3,
+              7.4,
+              7.5,
+              7.6,
+              7.7,
+              7.8,
+              7.9,
+              7.8,
+              7.7,
+              7.6,
+              7.5,
+              7.4,
+              7.3,
+              7.2,
+              7.1,
+              7.0,
+              6.9,
+              6.8,
+              6.7,
+              6.6,
+              6.5,
+              6.4,
+              6.3,
+              6.2,
+              6.1,
+              6.0,
+              5.9,
+              6.0,
+              6.1,
+              6.2,
+              6.3,
+              6.4,
+              6.5,
+              6.6,
+              6.7,
+              6.8,
+              6.9,
+              7.0,
+              7.1,
+              7.2,
+              7.3,
+              7.4,
+              7.5,
+              7.6,
+              7.7,
+              7.8,
+              7.9
+            ]
+          },
+          {
+            "name": "HCAT",
+            "unit": null,
+            "values": [
+              7.0,
+              7.5,
+              8.0,
+              8.5,
+              8.8,
+              8.5,
+              8.0,
+              7.5,
+              7.0,
+              6.5,
+              6.0,
+              5.5,
+              5.0,
+              4.5,
+              4.0,
+              3.5,
+              3.0,
+              2.8,
+              2.5,
+              2.3,
+              2.0,
+              2.5,
+              3.0,
+              3.5,
+              4.0,
+              4.5,
+              5.0,
+              5.5,
+              6.0,
+              6.5,
+              7.0,
+              7.5,
+              8.0,
+              8.5,
+              8.8,
+              8.5,
+              8.0,
+              7.5,
+              7.0,
+              6.5,
+              6.0,
+              5.5,
+              5.0,
+              4.5,
+              4.0,
+              3.5,
+              3.0,
+              2.5,
+              2.0,
+              1.8,
+              1.5
+            ]
+          }
+        ],
+        "figure_id": "6f1b2c9cde188815",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "93f91045e0cba32e",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": "Health Catalyst, Inc Rating History as of 08/27/2025",
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "08/22",
+              "11/22",
+              "02/23",
+              "05/23",
+              "08/23",
+              "11/23",
+              "02/24",
+              "05/24",
+              "08/24",
+              "11/24",
+              "02/25",
+              "05/25",
+              "08/25"
+            ]
+          },
+          "y": {
+            "unit": "p",
+            "range": {
+              "min": 0,
+              "max": 20
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Close Price",
+            "unit": "p",
+            "values": [
+              11.5,
+              9.5,
+              10.5,
+              14.5,
+              12.5,
+              7.5,
+              10.5,
+              6.5,
+              7.5,
+              8.5,
+              5.5,
+              3.5,
+              3
+            ]
+          },
+          {
+            "name": "Target Price",
+            "unit": "p",
+            "values": [
+              14,
+              10,
+              14,
+              13,
+              14,
+              10,
+              10,
+              9,
+              7,
+              10,
+              6,
+              5,
+              4
+            ]
+          }
+        ],
+        "figure_id": "03cfed63dfd52280",
+        "provenance": {
+          "page": 8
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "a06890738bf4a17e",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "and right- size the cost structure. While our revenue estimates remain unchanged vs. 2Q earnings (- 1.6% org in '25, 1.7% in '26, and 3.0% in '27), we are raising our EBITDA estimates as HCAT's curren",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "967b3e62e81e519e",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "he cost structure. While our revenue estimates remain unchanged vs. 2Q earnings (- 1.6% org in '25, 1.7% in '26, and 3.0% in '27), we are raising our EBITDA estimates as HCAT's current cost cutting pr",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e2e914481581c398",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ". While our revenue estimates remain unchanged vs. 2Q earnings (- 1.6% org in '25, 1.7% in '26, and 3.0% in '27), we are raising our EBITDA estimates as HCAT's current cost cutting program materialize",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "428879742fe6087c",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ons on track to be largely complete in 1H'26 and are typically 3- 5 year contracts with \\(\\sim\\) 3- 5% price escalators Lots more details on Ignite platform benefits, etc in our full notes below. Plea",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "1f4ad1f21dbe5fab",
+        "value": 311.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><tr><td>Fwd EV/Revenue</td><td>0.97</td><td>0.88</td><td>0.77</td></tr><tr><td>Revenue (M)</td><td>$311</td><td>$318</td><td>$327</td></tr><tr><td>EBITDA (M)</td><td>$40.1</td><td>$60.0</td><td>$70.7",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "0170cc4f634561bf",
+        "value": 318.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "EV/Revenue</td><td>0.97</td><td>0.88</td><td>0.77</td></tr><tr><td>Revenue (M)</td><td>$311</td><td>$318</td><td>$327</td></tr><tr><td>EBITDA (M)</td><td>$40.1</td><td>$60.0</td><td>$70.7</td></tr><tr",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "df850124afeaa5c5",
+        "value": 327.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>0.97</td><td>0.88</td><td>0.77</td></tr><tr><td>Revenue (M)</td><td>$311</td><td>$318</td><td>$327</td></tr><tr><td>EBITDA (M)</td><td>$40.1</td><td>$60.0</td><td>$70.7</td></tr><tr><td>EPS</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "fb91b3213e43bb16",
+        "value": 40.1,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</tr><tr><td>Revenue (M)</td><td>$311</td><td>$318</td><td>$327</td></tr><tr><td>EBITDA (M)</td><td>$40.1</td><td>$60.0</td><td>$70.7</td></tr><tr><td>EPS</td><td>$0.24</td><td>$0.55</td><td>$0.75</td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "55c5cfacda1ecd35",
+        "value": 60.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "evenue (M)</td><td>$311</td><td>$318</td><td>$327</td></tr><tr><td>EBITDA (M)</td><td>$40.1</td><td>$60.0</td><td>$70.7</td></tr><tr><td>EPS</td><td>$0.24</td><td>$0.55</td><td>$0.75</td></tr></table>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "bf39b776fed6e585",
+        "value": 70.7,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>$311</td><td>$318</td><td>$327</td></tr><tr><td>EBITDA (M)</td><td>$40.1</td><td>$60.0</td><td>$70.7</td></tr><tr><td>EPS</td><td>$0.24</td><td>$0.55</td><td>$0.75</td></tr></table> ![Figure 0-1]",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "053b510c91faccb2",
+        "value": 0.24,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td></tr><tr><td>EBITDA (M)</td><td>$40.1</td><td>$60.0</td><td>$70.7</td></tr><tr><td>EPS</td><td>$0.24</td><td>$0.55</td><td>$0.75</td></tr></table> ![Figure 0-1](images/0_1.jpg) <center>1 Year Pri",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "02fca3a5d8a1b141",
+        "value": 0.55,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>EBITDA (M)</td><td>$40.1</td><td>$60.0</td><td>$70.7</td></tr><tr><td>EPS</td><td>$0.24</td><td>$0.55</td><td>$0.75</td></tr></table> ![Figure 0-1](images/0_1.jpg) <center>1 Year Price History </c",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "cb3191a24fcae62e",
+        "value": 0.75,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td><td>$40.1</td><td>$60.0</td><td>$70.7</td></tr><tr><td>EPS</td><td>$0.24</td><td>$0.55</td><td>$0.75</td></tr></table> ![Figure 0-1](images/0_1.jpg) <center>1 Year Price History </center> <center",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "50c26c4d8bf3afb9",
+        "value": 4.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "\\) 60 MM of EBITDA in 2026. Given this improved margin profile, we are raising our price target to \\$4 (6x '26 EBITDA), but retain our In- Line rating on shares given the still- challenging demand env",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "48051cd8b4117d20",
+        "value": 0.71,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ern infrastructure - Faster data refreshes - Elastic compute reduced billion-row reloads by 71% - 80% drop in load failures - Accelerated data loading - 73% faster sources loaded, imp",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "bb7bda85b1455e72",
+        "value": 0.8,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tructure - Faster data refreshes - Elastic compute reduced billion-row reloads by 71% - 80% drop in load failures - Accelerated data loading - 73% faster sources loaded, improvements",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "49b5bf405d7233fd",
+        "value": 0.73,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ced billion-row reloads by 71% - 80% drop in load failures - Accelerated data loading - 73% faster sources loaded, improvements driven by scaling through scripting and automation - Stream",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f8019a30236f7bf3",
+        "value": 0.99,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ed without infrastructure upgrades - Tooling and automation driving speed - Code conversion tool (99% coverage) - Smart verification to reduce false positives - Proven migration playbooks -",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "cb0b69c216361404",
+        "value": 0.77,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ion for Enabling Impactful AI in Healthcare - A lot of AI is not bringing the expected value - 77% cite immature AI as a barrier - Scribes save <1 minute - 95% of generative AI pilots at com",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "897b3f656ba4152f",
+        "value": 0.95,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nging the expected value - 77% cite immature AI as a barrier - Scribes save <1 minute - 95% of generative AI pilots at companies are failing - Ignite provides cleansed, normalized data -",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "dbff1905e6d9ad45",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "its- 4Q implied guide of \\(\\) 15\\(MM is\\) \\ \\(9\\) MM- At least a million per Q in addition- Another 10% or so that phases in in 1H'26- At \\(\\) 75\\(MM revenue level - Board is doing fiduciary responsib",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "09f27bd7c3ebff5a",
+        "value": -0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "l sources, or pulling in more data there are upsides to pricing - Typically 3-5 year contracts - 3-5% price escalators- DOS was 1 year contracts with 90-day outs with all you can eat and large escalat",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b270e51b541af100",
+        "value": 1.23,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>Evercore ISI Target</td></tr><tr><td>AGL</td><td>agilon health inc.</td><td>In Line</td><td>$1.23</td><td>$1.00</td></tr><tr><td>ALGN</td><td>Align Technology, Inc</td><td>Outperform</td><td>$",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "72549c288c0f92c8",
+        "value": 1.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "re ISI Target</td></tr><tr><td>AGL</td><td>agilon health inc.</td><td>In Line</td><td>$1.23</td><td>$1.00</td></tr><tr><td>ALGN</td><td>Align Technology, Inc</td><td>Outperform</td><td>$141.78</td><td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "cc64ce08e1442b7c",
+        "value": 141.78,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">$1.23</td><td>$1.00</td></tr><tr><td>ALGN</td><td>Align Technology, Inc</td><td>Outperform</td><td>$141.78</td><td>$170.00</td></tr><tr><td>CAH</td><td>Cardinal Health</td><td>Outperform</td><td>$147",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "7761edfd940c3f09",
+        "value": 170.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "1.00</td></tr><tr><td>ALGN</td><td>Align Technology, Inc</td><td>Outperform</td><td>$141.78</td><td>$170.00</td></tr><tr><td>CAH</td><td>Cardinal Health</td><td>Outperform</td><td>$147.49</td><td>$190",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "1f8f54d192e9af84",
+        "value": 147.49,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$141.78</td><td>$170.00</td></tr><tr><td>CAH</td><td>Cardinal Health</td><td>Outperform</td><td>$147.49</td><td>$190.00</td></tr><tr><td>COR</td><td>Cencora, Inc.</td><td>Outperform</td><td>$289.7",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "cebe9dc0743dab0d",
+        "value": 190.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$170.00</td></tr><tr><td>CAH</td><td>Cardinal Health</td><td>Outperform</td><td>$147.49</td><td>$190.00</td></tr><tr><td>COR</td><td>Cencora, Inc.</td><td>Outperform</td><td>$289.70</td><td>$340.0",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "cacc30721801a616",
+        "value": 289.7,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>$147.49</td><td>$190.00</td></tr><tr><td>COR</td><td>Cencora, Inc.</td><td>Outperform</td><td>$289.70</td><td>$340.00</td></tr><tr><td>CRL</td><td>Charles River</td><td>Outperform</td><td>$163.7",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "d1a28881b746c49f",
+        "value": 340.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>$190.00</td></tr><tr><td>COR</td><td>Cencora, Inc.</td><td>Outperform</td><td>$289.70</td><td>$340.00</td></tr><tr><td>CRL</td><td>Charles River</td><td>Outperform</td><td>$163.71</td><td>$190.0",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "7b9ddf83bb97d2d9",
+        "value": 163.71,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>$289.70</td><td>$340.00</td></tr><tr><td>CRL</td><td>Charles River</td><td>Outperform</td><td>$163.71</td><td>$190.00</td></tr><tr><td>CVS</td><td>CVS Health Corp.</td><td>Outperform</td><td>$71",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "6545acbbfc726e21",
+        "value": 190.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td>$340.00</td></tr><tr><td>CRL</td><td>Charles River</td><td>Outperform</td><td>$163.71</td><td>$190.00</td></tr><tr><td>CVS</td><td>CVS Health Corp.</td><td>Outperform</td><td>$71.55</td><td>$85.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "fb450def22ee3aa8",
+        "value": 71.55,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$163.71</td><td>$190.00</td></tr><tr><td>CVS</td><td>CVS Health Corp.</td><td>Outperform</td><td>$71.55</td><td>$85.00</td></tr><tr><td>DGX</td><td>Quest Diagnostics Inc.</td><td>In Line</td><td>$1",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "92d1a9a888c52d91",
+        "value": 85.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$190.00</td></tr><tr><td>CVS</td><td>CVS Health Corp.</td><td>Outperform</td><td>$71.55</td><td>$85.00</td></tr><tr><td>DGX</td><td>Quest Diagnostics Inc.</td><td>In Line</td><td>$180.36</td><td>$",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "bcef4eaab7c6a120",
+        "value": 180.36,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>$71.55</td><td>$85.00</td></tr><tr><td>DGX</td><td>Quest Diagnostics Inc.</td><td>In Line</td><td>$180.36</td><td>$185.00</td></tr><tr><td>DOCS</td><td>Doximity, Inc.</td><td>Outperform</td><td>$67.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "aed736408fa83fb4",
+        "value": 185.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">$85.00</td></tr><tr><td>DGX</td><td>Quest Diagnostics Inc.</td><td>In Line</td><td>$180.36</td><td>$185.00</td></tr><tr><td>DOCS</td><td>Doximity, Inc.</td><td>Outperform</td><td>$67.08</td><td>$75.0",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c667703fb51c68c9",
+        "value": 67.08,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$180.36</td><td>$185.00</td></tr><tr><td>DOCS</td><td>Doximity, Inc.</td><td>Outperform</td><td>$67.08</td><td>$75.00</td></tr><tr><td>FTRE</td><td>Fortrea Holdings Inc.</td><td>In Line</td><td>$8",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "affd75c711e5ce62",
+        "value": 75.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>$185.00</td></tr><tr><td>DOCS</td><td>Doximity, Inc.</td><td>Outperform</td><td>$67.08</td><td>$75.00</td></tr><tr><td>FTRE</td><td>Fortrea Holdings Inc.</td><td>In Line</td><td>$8.98</td><td>$7.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "ed2b7674e0690ce4",
+        "value": 8.98,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>$67.08</td><td>$75.00</td></tr><tr><td>FTRE</td><td>Fortrea Holdings Inc.</td><td>In Line</td><td>$8.98</td><td>$7.00</td></tr><tr><td>HCAT</td><td>Health Catalyst, Inc</td><td>In Line</td><td>$3.50",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "3afef1e95b454381",
+        "value": 7.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$75.00</td></tr><tr><td>FTRE</td><td>Fortrea Holdings Inc.</td><td>In Line</td><td>$8.98</td><td>$7.00</td></tr><tr><td>HCAT</td><td>Health Catalyst, Inc</td><td>In Line</td><td>$3.50</td><td>$4.00",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "369ede8cfcccc4eb",
+        "value": 3.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>$8.98</td><td>$7.00</td></tr><tr><td>HCAT</td><td>Health Catalyst, Inc</td><td>In Line</td><td>$3.50</td><td>$4.00</td></tr><tr><td>HNGE</td><td>Hinge Health, Inc.</td><td>Outperform</td><td>$55.",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "8447fec48a8beceb",
+        "value": 4.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>$7.00</td></tr><tr><td>HCAT</td><td>Health Catalyst, Inc</td><td>In Line</td><td>$3.50</td><td>$4.00</td></tr><tr><td>HNGE</td><td>Hinge Health, Inc.</td><td>Outperform</td><td>$55.14</td><td>$60",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "7cad398b62221b3f",
+        "value": 55.14,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$3.50</td><td>$4.00</td></tr><tr><td>HNGE</td><td>Hinge Health, Inc.</td><td>Outperform</td><td>$55.14</td><td>$60.00</td></tr><tr><td>HSIC</td><td>Henry Schein</td><td>Outperform</td><td>$69.06</",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "0036177db345c86a",
+        "value": 60.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$4.00</td></tr><tr><td>HNGE</td><td>Hinge Health, Inc.</td><td>Outperform</td><td>$55.14</td><td>$60.00</td></tr><tr><td>HSIC</td><td>Henry Schein</td><td>Outperform</td><td>$69.06</td><td>$83.00</",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "dd63a54031f0fccd",
+        "value": 69.06,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>$55.14</td><td>$60.00</td></tr><tr><td>HSIC</td><td>Henry Schein</td><td>Outperform</td><td>$69.06</td><td>$83.00</td></tr><tr><td>ICLR</td><td>ICON</td><td>Outperform</td><td>$171.76</td><td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "bd3844471952bdbe",
+        "value": 83.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "/td><td>$60.00</td></tr><tr><td>HSIC</td><td>Henry Schein</td><td>Outperform</td><td>$69.06</td><td>$83.00</td></tr><tr><td>ICLR</td><td>ICON</td><td>Outperform</td><td>$171.76</td><td>$240.00</td></t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "3adef351ef0e7993",
+        "value": 171.76,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "perform</td><td>$69.06</td><td>$83.00</td></tr><tr><td>ICLR</td><td>ICON</td><td>Outperform</td><td>$171.76</td><td>$240.00</td></tr><tr><td>IQV</td><td>IQVIA Holdings Inc</td><td>Outperform</td><td>$",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "d3cd94b02c858317",
+        "value": 240.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "$69.06</td><td>$83.00</td></tr><tr><td>ICLR</td><td>ICON</td><td>Outperform</td><td>$171.76</td><td>$240.00</td></tr><tr><td>IQV</td><td>IQVIA Holdings Inc</td><td>Outperform</td><td>$187.76</td><td>$",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "a20e05d5d5e6db5a",
+        "value": 187.76,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">$171.76</td><td>$240.00</td></tr><tr><td>IQV</td><td>IQVIA Holdings Inc</td><td>Outperform</td><td>$187.76</td><td>$220.00</td></tr><tr><td>LH</td><td>Labcorp Holdings, Inc.</td><td>Outperform</td><t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "76c1e749ee4b1d04",
+        "value": 220.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">$240.00</td></tr><tr><td>IQV</td><td>IQVIA Holdings Inc</td><td>Outperform</td><td>$187.76</td><td>$220.00</td></tr><tr><td>LH</td><td>Labcorp Holdings, Inc.</td><td>Outperform</td><td>$278.45</td><t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "cdeb361c252cb773",
+        "value": 278.45,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "87.76</td><td>$220.00</td></tr><tr><td>LH</td><td>Labcorp Holdings, Inc.</td><td>Outperform</td><td>$278.45</td><td>$300.00</td></tr><tr><td>MCK</td><td>McKesson</td><td>Outperform</td><td>$680.52</td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "ad475cc6e794ef86",
+        "value": 300.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "20.00</td></tr><tr><td>LH</td><td>Labcorp Holdings, Inc.</td><td>Outperform</td><td>$278.45</td><td>$300.00</td></tr><tr><td>MCK</td><td>McKesson</td><td>Outperform</td><td>$680.52</td><td>$800.00</td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "9403014901acdfba",
+        "value": 680.52,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "rm</td><td>$278.45</td><td>$300.00</td></tr><tr><td>MCK</td><td>McKesson</td><td>Outperform</td><td>$680.52</td><td>$800.00</td></tr><tr><td>NVST</td><td>Envista Holdings Corp</td><td>Outperform</td><",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "afbf9cd27bdc1e2b",
+        "value": 800.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "45</td><td>$300.00</td></tr><tr><td>MCK</td><td>McKesson</td><td>Outperform</td><td>$680.52</td><td>$800.00</td></tr><tr><td>NVST</td><td>Envista Holdings Corp</td><td>Outperform</td><td>$21.14</td><t",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "ae2582322498b5fc",
+        "value": 21.14,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "0.52</td><td>$800.00</td></tr><tr><td>NVST</td><td>Envista Holdings Corp</td><td>Outperform</td><td>$21.14</td><td>$25.00</td></tr><tr><td>OMDA</td><td>Omada Health, Inc.</td><td>Outperform</td><td>$2",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c05e6049817c691c",
+        "value": 25.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "00.00</td></tr><tr><td>NVST</td><td>Envista Holdings Corp</td><td>Outperform</td><td>$21.14</td><td>$25.00</td></tr><tr><td>OMDA</td><td>Omada Health, Inc.</td><td>Outperform</td><td>$21.64</td><td>$2",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c2aa454970bfac3d",
+        "value": 21.64,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>$21.14</td><td>$25.00</td></tr><tr><td>OMDA</td><td>Omada Health, Inc.</td><td>Outperform</td><td>$21.64</td><td>$27.00</td></tr><tr><td>PRVA</td><td>Privia Health Group, Inc.</td><td>Outperform</td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "724e962fa2c34414",
+        "value": 27.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>$25.00</td></tr><tr><td>OMDA</td><td>Omada Health, Inc.</td><td>Outperform</td><td>$21.64</td><td>$27.00</td></tr><tr><td>PRVA</td><td>Privia Health Group, Inc.</td><td>Outperform</td><td>$21.39</td",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "45f1771ff44795f4",
+        "value": 21.39,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "4</td><td>$27.00</td></tr><tr><td>PRVA</td><td>Privia Health Group, Inc.</td><td>Outperform</td><td>$21.39</td><td>$28.00</td></tr><tr><td>TDOC</td><td>Teladoc Health, Inc</td><td>In Line</td><td>$7.8",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "bcd418b3ec589b3b",
+        "value": 28.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "0</td></tr><tr><td>PRVA</td><td>Privia Health Group, Inc.</td><td>Outperform</td><td>$21.39</td><td>$28.00</td></tr><tr><td>TDOC</td><td>Teladoc Health, Inc</td><td>In Line</td><td>$7.81</td><td>$8.00",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "197627d213734e4c",
+        "value": 7.81,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>$21.39</td><td>$28.00</td></tr><tr><td>TDOC</td><td>Teladoc Health, Inc</td><td>In Line</td><td>$7.81</td><td>$8.00</td></tr><tr><td>WAY</td><td>Waystar Holding Corp</td><td>Outperform</td><td>$37",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "000ee8d3a6763732",
+        "value": 8.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>$28.00</td></tr><tr><td>TDOC</td><td>Teladoc Health, Inc</td><td>In Line</td><td>$7.81</td><td>$8.00</td></tr><tr><td>WAY</td><td>Waystar Holding Corp</td><td>Outperform</td><td>$37.16</td><td>$4",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "9d4f82aa631bd1c9",
+        "value": 37.16,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$7.81</td><td>$8.00</td></tr><tr><td>WAY</td><td>Waystar Holding Corp</td><td>Outperform</td><td>$37.16</td><td>$45.00</td></tr><tr><td>WBA</td><td>Walgreens Boots Alliance</td><td>In Line</td><td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "7ec6917ebd04f172",
+        "value": 45.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>$8.00</td></tr><tr><td>WAY</td><td>Waystar Holding Corp</td><td>Outperform</td><td>$37.16</td><td>$45.00</td></tr><tr><td>WBA</td><td>Walgreens Boots Alliance</td><td>In Line</td><td>$11.92</td><td>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "5ed3b6655dbc0519",
+        "value": 11.92,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "$37.16</td><td>$45.00</td></tr><tr><td>WBA</td><td>Walgreens Boots Alliance</td><td>In Line</td><td>$11.92</td><td>$11.45</td></tr><tr><td>XRAY</td><td>DENTSPLY SIRONA Inc.</td><td>In Line</td><td>$14",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "542d10fded59bb12",
+        "value": 11.45,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "$45.00</td></tr><tr><td>WBA</td><td>Walgreens Boots Alliance</td><td>In Line</td><td>$11.92</td><td>$11.45</td></tr><tr><td>XRAY</td><td>DENTSPLY SIRONA Inc.</td><td>In Line</td><td>$14.34</td><td>$17",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "1b679b11491b011d",
+        "value": 14.34,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$11.92</td><td>$11.45</td></tr><tr><td>XRAY</td><td>DENTSPLY SIRONA Inc.</td><td>In Line</td><td>$14.34</td><td>$17.00</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "6927bd421d5a599a",
+        "value": 17.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>$11.45</td></tr><tr><td>XRAY</td><td>DENTSPLY SIRONA Inc.</td><td>In Line</td><td>$14.34</td><td>$17.00</td></tr></table><｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 5
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 4,
+      "tables_count": 0,
+      "numerical_data_count": 68,
+      "passages_count": 84,
+      "entities_count": 20
+    }
+  }
+}

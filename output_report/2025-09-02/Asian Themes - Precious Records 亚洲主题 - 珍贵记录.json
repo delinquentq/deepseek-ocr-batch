@@ -1,0 +1,998 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "296fa3f77c46f82621fbf678e83922dc",
+    "title": "Asian Themes - Precious Records亚洲主题-珍贵记录",
+    "source_uri": "2025-09-02/Asian Themes - Precious Records 亚洲主题 - 珍贵记录_2025-09-02",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:17:13.271273",
+      "extracted_at": "2025-10-27T00:17:13.271283"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 6,
+        "successful_pages": 6,
+        "date": "2025-09-02",
+        "publication": "2025-09-02",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 0,
+          "removed_paragraphs": 4,
+          "reduction_ratio": 0.02761214074670959
+        },
+        "input_relative_path": "2025-09-02"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "15cdf07f508002bc",
+      "text": "With US markets closed Monday, Asian traders we left looking inwards, with most commentary fixated on two broad themes. Firstly, the march higher in China equities, with the headline that margin trading balances had jumped to all- time highs, had a few querying the technical fortitude of further gains.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "5093c109bd8db44a",
+      "text": "由于美国市场周一休市，亚洲交易员只能将目光转向内部，大部分评论集中在两个主要主题上。首先，中国股市持续上涨的势头引人关注，其中融资融券余额创下历史新高的消息，让一些人开始质疑进一步上涨的技术支撑力。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4e36b81f4f7135d6",
+      "text": "Secondly, we saw a USD- inspired move in precious metals, with silver hitting \\$40/oz for the first time since 2011 overnight and then gold hitting an all- time high above \\$3,500/oz in Asian trade.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "63903ed0004b950f",
+      "text": "其次，我们看到贵金属受到美元走势的推动，白银隔夜首次自2011年以来触及每盎司40美元，随后黄金在亚洲交易时段创下每盎司3500美元以上的历史新高。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "bb5513c0f1aba59b",
+      "text": "Asian stocks were mixed, with Korea's Kospi rising \\(0.94\\%\\) on short covering in index and single stock futures. Japan stocks posted modest gains, with the Topix rising \\(0.61\\%\\) as trading firms rose \\(2.5\\%\\) .",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "601b62034a7c4bc4",
+      "text": "亚洲股市表现不一，韩国KOSPI指数因指数和个股期货的空头回补上涨 \\(0.94\\%\\) 。日本股市小幅上涨，TOPIX指数上涨 \\(0.61\\%\\) ，因贸易公司股价上涨 \\(2.5\\%\\) .",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0f40e8632735e7fa",
+      "text": "Greater China, though, saw selling pressure, with SHCOMP - \\(0.6\\%\\) , HSTECH falling \\(1.25\\%\\) , and HSI a more modest - \\(0.35\\%\\) . Perhaps more relevant was the pace and direction of flow, with macro accounts jettisoning length and actually placing tactical shorts in Hong Kong.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "588de14cd22710f7",
+      "text": "不过，大中华区承受了卖压，上证综指下跌 \\(0.6\\%\\) ，恒生科技指数下跌 \\(1.25\\%\\) ，恒生指数则小幅下跌 \\(0.35\\%\\) 。或许更值得关注的是资金流动的速度和方向，宏观账户在抛售多头仓位的同时，甚至在香港建立了战术性空头。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "48fc144a56e06e1b",
+      "text": "Cash US Treasuries reopened with curve steepening, and ultra longs sold off around 12/32nds. Aussie 10yr yields rose 4bps on moderate volume. Real money clients were generally buyers into weakness globally, with bond rolls in Europe now a focus.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "56382cae92a60163",
+      "text": "美国国债现货市场重新开盘，收益率曲线趋陡，超长期国债下跌约12/32点。澳大利亚10年期国债收益率在成交量适中的情况下上涨4个基点。全球范围内，真实资金客户普遍在市场疲软时买入，欧洲的债券展期交易现已成为关注焦点。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "30ee32068bbb5d8f",
+      "text": "Commodity futures, which are still observing net change from Friday, see crude +1.56% and silver +2.3%, with gold gaining 1.3%, leading activity.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "79a0fba61b66bc2a",
+      "text": "商品期货方面，目前仍在观察周五以来的净变化，原油上涨 \\(1.56\\%\\) ，白银上涨 \\(2.3\\%\\) ，黄金上涨 \\(1.3\\%\\) ，领涨市场。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4e949ea5327c93e2",
+      "text": "Both seasonal and short- term technical forces are growing more troubling for global equities, as markets such as the US now show CTAs fully long. It won't take too much before gravitational pull flushes out some weaker longs from here.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d69b16d631ca00f6",
+      "text": "季节性和短期技术因素对全球股市的压力正在加大，美国等市场的CTA已全仓做多。再不需要太多外部因素，市场的“重力”就可能将一些较弱的多头挤出。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "0b950ade68a9a79c",
+      "text": "\\*TESLA BOOKS ABOUT 600 ORDERS IN INDIA DEBUT, WELL SHORT OF GOAL\\*特斯拉在印度首秀接获约600份订单，远低于目标\\*GAZPROM SIGNS MEMO ON BUILDING POWER OF SIBERIA 2 TO CHINA: IFX\\*俄罗斯天然气工业公司签署建设“西伯利亚力量2号”通往中国的备忘录：IFX",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "50dfa571c5f42e53",
+      "text": "*JAPAN'S ISHIBA TO ORDER ECONOMIC MEASURES THIS WEEK: SANKEI",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "de0eb209459bdea9",
+      "text": "\\*日本石破将于本周下令实施经济措施：产经新闻",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8a85dd09d50646d6",
+      "text": "\\*CHINESE STOCKS MARGIN TRADING BALANCE JUMPS TO RECORD \\$320B",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "2d401c41c121f110",
+      "text": "\\*中国股票融资融券余额跃升至创纪录的3200亿美元",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "403ac988f39e4957",
+      "text": "\\*GOLD HITS RECORD HIGH ABOVE \\$3,500 AS RATE CUT BETS FUEL DEMAND",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "7f5603655ebce6e0",
+      "text": "\\*金价创下超过3,500美元的新高，降息预期推动需求",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "09e69540f44e05e4",
+      "text": "\\*TRUMP TO MAKE ANNOUNCEMENT 2:00 PM ET TUESDAY: WHITE HOUSE",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "18deb03b9ac21b8d",
+      "text": "白宫：特朗普将于周二美国东部时间下午2点发表声明",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "cea6d8367d882fe0",
+      "text": "\\*HIMINO: APPROPRIATE TO RAISE RATES IF ECONOMIC OUTLOOK IS MET",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "6d08e8a85dae92e0",
+      "text": "\\*水见野：如果经济前景符合预期，加息是合适的",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b373e382833d6ba4",
+      "text": "\\*AKAZAWA: NOT TRUE JAPAN AGREED TO CUT TARIFFS ON FARM PRODUCTS",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a3adc2c7f4a9e708",
+      "text": "\\*赤泽：日本同意削减农产品关税的说法不属实",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "647a27dbf2295428",
+      "text": "TickerLastChange↓ETHEREUM14398.605+2.54%BITCOIN110437.66+1.44%WTI CRUDE FUTURE Oct25164.91+1.41%GOLD 100 02 FUTURE Dec2513559.20+1.23%KOSPI INDEX13172.63+0.94%TOPIX INDEX (TOKYO)13080.47+0.56%MSCI SINGAPORE FREE1446.75+0.56%BBG Commodity1103.2662+0.47%Nifty 5012473.60+0.44%STOCK EXCH OF THAI INDEX1248.84+0.35%NIKKEI 22514227.68+0.20%DOLLAR INDEX SPOT197.841+0.07%MSCI EmgMkt Jun25HANG SENG CHINA ENT INDX19114.26-0.08%S&P500 EMINI FUT Sep2516466.50-0.10%EURO STOXX 50 Sep2515366.00-0.11%NASDAQ 100 E-MINI Sep2512342.75-0.16%US 10YR NOTE (CBT)Dec251112.09+-0.18%FTSE Bursa Malaysia KLCI11571.91-0.20%TAIWAN TAIEX INDEX124016.78-0.23%S&P/ASX 200 INDEX18900.602-0.30%HANG SENG INDEX125524.97-0.36%SHANGHAI SE COMPOSITE13851.792-0.61%CSI 300 INDEX14482.73-0.91%CBOE VIX FUTURE116.9500-1.16%HSTECH15728.55-1.21%",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "620d59efeba0acc2",
+      "text": "Source: Marquee MarketView来源: Marquee MarketView",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c5adbac80212fc51",
+      "text": "Out ASIAN LEADERS CONFERENCE starts tomorrow in Hong Kong. Please click on the link to participate in the investor poll我们的亚洲领袖会议将于明天在香港开幕。请点击链接与投资者投票。https://marquee.gs.com/s/marketpoll/groups/scc3Bc6a- e174- 4d18- 87cc- b4e927bd667e",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "dfec3cf9b6c685d2",
+      "text": "查看21+小工具arrow_forward",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4f83ae96b9623b11",
+      "text": "When this document is disseminated in Australia by Goldman Sachs & Co. LLC (\"GSCO\"), Goldman Sachs International (\"GSI\"), Goldman Sachs (Asia) LLC (\"GSALLC\") or Goldman Sachs (Singapore) Pte (\"GSSP\") (collectively the \"GS entities\"), this document, and any access to it, is intended only for a person that has first satisfied the GS entities that:",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e83911b3c25756d4",
+      "text": "当本文件由高盛有限责任公司（Goldman Sachs & Co. LLC，简称\"GSCO\"）、高盛国际公司（Goldman Sachs International，简称\"GSI\"）、高盛（亚洲）有限责任公司（Goldman Sachs (Asia) LLC，简称\"GSALLC\"）或高盛（新加坡）私人有限公司（Goldman Sachs (Singapore) Pte，简称\"GSSP\"）（统称为\"高盛实体\"）在澳大利亚发布时，本文件及对其的任何访问仅适用于已首先令高盛实体确信其符合以下条件的人士：",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5d803d3bbc37e3ca",
+      "text": "- the person is a Sophisticated or Professional Investor for the purposes of section 708 of the Corporations Act of Australia; and该人士是《澳大利亚公司法》第708条所指的成熟或专业投资者；并且",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "86b313594b30dafe",
+      "text": "- the person is a wholesale client for the purpose of section 76(1) of the Corporations Act of Australia.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "81d02dcde6c1f78f",
+      "text": "该人士是《澳大利亚公司法》第 76(1) 条所指的批发客户。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "50da1f3ee6bbe8cb",
+      "text": "To the extent that the GS entities are providing a financial service in Australia, the GS entities are each exempt from the requirement to hold an Australian financial services licence for the financial services they provide in Australia. Each of the GS entities are regulated by a foreign regulator under foreign law s which differ from Australian law s, specifically:",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "209249494cbfca67",
+      "text": "在高度实体在澳大利亚提供金融服务的范围内，每一家高度实体均可豁免持有澳大利亚金融服务牌照的要求，以提供其在澳大利亚的金融服务。每一家高度实体均受外国监管机构依据外国法律的监管，而这些法律与澳大利亚法律有所不同，具体如下：",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "37995847338dc5ca",
+      "text": "- GSCO is regulated by the US Securities and Exchange Commission under US law s;",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "b811305ed487d961",
+      "text": "GSCO 受美国证券交易委员会依据美国法律的监管；",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5da66874901ce51c",
+      "text": "- GSI is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority, under UK law s;",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "353665c3d600de4f",
+      "text": "GSI 获得审慎监管局的授权，并受金融行为监管局和审慎监管局依据美国法律的监管；",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2573af4dbe6832c9",
+      "text": "- GSALLC is regulated by the Hong Kong Securities and Futures Commission under Hong Kong law s; and",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "be0bfa48ff4af617",
+      "text": "GSALLC 受香港证券及期货事务监察委员会依据香港法律的监管；",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e337d7744308ad2b",
+      "text": "- GSSP is regulated by the Monetary Authority of Singapore under Singapore law s.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "50fc0d4562e29346",
+      "text": "GSSP 受新加坡金融管理局依据新加坡法律监管。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "848906484bab6e68",
+      "text": "Marquee is not meant for the general public in Brazil. The services or products provided by or through Marquee may not be offered or sold to the general public in Brazil. You have received a pass-word granting access to Marquee exclusively due to your existing relationship with a GS business located in Brazil. The selection and engagement with any of the offered services or products through Marquee will be carried out directly by you. Before acting to implement any chosen service or products, provided by or through Marquee you should consider, at your sole discretion, whether it is suitable for your particular circumstances and, if necessary, seek professional advice. Any steps necessary in order to implement the chosen service or product, including but not limited to remittance of funds, shall be carried out at your discretion. Accordingly, such services and products have not been and will not be publicly issued, placed, distributed, offered or negotiated in the Brazilian capital markets and, as a result, they have not been and will not be registered with the Brazilian Securities Commission (Comissão de Valores Mobiliários), nor have they been submitted to the foregoing agency for approval. Documents relating to such services or products, as well as the information contained therein, may not be supplied to the general public in Brazil, as the offering of such services or products is not a public offering in Brazil, nor used in connection with any offer for subscription or sale of securities to the general public in Brazil.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "67543a77e6281c9e",
+      "text": "The offer of any securities mentioned in this message may not be made to the general public in Brazil. Accordingly, any such securities have not been nor will they be registered with the Brazilian Securities Commission (Comissão de Valores Mobiliários) nor has any offer been submitted to the foregoing agency for approval. Documents relating to the offer, as well as the information contained therein, may not be supplied to the public in Brazil, as the offer is not a public offering of securities in Brazil.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "32c39d12160c6417",
+      "text": "Horário de funcionamento: segunda-feira à sexta-feira (exceto feriados), das 9hs às 18hs.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "93809268756c8ed2",
+      "text": "Available Weekdays (except holidays), from 9 am to 6 pm",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ccffb688f615f5c8",
+      "text": "Standard & Poor’s ® and S&P ® are registered trademarks of The McGraw-Hill Companies, Inc. and S&P GSCI™ is a trademark of The McGraw-Hill Companies, Inc. and have been licensed for use by the Issuer. This Product (the “Product”) is not sponsored, endorsed, sold or promoted by S&P and S&P makes no representation, warranty or condition regarding the advisability of investing in the Product.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "234e519d82172fd1",
+      "text": "Notice to Investors in the European Economic Area",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7716442332d9e549",
+      "text": "Marquee is made available in the European Economic Area by Goldman Sachs International.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "59362abf4c4f3323",
+      "text": "Notice to Investors in Korea",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "73f2b96620925b05",
+      "text": "Marquee is made available in Korea by Goldman Sachs(Asia) L.L.C. Seoul Branch.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "fec758ccab460612",
+      "text": "Notice to Investors in Japan",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "bc61faf7681853ff",
+      "text": "Marquee is made available in Japan by Goldman Sachs Japan Co., Ltd.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "0749689ae69c8514",
+      "text": "本書請檢驗的提供是目的上，不，先，購入為法法法法法法法法法法法法法法法法法法法法 法法法法法法法法法法法法法法法法法法法。 法法法法法法法法法法法法法法法法法法。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "a0a7f46de19bf52b",
+      "text": "本資料法、適格機關投資家 的 客 之 客 之 客 之 客 之 客 之 客 客 之 客 客 之 客 客 之 客 之 客 客 之 客 客 客 之 客 客 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 之 客 客 客 之 之 客 之 客 客 客 之 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 之 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之 之 客 客 客 客 客 之 之 客 客 客 之 客 客 客 客 之",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "c8c4f277543e7990",
+      "text": "When this document is disseminated in New Zealand by Goldman Sachs & Co. LLC (\"GSCO\"), Goldman Sachs International (\"GSF\"), Goldman Sachs (Asia) LLC (\"GSALL\") or Goldman Sachs (Singapore) Pte (\"GSSP\") (collectively the \"GS entities\"), this document, and any access to it, is intended only for a person that has first satisfied the GS entities that the person is someone:",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "44c4867f28bf7a6c",
+      "text": "(i) who is an investment business within the meaning of clause 37 of Schedule 1 of the Financial Markets Conduct Act 2013 (New Zealand) (the \"FMC Act\"); (ii) who meets the investment activity criteria specified in clause 38 of Schedule 1 of the FMC Act; (iii) who is large within the meaning of clause 39 of Schedule 1 of the FMC Act; or (iv) is a government agency within the meaning of clause 40 of Schedule 1 of the FMC Act.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "0736ae6d1b7d5fff",
+      "text": "No offer to acquire the interests is being made to you in this document. Any offer will only be made in circumstances where disclosure is not required under the Financial Markets Conduct Act 2013 or the Financial Markets Conduct Regulations 2014.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "80b9f1b20cab072c",
+      "text": "Notice to Investors in Switzerland",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c1a7d5f8bf65f2fb",
+      "text": "Marquee is made available in Switzerland by Goldman Sachs International.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "eecbca22082d4963",
+      "text": "Contact us if you have any feedback / comments.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3937c635e232f28e",
+      "text": "Use of this site is subject to the Terms and Conditions of Use updated as of 12 August 2024.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "d9bb80fab36f8f74",
+      "text": "Marquee Regulatory Disclosures",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "db143c87d1e4884c",
+      "text": "Important Disclosure Information About Goldman Sachs Research",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "731a4b4ad5dd2765",
+      "text": "Please review our Interest Rate Benchmark Transition Notice, Privacy & Cookies Policy, Security, Market Data Attribution, Security",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "411f29851b9ffc2c",
+      "text": "Guidance and GS&Co.'s Statement of Financial Condition",
+      "page": 5,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "b6ecfe811657a654",
+      "name": "APAC Franchise",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d36f1109e714a3c4",
+      "name": "About Goldman",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3d04125be9722532",
+      "name": "Additional Disclaimers",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c481df660b904e25",
+      "name": "Area\n\nMarquee",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0ef78d5c5e896679",
+      "name": "Asia Leaders",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f8471179b946e12b",
+      "name": "Asian Them",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4014e95c36d45574",
+      "name": "Asian Themes",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2377ece5230c67de",
+      "name": "Australian Investors",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9e0b33074ec75b0f",
+      "name": "Available Weekdays",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d0173988bf07e373",
+      "name": "BBG Commodity",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3066e95bb83f47d9",
+      "name": "Benchmark Transition",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "916ec28be5b2bd09",
+      "name": "Brazilian Investors",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cc653b573dcf08db",
+      "name": "Brazilian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "403ffb6dab3492cc",
+      "name": "Cash US",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "88f494f365f0299b",
+      "name": "Conduct Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "900eef27df0b5958",
+      "name": "Conduct Regulations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d0363ae7300e90fb",
+      "name": "Cookies Policy",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cf7454fe4270253d",
+      "name": "Corporations Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f544bf8c2fcbb21c",
+      "name": "Disclosure Information",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d0c63d5ad1856686",
+      "name": "Disclosures\n\nImportant",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 3,
+        "axes": null,
+        "series": [],
+        "figure_id": "3938dcc193c196a9",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": "Golden Days\nGold-yen cross is powering ahead",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "Sep 2023",
+              "Dec",
+              "Mar 2024",
+              "Jun",
+              "Sep",
+              "Dec",
+              "Mar 2025",
+              "Jun",
+              "Sep"
+            ]
+          },
+          "y": {
+            "unit": "k",
+            "range": {
+              "min": 250,
+              "max": 500
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Gold/Yen",
+            "unit": "k",
+            "values": [
+              260,
+              280,
+              290,
+              310,
+              320,
+              340,
+              360,
+              350,
+              370,
+              390,
+              410,
+              400,
+              420,
+              440,
+              430,
+              450,
+              470,
+              460,
+              480,
+              490,
+              500
+            ]
+          }
+        ],
+        "figure_id": "7b28cf6c524b257b",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 2,
+        "axes": null,
+        "series": [],
+        "figure_id": "7d12e009a411e366",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "55f49384738e614a",
+        "value": 0.015600000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "，欧洲的债券展期交易现已成为关注焦点。 Commodity futures, which are still observing net change from Friday, see crude +1.56% and silver +2.3%, with gold gaining 1.3%, leading activity. 商品期货方面，目前仍在观察周五以来的净变化，原油上涨 \\(1.56\\",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "cef9283a1e2b8e76",
+        "value": 0.023,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "。 Commodity futures, which are still observing net change from Friday, see crude +1.56% and silver +2.3%, with gold gaining 1.3%, leading activity. 商品期货方面，目前仍在观察周五以来的净变化，原油上涨 \\(1.56\\%\\) ，白银上涨 \\(2.3\\%\\",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "6f523a453f1ada79",
+        "value": 0.013000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ch are still observing net change from Friday, see crude +1.56% and silver +2.3%, with gold gaining 1.3%, leading activity. 商品期货方面，目前仍在观察周五以来的净变化，原油上涨 \\(1.56\\%\\) ，白银上涨 \\(2.3\\%\\) ，黄金上涨 \\(1.3\\%\\) ，领涨市场。",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a1826361ed70067c",
+        "value": 40.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "一些人开始质疑进一步上涨的技术支撑力。 Secondly, we saw a USD- inspired move in precious metals, with silver hitting \\$40/oz for the first time since 2011 overnight and then gold hitting an all- time high above \\$3,500/",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "420db2cd5e1fdfb7",
+        "value": 3500.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ting \\$40/oz for the first time since 2011 overnight and then gold hitting an all- time high above \\$3,500/oz in Asian trade. 其次，我们看到贵金属受到美元走势的推动，白银隔夜首次自2011年以来触及每盎司40美元，随后黄金在亚洲交易时段创下每盎司3500美元以上的历史新高。",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "27e5606a2a15ad8c",
+        "value": 0.0254,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ble><tr><td>Ticker</td><td>Last</td><td>Change↓</td></tr><tr><td>ETHEREUM</td><td>14398.605</td><td>+2.54%</td></tr><tr><td>BITCOIN</td><td>110437.66</td><td>+1.44%</td></tr><tr><td>WTI CRUDE FUTURE O",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8dd6cb570ca39fdb",
+        "value": 0.0144,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>ETHEREUM</td><td>14398.605</td><td>+2.54%</td></tr><tr><td>BITCOIN</td><td>110437.66</td><td>+1.44%</td></tr><tr><td>WTI CRUDE FUTURE Oct25</td><td>164.91</td><td>+1.41%</td></tr><tr><td>GOLD 1",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d092d985daed8faa",
+        "value": 0.0141,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "OIN</td><td>110437.66</td><td>+1.44%</td></tr><tr><td>WTI CRUDE FUTURE Oct25</td><td>164.91</td><td>+1.41%</td></tr><tr><td>GOLD 100 02 FUTURE Dec25</td><td>13559.20</td><td>+1.23%</td></tr><tr><td>KO",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6710b6a4e05340fc",
+        "value": 0.0123,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "25</td><td>164.91</td><td>+1.41%</td></tr><tr><td>GOLD 100 02 FUTURE Dec25</td><td>13559.20</td><td>+1.23%</td></tr><tr><td>KOSPI INDEX</td><td>13172.63</td><td>+0.94%</td></tr><tr><td>TOPIX INDEX (TO",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c37e7ccff410930d",
+        "value": 0.009399999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "FUTURE Dec25</td><td>13559.20</td><td>+1.23%</td></tr><tr><td>KOSPI INDEX</td><td>13172.63</td><td>+0.94%</td></tr><tr><td>TOPIX INDEX (TOKYO)</td><td>13080.47</td><td>+0.56%</td></tr><tr><td>MSCI SIN",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f3aeb41ec034540e",
+        "value": 0.005600000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "INDEX</td><td>13172.63</td><td>+0.94%</td></tr><tr><td>TOPIX INDEX (TOKYO)</td><td>13080.47</td><td>+0.56%</td></tr><tr><td>MSCI SINGAPORE FREE</td><td>1446.75</td><td>+0.56%</td></tr><tr><td>BBG Comm",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "68c783f8d82f4024",
+        "value": 0.005600000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "TOKYO)</td><td>13080.47</td><td>+0.56%</td></tr><tr><td>MSCI SINGAPORE FREE</td><td>1446.75</td><td>+0.56%</td></tr><tr><td>BBG Commodity</td><td>1103.2662</td><td>+0.47%</td></tr><tr><td>Nifty 50</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2318fb87e35d41f2",
+        "value": 0.004699999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "GAPORE FREE</td><td>1446.75</td><td>+0.56%</td></tr><tr><td>BBG Commodity</td><td>1103.2662</td><td>+0.47%</td></tr><tr><td>Nifty 50</td><td>12473.60</td><td>+0.44%</td></tr><tr><td>STOCK EXCH OF THAI",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "86c0cbd2cd908baa",
+        "value": 0.0044,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>BBG Commodity</td><td>1103.2662</td><td>+0.47%</td></tr><tr><td>Nifty 50</td><td>12473.60</td><td>+0.44%</td></tr><tr><td>STOCK EXCH OF THAI INDEX</td><td>1248.84</td><td>+0.35%</td></tr><tr><td>NIK",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3a2af72a4f8cf5bc",
+        "value": 0.0034999999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0</td><td>12473.60</td><td>+0.44%</td></tr><tr><td>STOCK EXCH OF THAI INDEX</td><td>1248.84</td><td>+0.35%</td></tr><tr><td>NIKKEI 225</td><td>14227.68</td><td>+0.20%</td></tr><tr><td>DOLLAR INDEX SPO",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6ea3c38312751578",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "H OF THAI INDEX</td><td>1248.84</td><td>+0.35%</td></tr><tr><td>NIKKEI 225</td><td>14227.68</td><td>+0.20%</td></tr><tr><td>DOLLAR INDEX SPOT</td><td>197.841</td><td>+0.07%</td></tr><tr><td>MSCI EmgMk",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c49e117d579d2acd",
+        "value": 0.0007000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "KKEI 225</td><td>14227.68</td><td>+0.20%</td></tr><tr><td>DOLLAR INDEX SPOT</td><td>197.841</td><td>+0.07%</td></tr><tr><td>MSCI EmgMkt Jun25</td><td></td><td></td></tr><tr><td>HANG SENG CHINA ENT IND",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "20934d855145e25d",
+        "value": -0.0008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "I EmgMkt Jun25</td><td></td><td></td></tr><tr><td>HANG SENG CHINA ENT INDX</td><td>19114.26</td><td>-0.08%</td></tr><tr><td>S&P500 EMINI FUT Sep25</td><td>16466.50</td><td>-0.10%</td></tr><tr><td>EURO",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "337d49e07211a79e",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "DX</td><td>19114.26</td><td>-0.08%</td></tr><tr><td>S&P500 EMINI FUT Sep25</td><td>16466.50</td><td>-0.10%</td></tr><tr><td>EURO STOXX 50 Sep25</td><td>15366.00</td><td>-0.11%</td></tr><tr><td>NASDAQ ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ab214dafbcdc6b92",
+        "value": -0.0011,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Sep25</td><td>16466.50</td><td>-0.10%</td></tr><tr><td>EURO STOXX 50 Sep25</td><td>15366.00</td><td>-0.11%</td></tr><tr><td>NASDAQ 100 E-MINI Sep25</td><td>12342.75</td><td>-0.16%</td></tr><tr><td>US ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7a21d9f532e55062",
+        "value": -0.0016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5</td><td>15366.00</td><td>-0.11%</td></tr><tr><td>NASDAQ 100 E-MINI Sep25</td><td>12342.75</td><td>-0.16%</td></tr><tr><td>US 10YR NOTE (CBT)Dec25</td><td>1112.09+</td><td>-0.18%</td></tr><tr><td>FTS",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8c0b4544db6e688c",
+        "value": -0.0018,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5</td><td>12342.75</td><td>-0.16%</td></tr><tr><td>US 10YR NOTE (CBT)Dec25</td><td>1112.09+</td><td>-0.18%</td></tr><tr><td>FTSE Bursa Malaysia KLCI</td><td>11571.91</td><td>-0.20%</td></tr><tr><td>TA",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3d3f05dc0f1b9260",
+        "value": -0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>1112.09+</td><td>-0.18%</td></tr><tr><td>FTSE Bursa Malaysia KLCI</td><td>11571.91</td><td>-0.20%</td></tr><tr><td>TAIWAN TAIEX INDEX</td><td>124016.78</td><td>-0.23%</td></tr><tr><td>S&P/ASX",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ac97ec7faed8eef2",
+        "value": -0.0023,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "KLCI</td><td>11571.91</td><td>-0.20%</td></tr><tr><td>TAIWAN TAIEX INDEX</td><td>124016.78</td><td>-0.23%</td></tr><tr><td>S&P/ASX 200 INDEX</td><td>18900.602</td><td>-0.30%</td></tr><tr><td>HANG SENG",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "dcc069b1f40add69",
+        "value": -0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "INDEX</td><td>124016.78</td><td>-0.23%</td></tr><tr><td>S&P/ASX 200 INDEX</td><td>18900.602</td><td>-0.30%</td></tr><tr><td>HANG SENG INDEX</td><td>125524.97</td><td>-0.36%</td></tr><tr><td>SHANGHAI S",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e7c1388a155754ca",
+        "value": -0.0036,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0 INDEX</td><td>18900.602</td><td>-0.30%</td></tr><tr><td>HANG SENG INDEX</td><td>125524.97</td><td>-0.36%</td></tr><tr><td>SHANGHAI SE COMPOSITE</td><td>13851.792</td><td>-0.61%</td></tr><tr><td>CSI ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "baec843fb3bd52a4",
+        "value": -0.0060999999999999995,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "X</td><td>125524.97</td><td>-0.36%</td></tr><tr><td>SHANGHAI SE COMPOSITE</td><td>13851.792</td><td>-0.61%</td></tr><tr><td>CSI 300 INDEX</td><td>14482.73</td><td>-0.91%</td></tr><tr><td>CBOE VIX FUTU",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "44d8370cb00766af",
+        "value": -0.0091,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "COMPOSITE</td><td>13851.792</td><td>-0.61%</td></tr><tr><td>CSI 300 INDEX</td><td>14482.73</td><td>-0.91%</td></tr><tr><td>CBOE VIX FUTURE</td><td>116.9500</td><td>-1.16%</td></tr><tr><td>HSTECH</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "71681b0e91c661ad",
+        "value": -0.0116,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "300 INDEX</td><td>14482.73</td><td>-0.91%</td></tr><tr><td>CBOE VIX FUTURE</td><td>116.9500</td><td>-1.16%</td></tr><tr><td>HSTECH</td><td>15728.55</td><td>-1.21%</td></tr></table> # APAC Franchise: A",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6e870074aa14d2ad",
+        "value": -0.0121,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>CBOE VIX FUTURE</td><td>116.9500</td><td>-1.16%</td></tr><tr><td>HSTECH</td><td>15728.55</td><td>-1.21%</td></tr></table> # APAC Franchise: Asian Them... ![Figure 1-0](images/1_0.jpg) <｜end▁of▁sent",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "28bd947b6e456e9d",
+        "value": 320000000000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "HIS WEEK: SANKEI \\*日本石破将于本周下令实施经济措施：产经新闻 \\*CHINESE STOCKS MARGIN TRADING BALANCE JUMPS TO RECORD \\$320B \\*中国股票融资融券余额跃升至创纪录的3200亿美元 \\*GOLD HITS RECORD HIGH ABOVE \\$3,500 AS RATE CUT BETS FUEL DEMAND \\*",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "40388b22553c65c1",
+        "value": 3500.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "TRADING BALANCE JUMPS TO RECORD \\$320B \\*中国股票融资融券余额跃升至创纪录的3200亿美元 \\*GOLD HITS RECORD HIGH ABOVE \\$3,500 AS RATE CUT BETS FUEL DEMAND \\*金价创下超过3,500美元的新高，降息预期推动需求 \\*TRUMP TO MAKE ANNOUNCEMENT 2:00 PM ET",
+        "provenance": {
+          "page": 1
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 3,
+      "tables_count": 0,
+      "numerical_data_count": 32,
+      "passages_count": 70,
+      "entities_count": 20
+    }
+  }
+}

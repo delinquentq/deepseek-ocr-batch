@@ -1,0 +1,780 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "3ec53b1e795f79b05e7593ed9f4923c9",
+    "title": "EVERCORE ISI",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Evercore/Notes from Day 2 of 2025 Evercore ISI Semis ConferenceNotes from Day 2 of 2025 Evercore ISI Semis Conference_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:45:14.093168",
+      "extracted_at": "2025-10-26T11:45:14.093182"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 14,
+        "successful_pages": 14,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Evercore",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.09802708298626817
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Evercore"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "d130234dba60145f",
+      "text": "Technology | Semiconductors and Semiconductor Equipment",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b365f6e144081c3e",
+      "text": "Links to Related Research",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4097062f1f38bddd",
+      "text": "Notes from Day 1 of 2025 Evercore ISI Semis Conference",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "77fa1a53d75872f7",
+      "text": "Notes from Day 2 of our 2025 annual Semis conference:",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2ca23f9c7bf940bf",
+      "text": "TXN - potential price increases should not impact share gain aspirations. Inventories to be managed flat at \\(\\) 5bn\\(levels through up- cycle. China Auto remains strong YY. CapEx\\) \\ \\(2 - 3bn\\) if 2026 revs tracking sub- \\(\\) 22bn\\$ , higher otherwise.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "dea273412ff1097f",
+      "text": "MCHP - Aug bookings seasonally softer but expected to pick back up in Sep. Inventory reserves to reverse over next 4qtrs. Underutilization will take 5- 6qtrs starting in DecQ. CapEx can remain low for 3- years",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "fd2ffdda6d7cecac",
+      "text": "PI - Ability to manage inventory overbuilds has increased significantly last 5- 6yrs. Systems recovery feels durable. Fixed overhead reading can create endpoint IC share gain. Engagement across Gen Merch, Logistics, Food remains strong",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6f306005f71f6f2d",
+      "text": "MTSI - DC demand trends remain strong into FY26 (ACC, 800G, 1.6T, LPO, photodiodes). ACC at Asia hyperscaler possible ramp in CY2026. 25- to- 50bps GM expansion expected next several qtrs.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "03556f4d36d9494b",
+      "text": "AMD - Positive on ramp of Mi355, customer interest in both MI400 as well as in its longer term Datacenter Al roadmap. The company also noted cadence of ROCm releases has gone to Monthly if not more from quarterly previously, with Day- 1 ChatGPT 5 support, and that it has been recruiting aggressively for top talent for its ROCm team.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f17d87f7b7227664",
+      "text": "RMBS - confirmed \\(40\\%\\) market share in DDR5 RCDs as it expects to increase the share in the following DDR5 generations (gen 4 and gen 5) and positive on MRDlMM opportunity (in 2027) which increases content 4x vs RDlMM",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "8a4dee1c6aba3761",
+      "text": "AMAT - China is expected to digest after heavy 2023- 24 spending, with normalized exposure at \\(\\sim 20 - 25\\%\\) and growing local competition. Looking ahead, DRAM (ex- China) growing \\(50\\%\\) YY, NAND remains a modest contributor, and in leading- edge logic AMAT sees its TAM expanding from \\(\\) 12B\\((\\text{FinFET})\\) to \\(\\) 14B\\((\\text{GAA + BSP})\\) with share rising above \\(50\\%\\)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "32dd9cc0608008a2",
+      "text": "ASML Mgmt. noted increasing uncertainty going in 2026 as Al demand continues to remain strong vs. weaker cycle spend. Mgmt. expects litho intensity to continue growing as DRAM customers increase EUV exposures and F&L customers return to shrink post GAA/BSD ramps.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "306c78d92bfd1dcd",
+      "text": "NVMI - Mgmt. doesn't expect a digestion in China revs. GAA ramps expected to remain on track to achieving \\(\\) 500\\mathrm{mn}\\$ by 2026. Products cycles helping conviction on growth in 2026.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "8d898698373356e3",
+      "text": "TER - Broadly Mgmt. noted improving visibility and better higher utilization driving new system sales vs. upgrades. Highlighted multiple growth opportunities 1) Custom Silicon Ramps + Mkt Share Gain at Merchant Compute. 2) HBM Market Share Wins + TAM Expansion; and 3) IA Win Ramping in 2026.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a61df968618b26e3",
+      "text": "Ability to Win Back Lost Sockets During Height of Supply Shortages. TXN noted that it peaked out in capacity at around \\(\\sim \\$ 20bn\\) run- rate back in 2022 and as a result prioritized longer design lifetime end- markets such as Auto & Industrial at the expense of shorter design Personal Electronics. These sockets were mostly in China, and over the past several years TXN has been working hard to win back positions in China.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e7b1dd171e79ed44",
+      "text": "Pricing Strategy Remains Unchanged. Mgmt reiterated that TXN does not set the price but rather lets the market set the price and then chooses to participate in a competitive way. The company constantly re- evaluated pricing across every product line based on inbound quotes, conversion rates, etc and continually makes adjustments both up and down. At times, when newer generation products come at a better cost structure, TXN may increase the prices on older products in order to drive better margin structure for the overall company. In some cases, this can result in drop- in replacements, in other cases it results in re- qualification of customer boards. But regardless pricing is not expected to impede market share aspirations",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "3b18708e40ab6282",
+      "text": "Excitement about NVDA 800V HVDC. While TXN has not participated during the Blackwell generation, mgmt is excited particularly about its opportunity to expand its TAM with NVDA with its GaN technology. Mgmt noted that it is planning a production pilot line at Sherman 1 and will plan to compete fiercely for the use case",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "c018e23937bad442",
+      "text": "AI Data Center TAM Can Grow to Size of Personal Electronics. Mgmt noted that AI DC TAM can grow to \\(\\) 20- 30\\(bn in size over time, similar to that of Personal Electronics from few billion currently",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d7f3905976b8febc",
+      "text": "Underutilization at Lehi to Reverse Over Time. Mgmt noted that given that Lehi was a purchased asset, with tools already installed, that underutilization headwinds are substantial currently given underloading. As TXN continues to port over \\(90nm\\) , \\(65nm\\) , \\(45nm\\) , and \\(28nm\\) process nodes internally (prior externally fabbed) that those trends should reverse. Mgmt does not need full \\(\\) 11bn\\$  revs potential to improve the margin profile and can lower price per wafer from \\(\\sim \\$ 1,000\\) when externally fabbed to few \\(\\) 100\\$ internally.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e98197acd09d83c4",
+      "text": "China Auto Continues to Grow YY. Mgmt noted that despite a strong growth year for China Auto in 2024, that business remains up YY as of 2Q25",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e5ce90696f4026c9",
+      "text": "Plan to Hold Inventory Flat Moving Forward. Inventory mgmt based on bottoms- up view across SKUs and inventory levels are higher than prior cycle due to the fact that they are carrying more internally (vs in past some inventories held by foundry partners until orders are pulled). Moving forward, mgmt expects to keep inventory relatively flat",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "2946bf0257a6e555",
+      "text": "2026 CapEx Expectations. Mgmt noted that by 2026 it will have enough capacity for the range of \\(\\) 20- 26bn\\$  revs. If revs are tracking sub- \\(\\) 22bn\\$  CapEx likely closer to \\(\\) 2- 3bn\\$ . If \\(\\) 23bn\\$  or higher, then CapEx will increase proportionately to higher revenue expectations",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "586945ad14944076",
+      "text": "Dividends \\(40\\% - 80\\%\\) of FCF Return. As a reminder this is up from \\(40\\% - 60\\%\\) that mgmt had laid out in its 2024 Cap Mgmt presentation. In the near- term stock repurchases will be more opportunistic in nature",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "24fa64a9e8aa6c7d",
+      "text": "Spot shortages Largely Limited to DC End- Market. Mgmt noted that those products use external assembly/test houses which are full and on capacity allocation due to Al demand and cell- phone builds. As a result, MCHP looking for greater visibility",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "cccb0b54e3df9c02",
+      "text": "Bookings Lumpy But Remain Constructive. Mgmt noted that while Jul bookings were at 3yr highs, August bookings were softer given seasonal dynamics but are expected to recover. B2B was 1.07 in MarQ and also above 1 in JunQ. Mgmt continues to expect to require significant turns in the SepQ as well as the DecQ",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9142afe9e4787f49",
+      "text": "Expect to Sell- Through vs Sell- In Parity Exiting FY...compared to \\(\\) 49m\\(undershipment as of JunQ\\)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "147f96eb65fb75d5",
+      "text": "Utilization Headwinds Likely Reverse Over 5- to- 6 Quarters...with plans to increase loadings starting in the DecQ. Notably, given cycle times, MCHP cannot increase capacity by more than \\(15\\% - 20\\%\\) in any 1- quarter and thus utilization reversal is likely to play out over 5- to- 6qtrs.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "79e9638410e6e764",
+      "text": "Inventory Reserve Headwind to Abate Over Next 4Qtrs...from \\(\\) 77m\\(headwind in JunQ. Mgmt noted there will always be some level of reserves in any given qtr given the diversity of SKUs but expectations are to approach\\) \\ \\(15 - 20m\\) \"normalized\" levels over 4- quarters or so",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "93d233273dacd0c0",
+      "text": "Low- End 32- bit MCU Product Roadmap. Mgmt is extending its 32- bit MCU portfolio to include lower- end 32- bit applications which will help bridge the gap for cases in which customers on higher- end 8- bit MCUs can transition to lower- end 32- bit MCUs over time.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "23f2c06827cea8a0",
+      "text": "CapEx Can Remain Low for Several Years...MCHP reiterated expectations for \\(\\) 100m\\(this FY and while mgmt hasn't guided beyond that, given\\) \\ \\(400m\\) of unused tools, and fact that current capacity footprint can support recovery back to prior highs, it is possible in which CapEx can remain low for 3- years",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "436ca9fdc4901b72",
+      "text": "Unpacking Systems Uptick. PI noted it has been unhappy with its recent Systems performance and recent results related to additional use cases at both Inditex and UPS are a function of challenging sales teams to do better. Gahan Richardson has historically overseen Endpoint IC sales but more recently has become in charge of both Endpoint and Systems which is driving a more partnered and collaborative go to market. On the retail front, fixed overhead reading opportunity was driven by Gen2X extension of reader range and has historically been an account where NXPI has had greater endpoint IC share, enabling the opportunity to expand share",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "436647cb9864aff1",
+      "text": "In- Lay Pricing As Low as \\(\\) 0.02\\(... given the amount of in - lay capacity that has come on in the past few - quarters, quotes have gotten as low as\\) \\ \\(0.02\\) and likely sustain at those levels particularly as higher- volume food opportunities begin to layer in",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5af5f91ca2b32867",
+      "text": "Piggy Backing in General Merchandising...mgmt has been seeing \"piggyback\" RFPs within general merchandise as other customers take the learnings from WMT's efforts to tag various products across the general merchandise category",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "9de4dd95a496427c",
+      "text": "Channel Weeks to be Managed Flat From Here...mgmt expected inventory to increase slightly in 2Q but ultimately declined. In- lay partners are managing inventory differently but expectation is that channel weeks remain relatively flat moving forward",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "78ce08eea0595cef",
+      "text": "Managing Inventory Overbuild Risk Has Greatly Improved Under Cary Baker Regime...driven by better connections within the organization in order to triangulate inventory trends based on monthly data from customers.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4942df69c5a4a355",
+      "text": "- 1.6T Largest Revs Mix...mgmt noted that 1.6T is largest segment vs 800G, 400G, 100G and sub-100G. 1.6T ramp has played out earlier than rest of supply chain given they are at the tip of the supply chain- Data Center Demand Remains Solid into FY26. 800G and 1.6T demand expected to continue, ACC ramp up is possible at both NVDA and other hyperscalers, direct engagements in LPO at 400G are beginning to contribute to revs in SepQ and 800G expected over time, and photodiodes adds new content for MTSI within the data center- Product Diversity to Continue in Data Center...across PCIe over Optics (starting at PCIe 7), Linear Equalizers (for ACC), and Photodiodes on top of TIA/drivers- ACC Advantageous vs AEC on Multiple Fronts...including on cost basis, power footprint, and latency profile. For areas where interconnects stretch beyond few meters, AECs will likely be used however due to signal integrity issues. MTSI believes it can generate \\(\\) 100m\\$ worth of ACC revenues for \\(\\) 400m\\$ worth of AEC-equivalent revenues- WOLF RF Fab Takeover Implications... \\(\\) 1.5m\\$ headwind to Gross Profit largely a function of takeover of RTP fab 6mos earlier than plan. Reiterate expectations for 25-to-50bps margin expansion and exiting next FY at 59%. Remains to be seen if WOLF RF gets all the way to corporate average GM profile (considering basestation inherently lower margin) but expect solid progress over next several quarters",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "255db9bed6e948e4",
+      "text": "- Large customers are buying MI355 and putting them in production for smaller Tier2/3 AI models as they get the software stacks ready on ROCm to move to scale with MI400- Current MI355 shipments are a reflection of last year's orders. AMD argues that new demand signals for customers are encouraging but take 9-12 months to convert into revenues given GPU order and manufacturing cycles. Separately, AMD noted that CSPs look at supplier roadmaps multiple years in the future, and given that AMD has only been shipping its MI300 family for less than 2 years, and that its portfolio as improved materially, it believes that it is well positioned with CSPs in the future.- For MI400 Helios rack AMD is working closely with ZT Systems inputs and going through rigorous sub-component level prototyping, testing and debugging as the GPU will be the last component dropped into the system. AMD hopes this approach allows customers more upfront prep vs typical sampling and allows to make decision on system configurations upfront potentially speeding up deployment process in the future.- OpenAI models supported on AMD from Day 1 – could not have said this months ago- AMD needs to apply for licenses for MI308 for each customer and received first couple of licenses after earnings. At the time of write-off it had minimal MI308 finished good inventories, some WIP inventories and supply purchase commitments. It requires at least 6-8 weeks to finish WIP inventories so the earliest potential MI308 revs contribution is in 4Q25.- AMD expects demand in China given local AI chips supply is insufficient to fill all local demand.- AMD views Granite Rapids as narrowing the gap to Turin, but expects Venice CPU - the first non-cellphone chip on 2nm TSMC process - to widen the gap vs INTC again.- AMD has a high share in \\(1^{\\text{st}}\\) party cloud workloads, but expects to grow share in \\(3^{\\text{rd}}\\) party and enterprise server market. Recent OpEx increases are related to AMD's go-to-market strategy for enterprise server market. AMD views agentic AI driving enterprise demand for higher-end server CPUs- ARM CPUs are largely used for internal workloads. AMD argues it has ARM licenses (for FPGA business) and if all customer demand was heading to ARM CPUs AMD could make one, but it continued to see customer demand for x86 ecosystem- Client CPUs: AMD estimates its share at 20% in enterprise notebooks and expects to gain more share with Dell ramp in 4Q25. Addressing AI PC opportunity AMD is targeting a wider SKU set vs INTC and have seen enterprise focus on future-proofing IT for potential AI workloads.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "6e18c42c9afbaffd",
+      "text": "- Rambus estimates its current RCD market share in DDR5 at \\(\\sim 40\\%\\) and believes it could improve it but unlikely to reach market share above \\(60\\%\\) given the market structure with customers relying on 3 viable suppliers. Rambus believes its share gains came largely from Renesas and to lesser extent Montage- Share changes typically happen with platform switches for memory with sub-generations (DDR5 gen1, DDR5 gen2, etc.) and new CPU platforms (Granite Rapids and Venice)- Next generation of CPUs (Granite Rapids, Venice) expected to have 16 memory channels allowing for 16-32 RDIMMs or MRDIMMs – RMS expects AI workloads to continue drive memory per core requirements higher- RMBS expects Companion chips to ramp notably with Granite Rapids reaching mature volumes. It's longer-term aspiration to reach \\(\\sim 20\\%\\) blended share of \\(600m\\) Companion chips market is a multi-year objective as DDR5 gen4 and gen5 expected to move RMBS closer to the target in 2027- MRDIMM opportunity offers 4x content per MRDIMM vs RDIMM and allows CPU vendors to double memory capacity per channel without sacrificing. Diamond Rapids expected to ramp in 2027 could leverage MRDIMM memory",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0e2efa30e9665020",
+      "text": "Management emphasized moving beyond \"break/fix\" to full- service partnerships that deliver ROI for customers, including Alx (Actionable Insight Accelerator) for predictive maintenance, optimizing technology transfers/ramps. With over 7,000 tools connected to 30,000 chambers, Management emphasized the role of predictive analytics and data science in services, enabling advance warnings on potential tool failures and allowing equipment to be restored quickly. Mgmt. highlighted that AMAT's core services grow at a \\(10\\%\\) CAGR, vs. \\(6\\%\\) growth installed base. Average contract length increased from 2.0 to 2.9 years in two years, backlog \\(\\sim\\) \\(6.9B\\) with \\(\\sim 90\\%\\) renewal rate",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c8f3c5f82982f6ac",
+      "text": "Utilization Stable in ICAPS; High in Leading Edge F&L & Memory. Through AMAT's services offering, AMAT has good visibility into tools utilization. Mgmt. noted that utilization levels have been stable in ICAPS - but lower than 2022/2023 levels; Leading edge foundry and DRAM for HBM are running at high utilization levels.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "6223280c436d7788",
+      "text": "China. Expect to see digestion in China after heavy investments in 2023 and 2024. Mgmt expects China exposure to normalize at \\(\\sim 20 - 25\\%\\) of revs. Mgmt. acknowledged growing competition from local China suppliers and highlighted that AMAT typically benefits from the first build and follow up builds are shifting to local suppliers. AMAT's service & innovation on ICAPS product helps with a differentiate vs. competitors.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "f675be0badf6f9a4",
+      "text": "DRAM: Expect near- record revenues in 2025, as advanced DRAM demand outside China offsets restrictions. Multi- year HBM packaging investment underway (hybrid bonding, glass panels). NAND: Lower share base for AMAT; modest benefits from multinational demand, but long- term DC use cases could improve trajectory. Leading- Edge Foundry & Logic (F&L): Strong position in GAA and BSP nodes. Total opportunity grows from \\(\\) 12B\\(FinFET) to\\) \\ \\(14B\\) (GAA+BSP) and AMAT expects to see \\(>50\\%\\) share post GAA vs. \\(",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "82e16ec347aebf6c",
+      "text": "2026 Outlook. Uncertainty due to bifurcation - strong spending by Al beneficiaries vs. weaker demand from cyclical segments.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "343762db15fe798e",
+      "text": "Litho Intensity. In foundry & logic, 2nm nodes are focused on architecture shift to GAA and Backside power. Going forward Mgmt. expects to see transistor scaling to follow as these nodes stabilize. Mgmt. highlighted increase in litho intensity on DRAM even as architecture shifts to 4F2. 3D DRAM likely getting",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "75691d01d9cddbc1",
+      "text": "2022: undersupplied industry by \\(50\\%\\) . 2023- 24: shipped heavily, covering prior backlog. Exposure revised to \\(\\sim 25\\%\\) . Historically \"Big 4\" customers; now \"Big 6\" as Huawei, SMIC, Huahong, and two logic players scaled up. Some DRAM- related backlog (\\ \\(1.4B) canceled after new export restrictions and removed from\\) \\ \\(33B\\) orders. Still significant need for immersion tools, even at 45nm. \\(\\sim 70\\%\\) of China's value concentrated in top 6 customers.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e365ccc159fc6e0f",
+      "text": "Leading- edge Spend. TSMC fab build out continues to remain strong. INTC trajectory remain uncertain and Samsung Taylor fab announcement are incrementally positive",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "98a31dcff64e9672",
+      "text": "China. Mgmt. does not see evidence of digestion or demand decline, and noted stable utilization levels of tools and backlog visibility extending to \\(>6\\) months",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "9383ae0f7a0655b6",
+      "text": "GAA Ramps. Continue to expect step function increase in GAA revs ramps in 2025 and reiterated \\(\\) 500M\\(revenue potential by 2026, supported by TSMC, Intel, Samsung, and Rapidus. TSMC continues to invest steadily, while Samsung is regaining traction. NVMI hasn't seen lumpiness in leading - edge spending.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "3ecdf5e4a337faf1",
+      "text": "Advanced Packaging. Advanced packaging revs remain strong capturing \\(\\sim 15\\%\\) of revs as NVMI penetrates back- end with chemical metrology and dimensional tools",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "3f0efc1cfdb99842",
+      "text": "Product Cycle over the next 2- 3 years will be led by 1) growing penetration of Dimensional metrology (40- 50% of revenues), driven by PRISM technology; 2) Adoption of Material metrology (30- 40%) with tools like VERAFLEX, METRION, and ELIPSON, and 3) Adoption chemical metrology ( \\(\\sim 10\\%\\) ) in back- end as well as front- end. NVMI also announced new WMC optical metrology platform for applications in advanced packaging",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e99a50113387d840",
+      "text": "Broadly Mgmt. noted improving visibility and better higher utilization driving new system sales vs. upgrades.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "0e4346909b4b3665",
+      "text": "- Custom Silicon Ramps Starting \\(2H25 + \\text{Potential to Gain Mkt Share at Merchant Compute Supplier. Mgmt. expects strong growth in SOC revs in 2H25 and 2026 as multiple custom silicon programs start ramping. In addition to the custom silicon and networking growth in compute, Mgmt. noted potential opportunity to gain market share in merchant compute silicon which captures majority of the compute TAM today\\)",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "a145a0ddc7a25d31",
+      "text": "- HBM Market Share Wins + TAM Expansion with New Test Insertion. Mgmt. expects memory test revs to \"snap-back\" in 2H25 driven by 1) HBM4 performance test win with a new DRAM manufacturer (announced in 1Q25) which is expected to begin shipments in 2H25; and 2) Addition of new step to test HBM singulated stacks (won in 2Q25). Mgmt. noted potential memory TAM expansion if this new test step is adopted across the broader industry.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "1e44fa7b0a36f916",
+      "text": "- Industrial Automation Win Ramping in 2026. While IA revs are expected to be below break even levels of \\(\\sim\\) \\(\\)365m\\(in 2025, Mgmt said it won a plan of record decision from a large customer which is expected to be a significant growth driver in 2H26.\\)",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "0fcec97f3528724d",
+      "text": "Company ChangesEstimatesSymbolCompanyPriceRatingTarget PriceCurrent YearNext YearAMATApplied Materials, Inc.&#36;164.19-OPFOPFCurr&#36;209.00Prev&#36;209.00Curr&#36;27911.3Prev&#36;28961.9Curr&#36;29253.7Prev&#36;30596.5AMDAdvanced Micro Devices, Inc&#36;166.99-OPFOPF-&#36;188.00&#36;144.00-&#36;32763.6&#36;31093.5-&#36;38987.4&#36;38924.2ASML-NLASML Holding NV&#36;660.20-OPFOPF-&#36;755.00&#36;803.00-&#36;32540.8&#36;31515.1-&#36;35472.4&#36;37650.3MCHPMicrochip Technology Inc&#36;66.58-OPFOPF-&#36;83.00&#36;83.00-&#36;4406.00&#36;4415.50-&#36;5980.00&#36;6065.00MTSIMACOM Technology Solutions Holdings, Inc&#36;129.92-OPFOPF-&#36;158.00&#36;146.00-&#36;1006.95&#36;989.27-&#36;1168.69&#36;1191.86NVMINova Ltd&#36;263.59-OPFOPF-&#36;290.00&#36;240.00-&#36;870.88&#36;863.53-&#36;960.34&#36;963.62PIImpinj, Inc.&#36;186.65-OPFOPF-&#36;176.00&#36;117.00-&#36;353.52&#36;336.59-&#36;442.14&#36;411.47RMBSRambus Inc&#36;75.22-OPFOPF-&#36;81.00&#36;71.00-&#36;690.20&#36;688.39-&#36;813.76&#36;822.14TERTeradyne Inc.&#36;117.56-OPFOPF-&#36;120.00&#36;95.00-&#36;2885.92&#36;2888.67-&#36;3334.50&#36;3313.95TXNTexas Instruments Inc.&#36;205.50-OPFOPF-&#36;236.00&#36;248.00-&#36;17892.0&#36;17487.3-&#36;20640.0&#36;21160.00600",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "1c5de46785523122",
+      "text": "Source: Company Data, Evercore ISI Research",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "307cf2984cd52c6a",
+      "text": "(Article 3(1)e and Article 7 of MAR)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "29a92ec9a03b84a9",
+      "text": "Time of dissemination: August 27 2025 9:08 PM ET",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "f025d997d9356297",
+      "text": "Evercore ISI's recommendations are based on a stock's total forecasted return over the next 12 months. Total forecasted return is equal to the expected percentage price return plus gross dividend yield. We divide our stocks under coverage into three primary ratings categories, with the following return guidelines:",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "4121a2c4941e50cd",
+      "text": "Outperform- the total forecasted return is expected to be greater than the expected total return of the analyst's coverage sector.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "0af6af9bf90e697f",
+      "text": "In Line- the total forecasted return is expected to be in line with the expected total return of the analyst's coverage sector.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "6daf4cba1a65782b",
+      "text": "Underperform- the total forecasted return is expected to be less than the expected total return of the analyst's coverage sector.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "e083846562907f1a",
+      "text": "Coverage Suspended- the rating and target price have been removed pursuant to Evercore ISI policy when Evercore is acting in an advisory capacity in a merger or strategic transaction involving this company and in certain other circumstances.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "ebe3fceaf095be25",
+      "text": "Rating Suspended- Evercore ISI has suspended the rating and target price for this stock because there is not sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, a rating or target price. The previous rating and target price, if any, are no longer in effect for this company and should not be relied upon.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "cc5b7442bf5f5636",
+      "text": "Prior to October 10, 2015, the \"Coverage Suspended\" and \"Rating Suspended\" categories were included in the category \"Suspended.\"",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "4baa1a2fece82033",
+      "text": "FINRA requires that members who use a ratings system with terms other than \"Buy,\" \"Hold/Neutral\" and \"Sell\" to equate their own ratings to these categories. For this purpose, and in the Evercore ISI ratings distribution below, our Outperform, In Line, and Underperform ratings can be equated to Buy, Hold and Sell, respectively.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "c7e257ce8b214e94",
+      "text": "Evercore ISI rating (as of 08/27/2025)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "ce3c2fb99ece4e33",
+      "text": "Coverage Universe RatingsInvestment Banking Services I Past 12 MonthsCountPct.RatingsCountPct.Buy44559Buy5212Hold27236Hold156Sell132Sell00Coverage Suspended182Coverage Suspended633Rating Suspended61Rating Suspended467",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "97addc675bbc0318",
+      "text": "This report is approved and/or distributed by Evercore Group L.L.C. (\"Evercore Group\"), a U.S. licensed broker-dealer regulated by the Financial Industry Regulatory Authority (\"FINRA\") and by International Strategy & Investment Group (UK) Limited (\"ISI UK\"), which is authorized and regulated in the United Kingdom by the Financial Conduct Authority. The institutional sales, trading and research businesses of Evercore Group and ISI UK collectively operate under the global marketing brand name Evercore ISI (\"Evercore ISI\"). Both Evercore Group and ISI UK are subsidiaries of Evercore Inc. (\"Evercore\"). The trademarks, logos and service marks shown on this report are registered trademarks of Evercore Inc.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "0e437e3b3329e309",
+      "text": "This report is provided for informational purposes only and subject to additional restrictions contained in this disclosure. It is not to be construed as an offer to buy or sell or a solicitation of an offer to buy or sell any financial instruments or to participate in any particular trading strategy in any jurisdiction. The information and opinions in this report were prepared by employees of affiliates of Evercore. The information herein is believed by Evercore ISI to be reliable and has been obtained from public sources believed to be reliable, but Evercore ISI makes no representation as to the accuracy or completeness of such information.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "cd4f0b15b584c047",
+      "text": "Opinions, estimates and projections in this report constitute the current judgment of the author as of the date of this report. They do not necessarily reflect the opinions of Evercore or its affiliates and are subject to change without notice. In addition, opinions, estimates and projections in this report may differ from or be contrary to those expressed by other business areas or groups of Evercore and its affiliates.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "f5dc6e6e46264bbf",
+      "text": "Evercore ISI has no obligation to update, modify or amend this report or to otherwise notify a reader thereof in the event that any matter stated herein, or any opinion, projection, forecast or estimate set forth herein, changes or subsequently becomes inaccurate. Facts and views in Evercore ISI research reports and notes have not been reviewed by, and may not reflect information known to, professionals in other Evercore affiliates or business areas, including investment banking personnel. Evercore ISI salespeople, traders and other professionals may provide oral or written market commentary or trading strategies to our clients that reflect opinions that are contrary to the opinions expressed in this research.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "22fd325cb9b09456",
+      "text": "Our asset management affiliates and investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "f291679f083c5f17",
+      "text": "Evercore ISI does not provide individually tailored investment advice in research reports. The financial instruments discussed in this report are not suitable for all investors and investors must make their own investment decisions using their own independent advisors as they believe necessary and based upon their specific financial situations and investment objectives. This report has been prepared without regard to the particular investment strategies or financial, tax or other personal circumstances of the recipient. Nothing in this report constitutes investment, legal, accounting or tax advice, or a representation that any investment or strategy is suitable or appropriate to the recipient's individual circumstances, or otherwise constitutes a personal recommendation to the recipient. None of Evercore Group or its affiliates will treat any recipient of this report as its customer by virtue of the recipient having received this report.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "060af4a06372bf42",
+      "text": "Securities and other financial instruments discussed in this report, or recommended or offered by Evercore ISI, are not insured by the Federal Deposit Insurance Corporation and are not deposits of or other obligations of any insured depository institution. If a financial instrument is denominated in a currency other than an investor's currency, a change in exchange rates may adversely affect the price or value of, or the income derived from the financial instrument, and such investor effectively assumes such currency risk. In addition, income from an investment may fluctuate and the price or value of financial instruments described in this report, either directly or indirectly, may rise or fall. Estimates of future performance are based on assumptions that may not be realized. Furthermore, past performance is not necessarily indicative of future performance.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "3794411cd0253d96",
+      "text": "Please note that this report was prepared for and distributed by Evercore ISI to its institutional investor and market professional customers.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "917d084f3cc174bd",
+      "text": "Recipients who are not institutional investor or market professional customers of Evercore ISI should seek the advice of their independent financial advisor before considering information in this report in connection with any investment decision, or for a necessary explanation of its contents.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "07453c2dc71bc650",
+      "text": "Electronic research is simultaneously distributed to all clients. This report is provided to Evercore ISI clients only and may not be, in whole or in part, or in any form or manner (i) copied, forwarded, distributed, shared, or made available to third parties, including as input to, or in connection with, any artificial intelligence or machine learning model; (ii) modified or otherwise used to create derivative works; or (iv) used to train or otherwise develop a generative artificial intelligence or machine learning model, without the express written consent of Evercore ISI. Receipt and review of this research report constitutes your agreement with the aforementioned limitations in use.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "abccb2fb9614b7d2",
+      "text": "This report is not intended for distribution to or use by any person or entity in any locality, state, country or other jurisdiction where such distribution, publication, availability or use would be contrary to law or regulation or which would subject Evercore Group or its affiliates to any registration or licensing requirement within such jurisdiction. If this report is being distributed by a financial institution other than Evercore ISI or its affiliates, that financial institution is solely responsible for such distribution and for compliance with the laws, rules and regulations of any jurisdiction where this report is distributed. Clients of that financial institution should contact that institution to effect any transaction in the securities mentioned in this report or if such clients require further information. This report does not constitute investment advice by Evercore ISI to the clients of the distributing financial institution, and neither Evercore ISI nor its affiliates, nor their respective officers, directors or employees, accept any liability whatsoever for any direct or consequential loss arising from their use of this report or its content.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "aadcaa43a275be3f",
+      "text": "Evercore is not authorized to act as a financial entity, securities intermediary, investment advisor or as any other regulated entity under Mexican law, and no actions, applications or filings have been undertaken in Mexico, whether before the National Banking and Securities Commission (Comisión Nacional Bancaria y de Valores \"CNBV\") or any other authority, in order for Evercore to carry out activities or render services that would otherwise require a license, registration or any other authorization for such purposes; neither is it regulated by the CNBV or any other Mexican authority. This document, nor its content, constitutes an offer, invitation or request to purchase or subscribe for securities or other instruments or to make or cancel investments, nor may it serve as the basis for any contract, commitment or decision of any kind.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "3ed64521c40912fa",
+      "text": "For persons in the UK: In making this report available, Evercore makes no recommendation to buy, sell or otherwise deal in any securities or investments whatsoever and you should neither rely or act upon, directly or indirectly, any of the information contained in this report in respect of any such investment activity. This report is being directed at or distributed to, (a) persons who fall within the definition of Investment Professionals (set out in Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (the \"Order\"); (b) persons falling within the definition of high net worth companies, unincorporated associations, etc. (set out in Article 49(2) of the Order); (c) other persons to whom it may otherwise lawfully be communicated (all such persons together being referred to as \"relevant persons\"). This report must not be acted on or relied on by persons who are not relevant persons.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "6b65a3297fd4e486",
+      "text": "For persons in Switzerland: The distribution of these materials to persons or entities in Switzerland is not intended to, and does not, constitute a financial service under the Swiss Financial Services Act (FinSA). In particular, the distribution of these materials does not constitute the provision of personal recommendations on transactions with financial instruments (investment advice) within the meaning of Article 3(c)(4) of FinSA.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "84d4b8abe75a20de",
+      "text": "For persons in Australia: Evercore does not have an Australian Financial Services License (\"AFSL\"). This report is only to be distributed to persons who fall within the definition of \"wholesale\" investors under section 761G of the Corporations Act 2001 (Cth). This report must not be acted on or relied on by persons who are not wholesale investors. Evercore relies on the relief provided under ASIC Corporations (Foreign Financial Services Providers—Limited Connection) Instrument 2017/182 to provide this report to wholesale investors in Australia without an AFSL.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "d7d2fa8d3f978c8e",
+      "text": "For persons in New Zealand: This material has been prepared by Evercore Group L.L.C. for distribution in New Zealand to financial advisors and wholesale clients only and has not been prepared for use by retail clients (as those terms are defined in the Financial Markets Conduct Act 2013 (\"FMCA\")). Evercore Group L.L.C. is not, and is not required to be, registered or licensed under the FMCA, and unless otherwise stated any financial products referred to in this material are generally only available in New Zealand for issue to those satisfying the wholesale investor criteria in the FMCA.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "2bd9c996e07f77f4",
+      "text": "Applicable current disclosures regarding the subject companies covered in this report are available at the offices of Evercore ISI: 55 East 52nd Street, New York, NY 10055, and at the following site: https://evercoreisi.mediastierling.com/disclosure.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "e1cc1bb9707e71d2",
+      "text": "In compliance with the European Securities and Markets Authority's Market Abuse Regulation, a list of all Evercore ISI recommendations disseminated in the preceding 12 months for the subject companies herein, may be found at the following site: https://evercoreisi.mediastierling.com/disclosure.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "e6725dbca5562a53",
+      "text": "© 2025. Evercore Group L.L.C. All rights reserved.",
+      "page": 13,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "be3b5b7493d6b4a6",
+      "name": "ACC Advantageous",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ef58c4c3d7b75238",
+      "name": "AI Data",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "52e48e9e113e2a60",
+      "name": "ARM CPUs",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6bfdb485e64d207a",
+      "name": "ASIC Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f3475cbfb6f8c7dd",
+      "name": "ASML Holding",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "42427e925b3f9a0b",
+      "name": "ASML Mgmt",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "426bd19b5db388b8",
+      "name": "Abate Over",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "90c5aac72005f28c",
+      "name": "Actionable Insight",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7ce0dd6b88f724e3",
+      "name": "Addressing AI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c11dc453545d222e",
+      "name": "Advanced Micro",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b97be582ca275d56",
+      "name": "Advanced Packaging",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bfa8dbc6b4092085",
+      "name": "Amy McAndrews",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "becb88fbdfab58d5",
+      "name": "Andy Cobb",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "53871eafa13c6d9d",
+      "name": "Applied Global",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "75174b90c21a43a2",
+      "name": "Applied Materials",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d30be8e83f1067c9",
+      "name": "As Low",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b43fb9bc0cce48f4",
+      "name": "As TXN",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c948b097867d16e8",
+      "name": "Australian Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dbada4e41ea4afd8",
+      "name": "Bookings Lumpy",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fe0fe46365786da9",
+      "name": "Both Evercore",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": null,
+            "labels": []
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": null,
+              "max": null
+            }
+          }
+        },
+        "series": [],
+        "figure_id": "d7d0a6dace5f4a24",
+        "provenance": {
+          "page": 1
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "000520e08383f20c",
+        "value": 20.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ckets During Height of Supply Shortages. TXN noted that it peaked out in capacity at around \\(\\sim \\$ 20bn\\) run- rate back in 2022 and as a result prioritized longer design lifetime end- markets such",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "105d60c910076b47",
+        "value": 1000.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "(\\) 11bn\\$ revs potential to improve the margin profile and can lower price per wafer from \\(\\sim \\$ 1,000\\) when externally fabbed to few \\(\\) 100\\$ internally. China Auto Continues to Grow YY. Mgmt ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b14ddb823b9dff00",
+        "value": 0.59,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s earlier than plan. Reiterate expectations for 25-to-50bps margin expansion and exiting next FY at 59%. Remains to be seen if WOLF RF gets all the way to corporate average GM profile (considering bas",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c75cc0225fa42b6e",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "but it continued to see customer demand for x86 ecosystem- Client CPUs: AMD estimates its share at 20% in enterprise notebooks and expects to gain more share with Dell ramp in 4Q25. Addressing AI PC o",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "cf1ae4b7b937d030",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Cycle over the next 2- 3 years will be led by 1) growing penetration of Dimensional metrology (40- 50% of revenues), driven by PRISM technology; 2) Adoption of Material metrology (30- 40%) with tools ",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "num_id": "a2e3552814674a09",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "metrology (40- 50% of revenues), driven by PRISM technology; 2) Adoption of Material metrology (30- 40%) with tools like VERAFLEX, METRION, and ELIPSON, and 3) Adoption chemical metrology ( \\(\\sim 10\\",
+        "provenance": {
+          "page": 8
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 1,
+      "tables_count": 0,
+      "numerical_data_count": 6,
+      "passages_count": 87,
+      "entities_count": 20
+    }
+  }
+}

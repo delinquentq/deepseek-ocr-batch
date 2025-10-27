@@ -1,0 +1,996 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "3a00f93c99d774609802fbadc5b30d82",
+    "title": "1.1.1.1.1.1.1.1.1.1.1<｜end▁of▁sentence｜>",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/DB/Full House Resorts Inc July GGR TrackerFull House Resorts Inc July GGR Tracker_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:43:41.766638",
+      "extracted_at": "2025-10-26T11:43:41.766654"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 9,
+        "successful_pages": 9,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/DB",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 4,
+          "removed_paragraphs": 3,
+          "reduction_ratio": 0.09132113115891738
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/DB"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "14864ea4424b0b21",
+      "text": "Looking at these markets, we note that p58rrakg5kk€ reported higher GGR of \\(\\) 17.6\\(million (+2.6\\% versus\\) \\ \\(17.1\\) million in Jul'24). Moving to y8 8 8rr8 , we note that the Coastal Region (includes Hancock County) reported GGR of \\(\\) 139.6\\$ million (+2.3% versus \\(\\) 136.4\\$ million in Jul'24).",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "0d6d11d949c4c51f",
+      "text": "Figure 3: Reported GGR",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "624fd748f841ae7a",
+      "text": "Jan-25Feb-25Mar-25Q1&#x27;25Apr-25May-25Jun-25Q2&#x27;25Jul-25Aug-25Sep-25Q3&#x27;25Oct-25Nov-25Dec-25Q4&#x27;25Rising Star (IN):Table Revenue$0.5$0.0$0.6$1.1$0.5$0.3$0.4$1.2$0.5% changeNM-91.6%33.7%5.4%52.6%-9.5%73.8%36.7%NMStor Revenue2.82.63.48.82.93.53.09.53.5% change5.1%-13.9%-8.1%-8.2%-9.8%-4.9%-6.8%-3.8%9.3%Rising Star GGR$3.2$2.6$4.0$9.9$3.5$3.8$3.4$10.7$4.0% change14.1%-27.2%-3.6%-6.9%3.7%3.7%-2.0%-0.6%21.9%American Place (IL):Admissions69.764.675.8210.168.674.968.9212.473.7% change35.1%-0.2%7.0%12.3%3.8%8.1%0.6%4.2%6.6%Stor Revenue$7.3$6.9$8.8$23.1$8.3$8.8$8.1$25.2$8.5% change29.2%-4.6%16.9%12.7%8.9%23.2%12.6%14.8%14.0%Table Revenue2.12.22.16.31.61.51.84.92.3% change52.5%12.4%-5.1%15.5%-11.2%-23.2%13.2%-8.5%64.9%American Place GGR$9.4$9.1$10.9$29.4$9.9$10.3$9.9$30.2$10.6Revenue per admission$135.2$141.3$143.8$140.2$145.0$137.6$143.8$141.9$146.8% change-1.1%-0.8%4.7%0.9%1.1%4.6%12.0%5.7%14.4%",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d14e9756479e3517",
+      "text": "Rising SRSara SArmeCPSlimmeCCeicCSrcpsSk saCgM SFRcu",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9bafd5f919e1fef2",
+      "text": "Jan-24Feb-24Mar-24Q1&#x27;24Apr-24May-24Jun-24Q2&#x27;24Jul-24Aug-24Sep-24Q3&#x27;24Oct-24Nov-24Dec-24Q4&#x27;24Rising Star (IN):Table Revenue$0.2$0.4$0.4$1.0$0.3$0.3$0.2$0.8$0.1$0.3$0.2$0.6$0.3$0.4$0.2$0.9% change-12.1%69.8%164.9%65.7%17.2%-14.5%-59.2%-26.2%-73.7%-31.8%18.5%-44.0%-5.7%68.0%-68.7%-22.1%Stor Revenue2.63.23.79.63.23.43.39.93.23.42.89.43.13.53.410.1% change-13.4%-10.1%5.2%-5.8%-2.6%3.5%-6.0%-1.8%-10.9%10.1%-18.6%-7.0%5.9%10.2%-12.8%-0.2%Rising Star GGR$2.8$3.6$4.2$10.6$3.6$3.7$3.9$10.7$3.3$3.6$2.9$10.0$3.4$3.9$3.6$10.9% change-13.3%-5.2%12.5%-1.6%-1.0%1.8%-12.8%-4.3%-18.5%4.4%-17.1%-10.7%4.2%14.2%-19.9%-2.4%American Place (IL):Admissions51.664.770.8187.166.169.368.5203.969.172.267.3208.667.069.371.5207.8% change55.7$7.3$7.6$20.5$7.6$7.1$7.718.6%6.3%15.9%7.9%10.0%17.0%21.3%7.2%14.7%Stor Revenue1.41.92.25.537.657.137.2$22.0$7.5$7.7$7.2$22.5$6.6$7.3$7.6$21.5% change1.41.92.25.539.234.6%39.0%37.6%24.6%25.8%14.7%21.6%13.6%15.2%17.7%American Place GGR$7.0$9.2$9.7$26.01.92.01.65.41.41.52.15.01.72.02.05.7% change33.8%40.5%-25.0%-7.3%45.2%1.4%9.5%64.3%29.6%32.2%Revenue per admission$136.6$142.5$137.3$138.9$143.4$131.5$128.2$27.4$8.9$9.2$9.4$27.5$8.3$9.3$9.6$27.2% change29.4%38.2%12.9%18.6%20.3%17.3%13.5%30.4%17.9%20.5%American Place (IL):$138.2$128.3$128.0$139.8$131.9$123.1$134.5$134.4$130.8Admissions0.040.168.5108.556.356.958.7$134.2% change0.040.168.5108.556.356.958.7$134.2Stor Revenue0.00.27.296.255.555.355.2$116.0% change0.00.41.01.41.41.11.43.81.81.71.44.91.51.21.54.3American Place GGR$0.0$3.0$7.3$10.3$8.6$8.4$6.6$19.8$7.8$7.8$7.8$23.4$7.3$7.1$8.2$22.6Revenue per admission$75.3$106.2$94.8$121.4$111.9$112.5$115.2$112.0$124.9$125.4$123.6$126.9$125.1$122.2$124.6% change",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "2e398ad096361cfb",
+      "text": "Disclosure checklistInstitutionDisclosure-laagvfl kg2k f5t gmAiFLL 8.250% Secured due 20282",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "eef55c8f0ae60b94",
+      "text": "Derivative transactions involve numerous risks including market, counterparty default and illiquidity risk. The appropriateness of these products for use by investors depends on the investors' own circumstances, including their tax position, their regulatory environment and the nature of their other assets and liabilities; as such, investors should take expert legal and financial advice before entering into any transaction similar to or inspired by the contents of this publication. The risk of loss in futures trading and options, foreign or domestic, can be substantial. As a result of the high degree of leverage obtainable in futures and options trading, losses may be incurred that are greater than the amount of funds initially deposited - up to theoretically unlimited losses. Trading in options involves risk and is not suitable for all investors. Prior to buying or selling an option, investors must review the 'Characteristics and Risks of Standardized Options\", at https://www.theocc.com/company- information/documents- and- archives/publications. If you are unable to access the website, please contact your Deutsche Bank representative for a copy of this important document.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "66abe1fccbb3beb7",
+      "text": "Participants in foreign exchange transactions may incur risks arising from several factors, including the following: (i) exchange rates can be volatile and are subject to large fluctuations; (ii) the value of currencies may be affected by numerous market factors, including world and national economic, political and regulatory events, events in equity and debt markets and changes in interest rates; and (iii) currencies may be subject to devaluation or government- imposed exchange controls, which could affect the value of the currency. Investors in securities such as ADRs, whose values are affected by the currency of an underlying security, effectively assume currency risk.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "afa7e735a883218d",
+      "text": "Unless governing law provides otherwise, all transactions should be executed through the Deutsche Bank entity in the investor's home jurisdiction. Aside from within this report, important conflict disclosures can also be found at https://research.db.com/Research/ on each company's research page. Investors are strongly encouraged to review this information before investing.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "430a7966e0f5a526",
+      "text": "Deutsche Bank (which includes Deutsche Bank AG, its branches and affiliated companies) is not acting as a financial adviser, consultant or fiduciary to you or any of your agents (collectively, \"You\" or \"Your\") with respect to any information provided in this report. Deutsche Bank does not provide investment, legal, tax or accounting advice, Deutsche Bank is not acting as your impartial adviser, and does not express any opinion or recommendation whatsoever as to any strategies, products or any other information presented in the materials. Information contained herein is being provided solely on the basis that the recipient will make an independent assessment of the merits of any investment decision, and it does not constitute a recommendation of, or express an opinion on, any product or service or any trading strategy.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "95935cdd31f59b73",
+      "text": "The information presented is general in nature and is not directed to retirement accounts or any specific person or account type, and is therefore provided to You on the express basis that it is not advice, and You may not rely upon it in making Your decision. The information we provide is being directed only to persons we believe to be financially sophisticated, who are capable of evaluating investment risks independently, both in general and with regard to particular transactions and investment strategies, and who understand that Deutsche Bank has financial interests in the offering of its products and services. If this is not the case, or if You are an IRA or other retail investor receiving this directly from us, we ask that you inform us immediately.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d700f2af68e64688",
+      "text": "In July 2018, Deutsche Bank revised its rating system for short term ideas whereby the branding has been changed to Catalyst Calls (\"CC\") from SOLAR ideas; the rating categories for Catalyst Calls originated in the Americas region have been made consistent with the categories used by Analysts globally; and the effective time period for CCs has been reduced from a maximum of 180 days to 90 days.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d79f3c9cad7ab6ee",
+      "text": "cA8tk, gst0tk : Approved and/or distributed by Deutsche Bank Securities Incorporated, a member of FINRA and SIPC. Analysts located outside of the United States are employed by non- US affiliates and are not registered/qualified as research analysts with FINRA.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "c7ab0f433f1443f8",
+      "text": "wISfrk0Ag wiAf0sig Lk0g hkGirk gA8tk, g8Au, f0s Approved and/or distributed by Deutsche Bank AG, a joint stock corporation with limited liability incorporated in the Federal Republic of Germany with its principal office in Frankfurt am Main. Deutsche Bank AG is authorized under German Banking Law and is subject to supervision by the European Central Bank and by BaFin, Germany's Federal Financial Supervisory Authority.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "fc2269093f3aa111",
+      "text": "cA8tk, gd8Au, f0 : Approved and/or distributed by Deutsche Bank AG acting through its London Branch at 21 Moorfields, London EC2Y 9DB. Deutsche Bank AG in the United Kingdom is authorised by the Prudential Regulation Authority and is subject to limited regulation by the Prudential Regulation Authority and Financial Conduct Authority. Details about the extent of our authorisation and regulation are available on request.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1ffa1384cbeb9d4e",
+      "text": "vfAugdfAugsL2 : Distributed by Deutsche Bank AG, Hong Kong Branch except for any research content relating to futures contracts within the meaning of the Hong Kong Securities and Futures Ordinance Cap. 571. Research reports on such futures contracts are not intended for access by persons who are located, incorporated, constituted or resident in Hong Kong. The author(s) of a research report may not be licensed to carry on regulated activities in Hong Kong and, if not licensed, do not hold themselves out as being able to do so. The provisions set out above in the 'Additional Information' section shall apply to the fullest extent permissible by local laws and regulations, including without limitation the Code of Conduct for Persons Licensed or Registered with the Securities and Futures Commission. This report is intended for distribution only to 'professional investors' as defined in Part 1 of Schedule of the SFO. This document must not be acted or relied on by persons who are not professional investors. Any investment or investment activity to which this document relates is only available to professional investors and will be engaged only with professional investors.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1102478ddf7255ee",
+      "text": "mA, 8OPrepared by Deutsche Equities India Private Limited (DEIPL) having CIN: U65990MH2002PTC137431 and registered",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "30450fb321465f97",
+      "text": "The information and opinions in this report were prepared by Deutsche Bank AG or one of its affiliates (collectively 'Deutsche Bank'). Though the information herein is believed to be reliable and has been obtained from public sources believed to be reliable, Deutsche Bank makes no representation as to its accuracy or completeness. Hyperlinks to third- party websites in this report are provided for reader convenience only. Deutsche Bank neither endorses the content nor is responsible for the accuracy or security controls of those websites.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "22fde6bb5d20aa11",
+      "text": "If you use the services of Deutsche Bank in connection with a purchase or sale of a security that is discussed in this report, or is included or discussed in another communication (oral or written) from a Deutsche Bank analyst, Deutsche Bank may act as principal for its own account or as agent for another person.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "c81bedbd66615f5d",
+      "text": "Deutsche Bank may consider this report in deciding to trade as principal. It may also engage in transactions, for its own account or with customers, in a manner inconsistent with the views taken in this research report. Others within Deutsche Bank, including strategists, sales staff and other analysts, may take views that are inconsistent with those taken in this research report. Deutsche Bank issues a variety of research products, including fundamental analysis, equity- linked analysis, quantitative analysis and trade ideas. Recommendations contained in one type of communication may differ from recommendations contained in others, whether as a result of differing time horizons, methodologies, perspectives or otherwise. Deutsche Bank and/or its affiliates may also be holding debt or equity securities of the issuers it writes on. Analysts are paid in part based on the profitability of Deutsche Bank AG and its affiliates, which includes investment banking, trading and principal trading revenues.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7e70ee4749e2916e",
+      "text": "Opinions, estimates and projections constitute the current judgment of the author as of the date of this report. They do not necessarily reflect the opinions of Deutsche Bank and are subject to change without notice. Deutsche Bank provides liquidity for buyers and sellers of securities issued by the companies it covers. Deutsche Bank research analysts sometimes have shorter- term trade ideas that may be inconsistent with Deutsche Bank's existing longer- term ratings. Some trade ideas for equities are listed as Catalyst Calls on the Research Website (https://research.db.com/Research/), and can be found on the general coverage list and also on the covered company's page. A Catalyst Call represents a high- conviction belief by an analyst that a stock will outperform or underperform the market and/or a specified sector over a time frame of no less than two weeks and no more than three months. In addition to Catalyst Calls, analysts may occasionally discuss with our clients, and with Deutsche Bank salespersons and traders, trading strategies or ideas that reference catalysts or events that may have a near- term or medium- term impact on the market price of the securities discussed in this report, which impact may be directionally counter to the analysts' current 12- month view of total return or investment return as described herein. Deutsche Bank has no obligation to update, modify or amend this report or to otherwise notify a recipient thereof if an opinion, forecast or estimate changes or becomes inaccurate. Coverage and the frequency of changes in market conditions and in both general and company- specific economic prospects make it difficult to update research at defined intervals. Updates are at the sole discretion of the coverage analyst or of the Research Department Management, and the majority of reports are published at irregular intervals. This report is provided for informational purposes only and does not take into account the particular investment objectives, financial situations, or needs of individual clients. It is not an offer or a solicitation of an offer to buy or sell any financial instruments or to participate in any particular trading strategy. Target prices are inherently imprecise and a product of the analyst's judgment. The financial instruments discussed in this report may not be suitable for all investors, and investors must make their own informed investment decisions. Prices and availability of financial instruments are subject to change without notice, and investment transactions can lead to losses as a result of price fluctuations and other factors. If a financial instrument is denominated in a currency other than an investor's currency, a change in exchange rates may adversely affect the investment. Past performance is not necessarily indicative of future results. Performance calculations exclude transaction costs, unless otherwise indicated. Unless otherwise indicated, prices are current as of the end of the previous trading session and are sourced from local exchanges via Reuters, Bloomberg and other vendors. Data is also sourced from Deutsche Bank, subject companies, and other parties. Artificial intelligence tools may be used in the preparation of this material, including but not limited to assist in fact- finding, data analysis, pattern recognition, content drafting and editorial corrections pertaining to research material.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1682e0ff55001ca0",
+      "text": "The Deutsche Bank Research Department is independent of other business divisions of the Bank. Details regarding our organizational arrangements and information barriers we have to prevent and avoid conflicts of interest with respect to our research are available on our website (https://research.db.com/Research/) under Disclaimer.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "a75debdd761afa26",
+      "text": "Macroeconomic fluctuations often account for most of the risks associated with exposures to instruments that promise to pay fixed or variable interest rates. For an investor who is long fixed- rate instruments (thus receiving these cash flows), increases in interest rates naturally lift the discount factors applied to the expected cash flows and thus cause a loss. The longer the maturity of a certain cash flow and the higher the move in the discount factor, the higher will be the loss. Upside surprises in inflation, fiscal funding needs, and FX depreciation rates are among the most common adverse macroeconomic shocks to receivers. But counterparty exposure, issuer creditworthiness, client segmentation, regulation (including changes in assets holding limits for different types of investors), changes in tax policies, currency convertibility (which may constrain currency conversion, repatriation of profits and/or liquidation of positions), and settlement issues related to local clearing houses are also important risk factors. The sensitivity of fixed- income instruments to macroeconomic shocks may be mitigated by indexing the contracted cash flows to inflation, to FX depreciation, or to specified interest rates - these are common in emerging markets. The index fixings may - by construction - lag or mis- measure the actual move in the underlying variables they are intended to track. The choice of the proper fixing (or metric) is particularly important in swaps markets, where floating coupon rates (i.e., coupons indexed to a typically short- dated interest rate reference index) are exchanged for fixed coupons. Funding in a currency that differs from the currency in which coupons are denominated carries FX risk. Options on swaps (swaptions) the risks typical to options in addition to the risks related to rates movements.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "de8ca3a44d76748d",
+      "text": "Derivative transactions involve numerous risks including market, counterparty default and illiquidity risk. The appropriateness of these products for use by investors depends on the investors' own circumstances, including their tax position, their regulatory environment and the nature of their other assets and liabilities; as such, investors should take expert legal and financial advice before entering into any transaction similar to or inspired by the contents of this publication. The risk of loss in futures trading and options, foreign or domestic, can be substantial. As a result of the high degree of leverage obtainable in futures and options trading, losses may be incurred that are greater than the amount of funds initially deposited - up to theoretically unlimited losses. Trading in options involves risk and is not suitable for all investors. Prior to buying or selling an option, investors must review the 'Characteristics and Risks of Standardized Options\", at https://www.theocc.com/company- information/documents- and- archives/publications. If you are unable to access the website, please contact your Deutsche Bank representative for a copy of this important document.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "ebaea6dae292b6f9",
+      "text": "Participants in foreign exchange transactions may incur risks arising from several factors, including the following: (i) exchange rates can be volatile and are subject to large fluctuations; (ii) the value of currencies may be affected by numerous market factors, including world and national economic, political and regulatory events, events in equity and debt markets and changes in interest rates; and (iii) currencies may be subject to devaluation or government- imposed exchange controls, which could affect the value of the currency. Investors in securities such as ADRs, whose values are affected by the currency of an underlying security, effectively assume currency risk.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "eee2d7debbb88c90",
+      "text": "Unless governing law provides otherwise, all transactions should be executed through the Deutsche Bank entity in the investor's home jurisdiction. Aside from within this report, important conflict disclosures can also be found at https://research.db.com/Research/ on each company's research page. Investors are strongly encouraged to review this information before investing.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "60d0856cd31ef86a",
+      "text": "Deutsche Bank (which includes Deutsche Bank AG, its branches and affiliated companies) is not acting as a financial adviser, consultant or fiduciary to you or any of your agents (collectively, \"You\" or \"Your\") with respect to any information provided in this report. Deutsche Bank does not provide investment, legal, tax or accounting advice, Deutsche Bank is not acting as your impartial adviser, and does not express any opinion or recommendation whatsoever as to any strategies, products or any other information presented in the materials. Information contained herein is being provided solely on the basis that the recipient will make an independent assessment of the merits of any investment decision, and it does not constitute a recommendation of, or express an opinion on, any product or service or any trading strategy.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8d3a06a520e19aa8",
+      "text": "The information presented is general in nature and is not directed to retirement accounts or any specific person or account type, and is therefore provided to You on the express basis that it is not advice, and You may not rely upon it in making Your decision. The information we provide is being directed only to persons we believe to be financially sophisticated, who are capable of evaluating investment risks independently, both in general and with regard to particular transactions and investment strategies, and who understand that Deutsche Bank has financial interests in the offering of its products and services. If this is not the case, or if You are an IRA or other retail investor receiving this directly from us, we ask that you inform us immediately.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a66c84d70474fbac",
+      "text": "In July 2018, Deutsche Bank revised its rating system for short term ideas whereby the branding has been changed to Catalyst Calls (\"CC\") from SOLAR ideas; the rating categories for Catalyst Calls originated in the Americas region have been made consistent with the categories used by Analysts globally; and the effective time period for CCs has been reduced from a maximum of 180 days to 90 days.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "427ff7f4cb5ef1f5",
+      "text": "cA8tk, gst0tk : Approved and/or distributed by Deutsche Bank Securities Incorporated, a member of FINRA and SIPC. Analysts located outside of the United States are employed by non- US affiliates and are not registered/qualified as research analysts with FINRA.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "12866d0726645e90",
+      "text": "wISfrk0Ag wiAf0sig Lk0g hkGirk gA8tk, g8Au, f0s Approved and/or distributed by Deutsche Bank AG, a joint stock corporation with limited liability incorporated in the Federal Republic of Germany with its principal office in Frankfurt am Main. Deutsche Bank AG is authorized under German Banking Law and is subject to supervision by the European Central Bank and by BaFin, Germany's Federal Financial Supervisory Authority.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8e4cc57aee4f668b",
+      "text": "cA8tk, gd8Au, f0 : Approved and/or distributed by Deutsche Bank AG acting through its London Branch at 21 Moorfields, London EC2Y 9DB. Deutsche Bank AG in the United Kingdom is authorised by the Prudential Regulation Authority and is subject to limited regulation by the Prudential Regulation Authority and Financial Conduct Authority. Details about the extent of our authorisation and regulation are available on request.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "e91d174649c5558b",
+      "text": "vfAugdfAugsL2 : Distributed by Deutsche Bank AG, Hong Kong Branch except for any research content relating to futures contracts within the meaning of the Hong Kong Securities and Futures Ordinance Cap. 571. Research reports on such futures contracts are not intended for access by persons who are located, incorporated, constituted or resident in Hong Kong. The author(s) of a research report may not be licensed to carry on regulated activities in Hong Kong and, if not licensed, do not hold themselves out as being able to do so. The provisions set out above in the 'Additional Information' section shall apply to the fullest extent permissible by local laws and regulations, including without limitation the Code of Conduct for Persons Licensed or Registered with the Securities and Futures Commission. This report is intended for distribution only to 'professional investors' as defined in Part 1 of Schedule of the SFO. This document must not be acted or relied on by persons who are not professional investors. Any investment or investment activity to which this document relates is only available to professional investors and will be engaged only with professional investors.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "95b13993ae1977ad",
+      "text": "mA, 8OPrepared by Deutsche Equities India Private Limited (DEIPL) having CIN: U65990MH2002PTC137431 and registered",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "b9ffd9b41fea0533",
+      "text": "40r0A: Approved and/or distributed by Deutsche Securities Inc.(DSI). Registration number - Registered as a financial instruments dealer by the Head of the Kanto Local Finance Bureau (Kinsho) No. 117. Member of associations: JsDA, Type II Financial Instruments Firms Association and The Financial Futures Association of Japan. Commissions and risks involved in stock transactions - for stock transactions, we charge stock commissions and consumption tax by multiplying the transaction amount by the commission rate agreed with each customer. Stock transactions can lead to losses as a result of share price fluctuations and other factors. Transactions in foreign stocks can lead to additional losses stemming from foreign exchange fluctuations. We may also charge commissions and fees for certain categories of investment advice, products and services. Recommended investment strategies, products and services carry the risk of losses to principal and other losses as a result of changes in market and/or economic trends, and/or fluctuations in market value. Before deciding on the purchase of financial products and/or services, customers should carefully read the relevant disclosures, prospectuses and other documentation. 'Moody's', 'Standard Poor's', and 'Fitch' mentioned in this report are not registered credit rating agencies in Japan unless Japan or 'Nippon' is specifically designated in the name of the entity. Reports on Japanese listed companies not written by analysts of DSI are written by Deutsche Bank Group's analysts with the coverage companies specified by DSI. Some of the foreign securities stated on this report are not disclosed according to the Financial Instruments and Exchange Law of Japan. Target prices set by Deutsche Bank's equity analysts are based on a 12- month forecast period.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "6f17fc433b4e3226",
+      "text": "df5k0: Distributed by Deutsche Securities Korea Co.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "a242d4ae4ff2925e",
+      "text": "sflt.gl(58i0 : Deutsche Bank AG Johannesburg is incorporated in the Federal Republic of Germany (Branch Register Number in South Africa: 1998/003298/10).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9f2dc92f32700c76",
+      "text": "s8Au0rf5k+this report is issued by Deutsche Bank AG, Singapore Branch (One Raffles Quay #18- 00 South Tower Singapore 048583, 65 6423 8001), which may be contacted in respect of any matters arising from, or in connection with, this report. Where this report is issued or promulgated by Deutsche Bank in Singapore to a person who is not an accredited investor, expert investor or institutional investor (as defined in the applicable Singapore laws and regulations), they accept legal responsibility to such person for its contents.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "25bc18316dfc2782",
+      "text": "10890A Information on securities/investments that trade in Taiwan is for your reference only. Readers should independently evaluate investment risks and are solely responsible for their investment decisions. Deutsche Bank research may not be distributed to the Taiwan public media or quoted or used by the Taiwan public media without written consent. Information on securities/instruments that do not trade in Taiwan is for informational purposes only and is not to be construed as a recommendation to trade in such securities/instruments.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "2f27a0ecb26c0c9f",
+      "text": "%0t05 Deutsche Bank AG in the Qatar Financial Centre (registered no. 00032) is regulated by the Qatar Financial Centre Regulatory Authority. Deutsche Bank AG - QFC Branch may undertake only the financial services activities that fall within the scope of its existing QFCRA license. Its principal place of business in the QFC: Qatar Financial Centre, Tower, West Bay, Level 5, PO Box 14928, Doha, Qatar. This information has been distributed by Deutsche Bank AG. Related financial products or services are only available only to Business Customers, as defined by the Qatar Financial Centre Regulatory Authority.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "5635f086cc888efb",
+      "text": "21 80 : The information, interpretation and opinions submitted herein are not in the context of, and do not constitute, any appraisal or evaluation activity requiring a license in the Russian Federation.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "062c6e8904842543",
+      "text": "d8Au, fogf(gs01, 8gL50380: Deutsche Securities Saudi Arabia (DSSA) is a closed joint stock company authorized by the Capital Market Authority of the Kingdom of Saudi Arabia with a license number (No. 37- 07073) to conduct the following business activities: Dealing, Arranging, Advising, and Custody activities. DSSA registered office is Faisaliah Tower, 17th Floor, King Fahad Road - Al Olaya District Riyadh, Kingdom of Saudi Arabia P.O. Box 301806.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "67fb1946bacc5287",
+      "text": "cA8tk, gL503gwo850tk Deutsche Bank AG in the Dubai International Financial Centre (registered no. 00045) is regulated by the Dubai Financial Services Authority. Deutsche Bank AG - DIFC Branch may only undertake the financial services activities that fall within the scope of its existing DFSA license. Principal place of business in the DIFC: Dubai International Financial Centre, The Gate Village, Building 5, PO Box 504902, Dubai, U.A.E. This information has been distributed by Deutsche Bank AG. Related financial products or services are available only to Professional Clients, as defined by the Dubai Financial Services Authority.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "3895a498873b1e97",
+      "text": "LI t50a80g0A, gJk9g'k0a0A: This research is intended only for 'wholesale clients' within the meaning of the Australian Corporations Act and New Zealand Financial Advisors Act, respectively. Please refer to Australia- specific research disclosures and related information at https://www.dbresearch.com/PROD/RPS_EN- PROD/PROD0000000000521304.xhtml Where research refers to any particular financial product recipients of the research should consider any product disclosure statement,",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "185958611730efba",
+      "text": "prospectus or other applicable disclosure document before making any decision about whether to acquire the product. In preparing this report, the primary analyst or an individual who assisted in the preparation of this report has likely been in contact with the company that is the subject of this research for confirmation/clarification of data, facts, statements, permission to use company- sourced material in the report, and/or site- visit attendance. Without prior approval from Research Management, analysts may not accept from current or potential Banking clients the costs of travel, accommodations, or other expenses incurred by analysts attending site visits, conferences, social events, and the like. Similarly, without prior approval from Research Management and Anti- Bribery and Corruption (\"ABC\") team, analysts may not accept perks or other items of value for their personal use from issuers they cover.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "1f537c3c9df0077e",
+      "text": "Additional information relative to securities, other financial products or issuers discussed in this report is available upon request. This report may not be reproduced, distributed or published without Deutsche Bank's prior written consent.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "fccaaa9d5aa2d6f1",
+      "text": "Backtested, hypothetical or simulated performance results have inherent limitations. Unlike an actual performance record based on trading actual client portfolios, simulated results are achieved by means of the retroactive application of a backtested model itself designed with the benefit of hindsight. Taking into account historical events the backtesting of performance also differs from actual account performance because an actual investment strategy may be adjusted any time, for any reason, including a response to material, economic or market factors. The backtested performance includes hypothetical results that do not reflect the reinvestment of dividends and other earnings or the deduction of advisory fees, brokerage or other commissions, and any other expenses that a client would have paid or actually paid. No representation is made that any trading strategy or account will or is likely to achieve profits or losses similar to those shown. Alternative modeling techniques or assumptions might produce significantly different results and prove to be more appropriate. Past hypothetical backtest results are neither an indicator nor guarantee of future returns. Actual results will vary, perhaps materially, from the analysis.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "72dcfa4527e68988",
+      "text": "The method for computing individual E,S,G and composite ESG scores set forth herein is a novel method developed by the Research department within Deutsche Bank AG, computed using a systematic approach without human intervention. Different data providers, market sectors and geographies approach ESG analysis and incorporate the findings in a variety of ways. As such, the ESG scores referred to herein may differ from equivalent ratings developed and implemented by other ESG data providers in the market and may also differ from equivalent ratings developed and implemented by other divisions within the Deutsche Bank Group. Such ESG scores also differ from other ratings and rankings that have historically been applied in research reports published by Deutsche Bank AG. Further, such ESG scores do not represent a formal or official view of Deutsche Bank AG.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7ef8abe927e3ba5d",
+      "text": "It should be noted that the decision to incorporate ESG factors into any investment strategy may inhibit the ability to participate in certain investment opportunities that otherwise would be consistent with your investment objective and other principal investment strategies. The returns on a portfolio consisting primarily of sustainable investments may be lower or higher than portfolios where ESG factors, exclusions, or other sustainability issues are not considered, and the investment opportunities available to such portfolios may differ. Companies may not necessarily meet high performance standards on all aspects of ESG or sustainable investing issues; there is also no guarantee that any company will meet expectations in connection with corporate responsibility, sustainability, and/or impact performance.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "33c19c68ee3b2fb8",
+      "text": "Copyright © 2025 Deutsche Bank AG",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "3057bc420be547de",
+      "text": "David Folkerts-LandauGroup Chief Economist and Global Head of ResearchPam FinelliGlobal Chief Operating Officer ResearchSteve PollardGlobal Head of Company Research and SalesJim ReidGlobal Head of Macro and Thematic ResearchTim RokossaHead of Germany ResearchGerry GallagherHead of European Company ResearchMatthew BarnardHead of Americas Company ResearchPeter MillikenHead of APAC Company ResearchDebbie JonesGlobal Head of Sustainability and Data Innovation, ResearchSameer GoelGlobal Head of EM &amp;amp; APAC ResearchFrancis YaredGlobal Head of Rates ResearchGeorge SaravelosGlobal Head of FX ResearchPeter HooperVice-Chair of Research",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c1e61d93cc308814",
+      "text": "International Production Locations",
+      "page": 8,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "b2781a52d39eab9c",
+      "name": "AG Johannesburg",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "94b53d927a78638e",
+      "name": "APAC Company",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dedd998545ea0057",
+      "name": "APAC Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "092bf78f9c97ba17",
+      "name": "Additional Information",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "33a00902411204ce",
+      "name": "Al Olaya",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6411e3d8e110dd5e",
+      "name": "American Place",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4ff813fb52554f7b",
+      "name": "Americas Company",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facedae141187a9f",
+      "name": "Australian Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c0d7172b7620ff9e",
+      "name": "Bank Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8328a94275b5caaf",
+      "name": "Branch Register",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6e0ffcf69212414d",
+      "name": "Business Customers",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c431581487440696",
+      "name": "Capital Market",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4fbff104c1af6aad",
+      "name": "Catalyst Call",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21cae29ea3e446e5",
+      "name": "Catalyst Calls",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "710c9c185e1d0e82",
+      "name": "Coastal Region",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f1e17dd0bf7bdb4a",
+      "name": "Company Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dd23d5c75d42815c",
+      "name": "DIFC Branch",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bd1b2dfe10560350",
+      "name": "Data Innovation",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "258433ea92b0cd7f",
+      "name": "David Folkerts",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "0213c1721509dd53",
+        "value": 0.023,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8 , we note that the Coastal Region (includes Hancock County) reported GGR of \\(\\) 139.6\\$ million (+2.3% versus \\(\\) 136.4\\$ million in Jul'24). Figure 3: Reported GGR <table><tr><td></td><td>Jan-25<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9dca4a2da703ba87",
+        "value": -0.9159999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>NM</td><td>-91.6%</td><td>33.7%</td><td>5.4%</td><td>52.6%</td><td>-9.5%</td><td>73.8%</td><td>36.7%</td><td>NM",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a9ffd5c1432e28d6",
+        "value": 0.337,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>NM</td><td>-91.6%</td><td>33.7%</td><td>5.4%</td><td>52.6%</td><td>-9.5%</td><td>73.8%</td><td>36.7%</td><td>NM</td><td></td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6c4fb43f9b985a89",
+        "value": 0.054000000000000006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td><td></td><td></td></tr><tr><td>% change</td><td>NM</td><td>-91.6%</td><td>33.7%</td><td>5.4%</td><td>52.6%</td><td>-9.5%</td><td>73.8%</td><td>36.7%</td><td>NM</td><td></td><td></td><td></",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a5320d98289075d7",
+        "value": 0.526,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></td><td></td></tr><tr><td>% change</td><td>NM</td><td>-91.6%</td><td>33.7%</td><td>5.4%</td><td>52.6%</td><td>-9.5%</td><td>73.8%</td><td>36.7%</td><td>NM</td><td></td><td></td><td></td><td></td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5060c66211e0b237",
+        "value": -0.095,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>% change</td><td>NM</td><td>-91.6%</td><td>33.7%</td><td>5.4%</td><td>52.6%</td><td>-9.5%</td><td>73.8%</td><td>36.7%</td><td>NM</td><td></td><td></td><td></td><td></td><td></td><td></",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "14218d427bed2786",
+        "value": 0.738,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>% change</td><td>NM</td><td>-91.6%</td><td>33.7%</td><td>5.4%</td><td>52.6%</td><td>-9.5%</td><td>73.8%</td><td>36.7%</td><td>NM</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d3c0830d9184ac13",
+        "value": 0.36700000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>NM</td><td>-91.6%</td><td>33.7%</td><td>5.4%</td><td>52.6%</td><td>-9.5%</td><td>73.8%</td><td>36.7%</td><td>NM</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Sto",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a27bc0368486fb47",
+        "value": 0.051,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>5.1%</td><td>-13.9%</td><td>-8.1%</td><td>-8.2%</td><td>-9.8%</td><td>-4.9%</td><td>-6.8%</td><td>-3",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e958b9f6cdd3322c",
+        "value": -0.139,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>5.1%</td><td>-13.9%</td><td>-8.1%</td><td>-8.2%</td><td>-9.8%</td><td>-4.9%</td><td>-6.8%</td><td>-3.8%</td><td>9",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6c5512ce497a3f0a",
+        "value": -0.081,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>5.1%</td><td>-13.9%</td><td>-8.1%</td><td>-8.2%</td><td>-9.8%</td><td>-4.9%</td><td>-6.8%</td><td>-3.8%</td><td>9.3%</td><td></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b76252e978a8ff41",
+        "value": -0.08199999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td><td></td><td></td></tr><tr><td>% change</td><td>5.1%</td><td>-13.9%</td><td>-8.1%</td><td>-8.2%</td><td>-9.8%</td><td>-4.9%</td><td>-6.8%</td><td>-3.8%</td><td>9.3%</td><td></td><td></td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d8ba0cd9942d8186",
+        "value": -0.098,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td></tr><tr><td>% change</td><td>5.1%</td><td>-13.9%</td><td>-8.1%</td><td>-8.2%</td><td>-9.8%</td><td>-4.9%</td><td>-6.8%</td><td>-3.8%</td><td>9.3%</td><td></td><td></td><td></td><td></td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "20630bb99179df61",
+        "value": -0.049,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>% change</td><td>5.1%</td><td>-13.9%</td><td>-8.1%</td><td>-8.2%</td><td>-9.8%</td><td>-4.9%</td><td>-6.8%</td><td>-3.8%</td><td>9.3%</td><td></td><td></td><td></td><td></td><td></td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1f30c02b5b479732",
+        "value": -0.068,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "change</td><td>5.1%</td><td>-13.9%</td><td>-8.1%</td><td>-8.2%</td><td>-9.8%</td><td>-4.9%</td><td>-6.8%</td><td>-3.8%</td><td>9.3%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e615dff797bb88fc",
+        "value": -0.038,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>5.1%</td><td>-13.9%</td><td>-8.1%</td><td>-8.2%</td><td>-9.8%</td><td>-4.9%</td><td>-6.8%</td><td>-3.8%</td><td>9.3%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>R",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9ec15518edae4f47",
+        "value": 0.09300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">-13.9%</td><td>-8.1%</td><td>-8.2%</td><td>-9.8%</td><td>-4.9%</td><td>-6.8%</td><td>-3.8%</td><td>9.3%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Rising Star GGR",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c146f06119a599e7",
+        "value": 0.141,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".0</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>14.1%</td><td>-27.2%</td><td>-3.6%</td><td>-6.9%</td><td>3.7%</td><td>3.7%</td><td>-2.0%</td><td>-0.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "aa2a9d52495ce616",
+        "value": -0.272,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>14.1%</td><td>-27.2%</td><td>-3.6%</td><td>-6.9%</td><td>3.7%</td><td>3.7%</td><td>-2.0%</td><td>-0.6%</td><td>21.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "61ee2a270a113cfd",
+        "value": -0.036000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>14.1%</td><td>-27.2%</td><td>-3.6%</td><td>-6.9%</td><td>3.7%</td><td>3.7%</td><td>-2.0%</td><td>-0.6%</td><td>21.9%</td><td></td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "30aa424025acdaf3",
+        "value": -0.069,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td></td><td></td><td></td></tr><tr><td>% change</td><td>14.1%</td><td>-27.2%</td><td>-3.6%</td><td>-6.9%</td><td>3.7%</td><td>3.7%</td><td>-2.0%</td><td>-0.6%</td><td>21.9%</td><td></td><td></td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "986486fcc7ab928e",
+        "value": 0.037000000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td></tr><tr><td>% change</td><td>14.1%</td><td>-27.2%</td><td>-3.6%</td><td>-6.9%</td><td>3.7%</td><td>3.7%</td><td>-2.0%</td><td>-0.6%</td><td>21.9%</td><td></td><td></td><td></td><td></td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3f516dc9b9b0993a",
+        "value": 0.037000000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>% change</td><td>14.1%</td><td>-27.2%</td><td>-3.6%</td><td>-6.9%</td><td>3.7%</td><td>3.7%</td><td>-2.0%</td><td>-0.6%</td><td>21.9%</td><td></td><td></td><td></td><td></td><td></td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5b9aafbfbacaf1b4",
+        "value": -0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "% change</td><td>14.1%</td><td>-27.2%</td><td>-3.6%</td><td>-6.9%</td><td>3.7%</td><td>3.7%</td><td>-2.0%</td><td>-0.6%</td><td>21.9%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6dea210e8ff240fd",
+        "value": -0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>14.1%</td><td>-27.2%</td><td>-3.6%</td><td>-6.9%</td><td>3.7%</td><td>3.7%</td><td>-2.0%</td><td>-0.6%</td><td>21.9%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6991231a275aecd6",
+        "value": 0.21899999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>-27.2%</td><td>-3.6%</td><td>-6.9%</td><td>3.7%</td><td>3.7%</td><td>-2.0%</td><td>-0.6%</td><td>21.9%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>American Place",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "251f86bbbda3af0e",
+        "value": 0.35100000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".7</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>35.1%</td><td>-0.2%</td><td>7.0%</td><td>12.3%</td><td>3.8%</td><td>8.1%</td><td>0.6%</td><td>4.2%</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8b1b36c7dd5cdde9",
+        "value": -0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>35.1%</td><td>-0.2%</td><td>7.0%</td><td>12.3%</td><td>3.8%</td><td>8.1%</td><td>0.6%</td><td>4.2%</td><td>6.6%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7eebf07017702c51",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>35.1%</td><td>-0.2%</td><td>7.0%</td><td>12.3%</td><td>3.8%</td><td>8.1%</td><td>0.6%</td><td>4.2%</td><td>6.6%</td><td></td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "74ff743e0d52db8d",
+        "value": 0.12300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td></td><td></td></tr><tr><td>% change</td><td>35.1%</td><td>-0.2%</td><td>7.0%</td><td>12.3%</td><td>3.8%</td><td>8.1%</td><td>0.6%</td><td>4.2%</td><td>6.6%</td><td></td><td></td><td></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e0c833d7a34aa148",
+        "value": 0.038,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td></tr><tr><td>% change</td><td>35.1%</td><td>-0.2%</td><td>7.0%</td><td>12.3%</td><td>3.8%</td><td>8.1%</td><td>0.6%</td><td>4.2%</td><td>6.6%</td><td></td><td></td><td></td><td></td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ff6878b09da2303f",
+        "value": 0.081,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>% change</td><td>35.1%</td><td>-0.2%</td><td>7.0%</td><td>12.3%</td><td>3.8%</td><td>8.1%</td><td>0.6%</td><td>4.2%</td><td>6.6%</td><td></td><td></td><td></td><td></td><td></td><td></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8607744645d515cb",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>% change</td><td>35.1%</td><td>-0.2%</td><td>7.0%</td><td>12.3%</td><td>3.8%</td><td>8.1%</td><td>0.6%</td><td>4.2%</td><td>6.6%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "adfe2ff876cac767",
+        "value": 0.042,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>35.1%</td><td>-0.2%</td><td>7.0%</td><td>12.3%</td><td>3.8%</td><td>8.1%</td><td>0.6%</td><td>4.2%</td><td>6.6%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>St",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "55359e8d85566615",
+        "value": 0.066,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>-0.2%</td><td>7.0%</td><td>12.3%</td><td>3.8%</td><td>8.1%</td><td>0.6%</td><td>4.2%</td><td>6.6%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Stor Revenue</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9da0e826c7076daa",
+        "value": 0.292,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".5</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>29.2%</td><td>-4.6%</td><td>16.9%</td><td>12.7%</td><td>8.9%</td><td>23.2%</td><td>12.6%</td><td>14.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8f765c6348518a9c",
+        "value": -0.046,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>29.2%</td><td>-4.6%</td><td>16.9%</td><td>12.7%</td><td>8.9%</td><td>23.2%</td><td>12.6%</td><td>14.8%</td><td>14.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "0b869c1a955646a3",
+        "value": 0.16899999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>29.2%</td><td>-4.6%</td><td>16.9%</td><td>12.7%</td><td>8.9%</td><td>23.2%</td><td>12.6%</td><td>14.8%</td><td>14.0%</td><td></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f1567995fbf782e2",
+        "value": 0.127,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td><td></td><td></td></tr><tr><td>% change</td><td>29.2%</td><td>-4.6%</td><td>16.9%</td><td>12.7%</td><td>8.9%</td><td>23.2%</td><td>12.6%</td><td>14.8%</td><td>14.0%</td><td></td><td></td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "27e177d9f43249ea",
+        "value": 0.08900000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td></tr><tr><td>% change</td><td>29.2%</td><td>-4.6%</td><td>16.9%</td><td>12.7%</td><td>8.9%</td><td>23.2%</td><td>12.6%</td><td>14.8%</td><td>14.0%</td><td></td><td></td><td></td><td></td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "dbbf358c770229f5",
+        "value": 0.23199999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>% change</td><td>29.2%</td><td>-4.6%</td><td>16.9%</td><td>12.7%</td><td>8.9%</td><td>23.2%</td><td>12.6%</td><td>14.8%</td><td>14.0%</td><td></td><td></td><td></td><td></td><td></td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ec29e2d696095f10",
+        "value": 0.126,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "% change</td><td>29.2%</td><td>-4.6%</td><td>16.9%</td><td>12.7%</td><td>8.9%</td><td>23.2%</td><td>12.6%</td><td>14.8%</td><td>14.0%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "029b088d99dc4ed8",
+        "value": 0.14800000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>29.2%</td><td>-4.6%</td><td>16.9%</td><td>12.7%</td><td>8.9%</td><td>23.2%</td><td>12.6%</td><td>14.8%</td><td>14.0%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c22597d0dc254db2",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>-4.6%</td><td>16.9%</td><td>12.7%</td><td>8.9%</td><td>23.2%</td><td>12.6%</td><td>14.8%</td><td>14.0%</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Table Revenue<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1cec4169e528a70a",
+        "value": 0.525,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>52.5%</td><td>12.4%</td><td>-5.1%</td><td>15.5%</td><td>-11.2%</td><td>-23.2%</td><td>13.2%</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9d3961c9af8a9b58",
+        "value": 0.124,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>52.5%</td><td>12.4%</td><td>-5.1%</td><td>15.5%</td><td>-11.2%</td><td>-23.2%</td><td>13.2%</td><td>-8.5%</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3b1d8e1a8f42c69a",
+        "value": -0.051,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td><td></td><td></td><td></td></tr><tr><td>% change</td><td>52.5%</td><td>12.4%</td><td>-5.1%</td><td>15.5%</td><td>-11.2%</td><td>-23.2%</td><td>13.2%</td><td>-8.5%</td><td>64.9%</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5bda836029f7a833",
+        "value": 0.155,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td><td></td><td></td></tr><tr><td>% change</td><td>52.5%</td><td>12.4%</td><td>-5.1%</td><td>15.5%</td><td>-11.2%</td><td>-23.2%</td><td>13.2%</td><td>-8.5%</td><td>64.9%</td><td></td><td></td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "840ef3be890a1a21",
+        "value": -0.11199999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td></tr><tr><td>% change</td><td>52.5%</td><td>12.4%</td><td>-5.1%</td><td>15.5%</td><td>-11.2%</td><td>-23.2%</td><td>13.2%</td><td>-8.5%</td><td>64.9%</td><td></td><td></td><td></td><td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "902efe5a9a0c248c",
+        "value": -0.23199999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>% change</td><td>52.5%</td><td>12.4%</td><td>-5.1%</td><td>15.5%</td><td>-11.2%</td><td>-23.2%</td><td>13.2%</td><td>-8.5%</td><td>64.9%</td><td></td><td></td><td></td><td></td><td></td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b21e86fe49aa5586",
+        "value": 0.0825,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nstitution</td><td>Disclosure</td></tr><tr><td>-laagvfl kg2k f5t gmAi</td><td></td></tr><tr><td>FLL 8.250% Secured due 2028</td><td>2</td></tr></table>",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 0,
+      "tables_count": 0,
+      "numerical_data_count": 51,
+      "passages_count": 52,
+      "entities_count": 20
+    }
+  }
+}

@@ -1,0 +1,3064 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "32c4c0f8de442a68f2e544d0e232b63e",
+    "title": "Banks - Brazil",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/BofA/Less bricks the path to efficiency gainsLess bricks the path to efficiency gains_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:33:35.618644",
+      "extracted_at": "2025-10-26T11:33:35.618660"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 13,
+        "successful_pages": 13,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/BofA",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 4,
+          "reduction_ratio": 0.1596556336303525
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/BofA"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "bcc28cde36288c51",
+      "text": "Brazilian banks have reduced their physical footprint by c.30% over the past ten years, but headcount fell by only c.10% and opex continued to grow in line with inflation, given investments in tech infrastructure and labor. We now expect the banks to i) realize the operating benefits of the investment cycle, ii) make further reductions/ changes to their physical branch networks, and iii) lower headcount. Our sensitivity analysis suggests that such a strategy could pose potential upside risk of 5- 10% to our '27 estimates and think it would become a major topic of discussion for the sector.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "67bc3dfc1e044c73",
+      "text": "Brazilian banks have about 400k employees and 17k branches, which operate with a heavy and inefficient cost structure. A reduction of this operational structure could be driven by a model composed of i) posts of services (lighter version of branches) and ii) digital product offering. Artificial intelligence should be a key driver for more efficient and specialized apps to distribute products, while boosting NPS. Exhibits 1- 10.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "db9e4ece77939711",
+      "text": "We currently forecast opex to grow slightly above inflation over the next three years, in line with the trends observed in the past 10 years. However, if we were to incorporate reductions of 10- 17% in branches and 4- 12% in headcount through '27, we believe that opex could grow at half of the expected pace or even remain flat in nominal terms. This could lead to an improved industry efficiency ratio of 38- 40% (vs 42% currently forecasted), boost '27E sector earnings by 5- 10%, and increase ROE by 100- 200bp (to 18- 19% vs current forecast of 17%). Exhibit 11.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a4b6c79b96f73111",
+      "text": "We expect the private sector banks to be more proactive in their efficiency strategy, with i) Santander having the most room to reduce branches (given less reductions than peers over the past 10 years, but restrained by a smaller geographic reach), ii) Itau the most room to reduce headcount (as it boasts the highest number of employees per branch), and iii) Bradesco the most room to improve the efficiency ratio (which is the worst in the sector). Finally, we think that government control could make it harder for Banco do Brasil to make significant reductions to its headcount.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "40b92598ee0c6bf7",
+      "text": "We ran an analysis with 20 countries from different regions. In the past 10 years, there has been a significant reduction of c.20% in the number of physical branches. The global trend shows that headcount tends to be more resistant, dropping only 5% in the same period. However, the data suggests that countries that have been more active in reducing branches experienced higher efficiency gains. Exhibits 12- 16.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d29d701a3e6f7fbc",
+      "text": "Equity Brazil Financial Services",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ca659c3e5f79f8ac",
+      "text": "ECB: European Central Bank ONS: Office for National Statistics SBA: Sweden Banking Association IMF: International Monetary Fund BCB: Brazilian Central Bank CNBV: Mexican National Banking and Securities Commission SBS: Superintendency of Banking Insurance and Private Pension in Peru SFC: Financial Superintendency of Colombia CMF: Financial Market Comission in Chile BCRA: Argentina's Central Bank CPI: consumer price index",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "531ff9adf750be1c",
+      "text": "Brazilian banks have been making drastic reductions to their physical distribution network in the past 10 years. During this period, the system's branch network was reduced by c.30% (Exhibit 1), while headcount was reduced by c.10% (Exhibit 2), according to Brazilian Central Bank data.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b473ef512a2e7175",
+      "text": "Exhibit 1: Brazilian industry - number of branches (thousands) Number of branches has gradually declined over the past ten years.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4e3bf247b254629c",
+      "text": "Source: Companies. Includes BBAS, BBDC, ITUB (ex-LatAm), SANB",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e94e6862df871ca5",
+      "text": "Bradesco and Itau led the way, reducing their branch bases by half of the past decade, particularly during the pandemic (Exhibit 3 and 4). Meanwhile, Santander had the smallest reduction in branches, according to BCB data (about 10% in ten years). Banco do Brasil's branches declined in the same pace as private peers' before the pandemic, but have remained stable over the past five years.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ff8e19bc6187849b",
+      "text": "Exhibit 3: Number of branches (thousands) Banco do Brasil has a superior number of branches",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "91771eb12b15dfc1",
+      "text": "Banco do Brasil had the strongest reduction in headcount over the past decade, although it happened mostly before the pandemic. Bradesco's headcount declined about 10% over the past ten years. On the flipside, headcount actually increased for Itau and Santander (Exhibit 5 and 6). Consequently, the industry's ratio of employee per branch has almost doubled from c.20x in 2015 to c.40x in '24. Exhibit 7.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ab503894b5841483",
+      "text": "Exhibit 2: Brazilian industry - number of employees (thousands) while the number of employees declined until 2016, but remained relatively stable since then",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ae39c14679d5b2d6",
+      "text": "Source: Companies. Includes BBAS, BBDC, ITUB (ex-LatAm), SANB",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a6128f3479e01473",
+      "text": "Exhibit 4: Number of branches evolution \\((2014 = 100)\\) Bradesco and Itau closed more branches than peers",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "dca3a1da7df06f41",
+      "text": "Headcount remained elevated, possibly supported by new hirings related to innovation",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "656a4a573a1ba1af",
+      "text": "Source: Companies. Itau reflects Brazilian operations only.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "11acc9ec44cff69c",
+      "text": "ITUB and BBDC have the highest number of employees per branch",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9393386d238c111b",
+      "text": "Source: Companies. Note: branches only, excluding posts of services",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "97378c5487210fd7",
+      "text": "Even with the reduction in footprint and headcount, operating expenses have been growing roughly in line with inflation. Opex have been particularly pressured by personnel expenses, which are indexed to inflation, while administrative expenses expanded generally below inflation. Exhibits 8 and 9. With opex growing at mid- single digits over the past years, efficiency ratio hovered around c.49% according to BCB data, ranging between 44% and 54% (47.8% in '24). Exhibit 10.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "eda8790896e23fb6",
+      "text": "Operating expenses grew roughly in line with inflation over the past ten years due to investments in technology and renewal of infrastructure, which offset reductions in footprint. We now expect i) less investments, ii) reduction in headcount and iii) reduction in footprint, leading to opex growth below inflation and more meaningful efficiency gains.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9819e081e0b351b3",
+      "text": "BBAS and BBDC reduced the number of employees, while ITUB and SANB increased",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b4444e17455a8573",
+      "text": "Exhibit 8: Evolution of operating expenses vs inflationOpex has been driven by personnel expenses, while administrative expenses are growing below inflation",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "70f86cfb24c49c75",
+      "text": "Source:Companies,IBGE",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "f81fcc7319698df6",
+      "text": "Source:Companies,IBGESource: Companies,IBGESource: Companies,IBGESource: Companies,IBGESource: Companies, IBGESource: Companies, IBGESource: Companies, IBGESource: Companies, IBGE",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "457e2ed4b5ce39d4",
+      "text": "Industry efficiency ratio ranged between \\(44\\%\\) and \\(54\\%\\) over the past 10Y",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "0b7fd448e6d35862",
+      "text": "Source:Companies and BofA Global Research.Efficiency ratio \\(\\equiv\\) (administrative \\(^+\\) personnel \\(^+\\) other expenses)/ (NII \\(^+\\) fees \\(^+\\) other revenues \\(^+\\) tax expenses). Industry based on BCB data for the system.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "8e8bfa673fc2edd3",
+      "text": "We ran a sensitivity analysis by bank to estimate the potential upside risk to earnings estimates coming from potential reduction in footprint and headcount. We simulated two scenarios (\"efficient\" and \"very efficient\"), which incorporate branch reductions of \\(10 - 17\\%\\) , and headcount reductions of \\(4 - 12\\%\\) over the next two years. We estimate that such a strategy could pose potential upside risk of \\(6 - 10\\%\\) to our estimates.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "16b95d432f3a2145",
+      "text": "Bradesco provides the strongest upside, with the efficiency ratio potentially improving from \\(c.52\\%\\) to \\(41 - 44\\%\\) , vs current estimates of \\(46\\%\\) for '27E. We estimate \\(5 - 12\\%\\) potential upside risk to current net income forecasts, yielding ROE between \\(17 - 18\\%\\) vs current forecast of \\(16\\%\\) for '27E. We assume \\(15 - 25\\%\\) reductions in branches and \\(5 - 15\\%\\) reduction in headcount.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d80231122f978f16",
+      "text": "Personnel expenses represent a bigger portion of expenses vs 10Y ago",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "023137f0c4e4e9f5",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "797cd6aac87f7726",
+      "text": "Itau has currently the worst forecasts for opex growth (7% CAGR between '24-'27E vs peers average of 5%). A strong efficiency strategy could pose 7-11% potential upside risk to net income forecasts, suggesting i) efficiency ratio of 32-34% (vs current levels of 40% and 38% forecast for '27E) and ii) ROE between 24-25% vs current forecast of 23% for '27E. We assume 15-25% reductions in branches and 5-15% reduction in headcount.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "8cd44fc6004d4a99",
+      "text": "We estimate potential upside risk of 6-10% to Santander's earnings forecast, which would yield ROEs between 18-19%, vs current forecast of 17% for '27E. Efficiency ratio could reach 38-40%, vs current forecast of 42%. We assume 10-20% reductions in branches and 5-10% reduction in headcount.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e4be688a6340b2ea",
+      "text": "Finally, we expect a softer reduction in branches and headcount for Banco do Brasil considering its government control and the fact that it has the lowest headcount per branch vs peers. We assume 2-5% reduction in branches and headcount, providing potential upside risk of 5-7% to our net income forecasts, which could lift ROE to 15% vs current forecast of 14% for '27E.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4ffd2c3498bdfd66",
+      "text": "Exhibit 11: Efficient and very efficient scenarios",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "a1eb7b6aeb421724",
+      "text": "We see potential upside risk of 6-10% to our '27E earnings estimates",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "0f0b55bb06d7c34a",
+      "text": "AssumptionsBBASBBDCITUBSANBIndustryReduction in branchesEfficient scenario2%15%15%10%10%Very efficient scenario5%25%25%20%17%Reduction in headcountEfficient scenario2%5%5%5%4%Very efficient scenario5%15%15%10%12%Branches (thousands)Efficient scenario3.12.01.91.18.1Very efficient scenario3.01.71.71.07.4Headcount (thousands)Efficient scenario85798253299Very efficient scenario82717450277Implications to NIBBASBBDCITUBSANBIndustryUpside to NI('27E)Efficient scenario5%5%7%6%6%Very efficient scenario7%12%11%10%10%Net income ('27E, R$bn)BofAe28325319132Efficient29335720139Very efficient30365921145ROE('27E)BofAe13.6%16.4%22.6%16.8%17.3%Efficient14.2%17.2%24.1%17.8%18.3%Very efficient14.6%18.3%25.0%18.5%19.1%Efficiency ratio ('27E)BofAe43.4%45.9%37.6%41.6%42.1%Efficient42.0%44.0%34.4%39.5%40.0%Very efficient41.2%41.3%32.3%37.8%38.2%Opex CAGR ('24-27E)BofAe6%4%7%6%6%Efficient5%3%3%3%3%Very efficient4%0%0%1%1%",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "dee3f108af08a361",
+      "text": "Source: BofA Global Research estimates",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4ea612b3155f7104",
+      "text": "Globally, bank branches have been reduced by c.20% in the last 10 years, while headcount was reduced by only 5%. We think that the resistance to reduce headcount might reflect investments in innovation and technology development. However, the trend differs among countries.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e8644ea29081d1b9",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6a4eaa2db67c390f",
+      "text": "In general, the data shows that countries that had higher reduction of branches/headcount also had higher efficiency gains in the past 10 years. However, branch reduction tends to be easier than headcount reduction which tends to be easier than efficiency gains. (Exhibit 12- 14)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "113ce08a040eb253",
+      "text": "Between 2014 and 2024, for Poland, UK and Germany, the number of branches was reduced by almost half which led to an efficiency ratio gain of around \\(17 - 20\\%\\) (2014 = \\(100\\%\\) ). While for Canada, US and Mexico, which had branch reductions between \\(7 - 16\\%\\) , the efficiency ratio gain was of only \\(5 - 8\\%\\) . For some countries, the impact of branches cut was even higher, such as Greece and Denmark.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4a2209d2ee36a4af",
+      "text": "Exhibit 12: Branches (x) vs efficiency (y) (10Y p.p. chg, 2014=100) Overall, the higher the reduction of branches, the higher are the efficiency gains",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4ba9201c25330ecf",
+      "text": "Source: BofA Global Research, companies, ECB, IQ, ONS, SBA, IMF, BCB, CNBV, SBS, SFC, CMF, BCRA",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "ccae401f469324b2",
+      "text": "Exhibit 13: Branches (x) vs headcount (y) (10Y p.p. chg, 2014=100) Branches reduction and headcount reduction have a positive correlation. The higher the branch reduction, the higher the headcount reduction",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "52a06c8a924893b8",
+      "text": "Source: BofA Global Research, companies, ECB, IQ, ONS, SBA, IMF, BCB, CNBV, SBS, SFC, CMF, BCRA",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "7112e28adf802fe9",
+      "text": "Headcount reduction and efficiency ratio gains have a positive correlation. The higher the cut the higher the efficiency gain.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "a4cffad2e55bd5b2",
+      "text": "Source: BofA Global Research, companies, ECB, IQ, ONS, SBA, IMF, BCB, CNBV, SBS, SFC, CMF, BCRA",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e1b058800fd610ba",
+      "text": "Efficiency ratios have improved for almost all countries analyzed over the past 10 years",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "466c95f97558fe15",
+      "text": "Source: BofA Global Research, companies, ECB, IQ, ONS, SBA, IMF, BCB, CNBV, SBS, SFC, CMF, BCRA",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "72ace73645729262",
+      "text": "Overall, headcount per branch has increased, as branches' downsizing outpaced headcount reductions",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "af282cc6c8414a38",
+      "text": "Source: BofA Global Research, companies, ECB, IQ, ONS, SBA, IMF, BCB, CNBV, SBS, SFC, CMF, BCRA",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "f6da4fbfc0f356b5",
+      "text": "Prices and ratings for stocks mentioned in the report",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "25b51be9d8036cee",
+      "text": "BofA TickerBloomberg tickerCompany namePriceRatingBDORYBDORY USBanco do BrasilUS&#36;3.78B-3-8XBBAFBBAS3 BZBanco do BrasilBRL 20.63B-3-8BRDPFBBDC4 BZBradescoBRL 16.43B-1-7BBDBBD USBradesco-AUS&#36;3.02B-1-7ITUBFITUB4 BZItau UnibancoBRL 37.57B-1-7ITUBITUB USItau Unibanco-AUS&#36;6.96B-1-7XCBDFSANB11 BZSantander BrasilBRL 27.76B-2-7",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "5dacf91239918dad",
+      "text": "Source: BofA Global Research",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8db2678d8f19cc95",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0b39a7a0e4f66ce5",
+      "text": "Our price objective (PO) for Banco do Brasil of R&#36;20/US&#36;3.5 is derived from the Gordon Growth Model, assuming a sustainable ROE of 13%, a COE of 19%, and 4% growth in perpetuity. Our PO implies a target '26E P/BV multiple of 0.6x. Our USD/ADR PO is derived from the local PO converted at an FX rate of 5.75.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "56a216afc52a90a9",
+      "text": "Upside risks to our PO are 1) stronger-than-forecasted loan portfolio growth, 2) lower-than-expected provision charges and 3) greater resilience on market NII. Downside risks to our PO are 1) government interference at the bank's operations, 2) management execution and 3) further deterioration of the agricultural sector.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "db6dc0722a921938",
+      "text": "Our price objective (PO) for Bradesco of R&#36;17/US&#36;3.0 is derived from the Gordon Growth Model, assuming a sustainable ROE of 16%, a COE of 16.2%, and 4% growth in perpetuity. Our PO implies a target '25E P/BV multiple of 1.0x. Our USD/ADR PO is derived from the local PO converted at a 5.75 FX rate.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "1cf81accdba442a5",
+      "text": "Downside risks to our PO are 1) weaker economic activity could negatively impact loan growth, 2) corporate NPL deterioration, and 3) higher than expected interest rates could pressure Market NII. Upside risks include: 1) stronger than forecasted loan portfolio growth, 2) less negative than expected impact from Selic rate hikes benefiting Market NII and, 3) lower than expected provision charges.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ab02233325eb2cc5",
+      "text": "Our price objective (PO) for Itau of R&#36;41/US&#36;7.1 is derived from the Gordon Growth model, assuming a sustainable ROE of 23%, a COE of 14.0%, and 4% growth in perpetuity. Our USD/ADR PO is derived from the local PO converted at an FX rate of 5.75.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "60c952a6e39aa3f6",
+      "text": "Downside risks to our PO are 1) weaker economic activity could negatively impact loan growth, 2) corporate NPL deterioration requiring higher than anticipated provision charges, and 3) regulatory changes could be detrimental to profitability. Upside risks include: 1) stronger than forecasted loan portfolio growth, 2) lower than anticipated provision charges and, 3) better than expected insurance results.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "5568faf7d688ff0b",
+      "text": "Our price objective for Santander Brasil of R&#36;33/US&#36;5.7 is derived from the Gordon Growth Model, assuming a sustainable ROAE of 17%, a COE of 14.6%, and 4% growth in perpetuity. Our PO implies a target '25 P/BV multiple of 1.3x. Our USD/ADR PO is derived from the local PO converted at an FX rate of 5.75.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "3a2d07f4bfe568e8",
+      "text": "Upside risks are: 1) stronger than forecasted loan portfolio growth, 2) better than expected NII with market and 3) lower than expected provision charges. Downside risks are: 1) deterioration in asset quality, which could lead to higher provision charges, and 2) slower revenue generation in a challenging macro environment, which should maintain ROE below the COE",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "bdbe12411ebfc410",
+      "text": "Latin America - Financials Coverage Cluster",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "692edded0d86df19",
+      "text": "Investment ratingCompanyBofA TickerBloomberg symbolAnalystBUYBanco MacroBMABMA USErnesto GabilondoBanco MacroBCVMFBMA ARErnesto GabilondoBanorteGBOOFGFNORTEO MMMario PierryBanorteGBOOYGBOOY USMario PierryBCIBZCIFBCI CIErnesto GabilondoBradescoBRDPFBBDC4 BZMario PierryBradesco -ABBDBBD USMario PierryBTG PactualXNXCFBPAC11 BZMario PierryCaixa SeguridadeXDXUFCXSE3 BZAntonio RuetteDaviviendaXIVDFPFDAVND CBErnesto GabilondoGenteraCMPRFGENTERA* MMErnesto GabilondoGrupo BMVBOMXFBOLSAAMMErnesto GabilondoGrupo Financiero GaliciaGGALGGAL USErnesto GabilondoGrupo Financiero GaliciaGGBBFGGAL ARErnesto GabilondoIFSIFSIFS USErnesto GabilondoInterXBZIFINBR32 BZMario PierryInterINTRINTR USMario PierryItau UnibancoITUBFITUB4 BZMario PierryItau UnibancoITUBITUB USMario PierryRegionalRGNLFRA MMErnesto GabilondoStoneCoSTNESTNE USMario PierrySupervilleSUPVSUPV USErnesto GabilondoSupervilleXAZFFSUPV ARErnesto GabilondoNEUTRALB3XIMAFB3SA3 BZMario PierryB3BOLSYBOLSY USMario PierryBajioBBAJFBBAJIOO MMErnesto GabilondoBanco PanXQSFFBPAN4 BZAntonio RuetteBB SeguridadeXBDPFBBSE3 BZMario PierryBB SeguridadeBBSEYBBSEY USMario PierryCibestCIBCIB USErnesto GabilondoCibestXGCUFPFCIBEST CBErnesto GabilondoCredicorp LtdBAPBAP USErnesto GabilondoNubankNUNU USMario PierryPAGSPAGS USMario PierryPSGUFPSSA3 BZMario PierryXCBDFSANB11 BZMario PierryBSBRBSBR USMario PierryXPXP USMario PierryUNDERPERFORMABC BrasilXBABFABCB4 BZAntonio RuetteBanco Chile-ADRBCHBCH USErnesto GabilondoBanco de ChileXHNDFCHILE CIErnesto GabilondoBanco do BrasilXBBAFBBAS3 BZMario PierryBanco do BrasilBDORYBDORY USMario PierryBanco Santander ChileBSACBSAC USErnesto GabilondoBanco Santander ChileXLDTFBSAN CIErnesto GabilondoBanrisulXGRBFBRSR6 BZAntonio RuetteGFInburGPFOFGFINBURO MMErnesto GabilondoQualitasQUCOFQ* MMErnesto Gabilondo",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "353d4736dcae4e1b",
+      "text": "From time to time research analysts conduct site visits of covered issuers. BofA Global Research policies prohibit research analysts from accepting payment or reimbursement for travel expenses from the issuer for such visits.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "cc4359819076d927",
+      "text": "p  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  s  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "4cbdf25fc25b25dd",
+      "text": "action may be limited by regulations prohibiting or restricting 'shortselling' in many jurisdictions. Investors are urged to seek advice regarding the applicability of such regulations prior to executing any short idea contained in this report.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "1dda6831b5ffa173",
+      "text": "Foreign currency rates of exchange may adversely affect the value, price or income of any security or financial instrument mentioned herein. Investors in such securities and instruments, including ADRs, effectively assume currency risk.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "553282fb09ecb786",
+      "text": "BofA or one of its affiliates is a regular issuer of traded financial instruments linked to securities that may have been recommended in this report. BofAs or one of its affiliates may, at any time, hold a trading position (long or short) in the securities and financial instruments discussed in this report.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "1fa3c21d17967c15",
+      "text": "BofA Securitie, through busines units other than BofA Global Research, may have issued and may in the future issue trading ideas or recommendations that are inconsistent with, and reach different conclusions from, the information presented herein. Such ideas or recommendations may reflect different time frames, assumptions, views and analytical methods of the persons who prepared them, and BofA Securities is under no obligation to ensure that such other trading ideas or recommendations are brought to the attention of any recipient of this information. In the event that the recipient received this information pursuant to a contract between the recipient and BofAs for the provision of research services for a separate fee, and in connection therewith BofAs may be deemed to be acting as an investment adviser, such status relates, if at all, solely to the person with whom BofAs has contracted directly and does not extend beyond the delivery of this report (unless otherwise agreed specifically in writing by BofAs). If such recipient uses the services of BofAs in connection with the sale or purchase of a security referred to herein, BofAs may act as principal for its own account or as agent for another person. BofAs and continues to act solely as a broker-dealer in connection with the execution of any transactions, including transactions in any securities referred to herein.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "db47638ef088896b",
+      "text": "Copyright 2025 Bank of America Corporation. All rights reserved. iQdatabase is a registered service mark of Bank of America Corporation. This information is prepared for the use of BofA Securities clients and may not be redistributed, retransmitted or disclosed, in whole or in part, or in any form or manner, without the express written consent of BofA Securities. This document and its content is provided solely for informational purposes and cannot be used for training or developing artificial intelligence (AI) models or as an input in any AI application (collectively, an AI tool). Any attempt to utilize this document or any of its content in connection with an AI tool without explicit written permission from BofA Global Research is strictly prohibited. BofA Global Research information is distributed simultaneously to internal and client websites and other portals by BofA Securities and is not publicly- available material. Any unauthorized use or disclosure is prohibited. Receipt and review of this information constitutes your agreement not to redistribute, retransmit, or disclose to others the contents, opinions, conclusion, or information contained herein (including any investment recommendations, estimates or price targets) without first obtaining express permission from an authorized officer of BofA Securities. Materials prepared by BofA Global Research personnel are based on public information. Facts and views presented in this material have not been reviewed by, and may not reflect information known to, professionals in other business areas of BofA Securities, including investment banking personnel. BofA Securities has established information barriers between BofA Global Research and certain business groups. As a result, BofA Securities does not disclose certain client relationships with, or compensation received from, such issuers. To the extent this material discusses any legal proceeding or issues, it has not been prepared as nor is it intended to express any legal conclusion, opinion or advice. Investors should consult their own legal advisers as to issues of law relating to the subject matter of this material. BofA Global Research personnel's knowledge of legal proceedings in which any BofA Securities entity and/or its directors, officers and employees may be plaintiffs, defendants, co-defendants or co- plaintiffs with or involving issuers mentioned in this material is based on public information. Facts and views presented in this material that relate to any such proceedings have not been reviewed by, discussed with, and may not reflect information known to, professionals in other business areas of BofA Securities in connection with the legal proceedings or matters relevant to such proceedings.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "5af587d6182e7f9f",
+      "text": "This information has been prepared independently of any issuer of securities mentioned herein and not in connection with any proposed offering of securities or as agent of any issuer of any securities. None of BofA's any of its affiliates or their research analysts has any authority whatsoever to make any representation or warranty on behalf of the issuer(s). BofA Global Research policy prohibits research personnel from disclosing a recommendation, investment rating, or investment thesis for review by an issuer prior to the publication of a research report containing such rating, recommendation or investment thesis.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "3efc452afa1a1aa4",
+      "text": "Any information relating to sustainability in this material is limited as discussed herein and is not intended to provide a comprehensive view on any sustainability claim with respect to any issuer or security.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "1faac5dcdb3b08de",
+      "text": "Any information relating to the tax status of financial instruments discussed herein is not intended to provide tax advice or to be used by anyone to provide tax advice. Investors are urged to seek tax advice based on their particular circumstances from an independent tax professional.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "58a8b283c9100452",
+      "text": "The information herein (other than disclosure information relating to BofA Securities and its affiliates) was obtained from various sources and we do not guarantee its accuracy. This information may contain links to third- party websites. BofA Securities is not responsible for the content of any third- party website or any linked content contained in a third- party website. Content contained on such third- party websites is not part of this information and is not incorporated by reference. The inclusion of a link does not imply any endorsement by or any affiliation with BofA Securities. Access to any third- party website is at your own risk, and you should always review the terms and privacy policies at third- party websites before submitting any personal information to them. BofA Securities is not responsible for such terms and privacy policies and expressly disclaims any liability for them.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "56056481d97dc6fb",
+      "text": "All opinions, projections and estimates constitute the judgment of the author as of the date of publication and are subject to change without notice. Prices also are subject to change without notice. BofA Securities is under no obligation to update this information and BofA Securities ability to publish information on the subject issuer(s) in the future is subject to applicable quiet periods. You should therefore assume that BofA Securities will not update any fact, circumstance or opinion contained herein.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "735f5b1909f31e83",
+      "text": "Subject to the quiet period applicable under laws of the various jurisdictions in which we distribute research reports and other legal and BofA Securities policy- related restrictions on the publication of research reports, fundamental equity reports are produced on a regular basis as necessary to keep the investment recommendation current.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "2192916bbf1eba5b",
+      "text": "Certain outstanding reports or investment opinions relating to securities, financial instruments and/or issuers may no longer be current. Always refer to the most recent research report relating to an issuer prior to making an investment decision.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "d7ebccf250e18d45",
+      "text": "In some cases, an issuer may be classified as Restricted or may be Under Review or Extended Review. In each case, investors should consider any investment opinion relating to such issuer (or its security and/or financial instruments) to be suspended or withdrawn and should not rely on the analyses and investment opinion(s) pertaining to such issuer (or its securities and/or financial instruments) nor should the analyses or opinion(s) be considered a solicitation of any kind. Sales persons and financial advisors affiliated with BofAS or any of its affiliates may not solicit purchases of securities or financial instruments that are Restricted or Under Review and may only solicit securities under Extended Review in accordance with firm policies. Neither BofA Securities nor any officer or employee of BofA Securities accepts any liability whatsoever for any direct, indirect or consequential damages or losses arising from any use of this information.",
+      "page": 12,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "accf750192e521cd",
+      "name": "ABC Brasil",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0932cb8d2b0b0ac7",
+      "name": "America Corporation",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "aa9971f947102b7f",
+      "name": "Antonio Ruette",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d587613b6756a543",
+      "name": "Association IMF",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3ce0393cff6c6222",
+      "name": "BB Seguridade",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "52c1591463259985",
+      "name": "BTG Pactual",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "63931b7fa5c6bf1b",
+      "name": "Banco Chile",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1114bce866935bf0",
+      "name": "Banco Macro",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2a2242d574e48909",
+      "name": "Banco Pan",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d6fda20ceff19600",
+      "name": "Banco Santander",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "267c1b45782f9da6",
+      "name": "Bank CNBV",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9d488ef883f0083a",
+      "name": "Bank ONS",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fdcfb87823fd5cca",
+      "name": "Bank of America Corporation",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2849c16f33e50d5c",
+      "name": "Banking Insurance",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "69cd3127b89ae342",
+      "name": "BofA GLOBAL",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f37f33576b1375aa",
+      "name": "BofA Global",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ffafc0a785d8ce92",
+      "name": "BofA Securitie",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cb7fc586e0c30b74",
+      "name": "BofA Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8030ffaa3e252ea1",
+      "name": "BofA Ticker",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b123855440d23a7d",
+      "name": "Brazilian Central",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "bar",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 25
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              23.1,
+              22.9,
+              23.4,
+              21.8,
+              21.6,
+              20.7,
+              19.3,
+              18.3,
+              17.9,
+              17.5,
+              16.6
+            ]
+          }
+        ],
+        "figure_id": "919f7365798d13ef",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0.0,
+              "max": 6.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "BBAS",
+            "unit": null,
+            "values": [
+              5.5,
+              5.3,
+              5.4,
+              4.7,
+              4.6,
+              4.4,
+              4.4,
+              4.0,
+              4.0,
+              4.0,
+              4.0
+            ]
+          },
+          {
+            "name": "BBDC",
+            "unit": null,
+            "values": [
+              4.6,
+              4.5,
+              5.0,
+              4.6,
+              4.6,
+              4.4,
+              3.2,
+              2.9,
+              2.8,
+              2.5,
+              2.3
+            ]
+          },
+          {
+            "name": "ITUB",
+            "unit": null,
+            "values": [
+              3.7,
+              3.5,
+              3.3,
+              3.2,
+              3.2,
+              2.9,
+              2.9,
+              2.8,
+              2.6,
+              2.3,
+              2.0
+            ]
+          },
+          {
+            "name": "SANB",
+            "unit": null,
+            "values": [
+              2.8,
+              2.8,
+              2.8,
+              2.8,
+              2.8,
+              2.9,
+              2.9,
+              2.8,
+              2.7,
+              2.5,
+              2.4
+            ]
+          }
+        ],
+        "figure_id": "e61c5822bab1aff8",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 460
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              460,
+              448,
+              447,
+              430,
+              427,
+              415,
+              399,
+              407,
+              410,
+              409,
+              405
+            ]
+          }
+        ],
+        "figure_id": "b5eec701a275a830",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 40,
+              "max": 120
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "BBAS",
+            "unit": null,
+            "values": [
+              100,
+              98,
+              98,
+              85,
+              85,
+              78,
+              79,
+              72,
+              72,
+              72,
+              72
+            ]
+          },
+          {
+            "name": "BBDC",
+            "unit": null,
+            "values": [
+              100,
+              98,
+              112,
+              100,
+              100,
+              95,
+              73,
+              62,
+              58,
+              52,
+              49
+            ]
+          },
+          {
+            "name": "ITUB",
+            "unit": null,
+            "values": [
+              100,
+              95,
+              88,
+              85,
+              85,
+              78,
+              75,
+              70,
+              65,
+              58,
+              52
+            ]
+          },
+          {
+            "name": "SANB",
+            "unit": null,
+            "values": [
+              100,
+              100,
+              100,
+              100,
+              102,
+              103,
+              104,
+              98,
+              97,
+              95,
+              92
+            ]
+          }
+        ],
+        "figure_id": "88a793072a9d9287",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 125
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "BBAS",
+            "unit": null,
+            "values": [
+              110,
+              105,
+              100,
+              98,
+              95,
+              90,
+              85,
+              87,
+              88,
+              87,
+              87
+            ]
+          },
+          {
+            "name": "BBDC",
+            "unit": null,
+            "values": [
+              95,
+              92,
+              108,
+              98,
+              98,
+              95,
+              88,
+              88,
+              89,
+              88,
+              84
+            ]
+          },
+          {
+            "name": "ITUB",
+            "unit": null,
+            "values": [
+              85,
+              82,
+              78,
+              82,
+              85,
+              80,
+              82,
+              85,
+              86,
+              87,
+              87
+            ]
+          },
+          {
+            "name": "SANB",
+            "unit": null,
+            "values": [
+              50,
+              50,
+              48,
+              48,
+              48,
+              47,
+              45,
+              48,
+              50,
+              52,
+              56
+            ]
+          }
+        ],
+        "figure_id": "febcc75e07128cef",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 50
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "BBAS",
+            "unit": null,
+            "values": [
+              20,
+              20,
+              20,
+              20,
+              20,
+              21,
+              21,
+              21,
+              21,
+              22,
+              22
+            ]
+          },
+          {
+            "name": "BBDC",
+            "unit": null,
+            "values": [
+              21,
+              21,
+              20,
+              21,
+              21,
+              22,
+              25,
+              29,
+              30,
+              32,
+              37
+            ]
+          },
+          {
+            "name": "ITUB",
+            "unit": null,
+            "values": [
+              22,
+              22,
+              23,
+              26,
+              27,
+              28,
+              30,
+              31,
+              34,
+              38,
+              43
+            ]
+          },
+          {
+            "name": "SANB",
+            "unit": null,
+            "values": [
+              19,
+              19,
+              19,
+              19,
+              18,
+              18,
+              16,
+              19,
+              20,
+              22,
+              23
+            ]
+          }
+        ],
+        "figure_id": "16bc60953f61a2c8",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 60,
+              "max": 120
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "BBAS",
+            "unit": null,
+            "values": [
+              95,
+              93,
+              89,
+              88,
+              85,
+              82,
+              78,
+              76,
+              76,
+              77,
+              78
+            ]
+          },
+          {
+            "name": "BBDC",
+            "unit": null,
+            "values": [
+              98,
+              96,
+              110,
+              102,
+              100,
+              98,
+              91,
+              90,
+              91,
+              89,
+              88
+            ]
+          },
+          {
+            "name": "ITUB",
+            "unit": null,
+            "values": [
+              97,
+              95,
+              93,
+              98,
+              100,
+              95,
+              93,
+              100,
+              102,
+              101,
+              101
+            ]
+          },
+          {
+            "name": "SANB",
+            "unit": null,
+            "values": [
+              98,
+              99,
+              94,
+              95,
+              96,
+              92,
+              90,
+              106,
+              107,
+              110,
+              113
+            ]
+          }
+        ],
+        "figure_id": "723651a19a22f92e",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -4,
+              "max": 12
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Opex",
+            "unit": "%",
+            "values": [
+              3.5,
+              5.0,
+              7.8,
+              2.5,
+              3.5,
+              4.5,
+              -3.5,
+              5.0,
+              8.0,
+              6.0,
+              5.0
+            ]
+          },
+          {
+            "name": "CPI",
+            "unit": "%",
+            "values": [
+              6.5,
+              10.5,
+              5.0,
+              2.0,
+              3.8,
+              3.5,
+              3.0,
+              8.5,
+              9.0,
+              4.5,
+              4.0
+            ]
+          }
+        ],
+        "figure_id": "1f1648f1b4a75bcf",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 30,
+              "max": 60
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "BBAS",
+            "unit": "%",
+            "values": [
+              58.0,
+              52.0,
+              53.5,
+              56.0,
+              53.0,
+              56.0,
+              52.0,
+              55.0,
+              43.0,
+              42.0,
+              42.9
+            ]
+          },
+          {
+            "name": "BBDC",
+            "unit": "%",
+            "values": [
+              48.0,
+              46.5,
+              47.5,
+              48.0,
+              49.0,
+              47.0,
+              46.0,
+              45.0,
+              45.5,
+              50.0,
+              52.2
+            ]
+          },
+          {
+            "name": "ITUB",
+            "unit": "%",
+            "values": [
+              47.0,
+              44.0,
+              45.5,
+              47.0,
+              48.0,
+              45.0,
+              46.5,
+              44.0,
+              40.0,
+              39.0,
+              39.5
+            ]
+          },
+          {
+            "name": "SANB",
+            "unit": "%",
+            "values": [
+              54.0,
+              53.5,
+              52.0,
+              53.0,
+              50.0,
+              48.0,
+              45.0,
+              43.0,
+              42.0,
+              47.0,
+              47.0
+            ]
+          },
+          {
+            "name": "Industry (BCB)",
+            "unit": "%",
+            "values": [
+              50.0,
+              48.5,
+              45.0,
+              48.0,
+              50.0,
+              53.0,
+              51.0,
+              45.0,
+              44.0,
+              48.0,
+              47.8
+            ]
+          }
+        ],
+        "figure_id": "6749cb615169246e",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 100
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Administrative",
+            "unit": "%",
+            "values": [
+              48,
+              47,
+              46,
+              45.5,
+              45,
+              45,
+              46,
+              45,
+              44,
+              43.5,
+              43
+            ]
+          },
+          {
+            "name": "Personnel",
+            "unit": "%",
+            "values": [
+              52,
+              53,
+              54,
+              54.5,
+              55,
+              55,
+              54,
+              55,
+              56,
+              56.5,
+              57
+            ]
+          }
+        ],
+        "figure_id": "973c20a569726e91",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": null,
+            "range": {
+              "min": -60.0,
+              "max": 0.0
+            }
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -50.0,
+              "max": 20.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Data Points",
+            "unit": null,
+            "values": [
+              {
+                "name": "Poland",
+                "x": -52.0,
+                "y": -17.0
+              },
+              {
+                "name": "Greece",
+                "x": -50.0,
+                "y": -37.0
+              },
+              {
+                "name": "UK",
+                "x": -47.0,
+                "y": -15.0
+              },
+              {
+                "name": "Germany",
+                "x": -45.0,
+                "y": -22.0
+              },
+              {
+                "name": "Spain",
+                "x": -44.0,
+                "y": -12.0
+              },
+              {
+                "name": "Sweden",
+                "x": -42.0,
+                "y": -5.0
+              },
+              {
+                "name": "Chile",
+                "x": -39.0,
+                "y": -10.0
+              },
+              {
+                "name": "Italy",
+                "x": -32.0,
+                "y": -19.0
+              },
+              {
+                "name": "Brazil",
+                "x": -29.0,
+                "y": -15.0
+              },
+              {
+                "name": "Austria",
+                "x": -27.0,
+                "y": -20.0
+              },
+              {
+                "name": "Peru",
+                "x": -26.0,
+                "y": -2.0
+              },
+              {
+                "name": "South Korea",
+                "x": -25.0,
+                "y": -25.0
+              },
+              {
+                "name": "Denmark",
+                "x": -24.0,
+                "y": -35.0
+              },
+              {
+                "name": "Colombia",
+                "x": -18.0,
+                "y": -10.0
+              },
+              {
+                "name": "US",
+                "x": -16.0,
+                "y": -5.0
+              },
+              {
+                "name": "France",
+                "x": -15.0,
+                "y": -2.0
+              },
+              {
+                "name": "Canada",
+                "x": -12.0,
+                "y": -10.0
+              },
+              {
+                "name": "Mexico",
+                "x": -9.0,
+                "y": -8.0
+              },
+              {
+                "name": "South Africa",
+                "x": -7.0,
+                "y": 0.0
+              },
+              {
+                "name": "China",
+                "x": -3.0,
+                "y": 8.0
+              }
+            ]
+          }
+        ],
+        "figure_id": "e7c8fc9ec2251e88",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": null,
+            "range": {
+              "min": -60.0,
+              "max": 0.0
+            }
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -50.0,
+              "max": 30.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Data Points",
+            "unit": null,
+            "values": [
+              {
+                "name": "Sweden",
+                "x": -47.0,
+                "y": 24.0
+              },
+              {
+                "name": "Denmark",
+                "x": -25.0,
+                "y": 7.0
+              },
+              {
+                "name": "Peru",
+                "x": -20.0,
+                "y": 3.0
+              },
+              {
+                "name": "Colombia",
+                "x": -15.0,
+                "y": 1.0
+              },
+              {
+                "name": "US",
+                "x": -16.0,
+                "y": -2.0
+              },
+              {
+                "name": "Canada",
+                "x": -10.0,
+                "y": 6.0
+              },
+              {
+                "name": "South Africa",
+                "x": -8.0,
+                "y": 4.0
+              },
+              {
+                "name": "France",
+                "x": -10.0,
+                "y": -3.0
+              },
+              {
+                "name": "South Korea",
+                "x": -18.0,
+                "y": -5.0
+              },
+              {
+                "name": "China",
+                "x": -2.0,
+                "y": -5.0
+              },
+              {
+                "name": "UK",
+                "x": -40.0,
+                "y": -5.0
+              },
+              {
+                "name": "Germany",
+                "x": -38.0,
+                "y": -8.0
+              },
+              {
+                "name": "Spain",
+                "x": -37.0,
+                "y": -10.0
+              },
+              {
+                "name": "Chile",
+                "x": -33.0,
+                "y": -7.0
+              },
+              {
+                "name": "Italy",
+                "x": -30.0,
+                "y": -12.0
+              },
+              {
+                "name": "Brazil",
+                "x": -27.0,
+                "y": -9.0
+              },
+              {
+                "name": "Austria",
+                "x": -25.0,
+                "y": -7.0
+              },
+              {
+                "name": "Mexico",
+                "x": -10.0,
+                "y": -19.0
+              },
+              {
+                "name": "Poland",
+                "x": -52.0,
+                "y": -15.0
+              },
+              {
+                "name": "Greece",
+                "x": -48.0,
+                "y": -38.0
+              }
+            ]
+          }
+        ],
+        "figure_id": "49c645a920b058ec",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": null,
+            "range": {
+              "min": -50.0,
+              "max": 30.0
+            }
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -50.0,
+              "max": 20.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "China",
+            "unit": null,
+            "values": [
+              {
+                "x": -2.0,
+                "y": 9.0
+              }
+            ]
+          },
+          {
+            "name": "South Africa",
+            "unit": null,
+            "values": [
+              {
+                "x": 4.0,
+                "y": 1.0
+              }
+            ]
+          },
+          {
+            "name": "Peru",
+            "unit": null,
+            "values": [
+              {
+                "x": 2.0,
+                "y": 0.0
+              }
+            ]
+          },
+          {
+            "name": "France",
+            "unit": null,
+            "values": [
+              {
+                "x": 5.0,
+                "y": -5.0
+              }
+            ]
+          },
+          {
+            "name": "US",
+            "unit": null,
+            "values": [
+              {
+                "x": 7.0,
+                "y": -10.0
+              }
+            ]
+          },
+          {
+            "name": "Canada",
+            "unit": null,
+            "values": [
+              {
+                "x": 12.0,
+                "y": -5.0
+              }
+            ]
+          },
+          {
+            "name": "Colombia",
+            "unit": null,
+            "values": [
+              {
+                "x": 10.0,
+                "y": -12.0
+              }
+            ]
+          },
+          {
+            "name": "Sweden",
+            "unit": null,
+            "values": [
+              {
+                "x": 25.0,
+                "y": -10.0
+              }
+            ]
+          },
+          {
+            "name": "Brazil",
+            "unit": null,
+            "values": [
+              {
+                "x": -8.0,
+                "y": -3.0
+              }
+            ]
+          },
+          {
+            "name": "Mexico",
+            "unit": null,
+            "values": [
+              {
+                "x": -20.0,
+                "y": -5.0
+              }
+            ]
+          },
+          {
+            "name": "Spain",
+            "unit": null,
+            "values": [
+              {
+                "x": -18.0,
+                "y": -10.0
+              }
+            ]
+          },
+          {
+            "name": "Germany",
+            "unit": null,
+            "values": [
+              {
+                "x": -15.0,
+                "y": -12.0
+              }
+            ]
+          },
+          {
+            "name": "UK",
+            "unit": null,
+            "values": [
+              {
+                "x": -12.0,
+                "y": -15.0
+              }
+            ]
+          },
+          {
+            "name": "Poland",
+            "unit": null,
+            "values": [
+              {
+                "x": -18.0,
+                "y": -18.0
+              }
+            ]
+          },
+          {
+            "name": "Italy",
+            "unit": null,
+            "values": [
+              {
+                "x": -10.0,
+                "y": -18.0
+              }
+            ]
+          },
+          {
+            "name": "Austria",
+            "unit": null,
+            "values": [
+              {
+                "x": -5.0,
+                "y": -20.0
+              }
+            ]
+          },
+          {
+            "name": "South Korea",
+            "unit": null,
+            "values": [
+              {
+                "x": 0.0,
+                "y": -22.0
+              }
+            ]
+          },
+          {
+            "name": "Chile",
+            "unit": null,
+            "values": [
+              {
+                "x": -10.0,
+                "y": -10.0
+              }
+            ]
+          },
+          {
+            "name": "Denmark",
+            "unit": null,
+            "values": [
+              {
+                "x": 8.0,
+                "y": -32.0
+              }
+            ]
+          },
+          {
+            "name": "Greece",
+            "unit": null,
+            "values": [
+              {
+                "x": -38.0,
+                "y": -28.0
+              }
+            ]
+          }
+        ],
+        "figure_id": "bda1e69eec4a3a81",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Brazil",
+              "Mexico",
+              "Chile",
+              "Colombia",
+              "Peru",
+              "US",
+              "Canada",
+              "South Africa",
+              "Austria",
+              "Greece",
+              "Poland",
+              "China",
+              "South Korea",
+              "Spain",
+              "France",
+              "Germany",
+              "Italy",
+              "UK",
+              "Denmark",
+              "Sweden"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 90
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2014",
+            "unit": "%",
+            "values": [
+              50,
+              59,
+              52,
+              56,
+              38,
+              61,
+              60,
+              55,
+              60,
+              61,
+              54,
+              30,
+              51,
+              49,
+              67,
+              69,
+              62,
+              66,
+              66,
+              54
+            ]
+          },
+          {
+            "name": "2024",
+            "unit": "%",
+            "values": [
+              45,
+              56,
+              40,
+              48,
+              37,
+              57,
+              56,
+              52,
+              50,
+              35,
+              42,
+              28,
+              36,
+              40,
+              65,
+              59,
+              52,
+              56,
+              42,
+              50
+            ]
+          }
+        ],
+        "figure_id": "d8ddba2d3c0ba969",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Brazil",
+              "Mexico",
+              "Chile",
+              "Colombia",
+              "Peru",
+              "US",
+              "Canada",
+              "South Africa",
+              "Austria",
+              "Greece",
+              "Poland",
+              "China",
+              "South Korea",
+              "Spain",
+              "France",
+              "Germany",
+              "Italy",
+              "UK",
+              "Denmark",
+              "Sweden"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 60
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "2014",
+            "unit": null,
+            "values": [
+              19.5,
+              18.5,
+              24.5,
+              16.5,
+              20.5,
+              33.5,
+              28.5,
+              40,
+              15.5,
+              17.5,
+              13.5,
+              17.5,
+              16.5,
+              7.5,
+              10.5,
+              13.5,
+              17.5,
+              12.5,
+              28.5,
+              22.5
+            ]
+          },
+          {
+            "name": "2024",
+            "unit": null,
+            "values": [
+              23.5,
+              22.5,
+              36,
+              19.5,
+              27,
+              44,
+              30,
+              46,
+              18.5,
+              19.5,
+              20.5,
+              18.5,
+              19.5,
+              11.5,
+              13.5,
+              20.5,
+              26.5,
+              14.5,
+              45,
+              57
+            ]
+          }
+        ],
+        "figure_id": "2f7d0647534c70ec",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "0dc18073bb173c65",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "eleration of banks' efficiency strategy Brazilian banks have reduced their physical footprint by c.30% over the past ten years, but headcount fell by only c.10% and opex continued to grow in line with",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5c9201b19d56bf3b",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ave reduced their physical footprint by c.30% over the past ten years, but headcount fell by only c.10% and opex continued to grow in line with inflation, given investments in tech infrastructure and ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "90818e4c431bd197",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ount. Our sensitivity analysis suggests that such a strategy could pose potential upside risk of 5- 10% to our '27 estimates and think it would become a major topic of discussion for the sector. ## Dr",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e6413ded05e73d19",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "with the trends observed in the past 10 years. However, if we were to incorporate reductions of 10- 17% in branches and 4- 12% in headcount through '27, we believe that opex could grow at half of the ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c51b5ebeba3f7dff",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d in the past 10 years. However, if we were to incorporate reductions of 10- 17% in branches and 4- 12% in headcount through '27, we believe that opex could grow at half of the expected pace or even r",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e39ad17c6c6ec323",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "even remain flat in nominal terms. This could lead to an improved industry efficiency ratio of 38- 40% (vs 42% currently forecasted), boost '27E sector earnings by 5- 10%, and increase ROE by 100- 200",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e75d4377c4f08ba9",
+        "value": 0.42,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "main flat in nominal terms. This could lead to an improved industry efficiency ratio of 38- 40% (vs 42% currently forecasted), boost '27E sector earnings by 5- 10%, and increase ROE by 100- 200bp (to ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "abf0d0afe7e655d4",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ndustry efficiency ratio of 38- 40% (vs 42% currently forecasted), boost '27E sector earnings by 5- 10%, and increase ROE by 100- 200bp (to 18- 19% vs current forecast of 17%). Exhibit 11. ## We see s",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "fd046042c35c831e",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "currently forecasted), boost '27E sector earnings by 5- 10%, and increase ROE by 100- 200bp (to 18- 19% vs current forecast of 17%). Exhibit 11. ## We see stronger upside for the private sector banks ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "6379f87826f702b8",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "t '27E sector earnings by 5- 10%, and increase ROE by 100- 200bp (to 18- 19% vs current forecast of 17%). Exhibit 11. ## We see stronger upside for the private sector banks We expect the private secto",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "08b3c77d51345a7a",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "countries from different regions. In the past 10 years, there has been a significant reduction of c.20% in the number of physical branches. The global trend shows that headcount tends to be more resis",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "daaaba453ea205af",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "physical branches. The global trend shows that headcount tends to be more resistant, dropping only 5% in the same period. However, the data suggests that countries that have been more active in reduci",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "76313ab4e711b959",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tion network in the past 10 years. During this period, the system's branch network was reduced by c.30% (Exhibit 1), while headcount was reduced by c.10% (Exhibit 2), according to Brazilian Central Ba",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d59c3076d3f8e8d4",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "iod, the system's branch network was reduced by c.30% (Exhibit 1), while headcount was reduced by c.10% (Exhibit 2), according to Brazilian Central Bank data. ![Figure 1-0](images/1_0.jpg) <center>Exh",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "79d7b6529ab478f4",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "3 and 4). Meanwhile, Santander had the smallest reduction in branches, according to BCB data (about 10% in ten years). Banco do Brasil's branches declined in the same pace as private peers' before the",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "df408d14c726de43",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e past decade, although it happened mostly before the pandemic. Bradesco's headcount declined about 10% over the past ten years. On the flipside, headcount actually increased for Itau and Santander (E",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c6fa7b3fffafb427",
+        "value": 0.49,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d 9. With opex growing at mid- single digits over the past years, efficiency ratio hovered around c.49% according to BCB data, ranging between 44% and 54% (47.8% in '24). Exhibit 10. Operating expense",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "40dcee284bf8c3aa",
+        "value": 0.44,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s over the past years, efficiency ratio hovered around c.49% according to BCB data, ranging between 44% and 54% (47.8% in '24). Exhibit 10. Operating expenses grew roughly in line with inflation over ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "87d226d8e56ee5ac",
+        "value": 0.54,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "he past years, efficiency ratio hovered around c.49% according to BCB data, ranging between 44% and 54% (47.8% in '24). Exhibit 10. Operating expenses grew roughly in line with inflation over the past",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "b74d19610489197a",
+        "value": 0.478,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "st years, efficiency ratio hovered around c.49% according to BCB data, ranging between 44% and 54% (47.8% in '24). Exhibit 10. Operating expenses grew roughly in line with inflation over the past ten ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "61c5bf154a862fd6",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Itau has currently the worst forecasts for opex growth (7% CAGR between '24-'27E vs peers average of 5%). A strong efficiency strategy could pose 7-11% potent",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "41b0fb0fed91cde8",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tau has currently the worst forecasts for opex growth (7% CAGR between '24-'27E vs peers average of 5%). A strong efficiency strategy could pose 7-11% potential upside risk to net income forecasts, su",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "17d8863a6ab3c263",
+        "value": -0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "growth (7% CAGR between '24-'27E vs peers average of 5%). A strong efficiency strategy could pose 7-11% potential upside risk to net income forecasts, suggesting i) efficiency ratio of 32-34% (vs curr",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "da289b7aa1c1eded",
+        "value": -0.34,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "could pose 7-11% potential upside risk to net income forecasts, suggesting i) efficiency ratio of 32-34% (vs current levels of 40% and 38% forecast for '27E) and ii) ROE between 24-25% vs current fore",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "57f914f77fbd9869",
+        "value": 0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "upside risk to net income forecasts, suggesting i) efficiency ratio of 32-34% (vs current levels of 40% and 38% forecast for '27E) and ii) ROE between 24-25% vs current forecast of 23% for '27E. We as",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "19fd70c479ed3664",
+        "value": 0.38,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "isk to net income forecasts, suggesting i) efficiency ratio of 32-34% (vs current levels of 40% and 38% forecast for '27E) and ii) ROE between 24-25% vs current forecast of 23% for '27E. We assume 15-",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d471d4929edbf485",
+        "value": -0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ficiency ratio of 32-34% (vs current levels of 40% and 38% forecast for '27E) and ii) ROE between 24-25% vs current forecast of 23% for '27E. We assume 15-25% reductions in branches and 5-15% reductio",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "bc2a8d839b216180",
+        "value": 0.23,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "current levels of 40% and 38% forecast for '27E) and ii) ROE between 24-25% vs current forecast of 23% for '27E. We assume 15-25% reductions in branches and 5-15% reduction in headcount. We estimate p",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "899d5857d99c90c2",
+        "value": -0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "38% forecast for '27E) and ii) ROE between 24-25% vs current forecast of 23% for '27E. We assume 15-25% reductions in branches and 5-15% reduction in headcount. We estimate potential upside risk of 6-",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "202c03c2f3021245",
+        "value": -0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "OE between 24-25% vs current forecast of 23% for '27E. We assume 15-25% reductions in branches and 5-15% reduction in headcount. We estimate potential upside risk of 6-10% to Santander's earnings fore",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "299e985a15d16ad7",
+        "value": -0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "25% reductions in branches and 5-15% reduction in headcount. We estimate potential upside risk of 6-10% to Santander's earnings forecast, which would yield ROEs between 18-19%, vs current forecast of ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "1f7db2b912941fa6",
+        "value": -0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e potential upside risk of 6-10% to Santander's earnings forecast, which would yield ROEs between 18-19%, vs current forecast of 17% for '27E. Efficiency ratio could reach 38-40%, vs current forecast ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e3de59881431fe5f",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "10% to Santander's earnings forecast, which would yield ROEs between 18-19%, vs current forecast of 17% for '27E. Efficiency ratio could reach 38-40%, vs current forecast of 42%. We assume 10-20% redu",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "0eefead24f1a6332",
+        "value": -0.4,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ould yield ROEs between 18-19%, vs current forecast of 17% for '27E. Efficiency ratio could reach 38-40%, vs current forecast of 42%. We assume 10-20% reductions in branches and 5-10% reduction in hea",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ab964ad706685958",
+        "value": 0.42,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%, vs current forecast of 17% for '27E. Efficiency ratio could reach 38-40%, vs current forecast of 42%. We assume 10-20% reductions in branches and 5-10% reduction in headcount. Finally, we expect a ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4ce0191a333fe083",
+        "value": -0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ecast of 17% for '27E. Efficiency ratio could reach 38-40%, vs current forecast of 42%. We assume 10-20% reductions in branches and 5-10% reduction in headcount. Finally, we expect a softer reduction ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "903e437183e32c76",
+        "value": -0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ratio could reach 38-40%, vs current forecast of 42%. We assume 10-20% reductions in branches and 5-10% reduction in headcount. Finally, we expect a softer reduction in branches and headcount for Banc",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a2d9d1eb958fb487",
+        "value": -0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ts government control and the fact that it has the lowest headcount per branch vs peers. We assume 2-5% reduction in branches and headcount, providing potential upside risk of 5-7% to our net income f",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b8a7e36946cd15ee",
+        "value": -0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "h vs peers. We assume 2-5% reduction in branches and headcount, providing potential upside risk of 5-7% to our net income forecasts, which could lift ROE to 15% vs current forecast of 14% for '27E. Ex",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "43b00341ac8408a1",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "count, providing potential upside risk of 5-7% to our net income forecasts, which could lift ROE to 15% vs current forecast of 14% for '27E. Exhibit 11: Efficient and very efficient scenarios We see p",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "1b523fa76a79ae3a",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "upside risk of 5-7% to our net income forecasts, which could lift ROE to 15% vs current forecast of 14% for '27E. Exhibit 11: Efficient and very efficient scenarios We see potential upside risk of 6-1",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b85f1be8789ae976",
+        "value": -0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "14% for '27E. Exhibit 11: Efficient and very efficient scenarios We see potential upside risk of 6-10% to our '27E earnings estimates <table><tr><td>Assumptions</td><td>BBAS</td><td>BBDC</td><td>ITUB<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e42b78b6939e25f4",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "n branches</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Efficient scenario</td><td>2%</td><td>15%</td><td>15%</td><td>10%</td><td>10%</td></tr><tr><td>Very efficient scenario</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "db8e18c587e984d6",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Efficient scenario</td><td>2%</td><td>15%</td><td>15%</td><td>10%</td><td>10%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e226d28ecf78e265",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td></td><td></td><td></td><td></td></tr><tr><td>Efficient scenario</td><td>2%</td><td>15%</td><td>15%</td><td>10%</td><td>10%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>25%</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5e9489ff6e62198e",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td><td></td><td></td></tr><tr><td>Efficient scenario</td><td>2%</td><td>15%</td><td>15%</td><td>10%</td><td>10%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>25%</td><td>25%</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f961275198e1c11d",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td></tr><tr><td>Efficient scenario</td><td>2%</td><td>15%</td><td>15%</td><td>10%</td><td>10%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>25%</td><td>25%</td><td>20%</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d529c72949548198",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2%</td><td>15%</td><td>15%</td><td>10%</td><td>10%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>25%</td><td>25%</td><td>20%</td><td>17%</td></tr><tr><td>Reduction in headcount</td><td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "95cb884936534f00",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "15%</td><td>15%</td><td>10%</td><td>10%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>25%</td><td>25%</td><td>20%</td><td>17%</td></tr><tr><td>Reduction in headcount</td><td></td><td></t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6da4a6de49e9ff6c",
+        "value": 0.25,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "15%</td><td>10%</td><td>10%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>25%</td><td>25%</td><td>20%</td><td>17%</td></tr><tr><td>Reduction in headcount</td><td></td><td></td><td></td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2add1180a3132129",
+        "value": 0.2,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "10%</td><td>10%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>25%</td><td>25%</td><td>20%</td><td>17%</td></tr><tr><td>Reduction in headcount</td><td></td><td></td><td></td><td></td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a37a08b62aaa4332",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "10%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>25%</td><td>25%</td><td>20%</td><td>17%</td></tr><tr><td>Reduction in headcount</td><td></td><td></td><td></td><td></td><td></td></tr><t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a0bb7f2e5f122e41",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "headcount</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Efficient scenario</td><td>2%</td><td>5%</td><td>5%</td><td>5%</td><td>4%</td></tr><tr><td>Very efficient scenario</td><td>5%</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "dcd3f72b786a0a37",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Efficient scenario</td><td>2%</td><td>5%</td><td>5%</td><td>5%</td><td>4%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>15%<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "7fccdb819dcdd77e",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td></td><td></td><td></td></tr><tr><td>Efficient scenario</td><td>2%</td><td>5%</td><td>5%</td><td>5%</td><td>4%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>15%</td><td>15%",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "8f79ede0a80a2c2e",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td></td><td></td><td></td></tr><tr><td>Efficient scenario</td><td>2%</td><td>5%</td><td>5%</td><td>5%</td><td>4%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>15%</td><td>15%</td><td>10",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f2dc3ac45e896a45",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td><td></td></tr><tr><td>Efficient scenario</td><td>2%</td><td>5%</td><td>5%</td><td>5%</td><td>4%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>15%</td><td>15%</td><td>10%</td><td>1",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "843927a25ff337d0",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>2%</td><td>5%</td><td>5%</td><td>5%</td><td>4%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>15%</td><td>15%</td><td>10%</td><td>12%</td></tr><tr><td>Branches (thousands)</td><td></t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "c439df2a6ab9ba58",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>5%</td><td>5%</td><td>5%</td><td>4%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>15%</td><td>15%</td><td>10%</td><td>12%</td></tr><tr><td>Branches (thousands)</td><td></td><td></td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "1ed30d14c61c61d3",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>5%</td><td>5%</td><td>4%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>15%</td><td>15%</td><td>10%</td><td>12%</td></tr><tr><td>Branches (thousands)</td><td></td><td></td><td></td><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "8d58959f58f05ebb",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>5%</td><td>4%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>15%</td><td>15%</td><td>10%</td><td>12%</td></tr><tr><td>Branches (thousands)</td><td></td><td></td><td></td><td></td><td></",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d9b758fd47904c4a",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">4%</td></tr><tr><td>Very efficient scenario</td><td>5%</td><td>15%</td><td>15%</td><td>10%</td><td>12%</td></tr><tr><td>Branches (thousands)</td><td></td><td></td><td></td><td></td><td></td></tr><tr>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3f2de8aea05bbc24",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "o NI('27E)</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Efficient scenario</td><td>5%</td><td>5%</td><td>7%</td><td>6%</td><td>6%</td></tr><tr><td>Very efficient scenario</td><td>7%</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "dcd3f72b786a0a37",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>Efficient scenario</td><td>5%</td><td>5%</td><td>7%</td><td>6%</td><td>6%</td></tr><tr><td>Very efficient scenario</td><td>7%</td><td>12%<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4bdc3b1d664d0768",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td></td><td></td><td></td></tr><tr><td>Efficient scenario</td><td>5%</td><td>5%</td><td>7%</td><td>6%</td><td>6%</td></tr><tr><td>Very efficient scenario</td><td>7%</td><td>12%</td><td>11%",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "60c326b0658cb9a7",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td></td><td></td><td></td></tr><tr><td>Efficient scenario</td><td>5%</td><td>5%</td><td>7%</td><td>6%</td><td>6%</td></tr><tr><td>Very efficient scenario</td><td>7%</td><td>12%</td><td>11%</td><td>10",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "75c3881084b23ac6",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td><td></td></tr><tr><td>Efficient scenario</td><td>5%</td><td>5%</td><td>7%</td><td>6%</td><td>6%</td></tr><tr><td>Very efficient scenario</td><td>7%</td><td>12%</td><td>11%</td><td>10%</td><td>1",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e4de075038217e9d",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>5%</td><td>5%</td><td>7%</td><td>6%</td><td>6%</td></tr><tr><td>Very efficient scenario</td><td>7%</td><td>12%</td><td>11%</td><td>10%</td><td>10%</td></tr><tr><td>Net income ('27E, R$bn)</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a5d11352de87b7c6",
+        "value": 0.12,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>5%</td><td>7%</td><td>6%</td><td>6%</td></tr><tr><td>Very efficient scenario</td><td>7%</td><td>12%</td><td>11%</td><td>10%</td><td>10%</td></tr><tr><td>Net income ('27E, R$bn)</td><td></td><td></",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b1002d2f11e346c4",
+        "value": 0.11,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>7%</td><td>6%</td><td>6%</td></tr><tr><td>Very efficient scenario</td><td>7%</td><td>12%</td><td>11%</td><td>10%</td><td>10%</td></tr><tr><td>Net income ('27E, R$bn)</td><td></td><td></td><td></td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "0fd6439f67d4a165",
+        "value": 0.13,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rasil of R&#36;20/US&#36;3.5 is derived from the Gordon Growth Model, assuming a sustainable ROE of 13%, a COE of 19%, and 4% growth in perpetuity. Our PO implies a target '26E P/BV multiple of 0.6x. ",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "553cf601d7176182",
+        "value": 0.19,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ";20/US&#36;3.5 is derived from the Gordon Growth Model, assuming a sustainable ROE of 13%, a COE of 19%, and 4% growth in perpetuity. Our PO implies a target '26E P/BV multiple of 0.6x. Our USD/ADR PO",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "c8bb9a1fa1ec78ca",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6;3.5 is derived from the Gordon Growth Model, assuming a sustainable ROE of 13%, a COE of 19%, and 4% growth in perpetuity. Our PO implies a target '26E P/BV multiple of 0.6x. Our USD/ADR PO is deriv",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "6c72abc0a206e34f",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "desco of R&#36;17/US&#36;3.0 is derived from the Gordon Growth Model, assuming a sustainable ROE of 16%, a COE of 16.2%, and 4% growth in perpetuity. Our PO implies a target '25E P/BV multiple of 1.0x",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "fc189eb5a66ad843",
+        "value": 0.162,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ";17/US&#36;3.0 is derived from the Gordon Growth Model, assuming a sustainable ROE of 16%, a COE of 16.2%, and 4% growth in perpetuity. Our PO implies a target '25E P/BV multiple of 1.0x. Our USD/ADR ",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "17e43781c98ed84b",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "3.0 is derived from the Gordon Growth Model, assuming a sustainable ROE of 16%, a COE of 16.2%, and 4% growth in perpetuity. Our PO implies a target '25E P/BV multiple of 1.0x. Our USD/ADR PO is deriv",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "ecb38163be434bf2",
+        "value": 0.23,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Itau of R&#36;41/US&#36;7.1 is derived from the Gordon Growth model, assuming a sustainable ROE of 23%, a COE of 14.0%, and 4% growth in perpetuity. Our USD/ADR PO is derived from the local PO convert",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "6e8bbc5a9882b8d4",
+        "value": 0.14,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ";41/US&#36;7.1 is derived from the Gordon Growth model, assuming a sustainable ROE of 23%, a COE of 14.0%, and 4% growth in perpetuity. Our USD/ADR PO is derived from the local PO converted at an FX r",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "b0216172d362ef52",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "7.1 is derived from the Gordon Growth model, assuming a sustainable ROE of 23%, a COE of 14.0%, and 4% growth in perpetuity. Our USD/ADR PO is derived from the local PO converted at an FX rate of 5.75",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "d8a7c881894c27e8",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "asil of R&#36;33/US&#36;5.7 is derived from the Gordon Growth Model, assuming a sustainable ROAE of 17%, a COE of 14.6%, and 4% growth in perpetuity. Our PO implies a target '25 P/BV multiple of 1.3x.",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "9f027bc6272b8817",
+        "value": 0.146,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "33/US&#36;5.7 is derived from the Gordon Growth Model, assuming a sustainable ROAE of 17%, a COE of 14.6%, and 4% growth in perpetuity. Our PO implies a target '25 P/BV multiple of 1.3x. Our USD/ADR P",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "02de67c330f74bab",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".7 is derived from the Gordon Growth Model, assuming a sustainable ROAE of 17%, a COE of 14.6%, and 4% growth in perpetuity. Our PO implies a target '25 P/BV multiple of 1.3x. Our USD/ADR PO is derive",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 15,
+      "tables_count": 0,
+      "numerical_data_count": 82,
+      "passages_count": 82,
+      "entities_count": 20
+    }
+  }
+}

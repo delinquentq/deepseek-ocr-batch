@@ -1,0 +1,281 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "78f3bc6a8d21692869c668840e68d4ac",
+    "title": "FHL Exchange Report",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Nomura/FHL Exchange Report - 29 Aug 2025FHL Exchange Report - 29 Aug 2025_2025-09-01",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:32:47.438181",
+      "extracted_at": "2025-10-26T12:32:47.438194"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 10,
+        "successful_pages": 10,
+        "date": "2025-09-01",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Nomura",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.16996551627463619
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Nomura"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "db989a54732fa66c",
+      "text": "Fixed Income Research | Americas  29 August 2025",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c816ad3ad25d5f36",
+      "text": "CPNVintageType45-day Pool Balance (ex-cmo lock) in $BNExchanged CollateralUnexchanged CollateralFed BalanceUnexchanged Float (ex-Fed)Exchanged BalancePercent ExchangedNun's Pools ExchangedWACWALAAOLSAOCSOLTV1YR CPRWACWALAAOLSAOCSAllAll-073.718371250233.44.21124236750756.44.21122218749756.52.5All-00.31751093.26119276771724.83.20132257771724.62.5OtherNon-Spec00.3176973.26119276771724.83.20132262772714.62.5OtherSpec00015123.39136149753742.23.22131168751824.73All-020.958.77418593.66126259762735.43.68119243762735.632016Non-Spec07.922.1742033.70107279758755.23.69107278758755.232016Spec03.22.7462773.63107151759746.43.66108165760756.332015Non-Spec02.95.565983.76122269767725.33.80122270767725.432015Spec00.30.3491173.72122143766736.93.73122159770726.632013Non-Spec02.213.4862533.57149255764725.33.58147254763725.232013Spec01.22622773.55149134764696.73.54149127764697.032012Non-Spec00.98.9912113.61154267769705.23.58154265769725.532012Spec00.50.4421663.57153145768696.83.58153131768697.03OtherNon-Spec01.73.2661553.8693286761745.83.76102285763735.23OtherSpec00.20.3571023.7097190760726.03.67103170762725.63.5All-02959.86738444.10120242752756.34.07117216752756.53.52018Non-Spec02.42.3481664.2488287753767.04.1389295754766.83.52018Spec00.40.7631534.1189166756736.94.0890155758757.13.52017Non-Spec04.49.1682614.0897286753776.24.0595285754786.13.52017Spec03.53.6513394.0196179757756.34.0297149756756.93.52016Non-Spec01.65.5782014.15110276737755.94.15111273736775.93.52016Spec02.32.3502404.02109164743746.94.04109167744746.53.52015Non-Spec02.710.5802274.12121265751766.04.13121262748756.13.52015Spec03.31.5322764.06121135754736.84.07122151755747.03.52014Non-Spec01.24.178914.22132249760766.34.21131256760746.33.52014Spec00.51.4761254.0513492755708.24.17131159763747.43.52012Non-Spec01.812.9884444.00155247755746.03.99157256756755.73.52012Spec01.71.4463383.98156159758707.04.00157135759717.03.5OtherNon-Spec01.62.8644244.3692282751796.94.06141253747776.53.5OtherSpec01.81.7485594.16120141751747.44.02143140749727.04All-01439.27455624.58118224739766.94.56114211739777.142018Non-Spec02.65.1663804.6885291744796.84.6985291744806.842018Spec01.42.9677704.5886165750767.44.5886168750787.442017Non-Spec01.34.4772524.5098291726786.54.5097289728796.842017Spec02.13.1605864.4497153737747.44.4496150738767.542014Non-Spec00.65.2902164.60134242735776.24.60132246732776.0",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "cbe1cb6395bc65e3",
+      "text": "CPNVintageType45-day Pool Balance (ex-cmo lock) in $BNExchanged CollateralUnexchanged CollateralFed BalanceUnexchanged Float (ex-Fed)Exchanged BalancePercent ExchangedNum Pools ExchangedWACWALAAOLSAOCSOLTV1YR CPRWACWALAAOLSAOCSOITV1YR CPR42014Spec011.5593134.57134124741757.34.58134151740757.042011Non-Spec00.76.2892984.55165229750726.84.45171249757726.642011Spec00.40.6602384.48168119758717.44.47169125761698.04OtherNon-Spec01.85.77610604.66113267727787.14.58136252729776.84OtherSpec02.14.66914494.57116136738747.54.53132139736747.34.5All-05.816.87444315.00123194735757.94.99129196730767.74.52018Non-Spec00.52802905.1484294721808.45.1484291719818.54.52018Spec01.54.6766924.9885143735767.94.9785165734787.64.52009Non-Spec00.34.5942204.93191205754707.54.94192200754707.84.52009Spec00.10.1501624.95193124755679.44.95192111757678.54.5OtherNon-Spec02.12.65513615.08123259720777.35.00151235725757.24.5OtherSpec01.337017065.01104135730768.34.96137143731748.15All-01.767830205.52152164723758.45.50183176721758.25OtherNon-Spec01.23.77513875.51181187725757.95.50191195720757.75OtherSpec00.42.38416335.54106129720769.25.50162122723749.55.5All-0114923846.04206144711758.36.03223148713737.85.5OtherNon-Spec00.90.74411716.03218159713J6.03223154714737.65.5OtherSpec00.20.36612136.06183115707779.46.03221117706748.66All-00.60.33417366.50230125703778.56.52225135703757.96OtherNon-Spec00.50.2287866.50229140702768.46.53226143703757.86OtherSpec00.20.1479506.51231107700788.66.50223114704758.36.5All-00.10.26110696.982581036857910.76.99242113688799.16.5OtherNon-Spec00.10.1593706.972631096927811.26.98240116689789.26.5OtherSpec000.1666996.9824592670819.67.01249106685808.87All-00.10305027.58264926698211.17.56258946728111.27OtherNon-Spec00.10291527.59264956718111.47.58258916728111.97OtherSpec000333507.55263846638310.37.52257102671818.8",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "bb1e891e610f6c71",
+      "text": "45-day Pool Balance (ex-cmo lock) in $BNExchanged CollateralUnexchanged CollateralCPNVintageTypeFed BalanceUnexchanged Float (ex-Fed)Exchanged BalancePercent ExchangedNum Pools ExchangedWACWALAAOLSAOCSOLTV1YR CPRWACWALAAOLSAOCSAllAll-012.220.86352643.411142057526410.63.321152017536410.72.5All-05.78.96113153.011212307626410.13.011182207616410.02.52016Non-Spec01.82.962582.99108251761648.12.98108252761648.12.52016Spec00.60.6491412.99108122756629.92.99107143759639.52.5OtherNon-Spec02.54.9675703.031292437636510.73.041232487636510.22.5OtherSpec00.90.6395463.041331257596313.53.031331337606313.23All-04.27.96516613.561111987476510.83.541141827466511.13OtherNon-Spec02.35.7715893.561122267486610.73.541142307486610.83OtherSpec01.92.35410723.561101277436211.03.551141257446311.53.5All-01.32.56512844.13981577366411.74.111021647366511.93.5OtherNon-Spec00.71.2644644.13982097386711.84.12962117376711.53.5OtherSpec00.71.3668204.13981127356211.64.101071187346312.34All-00.20.7796614.68851337276411.44.64971737296616.74OtherNon-Spec00.10.2572324.69871967276813.94.64911977286815.84OtherSpec00.10.5914294.68841117276310.54.631121097326319.04.5All-000731535.18861317116815.05.13951227146921.94.5OtherNon-Spec00061905.14861577136916.05.15921307117022.04.5OtherSpec00090635.21861097096714.15.06111807336721.55All-0007325.44172697335940.25.6284717026512.05OtherSpec0007325.44172697335940.25.6284717026512.05.5All-00010016.0017960644800.15.5OtherSpec00010016.0017960644800.1",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "44613f5800b3d937",
+      "text": "CPNVintageType45-day Pool Balance (ex-cmo lock) in $BNExchanged CollateralUnexchanged CollateralFed BalanceUnexchanged Float (ex-Fed)Exchanged BalancePercent ExchangedNum Pools ExchangedWACWALAAOLSAOCSOLTV1YR CPRWACWALAAOLSAOCSOTLV1YR CPRAllAll-07.15.44316704.01116172748687.53.95123194749687.32.5All-00.40.339413.25108232772655.03.28115231772646.12.5OtherNon-Spec00.40.339353.25108233772655.03.28114234772646.02.5OtherSpec0001363.33152111763568.83.321521167666010.33All-03.42.5432163.67116186756687.03.67121207757687.03OtherNon-Spec03.21.9371563.68115210756686.83.67120211757686.93OtherSpec00.20.678603.63117111758677.73.64134134759678.33.5All-02.11.4393704.11117160745687.64.11127182744697.43.5OtherNon-Spec020.8292164.13117192746697.34.12126186744697.33.5OtherSpec00.10.6821544.07117112744678.14.10140119745678.54All-010.9483504.60111148733688.04.60116170729697.84OtherNon-Spec00.90.5371824.62116179734697.74.60116173729697.74OtherSpec00.10.4861684.58104106732668.34.55111122726668.34.5All-00.10.2642055.10115141726689.34.981571577377111.24.5OtherNon-Spec00.10.1531085.09127165726709.54.981571587377111.24.5OtherSpec000.198975.109498725669.05.02153112737749.95All-000601615.531591367187115.75.491721407237312.55OtherNon-Spec000571135.501721437207115.65.481711407227312.75OtherSpec00087485.69951027106915.75.57195122741708.15.5All-000591586.032041217106623.76.042131147146619.25.5OtherNon-Spec000581026.042041287106624.76.042131167146618.45.5OtherSpec00064565.98203787106416.26.02212967186624.86All-000731136.50216986996617.96.52214947016616.46OtherNon-Spec00076816.512181026986618.46.532171057026616.56OtherSpec00060326.45206787046514.56.48209677006516.36.5All-00052477.00211846856918.46.95219836947020.76.5OtherNon-Spec00052207.03213916836916.36.96219906956918.46.5OtherSpec00051276.93206686906823.06.92220706927224.97All-0001677.42217706606722.27.42219726707526.17OtherSpec0001677.42217706606722.27.42219726707526.1",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6021d790cc9b2aeb",
+      "text": "45-day Pool Balance (ex-com lock) in $BNExchanged CollateralUnexchanged CollateralCPNVintageTypeFed BalanceUnexchanged Float (ex-Fed)Exchanged BalancePercent ExchangedNum Pools ExchangedWACWALAAOLSAOCSOLTV1YR CPRWACWALAAOLSAOCSOltv1YR CPRAllAll-000541093.68931407505323.03.45981447515319.92.5All-00039323.051061547585330.82.971041627625222.42.5OtherNon-Spec00039273.051061547585330.92.971041637625222.42.5OtherSpec0009453.30911457765717.43.03105717905152.03All-00058303.62931477485420.03.56961467455519.73OtherNon-Spec00057223.61931467495420.23.56961467455519.53OtherSpec0009583.82821717234313.93.791181067444830.63.5All-00064264.18831277445417.84.12911117385415.33.5OtherNon-Spec00063194.18831287445417.24.12911117395415.33.5OtherSpec0007574.08871087414528.14.15921156785317.04All-00062124.8781837375415.24.7684847335412.14OtherNon-Spec0005144.9380807405217.14.7684847335412.14OtherSpec00010084.7983887345711.54.5All-00010015.1079597164017.24.5OtherSpec00010015.1079597164017.2",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "ede1c0adfa80163b",
+      "text": "This report has been produced by Nomura Securities International, Inc.(NSI), US.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "4b64a1b80e358fa0",
+      "text": "See Disclaimers for Nomura Group entity details.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0d55f25bf6e0a1e0",
+      "text": "For reports with respect to Indian public companies or authored by India-based NFASL research analysts: (i) Investment in securities markets is subject to market risks. Read all the related documents carefully before investing. (ii) Registration granted by SEBI, and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors. (iii) NFASL terms and conditions for availing research services is disclosed on NFASL webpage.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "07ce5833bbd45b8a",
+      "text": "(1) Nomura Fiduciary Research & Consulting Co., Ltd. (\"NFRC\") Tokyo, Japan. (m) Nomura Orient International Securities Co., Ltd (\"NOI\"), is a majority owned joint venture amongst Nomura Group, Orient International (Holding) Co., Ltd, and Shanghai Huangpu Investment Holding (Group) Co., Ltd. In accordance with the laws of the People's Republic of China (\"PRC\", excluding Hong Kong, Macau and Taiwan, for the purpose of this document), NOI is licensed in the PRC to provide securities research and investment recommendations and it operates independently from the other members of the Nomura Group; in particular, NOI's interests in PRC securities are not disclosed to, or aggregated with the holdings of, any other Nomura Group entities and the interests in PRC securities of other Nomura Group entities are not disclosed to, or aggregated with the holdings of, NOI. An individual name printed next to NOI on the front page of a research report indicates that individual is employed by NOI to provide research assistance to NIHK under a research partnership agreement. 'NSFSPL' next to an employee's name on the front page of a research report indicates that the individual is employed by Nomura Structured Finance Services Private Limited to provide assistance to certain Nomura entities under inter-company agreements. 'Verdhana' next to an individual's name on the front page of a research report indicates that the individual is employed by PT Verdhana Sekuritas Indonesia (\"Verdhana\") to provide research assistance to NIHK under a research partnership agreement and neither Verdhana nor such individual is licensed outside of Indonesia.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8446879282b7aa2e",
+      "text": "THIS MATERIAL IS: (I) FOR YOUR PRIVATE INFORMATION, AND WE ARE NOT SOLICITING ANY ACTION BASED UPON IT; (II) NOT TO BE CONSTRUED AS AN OFFER TO SELL OR A SOLICITATION OF AN OFFER TO BUY ANY SECURITIES IN ANY JURISDICTION WHERE SUCH OFFER OR SOLICITATION WOULD BE ILLEGAL; AND (III) OTHER THAN DISCLOSURES RELATING TO THE NOMURA GROUP, BASED UPON INFORMATION FROM SOURCES THAT WE CONSIDER RELIABLE, BUT HAS NOT BEEN INDEPENDENTLY VERIFIED BY NOMURA GROUP.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "05aca52651606700",
+      "text": "Other than disosrts r  th  r  r  t  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t  t  t  t  r  t  t  t  t  t  t  t  t  r  r  t  t  t  t  t  t",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c9225a6445cb40a7",
+      "text": "\"benchmark\" as defined by the European Benchmark Regulation.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "88a432598f3b025c",
+      "text": "Certain securities are subject to fluctuations in exchange rates that could have an adverse effect on the value or price of, or income derived from, the investment.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2b94551da539dcc9",
+      "text": "e recommendations are taken at the time of submission for publication and are based on either indicative Bloomberg, LSEG or Nomura prices and yields at that time. The prices and yields shown are not necessarily those at which the trade recommendation can be implemented.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "65275a00161cdf73",
+      "text": "The se  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  n  t  t  t  t  t  t  t  t  t  t  e",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "66665a3eabda2326",
+      "text": "Analysts of Nomura listed on the front page. Disclosures information is available upon request and disclosure information is available at the Nomura Disclosure web page: http://go.nomuranow.com/research/m/Disclosures",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "b9af4246b7bf7d97",
+      "text": "Copyright © 2025 Nomura Securities International, Inc. All rights reserved.",
+      "page": 9,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "fbd258dbd6877fcf",
+      "name": "Consulting Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ce2fcce8553a59da",
+      "name": "Disclosures\n\nCopyright",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1143d21b06b41b7b",
+      "name": "European Benchmark",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4daaf34bb2a7620c",
+      "name": "Exchanged Balance",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "01b1d3463a220237",
+      "name": "Exchanged Collateral",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "31ab07324ba77df2",
+      "name": "FHL Exchange",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4767a627f86043ea",
+      "name": "Fed Balance",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e3094f2af03bc4df",
+      "name": "Finance Services",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "99fc3471b2182bea",
+      "name": "Freddie Mac",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8b476ff778119b8d",
+      "name": "Hong Kong",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dc2f3ce835a3c889",
+      "name": "Income Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1d90972451cd1f6f",
+      "name": "International Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "708b6ebaca0b3351",
+      "name": "Investment Holding",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7c62527f195960ca",
+      "name": "Nomura Disclosure",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9a563f8bba97eff6",
+      "name": "Nomura Fiduciary",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9a503a50b2d66f78",
+      "name": "Nomura Fiduciary Research & Consulting Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "594fddf8b75a7f0a",
+      "name": "Nomura Group",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8bb077ba0687a573",
+      "name": "Nomura Orient",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0910a85924d96dec",
+      "name": "Nomura Orient International Securities Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a5bfc5ecc8ea5651",
+      "name": "Nomura Securities",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [],
+    "tables": [],
+    "numerical_data": [],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 0,
+      "tables_count": 0,
+      "numerical_data_count": 0,
+      "passages_count": 18,
+      "entities_count": 20
+    }
+  }
+}

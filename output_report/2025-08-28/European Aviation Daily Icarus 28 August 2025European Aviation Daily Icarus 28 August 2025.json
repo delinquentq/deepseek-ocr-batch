@@ -1,0 +1,788 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "3e416f6af4de3deeb487f140fb1667c1",
+    "title": "Icarus - 28 August 2025",
+    "source_uri": "2025-08-28/European Aviation Daily Icarus 28 August 2025European Aviation Daily Icarus 28 August 2025_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T01:26:18.784165",
+      "extracted_at": "2025-10-26T01:26:18.784171"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 12,
+        "successful_pages": 12,
+        "date": "2025-08-28",
+        "publication": "2025-08-28",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 9,
+          "removed_paragraphs": 37,
+          "reduction_ratio": 0.5245857734609342
+        },
+        "input_relative_path": "2025-08-28"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "9e6af8a1df865ebd",
+      "text": "European Aviation Daily",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a236681566410a90",
+      "text": "Ryanair caution on summer fares, political messaging dialled up, Condor builds Frankfurt hub, Greek ATC strike called off",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "8bff368338b0f4ad",
+      "text": "- Ryanair \n- some caution on summer fares, lobbying on taxes, upbeat towards Boeing- Condor launching Frankfurt-Dusseldorf- Greek ATC strike called off",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "441ce0c5277b46ac",
+      "text": "Yesterday Ryanair and other European airline shares fell after comments from CEO Michael O'Leary on Bloomberg TV pointed to fares rising \\(5\\%\\) to \\(6\\%\\) this summer. Whilst the company's guidance from 1Q had been for fares to recoup most of last year's \\(7\\%\\) decline, the share price reaction tells us investors had been hoping that the guidance would be beaten. The company had guided to 1Q fares rising around \\(15\\%\\) and they rose \\(21\\%\\) .",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9d96d55c92d2976b",
+      "text": "Our screen scraping review, discussed here shows that Ryanair and easyJet summer fares are moderately up and stronger than other European LCC fares, with flag carrier short haul fares looking stronger than the LCCs in peak summer. However, the Ryanair commentary is consistent with commentary from Jet2 and easyJet that modestly lowered the outlook for peak summer fares when they spoke to the market back in July with their late FY25 (Jet2) and Jun quarter (easyJet) commentary.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6b7938f79d7e4afe",
+      "text": "It will be interesting to watch whether the slightly softer summer flows through to greater weakness in autumn or actually more robust trading. Delta, for example, spoke of tourists putting off visits to Europe in peak summer, deferring travel to the autumn given high temperatures and high peak hotel prices. For travellers who can avoid school holidays, they suggest demand for autumn is robust. TUI's commentary was also notably more robust for winter tour operator trends than for peak summer, although it is worth noting that the TUI winter commentary was weighted to UK travel, which books earlier than Germany and has proven brighter through the summer.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "312b811876669282",
+      "text": "Bloomberg (27 August 2025) reports that Boeing Co. has accelerated 737 Max deliveries to Ryanair with Boeing expressing confidence that it will be able to raise production rates on its top-selling jetliner by the end of October. Ryanair expects to receive 25 of its 737 jets between August and October, four to five months ahead of schedule. Boeing is targeting a production",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "98fede7f8426ba04",
+      "text": "This research report has been prepared in whole or in part by equity research analysts based outside the US who are not registered/qualified as research analysts with FINRA.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9387c0ea6ba64ed9",
+      "text": "Please see analyst certifications and important disclosures beginning on page 6. Completed: 28-Aug- 25, 08:10 GMT Released: 28-Aug- 25, 08:14 GMT Restricted - External",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "fe6a84ebfb0e4fb5",
+      "text": "rate of 42 a month for the 737 by October after government approvals are secured. Under Boeing CEO Kelly Ortberg, aircraft are coming out of the planemaker's Seattle- area facilities faster and with fewer defects, O'Leary said.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "15c5d05655d0ed09",
+      "text": "Travel Weekly (27 August 2025) reports that Ryanair CEO O'Leary further reported that the bonus Ryanair pays airport staff for every non- compliant carry- on bag they take from passengers is being raised from the autumn from €1.50 to €2.50 while an €80- a- month cap on bonuses will be removed from November. He commented: \"I want our ground handling people to be catching people who are scamming the system.\" The airline charges fees of up to £75 to passengers whose cabin bags exceed the maximum dimensions for a small suitcase and the luggage is taken into the hold.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "fa0bd684151073a7",
+      "text": "Yesterday Ryanair announced five new routes this winter from London- area airports, with services from Luton to Wroclaw, and from Stansted to Lübeck, Monastir, Murcia and Trapani. It said it expects to carry 60 million passengers in the UK this year, claiming it is the UK's biggest passenger airline, \"carrying almost double BA's traffic to/from the UK\". Ryanair has also submitted plans to increase traffic by \\(33\\%\\) to 80 million over the next five years, if the government abolishes Air Passenger Duty (APD) and reforms air traffic control services. We note it is far from clear where it would find the aircraft to deliver this scale of growth without impacting its networks elsewhere on the network as its mid- term growth is a modest \\(5\\%\\) . This looks to us like a lobbying focussed comment rather than any insight into network planning. \"To do this, however, the UK market must become competitive. Rachel Reeves (the chancellor) should stop talking about growth, and start delivering it by abolishing APD.\"",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4d00ee31a446bab2",
+      "text": "In a similar development, Aviation24. be (27 August 2025) reports Ryanair announcing it will freeze growth in Belgium for Winter 2025, blaming higher airport fees at Zaventem and a \\(150\\%\\) hike in Belgium's aviation tax. The airline will operate 119 routes, adding three new services from Charleroi but cutting Zaventem traffic by \\(6\\%\\) . O'Leary criticised EU Commission President Ursula von der Leyen for failing to reform Europe's \"broken\" air traffic control system and to act on the Draghi Report on competitiveness. He called for mandatory ATC staffing, protection of overflights during strikes, and alignment of EU environmental taxes with global rules.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "de027fab8ba65f2d",
+      "text": "Ryanair further criticised the Belgian government's \\(150\\%\\) increase in aviation tax, from €2 to €5 per traveller.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "f8815e44a7fa1238",
+      "text": "Travel Weekly (27 August 2025) reports that a strike by Greek air traffic controllers threatened flight disruption today. Controllers planned a walkout between 9.30am and 1.30pm local time as part of nationwide industrial action by public sector workers. All airports in Greece are expected to be affected.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4fefde9da3e9f715",
+      "text": "However, this morning flights are operating to schedule across Greece. Nationalworld.com (28 August 2025) reports that the strike has been called off after a court ruled it illegal. The Athens Court of First Instance deemed the controllers' action unlawful, preventing potential disruptions during the peak holiday season. Greek carriers Aegean and Olympic Air posted a message to customers to say flights would go ahead as normal.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8ff5f2c751ec37c7",
+      "text": "Yesterday Finnair announced will expand its Southern European network in summer 2026 with new scheduled flights to Estonia, Florence and Valencia, plus seasonal services to Kos, previously only offered as a charter.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "718bd296cf78b738",
+      "text": "Travel weekly (27 August 2025) reports TUI UK&I will relaunch its Lapland day trips in Winter 26, with families the chance to fly to Kittilä, Finland, enjoy a full day of Arctic adventures, and return home the same night. The programme will now operate from 11 UK and Irish airports, including new departures from Cardiff and the return of Bournemouth services for the first time since 2019. The trips are priced from £750 per person and look like efficient winter aircraft utilisation and revenue generation. The trips include return flights with meals, including a roast Christmas dinner on the flight home, a private meeting with Santa Claus and a gift for each child, access to the Snow Village with snow activities such as husky and reindeer sleigh rides, thermal clothing and all transfers in Lapland.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b00c893f071a92e6",
+      "text": "Yesterday Delta announced a new transatlantic service from Boston to Nice and Madrid for next summer. Daily flights to Madrid will begin on May 16, 2026, complementing Barcelona flights that start a few days earlier with four- times- weekly service. Nice will operate three days a week. The Madrid flights will compete against Iberia's A321XLR services, which do look a suitable aircraft size for this market. Delta will be serving the route with larger A330s.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c85211409f99f88d",
+      "text": "Aero.de (27 August 2025) reports that Condor is expanding its Frankfurt feeder network in 2026 with a fourth domestic route to and from Düsseldorf. Düsseldorf and Frankfurt are only 200 km apart. We note that this will mean the route will be purely connecting traffic, with no higher yield local passengers, who would drive or take the train. The unit costs of such a short flight will also be high. We would expect the economics of this sector to be challenging, although the service would, of course, bring a network contribution to the long haul services that it would feed.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "813e072d1ed50622",
+      "text": "The airline already operates domestic feeder routes from Munich, Hamburg and Berlin to Frankfurt. Vienna, Zurich, Milan, Rome, Paris and Prague are also directly connected to Condor intercontinental flights, and in 2026 Condor will expand the city network to Barcelona, Venice and Budapest.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1ccd28e8418a2466",
+      "text": "Simplyflying (27 August 2025) reports that Frontier Airlines has announced a major network expansion, adding 20 new routes that will begin between November and February. All 20 of the new routes are in direct competition with Spirit Airlines.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b847fe48083f132c",
+      "text": "Frontier has declared a strategy to be the number one low- fare carrier in the top 20 US metro areas. The new routes will serve Baltimore, Detroit, and Houston, but with a particular focus on Spirit's HQ in Fort Lauderdale, which sees 6 of the new routes.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "351118edce5c7018",
+      "text": "Flight Global (27 August 2025) reports that Qantas has ordered 20 more Airbus A321XLRs, as it prepares for the service entry of its first example in September. The additional A321XLRs will be deployed on longer international routes and will be configured with lie- flat seats in business class. Qantas will use its A321XLRs on long domestic sectors from Perth to the east coast of Australia, as well as expanding flying on existing routes into Southeast Asia, also opening up new possibilities like Perth- India and Adelaide- Singapore.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "38b4170298aaa63f",
+      "text": "Riyadh Air - First 787 off the production lineFlightGlobal (27 August 2025) reports that Riyadh Air says that its first 787- 9 has left Boeing's assembly line in Charleston, and will soon feature its soft purple paint scheme. Riyadh is preparing to launch revenue flights later this year after obtaining its air operator's certificate. It will take up to 72 787- 9s, with firm orders for 39 and options for a further 33 787s.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2159ff2b5f8fa10d",
+      "text": "Happy Thursday. Build up begins to Accrington Stanley at home on Saturday. Can we gain or lose any players as the transfer window closure draws nearer at a pace?",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3bb38f21d36e52b9",
+      "text": "ZIM/HLAG: 2H and 2026 still risky - UW, 28 August 2025",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "f730f7b20183d12b",
+      "text": "ZIM: Issues for debate post 2Q25, 28 August 2025",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "45d1fce2d5aacf17",
+      "text": "Hapag- Lloyd: Issues for debate post 2Q25, 28 August 2025",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ad9567e5c31d39d7",
+      "text": "RevPAR weekly & Cirsa Q2 preview, 28 August 2025",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "91dfd33cb27c5e54",
+      "text": "North America Airlines: Route Therapy, August 2025, 27 August 2025",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "da8f58c7a080b058",
+      "text": "Boeing Co.: MAX Update - 29 Deliveries so far in August, First Flights \\~38/Mo, 27 August 2025",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "152076ebe93c38cb",
+      "text": "Friday, 5 September - Tuesday, 9 September 2025: Corporate Access - Virtual - Back to School with Barclays - European Logistics on 5th- 9th September. We are hosting a series of 40- minute Virtual Fireside Chats with KNIN, DSV, DHL, NTG, HLAG and InPost. Register here",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1f1b2bc8fcd46e06",
+      "text": "NEW! Tuesday, 9 September 2025: 1500 - 1600 UK: Corporate Access - Virtual - EU SAF policy - Lufthansa head of SAF - All airports are equal. Some are more equal than others. Register here",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "9ad50d7a5a5060d4",
+      "text": "Monday, 15 September 2025: Corporate Access - EasyJet Frankfurt Roadshow. In- person with Adrian Talbot, Director of Investor Relations.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6b0b4ca0f0888c82",
+      "text": "Wednesday, 17 September 2025: Corporate Access - AdP London Roadshow. 1:1 and group meetings with Deputy CEO and CFO.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7c70bf3dddafc1a8",
+      "text": "NEW Monday 1 December: London Aviation Dinner. Details coming soon.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "0e0ddd8b9a7a110d",
+      "text": "Tuesday, 10 March 2026: The May Fair - London: Barclays Transport Conference (incl. Business Services, Leisure and Infrastructure). Details coming soon.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "747f16e698380f3e",
+      "text": "We, Marco Limite, Andrew Lobbenberg, Emilie Fung and Helene Iselin, hereby certify (1) that the views expressed in this research report accurately reflect our personal views about any or all of the subject securities or issuers referred to in this research report and (2) no part of our compensation was, is or will be directly or indirectly related to the specific recommendations or views expressed in this research report.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "69c4d868c1bbc9e1",
+      "text": "Ryanair (RYA.1, 27- Aug- 2025, EUR 25.05), Overweight/Neutral, CE/D/E/J/K/L/M/N",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3673fafae017338c",
+      "text": "Unless otherwise indicated, prices are sourced from Bloomberg and reflect the closing price in the relevant trading market, which may not be the last available closing price at the time of publication.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "36933477f719e47a",
+      "text": "P: A partner, director or officer of Barclays Capital Canada Inc. has, during the preceding 12 months, provided services to the subject company for remuneration, other than normal course investment advisory or trade execution services.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "009186d02ab012a4",
+      "text": "R: Barclays Capital Canada Inc. has received compensation for investment banking services from this issuer in the past 12 months.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "f6be62357591e531",
+      "text": "S: This issuer is a Corporate Broker to Barclays PLC.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "4029cdf07590ac7f",
+      "text": "U: The equity securities of this Canadian issuer include subordinate voting restricted shares.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "a0bd55eb26ecfe46",
+      "text": "V: The equity securities of this Canadian issuer include non- voting restricted shares.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "a28f451e602017aa",
+      "text": "This report contains data provided by Barclays Bank UK Plc. Other than providing certain data sets, Barclays Bank UK Plc has not been involved in the development of this report and accepts no responsibility whatsoever for the accuracy, completeness or reliability of this report, nor for any advice contained within it or for the use or reliance any reader may give to it.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "7ae9409cf0bec73b",
+      "text": "Bloomberg is a trademark and service mark of Bloomberg Finance L.P. and its affiliates (collectively \"Bloomberg\") and the Bloomberg Indices are trademarks of Bloomberg. Bloomberg or Bloomberg's licensors own all proprietary rights in the Bloomberg Indices. Bloomberg does not approve or endorse this material, or guarantee the accuracy or completeness of any information herein, or make any warranty, express or implied, as to the results to be obtained therefrom and, to the maximum extent allowed by law, Bloomberg shall have no liability or responsibility for injury or damages arising in connection therewith.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "b3c596394667965f",
+      "text": "Overweight - The stock is expected to outperform the unweighted expected total return of the industry coverage universe over a 12- month investment horizon.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "adfe5344d1f424e7",
+      "text": "Equal Weight - The stock is expected to perform in line with the unweighted expected total return of the industry coverage universe over a 12- month investment horizon.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "864604872b731756",
+      "text": "Underweight - The stock is expected to underperform the unweighted expected total return of the industry coverage universe over a 12- month investment horizon.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "b5bd7faf486fd1b8",
+      "text": "Positive - industry coverage universe fundamentals/valuations are improving.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "5713547f79cf0bd9",
+      "text": "Neutral - industry coverage universe fundamentals/valuations are steady, neither improving nor deteriorating.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1294ccad0b861db0",
+      "text": "Negative - industry coverage universe fundamentals/valuations are deteriorating.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0ac1d4ca2c57b11a",
+      "text": "Below is the list of companies that constitute the \"industry coverage universe\":",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "60f3315537788553",
+      "text": "ADP (ADP.PA) Air France- KLM (AIRF.PA)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "12ef202e837c7b8a",
+      "text": "Aegean Airlines (AGNr.AT) AP Moller Maersk (MAERSKb.CO)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "5204f74f4df4db2e",
+      "text": "AENA (AENA.MC) Athens International Airport SA (AlAr.AT)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "757b9af0a29a5351",
+      "text": "Austrian Post (POSTVI)",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "584b06fc601feb01",
+      "text": "DHL Group (DPWGN.DE)",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "1d38ad65a0cf993c",
+      "text": "Hapag- Lloyd (HLAG.DE)",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e3b5e9d9271b997d",
+      "text": "NTG Nordic Transport Group (NTGNT.CO)",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "75f4dfbd7c6b74d0",
+      "text": "Zurich Airport (FHZN.S)",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "70d648bccc42dde5",
+      "text": "Bpost (BPOST.BR) DSV A/S (DSV.CO) Finnair (FIA1S.HE) INPOST SA (INPST.AS) Kuehne & Nagel International AG (KNIN.S) PostNL NV (PTNL.AS) Wizz Air (WIZZ.L)",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "cb2d8ed1f5932563",
+      "text": "Deutsche Lufthansa AG (LHAG.DE) easyJet (EZJ.L) Fraport (FRAG.DE) International Airlines Group (ICAG.L) Norwegian Air Shuttle AS (NAS.OL) Ryanair (RYA.I) ZIM (ZIM)",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0eb137005933f849",
+      "text": "In addition to any ratings assigned under Barclays' formal rating systems, this publication may contain investment recommendations in the form of trade ideas, thematic screens, scorecards or portfolio recommendations that have been produced by analysts within Equity Research. Any such investment recommendations shall remain open until they are subsequently amended, rebalanced or closed in a future research report.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "3ba4a0d2d57c54d3",
+      "text": "Barclays may also re- distribute equity research reports produced by third- party research providers that contain recommendations that differ from and/or conflict with those published by Barclays' Equity Research Department.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "84b4e0de3154e1ba",
+      "text": "Barclays Equity Research may have published other investment recommendations in respect of the same securities/instruments recommended in this research report during the preceding 12 months. To view all investment recommendations published by Barclays Equity Research in the preceding 12 months please refer to https://live.barcap.com/go/research/Recommendations.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "70305eeb86e5afd3",
+      "text": "Stock Rating: OVERWEIGHTIndustry View: NEUTRALClosing Price: EUR 25.05 (27-Aug-2025)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "6e551107326666fc",
+      "text": "Rating and Price Target Chart - EUR (as of 27-Aug-2025)Currency= EUR",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "792838c8c4f688b3",
+      "text": "Source: IDC, Barclays Research",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "cf1eb46447239ecb",
+      "text": "Link to Barclays Live for interactive charting",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "a8ff8854e77787b9",
+      "text": "Publication DateClosing Price*RatingAdjusted Price Target21-Jul-202523.1228.0019-May-202522.4126.0008-Apr-202518.3223.0014-Jan-202518.1722.0004-Nov-202418.0221.0024-Oct-202417.81Overweight20.0006-Oct-202416.4717.5028-Aug-202415.8116.5022-Jul-202416.4515.5020-Jun-202416.81Equal Weight18.5020-May-202418.3425.0029-Jan-202418.8026.0007-Nov-202316.0125.0018-Sep-202316.3323.0025-Jul-202316.4524.2517-Jul-202316.5724.0031-Mar-202314.7323.5020-Feb-202315.05Overweight23.00",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2a3b3c83dc8a42a8",
+      "text": "Source: Bloomberg, Barclays Research",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "a092c0a7c6fe51ce",
+      "text": "\\*This is the closing price referenced in the publication, which may not be the last available closing price at the time of publication.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "1b22f0bc4592353c",
+      "text": "Historical stock prices and price targets may have been adjusted for stock splits and dividends.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "40164211bb14a695",
+      "text": "Valuation Methodology: Our airline price targets are defined by a three- stage economic value creation DCF. This model starts with invested capital, then assesses the net present value of the economic value created or destroyed during a five- year explicit forecast period, during a subsequent 20- year value driver period in which we assume EBIT levels and growth rates are held stable, and finally during a three- year fade period in which we assume economic value creation (or destruction) fades to zero. The advantage of our three- stage DCF model is that it takes into account our explicit forecasts for the coming five years, rather than just as single year. The valuation is also explicit about the assumed mid- term profitability of the business. The valuation method does not include a terminal value. Our Ryanair €28.0 price target is based on a mid- term EBIT margin of \\(15.0\\%\\) and a WACC of \\(7.3\\%\\) .",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "45557987c6f04b58",
+      "text": "Risks which May Impede the Achievement of the Barclays Research Valuation and Price Target: In addition to generic economic, geopolitical and fuel price risks, Ryanair's business could be challenged by environmental legislation that seeks to demand manage aviation, potentially restricting routes and imposing minimum pricing. Any operational challenges for the 737Max aircraft would challenge Ryanair's growth plans.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "9f18775f0bab35ba",
+      "text": "indicative of future results. The information provided does not constitute a financial benchmark and should not be used as a submission or contribution of input data for the purposes of determining a financial benchmark.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "b1a29285f0fcac01",
+      "text": "This publication is not investment company sales literature as defined by Section 270.24(b) of the US Investment Company Act of 1940, nor is it intended to constitute an offer, promotion or recommendation of, and should not be viewed as marketing (including, without limitation, for the purposes of the UK Alternative Investment Fund Managers Regulations 2013 (SI 2013/1773) or AIFMD (Directive 2011/61)) or pre- marketing (including, without limitation, for the purposes of Directive (EU) 2019/1160) of the securities, products or issuers that are the subject of this report.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "b227ce1ea870eaa6",
+      "text": "Third Party Distribution: Any views expressed in this communication are solely those of Barclays and have not been adopted or endorsed by any third party distributor.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "a4515ac4389d3faa",
+      "text": "This material is distributed in Canada by Barclays Capital Canada Inc., a registered investment dealer, a Dealer Member of Canadian Investment Regulatory Organization (www.ciro.ca), and a Member of the Canadian Investor Protection Fund (CIPF).",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "02e0dea3e134d058",
+      "text": "This communication is directed at persons who are a \"Wholesale Client\" as defined by the Australian Corporations Act 2001.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "8de8b382b6149e58",
+      "text": "(PR) and regulated by the Financial Conduct Authority (FCA) of the United Kingdom and the PRA under United Kingdom laws. The United Kingdom has laws which differ from Australian laws. To the extent that this communication involves the provision of financial services by BBPLC to Australian Wholesale Clients, BBPLC relies on the relevant exemption from the requirement to hold an AFSL. Accordingly, BBPLC does not hold an AFSL.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "10639b413304b561",
+      "text": "Middle East: Nothing herein should be considered investment advice as defined in the Israeli Regulation of Investment Advisory, Investment Marketing and Portfolio Management Law, 1995 (\"Advisory Law\"). This document is being made to eligible clients (as defined under the Advisory Law) only. Barclays Israeli branch previously held an investment marketing license with the Israel Securities Authority but it cancelled such license on 30/11/2014 as it solely provides its services to eligible clients pursuant to available exemptions under the Advisory Law, therefore a license with the Israel Securities Authority is not required. Accordingly, Barclays does not maintain an insurance coverage pursuant to the Advisory Law.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "fb9f823e30f56774",
+      "text": "Russia: This material is not intended for investors who are not Qualified Investors according to the laws of the Russian Federation as it might contain information about or description of the features of financial instruments not admitted for public offering and/or circulation in the Russian Federation and thus not eligible for non- Qualified Investors. If you are not a Qualified Investor according to the laws of the Russian Federation, please dispose of any copy of this material in your possession.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "bd454035a57346fa",
+      "text": "Sustainable Investing Related Research: There is currently no globally accepted framework or definition (legal, regulatory or otherwise) of, nor market consensus as to what constitutes a 'sustainable', 'ESG', 'green', 'climate- friendly' or an equivalent company, investment, strategy or consideration or what precise attributes are required to be eligible to be categorised by such terms. This means there are different ways to evaluate a company or an investment and so different values may be placed on certain sustainability credentials as well as adverse ESG- related impacts of companies and ESG controversies. The evolving nature of sustainable investing considerations, models and methodologies means it can be challenging to definitively and universally classify a company or investment under a sustainable investing label and there may be areas where such companies and investments could improve or where adverse ESG- related impacts or ESG controversies exist. The evolving nature of sustainable finance related regulations and the development of jurisdiction- specific regulatory criteria also means that there is likely to be a degree of divergence as to the interpretation of such terms in the market. We expect industry guidance, market practice, and regulations in this field to continue to evolve.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3866ae3193627b7b",
+      "text": "Any information, data, image, or other content including from a third party source contained, referred to herein or used for whatsoever purpose by Barclays or a third party (\"Information\"), in relation to any actual or potential 'ESG', 'sustainable' or equivalent objective, issue, factor or consideration is not intended to be relied upon for ESG or sustainability classification, regulatory regime or industry initiative purposes (\"ESG Regimes\"), unless otherwise stated. Nothing in these materials, including any images included therein, is intended to convey, suggest or indicate that Barclays considers or represents any product, service, person or body mentioned in these materials as meeting or qualifying for any ESG or sustainability classification, label or similar standards that may exist under ESG Regimes. Barclays has not conducted any assessment of compliance with ESG Regimes. Parties are reminded to make their own assessments for these purposes.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "37e121d4001926ff",
+      "text": "IRS Circular 230 Prepared Materials Disclaimer: Barclays does not provide tax advice and nothing contained herein should be construed to be tax advice. Please be advised that any discussion of U.S. tax matters contained herein (including any attachments) (i) is not intended or written to be used, and cannot be used, by you for the purpose of avoiding U.S. tax- related penalties; and (ii) was written to support the promotion or marketing of the transactions or other matters addressed herein. Accordingly, you should seek advice based on your particular circumstances from an independent tax advisor.",
+      "page": 11,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "0dc444a7f3ca8e7c",
+      "name": "AP Moller",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "efadc02e9097134a",
+      "name": "Accrington Stanley",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5b67f14a802f6521",
+      "name": "AdP London",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "59a4743acb320190",
+      "name": "Adds Madrid",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8ecf5f701f73bde6",
+      "name": "Adjusted Price",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "75dbe65be55e011c",
+      "name": "Adrian Talbot",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d1cf412485ca8530",
+      "name": "Advisory Law",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d15d4e3db06a4137",
+      "name": "Aegean Airlines",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c185bfb7c6c388bd",
+      "name": "Air France",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ea09b9acaa859888",
+      "name": "Air Passenger",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fcdc68dcb0ba06a8",
+      "name": "Airport SA",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c64a032103efaf87",
+      "name": "Andrew Lobbenberg",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "284588aacd8f04d6",
+      "name": "Athens International",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "facedae141187a9f",
+      "name": "Australian Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "54613cc9ac355373",
+      "name": "Australian Wholesale",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7fdc4d2cab463a7f",
+      "name": "Austrian Post",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c63247389a2769e0",
+      "name": "Barclays Bank",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "46a2e39eafb9f3ae",
+      "name": "Barclays Capital",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "64387d09d2494c79",
+      "name": "Barclays Capital Canada Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4d2d57430a6b5e51",
+      "name": "Barclays Equity",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "49a749d7238bbb5d",
+        "value": 1.5,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "r every non- compliant carry- on bag they take from passengers is being raised from the autumn from €1.50 to €2.50 while an €80- a- month cap on bonuses will be removed from November. He commented: \"I",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "936cbf18a16528ba",
+        "value": 2.5,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "on- compliant carry- on bag they take from passengers is being raised from the autumn from €1.50 to €2.50 while an €80- a- month cap on bonuses will be removed from November. He commented: \"I want our",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "74bcb1c61b14da8b",
+        "value": 80.0,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "arry- on bag they take from passengers is being raised from the autumn from €1.50 to €2.50 while an €80- a- month cap on bonuses will be removed from November. He commented: \"I want our ground handlin",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "072ddb8725e054c9",
+        "value": 75.0,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "ndling people to be catching people who are scamming the system.\" The airline charges fees of up to £75 to passengers whose cabin bags exceed the maximum dimensions for a small suitcase and the luggag",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8ef9f183f73c1e87",
+        "value": 2.0,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "ules. Ryanair further criticised the Belgian government's \\(150\\%\\) increase in aviation tax, from €2 to €5 per traveller. ## Greek ATC strike today called off Travel Weekly (27 August 2025) reports t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "66cd3fcbc77a4f1b",
+        "value": 5.0,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "Ryanair further criticised the Belgian government's \\(150\\%\\) increase in aviation tax, from €2 to €5 per traveller. ## Greek ATC strike today called off Travel Weekly (27 August 2025) reports that a",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "916d96e31d34a6e8",
+        "value": 750.0,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "iff and the return of Bournemouth services for the first time since 2019. The trips are priced from £750 per person and look like efficient winter aircraft utilisation and revenue generation. The trip",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "110cef2a2032a01a",
+        "value": 28.0,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "profitability of the business. The valuation method does not include a terminal value. Our Ryanair €28.0 price target is based on a mid- term EBIT margin of \\(15.0\\%\\) and a WACC of \\(7.3\\%\\) . Risks ",
+        "provenance": {
+          "page": 9
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 0,
+      "tables_count": 0,
+      "numerical_data_count": 8,
+      "passages_count": 89,
+      "entities_count": 20
+    }
+  }
+}

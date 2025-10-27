@@ -1,0 +1,1561 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "3393b46b2c42a857c1e4589bd7e0501e",
+    "title": "NOAURA",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Nomura/Europe Economic Weekly - Fiscal falloutEurope Economic Weekly - Fiscal fallout_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:32:46.867752",
+      "extracted_at": "2025-10-26T12:32:46.867768"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 12,
+        "successful_pages": 12,
+        "date": "2025-08-29",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Nomura",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 4,
+          "removed_paragraphs": 5,
+          "reduction_ratio": 0.08157910167702587
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Nomura"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "32bef936afca668b",
+      "text": "Economics - EMEA/Euro Area/Europe",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c6cb2af439b49e4a",
+      "text": "Based on the local French press (e.g., Les Echos), it seems likely that France's current government will fall on 8 September. We expect euro area HICP inflation to print unchanged at \\(2.0\\%\\) y- o- y in August. UK price pressures are rising, according to survey data. Meanwhile, the Chancellor considers tax rises to meet fiscal rules, ahead of the Autumn Budget.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "7cb43c41183bd12f",
+      "text": "Based on the local French press (e.g., Les Echos), we believe the France's current government is likely to fall on 8 September. This would result in President Macron seeking another centrist caretaker government. We expect euro area HICP inflation to print unchanged at \\(2.0\\%\\) y- o- y in August, with core price momentum for August 2025 broadly in line with typical August price momentum pre- pandemic. The recent monthly pace of net lending is marginally higher relative to pre- pandemic levels.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "29b392e822a2dcc6",
+      "text": "Recent indicators suggest rising price pressures in the UK, with the Lloyds Business Barometer showing rising price expectations and BRC data revealing increased food shop prices. On business activity, the Lloyds Business Barometer remains optimistic, reaching its highest level since 2015. Meanwhile, the government appears likely to implement tax rises in the Autumn Budget, with potential measures for consideration, reported in the press, being national insurance on rental income and new banking levies.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ca50e1b054d512c2",
+      "text": "Headline euro area HICP inflation for August will be a key release. The final estimate of euro area Q2 GDP and Swedish and Swiss inflation will also be published.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3cd9863696457a5b",
+      "text": "We expect the euro area economy to recover only gradually in the near term, due to soft consumption and structural weakness. We believe US tariffs will be an important short- term headwind, whereas Germany and the EU's fiscal announcements will be material tailwinds only in the medium term. Following a more hawkish press conference at its July meeting, we think the ECB is now done cutting rates (terminal: \\(2.00\\%\\) ).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "df3caf69f2ccdbf6",
+      "text": "The UK's growth outlook looks uncertain. Some surveys point to slow growth, others are stronger, and the official data have proved resilient. The job market is slowing. Monetary policy is likely limiting growth. While this suggests further modest monetary easing is needed, stick inflation and recovering growth could limit the extent of future cuts. We expect 25p cuts in November and February for a terminal rate of \\(3.50\\%\\) .",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "202bbd73ba9984a4",
+      "text": "Fig.1 France and UK have limited fiscal space",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ffac0448d48745db",
+      "text": "Source: IMF, Haver, Nomura",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c3646cd386c09f94",
+      "text": "GDP (% q- o- q and % y- o- y) EA: 0.2 (Q3), 1.1 (2025), 1.1 (2026) UK: 0.2 (Q3), 1.3 (2025), 1.1 (2026)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f00747ac4b24eb81",
+      "text": "Inflation (HICP, % y- o- y) EA: 2.0 (Aug), 2.1 (2025), 1.9 (2026) UK: 3.8 (Aug), 3.4 (2025), 2.3 (2026)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "75383eefe0fbb5ca",
+      "text": "ECB: No further cuts. Terminal rate: \\(2.00\\%\\) . (July review)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "df0f45f0b863ddf1",
+      "text": "BoE: 25bp cuts at the next two MPR meetings (Nov 2025, Feb 2026). Terminal rate: \\(3.50\\%\\) . (A ugust review)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4d975a0099121453",
+      "text": "France's PM Bayrou called a vote of confidence in his government in response to opposition of his fiscal reforms. The vote is scheduled for 8 September. As widely reported the extreme parties (France Insoumise, National Rally) have already stated that they would vote against Bayrou. We expect the centre- left Socialist Party will also vote against Bayrou, resulting in his government falling. President Macron would then likely seek another centrist caretaker government, tasked with undertaking similar fiscal reforms. Ultimately, there is the risk of snap elections should President Macron not succeed in finding a successor.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "f53a62c6472c21ac",
+      "text": "We expect euro area HICP inflation, released 2 September, is likely to print in line with the ECB's target of \\(2.0\\%\\) . We track euro area HICP inflation at \\(2.04\\%\\) . This is based on \\(81\\%\\) of country- level data released thus far. Beyond August, we expect HICP inflation to hover around the ECB's \\(2.0\\%\\) target until year- end. Country- level data so far suggest services and core goods price momentum in August 2025 were broadly in line with typical August price momentum pre- pandemic.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "bd9cb6898e12e48d",
+      "text": "The ECB is well- placed to navigate upcoming US trade policy uncertainty, according to Mme Lagarde, as the depo rate at \\(2.00\\%\\) is in the middle of the ECB's neutral range \\(1.75 - 2.25\\%\\) . At the July meeting, Mme Lagarde suggested data misses or economic events would have to lower the ECB's 2027 HICP inflation forecast to alter the rate path.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "3748d300a88184a9",
+      "text": "Although Q2 2025 GDP growth was weaker than the ECB's forecast by 10bp, we believe Q3 2025 GDP growth will be stronger than the ECB's forecast by 30bp. In addition, we believe euro area HICP inflation is likely to average \\(2.0\\%\\) in H2 2025. As a result, we do not expect further cuts from the ECB. We expect the ECB to leave its depo rate unchanged at \\(2.00\\%\\) for the foreseeable future.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "534890eee752bb3c",
+      "text": "Net lending for July rose by €21.0bn (Figure 3), albeit this was slightly less than June's €25.3bn. Net lending in July was concentrated in mortgage lending (€11.9bn), followed by corporate lending (€7.6bn). Within corporate lending, the bulk was above 1y in duration, and in particular, the \\(>5y\\) bucket, which is typically indicative of longer- term investment plans rather than short- term cash flow management.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "2e65660325887100",
+      "text": "The ECB's latest Bank Lending Survey continues to suggest that there is pent- up demand for lending by households for mortgages. In particular, the Bank Lending Survey suggests the level of the interest rate is not weighing on consumer demand for mortgage lending (which is understandable as rates are neutral), albeit commercial banks remain cautious about lending due to the global macro backdrop and elevated economic uncertainty.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b3e134a3197b7743",
+      "text": "The recent pace of monthly net lending is marginally higher than the average during 2015- 19. However, the rolling 12m cumulative sum suggests we are some way from pre- pandemic levels of net lending (e.g., \\(12\\%\\) less than in 2019, for total net lending).",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "dadc34f4bb8de58b",
+      "text": "Fig. 2: OAT-Bunds widened on France's political uncertainty",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a79c2a8593e00e84",
+      "text": "Fig. 3: Recent net lending is mostly mortgages",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "616e082772100ffa",
+      "text": "Source: ECB, Haver Analytics, Nomura",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "3821b29ffc83635e",
+      "text": "Following the government's failure to cut welfare spending this summer, and recent rises in bond yields, tax increases in the Autumn Budget seem likely to order for the Chancellor to meet her fiscal rules. However, in last year's general election, Labour promised not to raise income tax, national insurance or VAT. This week, potential tax hikes were discussed in UK media.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "bbb15f8b5054d25a",
+      "text": "One potential tax rise reportedly being considered (source: The Times) is applying national insurance to rental income. However, critics of the suggestion say that this tax would likely raise rents by encouraging landlords to sell their properties. Another tax rise, suggested in a report by think tank the Institute for Public Policy Research (IPPR), could be a surcharge on banking profits or a new bank levy. Shares of many UK lenders slumped on Friday morning in response to the news.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "96511ab03ab84e97",
+      "text": "The UK's tax take (taxes/GDP) is lower than many of its peer group countries. Hence, there is some scope to increase taxes. However, the argument against this is that the tax take is already due to rise to the highest level since the Second World War (Figure 4).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "265ab6c31862716d",
+      "text": "Indicators for prices are pointing to accelerating inflation. The prices balance in the Lloyds Business Barometer rose to its highest level since April in the August data (65, up from 61 in July). In addition, August BRC shop price data showed a \\(0.9\\%\\) y- o- y rise, up from \\(0.7\\%\\) in July. The m- o- m rate was broadly in line with the historic average for August, at \\(0.2\\%\\) ; however, the food price index rose \\(0.4\\%\\) m- o- m, well above the \\(0.1\\%\\) August average for 2010- 2019.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9c24aaba9ee2b0e7",
+      "text": "Consumers may be adjusting spending in light of price rises. The CBI retail sales survey showed that the volume of retail sales compared with a year earlier indicator remained weak at - 32 in August, though was above - 34 in July. However, the sales volumes for the time of year balance deteriorated to - 19 in August from - 10 previously. Expectations for September did, however, improve.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f3af660bf3ccd54e",
+      "text": "The Lloyds Business Barometer remains the most optimistic survey for the UK and showed a continued strengthening in August, with the overall business confidence index climbing to its highest level since late 2015. This marked the fourth consecutive monthly rise, with the index reaching \\(54\\%\\) after a two- point increase. The improvement was primarily driven by business activity expectations, which jumped five points to \\(63\\%\\) a level not seen for more than 11 years.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "ede552b406ae6a5b",
+      "text": "Furthermore, this survey hasn't seen a hit from April's rise in employer national insurance contributions and the minimum wage, as staffing expectations continued their upward trend for the fourth straight month, reaching levels not seen in a decade.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0bb7bff00cbf989f",
+      "text": "Fig. 4: Spending cuts are difficult, and taxes are already high",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "62e343ce16a70aba",
+      "text": "Fig. 5: Lloyds business survey continues to be optimistic",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6f8efc4a05eebcf4",
+      "text": "Source: Lloyds, Macrobond, Nomura",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "aa7871609e1ca4a5",
+      "text": "Headline euro area HICP inflation for August will be a key release. The final estimate of euro area Q2 GDP and Swedish and Swiss inflation will also be published.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "84057c1f982b0a7a",
+      "text": "Sweden and Norway PMIs, August (Monday, Wednesday): In Sweden, the manufacturing PMI rose to a three- year high of 54.2 in July from 51.8 in June. However, this was offset by a fall in the services PMI, which returned to contractionary territory, hence the composite PMI was just inside expansion territory at 50.3 in July. We expect a rise in the composite index in August, in line with an improved Economic Tendency Survey. In Norway, the manufacturing PMI rose to 50.9 in July, after it had fluctuated around 50 for the past few months. We expect it to remain at a similar level in August.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "84890a90decde262",
+      "text": "UK Household borrowing, July (Monday): We forecast net mortgage lending of £3.0bn in July, down from June's strong £5.3bn, but still above the 2024 monthly average of £2.1bn. In addition, we expect mortgage approvals to fall to 63,500 from 64,200 in June. This is as some key activity indices in the July RICS survey weakened: the new buyer enquiries balance turned negative once again, falling to - 6 from 4 in June. The sales over the past month balance also fell to - 24 in July from - 1 in June. We expect £1.4bn of net consumer credit, in line with June and also the average for the past six months.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "9b4eccdc43fdba0f",
+      "text": "Euro area Unemployment rate, July (Monday): We forecast the euro area unemployment rate was unchanged at \\(6.2\\%\\) in July, though we see material downside risks to \\(6.1\\%\\) . Most euro area member states have seen their unemployment rates sidestep, and the decline in unemployment moderated markedly in Spain. However, Austria's unemployment rate fell by 10bp to \\(7.3\\%\\) in July, and we see risks that Italy's unemployment rate, too, retraces in July after upward volatility in May and June.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "12be86f16bf4969c",
+      "text": "Euro area HICP inflation, August (Tuesday): We believe underlying momentum in European inflation is slowing, and that euro area HICP inflation will hover around the ECB's \\(2.0\\%\\) target until year- end. We will be looking out for two things in the August HICP inflation data: (1) is services price momentum slowing gradually in line with our expectations? And (2) is there any sign of weaker- than- normal core goods prices owing to Chinese goods dumping? We expect the answers to be yes and no, respectively. We forecast euro area HICP inflation will be unchanged at \\(2.0\\%\\) y- o- y in August and core HICP inflation will ease to \\(2.2\\%\\) .",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ad1f72dd8a328e83",
+      "text": "Switzerland CPI inflation, August (Thursday): We expect CPI inflation of \\(0.1\\%\\) y- o- y in August. This would be a 0.1pp slowdown from July's annual rate, as we expect weaker price pressures from the transport and hospitality sectors, which surprised to the upside in July. We also forecast core CPI inflation to slow to \\(0.5\\%\\) y- o- y from \\(0.8\\%\\) in July. The SNB forecasts CPI inflation to average \\(0.1\\%\\) in Q3.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b08325533b46d775",
+      "text": "Sweden CPIF inflation, August (Thursday): We forecast Sweden CPIF inflation to rise to \\(3.3\\%\\) y- o- y in August from \\(3.0\\%\\) in July, and CPIF ex- energy to slow slightly to \\(3.1\\%\\) , as we expect energy prices to continue to drive up the headline rate as household electricity bills have risen over the summer. In June and July, inflation surprised the Riksbank notably to the upside, partly driven by package holidays and car rental prices. Even with a partial unwinding of these price rises in August, we expect inflation to stand well above the Riksbank's forecast, which expects \\(2.7\\%\\) inflation on both the CPIF and CPIF ex- energy measures.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "6b84621d6ce7785e",
+      "text": "UK Decision Maker Panel survey, August (Thursday): A notable point from the last survey is that realised annual employment fell by \\(0.1\\%\\) in the three months to July, 0.4pp lower than in the three months to June, and expectations for employment growth over the next year have also weakened. Inflation expectations remained fairly sticky, as year- ahead CPI inflation expectations rose by \\(0.1pp\\) to \\(3.2\\%\\) in the three months to July, though there was a decrease of \\(0.1pp\\) in the single month data. Annual own- price growth rose by \\(0.1pp\\) to \\(3.6\\%\\) in the three months to July.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "98341e508f97c638",
+      "text": "Euro area Retail sales, July (Thursday): We forecast euro area retail sales to have declined by \\(1.0\\%\\) m- o- m in July. This forecast is based on \\(31\\%\\) of country- level data already published and our assumptions for the remaining countries.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "bf719d0c07c57f6b",
+      "text": "UK retail sales, July (Friday): We expect a small rise in retail sales volumes in July, of",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3470e6d72b643b90",
+      "text": "0.4% m-o-m (excluding auto fuel). This would follow a 0.6% m-o-m rise in June and May's 2.9% drop. According to the BRC, annual UK retail sales (like-for-like) grew by 1.8% y-o-y in July, slower than June's 2.7% rise but above the average for the 12 months to June. In addition, sporting events including the Women's Euros could have boosted sales.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5a130cbc6a88fdcd",
+      "text": "However, consumer confidence fell slightly in June and fairly high inflation likely dampened volumes growth.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "34b1d756dd022cf9",
+      "text": "**Germany Factory orders, July (Friday):** We expect Germany's factory orders fell by 1.4% m-o-m in July, following a 1.0% decline in June. This would be in line with surveys that suggested new orders fell on the month, from domestic and foreign firms.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "04c55273f006c098",
+      "text": "**Euro area GDP, Q2 2025 – final estimate (Friday):** We forecast euro area GDP growth for Q2 2025 will be confirmed at 0.1% q-o-q in the final release. The expenditure breakdown, released alongside, is likely to suggest domestic demand contributed positively whereas net trade was a drag owing to the unwinding of tariff front-running that occurred in Q1 2025.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2cf8d521c503c76a",
+      "text": "Fig. 6: Forecasts for European economic indicators released during the week beginning 1 September",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "a057926ef73b916d",
+      "text": "Monday 1 SeptemberUnitsPeriodPrev 2Prev 1LastNomuraConsensus07:00UKNationwide House Px% y-o-yAug3.52.12.4n.a.n.a.07:30SwedenSwedbank/Silf PMI ManufacturingIndexAug53.551.854.2n.a.n.a.08:15SpainPMI ManufacturingIndexAug50.551.451.9n.a.n.a.08:45ItalyPMI ManufacturingIndexAug49.248.449.8n.a.n.a.09:00ItalyUnemployment rate%Jul6.16.56.3n.a.n.a.09:00NorwayDNB/NIMA PMI ManufacturingIndexAug51.349.350.9n.a.n.a.09:30UKNet Consumer CreditGBP bnJul2.00.91.41.4n.a.09:30UKMortgage LendingGBP bnJul-0.62.25.33.0n.a.09:30UKMortgage ApprovalskJul60.963.364.263.5n.a.09:30UKM4 Money Supply% y-o-yJul3.23.53.3n.a.n.a.09:30UKM4 Ex IOFCs 3M Annualised3m % y-o-yJul2.83.43.0n.a.n.a.10:00Euro areaUnemployment rate%Jul6.26.26.26.2n.a.Tuesday 2 SeptemberUnitsPeriodPrev 2Prev 1LastNomuraConsensus10:00Euro areaHICP% y-o-yAug P P1.92.02.02.0n.a.10:00Euro areaCore HICP% y-o-yAug P2.32.32.32.2n.a.10:00ItalyProducer prices% m-o-mJul-3.0-0.82.2n.a.n.a.Wednesday 3 SeptemberUnitsPeriodPrev 2Prev 1LastNomuraConsensus07:30SwedenSwedbank/Silf PMI ServicesIndexAug50.654.348.8n.a.n.a.07:30SwedenSwedbank/Silf PMI CompositeIndexAug51.453.650.3n.a.n.a.08:15SpainPMI ServicesIndexAug51.351.955.1n.a.n.a.08:15SpainPMI CompositeIndexAug51.452.154.7n.a.n.a.08:30Euro areaECBs Lagarde Speaks at ESRB Event08:45ItalyPMI ServicesIndexAug53.252.152.3n.a.n.a.08:45ItalyPMI CompositeIndexAug52.551.151.5n.a.n.a.09:15UKBOE's Breeden Speaks09:15UKProducer prices% m-o-mJul-2.2-0.60.8n.a.n.a.14:15UKBOE Rate-Setters Appear in ParliamentThursday 4 SeptemberUnitsPeriodPrev 2Prev 1LastNomuraConsensus07:00SwedenCPIF% y-o-yAug P2.32.83.03.3n.a.07:00SwedenCPIF ex-energy% y-o-yAug P2.53.33.23.1n.a.07:30SwitzerlandCPI% y-o-yAug-0.10.10.20.1n.a.07:30SwitzerlandCPI Core% y-o-yAug0.50.60.80.5n.a.09:30UKPMI ConstructionIndexAug47.948.844.3n.a.n.a.09:30UKDMP 3M Output Price Expectations% y-o-yAug3.73.63.7n.a.n.a.10:00Euro areaRetail sales% m-o-mJul0.5-0.30.3-1.0n.a.10:30Euro areaECB's Cipollone Speaks in EU ParliamentFriday 5 SeptemberUnitsPeriodPrev 2Prev 1LastNomuraConsensus05:00SwedenSwedish Housing Price Data From Maklarstatistik07:00GermanyFactory orders% m-o-mJul1.7-0.8-1.0-1.4n.a.07:00UKRetail Sales Ex Auto Fuel% m-o-mJul1.8-2.90.60.4n.a.09:00ItalyRetail sales% m-o-mJul0.8-0.40.6n.a.n.a.10:00Euro areaGDP% q-o-q2Q T0.30.60.10.1n.a.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "22da1e38ebc6285b",
+      "text": "Fig.7:Most recent ECBspeak",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5b95ede984ef913e",
+      "text": "Rehn (28 August)Kazaks (24 August)ECB remains alert and ready to act on rates if needed.We are still in a good place. Not seeing big changes in economic outlook. Must ensure inflation remains around target. Market view &amp;amp; very much in line with baseline.Lagarde (23, 25 August)Rehn (23 August)Inflation dropped sharply at low cost for employment. Europe&#x27;s labour market in unexpectedly good shape. Europe&#x27;s economy is resilient, not thriving. Tariffs may only have a small effect on GDP.Insurance cut&#x27; not needed with inflation at 2%. No reason to act before price, growth risks materialise. Inflation is &quot;for now in a good place&quot;. Will retain full freedom of action at each meeting.Nagel (22 August)Lagarde (20 August)The bar for further cuts is high. Do not see many arguments for more easing. Inflation is not [of concern] anymore.Recent trade deals have alleviated, but certainly not eliminated, global uncertainty, which persists on account of the unpredictable policy environment.Nagel (12 August)Holzmann (6 August)We can react flexibly if necessary. Tariff uncertainty lower but not fully removed. Inflation no longer a major challenge. Interest rates are at a very good level.No reason to cut interest rates again.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f51533f2cf2a704c",
+      "text": "Source:Bloomberg, Nomura",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "de256a34c39bfd74",
+      "text": "Fig.8:ECB dove-hawk spectrum",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "2d60564f663f7dbe",
+      "text": "Fig.9:Most recent BoEspeak",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "6b79d7daa1f6f88f",
+      "text": "Mann (26 August)Bailey (23 August)Inflation persistence is central case. Short, long-term household inflation expectations rising. Wage-setting is important source of elevated UK inflation. More persistent hold on rates appropriate.UK faces huge challenge to raise potential growth rate.Pill (8 August)Ramsden (7 August)Pace of future rate cuts more uncertain. Need to lean against second-round inflation effects. Approaching 2% to 4% neutral rate range. Little bit further to go on rates.Terminal rate estimates a broad range, no collective MPC view on terminal rate. QT impact on term premia up vs last estimate. Inflation persistence has surprised me.Lombardelli (7 August)Bailey (7 August)Food inflation higher than expected, food has salient role in inflation expectations.More uncertainty now about when steps are taken. Domestic factors main driver of rate-cut decision. Rates path is still downwards over time. Policy is still restrictive.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "572ba4179ccdde77",
+      "text": "Source:Bloomberg, Nomura",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "39110f4a93bbd6db",
+      "text": "Fig.10:BoE dove-hawk spectrum",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "bbf0204574f35e7e",
+      "text": "Fig. 11: Details of the forecast – euro area",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "18f64e15687968ad",
+      "text": "Quarterly forecasts1Q242Q243Q244Q241Q252Q253Q254Q251Q262Q263Q264Q262023202420252026Real GDP (% q-q)0.40.20.40.30.60.10.20.30.30.40.40.40.70.91.11.1Real GDP level: 2019 Q4=100104.3104.5104.9105.3105.9105.5105.7106.0106.4106.8107.2107.7103.8104.8105.8107.0Household consumption0.40.10.60.40.30.20.30.30.30.40.40.61.11.21.21.2Fixed investment-1.7-2.41.60.52.70.30.70.70.80.80.90.92.2-1.94.13.2Government consumption0.31.00.70.5-0.10.40.20.40.40.40.40.61.62.51.31.4Exports0.52.0-1.5-0.12.20.20.20.80.80.80.80.7-0.70.82.63.0Imports-0.81.70.4-0.32.01.81.11.11.11.11.21.1-1.5-0.24.64.7Contributions to GDP:Domestic final sales-0.1-0.20.80.40.70.20.30.40.40.40.50.51.10.71.81.6Inventories-0.20.20.6-0.2-0.30.10.00.00.00.00.10.1-0.8-0.20.00.2Net trade0.60.2-0.90.10.2-0.7-0.1-0.1-0.1-0.10.10.30.4-0.7-0.6Unemployment rate6.56.46.36.26.36.26.26.36.46.46.36.36.66.46.36.4Compensation per employee4.84.94.64.13.83.73.53.22.72.52.42.45.34.63.52.5Consumer prices2.62.52.22.22.32.02.12.11.71.92.02.15.52.42.11.9Core HICP3.12.82.82.72.62.42.22.22.12.02.22.25.02.82.42.1ECB main ref. rate4.504.253.653.152.652.152.152.152.152.252.152.154.503.152.152.15ECB deposit rate4.003.753.503.002.502.002.002.002.002.202.002.004.003.002.002.0010-yr bund yields2.302.502.122.372.742.612.802.903.003.053.103.102.022.372.903.10EUR/USD1.081.071.111.051.081.181.171.201.201.201.201.101.101.051.201.20GDP &amp; HICP by country1Q242Q243Q244Q241Q252Q253Q254Q251Q262Q263Q264Q262023202420252026GDP: Germany-0.1-0.30.00.20.3-0.30.10.20.30.30.30.3-0.7-0.50.30.9France0.10.20.4-0.10.10.30.20.20.20.30.40.41.61.10.71.0Italy0.20.20.00.20.3-0.10.10.20.20.20.30.30.80.50.60.8Spain1.10.80.70.70.60.70.60.70.70.60.60.70.62.73.22.72.7HICP: Germany2.72.62.22.52.62.01.81.81.82.12.32.26.12.52.12.1France3.02.52.11.71.20.80.70.91.62.01.91.95.72.30.91.9Italy1.00.91.21.31.82.22.22.01.51.61.81.86.01.12.11.7Spain3.23.62.32.42.72.22.92.92.02.22.11.93.42.92.72.0Monthly forecastsHICP (% y-o-y)20242.82.62.42.42.42.82.52.62.21.72.02.22.420252.52.32.22.21.92.02.02.02.02.22.22.22.120261.71.71.71.72.02.12.11.92.12.12.12.02.2Core HICP (% y-o-y)20243.33.12.92.72.92.92.92.92.82.72.72.72.720252.72.62.42.72.72.32.32.22.22.22.22.32.120262.12.12.01.72.12.12.12.12.22.22.22.12.3ECB Deposit rate20244.004.004.004.004.203.753.753.753.503.253.253.0020252.752.752.502.252.252.502.002.002.002.002.202.002.0020262.002.002.002.002.202.002.002.002.102.002.002.002.00",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "dd73ec1ec6aacff4",
+      "text": "Note: All Nomura forecasts are modal. Quarterly figures are % q-o-q changes. Annual figures are % y-o-y changes. Inventories include statistical discrepancy. Inflation is % y-o-y. Interest rates and currencies are end-of-period levels. Numbers in bold are actual values; others forecast. Table updated on 29 August 2025.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "99b7d989f9f9cb63",
+      "text": "Source: Bloomberg, Eurostat, Haver Analytics, Macrobond, Nomura",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "952b78543ed19087",
+      "text": "Fig. 12: Details of the forecast - UK",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "42308b5bef0d0fbf",
+      "text": "Quarterly forecasts1Q242Q243Q244Q241Q252Q253Q254Q251Q262Q263Q264Q262023202420252026Real GDP (% q-o-q)0.90.50.00.10.70.30.20.20.30.30.40.40.41.11.31.1Real GDP level: 2019 Q4=100102.8103.3103.3103.4104.2104.5104.7104.9105.2105.5105.9106.3102.1103.2104.6105.7Household consumption0.70.00.40.10.30.10.30.30.30.30.40.40.50.60.91.3Fixed investment0.81.11.0-0.62.0-1.10.50.40.60.60.60.60.31.51.81.8Government consumption0.71.00.30.5-0.41.20.30.30.40.40.50.51.63.01.61.8Exports0.2-1.8-0.1-1.83.31.60.40.40.40.40.50.4-0.4-1.22.91.9Imports-0.45.5-2.82.92.01.40.50.50.50.50.60.5-1.22.75.52.2Inventories (contribution)-0.41.1-0.31.0-0.40.2-0.1-0.1-0.1-0.10.00.0-0.90.20.6-0.2Net trade (contribution)0.2-2.51.0-1.60.30.0-0.1-0.1-0.1-0.10.10.3-1.3-1.0-0.2Unemployment rate4.34.24.34.44.54.74.74.84.84.94.95.04.14.34.74.9Average weekly earnings5.94.84.66.05.64.64.53.52.93.13.03.07.15.34.53.0Consumer prices3.52.12.02.52.83.53.93.63.12.01.92.17.42.53.42.3Core consumer prices4.63.63.33.33.63.73.83.63.32.21.92.16.23.73.62.4BoE Bank Rate, % EOP5.255.255.004.754.504.254.003.753.503.503.503.505.254.753.753.5010-yr gilt yields3.934.174.004.574.684.494.404.754.704.804.904.953.544.574.754.95EUR/GBP0.850.850.830.830.840.860.860.880.880.880.880.870.830.880.880.88GBP/USD1.261.251.341.271.291.371.361.371.371.371.371.271.271.371.371.37TWI82.683.285.584.385.085.184.883.683.683.683.683.481.583.683.683.6Monthly forecastsJFMAMJJASONDCPI inflation (% y-o-y)20244.03.43.22.32.02.02.22.21.72.32.62.520253.02.82.63.53.43.63.83.84.13.63.63.520263.23.13.02.12.11.91.81.92.02.12.12.2Core CPI inflation (% y-o-y)20245.14.54.23.93.53.53.33.63.23.33.53.220253.73.53.43.83.33.73.83.63.93.53.73.620263.33.43.22.22.22.01.81.91.92.02.12.2RPI inflation (% y-o-y)20244.94.54.33.33.02.93.63.52.73.43.63.520253.63.43.24.54.34.44.84.64.64.14.04.420263.93.93.82.62.22.22.72.72.93.13.13.23.3BoE Bank Rate, % EOP20245.255.255.255.255.55.255.255.005.005.004.754.7520254.754.504.504.504.254.254.254.254.004.004.003.753.7520263.753.503.503.503.503.553.503.503.503.003.503.503.50",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0d5c2ab3237e5e5f",
+      "text": "Note: All Nomura forecasts are modal. Quarterly figures are \\(\\%\\) -o-q changes. Annual figures are \\(\\%\\) -o-y changes. Inventories include statistical discrepancy. Inflation is \\(\\%\\) -y. y. Interest rates and currencies are end-of-period levels. Numbers in bold are actual values; others forecast. Table updated on 29 August 2025. Source: Bloomberg, ONS, Haver Analytics, Macrobond, Nomura",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "d92bc3c13e7f4b4f",
+      "text": "Appendix A- 1This report has been produced by Nomura International plc (NIplc), UK. See Disclaimers for Nomura Group entity details.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "19b4619ad350b10b",
+      "text": "The analysts responsible for preparing this report have received compensation based upon various factors including the firm's total revenues, a portion of which is generated by Investment Banking activities. Unless otherwise noted, the non- US analysts listed at the front of this report are not registered/qualified as research analysts under FINRA rules, may not be associated persons of NSI, and may not be subject to FINRA Rule 2241 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "b3a6c32a9c1f37bc",
+      "text": "Nomura Global Financial Products Inc. (NGFP) Nomura Derivative Products Inc. (NDP) and Nomura International plc. (NIplc) are registered with the Commodities Futures Trading Commission and the National Futures Association (NFA) as swap dealers. NGFP, NDPI, and NIplc are generally engaged in the trading of swaps and other derivative products, any of which may be the subject of this report.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "84376e083d5394f1",
+      "text": "report indicates that the individual is employed by PT Verdhana Sekuritas Indonesia (Verdhana) to provide research assistance to NIHK under a research partnership agreement and neither Verdhana nor such individual is licensed outside of Indonesia. THIS MATERIAL IS: (I) FOR YOUR PRIVATE INFORMATION, AND WE ARE NOT SOLICITING ANY ACTION BASED UPON IT; (II) NOT TO BE CONSTRUED AS AN OFFER TO SELL OR A SOLICITATION OF AN OFFER TO BUY ANY SECURITIES IN ANY JURISDICTION WHERE SUCH OFFER OR SOLICITATION WOULD BE ILLEGAL; AND (III) OTHER THAN DISCLOSURES RELATING TO THE NOMURA GROUP, BASED UPON INFORMATION FROM SOURCES THAT WE CONSIDER RELIABLE, BUT HAS NOT BEEN INDEPENDENTLY VERIFIED BY NOMURA GROUP.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "ecdf094be59b3822",
+      "text": "Other than disclosures relating to the Nomura Group, the Nomura Group does not warrant, represent or undertake, express or implied, that the document is fair, accurate, complete, correct, reliable or fit for any particular purpose or merchantable, and to the maximum extent permissible by law and/or regulation, does not accept liability (in negligence or otherwise, and in whole or in part) for any act (or decision not to act) resulting from use of this document and related data. To the maximum extent permissible by law and/or regulation, all warranties and other assurances by the Nomura Group are hereby excluded and the Nomura Group shall have no liability (in negligence or otherwise, and in whole or in part) for any loss howsoever arising from the use, misuse, or distribution of this material or the information contained in this material or otherwise arising in connection therewith.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "10ef77270da34b72",
+      "text": "Opinions or estimates expressed are current opinions as of the original publication date appearing on this material and the information, including the opinions and estimates contained herein, are subject to change without notice. The Nomura Group, however, expressly disclaims any obligation, and therefore is under no duty, to update or revise this document. Any comments or statements made herein are those of the author(s) and may differ from views held by other parties within Nomura Group. Clients should consider whether any advice or recommendation in this report is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The Nomura Group does not provide tax advice.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "432ae42044ceefed",
+      "text": "The Nomura Group, and/or its officers, directors, employees and affiliates, may, to the extent permitted by applicable law and/or regulation, deal as principal, agent, or otherwise, or have long or short positions in, or buy or sell, the securities, commodities or instruments, or options or other derivative instruments based thereon, of issuers or securities mentioned herein. The Nomura Group companies may also act as market maker or liquidity provider (within the meaning of applicable regulations in the UK) in the financial instruments of the issuer. Where the activity of market maker is carried out in accordance with the definition given to it by specific laws and regulations of the US or other jurisdictions, this will be separately disclosed within the specific issuer disclosures.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "d5a96261a3562e86",
+      "text": "This document may contain information obtained from third parties, including, but not limited to, ratings from credit ratings agencies such as Standard & Poor's. The Nomura Group hereby expressly disclaims all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of the information obtained from third parties contained in this material or otherwise arising in connection therewith, and shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of any of the information obtained from third parties contained in this material or otherwise arising in connection therewith. Reproduction and distribution of third- party content in any form is prohibited except with the prior written permission of the related third- party. Third- party content providers do not, express or implied, guarantee the fairness, accuracy, completeness, correctness, timeliness or availability of any information, including ratings, and are not in any way responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use or misuse of such content. Third- party content providers give no express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Third- party content providers shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Any MSCI sourced information in this document is the exclusive property of MSCI Inc. ('MSCI'). Without prior written permission of MSCI, this information and any other MSCI intellectual property may not be duplicated, reproduced, re- disseminated, redistributed or used, in whole or in part, for any purpose whatsoever, including creating any financial products and any indices. This information is provided on an \"as is\" basis. The user assumes the entire risk of any use made of this information. MSCI, its affiliates and any third party involved in, or related to, computing or compiling the information hereby expressly disclaim all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of this material or the information contained in this material or otherwise arising in connection therewith. Without limiting any of the foregoing, in no event shall MSCI, any of its affiliates or any third party involved in, or related to, computing or compiling the information have any liability (in negligence or otherwise, and in whole or in part) for any damages of any kind. MSCI and the MSCI indexes are services marks of MSCI and its affiliates.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "69d184193655d621",
+      "text": "The intellectual property rights and any other rights, in Russell/Nomura Japan Equity Index belong to Nomura Fiduciary Research & Consulting Co., Ltd. (\"NFRC\") and FTSE Russell (\"Russell\"). NFRC and Russell do not guarantee fairness, accuracy, completeness, correctness, reliability, usefulness, marketability, merchantability or fitness of the Index, and do not account for business activities or services that any index user and/or its affiliates undertakes with the use of the Index.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "382974f996b7973a",
+      "text": "Investors should consider this document as only a single factor in making their investment decision and, as such, the report should not be viewed as identifying or suggesting all risks, direct or indirect, that may be associated with any investment decision. Nomura Group produces a number of different types of research product including, among others, fundamental analysis and quantitative analysis; recommendations contained in one type of research product may differ from recommendations contained in other types of research product, whether as a result of differing time horizons, methodologies or otherwise. The Nomura Group publishes research product in a number of different ways including the posting of product on the Nomura Group portals and/or distribution directly to clients. Different groups of clients may receive different products and services from the research department depending on their individual requirements.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "f6b1d92db8b07754",
+      "text": "Figures presented herein may refer to past performance or simulations based on past performance which are not reliable indicators of future or likely performance. Where the information contains an expectation, projection or indication of future performance and business prospects, such",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "0a5a6ee58b157f7b",
+      "text": "forecasts may not be a reliable indicator of future or likely performance. Moreover, simulations are based on models and simplifying assumptions which may oversimplify and not reflect the future distribution of returns. Any figure, strategy or index created and published for illustrative purposes within this document is not intended for \"use\" as a \"benchmark\" as defined by the European Benchmark Regulation. Certain securities are subject to fluctuations in exchange rates that could have an adverse effect on the value or price of, or income derived from, the investment.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "a75f4a9828a47492",
+      "text": "With respect to Fixed Income Research: Recommendations fall into two categories: tactical, which typically last up to three months; or strategic, which typically last from 6- 12 months. However, trade recommendations may be reviewed at any time as circumstances change. 'Stop loss' levels for trades are also provided; which, if hit, closes the trade recommendation automatically. Prices and yields shown in recommendations are taken at the time of submission for publication and are based on either indicative Bloomberg, LSEG or Nomura prices and yields at that time. The prices and yields shown are not necessarily those at which the trade recommendation can be implemented.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "6e9a7fc0393dea86",
+      "text": "The securities described herein may not have been registered under the US Securities Act of 1933 (the '1933 Act'), and, in such case, may not be offered or sold in the US or to US persons unless they have been registered under the 1933 Act, or except in compliance with an exemption from the registration requirements of the 1933 Act. Unless governing law permits otherwise, any transaction should be executed via a Nomura entity in your home jurisdiction.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "2e250ccb83e844cd",
+      "text": "This document has been approved for distribution in the UK as investment research by NIplc. NIplc is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. NIplc is a member of the London Stock Exchange. This document does not constitute a personal recommendation within the meaning of applicable regulations in the UK, or take into account the particular investment objectives, financial situations, or needs of individual investors. This document is intended only for investors who are 'eligible counterparties' or 'professional clients' for the purposes of applicable regulations in the UK, and may not, therefore, be redistributed to persons who are 'retail clients' for such purposes.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "70a1a8d8c9dca84b",
+      "text": "This document has been approved for distribution in the European Economic Area as investment research by Nomura Financial Products Europe GmbH (NFPE). NFPE is a company organized as a limited liability company under German law registered in the Commercial Register of the Court of Frankfurt/Main under HRB 110223. NFPE is authorized and regulated by the German Federal Financial Supervisory Authority (BaFin).",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "93ff2d34f80dfa9b",
+      "text": "This document has been approved by NIHK, which is regulated by the Hong Kong Securities and Futures Commission, for distribution in Hong Kong by NIHK. This document is intended only for investors who are 'professional investors' for the purposes of applicable regulations in Hong Kong and may not, therefore, be redistributed to persons who are not 'professional investors' for such purposes.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "2c881bde1f078dc8",
+      "text": "This document has been approved for distribution in Australia by NAL, which is authorized and regulated in Australia by the ASIC.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "1b544a9ab6edd866",
+      "text": "This document has also been approved for distribution in Malaysia by NSM.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "2b81161cadf09b9a",
+      "text": "In Singapore, this document has been distributed by NSL, an exempt financial adviser as defined under the Financial Advisers Act (Chapter 110), among other things, and regulated by the Monetary Authority of Singapore. NSL may distribute this document produced by its foreign affiliates pursuant to an arrangement under Regulation 32C of the Financial Advisers Regulations. Where the recipient of this document is not an accredited, expert or institutional investor as defined by the Securities and Futures Act (Chapter 289), NSL accepts legal responsibility for the contents of this document in respect of such recipient only to the extent required by law. Recipients of this document in Singapore should contact NSL in respect of matters arising from, or in connection with, this document. THIS DOCUMENT IS INTENDED FOR GENERAL CIRCULATION. IT DOES NOT TAKE INTO ACCOUNT THE SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS OF ANY PARTICULAR PERSON. RECIPIENTS SHOULD TAKE INTO ACCOUNT THEIR SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS BEFORE MAKING A COMMITMENT TO PURCHASE ANY SECURITIES, INCLUDING SEEKING ADVICE FROM AN INDEPENDENT FINANCIAL ADVISER REGARDING THE SUITABILITY OF THE INVESTMENT, UNDER A SEPARATE ENGAGEMENT, AS THE RECIPIENT DEEMS FIT.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "1d53d5336171e263",
+      "text": "Unless prohibited by the provisions of Regulation S of the 1933 Act, this material is distributed in the US, by NSI, a US- registered broker- dealer, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6, under the US Securities Exchange Act of 1934. The entity that prepared this document permits its separately operated affiliates within the Nomura Group to make copies of such documents available to their clients.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "a04cd06e12208c53",
+      "text": "This document has not been approved for distribution to persons other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' (as defined by the Capital Markets Authority) in the Kingdom of Saudi Arabia ('Saudi Arabia') or a 'Market Counterparty' or a 'Professional Client' (as defined by the Dubai Financial Services Authority) in the United Arab Emirates ('UAE') or a 'Market Counterparty' or a 'Business Customer' (as defined by the Qatar Financial Centre Regulatory Authority) in the State of Qatar ('Qatar') by Nomura Saudi Arabia, NIplc or any other member of the Nomura Group, as the case may be. Neither this document nor any copy thereof may be taken or transmitted or distributed, directly or indirectly, by any person other than those authorised to do so into Saudi Arabia or in the UAE or in Qatar or to any person other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' located in Saudi Arabia or a 'Market Counterparty' or a 'Professional Client' in the UAE or a 'Market Counterparty' or a 'Business Customer' in Qatar. Any failure to comply with these restrictions may constitute a violation of the laws of the UAE or Saudi Arabia or Qatar.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "5e138d42127213fa",
+      "text": "For report with reference of TAIWAN public companies or authored by Taiwan based research analyst:",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "90d3ef5b79ee1a74",
+      "text": "THIS DOCUMENT IS SOLELY FOR REFERENCE ONLY. You should independently evaluate the investment risks and are solely responsible for your investment decisions. NO PORTION OF THE REPORT MAY BE REPRODUCED OR QUOTED BY THE PRESS OR ANY OTHER PERSON WITHOUT WRITTEN AUTHORIZATION FROM NOMURA GROUP. Pursuant to Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers and/or other applicable laws or regulations in Taiwan, you are prohibited to provide the reports to others (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities in connection with the reports which may involve conflicts of interests. INFORMATION ON SECURITIES / INSTRUMENTS NOT EXECUTABLE BY NOMURA INTERNATIONAL (HONG KONG) LTD., TAIPEI BRANCH IS FOR INFORMATIONAL PURPOSES ONLY AND IS NOT BE CONSTRUED AS A RECOMMENDATION OR A SOLICITATION TO TRADE IN SUCH SECURITIES / INSTRUMENTS.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "06d52719fb8cb029",
+      "text": "This material may not be distributed in Indonesia or passed on within the territory of the Republic of Indonesia or to persons who are Indonesian citizens (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "a975fc63d745e325",
+      "text": "laws of the Republic of Indonesia. The securities mentioned in this document may not be offered or sold in Indonesia or to persons who are citizens of Indonesia (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the laws of the Republic of Indonesia.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "8c8f0f7b8ad5de7c",
+      "text": "An individual name printed next to NOI on the front page of a research report indicates that this document is a translation of a research report issued by NOI in the PRC. In all other cases, this document is prepared by Nomura Group or its subsidiary or affiliate (collectively, \"Offshore Issuers\") that is not licensed in the PRC to provide securities research. This research report is not approved or intended to be circulated in the PRC. The A- share related analysis (if any) is not produced for any persons located or incorporated in the PRC. The recipients should not rely on any information contained in this research report in making investment decisions and Offshore Issuers take no responsibility in this regard. NO PART OF THIS MATERIAL MAY BE (I) COPIED, PHOTOCOPIED, REPRODUCED OR DUPLICATED IN ANY FORM, BY ANY MEANS; OR (II) REDISSEMINATED, REPUBLISHED OR REDISTRIBUTED WITHOUT THE PRIOR WRITTEN CONSENT OF A MEMBER OF THE NOMURA GROUP. If this document has been distributed by electronic transmission, such as e- mail, then such transmission cannot be guaranteed to be secure or error- free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. The sender therefore does not accept liability (in negligence or otherwise, and in whole or in part) for any errors or omissions in the contents of this document, which may arise as a result of electronic transmission. If verification is required, please request a hard- copy version.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "fce61729a6ea04f2",
+      "text": "Financial instruments firm registered with the Kanto Local Finance Bureau (registration No. 142)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "a2cad642ee8fc838",
+      "text": "Member associations: Japan Securities Dealers Association; Japan Investment Advisers Association; The Financial Futures Association of Japan; and Type II Financial Instruments Firms Association.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "8da3a22632f70a4b",
+      "text": "The Nomura Group manages conflicts with respect to the production of research through its compliance policies and procedures (including, but not limited to, Conflicts of Interest, Chinese Wall and Confidentiality policies) as well as through the maintenance of Chinese Walls and employee training.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "d63f02310e37bd49",
+      "text": "Additional information regarding the methodologies or models used in the production of any investment recommendations contained within this document is available upon request by contacting the Research Analysts of Nomura listed on the front page. Disclosures information is available upon request and disclosure information is available at the Nomura Disclosure web page:",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "30dca7f0789e4b2f",
+      "text": "http://go.nomuranow.com/research/m/Disclosures",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "f5c5828a033586c7",
+      "text": "Copyright © 2025 Nomura International plc, UK. All rights reserved.",
+      "page": 11,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f55c22cf8436ad49",
+      "name": "All Nomura",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3062e21d617ad05f",
+      "name": "Any MSCI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "18936f428f87ccd0",
+      "name": "August BRC",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9ffd3642d6d9bee4",
+      "name": "August HICP",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03ec5d54e225b9d0",
+      "name": "Authorised Persons",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ddb4f140028b0de2",
+      "name": "Autumn Budget",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "29104f50c5346adf",
+      "name": "BOE Rate",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "07f71c7186a73b76",
+      "name": "Bank Lending",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4fe65f20ec1dd614",
+      "name": "Beyond August",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "17a2509349ae4159",
+      "name": "BoE Bank",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6284d27103a5aba3",
+      "name": "Breeden Speaks",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8c1abdd3ddd39022",
+      "name": "Business Customer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "315da0e0d824335c",
+      "name": "CPI Core",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4f7793d11c185d65",
+      "name": "Chinese Wall",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "30f11a4354af2089",
+      "name": "Chinese Walls",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1189a2b1acf10b26",
+      "name": "Cipollone Speaks",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "aebbecf5515fe8dd",
+      "name": "Commercial Register",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "bar",
+        "title": "France and UK have limited fiscal space",
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "DEN",
+              "SWE",
+              "IRE",
+              "SWI",
+              "NET",
+              "AUS",
+              "KOR",
+              "NZ",
+              "GER",
+              "AUT",
+              "FIN",
+              "POR",
+              "SPA",
+              "UK",
+              "BEL",
+              "CAN",
+              "FRA",
+              "US",
+              "ITA",
+              "GRE",
+              "JPN"
+            ]
+          },
+          "y": {
+            "unit": "% GDP",
+            "range": {
+              "min": 0,
+              "max": 250
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "IMF 2025 govt debt",
+            "unit": "% GDP",
+            "values": [
+              28,
+              36,
+              37,
+              38,
+              50,
+              52,
+              55,
+              56,
+              65,
+              80,
+              85,
+              90,
+              98,
+              103.9,
+              108,
+              110,
+              116.3,
+              120,
+              138,
+              142,
+              235
+            ]
+          }
+        ],
+        "figure_id": "fa45146adfd8727f",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": "OAT-Bunds widened on France's political uncertainty",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan 2024",
+              "Jul 2024",
+              "Jan 2025",
+              "Jul 2025"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 200
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "BTP-Bund",
+            "unit": null,
+            "values": [
+              160,
+              140,
+              120,
+              100,
+              80
+            ]
+          },
+          {
+            "name": "OAT-Bund",
+            "unit": null,
+            "values": [
+              50,
+              80,
+              70,
+              80
+            ]
+          },
+          {
+            "name": "SGB-Bund",
+            "unit": null,
+            "values": [
+              100,
+              80,
+              70,
+              60
+            ]
+          }
+        ],
+        "figure_id": "ec3377d0281d95af",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "EUR bn",
+            "range": {
+              "min": -40,
+              "max": 120
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Firms",
+            "unit": "EUR bn",
+            "values": [
+              20,
+              105,
+              -10,
+              35,
+              -25,
+              5,
+              10
+            ]
+          },
+          {
+            "name": "Consumer",
+            "unit": "EUR bn",
+            "values": [
+              15,
+              -5,
+              10,
+              30,
+              -5,
+              10,
+              10
+            ]
+          },
+          {
+            "name": "Total lending",
+            "unit": "EUR bn",
+            "values": [
+              35,
+              80,
+              20,
+              65,
+              -10,
+              20,
+              20
+            ]
+          }
+        ],
+        "figure_id": "c8da5ead42c541e6",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": "UK taxes as % of GDP including OBR forecasts",
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1945",
+              "1955",
+              "1965",
+              "1975",
+              "1985",
+              "1995",
+              "2005",
+              "2015",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 27,
+              "max": 38
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Actual",
+            "unit": "%",
+            "values": [
+              37.2,
+              32.5,
+              29.5,
+              28.0,
+              29.0,
+              28.5,
+              35.2,
+              29.8,
+              33.5,
+              30.5,
+              34.0,
+              31.5,
+              30.0,
+              32.0,
+              30.5,
+              28.5,
+              30.5,
+              29.0,
+              33.0,
+              30.0,
+              33.8,
+              32.0,
+              33.0,
+              32.5,
+              34.0,
+              33.0,
+              35.0,
+              33.5,
+              36.0
+            ]
+          },
+          {
+            "name": "OBR March 2025 forecast",
+            "unit": "%",
+            "values": [
+              36.0,
+              37.0,
+              37.5,
+              37.8
+            ]
+          }
+        ],
+        "figure_id": "a48ebe2ca0ab0208",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2010",
+              "2013",
+              "2016",
+              "2019",
+              "2022",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -40,
+              "max": 80
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Business confidence",
+            "unit": null,
+            "values": [
+              48,
+              20,
+              30,
+              45,
+              35,
+              20,
+              5,
+              25,
+              40,
+              55,
+              65,
+              50,
+              40,
+              30,
+              20,
+              10,
+              0,
+              15,
+              25,
+              35,
+              45,
+              55,
+              60,
+              50,
+              40,
+              30,
+              20,
+              10,
+              0,
+              -10,
+              -20,
+              -30,
+              -25,
+              -15,
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              55,
+              50,
+              45,
+              40,
+              35,
+              40,
+              45,
+              50,
+              55,
+              60
+            ]
+          },
+          {
+            "name": "Staffing balance",
+            "unit": null,
+            "values": [
+              40,
+              25,
+              35,
+              40,
+              30,
+              20,
+              10,
+              20,
+              30,
+              40,
+              50,
+              45,
+              35,
+              25,
+              15,
+              5,
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              55,
+              45,
+              35,
+              25,
+              15,
+              5,
+              -5,
+              -15,
+              -25,
+              -20,
+              -10,
+              0,
+              10,
+              20,
+              30,
+              40,
+              45,
+              40,
+              35,
+              30,
+              25,
+              30,
+              35,
+              40,
+              45,
+              50,
+              55
+            ]
+          },
+          {
+            "name": "Biz activity balance",
+            "unit": null,
+            "values": [
+              50,
+              30,
+              40,
+              50,
+              40,
+              25,
+              10,
+              20,
+              35,
+              50,
+              60,
+              55,
+              45,
+              35,
+              25,
+              15,
+              5,
+              15,
+              25,
+              35,
+              45,
+              55,
+              65,
+              55,
+              45,
+              35,
+              25,
+              15,
+              0,
+              -10,
+              -20,
+              -30,
+              -25,
+              -15,
+              0,
+              10,
+              20,
+              30,
+              40,
+              50,
+              60,
+              55,
+              50,
+              45,
+              40,
+              45,
+              50,
+              55,
+              60,
+              65
+            ]
+          }
+        ],
+        "figure_id": "a77a689bde858558",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Dovish",
+              "Neutral",
+              "Hawkish"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "Dovish",
+            "unit": null,
+            "values": [
+              "Panetta (ITA)",
+              "Stournaras (GRE)",
+              "Patsalides (CYP)"
+            ]
+          },
+          {
+            "name": "Slightly Dovish",
+            "unit": null,
+            "values": [
+              "Lane (Exec)",
+              "Scicluna (MAL)",
+              "Cipollone (Exec)"
+            ]
+          },
+          {
+            "name": "Moderately Dovish",
+            "unit": null,
+            "values": [
+              "Villeroy (FRA)",
+              "Rehn (FIN)",
+              "Santos Pereira (POR)",
+              "Escriva (SPA)"
+            ]
+          },
+          {
+            "name": "Neutral",
+            "unit": null,
+            "values": [
+              "Lagarde (Exec)",
+              "Guindos (Exec)",
+              "Elderson (Exec)",
+              "Makhlouf (IRE)",
+              "Reinesch (LUX)"
+            ]
+          },
+          {
+            "name": "Moderately Hawkish",
+            "unit": null,
+            "values": [
+              "Simkus (LIT)",
+              "Vasle (SLN)",
+              "Wunsch (BEL)",
+              "Vujcic (CRO)"
+            ]
+          },
+          {
+            "name": "Slightly Hawkish",
+            "unit": null,
+            "values": [
+              "Schnabel (Exec)",
+              "Nagel (GER)",
+              "Sleijpen (NET)",
+              "Kazaks (LAT)",
+              "Kazimir (SLK)",
+              "Muller (EST)"
+            ]
+          },
+          {
+            "name": "Hawkish",
+            "unit": null,
+            "values": [
+              "Holzmann (AUT)"
+            ]
+          }
+        ],
+        "figure_id": "1cdad0b458efb0c5",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Dhingra",
+              "Taylor",
+              "Ramsden",
+              "Bailey",
+              "Breeden",
+              "Lombardelli",
+              "Greene",
+              "Pill",
+              "Mann"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "Sentiment",
+            "unit": null,
+            "values": [
+              "Dovish",
+              "Neutral",
+              "Hawkish"
+            ]
+          }
+        ],
+        "figure_id": "fa00d5b302ed9555",
+        "provenance": {
+          "page": 6
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "bc971fbfdf7392f1",
+        "value": 21.0,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "\\(2.00\\%\\) for the foreseeable future. ## A positive credit impulse Net lending for July rose by €21.0bn (Figure 3), albeit this was slightly less than June's €25.3bn. Net lending in July was concentr",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1de2b0e5aa8e5416",
+        "value": 25.3,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "impulse Net lending for July rose by €21.0bn (Figure 3), albeit this was slightly less than June's €25.3bn. Net lending in July was concentrated in mortgage lending (€11.9bn), followed by corporate le",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7b7a4b226b92fe15",
+        "value": 11.9,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "is was slightly less than June's €25.3bn. Net lending in July was concentrated in mortgage lending (€11.9bn), followed by corporate lending (€7.6bn). Within corporate lending, the bulk was above 1y in",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1e0bc3e8de6519f5",
+        "value": 7.6,
+        "unit": "€",
+        "metric_type": "currency",
+        "context": "Net lending in July was concentrated in mortgage lending (€11.9bn), followed by corporate lending (€7.6bn). Within corporate lending, the bulk was above 1y in duration, and in particular, the \\(>5y\\) ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "440a99843d252963",
+        "value": 3.0,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "imilar level in August. UK Household borrowing, July (Monday): We forecast net mortgage lending of £3.0bn in July, down from June's strong £5.3bn, but still above the 2024 monthly average of £2.1bn. I",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "25878decc6dd85da",
+        "value": 5.3,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "rrowing, July (Monday): We forecast net mortgage lending of £3.0bn in July, down from June's strong £5.3bn, but still above the 2024 monthly average of £2.1bn. In addition, we expect mortgage approval",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "912585c5643b0e19",
+        "value": 2.1,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "ding of £3.0bn in July, down from June's strong £5.3bn, but still above the 2024 monthly average of £2.1bn. In addition, we expect mortgage approvals to fall to 63,500 from 64,200 in June. This is as ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "ce309305767ddb99",
+        "value": 1.4,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "n June. The sales over the past month balance also fell to - 24 in July from - 1 in June. We expect £1.4bn of net consumer credit, in line with June and also the average for the past six months. Euro ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "055d7464a8d11f8c",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0.4% m-o-m (excluding auto fuel). This would follow a 0.6% m-o-m rise in June and May's 2.9% drop. Accor",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "6851f3d81ffc6b65",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0.4% m-o-m (excluding auto fuel). This would follow a 0.6% m-o-m rise in June and May's 2.9% drop. According to the BRC, annual UK retail sales (like-for-like",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4b7f2ccd153cfe3b",
+        "value": 0.028999999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0.4% m-o-m (excluding auto fuel). This would follow a 0.6% m-o-m rise in June and May's 2.9% drop. According to the BRC, annual UK retail sales (like-for-like) grew by 1.8% y-o-y in July, slow",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b202e35481929025",
+        "value": 0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e in June and May's 2.9% drop. According to the BRC, annual UK retail sales (like-for-like) grew by 1.8% y-o-y in July, slower than June's 2.7% rise but above the average for the 12 months to June. In",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ce53f629b0cb17b0",
+        "value": 0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "g to the BRC, annual UK retail sales (like-for-like) grew by 1.8% y-o-y in July, slower than June's 2.7% rise but above the average for the 12 months to June. In addition, sporting events including th",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d15dd137a9045d4f",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "umes growth. **Germany Factory orders, July (Friday):** We expect Germany's factory orders fell by 1.4% m-o-m in July, following a 1.0% decline in June. This would be in line with surveys that suggest",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "7243e9270d528ed5",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "orders, July (Friday):** We expect Germany's factory orders fell by 1.4% m-o-m in July, following a 1.0% decline in June. This would be in line with surveys that suggested new orders fell on the month",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f35d7a02015cf46f",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2025 – final estimate (Friday):** We forecast euro area GDP growth for Q2 2025 will be confirmed at 0.1% q-o-q in the final release. The expenditure breakdown, released alongside, is likely to suggest",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "9d18fcf894014ff1",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "riffs may only have a small effect on GDP.</td><td>Insurance cut&#x27; not needed with inflation at 2%. No reason to act before price, growth risks materialise. Inflation is &quot;for now in a good pl",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "0efd0e333d630068",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "f future rate cuts more uncertain. Need to lean against second-round inflation effects. Approaching 2% to 4% neutral rate range. Little bit further to go on rates.</td><td>Terminal rate estimates a br",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "911d4a69ea2e4e7d",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "re rate cuts more uncertain. Need to lean against second-round inflation effects. Approaching 2% to 4% neutral rate range. Little bit further to go on rates.</td><td>Terminal rate estimates a broad ra",
+        "provenance": {
+          "page": 5
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 7,
+      "tables_count": 0,
+      "numerical_data_count": 19,
+      "passages_count": 97,
+      "entities_count": 20
+    }
+  }
+}

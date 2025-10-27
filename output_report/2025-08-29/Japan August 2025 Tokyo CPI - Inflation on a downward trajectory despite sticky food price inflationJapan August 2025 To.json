@@ -1,0 +1,1067 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "589966ac703cf0d01be9ddd4170922a5",
+    "title": "NOAURA",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Nomura/Japan August 2025 Tokyo CPI - Inflation on a downward trajectory despite sticky food price inflationJapan August 2025 To_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:33:08.154738",
+      "extracted_at": "2025-10-26T12:33:08.154750"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 9,
+        "successful_pages": 9,
+        "date": "2025-08-29",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Nomura",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 5,
+          "removed_paragraphs": 2,
+          "reduction_ratio": 0.1347315229448256
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Nomura"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "9289f57d3bf0c6fc",
+      "text": "Caution about: (1) depressive impact of scrapping childcare fees in September; and (2) impact of supply of high- priced new 2025 rice",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "cb89610740150e92",
+      "text": "Tokyo core CPI inflation came to \\(+2.5\\%\\) in August. Inflation slowed for a third straight month, mainly due to measures to rein in electricity and gas charges. Rice prices are now pushing down inflation, but food inflation as a whole looked sticky, holding steady from the previous month. We think inflation in September could be affected by the negative impact of free childcare being implemented and the supply of newly harvested rice.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4b9732c50080acc4",
+      "text": "Overview: Core CPI inflation in line with market consensus, down m- m Tokyo core CPI inflation (all items less fresh food) came to \\(+2.5\\%\\) in August 2025, down from \\(+2.9\\%\\) in July (Figure 1) and in line with the consensus forecast (Bloomberg survey median). The BOJ's version of core- core CPI inflation (all items, less energy and fresh food) came to \\(+3.0\\%\\) , slowing from \\(+3.1\\%\\) in the previous month. Inflation for all items excluding energy and food (but including alcoholic beverages) came to \\(+1.5\\%\\) , down from \\(+1.7\\%\\) in the previous month. Like these y- y rates of inflation, m- m inflation has also been trending downward (Figure 7).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3e5c0db845605af7",
+      "text": "Breakdown: (1) Slowdown in inflation mainly due to energy prices; (2) bigger negative contribution from rice prices, but food price inflation unchanged The main factor behind the decline in core CPI inflation was energy prices (- 0.26ppt m- m change in contribution to y- y inflation). This reflects the effect of government measures to rein in electricity and gas charges in summer 2025 (Figure 6). These measures will last for three months through October.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "28596dad8a818497",
+      "text": "Meanwhile, inflation in core food prices (food less fresh food and alcoholic beverages) came to \\(+7.5\\%\\) , unchanged from July. We had expected food inflation to fall slightly in August, but it has been stickier than we had expected. Prices for rice products were down m- m for a second straight month, pushing down inflation (Figure 6). However, price rises for other items such as chocolate, yogurt, and chicken offset the impact of the lull in the rise in rice prices.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a816e91e60e3eb81",
+      "text": "Durable goods prices made a large negative contribution this month (- 0.06ppt m- m change in contribution to y- y inflation). As this category is readily affected by forex rates, we think the strengthening of the yen since the start of the year has had a delayed impact. Services prices, which reflect the underlying inflation trend, held broadly flat. Spending on general services (a rough proxy for private- sector services), which strips out volatile items, was up \\(2.0\\%\\) y- y in August, unchanged from July (Figure 8).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "fcee4efe70335968",
+      "text": "Key points to watch in September: (1) scrapping of childcare fees; and (2) increased supply of new rice",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b8ccad28448f9b55",
+      "text": "Looking ahead, we expect the rollout of free childcare in Tokyo from September to depress core CPI inflation by around 0.5ppt. We should also not ignore the impact of the gradual start of supply of new rice from the 2025 harvest. Rice is still being procured by buyers at high prices, as evidenced by the sharp y- y increase in provisional payments for rice (prepayments made by Japan Agricultural Cooperative Associations and other collection agents to farmers), and we think this will support continued food price inflation.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e9d455d043a62fbe",
+      "text": "Fig. 1: Contributions to \\(\\%\\) y-y change in Tokyo core CPI (excluding impact of the consumption tax hike and free education)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "84c72ac6be0c6f06",
+      "text": "Note: Core CPI = CPI for all items, excluding fresh food. Excluding impact of April 2014 consumption tax hike and impact of October 2019 consumption tax hike, October 2019 start of free preschool education, and April 2020 start of free higher education. Nondurable goods is based on the nondurable consumer goods category published by MIC excluding food (food here excludes restaurants), electricity charges, city gas charges, propane gas, kerosene and gasoline, but including alcoholic beverages.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "4bc53339b68c34a4",
+      "text": "Source: Nomura, based on Ministry of Internal Affairs and Communications data",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5dfa61771a92a65c",
+      "text": "Fig. 2: Tokyo core CPI (excluding impact of the consumption tax hike and free education) by goods or services category",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "49684a1c777d524e",
+      "text": "Note: Core CPI = CPI for all items, excluding fresh food. It excludes the impact of the consumption tax increases of April 2014 and October 2019, the abolition of fees for preschool education in October 2019, and the abolition of fees for higher education in April 2020. Nondurables are \"nondurable goods\" as described by the Ministry of Internal Affairs and Communications, excluding foods, electricity charges, city gas charges, propane gas, kerosene, and gasoline but including alcohol. Source: Nomura, based on Ministry of Internal Affairs and Communications data",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ea0aec771c254fcf",
+      "text": "OverallFresh foodCore CPI(ex fresh foods)BOJ&#x27;s version of core-core inflation (all items less fresh food and energy)Weight(out of 10,000)MICI&#x27;s version of core-core CPI (all items less food (ex alcoholic beverages) and energy)Core food1000096157111520Durable goodsSemidurable goodsNondurable goodsGeneral services (ex restaurants)Public services(Units)% y-y% y-y% q-q. % m-m% y-y% y-y% y-y% y-y% y-x% y-y% y-y% y-y% y20190.80.9-0.80.61.70.71.10.5-0.11.23.3-1.420200.10.0-0.20.01.92.21.1-0.2-2.21.1-4.52.52021-0.2-0.2--0.3-0.30.60.30.7-1.00.50.0-0.7-0.720222.52.2-1.00.33.81.51.1-0.40.23.624.09.420233.23.0-3.72.34.85.15.91.50.54.6-7.57.220242.32.1-2.01.51.73.34.11.4-1.45.62.87.02022Q10.90.50.4-0.6-1.10.80.50.5-2.2-0.21.423.411.4Q22.42.01.10.90.43.60.30.90.1-0.42.822.912.9Q32.72.60.91.40.63.61.50.90.2-0.44.224.57.2Q43.73.61.12.41.26.13.52.30.20.46.824.96.52023Q13.73.60.43.21.86.64.93.40.60.77.910.25.8Q23.33.30.83.82.35.95.65.71.00.99.0-5.93.8Q32.92.80.54.02.52.25.57.51.60.78.8-15.67.0Q42.82.40.73.72.71.74.46.82.6-0.56.8-16.612.02024Q12.32.20.53.12.50.83.85.92.7-0.85.2-11.54.2Q22.11.90.21.81.31.23.34.51.3-2.23.23.48.3Q32.32.20.81.61.22.83.33.21.0-1.92.813.95.7Q42.52.20.71.81.12.02.72.90.8-0.74.17.89.82025Q13.02.40.72.01.02.02.73.40.3-0.35.38.718.1Q23.33.40.03.22.01.12.92.91.91.26.97.21.92022Jan0.60.2-0.7-1.20.80.70.9-2.4-0.21.019.99.3Feb1.00.50.4-0.6-1.10.20.60.6-2.2-0.21.324.211.6Mar1.30.80.4-0.4-1.01.40.20.0-2.0-0.31.726.113.4Apr2.41.90.20.80.31.40.20.60.1-0.32.424.614.9May2.41.90.20.90.33.30.30.70.1-0.52.722.315.2Jun2.32.10.21.00.44.10.51.40.1-0.53.221.78.8Jul2.52.30.41.20.44.21.01.20.0-0.53.823.59.3Aug2.92.60.41.40.64.51.30.70.2-0.34.025.610.1Sep2.82.80.51.70.85.12.10.70.4-0.54.824.22.6Oct3.53.40.32.21.25.43.12.20.40.26.024.27.2Nov3.73.60.32.41.26.43.52.20.00.36.824.47.7Dec3.93.90.42.71.36.64.02.50.10.67.526.04.42023Jan4.44.30.53.01.76.45.32.70.50.77.626.07.0Feb3.43.3-0.53.11.76.64.63.20.60.78.05.35.4Mar3.33.20.33.42.06.64.84.40.70.88.20.35.1Apr3.53.50.43.82.36.85.15.21.10.99.0-2.64.7May3.23.1-0.13.92.46.15.85.81.01.09.0-8.23.5Jun3.23.20.23.82.34.75.96.10.90.89.0-6.93.2Jul3.23.00.24.02.52.75.37.11.50.88.9-11.96.6Aug2.92.80.24.02.66.27.81.70.70.88.9-15.94.2Sep2.82.50.23.92.48.87.61.60.60.68.5-18.710.1Oct3.22.70.53.82.72.44.76.82.4-0.47.5-14.116.4Nov2.72.30.03.62.71.34.36.72.8-0.46.5-16.710.2Dec2.42.10.13.52.71.54.36.72.7-0.86.3-18.89.42024Jan1.80.23.32.51.13.46.52.7-0.85.8-20.13.7Feb2.52.50.23.12.51.13.46.02.7-0.85.1-7.92.7Mar2.62.40.32.92.30.04.05.32.7-0.94.7-5.36.2Apr1.81.6-0.41.81.4-0.13.95.11.5-2.33.2-2.98.2May2.21.90.31.71.20.03.14.71.2-2.43.25.98.7Jun2.32.10.41.81.41.02.93.71.3-1.93.17.57.9Jul2.22.20.21.51.12.13.83.40.9-2.02.714.53.3Aug2.62.40.41.61.23.23.03.11.0-2.02.817.47.9Sep2.12.0-0.21.61.23.23.13.10.9-1.62.99.55.9Oct1.61.60.31.61.12.22.92.90.7-0.73.62.52.1Nov2.52.20.31.91.22.23.23.20.9-0.74.27.49.7Dec3.12.40.31.81.11.24.22.52.70.9-0.74.113.518.42025Jan3.42.50.31.91.02.22.83.40.3-0.44.913.323.1Feb2.82.2-0.11.90.81.14.22.53.40.2-0.35.16.918.0Mar2.92.40.52.21.12.62.83.40.5-0.35.86.113.2Apr3.43.40.53.12.02.42.53.71.81.36.59.43.9May3.43.60.53.32.11.62.93.71.81.46.98.70.0Jun3.13.1-0.13.11.81.63.21.22.01.07.23.61.8Jul2.92.90.03.11.71.62.71.01.90.87.5-0.84.1Aug2.62.50.13.01.50.53.00.71.90.97.5-5.34.1",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "018c2b8c9b20fe0c",
+      "text": "Note: Nondurable consumer goods is based on the nondurable consumer goods category published by MIC excluding food (ex eating out and alcoholic beverages), electricity charges, city gas charges, propane gas, kerosene and gasoline, but including alcoholic beverages. Source: Nomura, based on Ministry of Internal Affairs and Communications data",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "682358a93c8d3797",
+      "text": "Fig. 4: Tokyo ku-area consumer price index",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "d52483cf15fcd6bf",
+      "text": "Note: Excludes impact of the consumption tax hike in October 2019 as well as the removal of fees for preschool education from October 2019 and higher education from April 2020.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "654604f76be0af81",
+      "text": "Source: Nomura, based on Ministry of Internal Affairs and Communications data",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "8add87c1e9f0a7ee",
+      "text": "Fig. 5: Inflation rate for goods and services",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "90c76d556c540f3d",
+      "text": "Note: Covers items included in Tokyo ku-area/Ministry of Internal Affairs and Communications core core CPI (all items less food (ex alcoholic beverages) and energy).",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "c289fd01c929812a",
+      "text": "Source: Nomura, based on Ministry of Internal Affairs and Communications data",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2063e72cef77e413",
+      "text": "Fig. 6: Items making the biggest positive/negative contribution to core inflation (August 2025)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ce6883c61006cb8d",
+      "text": "TopItemContribution to all- Japan core CPI (ppt)BottomItemContribution to all- Japan core CPI (ppt)1Chocolate0.0231Electricity-0.1922Room air conditioners0.0202Gas, manufactured and piped-0.0813Yogurt0.0193Non-glutinous rice-B-0.0334Chicken0.0174Electric rice cookers-0.0255Fresh milk0.0155Detergent, laundry-0.0216Telephone charges (mobile phone)0.0136Non-glutinous rice-A-0.0207Gasoline0.0137Overseas package tours-0.0158Pudding0.0128Pork (imported)-0.0149Pants for exercise0.0119Washing machines-0.01310Jelly0.01110Toilet seat with a hot douche-0.01211Anpan (sweet rolls filled with red bean paste0.01011Vacuum cleaners-0.01012Sushi (eating out, B)0.00912Sushi (eating out, A)-0.00913Sandwich products0.00813Tea beverages-0.00914Women&#x27;s suits (spring/summer, mid-range r)0.00714Beef bowls (eating out)-0.00815Fire and earthquake insurance0.00715One-piece dresses (for spring &amp;amp; summer)-0.008",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "914258d670cd1282",
+      "text": "Note: The table shows the contribution of each item to the rise in (m-m change in the y-y contribution to) core inflation between July and August 2025. Source: Nomura, based on Ministry of Internal Affairs and Communications data",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "fa43e1e119b7c786",
+      "text": "Fig. 7: : M-m change in Tokyo CPI inflation",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "8480107963570444",
+      "text": "Source: Nomura, based on Ministry of Internal Affairs and Communications data",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6e33d406b3193980",
+      "text": "Fig. 8: General services excluding impact of volatile items (y-y)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "8dadd73d871d08a9",
+      "text": "Note: (1) Excludes restaurants, telephone charges (mobile phones), private rents, imputed rents for owner- occupied houses, theme park admission fees, car rental fees, karaoke room charges, overseas package tours, accommodation charges, after- school childcare fees, and charges for practicing and playing golf. (2) Excludes impact of consumption tax hike, tree education.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "3c188fc7f8148883",
+      "text": "Source: Nomura, based on Ministry of Internal Affairs and Communications data",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f10e2e99c234acaf",
+      "text": "Appendix A- 1This report has been produced by Nomura Securities Co., Ltd. (NSC), Japan. See Disclaimers for Nomura Group entity details.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "be105f622752dd52",
+      "text": "The analysts responsible for preparing this report have received compensation based upon various factors including the firm's total revenues, a portion of which is generated by Investment Banking activities. Unless otherwise noted, the non- US analysts listed at the front of this report are not registered/qualified as research analysts under FINRA rules, may not be associated persons of NSI, and may not be subject to FINRA Rule 2241 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "94c140ca3607fc7e",
+      "text": "Nomura Global Financial Products Inc. (NGFP) Nomura Derivative Products Inc. (NDP) and Nomura International plc. (Nlplc) are registered with the Commodities Futures Trading Commission and the National Futures Association (NFA) as swap dealers. NGFP, NDPI, and Nlplc are generally engaged in the trading of swaps and other derivative products, any of which may be the subject of this report.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "636ae49894877411",
+      "text": "report indicates that the individual is employed by PT Verdhana Sekuritas Indonesia (Verdhana) to provide research assistance to NIHK under a research partnership agreement and neither Verdhana nor such individual is licensed outside of Indonesia. THIS MATERIAL IS: (I) FOR YOUR PRIVATE INFORMATION, AND WE ARE NOT SOLICITING ANY ACTION BASED UPON IT; (II) NOT TO BE CONSTRUED AS AN OFFER TO SELL OR A SOLICITATION OF AN OFFER TO BUY ANY SECURITIES IN ANY JURISDICTION WHERE SUCH OFFER OR SOLICITATION WOULD BE ILLEGAL; AND (III) OTHER THAN DISCLOSURES RELATING TO THE NOMURA GROUP, BASED UPON INFORMATION FROM SOURCES THAT WE CONSIDER RELIABLE, BUT HAS NOT BEEN INDEPENDENTLY VERIFIED BY NOMURA GROUP.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "8428644fc7e2322c",
+      "text": "Other than disclosures relating to the Nomura Group, the Nomura Group does not warrant, represent or undertake, express or implied, that the document is fair, accurate, complete, correct, reliable or fit for any particular purpose or merchantable, and to the maximum extent permissible by law and/or regulation, does not accept liability (in negligence or otherwise, and in whole or in part) for any act (or decision not to act) resulting from use of this document and related data. To the maximum extent permissible by law and/or regulation, all warranties and other assurances by the Nomura Group are hereby excluded and the Nomura Group shall have no liability (in negligence or otherwise, and in whole or in part) for any loss howsoever arising from the use, misuse, or distribution of this material or the information contained in this material or otherwise arising in connection therewith.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "620a3ab06f9f4a85",
+      "text": "Opinions or estimates expressed are current opinions as of the original publication date appearing on this material and the information, including the opinions and estimates contained herein, are subject to change without notice. The Nomura Group, however, expressly disclaims any obligation, and therefore is under no duty, to update or revise this document. Any comments or statements made herein are those of the author(s) and may differ from views held by other parties within Nomura Group. Clients should consider whether any advice or recommendation in this report is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The Nomura Group does not provide tax advice.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "64615724cd14b1af",
+      "text": "The Nomura Group, and/or its officers, directors, employees and affiliates, may, to the extent permitted by applicable law and/or regulation, deal as principal, agent, or otherwise, or have long or short positions in, or buy or sell, the securities, commodities or instruments, or options or other derivative instruments based thereon, of issuers or securities mentioned herein. The Nomura Group companies may also act as market maker or liquidity provider (within the meaning of applicable regulations in the UK) in the financial instruments of the issuer. Where the activity of market maker is carried out in accordance with the definition given to it by specific laws and regulations of the US or other jurisdictions, this will be separately disclosed within the specific issuer disclosures.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "09acfb867b01eadd",
+      "text": "This document may contain information obtained from third parties, including, but not limited to, ratings from credit ratings agencies such as Standard & Poor's. The Nomura Group hereby expressly disclaims all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of the information obtained from third parties contained in this material or otherwise arising in connection therewith, and shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of any of the information obtained from third parties contained in this material or otherwise arising in connection therewith. Reproduction and distribution of third- party content in any form is prohibited except with the prior written permission of the related third- party. Third- party content providers do not, express or implied, guarantee the fairness, accuracy, completeness, correctness, timeliness or availability of any information, including ratings, and are not in any way responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use or misuse of such content. Third- party content providers give no express or implied warranties, including, but not limited to, any warranties of merchantability or fitness for a particular purpose or use. Third- party content providers shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Any MSCI sourced information in this document is the exclusive property of MSCI Inc. ('MSCI'). Without prior written permission of MSCI, this information and any other MSCI intellectual property may not be duplicated, reproduced, re- disseminated, redistributed or used, in whole or in part, for any purpose whatsoever, including creating any financial products and any indices. This information is provided on an \"as is\" basis. The user assumes the entire risk of any use made of this information. MSCI, its affiliates and any third party involved in, or related to, computing or compiling the information hereby expressly disclaim all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of this material or the information contained in this material or otherwise arising in connection therewith. Without limiting any of the foregoing, in no event shall MSCI, any of its affiliates or any third party involved in, or related to, computing or compiling the information have any liability (in negligence or otherwise, and in whole or in part) for any damages of any kind. MSCI and the MSCI indexes are services marks of MSCI and its affiliates.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "d247ac7f192e1a27",
+      "text": "The intellectual property rights and any other rights, in Russell/Nomura Japan Equity Index belong to Nomura Fiduciary Research & Consulting Co., Ltd. (\"NFRC\") and FTSE Russell (\"Russell\"). NFRC and Russell do not guarantee fairness, accuracy, completeness, correctness, reliability, usefulness, marketability, merchantability or fitness of the Index, and do not account for business activities or services that any index user and/or its affiliates undertakes with the use of the Index.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "964c3a80f4c78063",
+      "text": "Investors should consider this document as only a single factor in making their investment decision and, as such, the report should not be viewed as identifying or suggesting all risks, direct or indirect, that may be associated with any investment decision. Nomura Group produces a number of different types of research product including, among others, fundamental analysis and quantitative analysis; recommendations contained in one type of research product may differ from recommendations contained in other types of research product, whether as a result of differing time horizons, methodologies or otherwise. The Nomura Group publishes research product in a number of different ways including the posting of product on the Nomura Group portals and/or distribution directly to clients. Different groups of clients may receive different products and services from the research department depending on their individual requirements.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "95ef18988f5c6438",
+      "text": "Figures presented herein may refer to past performance or simulations based on past performance which are not reliable indicators of future or likely performance. Where the information contains an expectation, projection or indication of future performance and business prospects, such",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "768f86ce7f1974d1",
+      "text": "forecasts may not be a reliable indicator of future or likely performance. Moreover, simulations are based on models and simplifying assumptions which may oversimplify and not reflect the future distribution of returns. Any figure, strategy or index created and published for illustrative purposes within this document is not intended for \"use\" as a \"benchmark\" as defined by the European Benchmark Regulation. Certain securities are subject to fluctuations in exchange rates that could have an adverse effect on the value or price of, or income derived from, the investment.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "1eca997b18f00cd2",
+      "text": "With respect to Fixed Income Research: Recommendations fall into two categories: tactical, which typically last up to three months; or strategic, which typically last from 6- 12 months. However, trade recommendations may be reviewed at any time as circumstances change. 'Stop loss' levels for trades are also provided; which, if hit, closes the trade recommendation automatically. Prices and yields shown in recommendations are taken at the time of submission for publication and are based on either indicative Bloomberg, LSEG or Nomura prices and yields at that time. The prices and yields shown are not necessarily those at which the trade recommendation can be implemented.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c1e50c47e75ef151",
+      "text": "The securities described herein may not have been registered under the US Securities Act of 1933 (the '1933 Act'), and, in such case, may not be offered or sold in the US or to US persons unless they have been registered under the 1933 Act, or except in compliance with an exemption from the registration requirements of the 1933 Act. Unless governing law permits otherwise, any transaction should be executed via a Nomura entity in your home jurisdiction.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "52dc57b727239f3f",
+      "text": "This document has been approved for distribution in the UK as investment research by NIplc. NIplc is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. NIplc is a member of the London Stock Exchange. This document does not constitute a personal recommendation within the meaning of applicable regulations in the UK, or take into account the particular investment objectives, financial situations, or needs of individual investors. This document is intended only for investors who are 'eligible counterparties' or 'professional clients' for the purposes of applicable regulations in the UK, and may not, therefore, be redistributed to persons who are 'retail clients' for such purposes.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ce615bcd6cc4dc3b",
+      "text": "This document has been approved for distribution in the European Economic Area as investment research by Nomura Financial Products Europe GmbH (NFPE). NFPE is a company organized as a limited liability company under German law registered in the Commercial Register of the Court of Frankfurt/Main under HRB 110223. NFPE is authorized and regulated by the German Federal Financial Supervisory Authority (BaFin).",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "a7984f807d429422",
+      "text": "This document has been approved by NIHK, which is regulated by the Hong Kong Securities and Futures Commission, for distribution in Hong Kong by NIHK. This document is intended only for investors who are 'professional investors' for the purposes of applicable regulations in Hong Kong and may not, therefore, be redistributed to persons who are not 'professional investors' for such purposes.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "fc42e6536493e0a3",
+      "text": "This document has been approved for distribution in Australia by NAL, which is authorized and regulated in Australia by the ASIC.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "71bf6d2bd44a5c77",
+      "text": "This document has also been approved for distribution in Malaysia by NSM.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0b3171e70a051778",
+      "text": "In Singapore, this document has been distributed by NSL, an exempt financial adviser as defined under the Financial Advisers Act (Chapter 110), among other things, and regulated by the Monetary Authority of Singapore. NSL may distribute this document produced by its foreign affiliates pursuant to an arrangement under Regulation 32C of the Financial Advisers Regulations. Where the recipient of this document is not an accredited, expert or institutional investor as defined by the Securities and Futures Act (Chapter 289), NSL accepts legal responsibility for the contents of this document in respect of such recipient only to the extent required by law. Recipients of this document in Singapore should contact NSL in respect of matters arising from, or in connection with, this document. THIS DOCUMENT IS INTENDED FOR GENERAL CIRCULATION. IT DOES NOT TAKE INTO ACCOUNT THE SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS OF ANY PARTICULAR PERSON. RECIPIENTS SHOULD TAKE INTO ACCOUNT THEIR SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS BEFORE MAKING A COMMITMENT TO PURCHASE ANY SECURITIES, INCLUDING SEEKING ADVICE FROM AN INDEPENDENT FINANCIAL ADVISER REGARDING THE SUITABILITY OF THE INVESTMENT, UNDER A SEPARATE ENGAGEMENT, AS THE RECIPIENT DEEMS FIT.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7b4f2026ccbe0327",
+      "text": "Unless prohibited by the provisions of Regulation S of the 1933 Act, this material is distributed in the US, by NSI, a US- registered broker- dealer, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6, under the US Securities Exchange Act of 1934. The entity that prepared this document permits its separately operated affiliates within the Nomura Group to make copies of such documents available to their clients.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "03740d8986226cd7",
+      "text": "This document has not been approved for distribution to persons other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' (as defined by the Capital Markets Authority) in the Kingdom of Saudi Arabia ('Saudi Arabia') or a 'Market Counterparty' or a 'Professional Client' (as defined by the Dubai Financial Services Authority) in the United Arab Emirates ('UAE') or a 'Market Counterparty' or a 'Business Customer' (as defined by the Qatar Financial Centre Regulatory Authority) in the State of Qatar ('Qatar') by Nomura Saudi Arabia, NIplc or any other member of the Nomura Group, as the case may be. Neither this document nor any copy thereof may be taken or transmitted or distributed, directly or indirectly, by any person other than those authorised to do so into Saudi Arabia or in the UAE or in Qatar or to any person other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' located in Saudi Arabia or a 'Market Counterparty' or a 'Professional Client' in the UAE or a 'Market Counterparty' or a 'Business Customer' in Qatar. Any failure to comply with these restrictions may constitute a violation of the laws of the UAE or Saudi Arabia or Qatar.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "b21f402f7f14a669",
+      "text": "For report with reference of TAIWAN public companies or authored by Taiwan based research analyst:",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0cf0db412315cf88",
+      "text": "THIS DOCUMENT IS SOLELY FOR REFERENCE ONLY. You should independently evaluate the investment risks and are solely responsible for your investment decisions. NO PORTION OF THE REPORT MAY BE REPRODUCED OR QUOTED BY THE PRESS OR ANY OTHER PERSON WITHOUT WRITTEN AUTHORIZATION FROM NOMURA GROUP. Pursuant to Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers and/or other applicable laws or regulations in Taiwan, you are prohibited to provide the reports to others (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities in connection with the reports which may involve conflicts of interests. INFORMATION ON SECURITIES / INSTRUMENTS NOT EXECUTABLE BY NOMURA INTERNATIONAL (HONG KONG) LTD., TAIPEI BRANCH IS FOR INFORMATIONAL PURPOSES ONLY AND IS NOT BE CONSTRUED AS A RECOMMENDATION OR A SOLICITATION TO TRADE IN SUCH SECURITIES / INSTRUMENTS.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "db6689c81f1f5e60",
+      "text": "This material may not be distributed in Indonesia or passed on within the territory of the Republic of Indonesia or to persons who are Indonesian citizens (wherever they are domiciled or located) or entities of residents in Indonesia in a manner which constitutes a public offering under the",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "05066f484de7ca03",
+      "text": "laws of the Republic of Indonesia. The securities mentioned in this document may not be offered or sold in Indonesia or to persons who are citizens of Indonesia (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the laws of the Republic of Indonesia.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "649542eef82d00b1",
+      "text": "An individual name printed next to NOI on the front page of a research report indicates that this document is a translation of a research report issued by NOI in the PRC. In all other cases, this document is prepared by Nomura Group or its subsidiary or affiliate (collectively, \"Offshore Issuers\") that is not licensed in the PRC to provide securities research. This research report is not approved or intended to be circulated in the PRC. The A- share related analysis (if any) is not produced for any persons located or incorporated in the PRC. The recipients should not rely on any information contained in this research report in making investment decisions and Offshore Issuers take no responsibility in this regard. NO PART OF THIS MATERIAL MAY BE (I) COPIED, PHOTOCOPIED, REPRODUCED OR DUPLICATED IN ANY FORM, BY ANY MEANS; OR (II) REDISSEMINATED, REPUBLISHED OR REDISTRIBUTED WITHOUT THE PRIOR WRITTEN CONSENT OF A MEMBER OF THE NOMURA GROUP. If this document has been distributed by electronic transmission, such as e- mail, then such transmission cannot be guaranteed to be secure or error- free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. The sender therefore does not accept liability (in negligence or otherwise, and in whole or in part) for any errors or omissions in the contents of this document, which may arise as a result of electronic transmission. If verification is required, please request a hard- copy version.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "c5a84ac322d4e554",
+      "text": "Financial instruments firm registered with the Kanto Local Finance Bureau (registration No. 142) Member associations: Japan Securities Dealers Association; Japan Investment Advisers Association; The Financial Futures Association of Japan; and Type II Financial Instruments Firms Association.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "cbe6dd3de5fd52af",
+      "text": "The Nomura Group manages conflicts with respect to the production of research through its compliance policies and procedures (including, but not limited to, Conflicts of Interest, Chinese Wall and Confidentiality policies) as well as through the maintenance of Chinese Walls and employee training.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d94d65afa2141ad7",
+      "text": "Additional information regarding the methodologies or models used in the production of any investment recommendations contained within this document is available upon request by contacting the Research Analysts of Nomura listed on the front page. Disclosures information is available upon request and disclosure information is available at the Nomura Disclosure web page:",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "13f87cf8661fb1d2",
+      "text": "http://go.nomuranow.com/research/m/Disclosures",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "cf2be277b13a9886",
+      "text": "Copyright © 2025 Nomura Securities Co., Ltd., Japan. All rights reserved.",
+      "page": 8,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3062e21d617ad05f",
+      "name": "Any MSCI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03ec5d54e225b9d0",
+      "name": "Authorised Persons",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8c1abdd3ddd39022",
+      "name": "Business Customer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4f7793d11c185d65",
+      "name": "Chinese Wall",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "30f11a4354af2089",
+      "name": "Chinese Walls",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "aebbecf5515fe8dd",
+      "name": "Commercial Register",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b289f889abc2748a",
+      "name": "Commodities Futures",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fbd258dbd6877fcf",
+      "name": "Consulting Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6e9090b9f9d4475d",
+      "name": "Cooperative Associations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d7e23750c69d083d",
+      "name": "Core CPI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6ba4b0a762d135f4",
+      "name": "Dealers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ce2fcce8553a59da",
+      "name": "Disclosures\n\nCopyright",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8ed3fafbb18d7293",
+      "name": "Dubai Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "eb1a11c62763cbef",
+      "name": "Equity Index",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1143d21b06b41b7b",
+      "name": "European Benchmark",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21bc9aa97d2d9364",
+      "name": "European Economic",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "88ae349d7f27936d",
+      "name": "Exchange Act",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": "Various CPI Components (% y-y)",
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": "% y-y",
+            "range": {
+              "min": null,
+              "max": null
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Core CPI (ex fresh foods)",
+            "unit": "% y-y",
+            "values": [
+              0.0,
+              0.0,
+              0.5,
+              0.5,
+              0.5,
+              0.0,
+              0.0,
+              3.5,
+              1.5,
+              3.5,
+              2.0
+            ]
+          },
+          {
+            "name": "Durable goods",
+            "unit": "% y-y",
+            "values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.0,
+              6.0,
+              0.0,
+              4.0,
+              2.0
+            ]
+          },
+          {
+            "name": "Semi-durable goods",
+            "unit": "% y-y",
+            "values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              6.0,
+              2.0,
+              4.0,
+              3.0
+            ]
+          },
+          {
+            "name": "Nondurable goods",
+            "unit": "% y-y",
+            "values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              1.0,
+              8.0,
+              3.0,
+              4.0,
+              1.0
+            ]
+          },
+          {
+            "name": "General services (ex restaurants)",
+            "unit": "% y-y",
+            "values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.5,
+              -2.0,
+              2.0,
+              1.0
+            ]
+          },
+          {
+            "name": "Public services",
+            "unit": "% y-y",
+            "values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.0,
+              -2.5,
+              1.0,
+              2.0
+            ]
+          },
+          {
+            "name": "Energy",
+            "unit": "% y-y",
+            "values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              10.0,
+              25.0,
+              -15.0,
+              10.0,
+              5.0
+            ]
+          },
+          {
+            "name": "Food (ex alcohol, fresh foods)",
+            "unit": "% y-y",
+            "values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              2.0,
+              9.0,
+              3.0,
+              7.0,
+              5.0
+            ]
+          }
+        ],
+        "figure_id": "b8f6c6e3ee78deda",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": "% y-y",
+            "range": {
+              "min": -2.0,
+              "max": 5.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "All items ex fresh food (Tokyo ku-area)",
+            "unit": "% y-y",
+            "values": [
+              0.0,
+              -0.2,
+              -0.5,
+              0.5,
+              1.0,
+              0.0,
+              -0.8,
+              0.5,
+              3.8,
+              2.0,
+              2.5
+            ]
+          },
+          {
+            "name": "All items less food (ex alcoholic beverages) and energy (Tokyo ku-area)",
+            "unit": "% y-y",
+            "values": [
+              0.3,
+              0.7,
+              -0.2,
+              0.3,
+              0.8,
+              -0.2,
+              -0.5,
+              -1.2,
+              2.5,
+              1.5,
+              1.6
+            ]
+          }
+        ],
+        "figure_id": "dcee86ce64ac39da",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": "% y-y",
+            "range": {
+              "min": -4,
+              "max": 8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Goods (less food (ex alcoholic beverages) and energy)",
+            "unit": "% y-y",
+            "values": [
+              4.6,
+              1.8,
+              -3.2,
+              -0.5,
+              0.5,
+              3.2,
+              -0.8,
+              -0.5,
+              6.4,
+              3.8,
+              2.2
+            ]
+          },
+          {
+            "name": "Services (ex rent)",
+            "unit": "% y-y",
+            "values": [
+              2.5,
+              0.5,
+              0.8,
+              0.8,
+              0.8,
+              0.2,
+              -1.8,
+              -2.5,
+              3.2,
+              3.5,
+              2.5
+            ]
+          },
+          {
+            "name": "Homeowners' imputed rent",
+            "unit": "% y-y",
+            "values": [
+              -0.2,
+              0.2,
+              -0.8,
+              0.2,
+              0.8,
+              0.5,
+              0.8,
+              0.2,
+              0.8,
+              1.2,
+              0.8
+            ]
+          }
+        ],
+        "figure_id": "40e9718abec6505d",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "% m-m",
+            "range": {
+              "min": -0.6,
+              "max": 0.8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Overall",
+            "unit": "% m-m",
+            "values": [
+              0.3,
+              0.48,
+              0.28,
+              0.2,
+              0.4,
+              0.7,
+              -0.5,
+              0.2,
+              -0.1,
+              0.7,
+              -0.3,
+              0.3,
+              0.1,
+              -0.4,
+              0.3,
+              0.5,
+              0.5,
+              0.4,
+              0.1,
+              0.4
+            ]
+          },
+          {
+            "name": "Core CPI",
+            "unit": "% m-m",
+            "values": [
+              0.2,
+              0.4,
+              0.3,
+              0.5,
+              0.3,
+              0.5,
+              -0.1,
+              0.5,
+              0.2,
+              0.5,
+              -0.1,
+              0.4,
+              0.2,
+              -0.1,
+              0.4,
+              0.5,
+              0.5,
+              0.4,
+              0.1,
+              0.2
+            ]
+          },
+          {
+            "name": "BOJ core core CPI",
+            "unit": "% m-m",
+            "values": [
+              0.1,
+              0.2,
+              0.2,
+              0.3,
+              0.1,
+              0.4,
+              0.6,
+              0.2,
+              0.4,
+              0.2,
+              0.1,
+              0.2,
+              0.4,
+              -0.4,
+              0.3,
+              0.2,
+              0.2,
+              0.4,
+              0.0,
+              0.2
+            ]
+          }
+        ],
+        "figure_id": "5d4cd161dafe051e",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": "% y-y",
+            "range": {
+              "min": -0.5,
+              "max": 3.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "All-Japan CPI",
+            "unit": "% y-y",
+            "values": [
+              0.6,
+              0.7,
+              0.5,
+              0.5,
+              0.6,
+              0.4,
+              0.3,
+              0.5,
+              0.7,
+              0.9,
+              1.2,
+              1.8,
+              2.0,
+              2.3,
+              2.5,
+              2.4,
+              2.2,
+              2.0,
+              1.8,
+              1.9,
+              2.1,
+              2.0
+            ]
+          },
+          {
+            "name": "Tokyo CPI",
+            "unit": "% y-y",
+            "values": [
+              0.7,
+              0.8,
+              0.6,
+              0.5,
+              0.6,
+              0.5,
+              0.4,
+              0.6,
+              0.8,
+              1.2,
+              1.8,
+              1.0,
+              0.0,
+              0.5,
+              1.8,
+              2.2,
+              2.5,
+              2.3,
+              2.0,
+              1.7,
+              1.9,
+              2.1
+            ]
+          }
+        ],
+        "figure_id": "e5f4d3af39cd6eff",
+        "provenance": {
+          "page": 5
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 5,
+      "tables_count": 0,
+      "numerical_data_count": 0,
+      "passages_count": 61,
+      "entities_count": 20
+    }
+  }
+}

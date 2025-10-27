@@ -1,0 +1,2141 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "39f6eb76e9c1bdf8b5bb12dd02baf3db",
+    "title": "JPM EM Corporate Strategy Daily",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/JPM/JPM EM Corporate Strategy DailyJPM EM Corporate Strategy Daily_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:09:08.368171",
+      "extracted_at": "2025-10-26T12:09:08.368190"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 9,
+        "successful_pages": 9,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/JPM",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 3,
+          "reduction_ratio": 0.05298326533025843
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/JPM"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "dfcdd97af8caad72",
+      "text": "Figure 1: CEMBI Broad Spread",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "395802d0e8158501",
+      "text": "Source: J.P. Morgan.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1ce41dfa952c615a",
+      "text": "Figure 2: Index performance",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "85acaac329aa60bb",
+      "text": "Spread (bp)ReturnLevel1d1w1m3mYTD1d1w1m3mYIDCEMBI Broad Div.19726-5-32-80.02%0.18%1.23%3.55%6.18%CEMBI Broad Div. IG10434-3-20-90.01%0.20%1.17%3.34%6.04%CEMBI Broad Div. HY37628-7-4210.03%0.15%1.30%3.85%6.40%CEMBI Broad19015-7-29-150.02%0.21%1.25%3.39%6.04%CEMBI Broad IG10224-3-18-80.01%0.19%1.16%3.25%5.97%CEMBI Broad HY41906-12-38-160.04%0.23%1.43%3.66%6.20%EMBIG Div29938-3-32-26-0.02%-0.06%1.36%5.07%8.34%EMBIG Div IG10226-4-19-17-0.02%-0.11%1.24%4.09%6.93%EMBIG Div HY53341012-39-26-0.02%-0.01%1.47%6.01%9.70%US HG (JUL)8811-1-15-50.05%0.25%0.92%3.31%5.53%US HY3263-42-3110.09%0.67%1.05%3.61%6.47%",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f695a9de50a1899c",
+      "text": "Source: J.P. Morgan.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "130cebf2a02f1192",
+      "text": "Figure 3: EM corporate external bond issuance (\\$bn)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "1b27a27e47faa986",
+      "text": "27-AugWTDMTDYTD2025FAll6.110.221.8326.7432.9IG Corporate5.58.916.0227.6302.5HY Corporate0.51.35.899.0130.4Asia1.54.413.7150.3190.0Emerging Europe1.11.41.434.950.9Latin America-1.71.72.764.8Middle East &amp;amp; Africa1.82.83.976.7109.0",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "02fcc628c794b001",
+      "text": "Source: J.P. Morgan Bloomberg Finance L.P., Bondradar.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "260e8d7d67611d36",
+      "text": "J.P. Morgan does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f5ff087d9a6d85bf",
+      "text": "Figure 4: Relative Value to Sovereign",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "90b5e5ae3063fcd7",
+      "text": "Spread to Sov (bp)Ratio to SovCurrent1d1w1m3mOverall62-2-1-2-14-1All Quasis61-4-1-2-16-7EMBIG Quasis900-1-1-24-10CEMBI Quasis24-8-2-6-104All Corporates (non-quasis)652-1-3-1010CEMBI Corporates642-1-3-109",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "f13cd66886db549a",
+      "text": "Source: J.P. Morgan. Note: Includes USD bonds rated \\(+ / - 2\\) notches from their sovereign and all \\(100\\%\\) government owned quasi-sovereigns. Link to latest Report and link to the intro document.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ba9dc62a47db39b6",
+      "text": "Figure 5: Trading activity",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "1dab9d6f78be7873",
+      "text": "RegionEst Vol (Smm)% of Total Est VolChange dodAvg daily 5-day rolling2025 YTD daily avg2024 YTD daily avg2024 full year daily avgTotal2,443100%2242,1313,0972,9192,986IG83334%278611,073944974HY1,61066%1971,2702,0241,9762,012",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d5a5f9d781ea39b2",
+      "text": "Source: J.P. Morgan, TRACE. Note: Data reflects trading volume as of August 27, 2025.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "1b7edc79388064dc",
+      "text": "Figure 6: Top 10 Most Actively Traded Bonds",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "c7c8860c7de1f07a",
+      "text": "IssueCountryQuasi / CorpAvg RatingEst Vol (Smm)Last PxIndexPEMEX 6.5% 01/23/2029MexicoQBB53$100.18EMBIGPEMEX 5.35% 02/12/2028MexicoQBB45$97.60EMBIGPEMEX 6.35% 02/12/2048MexicoQBB44$73.86EMBIGPEMEX 6.75% 09/21/2047MexicoQBB41$76.81EMBIGBRADES 4.375% 03/18/2027BrazilCBB36$99.50CEMBIPETBRA 7.375% 01/17/2027BrazilQBB31$103.07CEMBIFRICON 7.7% 07/21/2028ParaguayCB28$75.88CEMBIPEMEX 5.95% 01/28/2031MexicoQBB28$92.90EMBIGNICEIT 0% 09/15/2025IsraelCNR26$97.89-MCBRAC 7.25% 06/30/2031BrazilCB26$85.00CEMBI",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "479ad5357d83eec6",
+      "text": "Source: J.P. Morgan, TRACE. Note: Data reflects trading volume as of August 27, 2025.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ec90a87e488fe62f",
+      "text": "Figure 7: Day Top Bottom Performers",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ec7c3b25af945feb",
+      "text": "Current Spread (bp)Change (bp)CEMBI Broad Div. CountryTopBrazil285-9Zambia293-5Israel265-2BottomTaiwan4610Macau1909India1607CEMBI Broad DSectorTopMetals &amp;amp; Mining185-9Oil &amp;amp; Gas2450Financial1472BottomInfrastructure1917Real Estate5255Industrial1925",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "90671da8955f4004",
+      "text": "Source: J.P. Morgan. Note: 1) Includes CEMBI Broad Diversified countries with \\(> = 1\\%\\) weight. 2) Any long-form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material is Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d8bebd21918f5304",
+      "text": "Figure 8: CEMBI Broad Diversified Regional and Country Level Performance",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0dd077a8899bc9af",
+      "text": "Weight (%)Broad Div.CurrentSTW (bp)Spread change (bp)1d 1w 1Mo YTDYield change (bp)1d 1w 1Mo YTDReturns %1d 1w 1Mo YTD1d6.0626-5-8-1-1-17-500.0%0.2%1.2%6.2%CEMBI Broad Div.100.0100.01976.0626-4-4-1-1-17-430.0%0.2%1.2%6.2%Ex. China84.992.62006.1126-3-161-2-16-560.0%0.2%1.1%5.8%Asia46.240.31425.5145-202-1-15-440.0%0.2%1.2%5.7%Asia Ex. China31.134.01625.5166-83-20-19-400.0%0.1%1.4%6.6%Latin America26.225.32666.7607-12-670-1-28-1150.0%0.1%1.5%7.8%EM Europe4.77.53317.2637-5-6-2-1-18-470.1%0.1%1.1%5.7%Middle East18.318.31285.3715-410-1-1-16-300.0%0.2%1.2%6.4%Africa4.78.62376.4925-4195702915-20.0%-0.9%0.1%4.0%Argentina1.22.64087.95435-21-4-9-6-27-370.1%0.4%1.2%5.1%Brazil9.75.02857.06-9-1-1-1-1-1-11-420.0%0.2%1.4%7.0%Chile3.03.51595.73451-1-1-1-11-420.0%0.2%1.4%7.0%China15.16.31395.5913-5-94-1-3-16-1240.1%0.3%1.0%5.7%Colombia2.83.54108.0926-1814-1-2-33-370.0%0.2%2.1%7.4%Hong Kong9.65.02216.4155-51430-15-21-0.1%0.2%1.3%5.4%India4.94.01605.6079-5-3042-19-770.0%0.2%1.2%6.8%Indonesia1.53.21525.6734-11-220-2-22-600.0%0.2%1.4%7.1%Israel2.03.32656.67-2440-5-3-10-450.1%0.2%0.9%6.5%Kazakhstan0.61.32667.0710-3-24-1-3-9-490.1%0.3%1.5%8.2%Korea5.94.3794.5613-2-2-6-17-590.1%0.3%0.9%5.1%5.1%Kuwait1.12.31244.9318179-2-1-3-540.0%0.1%0.8%5.1%Macau1.83.31905.569106-196-1-15-86-0.1%0.2%0.9%6.6%Malaysia0.71.5995.0245-1-241-2-19-680.0%0.2%0.9%5.7%Mexico6.44.32036.3724-11-60-1-18-360.0%0.2%1.8%7.6%Morocco0.61.22016.4523-16-16-1-1-21-400.0%0.1%2.3%7.2%Nigeria0.61.32906.5612-185-3-8-40-640.0%0.3%1.5%7.3%Panama0.51.02596.2532-62-1-8-27-720.0%0.4%1.6%8.6%Peru1.42.81545.4558-7-1020-23-640.0%0.2%1.4%7.6%Philippines1.22.62046.122705900-12150.1%0.1%1.1%3.4%Qatar1.63.3844.6427516-1-2-14-430.0%0.2%0.8%4.7%Saudi Arabia6.94.4995.4013-12-60-1-17-290.0%0.1%1.7%6.0%Singapore2.23.4704.4124129-1-6-9-550.1%0.3%0.9%5.1%South Africa2.13.21585.8736-5-1112-13-400.0%0.1%1.2%6.7%Taiwan1.43.0464.721053-870-6-40-0.4%0.1%0.8%5.5%Thailand1.63.21115.4300-15-21-2-4-22-490.1%0.4%1.8%6.7%Turkey2.93.73557.20411-201101-41-570.0%0.1%1.7%7.3%UAE6.44.41014.9518-10-7-20-25-580.1%0.1%1.3%5.8%Zambia0.51.02936.59-5-3-89-9-14-30-500.1%0.4%1.0%6.4%",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "68fc36cf9b1337e2",
+      "text": "Source: J.P. Morgan. Note: 1) Includes CEMBI Broad Diversified countries with >=1% weight. 2) Any long-form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material is Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "89f1e83775df365e",
+      "text": "- EM Corporate Weekly Monitor",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "63139a97a7c85631",
+      "text": "- Emerging Markets Corporate Weekly Analytics",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "60d732653df09648",
+      "text": "- EM Corporates Reference Presentation",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "715433d13911a39e",
+      "text": "- EM Corporate Demand Technicals",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "39d84749825a752b",
+      "text": "- EM Corporate Supply Technicals",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "816ddd0b4b6c34db",
+      "text": "- EM Corporate Default Monitor",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "2d582929a4768712",
+      "text": "- EM Corporate Credit Ratings",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "64a8a95bd76754ef",
+      "text": "- EM Corporate Sustainable Finance Bonds",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "d8f7eb36f70e9271",
+      "text": "Relative Value / Recommendations:",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "21c0c0911e50be8e",
+      "text": "- CEMBI Segment Recommendations",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "ed49d3b6052b7a1d",
+      "text": "- EM Corporate Coverage Report",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "73e56339d53bc445",
+      "text": "- EM Corporate Cross Currency Bond Report",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "47f5a25c7988491b",
+      "text": "- EM Corporate Relative Value Report",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0501e67bc10004fc",
+      "text": "- EM Corporate Spread to Sovereign Report",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c24996e2fd41de11",
+      "text": "Global Credit Research 28 August 2025",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "f7297fe80f2bd140",
+      "text": "- EM Corporate Greenium Bond Report Other EM publications:",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4398acc846d7f2f4",
+      "text": "- Emerging Markets Outlook and Strategy- Emerging Markets Today",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "0c5163cec43767fa",
+      "text": "Analyst Certification: The Research Analyst(s) denoted by an \"AC\" on the cover of this report certifies (or, where multiple Research Analysts are primarily responsible for this report, the Research Analyst denoted by an \"AC\" on the cover or within the document individually certifies, with respect to each security or issuer that the Research Analyst covers in this research) that: (1) all of the views expressed in this report accurately reflect the Research Analyst's personal views about any and all of the subject securities or issuers; and (2) no part of any of the Research Analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the Research Analyst(s) in this report. For all Korea-based Research Analysts listed on the front cover, if applicable, they also certify, as per KOFIA requirements, that the Research Analyst's analysis was made in good faith and that the views reflect the Research Analyst's own opinion, without undue influence or intervention.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ccedd0383664af17",
+      "text": "All authors named within this report are Research Analysts who produce independent research unless otherwise specified. In Europe, Sector Specialists (Sales and Trading) may be shown on this report as contacts but are not authors of the report or part of the Research Department.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6b66aa90b76becba",
+      "text": "A history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & Commentary page of http://www.jpmorganmarkets.com where you can also search by analyst name, sector or financial instrument.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f6eaee1e8ac779a8",
+      "text": "J.P. Morgan uses a bond- level rating system that incorporates valuations (relative value) and our fundamental view on the security. Our fundamental credit view of an issuer is based on the company's underlying credit trends, overall creditworthiness and our opinion on whether the issuer will be able to service its debt obligations when they become due and payable. We analyze, among other things, the company's cash flow capacity and trends and standard credit ratios, such as gross and net leverage, interest coverage and liquidity ratios. We also analyze profitability, capitalization and asset quality, among other variables, when assessing financials. Analysts also rate the issuer, based on the rating of the benchmark or representative security. Unless we specify a different recommendation for the company's individual securities, an issuer recommendation applies to all of the bonds at the same level of the issuer's capital structure. We may also rate certain loans and preferred securities, as applicable. This report also sets out within it the material underlying assumptions used. We use the following ratings for bonds (issues), issuers, loans, and preferred securities: Overweight (over the next three months, the recommended risk position is expected to outperform the relevant index, sector, or benchmark); Neutral (over the next three months, the recommended risk position is expected to perform in line with the relevant index, sector, or benchmark); and Underweight (over the next three months, the recommended risk position is expected to underperform the relevant index, sector, or benchmark). J.P. Morgan Emerging Markets Sovereign Research uses Marketweight, which is equivalent to Neutral. NR is Not Rated. In this case, J.P. Morgan has removed the rating for this particular security or issuer because of either a lack of a sufficient fundamental basis or for legal, regulatory or policy reasons. The previous rating no longer should be relied upon. An NR designation is not a recommendation or a rating. NC is Not Covered. An NC designation is not a rating or a recommendation. For CDS, we use the following rating system: Long Risk (over the next three months, the credit return on the recommended position is expected to exceed the relevant index, sector or benchmark); Neutral (over the next three months, the credit return on the recommended position is expected to match the relevant index, sector or benchmark); and Short Risk (over the next three months, the credit return on the recommended position is expected to underperform the relevant index, sector or benchmark).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "3459b142f1f8c879",
+      "text": "J.P. Morgan Credit Research Ratings Distribution, as of July 05, 2025",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "74a938d4f55347ef",
+      "text": "Overweight (buy)Neutral (hold)Underweight (sell)Global Credit Research Universe*27%57%16%IB clients**63%63%67%",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "0a790dfcea81b48d",
+      "text": "\\*Please note that the percentages may not add to \\(100\\%\\) because of rounding. \\*\\*Percentage of subject companies within each of the \"Overweight,\" \"Neutral\" and \"Underweight\" categories for which J.P. Morgan has provided investment banking services within the previous 12 months. For purposes of FINRA ratings distribution rules only, our Overweight rating falls into a buy rating category; our Neutral rating falls into a hold rating category; and our Underweight rating falls into a sell rating category. The Credit Research Rating Distribution is at the issuer level. Issuers with an NR or an NC designation are not included in the table above. This information is current as of the end of the most recent calendar quarter.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e6d43c3c4e2c996d",
+      "text": "Analysts' Compensation: The research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "14a06a8a133dbe8a",
+      "text": "Registration of non- US Analysts: Unless otherwise noted, the non- US analysts listed on the front of this report are employees of non- US",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "a7a5af26ba9b80b9",
+      "text": "affliates of J.P. Morgan Securities LLC, may not be registered as research analysts under FINRA rules, may not be associated persons of J.P. Morgan Securities LLC, and may not be subject to FINRA Rule 2241 or 2242 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c4bd294b3a670a4f",
+      "text": "J.P. Morgan is a marketing name for investment banking businesses of JPMorgan Chase & Co. and its subsidiaries and affiliates worldwide.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a237188d1bde4e12",
+      "text": "UK MIFID FICC research unbundling exemption: UK clients should refer to UK MIFID Research Unbundling exemption for details of J.P. Morgan's implementation of the FICC research exemption and guidance on relevant FICC research categorisation.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8dd5b356e2e438f8",
+      "text": "Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "aaced8a3f9892c37",
+      "text": "J.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or administered by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this report is intended to be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such Sanctioned Securities. Clients should be aware of their own legal and compliance obligations when making investment decisions.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3c1b8b54f2d75597",
+      "text": "Any digital or crypto assets discussed in this research report are subject to a rapidly changing regulatory landscape. For relevant regulatory advisories on crypto assets, including bitcoin and ether, please see https://www.jpmorgan.com/disclosures/cryptoasset- disclosure.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "dc9453096edd39bc",
+      "text": "The author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold themselves out as being able to do so.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "7b41762eda8f9a95",
+      "text": "Exchange- Traded Funds (ETFs): J.P. Morgan Securities LLC (\"JPMS\") acts as authorized participant for substantially all U.S.- listed ETFs. To the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction- based compensation in connection with the distribution of those ETF shares and may earn fees for performing other trade- related services, such as securities lending to short sellers of the ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or dealer to the ETFs. In addition, affiliates of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, index calculation and/or maintenance and other services.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4f2b3869936370e2",
+      "text": "Options and Futures related research: If the information contained herein regards options- or futures- related research, such information is available only to persons who have received the proper options or futures risk disclosure documents. Please contact your J.P. Morgan Representative or visit https://www.theocc.com/ components/docs/riskstoe.pdf for a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options or https://www.finra.org/sites/default/files/2020- 08/Security Futures Risk Disclosure Statement_2020. pdf for a copy of the Security Futures Risk Disclosure Statement.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "62adda4743536f6c",
+      "text": "Changes to Interbank Offered Rates (IBORs) and other benchmark rates: Certain interest rate benchmarks are, or may in the future become, subject to ongoing international, national and other regulatory guidance, reform and proposals for reform. For more information, please consult: https://www.jpmorgan.com/global/disclosures/interbank_offered_rates",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f518ee577b0dc72d",
+      "text": "Private Bank Clients: Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its subsidiaries (\"J.P. Morgan Private Bank\"), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, including, but not limited to, the J.P. Morgan Corporate and Investment Bank and its Global Research division.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "d05c77e8250e8dc2",
+      "text": "Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of this research. Where more than one legal entity is listed under an analyst's name, the first legal entity is responsible for the production unless stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated below in the legal entity disclosures, this material has been distributed by the legal entity responsible for production, or where more than one legal entity is listed under the analyst's name, the first legal entity will be responsible for distribution. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "80fe9d9bd9375bb9",
+      "text": "Legal Entities Disclosures and Country- /Region- Specific Disclosures:",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "313da02ac950c7de",
+      "text": "Argentina: JPMorgan Chase Bank N.A Sucursal Buenos Aires is regulated by Banco Central de la República Argentina (\"BCRA\"- Central Bank of Argentina) and Comisión Nacional de Valores (\"CNV\"- Argentinian Securities Commission - ALYC y AN Integral N°51).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8532990adb0c8e19",
+      "text": "Australia: J.P. Morgan Securities Australia Limited (\"JPMSAL\") (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the Australian Securities and Investments Commission and is a Market Participant of ASX Limited, a Clearing and Settlement Participant of ASX Clear Pty Limited and a Clearing Participant of ASX Clear (Futures) Pty Limited. This material is issued and distributed in Australia by or on",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "1e8c40878eb828de",
+      "text": "behalf of JPMSAL only to \"wholesale clients\" (as defined in section 761G of the Corporations Act 2001). A list of all financial products covered can be found by visiting https://www.jpmm.com/research/disclosures. J.P. Morgan seeks to cover companies of relevance to the domestic and international investor base across all Global Industry Classification Standard (GICS) sectors, as well as across a range of market capitalisation sizes. If applicable, in the course of conducting public side due diligence on the subject company(ies), the Research Analyst team may at times perform such diligence through corporate engagements such as site visits, discussions with company representatives, management presentations, etc. Research issued by JPMSAL has been prepared in accordance with J.P. Morgan Australia's Research Independence Policy which can be found at the following link: J.P. Morgan Australia - Research Independence Policy.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "988de0208b8648b5",
+      "text": "Canada: J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Canadian Investment Regulatory Organization and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed in Canada by or on behalf of J.P. Morgan Securities Canada Inc.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "27afa38b19b73afc",
+      "text": "Chile: Inversiones J.P. Morgan Limitada is an unregulated entity incorporated in Chile.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "983aa50cabdf13aa",
+      "text": "China: J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy business.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "d648704eb2f71a12",
+      "text": "Colombia: Banco J.P. Morgan Colombia S.A. is supervised by the Superintendencia Financiera de Colombia (SFC).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "93d3afe6dd1919cb",
+      "text": "Dubai International Financial Centre (DIFC): JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO Box 506551, Dubai, UAE. This material has been distributed by J.P. Morgan Chase Bank, N.A., Dubai Branch to persons regarded as professional clients or market counterparties as defined under the DFSA rules.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "1a675ff50d903735",
+      "text": "European Economic Area (EEA): Unless specified to the contrary, research is distributed in the EEA by J.P. Morgan SE (\"JPM SE\"), which is authorised as a credit institution by the Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and jointly supervised by the BaFin, the German Central Bank (Deutsche Bundesbank) and the European Central Bank (ECB). JPM SE is a company headquartered in Frankfurt with registered address at TaunusTurm, Taunustor 1, Frankfurt am Main, 60310, Germany. The material has been distributed in the EEA to persons regarded as professional investors (or equivalent) pursuant to Art. 4 para. 1 no. 10 and Annex II of MiFID II and its respective implementation in their home jurisdictions (\"EEA professional investors\"). This material must not be acted on or relied on by persons who are not EEA professional investors. Any investment or investment activity to which this material relates is only available to EEA relevant persons and will be engaged in only with EEA relevant persons.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c489d6934351856a",
+      "text": "Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is regulated by the Securities and Futures Commission in Hong Kong. J.P. Morgan Chase Bank, N.A., Hong Kong Branch (CE Number AAL996) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission, is organized under the laws of the United States with limited liability. Where the distribution of this material is a regulated activity in Hong Kong, the material is distributed in Hong Kong by or through J.P. Morgan Securities (Asia Pacific) Limited and/or J.P. Morgan Broking (Hong Kong) Limited.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "9210dd14507e629e",
+      "text": "Indonesia: PT J.P. Morgan Sekuritas Indonesia is a member of the Indonesia Stock Exchange and is registered and supervised by the Otoritas Jasa Keuangan (OJK).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "40cbd3ec8ddaa29f",
+      "text": "Korea: J.P. Morgan Securities (Far East) Limited, Seoul Branch, is a member of the Korea Exchange (KRX). JPMorgan Chase Bank, N.A., Seoul Branch, is licensed as a branch office of foreign bank (JPMorgan Chase Bank, N.A.) in Korea. Both entities are regulated by the Financial Services Commission (FSC) and the Financial Supervisory Service (FSS). For non- macro research material, the material is distributed in Korea by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "3f165a07d148ebd9",
+      "text": "Japan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services Agency in Japan.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "23d3c2c6ce53ce7c",
+      "text": "Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146- X), which is a Participating Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission in Malaysia.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c225cb5b48412b0f",
+      "text": "Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V. and J.P. Morgan Grupo Financiero are members of the Mexican Stock Exchange and are authorized to act as a broker dealer by the National Banking and Securities Exchange Commission.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ba93a097f27691b7",
+      "text": "New Zealand: This material is issued and distributed by JPMSAI in New Zealand only to \"wholesale clients\" (as defined in the Financial Markets Conduct Act 2013). JPMSAI is registered as a Financial Service Provider under the Financial Service providers (Registration and Dispute Resolution) Act of 2008.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "1956cd88cbe6bcee",
+      "text": "Philippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the Securities Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and Exchange Commission.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e98c767494469584",
+      "text": "Singapore: This material is issued and distributed in Singapore by or through J.P. Morgan Securities Singapore Private Limited (JPMSM) [MDDI (P) 057/08/2025 and Co. Reg. No.: 199405335R], which is a member of the Singapore Exchange Securities Trading Limited, and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore), both of which are regulated by the Monetary Authority of Singapore. This material is issued and distributed in Singapore only to accredited investors, expert investors and institutional investors, as defined in Section 4A of the Securities and Futures Act, Cap. 289 (SFA). This material is not intended to be issued or distributed to any retail investors or any other investors that do not fall into the classes of \"accredited investors,\" \"expert investors\" or \"institutional investors,\" as defined under Section 4A of the SFA. Recipients of this material in Singapore are to contact JPMSM or JPMCB Singapore in respect of any matters arising from, or in connection with, the material.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e61aa4fbf1bcbbed",
+      "text": "South Africa: J.P. Morgan Equities South Africa Proprietary Limited and JPMorgan Chase Bank, N.A., Johannesburg Branch are members of the Johannesburg Securities Exchange and are regulated by the Financial Services Conduct Authority (FSCA).",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c9ce837cbf843baa",
+      "text": "Taiwan: J.P. Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company- type) and regulated by the Taiwan Securities and Futures Bureau. Material relating to equity securities is issued and distributed in Taiwan by J.P. Morgan Securities (Taiwan) Limited, subject to the license scope and the applicable laws and the regulations in Taiwan. To the extent that J.P. Morgan Securities (Taiwan) Limited produces research materials on securities not listed on the Taiwan Stock Exchange or Taipei Exchange (\"Non- Taiwan Listed Securities\"), these materials shall not constitute securities recommendations for the purpose of applicable Taiwan regulations, and, for the avoidance of doubt, J.P. Morgan Securities (Taiwan) Limited does not act as broker for Non- Taiwan Listed Securities. According to Paragraph 2, Article 7- 1 of Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers (as amended or supplemented) and/or other applicable laws or regulations, please note that the recipient of this material is not permitted to engage in any activities in connection with the material that may give rise to conflicts of interests, unless otherwise disclosed in the \"Important Disclosures\" in this material.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "53916b74dbf1ab8b",
+      "text": "Thailand: This material is issued and distributed in Thailand by JPMorgan Securities (Thailand) Ltd., which is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission, and its registered address is 3rd Floor, 20 North Sathorn Road, Silom, Bangrak, Bangkok 10500.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "9abe83917bae3c6d",
+      "text": "UK: Research is produced in the UK by J.P. Morgan Securities plc (\"JPMS plc\") which is a member of the London Stock Exchange and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority or J.P. Morgan Markets Limited (\"JPMML Ltd\") which is authorised and regulated by the Financial Conduct Authority. Unless specified to the contrary, this material is distributed in the UK by JPMS plc and is directed in the UK only to: (a) persons having professional experience in matters relating to investments falling within article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) (Order) 2005 (\"the FPO\"); (b) persons outlined in article 49 of the FPO (high net worth companies, unincorporated associations or partnerships, the trustees of high value trusts, etc.); or (c) any persons to whom this communication may otherwise lawfully be made; all such persons being referred to as \"UK relevant persons\". This material must not be acted on or relied on by persons who are not UK relevant persons. Any investment or investment activity to which this material relates is only available to UK relevant persons and will be engaged in only with UK relevant persons. A description of J.P. Morgan EMEA's policy for prevention and avoidance of conflicts of interest related to the production of Research can be found at the following link: J.P. Morgan EMEA - Research Independence Policy.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "eae9e5977b549759",
+      "text": "U.S.: J.P. Morgan Securities LLC (\"JPMS\") is a member of the NYSE, FINRA, SIPC, and the NFA. JPMorgan Chase Bank, N.A. is a member of the FDIC. Material published by non- U.S. affiliates is distributed in the U.S. by JPMS who accepts responsibility for its content.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e741dbe51aae05d6",
+      "text": "General: Additional information is available upon request. The information in this material has been obtained from sources believed to be reliable. While all reasonable care has been taken to ensure that the facts stated in this material are accurate and that the forecasts, opinions and expectations contained herein are fair and reasonable, JPMorgan Chase & Co. or its affiliates and/or subsidiaries (collectively J.P. Morgan) make no representations or warranties whatsoever to the completeness or accuracy of the material provided, except with respect to any disclosures relative to J.P. Morgan and the Research Analyst's involvement with the issuer that is the subject of the material. Accordingly, no reliance should be placed on the accuracy, fairness or completeness of the information contained in this material. There may be certain discrepancies with data and/or limited content in this material as a result of calculations, adjustments, translations to different languages, and/or local regulatory restrictions, as applicable. These discrepancies should not impact the overall investment analysis, views and/or recommendations of the subject company(ies) that may be discussed in the material. Artificial intelligence tools may have been used in the preparation of this material, including assisting in data analysis, pattern recognition, and content drafting for research material. J.P. Morgan accepts no liability whatsoever for any loss arising from any use of this material or its contents, and neither J.P. Morgan nor any of its respective directors, officers or employees, shall be in",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "39f857f87a6cdcb7",
+      "text": "any way responsible for the contents hereof, apart from the liabilities and responsibilities that may be imposed on them by the relevant regulatory authority in the jurisdiction in question, or the regulatory regime thereunder. Opinions, forecasts or projections contained in this material represent J.P. Morgan's current opinions or judgment as of the date of the material only and are therefore subject to change without notice. Periodic updates may be provided on companies/industries based on company- specific developments or announcements, market conditions or any other publicly available information. There can be no assurance that future results or events will be consistent with any such opinions, forecasts or projections, which represent only one possible outcome. Furthermore, such opinions, forecasts or projections are subject to certain risks, uncertainties and assumptions that have not been verified, and future actual results or events could differ materially. The value of, or income from, any investments referred to in this material may fluctuate and/or be affected by changes in exchange rates. All pricing is indicative as of the close of market for the securities discussed, unless otherwise stated. Past performance is not indicative of future results. Accordingly, investors may receive back less than originally invested. This material is not intended as an offer or solicitation for the purchase or sale of any financial instrument. The opinions and recommendations herein do not take into account individual client circumstances, objectives, or needs and are not intended as recommendations of particular securities, financial instruments or strategies to particular clients. This material may include views on structured securities, options, futures and other derivatives. These are complex instruments, may involve a high degree of risk and may be appropriate investments only for sophisticated investors who are capable of understanding and assuming the risks involved. The recipients of this material must make their own independent decisions regarding any securities or financial instruments mentioned herein and should seek advice from such independent financial, legal, tax or other adviser as they deem necessary. J.P. Morgan may trade as a principal on the basis of the Research Analysts' views and research, and it may also engage in transactions for its own account or for its clients' accounts in a manner inconsistent with the views taken in this material, and J.P. Morgan is under no obligation to ensure that such other communication is brought to the attention of any recipient of this material. Others within J.P. Morgan, including Strategists, Sales staff and other Research Analysts, may take views that are inconsistent with those taken in this material. Employees of J.P. Morgan not involved in the preparation of this material may have investments in the securities (or derivatives of such securities) mentioned in this material and may trade them in ways different from those discussed in this material. This material is not an advertisement for or marketing of any issuer, its products or services, or its securities in any jurisdiction.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "674598be993ab918",
+      "text": "Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "a83cd63e409cf492",
+      "text": "MSCI: Certain information herein (\"Information\") is reproduced by permission of MSCI Inc., its affiliates and information providers (\"MSCI\") ©2025. No reproduction or dissemination of the Information is permitted without an appropriate license. MSCI MAKES NO EXPRESS OR IMPLIED WARRANTIES (INCLUDING MERCHANTABILITY OR FITNESS) AS TO THE INFORMATION AND DISCLAIMS ALL LIABILITY TO THE EXTENT PERMITTED BY LAW. No Information constitutes investment advice, except for any applicable Information from MSCI ESG Research. Subject also to mscicom/disclaimer",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2d0ef45f3777a938",
+      "text": "Sustainalytics: Certain information, data, analyses and opinions contained herein are reproduced by permission of Sustainalytics and: (1) includes the proprietary information of Sustainalytics; (2) may not be copied or redistributed except as specifically authorized; (3) do not constitute investment advice nor an endorsement of any product or project; (4) are provided solely for informational purposes; and (5) are not warranted to be complete, accurate or timely. Sustainalytics is not responsible for any trading decisions, damages or other losses related to it or its use. The use of the data is subject to conditions available at https://www.sustainalytics.com/legal- disclaimers. ©2025 Sustainalytics. All Rights Reserved.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e6a4e2efaeffd295",
+      "text": "\"Other Disclosures\" last revised August 02, 2025.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "80168acd156d7655",
+      "text": "Copyright 2025 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third- party (\"J.P. Morgan Data\") in any third- party artificial intelligence (\"AI\") systems or models when such J.P. Morgan Data is accessible by a third- party. It is permissible to use J.P. Morgan Data for internal business purposes only in an AI system or model that protects the confidentiality of J.P. Morgan Data so as to prevent any and all access to or use of such J.P. Morgan Data by any third- party.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "159b0c8aca857241",
+      "text": "Completed 28 Aug 2025 07:23 AM EDT",
+      "page": 8,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "39648bedcf2f4a19",
+      "name": "AFS Licence",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0e89cfc2054df5ce",
+      "name": "AN Integral",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0ef0c39c126f6fa4",
+      "name": "ASX Clear",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cc3137194d646091",
+      "name": "ASX Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "597c5864de8f727b",
+      "name": "All Corporates",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f9bad58da1b3072f",
+      "name": "All Quasis",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a416231886f0fa52",
+      "name": "All Rights",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4635f929b5b950f6",
+      "name": "An NC",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "783f70a024710eb5",
+      "name": "An NR",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "517917b86efb07cf",
+      "name": "Analyst Certification",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21cd74fee7a13752",
+      "name": "Annex II",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f4758147dc564ecb",
+      "name": "Argentinian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "14e6735f8ee5732e",
+      "name": "Asia Ex",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "babb54828c5096a2",
+      "name": "Australia Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bc98bb53ad7f2a24",
+      "name": "Australian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4145ab5b0ba6f3c4",
+      "name": "Avg Rating",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "34925fcaabe8def5",
+      "name": "Banco Central",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d1c8c81d7ef726d8",
+      "name": "Bond Report",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0c79578332e6a66e",
+      "name": "Bonds\n\nRelative",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "other",
+            "labels": []
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": null,
+              "max": null
+            }
+          }
+        },
+        "series": [],
+        "figure_id": "765ecde471cbd941",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "time",
+            "labels": [
+              "Jul-19",
+              "Jan-20",
+              "Jul-20",
+              "Jan-21",
+              "Jul-21",
+              "Jan-22",
+              "Jul-22",
+              "Jan-23",
+              "Jul-23",
+              "Jan-24",
+              "Jul-24",
+              "Jan-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": "bp",
+            "range": {
+              "min": 100,
+              "max": 600
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "CEMBI BD STW",
+            "unit": "bp",
+            "values": [
+              320,
+              280,
+              630,
+              400,
+              250,
+              280,
+              420,
+              380,
+              430,
+              300,
+              220,
+              200,
+              220,
+              200
+            ]
+          },
+          {
+            "name": "2025 Target spread",
+            "unit": "bp",
+            "values": [
+              220,
+              220,
+              220,
+              220,
+              220,
+              220,
+              220,
+              220,
+              220,
+              220,
+              220,
+              220,
+              220,
+              220
+            ]
+          }
+        ],
+        "figure_id": "c0aa4a6857417d69",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 3,
+        "axes": null,
+        "series": [],
+        "figure_id": "89c113b8e07776ad",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "062a3bc40d73604c",
+        "value": 0.0002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>CEMBI Broad Div.</td><td>197</td><td>2</td><td>6</td><td>-5</td><td>-32</td><td>-8</td><td>0.02%</td><td>0.18%</td><td>1.23%</td><td>3.55%</td><td>6.18%</td></tr><tr><td>CEMBI Broad Div. IG</",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "18c4d0c4cf6666f6",
+        "value": 0.0018,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Broad Div.</td><td>197</td><td>2</td><td>6</td><td>-5</td><td>-32</td><td>-8</td><td>0.02%</td><td>0.18%</td><td>1.23%</td><td>3.55%</td><td>6.18%</td></tr><tr><td>CEMBI Broad Div. IG</td><td>104</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "0f607e8746e9104b",
+        "value": 0.0123,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>197</td><td>2</td><td>6</td><td>-5</td><td>-32</td><td>-8</td><td>0.02%</td><td>0.18%</td><td>1.23%</td><td>3.55%</td><td>6.18%</td></tr><tr><td>CEMBI Broad Div. IG</td><td>104</td><td>3</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c4e7c599d27d828d",
+        "value": 0.0355,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>2</td><td>6</td><td>-5</td><td>-32</td><td>-8</td><td>0.02%</td><td>0.18%</td><td>1.23%</td><td>3.55%</td><td>6.18%</td></tr><tr><td>CEMBI Broad Div. IG</td><td>104</td><td>3</td><td>4</td><td>-3<",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "846f2b6e27be4a92",
+        "value": 0.061799999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6</td><td>-5</td><td>-32</td><td>-8</td><td>0.02%</td><td>0.18%</td><td>1.23%</td><td>3.55%</td><td>6.18%</td></tr><tr><td>CEMBI Broad Div. IG</td><td>104</td><td>3</td><td>4</td><td>-3</td><td>-20</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "0c4321343842cd9e",
+        "value": 0.0001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><td>CEMBI Broad Div. IG</td><td>104</td><td>3</td><td>4</td><td>-3</td><td>-20</td><td>-9</td><td>0.01%</td><td>0.20%</td><td>1.17%</td><td>3.34%</td><td>6.04%</td></tr><tr><td>CEMBI Broad Div. HY</",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c9a010a1e3aca5ce",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "oad Div. IG</td><td>104</td><td>3</td><td>4</td><td>-3</td><td>-20</td><td>-9</td><td>0.01%</td><td>0.20%</td><td>1.17%</td><td>3.34%</td><td>6.04%</td></tr><tr><td>CEMBI Broad Div. HY</td><td>376</td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e5bf1ff8a50ba2b7",
+        "value": 0.011699999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>104</td><td>3</td><td>4</td><td>-3</td><td>-20</td><td>-9</td><td>0.01%</td><td>0.20%</td><td>1.17%</td><td>3.34%</td><td>6.04%</td></tr><tr><td>CEMBI Broad Div. HY</td><td>376</td><td>2</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c7fcd761aed43408",
+        "value": 0.0334,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>3</td><td>4</td><td>-3</td><td>-20</td><td>-9</td><td>0.01%</td><td>0.20%</td><td>1.17%</td><td>3.34%</td><td>6.04%</td></tr><tr><td>CEMBI Broad Div. HY</td><td>376</td><td>2</td><td>8</td><td>-7<",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "825740f161f4105e",
+        "value": 0.0604,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4</td><td>-3</td><td>-20</td><td>-9</td><td>0.01%</td><td>0.20%</td><td>1.17%</td><td>3.34%</td><td>6.04%</td></tr><tr><td>CEMBI Broad Div. HY</td><td>376</td><td>2</td><td>8</td><td>-7</td><td>-42</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "aae562cd08fbd7dd",
+        "value": 0.0003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>CEMBI Broad Div. HY</td><td>376</td><td>2</td><td>8</td><td>-7</td><td>-42</td><td>1</td><td>0.03%</td><td>0.15%</td><td>1.30%</td><td>3.85%</td><td>6.40%</td></tr><tr><td>CEMBI Broad</td><td>1",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5384db4490ac95ff",
+        "value": 0.0015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "road Div. HY</td><td>376</td><td>2</td><td>8</td><td>-7</td><td>-42</td><td>1</td><td>0.03%</td><td>0.15%</td><td>1.30%</td><td>3.85%</td><td>6.40%</td></tr><tr><td>CEMBI Broad</td><td>190</td><td>1</",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "69211da8f83daf61",
+        "value": 0.013000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>376</td><td>2</td><td>8</td><td>-7</td><td>-42</td><td>1</td><td>0.03%</td><td>0.15%</td><td>1.30%</td><td>3.85%</td><td>6.40%</td></tr><tr><td>CEMBI Broad</td><td>190</td><td>1</td><td>5</td><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "b080c4e49b79c76c",
+        "value": 0.0385,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>2</td><td>8</td><td>-7</td><td>-42</td><td>1</td><td>0.03%</td><td>0.15%</td><td>1.30%</td><td>3.85%</td><td>6.40%</td></tr><tr><td>CEMBI Broad</td><td>190</td><td>1</td><td>5</td><td>-7</td><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "98c7a2b53ede717a",
+        "value": 0.064,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">8</td><td>-7</td><td>-42</td><td>1</td><td>0.03%</td><td>0.15%</td><td>1.30%</td><td>3.85%</td><td>6.40%</td></tr><tr><td>CEMBI Broad</td><td>190</td><td>1</td><td>5</td><td>-7</td><td>-29</td><td>-1",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "3c15d4ea7ab1035c",
+        "value": 0.0002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>CEMBI Broad</td><td>190</td><td>1</td><td>5</td><td>-7</td><td>-29</td><td>-15</td><td>0.02%</td><td>0.21%</td><td>1.25%</td><td>3.39%</td><td>6.04%</td></tr><tr><td>CEMBI Broad IG</td><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a5887d97a472ab32",
+        "value": 0.0021,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "EMBI Broad</td><td>190</td><td>1</td><td>5</td><td>-7</td><td>-29</td><td>-15</td><td>0.02%</td><td>0.21%</td><td>1.25%</td><td>3.39%</td><td>6.04%</td></tr><tr><td>CEMBI Broad IG</td><td>102</td><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d4bc2bc4e758c248",
+        "value": 0.0125,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>190</td><td>1</td><td>5</td><td>-7</td><td>-29</td><td>-15</td><td>0.02%</td><td>0.21%</td><td>1.25%</td><td>3.39%</td><td>6.04%</td></tr><tr><td>CEMBI Broad IG</td><td>102</td><td>2</td><td>4</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "10e533845a7eff3f",
+        "value": 0.0339,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>1</td><td>5</td><td>-7</td><td>-29</td><td>-15</td><td>0.02%</td><td>0.21%</td><td>1.25%</td><td>3.39%</td><td>6.04%</td></tr><tr><td>CEMBI Broad IG</td><td>102</td><td>2</td><td>4</td><td>-3</td><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a24287433d44d428",
+        "value": 0.0604,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>-7</td><td>-29</td><td>-15</td><td>0.02%</td><td>0.21%</td><td>1.25%</td><td>3.39%</td><td>6.04%</td></tr><tr><td>CEMBI Broad IG</td><td>102</td><td>2</td><td>4</td><td>-3</td><td>-18</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "cb7fc444742eb775",
+        "value": 0.0001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>CEMBI Broad IG</td><td>102</td><td>2</td><td>4</td><td>-3</td><td>-18</td><td>-8</td><td>0.01%</td><td>0.19%</td><td>1.16%</td><td>3.25%</td><td>5.97%</td></tr><tr><td>CEMBI Broad HY</td><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "86d1e6307be97287",
+        "value": 0.0019,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "BI Broad IG</td><td>102</td><td>2</td><td>4</td><td>-3</td><td>-18</td><td>-8</td><td>0.01%</td><td>0.19%</td><td>1.16%</td><td>3.25%</td><td>5.97%</td></tr><tr><td>CEMBI Broad HY</td><td>419</td><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "f29e1b95478b59f8",
+        "value": 0.0116,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>102</td><td>2</td><td>4</td><td>-3</td><td>-18</td><td>-8</td><td>0.01%</td><td>0.19%</td><td>1.16%</td><td>3.25%</td><td>5.97%</td></tr><tr><td>CEMBI Broad HY</td><td>419</td><td>0</td><td>6</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "f45e758fbc5af28c",
+        "value": 0.0325,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>2</td><td>4</td><td>-3</td><td>-18</td><td>-8</td><td>0.01%</td><td>0.19%</td><td>1.16%</td><td>3.25%</td><td>5.97%</td></tr><tr><td>CEMBI Broad HY</td><td>419</td><td>0</td><td>6</td><td>-12</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "9e1fd8917947c091",
+        "value": 0.059699999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4</td><td>-3</td><td>-18</td><td>-8</td><td>0.01%</td><td>0.19%</td><td>1.16%</td><td>3.25%</td><td>5.97%</td></tr><tr><td>CEMBI Broad HY</td><td>419</td><td>0</td><td>6</td><td>-12</td><td>-38</td><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "2b9f509c369d59e6",
+        "value": 0.0004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>CEMBI Broad HY</td><td>419</td><td>0</td><td>6</td><td>-12</td><td>-38</td><td>-16</td><td>0.04%</td><td>0.23%</td><td>1.43%</td><td>3.66%</td><td>6.20%</td></tr><tr><td>EMBIG Div</td><td>299",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "1772f617c3ccb1fd",
+        "value": 0.0023,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Broad HY</td><td>419</td><td>0</td><td>6</td><td>-12</td><td>-38</td><td>-16</td><td>0.04%</td><td>0.23%</td><td>1.43%</td><td>3.66%</td><td>6.20%</td></tr><tr><td>EMBIG Div</td><td>299</td><td>3</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "53022c0121dba3a2",
+        "value": 0.0143,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>419</td><td>0</td><td>6</td><td>-12</td><td>-38</td><td>-16</td><td>0.04%</td><td>0.23%</td><td>1.43%</td><td>3.66%</td><td>6.20%</td></tr><tr><td>EMBIG Div</td><td>299</td><td>3</td><td>8</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "187bed12c507c14f",
+        "value": 0.0366,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0</td><td>6</td><td>-12</td><td>-38</td><td>-16</td><td>0.04%</td><td>0.23%</td><td>1.43%</td><td>3.66%</td><td>6.20%</td></tr><tr><td>EMBIG Div</td><td>299</td><td>3</td><td>8</td><td>-3</td><td>-3",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "fb6be58185d57a29",
+        "value": 0.062,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>-12</td><td>-38</td><td>-16</td><td>0.04%</td><td>0.23%</td><td>1.43%</td><td>3.66%</td><td>6.20%</td></tr><tr><td>EMBIG Div</td><td>299</td><td>3</td><td>8</td><td>-3</td><td>-32</td><td>-26<",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "9c5fa4d1d9f7a364",
+        "value": -0.0002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>EMBIG Div</td><td>299</td><td>3</td><td>8</td><td>-3</td><td>-32</td><td>-26</td><td>-0.02%</td><td>-0.06%</td><td>1.36%</td><td>5.07%</td><td>8.34%</td></tr><tr><td>EMBIG Div IG</td><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7d09f5c4e7ae4db4",
+        "value": -0.0006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "EMBIG Div</td><td>299</td><td>3</td><td>8</td><td>-3</td><td>-32</td><td>-26</td><td>-0.02%</td><td>-0.06%</td><td>1.36%</td><td>5.07%</td><td>8.34%</td></tr><tr><td>EMBIG Div IG</td><td>102</td><td>2",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "58295ed064c61079",
+        "value": 0.013600000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>299</td><td>3</td><td>8</td><td>-3</td><td>-32</td><td>-26</td><td>-0.02%</td><td>-0.06%</td><td>1.36%</td><td>5.07%</td><td>8.34%</td></tr><tr><td>EMBIG Div IG</td><td>102</td><td>2</td><td>6</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ecb6f00129efc4a1",
+        "value": 0.0507,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">3</td><td>8</td><td>-3</td><td>-32</td><td>-26</td><td>-0.02%</td><td>-0.06%</td><td>1.36%</td><td>5.07%</td><td>8.34%</td></tr><tr><td>EMBIG Div IG</td><td>102</td><td>2</td><td>6</td><td>-4</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e54562b89ed08bde",
+        "value": 0.0834,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>-3</td><td>-32</td><td>-26</td><td>-0.02%</td><td>-0.06%</td><td>1.36%</td><td>5.07%</td><td>8.34%</td></tr><tr><td>EMBIG Div IG</td><td>102</td><td>2</td><td>6</td><td>-4</td><td>-19</td><td>-",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "71fd703e72cfa12d",
+        "value": -0.0002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>EMBIG Div IG</td><td>102</td><td>2</td><td>6</td><td>-4</td><td>-19</td><td>-17</td><td>-0.02%</td><td>-0.11%</td><td>1.24%</td><td>4.09%</td><td>6.93%</td></tr><tr><td>EMBIG Div HY</td><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "677808b46e1ca839",
+        "value": -0.0011,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "IG Div IG</td><td>102</td><td>2</td><td>6</td><td>-4</td><td>-19</td><td>-17</td><td>-0.02%</td><td>-0.11%</td><td>1.24%</td><td>4.09%</td><td>6.93%</td></tr><tr><td>EMBIG Div HY</td><td>533</td><td>4",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d54a37bce7a3b564",
+        "value": 0.0124,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>102</td><td>2</td><td>6</td><td>-4</td><td>-19</td><td>-17</td><td>-0.02%</td><td>-0.11%</td><td>1.24%</td><td>4.09%</td><td>6.93%</td></tr><tr><td>EMBIG Div HY</td><td>533</td><td>4</td><td>10</td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "4d2156d56f20ff82",
+        "value": 0.0409,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">2</td><td>6</td><td>-4</td><td>-19</td><td>-17</td><td>-0.02%</td><td>-0.11%</td><td>1.24%</td><td>4.09%</td><td>6.93%</td></tr><tr><td>EMBIG Div HY</td><td>533</td><td>4</td><td>10</td><td>12</td><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a7bc9fc5ea1997a9",
+        "value": 0.0693,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>-4</td><td>-19</td><td>-17</td><td>-0.02%</td><td>-0.11%</td><td>1.24%</td><td>4.09%</td><td>6.93%</td></tr><tr><td>EMBIG Div HY</td><td>533</td><td>4</td><td>10</td><td>12</td><td>-39</td><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "72c8bb7824b057c2",
+        "value": -0.0002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>EMBIG Div HY</td><td>533</td><td>4</td><td>10</td><td>12</td><td>-39</td><td>-26</td><td>-0.02%</td><td>-0.01%</td><td>1.47%</td><td>6.01%</td><td>9.70%</td></tr><tr><td>US HG (JUL)</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c5a73b821b78472a",
+        "value": -0.0001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "G Div HY</td><td>533</td><td>4</td><td>10</td><td>12</td><td>-39</td><td>-26</td><td>-0.02%</td><td>-0.01%</td><td>1.47%</td><td>6.01%</td><td>9.70%</td></tr><tr><td>US HG (JUL)</td><td>88</td><td>1</",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "eb96e8dc9b7cf3a0",
+        "value": 0.0147,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>533</td><td>4</td><td>10</td><td>12</td><td>-39</td><td>-26</td><td>-0.02%</td><td>-0.01%</td><td>1.47%</td><td>6.01%</td><td>9.70%</td></tr><tr><td>US HG (JUL)</td><td>88</td><td>1</td><td>1</td><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "811f5ce2014c89e7",
+        "value": 0.0601,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4</td><td>10</td><td>12</td><td>-39</td><td>-26</td><td>-0.02%</td><td>-0.01%</td><td>1.47%</td><td>6.01%</td><td>9.70%</td></tr><tr><td>US HG (JUL)</td><td>88</td><td>1</td><td>1</td><td>-1</td><td>-",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "9885a3ab67386d59",
+        "value": 0.09699999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>12</td><td>-39</td><td>-26</td><td>-0.02%</td><td>-0.01%</td><td>1.47%</td><td>6.01%</td><td>9.70%</td></tr><tr><td>US HG (JUL)</td><td>88</td><td>1</td><td>1</td><td>-1</td><td>-15</td><td>-5<",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a574d7a5c53907db",
+        "value": 0.0005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></tr><tr><td>US HG (JUL)</td><td>88</td><td>1</td><td>1</td><td>-1</td><td>-15</td><td>-5</td><td>0.05%</td><td>0.25%</td><td>0.92%</td><td>3.31%</td><td>5.53%</td></tr><tr><td>US HY</td><td>326</td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "4f99644d7a19f38a",
+        "value": 0.0025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">US HG (JUL)</td><td>88</td><td>1</td><td>1</td><td>-1</td><td>-15</td><td>-5</td><td>0.05%</td><td>0.25%</td><td>0.92%</td><td>3.31%</td><td>5.53%</td></tr><tr><td>US HY</td><td>326</td><td>3</td><td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "9bab43dd98993cfe",
+        "value": 0.0092,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>88</td><td>1</td><td>1</td><td>-1</td><td>-15</td><td>-5</td><td>0.05%</td><td>0.25%</td><td>0.92%</td><td>3.31%</td><td>5.53%</td></tr><tr><td>US HY</td><td>326</td><td>3</td><td>-4</td><td>2<",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "4d0b06842879f1cc",
+        "value": 0.0331,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>1</td><td>1</td><td>-1</td><td>-15</td><td>-5</td><td>0.05%</td><td>0.25%</td><td>0.92%</td><td>3.31%</td><td>5.53%</td></tr><tr><td>US HY</td><td>326</td><td>3</td><td>-4</td><td>2</td><td>-31</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "865aad32604626c8",
+        "value": 0.0553,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1</td><td>-1</td><td>-15</td><td>-5</td><td>0.05%</td><td>0.25%</td><td>0.92%</td><td>3.31%</td><td>5.53%</td></tr><tr><td>US HY</td><td>326</td><td>3</td><td>-4</td><td>2</td><td>-31</td><td>1</td><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ffb9cdf55850af5f",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>2024 YTD daily avg</td><td>2024 full year daily avg</td></tr><tr><td>Total</td><td>2,443</td><td>100%</td><td>224</td><td>2,131</td><td>3,097</td><td>2,919</td><td>2,986</td></tr><tr><td>IG</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "862f8639bd917a8e",
+        "value": 0.34,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "224</td><td>2,131</td><td>3,097</td><td>2,919</td><td>2,986</td></tr><tr><td>IG</td><td>833</td><td>34%</td><td>27</td><td>861</td><td>1,073</td><td>944</td><td>974</td></tr><tr><td>HY</td><td>1,610</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a7f2889bb7a33f89",
+        "value": 0.66,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>27</td><td>861</td><td>1,073</td><td>944</td><td>974</td></tr><tr><td>HY</td><td>1,610</td><td>66%</td><td>197</td><td>1,270</td><td>2,024</td><td>1,976</td><td>2,012</td></tr></table> Source: J.",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "cf51b77a336c6059",
+        "value": 0.065,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Corp</td><td>Avg Rating</td><td>Est Vol (Smm)</td><td>Last Px</td><td>Index</td></tr><tr><td>PEMEX 6.5% 01/23/2029</td><td>Mexico</td><td>Q</td><td>BB</td><td>53</td><td>$100.18</td><td>EMBIG</td></tr",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1cac8f2a7ff0b9cf",
+        "value": 0.0535,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Mexico</td><td>Q</td><td>BB</td><td>53</td><td>$100.18</td><td>EMBIG</td></tr><tr><td>PEMEX 5.35% 02/12/2028</td><td>Mexico</td><td>Q</td><td>BB</td><td>45</td><td>$97.60</td><td>EMBIG</td></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d8f13fa63fd59120",
+        "value": 0.0635,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Mexico</td><td>Q</td><td>BB</td><td>45</td><td>$97.60</td><td>EMBIG</td></tr><tr><td>PEMEX 6.35% 02/12/2048</td><td>Mexico</td><td>Q</td><td>BB</td><td>44</td><td>$73.86</td><td>EMBIG</td></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5c69f97bba5f9c10",
+        "value": 0.0675,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Mexico</td><td>Q</td><td>BB</td><td>44</td><td>$73.86</td><td>EMBIG</td></tr><tr><td>PEMEX 6.75% 09/21/2047</td><td>Mexico</td><td>Q</td><td>BB</td><td>41</td><td>$76.81</td><td>EMBIG</td></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "488f22ea8f588c39",
+        "value": 0.04375,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Mexico</td><td>Q</td><td>BB</td><td>41</td><td>$76.81</td><td>EMBIG</td></tr><tr><td>BRADES 4.375% 03/18/2027</td><td>Brazil</td><td>C</td><td>BB</td><td>36</td><td>$99.50</td><td>CEMBI</td></",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "332ee9dd54fc9260",
+        "value": 0.07375,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Brazil</td><td>C</td><td>BB</td><td>36</td><td>$99.50</td><td>CEMBI</td></tr><tr><td>PETBRA 7.375% 01/17/2027</td><td>Brazil</td><td>Q</td><td>BB</td><td>31</td><td>$103.07</td><td>CEMBI</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "0f4a9690f07d3d8a",
+        "value": 0.077,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>Brazil</td><td>Q</td><td>BB</td><td>31</td><td>$103.07</td><td>CEMBI</td></tr><tr><td>FRICON 7.7% 07/21/2028</td><td>Paraguay</td><td>C</td><td>B</td><td>28</td><td>$75.88</td><td>CEMBI</td></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8fcf310ece46b2f6",
+        "value": 0.059500000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Paraguay</td><td>C</td><td>B</td><td>28</td><td>$75.88</td><td>CEMBI</td></tr><tr><td>PEMEX 5.95% 01/28/2031</td><td>Mexico</td><td>Q</td><td>BB</td><td>28</td><td>$92.90</td><td>EMBIG</td></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "41f7697a2ee5d67b",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Mexico</td><td>Q</td><td>BB</td><td>28</td><td>$92.90</td><td>EMBIG</td></tr><tr><td>NICEIT 0% 09/15/2025</td><td>Israel</td><td>C</td><td>NR</td><td>26</td><td>$97.89</td><td>-</td></tr><tr><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "10b57433ee18f2b3",
+        "value": 0.0725,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "025</td><td>Israel</td><td>C</td><td>NR</td><td>26</td><td>$97.89</td><td>-</td></tr><tr><td>MCBRAC 7.25% 06/30/2031</td><td>Brazil</td><td>C</td><td>B</td><td>26</td><td>$85.00</td><td>CEMBI</td></tr",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a04c2fe0049e1dcd",
+        "value": 100.18,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Index</td></tr><tr><td>PEMEX 6.5% 01/23/2029</td><td>Mexico</td><td>Q</td><td>BB</td><td>53</td><td>$100.18</td><td>EMBIG</td></tr><tr><td>PEMEX 5.35% 02/12/2028</td><td>Mexico</td><td>Q</td><td>BB</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ec346c2a0e1bd14a",
+        "value": 97.6,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "MBIG</td></tr><tr><td>PEMEX 5.35% 02/12/2028</td><td>Mexico</td><td>Q</td><td>BB</td><td>45</td><td>$97.60</td><td>EMBIG</td></tr><tr><td>PEMEX 6.35% 02/12/2048</td><td>Mexico</td><td>Q</td><td>BB</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "18e2cd6711e3f306",
+        "value": 73.86,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "MBIG</td></tr><tr><td>PEMEX 6.35% 02/12/2048</td><td>Mexico</td><td>Q</td><td>BB</td><td>44</td><td>$73.86</td><td>EMBIG</td></tr><tr><td>PEMEX 6.75% 09/21/2047</td><td>Mexico</td><td>Q</td><td>BB</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6e74bd4407890ed8",
+        "value": 76.81,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "MBIG</td></tr><tr><td>PEMEX 6.75% 09/21/2047</td><td>Mexico</td><td>Q</td><td>BB</td><td>41</td><td>$76.81</td><td>EMBIG</td></tr><tr><td>BRADES 4.375% 03/18/2027</td><td>Brazil</td><td>C</td><td>BB</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6d30f13866013371",
+        "value": 99.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "IG</td></tr><tr><td>BRADES 4.375% 03/18/2027</td><td>Brazil</td><td>C</td><td>BB</td><td>36</td><td>$99.50</td><td>CEMBI</td></tr><tr><td>PETBRA 7.375% 01/17/2027</td><td>Brazil</td><td>Q</td><td>BB</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b2566dc417d58e00",
+        "value": 103.07,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "BI</td></tr><tr><td>PETBRA 7.375% 01/17/2027</td><td>Brazil</td><td>Q</td><td>BB</td><td>31</td><td>$103.07</td><td>CEMBI</td></tr><tr><td>FRICON 7.7% 07/21/2028</td><td>Paraguay</td><td>C</td><td>B</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "26e27034e7665cdc",
+        "value": 75.88,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "MBI</td></tr><tr><td>FRICON 7.7% 07/21/2028</td><td>Paraguay</td><td>C</td><td>B</td><td>28</td><td>$75.88</td><td>CEMBI</td></tr><tr><td>PEMEX 5.95% 01/28/2031</td><td>Mexico</td><td>Q</td><td>BB</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9837baed7c0d408c",
+        "value": 92.9,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "EMBI</td></tr><tr><td>PEMEX 5.95% 01/28/2031</td><td>Mexico</td><td>Q</td><td>BB</td><td>28</td><td>$92.90</td><td>EMBIG</td></tr><tr><td>NICEIT 0% 09/15/2025</td><td>Israel</td><td>C</td><td>NR</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7124adc9de1316c7",
+        "value": 97.89,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ">EMBIG</td></tr><tr><td>NICEIT 0% 09/15/2025</td><td>Israel</td><td>C</td><td>NR</td><td>26</td><td>$97.89</td><td>-</td></tr><tr><td>MCBRAC 7.25% 06/30/2031</td><td>Brazil</td><td>C</td><td>B</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f3cd72e67094eea8",
+        "value": 85.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>-</td></tr><tr><td>MCBRAC 7.25% 06/30/2031</td><td>Brazil</td><td>C</td><td>B</td><td>26</td><td>$85.00</td><td>CEMBI</td></tr></table> Source: J.P. Morgan, TRACE. Note: Data reflects trading volum",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "cd3a6e3870a941a5",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".06</td><td>2</td><td>6</td><td>-5</td><td>-8</td><td>-1</td><td>-1</td><td>-17</td><td>-50</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>6.2%</td></tr><tr><td>CEMBI Broad Div.</td><td>100.0</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "4096d44f4952e0ec",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>6</td><td>-5</td><td>-8</td><td>-1</td><td>-1</td><td>-17</td><td>-50</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>6.2%</td></tr><tr><td>CEMBI Broad Div.</td><td>100.0</td><td>100.0</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "e32ab43df5644719",
+        "value": 0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-5</td><td>-8</td><td>-1</td><td>-1</td><td>-17</td><td>-50</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>6.2%</td></tr><tr><td>CEMBI Broad Div.</td><td>100.0</td><td>100.0</td><td>197</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "8417be93f4a6167c",
+        "value": 0.062,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-8</td><td>-1</td><td>-1</td><td>-17</td><td>-50</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>6.2%</td></tr><tr><td>CEMBI Broad Div.</td><td>100.0</td><td>100.0</td><td>197</td><td>6.06</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "cd3a6e3870a941a5",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".06</td><td>2</td><td>6</td><td>-4</td><td>-4</td><td>-1</td><td>-1</td><td>-17</td><td>-43</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>6.2%</td></tr><tr><td>Ex. China</td><td>84.9</td><td>92.6</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "59ae68113fbd3568",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>6</td><td>-4</td><td>-4</td><td>-1</td><td>-1</td><td>-17</td><td>-43</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>6.2%</td></tr><tr><td>Ex. China</td><td>84.9</td><td>92.6</td><td>200</td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "619bfb1d5230a9c4",
+        "value": 0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-4</td><td>-4</td><td>-1</td><td>-1</td><td>-17</td><td>-43</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>6.2%</td></tr><tr><td>Ex. China</td><td>84.9</td><td>92.6</td><td>200</td><td>6.11</td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "b9183e485c1d2cd3",
+        "value": 0.062,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-4</td><td>-1</td><td>-1</td><td>-17</td><td>-43</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>6.2%</td></tr><tr><td>Ex. China</td><td>84.9</td><td>92.6</td><td>200</td><td>6.11</td><td>2</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "d23e20b3deff6a2c",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".11</td><td>2</td><td>6</td><td>-3</td><td>-16</td><td>1</td><td>-2</td><td>-16</td><td>-56</td><td>0.0%</td><td>0.2%</td><td>1.1%</td><td>5.8%</td></tr><tr><td>Asia</td><td>46.2</td><td>40.3</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "eb68406b4ce49f80",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>6</td><td>-3</td><td>-16</td><td>1</td><td>-2</td><td>-16</td><td>-56</td><td>0.0%</td><td>0.2%</td><td>1.1%</td><td>5.8%</td></tr><tr><td>Asia</td><td>46.2</td><td>40.3</td><td>142</td><td>5",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "b9efc09644a60200",
+        "value": 0.011000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-3</td><td>-16</td><td>1</td><td>-2</td><td>-16</td><td>-56</td><td>0.0%</td><td>0.2%</td><td>1.1%</td><td>5.8%</td></tr><tr><td>Asia</td><td>46.2</td><td>40.3</td><td>142</td><td>5.51</td><td>4",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "49b49bd92af20a53",
+        "value": 0.057999999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-16</td><td>1</td><td>-2</td><td>-16</td><td>-56</td><td>0.0%</td><td>0.2%</td><td>1.1%</td><td>5.8%</td></tr><tr><td>Asia</td><td>46.2</td><td>40.3</td><td>142</td><td>5.51</td><td>4</td><td>5</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a5f4c4c2bb6b193a",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">5.51</td><td>4</td><td>5</td><td>-2</td><td>0</td><td>2</td><td>-1</td><td>-15</td><td>-44</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>5.7%</td></tr><tr><td>Asia Ex. China</td><td>31.1</td><td>34.",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "9afd723dd50c9b24",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">4</td><td>5</td><td>-2</td><td>0</td><td>2</td><td>-1</td><td>-15</td><td>-44</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>5.7%</td></tr><tr><td>Asia Ex. China</td><td>31.1</td><td>34.0</td><td>162",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "78f0ab55f6b42628",
+        "value": 0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>-2</td><td>0</td><td>2</td><td>-1</td><td>-15</td><td>-44</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>5.7%</td></tr><tr><td>Asia Ex. China</td><td>31.1</td><td>34.0</td><td>162</td><td>5.51",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7232d2b186a4db63",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>0</td><td>2</td><td>-1</td><td>-15</td><td>-44</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>5.7%</td></tr><tr><td>Asia Ex. China</td><td>31.1</td><td>34.0</td><td>162</td><td>5.51</td><td>6</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7440d6c1215da12e",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">5.51</td><td>6</td><td>6</td><td>-8</td><td>3</td><td>-2</td><td>0</td><td>-19</td><td>-40</td><td>0.0%</td><td>0.1%</td><td>1.4%</td><td>6.6%</td></tr><tr><td>Latin America</td><td>26.2</td><td>25.3",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2ce3130ba29898eb",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">6</td><td>6</td><td>-8</td><td>3</td><td>-2</td><td>0</td><td>-19</td><td>-40</td><td>0.0%</td><td>0.1%</td><td>1.4%</td><td>6.6%</td></tr><tr><td>Latin America</td><td>26.2</td><td>25.3</td><td>266<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "6e00dfdfa7b0c0aa",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>-8</td><td>3</td><td>-2</td><td>0</td><td>-19</td><td>-40</td><td>0.0%</td><td>0.1%</td><td>1.4%</td><td>6.6%</td></tr><tr><td>Latin America</td><td>26.2</td><td>25.3</td><td>266</td><td>6.76<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0e24704ea2cda9c3",
+        "value": 0.066,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>3</td><td>-2</td><td>0</td><td>-19</td><td>-40</td><td>0.0%</td><td>0.1%</td><td>1.4%</td><td>6.6%</td></tr><tr><td>Latin America</td><td>26.2</td><td>25.3</td><td>266</td><td>6.76</td><td>0</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "bad584f5e28e2ed1",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6</td><td>0</td><td>7</td><td>-12</td><td>-67</td><td>0</td><td>-1</td><td>-28</td><td>-115</td><td>0.0%</td><td>0.1%</td><td>1.5%</td><td>7.8%</td></tr><tr><td>EM Europe</td><td>4.7</td><td>7.5</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "536c01525abcaf82",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>7</td><td>-12</td><td>-67</td><td>0</td><td>-1</td><td>-28</td><td>-115</td><td>0.0%</td><td>0.1%</td><td>1.5%</td><td>7.8%</td></tr><tr><td>EM Europe</td><td>4.7</td><td>7.5</td><td>331</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "b65a2daea382ec22",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-12</td><td>-67</td><td>0</td><td>-1</td><td>-28</td><td>-115</td><td>0.0%</td><td>0.1%</td><td>1.5%</td><td>7.8%</td></tr><tr><td>EM Europe</td><td>4.7</td><td>7.5</td><td>331</td><td>7.26</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "96bdbb381422b972",
+        "value": 0.078,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>-67</td><td>0</td><td>-1</td><td>-28</td><td>-115</td><td>0.0%</td><td>0.1%</td><td>1.5%</td><td>7.8%</td></tr><tr><td>EM Europe</td><td>4.7</td><td>7.5</td><td>331</td><td>7.26</td><td>3</td><td>7",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "bc2c9b59c520d135",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".26</td><td>3</td><td>7</td><td>-5</td><td>-6</td><td>-2</td><td>-1</td><td>-18</td><td>-47</td><td>0.1%</td><td>0.1%</td><td>1.1%</td><td>5.7%</td></tr><tr><td>Middle East</td><td>18.3</td><td>18.3</",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a67b2b7d29a01835",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>7</td><td>-5</td><td>-6</td><td>-2</td><td>-1</td><td>-18</td><td>-47</td><td>0.1%</td><td>0.1%</td><td>1.1%</td><td>5.7%</td></tr><tr><td>Middle East</td><td>18.3</td><td>18.3</td><td>128</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "3b30d06fd6ee9810",
+        "value": 0.011000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-5</td><td>-6</td><td>-2</td><td>-1</td><td>-18</td><td>-47</td><td>0.1%</td><td>0.1%</td><td>1.1%</td><td>5.7%</td></tr><tr><td>Middle East</td><td>18.3</td><td>18.3</td><td>128</td><td>5.37</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0173a816c17113af",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-6</td><td>-2</td><td>-1</td><td>-18</td><td>-47</td><td>0.1%</td><td>0.1%</td><td>1.1%</td><td>5.7%</td></tr><tr><td>Middle East</td><td>18.3</td><td>18.3</td><td>128</td><td>5.37</td><td>1</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f83f7c4576cbd465",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".37</td><td>1</td><td>5</td><td>-4</td><td>10</td><td>-1</td><td>-1</td><td>-16</td><td>-30</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>6.4%</td></tr><tr><td>Africa</td><td>4.7</td><td>8.6</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "a0bcf958d35ad0da",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>5</td><td>-4</td><td>10</td><td>-1</td><td>-1</td><td>-16</td><td>-30</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>6.4%</td></tr><tr><td>Africa</td><td>4.7</td><td>8.6</td><td>237</td><td>6",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "115b15ab9d02db3b",
+        "value": 0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-4</td><td>10</td><td>-1</td><td>-1</td><td>-16</td><td>-30</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>6.4%</td></tr><tr><td>Africa</td><td>4.7</td><td>8.6</td><td>237</td><td>6.49</td><td>2",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "092d17a61b7596e4",
+        "value": 0.064,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>10</td><td>-1</td><td>-1</td><td>-16</td><td>-30</td><td>0.0%</td><td>0.2%</td><td>1.2%</td><td>6.4%</td></tr><tr><td>Africa</td><td>4.7</td><td>8.6</td><td>237</td><td>6.49</td><td>2</td><td>5</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "2b2d4fd2a932fe78",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>2</td><td>5</td><td>-4</td><td>19</td><td>57</td><td>0</td><td>29</td><td>15</td><td>-2</td><td>0.0%</td><td>-0.9%</td><td>0.1%</td><td>4.0%</td></tr><tr><td>Argentina</td><td>1.2</td><td>2.6</td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "d00909328e0bb1a4",
+        "value": -0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">5</td><td>-4</td><td>19</td><td>57</td><td>0</td><td>29</td><td>15</td><td>-2</td><td>0.0%</td><td>-0.9%</td><td>0.1%</td><td>4.0%</td></tr><tr><td>Argentina</td><td>1.2</td><td>2.6</td><td>408</td><",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "d1b446e5239167c7",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>19</td><td>57</td><td>0</td><td>29</td><td>15</td><td>-2</td><td>0.0%</td><td>-0.9%</td><td>0.1%</td><td>4.0%</td></tr><tr><td>Argentina</td><td>1.2</td><td>2.6</td><td>408</td><td>7.95</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "66d28bb73590832d",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>57</td><td>0</td><td>29</td><td>15</td><td>-2</td><td>0.0%</td><td>-0.9%</td><td>0.1%</td><td>4.0%</td></tr><tr><td>Argentina</td><td>1.2</td><td>2.6</td><td>408</td><td>7.95</td><td>4</td><td>3",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "b76815a993488b70",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5</td><td>4</td><td>35</td><td>-21</td><td>-4</td><td>-9</td><td>-6</td><td>-27</td><td>-37</td><td>0.1%</td><td>0.4%</td><td>1.2%</td><td>5.1%</td></tr><tr><td>Brazil</td><td>9.7</td><td>5.0</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f96eab5e6ad6c40f",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>35</td><td>-21</td><td>-4</td><td>-9</td><td>-6</td><td>-27</td><td>-37</td><td>0.1%</td><td>0.4%</td><td>1.2%</td><td>5.1%</td></tr><tr><td>Brazil</td><td>9.7</td><td>5.0</td><td>285</td><td>7",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f42602350770ceeb",
+        "value": 0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>-21</td><td>-4</td><td>-9</td><td>-6</td><td>-27</td><td>-37</td><td>0.1%</td><td>0.4%</td><td>1.2%</td><td>5.1%</td></tr><tr><td>Brazil</td><td>9.7</td><td>5.0</td><td>285</td><td>7.06</td><td>-",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "b53aa78aac315d27",
+        "value": 0.051,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-4</td><td>-9</td><td>-6</td><td>-27</td><td>-37</td><td>0.1%</td><td>0.4%</td><td>1.2%</td><td>5.1%</td></tr><tr><td>Brazil</td><td>9.7</td><td>5.0</td><td>285</td><td>7.06</td><td>-9</td><td>-1<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "29a50b3c053ee9dd",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6</td><td>-9</td><td>-1</td><td>-1</td><td>-1</td><td>-1</td><td>-1</td><td>-11</td><td>-42</td><td>0.0%</td><td>0.2%</td><td>1.4%</td><td>7.0%</td></tr><tr><td>Chile</td><td>3.0</td><td>3.5</td><td>1",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "100a439d82d44cad",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>-1</td><td>-1</td><td>-1</td><td>-1</td><td>-1</td><td>-11</td><td>-42</td><td>0.0%</td><td>0.2%</td><td>1.4%</td><td>7.0%</td></tr><tr><td>Chile</td><td>3.0</td><td>3.5</td><td>159</td><td>5.",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "694942c052ec092b",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-1</td><td>-1</td><td>-1</td><td>-1</td><td>-11</td><td>-42</td><td>0.0%</td><td>0.2%</td><td>1.4%</td><td>7.0%</td></tr><tr><td>Chile</td><td>3.0</td><td>3.5</td><td>159</td><td>5.73</td><td>4<",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "76ce52692c867325",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-1</td><td>-1</td><td>-1</td><td>-11</td><td>-42</td><td>0.0%</td><td>0.2%</td><td>1.4%</td><td>7.0%</td></tr><tr><td>Chile</td><td>3.0</td><td>3.5</td><td>159</td><td>5.73</td><td>4</td><td>5</td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "6b63daded89a0aa7",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5.73</td><td>4</td><td>5</td><td>1</td><td>-1</td><td>-1</td><td>-1</td><td>-11</td><td>-42</td><td>0.0%</td><td>0.2%</td><td>1.4%</td><td>7.0%</td></tr><tr><td>China</td><td>15.1</td><td>6.3</td><td>",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "475f2faa8c68ed0c",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4</td><td>5</td><td>1</td><td>-1</td><td>-1</td><td>-1</td><td>-11</td><td>-42</td><td>0.0%</td><td>0.2%</td><td>1.4%</td><td>7.0%</td></tr><tr><td>China</td><td>15.1</td><td>6.3</td><td>139</td><td>5",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "7fbbd23e91c7ecd5",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>1</td><td>-1</td><td>-1</td><td>-1</td><td>-11</td><td>-42</td><td>0.0%</td><td>0.2%</td><td>1.4%</td><td>7.0%</td></tr><tr><td>China</td><td>15.1</td><td>6.3</td><td>139</td><td>5.59</td><td>1",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "76ce52692c867325",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-1</td><td>-1</td><td>-1</td><td>-11</td><td>-42</td><td>0.0%</td><td>0.2%</td><td>1.4%</td><td>7.0%</td></tr><tr><td>China</td><td>15.1</td><td>6.3</td><td>139</td><td>5.59</td><td>1</td><td>3</t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "158368289ba0ce61",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "9</td><td>1</td><td>3</td><td>-5</td><td>-94</td><td>-1</td><td>-3</td><td>-16</td><td>-124</td><td>0.1%</td><td>0.3%</td><td>1.0%</td><td>5.7%</td></tr><tr><td>Colombia</td><td>2.8</td><td>3.5</td><t",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "57ef969ad2cc5d84",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>3</td><td>-5</td><td>-94</td><td>-1</td><td>-3</td><td>-16</td><td>-124</td><td>0.1%</td><td>0.3%</td><td>1.0%</td><td>5.7%</td></tr><tr><td>Colombia</td><td>2.8</td><td>3.5</td><td>410</td><td",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "e2cf3458b3048448",
+        "value": 0.27,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Neutral (hold)</td><td>Underweight (sell)</td></tr><tr><td>Global Credit Research Universe*</td><td>27%</td><td>57%</td><td>16%</td></tr><tr><td>IB clients**</td><td>63%</td><td>63%</td><td>67%</td></",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d6b746b0500a60cb",
+        "value": 0.57,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d)</td><td>Underweight (sell)</td></tr><tr><td>Global Credit Research Universe*</td><td>27%</td><td>57%</td><td>16%</td></tr><tr><td>IB clients**</td><td>63%</td><td>63%</td><td>67%</td></tr></table> ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f26c3eea58ab1fc9",
+        "value": 0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nderweight (sell)</td></tr><tr><td>Global Credit Research Universe*</td><td>27%</td><td>57%</td><td>16%</td></tr><tr><td>IB clients**</td><td>63%</td><td>63%</td><td>67%</td></tr></table> \\*Please not",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a96b925ca97c7b16",
+        "value": 0.63,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Credit Research Universe*</td><td>27%</td><td>57%</td><td>16%</td></tr><tr><td>IB clients**</td><td>63%</td><td>63%</td><td>67%</td></tr></table> \\*Please note that the percentages may not add to \\(10",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "758d5b415cc554d9",
+        "value": 0.63,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rch Universe*</td><td>27%</td><td>57%</td><td>16%</td></tr><tr><td>IB clients**</td><td>63%</td><td>63%</td><td>67%</td></tr></table> \\*Please note that the percentages may not add to \\(100\\%\\) becaus",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "8ea67eb404a691e1",
+        "value": 0.67,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "*</td><td>27%</td><td>57%</td><td>16%</td></tr><tr><td>IB clients**</td><td>63%</td><td>63%</td><td>67%</td></tr></table> \\*Please note that the percentages may not add to \\(100\\%\\) because of roundin",
+        "provenance": {
+          "page": 4
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 3,
+      "tables_count": 0,
+      "numerical_data_count": 129,
+      "passages_count": 94,
+      "entities_count": 20
+    }
+  }
+}

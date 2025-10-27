@@ -1,0 +1,674 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "0d886de92d10d0e51855df8b714c3155",
+    "title": "J.P.Morgan",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/JPM/J.P.モルガン 債券トピックス 円債超長期セクターアップデートJ.P.モルガン 債券トピックス 円債超長期セクターアップデート_2025-09-01",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:09:00.721986",
+      "extracted_at": "2025-10-26T12:09:00.722001"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 9,
+        "successful_pages": 9,
+        "date": "2025-09-01",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/JPM",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 0,
+          "removed_paragraphs": 9,
+          "reduction_ratio": 0.0978650785358548
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/JPM"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "604a836e8b8816a9",
+      "text": "J.P.モルガン債券上記のマス\n円債：超長期セクターアップデート",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e5b20fe9236219ee",
+      "text": "- 昨日、日経新聞は9月に予定されているPD懇談会のアンケートに、流動性供給入札（15.5年超39年末満）の減額案が含まれていたと報じた。流動性供給（超長期）は6月まで（4,500億円/偶数月）→8月（3,500億円）へと減額されているが、それを更に(1)2,500億円に減額する案と(2)ゼロにする案が出ていたようだ。ほぼ毎回のPD懇で流動性供給入札の年限構成が議論されているが、今回は流動性（超長期）に関して金額据え置き案を含めずに-1,000億円/偶数月が発行停止（ゼロ）が示されたことで「少なくとも減額は実施されそう」、そして状況によっては「流動性（超長期）の発行停止も視野」、そして更に「超長期セクターでの買入消却実施の可能性も」と連想が広がり、昨日は超長期金利が低下していた。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "09c7cab0ff5f976a",
+      "text": "- 4-5月に超長期金利が急上昇したことを受けて日銀・財務省は対応を進め、超長期債のボラティリティーは概ね平常時に戻りつつある。しかし、超長期金利の水準自体は上昇が続き、先物との相関の低さが継続していることでディーラー勢にとってはヘッジしづらい状況が続いている。市場も財務省の追加対応（更なる減額等）を望んでいる状況だと考えられる。また、債券トピックス「08/18：円債：2024年度の生保決算を振り返る」では生命保険の状況について整理したが、生保勢の超長期債購入が活況になる可能性は高くないだろう。2025年に入ってからの超長期債は海外勢によって買い支えられており、安定投資家の不在が懸念されている。超長期債の発行計画には注目が集まり続けるだろう。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ba0dabb6c0408a45",
+      "text": "- 流動性供給入札（超長期）が実際に減額されるのかは全く分からないが、小幅減額程度であれば超長期セクター内では「一時払い保険の販売増によって20年セクターへの需要は堅調」・「40年セクターではネット発行が若干マイナス」という点がボジティブ材料と見る一方、「30年セクターの需給に不安が残る」という見方は維持したい。一方で、流動性大幅減額や買入消却実施となれば、30年債にもボジティブな見通しが持てるようになる。財務省の対応を待ちたい。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a69e4b33dfdb3a99",
+      "text": "アナリストによる保証および重要なディスクロージャーに関しては5ページ目をご覧ください。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "077bcf58d474e204",
+      "text": "J.P.モルガンは、本リサーチでカバーされている企業と取引を行い、または行おうとしています。結果として、そのような会社に関してリサーチの客観性に影響を及ぼす利益相反がありうることをご理解下さい。また、本レポートはあくまでも投資判断を行うにあたっての判断要素の一つとご認識下さい。",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "96af76dd413f060b",
+      "text": "昨日、日経新聞は9月に予定されている国債市場特別参加者会合（PD懇談 会）のアンケートに、流動性供給入札（15.5年超39年未満）の減額案が含 まれていたと報じた。流動性供給（超長期）は6月まで（4,500億円/偶数 月）→8月（3,500億円）へと減額されているが、この記事によると、それ を更に(1)2,500億円に減額する案と(2)ゼロにする案が出ていたようだ。こ れを受け、昨日の円債市場では超長期債中心（特に既発債）で大幅に金 利低下していた。ほぼ毎回のPD懇で流動性供給入札の年限構成などが議 論されているが、今回は流動性（超長期）に関して金額据え置き案を含 めずに-1,000億円/偶数月か発行停止（ゼロ）が示されたことで「少なく とも減額は実施されそう」、そして状況によっては「流動性（超長期） の発行停止も視野」、そして更に「超長期セクターでの買入消却実施の 可能性も」と連想が広がったと推測される。アンケートで示された通り の決定となる保証は何もないものの、アンケートを受けて超長期金利が 低下したことは自然だと言える。",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "987d6e04b48adb4d",
+      "text": "4-5月に超長期金利が急上昇したことを受け、日銀・財務省は異例尽くし の対応を取っている。日銀は「7-9月期輪番で超長期買入を減額せずに据 え置き」＋「26年度の月額買入を-4,000億円/四半期ではなく-2,000億円」 という形で超長期債市場に配慮を見せ、財務省は「補正予算以外のタイ ミングで国債発行計画変更」＋「7月以降の超長期債発行を大幅減額」＋ 「発表直前での減額幅を積み増し」と踏み込んだ対応をしている。その 効果もあり、超長期債のボラティリティーは概ね平常時に戻ってきてお り、4・5月に見られたような最悪期からは脱しつつあるように見える。 しかし、超長期金利の水準自体は上昇が続いており、JGB10年先10年金 利は4%近傍、20年先10年金利は5%弱にまで上昇して低下に転じる様子は 見られない。また、先物との相関の低さが継続していることでディー ラー勢にとってはヘッジしづらい状況が続いており、市場も財務省の追 加対応（更なる減額等）を望んでいる状況だと考えられる。",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "10f0078246120747",
+      "text": "そして、債券トピックス「08/18：円債：2024年度の生保決算を振り返 る」では生命保険の状況について以下のように整理したが、やはり生保 勢の超長期債購入が活況になる可能性は高くないだろう。この点からも ネット発行額抑制は引き続き大きな課題だと言える。",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ced52b65f1edff4e",
+      "text": "● 全ての国内生命保険会社（民間生保40社・かんぽ生命・農林系生保） のディスクロージャー誌が出揃った。24年度は責任準備金が2.9兆円減 少し、業界全体で負債が減少。新規保険販売は活発化しているもの の、「同時に解約増加」や「再保険の活用積極化」が背景にありそ う。",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "7ec2554fe0b70648",
+      "text": "● 生保の現状を振り返ると、(1)ESR対応がほぼ完了、(2)高めの解約率前 提で負債短期化、(3)責任準備金の伸び鈍化、(4)30・40年債での運用 があまり必要ない一時払い保険の販売に注力、(5)再保険活用で資本 効率化や運用高度化が浮かび上がる。",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d186c65315558b9e",
+      "text": "● 2024年度の国債保有動向を振り返ると、国債全体で2.8兆円減少し、年 限別では7年以下（+4.7兆円）・7-10年（-4.5兆円）・10年超（-3.1兆",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "26e351eecdd0ef3b",
+      "text": "(1) となった。超長期で保有額が減少。円債投資では一時払い保険の販売増加によって10年債・20年債購入は続くと予想されるが、30・40年債に関してはハイクーポンへの入れ替え程度に留まる可能性が高そう。",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "7c14a4c6cc57e492",
+      "text": "(図表1)・(図表2)からも確認されるように、2024年度は(1)地域金融機関のASW購入、(2)GPIF(他資産から円債へのリバランス)が超長期債を支えていた。しかし、2025年はこのようなフローが鈍化して、海外勢が超長期債を買い支えていることが確認される。海外勢の購入鈍化やこれまで購入した分の売却には警戒が必要な時間帯に入ってきた。安定投資家の不在が引き続き超長期債の懸念材料となっている。また、「輪番減額」+「生損保の超長期債入れ替え継続」によってカレント債とオフ・ザ・ランの歪みが更に悪化する可能性も残っている。歪みを修正するレラティブバリュー勢の市場参加も重要な鍵となりそうだ。いずれにしても、発行減額や買入消却実施が検討されるのであれば、それは超長期債市場にとってはポジティブな議論となりそうだ。",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "ee400783268311ab",
+      "text": "図表1: 国債投資家売買動向 (年度別・億円)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "33e728329de3a77c",
+      "text": "ネット購入額(月額)FY22FY23FY24FY25財務省入札30,60030,90030,80027,200日銀輪番17,70016,30012,1009,300市中ネット発行額12,90014,60018,70017,900公的+都銀等3,2002,2003,5001,400投進入札一公的売2,6001,4002,0002,400公的買一投進接輪番1,7002,0002,1001,700都市銀行(証券経由)-1,100-1,200-600-2,700地域金融1003003,2001,100農林系1,8001,400700900生損保4,2003,0001,0001,600信託等2,2006,2005,0002,300法人個人100500300300外国人1,9001,9004,20013,700Dealer等-600-800800-3,300",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "8de97d7dbf82bc49",
+      "text": "出所: J.P. Morgan, JSDA",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6b54cd137ef6e1ae",
+      "text": "図表2: 超長期債の累積購入額 (2024年4月以降)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "fae8277c5383ff52",
+      "text": "億円10,0008,0006,0004,0002,0000-2,000-4,000-6,000-8,000-10,000",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "5d8e6a010f90ad73",
+      "text": "出所: J.P. Morgan, JSDA",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "26f3b2d4b67b9163",
+      "text": "これまでのレポートでも指摘してきたように、今後1年間 (25年10月～26年9月) で国債残高は合計19兆円程度の増加が見込まれる一方で、日銀の保有国債は46兆円も減少し、市中残高は65兆円も増加すると推計している。セクター別で見ると5年以下 (+30兆円)・6-10年 (+27兆円)・11-20年 (+4兆円)・21-30年 (+5兆円)・31-40年 (-0兆円) となる。仮に15年超の流動性供給入札が-1,000億円/個数月となれば年間で0.6兆円程度、仮に発行停止 (-3,500億円/個数月) となれば年間で2.1兆円程度の発行が減少する。当然ながら、これだけでは超長期セクターのネット供給はプラスのままではあり、-1,000億円/個数月の場合ではゲームチェンジャーとなることもなさそうだが、それでも超長期セクターの安心感には多少寄与することが期待されそうだ。",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "447d19eed05462ae",
+      "text": "そして、債券トピックス「08/18: 円債: 2024年度の生保決算を振り返る」でもコメントしていた年限別の注目点も再掲しておきたい。",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a10d3cadd3d94c6f",
+      "text": "- 40年セクター: 7月からの発行減額によって40年セクターの市中残高が若干減少に転じることが見込まれる。金利上昇による解約率前提の上昇が止まり、ESR対応の再保険活用が鈍化してくれば、生保セクターから40年債の残高を落とす動きも止まってくるだろう。ローラーボンからカレント債への入れ替えは緩やかに続くと見られるが、ピークは越えたのであればセクターとしての需給は最悪期を脱しつつあると考えたい。",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "be1675da92397323",
+      "text": "- 30年セクター: 7月から発行が減額されても今後1年間で5兆円程度の残高が増加する。足元では割安になったことで海外勢からの買いが増加し、株高の影響で年金勢の国債へのリバランスも増加しているため、生保勢からの買いが鈍化する中でも需給は比較的改善してきた。ただ、中期的には安定投資家が不在であると考えており、超長期債の中でも最も脆弱なセクターだと考えている。ただ、買入消却が実施されるようであれば、25年・35年セクターの需給が改善することによって、30年セクターでも需給改善が期待されそうだ。",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2b548bb5ff31608e",
+      "text": "- 20年セクター: 発行は減額され、今後1年間で4兆円程度の残高が増加する。生保勢が円建て一時払い保険の販売を強化していることから、20年債への需要も回復してくるだろう。預金金融機関の中でも11-20年セクターをキャリー目的で購入したり、割安なセクターをASWで購入するケースも多いと考えられる。20年セクター全体として需給環境は悪くないと考えている。",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "aa4c56cf390e8b00",
+      "text": "図表3: 今後1年間の国債市中残高見通し (現在の発行計画・輸番計画をベース)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b39969872d722c3b",
+      "text": "国債残高=市中残高+日銀保有Total'25/09 '26/09差Tbill119 119+0-1yr115 115-11-5yr353 360+76-10yr274 283+911-20yr221 224+321-30yr126 128+231-40yr37 35-2国債計1,245 1,264+19",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a3a49a3f200edf93",
+      "text": "BoJ'25/09 '26/09差Tbill0 0+0-1yr80 68-121-5yr222 209-126-10yr159 141-1811-20yr55 55-021-30yr30 27-331-40yr6 4-1国債計551 505-46",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "87567829fb7b276f",
+      "text": "Market'25/09 '26/09差Tbill119 119+0-1yr36 47+111-5yr132 150+196-10yr115 142+2711-20yr165 169+421-30yr96 101+531-40yr31 31-0国債計694 759+65",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "42cea57ed7197e83",
+      "text": "出所: J.P. Morgan estimates",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5da5d52af372f787",
+      "text": "アナリストによる保証:本リサーチの表紙において“AC”と表示されたリサーチアナリストは、次のことをここに保証します。(複数のリサーチアナリストが本リサーチの主たる責任者である場合は、表紙もしくは本リサーチ内において“AC”と記載されているアナリストが、本リサーチ内でカバーするそれぞれの有価証券または発行体について、個別に、次のことをここに保証します。)(1)本リサーチにおいて示された全ての意見は、当該有価証券或いは発行体のありとあらゆる点に関するリサーチアナリスト個人の見解を正確に反映するものであること(2)リサーチアナリストへの報酬は、現在、過去、未来において、直接間接を問わず、本リサーチにおいて示された特定の推奨或いは意見とは一切関連のないものであること。冒頭表紙に韓国をベースとするアナリストが記載されている場合はKOFIAの要件に基づき、不当な影響や干渉のない状態で、誠意をもって作成された分析及びアナリスト自身の見解を反映した意見であることを併せて保証します。本レポート内に名前を記載されたすべての執筆者は、特に別の記載がない限り、すべて独自のリサーチを作成するリサーチアナリストです。欧州においてはSectorSpecialist(セールス及びトレーディング)が連絡先として表示される場合がございますが、レポートの執筆者やリサーチ部門の一員ではございません。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "a3b0b802707213e7",
+      "text": "過去１２ヶ月間のJ.P.モルガンによる投資判断は http://www.jpmorganmarkets.com のResearch＆Commentaryページにてアクセス可能で、アナリストの名前、セクター、又は金融商品にて検索できます。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "34810064ec857654",
+      "text": "アナリスト報酬：本レポートの準備、執筆にたずさわったアナリストの報酬は、リサーチの質や正確さ、クライアントの反応、競争力、会社全体の業績など、様々な要因によって決まります。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "82521c320737148e",
+      "text": "J.P.モルガンは、JPMorgan Chase＆Co.およびその全世界における子会社および関連会社のインベストメント・バンキング・ビジネスのマーケティングネームです。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1c57a8ab8cb8f0e8",
+      "text": "英国MIFIDにおけるFICCリサーチアンパンドリング規制の免除：英国のお客様はUK MIFID Research Unbundling exemptionにてJ.P.モルガンにおけるFICCリサーチの免除及び分類のガイダンスに関する詳細をご覧ください。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "9489dcdf56c4450d",
+      "text": "本資料における中国;香港;台湾;マカオはそれぞれMainland China; Hong Kong SAR,(China); Taiwan,(China); 及びMacau SAR,(China) を指します。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "53cdeac0e82b6e50",
+      "text": "J.P.モルガンの調査レポートでは随時、米国、欧州、英国または他の当該国・地域の政府当局が課す、もしくは実行する経済・金融制裁の対象となる発行体もしくは証券(制裁対象証券)に関して述べることがあります。こうしたレポートのいかなる内容も、かかる制裁対象証券への投資やディーリングの奨励、促進、推進、もしくは承認と理解、解釈されることを意図するものではありません。お客様は投資判断を下す際にご自身の法的およびコンプライアンスの順守義務についてご理解下さい。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1e2d439a12849a98",
+      "text": "本レポート内で説明されているデジタル資産または暗号資産は、急速に変化する規制環境の影響を受けます。ビットコインやイーサリアムを含む暗号資産に関連する規制当局からの通知については、https://www.jpmorgan.com/disclosures/cryptoasset-disclosure を参照してください。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6da40d79b5b52203",
+      "text": "本レポートの執筆者は、お客様の管轄区域における規制業務の遂行を認められていない可能性があります。認可されていない場合、そのように振る舞うものではありません。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "500a0c6d69b6abb2",
+      "text": "Exchange-Traded Funds(ETFs):J.P. Morgan Securities LLC(“JPMS”)は、実質上全ての米国上場ETFについて認可された参加者になります。本レポートにETFが記載されている限り、JPMSはETFの分配に関連する手数料および取引ベースの報酬、空売りへの証券貸付等その他取引関連業務の手数料を取得する場合があります。JPMSは、ブローカーまたはディーラーを含む、ETF業務を行う場合もあります。さらに、JPMSの関連会社は、信託、保管、管理、貸付、指数計算および/またはメンテナンスその他業務を含む、ETF業務を行う場合があります。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ba6c2bcf75f9e652",
+      "text": "オプションおよび先物に関するリサーチ資料：本資料で提供する情報がオプションまたは先物に関するリサーチ資料を含む場合、当該情報は適切なオプションまたは先物リスクディスクロージャー資料を受領した場合に限りご利用頂けます。Option Clearing Corporation's Characteristics and Risks of Standardized Optionsの資料入手に関しては、J.P.モルガンの担当者にご連絡いただくか、もしくは次のウェブサイト https://www.theocc.com/components/docs/riskstoc.pdf をご覧ください。また、Security Futures Risk Disclosure Statementの資料入手に関しては、次のウェブサイト https://www.finra.org/sites/default/files/2020-08/Security_Futures_Risk_Disclosure_Statement_2020.pdf をご覧ください。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "a3e1520312fa2a32",
+      "text": "銀行間取引金利（IBORs）及びその他ベンチマーク金利の変更：一部の金利ベンチマークは、国際、国内、その他規制ガイダンス及び改革の対象となる又は将来その可能性があります。詳細につきましては https://www.jpmorgan.com/global/disclosures/interbank_offered_rates をご覧ください。",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7e725dfbdd088cea",
+      "text": "信用格付のご利用にあたっての留意事項：本書に信用格付が記載されている場合、日本格付研究所(JCR)及び格付投資情報セ",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "dc47ee72add06bc9",
+      "text": "ンター(R&I)による格付は、登録信用格付業者が付与した格付です。JCR及びR&I以外の付与した格付で登録信用格付業者による旨の記載がない場合は、無登録格付を意味します。無登録格付のうち、無登録格付業者であるS&Pグローバル・レーティング、ムーディーズ・インベスターズ・サービス又はフィッチ・レーティングが付与した格付については、投資判断を行われる前に、別途お送りしている又はお送りする、対応する格付会社の「無登録格付に関する説明書」を十分にお読みください。",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "2894fba934b1b4f4",
+      "text": "プライベートバンクのお客様：貴社がJPモルガン・チェース・アンド・カンパニー及びその子会社が提供するプライベートバンキング業務（「JPモルガン・プライベート・バンク」）のお客様としてリサーチを受け取っている場合、リサーチはJPモルガンの他の部門(J.P.モルガンのコーポレート＆インベストメント・バンクやグローバル・リサーチ部門を含み、これに限定されません。）からではなく、JPモルガン・プライベート・バンクから貴社に提供されます。",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a4e69aeab0493839",
+      "text": "本レポートの作成及び配布を担当した法人：本資料を執筆し“AC”と表示されたリサーチアナリストの名前の下に記載された法人が、本レポートの作成を担当した法人です。本資料を執筆し“AC”と表示されたリサーチアナリストが複数おり、それぞれの名前の下に記載された法人が異なる場合は、それらの法人が本レポートの作成を共同で担当しています。アナリストの名前の下に複数の法人が記載されている場合、特に明記されていない限り、最初に記載された法人が作成を担当しています。JPモルガンの各関連会社のリサーチアナリストが本資料の作成に寄与している可能性がありますが、お客様の管轄区域における規制業務の遂行を認められていない可能性があります(そのように振る舞うものでもありません)。以下Legal Entities Disclosuresに特段の記載がない限り、本資料は作成を担当した法人が配布しています。アナリストの名前の下に複数の法人が記載されている場合、特に明記されていない限り、最初に記載された法人が配布を担当しています。ご質問がありましたら、お客様の管轄区域の担当リサーチアナリストまたは本リサーチ資料を配布したお客様の管轄区域の法人にお問い合わせ下さい。",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "f5a7417334d1f468",
+      "text": "Argentina: JPMorgan Chase Bank N.A.Sucursal Buenos Aires is regulated by Banco Central de la República Argentina (“BCRA”-Central Bank of Argentina) and Comisión Nacional de Valores (“CNV”- Argentinian Securities Commission-ALYC y AN Integral N°51).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "95b200741776168c",
+      "text": "**Australia:** J.P. Morgan Securities Australia Limited (“JPMSAL”) (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the Australian Securities and Investments Commission and is a Market Participant of ASX Limited, a Clearing and Settlement Participant of ASX Clear Pty Limited and a Clearing Participant of ASX Clear (Futures) Pty Limited. This material is issued and distributed in Australia by or on behalf of JPMSAL only to \"wholesale clients\" (as defined in section 761G of the Corporations Act 2001). A list of all financial products covered can be found by visiting https://www.jpmm.com/research/disclosures. J.P. Morgan seeks to cover companies of relevance to the domestic and international investor base across all Global Industry Classification Standard (GICS) sectors, as well as across a range of market capitalisation sizes. If applicable, in the course of conducting public side due diligence on the subject company(ies), the Research Analyst team may at times perform such diligence through corporate engagements such as site visits, discussions with company representatives, management presentations, etc. Research issued by JPMSAL has been prepared in accordance with J.P. Morgan Australia’s Research Independence Policy which can be found at the following link: J.P. Morgan Australia-Research Independence Policy.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "b61a88455f3fe65f",
+      "text": "**Canada:** J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Canadian Investment Regulatory Organization and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed in Canada by or on behalf of J.P. Morgan Securities Canada Inc.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "817dc79251572eb5",
+      "text": "**Chile:** Inversiones J.P. Morgan Limitada is an unregulated entity incorporated in Chile.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "62689f3258e65b58",
+      "text": "**China:** J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy business.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4cb0c4d676565385",
+      "text": "**Colombia:** Banco J.P. Morgan Colombia S.A. is supervised by the Superintendencia Financiera de Colombia (SFC).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "1285edaf1ee5f7e8",
+      "text": "**Dubai International Financial Centre (DIFC):** JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO Box 506551, Dubai, UAE. This material has been distributed by JPMorgan Chase Bank, N.A., Dubai Branch to persons regarded as professional clients or market counterparties as defined under the DFSA rules.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "499b9f4c8c690170",
+      "text": "**European Economic Area (EEA):** Unless specified to the contrary, research is distributed in the EEA by J.P. Morgan SE (“JPM SE”), which is authorised as a credit institution by the Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and jointly supervised by the BaFin, the German Central Bank (Deutsche Bundesbank) and the European Central Bank (ECB). JPM SE is a company headquartered in Frankfurt with registered address at TaunusTurm, Taunustor 1, Frankfurt am Main, 60310, Germany. The material has been distributed in the EEA to persons regarded as professional investors (or equivalent) pursuant to Art. 4 para. 1 no. 10 and Annex II of MiFID II and its respective implementation in their home jurisdictions (“EEA professional investors”). This material must not be acted on or relied on by persons who are not EEA professional investors. Any investment or investment activity to which this material relates is only available to EEA relevant persons and will be engaged in only with EEA relevant persons.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "9b9e1b2fe348f853",
+      "text": "**Hong Kong:** J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is regulated by the Securities and Futures Commission in Hong Kong. J.P Morgan Chase Bank, N.A., Hong Kong Branch (CE Number AAL996) is regulated by the Hong",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "83a7e0ae6795df24",
+      "text": "Kong Monetary Authority and the Securities and Futures Commission, is organized under the laws of the United States with limited liability. Where the distribution of this material is a regulated activity in Hong Kong, the material is distributed in Hong Kong by or through J.P. Morgan Securities (Asia Pacific) Limited and/or J.P. Morgan Broking (Hong Kong) Limited.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "eca4ca572e3d8b3b",
+      "text": "Indonesia: PT J.P. Morgan Sekuritas Indonesia is a member of the Indonesia Stock Exchange and is registered and supervised by the Otoritas Jasa Keuangan (OJK).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "f3e816c3b27a8b1b",
+      "text": "Korea: J.P. Morgan Securities (Far East) Limited, Seoul Branch, is a member of the Korea Exchange (KRX). JPMorgan Chase Bank, N.A., Seoul Branch, is licensed as a branch office of foreign bank (JPMorgan Chase Bank, N.A.) in Korea. Both entities are regulated by the Financial Services Commission (FSC) and the Financial Supervisory Service (FSS). For non- macro research material, the material is distributed in Korea by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "84c99cdb21f909e2",
+      "text": "Japan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services Agency in Japan.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "ba5eed7e5a1321fe",
+      "text": "Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146- X), which is a Participating Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission in Malaysia.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "724f1f7664b4469b",
+      "text": "Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V. and J.P. Morgan Grupo Financiero are members of the Mexican Stock Exchange and are authorized to act as a broker dealer by the National Banking and Securities Exchange Commission.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "7882d6b2f831d864",
+      "text": "New Zealand: This material is issued and distributed by JPMSAI in New Zealand only to \"wholesale clients\" (as defined in the Financial Markets Conduct Act 2013). JPMSAI is registered as a Financial Service Provider under the Financial Service providers (Registration and Dispute Resolution) Act of 2008.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "dd2b3146a41ed882",
+      "text": "Philippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the Securities Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and Exchange Commission.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "7908fb938c17fd47",
+      "text": "Singapore: This material is issued and distributed in Singapore by or through J.P. Morgan Securities Singapore Private Limited (JPMSS) [MDDI (P) 057/08/2025 and Co. Reg. No.: 199405335R], which is a member of the Singapore Exchange Securities Trading Limited, and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore), both of which are regulated by the Monetary Authority of Singapore. This material is issued and distributed in Singapore only to accredited investors, expert investors and institutional investors, as defined in Section 4A of the Securities and Futures Act, Cap. 289 (SFA). This material is not intended to be issued or distributed to any retail investors or any other investors that do not fall into the classes of \"accredited investors,\" \"expert investors\" or \"institutional investors,\" as defined under Section 4A of the SFA. Recipients of this material in Singapore are to contact JPMSS or JPMCB Singapore in respect of any matters arising from, or in connection with, the material.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "04b4d5ef507f98bd",
+      "text": "South Africa: J.P. Morgan Equities South Africa Proprietary Limited and JPMorgan Chase Bank, N.A., Johannesburg Branch are members of the Johannesburg Securities Exchange and are regulated by the Financial Services Conduct Authority (FSCA).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "676818019a12cb1f",
+      "text": "Taiwan: J.P. Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company- type) and regulated by the Taiwan Securities and Futures Bureau. Material relating to equity securities is issued and distributed in Taiwan by J.P. Morgan Securities (Taiwan) Limited, subject to the license scope and the applicable laws and the regulations in Taiwan. To the extent that J.P. Morgan Securities (Taiwan) Limited produces research materials on securities not listed on the Taiwan Stock Exchange or Taipei Exchange (\"Non- Taiwan Listed Securities\"), these materials shall not constitute securities recommendations for the purpose of applicable Taiwan regulations, and, for the avoidance of doubt, J.P. Morgan Securities (Taiwan) Limited does not act as broker for Non- Taiwan Listed Securities. According to Paragraph 2, Article 7- 1 of Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers (as amended or supplemented) and/or other applicable laws or regulations, please note that the recipient of this material is not permitted to engage in any activities in connection with the material that may give rise to conflicts of interests, unless otherwise disclosed in the \"Important Disclosures\" in this material.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e4e65831f5aa562b",
+      "text": "Thailand: This material is issued and distributed in Thailand by JPMorgan Securities (Thailand) Ltd., which is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission, and its registered address is 3rd Floor, 20 North Sathorn Road, Silom, Bangrak, Bangkok 10500.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "b805594ddb0700a0",
+      "text": "UK: Research is produced in the UK by J.P. Morgan Securities plc (“JPMS plc”) which is a member of the London Stock Exchange and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority or J.P. Morgan Markets Limited (“JPMML Ltd”) which is authorised and regulated by the Financial Conduct Authority. Unless specified to the contrary, this material is distributed in the UK by JPMS plc and is directed in the UK only to: (a) persons having professional experience in matters relating to investments falling within article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) (Order) 2005 (“the FPO”); (b) persons outlined in article 49 of the FPO (high net worth companies, unincorporated associations or partnerships, the trustees of high value trusts, etc.); or (c) any persons to whom this communication may otherwise lawfully be made; all such persons being referred to as \"UK relevant persons\". This material must not be acted on or relied on by persons who are not UK relevant persons. Any investment or investment activity to which this material relates is only available to UK relevant persons and will be engaged in only with UK relevant persons. A description of J.P. Morgan EMEA’s policy for prevention and avoidance of conflicts of interest related to the production of Research can be found at the following link: J.P. Morgan EMEA - Research Independence Policy.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "fed646b64f77a705",
+      "text": "U.S.: J.P. Morgan Securities LLC (“JPMS”) is a member of the NYSE, FINRA, SIPC, and the NFA. J.P. Morgan Chase Bank, N.A. is a member of the FDIC. Material published by non-U.S. affiliates is distributed in the U.S. by JPMS who accepts responsibility for its content.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "a1ddbd3af520f7bf",
+      "text": "一般：追加情報は御要望に応じてお渡しいたします。本資料で提供している情報は信頼できると考える情報源から得たもの であり、相当の注意を払って正確な事実が述べられていることおよび見解や予測が合理的かつ公平な判断に基づくものであ ることを確認しております。しかしながら、JPMorgan Chase & Co.または関連会社もしくは子会社(総称してJ.P.モルガン) は、J.P.モルガンおよびリサーチアナリストと本資料の対象となる発行体との関係を示すディスクロージャー以外について、 掲載された情報の完全性あるいは正確性を表明または保証するものではございません。従って本資料に含まれる情報の正確 性、公平性、完全性に依拠することのないようお願いいたします。この資料のデータおよび/または一部内容については、計 算、調整、他言語への翻訳および/または該当する地域の規制制限等により、若干の不一致が生じる場合があります。なお、 これら不一致は同資料で議論される可能性のある対象企業の全体的な投資分析、見解、および/または推奨事項に影響を与え るものではありません。本資料の作成には、データ分析、パターン認識、リサーチ資料の内容作成等をサポートするため に、人工知能ツールが使用されている可能性があります。関係当局および服する規制制度によって規定される責務に該当 する場合を除き、J.P.モルガンは本資料および内容の使用から生じたあらゆる損失について一切責任を負わず、J.P.モルガンお よび役職員は内容について一切の責任を負いません。見解や予測は記載時点での判断であり、予告なしに変更されることが あります。J.P.モルガンは企業の開発や発表事項、市場の状況あるいは公表された情報に基づき、企業および業界に関して定 期的に情報のアップデートを提供する場合があります。見解や予測は起こりうる結果の一つであり、将来における結果や事 象を保証するものではありません。見解や予測は不確実性、リスクおよび未実証の推定を伴うものであり、将来における結 果や事象が大きく異なりうることをご了承ください。本資料で言及された投資の価値または投資からの収入は為替変動によ り変動または影響をうける場合があります。株価は、明記がない限り市場取引終了時点のものを示しています。過去の実績 は将来のパフォーマンスを示唆するものではなく、投資元本を割り込む可能性があります。本資料はいかなる金融商品につ いても、その売買に関する申し出あるいは勧誘を意図したものではありません。本資料に掲載されている証券、金融商品、 あるいは投資戦略は全ての投資家に適合するとは限りません。本資料に掲載されている見解や推奨は各投資家の状況、目 標、あるいはニーズを考慮したものではなく、特定の投資家に対し、特定の証券、金融商品、あるいは投資戦略を薦めるも のではありません。本資料は仕組み証券、オプション、先物、その他のデリバティブに関する見解を含む可能性があります。 これらは複雑な商品であり、高水準のリスクを伴う場合があり、そのリスクを理解して引き受けることが可能で、高度な知 識を有する投資家のみに適した投資商品と言えます。本資料の受領にあたり、本資料に掲載されている証券または金融商品 に関する判断は投資家ご自身で行い、必要に応じて第三者の金融、法務、税務の専門家にご相談いただくようお願いいたし ます。J.P.モルガンは当該リサーチアナリストの見解や調査に基づいた取引を行う場合や本資料と異なる見解に基づいた自己 および顧客の取引に関する場合があります。J.P.モルガンはこうしたコミュニケーションに関して本資料の受領者に報告す る義務を負いません。ストラテジスト、セールスまたは他のリサーチアナリストをはじめとするJ.P.モルガンの他の役職員 は、本資料と異なる見解を有する場合があります。本資料の作成に関与していない役職員は本資料内で言及される有価証券 （または当有価証券のデリバティブ）に投資を行っている場合があり、本資料の見解と異なる方法で取引を行う場合がござ います。本資料はいかなる法域においても発行体、その商品若しくはサービス、またはその有価証券のための広告あるいは 宣伝ではありません。",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "77498eab1fe0a013",
+      "text": "機密性及び安全性について：本電子メールは、秘匿・機密情報、法律上の秘匿情報及び/または準拠法に基づき開示するこ を免除された情報を含む場合があります。本電子メールが誤って送信された場合には、メールに含まれる情報を開示・複 写・配信・利用(当該情報を根拠とするあらゆる情報を含む)することは、固く禁じられています。本電子メール及びその添付 資料は、受領・開示時にコンピューターシステムに影響を与えうるウイルスや欠陥を有さないと思われますが、その確認は 受領者において責任を負うものであり、本電子メール及びその添付資料の利用によって生じる損失・損害についてJPMorgan Chase & Co.及びその関係会社は責任を負いません。本電子メールが誤って送信された場合には、直ちに送信者に連絡し、電子 媒体・紙媒体等を問わず、直ちに完全に消去頂きますようお願い致します。本メッセージは電子監視の対象です。 https:// www.jpmorgan.com/disclosures/email",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7bfffc1effc4e83e",
+      "text": "MSCI: ここに記載されている特定の情報(「本情報」)は、MSCI Inc.、その関連会社および情報プロバイダー(「MSCI」)©2025 の許可を得て複製されています。適切な許諾なしに本情報を複製または配布することは認められません。MSCIは本情報に関 する明示的または黙示的な保証(商品性や適合性を含む)を行わず、法律が認める範囲内で一切の責任を否認します。MSCI ESG Researchからの当該情報を除き、いかなる情報も投資助言ではありません。 msc.com/disclaimer も対象となります。",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "8ec16fcaa2c5f3de",
+      "text": "Sustainalytics：ここに記載された一部の情報、データ、分析及び意見は、Sustainalyticsの許可を得て複製され、か つ(1)Sustainalyticsの機密情報を含み、(2)明確に許可されている場合を除き、複写または再配布してはならず、(3)投資助言また",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "d2007281c97cacb4",
+      "text": "は商品やプロジェクトの承認にあたるものではなく、(4)情報提供のみを目的として提供され、及び(5)完全、正確または適時であることを保証するものではありません。Sustainabilityは、それ自体またはその利用にかかる取引の判断、損害や他の損失に対し一切責任を負いません。データの使用はhttps://www.sustainability.com/legal-disclaimersで提供する条件に従うものとします。©2025 Sustainability. All Rights Reserved.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "e60ace7ea588706a",
+      "text": "(「その他のディスクロージャー」2025年08月02日改訂)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "af24d31a609a0f79",
+      "text": "Copyright 2025 JPMorgan Chase & Co. - All rights reserved. 本資料および本資料で提供している情報は、J.P.モルガンの文書による 同意なしに再版、転載、販売および再配布することを禁じます。J.P.モルガンもしくは許可された第三者から受領したリサー チ資料(「J.P.モルガンのデータ」)を、第三者によってかかるJ.P.モルガンのデータにアクセス可能な場合に、J.P.モルガンか らの書面による事前の同意なしに第三者の人口知能(「AI」)システムやモデルにおいて利用または共有することは固く禁じら れています。第三者によるかかるJ.P.モルガンのデータへのあらゆるアクセスや利用を防ぐために、J.P.モルガンのデータを 社内ビジネスの目的に限ってJ.P.モルガンのデータの機密を守るAIシステムやモデルにおいて利用することは許容されま す。",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "7288c4e974752b8e",
+      "text": "Completed 29 Aug 2025 07:40 AM JST",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "aebc858f58925730",
+      "text": "Disseminated 29 Aug 2025 07:40 AM JST",
+      "page": 8,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "39648bedcf2f4a19",
+      "name": "AFS Licence",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0e89cfc2054df5ce",
+      "name": "AN Integral",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0ef0c39c126f6fa4",
+      "name": "ASX Clear",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cc3137194d646091",
+      "name": "ASX Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a416231886f0fa52",
+      "name": "All Rights",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21cd74fee7a13752",
+      "name": "Annex II",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f4758147dc564ecb",
+      "name": "Argentinian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "babb54828c5096a2",
+      "name": "Australia Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bc98bb53ad7f2a24",
+      "name": "Australian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "34925fcaabe8def5",
+      "name": "Banco Central",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "81119df9d2108575",
+      "name": "Bursa Malaysia",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03898be786b38f70",
+      "name": "CE Number",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "13eec11f9f77d58d",
+      "name": "Canada Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7860a2554c61a53f",
+      "name": "Canadian Investment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "246559ad6397328f",
+      "name": "Central Bank",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5d8eeff8328a06b5",
+      "name": "Chase & Co.",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9ec9ae4069b4748d",
+      "name": "Classification Standard",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d24db3396c8bf4a0",
+      "name": "Clearing Participant",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": null,
+        "page": 3,
+        "axes": null,
+        "series": [],
+        "figure_id": "434e5afe49d163c2",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "4e8d487b48bc7717",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "、超長期債のボラティリティーは概ね平常時に戻ってきてお り、4・5月に見られたような最悪期からは脱しつつあるように見える。 しかし、超長期金利の水準自体は上昇が続いており、JGB10年先10年金 利は4%近傍、20年先10年金利は5%弱にまで上昇して低下に転じる様子は 見られない。また、先物との相関の低さが継続していることでディー ラー勢にとってはヘッジしづらい状況が続いており、市場も財務省の追 ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "33a06d07dedac29f",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "概ね平常時に戻ってきてお り、4・5月に見られたような最悪期からは脱しつつあるように見える。 しかし、超長期金利の水準自体は上昇が続いており、JGB10年先10年金 利は4%近傍、20年先10年金利は5%弱にまで上昇して低下に転じる様子は 見られない。また、先物との相関の低さが継続していることでディー ラー勢にとってはヘッジしづらい状況が続いており、市場も財務省の追 加対応（更なる減額等）を望んで",
+        "provenance": {
+          "page": 1
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 1,
+      "tables_count": 0,
+      "numerical_data_count": 2,
+      "passages_count": 78,
+      "entities_count": 20
+    }
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "2288cd5633abd8cb3b3ff4989ef21da5",
+    "title": "CHINA INTERNET - Expert call takeaways...",
+    "source_uri": "2025-08-29/JPM CHINA INTERNET -- Expert call takeaways..JPM CHINA INTERNET -- Expert call takeaways.._2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:33:09.774263",
+      "extracted_at": "2025-10-27T00:33:09.774275"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 4,
+        "successful_pages": 4,
+        "date": "2025-08-29",
+        "publication": "2025-08-29",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 1,
+          "removed_paragraphs": 11,
+          "reduction_ratio": 0.73231340643792
+        },
+        "input_relative_path": "2025-08-29"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "96c4e1374ab968ac",
+      "text": "JPM's China Internet Team, Alex Yao & Andre Chang hosted an Ex- Meituan Consultant to discuss China's Competitive Landscape in Food Delivery & Quick Commerce. Below are a few snippets. For Alibaba, the below suggests that their investment spending in Sept Q could be nearly double our expectations... let me know if you'd like to discuss (BABA thoughts/preview in my daily here). Best, Lisa",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "b8c2a836f3fe785d",
+      "text": "High level conclusion: Competitive intensity has continued into July/August, and expect FD competition to continue into 4Q, while Instant Retail (QC) battle may continue on longer into next year. However, there has been some differences between the 3x platforms. Overall, Alibaba has been ruthless in spending short- term, but long- term, their strategy appears most comprehensive to drive synergy between FD/QC/E- commerce (e.g. putting Ele.me under same group as Taobao/Tmall, QC initiative leveraging Taobao/Tmall suppliers, leveraging AI capabilities, focused on conversion and ROI).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d33624a4e93e858d",
+      "text": "- JD is clearly retreating subsidies which has led to lower order share (90mn at some point in Aug (avg. 80mn = 43% share). Loss per order was 4 RMB in June but stepped up to 4.3-4.4 in Aug for FD. This suggests Rmb 10bn subsidies per month. Conversion rate from FD to core commerce has still been low at >3% so their ROI/synergies between their core businesses will be key going forward.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ec86ce49cbd236e4",
+      "text": "- Meituan's peak order volume reached in July (avg. 86mn, 47% share) and together with investments in Insta-shopping, they have become loss making in August (from being profitable in June, breakeven in July). With higher AOV they've maintained 55% transaction mkt share but is also spending a lot on higher marketing spend and social security related services for riders. Given their leadership in FD/QC, conversation rate is high at 15-16% and remains most efficient in profitability per order. Around 1.2-1.3 Rmb / FD order, 2 RMB /QC order.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "46024fc8c22eb772",
+      "text": "Lisa Otani - Specialist Sales - APAC Consumer & Internet AC",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "20395a8cc7ef1722",
+      "text": "Europe Specialist Sales 29 August 2025",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "00d12362376fb5d2",
+      "text": "Completed 29 Aug 2025 09:04 AM BST",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "665848e13130db80",
+      "text": "Disseminated 29 Aug 2025 09:04 AM BST",
+      "page": 3,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "212c0dd587b49e76",
+      "name": "APAC Consumer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2c8945774da730ed",
+      "name": "APAC Internet",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c9756b6154a55cb1",
+      "name": "APAC Leisure",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e9e4af8d7dc88bdb",
+      "name": "Alex Yao",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5c2679f4c2ca9357",
+      "name": "Andre Chang",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bacba50b3bf3a0d7",
+      "name": "China Internet",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "02e9ce0986462d92",
+      "name": "Competitive Landscape",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "08f00863c0fff78a",
+      "name": "EM Consumer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cea6e904ea4c3859",
+      "name": "Europe Specialist",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2e39cb5013323f92",
+      "name": "European Consumer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5b60a49794a701c5",
+      "name": "Food Delivery",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9d92e84f80c1047d",
+      "name": "For Alibaba",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4f321e31320311f1",
+      "name": "Gaming Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "babb8b962b2968b0",
+      "name": "Instant Retail",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8ef59612773d20a7",
+      "name": "Internet AC",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "91c15625f170b284",
+      "name": "Internet Contacts",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5c4803c487ec82ca",
+      "name": "Internet Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c75a9a2d07816279",
+      "name": "Internet Trading",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e2f56374d93896ac",
+      "name": "Lisa\n\nHigh",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "92574331f6d5a8af",
+      "name": "Lisa Otani",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": "Four Portraits",
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "e76ebd3df0697a1c",
+        "provenance": {
+          "page": 1
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "a2becec0e5eb0ff7",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "on conversion and ROI). - JD is clearly retreating subsidies which has led to lower order share (<10% on volume or 14-15m in Aug from 25-26mn in June) but has stabilized recently, with possibility to ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ca30716f02b5d6a6",
+        "value": 0.43,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "drove daily order volume (FD + Instant Retail) all the way >90mn at some point in Aug (avg. 80mn = 43% share). Loss per order was 4 RMB in June but stepped up to 4.3-4.4 in Aug for FD. This suggests R",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "fda12b03f45190e9",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "gests Rmb 10bn subsidies per month. Conversion rate from FD to core commerce has still been low at >3% so their ROI/synergies between their core businesses will be key going forward. - Meituan's peak ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "30712eea6c3f2994",
+        "value": 0.47,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "re businesses will be key going forward. - Meituan's peak order volume reached in July (avg. 86mn, 47% share) and together with investments in Insta-shopping, they have become loss making in August (f",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "3406753f9ba5ce3e",
+        "value": 0.55,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ng in August (from being profitable in June, breakeven in July). With higher AOV they've maintained 55% transaction mkt share but is also spending a lot on higher marketing spend and social security r",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7ed43e081136347d",
+        "value": -0.16,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "curity related services for riders. Given their leadership in FD/QC, conversation rate is high at 15-16% and remains most efficient in profitability per order. Around 1.2-1.3 Rmb / FD order, 2 RMB /QC",
+        "provenance": {
+          "page": 0
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 1,
+      "tables_count": 0,
+      "numerical_data_count": 6,
+      "passages_count": 8,
+      "entities_count": 20
+    }
+  }
+}

@@ -1,0 +1,744 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "892e82203271caa30610f27920fe324c",
+    "title": "NOAURA",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/Nomura/Strategy Trade - Lowering the conviction level on our short CNH against the basket to 35Strategy Trade - Lowering the co_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T12:34:25.137052",
+      "extracted_at": "2025-10-26T12:34:25.137068"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 6,
+        "successful_pages": 6,
+        "date": "2025-08-29",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/Nomura",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 3,
+          "removed_paragraphs": 6,
+          "reduction_ratio": 0.10005660911406733
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/Nomura"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "7e1a3124af04ba8c",
+      "text": "Foreign Exchange - Asia ex-Japan",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9d91e85d819f3caf",
+      "text": "Lower fixing, improving flows, positive equity, and slightly softer USD support the move lower in USD/CNH; but CFETS basket is still stable.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "bde14d314fc3b143",
+      "text": "We lower the conviction level on our short CNH against an equally weighted basket (EUR, AUD, KRW) to 3/5 (from 4), targeting \\(4.0\\%\\) gains by end- September.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ab04de3a4a65746f",
+      "text": "A few recent developments suggest the pace of CNH underperformance against its trading partners' currencies may slow in the near- term, but this could be temporary.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a98a431c0c3dc793",
+      "text": "1. The daily USD/CNY fixing has drifted lower at a faster pace over the past week, though the PBoC has started to show some unease about the pace of RMB gains. The USD/CNY fixing had drifted lower from the 7.1321 level (on 22 August; prior to Powell's Jackson Hole speech) to 7.1063 today, amid some market expectations that the move may be associated with the Victory Day Parade, which is to be held on 3 September. The daily USD/CNY fixing has fallen by a daily average of -58pips over the past week (25 to 29 August), which compares with the daily average of -10pips in the previous week (18 to 22 August).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3fc1dd0743df9eb7",
+      "text": "2. Improvements in China's major BOP flow dynamics and sentiment on Chinese equities remains positive, especially ahead of Victory Day Parade. We highlighted that China's BOP flows may improve from a pick up in exporters' FX remittances and foreign equity inflows. Notably, we estimate foreign inflows into China-focused ETFs (listed outside of mainland China) totaled USD1.38bn MTD in August, following USD1.87bn in inflows in July.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "59ff1fb998b7d717",
+      "text": "3. State banks' FX actions may have been more subdued, though the potential for re-accumulation of FX remains. Media reported (Bloomberg, 25 August) that USD purchases by major Chinese state banks decreased significantly in comparison with the week ended 22 August, when onshore banks were buying USD/CNY between the 7.17 - 7.18 levels (Bloomberg, 22 August). In our view, state banks/official sectors have been one of the main reasons for RMB relative underperformance.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "86783664fc9b27ef",
+      "text": "But there are still reasons for us to maintain our short CNH basket (vs. AUD, KRW, EUR) with a lower conviction level:",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "05ff5b53324bdbd3",
+      "text": "1. The recent slowdown in state banks' FX purchases in July may be temporary given the USD bid in the month and some evidence of official FX accumulation. Indeed, if there is an official stance to increase FX reserve coverage and if history holds, we expect DXY trending lower to and onshore financial institutions' FX deposits to increase strongly.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "cb6ca487cb28ca4d",
+      "text": "2. There are signs that the PBoC may be a bit concerned over the recent pace of CNH appreciation. First, our daily fixing model error (actual fixing minus our model prediction) was just -258pips today (29 Aug), which compares with -422pips in the previous session. In fact, including today, the average fixing error over the past week has narrowed to -396pips from -517pips in the previous week. Second, the pass-through of our daily change in the model projection to the actual fixing was just 17% today, lower than the pass-through of 49% over the preceding five sessions (or averaged 58% from 1 to 29 August).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "db22ebd75c141477",
+      "text": "3. We also question whether there is a deliberate push to appreciate RMB. Despite the 1.2% appreciation of CNH against the USD in August, CNH CFETS was close to flat (i.e., +7bp only). This suggests USD/CNH has moved in tandem with the broad USD.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9d81f59b17adf90a",
+      "text": "This is a slight change in FX regime, but not one where there is a deliberate push to see RMB outperform. In fact, our short CNH against the high-beta currencies (EUR, AUD, KRW) has gained 28bp in August (i.e., RMB has still underperformed).",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "370370f5b6c41c7f",
+      "text": "4. **Our economics team's outlook for a slower China macro backdrop** in the coming months also suggests that RMB could underperform on a relative basis.\nOur economics team does not expect the equity market rally to provide much support to the economy and sees weaker exports and weaker demand in H2 2025.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "975bf614959ffca6",
+      "text": "Please see Strategy portfolio update (17 July 2025) for our full portfolio.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "024c4716ac411cc5",
+      "text": "Fig. 1: Short CNH against an equally weighted basket (EUR, AUD, KRW), conviction level: 3/5, targeting 4.0% gains by end-September",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "0563fbadedb12158",
+      "text": "Note: Conviction scale: 1 – Watch; 2 – Watch Closely; 3 - Positioned @ 1/3 desired; 4 – Positioned @ 2/3 desired; 5 – Positioned @ 100% desired.\nSource: Bloomberg, Nomura.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "f0580c7ada2cad22",
+      "text": "TradeTargetTimelineConviction (0-5)Entry DateShort USD/TWD29.0end-Oct322-Aug-25Long 5y IGB v 5y NDOIS30bp gainend-Sep319-Aug-25Dec-IMM 3s10s HK IRS steepener vs US20bp gainend-Sep315-Aug-25Short USD/IDR15500end-Oct413-Aug-25Short USD/SEK9.00end-Dec38-Aug-25Long 12m USD/HKD7.8012-Aug-2638-Aug-25Long 9m USD/HKD7.8012-May-2638-Aug-25Receive Mar-IMM 1y Korea vs US20bp gainend-Sep47-Aug-25Dec-IMM 1s3s China NDIRS flattener10bp gainend-Sep37-Aug-25Long 5y IndoGB5.50%end-Sep34-Aug-25Sep-IMM 1s5s SORA flattener20bpend-Sep31-Aug-25Pay Sep-IMM 3y Korea NDIRS2.55%mid-Sep325-Jul-25Long AUD/CAD0.9350end-Sep325-Jul-25Short USD/JPY142end-Oct421-Jul-25Short USD/KRW1,300end-Sep311-Jul-25Long 10yr ACGB vs UST-25bpend-Sep311-Jul-25Receive Sep-IMM 10y Taiwan NDIRS15bp gainmid-Oct326-Jun-25Pay Sep-IMM 5y China NDIRS1.75%end-Sep39-Jun-25Long EUR/GBP--26-Jun-25Long EUR/CHF0.9750end-Oct39-May-25Long EUR/INR105.6end-Sep48-May-25Short CNH vs equally-weighted basket (EUR, AUD, KRW)4.0%end-Sep325-Apr-25Sep-IMM 2s5s China NDIRS steepener--211-Apr-25Long 12m USD/HKD7.8030-Mar-26328-Mar-25Australia receive 2s5s10s fly-18bpend-Sep36-Dec-24Receive Sep-IMM 2y India NDOIS5.25%end-Sep325-Nov-24Short S$SNEER1.0%mid-Sep36-Nov-24",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ec40fa321314da66",
+      "text": "Note: Conviction scale: 1 – Watch; 2 – Watch Closely; 3 - Positioned @ 1/3 desired; 4 – Positioned @ 2/3 desired; 5 – Positioned @ 100% desired.\nSource: Bloomberg, Nomura.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "09873f91e8814bb2",
+      "text": "This report has been produced by Nomura Singapore Ltd. (NSL), Singapore. See Disclaimers for Nomura Group entity details.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "5118cec29aed5a63",
+      "text": "The analysts responsible for preparing this report have received compensation based upon various factors including the firm's total revenues, a portion of which is generated by Investment Banking activities. Unless otherwise noted, the non- US analysts listed at the front of this report are not registered/qualified as research analysts under FINRA rules, may not be associated persons of NSI, and may not be subject to FINRA Rule 2241 restrictions on communications with covered companies, public appearances, and trading securities held by a research analyst account.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6fc2dfb423688fd6",
+      "text": "Nomura Global Financial Products Inc. (NGFP) Nomura Derivative Products Inc. (NDP) and Nomura International plc. (Nlplc) are registered with the Commodities Futures Trading Commission and the National Futures Association (NFA) as swap dealers. NGFP, NDPI, and Nlplc are generally engaged in the trading of swaps and other derivative products, any of which may be the subject of this report.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f8e52334888766af",
+      "text": "Principal Trading: Nomura Securities International, Inc and its affiliates will usually trade as principal in the fixed income securities (or in related derivatives) that are the subject of this research report. Analyst Interactions with other Nomura Securities International, Inc. Personnel: The fixed income research analysts of Nomura Securities International, Inc and its affiliates regularly interact with sales and trading desk personnel in connection with obtaining liquidity and pricing information for their respective coverage universe.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "66ddf070aee1081f",
+      "text": "Nomura's Fixed Income Strategists express views on the price of securities and financial markets by providing trade recommendations. These can be relative value recommendations, directional trade recommendations, asset allocation recommendations, or a mixture of all three. The analysis which is embedded in a trade recommendation would include, but not be limited to:",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "2a246cc297ee488b",
+      "text": "- Fundamental analysis regarding whether a security's price deviates from its underlying macro- or micro-economic fundamentals.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e0c97fd541bac24d",
+      "text": "- Quantitative analysis of price variations.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "be2390cc84f8ad48",
+      "text": "- Technical factors such as regulatory changes, changes to risk appetite in the market, unexpected rating actions, primary market activity and supply demand considerations.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "7caccb0dd1b84012",
+      "text": "The timeframe for a trade recommendation is variable. Tactical ideas have a short timeframe, typically less than three months. Strategic trade ideas have a longer timeframe of typically more than three months.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b1a3f36ac392f601",
+      "text": "For the purposes of the EU Market Abuse Regulation, the distribution of ratings published by Nomura Global Fixed Income Research is as follows:",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "184b77700061d381",
+      "text": "\\(50\\%\\) have been assigned a Buy (or equivalent) rating; \\(50\\%\\) of issuers with this rating were supplied material services\\\\* by the Nomura Group\\\\*\\\\* \\(0\\%\\) have been assigned a Neutral (or equivalent) rating.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "cc015a90afa04975",
+      "text": "\\(50\\%\\) have been assigned a Sell (or equivalent) rating; \\(50\\%\\) of issuers with this rating were supplied material services by the Nomura Group. As at 2 July 2025.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9dad90614c3540ce",
+      "text": "\\\\*As defined by the EU Market Abuse Regulation",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "29b01e3193d3c849",
+      "text": "\\\\*\\\\*The Nomura Group as defined in the Disclaimer section at the end of this report",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "ac654b5851fcfdc6",
+      "text": "For reports with respect to Indian public companies or authored by India- based NFASL research analysts: (i) Investment in securities markets is subject to market risks. Read all the related documents carefully before investing. (ii) Registration granted by SEBI, and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors. (iii) NFASL terms and conditions for availing research services is disclosed on NFASL webpage.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5d458779164a46a5",
+      "text": "(I) Nomura Fiduciary Research & Consulting Co., Ltd. (NFRC) Tokyo, Japan. (m) Nomura Orient International Securities Co., Ltd (NOI), is a majority owned joint venture amongst Nomura Group, Orient International (Holding) Co., Ltd, and Shanghai Huangpu Investment Holding (Group) Co., Ltd. In accordance with the laws of the People's Republic of China (\"PRC\", excluding Hong Kong, Macau and Taiwan, for the purpose of this document), NOI is licensed in the PRC to provide securities research and investment recommendations and it operates independently from the other members of the Nomura Group; in particular, NOI's interests in PRC securities are not disclosed to, or aggregated with the holdings of, any other Nomura Group entities and the interests in PRC securities of other Nomura Group entities are not disclosed to, or aggregated with the holdings of, NOI. An individual name printed next to NOI on the front page of a research report indicates that individual is employed by NOI to provide research assistance to NIHK under a research partnership agreement. 'NSFSPL' next to an employee's name on the front page of a research report indicates that the individual is employed by Nomura Structured Finance Services Private Limited to provide assistance to certain Nomura entities under inter- company agreements. 'Verdhana' next to an individual's name on the front page of a research report indicates that the individual is employed by PT Verdhana Sekuritas Indonesia (Verdhana') to provide research assistance to NIHK under a research partnership agreement and neither Verdhana nor such individual is licensed outside of Indonesia.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "43918fdead2fab02",
+      "text": "THIS MATERIAL IS: (I) FOR YOUR PRIVATE INFORMATION, AND WE ARE NOT SOLICITING ANY ACTION BASED UPON IT; (II) NOT TO BE CONSTRUED AS AN OFFER TO SELL OR A SOLICITATION OF AN OFFER TO BUY ANY SECURITIES IN ANY JURISDICTION WHERE SUCH OFFER OR SOLICITATION WOULD BE ILLEGAL; AND (III) OTHER THAN DISCLOSURES RELATING TO THE NOMURA GROUP, BASED UPON INFORMATION FROM SOURCES THAT WE CONSIDER RELIABLE, BUT HAS NOT BEEN INDEPENDENTLY VERIFIED BY NOMURA GROUP.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "20381c1047840601",
+      "text": "Other than disclosures relating to the Nomura Group, the Nomura Group does not warrant, represent or undertake, express or implied, that the document is fair, accurate, complete, correct, reliable or fit for any particular purpose or merchantable, and to the maximum extent permissible by law and/or regulation, does not accept liability (in negligence or otherwise, and in whole or in part) for any act (or decision not to act) resulting from use of this document and related data. To the maximum extent permissible by law and/or regulation, all warranties and other assurances by the Nomura Group are hereby excluded and the Nomura Group shall have no liability (in negligence or otherwise, and in whole or in part) for any loss howsoever arising from the use, misuse, or distribution of this material or the information contained in this material or otherwise arising in connection therewith.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1e0c710c81a3ffd9",
+      "text": "Opinions or estimates expressed are current opinions as of the original publication date appearing on this material and the information, including the opinions and estimates contained herein, are subject to change without notice. The Nomura Group, however, expressly disclaims any obligation, and therefore is under no duty, to update or revise this document. Any comments or statements made herein are those of the author(s) and may differ from views held by other parties within Nomura Group. Clients should consider whether any advice or recommendation in this report is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The Nomura Group does not provide tax advice.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "11c6dbbb118da6e1",
+      "text": "The Nomura Group, and/or its officers, directors, employees and affiliates, may, to the extent permitted by applicable law and/or regulation, deal as principal, agent, or otherwise, or have long or short positions in, or buy or sell, the securities, commodities or instruments, or options or other derivative instruments based thereon, of issuers or securities mentioned herein. The Nomura Group companies may also act as market maker or liquidity provider (within the meaning of applicable regulations in the UK) in the financial instruments of the issuer. Where the activity of market maker is carried out in accordance with the definition given to it by specific laws and regulations of the US or other jurisdictions, this will be separately disclosed within the specific issuer disclosures.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "c7f8adbfbc368a0d",
+      "text": "This document may contain information obtained from third parties, including, but not limited to, ratings from credit ratings agencies such as Standard & Poor's. The Nomura Group hereby expressly disclaims all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of the information obtained from third parties contained in this material or otherwise arising in connection therewith, and shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of any of the information obtained from third parties contained in this material or otherwise arising in connection therewith. Reproduction and distribution of third- party content in any form is prohibited except with the prior written permission of the related third- party. Third- party content providers do not, express or implied, guarantee the fairness, accuracy, completeness, correctness, timeliness or availability of any information, including ratings, and are not in any way responsible for any errors or omissions (negligent or otherwise), regardless of the cause, or for the results obtained from the use or misuse of such content. Third- party content providers give no express or implied warranties, including, but not limited to, any warranties of",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "4078b049654c040d",
+      "text": "merchantability or fitness for a particular purpose or use. Third- party content providers shall not be liable (in negligence or otherwise, and in whole or in part) for any direct, indirect, incidental, exemplary, compensatory, punitive, special or consequential damages, costs, expenses, legal fees, or losses (including lost income or profits and opportunity costs) in connection with any use or misuse of their content, including ratings. Credit ratings are statements of opinions and are not statements of fact or recommendations to purchase hold or sell securities. They do not address the suitability of securities or the suitability of securities for investment purposes, and should not be relied on as investment advice. Any MSCI sourced information in this document is the exclusive property of MSCI Inc. (MSCI). Without prior written permission of MSCI, this information and any other MSCI intellectual property may not be duplicated, reproduced, re- disseminated, redistributed or used, in whole or in part, for any purpose whatsoever, including creating any financial products and any indices. This information is provided on an \"as is\" basis. The user assumes the entire risk of any use made of this information. MSCI, its affiliates and any third party involved in, or related to, computing or compiling the information hereby expressly disclaim all representations, warranties or undertakings of originality, fairness, accuracy, completeness, correctness, merchantability or fitness for a particular purpose with respect to any of this material or the information contained in this material or otherwise arising in connection therewith. Without limiting any of the foregoing, in no event shall MSCI, any of its affiliates or any third party involved in, or related to, computing or compiling the information have any liability (in negligence or otherwise, and in whole or in part) for any damages of any kind. MSCI and the MSCI indexes are services marks of MSCI and its affiliates.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1e222d4755f05b7c",
+      "text": "The intellectual property rights and any other rights, in Russell/Nomura Japan Equity Index belong to Nomura Fiduciary Research & Consulting Co., Ltd. (\"NFRC\") and FTSE Russell (\"Russell\"). NFRC and Russell do not guarantee fairness, accuracy, completeness, correctness, reliability, usefulness, marketability, merchantability or fitness of the Index, and do not account for business activities or services that any index user and/or its affiliates undertakes with the use of the Index.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "cf2e5569ce60692b",
+      "text": "Investors should consider this document as only a single factor in making their investment decision and, as such, the report should not be viewed as identifying or suggesting all risks, direct or indirect, that may be associated with any investment decision. Nomura Group produces a number of different types of research product including, among others, fundamental analysis and quantitative analysis; recommendations contained in one type of research product may differ from recommendations contained in other types of research product, whether as a result of differing time horizons, methodologies or otherwise. The Nomura Group publishes research product in a number of different ways including the posting of product on the Nomura Group portals and/or distribution directly to clients. Different groups of clients may receive different products and services from the research department depending on their individual requirements.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5ddb41e2aec32a83",
+      "text": "Figures presented herein may refer to past performance or simulations based on past performance which are not reliable indicators of future or likely performance. Where the information contains an expectation, projection or indication of future performance and business prospects, such forecasts may not be a reliable indicator of future or likely performance. Moreover, simulations are based on models and simplifying assumptions which may oversimplify and not reflect the future distribution of returns. Any figure, strategy or index created and published for illustrative purposes within this document is not intended for \"use\" as a \"benchmark\" as defined by the European Benchmark Regulation. Certain securities are subject to fluctuations in exchange rates that could have an adverse effect on the value or price of, or income derived from, the investment.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "25d155157d8f1886",
+      "text": "With respect to Fixed Income Research: Recommendations fall into two categories: tactical, which typically last up to three months; or strategic, which typically last from 6- 12 months. However, trade recommendations may be reviewed at any time as circumstances change. 'Stop loss' levels for trades are also provided; which, if hit, closes the trade recommendation automatically. Prices and yields shown in recommendations are taken at the time of submission for publication and are based on either indicative Bloomberg, LSEG or Nomura prices and yields at that time. The prices and yields shown are not necessarily those at which the trade recommendation can be implemented.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f12b6e1058e8b398",
+      "text": "The securities described herein may not have been registered under the US Securities Act of 1933 (the '1933 Act'), and, in such case, may not be offered or sold in the US or to US persons unless they have been registered under the 1933 Act, or except in compliance with an exemption from the registration requirements of the 1933 Act. Unless governing law permits otherwise, any transaction should be executed via a Nomura entity in your home jurisdiction.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "769f9759174a449e",
+      "text": "This document has been approved for distribution in the UK as investment research by Niplc. Niplc is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority. Niplc is a member of the London Stock Exchange. This document does not constitute a personal recommendation within the meaning of applicable regulations in the UK, or take into account the particular investment objectives, financial situations, or needs of individual investors. This document is intended only for investors who are 'eligible counterparties' or 'professional clients' for the purposes of applicable regulations in the UK, and may not, therefore, be redistributed to persons who are 'retail clients' for such purposes.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ef3b1ea2d48591fe",
+      "text": "This document has been approved for distribution in the European Economic Area as investment research by Nomura Financial Products Europe GmbH (\"NFPE\"). NFPE is a company organized as a limited liability company under German law registered in the Commercial Register of the Court of Frankfurt/Main under HRB 110223. NFPE is authorized and regulated by the German Federal Financial Supervisory Authority (BaFin).",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "3dcb745174a26c34",
+      "text": "This document has been approved by NIHK, which is regulated by the Hong Kong Securities and Futures Commission, for distribution in Hong Kong by NIHK. This document is intended only for investors who are 'professional investors' for the purposes of applicable regulations in Hong Kong and may not, therefore, be redistributed to persons who are not 'professional investors' for such purposes.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "07011b6569af50c1",
+      "text": "This document has been approved for distribution in Australia by NAL, which is authorized and regulated in Australia by the ASIC.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "6967af6cb0a75b28",
+      "text": "This document has also been approved for distribution in Malaysia by NSM.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "bee5cb121a526d59",
+      "text": "In Singapore, this document has been distributed by NSL, an exempt financial adviser as defined under the Financial Advisers Act (Chapter 110), among other things, and regulated by the Monetary Authority of Singapore. NSL may distribute this document produced by its foreign affiliates pursuant to an arrangement under Regulation 32C of the Financial Advisers Regulations. Where the recipient of this document is not an accredited, expert or institutional investor as defined by the Securities and Futures Act (Chapter 289), NSL accepts legal responsibility for the contents of this document in respect of such recipient only to the extent required by law. Recipients of this document in Singapore should contact NSL in respect of matters arising from, or in connection with, this document. THIS DOCUMENT IS INTENDED FOR GENERAL CIRCULATION. IT DOES NOT TAKE INTO ACCOUNT THE SPECIFIC INVESTMENT OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS OF ANY PARTICULAR PERSON. RECIPIENTS SHOULD TAKE INTO ACCOUNT THEIR SPECIFIC INVESTMENT",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "bdc67732099b9a85",
+      "text": "OBJECTIVES, FINANCIAL SITUATION OR PARTICULAR NEEDS BEFORE MAKING A COMMITMENT TO PURCHASE ANY SECURITIES, INCLUDING SEEKING ADVICE FROM AN INDEPENDENT FINANCIAL ADVISER REGARDING THE SUITABILITY OF THE INVESTMENT, UNDER A SEPARATE ENGAGEMENT, AS THE RECIPIENT DEEMS FIT.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "11c73d20bd62678c",
+      "text": "Unless prohibited by the provisions of Regulation S of the 1933 Act, this material is distributed in the US, by NSI, a US- registered broker- dealer, which accepts responsibility for its contents in accordance with the provisions of Rule 15a- 6, under the US Securities Exchange Act of 1934. The entity that prepared this document permits its separately operated affiliates within the Nomura Group to make copies of such documents available to their clients.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "59195047e7c32cbd",
+      "text": "This document has not been approved for distribution to persons other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' (as defined by the Capital Markets Authority) in the Kingdom of Saudi Arabia ('Saudi Arabia') or a 'Market Counterparty' or a 'Professional Client' (as defined by the Dubai Financial Services Authority) in the United Arab Emirates ('UAE') or a 'Market Counterparty' or a 'Business Customer' (as defined by the Qatar Financial Centre Regulatory Authority) in the State of Qatar ('Qatar') by Nomura Saudi Arabia, Nlplc or any other member of the Nomura Group, as the case may be. Neither this document nor any copy thereof may be taken or transmitted or distributed, directly or indirectly, by any person other than those authorised to do so into Saudi Arabia or in the UAE or in Qatar or to any person other than 'Authorised Persons', 'Exempt Persons' or 'Institutions' located in Saudi Arabia or a 'Market Counterparty' or a 'Professional Client' in the UAE or a 'Market Counterparty' or a 'Business Customer' in Qatar. Any failure to comply with these restrictions may constitute a violation of the laws of the UAE or Saudi Arabia or Qatar.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "0377ee19b73e29d1",
+      "text": "For report with reference of TAIWAN public companies or authored by Taiwan based research analyst: THIS DOCUMENT IS SOLELY FOR REFERENCE ONLY. You should independently evaluate the investment risks and are solely responsible for your investment decisions. NO PORTION OF THE REPORT MAY BE REPRODUCED OR QUOTED BY THE PRESS OR ANY OTHER PERSON WITHOUT WRITTEN AUTHORIZATION FROM NOMURA GROUP. Pursuant to Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers and/or other applicable laws or regulations in Taiwan, you are prohibited to provide the reports to others (including but not limited to related parties, affiliated companies and any other third parties) or engage in any activities in connection with the reports which may involve conflicts of interests. INFORMATION ON SECURITIES / INSTRUMENTS NOT EXECUTABLE BY NOMURA INTERNATIONAL (HONG KONG) LTD., TAIPEI BRANCH IS FOR INFORMATIONAL PURPOSES ONLY AND IS NOT BE CONSTRUED AS A RECOMMENDATION OR A SOLICITATION TO TRADE IN SUCH SECURITIES / INSTRUMENTS.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "531a825468a5aede",
+      "text": "This material may not be distributed in Indonesia or passed on within the territory of the Republic of Indonesia or to persons who are Indonesian citizens (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the laws of the Republic of Indonesia. The securities mentioned in this document may not be offered or sold in Indonesia or to persons who are citizens of Indonesia (wherever they are domiciled or located) or entities of or residents in Indonesia in a manner which constitutes a public offering under the laws of the Republic of Indonesia.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "d496a6f01a0bf29d",
+      "text": "An individual name printed next to NOI on the front page of a research report indicates that this document is a translation of a research report issued by NOI in the PRC. In all other cases, this document is prepared by Nomura Group or its subsidiary or affiliate (collectively, \"Offshore Issuers\") that is not licensed in the PRC to provide securities research. This research report is not approved or intended to be circulated in the PRC. The A- share related analysis (if any) is not produced for any persons located or incorporated in the PRC. The recipients should not rely on any information contained in this research report in making investment decisions and Offshore Issuers take no responsibility in this regard. NO PART OF THIS MATERIAL MAY BE (I) COPIED, PHOTOCOPIED, REPRODUCED OR DUPLICATED IN ANY FORM, BY ANY MEANS; OR (II) REDISSEMINATED, REPUBLISHED OR REDISTRIBUTED WITHOUT THE PRIOR WRITTEN CONSENT OF A MEMBER OF THE NOMURA GROUP. If this document has been distributed by electronic transmission, such as e- mail, then such transmission cannot be guaranteed to be secure or error- free as information could be intercepted, corrupted, lost, destroyed, arrive late or incomplete, or contain viruses. The sender therefore does not accept liability (in negligence or otherwise, and in whole or in part) for any errors or omissions in the contents of this document, which may arise as a result of electronic transmission. If verification is required, please request a hard- copy version.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "380ed0383dd8ee07",
+      "text": "The Nomura Group manages conflicts with respect to the production of research through its compliance policies and procedures (including, but not limited to, Conflicts of Interest, Chinese Wall and Confidentiality policies) as well as through the maintenance of Chinese Walls and employee training.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4c9afb90075ec2f8",
+      "text": "Additional information regarding the methodologies or models used in the production of any investment recommendations contained within this document is available upon request by contacting the Research Analysts of Nomura listed on the front page. Disclosures information is available upon request and disclosure information is available at the Nomura Disclosure web page:",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "cc92e9ef47c210f3",
+      "text": "http://go.nomuranow.com/research/m/Disclosures",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5ead2231ee95792e",
+      "text": "Copyright © 2025 Nomura Singapore Ltd., Singapore. All rights reserved.",
+      "page": 5,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "4815636ab0138928",
+      "name": "Abuse Regulation",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "763b0f24548b624c",
+      "name": "Analyst Interactions",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3062e21d617ad05f",
+      "name": "Any MSCI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d18f7e41099c2046",
+      "name": "Asia FX",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03ec5d54e225b9d0",
+      "name": "Authorised Persons",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8c1abdd3ddd39022",
+      "name": "Business Customer",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "27a2a88e2e1da13d",
+      "name": "Centre Regulatory",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "58ec7c89797a4475",
+      "name": "China NDIRS",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4f7793d11c185d65",
+      "name": "Chinese Wall",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "30f11a4354af2089",
+      "name": "Chinese Walls",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "aebbecf5515fe8dd",
+      "name": "Commercial Register",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b289f889abc2748a",
+      "name": "Commodities Futures",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fbd258dbd6877fcf",
+      "name": "Consulting Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ce2fcce8553a59da",
+      "name": "Disclosures\n\nCopyright",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8ed3fafbb18d7293",
+      "name": "Dubai Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "937eab012544a9f8",
+      "name": "EU Market",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "df9dd8f38d4b7019",
+      "name": "Entry Date",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "eb1a11c62763cbef",
+      "name": "Equity Index",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1143d21b06b41b7b",
+      "name": "European Benchmark",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "25-Apr",
+              "09-May",
+              "23-May",
+              "06-Jun",
+              "20-Jun",
+              "04-Jul",
+              "18-Jul",
+              "01-Aug",
+              "15-Aug",
+              "29-Aug",
+              "12-Sep",
+              "26-Sep"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Conviction (0-5)",
+            "unit": null,
+            "values": [
+              3,
+              3,
+              3,
+              3,
+              3,
+              4,
+              3,
+              3,
+              4,
+              3,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "Spot move (rhs)",
+            "unit": "bp",
+            "values": [
+              100,
+              -50,
+              150,
+              250,
+              280,
+              250,
+              150,
+              200,
+              150,
+              100,
+              null,
+              null
+            ]
+          }
+        ],
+        "figure_id": "714e2c0bb7a61dac",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "534e21a2fc5af9d2",
+        "value": 0.17,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Second, the pass-through of our daily change in the model projection to the actual fixing was just 17% today, lower than the pass-through of 49% over the preceding five sessions (or averaged 58% from ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "69f3982af09f9df0",
+        "value": 0.49,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nge in the model projection to the actual fixing was just 17% today, lower than the pass-through of 49% over the preceding five sessions (or averaged 58% from 1 to 29 August). 3. We also question whet",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "cda576af878cdbef",
+        "value": 0.58,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "as just 17% today, lower than the pass-through of 49% over the preceding five sessions (or averaged 58% from 1 to 29 August). 3. We also question whether there is a deliberate push to appreciate RMB. ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e5145ae4c30f09df",
+        "value": 0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "29 August). 3. We also question whether there is a deliberate push to appreciate RMB. Despite the 1.2% appreciation of CNH against the USD in August, CNH CFETS was close to flat (i.e., +7bp only). Thi",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "292e849b8342d4be",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ". 1: Short CNH against an equally weighted basket (EUR, AUD, KRW), conviction level: 3/5, targeting 4.0% gains by end-September</center> ![Figure 1-0](images/1_0.jpg) Note: Conviction scale: 1 – Watch",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ba7022ddb056a1e9",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ch; 2 – Watch Closely; 3 - Positioned @ 1/3 desired; 4 – Positioned @ 2/3 desired; 5 – Positioned @ 100% desired. Source: Bloomberg, Nomura. Fig. 2: Trade ideas <table><tr><td>Trade</td><td>Target</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4240d4b0d3a25ba9",
+        "value": 0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>10bp gain</td><td>end-Sep</td><td>3</td><td>7-Aug-25</td></tr><tr><td>Long 5y IndoGB</td><td>5.50%</td><td>end-Sep</td><td>3</td><td>4-Aug-25</td></tr><tr><td>Sep-IMM 1s5s SORA flattener</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f9964fe5dae4afb7",
+        "value": 0.0255,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "20bp</td><td>end-Sep</td><td>3</td><td>1-Aug-25</td></tr><tr><td>Pay Sep-IMM 3y Korea NDIRS</td><td>2.55%</td><td>mid-Sep</td><td>3</td><td>25-Jul-25</td></tr><tr><td>Long AUD/CAD</td><td>0.9350</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "0d52ac4606964305",
+        "value": 0.0175,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ain</td><td>mid-Oct</td><td>3</td><td>26-Jun-25</td></tr><tr><td>Pay Sep-IMM 5y China NDIRS</td><td>1.75%</td><td>end-Sep</td><td>3</td><td>9-Jun-25</td></tr><tr><td>Long EUR/GBP</td><td>-</td><td>-</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "37f1bda39eaeed29",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>4</td><td>8-May-25</td></tr><tr><td>Short CNH vs equally-weighted basket (EUR, AUD, KRW)</td><td>4.0%</td><td>end-Sep</td><td>3</td><td>25-Apr-25</td></tr><tr><td>Sep-IMM 2s5s China NDIRS steepener",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "cdf83b1e695e87ea",
+        "value": 0.0525,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>end-Sep</td><td>3</td><td>6-Dec-24</td></tr><tr><td>Receive Sep-IMM 2y India NDOIS</td><td>5.25%</td><td>end-Sep</td><td>3</td><td>25-Nov-24</td></tr><tr><td>Short S$SNEER</td><td>1.0%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c7d950b6cd1ff490",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "IS</td><td>5.25%</td><td>end-Sep</td><td>3</td><td>25-Nov-24</td></tr><tr><td>Short S$SNEER</td><td>1.0%</td><td>mid-Sep</td><td>3</td><td>6-Nov-24</td></tr></table> Note: Conviction scale: 1 – Watch;",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ba7022ddb056a1e9",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ch; 2 – Watch Closely; 3 - Positioned @ 1/3 desired; 4 – Positioned @ 2/3 desired; 5 – Positioned @ 100% desired. Source: Bloomberg, Nomura.<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 1
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 1,
+      "tables_count": 0,
+      "numerical_data_count": 13,
+      "passages_count": 61,
+      "entities_count": 20
+    }
+  }
+}

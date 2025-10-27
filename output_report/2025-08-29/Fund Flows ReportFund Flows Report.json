@@ -1,0 +1,2539 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "d17dd64406be813c4f5708986034e411",
+    "title": "EVERCORE ISI",
+    "source_uri": "2025-08-29/Fund Flows ReportFund Flows Report_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:14:32.584879",
+      "extracted_at": "2025-10-27T00:14:32.584891"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 14,
+        "successful_pages": 14,
+        "date": "2025-08-29",
+        "publication": "2025-08-29",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 3,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.15917537339597498
+        },
+        "input_relative_path": "2025-08-29"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "2c01f3c7c636f986",
+      "text": "This note provides a look at weekly and monthly fund flows into dedicated REIT mutual funds, domestic ETF funds (focused on REITs), global real estate funds and Japanese fund flows.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "33a059ac7ada5e51",
+      "text": "In this report, we break down flows based on how often funds report (either weekly or monthly) to help investors better understand how funds are flowing in the REIT space. Weekly reporter information can be found on pages 3- 7 while monthly reporter information can be found on pages 8- 11.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "68ec831c0d110ace",
+      "text": "Collectively, REIT mutual funds, domestic ETF funds (focused on REITs), global real estate funds and Japanese funds flows experienced outflows of \\$385.4mn last week.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "423c141b9c58b320",
+      "text": "Figure 1: Summary of Weekly & Monthly Fund Flows",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d701268e3c6055c0",
+      "text": "WeeklyTrailing 4-weeksMonthlyQTDYTDFund AssetsWEEKLY Reporters (As of 8/27)Domestic Real Estate Funds (Ex-ETF)-$46-$180-$602-$2,883$43,084Domestic Real Estate Funds (ETF Inc)-$318-$95-$599-$2,412$87,858Global Real Estate Funds (Ex-ETF)-$10-$28-$99-$521$1,753Japan Real Estate Funds-$12$8-$18-$34$16,160MONTHLY Reporters (As of June)Domestic Real Estate Funds (Ex-ETF)-$420-$582-$1,335$124,045Domestic Real Estate Funds (ETF Inc)$566$24-$1,135$205,028Global Real Estate Funds (Ex-ETF)-$247-$423-$453$2,202COMBINED Fund Flows (Weekly + Monthly Reporters)Domestic Real Estate Funds (Ex-ETF)-$1,183-$4,218$167,128Domestic Real Estate Funds (ETF Inc)-$575-$3,547$292,886Global Real Estate Funds (Ex-ETF)-$522-$974$3,955",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d3253825e68b07d5",
+      "text": "Figure 2: Weekly & Monthly Fund Flows as % Funds",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "434292fdf4e221e9",
+      "text": "WeeklyTrailing 4-weeksMonthlyQTDYTDFund AssetsWEEKLY Reporters (As of 8/27)Domestic Real Estate Funds (Ex-ETF)-0.1%-0.4%-1.4%-6.6%$43,084Domestic Real Estate Funds (ETF Inc)-0.4%-0.1%-0.7%-2.8%$87,858Global Real Estate Funds (Ex-ETF)-0.6%-1.6%-5.5%-24.6%$1,753Japan Real Estate Funds-0.1%0.1%-0.1%-0.2%$16,160",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9bf5e20352d5d4df",
+      "text": "MONTHLY Reporters (As of June)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b4b0de2eccff3632",
+      "text": "Domestic Real Estate Funds (Ex-ETF)-0.3%-0.5%-1.1%$124,045Domestic Real Estate Funds (ETF Inc)0.3%0.0%-0.6%$205,028Global Real Estate Funds (Ex-ETF)-10.2%-17.1%-18.3%$2,202",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5dd4eb261da40cf3",
+      "text": "COMBINED Fund Flows (Weekly + Monthly Reporters)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "7defdd90d135d299",
+      "text": "Domestic Real Estate Funds (Ex-ETF)-0.7%-2.5%$167,128Domestic Real Estate Funds (ETF Inc)-0.2%-1.2%$292,886Global Real Estate Funds (Ex-ETF)-12.2%-21.2%$3,955",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ddc058165f93533f",
+      "text": "The QTD data in this section represents 3Q2025 flows while the YTD represents 2025 flows.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f4a8833252cf96c7",
+      "text": "Weekly inflows / outflows: - \\(46mn (- 0.1\\%)\\) assets) Trailing 4 week inflows / outflows: - \\(1.80mn (- 0.4\\%\\) of assets at start of period) QTD Change: - \\(602mn (- 1.4\\%\\) of assets at start of period) YTD Change: - \\(2,883mn (- 6.6\\%\\) of assets at start of period) Domestic real estate fund assets: \\(43.1bn\\), down from \\(43.9bn\\) at YE24",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "72747e707d02c82e",
+      "text": "Weekly inflows / outflows: - \\(318mn (- 0.4\\%\\) of assets) Trailing 4 week inflows / outflows: - \\(95mn (- 0.1\\%\\) of assets at start of period) QTD Change: - \\(5599mn (- 0.7\\%\\) of assets at start of period) YTD Change: - \\(2,412mn (- 2.8\\%\\) of assets at start of period) Domestic ETF real estate fund assets: \\(87.9bn\\), up from \\(86.1bn\\) at YE24",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "99875f4ed0d82f51",
+      "text": "Weekly inflows / outflows: - \\(10mn (- 0.6\\%\\) of assets) Trailing 4 week inflows / outflows: - \\(28mn (- 1.6\\%\\) of assets at start of period) QTD Change: - \\(99mn (- 5.5\\%\\) of assets at start of period) YTD Change: - \\(521mn (- 24.6\\%\\) of assets at start of period) Global real estate fund assets: \\(1,753mn\\), down from \\(2,120mn\\) at YE24",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "c329886874c67c3a",
+      "text": "Figure 3: Weekly Reporters Quarterly Flows - Domestic Real Estate Funds (Ex-ETF)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "edcc0692a0fc7505",
+      "text": "QTD Change: - \\(602mn\\) (- 1.4% of assets at start)...",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "853b19877b92f6d9",
+      "text": "YTD Change: - \\(2,883mn\\) (- 6.6% of assets at start)...",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "1568e5f2a5518e3b",
+      "text": "Figure 4: Weekly Reporters Annual Flows - Domestic Real Estate Funds (Ex-ETF)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ecb4e6871343c15b",
+      "text": "Figure 5: Weekly Reporters Quarterly Flows - Domestic Real Estate Funds (ETF Inc)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "2bb1a144281100f4",
+      "text": "QTD Change: - \\(\\) 599\\mathrm{mn}\\((- 0.7\\%)\\) of assets at start of period)...",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "9ef6124e5112fec8",
+      "text": "YTD Change: - \\(\\) 2,412\\mathrm{mn}\\((- 2.8\\%)\\) of assets at start of period)...",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "510452160860c315",
+      "text": "Figure 6: Weekly Reporters Annual Flows - Domestic Real Estate Funds (ETF Inc)",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "a2aeab809ae7b8d2",
+      "text": "Figure 7: Weekly Reporters Quarterly Flows - Global Real Estate Funds (Ex-ETF)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "4bd92b1247557664",
+      "text": "QTD Change: - \\(\\) 99m\\((- 5.5\\%\\) of assets at start of period)...",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "73ac203d02d2cf79",
+      "text": "YTD Change: - \\(\\) 521m\\((- 24.6\\%\\) of assets at start of period...",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "76570eadac145680",
+      "text": "Figure 8: Weekly Reporters Annual Flows - Global Real Estate Funds (Ex-ETF)",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "9de30232cbe0875d",
+      "text": "Figure 9: Quarterly Flows – Japanese Real Estate Funds",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "152ec1e0069f4433",
+      "text": "QTD Change: - \\(\\) 18mn (- 0.1\\%\\$ of assets at start of period)...",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "88f4cf52240ac6d2",
+      "text": "Figure 10: Annual Flows – Japanese Real Estate Funds",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "c48d36b3687f2f99",
+      "text": "YTD Change: - \\(\\) 34mn (- 0.2\\%\\$ of assets at start of period)...",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "5b6a9e9b3c3baeca",
+      "text": "The QTD data in this section represents 2Q2025 flows while the YTD represents 2025 flows.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c84c7fb99da8e9ff",
+      "text": "Monthly inflows / outflows: - \\$420mn (- 0.3% of assets)  QTD Change: - \\$582mn (- 0.5% of assets at start of period)  YTD Change: - \\$1,335mn (- 1.1% of assets at start of period)  Domestic real estate fund assets: \\$124.0bn, up from \\$121.6 at YE '24",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "3ca2036939dca086",
+      "text": "Monthly inflows / outflows: - \\$566mn (0.3% of assets)  QTD Change: \\$24mn (0.0% of assets at start of period)  YTD Change: - \\$1,135mn (- 0.6% of assets at start of period)  Domestic real estate fund assets: \\$205.0bn, up from \\$200.7bn at YE '24",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "02818d891cb9db4d",
+      "text": "Monthly inflows / outflows: - \\$247mn (- 10.2% of assets)  QTD Change: - \\$423mn (- 17.1% of assets at start of period)  YTD Change: - \\$453mn (- 18.3% of assets at start of period)  Domestic real estate fund assets: \\$2.2bn, down from \\$2.5 at YE '24",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "25c9fe122f84d237",
+      "text": "Figure 11: Monthly Reporters Quarterly Flows - Domestic Real Estate Funds (Ex- ETF)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "4c19521cd74ec1cd",
+      "text": "Figure 12: Monthly Reporters Annual Flows - Domestic Real Estate Funds (Ex-ETF)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "fa67cfdf3923a73a",
+      "text": "QTD Change: - \\(\\) 582\\mathsf{mn}\\((- 0.5\\%)\\) of assets at start)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "906db68abdad0a80",
+      "text": "YTD Change: - \\(\\) 1,335\\mathsf{mn}\\((- 1.1\\%)\\) of assets at start)",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "b18db829cac9f21d",
+      "text": "Figure 13: Monthly Reporters Quarterly Flows - Domestic Real Estate Funds (ETF Inc)",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "8c8c38cca1e31323",
+      "text": "Source: Company Data, Evercore ISI Research",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "894013f6738ea4d8",
+      "text": "QTD Change: \\(\\) 24m n(0.0\\%\\$ of assets at start of period)...",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "eb6995dbbb78500c",
+      "text": "YTD Change: \\(- \\$ 1,135m n\\) (- 0.6% of assets at start of period)...",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "7e34461d1208e834",
+      "text": "Figure 14: Monthly Reporters Annual Flows - Domestic Real Estate Funds (ETF Inc)",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "f199af61c2991ad7",
+      "text": "Source: Company Data, Evercore ISI Research",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "59ca32925f909fc2",
+      "text": "Figure 15: Monthly Reporters Quarterly Flows - Global Real Estate Funds (Ex-ETF)",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "fdd14397ec68a684",
+      "text": "Source: Company Data, Evercore ISI Research",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "dea0dd0e81e0d6cb",
+      "text": "QTD Change: - \\(\\) 423m\\((- 17.1\\%\\) of assets at start of period)...",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "a7817a2e5ca9ac78",
+      "text": "YTD Change: - \\(\\) 453m\\((- 18.3\\%\\) of assets at start of period)...",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "11d0ef3b9e1b6cab",
+      "text": "Figure 16: Monthly Reporters Annual Flows - Global Real Estate Funds (Ex-ETF)",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "6ec58789a040fcfe",
+      "text": "Source: Company Data, Evercore ISI Research",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "307cf2984cd52c6a",
+      "text": "(Article 3(1)e and Article 7 of MAR)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3f03fe420b8d2243",
+      "text": "Time of dissemination: August 29 2025 5:00 AM ET",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "f025d997d9356297",
+      "text": "Evercore ISI's recommendations are based on a stock's total forecasted return over the next 12 months. Total forecasted return is equal to the expected percentage price return plus gross dividend yield. We divide our stocks under coverage into three primary ratings categories, with the following return guidelines:",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "4121a2c4941e50cd",
+      "text": "Outperform- the total forecasted return is expected to be greater than the expected total return of the analyst's coverage sector.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "0af6af9bf90e697f",
+      "text": "In Line- the total forecasted return is expected to be in line with the expected total return of the analyst's coverage sector.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "6daf4cba1a65782b",
+      "text": "Underperform- the total forecasted return is expected to be less than the expected total return of the analyst's coverage sector.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "e083846562907f1a",
+      "text": "Coverage Suspended- the rating and target price have been removed pursuant to Evercore ISI policy when Evercore is acting in an advisory capacity in a merger or strategic transaction involving this company and in certain other circumstances.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "ebe3fceaf095be25",
+      "text": "Rating Suspended- Evercore ISI has suspended the rating and target price for this stock because there is not sufficient fundamental basis for determining, or there are legal, regulatory or policy constraints around publishing, a rating or target price. The previous rating and target price, if any, are no longer in effect for this company and should not be relied upon.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "cc5b7442bf5f5636",
+      "text": "Prior to October 10, 2015, the \"Coverage Suspended\" and \"Rating Suspended\" categories were included in the category \"Suspended.\"",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "4baa1a2fece82033",
+      "text": "FINRA requires that members who use a ratings system with terms other than \"Buy,\" \"Hold/Neutral\" and \"Sell\" to equate their own ratings to these categories. For this purpose, and in the Evercore ISI ratings distribution below, our Outperform, In Line, and Underperform ratings can be equated to Buy, Hold and Sell, respectively.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "bcdd755a4a64dfc1",
+      "text": "Evercore ISI rating (as of 08/28/2025)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "81b52f678783bff9",
+      "text": "Coverage UniverseInvestment Banking Services I Past 12 MonthsRatingsCountPct.RatingsCountPct.Buy44459Buy5312Hold27536Hold176Sell132Sell18Coverage Suspended162Coverage Suspended425Rating Suspended61Rating Suspended467",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "6f5a321f03d7dee4",
+      "text": "Issuer-Specific Disclosures (as of August 28, 2025)",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "97addc675bbc0318",
+      "text": "This report is approved and/or distributed by Evercore Group L.L.C. (\"Evercore Group\"), a U.S. licensed broker-dealer regulated by the Financial Industry Regulatory Authority (\"FINRA\") and by International Strategy & Investment Group (UK) Limited (\"ISI UK\"), which is authorized and regulated in the United Kingdom by the Financial Conduct Authority. The institutional sales, trading and research businesses of Evercore Group and ISI UK collectively operate under the global marketing brand name Evercore ISI (\"Evercore ISI\"). Both Evercore Group and ISI UK are subsidiaries of Evercore Inc. (\"Evercore\"). The trademarks, logos and service marks shown on this report are registered trademarks of Evercore Inc.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "0e437e3b3329e309",
+      "text": "This report is provided for informational purposes only and subject to additional restrictions contained in this disclosure. It is not to be construed as an offer to buy or sell or a solicitation of an offer to buy or sell any financial instruments or to participate in any particular trading strategy in any jurisdiction. The information and opinions in this report were prepared by employees of affiliates of Evercore. The information herein is believed by Evercore ISI to be reliable and has been obtained from public sources believed to be reliable, but Evercore ISI makes no representation as to the accuracy or completeness of such information.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "cd4f0b15b584c047",
+      "text": "Opinions, estimates and projections in this report constitute the current judgment of the author as of the date of this report. They do not necessarily reflect the opinions of Evercore or its affiliates and are subject to change without notice. In addition, opinions, estimates and projections in this report may differ from or be contrary to those expressed by other business areas or groups of Evercore and its affiliates.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "f5dc6e6e46264bbf",
+      "text": "Evercore ISI has no obligation to update, modify or amend this report or to otherwise notify a reader thereof in the event that any matter stated herein, or any opinion, projection, forecast or estimate set forth herein, changes or subsequently becomes inaccurate. Facts and views in Evercore ISI research reports and notes have not been reviewed by, and may not reflect information known to, professionals in other Evercore affiliates or business areas, including investment banking personnel. Evercore ISI salespeople, traders and other professionals may provide oral or written market commentary or trading strategies to our clients that reflect opinions that are contrary to the opinions expressed in this research.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "22fd325cb9b09456",
+      "text": "Our asset management affiliates and investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "f291679f083c5f17",
+      "text": "Evercore ISI does not provide individually tailored investment advice in research reports. The financial instruments discussed in this report are not suitable for all investors and investors must make their own investment decisions using their own independent advisors as they believe necessary and based upon their specific financial situations and investment objectives. This report has been prepared without regard to the particular investment strategies or financial, tax or other personal circumstances of the recipient. Nothing in this report constitutes investment, legal, accounting or tax advice, or a representation that any investment or strategy is suitable or appropriate to the recipient's individual circumstances,or otherwise constitutes a personal recommendation to the recipient. None of Evercore Group or its affiliates will treat any recipient of this report as its customer by virtue of the recipient having received this report.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "060af4a06372bf42",
+      "text": "Securities and other financial instruments discussed in this report, or recommended or offered by Evercore ISI, are not insured by the Federal Deposit Insurance Corporation and are not deposits of or other obligations of any insured depository institution. If a financial instrument is denominated in a currency other than an investor's currency, a change in exchange rates may adversely affect the price or value of, or the income derived from the financial instrument, and such investor effectively assumes such currency risk. In addition, income from an investment may fluctuate and the price or value of financial instruments described in this report, either directly or indirectly, may rise or fall. Estimates of future performance are based on assumptions that may not be realized. Furthermore, past performance is not necessarily indicative of future performance.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "3794411cd0253d96",
+      "text": "Please note that this report was prepared for and distributed by Evercore ISI to its institutional investor and market professional customers.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "917d084f3cc174bd",
+      "text": "Recipients who are not institutional investor or market professional customers of Evercore ISI should seek the advice of their independent financial advisor before considering information in this report in connection with any investment decision, or for a necessary explanation of its contents.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "07453c2dc71bc650",
+      "text": "Electronic research is simultaneously distributed to all clients. This report is provided to Evercore ISI clients only and may not be, in whole or in part, or in any form or manner (i) copied, forwarded, distributed, shared, or made available to third parties, including as input to, or in connection with, any artificial intelligence or machine learning model; (ii) modified or otherwise used to create derivative works; or (iv) used to train or otherwise develop a generative artificial intelligence or machine learning model, without the express written consent of Evercore ISI. Receipt and review of this research report constitutes your agreement with the aforementioned limitations in use.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "abccb2fb9614b7d2",
+      "text": "This report is not intended for distribution to or use by any person or entity in any locality, state, country or other juris dction where such distribution, publication, availability or use would be contrary to law or regulation or which would subject Evercore Group or its affiliates to any registration or licensing requirement within such jurisdiction. If this report is being distributed by a financial institution other than Evercore ISI or its affiliates, that financial institution is solely responsible for such distribution and for compliance with the laws, rules and regulations of any jurisdiction where this report is distributed. Clients of that financial institution should contact that institution to effect any transaction in the securities mentioned in this report or if such clients require further information. This report does not constitute investment advice by Evercore ISI to the clients of the distributing financial institution, and neither Evercore ISI nor its affiliates, nor their respective officers, directors or employees, accept any liability whatsoever for any direct or consequential loss arising from their use of this report or its content.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "aadcaa43a275be3f",
+      "text": "Evercore is not authorized to act as a financial entity, securities intermediary, investment advisor or as any other regulated entity under Mexican law, and no actions, applications or filings have been undertaken in Mexico, whether before the National Banking and Securities Commission (Comisión Nacional Bancaria y de Valores \"CNBV\") or any other authority, in order for Evercore to carry out activities or render services that would otherwise require a license, registration or any other authorization for such purposes; neither is it regulated by the CNBV or any other Mexican authority. This document, nor its content, constitutes an offer, invitation or request to purchase or subscribe for securities or other instruments or to make or cancel investments, nor may it serve as the basis for any contract, commitment or decision of any kind.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "3ed64521c40912fa",
+      "text": "For persons in the UK: In making this report available, Evercore makes no recommendation to buy, sell or otherwise deal in any securities or investments whatsoever and you should neither rely or act upon, directly or indirectly, any of the information contained in this report in respect of any such investment activity. This report is being directed at or distributed to, (a) persons who fall within the definition of Investment Professionals (set out in Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (the \"Order\"); (b) persons falling within the definition of high net worth companies, unincorporated associations, etc. (set out in Article 49(2) of the Order); (c) other persons to whom it may otherwise lawfully be communicated (all such persons together being referred to as \"relevant persons\"). This report must not be acted on or relied on by persons who are not relevant persons.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "6b65a3297fd4e486",
+      "text": "For persons in Switzerland: The distribution of these materials to persons or entities in Switzerland is not intended to, and does not, constitute a financial service under the Swiss Financial Services Act (FinSA). In particular, the distribution of these materials does not constitute the provision of personal recommendations on transactions with financial instruments (investment advice) within the meaning of Article 3(c)(4) of FinSA.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "84d4b8abe75a20de",
+      "text": "For persons in Australia: Evercore does not have an Australian Financial Services License (\"AFSL\"). This report is only to be distributed to persons who fall within the definition of \"wholesale\" investors under section 761G of the Corporations Act 2001 (Cth). This report must not be acted on or relied on by persons who are not wholesale investors. Evercore relies on the relief provided under ASIC Corporations (Foreign Financial Services Providers—Limited Connection) Instrument 2017/182 to provide this report to wholesale investors in Australia without an AFSL.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "d7d2fa8d3f978c8e",
+      "text": "For persons in New Zealand: This material has been prepared by Evercore Group L.L.C. for distribution in New Zealand to financial advisors and wholesale clients only and has not been prepared for use by retail clients (as those terms are defined in the Financial Markets Conduct Act 2013 (\"FMCA\")). Evercore Group L.L.C. is not, and is not required to be, registered or licensed under the FMCA, and unless otherwise stated any financial products referred to in this material are generally only available in New Zealand for issue to those satisfying the wholesale investor criteria in the FMCA.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "2bd9c996e07f77f4",
+      "text": "Applicable current disclosures regarding the subject companies covered in this report are available at the offices of Evercore ISI: 55 East 52nd Street, New York, NY 10055, and at the following site: https://evercoreisi.mediastierling.com/disclosure.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "e1cc1bb9707e71d2",
+      "text": "In compliance with the European Securities and Markets Authority's Market Abuse Regulation, a list of all Evercore ISI recommendations disseminated in the preceding 12 months for the subject companies herein, may be found at the following site: https://evercoreisi.mediastierling.com/disclosure.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "e6725dbca5562a53",
+      "text": "© 2025. Evercore Group L.L.C. All rights reserved.",
+      "page": 13,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "6bfdb485e64d207a",
+      "name": "ASIC Corporations",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8123544afe501cb1",
+      "name": "Annual Flows",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c948b097867d16e8",
+      "name": "Australian Financial",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fe0fe46365786da9",
+      "name": "Both Evercore",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c498326329ded687",
+      "name": "COMBINED Fund",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "12ec3f1733cfeaa5",
+      "name": "Company Data",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "88f494f365f0299b",
+      "name": "Conduct Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cf7454fe4270253d",
+      "name": "Corporations Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "4b9be408e155a05b",
+      "name": "Coverage Suspended",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "870edbe8e02ee39e",
+      "name": "Coverage Universe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "be55d60ac0680a91",
+      "name": "Current Ratings",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3fee3d79dff8420b",
+      "name": "Definition\n\nEvercore",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0bdb68bf759c95aa",
+      "name": "Domestic ETF",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "63fa97e2be2e6f06",
+      "name": "Domestic Real",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "58724e86bac49eee",
+      "name": "ETF Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f903b07c2e481cda",
+      "name": "ETFs Only",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3afebe669fefba48",
+      "name": "Estate Funds",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ca0107fa6b691120",
+      "name": "European Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8e848b5fbb19cbd5",
+      "name": "Evercore Group",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "26b9e6ee13a92b04",
+      "name": "Evercore ISI",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "bar",
+        "title": null,
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1Q2000",
+              "1Q2001",
+              "1Q2002",
+              "1Q2003",
+              "1Q2004",
+              "1Q2005",
+              "1Q2006",
+              "1Q2007",
+              "1Q2008",
+              "1Q2009",
+              "1Q2010",
+              "1Q2011",
+              "1Q2012",
+              "1Q2013",
+              "1Q2014",
+              "1Q2015",
+              "1Q2016",
+              "1Q2017",
+              "1Q2018",
+              "1Q2019",
+              "1Q2020",
+              "1Q2021",
+              "1Q2022",
+              "1Q2023",
+              "1Q2024",
+              "1Q2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -1500,
+              "max": 3000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              200,
+              2750,
+              -250,
+              -900,
+              200,
+              550,
+              200,
+              400,
+              -100,
+              -300,
+              -750,
+              -400,
+              -500,
+              -200,
+              200,
+              -700,
+              -100,
+              -150,
+              -100,
+              -200
+            ]
+          }
+        ],
+        "figure_id": "5159cbb058c6b288",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1Q2000",
+              "1Q2001",
+              "1Q2002",
+              "1Q2003",
+              "1Q2004",
+              "1Q2005",
+              "1Q2006",
+              "1Q2007",
+              "1Q2008",
+              "1Q2009",
+              "1Q2010",
+              "1Q2011",
+              "1Q2012",
+              "1Q2013",
+              "1Q2014",
+              "1Q2015",
+              "1Q2016",
+              "1Q2017",
+              "1Q2018",
+              "1Q2019",
+              "1Q2020",
+              "1Q2021",
+              "1Q2022",
+              "1Q2023",
+              "1Q2024",
+              "1Q2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -1000,
+              "max": 1500
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              10,
+              500,
+              -500,
+              -100,
+              100,
+              500,
+              250,
+              400,
+              100,
+              -200,
+              -750,
+              -600,
+              -500,
+              100,
+              -700,
+              -100,
+              -50,
+              -50,
+              -50,
+              -200
+            ]
+          }
+        ],
+        "figure_id": "b8a6f5b1fb393329",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1Q2000",
+              "1Q2001",
+              "1Q2002",
+              "1Q2003",
+              "1Q2004",
+              "1Q2005",
+              "1Q2006",
+              "1Q2007",
+              "1Q2008",
+              "1Q2009",
+              "1Q2010",
+              "1Q2011",
+              "1Q2012",
+              "1Q2013",
+              "1Q2014",
+              "1Q2015",
+              "1Q2016",
+              "1Q2017",
+              "1Q2018",
+              "1Q2019",
+              "1Q2020",
+              "1Q2021",
+              "1Q2022",
+              "1Q2023",
+              "1Q2024",
+              "1Q2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -15000,
+              "max": 15000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              100,
+              200,
+              500,
+              1000,
+              2000,
+              3000,
+              1500,
+              3500,
+              -13000,
+              -3000,
+              1000,
+              2000,
+              5000,
+              9000,
+              3000,
+              6000,
+              -5000,
+              -8000,
+              -9500,
+              -4000,
+              -2000,
+              6000,
+              -5000,
+              -7000,
+              -4000,
+              -1000
+            ]
+          }
+        ],
+        "figure_id": "a72b73f88498419c",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1Q2000",
+              "1Q2001",
+              "1Q2002",
+              "1Q2003",
+              "1Q2004",
+              "1Q2005",
+              "1Q2006",
+              "1Q2007",
+              "1Q2008",
+              "1Q2009",
+              "1Q2010",
+              "1Q2011",
+              "1Q2012",
+              "1Q2013",
+              "1Q2014",
+              "1Q2015",
+              "1Q2016",
+              "1Q2017",
+              "1Q2018",
+              "1Q2019",
+              "1Q2020",
+              "1Q2021",
+              "1Q2022",
+              "1Q2023",
+              "1Q2024",
+              "1Q2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -15000,
+              "max": 10000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              100,
+              150,
+              200,
+              300,
+              500,
+              800,
+              1200,
+              2500,
+              -13000,
+              -1000,
+              500,
+              1500,
+              2500,
+              5000,
+              -2000,
+              -3000,
+              -5500,
+              -4000,
+              -3500,
+              -2500,
+              -1500,
+              4000,
+              -2000,
+              -3000,
+              -1000,
+              1000
+            ]
+          }
+        ],
+        "figure_id": "85af3f83a558fb31",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2000",
+              "2001",
+              "2002",
+              "2003",
+              "2004",
+              "2005",
+              "2006",
+              "2007",
+              "2008",
+              "2009",
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -20000,
+              "max": 10000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              200,
+              100,
+              4000,
+              5000,
+              5500,
+              2500,
+              7000,
+              2500,
+              -13000,
+              -500,
+              4000,
+              5000,
+              6000,
+              4500,
+              -7000,
+              -5500,
+              -8000,
+              -13500,
+              -7000,
+              -5500,
+              4000,
+              -14500,
+              -10000,
+              -5500,
+              -1000
+            ]
+          }
+        ],
+        "figure_id": "ddffb84c9961f92e",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2000",
+              "2001",
+              "2002",
+              "2003",
+              "2004",
+              "2005",
+              "2006",
+              "2007",
+              "2008",
+              "2009",
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -12000,
+              "max": 10000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              200,
+              -200,
+              2800,
+              2900,
+              4300,
+              1600,
+              6200,
+              5900,
+              -9500,
+              1500,
+              1800,
+              2600,
+              7200,
+              2300,
+              5800,
+              -5900,
+              -4700,
+              -6800,
+              -9500,
+              -8200,
+              -7000,
+              5200,
+              -10000,
+              -4500,
+              -3000,
+              -2500
+            ]
+          }
+        ],
+        "figure_id": "99ad2ff314f2a4d3",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2000",
+              "2001",
+              "2002",
+              "2003",
+              "2004",
+              "2005",
+              "2006",
+              "2007",
+              "2008",
+              "2009",
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -2000,
+              "max": 5000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              0,
+              100,
+              150,
+              100,
+              200,
+              400,
+              3400,
+              4200,
+              -1100,
+              -600,
+              150,
+              400,
+              0,
+              650,
+              0,
+              -1100,
+              -1500,
+              -1700,
+              -1200,
+              100,
+              -1400,
+              -300,
+              -300,
+              -300,
+              -300,
+              -300
+            ]
+          }
+        ],
+        "figure_id": "3a897177e3768c39",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "4Q2003",
+              "3Q2004",
+              "2Q2005",
+              "1Q2006",
+              "4Q2006",
+              "3Q2007",
+              "2Q2008",
+              "1Q2009",
+              "4Q2009",
+              "3Q2010",
+              "2Q2011",
+              "1Q2012",
+              "4Q2012",
+              "3Q2013",
+              "2Q2014",
+              "1Q2015",
+              "4Q2015",
+              "3Q2016",
+              "2Q2017",
+              "1Q2018",
+              "4Q2018",
+              "3Q2019",
+              "2Q2020",
+              "1Q2021",
+              "4Q2021",
+              "3Q2022",
+              "2Q2023",
+              "1Q2024",
+              "4Q2024",
+              "3Q2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -6000,
+              "max": 10000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              700,
+              1200,
+              500,
+              1500,
+              4000,
+              2500,
+              -1000,
+              -1500,
+              5300,
+              3800,
+              8000,
+              -500,
+              -1500,
+              1000,
+              1500,
+              2300,
+              5000,
+              3800,
+              -3800,
+              -3000,
+              -1000,
+              200,
+              500,
+              -500,
+              -200,
+              300,
+              100,
+              -100,
+              -200,
+              100
+            ]
+          }
+        ],
+        "figure_id": "b268d76d6e1aeee5",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2000",
+              "2001",
+              "2002",
+              "2003",
+              "2004",
+              "2005",
+              "2006",
+              "2007",
+              "2008",
+              "2009",
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -14000,
+              "max": 8000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              200,
+              -500,
+              2500,
+              2000,
+              3200,
+              1700,
+              5500,
+              4000,
+              -11800,
+              -200,
+              1800,
+              800,
+              3800,
+              3000,
+              1800,
+              -6500,
+              -7200,
+              -8500,
+              -9500,
+              -6000,
+              -1000,
+              -500,
+              -7000,
+              -6000,
+              -4500,
+              -3000
+            ]
+          }
+        ],
+        "figure_id": "0b3b2c0cf35f477b",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2001",
+              "2002",
+              "2003",
+              "2004",
+              "2005",
+              "2006",
+              "2007",
+              "2008",
+              "2009",
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -25000,
+              "max": 20000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              -500,
+              4000,
+              5500,
+              7000,
+              2500,
+              9000,
+              5000,
+              -9500,
+              3000,
+              5000,
+              7000,
+              14500,
+              9000,
+              14000,
+              -5000,
+              500,
+              2500,
+              -18000,
+              -5000,
+              -9500,
+              15500,
+              -20000,
+              -11000,
+              -5000,
+              -1000
+            ]
+          }
+        ],
+        "figure_id": "fc296a55d26b3ed6",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1Q2000",
+              "1Q2001",
+              "1Q2002",
+              "1Q2003",
+              "1Q2004",
+              "1Q2005",
+              "1Q2006",
+              "1Q2007",
+              "1Q2008",
+              "1Q2009",
+              "1Q2010",
+              "1Q2011",
+              "1Q2012",
+              "1Q2013",
+              "1Q2014",
+              "1Q2015",
+              "1Q2016",
+              "1Q2017",
+              "1Q2018",
+              "1Q2019",
+              "1Q2020",
+              "1Q2021",
+              "1Q2022",
+              "1Q2023",
+              "1Q2024",
+              "1Q2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -16000,
+              "max": 6000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              100,
+              -13500,
+              -1000,
+              100,
+              100,
+              100,
+              100,
+              100,
+              -4500,
+              -2000,
+              -2000,
+              -2000,
+              -4500,
+              -2000,
+              -1000,
+              -2000,
+              -2000,
+              -2000,
+              -1000
+            ]
+          }
+        ],
+        "figure_id": "05dffd6fb5b084d0",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2004",
+              "2005",
+              "2006",
+              "2007",
+              "2008",
+              "2009",
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -10000,
+              "max": 20000
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              3500,
+              4200,
+              7800,
+              4500,
+              -1500,
+              9500,
+              12800,
+              17000,
+              1000,
+              2200,
+              4000,
+              8000,
+              14500,
+              -7500,
+              -6500,
+              -1000,
+              0,
+              -1800,
+              500,
+              300,
+              -500,
+              0
+            ]
+          }
+        ],
+        "figure_id": "aa28a37a90bf5cd5",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2000",
+              "2001",
+              "2002",
+              "2003",
+              "2004",
+              "2005",
+              "2006",
+              "2007",
+              "2008",
+              "2009",
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "$",
+            "range": {
+              "min": -2000,
+              "max": 2500
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "$",
+            "values": [
+              -100,
+              50,
+              100,
+              100,
+              100,
+              100,
+              1150,
+              2200,
+              450,
+              -200,
+              250,
+              450,
+              450,
+              800,
+              100,
+              -950,
+              -1400,
+              -1200,
+              -400,
+              150,
+              -1350,
+              -400,
+              -300,
+              -200,
+              -150,
+              -550
+            ]
+          }
+        ],
+        "figure_id": "dd78e0e2750ade75",
+        "provenance": {
+          "page": 6
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "eda60aa548ae823d",
+        "value": 385.4,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "unds (focused on REITs), global real estate funds and Japanese funds flows experienced outflows of \\$385.4mn last week.<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c3a7794867e03ae4",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d></td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic Real Estate Funds (Ex-ETF)</td><td>-0.1%</td><td>-0.4%</td><td></td><td>-1.4%</td><td>-6.6%</td><td>$43,084</td></tr><tr><td>Domestic R",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2649888fbcbf2ab9",
+        "value": -0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td></td><td></td></tr><tr><td>Domestic Real Estate Funds (Ex-ETF)</td><td>-0.1%</td><td>-0.4%</td><td></td><td>-1.4%</td><td>-6.6%</td><td>$43,084</td></tr><tr><td>Domestic Real Estate Fun",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ab5ce456418c12c2",
+        "value": -0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td></tr><tr><td>Domestic Real Estate Funds (Ex-ETF)</td><td>-0.1%</td><td>-0.4%</td><td></td><td>-1.4%</td><td>-6.6%</td><td>$43,084</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td>-0",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "59630baa8efe4efc",
+        "value": -0.066,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Domestic Real Estate Funds (Ex-ETF)</td><td>-0.1%</td><td>-0.4%</td><td></td><td>-1.4%</td><td>-6.6%</td><td>$43,084</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td>-0.4%</td><td>-0",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "aea1674bb20b6b18",
+        "value": -0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-1.4%</td><td>-6.6%</td><td>$43,084</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td>-0.4%</td><td>-0.1%</td><td></td><td>-0.7%</td><td>-2.8%</td><td>$87,858</td></tr><tr><td>Global Rea",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "fc976a1ccaa837eb",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-6.6%</td><td>$43,084</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td>-0.4%</td><td>-0.1%</td><td></td><td>-0.7%</td><td>-2.8%</td><td>$87,858</td></tr><tr><td>Global Real Estate Funds",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ef28fc3490ecc6eb",
+        "value": -0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td>-0.4%</td><td>-0.1%</td><td></td><td>-0.7%</td><td>-2.8%</td><td>$87,858</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-0.6%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4f5114730c58a8f6",
+        "value": -0.027999999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Domestic Real Estate Funds (ETF Inc)</td><td>-0.4%</td><td>-0.1%</td><td></td><td>-0.7%</td><td>-2.8%</td><td>$87,858</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-0.6%</td><td>-1.6%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4c6717246c8a752c",
+        "value": -0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>-0.7%</td><td>-2.8%</td><td>$87,858</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-0.6%</td><td>-1.6%</td><td></td><td>-5.5%</td><td>-24.6%</td><td>$1,753</td></tr><tr><td>Japan Real",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4e9586a8ead5120d",
+        "value": -0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>-2.8%</td><td>$87,858</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-0.6%</td><td>-1.6%</td><td></td><td>-5.5%</td><td>-24.6%</td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b7d081d982f9a1d3",
+        "value": -0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "858</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-0.6%</td><td>-1.6%</td><td></td><td>-5.5%</td><td>-24.6%</td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds</td><td>-0.1%</td><td>0",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1177b49d706c1601",
+        "value": -0.24600000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-0.6%</td><td>-1.6%</td><td></td><td>-5.5%</td><td>-24.6%</td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds</td><td>-0.1%</td><td>0.1%</td><td></",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "17e9493323657b29",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td></td><td>-5.5%</td><td>-24.6%</td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds</td><td>-0.1%</td><td>0.1%</td><td></td><td>-0.1%</td><td>-0.2%</td><td>$16,160</td></tr></table> MONTHLY Re",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7315b50e4d45f02d",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">-5.5%</td><td>-24.6%</td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds</td><td>-0.1%</td><td>0.1%</td><td></td><td>-0.1%</td><td>-0.2%</td><td>$16,160</td></tr></table> MONTHLY Reporters (As of",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "69bf700f8cb6ff21",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds</td><td>-0.1%</td><td>0.1%</td><td></td><td>-0.1%</td><td>-0.2%</td><td>$16,160</td></tr></table> MONTHLY Reporters (As of June) <table><tr><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9689df814fadc340",
+        "value": -0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>Japan Real Estate Funds</td><td>-0.1%</td><td>0.1%</td><td></td><td>-0.1%</td><td>-0.2%</td><td>$16,160</td></tr></table> MONTHLY Reporters (As of June) <table><tr><td>Domestic Real ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "52d97f2c06b0bd4f",
+        "value": -0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "MONTHLY Reporters (As of June) <table><tr><td>Domestic Real Estate Funds (Ex-ETF)</td><td></td><td>-0.3%</td><td>-0.5%</td><td>-1.1%</td><td>$124,045</td></tr><tr><td>Domestic Real Estate Funds (ETF I",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "88fe61b75671a7d9",
+        "value": -0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ers (As of June) <table><tr><td>Domestic Real Estate Funds (Ex-ETF)</td><td></td><td>-0.3%</td><td>-0.5%</td><td>-1.1%</td><td>$124,045</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td></",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c34a222abeb7169e",
+        "value": -0.011000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e) <table><tr><td>Domestic Real Estate Funds (Ex-ETF)</td><td></td><td>-0.3%</td><td>-0.5%</td><td>-1.1%</td><td>$124,045</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td></td><td>0.3%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "2fbeee575322187e",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-1.1%</td><td>$124,045</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td></td><td>0.3%</td><td>0.0%</td><td>-0.6%</td><td>$205,028</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c32fd14d0c2859b5",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>$124,045</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td></td><td>0.3%</td><td>0.0%</td><td>-0.6%</td><td>$205,028</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td></td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ef8eecee6ea7f042",
+        "value": -0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "45</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td></td><td>0.3%</td><td>0.0%</td><td>-0.6%</td><td>$205,028</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td></td><td>-10.2%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b6c8ee86d261d04c",
+        "value": -0.102,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>-0.6%</td><td>$205,028</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td></td><td>-10.2%</td><td>-17.1%</td><td>-18.3%</td><td>$2,202</td></tr></table> COMBINED Fund Flows (Weekly + ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "652470150acb09cc",
+        "value": -0.171,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>$205,028</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td></td><td>-10.2%</td><td>-17.1%</td><td>-18.3%</td><td>$2,202</td></tr></table> COMBINED Fund Flows (Weekly + Monthly Reporte",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "fc7de3054ef8af8e",
+        "value": -0.183,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td></td><td>-10.2%</td><td>-17.1%</td><td>-18.3%</td><td>$2,202</td></tr></table> COMBINED Fund Flows (Weekly + Monthly Reporters) <table><tr>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "41c57f69185792f8",
+        "value": -0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s (Weekly + Monthly Reporters) <table><tr><td>Domestic Real Estate Funds (Ex-ETF)</td><td></td><td>-0.7%</td><td>-2.5%</td><td>$167,128</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td></",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "fd6144f30ea25412",
+        "value": -0.025,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nthly Reporters) <table><tr><td>Domestic Real Estate Funds (Ex-ETF)</td><td></td><td>-0.7%</td><td>-2.5%</td><td>$167,128</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td></td><td>-0.2%</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "aa6989ec34e4f213",
+        "value": -0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-2.5%</td><td>$167,128</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td></td><td>-0.2%</td><td>-1.2%</td><td>$292,886</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td></td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "041bffc552362b68",
+        "value": -0.012,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>$167,128</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td></td><td>-0.2%</td><td>-1.2%</td><td>$292,886</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td></td><td>-12.2%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "bcd71d16eaaca4dc",
+        "value": -0.122,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>-1.2%</td><td>$292,886</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td></td><td>-12.2%</td><td>-21.2%</td><td>$3,955</td></tr></table> Source: Lipper<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1eff7ddd9bc811a6",
+        "value": -0.212,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>$292,886</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td></td><td>-12.2%</td><td>-21.2%</td><td>$3,955</td></tr></table> Source: Lipper<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1b620870bb13c596",
+        "value": 46.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "></td><td></td><td></td><td></td><td></td></tr><tr><td>Domestic Real Estate Funds (Ex-ETF)</td><td>-$46</td><td>-$180</td><td></td><td>-$602</td><td>-$2,883</td><td>$43,084</td></tr><tr><td>Domestic R",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "0203a3b28006d4a4",
+        "value": 180.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d><td></td><td></td><td></td></tr><tr><td>Domestic Real Estate Funds (Ex-ETF)</td><td>-$46</td><td>-$180</td><td></td><td>-$602</td><td>-$2,883</td><td>$43,084</td></tr><tr><td>Domestic Real Estate Fu",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "49638035391b7d6d",
+        "value": 602.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "></td></tr><tr><td>Domestic Real Estate Funds (Ex-ETF)</td><td>-$46</td><td>-$180</td><td></td><td>-$602</td><td>-$2,883</td><td>$43,084</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td>-",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "cf89a43a69b085b4",
+        "value": 2883.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><td>Domestic Real Estate Funds (Ex-ETF)</td><td>-$46</td><td>-$180</td><td></td><td>-$602</td><td>-$2,883</td><td>$43,084</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td>-$318</td><td>-",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f2c456eed42cdc06",
+        "value": 43084.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "eal Estate Funds (Ex-ETF)</td><td>-$46</td><td>-$180</td><td></td><td>-$602</td><td>-$2,883</td><td>$43,084</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td>-$318</td><td>-$95</td><td></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ed254a72de371715",
+        "value": 318.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "$602</td><td>-$2,883</td><td>$43,084</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td>-$318</td><td>-$95</td><td></td><td>-$599</td><td>-$2,412</td><td>$87,858</td></tr><tr><td>Global Rea",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ecf8f64ce032d4ba",
+        "value": 95.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "$2,883</td><td>$43,084</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td>-$318</td><td>-$95</td><td></td><td>-$599</td><td>-$2,412</td><td>$87,858</td></tr><tr><td>Global Real Estate Funds",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "761bf180015075af",
+        "value": 599.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "</td></tr><tr><td>Domestic Real Estate Funds (ETF Inc)</td><td>-$318</td><td>-$95</td><td></td><td>-$599</td><td>-$2,412</td><td>$87,858</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-$10",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f8c70606fbd33fdd",
+        "value": 2412.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>Domestic Real Estate Funds (ETF Inc)</td><td>-$318</td><td>-$95</td><td></td><td>-$599</td><td>-$2,412</td><td>$87,858</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-$10</td><td>-$28<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "502b3dff901cc8a0",
+        "value": 87858.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "al Estate Funds (ETF Inc)</td><td>-$318</td><td>-$95</td><td></td><td>-$599</td><td>-$2,412</td><td>$87,858</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-$10</td><td>-$28</td><td></td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "687db9abd1276d5d",
+        "value": 10.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>-$599</td><td>-$2,412</td><td>$87,858</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-$10</td><td>-$28</td><td></td><td>-$99</td><td>-$521</td><td>$1,753</td></tr><tr><td>Japan Real Esta",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "03fc93fdb9a1c296",
+        "value": 28.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td>-$2,412</td><td>$87,858</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-$10</td><td>-$28</td><td></td><td>-$99</td><td>-$521</td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a577a24065508be0",
+        "value": 99.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ",858</td></tr><tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-$10</td><td>-$28</td><td></td><td>-$99</td><td>-$521</td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds</td><td>-$12</td><td>$8</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "fc9ecd7ab5fa19ad",
+        "value": 521.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "><tr><td>Global Real Estate Funds (Ex-ETF)</td><td>-$10</td><td>-$28</td><td></td><td>-$99</td><td>-$521</td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds</td><td>-$12</td><td>$8</td><td></td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "cbcc23f86c6e073b",
+        "value": 1753.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "al Real Estate Funds (Ex-ETF)</td><td>-$10</td><td>-$28</td><td></td><td>-$99</td><td>-$521</td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds</td><td>-$12</td><td>$8</td><td></td><td>-$18</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "fae0852b91f24d77",
+        "value": 12.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td></td><td>-$99</td><td>-$521</td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds</td><td>-$12</td><td>$8</td><td></td><td>-$18</td><td>-$34</td><td>$16,160</td></tr><tr><td>MONTHLY Reporters",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "53a494041d97b652",
+        "value": 8.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "<td>-$99</td><td>-$521</td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds</td><td>-$12</td><td>$8</td><td></td><td>-$18</td><td>-$34</td><td>$16,160</td></tr><tr><td>MONTHLY Reporters (As of June",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c8bb460b43fdf61e",
+        "value": 18.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "1</td><td>$1,753</td></tr><tr><td>Japan Real Estate Funds</td><td>-$12</td><td>$8</td><td></td><td>-$18</td><td>-$34</td><td>$16,160</td></tr><tr><td>MONTHLY Reporters (As of June)</td><td></td><td></",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b7f48407e4bda5ad",
+        "value": 34.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "753</td></tr><tr><td>Japan Real Estate Funds</td><td>-$12</td><td>$8</td><td></td><td>-$18</td><td>-$34</td><td>$16,160</td></tr><tr><td>MONTHLY Reporters (As of June)</td><td></td><td></td><td></td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7f5e4d8c7dec77b6",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Real Estate Funds (Ex-ETF) </center> <center>Source: Lipper </center> QTD Change: - \\(602mn\\) (- 1.4% of assets at start)... YTD Change: - \\(2,883mn\\) (- 6.6% of assets at start)... ![Figure 3-1](ima",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "155af91443f62216",
+        "value": 0.066,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "per </center> QTD Change: - \\(602mn\\) (- 1.4% of assets at start)... YTD Change: - \\(2,883mn\\) (- 6.6% of assets at start)... ![Figure 3-1](images/3_1.jpg) <center>Figure 4: Weekly Reporters Annual Fl",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "2935794479b5f56b",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "sents 2025 flows. ## Domestic real estate funds (ex-ETF) Monthly inflows / outflows: - \\$420mn (- 0.3% of assets) QTD Change: - \\$582mn (- 0.5% of assets at start of period) YTD Change: - \\$1,335mn (-",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "accf45112e96fe12",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "funds (ex-ETF) Monthly inflows / outflows: - \\$420mn (- 0.3% of assets) QTD Change: - \\$582mn (- 0.5% of assets at start of period) YTD Change: - \\$1,335mn (- 1.1% of assets at start of period) Domes",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "db8957053aef62a6",
+        "value": 0.011000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "of assets) QTD Change: - \\$582mn (- 0.5% of assets at start of period) YTD Change: - \\$1,335mn (- 1.1% of assets at start of period) Domestic real estate fund assets: \\$124.0bn, up from \\$121.6 at YE ",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "dcd318d2473f3dec",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "$121.6 at YE '24 ## Domestic real estate funds (ETFs Only) Monthly inflows / outflows: - \\$566mn (0.3% of assets) QTD Change: \\$24mn (0.0% of assets at start of period) YTD Change: - \\$1,135mn (- 0.6%",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "76c1e51cd3fd3fba",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tate funds (ETFs Only) Monthly inflows / outflows: - \\$566mn (0.3% of assets) QTD Change: \\$24mn (0.0% of assets at start of period) YTD Change: - \\$1,135mn (- 0.6% of assets at start of period) Domes",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "775579edaa3e9d28",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0.3% of assets) QTD Change: \\$24mn (0.0% of assets at start of period) YTD Change: - \\$1,135mn (- 0.6% of assets at start of period) Domestic real estate fund assets: \\$205.0bn, up from \\$200.7bn at Y",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "e2b9bd244224cc25",
+        "value": 0.102,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "up from \\$200.7bn at YE '24 ## Global real estate funds Monthly inflows / outflows: - \\$247mn (- 10.2% of assets) QTD Change: - \\$423mn (- 17.1% of assets at start of period) YTD Change: - \\$453mn (-",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "2e4578909c5d79ed",
+        "value": 0.171,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "l estate funds Monthly inflows / outflows: - \\$247mn (- 10.2% of assets) QTD Change: - \\$423mn (- 17.1% of assets at start of period) YTD Change: - \\$453mn (- 18.3% of assets at start of period) Domes",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "1100b5b4d34e6b2c",
+        "value": 0.183,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "of assets) QTD Change: - \\$423mn (- 17.1% of assets at start of period) YTD Change: - \\$453mn (- 18.3% of assets at start of period) Domestic real estate fund assets: \\$2.2bn, down from \\$2.5 at YE '2",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "0f5d7722cda66e4b",
+        "value": 420.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "YTD represents 2025 flows. ## Domestic real estate funds (ex-ETF) Monthly inflows / outflows: - \\$420mn (- 0.3% of assets) QTD Change: - \\$582mn (- 0.5% of assets at start of period) YTD Change: - \\$",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "0456fd968b7204d2",
+        "value": 582.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "eal estate funds (ex-ETF) Monthly inflows / outflows: - \\$420mn (- 0.3% of assets) QTD Change: - \\$582mn (- 0.5% of assets at start of period) YTD Change: - \\$1,335mn (- 1.1% of assets at start of per",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "d6a3164b4827c870",
+        "value": 1335.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "0mn (- 0.3% of assets) QTD Change: - \\$582mn (- 0.5% of assets at start of period) YTD Change: - \\$1,335mn (- 1.1% of assets at start of period) Domestic real estate fund assets: \\$124.0bn, up from \\$",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "00ac76a6b877d837",
+        "value": 124.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "YTD Change: - \\$1,335mn (- 1.1% of assets at start of period) Domestic real estate fund assets: \\$124.0bn, up from \\$121.6 at YE '24 ## Domestic real estate funds (ETFs Only) Monthly inflows / outflow",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "655e7ab202290fd7",
+        "value": 121.6,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ",335mn (- 1.1% of assets at start of period) Domestic real estate fund assets: \\$124.0bn, up from \\$121.6 at YE '24 ## Domestic real estate funds (ETFs Only) Monthly inflows / outflows: - \\$566mn (0.3",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "8ef4100ea32a76b8",
+        "value": 566.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "p from \\$121.6 at YE '24 ## Domestic real estate funds (ETFs Only) Monthly inflows / outflows: - \\$566mn (0.3% of assets) QTD Change: \\$24mn (0.0% of assets at start of period) YTD Change: - \\$1,135mn",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "2aa491b2986960a6",
+        "value": 24.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "real estate funds (ETFs Only) Monthly inflows / outflows: - \\$566mn (0.3% of assets) QTD Change: \\$24mn (0.0% of assets at start of period) YTD Change: - \\$1,135mn (- 0.6% of assets at start of period",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "18af0d02aa8a17e0",
+        "value": 1135.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "- \\$566mn (0.3% of assets) QTD Change: \\$24mn (0.0% of assets at start of period) YTD Change: - \\$1,135mn (- 0.6% of assets at start of period) Domestic real estate fund assets: \\$205.0bn, up from \\$2",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "0bd8a53ef38164d4",
+        "value": 205.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "YTD Change: - \\$1,135mn (- 0.6% of assets at start of period) Domestic real estate fund assets: \\$205.0bn, up from \\$200.7bn at YE '24 ## Global real estate funds Monthly inflows / outflows: - \\$247mn",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "7c5cc3d476cba0fa",
+        "value": 200.7,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ",135mn (- 0.6% of assets at start of period) Domestic real estate fund assets: \\$205.0bn, up from \\$200.7bn at YE '24 ## Global real estate funds Monthly inflows / outflows: - \\$247mn (- 10.2% of asse",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "b22042fffba3c861",
+        "value": 247.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "\\$205.0bn, up from \\$200.7bn at YE '24 ## Global real estate funds Monthly inflows / outflows: - \\$247mn (- 10.2% of assets) QTD Change: - \\$423mn (- 17.1% of assets at start of period) YTD Change: -",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "7e83ab7b720bf825",
+        "value": 423.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "Global real estate funds Monthly inflows / outflows: - \\$247mn (- 10.2% of assets) QTD Change: - \\$423mn (- 17.1% of assets at start of period) YTD Change: - \\$453mn (- 18.3% of assets at start of per",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "4351958365fe7e0d",
+        "value": 453.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "n (- 10.2% of assets) QTD Change: - \\$423mn (- 17.1% of assets at start of period) YTD Change: - \\$453mn (- 18.3% of assets at start of period) Domestic real estate fund assets: \\$2.2bn, down from \\$2",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "bc166fb515152f83",
+        "value": 2.2,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ") YTD Change: - \\$453mn (- 18.3% of assets at start of period) Domestic real estate fund assets: \\$2.2bn, down from \\$2.5 at YE '24<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "cf7e6873784f82bb",
+        "value": 2.5,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "453mn (- 18.3% of assets at start of period) Domestic real estate fund assets: \\$2.2bn, down from \\$2.5 at YE '24<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "num_id": "58380d3382c4e7f1",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "QTD Change: \\(\\) 24m n(0.0\\%\\$ of assets at start of period)... YTD Change: \\(- \\$ 1,135m n\\) (- 0.6% of assets at start of period)... ![Figure 9-1](images/9_1.jpg) <center>Figure 14: Monthly Reporte",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "num_id": "aa2e5e9f9e5b5195",
+        "value": 1135.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "search </center> QTD Change: \\(\\) 24m n(0.0\\%\\$ of assets at start of period)... YTD Change: \\(- \\$ 1,135m n\\) (- 0.6% of assets at start of period)... ![Figure 9-1](images/9_1.jpg) <center>Figure 14:",
+        "provenance": {
+          "page": 9
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 13,
+      "tables_count": 0,
+      "numerical_data_count": 79,
+      "passages_count": 83,
+      "entities_count": 20
+    }
+  }
+}

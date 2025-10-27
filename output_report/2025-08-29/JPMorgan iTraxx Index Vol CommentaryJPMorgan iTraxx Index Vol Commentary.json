@@ -1,0 +1,851 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "d49a22db6be05679945965fda9471002",
+    "title": "JPMorgan iTraxx Index Vol Commentary",
+    "source_uri": "2025-08-29/JPMorgan iTraxx Index Vol CommentaryJPMorgan iTraxx Index Vol Commentary_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:33:22.011310",
+      "extracted_at": "2025-10-27T00:33:22.011323"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 4,
+        "successful_pages": 4,
+        "date": "2025-08-29",
+        "publication": "2025-08-29",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 0,
+          "removed_paragraphs": 1,
+          "reduction_ratio": 0.02328997062526228
+        },
+        "input_relative_path": "2025-08-29"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "85692a18700f372f",
+      "text": "All eyes on French politics this week as Main moved with OAT- Bund accordingly throughout the week. Fixed- strike vol was up \\(3 - 5\\%\\) on the week and most of it was from Sep & Oct. Gamma was better bid in the first half of the week on the back of the rates selloff and we saw both outright buying and short covering of downside in front months. Receivers however continued to see selling pressure after vol moved higher. Later into the weekend we started to see sellers back in ATM gamma, which was met with street's strong bids as they covered shorts. There was also buying of cheap upside via fly and ratio as spreads reached local wides. Both term structure and skew steepened a touch on the week. Noteworthy credit underperformed equity in both linear and vol format as credit vol now screens rich to equity and iTRAXX looks wide to Eurostoxx.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3fff99254de1d882",
+      "text": "Table 1: Main and XO 3M Vol Summary",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "8e29ee6bb3be3853",
+      "text": "MainTodayCoDCoWXoverTodayCoDCoW3M ATM51.03%-0.10%4.44%3M ATM47.35%-1.31%2.37%25-50d Rec Skew8.08%-0.06%0.68%25-50d Rec Skew6.41%-0.26%0.20%25-50d Pay Skew14.82%-0.21%0.50%25-50d Pay Skew11.29%-0.39%0.04%10-25-50d Pay Fly7.02%1.34%0.75%10-25-50d Pay Fly-1.49%-3.59%-4.00%1M-3M Term Structure1.83%1.96%-2.24%1M-3M Term Structure2.25%2.22%-1.80%",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3dfe1e32d41e019c",
+      "text": "(Data Source: J.P. Morgan)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "888a4782319401d2",
+      "text": "Table 2: Fixed-strike Vol Change of Day",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "8e17be03715e705a",
+      "text": "Main StrikesSepOctNovDecXO StrikesSepOctNovDec450.00%0.00%0.00%0.00%212.50.00%0.00%0.00%500.00%0.00%0.00%0.00%237.50.00%0.00%0.00%550.00%0.00%0.00%0.00%262.50.00%0.00%0.00%600.00%0.00%0.00%0.00%287.50.00%0.00%0.00%650.00%0.00%0.00%0.00%312.50.00%0.00%0.00%700.00%0.00%0.00%0.00%337.50.00%0.00%0.00%750.00%0.00%0.00%0.00%362.50.00%0.00%0.00%",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "f4281ad578ca6ff4",
+      "text": "(Data Source: J.P. Morgan)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "06a1e5f5c2a8bd31",
+      "text": "Table 3: Asset 3M IV - #Contracts 100mm Main Options Could Buy",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "ab8e9a19c12e61db",
+      "text": "IndexATM25d Rec25d PayMain (€mm)100100100XO (€mm)232323IG (€mm)141132146HY (€mm)313129SX5E (contract)151193236SPX (contract)171918",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "a2fc853753aa1e63",
+      "text": "* data from last business day, fx adjusted",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d4e430d46eb9a26f",
+      "text": "(Data Source: J.P. Morgan)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "0bb4fb630b19e459",
+      "text": "Table 4: Implied Beta vs. Realised Beta 3M Lookback",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "25c4caa030a2ab30",
+      "text": "* Higher number indicates more expensive vol using Main as benchmark\n(Data Source: J.P. Morgan)",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "782ee1b25d1dd17d",
+      "text": "Table 5: Bigger Picture",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ec034c67e40ea044",
+      "text": "Sales & Trading 29 August 2025",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a5bf1abf53393b11",
+      "text": "FOR INSTITUTIONAL & PROFESSIONAL CLIENTS ONLY - This message has been prepared by J.P. Morgan Sales and Trading personnel and is not the product of J.P. Morgan's Research Department. It is not a research report and is not intended as such. It is a \"solicitation\" only as that term is used within CFTC Rule 1.71 and 23.605. Where this message is an \"investment recommendation\" as that term is defined in MAR visit: www.jpmn.com/#mardisclosures. This message is subject to terms at: www.jpmorgan.com/salesandtradingdisclaimer.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "cc8369d24a0a5b77",
+      "text": "Completed 29 Aug 2025 05:16 PM BST",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "73ea9ad6f1b3642b",
+      "text": "Disseminated 29 Aug 2025 05:16 PM BST",
+      "page": 3,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "18055b570ef4435a",
+      "name": "Bigger Picture",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "69c49b1df234a9a7",
+      "name": "CFTC Rule",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c99d7e5b179b4b51",
+      "name": "Could Buy",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "338880c2c81f2a9d",
+      "name": "Data Source",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "50b1ef75de5e89f1",
+      "name": "EOD Commentary",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a817939a75b92160",
+      "name": "Implied Beta",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "be67c089ee78cff5",
+      "name": "Index Vol",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6e40835f0518a5d9",
+      "name": "Main Options",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3ccad5bf9294eb0f",
+      "name": "Main Strikes",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ce9c89addc02f878",
+      "name": "Morgan\n\nFOR",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98d698b63f9773e9",
+      "name": "Morgan Sales",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f2094519281a288e",
+      "name": "Pay Fly",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d07e9ba6ec98a29c",
+      "name": "Pay Skew",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a42268bae3418bb5",
+      "name": "Realised Beta",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "10cdb501d277f551",
+      "name": "Rec Skew",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3385d45bd0ed7566",
+      "name": "Research Department",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "869fe97d50b26ae0",
+      "name": "Term Structure",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e3b0ea895a48e9f7",
+      "name": "Vol Change",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e0604c5410e5ab38",
+      "name": "Vol Summary",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1afe80487887a09e",
+      "name": "XO Strikes",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "heatmap",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "ATM",
+              "25d Rec",
+              "25d Pay"
+            ]
+          },
+          "y": {
+            "type": "category",
+            "labels": [
+              "MAIN",
+              "XO",
+              "IG",
+              "HY",
+              "SX5E",
+              "SPX"
+            ]
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              [
+                1.0,
+                1.0,
+                1.0
+              ],
+              [
+                0.95,
+                0.97,
+                0.98
+              ],
+              [
+                0.85,
+                0.91,
+                0.87
+              ],
+              [
+                0.77,
+                0.77,
+                0.82
+              ],
+              [
+                0.68,
+                0.34,
+                0.41
+              ],
+              [
+                0.35,
+                0.57,
+                0.74
+              ]
+            ]
+          }
+        ],
+        "figure_id": "9ccde9d1a48cad28",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "53a47b06765a25d5",
+        "value": 0.5103,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "CoD</td><td>CoW</td><td>Xover</td><td>Today</td><td>CoD</td><td>CoW</td></tr><tr><td>3M ATM</td><td>51.03%</td><td>-0.10%</td><td>4.44%</td><td>3M ATM</td><td>47.35%</td><td>-1.31%</td><td>2.37%</td><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "07f39e97474d4db8",
+        "value": -0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>Xover</td><td>Today</td><td>CoD</td><td>CoW</td></tr><tr><td>3M ATM</td><td>51.03%</td><td>-0.10%</td><td>4.44%</td><td>3M ATM</td><td>47.35%</td><td>-1.31%</td><td>2.37%</td></tr><tr><td>25-",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "444b0fb0199907cb",
+        "value": 0.0444,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Today</td><td>CoD</td><td>CoW</td></tr><tr><td>3M ATM</td><td>51.03%</td><td>-0.10%</td><td>4.44%</td><td>3M ATM</td><td>47.35%</td><td>-1.31%</td><td>2.37%</td></tr><tr><td>25-50d Rec Skew</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "68a71199ed1cfb3c",
+        "value": 0.47350000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>CoW</td></tr><tr><td>3M ATM</td><td>51.03%</td><td>-0.10%</td><td>4.44%</td><td>3M ATM</td><td>47.35%</td><td>-1.31%</td><td>2.37%</td></tr><tr><td>25-50d Rec Skew</td><td>8.08%</td><td>-0.06%</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ec9ab507312025b9",
+        "value": -0.0131,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>3M ATM</td><td>51.03%</td><td>-0.10%</td><td>4.44%</td><td>3M ATM</td><td>47.35%</td><td>-1.31%</td><td>2.37%</td></tr><tr><td>25-50d Rec Skew</td><td>8.08%</td><td>-0.06%</td><td>0.68%</td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "f4b01d00ab31a6f1",
+        "value": 0.023700000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "TM</td><td>51.03%</td><td>-0.10%</td><td>4.44%</td><td>3M ATM</td><td>47.35%</td><td>-1.31%</td><td>2.37%</td></tr><tr><td>25-50d Rec Skew</td><td>8.08%</td><td>-0.06%</td><td>0.68%</td><td>25-50d Rec",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "8c4b923a92f51291",
+        "value": 0.0808,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>3M ATM</td><td>47.35%</td><td>-1.31%</td><td>2.37%</td></tr><tr><td>25-50d Rec Skew</td><td>8.08%</td><td>-0.06%</td><td>0.68%</td><td>25-50d Rec Skew</td><td>6.41%</td><td>-0.26%</td><td>0.20",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "fa2b2df02616072c",
+        "value": -0.0006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>47.35%</td><td>-1.31%</td><td>2.37%</td></tr><tr><td>25-50d Rec Skew</td><td>8.08%</td><td>-0.06%</td><td>0.68%</td><td>25-50d Rec Skew</td><td>6.41%</td><td>-0.26%</td><td>0.20%</td></tr><tr",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "755f05c7e1bb6329",
+        "value": 0.0068000000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>-1.31%</td><td>2.37%</td></tr><tr><td>25-50d Rec Skew</td><td>8.08%</td><td>-0.06%</td><td>0.68%</td><td>25-50d Rec Skew</td><td>6.41%</td><td>-0.26%</td><td>0.20%</td></tr><tr><td>25-50d Pay",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "29e26eac1d8e96e0",
+        "value": 0.0641,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>25-50d Rec Skew</td><td>8.08%</td><td>-0.06%</td><td>0.68%</td><td>25-50d Rec Skew</td><td>6.41%</td><td>-0.26%</td><td>0.20%</td></tr><tr><td>25-50d Pay Skew</td><td>14.82%</td><td>-0.21%</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "b2c0a5d4697f5115",
+        "value": -0.0026,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d Rec Skew</td><td>8.08%</td><td>-0.06%</td><td>0.68%</td><td>25-50d Rec Skew</td><td>6.41%</td><td>-0.26%</td><td>0.20%</td></tr><tr><td>25-50d Pay Skew</td><td>14.82%</td><td>-0.21%</td><td>0.50%</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "bbeccc96a694a402",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>8.08%</td><td>-0.06%</td><td>0.68%</td><td>25-50d Rec Skew</td><td>6.41%</td><td>-0.26%</td><td>0.20%</td></tr><tr><td>25-50d Pay Skew</td><td>14.82%</td><td>-0.21%</td><td>0.50%</td><td>25-50d Pa",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7f8047e8bc7a344d",
+        "value": 0.1482,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "25-50d Rec Skew</td><td>6.41%</td><td>-0.26%</td><td>0.20%</td></tr><tr><td>25-50d Pay Skew</td><td>14.82%</td><td>-0.21%</td><td>0.50%</td><td>25-50d Pay Skew</td><td>11.29%</td><td>-0.39%</td><td>0.",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "1693525e85f474e1",
+        "value": -0.0021,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>6.41%</td><td>-0.26%</td><td>0.20%</td></tr><tr><td>25-50d Pay Skew</td><td>14.82%</td><td>-0.21%</td><td>0.50%</td><td>25-50d Pay Skew</td><td>11.29%</td><td>-0.39%</td><td>0.04%</td></tr><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "8ddac6d6b08088a6",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>-0.26%</td><td>0.20%</td></tr><tr><td>25-50d Pay Skew</td><td>14.82%</td><td>-0.21%</td><td>0.50%</td><td>25-50d Pay Skew</td><td>11.29%</td><td>-0.39%</td><td>0.04%</td></tr><tr><td>10-25-50d",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "53d49238a2780340",
+        "value": 0.11289999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>25-50d Pay Skew</td><td>14.82%</td><td>-0.21%</td><td>0.50%</td><td>25-50d Pay Skew</td><td>11.29%</td><td>-0.39%</td><td>0.04%</td></tr><tr><td>10-25-50d Pay Fly</td><td>7.02%</td><td>1.34%</",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "23d6194a39bcd825",
+        "value": -0.0039000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Pay Skew</td><td>14.82%</td><td>-0.21%</td><td>0.50%</td><td>25-50d Pay Skew</td><td>11.29%</td><td>-0.39%</td><td>0.04%</td></tr><tr><td>10-25-50d Pay Fly</td><td>7.02%</td><td>1.34%</td><td>0.75%</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e61e6a5acf81ee43",
+        "value": 0.0004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>14.82%</td><td>-0.21%</td><td>0.50%</td><td>25-50d Pay Skew</td><td>11.29%</td><td>-0.39%</td><td>0.04%</td></tr><tr><td>10-25-50d Pay Fly</td><td>7.02%</td><td>1.34%</td><td>0.75%</td><td>10-25-50d",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c375fdcbfa4dbdf7",
+        "value": 0.0702,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "50d Pay Skew</td><td>11.29%</td><td>-0.39%</td><td>0.04%</td></tr><tr><td>10-25-50d Pay Fly</td><td>7.02%</td><td>1.34%</td><td>0.75%</td><td>10-25-50d Pay Fly</td><td>-1.49%</td><td>-3.59%</td><td>-4",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "507dcc8e82377f22",
+        "value": 0.0134,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>11.29%</td><td>-0.39%</td><td>0.04%</td></tr><tr><td>10-25-50d Pay Fly</td><td>7.02%</td><td>1.34%</td><td>0.75%</td><td>10-25-50d Pay Fly</td><td>-1.49%</td><td>-3.59%</td><td>-4.00%</td></tr>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d61774fe18e59691",
+        "value": 0.0075,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>-0.39%</td><td>0.04%</td></tr><tr><td>10-25-50d Pay Fly</td><td>7.02%</td><td>1.34%</td><td>0.75%</td><td>10-25-50d Pay Fly</td><td>-1.49%</td><td>-3.59%</td><td>-4.00%</td></tr><tr><td>1M-3M ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "752e382f47f8a0e1",
+        "value": -0.0149,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><td>10-25-50d Pay Fly</td><td>7.02%</td><td>1.34%</td><td>0.75%</td><td>10-25-50d Pay Fly</td><td>-1.49%</td><td>-3.59%</td><td>-4.00%</td></tr><tr><td>1M-3M Term Structure</td><td>1.83%</td><td>1.9",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d40cbb6d2ce8611b",
+        "value": -0.0359,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Pay Fly</td><td>7.02%</td><td>1.34%</td><td>0.75%</td><td>10-25-50d Pay Fly</td><td>-1.49%</td><td>-3.59%</td><td>-4.00%</td></tr><tr><td>1M-3M Term Structure</td><td>1.83%</td><td>1.96%</td><td>-2.24",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "2f62ced3c2df986f",
+        "value": -0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>7.02%</td><td>1.34%</td><td>0.75%</td><td>10-25-50d Pay Fly</td><td>-1.49%</td><td>-3.59%</td><td>-4.00%</td></tr><tr><td>1M-3M Term Structure</td><td>1.83%</td><td>1.96%</td><td>-2.24%</td><td>1M-3",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ea0db88a9e8aadc6",
+        "value": 0.0183,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Pay Fly</td><td>-1.49%</td><td>-3.59%</td><td>-4.00%</td></tr><tr><td>1M-3M Term Structure</td><td>1.83%</td><td>1.96%</td><td>-2.24%</td><td>1M-3M Term Structure</td><td>2.25%</td><td>2.22%</td><td>-",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "2e164c75a4f9e810",
+        "value": 0.0196,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>-1.49%</td><td>-3.59%</td><td>-4.00%</td></tr><tr><td>1M-3M Term Structure</td><td>1.83%</td><td>1.96%</td><td>-2.24%</td><td>1M-3M Term Structure</td><td>2.25%</td><td>2.22%</td><td>-1.80%</td></t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "3e607b434b2cf9dd",
+        "value": -0.022400000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-3.59%</td><td>-4.00%</td></tr><tr><td>1M-3M Term Structure</td><td>1.83%</td><td>1.96%</td><td>-2.24%</td><td>1M-3M Term Structure</td><td>2.25%</td><td>2.22%</td><td>-1.80%</td></tr></table> (Da",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c84c533f43248f36",
+        "value": 0.0225,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "M-3M Term Structure</td><td>1.83%</td><td>1.96%</td><td>-2.24%</td><td>1M-3M Term Structure</td><td>2.25%</td><td>2.22%</td><td>-1.80%</td></tr></table> (Data Source: J.P. Morgan) Table 2: Fixed-strik",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e1e5a75c03bd40a7",
+        "value": 0.0222,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "cture</td><td>1.83%</td><td>1.96%</td><td>-2.24%</td><td>1M-3M Term Structure</td><td>2.25%</td><td>2.22%</td><td>-1.80%</td></tr></table> (Data Source: J.P. Morgan) Table 2: Fixed-strike Vol Change o",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "16ff0790a7fc8771",
+        "value": -0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1.83%</td><td>1.96%</td><td>-2.24%</td><td>1M-3M Term Structure</td><td>2.25%</td><td>2.22%</td><td>-1.80%</td></tr></table> (Data Source: J.P. Morgan) Table 2: Fixed-strike Vol Change of Day <table><",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "78fb59080d53400b",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Dec</td><td>XO Strikes</td><td>Sep</td><td>Oct</td><td>Nov</td><td>Dec</td></tr><tr><td>45</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>212.5</td><td>0.00%</td><td>0.00%</td><td>0.",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "f0e12f96be7f6bf3",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "O Strikes</td><td>Sep</td><td>Oct</td><td>Nov</td><td>Dec</td></tr><tr><td>45</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>212.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "bc8e6c6a3919be6b",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Sep</td><td>Oct</td><td>Nov</td><td>Dec</td></tr><tr><td>45</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>212.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "b1f53a2ce97bec94",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Oct</td><td>Nov</td><td>Dec</td></tr><tr><td>45</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>212.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>50</td><td>0",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5fad37e73ea5027d",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "c</td></tr><tr><td>45</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>212.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>50</td><td>0.00%</td><td>0.00%</td><td>0",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e2bf71e52e574851",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>45</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>212.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>50</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "215dddf4f680597d",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>212.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>50</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>2",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "a468e10f0273f686",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0.00%</td><td>212.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>50</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>237.5</td><td>0.00%</td><td>0.00%</td><td>0.",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7b0646b6627be243",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">212.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>50</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>237.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7beff8fae96bc1ef",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>50</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>237.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "982a8cb5b0eb41f4",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0.00%</td><td>0.00%</td><td></td></tr><tr><td>50</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>237.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>55</td><td>0",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "64fa19417266bb0e",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td></tr><tr><td>50</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>237.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>55</td><td>0.00%</td><td>0.00%</td><td>0",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "afa8044aec53a6cd",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>50</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>237.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>55</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "215dddf4f680597d",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>237.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>55</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>2",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "af48ff0544a00152",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0.00%</td><td>237.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>55</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>262.5</td><td>0.00%</td><td>0.00%</td><td>0.",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "2736e334f0948077",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">237.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>55</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>262.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7beff8fae96bc1ef",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>55</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>262.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "982a8cb5b0eb41f4",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0.00%</td><td>0.00%</td><td></td></tr><tr><td>55</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>262.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>60</td><td>0",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "304437e533d00de7",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td></tr><tr><td>55</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>262.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>60</td><td>0.00%</td><td>0.00%</td><td>0",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "8390368ad86fc778",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>55</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>262.5</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td></td></tr><tr><td>60</td><td>0.00%</td><td>0.00%</td><td>0.00%</td><td>0",
+        "provenance": {
+          "page": 0
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 1,
+      "tables_count": 0,
+      "numerical_data_count": 50,
+      "passages_count": 18,
+      "entities_count": 20
+    }
+  }
+}

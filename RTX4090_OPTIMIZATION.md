@@ -106,7 +106,7 @@ MAX_CONCURRENT_API_CALLS = 12 # 3倍API并发
 │           └── 0_1.jpg
 ├── output_report/           # JSON报告（新增）
 │   └── {pdf_name}/
-│       ├── {pdf_name}_final.json
+│       ├── {pdf_name}.json
 │       └── {pdf_name}_template.json
 └── temp_processing/         # 临时文件
 ```
@@ -337,7 +337,7 @@ ls -lh output_results/
 ls -lh output_report/
 
 # 验证JSON格式
-python -m json.tool output_report/test/test_final.json
+python -m json.tool output_report/test/test.json
 ```
 
 ---

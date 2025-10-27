@@ -1,0 +1,2398 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "304da89739c0e659ff91df25bf01bee5",
+    "title": "India Strategy",
+    "source_uri": "2025-08-28/AI vs Human How to Use LLMsAI vs Human How to Use LLMs_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:28:34.181751",
+      "extracted_at": "2025-10-26T11:28:34.181766"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 26,
+        "successful_pages": 26,
+        "date": "2025-08-28",
+        "publication": "2025-08-28",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 0,
+          "removed_paragraphs": 5,
+          "reduction_ratio": 0.018433227742580827
+        },
+        "input_relative_path": "2025-08-28"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "ddce13d20f89f734",
+      "text": "How should one use AI? This is the central question that arises when deploying Al across industries, which we will also discuss in our upcoming conference. This topic extends well beyond the realms of finance, so in this note, we discuss examples from other industries while illustrating a simple approach to using LLMs within our industry - a starting point for understanding how these models can be leveraged across sectors.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "5d1bf9bdb735eee2",
+      "text": "Foundation models, particularly large language models (LLMs), form the backbone of many front- end Al platforms. At the same time, we are witnessing the rise of vertical platforms, trained on tailored datasets to address sectoral use cases. As a result, the applications of Al - and the models best suited for each - naturally differ across industries. For instance, an Al agent in a recruitment platform is optimized and trained very differently from Al systems designed for drug discovery, or industrial automation solutions. Each vertical requires domain- specific knowledge, data, and training approaches to ensure meaningful outputs. All of these application areas will feature in the upcoming Bernstein AI Conference this September, where we will explore the broader theme: How can Al be used? This report, however, focuses more narrowly on our own industry. We aim to present a perspective on how Al can be deployed effectively within our sector, highlighting both opportunities and practical considerations.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "207d20204b6bdce6",
+      "text": "Deployability of Al: Starting off from our own industry, one of the first things that strikes us is the sheer level of customization required in almost every aspect of the work. Unlike many process Industries where standardized frameworks can be applied, and public data is rampant and sufficient, our field relies heavily on the use of \"walled data\" - customized data sets, subscription based data that can't be distributed (or used in Al) on- the- ground- data and qualitative judgment - the very skill that differentiates one sell- side analyst from another or enables a fund manager to outperform peers. Historically, these frameworks have never been fully productized. Instead, much of the know- how within firms has been implicitly transferred across generations: through mentorship, shared practices, and accumulated experience. If we take a step back and outline even a simple perspective on the role of an analyst, we observe that certain steps in the workflow lend themselves to enhancement. Specifically, the pace of progress can be improved through smart search capabilities - even if not full- fledged Al.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "9fcfd71143bf20c4",
+      "text": "Where to use AI? In our previous report we suggest that - Al can't be used in building end- to- end industry models or company models due to lack of data and insights and at best can automate them through custom code but not on a standardized basis. What Al can do is collect a large amount of information and synthesize information to present summary insights. Understanding where Al can provide data will also be critical as some sectors will have prevalence of larger public data sets (say macro) while an emerging sector in an emerging market will be the most challenging to tackle. From our specific context - we believe that Al can most naturally help in information gathering and synthesis, the rest depends on the human employing it. Hence, the next natural step is to learn prompting.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "2669a712db617964",
+      "text": "Our previous study (report) was under the pretext of homogenised prompts resulting in heterogenous responses. We fed the exact same prompt to every LLM to check how would the absence of analyst (who could refine those prompts as per the answer received) change the scenarios. Now we drop that pretext. Assume an expert is present with the Al, and can provide real time feedback loop to trigger the LLMs to refine their responses. Does it improve performance? And by how much? That's what we set out to find further in this note.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "8c0c03fa68f58f0d",
+      "text": "Prompts - the powerhouse of Al: Prompts do matter, and as effects pile up, they tend to have a butterfly effect on final results. Studies show even minor changes like whitespaces or \"Hello\" in the prompts change up to \\(7\\%\\) of the responses with a zero temperature (randomness) setting (Exhibit 3). Prompt engineering is a field in itself, and different prompts tend to have differing effectiveness for varied queries (we've summarized the effective ones in Exhibit 13). Many studies note that as an expert provides more information around his questions and properly structures the prompt, the accuracy of responses is found to increase. Given this result, feeding as much info as possible to the Al may sound like a tempting idea, but it isn't. Overloading queries with excessive, often non- essential details - a phenomenon known as \"prompt bloat\" - is known to actually harm the responses. Research shows this digital noise distracts the Al, causing it to focus on less relevant aspects, leading to a measurable \\(- 8\\%\\) dip in effectiveness in the cases we tracked. This makes the role of experts all the more important.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "31504084325dade9",
+      "text": "This led us to retest the Al responses from our previous report. Since we drop the pretext and assume a human- Al collaboration, how much can we improve the responses? Our assessment suggests an improvement in results in some areas through structured prompts and using iterative queries with feedback mechanism. Giving list of analytical parameters to an LLM and directing its thought process by telling it what to consider not only results in a deeper analysis, but also improves results. The data synthesis part is enhanced further, seemingly surpassing human abilities. However, this generation still remains weak. One can spend infinite time here and continue improving the answers, but marginal gains diminish.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "737f1bf9a79b7439",
+      "text": "This prompt- query combination is so powerful that studies in medical science demonstrate that Al guided by hyper- sensitive prompts have achieved precision and recall rates surpassing those of trained human experts. Of course, these prompts often need a human to refine on case basis. Hence, mastering the art of prompts is key to unlocking the superhuman powers of Al.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "92bbfd8c92d70a13",
+      "text": "Overall, our analysis yields that with appropriate human intervention (a subject- matter expert (SME) in almost all cases) and continuous refining of prompts, we are able to improve the accuracy in complex and nuanced fields like medical diagnosis and financial analysis. In the cases we re- tested from our earlier Al vs Human note, we saw that with more human intervention, synthesizing of information improved further. Industry analysis becomes fairly good with additional prompts; and more the cross- questioning, the better the response becomes. However, this also means spending more time reading answers and refining queries, the scope and manner of which varies across LLMs. Hence, standardization is difficult to achieve, and we need a SME to spend time on responses and queries to enhance responses beyond the human level. On this generation, we again stopped short of a performance capable of rivaling that of a human expert. Even providing all the steps needed, the research was rather shallow, and some Al platforms even restricted their scope to adhere only to instructions when a large set of them is provided, compromising on the variability parameter.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "7577d52d38e2d401",
+      "text": "We see promoting as a field that will continuously evolve and virtually all fields with novel, ambiguous, or strategically critical tasks will use a combination of humans+Al, where humans may even undergo training to use LLMs more effectively. However, for welldefined, procedural high- volume tasks where focus will be on time reduction and optimization (eg summarizing factual documents, classification of helpdesk tickets, or data extraction from well- structured sources), Al will virtually run humans over, beginning the dominant populace in fields with ever- shrinking human presence.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ebea0a7e1d7acf4a",
+      "text": "It is to be noted that these are still early stages and the role of Al is ever evolving. What we've surmised above will likely constitute the steady state given the possibilities today; beyond which things either saturate or progress slower. As of today, many fields with well- defined tasks are yet to implement Al, and many Al applications are yet to reach human proficiency. Nevertheless, the progress continues, and it's only a matter of time when we will see Al in most fields - either running tasks on its own or performing them in collaboration with a human. Either way, winds of transformation are blowing.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "020f42913612a500",
+      "text": "Through careful analysis of secondary as well as primary results gathered from our own research, we assess that AI platforms, in the financial research industry, make a great case for coming up to speed on a new and relatively unexplored topic for any analyst. The vast amount of information it can process in a short span of time and extract key takeaways is several magnitudes more efficient than going through news articles across several years or lengthy documents. Earnings calls across 5- 6 years can be quickly summarized with a clear and concise timeline of events for any firm/industry, and while vertical LLMs provide better integration facilities with respect to the historical- auto- fetching of transcripts and pre- training on many aspects, even horizontal LLMs can be trained by providing the necessary information.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "2eea8c2fa610519d",
+      "text": "Once you have a deeper understanding of a sector, these tools can also prove to be your go- to for summarizing lengthy documents or earnings calls. What these possibly can't help with is the part in between getting to understand a sector and the routine calls part - which involves far more nuance and ambiguity. If you're trying to build a solid thesis, you can definitely explore ideas and points of view through iterative and reflective prompting, but it's best to rely on yourself to build judgments and make detailed models. For events affecting the thesis, the platforms again are as good as the person using them. They need to be nudged to \"think\" from a particular perspective. With proper nudges and structure, it is possible to get fairly accurate and strong responses. But given the non- standardized and less structured nature of this work, an expert will, nonetheless, always be required.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "2ebca8d4e3f05073",
+      "text": "The fact that this is a question is perhaps, the single biggest proof of the AI influence that has crept across circles today. In fact, generative AIs have become so vital and embedded in such a short time span that we now have a separate field of study: Prompt engineering dedicated to the process of restructuring and refining language instructions to AI to generate better, accurate responses. There are different types of prompts in studies already - zero shot, one shot, few shot along with other parameters like Chain of Thought (CoT) or Tree of Thought (ToT). Without getting into this field (which can be fairly lengthy with lots of dedicated research to them) too much, we list out a few types of popular prompts and their examples in Exhibit 1.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0c745add790a2295",
+      "text": "EXHIBIT 1: Some of the most common prompting types with examples",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "3840bb05cea9e189",
+      "text": "Prompting TypeWhat is itBest forExampleZero ShotStraightforward task. No examplesSimplest information gathering taskWho won the 1950 FIFA world cup?One ShotProvide an example telling the AI what is to be doneWhen a specific format or style is needed in the responseSummarize the text below in 8-10 lines. Use the style presented in this paragraph (give example)Few ShotGive a few examples of the type of response requiredSlightly complicated or nuanced queriesA=Z, B=Y, C=X, D=WWhat does the code &quot;ZODZBH IVZW YVIMHGVRM IVKHIGH&quot; mean?Chain of Thought (CoT)Prompt the model to go step-by-stepComplex reasoning, math, logic, multi-step problemsI bought a stock for $50, sold it for $55, bought again for $58 and sold at $62. I pay 1% transaction value as commission on each transaction, and pay 30% tax on final profits. Calculate net profit after taxes and commissions. Show step by stepTree of Thought (ToT)Multiple reasoning branches in a tree-like structureDeep exploration, making complex decisions with multiple variables that can change each stepIn Tic Tac Toe, which block to fill first to maximize my chances of a win?I took the center block and opponent took the bottom left corner block, what should be the next move to maximize win chances?IterativeRefining output via repeated prompts and a feedback loopDeep research, data analysisThe following sequence of questions:1. How did the Indian markets perform in 2024?2. Break the performance sector-by-sector3. What made healthcare sector perform so well? List out top reasonsReflectiveAsking AI to assess its response/point out flaws and regenerate a responseDeep research, judgment or predictionsThe following sequence of questions:1. Is the latest GST cut by the government a good move?2. You&#x27;ve only highlighted the positive aspects of the cut. Reflect and look at the negative parts as well. Don&#x27;t you think the loss of fiscal discipline is a significant long term negative?NegativeInstruct AI what NOT to do or avoid in an outputContent generation, specific researchList out the top 10 companies with highest short term liabilities. Do not include any banks1. Summarize the role of AI in financial research. Which jobs face the highest threat of disruption?2. Can you recheck your answer above? List out the reason for the second point of your response. Look from the point of view of costsHybridBlending multiple prompting strategies into oneCustomized scenarios",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ec41d55b9b834c82",
+      "text": "Source: Bernstein Analysis",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "943984413c3fb79f",
+      "text": "Whether or not prompts matter looks to be a fairly easy and straightforward question. Of course, they matter. For the same question can be framed in different ways with differing focus. And sometimes, we need to dig in deep for a particular parameter. So prompts matter, obviously. And the fact that there is a whole branch of studies on prompts makes it rather intuitive. But how much they matter, is the million- dollar question. This is where the answers get subjective, and things complicate. We'll try to add as much objectivity as we possibly can.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "48e1e3e2e25e4487",
+      "text": "EXHIBIT 2: An example of Few Shot Input Output Prompting on GPT 5",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f2d86d33481bf630",
+      "text": "Source: Bernstein Analysis",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "dd05c37119165ec5",
+      "text": "It is important to note that Al doesn't \"read\" and \"interpret\" words or phrases like we do. We often read sentences in the context of their meaning - humans understand the meaning first, and then assign words to them. For instance, simple questions like \"Who is the President of the United States of America\" is interpreted in its entirety by humans, and most of you would have answer in your mind already before noticing that the words \"States\" and \"America\" are misspelled. Humans, inherently having conversation as part of their life and culture (social animal?), absorb the meaning first, the words used are secondary. This is probably why your answer won't change whether you're asked \"What is your favorite color?\" or \"Please tell me your favorite color, thanks!\".",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "ba8d7a027ed420dc",
+      "text": "Al are different. They interpret what we call as \"tokens\" and matches their ID in its neural network to predict the next probable token and build upon a sequence. Given a question, they will interpret it token- by- token. A token could be a phrase, a word, or even half world (eg, transnational could be interpreted as \"trans\" plus \"national\"). So while humans are semantics first, Al are syntactic first. They simply use the tokens used in the question to search for most probable token in that context and generate a response. We have discussed why Al don't \"think\" in the traditional sense but are rather sentence completion agents in our previous note. It's simply the huge collection of data sets and the appropriate weights of parameters that gives us the \"illusion\" that Al is \"thinking\", when it's simply performing a calculation.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "4a2c7459de86e880",
+      "text": "This particular point, where Al process tokens rather than imbibing the meaning of the sentence, gives rise to what is called the Butterfly effect, where minor changes in prompts can have major differences in answers, and as minor changes build up, it leads to significant changes in conclusions. Research by University of Southern California did just that. It used 11 different tasks (BoolQ, CoLA, CoPA, ColBert, etc - the meaning of those is irrelevant to this discussion) and structured prompts differently to see what proportion of answers change from the original set of 11,000 answers. The results were mind- boggling. Even a small thing like ending question with a blank space (or beginning with it) changed 5% of the solutions given by Al. Ending with \"Thank You\" changed c5.6%. Telling Al that if it gives a better answer you would tip it \\(10 (varying amounts) changed over 7\\%\\) of the answers. Framing a question as statement (What are the three best ways \\(\\rightarrow\\) State three best ways) changed almost 9% of the",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1156c5276b70f36c",
+      "text": "Figures denote \\(\\%\\) of answers that were changed as a result of the change in the prompt, out of a set of 11,000 responses. A temperature parameter (randomness) of zero was set for this study",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3b8757b1ff622cae",
+      "text": "Source: Butterfly Effect of Altering Prompts (University of Southern California), Bernstein Analysis",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "db7f1b7f3e5b215c",
+      "text": "This gives rise to varying order of consistencies for different prompts. Since AI work on a probabilistic model, changing the tokens also result in changing the context, and hence wildly different solutions. Moving beyond merely trivial changes as discussed in the previous section to more nuanced changes in language - we find a remarkable shift away from consistency. In a study on Osteoarthritis, different types of prompts were given to seek a treatment recommendation and their consistency with the clinical guidelines was checked. The same LLM generated significantly different answers with different prompts. While using the chain of thought prompting, GPT4 delivered recommendations with \\(50.6 - 52.9\\%\\) consistency. The same went to as high as \\(63\\%\\) using recursion of thoughts.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "1e214d90188fa3b8",
+      "text": "ROT: Recursion of Thought, IO: Input Output, COT: Chain of Thought",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "72834a61a263c122",
+      "text": "Source: US National Library of Medicine, Bernstein Analysis",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "8306954dffa2f356",
+      "text": "LLMs demonstrate superior results to clear prompts that break down their task into clearly defined smaller objectives. This is both intuitive as well as visible through experiments. One such example comes from a fairly complicated field of diagnosis. Discharge summary of a number of patients was made available to the AI for training, validation and testing purposes - with a total of 1,873 discharge summaries. The job of AI was to identify the cases where the patients had metastatic cancer. A zero shot prompt with just the summary uploaded resulted in \\(72 - 87\\%\\) of positives identified with \\(84 - 96\\%\\) of identifications correctly identified. The net score was around 0.838. Using well structured prompts, the score jumped to as high as 0.886, with \\(89\\%\\) of positive cases identified and all positive identifications having \\(100\\%\\) accuracy. The top performing prompts had a clear structure to them: be it P2 or P4. However, the worst performing prompt also had a structure, but it was neither clear nor correctly defined outcomes (prompt 4 clearly mentioned when to respond \"Yes\" or \"No\", prompt 2 lacked in this department).",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "75719fdb8c1c9159",
+      "text": "The study involved identifying patients with metastatic cancer based on their discharge summaries. Human annotators were all trained medical professionals",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "b494e23ff4cf4ffb",
+      "text": "The Y axis in the graph pertains to the F1 score. F1 score is calculated as the harmonized mean of Precision (correct identifications out of all positively identified cases) and Recall (number of correct positives identified out of total positives in the population) Source: US National Library of Medicine, Bernstein Analysis",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "7293c52d43f3b95b",
+      "text": "Overall, we see one important result, the presence of structured information improves results and the presence of a human expert which can frame prompts similar to P4 (identifying what info is less relevant and removing it, providing more context) can result in the best outcomes. This expert- led prompt engineering allows GPT- 4 to achieve results that exceeded those of human annotators and rivaled those of PubMedBERT, a specialized model pre- trained on humongous amount of medical data and articles. This is an important finding, as it demonstrates that a combination of experts with a horizontal LLM can effectively bridge the gap between general- purpose and specialized models. On the other hand, a novice structuring as in P1 can actually lead to worse outcomes than a simple zero shot prompt.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0f331955428c4faa",
+      "text": "This leads to another conclusion: barely providing AI with information or lengthy prompts is not a sure- shot way to achieve good results. The prompts should make the task simpler and clearer, and should be linked to the intended study, not digress away. This is where the role of expert comes in handy. If your research topic pertains to the role of management quality in scaling up startups in early stage, giving examples of startups with experienced or well- educated management may help, but adding data on it top management belong to one family or are hired from industry can distract the AI - and studies show it can be distracted the same way as humans do, and can result in less ideal answers. Exhibit 6 presents a similar picture observed in the same test on detecting metastatic cancer. The performance improved when more information was provided initially, but as sparsity dropped to zero (more and more information contained in the sets), the performance actually declined slightly.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "46de618c1be6fc8d",
+      "text": "EXHIBIT 6: How the LLM performance varies with the degree of information provided",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d5db759537a75357",
+      "text": "Degree of information is calculated as the complement of sparsity in the data set provided to the LLM Source: US National Library of Medicine, Bernstein Analysis",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "5318cc719aa8919d",
+      "text": "So far, we've established that a human expert+AI is the ideal combination that results in the best outcomes. However, a counterintuitive result appears when it comes to streamlined jobs like IT helpdesk. Using customer queries in real time, the results are demonstrated by Exhibit 7. AI using Retrieval Augmented Generation technique (uses specific data to answer queries - in this customer queries) performed far better than humans, and even AI without this technique had a higher SelfScore benchmark. Clearly, the results indicate that forget AI+human combination, just having an AI with appropriate data set can result in better outcomes in this field.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "5b3e0e6263682ba8",
+      "text": "This dichotomy presents an important result: in complex fields where decision making isn't well defined or well structured (medical diagnosis above, or financial research from our previous note), a combination of human+AI is needed to achieve desired results with high accuracy. However, in standardized fields where a set of answers are present and the best one needs to be chosen depending on the situation, or fields where a set process, no matter how complicated, always needs to be followed to achieve results, AI are capable of handling virtually all human tasks, and that too at a far higher speed. This explains the difference in SelfScore as seen in Exhibit 7.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "9ccdf2502361a107",
+      "text": "EXHIBIT 7: The benchmark SelfScore calculated for different agents performing helpdesk jobs",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "f8483bbf9484e2f9",
+      "text": "RAG refers to Retrieval Augmented Generation technique. SelfScore is a benchmark calculated from complexity of the question and helpfulness calculated Source: arxiv.org, Bernstein Analysis",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "50c50df11c72992a",
+      "text": "So far, we've talked about a lot of contemporary research on prompting. How did it look from our perspective? Let's start on a completely honest note, when we started the exercise we had no idea so many different types of prompts exist that we have now highlighted in Exhibit 1. We definitely knew a few since the field of study exists, but the depth that already exists, baffled us. However, the beauty of things like these is even without a theoretical knowledge, we did actually end up using quite a few of these prompts in our Financial Research journey. Most prompts started as a zero shot prompt - except for prompts D, E and G. Prompt D was about building thesis ground up and even in the very initial prompt we provided cues to forecast target price using earnings growth calculations. Prompt E was on historical price analysis and we provided cues on what to look at - new model launches, interest rate changes, and later refined to even segment of new models. Prompt G was just a few- shot version of prompt F which was zero shot.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "a6ad6357b324551e",
+      "text": "Many of the prompts additionally evolved as iterative prompts, especially prompt G, where we additionally introduced more information (history, any geopolitical risks, etc). Prompt B was initially a set of separate questions, which we eventually merged one after the other to make it more like a Chain- of- Thought prompt. In prompt C, we broadly mentioned the information to be used - within as well as outside the earnings calls, and on broader economy. We didn't mention the specifics - like middle class formation or wage increases as the test was meant to find out if the AI can bring it up. Our tests had an inherent assumption - to see if AI can replace humans so prompts where an \"expert\" would be required have been essentially absent.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "fddf81064ed6202d",
+      "text": "Could we have done things differently? What if we drop the pretext of assessing Als independently and assume an expert can fill in prompts? Let's revisit it prompt by prompt.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "e7d79667c358b61e",
+      "text": "Limitations of the retest: Before we begin, let's put out a disclaimer. This retest is only done on core AI tools which we had used for all tests in the initial assessment: Grok, Perplexity, ChatGPT, Gemini, DeepSeek and Copilot. We have not used other AI tools or vertical tools here, having noticed that a horizontal tool with a sector expert can virtually elicit the responses akin to a specialized LLM. Before reading into a direct comparison of AI performance using old and new prompts, it is also important to understand the time gap of roughly a month, where several AI tools would have evolved due to refinement and new data fine- tuning. ChatGPT, in particular had a new version (v5) released since we did the testing on our last note. Hence, any performance improvement is likely coming from a mix of improved prompts, version upgrades and more data availability.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "8937a3b077c5d36d",
+      "text": "Original Take: Score 3.8; Most Als are close to Human capabilities",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "586ea7224060c9d5",
+      "text": "We found some Al tools (Grok, Gemini, DeepSeek, Copilot) already close to human capabilities here. But can we change the prompt to improve further? We had already used zero- shot and one- shot approach as part of the original journey. In this question, there isn't much scope for adding examples. So we decided to use a case- by- case approach. Some tools missed out 1- 2 key investor concerns that should have been mentioned in our view. For them, we used prompts hinting to look at that (things like \"Also include analysis on areas of weak market share\"). Some, while mentioning concerns, either did not give a sufficient reason for it or did not get the priority correct. We used iterative prompting to force them into a priority list and have them \"think\" on why something will be a concern.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "03034c861756f3e4",
+      "text": "The performance improved materially for those select LLMs that lagged behind in our earlier study, particularly Perplexity (old score 2.0, new score 4.5) and ChatGPT (3.5 to 4). On probing multiple times and forced to think on each parameter, the heterogeneity between LLMs almost vanished, and the new average score came out to be 4.3 (from 3.8). All horizontal LLMs scored at 4 or above. This proves that in the presence of a knowledgeable expert, earnings calls can almost be automated through Als with little performance drop. The quick turnaround time may, in fact, more than compensate for any minute gap.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "cd7ae5016d948198",
+      "text": "Updated Take: Score 4.3; All Als are close to Human capabilities. This field can be assigned to Als with a SME monitoring.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "bd95b5a531905ece",
+      "text": "Original Take: Score 3.8; Most Als are close to Human capabilities",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "8c0d93b29cd67311",
+      "text": "This is again a field where Als performed well in our initial test. What we changed here was explicitly mention investor concerns where we thought not enough was done by management. We didn't give our opinion though, but simply added \"also assess management performance in concern areas \\(x,y\\) and \\(z^{\\prime \\prime}\\) . The responses were much more analytical now, but we didn't notice across- the- board improvements like in the previous take. In fact, some tools (copilot) showed tendency to only focus on pointers mentioned and didn't immediately give analysis on all parameters like they had given before. This was presented only on further questioning. One major improvement that happened across the board was that through new prompts, we were able to elicit a more structured response. Overall score improved from 3.8 to 4",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "7cbfeb0017f67ba9",
+      "text": "Updated Take: Score 4.0; Most Als are close to human capabilities. Light level of continued nudging is required for a complete analysis",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "77029658c2e3613e",
+      "text": "Original Take: Score 3.2; Akin to novice with a couple of hours of analysis",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "a0a8394727a06457",
+      "text": "This was the first segment where we found Als lacking, especially when it came to using wider knowledge to predict industry trends and linking seemingly unrelated parameters. This time, we provided definitive nudges, asking the Al tools to think from perspective of wages, government policies and structural changes to demand.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "b98547586f17351b",
+      "text": "An unexpected change we noticed this time (from the last time) was that some Als gave answers with more conviction - a definitive positive or negative on industry demand patterns. Perplexity and DeepSeek stood out, the latter particularly with statements like \"The era of high demand in xxx seems to be over\". As for factors analysed, some Al appeared more informative on specific nudges. For example, on government policies Grok, ChatGPT and Copilot immediately mentioned the recent GST cuts in India and linked them to demand. Gemini and Perplexity had to be pushed further to mention this. DeepSeek, interestingly mentioned there are no GST cuts. It corrected this information when probed further, but made an error in quantifying the extent of cuts.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "1cdf745632075abf",
+      "text": "Updated Take: Score 3.9; Decent work in conjunction with a human, moderate to heavy nudging required for better analysis. Diminishing marginal gains as one spends more and more time.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "b7034b2cfd936bed",
+      "text": "Original Take: Score 3.0; Below average and cannot be done reliably by an Al",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "40829bf2a96eb31f",
+      "text": "We made the most changes in this field. The first change we did was to our query. Instead of just asking the AI tool to initiate on a stock with broader pointers, we listed out the steps on what to do. We mentioned to assess the industry and the company's positioning first, and then look at the expected growth combining both. Next, we instructed the AI tools to estimate earnings and then apply a multiple looking at the competition and an assessment if the company in question should trade at a discount or premium. The final part was calculating the target price and the tools were told to show their thinking step- by- step, forcing a chain of thought prompt. All AIs for this question were forced on the \"Deep Research\" mode.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "aac5e00e37f7bb41",
+      "text": "We also realized that there was no end to deep research. Probing question after question can refine the research but takes up way too much time and defeats the purpose of using AI for quick turnaround times or to gain fresh perspective. Hence, we refrain from an iterative prompting here and instead resort to what happens when we give AI clear instructions in a Chain- of- Thought manner. No follow- up questions are used to judge the AI.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "fd3c9a38b26905ba",
+      "text": "Surprisingly, the more structured prompt did not result in a universal performance enhancement. Even though we provided a framework for valuation, we only saw noticeable improvements in Perplexity, ChatGPT and Copilot. In fact, some AI platforms (like Gemini) gave up on the far wider research we saw earlier and focused more on adhering to the framework provided, which reduced the score. It is worth noting that the response can nevertheless be expanded by listing out all considerations from its previous response and expanding the framework, but that would simply homogenize results and result in all LLMs responding the same. Data issues persist and we noticed either wrong current stock prices being picked or wrong peer valuations. The most noticeable performance increase was seen in ChatGPT, which generated an elaborate deep research note with most parameters covered, fairly accurate numbers and a structured process adhering to the instructions.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "3748729213f1d4ce",
+      "text": "Model Generation - no luck: We kind of knew it already, but nevertheless gave it a shot to assess if models can be generated if we provide exact steps. We took some basic financial information of a stock for last 10 years and fed the LLM basic steps to create a model (a very basic model). We also keyed in the model drivers and the estimates to take to forecast sales, employee costs and material costs. The output format was also specified. Again, all AIs were forced at \"Deep thinking\" mode. The results were way below mark. Some AIs did generate an excel file but instead of formulas and detailed fields (at least to a certain degree) it was a very basic file with hardcoded values. It is evident that this is a field where AIs are not getting up to speed anytime soon. Perhaps filling in information in already created models will be the primary task of AIs.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "6d018146044e7ac0",
+      "text": "Updated Take: Score 3.4; Lots of time and effort is needed to bring AI to match a human level initiation report (though possible). Customizations for each AI needed, and a single prompt results in varying levels of performance.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "358588eb02445a02",
+      "text": "Original Take: Score 3.5; Average AI performance",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "b065cc83eedfe4f7",
+      "text": "Since prompt F was specifically intended to check response to a zero shot prompt, and prompt E already mentioned what parameters to look at and the impact on stock price (narrow scope), we found little scope to modify both prompts. Hence, we jump to the final prompt, and decided to make it comprehensive.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "9d3ad93e11ad50bd",
+      "text": "Original question simply mentioned a JV between two companies and asked the AI to evaluate it from a few perspectives mentioned. This time, we chose to give AI all the information about the JV first and then mention step by step what all parameters to look at. We gave it a comprehensive list of 8 parameters to look at before reaching a conclusion.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "d29cf75df633a49b",
+      "text": "The performance increased dramatically as a result of providing a clear framework. The average score jumped from 3.5 to 4.1, with all platforms giving significantly better results. Having provided an article with JV details, most tools now came to speed and analyzed the JV far more numerically and incorporating the positive and negative effects due to each parameter. The differentiating factor came out to be additional insights added, the extent of numbers which were extracted and put into the analysis, and future course of recommendations for the companies involved. ChatGPT stood out in this aspect, while Grok, Perplexity and DeepSeek did decent. Gemini is noticed to stick to the roadmap provided whenever clear instructions are given, and doesn't go beyond the realm even on \"deep think\" enabled.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "d5fb7a72d89a860f",
+      "text": "Updated Take: Score 4.1; With a clear analytical framework provided, AI platforms do much better at analysing management decisions and quantifying their impact. Another field where human- like efficiency was reached",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "d1d9192cdf7e5983",
+      "text": "A short and high level response (we hadn't asked for a short response in the query)",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "bb752d1fbb27f034",
+      "text": "Sona BLW (Sona Comstar) is entering into a joint venture (JV) with Chinese firm Jinnate Machinery Co. (JNT) to manufacture driveable systems and components for both the Chinese and global automotive markets. Sona BLW will invest \\(\\) 12\\$ million for a \\(60\\%\\) controlling stake, while JNT will contribute \\(\\) 8\\$ million in assets and business operations for the remaining \\(40\\%\\) Operations are set to start in the second half of FY26, aiming to fulfill orders from EV and non-EV customers.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "0012bd052b95a6f9",
+      "text": "Access to the Chinese EV Market: China is the world's largest automotive and EV market, accounting for two- thirds of global EV sales in 2024. Any automotive supplier aspiring to be global must have a presence in the Chinese supply chain, and this JV ensures Sona BLW can tap into this high- growth market. - Strategic Manufacturing Presence: The JV aligns with Sona BLW's strategy to expand its footprint in Asia's booming auto markets (China, India, Japan, S. Korea) and boost global competitiveness. - Technology Synergy: Sona brings advanced driveable design and manufacturing prowess, while JNT contributes strong casting, molding, and local market knowledge- potentially resulting in better product localization and competitiveness in China. - Order Book and Growth Potential: The JV is expected to start with a robust order book, giving it a pathway to growth in China's rapidly expanding EV sector.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "ff92402cabd4b780",
+      "text": "Regulatory and Geopolitical Risks: Indian- Chinese JVs have faced scrutiny from the Indian government- particularly after the implementation of Press Note 3, which mandates government approval for investments from neighboring countries. However, recently, India appears more open to such deals if the Indian partner retains a majority, as is the case here.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "fe8a7b8b722f48fe",
+      "text": "Mixed Track Record: Past Indian JVs with Chinese firms in autos/electronics have produced varied results:",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "c462a50590d4a83b",
+      "text": "Some, like JSW MG Motor India (SAIC- JSW JV), are thriving, leveraging strong technology and local partnerships. - - - - - - - - - - - - - - - - - - - - Other, like the Voltas- Highly JV, stalled due to regulatory hurdles and lack of clear majority control. - - - - - - - - - - - - - - - - - - - -",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "37084f6b06da7105",
+      "text": "Technology and IP Concerns: There are lingering wariness about technology/control; Chinese firms often seek meaningful equity to justify technology transfer. The chosen structure (majority Indian control) is designed to mitigate these risks. - - - - - - - - - - - - - - - - - - - - Market Competition: The Chinese market is highly competitive, and both partners will need to constantly innovate to capture and retain share, especially against powerful domestic players and global EV giants. - - - - - - - - - - - - - - - - - - - -",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "47dc905249b02d32",
+      "text": "The JV is, on balance, a positive for Sona BLW, given: - Majority and strategic control by Sona BLW; - The critical importance of the Chinese EV market for future growth; - Structured risk mitigation through local partnership and existing order book; - The trend of successful JVs when Indian partners retain control and the deal leads to technology infusion or market expansion. However, success will depend on navigating: - Regulatory approvals (especially in India, if at any point operations/returns get routed back); - Ongoing geopolitical tensions; - Effective synergy between both partners and ability to scale in China's dynamic EV space. - - - - - - - - - - - - - - - - - - - -",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "e411a8787fdeac22",
+      "text": "Overall, the move puts Sona BLW in a strong position to participate in global automotive value chains and diversify revenue, while aligning with industry trends for cross- border collaboration under controlled and mutually beneficial terms.",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "f87fc708958f214f",
+      "text": "Source: Response from ChatGPT, Bernstein Analysis",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "0fd68f6e9f68178b",
+      "text": "Notice the TL;DR in the beginning - it is actually necessary given the length and the details of the new response",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "2591abc413728925",
+      "text": "Overall impact: Net positive for growth/diversification and China access; neutral to slightly negative for US- facing programs if content originates in China (tariff/FEOC headwinds). Scale & timing: With a US \\(200m\\) initial platform (Sona cash US \\(12m\\); JNT business/assets US \\(5m\\) and a robust order book\\\\* first shipments are slated H2 FY26. Expect a slow Year- 1 ramp, more meaningful in FY27. Quantified uplift (base case): By FY27, N can add \\(300 - 450\\) revenue and \\(45 - 80\\) er EBITDA at the JV level; Sona's share of PAT could be \\(20 - 35\\) or \\((+3 - 6\\%\\) vs FY25 PAT \\(601cr\\) assuming proportional economics and mid- teens net margins at scale. (Ranges reflect ownership/consolidation unknowns and ramp efficiency.)",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "a2eb62e820c1bd77",
+      "text": "JNT brings advanced foundry/tooling know- how with 63 patents / 36 proprietary technologies and participation in Chinese national standards - valuable for complex driveline housings, lightweight castings, and faster cost- down/tooling cycles. This should shorten NPD lead- times and lower conversion cost in China. For Sona (already strong in e- ades, differential assemblies, precision gears), the JV augments localized casting + machining near the world's biggest EV supply base - a credible cost and iteration speed advantage for Chinese OEM programs.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "be87cce72d0c20a1",
+      "text": "Permanent- magnet e- motors rely on NdFeB (Nd/Dy/Tb). China controls \\(\\sim 60 - 70\\%\\) of mining and \\(\\sim 85 - 90\\%\\) of processing, and has shown willingness to restrict exports/magnets amid tariff disputes. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*. \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*/ \\\\* \\\\* \\\\* \\\\* \\\\* \\\\* \\\\*",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "73176fe34daffc3f",
+      "text": "engineering cycles. Watch- outs: Exporting from China can trigger tariff/ non- tariff barriers (esp. to US), and license risks if China re- tightens REE/magnet exports. Keep BOM ring- fenced per region.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "f1fb6c4d033dffeb",
+      "text": "6) Past India-China JV patterns & challenges — Manageable but real. Usual friction points in such JVs: slow/uncertain approvals (India's PN3 regime), governance disputes, IP scope creep, and profit repatriation/tax/frictions. India has fast- tracked some approvals (e.g., Dixon-Longchen) but scrutiny remains high and timelines can stretch. Clear shareholder agreements, tech- use boundaries, and local compliance are critical.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "db96da6d5a2d6e6c",
+      "text": "Score - / risk to schedule & scope",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "0b118d53610fa152",
+      "text": "Cross- border JV literature consistently flags IP leakage risks; in China JVs, internal tech transfer is common and sometimes asymmetric without granular contract control. Ring- fence core software/controls and restrict outbound use of process IP. Score:",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "5f7c9cfa314c9eed",
+      "text": "China- US: escalation risk (tariffs/export controls) can impair cross- border shipments from China. India & China India- China: PN3 approvals and the br \\(\\downarrow\\) or political climate can affect future capital infusions/ownership changes, though there are signs of procedural easing: policy is",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "8fb0862fc325fe34",
+      "text": "still cautious. Press information Bureau.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "0c75cdfdb7b0a099",
+      "text": "Score - / manageable via structuring & regionalization",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "d19a15a9d27ed47e",
+      "text": "Sona FY25 baseline (consolidated): Revenue 35,545 mn, EBITDA margin - 27%, PAT 16,012 mn. Bank Discovery.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "68843b07371be2a0",
+      "text": "JV scale assumptions (base case):",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "f56ea4c74ced1cfc",
+      "text": "Capital platform: US \\(20m\\) (first phase). Asset turns 1.5- 2.5x by steady- state; EBITDA margin 15- 18% after ramp; shipments focus: China/Asia/EU (not US). Ownership/consolidation: Not disclosed. For impact, we show Sona's economic share as a range (if consolidated vs equity- accounted).",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "664a0932099862fe",
+      "text": "FY26 (H2 ramp): Revenue 150- 250 cr; EBITDA 20- 35 cr; PAT 10- 18 cr (Sona share - 16- 11 cr).",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "5234363b32d8fd44",
+      "text": "FY27 (first full year): Revenue 300- 450 cr; EBITDA 45- 80 cr; PAT 20- 35 cr (Sona share - 12- 21 cr). PAT accretion: +2- 3% (FY26); +3- 6% (FY27) vs FY25 PAT 601 cr - assuming proportional economics; higher if ramps faster/order book converts sooner.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "b76615913b041a80",
+      "text": "Side benefits (not in the simple math):",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "e753c84256de8059",
+      "text": "BOM cost tailwinds for China- delivered e- axle/drivenie programs (local casting/magnet sourcing) \\(\\rightarrow\\) 50- 100 bps potential margin support on those lines, offset by initial ramp costs. Order book leverage: Sona's consolidated order book 242 bn (Apr- 25) suggests capacity to backfill the JV gives local badge to win China OEM RFQs otherwise out of reach for India exports.",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "ceb5d871c1822a70",
+      "text": "Factor- by- factor scorecard",
+      "page": 14,
+      "section": null
+    },
+    {
+      "passage_id": "bae92ab0898d5272",
+      "text": "Shout out for including a TL;DR in the beginning",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "d86f5a0f26d67e22",
+      "text": "Source: ChatGPT response, Bernstein Analysis",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "1bc12b9f2f0dd437",
+      "text": "We notice performance improvement in B, C and G, while D remains at similar levels. Given the presence of a human to continually refine the answers and force Al to \"rethink\", the dispersion between LLMs almost vanishes",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "703702879984d9af",
+      "text": "The meaning of assessment areas A, B, C, D and G remain unchanged from previous note. Refer to the sections above in this note to know them in detail Source: Bernstein Analysis",
+      "page": 15,
+      "section": null
+    },
+    {
+      "passage_id": "b6d6b9ed5f2a05a1",
+      "text": "Back to the crux of the matter (and the title of this note). Based on our analysis of primary and secondary data, and our experience juggling through hundreds of responses, we've put together a basic primer on the most effective prompting techniques for different types of queries. The details are highlighted in Exhibit 13. This is not to say that other prompting types may not be effective for the specific task at hand, but it provides a good starting point.",
+      "page": 16,
+      "section": null
+    },
+    {
+      "passage_id": "f061a3ce2fc4b172",
+      "text": "There's no one- size fits all solution, but this is a basic guide. Analysing the query itself before checking the prompt style is helpful in many cases",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "47228086bf88175c",
+      "text": "Source: Bernstein Analysis",
+      "page": 17,
+      "section": null
+    },
+    {
+      "passage_id": "bafe29b81161bdb6",
+      "text": "Al is an ever evolving field, and these still being relative early years, things are changing rapidly and the capabilities evolving fast. Who knows, things considered impossible today might just be achieved a few years down the line. Our analysis yields predictions based on where things stand today. We have discovered in this note, along with you, that Al in some fields has already exceeded human capabilities, while it needs a human collaborator to be effective in some others - especially ambiguous and complex ones which are more judgment based. We will leave with something we've repeatedly stated: Al isn't a natural skeptic. However, if you allow it to outsource the skepticism to you and continually ask it to refine its answers, you may outsource a lot of your work back to it. Nevertheless, it will still need you as much as you need it. Nature may just be throwing us another symbiotic relationship.",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "98edb96ba0e8f6c6",
+      "text": "A score of zero means no difference between an Al and a human",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "315a632fdd513b47",
+      "text": "For many parameters, scores were not calculated for years in between, they have been assumed to grow linearly between the unavailable years Source: Our World in Data, Bernstein Analysis",
+      "page": 18,
+      "section": null
+    },
+    {
+      "passage_id": "3b4a321e718abe78",
+      "text": "References to \"Bernstein\" or the \"Firm\" in these disclosures relate to the following entities: Bernstein Institutional Services LLC (April 1, 2024 onwards), Sanford C. Bernstein & Co., LLC (pre April 1, 2024), Bernstein Autonomous LLP, BSG France S.A. (April 1, 2024 onwards), Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司, Sanford C. Bernstein (Canada) Limited, Sanford C. Bernstein (India) Private Limited (SEBI registration no. INH000006378), Sanford C. Bernstein (Singapore) Private Limited and Sanford C. Bernstein Japan KK (サンフォード・C・バーンスタイン株式会社).",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "f7e31be50810b62c",
+      "text": "On April 1, 2024, Société Générale (SG) and AllianceBernstein, LP. (AB) completed a transaction that created a new joint venture in which their respective cash equities and research businesses operate in a new business combination. Although their respective ownership percentages in the joint venture differ between North America and the rest of the world, the creation, production and publication of research is handled collaboratively on a global basis across the two research brands, \"Bernstein\" and \"Autonomous\". Unless specifically noted otherwise, for purposes of these disclosures, references to Bernstein's \"affiliates\" relate to both SG and AB and their respective affiliates.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "2ab571004a6af843",
+      "text": "The Bernstein brand rates stocks based on forecasts of relative performance for the next 12 months versus the S&P 500 for stocks listed on the U.S. and Canadian exchanges, versus the Bloomberg Europe Developed Markets Large and Mid Cap Price Return Index (EDM) for stocks listed on the European exchanges and emerging markets exchanges outside of the Asia Pacific region, versus the Bloomberg Japan Large and Mid Cap Price Return Index USD (JP) for stocks listed on the Japanese exchanges, and versus the Bloomberg Asia ex- Japan Large and Mid Cap Price Return Index (ASIAX) for stocks listed on the Asian (ex- Japan) exchanges - unless otherwise specified.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "d5bfd4e49290f11c",
+      "text": "The Bernstein brand has three categories of ratings:",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "1c7181d669677e10",
+      "text": "- Outperform: Stock will outpace the market index by more than 15 pp- Market-Perform: Stock will perform in line with the market index to within +/- 15 pp- Underperform: Stock will trail the performance of the market index by more than 15 pp",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "bb60014cbff2744b",
+      "text": "Coverage Suspended: Coverage of a company under the Bernstein research brand has been suspended. Ratings and price targets are suspended temporarily, are no longer current, and should therefore not be relied upon.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "b8bd3c9d074b1d4d",
+      "text": "Not Rated: A rating assigned when the stock cannot be accurately valued, or the performance of the company accurately predicted, at the present time. The covering analyst may continue to publish research reports on the company to update investors on events and developments.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "2b944f863fc927e0",
+      "text": "Not Covered (NC) denotes companies that are not under coverage.",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "22a3b93331542afc",
+      "text": "The Autonomous brand rates stocks as indicated below. As our benchmarks we use the Bloomberg Europe 500 Banks And Financial Services Index (BEBANKS) and Bloomberg Europe Dev Mkt Financials Large and Mid Cap Price Ret Index EUR (EDMFI) index for developed European banks and Payments, the Bloomberg Europe 500 Insurance Index (BEINSUR) for European insurers, the S&P 500 and S&P Financials for US banks and Payments coverage, S5LIFE for US Insurance, the S&P Insurance Select Industry (SPSIINS) for US Non- Life Insurers coverage, and the Bloomberg Emerging Markets Financials Large, Mid and Small Cap Price Return Index (EMLSF) for emerging market banks and insurers and Payments. Ratings are stated relative to the sector (not the market).",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "1d5e6a7ec3be3c4c",
+      "text": "The Autonomous brand has three categories of ratings:",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "e23d9fc66f9e954d",
+      "text": "- Outperform (OP): Stock will outpace the relevant index by more than 10 pp- Neutral (N): Stock will perform in line with the market index to within +/- 10 pp- Underperform (UP): Stock will trail the performance of the relevant index by more than 10 pp",
+      "page": 19,
+      "section": null
+    },
+    {
+      "passage_id": "a2eacd7e65acd40f",
+      "text": "Coverage Suspended: Coverage of a company under the Bernstein research brand has been suspended. Ratings and price targets are suspended temporarily, are no longer current, and should therefore not be relied upon.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "552c020865b41134",
+      "text": "Not Rated: A rating assigned when the stock cannot be accurately valued, or the performance of the company accurately predicted, at the present time. The covering analyst may continue to publish research reports on the company to update investors on events and developments.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "4eb11f68c5fbc419",
+      "text": "Those denoted as 'Feature' (e.g., Feature Outperform FOP, Feature Under Outperform FUP) are our core ideas. Not Covered (NC) denotes companies that are not under coverage.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "72e2538a2d73c84f",
+      "text": "For both brands, recommendations are based on a 12- month time horizon.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "660f1f74ed4f7a1a",
+      "text": "DISTRIBUTION OF EQUITY RATINGS/INVESTMENT BANKING SERVICES",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "66f8925e40ca2afd",
+      "text": "RatingMarket Abuse Regulation (MAR) and FINRA Rule 2241 classificationCountPercentCount*Percent*OutperformBUY58551.27%11018.80%Market-Perform (Bernstein Brand)HOLD40735.67%7618.67%Neutral (Autonomous Brand)UnderperformSELL14913.06%2013.42%",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "80a2667741057446",
+      "text": "\\* These figures represent the number and percentage of companies in each category to whom affiliates of Bernstein and Autonomous provided investment banking services. As of June 30, 2025. All figures are updated quarterly.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "acc8cd05ce02329c",
+      "text": "The legal entity(ies) employing the analyst(s) listed in this report, and their location, can be determined by the country code of their phone number, as follows:",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "64c8302e6f995df5",
+      "text": "+1 Bernstein Institutional Services LLC; New York, New York, USA +44 Bernstein Autonomous LLP; London UK +33 BSG France S.A.; Paris, France +34 BSG France S.A.; Madrid, Spain +41 Bernstein Autonomous LLP; Geneva, Switzerland +49 BSG France S.A.; Frankfurt, Germany +91 Sanford C. Bernstein (India) Private Limited; Mumbai, India +852 Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司; Hong Kong, China +65 Sanford C. Bernstein (Singapore) Private Limited; Singapore +81 Sanford C. Bernstein Japan KK; Tokyo, Japan",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "1fc46d496f0d53a4",
+      "text": "Where this report has been prepared by research analyst(s) employed by a non- US affiliate, such analyst(s), is/are (unless otherwise expressly noted below) not registered as associated persons of Bernstein Institutional Services LLC or any other SEC- registered broker- dealer and are not licensed or qualified as research analysts with FINRA. Accordingly, such analyst(s) may not be subject to FINRA's restrictions regarding (among other things) communications by research analysts with a subject company, interactions between research analysts and investment banking personnel, participation by research analysts in solicitation and marketing activities relating to investment banking transactions, public appearances by research analysts, and trading securities held by a research analyst account.",
+      "page": 20,
+      "section": null
+    },
+    {
+      "passage_id": "fd26174255f21d71",
+      "text": "CERTIFICATIONEach research analyst listed in this report, who is primarily responsible for the preparation of the content of this report, certifies that all of the views expressed in this publication accurately reflect that analyst's personal views about any and all of the subject securities or issuers and that no part of that analyst's compensation was, is, or will be, directly or indirectly, related to the specific recommendations or views in this publication.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "9c8afb157ab66f3b",
+      "text": "II. ADDITIONAL GLOBAL CONFLICT DISCLOSURESIt is at the sole discretion of the Firm as to when to initiate, update and cease research coverage. The Firm has established, maintains and relies on information barriers to control the flow of information contained in one or more areas (i.e., the private side) within the Firm, and into other areas, units, groups or affiliates (i.e., public side) of the Firm.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "960c8e7e035b2af0",
+      "text": "Separate branding is maintained for \"Bernstein\" and \"Autonomous\" research products.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "00890dd14bd027c8",
+      "text": "Bernstein produces a number of different types of research products including, among others, fundamental analysis and quantitative analysis under both the \"Autonomous\" and \"Bernstein\" brands. Recommendations contained within one type of research product may differ from recommendations contained within other types of research products, whether as a result of differing time horizons, methodologies or otherwise. Furthermore, views or recommendations within a research product issued under one brand may differ from views or recommendations under the same type of research product issued under the other brand. The Research Ratings System for the two brands and other information related to those Rating Systems are included in the previous section.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "b4d732398583cb08",
+      "text": "Autonomous operates as a separate business unit within the following entities: Bernstein Institutional Services LLC, Bernstein Autonomous LLP, Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司 and Sanford C. Bernstein (India) Private Limited. For information relating to \"Autonomous\" branded products (including certain Sales materials) please visit: www.autonomous.com. For information relating to Bernstein branded products please visit: www.bernsteinresearch.com.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "c3bff355fd6f659f",
+      "text": "Analysts are compensated based on aggregate contributions to the research franchise as measured by account penetration, productivity and proactivity of investment ideas. No analysts are compensated based on performance in, or contributions to, generating investment banking revenues.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "f8a6d16d73adb9c5",
+      "text": "This report has been produced by an independent analyst as defined in Article 3 (1)(34)(i) of EU 596/2014 Market Abuse Regulation (\"MAR\") and the same article of MAR as it forms part of United Kingdom domestic law by virtue of the European Union (Withdrawal) Act 2018.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "a7c79ccd56c3b0e3",
+      "text": "To our readers in the United States: Bernstein Institutional Services LLC, a broker- dealer registered with the U.S. Securities and Exchange Commission (\"SEC\") and a member of the U.S. Financial Industry Regulatory Authority, Inc. (\"FINRA\") is distributing this publication in the United States and accepts responsibility for its contents. Where this material contains an analysis of debt product(s), such material is intended only for institutional investors and is not subject to the US independence and disclosure standards applicable to debt research prepared for retail investors.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "238238a947c3a6ca",
+      "text": "Bernstein Institutional Services LLC may act as principal for its own account or as agent for another person (including an affiliate) in sales or purchases of any security which is a subject of this report. This report does not purport to meet the objectives or needs of any specific individuals, entities or accounts.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "e1737e1d3d8f4cd6",
+      "text": "To our readers in Canada: If this publication pertains to a Canadian domiciled company, it is being distributed in Canada by Sanford C. Bernstein (Canada) Limited, which is licensed and regulated by the Canadian Investment Regulatory Organization. If the publication pertains to a non- Canadian domiciled company, it is being distributed by Bernstein Institutional Services LLC, which is licensed and regulated by both the SEC and FINRA, into Canada under the International Dealers Exemption.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "044d0f5c4043121b",
+      "text": "This document may not be passed onto any person in Canada unless that person qualifies as \"permitted client\" as defined in Section 1.1 of NI 31- 103.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "188c2a6859dbcdd7",
+      "text": "To our readers in Brazil: This report has been prepared by Bernstein Institutional Services LLC, and Banco BTG Pactual S.A. (\"BTG\") is responsible for the distribution of this report in Brazil.",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "95997fb1aefe8797",
+      "text": "To readers in the United Kingdom: This publication has been issued or approved for issue in the United Kingdom by Bernstein Autonomous LLP, authorised and regulated by the Financial Conduct Authority and located at 60 London Wall, London EC2M 5SH,",
+      "page": 21,
+      "section": null
+    },
+    {
+      "passage_id": "0cad7c421abef57b",
+      "text": "+44 (0)20- 7170- 5000. Registered in England & Wales No OC343985.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "957732c0c0dab36e",
+      "text": "This document is for distribution only to persons who (i) have professional experience in matters relating to investments falling within Article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 (as amended, the \"Financial Promotion Order\"), (ii) are persons falling within Article 49(2)(a) to (d) (\"high net worth companies, unincorporated associations, etc.\") of the Financial Promotion Order, (iii) are outside the United Kingdom, or (iv) are persons to whom an invitation or inducement to engage in investment activity (within the meaning of section 21 of the FSMA) in connection with the issue or sale of any securities may otherwise lawfully be communicated or caused to be communicated (all such persons together being referred to as \"relevant persons\"). This document is directed only at relevant persons and must not be acted on or relied on by persons who are not relevant persons. Any investment or investment activity to which this document relates is available only to relevant persons and will be engaged in only with relevant persons.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "9fa7a3d15c24c9e1",
+      "text": "To our readers in the member states of the EEA: This publication is being distributed by BSG France SA, which is authorised and regulated by the Autorité de Contrôle Prudentiel et de Résolution (ACPR) and Autorité des Marchés Financiers (AMF).",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "34553ea9a0dc1b84",
+      "text": "To our readers in Hong Kong: This publication is being distributed in Hong Kong by Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司, which is licensed and regulated by the Hong Kong Securities and Futures Commission (Central Entity No. AXC846) to carry out Type 4 (Advising on Securities) regulated activities and subject to the licensing conditions mentioned in the SFC Public Register (https://www.sfc.hk/publicregWeb/corp/AXC846/details)). This publication is solely for professional investors, as defined in the Securities and Futures Ordinance (Cap. 571).",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "6733ccde6ffbe056",
+      "text": "To our readers in Singapore: This publication is being distributed in Singapore by Sanford C. Bernstein (Singapore) Private Limited, only to accredited investors or institutional investors, as defined in the Securities and Futures Act 2001 of Singapore (\"SFA\"). Recipients in Singapore should contact Sanford C. Bernstein (Singapore) Private Limited in respect of matters arising from, or in connection with, this publication. Sanford C. Bernstein (Singapore) Private Limited is regulated by the Monetary Authority of Singapore and licensed under the SFA as a capital markets services licence holder for dealing in capital markets products that are securities and collective investment schemes and an exempt financial adviser for advising on, issuing and promulgating analyses and reports on securities. Sanford C. Bernstein (Singapore) Private Limited is registered in Singapore with Company Registration No. 20213710W and located at One Raffles Quay, #27- 11 South Tower, Singapore 048583, +65- 6230- 4612.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "09bd0ef5d55a420a",
+      "text": "To our readers in the People's Republic of China: The securities referred to in this document are not being offered or sold and may not be offered or sold, directly or indirectly, in the People's Republic of China (for such purposes, not including the Hong Kong and Macau Special Administrative Regions or Taiwan, the \"PRC\") in contravention of any applicable laws of the PRC.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "62a571824f35bfcf",
+      "text": "This document does not constitute an offer to sell or the solicitation of an offer to buy any securities in the PRC to any person to whom it is unlawful to make the offer or solicitation in the PRC.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "94bdd50e6d0ec058",
+      "text": "We do not represent that this document may be lawfully distributed, or that any securities may be lawfully offered, in compliance with any applicable registration or other requirements in the PRC, or pursuant to an exemption available thereunder, or assume any responsibility for facilitating any such distribution or offering. In particular, no action has been taken by us which would permit a public offering of any securities or distribution of this document in the PRC. Accordingly, the securities are not being offered or sold within the PRC by means of this document or any other document. Neither this document nor any advertisement or other offering material may be distributed or published in the PRC, except under circumstances that will result in compliance with any applicable laws and regulations.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "41027b33330b61c6",
+      "text": "To our readers in Japan: This publication is being distributed in Japan by Sanford C. Bernstein Japan KK (サンフォード・C・バーンスタイン株式会社), which is registered in Japan as a Financial Instruments Business Operator with the Kanto Local Finance Bureau (registration number: The Director- General of Kanto Local Finance Bureau (FIBO) No.3387) and regulated by the Financial Services Agency. It is also a member of Japan Investment Advisers Association. This publication is solely for qualified institutional investors in Japan only, as defined in Article 2, paragraph (3), items (i) of the Financial Instruments and Exchange Act.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "ea23d81d654268df",
+      "text": "For the institutional client readers in Japan who have been granted access to the Bernstein website by Daiwa Securities Group Inc. (\"Daiwa\"), your access to this document should not be construed as meaning that Bernstein is providing you with investment advice for any purposes. Whilst Bernstein has prepared this document, your relationship is, and will remain with, Daiwa, and Bernstein has neither any contractual relationship with you nor any obligations towards you.",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "ad6b8a9209091b3c",
+      "text": "To our readers in Australia: Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司 is responsible for distributing research in Australia. It is regulated by the Securities and Exchange Commission under U.S. laws, by the Financial Conduct Authority under U.K. laws, which differs from Australian laws. Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司 is exempt from the requirement to hold an Australian financial services license under the Corporations Act 2001 in respect of the provision of the following financial services to wholesale clients:",
+      "page": 22,
+      "section": null
+    },
+    {
+      "passage_id": "41046e38460d2ad4",
+      "text": "- providing financial product advice;",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "4c2c4d66280a7e01",
+      "text": "- dealing in a financial product;",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "1f82898b36b7b3d4",
+      "text": "- making a market for a financial product; and",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "dfca7b2f65cab5f2",
+      "text": "- providing a custodial or depository service.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "6591a4159b604e42",
+      "text": "To our readers in India: This publication is being distributed in India by Sanford C. Bernstein (India) Private Limited (SCB India) which is licensed and regulated by Securities and Exchange Board of India (\"SEBI\") as a research analyst entity under the SEBI (Research Analyst) Regulations, 2014, having registration no. INH000006378 and as a stock broker having registration no. INZ000213537. SCB India is currently engaged in the business of providing research and stock broking services. Please refer to www.bernsteinresearch.in for more information.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "7fc87ceacd57b719",
+      "text": "- SCB India is a Private limited company incorporated under the Companies Act, 2013, on April 12, 2017 bearing corporate identification number U65999MH2017FTC293762, and registered office at Level 3A, 4th Floor, First International Financial Centre, Plot Nos C-54 and C-55, G Block, Near CBI Office, Bandra Kurla Complex, Bandra (East), Mumbai 400098, Maharashtra, India (Phone No: +91-22-68421401).",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "c01164a634009778",
+      "text": "- SCB India does not have any disciplinary history as on the date of this report.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "dafbba38354d8aaa",
+      "text": "- Except as noted above, SCB India and/or its Associates (i.e., affiliates/group companies), the Research Analysts authoring this report, and their relatives",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "e995a36b29558033",
+      "text": "- do not have any financial interest in the subject company- do not have actual/beneficial ownership of one percent or more in securities of the subject company;- is not engaged in any investment banking activities for Indian companies, as such;- have not managed or co-managed a public offering in the past twelve months for any Indian companies;- have not received any compensation for investment banking services or merchant banking services from the subject company in the past 12 months;- have not received compensation for brokerage services from the subject company in the past twelve months;- have not received any compensation or other benefits from the subject company or third party related to the specific recommendations or views in this report; and- do not currently, but may in the future, act as a market maker in the financial instruments of the companies covered in the report.- do not have any conflict of interest in the subject company as of the date of this report.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "aa0dab3a341550aa",
+      "text": "- Except as noted above, the subject company has not been a client of SCB India during twelve months preceding the date of distribution of this research report. Neither SCB India nor its Associates (i.e., affiliates/group companies) have received compensation for products or services other than investment banking, merchant banking or brokerage services from the subject company in the past twelve months.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "7eba279442028516",
+      "text": "- The principal research analyst(s) who prepared this report, members of the analysts' team, and members of their households are not an officer, director, employee or advisory board member of the companies covered in the report.",
+      "page": 23,
+      "section": null
+    },
+    {
+      "passage_id": "839bb3a27b557b70",
+      "text": "- The investor charter of SCB India is available on its website and may be accessed at Sanford C. Bernstein (India) Private Limited (bernsteinresearch.in)",
+      "page": 24,
+      "section": null
+    },
+    {
+      "passage_id": "714bd598ba1d9454",
+      "text": "- Disclaimer: Registration granted by SEBI, and certification from NISM, is in no way a guarantee of performance of the intermediary or provide any assurance of returns to investors. Investments in securities market are subject to market risks. Read all the related documents carefully before investing.",
+      "page": 24,
+      "section": null
+    },
+    {
+      "passage_id": "9a2ba5406bdc68e1",
+      "text": "To our readers in Switzerland: This document is provided in Switzerland by or through Bernstein Autonomous LLP, and is provided only to qualified investors as defined in article 10 of the Swiss Collective Investment Scheme Act (\"CISA\") and related provisions of the Collective Investment Scheme Ordinance and in strict compliance with applicable Swiss law and regulations. The products mentioned in this document may not be suitable for all types of investors. This document is based on the Directives on the Independence of Financial Research issued by the Swiss Bankers Association (SBA) in January 2008.",
+      "page": 24,
+      "section": null
+    },
+    {
+      "passage_id": "6f86ab2422543e1a",
+      "text": "To our readers in the Middle East: Bernstein Autonomous LLP, DIFC branch has its principal office at Gate Village 06, DIFC, Dubai, UAE. Bernstein Autonomous LLP, DIFC branch is regulated by the Dubai Financial Services Authority (DFSA) with the registration number F008549 and is provisioned for Arranging Deals in Investments and Advising on Financial Products. All communications and services are directed at Professional Clients and Market Counterparties only (as defined in the DFSA rulebook). Persons other than Professional Clients and Market Counterparties, such as Retail Clients, are not the intended recipients of our communications or services.",
+      "page": 24,
+      "section": null
+    },
+    {
+      "passage_id": "db5613db5e2eae94",
+      "text": "All research publications are disseminated to our clients through posting on the firm's password protected websites, bernsteinresearch.com and autonomous.com. Certain, but not all, research publications are also made available to clients through third- party vendors or redistributed to clients through alternate electronic means as a convenience.",
+      "page": 24,
+      "section": null
+    },
+    {
+      "passage_id": "54e13644cb170d67",
+      "text": "This publication has been published and distributed in accordance with the Firm's policy for management of conflicts of interest in investment research, a copy of which is available from Bernstein Institutional Services LLC, Director of Compliance, 245 Park Avenue, New York, NY 10167. Additional disclosures and information regarding Bernstein's business are available on our website www.bernsteinresearch.com.",
+      "page": 24,
+      "section": null
+    },
+    {
+      "passage_id": "62ace3135de565d2",
+      "text": "The securities described herein may not be eligible for sale in all jurisdictions or to certain categories of investors where that permission profile is not consistent with the licenses held by the entities noted herein. This document is for distribution only as may be permitted by law. This publication is not directed to, or intended for distribution to or use by, any person or entity who is a citizen or resident of, or located in any locality, state, country or other jurisdiction where such distribution, publication, availability or use would be contrary to law or regulation or which would subject any of the entities referenced herein or any of their subsidiaries or affiliates to any registration or licensing requirement within such jurisdiction. This publication is based upon public sources we believe to be reliable, but no representation is made by us that the publication is accurate or complete. We do not undertake to advise you of any change in the reported information or in the opinions herein. This publication was prepared and issued by entity referred to herein for distribution to eligible counterparties or professional clients. This publication is not an offer to buy or sell any security, and it does not constitute investment, legal or tax advice. The investments referred to herein may not be suitable for you. Investors must make their own investment decisions in consultation with their professional advisors in light of their specific circumstances. The value of investments may fluctuate, and investments that are denominated in foreign currencies may fluctuate in value as a result of exposure to exchange rate movements. Information about past performance of an investment is not necessarily a guide to, indicator of, or assurance of, future performance.",
+      "page": 24,
+      "section": null
+    },
+    {
+      "passage_id": "529cf3be80fc93c5",
+      "text": "This report is directed to and intended only for our clients who are \"eligible counterparties\", \"professional clients\", \"institutional investors\" and/or \"professional investors\" as defined by the aforementioned regulators, and must not be redistributed to retail clients as defined by the aforementioned regulators. Retail clients who receive this report should note that the services of the entities noted herein are not available to them and should not rely on the material herein to make an investment decision. The result of such act will not hold the entities noted herein liable for any loss thus incurred as the entities noted herein are not registered/ authorised/ licensed to deal with retail clients and will not enter into any contractual agreement/arrangement with retail clients. This report is provided subject to the terms and conditions of any agreement that the clients may have entered into with the entities noted herein. All research reports are disseminated on a simultaneous basis to eligible clients through electronic publication to our client portal. The information is private and confidential and for the use of the clients only.",
+      "page": 24,
+      "section": null
+    },
+    {
+      "passage_id": "0da0444b1c86e902",
+      "text": "This report has been prepared for information purposes only and is based on current public information that we consider reliable, but the entities noted herein do not warrant or represent (express or implied) as to the sources of information or data contained herein are accurate, complete, not misleading or as to its fitness for the purpose intended even though the entities noted herein rely on reputable or trustworthy data providers, it should not be relied upon as such. Opinions expressed are the author(s)' current opinions as of the date appearing on the material only and we do not undertake to advise you of any change in the reported",
+      "page": 24,
+      "section": null
+    },
+    {
+      "passage_id": "4e6cfd3d9c10f7a4",
+      "text": "information or in the opinions herein.",
+      "page": 25,
+      "section": null
+    },
+    {
+      "passage_id": "2db1ef0eea0147a0",
+      "text": "This publication was prepared and issued by the entity referred to herein for distribution to eligible counterparties or professional clients. The information in this report is intended for general circulation and does not constitute an offer to buy or sell any security, investment, legal or tax advice nor a personal recommendation, as defined by any of the aforementioned regulators. It does not take into account the particular investment objectives, financial situations, or needs of individual investors. The report has not been reviewed by any of the aforementioned regulators and does not represent any official recommendation from the aforementioned regulators. The investments referred to herein may not be suitable for you. Investors must make their own investment decisions in consultation with advice sought from a financial adviser regarding the suitability of the investment product, taking into account the specific investment objectives, financial situation or particular needs of any recipient of the recommendation, before the recipient makes a commitment to purchase the investment product.",
+      "page": 25,
+      "section": null
+    },
+    {
+      "passage_id": "218e12286a8fb29a",
+      "text": "The analysis contained herein is based on numerous assumptions. Different assumptions could result in materially different results. The information in this report does not constitute, or form part of, any offer to sell or issue, or any offer to purchase or subscribe for shares, or to induce engage in any other investment activity. The value of any securities or financial instruments mentioned in this report may fluctuate subject to market conditions. Information about past performance of an investment is not necessarily a guide to, indicative of, or assurance of future performance. Estimates of future performance mentioned by the research analyst in this report are based on assumptions that may not be realized due to unforeseen factors like market volatility/fluctuation. In relation to securities or financial instruments denominated in a foreign currency other than the clients' home currency, movements in exchange rates will have an effect on the value, either favorable or unfavorable. Before acting on any recommendations in this report, recipients should consider the appropriateness of investing in the subject securities or financial instruments mentioned in this report and, if necessary, seek for independent professional advice.",
+      "page": 25,
+      "section": null
+    },
+    {
+      "passage_id": "4e37d54a3ae74f51",
+      "text": "The securities described herein may not be eligible for sale in all jurisdictions or to certain categories of investors where that permission profile is not consistent with the licenses held by the entities noted herein. This document is for distribution only as may be permitted by law. It is not directed to, or intended for distribution to or use by, any person or entity who is a citizen or resident of or located in any locality, state, country or other jurisdiction where such distribution, publication, availability or use would be contrary to law or regulation or would subject the entities noted herein to any regulation or licensing requirement within such jurisdiction.",
+      "page": 25,
+      "section": null
+    },
+    {
+      "passage_id": "14be6d198b5f243e",
+      "text": "No part of this material may be reproduced, distributed or transmitted or otherwise made available without prior consent of the entities noted herein. Copyright Bernstein Institutional Services LLC Bernstein Autonomous LLP, BSG France S.A., Sanford C. Bernstein (Hong Kong) Limited 盛博香港有限公司, Sanford C. Bernstein (Canada) Limited, Sanford C. Bernstein (India) Private Limited (SEBI registration no. INH000006378), Sanford C. Bernstein (Singapore) Private Limited and Sanford C. Bernstein Japan KK (サンフォード・C・バーンスタイン株式会社). All rights reserved. The trademarks and service marks contained herein are the property of their respective owners. Any unauthorized use or disclosure is strictly prohibited. The entities noted herein may pursue legal action if the unauthorized use results in any defamation and/or reputational risk to the entities noted herein and research published under the Bernstein and Autonomous brands.",
+      "page": 25,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "7e2d4425303bea59",
+      "name": "Administrative Regions",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a9abdbaed9d031d8",
+      "name": "All AIs",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d3965501050ef7d6",
+      "name": "All Als",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b98f36ccc76de54a",
+      "name": "Altering Prompts",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bf450f9d7cbb2e1d",
+      "name": "Arranging Deals",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3da8e55ae85edaeb",
+      "name": "Asking AI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "18ff676d9d8cf555",
+      "name": "Autonomous Brand",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c160d65049f4dfd5",
+      "name": "Autonomous LLP",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ce37f21d5e927944",
+      "name": "Average AI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5a165af17b571df3",
+      "name": "BSG France",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f0c4286f4d23d3fd",
+      "name": "Banco BTG",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dc2c783d2ec3346b",
+      "name": "Bandra Kurla",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7c47dd2e79fc30ad",
+      "name": "Bank Discovery",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "abef6f4f10fd10f6",
+      "name": "Banks And",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2de3ec6fb4398605",
+      "name": "Bernstein & Co",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "3109c97722cdfae2",
+      "name": "Bernstein AI",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5b2e8ee5089f48f3",
+      "name": "Bernstein Analysis",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "02c62a0dceca70db",
+      "name": "Bernstein Autonomous",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "other",
+        "title": "Analyse your Query",
+        "page": 18,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": []
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "Query Types",
+            "unit": null,
+            "values": [
+              {
+                "level": 1,
+                "label": "Analyse your Query"
+              },
+              {
+                "level": 2,
+                "parent": "Analyse your Query",
+                "label": "Deterministic Query"
+              },
+              {
+                "level": 2,
+                "parent": "Analyse your Query",
+                "label": "Complex/Fuzzy Query"
+              },
+              {
+                "level": 2,
+                "parent": "Analyse your Query",
+                "label": "Nudging like"
+              },
+              {
+                "level": 3,
+                "parent": "Deterministic Query",
+                "label": "Simple info gathering (Who won the 2022 World Cup?)"
+              },
+              {
+                "level": 3,
+                "parent": "Deterministic Query",
+                "label": "Maths, Coding and Technical Query"
+              },
+              {
+                "level": 3,
+                "parent": "Deterministic Query",
+                "label": "Reasoning (intensive or problem-solving)"
+              },
+              {
+                "level": 3,
+                "parent": "Complex/Fuzzy Query",
+                "label": "Creative or Generative Query"
+              },
+              {
+                "level": 3,
+                "parent": "Complex/Fuzzy Query",
+                "label": "Lengthy/Multi-step query"
+              },
+              {
+                "level": 3,
+                "parent": "Complex/Fuzzy Query",
+                "label": "Opinion based/Prediction Query"
+              },
+              {
+                "level": 3,
+                "parent": "Complex/Fuzzy Query",
+                "label": "Research heavy Query"
+              },
+              {
+                "level": 3,
+                "parent": "Complex/Fuzzy Query",
+                "label": "Multimodal Query"
+              },
+              {
+                "level": 4,
+                "parent": "Simple info gathering (Who won the 2022 World Cup?)",
+                "label": "Zero Shot Prompting"
+              },
+              {
+                "level": 4,
+                "parent": "Maths, Coding and Technical Query",
+                "label": "Maths"
+              },
+              {
+                "level": 4,
+                "parent": "Maths, Coding and Technical Query",
+                "label": "Coding"
+              },
+              {
+                "level": 4,
+                "parent": "Reasoning (intensive or problem-solving)",
+                "label": "Single Path"
+              },
+              {
+                "level": 4,
+                "parent": "Reasoning (intensive or problem-solving)",
+                "label": "Multi-path with uncertainty"
+              },
+              {
+                "level": 4,
+                "parent": "Creative or Generative Query",
+                "label": "Exploratory or Rephrasing"
+              },
+              {
+                "level": 4,
+                "parent": "Creative or Generative Query",
+                "label": "Specific"
+              },
+              {
+                "level": 4,
+                "parent": "Lengthy/Multi-step query",
+                "label": "Can be broken into sub-queries"
+              },
+              {
+                "level": 4,
+                "parent": "Lengthy/Multi-step query",
+                "label": "Can't be broken down"
+              },
+              {
+                "level": 4,
+                "parent": "Opinion based/Prediction Query",
+                "label": "Seek multiple answers and reflective prompting to critique/choose"
+              },
+              {
+                "level": 4,
+                "parent": "Research heavy Query",
+                "label": "Text augmented prompting (provide articles, hypothesis, data to start thought process)"
+              },
+              {
+                "level": 4,
+                "parent": "Multimodal Query",
+                "label": "Multimodal prompting (use this image to generate...)"
+              },
+              {
+                "level": 4,
+                "parent": "Nudging like",
+                "label": "Start with zero shot, analyse answer and follow up question"
+              },
+              {
+                "level": 5,
+                "parent": "Zero Shot Prompting",
+                "label": "Chain of Thought with Steps"
+              },
+              {
+                "level": 5,
+                "parent": "Coding",
+                "label": "Few shot + iterative for debugging"
+              },
+              {
+                "level": 5,
+                "parent": "Single Path",
+                "label": "Chain of Thought"
+              },
+              {
+                "level": 5,
+                "parent": "Multi-path with uncertainty",
+                "label": "Tree of Thought"
+              },
+              {
+                "level": 5,
+                "parent": "Exploratory or Rephrasing",
+                "label": "Open-ended prompting, seek ideas and rephrase/refine"
+              },
+              {
+                "level": 5,
+                "parent": "Specific",
+                "label": "Role playing (imagine you're a space traveller...) or Few shot (mimicking someone's style)"
+              },
+              {
+                "level": 5,
+                "parent": "Can be broken into sub-queries",
+                "label": "Iterative prompting with feedback loop"
+              },
+              {
+                "level": 5,
+                "parent": "Can't be broken down",
+                "label": "Provide structure in the prompt (list, table, SCQA, etc.)"
+              }
+            ]
+          }
+        ],
+        "figure_id": "c90ae0217139d6b3",
+        "provenance": {
+          "page": 18
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "P0",
+              "P1",
+              "P2",
+              "P3",
+              "P4",
+              "P5"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0.2,
+              "max": 0.9
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "GPT 3.5",
+            "unit": null,
+            "values": [
+              0.32,
+              0.35,
+              0.3,
+              0.3,
+              0.3,
+              0.29
+            ]
+          },
+          {
+            "name": "GPT 4",
+            "unit": null,
+            "values": [
+              0.84,
+              0.46,
+              0.87,
+              0.82,
+              0.89,
+              0.79
+            ]
+          },
+          {
+            "name": "Llama-7B",
+            "unit": null,
+            "values": [
+              0.4,
+              0.6,
+              0.4,
+              0.6,
+              0.6,
+              0.5
+            ]
+          },
+          {
+            "name": "Human Annotators (avg)",
+            "unit": null,
+            "values": [
+              0.73,
+              0.73,
+              0.73,
+              0.73,
+              0.73,
+              0.73
+            ]
+          }
+        ],
+        "figure_id": "13fabc029ec178d4",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "End with Space",
+              "Start with Space",
+              "End with \"Thank You\"",
+              "No Tip",
+              "Start with \"Hello\"",
+              "Start with \"Hello!\"",
+              "Tip $1",
+              "Tip $10",
+              "Tip $100",
+              "Tip $1000",
+              "Rephrase question as statement"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 9
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Percentage",
+            "unit": "%",
+            "values": [
+              4.6,
+              5.2,
+              5.6,
+              6.4,
+              6.8,
+              6.9,
+              7.3,
+              7.7,
+              7.7,
+              7.5,
+              8.5
+            ]
+          }
+        ],
+        "figure_id": "681b13374c1c03b6",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "GPT-4 + RAG",
+              "Mixtral 8x7b + RAG",
+              "Mistral 7b + RAG",
+              "Mistral 7b",
+              "Mixtral 8x7b",
+              "GPT-4",
+              "Human"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 30
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              29.4,
+              28.8,
+              28.5,
+              28.1,
+              27.7,
+              23.4,
+              23.1
+            ]
+          }
+        ],
+        "figure_id": "10bff184d527364d",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "other",
+        "title": "Pattern Recognition and Calculation",
+        "page": 5,
+        "axes": null,
+        "series": [
+          {
+            "name": "Input-Output Pairs",
+            "unit": null,
+            "values": [
+              {
+                "input": [
+                  4,
+                  7
+                ],
+                "output": 17
+              },
+              {
+                "input": [
+                  3,
+                  5
+                ],
+                "output": 7
+              },
+              {
+                "input": [
+                  6,
+                  2
+                ],
+                "output": 4
+              },
+              {
+                "input": [
+                  7,
+                  3
+                ],
+                "output": 11
+              }
+            ]
+          }
+        ],
+        "figure_id": "84e6674afa47b9b0",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "0.1",
+              "0.25",
+              "0.4",
+              "0.5",
+              "0.75",
+              "0.85",
+              "0.95",
+              "1"
+            ],
+            "label_text": "Degree of information (1-sparsity)"
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0.2,
+              "max": 0.7
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Data points",
+            "unit": null,
+            "values": [
+              0.27,
+              0.47,
+              0.64,
+              0.61,
+              0.61,
+              0.6,
+              0.59,
+              0.6
+            ]
+          }
+        ],
+        "figure_id": "6b0e1a5921426c03",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "4feff2750a96c648",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "table",
+        "title": null,
+        "page": 16,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Factor",
+              "Effect on Sona",
+              "Why"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null
+          }
+        },
+        "series": [
+          {
+            "name": "Table Data",
+            "unit": null,
+            "values": [
+              {
+                "Factor": "1) Capabilities",
+                "Effect on Sona": "...",
+                "Why": "INT patents, advanced foundry, faster tooling & cost curve. D"
+              },
+              {
+                "Factor": "2) REE risk",
+                "Effect on Sona": ".",
+                "Why": "Local China access to magnets mitigates choke-point – for China programs."
+              },
+              {
+                "Factor": "3) China access",
+                "Effect on Sona": "...",
+                "Why": "World's largest EV market JV taps local OEM base."
+              },
+              {
+                "Factor": "4) US angle",
+                "Effect on Sona": "0",
+                "Why": "Helps diversify Sona away from US cyclicality, but shipping from China to US is disfavored by tariff/FEOC."
+              },
+              {
+                "Factor": "5) Supply chain",
+                "Effect on Sona": ".",
+                "Why": "Shorter lead-times, local supplier density; export subject to policy risks. D"
+              },
+              {
+                "Factor": "6) JV frictions",
+                "Effect on Sona": "-",
+                "Why": "Approvals, governance, repatriation."
+              },
+              {
+                "Factor": "7) IP/tech transfer",
+                "Effect on Sona": "-",
+                "Why": "Classic JV leakage risk without tight contracts."
+              },
+              {
+                "Factor": "8) Geopolitics",
+                "Effect on Sona": "-",
+                "Why": "India-China & US-China flashpoints can affect flows."
+              }
+            ]
+          }
+        ],
+        "figure_id": "3ab8faa4365f47b1",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 19,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1998",
+              "2002",
+              "2003",
+              "2006",
+              "2009",
+              "2010",
+              "2011",
+              "2012",
+              "2013",
+              "2014",
+              "2015",
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -100,
+              "max": 20
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Handwriting Recognition",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              null,
+              -28,
+              -20,
+              -18,
+              -15,
+              -10,
+              -5,
+              0,
+              0,
+              0,
+              0,
+              0,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "Speech Recognition",
+            "unit": null,
+            "values": [
+              -100,
+              -85,
+              -80,
+              -70,
+              -60,
+              -55,
+              -50,
+              -40,
+              -30,
+              -10,
+              0,
+              0,
+              0,
+              0,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "Image Recognition",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              -100,
+              -80,
+              -60,
+              -40,
+              -20,
+              0,
+              0,
+              0,
+              0,
+              0,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "Reading Comprehension",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              -100,
+              -50,
+              -10,
+              0,
+              0,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "Understanding Language",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              -100,
+              -20,
+              0,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "Nuanced language Interpretation",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              -100,
+              -20,
+              0,
+              0,
+              0,
+              null
+            ]
+          },
+          {
+            "name": "GK Tests",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              -100,
+              -20,
+              0,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "Maths Problem Solving",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              -100,
+              -20,
+              -5,
+              0
+            ]
+          },
+          {
+            "name": "Coding",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              -100,
+              -20,
+              -5
+            ]
+          },
+          {
+            "name": "Complex Reasoning",
+            "unit": null,
+            "values": [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              -100,
+              -20
+            ]
+          }
+        ],
+        "figure_id": "e7eff9d1cec831d2",
+        "provenance": {
+          "page": 19
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": null,
+        "series": [],
+        "figure_id": "ad37f62173a7d721",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "radar",
+        "title": "Comparison of AI Models Performance",
+        "page": 16,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "G",
+              "Average"
+            ]
+          },
+          "y": {
+            "unit": "score",
+            "range": {
+              "min": 0,
+              "max": 5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Gemini (Using Same Prompts)",
+            "unit": "score",
+            "values": [
+              4.5,
+              4.8,
+              3.5,
+              2.5,
+              4.5,
+              4.0
+            ]
+          },
+          {
+            "name": "Copilot (Using Same Prompts)",
+            "unit": "score",
+            "values": [
+              4.0,
+              4.0,
+              3.0,
+              2.0,
+              3.8,
+              3.5
+            ]
+          },
+          {
+            "name": "DeepSeek (Using Same Prompts)",
+            "unit": "score",
+            "values": [
+              4.2,
+              4.5,
+              2.8,
+              1.5,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "name": "Perplexity (Using customized chain of human-refined prompts)",
+            "unit": "score",
+            "values": [
+              4.8,
+              4.8,
+              4.0,
+              3.5,
+              4.0,
+              4.2
+            ]
+          },
+          {
+            "name": "Grok (Using customized chain of human-refined prompts)",
+            "unit": "score",
+            "values": [
+              4.5,
+              4.5,
+              3.8,
+              3.0,
+              3.8,
+              3.9
+            ]
+          },
+          {
+            "name": "ChatGPT (Using customized chain of human-refined prompts)",
+            "unit": "score",
+            "values": [
+              4.8,
+              4.8,
+              4.2,
+              3.8,
+              4.2,
+              4.3
+            ]
+          }
+        ],
+        "figure_id": "679cc064172f323c",
+        "provenance": {
+          "page": 16
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "ROT",
+              "IO",
+              "COT"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 46,
+              "max": 64
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": "%",
+            "values": [
+              62.8,
+              55.8,
+              52.9
+            ]
+          }
+        ],
+        "figure_id": "e2e3531ee3298e00",
+        "provenance": {
+          "page": 7
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "6ade47861724cf52",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "lems</td><td>I bought a stock for $50, sold it for $55, bought again for $58 and sold at $62. I pay 1% transaction value as commission on each transaction, and pay 30% tax on final profits. Calculate ",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "e8a0295bd2e2c5ea",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "gain for $58 and sold at $62. I pay 1% transaction value as commission on each transaction, and pay 30% tax on final profits. Calculate net profit after taxes and commissions. Show step by step</td></",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "1c7a0445ac0f10a4",
+        "value": 50.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ep-by-step</td><td>Complex reasoning, math, logic, multi-step problems</td><td>I bought a stock for $50, sold it for $55, bought again for $58 and sold at $62. I pay 1% transaction value as commission",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "d65431a5d361a5bf",
+        "value": 55.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d>Complex reasoning, math, logic, multi-step problems</td><td>I bought a stock for $50, sold it for $55, bought again for $58 and sold at $62. I pay 1% transaction value as commission on each transact",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "f800c2499f930262",
+        "value": 58.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ath, logic, multi-step problems</td><td>I bought a stock for $50, sold it for $55, bought again for $58 and sold at $62. I pay 1% transaction value as commission on each transaction, and pay 30% tax o",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "1f2a6319763c0d8e",
+        "value": 62.0,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "i-step problems</td><td>I bought a stock for $50, sold it for $55, bought again for $58 and sold at $62. I pay 1% transaction value as commission on each transaction, and pay 30% tax on final profits.",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "9d2b4a32aa0712c4",
+        "value": 0.05,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "boggling. Even a small thing like ending question with a blank space (or beginning with it) changed 5% of the solutions given by Al. Ending with \"Thank You\" changed c5.6%. Telling Al that if it gives ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "8cfba75cca1173c2",
+        "value": 0.055999999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ce (or beginning with it) changed 5% of the solutions given by Al. Ending with \"Thank You\" changed c5.6%. Telling Al that if it gives a better answer you would tip it \\(10 (varying amounts) changed ov",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "639304c0fdfc622b",
+        "value": 0.09,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "on as statement (What are the three best ways \\(\\rightarrow\\) State three best ways) changed almost 9% of the<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a1d7b6faf6f5d05e",
+        "value": 0.27,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r the numbers (illustrative) Sona FY25 baseline (consolidated): Revenue 35,545 mn, EBITDA margin - 27%, PAT 16,012 mn. Bank Discovery. JV scale assumptions (base case): Capital platform: US \\(20m\\) (f",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "0e0ddbe3d8f46921",
+        "value": 0.18,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "pital platform: US \\(20m\\) (first phase). Asset turns 1.5- 2.5x by steady- state; EBITDA margin 15- 18% after ramp; shipments focus: China/Asia/EU (not US). Ownership/consolidation: Not disclosed. For",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "b82c8d5025c6cc83",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ": Revenue 300- 450 cr; EBITDA 45- 80 cr; PAT 20- 35 cr (Sona share - 12- 21 cr). PAT accretion: +2- 3% (FY26); +3- 6% (FY27) vs FY25 PAT 601 cr - assuming proportional economics; higher if ramps faste",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "85b7094ecf8e5670",
+        "value": 0.06,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "450 cr; EBITDA 45- 80 cr; PAT 20- 35 cr (Sona share - 12- 21 cr). PAT accretion: +2- 3% (FY26); +3- 6% (FY27) vs FY25 PAT 601 cr - assuming proportional economics; higher if ramps faster/order book co",
+        "provenance": {
+          "page": 14
+        }
+      },
+      {
+        "num_id": "30644e46b6bd7424",
+        "value": 0.5127,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Percent</td><td>Count*</td><td>Percent*</td></tr><tr><td>Outperform</td><td>BUY</td><td>585</td><td>51.27%</td><td>110</td><td>18.80%</td></tr><tr><td>Market-Perform (Bernstein Brand)</td><td>HOLD</td",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "cb84b777a0babb9c",
+        "value": 0.188,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>Percent*</td></tr><tr><td>Outperform</td><td>BUY</td><td>585</td><td>51.27%</td><td>110</td><td>18.80%</td></tr><tr><td>Market-Perform (Bernstein Brand)</td><td>HOLD</td><td>407</td><td>35.67%</td",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "8cfc15e3cb9d96a4",
+        "value": 0.3567,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0</td><td>18.80%</td></tr><tr><td>Market-Perform (Bernstein Brand)</td><td>HOLD</td><td>407</td><td>35.67%</td><td>76</td><td>18.67%</td></tr><tr><td>Neutral (Autonomous Brand)</td><td></td><td></td><",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "f4eb57b12fd21cba",
+        "value": 0.1867,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>Market-Perform (Bernstein Brand)</td><td>HOLD</td><td>407</td><td>35.67%</td><td>76</td><td>18.67%</td></tr><tr><td>Neutral (Autonomous Brand)</td><td></td><td></td><td></td><td></td><td></td>",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "5b8a076f47224e0f",
+        "value": 0.1306,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td></td><td></td><td></td><td></td></tr><tr><td>Underperform</td><td>SELL</td><td>149</td><td>13.06%</td><td>20</td><td>13.42%</td></tr></table> \\* These figures represent the number and percent",
+        "provenance": {
+          "page": 20
+        }
+      },
+      {
+        "num_id": "43a3f7615837cc5a",
+        "value": 0.13419999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td></tr><tr><td>Underperform</td><td>SELL</td><td>149</td><td>13.06%</td><td>20</td><td>13.42%</td></tr></table> \\* These figures represent the number and percentage of companies in each c",
+        "provenance": {
+          "page": 20
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 12,
+      "tables_count": 0,
+      "numerical_data_count": 19,
+      "passages_count": 174,
+      "entities_count": 20
+    }
+  }
+}

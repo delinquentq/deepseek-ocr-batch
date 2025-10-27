@@ -1,0 +1,4931 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "7b9de9d18f6889e6c46dbc4ed367d58a",
+    "title": "Monthly chartbook #4: Private demand heating up",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/BofA/Monthly chartbook 4 Private demand heating upMonthly chartbook 4 Private demand heating up_2025-08-28",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:33:48.286897",
+      "extracted_at": "2025-10-26T11:33:48.286910"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 15,
+        "successful_pages": 15,
+        "date": "2025-08-28",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/BofA",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 3,
+          "reduction_ratio": 0.040050918177317874
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/BofA"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "f4f07d0f00b76a2f",
+      "text": "The monthly CPI indicator was surprisingly strong in July, rising \\(2.8\\%\\) y/y against consensus and our expectations of \\(2.3\\%\\) . While strong electricity price growth of \\(13.0\\%\\) m/m led the headline increase, broader price pressures led to the trimmed mean accelerating to \\(2.7\\%\\) y/y (from \\(2.1\\%\\) y/y) and the CPI excluding volatile items rising \\(3.2\\%\\) y/y (from \\(2.5\\%\\) ). The monthly indicator is partial and noisy, but the component level details are consistent with our Q3 trimmed mean forecast of \\(0.7\\%\\) q/q (due Oct 29).",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "7f2c4deeacaf2b80",
+      "text": "The labour market was in line with expectations in July (following weakness in June), with the unemployment rate ticking down from \\(4.3\\%\\) to \\(4.2\\%\\) and employment increasing by \\(24.5k\\) . Looking through the monthly volatility, in trend terms the unemployment rate remained at \\(4.2\\%\\) and employment increased by \\(24.6k\\) . Labour demand remains strong, with job ads falling \\(1.0\\%\\) in July but flat y/y.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "e7bee25f4898e8c3",
+      "text": "We expect house prices rose \\(0.7\\%\\) m/m in August (due Sep 1) consistent with growth stabilising around a \\(7\\%\\) annualized rate over the past few months. Housing momentum is likely to continue with prices increasing in every capital city, auction clearance rates picking up and house price expectations rising on the back of lower interest rates.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "d99de072250f917c",
+      "text": "Consumer sentiment jumped \\(5.7\\%\\) to \\(98.5\\) in August, its highest level in over 3 years, with gains broad- based across sub- indexes supported by a further easing in financial conditions. The household spending indicator rose \\(0.5\\%\\) m/m and \\(4.8\\%\\) y/y in June (slightly below expectations), while spending in May was revised slightly higher.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "368b13376453783f",
+      "text": "Business confidence (NAB measure) rose in July, while conditions eased slightly. In trend terms, confidence is at its highest level since 2H- 22 and is strongest in construction and weakest in wholesale and retail industries. Equity prices remain near record highs with risk premia around historical lows:-",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "3f8b124a7d303004",
+      "text": "Exhibit 1: Heatmap of major activity indicators over previous 9 months House prices rising as inflation picks up, labour market remains resilient",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "58524148abd5d7b2",
+      "text": "Jul-25Jun-25May-25Apr-25Mar-25Feb-25Jan-25Dec-24Nov-24Household spending (%yoy)4.8%4.4%3.8%4.3%3.7%3.2%4.3%3.2%Consumer confidence93.192.692.190.195.992.292.192.894.6Trimmed mean inflation (% yoy)2.7%2.1%2.4%2.8%2.7%2.7%2.8%2.7%3.2%Underutilization rate (%)10.1%10.3%10.0%10.1%9.9%10.0%10.1%9.9%House prices yoy)3.7%3.5%3.6%3.8%4.2%4.3%4.7%5.1%5.7%Housing deficit (% yoy)5.9%5.8%5.8%5.7%5.7%5.6%5.5%5.4%",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "98f22bb82227e574",
+      "text": "Source: Haver, BofA Global Research. Note: Heatmap shows the relative pace of growth in the trailing two years.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "c9d110fffa42984b",
+      "text": "BofA Securities does and seeks to do business with issuers covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. Refer to important disclosures on page 14 to 15.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "a7b9059260cad670",
+      "text": "ABS = Australian Bureau of Statistics ASX = Australian Securities Exchange",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "4eaa66052429af93",
+      "text": "Exhibit 2: Monthly goods & services inflation (% y/y, 2019- 25) Inflation was higher than expected in July, with goods and services rising",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "00ba4a63a793f7c6",
+      "text": "Exhibit 4: Monthly CPI components (% y/y, 2019- 25) Housing inflation increased in July, mainly due to increasing electricity prices. Rent inflation continued to ease",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "56a7d4f459cb35c2",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "6994faf7ef41a560",
+      "text": "Exhibit 3: Monthly tradeable & non- tradeable inflation (% y/y, 2019- 25) Non- tradables and tradables inflation both increased in July",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "10fd69ddf6080913",
+      "text": "Exhibit 5: Monthly CPI heatmap (% y/y, latest 6 months) Housing picked up as NSW and ACT electricity rebates were not paid in July",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "96f3900fd8f488b6",
+      "text": "Jul-25Jun-25May-25Apr-25Mar-25Feb-25Food and Nonalcoholic Beverages3.0%3.2%2.9%3.1%3.4%3.1%Alcohol and Tobacco6.5%5.7%5.9%5.7%6.7%6.7%Clothing and Footwear2.3%1.4%1.3%0.8%0.7%1.8%Housing Furnishings, Household Equipment and Services3.6%1.6%2.0%2.2%1.8%1.8%Health0.9%0.9%0.9%1.0%0.6%1.0%Transport4.1%4.1%4.4%4.4%4.0%4.0%Communication0.8%0.9%1.0%0.7%0.2%0.3%Recreation and Culture2.6%-0.7%1.4%3.6%2.7%1.4%Education5.6%5.6%5.7%5.7%5.7%5.6%Insurance and Financial Services3.1%3.1%3.1%4.0%3.9%4.5%Headline2.8%1.8%2.1%2.4%2.4%2.4%Trimmed Mean2.7%2.1%2.4%2.8%2.7%2.7%",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "96f7c995dc9141bd",
+      "text": "Source: ABS \\\\*Above \\(3\\%\\) red, RBA target rate \\(2 - 3\\%\\) grey, below \\(2\\%\\) green",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "fd8a54e80c2102b0",
+      "text": "Exhibit 6: Quarterly CPI components (y/y contributions, 2016-25) Housing inflation set to pick up as electricity rebates unwind",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f1cc193e22fc9ea3",
+      "text": "Exhibit 7: Melbourne-Institute Monthly Inflation (% y/y, 2016-25) Headline inflation (MI) rose from 2.4% to 2.9% in July",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "7805c50c7d6b2150",
+      "text": "Exhibit 8: China PPI v Australia Goods CPI (% y/y, 2019-25) China PPI has continued to stabilize, while goods inflation picks up",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "667b4528df77189d",
+      "text": "Source: Haver Analytics, CNBS, ABS",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "af0142016d03d91f",
+      "text": "Exhibit 9: Price Phillips curve relationship",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "13b43bdd5b0b397a",
+      "text": "Source:ABS \\\\*Red = Last observation, green = 2024 onwards",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "31a00880ac12d75d",
+      "text": "Exhibit 10: Trimmed mean inflation - monthly vs quarterly (% y/y) Trimmed mean inflation monthly has picked up in line with Q2's print",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "57bfd629c884f8ed",
+      "text": "Exhibit 11: House purchases inflation - monthly vs quarterly (% y/y) House dwelling purchase prices continue to ease",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "5cdca611091406c6",
+      "text": "Exhibit 12: Unemployment Rate (%, 2000- 25) Unemployment fell back to \\(4.2\\%\\) in July, in- line with the trend measure",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "5569b4a22ff00646",
+      "text": "Exhibit 14: Employment growth ('000s, monthly, 2024- 25) Employment grew 24.5K in July, led by full- time jobs",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "199d38223b0f7519",
+      "text": "Exhibit 16: Labour demand indicators (2010- 19, ave= 100) Job ads and vacancies point to strong labour demand",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "aed1238400f70827",
+      "text": "Source:ABS,ANZ-Indeed",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ce6027db026d5a1f",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ee77cedab6c3a685",
+      "text": "Exhibit 13: Labour market supply (%, 2000- 25) Participation rate is hovering around all- time highs",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "fbdf38bccbfb8aca",
+      "text": "Exhibit 15: Employment growth (% y/y, 2019- 25) Employment growth has stabilized around \\(2.0\\%\\)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "511a17f18f573950",
+      "text": "Exhibit 17: Labour market underutilization (%, 2018- 25) Declining underutilization suggests labour market strength",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2726b79526bc1b74",
+      "text": "Exhibit 18: Household spending indicator (% y/y, nominal, 2024- 25)Consumer spending increased to \\(4.8\\%\\) y/y in June",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5c3d571d72a81792",
+      "text": "Exhibit 20: Online retail turnover growth (% y/y, 2015- 25)Online retail growth has recovered, but still below the 10y average",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "57d2e67adfe9d1ad",
+      "text": "Exhibit 22: Household spending growth (nominal, SA)June's spending on furnishings and household equipment was strong",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "454fcef1061cb552",
+      "text": "1 month change3 month change6 month change12 month changeFood1.5%1.3%4.8%7.5%Alcoholic beverages &amp;amp; tobacco-2.4%-8.8%-12.3%-16.5%Clothing and footwear1.6%1.7%0.7%4.6%Furnishings and Household equipment2.0%2.4%1.8%4.8%Health-0.3%2.6%4.1%7.2%Transport0.1%0.9%0.7%2.2%Recreation and culture1.0%2.4%4.8%7.9%Hotels, cafes and restaurants-0.8%2.3%1.8%5.7%Miscellaneous0.6%1.8%4.4%7.0%",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e8644ea29081d1b9",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f5c50556a4be1691",
+      "text": "Exhibit 19: Retail turnover growth (%)Clothing and department stores sales were strong in June due to winter sales",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "1e98c889bf0b011e",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "66d01d1b3d266a1a",
+      "text": "Exhibit 21: Retail turnover growth by size (% y/y, 2018- 25)Retail sales growth for large retail firms has slightly diverged",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "26e66e440869c982",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "48ff428ce34bf56b",
+      "text": "Exhibit 23: Net migration & population growth (2000- 25)Net migration picked up, but population growth continues to moderate",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e519ed3dd7681f96",
+      "text": "Exhibit 24: Capital city dwelling prices (2009=100)House prices are rising across all capital cities",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "c1049ec323816a7c",
+      "text": "Exhibit 26: House price expectations vs house prices (2015-25) Housing sentiment has picked up following RBA cash rate cuts",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "3d2b5417724c7181",
+      "text": "Source: Westpac-Melbourne Institute, Cotality",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "23c094de0ded4e37",
+      "text": "Exhibit 25: Dwelling price performance (SA, %)Regional house prices continue to rise faster than cities",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "44b6219a19507ae9",
+      "text": "Exhibit 27: Mortgage rates and the RBA cash rate (%, 2016-25)Variables rates are tracking the cash rate lower, 3y fixed also easing gradually",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "989df33383598b63",
+      "text": "Exhibit 28: Building approvals (12mma, thousands, 1992-2025) Approvals trending up, led by units, but below the implied Housing Accord rate (240k)",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "e8ee835ddcd51d99",
+      "text": "Exhibit 29: Vacancy rates across capital cities (%, 2010-2025) Vacancy rates remain low amid strong rental demand",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "ea56cd3463b84984",
+      "text": "Exhibit 30: Consumer sentiment - Westpac-Melbourne Institute Consumer confidence rose strongly in August",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "cb8a7f00b4c97c6d",
+      "text": "Consumer Sentiment IndexFamily Finances Last 12 MonthsFamily Finances Next 12 MonthsEconomic Conditions Next 12 MonthsEconomic Conditions Next 5 YearsTime to Buy Major Household ItemsCurrent Level98.584.2106.8101.298.4101.7Deviation from base-1.5-15.86.81.2-1.61.73m average94.779.6102.395.996.099.83m change6.49.16.18.2-0.28.512m change13.513.310.017.96.919.1Z-score2.302.351.762.221.162.49",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "30c0d742da9a8582",
+      "text": "Source:Westpac-Melbourne Institute",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "0a48e12d1b053c5e",
+      "text": "Exhibit 31: Labour market leading indicator\\* against unemployment rate changes The leading indicator suggests the unemployment rate will stabilize in the months ahead",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "82b7a53293a030f2",
+      "text": "Source: RBA, ABS; ANZ-Indeed; RBA; Westpac-Melbourne Institute. \\\\*Summary leading indicator \\(=\\) average of the standardized quarterly changes in ABS vacancies, ANZ-Indeed ads and WMI unemployment expectations; two-quarter moving average. Our estimate is based on the indicator developed by Tan (2025) \"How Useful are Leading\" Labour Market Indicators at Forecasting the Unemployment Rate\", RBA Bulletin.",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "6dc0f57d712e719d",
+      "text": "Exhibit 29: Vacancy rates across capital cities (%, 2010-2025) Vacancy rates remain low amid strong rental demand",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "55f294fd58fba5ed",
+      "text": "Exhibit 32: Credit growth across sectors (%, y/y) Personal credit growth jumped to \\(3.7\\%\\) in June",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "440b44b9f5977905",
+      "text": "Exhibit 34: Equity risk premium (%, 2019- 25) The equity risk premium remains low by historical standards",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "87d3bd9abe37b34c",
+      "text": "Source: Bloomberg. Note: Forward earnings yield less 10-year bond.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "875aaadbb85c5567",
+      "text": "Exhibit 36: ASX 200 Total Return Defensive sectors (1 Jan 2025 = 100) Communication and utilities stocks have outperformed the ASX 200 while healthcare stocks have underperformed",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "f6735992b87e1b29",
+      "text": "Exhibit 33: Credit growth (6m ann) deviation from 10y ave (ppt) Credit growth is above average, led by businesses and housing investors",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "e481214686f8aa57",
+      "text": "Source: RBA. \\\\*Non-financial businesses",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "d4819552e5d7dc78",
+      "text": "BoFA GLOBAL RESEARCH",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ea80f3a856e5410f",
+      "text": "Exhibit 35: Capacity utilization (1997- 2025 ave. = 100) Capacity utilization remains above its historical average across most sectors",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "11adb182d5aee5f3",
+      "text": "BoFA GLOBAL RESEARCH",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "83ffa84671300ae5",
+      "text": "Exhibit 37: ASX 200 Total Return Cyclical sectors (1 Jan 2025 = 100) Cyclical sectors fell sharply after Liberation Day but have recovered",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "00c501a8f5000ec4",
+      "text": "Exhibit 38: Monetary aggregates growth (% y/y, 2019-25) Growth in the broad money supply is picking up",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "799b42d7b094ae54",
+      "text": "\\\\*Ratio of broad money to base money Source:RBA,BofA Global Research",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "be4fb124dee79a2e",
+      "text": "Exhibit 39: Australian dollar TWI and AUD/USD (2024-25) The AUD TWI remains around its end-2024 level, below its post-float average",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "6cf7600d089be1be",
+      "text": "Source:RBA,Macrobond",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2dfd32cc509da90e",
+      "text": "Exhibit 40: Business conditions vs real GDP growth (%, 2014-25) Business conditions soft consistent with subdued GDP growth",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "91efbd025dc556eb",
+      "text": "Exhibit 41: RBA Reserves (AUD bn, 2020-25) Total ES balances (reserves) remain around 200bn",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "48b1fe3fb45dab0a",
+      "text": "Risk neutral yields consistent with nominal neutral rate around 3.5%, while 10y term premia remain around 60bps",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "5782bd3dd20d5fb5",
+      "text": "Source: AOFM. Note: Term premium is OLS estimate from ACM (2013).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "7a1e6b05352a03cd",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "026a4b3b07cd19f4",
+      "text": "We are forecasting 2y rates to be higher",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "8df2c8dab350424a",
+      "text": "Front end differential remains tight",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "be084c504af905b9",
+      "text": "Sentiment has continued to improve, but has been moderate",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "a9b35d75b73a92db",
+      "text": "Source: S&P Global, ABS",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "35424e439eff66dd",
+      "text": "NSW trading at a premium to the other states",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "f2ee1ca652d0d774",
+      "text": "6m 6s3s near the bottom of recent ranges",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "ad80eedf5403ea0e",
+      "text": "Source: ASX, Bloomberg",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "2a3d55760881f50d",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "9926b77082b5de0a",
+      "text": "Exhibit 48: 3m bills-OIS basis (BOB) vs Surplus ESA balances (AUD bn) Red box = RBA's estimate of underlying reserve demand (AUD 100-200bn)",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "9653297983363ee2",
+      "text": "Source: Bloomberg, RBA",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "d87c42bae300e437",
+      "text": "Exhibit 49: AUD FX monthly turnover (AUD bn) FX swaps volumes have increased markedly since 2022",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "2d241ea60966ec78",
+      "text": "Exhibit 50: Goods trade (AUD bn, 2010-25) Goods trade surplus has remained stable in recent months",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "e64ce2d75d1d32e4",
+      "text": "Exhibit 52: Exports by destination\\* (AUD bn, 2021- 25) Exports to the US have returned to normal levels, exports to China remain strong",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "a3c9b6c38a96e977",
+      "text": "Source:ABS \\\\*Export shares In 2024:CH \\(35\\%\\) JP \\(14\\%\\) KO \\(7\\%\\) IN \\(5\\%\\) US \\(5\\%\\)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "24d67a05b0e6da4b",
+      "text": "Exhibit 51: Goods trade growth (% yoy 3mma, 2022- 25) Goods export and import growth converging",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "2f3544b0e700e65a",
+      "text": "Exhibit 53: Imports by origin\\* (AUD bn, 2021- 25) Imports from China remain stable accounting for around \\(25\\%\\) of imports",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "800dd5d8423f7558",
+      "text": "Source:ABS \\\\*Import shares In 2024:CH \\(26\\%\\) JP \\(6\\%\\) KO \\(1\\%\\) IN \\(3\\%\\) US \\(12\\%\\)",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "7195e0fb98af0591",
+      "text": "Iron ore exports remain around 2023- 24 levels, while coal and gold rose in June",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "49f8770430000056",
+      "text": "Source: ABS, Macrobond",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "27b8dcb026e97a8b",
+      "text": "BofA GLOBAL RESEARCH",
+      "page": 12,
+      "section": null
+    },
+    {
+      "passage_id": "88d4eea1e1af92ce",
+      "text": "Prices are indicative and for information purposes only. Except as otherwise stated in the report, for any recommendation in relation to an equity security, the price referenced is the publicly traded price of the security as of close of business on the day prior to the date of the report or, if the report is published during intraday trading, the price referenced is indicative of the traded price as of the date and time of the report and in relation to a debt security (including equity preferred and CDS), prices are indicative as of the date and time of the report and are from various sources including BofA Securities trading desks.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "4870d6391e3daf29",
+      "text": "The date and time of completion of the production of any recommendation in this report shall be the date and time of dissemination of this report as recorded in the report timestamp.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "21cfec37dfc9554e",
+      "text": "Recipients who are not institutional investors or market professionals should seek the advice of their independent financial advisor before considering information in this report in connection with any investment decision, or for a necessary explanation of its contents.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "6102fa75934ff14c",
+      "text": "Officers of BofA or one or more of its affiliates (other than research analysts) may have a financial interest in securities of the issuer(s) or in related investments. Individuals identified as economists do not function as research analysts under U.S. law and reports prepared by them are not research reports under applicable U.S. rules and regulations. Macroeconomic analysis is considered investment research for purposes of distribution in the U.K. under the rules of the Financial Conduct Authority.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "c5a980c3ad1d1f80",
+      "text": "Refer to BofA Global Research policies relating to conflicts of interest.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "549bb9511afebbfd",
+      "text": "BofA Securities' includes BofA Securities, Inc. (BofAS) and its affiliates. Investors should contact their BofA Securities representative or Merrill Global Wealth Management financial advisor if they have questions concerning this report or concerning the appropriateness of any investment idea described herein for such investor. BofA Securities' is a global brand for BofA Global Research.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "54524fb49d54e330",
+      "text": "Information relating to Non- US affiliates of BofA Securities and Distribution of Affiliate Research Reports:",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "330b3f8deb8b2e01",
+      "text": "BofAS and/or Merrill Lynch, Pierce, Fenner & Smith Incorporated (\"MLPF&S\") may in the future distribute, information of the following non- US affiliates in the US (short name: legal name, regulator): Merrill Lynch (South Africa); Merrill Lynch South Africa (Pty) Ltd., regulated by the Financial Sector Conduct Authority; MLI (UK): Merrill Lynch International, regulated by the Financial Conduct Authority (FCA) and the Prudential Regulation Authority (PRA); BofASE (France): BofA Securities Europe SA is authorized by the Autorité de Contrôle Prudentiel et de Résolution (ACPR) and regulated by the ACPR and the Autorité des Marchés Financiers (AMF). BofA Securities Europe SA (\"BofASE\") with registered address at 51, rue La Boétie, 75008 Paris is registered under no 842 602 690 RCS Paris. In accordance with the provisions of French Code Monétaire et Financier (Monetary and Financial Code), BofASE is an establishment de crédit et d'investissement (credit and investment institution) that is authorised and supervised by the European Central Bank and the Autorité de Contrôle Prudentiel et de Résolution (ACPR) and regulated by the ACPR and the Autorité des Marchés Financiers. BofASE's share capital can be found at www.bofaml.com/BofASdisclaimer; BofA Europe (Milan): Bank of America Europe Designated Activity Company, Milan Branch, regulated by the Bank of Italy, the European Central Bank (ECB) and the Central Bank of Ireland (CBI); BofA Europe (Frankfurt): Bank of America Europe Designated Activity Company, Frankfurt Branch regulated by BaFin, the ECB and the CBI; BofA Europe (Madrid): Bank of America Europe Designated Activity Company, Sucursal en España, regulated by the Bank of Spain, the ECB and the CBI; Merrill Lynch (Australia): Merrill Lynch Equities (Australia) Limited, regulated by the Australian Securities and Investments Commission; Merrill Lynch (Hong Kong): Merrill Lynch (Asia Pacific) Limited, regulated by the Hong Kong Securities and Futures Commission (HKSFC); Merrill Lynch (Singapore): Merrill Lynch (Singapore) Pte Ltd, regulated by the Monetary Authority of Singapore (MAS); Merrill Lynch (Canada): Merrill Lynch Canada Inc, regulated by the Canadian Investment Regulatory Organization; Merrill Lynch (Mexico): Merrill Lynch Mexico, SA de CV, Casa de Bolsa, regulated by the Comisión Nacional Bancaria y de Valores; BofAS Japan: BofA Securities Japan Co., Ltd., regulated by the Financial Services Agency; Merrill Lynch (Seoul): Merrill Lynch International, LLC Seoul Branch, regulated by the Financial Supervisory Service; Merrill Lynch (Taiwan): Merrill Lynch Securities (Taiwan) Ltd., regulated by the Securities and Futures Bureau; BofAS India: BofA Securities India Limited, regulated by the Securities and Exchange Board of India (SEBI); Merrill Lynch (Israel): Merrill Lynch Israel Limited, regulated by Israel Securities Authority; Merrill Lynch (DIFC): Merrill Lynch International (DIFC Branch), regulated by the Dubai Financial Services Authority (DFSA); Merrill Lynch (Brazil): Merrill Lynch S.A. Corretora de Títulos e Valores Mobiliários, regulated by Comissão de Valores Mobiliários; Merrill Lynch KSA Company: Merrill Lynch Kingdom of Saudi Arabia Company, regulated by the Capital Market Authority. This information has been approved for publication and is distributed in the United Kingdom (UK) to professional clients and eligible counterparties (as each is defined in the rules of the FCA and the PRA) by MLI (UK), which is authorized by the PRA and regulated by the FCA and the PRA - details about the extent of our regulation by the FCA and PRA are available from us on request; has been approved for publication and is distributed in the European Economic Area (EEA) by BofASE (France), which is authorized by the ACPR and regulated by the ACPR and the AMF; has been considered and distributed in Japan by BofAS Japan, a registered securities dealer under the Financial Instruments and Exchange Act in Japan, or its permitted affiliates; is issued and distributed in Hong Kong by Merrill Lynch (Hong Kong) which is regulated by HKSFC; is issued and distributed in Taiwan by Merrill Lynch (Taiwan); is issued and distributed in India by BofAS India; and is issued and distributed in Singapore to institutional investors and/or accredited investors (each as defined under the Financial Advisers Regulations) by Merrill Lynch (Singapore) (Company Registration No 198602883D). Merrill Lynch (Singapore) is regulated by MAS. Merrill Lynch Equities (Australia) Limited (ABN 65 006 276 795), AFS License 235132 (MLEA) distributes this information in Australia only to Wholesale clients as defined by s.761G of the Corporations Act 2001. With the exception of Bank of America N.A., Australia Branch, neither MLEA nor any of its affiliates involved in preparing this information is an Authorised Deposit-Taking Institution under the Banking Act 1959 nor regulated by the Australian Prudential Regulation Authority. No approval is required for publication or distribution of this information in Brazil and its local distribution is by Merrill Lynch (Brazil) in accordance with applicable regulations. Merrill Lynch (DIFC) is authorized and regulated by the DFSA. Information prepared and issued by Merrill Lynch (DIFC) is done so in accordance with the requirements of the DFSA conduct of business rules. BofA Europe (Frankfurt) distributes this information in Germany and is regulated by BaFin, the ECB and the CBI. BofA Securities entities, including BofA Europe and BofASE (France), may outsource/delete the marketing and/or provision of certain research services or aspects of research services to other branches or members of the BofA Securities group. You may be contacted by a different BofA Securities entity acting for and on behalf of your service provider where permitted by applicable law. This does not change your service provider. Please refer to the Electronic Communications Disclaimers for further information.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "b9fe495ae39ed9cd",
+      "text": "This information has been prepared and issued by BofAS and/or one or more of its non- US affiliates. The author(s) of this information may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold themselves out as being able to do so. BofAS and/or MLPF&S is the distributor of this information in the US and accepts full responsibility for information distributed to BofAS and/or MLPF&S clients in the US by its non- US affiliates. Any US person receiving this information and wishing to effect any transaction in any security discussed herein should do so through BofAS and/or MLPF&S and not such foreign affiliates. Hong Kong recipients of this information should contact Merrill Lynch (Asia Pacific) Limited in respect of any matters relating to dealing in securities or provision of specific advice on securities or any other matters arising from, or in connection with, this information. Singapore recipients of this information should contact Merrill Lynch (Singapore) Pte Ltd in respect of any matters arising from, or in connection with, this information. For clients that are not accredited investors, expert investors or institutional investors Merrill Lynch (Singapore) Pte Ltd in respect of its responsibility for the contents of this information distributed to such clients in Singapore.",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "64e10ea107bcb5a3",
+      "text": "Taiwan Readers: Neither the information nor any opinion expressed herein constitutes an offer or a solicitation of an offer to transact in any securities or other financial instrument. No part of this report may be used or reproduced or quoted in any manner whatsoever in Taiwan by the press or any other person without the express written consent of BofA Securities. This document provides general information only, and has been prepared for, and is intended for general distribution to, BofA Securities clients. Neither the information nor any opinion expressed constitutes an offer or an invitation to make an offer, to buy or sell any securities or other financial instrument or any derivative related to such securities or instruments (e.g., options,",
+      "page": 13,
+      "section": null
+    },
+    {
+      "passage_id": "c7ccd13833dbf2d9",
+      "text": "fut  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t  t  t  e  t  t  t  t  t  t  t  t  t  t  i  t  t  t  t  t  t  t",
+      "page": 14,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "98841213d2fe7b9c",
+      "name": "ABS\n\nBofA",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e1e651d2efa1d5cc",
+      "name": "AFS License",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e195d3a47b7917a1",
+      "name": "Affiliate Research",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "b0c2f9a72e612607",
+      "name": "America Europe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "84ff7b3b3263e4ff",
+      "name": "Any US",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98e6ff96d07c787b",
+      "name": "Australia Branch",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "68cb260b7f16a17f",
+      "name": "Australia Goods",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "fc274bfe0c1e1440",
+      "name": "Australian Bureau",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d16f4c8368da6dbe",
+      "name": "Australian Prudential",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bc98bb53ad7f2a24",
+      "name": "Australian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2cf9ed01d5cfe61e",
+      "name": "Authorised Deposit",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "665d58562cca56d1",
+      "name": "Banking Act",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7e7c4928caf0e3a7",
+      "name": "Bloomberg\n\nBofA",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0a850da2c0f85619",
+      "name": "BoFA GLOBAL",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "5ff0d0c62e5480a8",
+      "name": "BofA AU",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cd4b94a1a976d9a1",
+      "name": "BofA Europe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "69cd3127b89ae342",
+      "name": "BofA GLOBAL",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f37f33576b1375aa",
+      "name": "BofA Global",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cb7fc586e0c30b74",
+      "name": "BofA Securities",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -3,
+              "max": 9
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Headline",
+            "unit": "%",
+            "values": [
+              1.5,
+              2.5,
+              0.5,
+              2.5,
+              5.5,
+              8.0,
+              7.0,
+              6.0,
+              5.0,
+              4.0,
+              3.5,
+              3.0,
+              3.5,
+              2.5,
+              2.0,
+              2.5,
+              2.0,
+              2.5,
+              2.0,
+              2.5
+            ]
+          },
+          {
+            "name": "Services",
+            "unit": "%",
+            "values": [
+              1.0,
+              2.0,
+              1.5,
+              -2.5,
+              -1.0,
+              1.0,
+              3.5,
+              2.0,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              5.5,
+              4.5,
+              4.0,
+              3.5,
+              3.0,
+              3.5,
+              3.0,
+              3.5
+            ]
+          },
+          {
+            "name": "Goods",
+            "unit": "%",
+            "values": [
+              2.0,
+              1.5,
+              2.5,
+              1.0,
+              2.0,
+              3.0,
+              6.0,
+              8.0,
+              9.0,
+              8.0,
+              6.0,
+              5.0,
+              4.0,
+              1.0,
+              0.0,
+              -1.0,
+              1.0,
+              2.0,
+              2.5,
+              3.0
+            ]
+          }
+        ],
+        "figure_id": "61db6034c110e84a",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -3,
+              "max": 9
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Core CPI ex volatiles",
+            "unit": "%",
+            "values": [
+              1.5,
+              1.8,
+              0.5,
+              2.0,
+              2.5,
+              4.0,
+              6.0,
+              6.8,
+              7.0,
+              6.5,
+              6.0,
+              5.5,
+              5.0,
+              4.5,
+              4.0,
+              3.8,
+              3.5,
+              3.0,
+              2.8,
+              2.5,
+              2.5,
+              2.8,
+              3.0,
+              3.0,
+              3.0,
+              3.0
+            ]
+          },
+          {
+            "name": "Tradables",
+            "unit": "%",
+            "values": [
+              0.5,
+              1.0,
+              2.0,
+              3.5,
+              2.0,
+              0.0,
+              -2.0,
+              -1.0,
+              1.0,
+              3.5,
+              1.0,
+              -1.0,
+              -2.5,
+              -1.0,
+              1.0,
+              4.0,
+              7.0,
+              9.0,
+              6.0,
+              3.0,
+              1.0,
+              0.5,
+              1.5,
+              0.0,
+              -1.0,
+              0.5
+            ]
+          },
+          {
+            "name": "Non-tradables",
+            "unit": "%",
+            "values": [
+              2.0,
+              2.0,
+              2.5,
+              2.5,
+              2.0,
+              1.0,
+              0.5,
+              1.5,
+              2.5,
+              4.0,
+              3.0,
+              2.5,
+              3.0,
+              4.0,
+              5.0,
+              6.0,
+              7.0,
+              6.5,
+              5.5,
+              4.5,
+              3.5,
+              3.0,
+              3.0,
+              3.0,
+              3.5,
+              4.0
+            ]
+          }
+        ],
+        "figure_id": "79195a46ec8aeb3f",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -2,
+              "max": 8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Trimmed mean",
+            "unit": null,
+            "values": [
+              1.0,
+              2.5,
+              2.0,
+              1.5,
+              -0.5,
+              2.5,
+              5.5,
+              4.0,
+              2.0,
+              2.5
+            ]
+          },
+          {
+            "name": "Headline",
+            "unit": null,
+            "values": [
+              1.5,
+              2.8,
+              2.2,
+              1.8,
+              0.0,
+              3.0,
+              6.5,
+              5.0,
+              2.5,
+              3.0
+            ]
+          }
+        ],
+        "figure_id": "3322bf5da25a4a37",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Trimmed mean CPI (M)",
+            "unit": "%",
+            "values": [
+              1.6,
+              1.5,
+              1.2,
+              1.8,
+              5.8,
+              4.2,
+              2.5
+            ]
+          },
+          {
+            "name": "Trimmed mean CPI (Q)",
+            "unit": "%",
+            "values": [
+              1.7,
+              1.6,
+              1.1,
+              2.0,
+              6.2,
+              4.0,
+              2.7
+            ]
+          }
+        ],
+        "figure_id": "faaafbfc01e48596",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -10,
+              "max": 30
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "House purchases (M)",
+            "unit": "%",
+            "values": [
+              0.5,
+              0.5,
+              -2.0,
+              1.0,
+              21.0,
+              5.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Rents (M)",
+            "unit": "%",
+            "values": [
+              0.0,
+              0.0,
+              -1.0,
+              0.0,
+              2.0,
+              6.0,
+              3.0
+            ]
+          },
+          {
+            "name": "House purchases (Q)",
+            "unit": "%",
+            "values": [
+              1.0,
+              0.0,
+              0.0,
+              1.0,
+              20.0,
+              7.0,
+              0.0
+            ]
+          },
+          {
+            "name": "Rents (Q)",
+            "unit": "%",
+            "values": [
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              3.0,
+              7.0,
+              4.0
+            ]
+          }
+        ],
+        "figure_id": "e95c3d8e515aef1c",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-24",
+              "Apr-24",
+              "Jul-24",
+              "Oct-24",
+              "Jan-25",
+              "Apr-25",
+              "Jul-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -80,
+              "max": 160
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Full-time",
+            "unit": null,
+            "values": [
+              -10,
+              -20,
+              40,
+              40,
+              20,
+              50,
+              60
+            ]
+          },
+          {
+            "name": "Part-time",
+            "unit": null,
+            "values": [
+              10,
+              -45,
+              10,
+              -20,
+              60,
+              30,
+              -40
+            ]
+          },
+          {
+            "name": "Total",
+            "unit": null,
+            "values": [
+              0,
+              -65,
+              50,
+              20,
+              80,
+              80,
+              20
+            ]
+          },
+          {
+            "name": "3-month ma",
+            "unit": null,
+            "values": [
+              -10,
+              30,
+              20,
+              10,
+              40,
+              20,
+              30
+            ]
+          }
+        ],
+        "figure_id": "eec72acfefe74ff8",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2010",
+              "2012",
+              "2014",
+              "2016",
+              "2018",
+              "2020",
+              "2022",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 300
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "ANZ-Indeed job ads",
+            "unit": null,
+            "values": [
+              95,
+              110,
+              80,
+              90,
+              110,
+              100,
+              40,
+              150,
+              160,
+              115,
+              115
+            ]
+          },
+          {
+            "name": "ABS vacancies",
+            "unit": null,
+            "values": [
+              90,
+              100,
+              80,
+              90,
+              120,
+              120,
+              80,
+              200,
+              250,
+              190,
+              190
+            ]
+          }
+        ],
+        "figure_id": "d417b5f1071a2fbd",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2000",
+              "2003",
+              "2006",
+              "2009",
+              "2012",
+              "2015",
+              "2018",
+              "2021",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 56,
+              "max": 68
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Employment to Population (%)",
+            "unit": "%",
+            "values": [
+              58.8,
+              59.5,
+              61.5,
+              62.5,
+              60.5,
+              60.5,
+              62.5,
+              57.5,
+              64.0,
+              64.0
+            ]
+          },
+          {
+            "name": "Participation Rate (%)",
+            "unit": "%",
+            "values": [
+              62.8,
+              63.5,
+              64.5,
+              65.5,
+              65.0,
+              64.5,
+              65.5,
+              60.5,
+              66.5,
+              67.0
+            ]
+          }
+        ],
+        "figure_id": "32497def50651861",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -12,
+              "max": 18
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Full-time (% yoy)",
+            "unit": "%",
+            "values": [
+              2.5,
+              -2.5,
+              4.5,
+              5.5,
+              3.5,
+              1.5,
+              1.5
+            ]
+          },
+          {
+            "name": "Part-time (% yoy)",
+            "unit": "%",
+            "values": [
+              3.5,
+              -11.5,
+              14.0,
+              2.0,
+              0.5,
+              5.5,
+              2.0
+            ]
+          },
+          {
+            "name": "Total (% yoy)",
+            "unit": "%",
+            "values": [
+              3.0,
+              -5.5,
+              7.5,
+              4.5,
+              2.5,
+              2.5,
+              1.5
+            ]
+          }
+        ],
+        "figure_id": "c711996a2e781e92",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 3,
+              "max": 21
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Underemployment Rate",
+            "unit": null,
+            "values": [
+              8.5,
+              8.2,
+              13.5,
+              8.0,
+              5.5,
+              6.0,
+              6.5,
+              6.0
+            ]
+          },
+          {
+            "name": "Underutilization Rate",
+            "unit": null,
+            "values": [
+              13.5,
+              13.0,
+              20.0,
+              12.0,
+              8.0,
+              10.0,
+              11.0,
+              10.0
+            ]
+          }
+        ],
+        "figure_id": "95f076c15ce85e0f",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-24",
+              "Feb-24",
+              "Mar-24",
+              "Apr-24",
+              "May-24",
+              "Jun-24",
+              "Jul-24",
+              "Aug-24",
+              "Sep-24",
+              "Oct-24",
+              "Nov-24",
+              "Dec-24",
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": 0,
+              "max": 8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Household spending",
+            "unit": "%",
+            "values": [
+              5.0,
+              4.6,
+              4.5,
+              3.5,
+              3.9,
+              4.0,
+              3.8,
+              2.5,
+              1.5,
+              3.0,
+              3.5,
+              3.2,
+              3.1,
+              3.8,
+              3.9,
+              4.3,
+              4.8
+            ]
+          },
+          {
+            "name": "Discretionary",
+            "unit": "%",
+            "values": [
+              4.5,
+              5.2,
+              4.2,
+              2.7,
+              3.5,
+              3.8,
+              3.0,
+              1.5,
+              0.8,
+              2.5,
+              4.5,
+              2.0,
+              2.8,
+              4.2,
+              3.0,
+              4.0,
+              4.3
+            ]
+          },
+          {
+            "name": "Non-discretionary",
+            "unit": "%",
+            "values": [
+              5.5,
+              5.7,
+              5.0,
+              4.5,
+              4.8,
+              5.5,
+              4.8,
+              3.0,
+              2.5,
+              4.0,
+              4.2,
+              5.2,
+              4.5,
+              4.8,
+              5.0,
+              5.5,
+              5.8
+            ]
+          }
+        ],
+        "figure_id": "ca68a94c9218c444",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Food",
+              "Household goods",
+              "Clothing",
+              "Dept Stores",
+              "Other Retail",
+              "Restaurants"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -2,
+              "max": 8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Year-ended",
+            "unit": "%",
+            "values": [
+              3.8,
+              5.6,
+              6.0,
+              5.8,
+              6.8,
+              3.2
+            ]
+          },
+          {
+            "name": "Quarterly",
+            "unit": "%",
+            "values": [
+              0.8,
+              2.0,
+              0.0,
+              -0.2,
+              1.6,
+              0.6
+            ]
+          },
+          {
+            "name": "Monthly",
+            "unit": "%",
+            "values": [
+              1.0,
+              2.2,
+              1.4,
+              1.8,
+              1.8,
+              -0.2
+            ]
+          }
+        ],
+        "figure_id": "ca5c4147a3236e68",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2000",
+              "2004",
+              "2008",
+              "2012",
+              "2016",
+              "2020",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -400,
+              "max": 800
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Net migration (12m rolling sum, lhs)",
+            "unit": null,
+            "values": [
+              20,
+              100,
+              350,
+              100,
+              250,
+              150,
+              -300,
+              600,
+              300
+            ]
+          },
+          {
+            "name": "Population growth (%, yoy, rhs)",
+            "unit": "%",
+            "values": [
+              0.5,
+              1.0,
+              2.0,
+              1.0,
+              1.5,
+              1.0,
+              0.0,
+              2.5,
+              1.5
+            ]
+          }
+        ],
+        "figure_id": "9195dc9259190d1e",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2009",
+              "2011",
+              "2013",
+              "2015",
+              "2017",
+              "2019",
+              "2021",
+              "2023",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 50,
+              "max": 250
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Sydney",
+            "unit": null,
+            "values": [
+              100,
+              100,
+              110,
+              155,
+              180,
+              150,
+              185,
+              235,
+              245
+            ]
+          },
+          {
+            "name": "Adelaide",
+            "unit": null,
+            "values": [
+              100,
+              100,
+              105,
+              110,
+              115,
+              115,
+              125,
+              205,
+              215
+            ]
+          },
+          {
+            "name": "Melbourne",
+            "unit": null,
+            "values": [
+              100,
+              105,
+              110,
+              135,
+              155,
+              160,
+              155,
+              170,
+              175
+            ]
+          },
+          {
+            "name": "Perth",
+            "unit": null,
+            "values": [
+              100,
+              105,
+              110,
+              105,
+              100,
+              95,
+              115,
+              165,
+              175
+            ]
+          },
+          {
+            "name": "Brisbane",
+            "unit": null,
+            "values": [
+              100,
+              95,
+              100,
+              105,
+              110,
+              115,
+              150,
+              190,
+              200
+            ]
+          }
+        ],
+        "figure_id": "e12a3ca544c4f519",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2015",
+              "2017",
+              "2019",
+              "2021",
+              "2023",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -10,
+              "max": 180
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Time to buy (9m lead, lhs)",
+            "unit": null,
+            "values": [
+              105,
+              115,
+              100,
+              125,
+              70,
+              90
+            ]
+          },
+          {
+            "name": "House price expectations (6m lead, lhs)",
+            "unit": null,
+            "values": [
+              150,
+              140,
+              120,
+              150,
+              90,
+              160
+            ]
+          },
+          {
+            "name": "House prices (% yoy rhs)",
+            "unit": "%",
+            "values": [
+              5,
+              10,
+              -5,
+              15,
+              -5,
+              5
+            ]
+          }
+        ],
+        "figure_id": "e07c77357f9ca4ac",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": [
+              "0%",
+              "2%",
+              "4%",
+              "6%"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": null,
+            "labels": [
+              "Past Month",
+              "Past 3 Months",
+              "YTD",
+              "Past 12 Months"
+            ]
+          }
+        },
+        "series": [
+          {
+            "name": "Combined Cities",
+            "unit": "%",
+            "values": [
+              0.8,
+              1.5,
+              2.3,
+              3.3
+            ]
+          },
+          {
+            "name": "Combined Regionals",
+            "unit": "%",
+            "values": [
+              1.2,
+              1.8,
+              3.5,
+              5.8
+            ]
+          },
+          {
+            "name": "Australia",
+            "unit": "%",
+            "values": [
+              1.0,
+              1.3,
+              2.8,
+              3.6
+            ]
+          }
+        ],
+        "figure_id": "2772a8c96bb57927",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2016",
+              "2017",
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 9
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Cash rate target",
+            "unit": null,
+            "values": [
+              1.75,
+              1.5,
+              1.5,
+              1.0,
+              0.25,
+              0.1,
+              0.1,
+              3.6,
+              4.1,
+              4.1
+            ]
+          },
+          {
+            "name": "Variable, Owner-Occupier",
+            "unit": null,
+            "values": [
+              4.5,
+              4.5,
+              4.5,
+              4.0,
+              3.5,
+              3.0,
+              3.5,
+              6.5,
+              7.0,
+              6.5
+            ]
+          },
+          {
+            "name": "3y Fixed, Owner-Occupier",
+            "unit": null,
+            "values": [
+              4.0,
+              4.0,
+              4.0,
+              3.5,
+              2.5,
+              2.0,
+              2.5,
+              6.0,
+              6.5,
+              6.0
+            ]
+          },
+          {
+            "name": "Variable, Investor",
+            "unit": null,
+            "values": [
+              5.0,
+              5.0,
+              5.0,
+              4.5,
+              4.0,
+              3.5,
+              4.0,
+              7.0,
+              7.5,
+              7.0
+            ]
+          },
+          {
+            "name": "3y Fixed, Investor",
+            "unit": null,
+            "values": [
+              4.5,
+              4.5,
+              4.5,
+              4.0,
+              3.0,
+              2.5,
+              3.0,
+              6.5,
+              7.0,
+              6.5
+            ]
+          }
+        ],
+        "figure_id": "8d8f054252c3f4e2",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "1992",
+              "1996",
+              "2000",
+              "2004",
+              "2008",
+              "2012",
+              "2016",
+              "2020",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 300
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Total",
+            "unit": null,
+            "values": [
+              150,
+              190,
+              120,
+              180,
+              140,
+              150,
+              240,
+              170,
+              180
+            ]
+          },
+          {
+            "name": "Houses",
+            "unit": null,
+            "values": [
+              110,
+              120,
+              80,
+              120,
+              90,
+              120,
+              100,
+              150,
+              110
+            ]
+          },
+          {
+            "name": "Units",
+            "unit": null,
+            "values": [
+              10,
+              20,
+              30,
+              20,
+              10,
+              40,
+              90,
+              30,
+              40
+            ]
+          },
+          {
+            "name": "Semi-detached",
+            "unit": null,
+            "values": [
+              20,
+              10,
+              20,
+              20,
+              20,
+              20,
+              30,
+              20,
+              20
+            ]
+          }
+        ],
+        "figure_id": "6f8fa11ce6b86ca2",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 7,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2010",
+              "2013",
+              "2016",
+              "2019",
+              "2022",
+              "2023"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 9
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Sydney",
+            "unit": null,
+            "values": [
+              2.8,
+              2.5,
+              2.8,
+              5.8,
+              2.5,
+              2.0
+            ]
+          },
+          {
+            "name": "Perth",
+            "unit": null,
+            "values": [
+              2.5,
+              3.0,
+              8.8,
+              2.5,
+              1.5,
+              1.8
+            ]
+          },
+          {
+            "name": "Melbourne",
+            "unit": null,
+            "values": [
+              2.8,
+              2.0,
+              2.5,
+              5.0,
+              2.0,
+              1.8
+            ]
+          },
+          {
+            "name": "Adelaide",
+            "unit": null,
+            "values": [
+              2.0,
+              2.5,
+              2.8,
+              1.8,
+              0.8,
+              1.5
+            ]
+          },
+          {
+            "name": "Brisbane",
+            "unit": null,
+            "values": [
+              5.5,
+              3.0,
+              4.0,
+              3.5,
+              2.5,
+              2.5
+            ]
+          }
+        ],
+        "figure_id": "6bfaa79c314424a4",
+        "provenance": {
+          "page": 7
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2010",
+              "2012",
+              "2014",
+              "2016",
+              "2018",
+              "2020",
+              "2022",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -15,
+              "max": 10
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Housing",
+            "unit": null,
+            "values": [
+              8.0,
+              5.0,
+              4.0,
+              6.5,
+              6.0,
+              3.0,
+              8.0,
+              5.0
+            ]
+          },
+          {
+            "name": "Business*",
+            "unit": null,
+            "values": [
+              3.0,
+              4.0,
+              5.5,
+              7.0,
+              5.0,
+              2.0,
+              9.0,
+              6.0
+            ]
+          },
+          {
+            "name": "Personal",
+            "unit": null,
+            "values": [
+              2.0,
+              0.0,
+              1.0,
+              0.0,
+              -2.0,
+              -13.0,
+              0.0,
+              4.0
+            ]
+          }
+        ],
+        "figure_id": "3ce93db006b125a2",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -2,
+              "max": 8
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "US",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "Australia",
+            "unit": null,
+            "values": []
+          }
+        ],
+        "figure_id": "277fbf6e9949549b",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 70,
+              "max": 130
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "ASX 200",
+            "unit": null,
+            "values": [
+              100,
+              102,
+              98,
+              90,
+              98,
+              105,
+              108,
+              115
+            ]
+          },
+          {
+            "name": "Healthcare",
+            "unit": null,
+            "values": [
+              100,
+              98,
+              95,
+              88,
+              95,
+              93,
+              95,
+              90
+            ]
+          },
+          {
+            "name": "Communication",
+            "unit": null,
+            "values": [
+              100,
+              102,
+              105,
+              100,
+              108,
+              112,
+              115,
+              122
+            ]
+          },
+          {
+            "name": "Consumer staples",
+            "unit": null,
+            "values": [
+              100,
+              102,
+              105,
+              102,
+              108,
+              110,
+              112,
+              115
+            ]
+          },
+          {
+            "name": "Utilities",
+            "unit": null,
+            "values": [
+              100,
+              98,
+              102,
+              95,
+              100,
+              105,
+              108,
+              110
+            ]
+          },
+          {
+            "name": "IT",
+            "unit": null,
+            "values": [
+              100,
+              95,
+              100,
+              80,
+              90,
+              105,
+              108,
+              110
+            ]
+          }
+        ],
+        "figure_id": "4a00313b90778b37",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -4,
+              "max": 12
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Total",
+            "unit": null,
+            "values": [
+              3.5,
+              4,
+              3.8,
+              3.9,
+              3.8,
+              3.5,
+              2.5,
+              0.5,
+              -0.5,
+              -0.8,
+              -0.5,
+              0.5,
+              1.5,
+              2.5,
+              3.5,
+              4,
+              3.5,
+              2.5,
+              2,
+              1.8,
+              1.5,
+              1.8,
+              2,
+              2.2,
+              2.5
+            ]
+          },
+          {
+            "name": "Owner-occupier housing",
+            "unit": null,
+            "values": [
+              3,
+              2,
+              1.5,
+              1.2,
+              1.5,
+              1.8,
+              0.5,
+              -2,
+              -3,
+              -2.5,
+              -1.5,
+              -0.8,
+              -0.5,
+              -0.2,
+              0,
+              0.2,
+              0,
+              -0.2,
+              -0.5,
+              -0.8,
+              -0.8,
+              -0.8,
+              -0.8,
+              -0.8,
+              -0.8
+            ]
+          },
+          {
+            "name": "Investor housing",
+            "unit": null,
+            "values": [
+              2,
+              3.5,
+              4.5,
+              4,
+              3,
+              1.5,
+              0.5,
+              -1,
+              -1.5,
+              -1.8,
+              -1.5,
+              -1,
+              -0.5,
+              0,
+              0.5,
+              1,
+              1.5,
+              2,
+              2.5,
+              2.8,
+              3,
+              3,
+              2.8,
+              2.5,
+              2.2
+            ]
+          },
+          {
+            "name": "Business*",
+            "unit": null,
+            "values": [
+              4,
+              5,
+              6.5,
+              7.5,
+              8.5,
+              9.5,
+              8,
+              6,
+              4,
+              2,
+              0.5,
+              -0.5,
+              -1.5,
+              -1,
+              0,
+              1,
+              2,
+              3.5,
+              4.5,
+              4,
+              3.5,
+              3,
+              2.8,
+              2.5,
+              2
+            ]
+          }
+        ],
+        "figure_id": "6181884993a4d99c",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 8,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jan-25",
+              "Feb-25",
+              "Mar-25",
+              "Apr-25",
+              "May-25",
+              "Jun-25",
+              "Jul-25",
+              "Aug-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 70,
+              "max": 120
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "ASX 200",
+            "unit": null,
+            "values": [
+              99,
+              101,
+              100,
+              95,
+              98,
+              102,
+              105,
+              110
+            ]
+          },
+          {
+            "name": "Materials",
+            "unit": null,
+            "values": [
+              98,
+              102,
+              103,
+              99,
+              101,
+              104,
+              108,
+              112
+            ]
+          },
+          {
+            "name": "Consumer discretionary",
+            "unit": null,
+            "values": [
+              100,
+              105,
+              108,
+              100,
+              103,
+              107,
+              110,
+              115
+            ]
+          },
+          {
+            "name": "Energy",
+            "unit": null,
+            "values": [
+              100,
+              102,
+              95,
+              78,
+              85,
+              95,
+              100,
+              108
+            ]
+          },
+          {
+            "name": "Industrials",
+            "unit": null,
+            "values": [
+              100,
+              103,
+              105,
+              98,
+              102,
+              106,
+              110,
+              114
+            ]
+          },
+          {
+            "name": "Financials",
+            "unit": null,
+            "values": [
+              100,
+              104,
+              102,
+              88,
+              95,
+              100,
+              105,
+              110
+            ]
+          }
+        ],
+        "figure_id": "0e8ec506fe7013dd",
+        "provenance": {
+          "page": 8
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 9,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "left": {
+              "unit": "%",
+              "range": {
+                "min": -5,
+                "max": 15
+              }
+            },
+            "right": {
+              "unit": null,
+              "range": {
+                "min": 0,
+                "max": 24
+              }
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Broad money",
+            "unit": "%",
+            "values": [
+              2.5,
+              4.5,
+              12.5,
+              7.5,
+              4.5,
+              5.5,
+              6.5
+            ]
+          },
+          {
+            "name": "Real broad money",
+            "unit": "%",
+            "values": [
+              1,
+              0,
+              11.5,
+              4,
+              -1,
+              2,
+              5
+            ]
+          },
+          {
+            "name": "Money multiplier (RHS)*",
+            "unit": null,
+            "values": [
+              10.5,
+              10.5,
+              6,
+              -1,
+              -1,
+              2.5,
+              3.5
+            ]
+          }
+        ],
+        "figure_id": "2fe09d8578d0d439",
+        "provenance": {
+          "page": 9
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2018",
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -2,
+              "max": 6
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Zero-cpn yield",
+            "unit": null,
+            "values": [
+              2.8,
+              2.5,
+              1.0,
+              1.8,
+              3.5,
+              4.0,
+              4.2,
+              4.0
+            ]
+          },
+          {
+            "name": "Risk-neutral yield",
+            "unit": null,
+            "values": [
+              3.0,
+              2.2,
+              2.0,
+              2.5,
+              3.2,
+              3.8,
+              3.7,
+              3.6
+            ]
+          },
+          {
+            "name": "Term premium",
+            "unit": null,
+            "values": [
+              -0.5,
+              -1.5,
+              -1.8,
+              -1.0,
+              0.0,
+              0.5,
+              0.7,
+              0.6
+            ]
+          }
+        ],
+        "figure_id": "957441e4b02e50e5",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2Y",
+              "5Y",
+              "7Y",
+              "10Y"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 3.0,
+              "max": 6.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "NSW",
+            "unit": null,
+            "values": [
+              3.55,
+              3.95,
+              4.38,
+              4.9
+            ]
+          },
+          {
+            "name": "VIC",
+            "unit": null,
+            "values": [
+              3.48,
+              4.08,
+              4.5,
+              5.08
+            ]
+          },
+          {
+            "name": "QLD",
+            "unit": null,
+            "values": [
+              3.62,
+              4.15,
+              4.48,
+              5.1
+            ]
+          },
+          {
+            "name": "SA",
+            "unit": null,
+            "values": [
+              3.48,
+              4.12,
+              4.8,
+              5.08
+            ]
+          },
+          {
+            "name": "WA",
+            "unit": null,
+            "values": [
+              3.4,
+              3.92,
+              4.48,
+              4.75
+            ]
+          }
+        ],
+        "figure_id": "07baa7ec999cd4d3",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 10,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Jun-24",
+              "Sep-24",
+              "Dec-24",
+              "Mar-25",
+              "Jun-25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 4
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Total ex-3m/6m volumes",
+            "unit": null,
+            "values": [
+              2.7,
+              3.2,
+              2.8,
+              3.1,
+              3.0
+            ]
+          },
+          {
+            "name": "6m daily volume",
+            "unit": null,
+            "values": [
+              1.5,
+              1.8,
+              2.1,
+              1.7,
+              2.0
+            ]
+          },
+          {
+            "name": "3m daily volume",
+            "unit": null,
+            "values": [
+              0.8,
+              0.9,
+              1.0,
+              0.9,
+              1.1
+            ]
+          },
+          {
+            "name": "6m 6s3s (bps, right)",
+            "unit": "bps",
+            "values": [
+              20,
+              28,
+              29,
+              18,
+              32
+            ]
+          }
+        ],
+        "figure_id": "90bfbf1604495eec",
+        "provenance": {
+          "page": 10
+        }
+      },
+      {
+        "type": "area",
+        "title": null,
+        "page": 11,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "08",
+              "09",
+              "10",
+              "11",
+              "12",
+              "13",
+              "14",
+              "15",
+              "16",
+              "17",
+              "18",
+              "19",
+              "20",
+              "21",
+              "22",
+              "23",
+              "24",
+              "25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 180
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Spot turnover",
+            "unit": null,
+            "values": [
+              20,
+              25,
+              28,
+              30,
+              25,
+              22,
+              20,
+              18,
+              15,
+              18,
+              20,
+              25,
+              30,
+              35,
+              40,
+              45,
+              50,
+              55
+            ]
+          },
+          {
+            "name": "FX swaps",
+            "unit": null,
+            "values": [
+              40,
+              45,
+              50,
+              55,
+              50,
+              48,
+              45,
+              40,
+              35,
+              40,
+              45,
+              50,
+              60,
+              65,
+              70,
+              75,
+              80,
+              85
+            ]
+          },
+          {
+            "name": "Cross-currency swaps",
+            "unit": null,
+            "values": [
+              5,
+              7,
+              8,
+              10,
+              8,
+              7,
+              6,
+              5,
+              4,
+              5,
+              6,
+              8,
+              10,
+              12,
+              15,
+              18,
+              20,
+              25
+            ]
+          },
+          {
+            "name": "Outright forwards",
+            "unit": null,
+            "values": [
+              5,
+              6,
+              7,
+              8,
+              7,
+              6,
+              5,
+              4,
+              3,
+              4,
+              5,
+              6,
+              8,
+              10,
+              12,
+              15,
+              18,
+              20
+            ]
+          },
+          {
+            "name": "OTC FX options",
+            "unit": null,
+            "values": [
+              2,
+              3,
+              4,
+              5,
+              4,
+              3,
+              2,
+              1,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10
+            ]
+          }
+        ],
+        "figure_id": "919cc143f8759d31",
+        "provenance": {
+          "page": 11
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2010",
+              "2012",
+              "2014",
+              "2016",
+              "2018",
+              "2020",
+              "2022",
+              "2024"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -20,
+              "max": 60
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Balance",
+            "unit": null,
+            "values": [
+              0.5,
+              0.8,
+              -0.5,
+              -2.5,
+              -1.0,
+              0.5,
+              2.0,
+              5.0,
+              10.0,
+              18.0,
+              12.0,
+              10.0,
+              5.0,
+              2.0,
+              0.5
+            ]
+          },
+          {
+            "name": "Exports",
+            "unit": null,
+            "values": [
+              18.0,
+              20.0,
+              22.0,
+              20.0,
+              25.0,
+              28.0,
+              32.0,
+              35.0,
+              40.0,
+              50.0,
+              45.0,
+              42.0,
+              40.0,
+              42.0,
+              43.0
+            ]
+          },
+          {
+            "name": "Imports",
+            "unit": null,
+            "values": [
+              18.0,
+              20.0,
+              22.0,
+              23.0,
+              25.0,
+              27.0,
+              28.0,
+              30.0,
+              35.0,
+              38.0,
+              35.0,
+              37.0,
+              38.0,
+              39.0,
+              40.0
+            ]
+          }
+        ],
+        "figure_id": "2f4ec350fb959156",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 12,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": "%",
+            "range": {
+              "min": -20,
+              "max": 40
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Exports",
+            "unit": "%",
+            "values": [
+              28,
+              38,
+              25,
+              28,
+              18,
+              10,
+              -10,
+              -12,
+              -10,
+              -10,
+              -8,
+              -10,
+              -5,
+              -2,
+              -5,
+              -2,
+              -2,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "name": "Imports",
+            "unit": "%",
+            "values": [
+              18,
+              28,
+              25,
+              28,
+              30,
+              20,
+              10,
+              0,
+              -5,
+              -2,
+              -5,
+              0,
+              5,
+              2,
+              5,
+              8,
+              5,
+              2,
+              5,
+              8
+            ]
+          }
+        ],
+        "figure_id": "682ab96b5604908c",
+        "provenance": {
+          "page": 12
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 13,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2019",
+              "2020",
+              "2021",
+              "2022",
+              "2023",
+              "2024",
+              "2025"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": 0,
+              "max": 20
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Iron Ores & Concentrates",
+            "unit": null,
+            "values": [
+              6.0,
+              9.5,
+              18.5,
+              11.5,
+              12.0,
+              10.0,
+              10.5
+            ]
+          },
+          {
+            "name": "Natural Gas",
+            "unit": null,
+            "values": [
+              4.5,
+              3.0,
+              6.0,
+              10.0,
+              8.0,
+              5.5,
+              5.0
+            ]
+          },
+          {
+            "name": "Coal",
+            "unit": null,
+            "values": [
+              5.5,
+              3.5,
+              3.0,
+              15.5,
+              10.5,
+              7.0,
+              5.5
+            ]
+          },
+          {
+            "name": "Gold",
+            "unit": null,
+            "values": [
+              1.5,
+              2.0,
+              2.0,
+              2.5,
+              3.5,
+              3.0,
+              5.0
+            ]
+          }
+        ],
+        "figure_id": "fc5570ced2241f4c",
+        "provenance": {
+          "page": 13
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "f06f69f4f9395bcf",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-25</td><td>Jan-25</td><td>Dec-24</td><td>Nov-24</td></tr><tr><td>Household spending (%yoy)</td><td>4.8%</td><td>4.4%</td><td>3.8%</td><td>4.3%</td><td>3.7%</td><td>3.2%</td><td>4.3%</td><td>3.2%</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c932154e80f8386b",
+        "value": 0.044000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "an-25</td><td>Dec-24</td><td>Nov-24</td></tr><tr><td>Household spending (%yoy)</td><td>4.8%</td><td>4.4%</td><td>3.8%</td><td>4.3%</td><td>3.7%</td><td>3.2%</td><td>4.3%</td><td>3.2%</td><td></td></tr",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "de8c68758410dce0",
+        "value": 0.038,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Dec-24</td><td>Nov-24</td></tr><tr><td>Household spending (%yoy)</td><td>4.8%</td><td>4.4%</td><td>3.8%</td><td>4.3%</td><td>3.7%</td><td>3.2%</td><td>4.3%</td><td>3.2%</td><td></td></tr><tr><td>Cons",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "81d645d14b9bff83",
+        "value": 0.043,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Nov-24</td></tr><tr><td>Household spending (%yoy)</td><td>4.8%</td><td>4.4%</td><td>3.8%</td><td>4.3%</td><td>3.7%</td><td>3.2%</td><td>4.3%</td><td>3.2%</td><td></td></tr><tr><td>Consumer confiden",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "3021064bec48e93f",
+        "value": 0.037000000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>Household spending (%yoy)</td><td>4.8%</td><td>4.4%</td><td>3.8%</td><td>4.3%</td><td>3.7%</td><td>3.2%</td><td>4.3%</td><td>3.2%</td><td></td></tr><tr><td>Consumer confidence</td><td>93",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ed6dc8d5fcade55b",
+        "value": 0.032,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">Household spending (%yoy)</td><td>4.8%</td><td>4.4%</td><td>3.8%</td><td>4.3%</td><td>3.7%</td><td>3.2%</td><td>4.3%</td><td>3.2%</td><td></td></tr><tr><td>Consumer confidence</td><td>93.1</td><td>92",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "65782da0db64742a",
+        "value": 0.043,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ending (%yoy)</td><td>4.8%</td><td>4.4%</td><td>3.8%</td><td>4.3%</td><td>3.7%</td><td>3.2%</td><td>4.3%</td><td>3.2%</td><td></td></tr><tr><td>Consumer confidence</td><td>93.1</td><td>92.6</td><td>92",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "1a0dce2ca985f068",
+        "value": 0.032,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>4.8%</td><td>4.4%</td><td>3.8%</td><td>4.3%</td><td>3.7%</td><td>3.2%</td><td>4.3%</td><td>3.2%</td><td></td></tr><tr><td>Consumer confidence</td><td>93.1</td><td>92.6</td><td>92.1</td><td>90",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "26fbfd80a57aa2e3",
+        "value": 0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "92.2</td><td>92.1</td><td>92.8</td><td>94.6</td></tr><tr><td>Trimmed mean inflation (% yoy)</td><td>2.7%</td><td>2.1%</td><td>2.4%</td><td>2.8%</td><td>2.7%</td><td>2.7%</td><td>2.8%</td><td>2.7%</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "cb92f8f9f556b97a",
+        "value": 0.021,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "92.1</td><td>92.8</td><td>94.6</td></tr><tr><td>Trimmed mean inflation (% yoy)</td><td>2.7%</td><td>2.1%</td><td>2.4%</td><td>2.8%</td><td>2.7%</td><td>2.7%</td><td>2.8%</td><td>2.7%</td><td>3.2%</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "0756221c54fced1e",
+        "value": 0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "92.8</td><td>94.6</td></tr><tr><td>Trimmed mean inflation (% yoy)</td><td>2.7%</td><td>2.1%</td><td>2.4%</td><td>2.8%</td><td>2.7%</td><td>2.7%</td><td>2.8%</td><td>2.7%</td><td>3.2%</td></tr><tr><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "8742c656bba4b1f4",
+        "value": 0.027999999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "94.6</td></tr><tr><td>Trimmed mean inflation (% yoy)</td><td>2.7%</td><td>2.1%</td><td>2.4%</td><td>2.8%</td><td>2.7%</td><td>2.7%</td><td>2.8%</td><td>2.7%</td><td>3.2%</td></tr><tr><td>Underutilizat",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "697dc16d0866c986",
+        "value": 0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>Trimmed mean inflation (% yoy)</td><td>2.7%</td><td>2.1%</td><td>2.4%</td><td>2.8%</td><td>2.7%</td><td>2.7%</td><td>2.8%</td><td>2.7%</td><td>3.2%</td></tr><tr><td>Underutilization rate (%)<",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "286f524394922f89",
+        "value": 0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "med mean inflation (% yoy)</td><td>2.7%</td><td>2.1%</td><td>2.4%</td><td>2.8%</td><td>2.7%</td><td>2.7%</td><td>2.8%</td><td>2.7%</td><td>3.2%</td></tr><tr><td>Underutilization rate (%)</td><td>10.1%",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "6eaf8f174ee07ca0",
+        "value": 0.027999999999999997,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ation (% yoy)</td><td>2.7%</td><td>2.1%</td><td>2.4%</td><td>2.8%</td><td>2.7%</td><td>2.7%</td><td>2.8%</td><td>2.7%</td><td>3.2%</td></tr><tr><td>Underutilization rate (%)</td><td>10.1%</td><td>10.3",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ec2eeb3f951026b5",
+        "value": 0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>2.7%</td><td>2.1%</td><td>2.4%</td><td>2.8%</td><td>2.7%</td><td>2.7%</td><td>2.8%</td><td>2.7%</td><td>3.2%</td></tr><tr><td>Underutilization rate (%)</td><td>10.1%</td><td>10.3%</td><td>10.",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "aed13cda1ad05042",
+        "value": 0.032,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>2.1%</td><td>2.4%</td><td>2.8%</td><td>2.7%</td><td>2.7%</td><td>2.8%</td><td>2.7%</td><td>3.2%</td></tr><tr><td>Underutilization rate (%)</td><td>10.1%</td><td>10.3%</td><td>10.0%</td><td>10",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "4e680af77834f8da",
+        "value": 0.10099999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>2.7%</td><td>2.8%</td><td>2.7%</td><td>3.2%</td></tr><tr><td>Underutilization rate (%)</td><td>10.1%</td><td>10.3%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td>10.0%</td><td>10.1%</td><td>9.9",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "49322a93e4b2d3d3",
+        "value": 0.10300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>2.8%</td><td>2.7%</td><td>3.2%</td></tr><tr><td>Underutilization rate (%)</td><td>10.1%</td><td>10.3%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td></td",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "2d1806b96511ee33",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>2.7%</td><td>3.2%</td></tr><tr><td>Underutilization rate (%)</td><td>10.1%</td><td>10.3%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td></td></tr><tr><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "9556ebc11c524b4e",
+        "value": 0.10099999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>3.2%</td></tr><tr><td>Underutilization rate (%)</td><td>10.1%</td><td>10.3%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td></td></tr><tr><td>House prices y",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "926cdb35d2571368",
+        "value": 0.099,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><tr><td>Underutilization rate (%)</td><td>10.1%</td><td>10.3%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td></td></tr><tr><td>House prices yoy)</td><td>3.",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "b6858d1f553616af",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "erutilization rate (%)</td><td>10.1%</td><td>10.3%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td></td></tr><tr><td>House prices yoy)</td><td>3.7%</td><td>3.",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "8af2e6ab6e005133",
+        "value": 0.10099999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rate (%)</td><td>10.1%</td><td>10.3%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td></td></tr><tr><td>House prices yoy)</td><td>3.7%</td><td>3.5%</td><td>3.6",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7279f0f2a9503f8c",
+        "value": 0.099,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>10.1%</td><td>10.3%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td></td></tr><tr><td>House prices yoy)</td><td>3.7%</td><td>3.5%</td><td>3.6%</td><td>3.8%",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "8be5bed704cfc8b3",
+        "value": 0.037000000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>9.9%</td><td>10.0%</td><td>10.1%</td><td>9.9%</td><td></td></tr><tr><td>House prices yoy)</td><td>3.7%</td><td>3.5%</td><td>3.6%</td><td>3.8%</td><td>4.2%</td><td>4.3%</td><td>4.7%</td><td>5.1%</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "c987d39dae0b5e2c",
+        "value": 0.035,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>10.0%</td><td>10.1%</td><td>9.9%</td><td></td></tr><tr><td>House prices yoy)</td><td>3.7%</td><td>3.5%</td><td>3.6%</td><td>3.8%</td><td>4.2%</td><td>4.3%</td><td>4.7%</td><td>5.1%</td><td>5.7%</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "e4a002afa5472f96",
+        "value": 0.036000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>10.1%</td><td>9.9%</td><td></td></tr><tr><td>House prices yoy)</td><td>3.7%</td><td>3.5%</td><td>3.6%</td><td>3.8%</td><td>4.2%</td><td>4.3%</td><td>4.7%</td><td>5.1%</td><td>5.7%</td></tr><tr><td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d95b8219ae3d6ea6",
+        "value": 0.038,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>9.9%</td><td></td></tr><tr><td>House prices yoy)</td><td>3.7%</td><td>3.5%</td><td>3.6%</td><td>3.8%</td><td>4.2%</td><td>4.3%</td><td>4.7%</td><td>5.1%</td><td>5.7%</td></tr><tr><td>Housing defic",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "27da2f0b11816878",
+        "value": 0.042,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td></td></tr><tr><td>House prices yoy)</td><td>3.7%</td><td>3.5%</td><td>3.6%</td><td>3.8%</td><td>4.2%</td><td>4.3%</td><td>4.7%</td><td>5.1%</td><td>5.7%</td></tr><tr><td>Housing deficit (% yoy)</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "7b422c066a1c3379",
+        "value": 0.043,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><tr><td>House prices yoy)</td><td>3.7%</td><td>3.5%</td><td>3.6%</td><td>3.8%</td><td>4.2%</td><td>4.3%</td><td>4.7%</td><td>5.1%</td><td>5.7%</td></tr><tr><td>Housing deficit (% yoy)</td><td>5.9%</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "34b6958619f1087f",
+        "value": 0.047,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "e prices yoy)</td><td>3.7%</td><td>3.5%</td><td>3.6%</td><td>3.8%</td><td>4.2%</td><td>4.3%</td><td>4.7%</td><td>5.1%</td><td>5.7%</td></tr><tr><td>Housing deficit (% yoy)</td><td>5.9%</td><td>5.8%</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "b5a81fa8efd3233b",
+        "value": 0.051,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>3.7%</td><td>3.5%</td><td>3.6%</td><td>3.8%</td><td>4.2%</td><td>4.3%</td><td>4.7%</td><td>5.1%</td><td>5.7%</td></tr><tr><td>Housing deficit (% yoy)</td><td>5.9%</td><td>5.8%</td><td>5.8%</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "6e4f39c6164bd32b",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>3.5%</td><td>3.6%</td><td>3.8%</td><td>4.2%</td><td>4.3%</td><td>4.7%</td><td>5.1%</td><td>5.7%</td></tr><tr><td>Housing deficit (% yoy)</td><td>5.9%</td><td>5.8%</td><td>5.8%</td><td>5.7%</t",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "318cc24bc26c1331",
+        "value": 0.059000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>4.3%</td><td>4.7%</td><td>5.1%</td><td>5.7%</td></tr><tr><td>Housing deficit (% yoy)</td><td>5.9%</td><td>5.8%</td><td>5.8%</td><td>5.7%</td><td>5.7%</td><td>5.6%</td><td>5.5%</td><td>5.4%</td>",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "52b59f6617282684",
+        "value": 0.057999999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>4.7%</td><td>5.1%</td><td>5.7%</td></tr><tr><td>Housing deficit (% yoy)</td><td>5.9%</td><td>5.8%</td><td>5.8%</td><td>5.7%</td><td>5.7%</td><td>5.6%</td><td>5.5%</td><td>5.4%</td><td></td></tr",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "ddddd14bdddb5bf6",
+        "value": 0.057999999999999996,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>5.1%</td><td>5.7%</td></tr><tr><td>Housing deficit (% yoy)</td><td>5.9%</td><td>5.8%</td><td>5.8%</td><td>5.7%</td><td>5.7%</td><td>5.6%</td><td>5.5%</td><td>5.4%</td><td></td></tr></table> Sou",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "df811d6b328309ec",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>5.7%</td></tr><tr><td>Housing deficit (% yoy)</td><td>5.9%</td><td>5.8%</td><td>5.8%</td><td>5.7%</td><td>5.7%</td><td>5.6%</td><td>5.5%</td><td>5.4%</td><td></td></tr></table> Source: Haver, B",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "5cec1eb9b1c5dd2e",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>Housing deficit (% yoy)</td><td>5.9%</td><td>5.8%</td><td>5.8%</td><td>5.7%</td><td>5.7%</td><td>5.6%</td><td>5.5%</td><td>5.4%</td><td></td></tr></table> Source: Haver, BofA Global Re",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "965c35529080253a",
+        "value": 0.055999999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Housing deficit (% yoy)</td><td>5.9%</td><td>5.8%</td><td>5.8%</td><td>5.7%</td><td>5.7%</td><td>5.6%</td><td>5.5%</td><td>5.4%</td><td></td></tr></table> Source: Haver, BofA Global Research. Note:",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "854143fd9beadedc",
+        "value": 0.055,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ficit (% yoy)</td><td>5.9%</td><td>5.8%</td><td>5.8%</td><td>5.7%</td><td>5.7%</td><td>5.6%</td><td>5.5%</td><td>5.4%</td><td></td></tr></table> Source: Haver, BofA Global Research. Note: Heatmap show",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "d7ededc80217e5c2",
+        "value": 0.054000000000000006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>5.9%</td><td>5.8%</td><td>5.8%</td><td>5.7%</td><td>5.7%</td><td>5.6%</td><td>5.5%</td><td>5.4%</td><td></td></tr></table> Source: Haver, BofA Global Research. Note: Heatmap shows the relativ",
+        "provenance": {
+          "page": 0
+        }
+      },
+      {
+        "num_id": "8983cef7febb5240",
+        "value": 0.03,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>Apr-25</td><td>Mar-25</td><td>Feb-25</td></tr><tr><td>Food and Nonalcoholic Beverages</td><td>3.0%</td><td>3.2%</td><td>2.9%</td><td>3.1%</td><td>3.4%</td><td>3.1%</td></tr><tr><td>Alcohol and T",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c12c03c312cfa09d",
+        "value": 0.032,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>Mar-25</td><td>Feb-25</td></tr><tr><td>Food and Nonalcoholic Beverages</td><td>3.0%</td><td>3.2%</td><td>2.9%</td><td>3.1%</td><td>3.4%</td><td>3.1%</td></tr><tr><td>Alcohol and Tobacco</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b993ca0963b00af7",
+        "value": 0.028999999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "5</td><td>Feb-25</td></tr><tr><td>Food and Nonalcoholic Beverages</td><td>3.0%</td><td>3.2%</td><td>2.9%</td><td>3.1%</td><td>3.4%</td><td>3.1%</td></tr><tr><td>Alcohol and Tobacco</td><td>6.5%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "dfb94e0f3f7d9f4a",
+        "value": 0.031,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "-25</td></tr><tr><td>Food and Nonalcoholic Beverages</td><td>3.0%</td><td>3.2%</td><td>2.9%</td><td>3.1%</td><td>3.4%</td><td>3.1%</td></tr><tr><td>Alcohol and Tobacco</td><td>6.5%</td><td>5.7%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "fddf8fd7eb4223cc",
+        "value": 0.034,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<tr><td>Food and Nonalcoholic Beverages</td><td>3.0%</td><td>3.2%</td><td>2.9%</td><td>3.1%</td><td>3.4%</td><td>3.1%</td></tr><tr><td>Alcohol and Tobacco</td><td>6.5%</td><td>5.7%</td><td>5.9%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "dcae55fd7907bdbc",
+        "value": 0.031,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "and Nonalcoholic Beverages</td><td>3.0%</td><td>3.2%</td><td>2.9%</td><td>3.1%</td><td>3.4%</td><td>3.1%</td></tr><tr><td>Alcohol and Tobacco</td><td>6.5%</td><td>5.7%</td><td>5.9%</td><td>5.7%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c6ba9414fb218c59",
+        "value": 0.065,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2%</td><td>2.9%</td><td>3.1%</td><td>3.4%</td><td>3.1%</td></tr><tr><td>Alcohol and Tobacco</td><td>6.5%</td><td>5.7%</td><td>5.9%</td><td>5.7%</td><td>6.7%</td><td>6.7%</td></tr><tr><td>Clothing and ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "34d31f58fdee6f35",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "9%</td><td>3.1%</td><td>3.4%</td><td>3.1%</td></tr><tr><td>Alcohol and Tobacco</td><td>6.5%</td><td>5.7%</td><td>5.9%</td><td>5.7%</td><td>6.7%</td><td>6.7%</td></tr><tr><td>Clothing and Footwear</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1de6c1e7eb834643",
+        "value": 0.059000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1%</td><td>3.4%</td><td>3.1%</td></tr><tr><td>Alcohol and Tobacco</td><td>6.5%</td><td>5.7%</td><td>5.9%</td><td>5.7%</td><td>6.7%</td><td>6.7%</td></tr><tr><td>Clothing and Footwear</td><td>2.3%</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "208d8d45095acbd5",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4%</td><td>3.1%</td></tr><tr><td>Alcohol and Tobacco</td><td>6.5%</td><td>5.7%</td><td>5.9%</td><td>5.7%</td><td>6.7%</td><td>6.7%</td></tr><tr><td>Clothing and Footwear</td><td>2.3%</td><td>1.4%</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c35706e9f9dd3169",
+        "value": 0.067,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1%</td></tr><tr><td>Alcohol and Tobacco</td><td>6.5%</td><td>5.7%</td><td>5.9%</td><td>5.7%</td><td>6.7%</td><td>6.7%</td></tr><tr><td>Clothing and Footwear</td><td>2.3%</td><td>1.4%</td><td>1.3%</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "416010e1ef7725d7",
+        "value": 0.067,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><td>Alcohol and Tobacco</td><td>6.5%</td><td>5.7%</td><td>5.9%</td><td>5.7%</td><td>6.7%</td><td>6.7%</td></tr><tr><td>Clothing and Footwear</td><td>2.3%</td><td>1.4%</td><td>1.3%</td><td>0.8%</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "14dd0b771fd063a7",
+        "value": 0.023,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>5.9%</td><td>5.7%</td><td>6.7%</td><td>6.7%</td></tr><tr><td>Clothing and Footwear</td><td>2.3%</td><td>1.4%</td><td>1.3%</td><td>0.8%</td><td>0.7%</td><td>1.8%</td></tr><tr><td>Housing Furni",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "465cc86fbdb70eda",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>5.7%</td><td>6.7%</td><td>6.7%</td></tr><tr><td>Clothing and Footwear</td><td>2.3%</td><td>1.4%</td><td>1.3%</td><td>0.8%</td><td>0.7%</td><td>1.8%</td></tr><tr><td>Housing Furnishings, House",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "124d84f6709266de",
+        "value": 0.013000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>6.7%</td><td>6.7%</td></tr><tr><td>Clothing and Footwear</td><td>2.3%</td><td>1.4%</td><td>1.3%</td><td>0.8%</td><td>0.7%</td><td>1.8%</td></tr><tr><td>Housing Furnishings, Household Equipmen",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "cee39b2bfe946e2a",
+        "value": 0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>6.7%</td></tr><tr><td>Clothing and Footwear</td><td>2.3%</td><td>1.4%</td><td>1.3%</td><td>0.8%</td><td>0.7%</td><td>1.8%</td></tr><tr><td>Housing Furnishings, Household Equipment and Service",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d276794462c6e48b",
+        "value": 0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>Clothing and Footwear</td><td>2.3%</td><td>1.4%</td><td>1.3%</td><td>0.8%</td><td>0.7%</td><td>1.8%</td></tr><tr><td>Housing Furnishings, Household Equipment and Services</td><td>3.6",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7641b67703c660d3",
+        "value": 0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Clothing and Footwear</td><td>2.3%</td><td>1.4%</td><td>1.3%</td><td>0.8%</td><td>0.7%</td><td>1.8%</td></tr><tr><td>Housing Furnishings, Household Equipment and Services</td><td>3.6%</td><td>1.6",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3be2be17c9fc37c3",
+        "value": 0.036000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>0.7%</td><td>1.8%</td></tr><tr><td>Housing Furnishings, Household Equipment and Services</td><td>3.6%</td><td>1.6%</td><td>2.0%</td><td>2.2%</td><td>1.8%</td><td>1.8%</td></tr><tr><td>Health</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a5185e4e18bdd493",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>1.8%</td></tr><tr><td>Housing Furnishings, Household Equipment and Services</td><td>3.6%</td><td>1.6%</td><td>2.0%</td><td>2.2%</td><td>1.8%</td><td>1.8%</td></tr><tr><td>Health</td><td>0.9%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "413a8bd3a3546741",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/tr><tr><td>Housing Furnishings, Household Equipment and Services</td><td>3.6%</td><td>1.6%</td><td>2.0%</td><td>2.2%</td><td>1.8%</td><td>1.8%</td></tr><tr><td>Health</td><td>0.9%</td><td>0.9%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "532338190767f4ce",
+        "value": 0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ousing Furnishings, Household Equipment and Services</td><td>3.6%</td><td>1.6%</td><td>2.0%</td><td>2.2%</td><td>1.8%</td><td>1.8%</td></tr><tr><td>Health</td><td>0.9%</td><td>0.9%</td><td>0.9%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "62792009e620bb12",
+        "value": 0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "hings, Household Equipment and Services</td><td>3.6%</td><td>1.6%</td><td>2.0%</td><td>2.2%</td><td>1.8%</td><td>1.8%</td></tr><tr><td>Health</td><td>0.9%</td><td>0.9%</td><td>0.9%</td><td>1.0%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6fbd08ce030d194e",
+        "value": 0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "old Equipment and Services</td><td>3.6%</td><td>1.6%</td><td>2.0%</td><td>2.2%</td><td>1.8%</td><td>1.8%</td></tr><tr><td>Health</td><td>0.9%</td><td>0.9%</td><td>0.9%</td><td>1.0%</td><td>0.6%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7b3877d878227594",
+        "value": 0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6%</td><td>1.6%</td><td>2.0%</td><td>2.2%</td><td>1.8%</td><td>1.8%</td></tr><tr><td>Health</td><td>0.9%</td><td>0.9%</td><td>0.9%</td><td>1.0%</td><td>0.6%</td><td>1.0%</td></tr><tr><td>Transport</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b8cba6d1e7ca7123",
+        "value": 0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "6%</td><td>2.0%</td><td>2.2%</td><td>1.8%</td><td>1.8%</td></tr><tr><td>Health</td><td>0.9%</td><td>0.9%</td><td>0.9%</td><td>1.0%</td><td>0.6%</td><td>1.0%</td></tr><tr><td>Transport</td><td>4.1%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "cac2dce4fa4868af",
+        "value": 0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0%</td><td>2.2%</td><td>1.8%</td><td>1.8%</td></tr><tr><td>Health</td><td>0.9%</td><td>0.9%</td><td>0.9%</td><td>1.0%</td><td>0.6%</td><td>1.0%</td></tr><tr><td>Transport</td><td>4.1%</td><td>4.1%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1042dfa2b25cccee",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2%</td><td>1.8%</td><td>1.8%</td></tr><tr><td>Health</td><td>0.9%</td><td>0.9%</td><td>0.9%</td><td>1.0%</td><td>0.6%</td><td>1.0%</td></tr><tr><td>Transport</td><td>4.1%</td><td>4.1%</td><td>4.4%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "293a5b326192dfab",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8%</td><td>1.8%</td></tr><tr><td>Health</td><td>0.9%</td><td>0.9%</td><td>0.9%</td><td>1.0%</td><td>0.6%</td><td>1.0%</td></tr><tr><td>Transport</td><td>4.1%</td><td>4.1%</td><td>4.4%</td><td>4.4%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b84abcf615cd4f7f",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "8%</td></tr><tr><td>Health</td><td>0.9%</td><td>0.9%</td><td>0.9%</td><td>1.0%</td><td>0.6%</td><td>1.0%</td></tr><tr><td>Transport</td><td>4.1%</td><td>4.1%</td><td>4.4%</td><td>4.4%</td><td>4.0%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8bf8c5680f25782f",
+        "value": 0.040999999999999995,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>0.9%</td><td>0.9%</td><td>1.0%</td><td>0.6%</td><td>1.0%</td></tr><tr><td>Transport</td><td>4.1%</td><td>4.1%</td><td>4.4%</td><td>4.4%</td><td>4.0%</td><td>4.0%</td></tr><tr><td>Communication",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7621db127ca12815",
+        "value": 0.040999999999999995,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>0.9%</td><td>1.0%</td><td>0.6%</td><td>1.0%</td></tr><tr><td>Transport</td><td>4.1%</td><td>4.1%</td><td>4.4%</td><td>4.4%</td><td>4.0%</td><td>4.0%</td></tr><tr><td>Communication</td><td>0.8%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "635c5fccc30c8611",
+        "value": 0.044000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>1.0%</td><td>0.6%</td><td>1.0%</td></tr><tr><td>Transport</td><td>4.1%</td><td>4.1%</td><td>4.4%</td><td>4.4%</td><td>4.0%</td><td>4.0%</td></tr><tr><td>Communication</td><td>0.8%</td><td>0.9%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "97d679797940aba8",
+        "value": 0.044000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>0.6%</td><td>1.0%</td></tr><tr><td>Transport</td><td>4.1%</td><td>4.1%</td><td>4.4%</td><td>4.4%</td><td>4.0%</td><td>4.0%</td></tr><tr><td>Communication</td><td>0.8%</td><td>0.9%</td><td>1.0%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4b43c20602fce927",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>1.0%</td></tr><tr><td>Transport</td><td>4.1%</td><td>4.1%</td><td>4.4%</td><td>4.4%</td><td>4.0%</td><td>4.0%</td></tr><tr><td>Communication</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>0.7%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7569efaa8ec8f597",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>Transport</td><td>4.1%</td><td>4.1%</td><td>4.4%</td><td>4.4%</td><td>4.0%</td><td>4.0%</td></tr><tr><td>Communication</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>0.7%</td><td>0.2%",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a8cd8172a6ca0124",
+        "value": 0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>4.1%</td><td>4.4%</td><td>4.4%</td><td>4.0%</td><td>4.0%</td></tr><tr><td>Communication</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>0.7%</td><td>0.2%</td><td>0.3%</td></tr><tr><td>Recreation an",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "386685edb5d4adeb",
+        "value": 0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>4.4%</td><td>4.4%</td><td>4.0%</td><td>4.0%</td></tr><tr><td>Communication</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>0.7%</td><td>0.2%</td><td>0.3%</td></tr><tr><td>Recreation and Culture</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c30415fcdcca5e42",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>4.4%</td><td>4.0%</td><td>4.0%</td></tr><tr><td>Communication</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>0.7%</td><td>0.2%</td><td>0.3%</td></tr><tr><td>Recreation and Culture</td><td>2.6%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "c939a4667bd9d44c",
+        "value": 0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>4.0%</td><td>4.0%</td></tr><tr><td>Communication</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>0.7%</td><td>0.2%</td><td>0.3%</td></tr><tr><td>Recreation and Culture</td><td>2.6%</td><td>-0.7%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8f324a0ef9759270",
+        "value": 0.002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>4.0%</td></tr><tr><td>Communication</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>0.7%</td><td>0.2%</td><td>0.3%</td></tr><tr><td>Recreation and Culture</td><td>2.6%</td><td>-0.7%</td><td>1.4%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3c8758ed6477703b",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</tr><tr><td>Communication</td><td>0.8%</td><td>0.9%</td><td>1.0%</td><td>0.7%</td><td>0.2%</td><td>0.3%</td></tr><tr><td>Recreation and Culture</td><td>2.6%</td><td>-0.7%</td><td>1.4%</td><td>3.6%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "de5ffba0da06a934",
+        "value": 0.026000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>1.0%</td><td>0.7%</td><td>0.2%</td><td>0.3%</td></tr><tr><td>Recreation and Culture</td><td>2.6%</td><td>-0.7%</td><td>1.4%</td><td>3.6%</td><td>2.7%</td><td>1.4%</td></tr><tr><td>Education</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a915119771c7c0e2",
+        "value": -0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>0.7%</td><td>0.2%</td><td>0.3%</td></tr><tr><td>Recreation and Culture</td><td>2.6%</td><td>-0.7%</td><td>1.4%</td><td>3.6%</td><td>2.7%</td><td>1.4%</td></tr><tr><td>Education</td><td>5.6%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f2db349e4064d0d8",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>0.2%</td><td>0.3%</td></tr><tr><td>Recreation and Culture</td><td>2.6%</td><td>-0.7%</td><td>1.4%</td><td>3.6%</td><td>2.7%</td><td>1.4%</td></tr><tr><td>Education</td><td>5.6%</td><td>5.6%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "083958f7602151cc",
+        "value": 0.036000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>0.3%</td></tr><tr><td>Recreation and Culture</td><td>2.6%</td><td>-0.7%</td><td>1.4%</td><td>3.6%</td><td>2.7%</td><td>1.4%</td></tr><tr><td>Education</td><td>5.6%</td><td>5.6%</td><td>5.7%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "619b166852ecb8a0",
+        "value": 0.027000000000000003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td></tr><tr><td>Recreation and Culture</td><td>2.6%</td><td>-0.7%</td><td>1.4%</td><td>3.6%</td><td>2.7%</td><td>1.4%</td></tr><tr><td>Education</td><td>5.6%</td><td>5.6%</td><td>5.7%</td><td>5.7%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "83164d4adc29c21d",
+        "value": 0.013999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Recreation and Culture</td><td>2.6%</td><td>-0.7%</td><td>1.4%</td><td>3.6%</td><td>2.7%</td><td>1.4%</td></tr><tr><td>Education</td><td>5.6%</td><td>5.6%</td><td>5.7%</td><td>5.7%</td><td>5.7%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "629959729c6937d0",
+        "value": 0.055999999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>-0.7%</td><td>1.4%</td><td>3.6%</td><td>2.7%</td><td>1.4%</td></tr><tr><td>Education</td><td>5.6%</td><td>5.6%</td><td>5.7%</td><td>5.7%</td><td>5.7%</td><td>5.6%</td></tr><tr><td>Insurance and",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "941d204ff2c45550",
+        "value": 0.055999999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>1.4%</td><td>3.6%</td><td>2.7%</td><td>1.4%</td></tr><tr><td>Education</td><td>5.6%</td><td>5.6%</td><td>5.7%</td><td>5.7%</td><td>5.7%</td><td>5.6%</td></tr><tr><td>Insurance and Financial Se",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7844f9a9a169274d",
+        "value": 0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Exhibit 7: Melbourne-Institute Monthly Inflation (% y/y, 2016-25) Headline inflation (MI) rose from 2.4% to 2.9% in July </center> <center>Source:Macrobond </center> ![Figure 2-2](images/2_2.jpg) <cen",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "09017d7ebb819817",
+        "value": 0.028999999999999998,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "7: Melbourne-Institute Monthly Inflation (% y/y, 2016-25) Headline inflation (MI) rose from 2.4% to 2.9% in July </center> <center>Source:Macrobond </center> ![Figure 2-2](images/2_2.jpg) <center>Exhi",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "483dfb22280323bb",
+        "value": 0.015,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>3 month change</td><td>6 month change</td><td>12 month change</td></tr><tr><td>Food</td><td>1.5%</td><td>1.3%</td><td>4.8%</td><td>7.5%</td></tr><tr><td>Alcoholic beverages &amp;amp; tobacco</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f81c9ce08518a8b4",
+        "value": 0.013000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "th change</td><td>6 month change</td><td>12 month change</td></tr><tr><td>Food</td><td>1.5%</td><td>1.3%</td><td>4.8%</td><td>7.5%</td></tr><tr><td>Alcoholic beverages &amp;amp; tobacco</td><td>-2.4%<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "7458e0d08428c3d9",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>6 month change</td><td>12 month change</td></tr><tr><td>Food</td><td>1.5%</td><td>1.3%</td><td>4.8%</td><td>7.5%</td></tr><tr><td>Alcoholic beverages &amp;amp; tobacco</td><td>-2.4%</td><td>-8.8%",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "73ae7bdcc231f982",
+        "value": 0.075,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "change</td><td>12 month change</td></tr><tr><td>Food</td><td>1.5%</td><td>1.3%</td><td>4.8%</td><td>7.5%</td></tr><tr><td>Alcoholic beverages &amp;amp; tobacco</td><td>-2.4%</td><td>-8.8%</td><td>-12.",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a6bffa7e31a931fe",
+        "value": -0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>1.3%</td><td>4.8%</td><td>7.5%</td></tr><tr><td>Alcoholic beverages &amp;amp; tobacco</td><td>-2.4%</td><td>-8.8%</td><td>-12.3%</td><td>-16.5%</td></tr><tr><td>Clothing and footwear</td><td>1.6",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "65c0a77b1b7f40cb",
+        "value": -0.08800000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>4.8%</td><td>7.5%</td></tr><tr><td>Alcoholic beverages &amp;amp; tobacco</td><td>-2.4%</td><td>-8.8%</td><td>-12.3%</td><td>-16.5%</td></tr><tr><td>Clothing and footwear</td><td>1.6%</td><td>1.7%",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ed518833a41f2dec",
+        "value": -0.12300000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>7.5%</td></tr><tr><td>Alcoholic beverages &amp;amp; tobacco</td><td>-2.4%</td><td>-8.8%</td><td>-12.3%</td><td>-16.5%</td></tr><tr><td>Clothing and footwear</td><td>1.6%</td><td>1.7%</td><td>0.7%<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "1422363a253cf2d5",
+        "value": -0.165,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tr><tr><td>Alcoholic beverages &amp;amp; tobacco</td><td>-2.4%</td><td>-8.8%</td><td>-12.3%</td><td>-16.5%</td></tr><tr><td>Clothing and footwear</td><td>1.6%</td><td>1.7%</td><td>0.7%</td><td>4.6%</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "f9bd2eb4b9fe2982",
+        "value": 0.016,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>-2.4%</td><td>-8.8%</td><td>-12.3%</td><td>-16.5%</td></tr><tr><td>Clothing and footwear</td><td>1.6%</td><td>1.7%</td><td>0.7%</td><td>4.6%</td></tr><tr><td>Furnishings and Household equipment</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "62955bfab1f8069c",
+        "value": 0.017,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>-8.8%</td><td>-12.3%</td><td>-16.5%</td></tr><tr><td>Clothing and footwear</td><td>1.6%</td><td>1.7%</td><td>0.7%</td><td>4.6%</td></tr><tr><td>Furnishings and Household equipment</td><td>2.0%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2cb3358f0a83ee42",
+        "value": 0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>-12.3%</td><td>-16.5%</td></tr><tr><td>Clothing and footwear</td><td>1.6%</td><td>1.7%</td><td>0.7%</td><td>4.6%</td></tr><tr><td>Furnishings and Household equipment</td><td>2.0%</td><td>2.4%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "1069af69cc882fdb",
+        "value": 0.046,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>-16.5%</td></tr><tr><td>Clothing and footwear</td><td>1.6%</td><td>1.7%</td><td>0.7%</td><td>4.6%</td></tr><tr><td>Furnishings and Household equipment</td><td>2.0%</td><td>2.4%</td><td>1.8%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "41d4cfc2f0d6f417",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>1.7%</td><td>0.7%</td><td>4.6%</td></tr><tr><td>Furnishings and Household equipment</td><td>2.0%</td><td>2.4%</td><td>1.8%</td><td>4.8%</td></tr><tr><td>Health</td><td>-0.3%</td><td>2.6%</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "10f38419b02a2ff3",
+        "value": 0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>0.7%</td><td>4.6%</td></tr><tr><td>Furnishings and Household equipment</td><td>2.0%</td><td>2.4%</td><td>1.8%</td><td>4.8%</td></tr><tr><td>Health</td><td>-0.3%</td><td>2.6%</td><td>4.1%</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2822cabb370ba0d9",
+        "value": 0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>4.6%</td></tr><tr><td>Furnishings and Household equipment</td><td>2.0%</td><td>2.4%</td><td>1.8%</td><td>4.8%</td></tr><tr><td>Health</td><td>-0.3%</td><td>2.6%</td><td>4.1%</td><td>7.2%</td><",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "67cf150e69d80b5f",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td></tr><tr><td>Furnishings and Household equipment</td><td>2.0%</td><td>2.4%</td><td>1.8%</td><td>4.8%</td></tr><tr><td>Health</td><td>-0.3%</td><td>2.6%</td><td>4.1%</td><td>7.2%</td></tr><tr><td>T",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "954cb479dc3f9f2a",
+        "value": -0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ehold equipment</td><td>2.0%</td><td>2.4%</td><td>1.8%</td><td>4.8%</td></tr><tr><td>Health</td><td>-0.3%</td><td>2.6%</td><td>4.1%</td><td>7.2%</td></tr><tr><td>Transport</td><td>0.1%</td><td>0.9%</t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "88720d7bd19c2f3c",
+        "value": 0.026000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "t</td><td>2.0%</td><td>2.4%</td><td>1.8%</td><td>4.8%</td></tr><tr><td>Health</td><td>-0.3%</td><td>2.6%</td><td>4.1%</td><td>7.2%</td></tr><tr><td>Transport</td><td>0.1%</td><td>0.9%</td><td>0.7%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "af0fa918856aa2de",
+        "value": 0.040999999999999995,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>2.4%</td><td>1.8%</td><td>4.8%</td></tr><tr><td>Health</td><td>-0.3%</td><td>2.6%</td><td>4.1%</td><td>7.2%</td></tr><tr><td>Transport</td><td>0.1%</td><td>0.9%</td><td>0.7%</td><td>2.2%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ca7fdead6c38dbf7",
+        "value": 0.07200000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>1.8%</td><td>4.8%</td></tr><tr><td>Health</td><td>-0.3%</td><td>2.6%</td><td>4.1%</td><td>7.2%</td></tr><tr><td>Transport</td><td>0.1%</td><td>0.9%</td><td>0.7%</td><td>2.2%</td></tr><tr><td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e0aee771a6c4c2dd",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Health</td><td>-0.3%</td><td>2.6%</td><td>4.1%</td><td>7.2%</td></tr><tr><td>Transport</td><td>0.1%</td><td>0.9%</td><td>0.7%</td><td>2.2%</td></tr><tr><td>Recreation and culture</td><td>1.0%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d5a03b7d244fdb8e",
+        "value": 0.009000000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>-0.3%</td><td>2.6%</td><td>4.1%</td><td>7.2%</td></tr><tr><td>Transport</td><td>0.1%</td><td>0.9%</td><td>0.7%</td><td>2.2%</td></tr><tr><td>Recreation and culture</td><td>1.0%</td><td>2.4%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "b26e3150bafa6f15",
+        "value": 0.006999999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>2.6%</td><td>4.1%</td><td>7.2%</td></tr><tr><td>Transport</td><td>0.1%</td><td>0.9%</td><td>0.7%</td><td>2.2%</td></tr><tr><td>Recreation and culture</td><td>1.0%</td><td>2.4%</td><td>4.8%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "0b2cf0bbea0b36b8",
+        "value": 0.022000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>4.1%</td><td>7.2%</td></tr><tr><td>Transport</td><td>0.1%</td><td>0.9%</td><td>0.7%</td><td>2.2%</td></tr><tr><td>Recreation and culture</td><td>1.0%</td><td>2.4%</td><td>4.8%</td><td>7.9%</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "545245501321fb42",
+        "value": 0.01,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>0.1%</td><td>0.9%</td><td>0.7%</td><td>2.2%</td></tr><tr><td>Recreation and culture</td><td>1.0%</td><td>2.4%</td><td>4.8%</td><td>7.9%</td></tr><tr><td>Hotels, cafes and restaurants</td><td>-",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "ed4182883626bbe0",
+        "value": 0.024,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>0.9%</td><td>0.7%</td><td>2.2%</td></tr><tr><td>Recreation and culture</td><td>1.0%</td><td>2.4%</td><td>4.8%</td><td>7.9%</td></tr><tr><td>Hotels, cafes and restaurants</td><td>-0.8%</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "309c875769f3d233",
+        "value": 0.048,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>0.7%</td><td>2.2%</td></tr><tr><td>Recreation and culture</td><td>1.0%</td><td>2.4%</td><td>4.8%</td><td>7.9%</td></tr><tr><td>Hotels, cafes and restaurants</td><td>-0.8%</td><td>2.3%</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "178bb5bae9ffa66f",
+        "value": 0.079,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>2.2%</td></tr><tr><td>Recreation and culture</td><td>1.0%</td><td>2.4%</td><td>4.8%</td><td>7.9%</td></tr><tr><td>Hotels, cafes and restaurants</td><td>-0.8%</td><td>2.3%</td><td>1.8%</td><td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4bdea0834b2e256f",
+        "value": -0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">1.0%</td><td>2.4%</td><td>4.8%</td><td>7.9%</td></tr><tr><td>Hotels, cafes and restaurants</td><td>-0.8%</td><td>2.3%</td><td>1.8%</td><td>5.7%</td></tr><tr><td>Miscellaneous</td><td>0.6%</td><td>1.8",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5ea5f6628c73dc28",
+        "value": 0.023,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2.4%</td><td>4.8%</td><td>7.9%</td></tr><tr><td>Hotels, cafes and restaurants</td><td>-0.8%</td><td>2.3%</td><td>1.8%</td><td>5.7%</td></tr><tr><td>Miscellaneous</td><td>0.6%</td><td>1.8%</td><td>4.4%",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2d6e63cf728eaa0c",
+        "value": 0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "4.8%</td><td>7.9%</td></tr><tr><td>Hotels, cafes and restaurants</td><td>-0.8%</td><td>2.3%</td><td>1.8%</td><td>5.7%</td></tr><tr><td>Miscellaneous</td><td>0.6%</td><td>1.8%</td><td>4.4%</td><td>7.0%",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "34a0998d45ef592f",
+        "value": 0.057,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "7.9%</td></tr><tr><td>Hotels, cafes and restaurants</td><td>-0.8%</td><td>2.3%</td><td>1.8%</td><td>5.7%</td></tr><tr><td>Miscellaneous</td><td>0.6%</td><td>1.8%</td><td>4.4%</td><td>7.0%</td></tr></t",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "48394e0d5ffc5a20",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "aurants</td><td>-0.8%</td><td>2.3%</td><td>1.8%</td><td>5.7%</td></tr><tr><td>Miscellaneous</td><td>0.6%</td><td>1.8%</td><td>4.4%</td><td>7.0%</td></tr></table> Source:ABS BofA GLOBAL RESEARCH Exhibi",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "cfdb5f2a93aea61a",
+        "value": 0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>-0.8%</td><td>2.3%</td><td>1.8%</td><td>5.7%</td></tr><tr><td>Miscellaneous</td><td>0.6%</td><td>1.8%</td><td>4.4%</td><td>7.0%</td></tr></table> Source:ABS BofA GLOBAL RESEARCH Exhibit 19: Retail ",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "a332f26c511e5486",
+        "value": 0.044000000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>2.3%</td><td>1.8%</td><td>5.7%</td></tr><tr><td>Miscellaneous</td><td>0.6%</td><td>1.8%</td><td>4.4%</td><td>7.0%</td></tr></table> Source:ABS BofA GLOBAL RESEARCH Exhibit 19: Retail turnover grow",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "d0e2641c3cb8cfa4",
+        "value": 0.07,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>1.8%</td><td>5.7%</td></tr><tr><td>Miscellaneous</td><td>0.6%</td><td>1.8%</td><td>4.4%</td><td>7.0%</td></tr></table> Source:ABS BofA GLOBAL RESEARCH Exhibit 19: Retail turnover growth (%)Clothin",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "e73da0ded59512f4",
+        "value": 0.035,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r yield decomposition (%, 2018-25) Risk neutral yields consistent with nominal neutral rate around 3.5%, while 10y term premia remain around 60bps ![Figure 9-0](images/9_0.jpg) Source: AOFM. Note: Ter",
+        "provenance": {
+          "page": 9
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 32,
+      "tables_count": 0,
+      "numerical_data_count": 131,
+      "passages_count": 106,
+      "entities_count": 20
+    }
+  }
+}

@@ -1,0 +1,2098 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "1012b9294878d1ab34fb992acec17841",
+    "title": "Trades closed over the past 12 months",
+    "source_uri": "2025-08-29/United Kingdom Keep 10s30s gilt curve steepening biasUnited Kingdom Keep 10s30s gilt curve steepening bias_2025-08-29",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-27T00:36:53.286207",
+      "extracted_at": "2025-10-27T00:36:53.286215"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 11,
+        "successful_pages": 11,
+        "date": "2025-08-29",
+        "publication": "2025-08-29",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 7,
+          "reduction_ratio": 0.12243068950065272
+        },
+        "input_relative_path": "2025-08-29"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "dbfb34836fcef980",
+      "text": "Figure 1: Gilt yields are modestly higher over the past two weeks and gilts have underperformed cross market vs. Bunds and, in particular, USTs Change in benchmark yields since 15 Aug, bp",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "5b8895b404f70973",
+      "text": "Source: J.P. Morgan.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ae757b3d145abcf1",
+      "text": "Figure 2: We continue to receive Nov25 MPC OIS with 5bp of easing priced and a full 25bp cut only fully priced by March MPC OIS meeting date steps and cumulative easing priced (RHS), bp",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "38cb2120f457e51d",
+      "text": "Source: J.P. Morgan.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "2db5bb158088ef00",
+      "text": "Domestic data over the past couple of weeks has increasingly challenged expectations of further BoE easing this year. Last week, headline CPI printed at \\(3.8\\%\\) oya, in line with BoE expectations, but the underlying details showed sizeable price gains in food prices and core services, two categories the BoE is specifically focused on, with food inflation surprising to the upside in July \\((4.9\\%\\) oya vs \\(4.7\\%\\) BoE forecast). The PMI continues to indicate a weak jobs market, but the stronger than expected flash PMI for August suggests upside risks to our 3Q GDP forecast of \\(0.8\\%\\) q/q annualised. GfK's consumer confidence reading for August also rose, suggesting household spending is not as weak as feared.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "867c2fdcf641ee73",
+      "text": "Our economist's call remains for a 25bp cut in November and a further 25bp cut in February, but we acknowledge the bar for a November ease has moved higher. We think a combination of a large downshift in wage growth and further declines in employment growth, alongside clear signs of weaker- than- expected headline and food inflation in September, are needed for the BoE to ease in November. Tighter fiscal policy at the Autumn budget would likely pose downside growth risks into 2026, but given the OBR needs 10 weeks to prepare forecasts and with no budget date announced yet, it is more likely that an Autumn budget will be delivered after the November \\(6^{\\mathrm{th}}\\) MPC meeting. MPC OIS prices around 5bp of easing for November, a cumulative 10bp by the end of this year and just about 25bp of easing by next March (Figure 2). We keep received Nov25 MPC OIS given the limited easing priced as we wait to see labour market and inflation data over the coming months, but we do see a heightened chance that the BoE skips easing in November.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "da55cd4b83f18310",
+      "text": "IYxI Y SONIA is modestly higher over the past few weeks and is just above the \\(3.60\\%\\) level, close to the highs since early June. Current levels look modestly cheap vs our expected BoE terminal rate of \\(3.50\\%\\) and are around 18bp cheap on a relative basis vs 1Yx1Y SOFR (Figure 3), with over 130bp of Fed easing priced by the end of 2026 and 1Yx1Y SOFR just above \\(3.0\\%\\) , its lowest level since October 2024. However, the relationship between 1Yx1Y SONIA and 1Yx1Y SOFR has been weakening over the past few months (Figure 4). We think the BoE could still ease policy rates in 1Q26, even if it skips a November ease, and still see neutral at around \\(3.50\\%\\) , which likely limits how much 1Yx1Y SONIA can cheapen. We shift to a bullish bias on 1Yx1Y SONIA as we expect 1Yx1Y SONIA to range- trade around the 3.50- 3.55% level.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "d48e26bf18179273",
+      "text": "Figure 3: 1Yx1Y SONIA looks 20bp cheap on a release basis vs 1Yx1Y SOFR on a 12M regression basis...",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "a86bf186b6109e33",
+      "text": "Source: J.P. Morgan.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1b70fbb3d55b5ca8",
+      "text": "Figure 5: We have a tactical fronts/reds SONIA curve flattening bias given our bullish view on 1Yx1Y SONIA",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "5e5b82f821688d8e",
+      "text": "Source: J.P. Morgan.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "715d5e2a9b2c9815",
+      "text": "Figure 4: ...although the relationship between 1Yx1Y SONIA and 1Yx1Y SOFR has been weakening over the past few months",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "4d9b62e30b89c8db",
+      "text": "2s/5s/10s \\(= 0.08^{*}\\) 5Y SONIA-0.07 \\(*2s / 10s\\) SONIA-0.4.R-squ: \\(89\\%\\) Source: J.P. Morgan.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e9d0a82c36f75ac0",
+      "text": "The 1Y/1Yx1Y SONIA curve has steepened as 1Yx1Y SONIA has sold off over the past few weeks, with the fronts/reds SONIA curve close to its steepest levels since mid- January this year. On a 3M regression basis, the 1Y/1Yx1Y SONIA curve looks fair value vs 1Yx1Y SONIA (Figure 5) and we see potential for modest fronts/reds flattening given our bullish bias on 1Yx1Y SONIA.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "0acfc854566bb275",
+      "text": "Figure 6: 10Y gilt yields look close to fair value vs 10Y UST and adjusting for relative 2Yx1Y rate differentials",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "79ec85a6f5eda8cf",
+      "text": "\\(*10Y\\) gilt \\(= 1.07^{*}10Y\\) UST \\(+0.5^{*}(2Yx1Y\\) SONIA-2Yx1Y SOFR)-0.28.R-squ: \\(90\\%\\) std.error:7bp Source: J.P. Morgan.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9dda8c76c3896b33",
+      "text": "10Y gilt yields are slightly higher over the past two weeks, having sold off to around \\(4.75\\%\\) before falling back to just above the \\(4.70\\%\\) level. The date for an Autumn budget has not yet been announced, and will likely be mid- November at the earliest, but the past couple of weeks have seen the government float various tax- raising ideas to plug the current fiscal shortfall, including introducing capital gains on the sale of primary residences, lowering the tax- free lump sum withdrawal threshold of pension savings and applying National Insurance to landlord's rental income. Details are far from clear, but applying some or all of these",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "6578c1224e5bad0f",
+      "text": "along with freezing income tax thresholds from 2029 could raise \\(\\sim \\pm 15\\mathrm{bn}\\)",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "005b0f1a03372b8d",
+      "text": "This would likely plug a large part of our estimated £20bn budget shortfall, but we think this would be unlikely to materially reduce fiscal term premia uncertainty currently priced into the curve. In our view, unless the budget headroom is significantly increased above the £10bn from the prior budget then markets will be wary of how quickly any small headroom rebuild could be eroded again into a spring Budget if yields were to rise and/or GDP continue to undershoot OBR forecasts. 10Y gilt yields are towards the top end of their 3M ranges, but from a relative valuation standpoint 10Y gilt yields look close to fair value on a cross- market basis vs 10Y USTs and adjusting for relative 2Yx1Y SONIA- 2Yx1Y SOFR spread (Figure 6). The upcoming syndication of a new Oct2035 gilt expected next week will provide an interesting gauge of investor appetite for intermediate gilts against the backdrop of the recent fiscal noise. We stay neutral on 10Y duration.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "0bc3ebe8bbe00125",
+      "text": "Further out the curve, 30Y gilt yields are close to \\(5.6\\%\\) and are at multi- decade highs (since 1998) with gilt forwards in the 15- 30Y sector of the curve well above the \\(6.0\\%\\) level (Figure 7); however, we don't see current levels offering much value given the absence of structural investor demand. The 10s/30s gilt curve is little changed over the past couple of weeks and remains at multi- year steep levels, but we retain a 10s/30s steepening bias.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e7f45f85ba5e5b4b",
+      "text": "Figure 7: Long-end par gilt forwards in the 15-30Y sector are well above the \\(6\\%\\) level",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "e42ce4bc62336d05",
+      "text": "Par giltCurrentHighLowAve.StdZ-score5Y4.064.303.854.040.110.210Y4.714.764.434.600.081.430Y5.475.504.975.240.112.05Yx5Y5.545.584.945.300.141.710Yx5Y6.426.455.696.110.171.815Yx5Y6.586.625.746.200.201.820Yx5Y6.206.295.205.730.251.925Yx5Y5.875.964.935.390.222.230Yx5Y5.445.534.725.120.171.810Yx10Y6.496.525.716.150.181.820Yx10Y6.066.155.085.590.232.030Yx10Y4.844.954.104.640.181.115Yx15Y6.296.355.375.850.222.020Yx20Y5.615.704.855.230.201.9",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b3d683a1ec034551",
+      "text": "Source: J.P. Morgan.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "b4bc752e572cbbcf",
+      "text": "Figure 8: Historically, the 10s/30s gilt curve has exhibited seasonal steepening around the start of September, in contrast to the 10s/30s Bund and UST curves",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "59a344503e946974",
+      "text": "Source: J.P. Morgan.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "cc3fb31375d2c125",
+      "text": "We note that the 10s/30s gilt curve has on average exhibited seasonal steepening from the start of September over the past five years, whereas the 10s/30s Bund and 10s/30s UST curves have tended to flatten (Figure 8). This likely reflects a typical pick- up in long- end gilt issuance after the summer lull. On a relative basis, we note that the 10s/30s gilt curve remains too steep on our valuation framework vs the level of 1Yx1Y SONIA, 30Y gilt yields and adjusting for the 10s/30s gilt curve (Figure 9), close to its steepest relative levels since late 2024. The DMO announced the issuance calendar from October – December on Friday, which will see two outright auctions at the long end of the curve and a planned 15Y syndication (Figure 10), in addition to the two long- end auctions scheduled in September. Long- end supply/demand dynamics remain unclear, in our view, and given the seasonal dynamics",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "cf96e6a0d98b815e",
+      "text": "and the potential for fiscal/issuance term premia uncertainty to remain elevated ahead of the autumn budget, we do not look to fade the outright and relative steepness in the 10s/30s gilt curve.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "f9fe9548d61d4321",
+      "text": "Figure 9: The 10s/30s gilt curve remains steep on a relative basis but we do not fade and maintain a steepening bias",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "7b43ddd30e2d2809",
+      "text": "Residual\\\\* from regressing 10s/30s gilt curve vs. 1Yx1Y SONIA, 30Y gilt yields and 10s/30s UST curve; past 12M, bp",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d6d231ce5ccc64f4",
+      "text": "Figure 10: The DMO has 4 long-end auctions and one long-end syndication planned up to the end of this calendar year DMO planned issuance calendar until end-2025, sizes JPMorgan estimates",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "27ad9cf0872e69ff",
+      "text": "DateBondTypeSectorNotional size est. (Ebn)Week 1 Sep4% Treasury Gil 2035SyndicationMedium12-1509-Sep-254% Treasury Gil 2043Outright AuctionLong2.0010-Sep-254% Treasury Gil 2031Outright AuctionShort4.5011-Sep-25Short conventional or Index-linkedTenderUndefined1.5016-Sep-254 3/8% Treasury Gil 2040Outright AuctionMedium4.0023-Sep-255 3/8% Treasury Gil 2056Outright AuctionLong1.7024-Sep-254 3/8% Treasury Gil 2030Outright AuctionShort4.2525-Sep-25Medium ConventionalTenderMedium1.5002-Oct-254% Treasury Gil 2035Outright AuctionMedium4.0007-Oct-25ConventionalTenderUndefined1.0008-Oct-25A new conventional gilt maturing on 22 May 2029Outright AuctionShort5.0021-Oct-251 1/8% Green Gil 2053Outright AuctionLong2.2523-Oct-25A new conventional gilt maturing on 7 March 2031Outright AuctionShort5.0029-Oct-25A new conventional gilt maturing on 7 March 2033Outright AuctionMedium4.0030-Oct-25Short ConventionalTenderShort1.00OctoberNew conventional in 15Y areaSyndicationLong8.0004-Nov-25The new conventional gilt maturing on 22 May 2029Outright AuctionShort5.0012-Nov-254% Treasury Gil 2035Outright AuctionMedium4.0018-Nov-25ConventionalTenderUndefined1.0020-Nov-25The new conventional gilt maturing on 7 March 2031Outright AuctionShort4.0002-Dec-255 3/8% Treasury Gil 2056Outright AuctionLong2.5003-Dec-25The new conventional gilt maturing on 22 May 2029Outright AuctionShort5.0004-Dec-25Medium ConventionalTenderMedium1.0010-Dec-254% Treasury Gil 2035Outright AuctionMedium4.0016-Dec-25The new conventional gilt maturing on 7 March 2031Outright AuctionShort4.00",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5e6788717eb593f7",
+      "text": "Source: DMO, J.P. Morgan.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "8b18949e07443416",
+      "text": "\\(^{*}10s / 30s\\) gilt \\(= - 0.24^{*}1Yx1Y\\) SONIA \\(^+ 0.2^{*}30Y\\) yield \\(^+ 0.5^{*}10s / 30s\\) UST curve \\(^+ 0.3\\) . R-squ: \\(97\\%\\) std. error: 3bp Source: J.P. Morgan.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "583a9a15b006ac57",
+      "text": "Front- end swap spreads have been modestly wider over the past couple of weeks, with 10Y swap spreads little changed (Figure 11). 10Y swap spreads have traded in a 2bp range over the past couple of weeks and remain close to their narrowest levels since mid- January. However, on a relative valuation basis, 10Y swap spreads remain fair value vs the level of yields and adjusting volatility and the size of the BoE APF (Figure 12). We think 10Y swap spreads can continue to range trade in the near term but we maintain a medium- term modest narrowing bias as the size of the BoE APF continues to decline.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e25fb87667a4cfda",
+      "text": "Figure 11: Front-end swap spreads modestly wider with 10Y swap spreads little changed over the past couple of weeksGilt swap spread level and change since 1 Aug, bp",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "26c9246a2bfbdb4f",
+      "text": "Source: J.P. Morgan.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "927692c6737f4950",
+      "text": "Figure 12: 10Y swap spreads are close to their narrowest levels YTD but look fair value vs the level of yields and adjusting for volatility and size of BoE APF",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "b0c46a59c9ed6e27",
+      "text": "\\(^{\\ast}10Y\\) swap spread \\(= 0.05^{\\ast}10Y\\) SONIA \\(^{+}0.01^{\\ast}3M\\times 10Y\\) vol \\(+0.0003^{\\ast}\\) APF - 1.1. R-squ \\(78\\%\\) , std. error: 3bp Source: J.P. Morgan.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "31d2a121b92d26b1",
+      "text": "- Keep receiving Nov25 MPC OISReceive £150mn Nov25 MPC OIS @392.9. P/L since inception is -8.4bp (recommended 7 Aug)- Stay long gilt Mar27 on ASW basisBuy £50m gilt 3.75% Mar27 on ASW basis @16.4bp. P/L since inception is -7.4bp (recommended 12 Jul)- Long 1Yx1Y RPIStay long 1Yx1Y UK RPI swap @340.8bp. P/L since inception is 9.3 (recommended 20 Aug)- Keep long 1Yx5Y A/A-50bp receiver spread vs short OTM payerKeep long £100m 3.35%/2.85% 1Yx5Y receiver spread (notification date 22 Sep 2025, maturity date 22 Sep 2030) versus short£100m 3.865% 1Yx5Y payer at -19.3bp of notional with ATMF 1Yx5Y rate at 3.84% vs entry level at close to flat premium. P/L since inception is -21.4bp of notional (recommended 20 Sep).\\*All existing trades priced as of 1pm UK time on 28 Aug 2025.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "a1814d2cbdd1e295",
+      "text": "TRADEENTRYEXITP&amp;amp;LDURATIONLong 5Y gilt27-Sep-2430-Oct-24-43Rec Feb25 MPC OIS10-Jan-2506-Feb-256Rec 1Yx1Y SONIA07-Mar-2503-Apr-2526Rec Jun25 MPC OIS21-Feb-2504-Apr-255Rec Nov25 MPC OIS08-May-2530-May-25-26Tactical short 10Y gilt13-Jun-2511-Jul-258CURVE5s30s SONIA steepener16-Aug-2419-Sep-247H5/H7 3M SONIA futures flattener06-Nov-2408-Nov-2413Aug25/Dec25 MPC OIS curve flatteners07-Jan-2506-Feb-251H5/U5 SONIA steepener06-Feb-2521-Feb-25930s/50s gilt steepener24-Jan-2504-Apr-25-53Mx1Y/15Mx1Y SONIA flattener21-Mar-2511-Apr-25410s/30s steepeners (Mar35/Jul54)30-May-2527-Jun-2543Mx1Y/15Mx1Y SONIA flattener18-Jul-2507-Aug-2512SWAP SPREADSUKT Sep34 swap spread narrower13-Sep-2404-Oct-24310Y gilt swap spread widener31-Jan-2514-Feb-259",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "52e238694985c30b",
+      "text": "TRADEENTRYEXITP&amp;amp;LRELATIVE VALUEReceive belly 2s5s10s SONIA fly (50:50)30-Aug-2413-Sep-242Buy belly 10s/30s/50s gilt fly (50:50)27-Sep-2425-Oct-242Pay belly Mar25/May25/Jun25 fly 50:5013-Sep-2413-Dec-242Short belly 4Q36/4Q40/3H45 (cash-and-duration neutral)11-Oct-2413-Dec-24-1MISCELLANEOUSLong 10Y gilt vs 10Y Bund18-Oct-2430-Oct-24-8SSACONDITIONAL CURVE AND FLIES2s/10s conditional bull steepener09-May-2518-Jul-250.7OPTIONSBuy Sep24 SONIA call ladder07-Jun-2430-Aug-243.0Short 3Mx2Y gamma21-Jun-2430-Aug-2416.0",
+      "page": 6,
+      "section": null
+    },
+    {
+      "passage_id": "ad7fb17ca9a36a69",
+      "text": "Analyst Certification: The Research Analyst(s) denoted by an \"AC\" on the cover of this report certifies (or, where multiple Research Analysts are primarily responsible for this report, the Research Analyst denoted by an \"AC\" on the cover or within the document individually certifies, with respect to each security or issuer that the Research Analyst covers in this research) that: (1) all of the views expressed in this report accurately reflect the Research Analyst's personal views about any and all of the subject securities or issuers; and (2) no part of any of the Research Analyst's compensation was, is, or will be directly or indirectly related to the specific recommendations or views expressed by the Research Analyst(s) in this report. For all Korea-based Research Analysts listed on the front cover, if applicable, they also certify, as per KOFIA requirements, that the Research Analyst's analysis was made in good faith and that the views reflect the Research Analyst's own opinion, without undue influence or intervention.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "21eb62f6283da7cc",
+      "text": "All authors named within this report are Research Analysts who produce independent research unless otherwise specified. In Europe, Sector Specialists (Sales and Trading) may be shown on this report as contacts but are not authors of the report or part of the Research Department.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "71de19b8fd1ecebc",
+      "text": "A history of J.P. Morgan investment recommendations disseminated during the preceding 12 months can be accessed on the Research & Commentary page of http://www.jpmorganmarkets.com where you can also search by analyst name, sector or financial instrument.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "ab656a04338b92c6",
+      "text": "Analysts' Compensation: The research analysts responsible for the preparation of this report receive compensation based upon various factors, including the quality and accuracy of research, client feedback, competitive factors, and overall firm revenues.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "c749e6e3b4fb7431",
+      "text": "J.P. Morgan is a marketing name for investment banking businesses of JPMorgan Chase & Co. and its subsidiaries and affiliates worldwide.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "eb5acc5a6c95c2ab",
+      "text": "UK MIFID FICC research unbundling exemption: UK clients should refer to UK MIFID Research Unbundling exemption for details of J.P. Morgan's implementation of the FICC research exemption and guidance on relevant FICC research categorisation.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "69e35744f0454cd9",
+      "text": "Any long form nomenclature for references to China; Hong Kong; Taiwan; and Macau within this research material are Mainland China; Hong Kong SAR (China); Taiwan (China); and Macau SAR (China).",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "d3d4a6954843c50f",
+      "text": "J.P. Morgan Research may, from time to time, write on issuers or securities targeted by economic or financial sanctions imposed or administered by the governmental authorities of the U.S., EU, UK or other relevant jurisdictions (Sanctioned Securities). Nothing in this report is intended to be read or construed as encouraging, facilitating, promoting or otherwise approving investment or dealing in such Sanctioned Securities. Clients should be aware of their own legal and compliance obligations when making investment decisions.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "0b0295833bdc9b9e",
+      "text": "Any digital or crypto assets discussed in this research report are subject to a rapidly changing regulatory landscape. For relevant regulatory advisories on crypto assets, including bitcoin and ether, please see https://www.jpmorgan.com/disclosures/cryptoasset- disclosure.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "41eb4f64e0ddf7e7",
+      "text": "The author(s) of this research report may not be licensed to carry on regulated activities in your jurisdiction and, if not licensed, do not hold themselves out as being able to do so.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "a71de41e6138d14a",
+      "text": "Exchange- Traded Funds (ETFs): J.P. Morgan Securities LLC (\"JPMS\") acts as authorized participant for substantially all U.S.- listed ETFs. To the extent that any ETFs are mentioned in this report, JPMS may earn commissions and transaction- based compensation in connection with the distribution of those ETF shares and may earn fees for performing other trade- related services, such as securities lending to short sellers of the ETF shares. JPMS may also perform services for the ETFs themselves, including acting as a broker or dealer to the ETFs. In addition, affiliates of JPMS may perform services for the ETFs, including trust, custodial, administration, lending, index calculation and/or maintenance and other services.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "9b3c4f557dece409",
+      "text": "Options and Futures related research: If the information contained herein regards options- or futures- related research, such information is available only to persons who have received the proper options or futures risk disclosure documents. Please contact your J.P. Morgan Representative or visit https://www.theocc.com/ components/docs/riskstoc.pdf for a copy of the Option Clearing Corporation's Characteristics and Risks of Standardized Options or https://www.finra.org/sites/default/files/2020- 08/Security_Futures_Risk_Disclosure_Statement_2020.pdf for a copy of the Security Futures Risk Disclosure Statement.",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "796377f71de1a344",
+      "text": "Changes to Interbank Offered Rates (IBORs) and other benchmark rates: Certain interest rate benchmarks are, or may in the future become, subject to ongoing international, national and other regulatory guidance, reform and proposals for reform. For more information, please consult: https://www.jpmorgan.com/global/disclosures/interbank_offered_rates",
+      "page": 7,
+      "section": null
+    },
+    {
+      "passage_id": "af9308cb35707f30",
+      "text": "Private Bank Clients: Where you are receiving research as a client of the private banking businesses offered by JPMorgan Chase & Co. and its subsidiaries (\"J.P. Morgan Private Bank\"), research is provided to you by J.P. Morgan Private Bank and not by any other division of J.P. Morgan, including, but not limited to, the J.P. Morgan Corporate and Investment Bank and its Global Research division.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "b21213ee575d3ce2",
+      "text": "Legal entity responsible for the production and distribution of research: The legal entity identified below the name of the Reg AC Research Analyst who authored this material is the legal entity responsible for the production of this research. Where multiple Reg AC Research Analysts authored this material with different legal entities identified below their names, these legal entities are jointly responsible for the production of this research. Where more than one legal entity is listed under an analyst's name, the first legal entity is responsible for the production unless stated otherwise. Research Analysts from various J.P. Morgan affiliates may have contributed to the production of this material but may not be licensed to carry out regulated activities in your jurisdiction (and do not hold themselves out as being able to do so). Unless otherwise stated below in the legal entity disclosures, this material has been distributed by the legal entity responsible for production, or where more than one legal entity is listed under the analyst's name, the first legal entity will be responsible for distribution. If you have any queries, please contact the relevant Research Analyst in your jurisdiction or the entity in your jurisdiction that has distributed this research material.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "9a4d78e6c61163b9",
+      "text": "Legal Entities Disclosures and Country-/Region- Specific Disclosures:",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "1dd9dad41aabdf22",
+      "text": "Argentina: JPMorgan Chase Bank NA Sucursal Buenos Aires is regulated by Banco Central de la Republica Argentina (\"BCRA\"- Central Bank of Argentina) and Comision Nacional de Valores (\"CNV\"- Argentinian Securities Commission - ALYC y AN Integral N°51).",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d4aeecd782ea9222",
+      "text": "Australia: J.P. Morgan Securities Australia Limited (\"JPMSAL\") (ABN 61 003 245 234/AFS Licence No: 238066) is regulated by the Australian Securities and Investments Commission and is a Market Participant of ASX Limited, a Clearing and Settlement Participant of ASX Clear Pty Limited and a Clearing Participant of ASX Clear (Futures) Pty Limited. This material is issued and distributed in Australia by or on behalf of JPMSAL only to \"wholesale clients\" (as defined in section 761G of the Corporations Act 2001). A list of all financial products covered can be found by visiting https://www.jpmm.com/research/disclosures. J.P. Morgan seeks to cover companies of relevance to the domestic and international investor base across all Global Industry Classification Standard (GICS) sectors, as well as across a range of market capitalisation sizes. If applicable, in the course of conducting public side due diligence on the subject company(ies), the Research Analyst team may at times perform such diligence through corporate engagements such as site visits, discussions with company representatives, management presentations, etc. Research issued by JPMSAL has been prepared in accordance with J.P. Morgan Australia's Research Independence Policy which can be found at the following link: J.P. Morgan Australia - Research Independence Policy.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "1629a55cc9f614a7",
+      "text": "Canada: J.P. Morgan Securities Canada Inc. is a registered investment dealer, regulated by the Canadian Investment Regulatory Organization and the Ontario Securities Commission and is the participating member on Canadian exchanges. This material is distributed in Canada by or on behalf of J.P. Morgan Securities Canada Inc.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "9b3220093fbccc7e",
+      "text": "Chile: Inversiones J.P. Morgan Limitada is an unregulated entity incorporated in Chile.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d435b7e7b30edc4d",
+      "text": "China: J.P. Morgan Securities (China) Company Limited has been approved by CSRC to conduct the securities investment consultancy business.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "2d720dcdf267d2b7",
+      "text": "Colombia: Banco J.P. Morgan Colombia S.A. is supervised by the Superintendencia Financiera de Colombia (SFC).",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "d6b9dbcd434eaf9a",
+      "text": "Dubai International Financial Centre (DIFC): JPMorgan Chase Bank, N.A., Dubai Branch is regulated by the Dubai Financial Services Authority (DFSA) and its registered address is Dubai International Financial Centre - The Gate, West Wing, Level 3 and 9 PO Box 506551, Dubai, UAE. This material has been distributed by J.P. Morgan Chase Bank, N.A., Dubai Branch to persons regarded as professional clients or market counterparties as defined under the DFSA rules.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "0bf6cf3de94cba08",
+      "text": "European Economic Area (EEA): Unless specified to the contrary, research is distributed in the EEA by J.P. Morgan SE (\"JPM SE\"), which is authorised as a credit institution by the Federal Financial Supervisory Authority (Bundesanstalt für Finanzdienstleistungsaufsicht, BaFin) and jointly supervised by the BaFin, the German Central Bank (Deutsche Bundesbank) and the European Central Bank (ECB). JPM SE is a company headquartered in Frankfurt with registered address at TaunusTurm, Taunustor 1, Frankfurt am Main, 60310, Germany. The material has been distributed in the EEA to persons regarded as professional investors (or equivalent) pursuant to Art. 4 para. 1 no. 10 and Annex II of MiFID II and its respective implementation in their home jurisdictions (\"EEA professional investors\"). This material must not be acted on or relied on by persons who are not EEA professional investors. Any investment or investment activity to which this material relates is only available to EEA relevant persons and will be engaged in only with EEA relevant persons.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "cb626b36d6144f66",
+      "text": "Hong Kong: J.P. Morgan Securities (Asia Pacific) Limited (CE number AAJ321) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission in Hong Kong, and J.P. Morgan Broking (Hong Kong) Limited (CE number AAB027) is regulated by the Securities and Futures Commission in Hong Kong. J.P. Morgan Chase Bank, N.A., Hong Kong Branch (CE Number AAL996) is regulated by the Hong Kong Monetary Authority and the Securities and Futures Commission, is organized under the laws of the United States with limited liability. Where the distribution of this material is a regulated activity in Hong Kong, the material is distributed in Hong Kong by or through J.P. Morgan Securities (Asia Pacific) Limited and/or J.P. Morgan Broking (Hong Kong) Limited.",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "7e464c30d46789e5",
+      "text": "India: J.P. Morgan India Private Limited (Corporate Identity Number - U67120MH1992FTC068724), having its registered office at J.P. Morgan Tower, Off. C.S.T. Road, Kalina, Santacruz - East, Mumbai - 400098, is registered with the Securities and Exchange Board of India (SEBI) as a 'Research Analyst' having registration number INH000001873. J.P. Morgan India Private Limited is also registered with SEBI as a member of",
+      "page": 8,
+      "section": null
+    },
+    {
+      "passage_id": "75bec3fbc2d920a1",
+      "text": "Indonesia: PT J.P. Morgan Sekuritas Indonesia is a member of the Indonesia Stock Exchange and is registered and supervised by the Otoritas Jasa Keuangan (OJK).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "cfb6455be6d740e7",
+      "text": "Korea: J.P. Morgan Securities (Far East) Limited, Seoul Branch, is a member of the Korea Exchange (KRX). JPMorgan Chase Bank, N.A., Seoul Branch, is licensed as a branch office of foreign bank (JPMorgan Chase Bank, N.A.) in Korea. Both entities are regulated by the Financial Services Commission (FSC) and the Financial Supervisory Service (FSS). For non- macro research material, the material is distributed in Korea by or through J.P. Morgan Securities (Far East) Limited, Seoul Branch.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "267ebe43b7477639",
+      "text": "Japan: JPMorgan Securities Japan Co., Ltd. and JPMorgan Chase Bank, N.A., Tokyo Branch are regulated by the Financial Services Agency in Japan.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "ad097956cee63d4a",
+      "text": "Malaysia: This material is issued and distributed in Malaysia by JPMorgan Securities (Malaysia) Sdn Bhd (18146- X), which is a Participating Organization of Bursa Malaysia Berhad and holds a Capital Markets Services License issued by the Securities Commission in Malaysia.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "56c84bb4876b590f",
+      "text": "Mexico: J.P. Morgan Casa de Bolsa, S.A. de C.V. and J.P. Morgan Grupo Financiero are members of the Mexican Stock Exchange and are authorized to act as a broker dealer by the National Banking and Securities Exchange Commission.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "ade8bf984e90af65",
+      "text": "New Zealand: This material is issued and distributed by JPMSAI in New Zealand only to \"wholesale clients\" (as defined in the Financial Markets Conduct Act 2013). JPMSAI is registered as a Financial Service Provider under the Financial Service providers (Registration and Dispute Resolution) Act of 2008.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "3e591a5d51ea9efa",
+      "text": "Philippines: J.P. Morgan Securities Philippines Inc. is a Trading Participant of the Philippine Stock Exchange and a member of the Securities Clearing Corporation of the Philippines and the Securities Investor Protection Fund. It is regulated by the Securities and Exchange Commission.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "efcf1e947f2c0272",
+      "text": "Singapore: This material is issued and distributed in Singapore by or through J.P. Morgan Securities Singapore Private Limited (JPMSM) [MDDI (P) 057/08/2025 and Co. Reg. No.: 199405335R], which is a member of the Singapore Exchange Securities Trading Limited, and/or JPMorgan Chase Bank, N.A., Singapore branch (JPMCB Singapore), both of which are regulated by the Monetary Authority of Singapore. This material is issued and distributed in Singapore only to accredited investors, expert investors and institutional investors, as defined in Section 4A of the Securities and Futures Act, Cap. 289 (SFA). This material is not intended to be issued or distributed to any retail investors or any other investors that do not fall into the classes of \"accredited investors,\" \"expert investors\" or \"institutional investors,\" as defined under Section 4A of the SFA. Recipients of this material in Singapore are to contact JPMSM or JPMCB Singapore in respect of any matters arising from, or in connection with, the material.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "7195a243ee337c04",
+      "text": "South Africa: J.P. Morgan Equities South Africa Proprietary Limited and JPMorgan Chase Bank, N.A., Johannesburg Branch are members of the Johannesburg Securities Exchange and are regulated by the Financial Services Conduct Authority (FSCA).",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "a0d199bdcb004c00",
+      "text": "Taiwan: J.P. Morgan Securities (Taiwan) Limited is a participant of the Taiwan Stock Exchange (company- type) and regulated by the Taiwan Securities and Futures Bureau. Material relating to equity securities is issued and distributed in Taiwan by J.P. Morgan Securities (Taiwan) Limited, subject to the license scope and the applicable laws and the regulations in Taiwan. To the extent that J.P. Morgan Securities (Taiwan) Limited produces research materials on securities not listed on the Taiwan Stock Exchange or Taipei Exchange (\"Non- Taiwan Listed Securities\"), these materials shall not constitute securities recommendations for the purpose of applicable Taiwan regulations, and, for the avoidance of doubt, J.P. Morgan Securities (Taiwan) Limited does not act as broker for Non- Taiwan Listed Securities. According to Paragraph 2, Article 7- 1 of Operational Regulations Governing Securities Firms Recommending Trades in Securities to Customers (as amended or supplemented) and/or other applicable laws or regulations, please note that the recipient of this material is not permitted to engage in any activities in connection with the material that may give rise to conflicts of interests, unless otherwise disclosed in the \"Important Disclosures\" in this material.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "5c73276c4666e998",
+      "text": "Thailand: This material is issued and distributed in Thailand by JPMorgan Securities (Thailand) Ltd., which is a member of the Stock Exchange of Thailand and is regulated by the Ministry of Finance and the Securities and Exchange Commission, and its registered address is 3rd Floor, 20 North Sathorn Road, Silom, Bangrak, Bangkok 10500.",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "b4d8ce871063ab99",
+      "text": "UK: Research is produced in the UK by J.P. Morgan Securities plc (\"JPMS plc\") which is a member of the London Stock Exchange and is authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority or J.P. Morgan Markets Limited (\"JPMML Ltd\") which is authorised and regulated by the Financial Conduct Authority. Unless specified to the contrary, this material is distributed in the UK by JPMS plc and is directed in the UK only to: (a) persons having professional experience in matters relating to investments falling within article 19(5) of the Financial Services and Markets Act 2000 (Financial Promotion) (Order) 2005",
+      "page": 9,
+      "section": null
+    },
+    {
+      "passage_id": "782b7be60077c3e6",
+      "text": "(\"the FPO\"); (b) persons outlined in article 49 of the FPO (high net worth companies, unincorporated associations or partnerships, the trustees of high value trusts, etc.); or (c) any persons to whom this communication may otherwise lawfully be made; all such persons being referred to as \"UK relevant persons\". This material must not be acted on or relied on by persons who are not UK relevant persons. Any investment or investment activity to which this material relates is only available to UK relevant persons and will be engaged in only with UK relevant persons. A description of J.P. Morgan EMEA's policy for prevention and avoidance of conflicts of interest related to the production of Research can be found at the following link: J.P. Morgan EMEA - Research Independence Policy.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "56410b8b499b4d49",
+      "text": "U.S.: J.P. Morgan Securities LLC (\"JPMS\") is a member of the NYSE, FINRA, SIPC, and the NFA. JPMorgan Chase Bank, N.A. is a member of the FDIC. Material published by non- U.S. affiliates is distributed in the U.S. by JPMS who accepts responsibility for its content.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "9d525dd0c9d63d57",
+      "text": "General: Additional information is available upon request. The information in this material has been obtained from sources believed to be reliable. While all reasonable care has been taken to ensure that the facts stated in this material are accurate and that the forecasts, opinions and expectations contained herein are fair and reasonable, JPMorgan Chase & Co. or its affiliates and/or subsidiaries (collectively J.P. Morgan) make no representations or warranties whatsoever to the completeness or accuracy of the material provided, except with respect to any disclosures relative to J.P. Morgan and the Research Analyst's involvement with the issuer that is the subject of the material. Accordingly, no reliance should be placed on the accuracy, fairness or completeness of the information contained in this material. There may be certain discrepancies with data and/or limited content in this material as a result of calculations, adjustments, translations to different languages, and/or local regulatory restrictions, as applicable. These discrepancies should not impact the overall investment analysis, views and/or recommendations of the subject company(ies) that may be discussed in the material. Artificial intelligence tools may have been used in the preparation of this material, including assisting in data analysis, pattern recognition, and content drafting for research material. J.P. Morgan accepts no liability whatsoever for any loss arising from any use of this material or its contents, and neither J.P. Morgan nor any of its respective directors, officers or employees, shall be in any way responsible for the contents hereof, apart from the liabilities and responsibilities that may be imposed on them by the relevant regulatory authority in the jurisdiction in question, or the regulatory regime thereunder. Opinions, forecasts or projections contained in this material represent J.P. Morgan's current opinions or judgment as of the date of the material only and are therefore subject to change without notice. Periodic updates may be provided on companies/industries based on company- specific developments or announcements, market conditions or any other publicly available information. There can be no assurance that future results or events will be consistent with any such opinions, forecasts or projections, which represent only one possible outcome. Furthermore, such opinions, forecasts or projections are subject to certain risks, uncertainties and assumptions that have not been verified, and future actual results or events could differ materially. The value of, or income from, any investments referred to in this material may fluctuate and/or be affected by changes in exchange rates. All pricing is indicative as of the close of market for the securities discussed, unless otherwise stated. Past performance is not indicative of future results. Accordingly, investors may receive back less than originally invested. This material is not intended as an offer or solicitation for the purchase or sale of any financial instrument. The opinions and recommendations herein do not take into account individual client circumstances, objectives, or needs and are not intended as recommendations of particular securities, financial instruments or strategies to particular clients. This material may include views on structured securities, options, futures and other derivatives. These are complex instruments, may involve a high degree of risk and may be appropriate investments only for sophisticated investors who are capable of understanding and assuming the risks involved. The recipients of this material must make their own independent decisions regarding any securities or financial instruments mentioned herein and should seek advice from such independent financial, legal, tax or other adviser as they deem necessary. J.P. Morgan may trade as a principal on the basis of the Research Analysts' views and research, and it may also engage in transactions for its own account or for its clients' accounts in a manner inconsistent with the views taken in this material, and J.P. Morgan is under no obligation to ensure that such other communication is brought to the attention of any recipient of this material. Others within J.P. Morgan, including Strategists, Sales staff and other Research Analysts, may take views that are inconsistent with those taken in this material. Employees of J.P. Morgan not involved in the preparation of this material may have investments in the securities (or derivatives of such securities) mentioned in this material and may trade them in ways different from those discussed in this material. This material is not an advertisement for or marketing of any issuer, its products or services, or its securities in any jurisdiction.",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "31f8429c5b6ba18d",
+      "text": "Confidentiality and Security Notice: This transmission may contain information that is privileged, confidential, legally privileged, and/or exempt from disclosure under applicable law. If you are not the intended recipient, you are hereby notified that any disclosure, copying, distribution, or use of the information contained herein (including any reliance thereon) is STRICTLY PROHIBITED. Although this transmission and any attachments are believed to be free of any virus or other defect that might affect any computer system into which it is received and opened, it is the responsibility of the recipient to ensure that it is virus free and no responsibility is accepted by JPMorgan Chase & Co., its subsidiaries and affiliates, as applicable, for any loss or damage arising in any way from its use. If you received this transmission in error, please immediately contact the sender and destroy the material in its entirety, whether in electronic or hard copy format. This message is subject to electronic monitoring: https://www.jpmorgan.com/disclosures/email",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "feda006574741c9e",
+      "text": "MSCI: Certain information herein (\"Information\") is reproduced by permission of MSCI Inc., its affiliates and information providers (\"MSCI\") ©2025. No reproduction or dissemination of the Information is permitted without an appropriate license. MSCI MAKES NO EXPRESS OR IMPLIED WARRANTIES (INCLUDING MERCHANTABILITY OR FITNESS) AS TO THE INFORMATION AND DISCLAIMS ALL LIABILITY TO THE EXTENT PERMITTED BY LAW. No Information constitutes investment advice, except for any applicable Information from MSCI ESG Research. Subject also to msc.com/disclaimer",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "ef01abc4f467b945",
+      "text": "Sustainalytics: Certain information, data, analyses and opinions contained herein are reproduced by permission of Sustainalytics and: (1) includes the proprietary information of Sustainalytics; (2) may not be copied or redistributed except as specifically authorized; (3) do not constitute investment advice nor an endorsement of any product or project; (4) are provided solely for informational purposes; and (5) are not warranted to be complete, accurate or timely. Sustainalytics is not responsible for any trading decisions, damages or other losses related to it or",
+      "page": 10,
+      "section": null
+    },
+    {
+      "passage_id": "141d27c674e8ef0f",
+      "text": "its use. The use of the data is subject to conditions available at https://www.sustainability.com/legal- disclaimers. ©2025 Sustainalytics. All Rights Reserved.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "485757c5808b74f8",
+      "text": "\"Other Disclosures\" last revised August 02, 2025.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "eaa5c58e3601d35d",
+      "text": "Copyright 2025 JPMorgan Chase & Co. All rights reserved. This material or any portion hereof may not be reprinted, sold or redistributed without the written consent of J.P. Morgan. It is strictly prohibited to use or share without prior written consent from J.P. Morgan any research material received from J.P. Morgan or an authorized third- party (\"J.P. Morgan Data\") in any third- party artificial intelligence (\"AI\") systems or models when such J.P. Morgan Data is accessible by a third- party. It is permissible to use J.P. Morgan Data for internal business purposes only in an AI system or model that protects the confidentiality of J.P. Morgan Data so as to prevent any and all access to or use of such J.P. Morgan Data by any third- party.",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "2c7e4f942dffd757",
+      "text": "Completed 29 Aug 2025 12:56 PM BST",
+      "page": 11,
+      "section": null
+    },
+    {
+      "passage_id": "19c3d4d9720bd185",
+      "text": "Disseminated 29 Aug 2025 05:15 PM BST",
+      "page": 11,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "39648bedcf2f4a19",
+      "name": "AFS Licence",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0e89cfc2054df5ce",
+      "name": "AN Integral",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0ef0c39c126f6fa4",
+      "name": "ASX Clear",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "cc3137194d646091",
+      "name": "ASX Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a416231886f0fa52",
+      "name": "All Rights",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "517917b86efb07cf",
+      "name": "Analyst Certification",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "21cd74fee7a13752",
+      "name": "Annex II",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f4758147dc564ecb",
+      "name": "Argentinian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "2ebc1f6a39f03ec8",
+      "name": "Asia Pacific",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "babb54828c5096a2",
+      "name": "Australia Limited",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "bc98bb53ad7f2a24",
+      "name": "Australian Securities",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "34925fcaabe8def5",
+      "name": "Banco Central",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c88260432a654cb6",
+      "name": "Bank NA",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1cbb4176b8728d6b",
+      "name": "BoE APF",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "81119df9d2108575",
+      "name": "Bursa Malaysia",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "03898be786b38f70",
+      "name": "CE Number",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "13eec11f9f77d58d",
+      "name": "Canada Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "7860a2554c61a53f",
+      "name": "Canadian Investment",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "98bf4640b315d632",
+      "name": "Capital Markets",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "246559ad6397328f",
+      "name": "Central Bank",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug 24",
+              "Dec 24",
+              "Apr 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -30,
+              "max": 30
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              15.5,
+              10.0,
+              -5.0,
+              0.0,
+              5.0,
+              10.0,
+              5.0,
+              0.0,
+              -5.0,
+              0.0,
+              5.0,
+              10.0,
+              5.0,
+              0.0,
+              -5.0,
+              -10.0,
+              -5.0,
+              0.0,
+              5.0,
+              10.0,
+              5.0,
+              0.0,
+              -5.0,
+              -10.0,
+              -15.0,
+              -20.0,
+              -25.0,
+              -20.0,
+              -15.0,
+              -10.0,
+              -5.0,
+              0.0,
+              5.0,
+              10.0,
+              15.0,
+              20.0,
+              25.0,
+              20.0,
+              15.0,
+              10.0,
+              5.0,
+              0.0,
+              -5.0,
+              -10.0,
+              -5.0,
+              0.0,
+              5.0,
+              0.0,
+              -5.0,
+              -10.0,
+              -15.0,
+              -10.0,
+              -5.0,
+              0.0,
+              5.0,
+              0.0,
+              -5.0,
+              -10.0,
+              -15.0,
+              -20.0,
+              -15.0,
+              -10.0,
+              -5.0,
+              0.0,
+              5.0,
+              10.0,
+              15.0,
+              20.0
+            ]
+          }
+        ],
+        "figure_id": "17d41e3c331a31ca",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2Y",
+              "5Y",
+              "10Y",
+              "30Y"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -100,
+              "max": 0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Chg. (RHS)",
+            "unit": null,
+            "values": [
+              -10,
+              -18,
+              -5,
+              -63
+            ]
+          },
+          {
+            "name": "Level",
+            "unit": null,
+            "values": [
+              1.5,
+              1.0,
+              -0.5,
+              -1.5
+            ]
+          }
+        ],
+        "figure_id": "bd42371390fd923a",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 5,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug 24",
+              "Dec 24",
+              "Apr 25",
+              "Aug 2"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -6,
+              "max": 6
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              {
+                "x": "Aug 24",
+                "y": 4
+              },
+              {
+                "x": "Aug 24",
+                "y": 2
+              },
+              {
+                "x": "Aug 24",
+                "y": 0
+              },
+              {
+                "x": "Aug 24",
+                "y": -2
+              },
+              {
+                "x": "Aug 24",
+                "y": -4
+              },
+              {
+                "x": "Aug 24",
+                "y": -6
+              },
+              {
+                "x": "Dec 24",
+                "y": 4
+              },
+              {
+                "x": "Dec 24",
+                "y": 2
+              },
+              {
+                "x": "Dec 24",
+                "y": 0
+              },
+              {
+                "x": "Dec 24",
+                "y": -2
+              },
+              {
+                "x": "Dec 24",
+                "y": -4
+              },
+              {
+                "x": "Apr 25",
+                "y": 2
+              },
+              {
+                "x": "Apr 25",
+                "y": 0
+              },
+              {
+                "x": "Apr 25",
+                "y": -2
+              },
+              {
+                "x": "Apr 25",
+                "y": -4
+              },
+              {
+                "x": "Aug 2",
+                "y": 2
+              },
+              {
+                "x": "Aug 2",
+                "y": 0
+              }
+            ]
+          }
+        ],
+        "figure_id": "a2b87b8619e1e838",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug 24",
+              "Dec 24",
+              "Apr 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -20,
+              "max": 25
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Value",
+            "unit": null,
+            "values": [
+              -10,
+              -5,
+              0,
+              3,
+              0,
+              -5,
+              -10,
+              -12,
+              -5,
+              0,
+              3,
+              5,
+              0,
+              -2,
+              0,
+              2,
+              5,
+              10,
+              15,
+              18,
+              15,
+              10,
+              5,
+              0,
+              -5,
+              -8,
+              -5,
+              0,
+              -5,
+              -10,
+              -8,
+              -5,
+              -2,
+              0,
+              3,
+              0,
+              -2,
+              0,
+              3,
+              5
+            ]
+          }
+        ],
+        "figure_id": "5315eda67d9bcb08",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "scatter",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "1Yx1Y SONIA; %",
+            "range": {
+              "min": 3.4,
+              "max": 3.7
+            }
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -40,
+              "max": -20
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Data Points",
+            "unit": null,
+            "values": [
+              {
+                "x": 3.42,
+                "y": -37.5
+              },
+              {
+                "x": 3.43,
+                "y": -36.5
+              },
+              {
+                "x": 3.44,
+                "y": -35.0
+              },
+              {
+                "x": 3.45,
+                "y": -30.0
+              },
+              {
+                "x": 3.45,
+                "y": -32.0
+              },
+              {
+                "x": 3.46,
+                "y": -30.5
+              },
+              {
+                "x": 3.46,
+                "y": -28.0
+              },
+              {
+                "x": 3.47,
+                "y": -31.0
+              },
+              {
+                "x": 3.47,
+                "y": -27.5
+              },
+              {
+                "x": 3.48,
+                "y": -29.0
+              },
+              {
+                "x": 3.48,
+                "y": -27.0
+              },
+              {
+                "x": 3.49,
+                "y": -30.0
+              },
+              {
+                "x": 3.49,
+                "y": -28.5
+              },
+              {
+                "x": 3.5,
+                "y": -29.0
+              },
+              {
+                "x": 3.5,
+                "y": -27.0
+              },
+              {
+                "x": 3.51,
+                "y": -28.0
+              },
+              {
+                "x": 3.51,
+                "y": -26.0
+              },
+              {
+                "x": 3.52,
+                "y": -27.0
+              },
+              {
+                "x": 3.52,
+                "y": -25.0
+              },
+              {
+                "x": 3.53,
+                "y": -26.0
+              },
+              {
+                "x": 3.53,
+                "y": -24.0
+              },
+              {
+                "x": 3.54,
+                "y": -25.0
+              },
+              {
+                "x": 3.54,
+                "y": -23.0
+              },
+              {
+                "x": 3.55,
+                "y": -24.0
+              },
+              {
+                "x": 3.55,
+                "y": -22.0
+              },
+              {
+                "x": 3.56,
+                "y": -23.0
+              },
+              {
+                "x": 3.56,
+                "y": -21.0
+              },
+              {
+                "x": 3.57,
+                "y": -22.0
+              },
+              {
+                "x": 3.57,
+                "y": -20.0
+              },
+              {
+                "x": 3.58,
+                "y": -21.0
+              },
+              {
+                "x": 3.58,
+                "y": -19.0
+              },
+              {
+                "x": 3.59,
+                "y": -20.0
+              },
+              {
+                "x": 3.59,
+                "y": -18.0
+              },
+              {
+                "x": 3.6,
+                "y": -19.0
+              },
+              {
+                "x": 3.6,
+                "y": -17.0
+              },
+              {
+                "x": 3.61,
+                "y": -18.0
+              },
+              {
+                "x": 3.61,
+                "y": -16.0
+              },
+              {
+                "x": 3.62,
+                "y": -17.0
+              },
+              {
+                "x": 3.62,
+                "y": -15.0
+              },
+              {
+                "x": 3.63,
+                "y": -16.0
+              },
+              {
+                "x": 3.63,
+                "y": -14.0
+              },
+              {
+                "x": 3.64,
+                "y": -15.0
+              },
+              {
+                "x": 3.64,
+                "y": -13.0
+              },
+              {
+                "x": 3.65,
+                "y": -14.0
+              },
+              {
+                "x": 3.65,
+                "y": -12.0
+              },
+              {
+                "x": 3.66,
+                "y": -13.0
+              },
+              {
+                "x": 3.66,
+                "y": -11.0
+              },
+              {
+                "x": 3.67,
+                "y": -12.0
+              },
+              {
+                "x": 3.67,
+                "y": -10.0
+              },
+              {
+                "x": 3.68,
+                "y": -11.0
+              },
+              {
+                "x": 3.68,
+                "y": -9.0
+              },
+              {
+                "x": 3.69,
+                "y": -10.0
+              },
+              {
+                "x": 3.69,
+                "y": -8.0
+              }
+            ]
+          },
+          {
+            "name": "Highlighted Point",
+            "unit": null,
+            "values": [
+              {
+                "x": 3.638,
+                "y": -22.5
+              }
+            ]
+          },
+          {
+            "name": "Regression Line",
+            "unit": null,
+            "values": [
+              {
+                "x": 3.4,
+                "y": -34.98
+              },
+              {
+                "x": 3.7,
+                "y": -17.37
+              }
+            ]
+          }
+        ],
+        "figure_id": "6399cceda32f6149",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 1,
+        "axes": {
+          "x": {
+            "type": "other",
+            "labels": []
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": null,
+              "max": null
+            }
+          }
+        },
+        "series": [],
+        "figure_id": "6faba7cf69c0266d",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "type": "bar",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2Y",
+              "5Y",
+              "10Y",
+              "30Y"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -20,
+              "max": 10
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Gilt",
+            "unit": null,
+            "values": [
+              5,
+              4,
+              6,
+              6
+            ]
+          },
+          {
+            "name": "Treasury",
+            "unit": null,
+            "values": [
+              -12,
+              -19,
+              -15,
+              -6
+            ]
+          },
+          {
+            "name": "Bund",
+            "unit": null,
+            "values": [
+              -3,
+              -7,
+              -6,
+              -1
+            ]
+          }
+        ],
+        "figure_id": "efd72be24002ce99",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "combo",
+        "title": null,
+        "page": 2,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "R-down/Sep",
+              "Sep/Nov",
+              "Nov/Dec",
+              "Dec/Feb",
+              "Feb/Mar",
+              "Mar/May",
+              "May/Jun",
+              "Jun/Aug",
+              "Aug/Sep"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -20.0,
+              "max": 5.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Step",
+            "unit": null,
+            "values": [
+              0.5,
+              -4.0,
+              -4.0,
+              -9.5,
+              -4.5,
+              -5.5,
+              -2.5,
+              -2.5,
+              -1.5
+            ]
+          },
+          {
+            "name": "Market cumulative",
+            "unit": null,
+            "values": [
+              5.0,
+              -2.0,
+              -3.0,
+              -4.0,
+              -5.0,
+              -6.0,
+              -7.0,
+              -8.0,
+              -9.0
+            ]
+          },
+          {
+            "name": "J.P Morgan fcst. cumulative",
+            "unit": null,
+            "values": [
+              5.0,
+              -4.0,
+              -4.0,
+              -10.0,
+              -10.0,
+              -10.0,
+              -10.0,
+              -10.0,
+              -10.0
+            ]
+          }
+        ],
+        "figure_id": "74cce95002becab7",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "value",
+            "labels": "Business days around start of September"
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -10,
+              "max": 5
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Bund",
+            "unit": null,
+            "values": [
+              0.0,
+              -0.2,
+              -0.5,
+              -0.8,
+              -0.9,
+              -0.7,
+              -0.3,
+              -0.1,
+              -0.2,
+              -0.5,
+              -0.8,
+              -0.7,
+              -0.9,
+              -0.8,
+              -0.5,
+              -0.8,
+              -1.0,
+              -1.2,
+              -1.5,
+              -1.8,
+              -2.0,
+              -2.2,
+              -2.5,
+              -2.3,
+              -2.8,
+              -2.5,
+              -2.8
+            ]
+          },
+          {
+            "name": "Gilt",
+            "unit": null,
+            "values": [
+              0.0,
+              0.2,
+              -0.1,
+              -0.3,
+              -0.5,
+              -0.8,
+              -0.9,
+              -0.7,
+              -0.5,
+              -0.2,
+              0.0,
+              0.5,
+              1.0,
+              2.0,
+              1.5,
+              1.0,
+              2.0,
+              3.0,
+              4.0,
+              3.0,
+              2.0,
+              1.0,
+              1.2,
+              1.5,
+              2.0,
+              2.5,
+              3.0
+            ]
+          },
+          {
+            "name": "UST",
+            "unit": null,
+            "values": [
+              0.0,
+              0.5,
+              1.0,
+              0.5,
+              0.0,
+              -0.5,
+              -1.0,
+              -1.5,
+              -2.0,
+              -2.5,
+              -3.0,
+              -3.2,
+              -3.5,
+              -3.8,
+              -4.0,
+              -4.2,
+              -4.5,
+              -5.0,
+              -5.5,
+              -6.0,
+              -6.5,
+              -7.0,
+              -7.5,
+              -6.0,
+              -5.5,
+              -6.0,
+              -8.0
+            ]
+          }
+        ],
+        "figure_id": "35fc6abaa087eac0",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 6,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Sep 24",
+              "Dec 24",
+              "Mar 25",
+              "Jun 25",
+              "Sep 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -55,
+              "max": -30
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Actual",
+            "unit": null,
+            "values": [
+              -31.5,
+              -33.0,
+              -31.0,
+              -36.0,
+              -34.5,
+              -36.0,
+              -35.0,
+              -37.0,
+              -36.0,
+              -38.0,
+              -37.0,
+              -39.0,
+              -38.0,
+              -40.0,
+              -39.0,
+              -41.0,
+              -40.0,
+              -42.0,
+              -41.0,
+              -43.0,
+              -42.0,
+              -44.0,
+              -43.0,
+              -45.0,
+              -44.0,
+              -46.0,
+              -45.0,
+              -47.0,
+              -46.0,
+              -48.0,
+              -47.0,
+              -49.0,
+              -48.0,
+              -50.0,
+              -49.0,
+              -51.0,
+              -50.0,
+              -52.0,
+              -51.0,
+              -53.0,
+              -52.0,
+              -54.0,
+              -53.0,
+              -55.0,
+              -54.0,
+              -55.0
+            ]
+          },
+          {
+            "name": "Predicted",
+            "unit": null,
+            "values": [
+              -32.0,
+              -34.0,
+              -33.0,
+              -35.0,
+              -34.0,
+              -36.0,
+              -35.0,
+              -37.0,
+              -36.0,
+              -38.0,
+              -37.0,
+              -39.0,
+              -38.0,
+              -40.0,
+              -39.0,
+              -41.0,
+              -40.0,
+              -42.0,
+              -41.0,
+              -43.0,
+              -42.0,
+              -44.0,
+              -43.0,
+              -45.0,
+              -44.0,
+              -46.0,
+              -45.0,
+              -47.0,
+              -46.0,
+              -48.0,
+              -47.0,
+              -49.0,
+              -48.0,
+              -50.0,
+              -49.0,
+              -51.0,
+              -50.0,
+              -52.0,
+              -51.0,
+              -53.0,
+              -52.0,
+              -54.0,
+              -53.0,
+              -55.0,
+              -54.0,
+              -55.0
+            ]
+          }
+        ],
+        "figure_id": "81dcef4ba3d26bac",
+        "provenance": {
+          "page": 6
+        }
+      },
+      {
+        "type": "line",
+        "title": null,
+        "page": 3,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "Aug 24",
+              "Dec 24",
+              "Apr 25",
+              "Aug 25"
+            ]
+          },
+          "y": {
+            "unit": null,
+            "range": {
+              "min": -0.5,
+              "max": 2.0
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "R-squ",
+            "unit": null,
+            "values": [
+              0.8,
+              0.6,
+              0.7,
+              0.8,
+              0.9,
+              0.8,
+              0.7,
+              0.8,
+              0.7,
+              0.8,
+              0.7,
+              0.6,
+              0.8,
+              0.8,
+              0.7,
+              0.6,
+              0.5,
+              0.7,
+              0.8,
+              0.7,
+              0.6,
+              0.5,
+              0.2,
+              0.1,
+              0.0,
+              0.1,
+              0.2,
+              0.5,
+              0.7,
+              0.8,
+              0.7,
+              0.6,
+              0.7,
+              0.8,
+              0.7,
+              0.6,
+              0.5,
+              0.6,
+              0.7,
+              0.6,
+              0.5,
+              0.4,
+              0.6,
+              0.7,
+              0.6,
+              0.5,
+              0.4,
+              0.3,
+              0.2,
+              0.1,
+              0.0
+            ]
+          },
+          {
+            "name": "Beta",
+            "unit": null,
+            "values": [
+              0.6,
+              0.4,
+              0.5,
+              0.7,
+              1.1,
+              0.9,
+              0.7,
+              0.9,
+              1.0,
+              0.9,
+              0.8,
+              0.9,
+              1.0,
+              1.1,
+              1.2,
+              1.5,
+              1.3,
+              1.0,
+              0.8,
+              0.6,
+              0.4,
+              0.2,
+              0.0,
+              0.1,
+              0.2,
+              0.5,
+              0.7,
+              0.9,
+              1.0,
+              0.9,
+              0.8,
+              0.9,
+              1.0,
+              0.9,
+              0.8,
+              0.7,
+              0.6,
+              0.5,
+              0.4,
+              0.3,
+              0.2,
+              0.1,
+              0.0
+            ]
+          }
+        ],
+        "figure_id": "28ac2ab7001d3f7c",
+        "provenance": {
+          "page": 3
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "4b62985f0f6efc50",
+        "value": 0.0355,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "We shift to a bullish bias on 1Yx1Y SONIA as we expect 1Yx1Y SONIA to range- trade around the 3.50- 3.55% level.<｜end▁of▁sentence｜>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "26869080a20e945e",
+        "value": 20.0,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "m 2029 could raise \\(\\sim \\pm 15\\mathrm{bn}\\) This would likely plug a large part of our estimated £20bn budget shortfall, but we think this would be unlikely to materially reduce fiscal term premia u",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "bccf0ad3984133aa",
+        "value": 10.0,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "priced into the curve. In our view, unless the budget headroom is significantly increased above the £10bn from the prior budget then markets will be wary of how quickly any small headroom rebuild coul",
+        "provenance": {
+          "page": 3
+        }
+      },
+      {
+        "num_id": "176d6aec481b780b",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "nd</td><td>Type</td><td>Sector</td><td>Notional size est. (Ebn)</td></tr><tr><td>Week 1 Sep</td><td>4% Treasury Gil 2035</td><td>Syndication</td><td>Medium</td><td>12-15</td></tr><tr><td>09-Sep-25</td",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "523ec77193f3d67d",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "easury Gil 2035</td><td>Syndication</td><td>Medium</td><td>12-15</td></tr><tr><td>09-Sep-25</td><td>4% Treasury Gil 2043</td><td>Outright Auction</td><td>Long</td><td>2.00</td></tr><tr><td>10-Sep-25</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "35b7f36ebda4f981",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "sury Gil 2043</td><td>Outright Auction</td><td>Long</td><td>2.00</td></tr><tr><td>10-Sep-25</td><td>4% Treasury Gil 2031</td><td>Outright Auction</td><td>Short</td><td>4.50</td></tr><tr><td>11-Sep-25<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "68ea6c38c2a35054",
+        "value": 0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r Index-linked</td><td>Tender</td><td>Undefined</td><td>1.50</td></tr><tr><td>16-Sep-25</td><td>4 3/8% Treasury Gil 2040</td><td>Outright Auction</td><td>Medium</td><td>4.00</td></tr><tr><td>23-Sep-25",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "3a7223b7dc3003b6",
+        "value": 0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "il 2040</td><td>Outright Auction</td><td>Medium</td><td>4.00</td></tr><tr><td>23-Sep-25</td><td>5 3/8% Treasury Gil 2056</td><td>Outright Auction</td><td>Long</td><td>1.70</td></tr><tr><td>24-Sep-25</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "2d3ea5740a5d7051",
+        "value": 0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Gil 2056</td><td>Outright Auction</td><td>Long</td><td>1.70</td></tr><tr><td>24-Sep-25</td><td>4 3/8% Treasury Gil 2030</td><td>Outright Auction</td><td>Short</td><td>4.25</td></tr><tr><td>25-Sep-25</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5b801aa2a539a2df",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Medium Conventional</td><td>Tender</td><td>Medium</td><td>1.50</td></tr><tr><td>02-Oct-25</td><td>4% Treasury Gil 2035</td><td>Outright Auction</td><td>Medium</td><td>4.00</td></tr><tr><td>07-Oct-25",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "02db0eb7476459ca",
+        "value": 0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "May 2029</td><td>Outright Auction</td><td>Short</td><td>5.00</td></tr><tr><td>21-Oct-25</td><td>1 1/8% Green Gil 2053</td><td>Outright Auction</td><td>Long</td><td>2.25</td></tr><tr><td>23-Oct-25</td>",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "29a26f0139683cc5",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "22 May 2029</td><td>Outright Auction</td><td>Short</td><td>5.00</td></tr><tr><td>12-Nov-25</td><td>4% Treasury Gil 2035</td><td>Outright Auction</td><td>Medium</td><td>4.00</td></tr><tr><td>18-Nov-25<",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "4ff1251d03ab51f5",
+        "value": 0.08,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "rch 2031</td><td>Outright Auction</td><td>Short</td><td>4.00</td></tr><tr><td>02-Dec-25</td><td>5 3/8% Treasury Gil 2056</td><td>Outright Auction</td><td>Long</td><td>2.50</td></tr><tr><td>03-Dec-25</",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "5b801aa2a539a2df",
+        "value": 0.04,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>Medium Conventional</td><td>Tender</td><td>Medium</td><td>1.00</td></tr><tr><td>10-Dec-25</td><td>4% Treasury Gil 2035</td><td>Outright Auction</td><td>Medium</td><td>4.00</td></tr><tr><td>16-Dec-25",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "num_id": "434e7fef3bed61db",
+        "value": 0.0375,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ". P/L since inception is -8.4bp (recommended 7 Aug)- Stay long gilt Mar27 on ASW basisBuy £50m gilt 3.75% Mar27 on ASW basis @16.4bp. P/L since inception is -7.4bp (recommended 12 Jul)- Long 1Yx1Y RPI",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "f2a5d94c23708c8a",
+        "value": 0.0335,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".3 (recommended 20 Aug)- Keep long 1Yx5Y A/A-50bp receiver spread vs short OTM payerKeep long £100m 3.35%/2.85% 1Yx5Y receiver spread (notification date 22 Sep 2025, maturity date 22 Sep 2030) versus ",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "23874aa0996a5d3f",
+        "value": 0.0285,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "commended 20 Aug)- Keep long 1Yx5Y A/A-50bp receiver spread vs short OTM payerKeep long £100m 3.35%/2.85% 1Yx5Y receiver spread (notification date 22 Sep 2025, maturity date 22 Sep 2030) versus short£",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "02b43ab8a4f02495",
+        "value": 0.038650000000000004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "1Yx5Y receiver spread (notification date 22 Sep 2025, maturity date 22 Sep 2030) versus short£100m 3.865% 1Yx5Y payer at -19.3bp of notional with ATMF 1Yx5Y rate at 3.84% vs entry level at close to fl",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "976a6ebbbba8097c",
+        "value": 0.0384,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "te 22 Sep 2030) versus short£100m 3.865% 1Yx5Y payer at -19.3bp of notional with ATMF 1Yx5Y rate at 3.84% vs entry level at close to flat premium. P/L since inception is -21.4bp of notional (recommend",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "c13cea275b158a42",
+        "value": 150.0,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "gan. </center> ## Trade recommendations ## Existing Trades - Keep receiving Nov25 MPC OISReceive £150mn Nov25 MPC OIS @392.9. P/L since inception is -8.4bp (recommended 7 Aug)- Stay long gilt Mar27 on",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "570f54247442e020",
+        "value": 50.0,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "OIS @392.9. P/L since inception is -8.4bp (recommended 7 Aug)- Stay long gilt Mar27 on ASW basisBuy £50m gilt 3.75% Mar27 on ASW basis @16.4bp. P/L since inception is -7.4bp (recommended 12 Jul)- Long",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "fd2838154fd4b80d",
+        "value": 100.0,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "n is 9.3 (recommended 20 Aug)- Keep long 1Yx5Y A/A-50bp receiver spread vs short OTM payerKeep long £100m 3.35%/2.85% 1Yx5Y receiver spread (notification date 22 Sep 2025, maturity date 22 Sep 2030) v",
+        "provenance": {
+          "page": 5
+        }
+      },
+      {
+        "num_id": "3464ec3c80969770",
+        "value": 100.0,
+        "unit": "£",
+        "metric_type": "currency",
+        "context": "/2.85% 1Yx5Y receiver spread (notification date 22 Sep 2025, maturity date 22 Sep 2030) versus short£100m 3.865% 1Yx5Y payer at -19.3bp of notional with ATMF 1Yx5Y rate at 3.84% vs entry level at clos",
+        "provenance": {
+          "page": 5
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 11,
+      "tables_count": 0,
+      "numerical_data_count": 23,
+      "passages_count": 90,
+      "entities_count": 20
+    }
+  }
+}

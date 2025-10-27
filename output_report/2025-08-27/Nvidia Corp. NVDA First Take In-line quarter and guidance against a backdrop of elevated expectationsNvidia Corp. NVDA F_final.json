@@ -1,0 +1,1416 @@
+{
+  "schema_version": "1.3.1",
+  "doc": {
+    "doc_id": "4eb6ed8dfbcdf3594cb22faec6fdf0be",
+    "title": "Nvidia Corp. (NVDA): First Take: In-line quarter and guidance, against a backdrop of elevated expectations",
+    "source_uri": "25.9月 普通个人版/9.1 普通个人版/GS/Nvidia Corp. NVDA First Take In-line quarter and guidance against a backdrop of elevated expectationsNvidia Corp. NVDA F_2025-08-27",
+    "language": "en",
+    "timestamps": {
+      "ingested_at": "2025-10-26T11:59:38.815023",
+      "extracted_at": "2025-10-26T11:59:38.815038"
+    },
+    "extraction_run": {
+      "vision_model": "deepseek-ai/DeepSeek-OCR",
+      "synthesis_model": "rule-based-engine",
+      "pipeline_steps": [
+        "ocr",
+        "rule_extraction",
+        "figure_vision"
+      ],
+      "processing_metadata": {
+        "pages_processed": 7,
+        "successful_pages": 7,
+        "date": "2025-08-27",
+        "publication": "25.9月 普通个人版/9.1 普通个人版/GS",
+        "authors": [],
+        "markdown_cleaning": {
+          "removed_sections": 2,
+          "removed_paragraphs": 6,
+          "reduction_ratio": 0.07393580917288856
+        },
+        "input_relative_path": "25.9月 普通个人版/9.1 普通个人版/GS"
+      }
+    }
+  },
+  "passages": [
+    {
+      "passage_id": "d1c77acc120468be",
+      "text": "Key stock takeaways: We expect the stock to trade down modestly following an in- line quarter and guidance against a backdrop of elevated expectations heading into the call, as we believe that the upside from Blackwell ramp has been largely contemplated in our and Street estimates. Management noted that it did not ship any H20 products to China in the quarter. On the conference call, we expect investors to focus on: (1) commentary on customer demand and any supply chain constraints; (2) visibility into 2026 revenue and the Rubin product launch; (3) incremental details on Nvidia's China business; (4) gross margin trends.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "bde229b8e0d5f63f",
+      "text": "Quarterly results were essentially in line with the Street: Nvidia reported revenue of \\(46.7bn, just below GS at\\) 47.0 bn but modestly above the Street at \\(46.5bn. Gross margin of 72.4\\%\\) was in line with GS and the Street at \\(72.3\\%\\) Operating margin of \\(64.5\\%\\) was above GS at \\(64.0\\%\\) and the Street at \\(63.5\\%\\) Operating EPS of \\(1.04\\) was in line with GS at \\(1.05\\) and above the Street at \\(1.02\\) Data Center revenue of \\(41.1bn was below GS at\\) 41.9 bn and the Street at \\(41.3bn. Gaming revenue of\\) 4.3 bn was above GS and the Street at \\(3.9bn. Professional Visualization revenue of\\) 601 mn was above GS and the Street at \\(534mn. Automotive revenue of\\) 586 mn was in line with GS at \\(583mn and the Street at\\) 586 mn.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "94f6ab66ae506656",
+      "text": "3Q guidance is in line with the Street. Nvidia guided 3Q revenue and gross margin in line with the Street. Revenue was guided to \\(54.0bn at the midpoint, which is below GS at\\) 57.0 bn and in line with the Street at \\(53.9bn. Non- GAAP gross margin was guided to\\) 73.5\\%, essentially in line with GS at \\(73.7\\%\\) and the Street at \\(73.6\\%\\) . OpEx was guided to \\(4.2bn, OI\\& E\\) was guided to \\(500mn and the non- GAAP tax rate was guided to\\) 16.5\\%. Implied non- GAAP EPS (ex SBC) of \\(1.22 was below GS at\\) 1.31 and \\(mn line with the Street at\\) 1.22.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "93f7e2efd29f129f",
+      "text": "Read- through to our coverage: We believe the in- line Data Center segment result in 2Q and 3Q guidance points to a solid AI- spending environment against a backdrop of higher expectations, and is essentially neutral for our digital semiconductor coverage including Broadcom, AMD, and Marvell.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "fed46021c4a19a30",
+      "text": "Price target and risks: We are Buy rated on NVDA. Our 12- month target price of \\(200 is - based on a 35x P/E multiple applied to our normalized EPS estimate of\\) 5.7. Key downside risks include: (1) slowdown in AI infrastructure spending, (2)",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "01fafa93795478b0",
+      "text": "Goldman Sachs does and seeks to do business with companies covered in its research reports. As a result, investors should be aware that the firm may have a conflict of interest that could affect the objectivity of this report. Investors should consider this report as only a single factor in making their investment decision. For Reg AC certification and other important disclosures, see the Disclosure Appendix, or go to www.gs.com/research/hedge.html. Analysts employed by non- US affiliates are not registered/qualified as research analysts with FINRA in the U.S.",
+      "page": 0,
+      "section": null
+    },
+    {
+      "passage_id": "6d00bd0e2efe5d44",
+      "text": "share erosion due to increased competitive intensity, (3) margin erosion due to increased competition; (4) supply constraints.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "b730eba691923784",
+      "text": "Exhibit 1:NVDA-Variance summary",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "e1b7eb605abfd851",
+      "text": "Financials ($ mn, except EPS)ActualGS2Q25StreetActual/GSActual/StreetGaming4,2873,8963,87610.0%10.6%Pro Viz60153453412.5%12.6%Datacenter41,09641,85041,424-1.8%-0.8%Compute33,84436,54636,130-7.4%-6.3%Networking7,2525,3045,19836.7%39.5%Automotive5865835860.5%0.1%OEM &amp;amp; Other17311811147.0%55.7%Total Revenue46,74346,98246,517-0.5%0.5%QoQ6.1%6.6%5.6%YoY55.6%56.4%54.9%Gross Margin (excl. SBC)72.7%72.3%72.3%+35 bps+41 bpsOperating Income (excl. SBC)30,16530,07129,5590.3%2.0%Operating Margin (%)64.5%64.0%63.5%+53 bps+99 bpsEPS (excl. SBC)$1.05$1.051.020.3%3.2%",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "9acb6819fb54eb01",
+      "text": "Source: Company data, Goldman Sachs Global Investment Research, Visible Alpha Consensus Data",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "49fa97ef992f9df2",
+      "text": "Exhibit 2:NVDA-Guidance",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "ef9e02193d93e2ea",
+      "text": "Financials ($ mn, except EPS)HighLowGuidance (midpoint)3Q25GSStreetGuidance/GSGuidance/StreetTotal Revenue55,08052,92054,00056,96553,800-5.2%0.4%QoQ15.5%21.2%15.7%YoY53.9%62.4%53.4%Gross margin (ex SBC)74.0%73.0%73.5%73.7%73.6%-18 bps-8 bpsImplied non-GAAP EPS (excl. SBC)$1.22$1.311.21-7.1%0.6%",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "22ed669fe0136823",
+      "text": "Source: Company data, Goldman Sachs Global Investment Research",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "1deff717be89b243",
+      "text": "NVDA12m Price Target: $200.00Price: $181.77Upside: 10.0%BuyGS ForecastMarket cap: $4.5trRevenue ($ mn)1/251/26EEnterprise value: $4.4trEBITDA ($ mn)130,497.0211,450.43m ADTV: $28.7bnEBIT ($ mn)83,914.0129,363.2United StatesEPS ($)82,050.0126,889.2Americas Semiconductors,P/E (X)2.804.38Telecom &amp;amp; IT ServicesEV/EBITDA (X)40.841.5M&amp;amp;A Rank: 3FCY yield (%)33.533.9Dividend yield (%)2.22.4Net debt/EBITDA (X)0.00.0EPS ($)4/257/25E0.750.98",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "da9225a4fbd31675",
+      "text": "Source: Company data, Goldman Sachs Research estimates, FactSet. Price as of 26 Aug 2025 close.",
+      "page": 1,
+      "section": null
+    },
+    {
+      "passage_id": "c835dec4ef1f2a3c",
+      "text": "We, James Schneider, Ph.D., Anmol Makkar, Chris Kress, David Reban and Luyao, hereby certify that all of the views expressed in this report accurately reflect our personal views about the subject company or companies and its or their securities. We also certify that no part of our compensation was, or will be, directly or indirectly, related to the specific recommendations or views expressed in this report.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "aaaad6039c11ad8c",
+      "text": "Unless otherwise stated, the individuals listed on the cover page of this report are analysts in Goldman Sachs' Global Investment Research division.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9f8bb7aa9b0e831f",
+      "text": "The Goldman Sachs Factor Profile provides investment context for a stock by comparing key attributes to the market (i.e. our universe of rated stocks) and its sector peers. The four key attributes depicted are: Growth, Financial Returns, Multiple (e.g. valuation) and Integrated (a composite of Growth, Financial Returns and Multiple). Growth, Financial Returns and Multiple are calculated by using normalized ranks for specific metrics for each stock. The normalized ranks for the metrics are then averaged and converted into percentiles for the relevant attribute. The precise calculation of each metric may vary depending on the fiscal year, industry and region, but the standard approach is as follows:",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "d0cb7bfe5320b0a5",
+      "text": "Growth is based on a stock's forward- looking sales growth, EBITDA growth and EPS growth (for financial stocks, only EPS and sales growth), with a higher percentile indicating a higher growth company. Financial Returns is based on a stock's forward- looking ROE, ROCE and CROCI (for financial stocks, only ROE), with a higher percentile indicating a company with higher financial returns. Multiple is based on a stock's forward- looking P/E, P/B, price/dividend (P/D), EV/EBITDA, EV/CF and EV/Debt Adjusted Cash Flow (DACF) (for financial stocks, only P/E, P/B and P/D), with a higher percentile indicating a stock trading at a higher multiple. The Integrated percentile is calculated as the average of the Growth percentile, Financial Returns percentile and (100% - Multiple percentile).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e8e36cfafc0688c4",
+      "text": "Financial Returns and Multiple use the Goldman Sachs analyst forecasts at the fiscal year- end at least three quarters in the future. Growth uses inputs for the fiscal year at least seven quarters in the future compared with the year at least three quarters in the future (on a per- share basis for all metrics).",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "e31ad22a7b79ba6d",
+      "text": "For a more detailed description of how we calculate the GS Factor Profile, please contact your GS representative.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "91549b63ec8d7e11",
+      "text": "Across our global coverage, we examine stocks using an M&A framework, considering both qualitative factors and quantitative factors (which may vary across sectors and regions) to incorporate the potential that certain companies could be acquired. We then assign a M&A rank as a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines we incorporate an M&A component into our target price. M&A rank of 3 is considered immaterial and therefore does not factor into our price target, and may or may not be discussed in research.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "83281f48b0cd88d6",
+      "text": "Quantum is Goldman Sachs' proprietary database providing access to detailed financial statement histories, forecasts and ratios. It can be used for in- depth analysis of a single company, or to make comparisons between companies in different sectors and markets.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f45bf59759a61e1b",
+      "text": "The rating(s) for Nvidia Corp. is/are relative to the other companies in its/their coverage universe: ARM Holdings, AT&T Inc., Accenture Plc, Advanced Micro Devices Inc., Altice USA Inc., American Tower Corp., Amkor Technology Inc., Analog Devices Inc., Applied Materials Inc., Broadcom Inc., Cadence Design Systems Inc., Charter Communications Inc., Cogent Communications Holdings, Cognizant Technology Solutions, Crown Castle International Corp., Digital Realty Trust Inc., EPAM Systems Inc., Entegris Inc., Equinix Inc., GlobalFoundries Inc., Global SA, IHS Holding, International Business Machines Corp., KLA Corp., Lam Research Corp., Lumen Technologies Inc., MKS Instruments Inc., Marvell Technology Inc., Microchip Technology Inc., Micron Technology Inc., NXP Semiconductors NV, Nvidia Corp., ON Semiconductor Corp., Qorvo Inc., SBA Communications Corp., SanDisk Corp., Seagate Technology, Skyworks Solutions Inc., Synopsys Inc., TMobile US Inc., Teradyne Inc., Texas Instruments Inc., Verizon Communications, Western Digital Corp.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f90053f04c00a14c",
+      "text": "The following disclosures relate to relationships between The Goldman Sachs Group, Inc. (with its affiliates, \"Goldman Sachs\") and companies covered by Goldman Sachs Global Investment Research and referred to in this research.",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "cef437c0fabd441a",
+      "text": "Goldman Sachs has received compensation for investment banking services in the past 12 months: Nvidia Corp. (\\$181.77)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "9ed4f16907ccc6f7",
+      "text": "Goldman Sachs expects to receive or intends to seek compensation for investment banking services in the next 3 months: Nvidia Corp. (\\$181.77)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "b37c6d51ebbb26a0",
+      "text": "Goldman Sachs has received compensation for non- investment banking services during the past 12 months: Nvidia Corp. (\\$181.77)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "d60be77fa8f8dad3",
+      "text": "Goldman Sachs had an investment banking services client relationship during the past 12 months with: Nvidia Corp. (\\$181.77)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "f2fe3744d468103f",
+      "text": "Goldman Sachs had a non- investment banking securities- related services client relationship during the past 12 months with: Nvidia Corp. (\\$181.77)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "522eafe0f455fd88",
+      "text": "Goldman Sachs had a non- securities services client relationship during the past 12 months with: Nvidia Corp. (\\$181.77)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "a36d962e78b82b1d",
+      "text": "Goldman Sachs makes a market in the securities or derivatives thereof: Nvidia Corp. (\\$181.77)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "1995dfa4f89df2f9",
+      "text": "Goldman Sachs is a specialist in the relevant securities and will at any given time have an inventory position, \"long\" or \"short,\" and may be on the opposite side of orders executed on the relevant exchange: Nvidia Corp. (\\$181.77)",
+      "page": 2,
+      "section": null
+    },
+    {
+      "passage_id": "54aa12d20b1456e2",
+      "text": "As of July 1, 2025, Goldman Sachs Global Investment Research had investment ratings on 2,968 equity securities. Goldman Sachs assigns stocks as Buys and Sells on various regional Investment Lists; stocks not so assigned are deemed Neutral. Such assignments equate to Buy, Hold and Sell for the purposes of the above disclosure required by the FINRA Rules. See 'Ratings, Coverage universe and related definitions' below. The Investment Banking Relationships chart reflects the percentage of subject companies within each rating category for whom Goldman Sachs has provided investment banking services within the previous twelve months.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "ac185fa608eff43f",
+      "text": "See company- specific regulatory disclosures above for any of the following disclosures required as to companies referred to in this report: manager or co- manager in a pending transaction; \\(1\\%\\) or other ownership; compensation for certain services; types of client relationships; managed/co- managed public offerings in prior periods; directorships; for equity securities, market making and/or specialist role. Goldman Sachs trades or may trade as a principal in debt securities (or in related derivatives) of issuers discussed in this report.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "a39517cfae4d143e",
+      "text": "The following are additional required disclosures: Ownership and material conflicts of interest: Goldman Sachs policy prohibits its analysts, professionals reporting to analysts and members of their households from owning securities of any company in the analyst's area of coverage. Analyst compensation: Analysts are paid in part based on the profitability of Goldman Sachs, which includes investment banking revenues. Analyst as officer or director: Goldman Sachs policy generally prohibits its analysts, persons reporting to analysts or members of their households from serving as an officer, director or advisor of any company in the analyst's area of coverage. Non- U.S. Analysts: Non- U.S. analysts may not be associated persons of Goldman Sachs & Co. LLC and therefore may not be subject to FINRA Rule 2241 or FINRA Rule 2242 restrictions on communications with subject company, public appearances and trading securities held by the analysts.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "2761de77517f9b0a",
+      "text": "Distribution of ratings: See the distribution of ratings disclosure above. Price chart: See the price chart, with changes of ratings and price targets in prior periods, above, or, if electronic format or if with respect to multiple companies which are the subject of this report, on the Goldman Sachs website at https://www.gs.com/research/hedge.html.",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "14c85477832c52ef",
+      "text": "The following disclosures are those required by the jurisdiction indicated, except to the extent already made above pursuant to United States laws and regulations. Australia: Goldman Sachs Australia Pty Ltd and its affiliates are not authorised deposit- taking institutions (as that term is defined in the Banking Act 1959 (Cth)) in Australia and do not provide banking services, nor carry on a banking business, in Australia. This research, and any access to it, is intended only for \"wholesale clients\" within the meaning of the Australian Corporations Act, unless otherwise agreed by Goldman Sachs. In producing research reports, members of Global Investment Research of Goldman Sachs Australia may attend site visits and other meetings hosted by the companies and other entities which are the subject of its research reports. In some instances the costs of such site visits or meetings may be met in part or in whole by the issuers concerned if Goldman Sachs Australia considers it is appropriate and reasonable in the specific circumstances relating to the site visit or meeting. To the extent that the contents of this document contains any financial product advice, it is general advice only and has been prepared by Goldman Sachs without taking into account a client's objectives, financial situation or needs. A client should, before acting on any such advice, consider the appropriateness of the advice having regard to the client's own objectives, financial situation and needs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests and a copy of Goldman Sachs' Australian Sell- Side Research Independence Policy Statement are available at: https://www.goldmansachs.com/disclosures/australia- new- zealand/index.html. Brazil: Disclosure information in relation to CVM Resolution n. 20 is available at https://www.gs.com/worldwide/brazil/area/gr/index.html. Where applicable, the Brazil- registered analyst primarily responsible for the content of this research report, as defined in Article 20 of CVM Resolution n. 20, is the first author named at the beginning of this report, unless indicated otherwise at the end of the text. Canada: This information is being provided to you for information purposes only and is not, and under no circumstances should be construed as, an advertisement, offering or solicitation by Goldman Sachs & Co. LLC for purchasers of securities in Canada to trade in any Canadian security. Goldman Sachs & Co. LLC is not registered as a dealer in any jurisdiction in Canada under applicable Canadian securities laws and generally is not permitted to trade in Canadian securities and may be prohibited from selling certain securities and products in certain jurisdictions in Canada. If you wish to trade in any Canadian securities or other products in Canada please contact Goldman Sachs Canada Inc., an affiliate of The Goldman Sachs Group Inc., or another registered Canadian dealer. Hong Kong: Further information on the securities of covered companies referred to in this research may be obtained on request from Goldman Sachs (Asia) L.L.C. India: Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (India) Securities Private Limited, Research Analyst - SEBI Registration Number INH000001493, 951- A, Rational House, Appasahbe Marathe Marg, Prabhadevi, Mumbai 400 025, India, Corporate Identity Number U74140MH2006FTC160634, Phone +91 22 6616 9000, Fax +91 22 6616 9001. Goldman Sachs may beneficially own \\(1\\%\\) or more of the securities (as such term is defined in clause 2 (h) the Indian Securities Contracts (Regulation) Act, 1956) of the subject company or companies referred to in this research report. Investment in securities market are subject to market risks. Read all the related documents carefully before investing. Registration granted by SEBI and certification from NISM in no way guarantee performance of the intermediary or provide any assurance of returns to investors. Goldman Sachs (India) Securities Private Limited compliance officer and investor grievance contact details can be found at this link:",
+      "page": 3,
+      "section": null
+    },
+    {
+      "passage_id": "71638bb45fe03dfe",
+      "text": "https://publishing.gs.com/disclosures/hedge.html - /general/equity. Japan: See below. Korea: This research, and any access to it, is intended only for \"professional investors\" within the meaning of the Financial Services and Capital Markets Act, unless otherwise agreed by Goldman Sachs. Further information on the subject company or companies referred to in this research may be obtained from Goldman Sachs (Asia) L.L.C., Seoul Branch. New Zealand: Goldman Sachs New Zealand Limited and its affiliates are neither \"registered banks\" nor \"deposit takers\" (as defined in the Reserve Bank of New Zealand Act 1989) in New Zealand. This research, and any access to it, is intended for \"wholesale clients\" (as defined in the Financial Advisers Act 2008) unless otherwise agreed by Goldman Sachs. A copy of certain Goldman Sachs Australia and New Zealand disclosure of interests is available at: https://www.goldmansachs.com/disclosures/australia-new-zealand/index.html. Russia: Research reports distributed in the Russian Federation are not advertising as defined in the Russian legislation, but are information and analysis not having product promotion as their main purpose and do not provide appraisal within the meaning of the Russian legislation on appraisal activity. Research reports do not constitute a personalized investment recommendation as defined in Russian laws and regulations, are not addressed to a specific client, and are prepared without analyzing the financial circumstances, investment profiles or risk profiles of clients. Goldman Sachs assumes no responsibility for any investment decisions that may be taken by a client or any other person based on this research report. Singapore: Goldman Sachs (Singapore) Pte. (Company Number: 198602165W), which is regulated by the Monetary Authority of Singapore, accepts legal responsibility for this research, and should be contacted with respect to any matters arising from, or in connection with, this research. Taiwan: This material is for reference only and must not be reprinted without permission. Investors should carefully consider their own investment risk. Investment results are the responsibility of the individual investor. United Kingdom: Persons who would be categorized as retail clients in the United Kingdom, as such term is defined in the rules of the Financial Conduct Authority, should read this research in conjunction with prior Goldman Sachs research on the covered companies referred to herein and should refer to the risk warnings that have been sent to them by Goldman Sachs International. A copy of these risks warnings, and a glossary of certain financial terms used in this report, are available from Goldman Sachs International on request.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e6dfafd4702d24f6",
+      "text": "European Union and United Kingdom: Disclosure information in relation to Article 6 (2) of the European Commission Delegated Regulation (EU) (2016/958) supplementing Regulation (EU) No 596/2014 of the European Parliament and of the Council (including as that Delegated Regulation is implemented into United Kingdom domestic law and regulation following the United Kingdom's departure from the European Union and the European Economic Area) with regard to regulatory technical standards for the technical arrangements for objective presentation of investment recommendations or other information recommending or suggesting an investment strategy and for disclosure of particular interests or indications of conflicts of interest is available at https://www.gs.com/disclosures/europeanpolicy.html which states the European Policy for Managing Conflicts of Interest in Connection with Investment Research.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "5512809a85e92bfa",
+      "text": "Japan: Goldman Sachs Japan Co., Ltd. is a Financial Instrument Dealer registered with the Kanto Financial Bureau under registration number Kinsho 69, and a member of Japan Securities Dealers Association, Financial Futures Association of Japan Type II Financial Instruments Firms Association, The Investment Trusts Association, Japan, and Japan Investment Advisers Association. Sales and purchase of equities are subject to commission pre- determined with clients plus consumption tax. See company- specific disclosures as to any applicable disclosures required by Japanese stock exchanges, the Japanese Securities Dealers Association or the Japanese Securities Finance Company.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "d2b504364da6beef",
+      "text": "Buy (B), Neutral (N), Sell (S) Analysts recommend stocks as Buys or Sells for inclusion on various regional Investment Lists. Being assigned a Buy or Sell on an Investment List is determined by a stock's total return potential relative to its coverage universe. Any stock not assigned as a Buy or a Sell on an Investment List with an active rating (i.e., a stock that is not Rating Suspended, Not Rated, Early- Stage Biotech, Coverage Suspended or Not Covered), is deemed Neutral. Each region manages Regional Conviction Lists, which are selected from Buy rated stocks on the respective region's Investment Lists and represent investment recommendations focused on the size of the total return potential and/or the likelihood of the realization of the return across their respective areas of coverage. The addition or removal of stocks from such Conviction Lists are managed by the Investment Review Committee or other designated committee in each respective region and do not represent a change in the analysts' investment rating for such stocks.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "63a326ff0c63c3d8",
+      "text": "Total return potential represents the upside or downside differential between the current share price and the price target, including all paid or anticipated dividends, expected during the time horizon associated with the price target. Price targets are required for all covered stocks. The total return potential, price target and associated time horizon are stated in each report adding or reiterating an Investment List membership.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "e55e72964a8a87d8",
+      "text": "Coverage Universe: A list of all stocks in each coverage universe is available by primary analyst, stock and coverage universe at https://www.gs.com/research/hedge.html.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "49d5be0998d1f306",
+      "text": "Not Rated (NR). The investment rating, target price and earnings estimates (where relevant) are removed pursuant to Goldman Sachs policy when Goldman Sachs is acting in an advisory capacity in a merger or in a strategic transaction involving this company, when there are legal, regulatory or policy constraints due to Goldman Sachs' involvement in a transaction, and in certain other circumstances. Early- Stage Biotech (ES). An investment rating and a target price are not assigned pursuant to Goldman Sachs policy when this company neither has a drug, treatment or medical device that has passed a Phase II clinical trial nor a license to distribute a post- Phase II drug, treatment or medical device. Rating Suspended (RS). Goldman Sachs Research has suspended the investment rating and price target for this stock, because there is not a sufficient fundamental basis for determining an investment rating or target price. The previous investment rating and target price, if any, are no longer in effect for this stock and should not be relied upon. Coverage Suspended (CS). Goldman Sachs has suspended coverage of this company. Not Covered (NC). Goldman Sachs does not cover this company.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "58534a7560a3e8fd",
+      "text": "Goldman Sachs International (\"GSI\"), authorised by the Prudential Regulation Authority (\"PRA\") and regulated by the Financial Conduct Authority (\"FCA\") and the PRA, has approved this research in connection with its distribution in the United Kingdom.",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "587c577137ac8ae9",
+      "text": "European Economic Area: GSI, authorised by the PRA and regulated by the FCA and the PRA, disseminates research in the following jurisdictions within the European Economic Area: the Grand Duchy of Luxembourg, Italy, the Kingdom of Belgium, the Kingdom of Denmark, the Kingdom of Norway, the Republic of Finland and the Republic of Ireland; GSI - Succursale de Paris (Paris branch) which is authorised by the French Autorite de controle prudentiel et de resolution (\"ACPR\") and regulated by the Autorite de controle prudentiel et de resolution and the Autorite des marches",
+      "page": 4,
+      "section": null
+    },
+    {
+      "passage_id": "3200aec7314ce597",
+      "text": "financiers (AMF) disseminates research in France; GSI - Sucursal en Espania (Madrid branch) authorized in Spain by the Comision Nacional del Mercado de Valores disseminates research in the Kingdom of Spain; GSI - Sweden Banklial (Stockholm branch) is authorized by the SFSA as a third country branch\" in accordance with Chapter 4, Section 4 of the Swedish Securities and Market Act (Sw. lag (2007:528) on vardepappersmarknaden) disseminates research in the Kingdom of Sweden; Goldman Sachs Bank Europe SE (\"GSBE\") is a credit institution incorporated in Germany and, within the Single Supervisory Mechanism, subject to direct prudential supervision by the European Central Bank and in other respects supervised by German Federal Financial Supervisory Authority (Bundesanstalt fur Finanzdienstleistungsaufsicht, BaFin) and Deutsche Bundesbank and disseminates research in the Federal Republic of Germany and those jurisdictions within the European Economic Area where GSI is not authorised to disseminate research and additionally, GSBE, Copenhagen Branch filial af GSBE, Tyskland, supervised by the Danish Financial Authority disseminates research in the Kingdom of Denmark; GSBE - Sucursal en Espania (Madrid branch) subject (to a limited extent) to local supervision by the Bank of Spain disseminates research in the Kingdom of Spain; GSBE - Sucursale Italia (Milan branch) to the relevant applicable extent, subject to local supervision by the Bank of Italy (Banca d'Italia) and the Italian Companies and Exchange Commission (Commissione Nazionale per le Societa e la Borsa \"Consob\") disseminates research in Italy; GSBE - Sucursale de Paris (Paris branch), supervised by the AMF and by the ACPR disseminates research in France; and GSBE - Sweden Banklial (Stockholm branch), to a limited extent, subject to local supervision by the Swedish Financial Supervisory Authority (Finansinspektionen) disseminates research in the Kingdom of Sweden.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "b16a0b4295b52b7f",
+      "text": "This research is for our clients only. Other than disclosures relating to Goldman Sachs, this research is based on current public information that we consider reliable, but we do not represent it as accurate or complete, and it should not be relied on as such. The information, opinions, estimates and forecasts contained herein are as of the date hereof and are subject to change without prior notification. We seek to update our research as appropriate, but various regulations may prevent us from doing so. Other than certain industry reports published on a periodic basis, the large majority of reports are published at irregular intervals as appropriate in the analyst's judgment.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "714cf7653a26dd34",
+      "text": "Goldman Sachs conducts a global full- service, integrated investment banking, investment management, and brokerage business. We have investment banking and other business relationships with a substantial percentage of the companies covered by Global Investment Research. Goldman Sachs & Co. LLC, the United States broker dealer, is a member of SIPC (https://www.sipc.org).",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "61871b3bce5a2e46",
+      "text": "Our salespeople, traders, and other professionals may provide oral or written market commentary or trading strategies to our clients and principal trading desks that reflect opinions that are contrary to the opinions expressed in this research. Our asset management area, principal trading desks and investing businesses may make investment decisions that are inconsistent with the recommendations or views expressed in this research.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5cea3be6793fd96c",
+      "text": "The analysts named in this report may have from time to time discussed with our clients, including Goldman Sachs salespersons and traders, or may discuss in this report, trading strategies that reference catalysts or events that may have a near- term impact on the market price of the equity securities discussed in this report, which impact may be directionally counter to the analyst's published price target expectations for such stocks. Any such trading strategies are distinct from and do not affect the analyst's fundamental equity rating for such stocks, which rating reflects a stock's return potential relative to its coverage universe as described herein.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "5200be2ce614515c",
+      "text": "We and our affiliates, officers, directors, and employees will from time to time have long or short positions in, act as principal in, and buy or sell, the securities or derivatives, if any, referred to in this research, unless otherwise prohibited by regulation or Goldman Sachs policy.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "389f2a1ece3e62ee",
+      "text": "The views attributed to third party presenters at Goldman Sachs arranged conferences, including individuals from other parts of Goldman Sachs, do not necessarily reflect those of Global Investment Research and are not an official view of Goldman Sachs.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "90f0746c2f48507e",
+      "text": "Any third party referenced herein, including any salespeople, traders and other professionals or members of their household, may have positions in the products mentioned that are inconsistent with the views expressed by analysts named in this report.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "8d695cd947799f8a",
+      "text": "This research is not an offer to sell or the solicitation of an offer to buy any security in any jurisdiction where such an offer or solicitation would be illegal. It does not constitute a personal recommendation or take into account the particular investment objectives, financial situations, or needs of individual clients. Clients should consider whether any advice or recommendation in this research is suitable for their particular circumstances and, if appropriate, seek professional advice, including tax advice. The price and value of investments referred to in this research and the income from them may fluctuate. Past performance is not a guide to future performance, future returns are not guaranteed, and a loss of original capital may occur. Fluctuations in exchange rates could have adverse effects on the value or price of, or income derived from, certain investments.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "37651510d72a6884",
+      "text": "Certain transactions, including those involving futures, options, and other derivatives, give rise to substantial risk and are not suitable for all investors. Investors should review current options and futures disclosure documents which are available from Goldman Sachs sales representatives or at https://www.theocc.com/about/publications/character- risks.jsp and https://www.goldmansachs.com/disclosures/cftc_fom_disclosures. Transaction costs may be significant in option strategies calling for multiple purchase and sales of options such as spreads. Supporting documentation will be supplied upon request.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "e40a2d6d5bb137bb",
+      "text": "Differing Levels of Service provided by Global Investment Research: The level and types of services provided to you by Goldman Sachs Global Investment Research may vary as compared to that provided to internal and other external clients of GS, depending on various factors including your individual preferences as to the frequency and manner of receiving communication, your risk profile and investment focus and perspective (e.g., marketwide, sector specific, long term, short term), the size and scope of your overall client relationship with GS, and legal and regulatory constraints. As an example, certain clients may request to receive notifications when research on specific securities is published, and certain clients may request that specific data underlying analysts' fundamental analysis available on our internal client websites be delivered to them electronically through data feeds or otherwise. No change to an analyst's fundamental research views (e.g., ratings, price targets, or material changes to earnings estimates for equity securities), will be communicated to any client prior to inclusion of such information in a research report broadly disseminated through electronic publication to our internal client websites or through other means, as necessary, to all clients who are entitled to receive such reports.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "639999e8e2fd97d4",
+      "text": "All research reports are disseminated and available to all clients simultaneously through electronic publication to our internal client websites. Not all research content is redistributed to our clients or available to third- party aggregators, nor is Goldman Sachs responsible for the redistribution of our research by third party aggregators. For research, models or other data related to one or more securities, markets or asset classes (including related services) that may be available to you, please contact your GS representative or go to https://research.gs.com.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "718e7fbf222dcd0f",
+      "text": "Disclosure information is also available at https://www.gs.com/research/hedge.html or from Research Compliance, 200 West Street, New York, NY 10282.",
+      "page": 5,
+      "section": null
+    },
+    {
+      "passage_id": "caae4ab728680036",
+      "text": "You are permitted to store, display, analyze, modify, reformat, and print the information made available to you via this service only for your own use. You may not resell or reverse engineer this information to calculate or develop any index for disclosure and/or marketing or create any other derivative works or commercial products), data or offering(s) without the express written consent of Goldman Sachs. You are not permitted to publish, transmit, or otherwise reproduce this information, in whole or in part, in any format to any third party without the express written consent of Goldman Sachs. This foregoing restriction includes, without limitation, using, extracting, downloading or retrieving this information, in whole or in part, to train or finetune a machine learning or artificial intelligence system, or to provide or reproduce this information, in whole or in part, as a prompt or input to any",
+      "page": 5,
+      "section": null
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "a16576aabf9e9e0a",
+      "name": "ARM Holdings",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0e23a0d50b6361c7",
+      "name": "AT&T Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d246eb83de62cfdb",
+      "name": "Accenture Plc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "c11dc453545d222e",
+      "name": "Advanced Micro",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "e43bbd938f8697bd",
+      "name": "Advanced Micro Devices Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6afac77b7140b4ce",
+      "name": "Advisers Association",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "f5491c3a0ea401b9",
+      "name": "Altice USA",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "ffb9b7a06720602b",
+      "name": "Altice USA Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "9a52c2f1686dd903",
+      "name": "American Tower",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "8517d5cbaa7de290",
+      "name": "American Tower Corp",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "d0a5fda5732c3889",
+      "name": "Americas Semiconductors",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "dfa6aee4e7b92032",
+      "name": "Amkor Technology",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "1047a234449a7c45",
+      "name": "Amkor Technology Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "a689b578db5cfeb8",
+      "name": "Analog Devices",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "11de5e47b22a7b1e",
+      "name": "Analog Devices Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "514514fe9eb7f3e0",
+      "name": "Anmol Makkar",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "0b7770fe3c1b61c9",
+      "name": "Appasahbe Marathe",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "75174b90c21a43a2",
+      "name": "Applied Materials",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "92503ee7f2bfd683",
+      "name": "Applied Materials Inc",
+      "type": "company",
+      "aliases": []
+    },
+    {
+      "entity_id": "6d4488d766412406",
+      "name": "Australia Pty",
+      "type": "company",
+      "aliases": []
+    }
+  ],
+  "data": {
+    "figures": [
+      {
+        "type": "line",
+        "title": "Goldman Sachs rating and stock price target history",
+        "page": 4,
+        "axes": {
+          "x": {
+            "type": "category",
+            "labels": [
+              "2022 A",
+              "2022 S",
+              "2022 O",
+              "2022 N",
+              "2022 D",
+              "2023 J",
+              "2023 F",
+              "2023 M",
+              "2023 A",
+              "2023 M",
+              "2023 J",
+              "2023 J",
+              "2023 A",
+              "2023 S",
+              "2023 O",
+              "2023 N",
+              "2023 D",
+              "2024 J",
+              "2024 F",
+              "2024 M",
+              "2024 A",
+              "2024 M",
+              "2024 J",
+              "2024 J",
+              "2024 A",
+              "2024 S",
+              "2024 O",
+              "2024 N",
+              "2024 D",
+              "2025 J",
+              "2025 F",
+              "2025 M",
+              "2025 A",
+              "2025 M",
+              "2025 J"
+            ]
+          },
+          "y": {
+            "unit": "U.S. Dollar",
+            "range": {
+              "min": 0,
+              "max": 200
+            }
+          }
+        },
+        "series": [
+          {
+            "name": "Stock Price Target",
+            "unit": "U.S. Dollar",
+            "values": [
+              16.6,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              27.5,
+              null,
+              null,
+              44,
+              49.5,
+              60.5,
+              62.5,
+              80,
+              87.5,
+              100,
+              110,
+              120,
+              null,
+              135,
+              null,
+              null,
+              150,
+              null,
+              null,
+              165,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ]
+          },
+          {
+            "name": "Stock Price",
+            "unit": "U.S. Dollar",
+            "values": [
+              16.2,
+              18.0,
+              20.0,
+              22.0,
+              25.0,
+              28.0,
+              30.0,
+              32.0,
+              35.0,
+              38.0,
+              40.0,
+              42.0,
+              45.0,
+              48.0,
+              50.0,
+              55.0,
+              60.0,
+              65.0,
+              70.0,
+              75.0,
+              80.0,
+              85.0,
+              90.0,
+              95.0,
+              100.0,
+              105.0,
+              110.0,
+              115.0,
+              120.0,
+              125.0,
+              130.0,
+              135.0,
+              140.0,
+              145.0,
+              150.0
+            ]
+          },
+          {
+            "name": "Index Price",
+            "unit": "U.S. Dollar",
+            "values": [
+              3500,
+              3700,
+              3900,
+              4100,
+              4300,
+              4500,
+              4700,
+              4900,
+              5100,
+              5300,
+              5500,
+              5700,
+              5900,
+              6100,
+              6300,
+              6500,
+              6700,
+              6900,
+              6800,
+              6700,
+              6600,
+              6500,
+              6400,
+              6300,
+              6200,
+              6100,
+              6000,
+              5900,
+              5800,
+              5700,
+              5600,
+              5500,
+              5600,
+              5700,
+              5800
+            ]
+          }
+        ],
+        "figure_id": "e26216a55c6c3e29",
+        "provenance": {
+          "page": 4
+        }
+      },
+      {
+        "type": "other",
+        "title": null,
+        "page": 4,
+        "axes": null,
+        "series": [
+          {
+            "name": "Rating",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "Price target",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "Price target at removal",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "S&P 500",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "Covered by current analyst",
+            "unit": null,
+            "values": []
+          },
+          {
+            "name": "Not covered by current analyst",
+            "unit": null,
+            "values": []
+          }
+        ],
+        "figure_id": "338abb41f78a0aa6",
+        "provenance": {
+          "page": 4
+        }
+      }
+    ],
+    "tables": [],
+    "numerical_data": [
+      {
+        "num_id": "691ea8739529e2f3",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/GS</td><td>Actual/Street</td></tr><tr><td>Gaming</td><td>4,287</td><td>3,896</td><td>3,876</td><td>10.0%</td><td>10.6%</td></tr><tr><td>Pro Viz</td><td>601</td><td>534</td><td>534</td><td>12.5%</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b54f4476d354d56f",
+        "value": 0.106,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "tual/Street</td></tr><tr><td>Gaming</td><td>4,287</td><td>3,896</td><td>3,876</td><td>10.0%</td><td>10.6%</td></tr><tr><td>Pro Viz</td><td>601</td><td>534</td><td>534</td><td>12.5%</td><td>12.6%</td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "0e8ab65b64ad9adc",
+        "value": 0.125,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "76</td><td>10.0%</td><td>10.6%</td></tr><tr><td>Pro Viz</td><td>601</td><td>534</td><td>534</td><td>12.5%</td><td>12.6%</td></tr><tr><td>Datacenter</td><td>41,096</td><td>41,850</td><td>41,424</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6925a7ee7d31e878",
+        "value": 0.126,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0%</td><td>10.6%</td></tr><tr><td>Pro Viz</td><td>601</td><td>534</td><td>534</td><td>12.5%</td><td>12.6%</td></tr><tr><td>Datacenter</td><td>41,096</td><td>41,850</td><td>41,424</td><td>-1.8%</td><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "31d4ec9efb4f43fb",
+        "value": -0.018000000000000002,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2.5%</td><td>12.6%</td></tr><tr><td>Datacenter</td><td>41,096</td><td>41,850</td><td>41,424</td><td>-1.8%</td><td>-0.8%</td></tr><tr><td>Compute</td><td>33,844</td><td>36,546</td><td>36,130</td><td>-7",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "edf25d27759bab40",
+        "value": -0.008,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "2.6%</td></tr><tr><td>Datacenter</td><td>41,096</td><td>41,850</td><td>41,424</td><td>-1.8%</td><td>-0.8%</td></tr><tr><td>Compute</td><td>33,844</td><td>36,546</td><td>36,130</td><td>-7.4%</td><td>-6",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "dcdbba859db4ebbe",
+        "value": -0.07400000000000001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-1.8%</td><td>-0.8%</td></tr><tr><td>Compute</td><td>33,844</td><td>36,546</td><td>36,130</td><td>-7.4%</td><td>-6.3%</td></tr><tr><td>Networking</td><td>7,252</td><td>5,304</td><td>5,198</td><td>36",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "42b384784fb32b56",
+        "value": -0.063,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-0.8%</td></tr><tr><td>Compute</td><td>33,844</td><td>36,546</td><td>36,130</td><td>-7.4%</td><td>-6.3%</td></tr><tr><td>Networking</td><td>7,252</td><td>5,304</td><td>5,198</td><td>36.7%</td><td>39",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "12af474dabaf05c0",
+        "value": 0.36700000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-7.4%</td><td>-6.3%</td></tr><tr><td>Networking</td><td>7,252</td><td>5,304</td><td>5,198</td><td>36.7%</td><td>39.5%</td></tr><tr><td>Automotive</td><td>586</td><td>583</td><td>586</td><td>0.5%</td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "90a4d346fa813383",
+        "value": 0.395,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d>-6.3%</td></tr><tr><td>Networking</td><td>7,252</td><td>5,304</td><td>5,198</td><td>36.7%</td><td>39.5%</td></tr><tr><td>Automotive</td><td>586</td><td>583</td><td>586</td><td>0.5%</td><td>0.1%</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4c55f2a206713ce2",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>36.7%</td><td>39.5%</td></tr><tr><td>Automotive</td><td>586</td><td>583</td><td>586</td><td>0.5%</td><td>0.1%</td></tr><tr><td>OEM &amp;amp; Other</td><td>173</td><td>118</td><td>111</td><td>4",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8e70646288b63d66",
+        "value": 0.001,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>39.5%</td></tr><tr><td>Automotive</td><td>586</td><td>583</td><td>586</td><td>0.5%</td><td>0.1%</td></tr><tr><td>OEM &amp;amp; Other</td><td>173</td><td>118</td><td>111</td><td>47.0%</td><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "d7681b04bee7be2c",
+        "value": 0.47,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">0.5%</td><td>0.1%</td></tr><tr><td>OEM &amp;amp; Other</td><td>173</td><td>118</td><td>111</td><td>47.0%</td><td>55.7%</td></tr><tr><td>Total Revenue</td><td>46,743</td><td>46,982</td><td>46,517</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "ba6e7e05e3bcac41",
+        "value": 0.557,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "0.1%</td></tr><tr><td>OEM &amp;amp; Other</td><td>173</td><td>118</td><td>111</td><td>47.0%</td><td>55.7%</td></tr><tr><td>Total Revenue</td><td>46,743</td><td>46,982</td><td>46,517</td><td>-0.5%</td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "0dbfffffc0e99fab",
+        "value": -0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td><td>55.7%</td></tr><tr><td>Total Revenue</td><td>46,743</td><td>46,982</td><td>46,517</td><td>-0.5%</td><td>0.5%</td></tr><tr><td>QoQ</td><td>6.1%</td><td>6.6%</td><td>5.6%</td><td></td><td></td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5b952680ad1dc932",
+        "value": 0.005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "%</td></tr><tr><td>Total Revenue</td><td>46,743</td><td>46,982</td><td>46,517</td><td>-0.5%</td><td>0.5%</td></tr><tr><td>QoQ</td><td>6.1%</td><td>6.6%</td><td>5.6%</td><td></td><td></td></tr><tr><td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4e02cefbf42d9fb8",
+        "value": 0.061,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>46,743</td><td>46,982</td><td>46,517</td><td>-0.5%</td><td>0.5%</td></tr><tr><td>QoQ</td><td>6.1%</td><td>6.6%</td><td>5.6%</td><td></td><td></td></tr><tr><td>YoY</td><td>55.6%</td><td>56.4%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "a0f67463b84152f8",
+        "value": 0.066,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td><td>46,982</td><td>46,517</td><td>-0.5%</td><td>0.5%</td></tr><tr><td>QoQ</td><td>6.1%</td><td>6.6%</td><td>5.6%</td><td></td><td></td></tr><tr><td>YoY</td><td>55.6%</td><td>56.4%</td><td>54.9%</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "eb9a8400a118adc6",
+        "value": 0.055999999999999994,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "82</td><td>46,517</td><td>-0.5%</td><td>0.5%</td></tr><tr><td>QoQ</td><td>6.1%</td><td>6.6%</td><td>5.6%</td><td></td><td></td></tr><tr><td>YoY</td><td>55.6%</td><td>56.4%</td><td>54.9%</td><td></td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7c3badb457fcf1a3",
+        "value": 0.556,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "r><tr><td>QoQ</td><td>6.1%</td><td>6.6%</td><td>5.6%</td><td></td><td></td></tr><tr><td>YoY</td><td>55.6%</td><td>56.4%</td><td>54.9%</td><td></td><td></td></tr><tr><td>Gross Margin (excl. SBC)</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e4e2af430edf5871",
+        "value": 0.564,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>6.1%</td><td>6.6%</td><td>5.6%</td><td></td><td></td></tr><tr><td>YoY</td><td>55.6%</td><td>56.4%</td><td>54.9%</td><td></td><td></td></tr><tr><td>Gross Margin (excl. SBC)</td><td>72.7%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8efa7fe19299a3fa",
+        "value": 0.5489999999999999,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>6.6%</td><td>5.6%</td><td></td><td></td></tr><tr><td>YoY</td><td>55.6%</td><td>56.4%</td><td>54.9%</td><td></td><td></td></tr><tr><td>Gross Margin (excl. SBC)</td><td>72.7%</td><td>72.3%</td><t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "64399acf88ac900a",
+        "value": 0.727,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".6%</td><td>56.4%</td><td>54.9%</td><td></td><td></td></tr><tr><td>Gross Margin (excl. SBC)</td><td>72.7%</td><td>72.3%</td><td>72.3%</td><td>+35 bps</td><td>+41 bps</td></tr><tr><td>Operating Income ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7f8aca75c1466b69",
+        "value": 0.723,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".4%</td><td>54.9%</td><td></td><td></td></tr><tr><td>Gross Margin (excl. SBC)</td><td>72.7%</td><td>72.3%</td><td>72.3%</td><td>+35 bps</td><td>+41 bps</td></tr><tr><td>Operating Income (excl. SBC)</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b20565d5f08ad657",
+        "value": 0.723,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ".9%</td><td></td><td></td></tr><tr><td>Gross Margin (excl. SBC)</td><td>72.7%</td><td>72.3%</td><td>72.3%</td><td>+35 bps</td><td>+41 bps</td></tr><tr><td>Operating Income (excl. SBC)</td><td>30,165</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f205aa1bf8e5c462",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "</td></tr><tr><td>Operating Income (excl. SBC)</td><td>30,165</td><td>30,071</td><td>29,559</td><td>0.3%</td><td>2.0%</td></tr><tr><td>Operating Margin (%)</td><td>64.5%</td><td>64.0%</td><td>63.5%</t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6e14ccf0743ee28a",
+        "value": 0.02,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>Operating Income (excl. SBC)</td><td>30,165</td><td>30,071</td><td>29,559</td><td>0.3%</td><td>2.0%</td></tr><tr><td>Operating Margin (%)</td><td>64.5%</td><td>64.0%</td><td>63.5%</td><td>+53 bps",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "602d7b12383c602a",
+        "value": 0.645,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>30,071</td><td>29,559</td><td>0.3%</td><td>2.0%</td></tr><tr><td>Operating Margin (%)</td><td>64.5%</td><td>64.0%</td><td>63.5%</td><td>+53 bps</td><td>+99 bps</td></tr><tr><td>EPS (excl. SBC)</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "9b9341fa07eaf067",
+        "value": 0.64,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td><td>29,559</td><td>0.3%</td><td>2.0%</td></tr><tr><td>Operating Margin (%)</td><td>64.5%</td><td>64.0%</td><td>63.5%</td><td>+53 bps</td><td>+99 bps</td></tr><tr><td>EPS (excl. SBC)</td><td>$1.05</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f31a7d69bf0b73ca",
+        "value": 0.635,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "/td><td>0.3%</td><td>2.0%</td></tr><tr><td>Operating Margin (%)</td><td>64.5%</td><td>64.0%</td><td>63.5%</td><td>+53 bps</td><td>+99 bps</td></tr><tr><td>EPS (excl. SBC)</td><td>$1.05</td><td>$1.05</",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7fbd3c4f77302333",
+        "value": 0.003,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s</td><td>+99 bps</td></tr><tr><td>EPS (excl. SBC)</td><td>$1.05</td><td>$1.05</td><td>1.02</td><td>0.3%</td><td>3.2%</td></tr></table> Source: Company data, Goldman Sachs Global Investment Research, ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7a094854d6d5f005",
+        "value": 0.032,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "bps</td></tr><tr><td>EPS (excl. SBC)</td><td>$1.05</td><td>$1.05</td><td>1.02</td><td>0.3%</td><td>3.2%</td></tr></table> Source: Company data, Goldman Sachs Global Investment Research, Visible Alpha ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6fb3b7d1b81c9231",
+        "value": -0.052000000000000005,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "td>Total Revenue</td><td>55,080</td><td>52,920</td><td>54,000</td><td>56,965</td><td>53,800</td><td>-5.2%</td><td>0.4%</td></tr><tr><td>QoQ</td><td></td><td></td><td>15.5%</td><td>21.2%</td><td>15.7%<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "286e5e130bb44522",
+        "value": 0.004,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ue</td><td>55,080</td><td>52,920</td><td>54,000</td><td>56,965</td><td>53,800</td><td>-5.2%</td><td>0.4%</td></tr><tr><td>QoQ</td><td></td><td></td><td>15.5%</td><td>21.2%</td><td>15.7%</td><td></td><",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "232208118356df4b",
+        "value": 0.155,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "<td>56,965</td><td>53,800</td><td>-5.2%</td><td>0.4%</td></tr><tr><td>QoQ</td><td></td><td></td><td>15.5%</td><td>21.2%</td><td>15.7%</td><td></td><td></td></tr><tr><td>YoY</td><td></td><td></td><td>5",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "492ff301c3da2627",
+        "value": 0.212,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "><td>53,800</td><td>-5.2%</td><td>0.4%</td></tr><tr><td>QoQ</td><td></td><td></td><td>15.5%</td><td>21.2%</td><td>15.7%</td><td></td><td></td></tr><tr><td>YoY</td><td></td><td></td><td>53.9%</td><td>6",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e909a1cce95593de",
+        "value": 0.157,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "d><td>-5.2%</td><td>0.4%</td></tr><tr><td>QoQ</td><td></td><td></td><td>15.5%</td><td>21.2%</td><td>15.7%</td><td></td><td></td></tr><tr><td>YoY</td><td></td><td></td><td>53.9%</td><td>62.4%</td><td>5",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "5774168673c4c429",
+        "value": 0.539,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">15.5%</td><td>21.2%</td><td>15.7%</td><td></td><td></td></tr><tr><td>YoY</td><td></td><td></td><td>53.9%</td><td>62.4%</td><td>53.4%</td><td></td><td></td></tr><tr><td>Gross margin (ex SBC)</td><td>7",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "b8c0cf48d0032cfe",
+        "value": 0.624,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">21.2%</td><td>15.7%</td><td></td><td></td></tr><tr><td>YoY</td><td></td><td></td><td>53.9%</td><td>62.4%</td><td>53.4%</td><td></td><td></td></tr><tr><td>Gross margin (ex SBC)</td><td>74.0%</td><td>7",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "4d957f2268fb615b",
+        "value": 0.534,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">15.7%</td><td></td><td></td></tr><tr><td>YoY</td><td></td><td></td><td>53.9%</td><td>62.4%</td><td>53.4%</td><td></td><td></td></tr><tr><td>Gross margin (ex SBC)</td><td>74.0%</td><td>73.0%</td><td>7",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "7f7403d69f85c065",
+        "value": 0.74,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">53.9%</td><td>62.4%</td><td>53.4%</td><td></td><td></td></tr><tr><td>Gross margin (ex SBC)</td><td>74.0%</td><td>73.0%</td><td>73.5%</td><td>73.7%</td><td>73.6%</td><td>-18 bps</td><td>-8 bps</td></t",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "3ab9dc1ba2fc1d8a",
+        "value": 0.73,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">62.4%</td><td>53.4%</td><td></td><td></td></tr><tr><td>Gross margin (ex SBC)</td><td>74.0%</td><td>73.0%</td><td>73.5%</td><td>73.7%</td><td>73.6%</td><td>-18 bps</td><td>-8 bps</td></tr><tr><td>Impl",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "0e3d21c41d239449",
+        "value": 0.735,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": ">53.4%</td><td></td><td></td></tr><tr><td>Gross margin (ex SBC)</td><td>74.0%</td><td>73.0%</td><td>73.5%</td><td>73.7%</td><td>73.6%</td><td>-18 bps</td><td>-8 bps</td></tr><tr><td>Implied non-GAAP E",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "8f916ef3eabde4e8",
+        "value": 0.737,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></td><td></td></tr><tr><td>Gross margin (ex SBC)</td><td>74.0%</td><td>73.0%</td><td>73.5%</td><td>73.7%</td><td>73.6%</td><td>-18 bps</td><td>-8 bps</td></tr><tr><td>Implied non-GAAP EPS (excl. SBC)",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "f107cd54a9da9ff3",
+        "value": 0.736,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "></tr><tr><td>Gross margin (ex SBC)</td><td>74.0%</td><td>73.0%</td><td>73.5%</td><td>73.7%</td><td>73.6%</td><td>-18 bps</td><td>-8 bps</td></tr><tr><td>Implied non-GAAP EPS (excl. SBC)</td><td></td>",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "481adc6daa6e61aa",
+        "value": -0.071,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "Implied non-GAAP EPS (excl. SBC)</td><td></td><td></td><td>$1.22</td><td>$1.31</td><td>1.21</td><td>-7.1%</td><td>0.6%</td></tr></table> Source: Company data, Goldman Sachs Global Investment Research ",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "621858d5d3dfbbcc",
+        "value": 0.006,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "AP EPS (excl. SBC)</td><td></td><td></td><td>$1.22</td><td>$1.31</td><td>1.21</td><td>-7.1%</td><td>0.6%</td></tr></table> Source: Company data, Goldman Sachs Global Investment Research <table><tr><td",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "1c6346acd5e7d4fa",
+        "value": 0.1,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "earch <table><tr><td>NVDA</td><td>12m Price Target: $200.00</td><td>Price: $181.77</td><td>Upside: 10.0%</td></tr><tr><td>Buy</td><td>GS Forecast</td><td></td><td></td></tr><tr><td>Market cap: $4.5tr<",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6bcd4ae98a264b50",
+        "value": 1.05,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>64.0%</td><td>63.5%</td><td>+53 bps</td><td>+99 bps</td></tr><tr><td>EPS (excl. SBC)</td><td>$1.05</td><td>$1.05</td><td>1.02</td><td>0.3%</td><td>3.2%</td></tr></table> Source: Company data, G",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "e2a9ccb12579610d",
+        "value": 1.05,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "td><td>63.5%</td><td>+53 bps</td><td>+99 bps</td></tr><tr><td>EPS (excl. SBC)</td><td>$1.05</td><td>$1.05</td><td>1.02</td><td>0.3%</td><td>3.2%</td></tr></table> Source: Company data, Goldman Sachs G",
+        "provenance": {
+          "page": 1
+        }
+      },
+      {
+        "num_id": "6ab5c76927ad43cb",
+        "value": 1.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "percentile is calculated as the average of the Growth percentile, Financial Returns percentile and (100% - Multiple percentile). Financial Returns and Multiple use the Goldman Sachs analyst forecasts ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "9c2b5be966d9c161",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ank as a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "049f6687aecc4dd2",
+        "value": 0.5,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "s a means of scoring companies under our rated coverage from 1 to 3, with 1 representing high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) pro",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "22001a77841fea3d",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "g high (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "4710b7a93dd989e1",
+        "value": 0.3,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "h (30%- 50%) probability of the company becoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "195f27839c942ad7",
+        "value": 0.0,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ecoming an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "c260465a4572fb42",
+        "value": 0.15,
+        "unit": "percentage",
+        "metric_type": "percentage",
+        "context": "ing an acquisition target, 2 representing medium (15%- 30%) probability and 3 representing low (0%- 15%) probability. For companies ranked 1 or 2, in line with our standard departmental guidelines we ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ac15d8df01651d76",
+        "value": 181.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "chs has received compensation for investment banking services in the past 12 months: Nvidia Corp. (\\$181.77) Goldman Sachs expects to receive or intends to seek compensation for investment banking ser",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "d3ea036b1aa3b002",
+        "value": 181.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "r intends to seek compensation for investment banking services in the next 3 months: Nvidia Corp. (\\$181.77) Goldman Sachs has received compensation for non- investment banking services during the pas",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "b68e59849cc34643",
+        "value": 181.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "eceived compensation for non- investment banking services during the past 12 months: Nvidia Corp. (\\$181.77) Goldman Sachs had an investment banking services client relationship during the past 12 mon",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "287525a5fdb5f1bc",
+        "value": 181.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "d an investment banking services client relationship during the past 12 months with: Nvidia Corp. (\\$181.77) Goldman Sachs had a non- investment banking securities- related services client relationshi",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "f6fb2f31502d43d1",
+        "value": 181.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "ing securities- related services client relationship during the past 12 months with: Nvidia Corp. (\\$181.77) Goldman Sachs had a non- securities services client relationship during the past 12 months ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "3fb4bc5843f9e0b4",
+        "value": 181.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "s had a non- securities services client relationship during the past 12 months with: Nvidia Corp. (\\$181.77) Goldman Sachs makes a market in the securities or derivatives thereof: Nvidia Corp. (\\$181.",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "ecb0979a40dd9e1c",
+        "value": 181.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": ". (\\$181.77) Goldman Sachs makes a market in the securities or derivatives thereof: Nvidia Corp. (\\$181.77) Goldman Sachs is a specialist in the relevant securities and will at any given time have an ",
+        "provenance": {
+          "page": 2
+        }
+      },
+      {
+        "num_id": "0770e98bcde5b56a",
+        "value": 181.77,
+        "unit": "$",
+        "metric_type": "currency",
+        "context": "short,\" and may be on the opposite side of orders executed on the relevant exchange: Nvidia Corp. (\\$181.77)",
+        "provenance": {
+          "page": 2
+        }
+      }
+    ],
+    "claims": [],
+    "relations": [],
+    "extraction_summary": {
+      "figures_count": 2,
+      "tables_count": 0,
+      "numerical_data_count": 65,
+      "passages_count": 61,
+      "entities_count": 20
+    }
+  }
+}
