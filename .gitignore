@@ -39,3 +39,48 @@ node_modules/
 
 # Misc binaries (keep test assets if needed)
 *.bin
+
+# Additional exclusions for this project
+output_report/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.pid
+batch_*.pid
+
+# Backup files
+*_v1_backup.py
+*_backup.py
+*_backup/
+
+# Deployment and server files
+server_deploy.sh
+
+# Test and temporary files
+test_*.md
+test.json
+test_report.json
+
+# Model files
+*.pth
+*.pt
+*.h5
+*.pkl
+*.pickle
+*.parquet
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Coverage and profiling
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/

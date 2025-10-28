@@ -9,8 +9,8 @@
     > logs/run_9_1_$(date +%F_%H%M).log 2>&1
 
   python run_batch_processor.py -y \
-    --input "/home/qxx/DeepSeek-OCR/DeepSeek-OCR-master/deepseek-ocr-batch/input_pdfs/25.9月 普通个人版/9.3 普通个人版" \
-    > logs/run_9_2_$(date +%F_%H%M).log 2>&1
+    --input "/home/qxx/report/8.4 普通个人版" \
+    > logs/run_8_4_$(date +%F_%H%M).log 2>&1
     若目录层级不同，只要指向包含那两天 PDF 的根即可；-d 可重复多次。
   - 监控进度：tail -f logs/batch_processor.log | grep -E "保存JSON|阶段B|失败"；后台作业 PID 可用 cat batch.pid 查看，需终止时 kill
     <pid> 并等待阶段B消费者退出。
