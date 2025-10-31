@@ -135,7 +135,7 @@ ls -lh output_results/document/
 ls -lh output_report/document/
 
 # 查看JSON内容
-cat output_report/document/document_final.json | jq .
+cat output_report/document/document.json | jq .
 ```
 
 ---
@@ -216,7 +216,7 @@ config.api.RETRY_DELAY_BASE = 2
 │
 ├── output_report/           # JSON报告（新增）
 │   └── document/
-│       ├── document_final.json      # Schema格式JSON
+│       ├── document.json            # Schema格式JSON
 │       └── document_template.json   # 模板格式JSON
 │
 └── logs/                    # 日志
@@ -384,7 +384,7 @@ tail -f logs/batch_processor.log
 ls -lh output_report/
 
 # 验证JSON
-python -m json.tool output_report/test/test_final.json
+python -m json.tool output_report/test/test.json
 
 # 停止处理
 pkill -f "python.*run_batch_processor.py"

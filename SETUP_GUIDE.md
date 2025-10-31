@@ -158,7 +158,7 @@ config.processing.ENABLE_QUALITY_CHECK = True
 output_results/
 └── filename/
     ├── filename.md              # Markdown文本
-    ├── filename_final.json      # 最终JSON数据
+    ├── filename.json            # 最终JSON数据
     ├── images/                  # 提取的图表
     │   ├── 0_0.jpg
     │   ├── 0_1.jpg

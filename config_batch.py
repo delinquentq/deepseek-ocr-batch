@@ -15,13 +15,13 @@ class HardwareConfig:
     """硬件配置 - 针对RTX 4090 48G优化 - 极速模式（6个PDF并发 + 高API并发）"""
 
     # GPU配置 - 充分利用显存（OCR阶段不占用太多显存）
-    GPU_MEMORY_UTILIZATION = 0.85  # 提升到85%（40.8GB），OCR本身显存占用不高
-    MAX_CONCURRENCY = 48  # 大幅提升并发数（用于API调用，不占显存）
+    GPU_MEMORY_UTILIZATION = 0.9  # 提升到85%（40.8GB），OCR本身显存占用不高
+    MAX_CONCURRENCY = 20  # 优化并发数（与API调用并发保持一致）
     TENSOR_PARALLEL_SIZE = 1  # 单卡配置
 
     # 批处理配置 - 优化OCR速度
-    BATCH_SIZE = 10  # 提升到10（平衡速度和显存）
-    NUM_WORKERS = 32  # 提升到32线程（CPU预处理加速）
+    BATCH_SIZE = 16  # 提升到10（平衡速度和显存）
+    NUM_WORKERS = 48  # 提升到32线程（CPU预处理加速）
 
     # 内存配置
     SWAP_SPACE = 0  # 禁用交换空间以提高性能
@@ -130,16 +130,16 @@ class ProcessingConfig:
     SAVE_RAW_RESPONSES = False  # 关闭原始响应保存以节省空间和时间
     GENERATE_REPORTS = True  # 生成处理报告
 
-    # 并发控制 - 极速并发（API调用不占显存，可以大幅提升）
-    MAX_CONCURRENT_PDFS = 6  # 最大并发PDF处理数（保持6个）
-    MAX_CONCURRENT_API_CALLS = 48  # 最大并发API调用数（大幅提升，网络IO密集型）
+    # 并发控制 - 极保守配置（解决CancelledError）
+    MAX_CONCURRENT_PDFS = 4  # 最大并发PDF处理数（从6降到2，避免连接竞争）
+    MAX_CONCURRENT_API_CALLS = 15  # 最大并发API调用数（从15降到5，减少连接池压力）
 
 # ==================== 日志配置 ====================
 class LogConfig:
     """日志配置"""
 
     # 日志级别
-    LOG_LEVEL = "DEBUG"
+    LOG_LEVEL = "INFO"
 
     # 日志格式
     LOG_FORMAT = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"

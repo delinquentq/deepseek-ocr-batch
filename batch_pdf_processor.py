@@ -22,6 +22,7 @@ import traceback
 from pathlib import Path
 from datetime import datetime
 from typing import List, Dict, Optional, Tuple, Any, Set
+import httpx
 from dataclasses import dataclass
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import logging
@@ -55,6 +56,13 @@ from jsonschema import validate, ValidationError
 
 # Configuration
 from config import MODEL_PATH, PROMPT, CROP_MODE
+
+# 新增：优化引擎导入
+from md_to_json_engine import MarkdownToJsonEngine
+from batch_figure_processor import BatchFigureProcessor
+from json_merger import JsonMerger
+from md_cleaner import MarkdownCleaner
+from figure_filter import filter_figures
 # 使用优化后的 config_batch 配置
 try:
     from config_batch import Config as BatchConfig, setup_environment
@@ -149,21 +157,30 @@ except ImportError:
     config = Config()
 
 # 日志配置
+log_dir = Path(config.BASE_DIR) / "logs"
+log_dir.mkdir(parents=True, exist_ok=True)
+log_file = log_dir / "batch_processor.log"
+
+log_level_name = getattr(getattr(config, "logging", object()), "LOG_LEVEL", "INFO")
+log_level = getattr(logging, str(log_level_name).upper(), logging.INFO)
+
 logging.basicConfig(
-    level=logging.INFO,
+    level=log_level,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('batch_processor.log'),
+        logging.FileHandler(log_file, encoding='utf-8'),
         logging.StreamHandler()
     ]
 )
 logger = logging.getLogger(__name__)
+logger.info(f"日志文件: {log_file}")
 
 class Colors:
     RED = '\033[31m'
     GREEN = '\033[32m'
     YELLOW = '\033[33m'
     BLUE = '\033[34m'
+    MAGENTA = '\033[35m'
     CYAN = '\033[36m'
     RESET = '\033[0m'
 
@@ -523,10 +540,18 @@ class OpenRouterProcessor:
         if not api_key:
             raise ValueError("OPENROUTER_API_KEY环境变量未设置")
 
+        # 配置详细的超时设置 - 解决连接超时问题
+        timeout_config = httpx.Timeout(
+            connect=60.0,  # 连接超时: 60秒 (默认5秒太短)
+            read=600.0,    # 读取超时: 10分钟
+            write=60.0,    # 写入超时: 60秒
+            pool=60.0      # 连接池超时: 60秒
+        )
+
         self.client = AsyncOpenAI(
             api_key=api_key,
             base_url=config.OPENROUTER_BASE_URL,
-            timeout=config.REQUEST_TIMEOUT,
+            timeout=timeout_config,  # 使用httpx.Timeout对象
             max_retries=config.MAX_RETRIES,
             default_headers={
                 "HTTP-Referer": "https://github.com/your-repo",
@@ -686,6 +711,13 @@ class BatchPDFProcessor:
     def __init__(self):
         self.ocr_processor = DeepSeekOCRBatchProcessor()
         self.validator = JSONSchemaValidator(config.SCHEMA_PATH)
+
+        # 新增：优化引擎
+        self.md_cleaner = MarkdownCleaner()
+        self.md_engine = MarkdownToJsonEngine()
+        self.batch_figure_processor = BatchFigureProcessor(batch_size=15)  # 每批15张图
+        self.json_merger = JsonMerger()
+
         self._figure_api_semaphore: Optional[asyncio.Semaphore] = None
         self._setup_directories()
 
@@ -736,12 +768,13 @@ class BatchPDFProcessor:
         else:
             pdf_name_clean = pdf_name
 
+        # 输出目录结构：日期/文件名
         if date_str:
-            ocr_output_dir = str(Path(config.OUTPUT_DIR) / date_str / publication / pdf_name_clean)
-            json_output_dir = str(Path(config.OUTPUT_REPORT_DIR) / date_str / publication / pdf_name_clean)
+            ocr_output_dir = str(Path(config.OUTPUT_DIR) / date_str / pdf_name_clean)
+            json_output_dir = str(Path(config.OUTPUT_REPORT_DIR) / date_str)
         else:
-            ocr_output_dir = str(Path(config.OUTPUT_DIR) / rel_parent / pdf_name_clean)
-            json_output_dir = str(Path(config.OUTPUT_REPORT_DIR) / rel_parent / pdf_name_clean)
+            ocr_output_dir = str(Path(config.OUTPUT_DIR) / pdf_name_clean)
+            json_output_dir = str(Path(config.OUTPUT_REPORT_DIR))
 
         os.makedirs(ocr_output_dir, exist_ok=True)
         os.makedirs(json_output_dir, exist_ok=True)
@@ -798,141 +831,201 @@ class BatchPDFProcessor:
         return merged
 
     async def _process_pdf_stage_b(self, job: PDFProcessingJob) -> Dict:
-        """阶段B：执行所有需要API的步骤并输出最终JSON"""
+        """阶段B：清洗Markdown，运行规则引擎，识别图表并生成JSON"""
         pdf_name = job.pdf_name
-        logger.info(f"{Colors.BLUE}阶段B: API推理与结构化处理 - {pdf_name}{Colors.RESET}")
+        logger.info(f"{Colors.BLUE}阶段B: Markdown结构化处理 - {pdf_name}{Colors.RESET}")
 
-        page_count = self._count_pages_from_markdown(job.markdown_content)
-
-        logger.info(f"{Colors.BLUE}阶段B-1: 图表识别{Colors.RESET}")
-        figures_data = await self._extract_figures_data_parallel(job.figure_paths)
-        logger.info(f"{Colors.CYAN}阶段B-1完成: 识别 {len(figures_data)} 张图表{Colors.RESET}")
-
-        logger.info(f"{Colors.BLUE}阶段B-2: 文本与图表联合提取{Colors.RESET}")
-        model_results = await self._process_with_single_model_simplified(
-            job.markdown_content,
-            pdf_name,
-            page_count,
-            job.date_str or "",
-            job.publication,
-            figures_data,
-        )
-        best_model_result = self._select_best_result(model_results)
-
-        markdown_pages = self._split_markdown_pages(job.markdown_content, page_count)
-        page_tasks = self._build_page_tasks(markdown_pages, figures_data)
-        page_payloads = await self._extract_page_payloads(
-            pdf_name,
-            page_tasks,
-            required_fields=[
-                "passages",
-                "entities",
-                "tables",
-                "numerical_data",
-                "claims",
-                "relations"
-            ]
+        # 1. 清洗Markdown，移除披露/法律/版权等模板页
+        cleaned_markdown, clean_stats = self.md_cleaner.clean(job.markdown_content)
+        logger.info(
+            f"{Colors.CYAN}Markdown清洗完成: {clean_stats['original_length']}→{clean_stats['final_length']} 字符"
+            f" (删除章节 {len(clean_stats['removed_sections'])} 个, 删除段落 {clean_stats['removed_paragraphs']} 个){Colors.RESET}"
         )
 
-        aggregated_result = self._aggregate_page_results(
-            page_payloads,
-            figures_data,
+        # 2. 过滤无价值图像（股价图、披露页等）
+        filtered_figures, dropped_figures = filter_figures(job.markdown_content, job.figure_paths)
+        if dropped_figures:
+            logger.info(
+                f"{Colors.YELLOW}已移除 {len(dropped_figures)} 张无效图像: {dropped_figures}{Colors.RESET}"
+            )
+        else:
+            logger.info(f"{Colors.CYAN}未检测到需要移除的图像{Colors.RESET}")
+
+        # 3. 使用规则引擎将Markdown转换为JSON
+        json_doc = self.md_engine.convert(
+            cleaned_markdown,
             pdf_name,
-            page_count,
-            job.date_str,
-            job.publication,
-            job.markdown_content
+            date_str=job.date_str,
+            publication=job.publication,
         )
 
-        best_result = self._merge_model_and_aggregated_results(best_model_result, aggregated_result)
-        if not best_result:
-            best_result = aggregated_result or best_model_result or {}
+        page_count = self._count_pages_from_markdown(cleaned_markdown)
+        processing_metadata = (
+            json_doc.setdefault("doc", {})
+            .setdefault("extraction_run", {})
+            .setdefault("processing_metadata", {})
+        )
+        processing_metadata.setdefault("pages_processed", page_count)
+        processing_metadata.setdefault("successful_pages", page_count)
+        processing_metadata.setdefault("markdown_cleaning", {
+            "removed_sections": len(clean_stats["removed_sections"]),
+            "removed_paragraphs": clean_stats["removed_paragraphs"],
+            "reduction_ratio": clean_stats.get("reduction_ratio", 0),
+        })
+        processing_metadata.setdefault("input_relative_path", str(job.rel_parent))
+        if job.date_str:
+            processing_metadata.setdefault("date", job.date_str)
+        if job.publication:
+            processing_metadata.setdefault("publication", job.publication)
 
-        if not best_result:
-            raise ValueError(f"{pdf_name} 未生成有效的结构化结果")
-
-        logger.info(f"{Colors.BLUE}阶段B-3: 基础验证与补全{Colors.RESET}")
-
-        if "schema_version" not in best_result:
-            best_result["schema_version"] = "1.3.1"
-
-        if "doc" in best_result and "extraction_run" in best_result["doc"]:
-            md = best_result["doc"].get("extraction_run", {}).get("processing_metadata", {})
-            md.setdefault("pages_processed", page_count)
-            md.setdefault("successful_pages", page_count)
-            try:
-                md["input_relative_path"] = str(job.rel_parent)
-                parts = list(job.rel_parent.parts)
-                if len(parts) >= 1 and re.match(r"^\d{4}\.\d{2}\.\d{2}$", parts[0]):
-                    md["date"] = parts[0]
-                    if len(parts) >= 2:
-                        md["publication"] = parts[1]
-                else:
-                    md["publication"] = parts[0] if parts else md.get("publication")
-                    if len(parts) >= 2 and re.match(r"^\d{4}\.\d{2}\.\d{2}$", parts[1]):
-                        md["date"] = parts[1]
-            except Exception:
-                pass
-            best_result["doc"]["extraction_run"]["processing_metadata"] = md
-
-        is_valid, error_msg = self.validator.validate(best_result)
-        if not is_valid:
-            logger.warning(f"JSON验证警告: {error_msg}")
-            if "doc" not in best_result:
-                best_result["doc"] = self._create_minimal_doc(
-                    pdf_name,
-                    page_count,
-                    job.date_str,
-                    job.publication
+        # 4. 图表识别仅对有效图像调用大模型
+        figures_data: List[Dict[str, Any]] = []
+        if filtered_figures:
+            logger.info(f"{Colors.BLUE}阶段B-图表识别: 剩余 {len(filtered_figures)} 张图像需要处理{Colors.RESET}")
+            async with OpenRouterProcessor() as processor:
+                figures_data = await self._extract_figures_data_parallel_with_processor(
+                    filtered_figures, processor
                 )
-            if "passages" not in best_result:
-                best_result["passages"] = []
-            if "entities" not in best_result:
-                best_result["entities"] = []
-            if "data" not in best_result:
-                best_result["data"] = self._create_minimal_data()
+            logger.info(
+                f"{Colors.CYAN}图表识别完成: 成功 {len(figures_data)}/{len(filtered_figures)}{Colors.RESET}"
+            )
+        else:
+            logger.info(f"{Colors.YELLOW}不存在需要识别的有效图像，跳过图表识别{Colors.RESET}")
 
-        output_path = os.path.join(job.json_output_dir, f"{job.pdf_name_clean}.json")
-        with open(output_path, 'w', encoding='utf-8') as f:
-            json.dump(best_result, f, indent=2, ensure_ascii=False)
+        data_block = json_doc.setdefault("data", self._create_minimal_data())
+        data_block["figures"] = figures_data
 
-        logger.info(f"{Colors.GREEN}✓ 保存JSON: {output_path}{Colors.RESET}")
+        summary = data_block.setdefault("extraction_summary", {})
+        summary["figures_count"] = len(figures_data)
+        summary["tables_count"] = len(data_block.get("tables", []))
+        summary["numerical_data_count"] = len(data_block.get("numerical_data", []))
+        summary["passages_count"] = len(json_doc.get("passages", []))
+        summary["entities_count"] = len(json_doc.get("entities", []))
+
+        is_valid, error_msg = self.validator.validate(json_doc)
+        if not is_valid:
+            logger.warning(f"{Colors.YELLOW}JSON验证警告: {error_msg}{Colors.RESET}")
+            json_doc = self._ensure_minimal_structure(json_doc, pdf_name, page_count, job)
+
+        output_dir_path = Path(job.json_output_dir)
+        output_dir_path.mkdir(parents=True, exist_ok=True)
+
+        primary_path = output_dir_path / f"{job.pdf_name_clean}.json"
+
+        serialized = json.dumps(json_doc, indent=2, ensure_ascii=False)
+        primary_path.write_text(serialized, encoding="utf-8")
+
+        # 仅保留标准文件命名，取消 _final.json 兼容写入以避免重复产物
+
+        logger.info(f"{Colors.GREEN}✓ 保存JSON: {primary_path}{Colors.RESET}")
         logger.info(f"{Colors.GREEN}✓ PDF处理完成: {job.pdf_path}{Colors.RESET}")
         logger.info(f"  - OCR结果: {job.ocr_output_dir}")
         logger.info(f"  - JSON报告: {job.json_output_dir}")
 
-        return best_result
+        return json_doc
 
     async def process_single_pdf(self, pdf_path: str) -> Dict:
         job = await self._process_pdf_stage_a(pdf_path)
         return await self._process_pdf_stage_b(job)
 
-    async def _extract_figures_data_parallel(self, figure_paths: List[str]) -> List[Dict]:
-        """并行提取所有图表的数据（使用视觉模型识别图表内容）"""
+    async def _extract_figures_data_parallel_with_processor(
+        self, figure_paths: List[str], processor
+    ) -> List[Dict]:
+        """并行提取所有图表的数据（复用传入的processor实例）"""
         if not figure_paths:
+            logger.info("无图表需要识别，跳过")
             return []
+
+        logger.info(f"开始识别 {len(figure_paths)} 张图表...")
 
         if self._figure_api_semaphore is None:
             self._figure_api_semaphore = asyncio.Semaphore(self._get_max_api_concurrency())
 
         semaphore = self._figure_api_semaphore
 
-        async with OpenRouterProcessor() as processor:
+        try:
+            logger.info(f"使用已有processor，开始并行识别...")
             tasks = [
                 self._extract_single_figure_data(processor, img_path, semaphore)
                 for img_path in figure_paths
             ]
             results = await asyncio.gather(*tasks, return_exceptions=True)
 
-        figures_data = []
-        for img_path, result in zip(figure_paths, results):
-            if isinstance(result, Exception):
-                logger.warning(f"图表识别失败 {img_path}: {result}")
-                continue
-            if result:
-                figures_data.append(result)
+            # 统计结果
+            success_count = 0
+            error_count = 0
+            figures_data = []
 
-        return figures_data
+            for img_path, result in zip(figure_paths, results):
+                if isinstance(result, Exception):
+                    error_count += 1
+                    logger.warning(f"图表识别失败 [{error_count}/{len(figure_paths)}] {Path(img_path).name}: {type(result).__name__}: {result}")
+                    continue
+                if result:
+                    success_count += 1
+                    figures_data.append(result)
+                else:
+                    error_count += 1
+                    logger.warning(f"图表识别返回空 [{error_count}/{len(figure_paths)}] {Path(img_path).name}")
+
+            logger.info(f"图表识别完成: 成功 {success_count}/{len(figure_paths)}, 失败 {error_count}/{len(figure_paths)}")
+
+            return figures_data
+
+        except Exception as e:
+            logger.error(f"图表识别整体失败: {type(e).__name__}: {e}")
+            import traceback
+            traceback.print_exc()
+            return []
+
+    async def _extract_figures_data_parallel(self, figure_paths: List[str]) -> List[Dict]:
+        """并行提取所有图表的数据（使用视觉模型识别图表内容）"""
+        if not figure_paths:
+            logger.info("无图表需要识别，跳过")
+            return []
+
+        logger.info(f"开始识别 {len(figure_paths)} 张图表...")
+
+        if self._figure_api_semaphore is None:
+            self._figure_api_semaphore = asyncio.Semaphore(self._get_max_api_concurrency())
+
+        semaphore = self._figure_api_semaphore
+
+        try:
+            async with OpenRouterProcessor() as processor:
+                logger.info(f"OpenRouterProcessor初始化成功，开始并行识别...")
+                tasks = [
+                    self._extract_single_figure_data(processor, img_path, semaphore)
+                    for img_path in figure_paths
+                ]
+                results = await asyncio.gather(*tasks, return_exceptions=True)
+
+            # 统计结果
+            success_count = 0
+            error_count = 0
+            figures_data = []
+
+            for img_path, result in zip(figure_paths, results):
+                if isinstance(result, Exception):
+                    error_count += 1
+                    logger.warning(f"图表识别失败 [{error_count}/{len(figure_paths)}] {Path(img_path).name}: {type(result).__name__}: {result}")
+                    continue
+                if result:
+                    success_count += 1
+                    figures_data.append(result)
+                else:
+                    error_count += 1
+                    logger.warning(f"图表识别返回空 [{error_count}/{len(figure_paths)}] {Path(img_path).name}")
+
+            logger.info(f"图表识别完成: 成功 {success_count}/{len(figure_paths)}, 失败 {error_count}/{len(figure_paths)}")
+
+            return figures_data
+
+        except Exception as e:
+            logger.error(f"图表识别整体失败: {type(e).__name__}: {e}")
+            import traceback
+            traceback.print_exc()
+            return []
 
     def _split_markdown_pages(self, markdown: str, page_count: int) -> List[str]:
         """根据分页标记拆分Markdown文本"""
@@ -1130,8 +1223,10 @@ class BatchPDFProcessor:
     async def _extract_single_figure_data(self, processor: OpenRouterProcessor,
                                          image_path: str, semaphore: asyncio.Semaphore) -> Dict:
         """提取单个图表的数据（视觉识别）"""
+        filename = Path(image_path).name
         async with semaphore:
             try:
+                logger.debug(f"开始识别图表: {filename}")
                 b64, text_override = self._encode_image_to_base64(image_path)
                 page_idx = self._infer_page_from_image_path(image_path)
 
@@ -1174,11 +1269,13 @@ class BatchPDFProcessor:
                     }
                 ]
 
+                logger.debug(f"调用API识别图表: {filename}")
                 resp = await processor.call_model(
                     "gemini",
                     messages,
                     max_tokens=getattr(config.api, "LLM_MAX_TOKENS_IMAGE", 1536)
                 )
+                logger.debug(f"API响应成功: {filename}")
                 content = resp['choices'][0]['message']['content']
 
                 # 提取JSON
@@ -1192,27 +1289,52 @@ class BatchPDFProcessor:
                     # 添加provenance（必需字段）
                     if "provenance" not in figure_data:
                         figure_data["provenance"] = {"page": page_idx}
+                    logger.debug(f"图表识别成功: {filename}")
                     return figure_data
+                else:
+                    logger.warning(f"图表识别返回无效JSON: {filename}")
+                    return None
 
+            except asyncio.TimeoutError as e:
+                logger.error(f"图表识别超时 {filename}: {e}")
+                raise  # 向上传播超时错误
+            except httpx.ConnectTimeout as e:
+                logger.error(f"图表识别连接超时 {filename}: {e}")
+                raise  # 向上传播连接超时错误
+            except httpx.ReadTimeout as e:
+                logger.error(f"图表识别读取超时 {filename}: {e}")
+                raise  # 向上传播读取超时错误
             except Exception as e:
-                logger.error(f"提取图表数据失败 {image_path}: {e}")
-                return None
+                logger.error(f"图表识别失败 {filename}: {type(e).__name__}: {e}")
+                raise  # 向上传播其他错误
 
-    async def _process_with_single_model_simplified(self, markdown_content: str,
-                                                     pdf_name: str, page_count: int,
-                                                     date_str: str, publication: str,
-                                                     figures_data: List[Dict]) -> Dict:
-        """简化的单模型处理（整合文本和图表数据）"""
+    async def _process_with_single_model_simplified(
+        self,
+        markdown_content: str,
+        pdf_name: str,
+        page_count: int,
+        date_str: str,
+        publication: str,
+        figures_data: List[Dict],
+        processor,  # 新增参数：接收已有的processor
+    ) -> Dict:
+        """简化的单模型处理（整合文本和图表数据）- 复用processor"""
+        logger.debug(f"开始单模型处理: {pdf_name}")
         results: Dict[str, Any] = {}
-        extraction_prompt = self._build_simplified_extraction_prompt(
-            markdown_content, pdf_name, page_count, date_str, publication, figures_data
-        )
 
-        async with OpenRouterProcessor() as processor:
+        try:
+            extraction_prompt = self._build_simplified_extraction_prompt(
+                markdown_content, pdf_name, page_count, date_str, publication, figures_data
+            )
+            logger.debug(f"提示词构建完成，长度: {len(extraction_prompt)} 字符")
+
+            # 直接使用传入的processor，不再创建新的
+            logger.debug(f"使用已有processor调用模型...")
             try:
                 result = await self._call_model_with_prompt(
                     processor, "gemini", extraction_prompt, pdf_name
                 )
+                logger.debug(f"模型调用成功")
                 # 将识别的图表数据整合到结果中
                 if result["result"]:
                     if "data" not in result["result"]:
@@ -1220,9 +1342,16 @@ class BatchPDFProcessor:
                     # 直接使用视觉识别的图表数据
                     result["result"]["data"]["figures"] = figures_data
                 results["gemini"] = result["result"]
+                logger.debug(f"单模型处理完成")
             except Exception as e:
-                logger.error(f"gemini模型调用失败: {e}")
+                logger.error(f"gemini模型调用失败: {type(e).__name__}: {e}")
                 results["gemini"] = {}
+        except Exception as e:
+            logger.error(f"单模型处理整体失败: {type(e).__name__}: {e}")
+            import traceback
+            traceback.print_exc()
+            results["gemini"] = {}
+
         return results
 
     def _aggregate_page_results(
@@ -1533,7 +1662,11 @@ class BatchPDFProcessor:
                     "object": self._resolve_relation_end(obj, entity_map, alias_index)
                 }
 
-                provenance = relation.get("provenance") or {}
+                provenance = relation.get("provenance")
+                # 确保provenance是字典类型
+                if not isinstance(provenance, dict):
+                    provenance = {} if not provenance else {"page": provenance}
+
                 passage_index = relation.get("passage_index")
                 if isinstance(passage_index, int):
                     passage_ref = self._lookup_passage_id(passage_index_map, page_no, passage_index)
@@ -1572,8 +1705,17 @@ class BatchPDFProcessor:
         return final_result
 
     def _create_minimal_doc(self, pdf_name: str, page_count: int,
-                           date_str: str, publication: str) -> Dict:
+                           date_str: Optional[str], publication: str) -> Dict:
         """创建最小doc结构"""
+        metadata = {
+            "pages_processed": page_count,
+            "successful_pages": page_count
+        }
+        if date_str:
+            metadata["date"] = date_str
+        if publication:
+            metadata["publication"] = publication
+
         return {
             "doc_id": hashlib.md5(pdf_name.encode()).hexdigest(),
             "title": pdf_name,
@@ -1587,12 +1729,7 @@ class BatchPDFProcessor:
                 "vision_model": "deepseek-ai/DeepSeek-OCR",
                 "synthesis_model": "google/gemini-2.5-flash",
                 "pipeline_steps": ["ocr", "llm_extraction"],
-                "processing_metadata": {
-                    "pages_processed": page_count,
-                    "successful_pages": page_count,
-                    "date": date_str,
-                    "publication": publication
-                }
+                "processing_metadata": metadata
             }
         }
 
@@ -1610,6 +1747,61 @@ class BatchPDFProcessor:
                 "numerical_data_count": 0
             }
         }
+
+    def _ensure_minimal_structure(
+        self,
+        payload: Dict[str, Any],
+        pdf_name: str,
+        page_count: int,
+        job: PDFProcessingJob
+    ) -> Dict[str, Any]:
+        """兜底：确保JSON至少包含schema要求的核心字段"""
+        result = copy.deepcopy(payload) if isinstance(payload, dict) else {}
+
+        doc_block = result.get("doc")
+        if not isinstance(doc_block, dict):
+            result["doc"] = self._create_minimal_doc(
+                pdf_name, page_count, job.date_str, job.publication
+            )
+        else:
+            doc_block.setdefault("doc_id", hashlib.md5(pdf_name.encode()).hexdigest())
+            doc_block.setdefault("title", pdf_name)
+            doc_block.setdefault("source_uri", f"{job.publication}/{pdf_name}")
+            extraction_run = doc_block.setdefault("extraction_run", {})
+            extraction_run.setdefault("vision_model", "deepseek-ai/DeepSeek-OCR")
+            extraction_run.setdefault("synthesis_model", "rule-based-engine")
+            extraction_run.setdefault("pipeline_steps", ["ocr", "rule_extraction", "figure_vision"])
+            metadata = extraction_run.setdefault("processing_metadata", {})
+            metadata.setdefault("pages_processed", page_count)
+            metadata.setdefault("successful_pages", page_count)
+            if job.date_str:
+                metadata.setdefault("date", job.date_str)
+            if job.publication:
+                metadata.setdefault("publication", job.publication)
+
+        data_block = result.get("data")
+        if not isinstance(data_block, dict):
+            data_block = self._create_minimal_data()
+            result["data"] = data_block
+
+        data_block.setdefault("figures", [])
+        data_block.setdefault("tables", [])
+        data_block.setdefault("numerical_data", [])
+        data_block.setdefault("claims", [])
+        data_block.setdefault("relations", [])
+        summary = data_block.setdefault("extraction_summary", {})
+        summary.setdefault("figures_count", len(data_block.get("figures", [])))
+        summary.setdefault("tables_count", len(data_block.get("tables", [])))
+        summary.setdefault("numerical_data_count", len(data_block.get("numerical_data", [])))
+        summary.setdefault("passages_count", len(result.get("passages", [])))
+        summary.setdefault("entities_count", len(result.get("entities", [])))
+
+        if "passages" not in result or not isinstance(result["passages"], list):
+            result["passages"] = []
+        if "entities" not in result or not isinstance(result["entities"], list):
+            result["entities"] = []
+
+        return result
 
     def _merge_doc_metadata(self, base: Dict[str, Any], update: Dict[str, Any]) -> Dict[str, Any]:
         merged = dict(base) if isinstance(base, dict) else {}
@@ -2367,21 +2559,169 @@ class BatchPDFProcessor:
         except:
             return False
 
+    def _is_pdf_completed(self, pdf_path: str) -> bool:
+        """检查PDF是否已完成处理（存在合规的JSON文件）"""
+        pdf_path_obj = Path(pdf_path)
+        pdf_name = pdf_path_obj.stem
+        date_match = re.search(r'_(\d{4}-\d{2}-\d{2})$', pdf_name)
+
+        if date_match:
+            date_str = date_match.group(1)
+            pdf_name_clean = pdf_name[:date_match.start()]
+            json_dir = Path(config.OUTPUT_REPORT_DIR) / date_str
+            candidates = [
+                json_dir / f"{pdf_name_clean}.json",
+                json_dir / f"{pdf_name_clean}_final.json",
+            ]
+        else:
+            json_dir = Path(config.OUTPUT_REPORT_DIR)
+            candidates = [
+                json_dir / f"{pdf_name}.json",
+                json_dir / f"{pdf_name}_final.json",
+            ]
+
+        for candidate in candidates:
+            if not candidate.exists():
+                continue
+            try:
+                with open(candidate, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+                if data.get("doc") and data.get("data"):
+                    return True
+            except Exception:
+                continue
+        return False
+
+    def _is_stage_a_completed(self, pdf_path: str) -> bool:
+        """检查阶段A是否完成（MD文件存在）- 兼容新旧目录结构"""
+        pdf_path_obj = Path(pdf_path)
+        pdf_name = pdf_path_obj.stem
+        date_match = re.search(r'_(\d{4}-\d{2}-\d{2})$', pdf_name)
+
+        if date_match:
+            date_str = date_match.group(1)
+            pdf_name_clean = pdf_name[:date_match.start()]
+
+            # 新结构：output_results/日期/文件名/文件名.md
+            md_path_new = Path(config.OUTPUT_DIR) / date_str / pdf_name_clean / f"{pdf_name_clean}.md"
+            if md_path_new.exists():
+                return True
+
+            # 旧结构：递归查找任何包含该文件名的MD文件
+            date_dir = Path(config.OUTPUT_DIR) / date_str
+            if date_dir.exists():
+                for md_file in date_dir.rglob(f"{pdf_name}.md"):
+                    return True
+        else:
+            # 无日期的文件
+            md_path = Path(config.OUTPUT_DIR) / pdf_name / f"{pdf_name}.md"
+            if md_path.exists():
+                return True
+
+            # 递归查找
+            for md_file in Path(config.OUTPUT_DIR).rglob(f"{pdf_name}.md"):
+                return True
+
+        return False
+
+    async def _load_existing_job(self, pdf_path: str) -> PDFProcessingJob:
+        """加载已有的MD文件，构建Job对象 - 兼容新旧目录结构"""
+        pdf_path_obj = Path(pdf_path).resolve()
+        pdf_name = pdf_path_obj.stem
+        date_match = re.search(r'_(\d{4}-\d{2}-\d{2})$', pdf_name)
+
+        if date_match:
+            date_str = date_match.group(1)
+            pdf_name_clean = pdf_name[:date_match.start()]
+            json_output_dir = str(Path(config.OUTPUT_REPORT_DIR) / date_str)
+            rel_parent = Path(date_str)
+
+            # 尝试新结构
+            md_path_new = Path(config.OUTPUT_DIR) / date_str / pdf_name_clean / f"{pdf_name_clean}.md"
+            if md_path_new.exists():
+                md_path = md_path_new
+                ocr_output_dir = str(md_path.parent)
+            else:
+                # 查找旧结构
+                date_dir = Path(config.OUTPUT_DIR) / date_str
+                md_path = None
+                for found_md in date_dir.rglob(f"{pdf_name}.md"):
+                    md_path = found_md
+                    ocr_output_dir = str(md_path.parent)
+                    break
+                if not md_path:
+                    raise FileNotFoundError(f"找不到MD文件: {pdf_name}")
+        else:
+            pdf_name_clean = pdf_name
+            date_str = None
+            json_output_dir = str(Path(config.OUTPUT_REPORT_DIR))
+            rel_parent = Path()
+
+            # 尝试新结构
+            md_path_new = Path(config.OUTPUT_DIR) / pdf_name / f"{pdf_name}.md"
+            if md_path_new.exists():
+                md_path = md_path_new
+                ocr_output_dir = str(md_path.parent)
+            else:
+                # 递归查找
+                md_path = None
+                for found_md in Path(config.OUTPUT_DIR).rglob(f"{pdf_name}.md"):
+                    md_path = found_md
+                    ocr_output_dir = str(md_path.parent)
+                    break
+                if not md_path:
+                    raise FileNotFoundError(f"找不到MD文件: {pdf_name}")
+
+        with open(md_path, 'r', encoding='utf-8') as f:
+            markdown_content = f.read()
+
+        images_dir = Path(ocr_output_dir) / "images"
+        figure_paths = [str(p) for p in images_dir.glob("*") if p.is_file()] if images_dir.exists() else []
+
+        return PDFProcessingJob(
+            pdf_path=str(pdf_path_obj),
+            pdf_name=pdf_name,
+            pdf_name_clean=pdf_name_clean,
+            date_str=date_str,
+            publication=str(rel_parent) if rel_parent != Path('.') else "unknown",
+            ocr_output_dir=ocr_output_dir,
+            json_output_dir=json_output_dir,
+            rel_parent=rel_parent,
+            markdown_content=markdown_content,
+            figure_paths=figure_paths,
+        )
+
     async def process_batch(self, pdf_paths: List[str]) -> List[Dict]:
         """批量处理PDF文件，采用阶段A/B流水线并发模式"""
         total = len(pdf_paths)
-        logger.info(f"{Colors.BLUE}开始批量处理 {total} 个PDF文件{Colors.RESET}")
-        if not pdf_paths:
+
+        # 阶段A：过滤已生成MD的文件
+        stage_a_pending = [p for p in pdf_paths if not self._is_stage_a_completed(p)]
+        stage_a_skipped = total - len(stage_a_pending)
+
+        # 阶段B：过滤已生成JSON的文件
+        stage_b_pending = [p for p in pdf_paths if not self._is_pdf_completed(p)]
+        stage_b_skipped = total - len(stage_b_pending)
+
+        logger.info(f"{Colors.YELLOW}阶段A: 跳过 {stage_a_skipped} 个已生成MD的文件，待处理 {len(stage_a_pending)} 个{Colors.RESET}")
+        logger.info(f"{Colors.YELLOW}阶段B: 跳过 {stage_b_skipped} 个已生成JSON的文件，待处理 {len(stage_b_pending)} 个{Colors.RESET}")
+
+        if not stage_a_pending and not stage_b_pending:
+            logger.info(f"{Colors.GREEN}所有文件已处理完成！{Colors.RESET}")
             return []
 
-        stage_a_limit = getattr(config, "MAX_CONCURRENT_PDFS", total or 1)
+        # 修复：使用待处理的文件数作为total，而不是所有文件数
+        total_pending = len(stage_a_pending)
+        total_all = len(pdf_paths)
+
+        stage_a_limit = getattr(config, "MAX_CONCURRENT_PDFS", total_all or 1)
         processing_cfg = getattr(config, "processing", None)
         if processing_cfg is not None:
             stage_a_limit = getattr(processing_cfg, "MAX_CONCURRENT_PDFS", stage_a_limit)
-        stage_a_limit = max(1, min(stage_a_limit, total))
+        stage_a_limit = max(1, min(stage_a_limit, total_all))
 
         api_concurrency = self._get_max_api_concurrency()
-        consumer_count = max(1, min(api_concurrency, total))
+        consumer_count = max(1, min(api_concurrency, total_all))
 
         logger.info(
             f"{Colors.YELLOW}阶段A最大并发: {stage_a_limit} | 阶段B消费者数量: {consumer_count}{Colors.RESET}"
@@ -2398,73 +2738,138 @@ class BatchPDFProcessor:
                 start_time = time.time()
                 pdf_name = Path(pdf_path).name
                 logger.info(
-                    f"{Colors.CYAN}[阶段A {index}/{total}] 准备: {pdf_name}{Colors.RESET}"
+                    f"{Colors.CYAN}[阶段A {index}/{total_pending}] 准备: {pdf_name}{Colors.RESET}"
                 )
                 try:
                     job = await self._process_pdf_stage_a(pdf_path)
                     await job_queue.put(job)
+                    queue_size = job_queue.qsize()
                     elapsed = time.time() - start_time
                     logger.info(
-                        f"{Colors.GREEN}[阶段A {index}/{total}] 入队完成: {pdf_name} (耗时: {elapsed:.1f}秒){Colors.RESET}"
+                        f"{Colors.GREEN}[阶段A {index}/{total_pending}] 入队完成: {pdf_name} (耗时: {elapsed:.1f}秒, 队列: {queue_size}){Colors.RESET}"
                     )
+                    # 强制让出控制权，让consumer有机会处理
+                    await asyncio.sleep(0)
                     return pdf_path, None
                 except Exception as exc:
                     failed_files.add(pdf_path)
                     logger.error(
-                        f"{Colors.RED}[阶段A {index}/{total}] 失败: {pdf_name} - {exc}{Colors.RESET}"
+                        f"{Colors.RED}[阶段A {index}/{total_pending}] 失败: {pdf_name} - {exc}{Colors.RESET}"
                     )
                     return pdf_path, exc
 
         async def consumer_worker(worker_id: int) -> None:
+            logger.info(f"{Colors.MAGENTA}[阶段B#{worker_id}] Worker已启动，等待任务...{Colors.RESET}")
             while True:
-                job = await job_queue.get()
-                if job is None:
-                    job_queue.task_done()
-                    logger.info(
-                        f"{Colors.YELLOW}阶段B消费者#{worker_id} 已结束{Colors.RESET}"
-                    )
-                    break
-                start_time = time.time()
-                pdf_name = Path(job.pdf_path).name
-                logger.info(
-                    f"{Colors.CYAN}[阶段B#{worker_id}] 开始处理: {pdf_name}{Colors.RESET}"
-                )
                 try:
-                    result = await self._process_pdf_stage_b(job)
-                    results.append(result)
-                    elapsed = time.time() - start_time
+                    logger.debug(f"[阶段B#{worker_id}] 等待队列中... 当前队列大小: {job_queue.qsize()}")
+                    job = await job_queue.get()
+                    logger.debug(f"[阶段B#{worker_id}] 从队列获取到: {type(job).__name__ if job else 'None'}")
+                    if job is None:
+                        job_queue.task_done()
+                        logger.info(
+                            f"{Colors.YELLOW}阶段B消费者#{worker_id} 收到结束信号，已结束{Colors.RESET}"
+                        )
+                        break
+                    start_time = time.time()
+                    pdf_name = Path(job.pdf_path).name
+                    queue_size = job_queue.qsize()
                     logger.info(
-                        f"{Colors.GREEN}[阶段B#{worker_id}] 完成: {pdf_name} (耗时: {elapsed:.1f}秒){Colors.RESET}"
+                        f"{Colors.CYAN}[阶段B#{worker_id}] 开始处理: {pdf_name} (队列剩余: {queue_size}){Colors.RESET}"
                     )
-                except Exception as exc:
-                    failed_files.add(job.pdf_path)
-                    logger.error(
-                        f"{Colors.RED}[阶段B#{worker_id}] 失败: {pdf_name} - {exc}{Colors.RESET}"
-                    )
-                finally:
-                    job_queue.task_done()
+                    try:
+                        result = await self._process_pdf_stage_b(job)
+                        results.append(result)
+                        elapsed = time.time() - start_time
+                        logger.info(
+                            f"{Colors.GREEN}[阶段B#{worker_id}] 完成: {pdf_name} (耗时: {elapsed:.1f}秒){Colors.RESET}"
+                        )
+                    except Exception as exc:
+                        failed_files.add(job.pdf_path)
+                        logger.error(
+                            f"{Colors.RED}[阶段B#{worker_id}] 失败: {pdf_name} - {exc}{Colors.RESET}"
+                        )
+                        logger.error(f"完整错误堆栈:\n{traceback.format_exc()}")
+                    finally:
+                        job_queue.task_done()
+                except Exception as e:
+                    logger.error(f"{Colors.RED}[阶段B#{worker_id}] Worker异常: {e}{Colors.RESET}")
+                    break
 
-        stage_a_tasks = [
-            asyncio.create_task(stage_a_worker(pdf_path, idx + 1))
-            for idx, pdf_path in enumerate(pdf_paths)
-        ]
-
+        # 启动阶段B消费者（先启动，让它们等待队列）
         consumer_tasks = [
             asyncio.create_task(consumer_worker(worker_id + 1))
             for worker_id in range(consumer_count)
         ]
+        logger.info(f"{Colors.GREEN}阶段B消费者已启动: {consumer_count} 个{Colors.RESET}")
+        logger.debug(f"consumer_tasks 列表: {len(consumer_tasks)} 个任务")
+        logger.debug(f"consumer_tasks 状态: {[t.done() for t in consumer_tasks]}")
 
-        stage_a_results = await asyncio.gather(*stage_a_tasks)
-        stage_a_success = sum(1 for _, err in stage_a_results if err is None)
-        logger.info(
-            f"{Colors.BLUE}阶段A完成: {stage_a_success}/{total} 个任务已入队{Colors.RESET}"
-        )
+        # 强制让出控制权，确保consumer有机会启动
+        await asyncio.sleep(0.1)
 
-        for _ in range(consumer_count):
-            await job_queue.put(None)
+        # 阶段B：预先加载已有MD但未生成JSON的文件
+        preloaded_count = 0
+        for pdf_path in stage_b_pending:
+            if self._is_stage_a_completed(pdf_path):
+                try:
+                    job = await self._load_existing_job(pdf_path)
+                    await job_queue.put(job)
+                    preloaded_count += 1
+                except Exception as e:
+                    logger.error(f"加载已有MD失败: {Path(pdf_path).name} - {e}")
 
-        await job_queue.join()
-        await asyncio.gather(*consumer_tasks)
+        if preloaded_count > 0:
+            logger.info(f"{Colors.GREEN}预加载 {preloaded_count} 个已有MD文件到队列{Colors.RESET}")
+        else:
+            logger.info(f"{Colors.YELLOW}没有预加载的MD文件，所有文件需要从阶段A开始处理{Colors.RESET}")
+
+        # 阶段A：只处理待生成MD的文件（不等待完成，让它们并行运行）
+        logger.info(f"{Colors.BLUE}开始创建阶段A任务: {len(stage_a_pending)} 个{Colors.RESET}")
+        stage_a_tasks = [
+            asyncio.create_task(stage_a_worker(pdf_path, idx + 1))
+            for idx, pdf_path in enumerate(stage_a_pending)
+        ]
+        logger.info(f"{Colors.BLUE}阶段A任务已创建，开始并行处理...{Colors.RESET}")
+
+        # 🔥 关键修复：不要等待阶段A完成，而是创建一个后台任务来监控阶段A
+        async def monitor_stage_a():
+            """监控阶段A完成情况，完成后发送结束信号"""
+            if stage_a_tasks:
+                logger.info(f"{Colors.BLUE}监控器: 等待阶段A的 {len(stage_a_tasks)} 个任务完成...{Colors.RESET}")
+                stage_a_results = await asyncio.gather(*stage_a_tasks, return_exceptions=True)
+                stage_a_success = sum(1 for r in stage_a_results if not isinstance(r, Exception) and r[1] is None)
+                logger.info(
+                    f"{Colors.BLUE}监控器: 阶段A完成 {stage_a_success}/{len(stage_a_pending)} 个任务已入队{Colors.RESET}"
+                )
+
+            logger.info(f"{Colors.BLUE}监控器: 阶段A全部完成，发送结束信号给阶段B消费者...{Colors.RESET}")
+            # 发送结束信号给所有consumer
+            for i in range(consumer_count):
+                await job_queue.put(None)
+            logger.info(f"{Colors.BLUE}监控器: 已发送 {consumer_count} 个结束信号{Colors.RESET}")
+
+        # 启动监控任务（不等待，让它在后台运行）
+        monitor_task = asyncio.create_task(monitor_stage_a())
+        logger.info(f"{Colors.BLUE}阶段A监控器已启动，阶段A和阶段B现在并行运行...{Colors.RESET}")
+
+        # 🔥 关键修复：不要等待监控器，而是等待所有消费者完成
+        # 监控器会在后台完成阶段A后自动发送结束信号
+        # 消费者会在收到结束信号后自动退出
+        logger.info(f"{Colors.BLUE}等待所有阶段B消费者处理完成并退出...{Colors.RESET}")
+        consumer_results = await asyncio.gather(*consumer_tasks, return_exceptions=True)
+        logger.info(f"{Colors.BLUE}所有阶段B消费者已退出{Colors.RESET}")
+        logger.debug(f"消费者结果: {consumer_results}")
+
+        # 检查是否有异常
+        for i, result in enumerate(consumer_results):
+            if isinstance(result, Exception):
+                logger.error(f"消费者#{i+1} 异常: {result}")
+
+        # 确保监控任务也完成了
+        logger.info(f"{Colors.BLUE}等待监控器完成...{Colors.RESET}")
+        await monitor_task
+        logger.info(f"{Colors.BLUE}监控器已完成{Colors.RESET}")
 
         logger.info(f"{Colors.GREEN}批量处理完成！{Colors.RESET}")
         logger.info(f"成功处理: {len(results)} 个文件")
